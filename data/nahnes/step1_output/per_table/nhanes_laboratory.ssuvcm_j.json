@@ -1,0 +1,277 @@
+{
+  "schema": "nhanes_laboratory",
+  "table_name": "ssuvcm_j",
+  "row_count": 2979,
+  "primary_key": [],
+  "foreign_keys": [],
+  "columns": [
+    {
+      "name": "SEQN",
+      "type": "DOUBLE PRECISION",
+      "nullable": true,
+      "stats": {
+        "null_count": 0,
+        "distinct_count": 2979,
+        "null_percentage": 0.0,
+        "numeric_stats": {
+          "avg": 98304.5787176905,
+          "min": 93707.0,
+          "max": 102956.0,
+          "stddev": 2657.719694508272
+        },
+        "sample_values": [
+          "100472.0",
+          "98778.0",
+          "98390.0",
+          "97449.0",
+          "94386.0",
+          "96153.0",
+          "96472.0",
+          "98813.0",
+          "100958.0",
+          "96058.0",
+          "98508.0",
+          "101319.0",
+          "100331.0",
+          "102850.0",
+          "102554.0"
+        ]
+      }
+    },
+    {
+      "name": "WTSSAJ2Y",
+      "type": "DOUBLE PRECISION",
+      "nullable": true,
+      "stats": {
+        "null_count": 0,
+        "distinct_count": 2135,
+        "null_percentage": 0.0,
+        "numeric_stats": {
+          "avg": 103814.19971237113,
+          "min": 5.397605346934028e-79,
+          "max": 1670271.976775,
+          "stddev": 152066.29095121086
+        },
+        "sample_values": [
+          "70294.31016",
+          "256917.916343",
+          "154749.9766",
+          "78534.6627",
+          "75214.684002",
+          "76266.155794",
+          "78232.406659",
+          "188114.097724",
+          "53057.130694",
+          "57762.839532",
+          "37355.985661",
+          "55358.910735",
+          "33303.921031",
+          "48848.346041",
+          "135446.552522"
+        ]
+      }
+    },
+    {
+      "name": "SSPPMA",
+      "type": "DOUBLE PRECISION",
+      "nullable": true,
+      "stats": {
+        "null_count": 754,
+        "distinct_count": 288,
+        "null_percentage": 25.31,
+        "numeric_stats": {
+          "avg": 3.2254202247191954,
+          "min": 1.35,
+          "max": 195.0,
+          "stddev": 8.376547001760473
+        },
+        "frequent_values": [
+          {
+            "value": "1.35",
+            "count": 1890
+          },
+          {
+            "value": "10.2",
+            "count": 3
+          },
+          {
+            "value": "2.52",
+            "count": 3
+          },
+          {
+            "value": "11.3",
+            "count": 3
+          },
+          {
+            "value": "3.34",
+            "count": 3
+          }
+        ],
+        "sample_values": [
+          "2.52",
+          "5.8",
+          "2.36",
+          "6.18",
+          "5.33",
+          "4.84",
+          "5.64",
+          "4.8",
+          "3.23",
+          "3.0",
+          "29.7",
+          "4.71",
+          "2.53",
+          "42.5",
+          "7.78"
+        ]
+      }
+    },
+    {
+      "name": "SSPPMALC",
+      "type": "DOUBLE PRECISION",
+      "nullable": true,
+      "stats": {
+        "null_count": 754,
+        "distinct_count": 2,
+        "null_percentage": 25.31,
+        "numeric_stats": {
+          "avg": 0.849438202247191,
+          "min": 5.397605346934028e-79,
+          "max": 1.0,
+          "stddev": 0.3577016195516312
+        },
+        "frequent_values": [
+          {
+            "value": "1.0",
+            "count": 1890
+          },
+          {
+            "value": "5.397605346934028e-79",
+            "count": 335
+          }
+        ],
+        "sample_values": [
+          "5.397605346934028e-79",
+          "1.0"
+        ]
+      }
+    },
+    {
+      "name": "SSMMAC",
+      "type": "DOUBLE PRECISION",
+      "nullable": true,
+      "stats": {
+        "null_count": 755,
+        "distinct_count": 708,
+        "null_percentage": 25.34,
+        "numeric_stats": {
+          "avg": 13.630026978417396,
+          "min": 3.61,
+          "max": 1050.0,
+          "stddev": 27.542861542541093
+        },
+        "frequent_values": [
+          {
+            "value": "3.61",
+            "count": 682
+          },
+          {
+            "value": "10.6",
+            "count": 11
+          },
+          {
+            "value": "13.3",
+            "count": 11
+          },
+          {
+            "value": "13.8",
+            "count": 10
+          },
+          {
+            "value": "12.1",
+            "count": 10
+          }
+        ],
+        "sample_values": [
+          "5.38",
+          "44.6",
+          "8.38",
+          "5.33",
+          "5.64",
+          "42.6",
+          "6.65",
+          "7.25",
+          "6.68",
+          "27.7",
+          "5.45",
+          "8.39",
+          "18.7",
+          "29.7",
+          "5.34"
+        ]
+      }
+    },
+    {
+      "name": "SSMMACLC",
+      "type": "DOUBLE PRECISION",
+      "nullable": true,
+      "stats": {
+        "null_count": 755,
+        "distinct_count": 2,
+        "null_percentage": 25.34,
+        "numeric_stats": {
+          "avg": 0.3066546762589928,
+          "min": 5.397605346934028e-79,
+          "max": 1.0,
+          "stddev": 0.4612084455271131
+        },
+        "frequent_values": [
+          {
+            "value": "5.397605346934028e-79",
+            "count": 1542
+          },
+          {
+            "value": "1.0",
+            "count": 682
+          }
+        ],
+        "sample_values": [
+          "1.0",
+          "5.397605346934028e-79"
+        ]
+      }
+    }
+  ],
+  "sample_rows": [
+    {
+      "SEQN": 93707.0,
+      "WTSSAJ2Y": 30332.542068,
+      "SSPPMA": 1.35,
+      "SSPPMALC": 1.0,
+      "SSMMAC": 21.5,
+      "SSMMACLC": 5.397605346934028e-79
+    },
+    {
+      "SEQN": 93708.0,
+      "WTSSAJ2Y": 47749.066264,
+      "SSPPMA": 1.35,
+      "SSPPMALC": 1.0,
+      "SSMMAC": 3.61,
+      "SSMMACLC": 1.0
+    },
+    {
+      "SEQN": 93711.0,
+      "WTSSAJ2Y": 50452.386569,
+      "SSPPMA": 1.35,
+      "SSPPMALC": 1.0,
+      "SSMMAC": 9.08,
+      "SSMMACLC": 5.397605346934028e-79
+    }
+  ],
+  "execution": {
+    "status": "success",
+    "seconds": 0.04,
+    "processed_at": "2026-06-11T21:18:53.954579",
+    "attempt": 1
+  }
+}

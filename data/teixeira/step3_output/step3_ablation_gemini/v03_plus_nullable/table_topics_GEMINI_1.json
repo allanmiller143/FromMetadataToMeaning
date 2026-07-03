@@ -1,0 +1,121 @@
+{
+  "public.tb_ciap_ms": [
+    "Classificação CIAP",
+    "Critérios de Classificação Médica",
+    "Estrutura da CIAP"
+  ],
+  "public.tb_problema": [
+    "Registro de Problemas de Saúde",
+    "Classificação CIAP e CID10",
+    "Problemas por Prontuário"
+  ],
+  "public.tb_dim_catmat": [
+    "Catálogo de Medicamentos",
+    "Princípio Ativo",
+    "Forma Farmacêutica"
+  ],
+  "public.ta_medicamento_catmat": [
+    "Auditoria de Medicamentos",
+    "Catálogo de Medicamentos (CATMAT)",
+    "Relação Medicamento e Princípio Ativo"
+  ],
+  "public.ta_tecido_mole": [
+    "Auditoria de tecido mole",
+    "Diagnóstico odontológico",
+    "Registro de prontuário"
+  ],
+  "public.ta_vacinacao": [
+    "Auditoria de vacinação",
+    "Condições de vacinação",
+    "Registro de prontuário"
+  ],
+  "public.tb_antecedente": [
+    "Antecedentes obstétricos",
+    "Histórico de gestação",
+    "Dados de recém-nascidos"
+  ],
+  "public.tb_cidadao": [
+    "Cadastro de cidadão",
+    "Perfil sociodemográfico",
+    "Vínculos familiares e de cuidado"
+  ],
+  "public.tb_cuidado_compartilhado_evol": [
+    "Evolução do Cuidado Compartilhado",
+    "Registro de Conduta em Saúde",
+    "Classificação de Prioridade"
+  ],
+  "public.tb_evolucao_odonto": [
+    "Evolução de tratamento odontológico",
+    "Registro de atendimento odontológico",
+    "Histórico clínico odontológico"
+  ],
+  "public.tb_evolucao_subjetivo": [
+    "Evolução subjetiva do paciente",
+    "Registro de atendimento profissional",
+    "Acompanhamento por especialidade"
+  ],
+  "public.tb_exame_hemoglobina_glicada": [
+    "Exame de Hemoglobina Glicada",
+    "Resultado de Exame Laboratorial"
+  ],
+  "public.tb_exame_prenatal": [
+    "Exame pré-natal",
+    "Idade gestacional",
+    "Data provável do parto"
+  ],
+  "public.tb_fat_atend_odonto_problemas": [
+    "Problemas de saúde bucal",
+    "Atendimento odontológico",
+    "Evolução de problemas de saúde"
+  ],
+  "public.tb_fat_rel_op_risco_cardio": [
+    "Risco Cardiovascular",
+    "Fatores de Risco para Doenças Crônicas",
+    "Acompanhamento de Saúde do Cidadão"
+  ],
+  "public.tb_historico_dados_fao": [
+    "Diagnósticos de Saúde (CID)",
+    "Atenção Primária (CIAP)",
+    "Histórico de Saúde do Cidadão"
+  ],
+  "public.tb_justificativa_prontuario": [
+    "Justificativa de Acesso ao Prontuário",
+    "Auditoria de Acesso a Prontuários",
+    "Controle de Acesso a Dados"
+  ],
+  "public.tb_lembrete_evolucao": [
+    "Histórico de lembretes",
+    "Evolução de prontuário",
+    "Visibilidade de lembretes"
+  ],
+  "public.tb_medicamento_uso_continuo": [
+    "Medicamento de Uso Contínuo",
+    "Prontuário do Paciente",
+    "Receita de Medicamento"
+  ],
+  "public.tb_medicao": [
+    "Medições de Saúde",
+    "Medidas Antropométricas",
+    "Acompanhamento de Gestantes"
+  ],
+  "public.tb_odontograma": [
+    "Odontograma",
+    "Prótese Dentária",
+    "Aparelho Ortodôntico"
+  ],
+  "public.tb_proced_exame_especifico": [
+    "Cadastro de exames específicos",
+    "Tipos de procedimentos",
+    "Identificadores de exames"
+  ],
+  "public.tb_raca_cor": [
+    "Cadastro de Raça/Cor",
+    "Classificação Étnico-Racial",
+    "Codificação do CADSUS"
+  ],
+  "public.tb_tipo_glicemia": [
+    "Tipo de Glicemia",
+    "Cadastro de Glicemia",
+    "Identificador de Glicemia"
+  ]
+}

@@ -1,0 +1,581 @@
+{
+  "schema": "nhanes_laboratory",
+  "table_name": "ucflow_j",
+  "row_count": 7936,
+  "primary_key": [],
+  "foreign_keys": [],
+  "columns": [
+    {
+      "name": "SEQN",
+      "type": "DOUBLE PRECISION",
+      "nullable": true,
+      "stats": {
+        "null_count": 0,
+        "distinct_count": 7936,
+        "null_percentage": 0.0,
+        "numeric_stats": {
+          "avg": 98315.89264112903,
+          "min": 93705.0,
+          "max": 102956.0,
+          "stddev": 2671.7401213316443
+        },
+        "sample_values": [
+          "96472.0",
+          "101333.0",
+          "102403.0",
+          "97209.0",
+          "101319.0",
+          "100331.0",
+          "102850.0",
+          "94262.0",
+          "95105.0",
+          "93827.0",
+          "98270.0",
+          "95960.0",
+          "95559.0",
+          "95846.0",
+          "102448.0"
+        ]
+      }
+    },
+    {
+      "name": "URXVOL1",
+      "type": "DOUBLE PRECISION",
+      "nullable": true,
+      "stats": {
+        "null_count": 300,
+        "distinct_count": 405,
+        "null_percentage": 3.78,
+        "numeric_stats": {
+          "avg": 104.33368255631221,
+          "min": 5.397605346934028e-79,
+          "max": 455.0,
+          "stddev": 79.03527830248888
+        },
+        "frequent_values": [
+          {
+            "value": "39.0",
+            "count": 72
+          },
+          {
+            "value": "37.0",
+            "count": 70
+          },
+          {
+            "value": "48.0",
+            "count": 68
+          },
+          {
+            "value": "53.0",
+            "count": 68
+          },
+          {
+            "value": "26.0",
+            "count": 67
+          }
+        ],
+        "sample_values": [
+          "154.0",
+          "346.0",
+          "174.0",
+          "96.0",
+          "322.0",
+          "61.0",
+          "248.0",
+          "215.0",
+          "362.0",
+          "342.0",
+          "235.0",
+          "3.0",
+          "412.0",
+          "70.0",
+          "156.0"
+        ]
+      }
+    },
+    {
+      "name": "URDFLOW1",
+      "type": "DOUBLE PRECISION",
+      "nullable": true,
+      "stats": {
+        "null_count": 2095,
+        "distinct_count": 1984,
+        "null_percentage": 26.4,
+        "numeric_stats": {
+          "avg": 0.8848142441362754,
+          "min": 5.397605346934028e-79,
+          "max": 53.0,
+          "stddev": 1.3737500623515062
+        },
+        "frequent_values": [
+          {
+            "value": "0.5",
+            "count": 24
+          },
+          {
+            "value": "1.0",
+            "count": 20
+          },
+          {
+            "value": "0.4",
+            "count": 17
+          },
+          {
+            "value": "0.286",
+            "count": 15
+          },
+          {
+            "value": "0.333",
+            "count": 15
+          }
+        ],
+        "sample_values": [
+          "0.473",
+          "1.082",
+          "0.042",
+          "1.154",
+          "0.884",
+          "1.157",
+          "0.282",
+          "1.895",
+          "0.596",
+          "0.136",
+          "0.937",
+          "1.444",
+          "1.119",
+          "0.651",
+          "0.801"
+        ]
+      }
+    },
+    {
+      "name": "URDTIME1",
+      "type": "DOUBLE PRECISION",
+      "nullable": true,
+      "stats": {
+        "null_count": 2095,
+        "distinct_count": 562,
+        "null_percentage": 26.4,
+        "numeric_stats": {
+          "avg": 156.25440849169664,
+          "min": 2.0,
+          "max": 1406.0,
+          "stddev": 119.53859349067837
+        },
+        "frequent_values": [
+          {
+            "value": "101.0",
+            "count": 54
+          },
+          {
+            "value": "105.0",
+            "count": 49
+          },
+          {
+            "value": "72.0",
+            "count": 49
+          },
+          {
+            "value": "71.0",
+            "count": 48
+          },
+          {
+            "value": "124.0",
+            "count": 45
+          }
+        ],
+        "sample_values": [
+          "154.0",
+          "615.0",
+          "96.0",
+          "514.0",
+          "322.0",
+          "61.0",
+          "215.0",
+          "515.0",
+          "235.0",
+          "607.0",
+          "412.0",
+          "436.0",
+          "759.0",
+          "153.0",
+          "135.0"
+        ]
+      }
+    },
+    {
+      "name": "URXVOL2",
+      "type": "DOUBLE PRECISION",
+      "nullable": true,
+      "stats": {
+        "null_count": 6713,
+        "distinct_count": 309,
+        "null_percentage": 84.59,
+        "numeric_stats": {
+          "avg": 107.74979558462796,
+          "min": 1.0,
+          "max": 444.0,
+          "stddev": 86.3873467609701
+        },
+        "frequent_values": [
+          {
+            "value": "24.0",
+            "count": 16
+          },
+          {
+            "value": "33.0",
+            "count": 14
+          },
+          {
+            "value": "14.0",
+            "count": 14
+          },
+          {
+            "value": "42.0",
+            "count": 14
+          },
+          {
+            "value": "31.0",
+            "count": 13
+          }
+        ],
+        "sample_values": [
+          "154.0",
+          "174.0",
+          "96.0",
+          "61.0",
+          "322.0",
+          "248.0",
+          "342.0",
+          "3.0",
+          "70.0",
+          "156.0",
+          "153.0",
+          "135.0",
+          "7.0",
+          "276.0",
+          "80.0"
+        ]
+      }
+    },
+    {
+      "name": "URDFLOW2",
+      "type": "DOUBLE PRECISION",
+      "nullable": true,
+      "stats": {
+        "null_count": 6713,
+        "distinct_count": 893,
+        "null_percentage": 84.59,
+        "numeric_stats": {
+          "avg": 1.1197743254292734,
+          "min": 0.006,
+          "max": 9.514,
+          "stddev": 0.9962131883404368
+        },
+        "frequent_values": [
+          {
+            "value": "0.5",
+            "count": 7
+          },
+          {
+            "value": "1.0",
+            "count": 7
+          },
+          {
+            "value": "0.583",
+            "count": 7
+          },
+          {
+            "value": "0.75",
+            "count": 6
+          },
+          {
+            "value": "0.376",
+            "count": 6
+          }
+        ],
+        "sample_values": [
+          "3.723",
+          "1.462",
+          "0.895",
+          "0.63",
+          "0.178",
+          "0.31",
+          "0.682",
+          "1.656",
+          "3.239",
+          "1.008",
+          "2.46",
+          "2.739",
+          "0.745",
+          "0.487",
+          "1.874"
+        ]
+      }
+    },
+    {
+      "name": "URDTIME2",
+      "type": "DOUBLE PRECISION",
+      "nullable": true,
+      "stats": {
+        "null_count": 6713,
+        "distinct_count": 175,
+        "null_percentage": 84.59,
+        "numeric_stats": {
+          "avg": 104.82420278004906,
+          "min": 12.0,
+          "max": 213.0,
+          "stddev": 37.33717738030123
+        },
+        "frequent_values": [
+          {
+            "value": "117.0",
+            "count": 20
+          },
+          {
+            "value": "120.0",
+            "count": 18
+          },
+          {
+            "value": "99.0",
+            "count": 18
+          },
+          {
+            "value": "122.0",
+            "count": 17
+          },
+          {
+            "value": "118.0",
+            "count": 17
+          }
+        ],
+        "sample_values": [
+          "154.0",
+          "62.0",
+          "174.0",
+          "162.0",
+          "96.0",
+          "76.0",
+          "61.0",
+          "143.0",
+          "63.0",
+          "70.0",
+          "156.0",
+          "153.0",
+          "135.0",
+          "185.0",
+          "85.0"
+        ]
+      }
+    },
+    {
+      "name": "URXVOL3",
+      "type": "DOUBLE PRECISION",
+      "nullable": true,
+      "stats": {
+        "null_count": 7903,
+        "distinct_count": 29,
+        "null_percentage": 99.58,
+        "numeric_stats": {
+          "avg": 105.03030303030303,
+          "min": 3.0,
+          "max": 373.0,
+          "stddev": 100.56387424433439
+        },
+        "frequent_values": [
+          {
+            "value": "68.0",
+            "count": 2
+          },
+          {
+            "value": "21.0",
+            "count": 2
+          },
+          {
+            "value": "18.0",
+            "count": 2
+          },
+          {
+            "value": "50.0",
+            "count": 2
+          },
+          {
+            "value": "23.0",
+            "count": 1
+          }
+        ],
+        "sample_values": [
+          "3.0",
+          "18.0",
+          "21.0",
+          "22.0",
+          "23.0",
+          "24.0",
+          "27.0",
+          "33.0",
+          "40.0",
+          "41.0",
+          "50.0",
+          "56.0",
+          "67.0",
+          "68.0",
+          "69.0"
+        ]
+      }
+    },
+    {
+      "name": "URDFLOW3",
+      "type": "DOUBLE PRECISION",
+      "nullable": true,
+      "stats": {
+        "null_count": 7903,
+        "distinct_count": 33,
+        "null_percentage": 99.58,
+        "numeric_stats": {
+          "avg": 1.6460909090909093,
+          "min": 0.097,
+          "max": 5.345,
+          "stddev": 1.521459524675984
+        },
+        "frequent_values": [
+          {
+            "value": "0.186",
+            "count": 1
+          },
+          {
+            "value": "0.234",
+            "count": 1
+          },
+          {
+            "value": "0.309",
+            "count": 1
+          },
+          {
+            "value": "0.343",
+            "count": 1
+          },
+          {
+            "value": "0.097",
+            "count": 1
+          }
+        ],
+        "sample_values": [
+          "0.097",
+          "0.186",
+          "0.234",
+          "0.309",
+          "0.343",
+          "0.434",
+          "0.462",
+          "0.5",
+          "0.529",
+          "0.588",
+          "0.611",
+          "0.649",
+          "0.656",
+          "0.71",
+          "0.73"
+        ]
+      }
+    },
+    {
+      "name": "URDTIME3",
+      "type": "DOUBLE PRECISION",
+      "nullable": true,
+      "stats": {
+        "null_count": 7903,
+        "distinct_count": 24,
+        "null_percentage": 99.58,
+        "numeric_stats": {
+          "avg": 67.03030303030303,
+          "min": 31.0,
+          "max": 148.0,
+          "stddev": 28.810246493744256
+        },
+        "frequent_values": [
+          {
+            "value": "55.0",
+            "count": 3
+          },
+          {
+            "value": "54.0",
+            "count": 2
+          },
+          {
+            "value": "31.0",
+            "count": 2
+          },
+          {
+            "value": "49.0",
+            "count": 2
+          },
+          {
+            "value": "53.0",
+            "count": 2
+          }
+        ],
+        "sample_values": [
+          "31.0",
+          "34.0",
+          "35.0",
+          "39.0",
+          "45.0",
+          "47.0",
+          "49.0",
+          "51.0",
+          "53.0",
+          "54.0",
+          "55.0",
+          "61.0",
+          "63.0",
+          "68.0",
+          "70.0"
+        ]
+      }
+    }
+  ],
+  "sample_rows": [
+    {
+      "SEQN": 93705.0,
+      "URXVOL1": 248.0,
+      "URDFLOW1": 1.204,
+      "URDTIME1": 206.0,
+      "URXVOL2": null,
+      "URDFLOW2": null,
+      "URDTIME2": null,
+      "URXVOL3": null,
+      "URDFLOW3": null,
+      "URDTIME3": null
+    },
+    {
+      "SEQN": 93706.0,
+      "URXVOL1": 349.0,
+      "URDFLOW1": NaN,
+      "URDTIME1": NaN,
+      "URXVOL2": null,
+      "URDFLOW2": null,
+      "URDTIME2": null,
+      "URXVOL3": null,
+      "URDFLOW3": null,
+      "URDTIME3": null
+    },
+    {
+      "SEQN": 93707.0,
+      "URXVOL1": 100.0,
+      "URDFLOW1": 0.526,
+      "URDTIME1": 190.0,
+      "URXVOL2": null,
+      "URDFLOW2": null,
+      "URDTIME2": null,
+      "URXVOL3": null,
+      "URDFLOW3": null,
+      "URDTIME3": null
+    }
+  ],
+  "execution": {
+    "status": "success",
+    "seconds": 0.14,
+    "processed_at": "2026-06-11T21:18:58.503223",
+    "attempt": 1
+  }
+}

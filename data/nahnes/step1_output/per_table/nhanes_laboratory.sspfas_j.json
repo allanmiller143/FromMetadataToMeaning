@@ -1,0 +1,475 @@
+{
+  "schema": "nhanes_laboratory",
+  "table_name": "sspfas_j",
+  "row_count": 1672,
+  "primary_key": [],
+  "foreign_keys": [],
+  "columns": [
+    {
+      "name": "SEQN",
+      "type": "DOUBLE PRECISION",
+      "nullable": true,
+      "stats": {
+        "null_count": 0,
+        "distinct_count": 1672,
+        "null_percentage": 0.0,
+        "numeric_stats": {
+          "avg": 98329.34688995215,
+          "min": 93706.0,
+          "max": 102955.0,
+          "stddev": 2701.3819156537866
+        },
+        "sample_values": [
+          "100500.0",
+          "97825.0",
+          "95129.0",
+          "102915.0",
+          "97209.0",
+          "96347.0",
+          "97958.0",
+          "96967.0",
+          "94390.0",
+          "101864.0",
+          "99299.0",
+          "95105.0",
+          "99543.0",
+          "95590.0",
+          "102611.0"
+        ]
+      }
+    },
+    {
+      "name": "WTSSBJ2Y",
+      "type": "DOUBLE PRECISION",
+      "nullable": true,
+      "stats": {
+        "null_count": 0,
+        "distinct_count": 1627,
+        "null_percentage": 0.0,
+        "numeric_stats": {
+          "avg": 162952.415645779,
+          "min": 16608.133384,
+          "max": 1490958.072376,
+          "stddev": 168401.61196354844
+        },
+        "sample_values": [
+          "60645.577389",
+          "118801.106204",
+          "637051.693858",
+          "641446.360491",
+          "491050.950025",
+          "162012.229314",
+          "261679.262396",
+          "90463.146449",
+          "64451.697928",
+          "71821.924496",
+          "111484.700445",
+          "16878.54342",
+          "140986.174772",
+          "27166.283879",
+          "31067.951578"
+        ]
+      }
+    },
+    {
+      "name": "SSDONA",
+      "type": "DOUBLE PRECISION",
+      "nullable": true,
+      "stats": {
+        "null_count": 0,
+        "distinct_count": 1,
+        "null_percentage": 0.0,
+        "numeric_stats": {
+          "avg": 0.07099999999999869,
+          "min": 0.071,
+          "max": 0.071,
+          "stddev": 7.774224475198137e-16
+        },
+        "frequent_values": [
+          {
+            "value": "0.071",
+            "count": 1672
+          }
+        ],
+        "sample_values": [
+          "0.071"
+        ]
+      }
+    },
+    {
+      "name": "SSDONAL",
+      "type": "DOUBLE PRECISION",
+      "nullable": true,
+      "stats": {
+        "null_count": 0,
+        "distinct_count": 1,
+        "null_percentage": 0.0,
+        "numeric_stats": {
+          "avg": 1.0,
+          "min": 1.0,
+          "max": 1.0,
+          "stddev": 0.0
+        },
+        "frequent_values": [
+          {
+            "value": "1.0",
+            "count": 1672
+          }
+        ],
+        "sample_values": [
+          "1.0"
+        ]
+      }
+    },
+    {
+      "name": "SSGENX",
+      "type": "DOUBLE PRECISION",
+      "nullable": true,
+      "stats": {
+        "null_count": 0,
+        "distinct_count": 2,
+        "null_percentage": 0.0,
+        "numeric_stats": {
+          "avg": 0.07101734449760634,
+          "min": 0.071,
+          "max": 0.1,
+          "stddev": 0.0007092181826645747
+        },
+        "frequent_values": [
+          {
+            "value": "0.071",
+            "count": 1671
+          },
+          {
+            "value": "0.1",
+            "count": 1
+          }
+        ],
+        "sample_values": [
+          "0.1",
+          "0.071"
+        ]
+      }
+    },
+    {
+      "name": "SSGENXL",
+      "type": "DOUBLE PRECISION",
+      "nullable": true,
+      "stats": {
+        "null_count": 0,
+        "distinct_count": 2,
+        "null_percentage": 0.0,
+        "numeric_stats": {
+          "avg": 0.9994019138755981,
+          "min": 5.397605346934028e-79,
+          "max": 1.0,
+          "stddev": 0.024455799402225926
+        },
+        "frequent_values": [
+          {
+            "value": "1.0",
+            "count": 1671
+          },
+          {
+            "value": "5.397605346934028e-79",
+            "count": 1
+          }
+        ],
+        "sample_values": [
+          "5.397605346934028e-79",
+          "1.0"
+        ]
+      }
+    },
+    {
+      "name": "SSCLPF",
+      "type": "DOUBLE PRECISION",
+      "nullable": true,
+      "stats": {
+        "null_count": 0,
+        "distinct_count": 28,
+        "null_percentage": 0.0,
+        "numeric_stats": {
+          "avg": 0.12504964114832376,
+          "min": 0.071,
+          "max": 11.5,
+          "stddev": 0.4732014289788897
+        },
+        "frequent_values": [
+          {
+            "value": "0.071",
+            "count": 1473
+          },
+          {
+            "value": "0.1",
+            "count": 98
+          },
+          {
+            "value": "0.2",
+            "count": 47
+          },
+          {
+            "value": "0.3",
+            "count": 11
+          },
+          {
+            "value": "0.4",
+            "count": 6
+          }
+        ],
+        "sample_values": [
+          "0.2",
+          "3.3",
+          "0.9",
+          "4.9",
+          "3.4",
+          "1.6",
+          "0.1",
+          "0.5",
+          "0.3",
+          "11.5",
+          "0.4",
+          "1.9",
+          "0.6",
+          "4.2",
+          "2.3"
+        ]
+      }
+    },
+    {
+      "name": "SSCLPFL",
+      "type": "DOUBLE PRECISION",
+      "nullable": true,
+      "stats": {
+        "null_count": 0,
+        "distinct_count": 2,
+        "null_percentage": 0.0,
+        "numeric_stats": {
+          "avg": 0.8809808612440191,
+          "min": 5.397605346934028e-79,
+          "max": 1.0,
+          "stddev": 0.32390790723348845
+        },
+        "frequent_values": [
+          {
+            "value": "1.0",
+            "count": 1473
+          },
+          {
+            "value": "5.397605346934028e-79",
+            "count": 199
+          }
+        ],
+        "sample_values": [
+          "1.0",
+          "5.397605346934028e-79"
+        ]
+      }
+    },
+    {
+      "name": "SSFHPS",
+      "type": "DOUBLE PRECISION",
+      "nullable": true,
+      "stats": {
+        "null_count": 0,
+        "distinct_count": 50,
+        "null_percentage": 0.0,
+        "numeric_stats": {
+          "avg": 0.4006052631578995,
+          "min": 0.071,
+          "max": 13.2,
+          "stddev": 0.7185267523760844
+        },
+        "frequent_values": [
+          {
+            "value": "0.071",
+            "count": 372
+          },
+          {
+            "value": "0.2",
+            "count": 346
+          },
+          {
+            "value": "0.3",
+            "count": 235
+          },
+          {
+            "value": "0.1",
+            "count": 209
+          },
+          {
+            "value": "0.4",
+            "count": 149
+          }
+        ],
+        "sample_values": [
+          "1.8",
+          "0.2",
+          "0.9",
+          "3.4",
+          "13.2",
+          "4.5",
+          "1.6",
+          "0.1",
+          "0.5",
+          "4.8",
+          "0.3",
+          "5.0",
+          "5.7",
+          "1.1",
+          "0.4"
+        ]
+      }
+    },
+    {
+      "name": "SSFHPSL",
+      "type": "DOUBLE PRECISION",
+      "nullable": true,
+      "stats": {
+        "null_count": 0,
+        "distinct_count": 2,
+        "null_percentage": 0.0,
+        "numeric_stats": {
+          "avg": 0.22248803827751196,
+          "min": 5.397605346934028e-79,
+          "max": 1.0,
+          "stddev": 0.416041625570711
+        },
+        "frequent_values": [
+          {
+            "value": "5.397605346934028e-79",
+            "count": 1300
+          },
+          {
+            "value": "1.0",
+            "count": 372
+          }
+        ],
+        "sample_values": [
+          "1.0",
+          "5.397605346934028e-79"
+        ]
+      }
+    },
+    {
+      "name": "SSPFHA",
+      "type": "DOUBLE PRECISION",
+      "nullable": true,
+      "stats": {
+        "null_count": 0,
+        "distinct_count": 4,
+        "null_percentage": 0.0,
+        "numeric_stats": {
+          "avg": 0.07167703349282165,
+          "min": 0.071,
+          "max": 0.7,
+          "stddev": 0.01637680187912843
+        },
+        "frequent_values": [
+          {
+            "value": "0.071",
+            "count": 1664
+          },
+          {
+            "value": "0.1",
+            "count": 4
+          },
+          {
+            "value": "0.2",
+            "count": 3
+          },
+          {
+            "value": "0.7",
+            "count": 1
+          }
+        ],
+        "sample_values": [
+          "0.1",
+          "0.7",
+          "0.2",
+          "0.071"
+        ]
+      }
+    },
+    {
+      "name": "SSPFHAL",
+      "type": "DOUBLE PRECISION",
+      "nullable": true,
+      "stats": {
+        "null_count": 0,
+        "distinct_count": 2,
+        "null_percentage": 0.0,
+        "numeric_stats": {
+          "avg": 0.9952153110047847,
+          "min": 5.397605346934028e-79,
+          "max": 1.0,
+          "stddev": 0.06902641099423198
+        },
+        "frequent_values": [
+          {
+            "value": "1.0",
+            "count": 1664
+          },
+          {
+            "value": "5.397605346934028e-79",
+            "count": 8
+          }
+        ],
+        "sample_values": [
+          "5.397605346934028e-79",
+          "1.0"
+        ]
+      }
+    }
+  ],
+  "sample_rows": [
+    {
+      "SEQN": 93706.0,
+      "WTSSBJ2Y": 33267.882722,
+      "SSDONA": 0.071,
+      "SSDONAL": 1.0,
+      "SSGENX": 0.071,
+      "SSGENXL": 1.0,
+      "SSCLPF": 0.2,
+      "SSCLPFL": 5.397605346934028e-79,
+      "SSFHPS": 0.2,
+      "SSFHPSL": 5.397605346934028e-79,
+      "SSPFHA": 0.071,
+      "SSPFHAL": 1.0
+    },
+    {
+      "SEQN": 93715.0,
+      "WTSSBJ2Y": 33637.948641,
+      "SSDONA": 0.071,
+      "SSDONAL": 1.0,
+      "SSGENX": 0.071,
+      "SSGENXL": 1.0,
+      "SSCLPF": 0.071,
+      "SSCLPFL": 1.0,
+      "SSFHPS": 0.4,
+      "SSFHPSL": 5.397605346934028e-79,
+      "SSPFHA": 0.071,
+      "SSPFHAL": 1.0
+    },
+    {
+      "SEQN": 93717.0,
+      "WTSSBJ2Y": 160456.292456,
+      "SSDONA": 0.071,
+      "SSDONAL": 1.0,
+      "SSGENX": 0.071,
+      "SSGENXL": 1.0,
+      "SSCLPF": 0.1,
+      "SSCLPFL": 5.397605346934028e-79,
+      "SSFHPS": 0.4,
+      "SSFHPSL": 5.397605346934028e-79,
+      "SSPFHA": 0.2,
+      "SSPFHAL": 5.397605346934028e-79
+    }
+  ],
+  "execution": {
+    "status": "success",
+    "seconds": 0.07,
+    "processed_at": "2026-06-11T21:18:51.824060",
+    "attempt": 1
+  }
+}

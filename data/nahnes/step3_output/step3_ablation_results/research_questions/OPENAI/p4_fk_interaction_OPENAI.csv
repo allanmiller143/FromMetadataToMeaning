@@ -1,0 +1,6 @@
+Comparacao,Variante_A,Variante_B,N_Tabelas,HardDice_mean,SoftDice_mean,SoftDice_std,TokensIn_A,TokensIn_B,Delta_TokensIn
+FK+rows vs rows,v11_fk_plus_sample_rows,v07_plus_sample_rows,25,0.8133333333333332,0.9186033002535503,0.14231367326709948,44637.0,44387.0,250.0
+FK+ambos vs FK+sample_val,v10_fk_plus_sample_and_frequent,v08_fk_plus_sample_values,25,0.7466666666666667,0.8844888703028362,0.13884866782752356,95863.0,62236.0,33627.0
+FK+freq_val vs freq_val,v09_fk_plus_frequent_values,v06_plus_frequent_values,25,0.7066666666666667,0.8772925718625386,0.1737815255177453,62873.0,62623.0,250.0
+FK+sample_val vs sample_val,v08_fk_plus_sample_values,v05_plus_sample_values,25,0.7466666666666667,0.8584749555587768,0.17408762568030986,62236.0,61986.0,250.0
+FK isolado vs baseline,v02_plus_fk,v00_baseline,25,0.6533333333333333,0.8360404117902119,0.17670601282953186,26918.0,26668.0,250.0

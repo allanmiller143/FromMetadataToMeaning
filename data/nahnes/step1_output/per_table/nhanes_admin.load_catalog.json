@@ -1,0 +1,433 @@
+{
+  "schema": "nhanes_admin",
+  "table_name": "load_catalog",
+  "row_count": 127,
+  "primary_key": [
+    "id"
+  ],
+  "foreign_keys": [],
+  "columns": [
+    {
+      "name": "id",
+      "type": "BIGINT",
+      "nullable": false,
+      "stats": {
+        "null_count": 0,
+        "distinct_count": 127,
+        "null_percentage": 0.0,
+        "numeric_stats": {
+          "avg": 64.0,
+          "min": 1.0,
+          "max": 127.0,
+          "stddev": 36.8057966449127
+        },
+        "sample_values": [
+          "1",
+          "2",
+          "3",
+          "4",
+          "5",
+          "6",
+          "7",
+          "8",
+          "9",
+          "10",
+          "11",
+          "12",
+          "13",
+          "14",
+          "15"
+        ]
+      }
+    },
+    {
+      "name": "category",
+      "type": "TEXT",
+      "nullable": false,
+      "stats": {
+        "null_count": 0,
+        "distinct_count": 5,
+        "null_percentage": 0.0,
+        "frequent_values": [
+          {
+            "value": "laboratory",
+            "count": 59
+          },
+          {
+            "value": "questionnaire",
+            "count": 43
+          },
+          {
+            "value": "examination",
+            "count": 14
+          },
+          {
+            "value": "dietary",
+            "count": 10
+          },
+          {
+            "value": "demographics",
+            "count": 1
+          }
+        ],
+        "sample_values": [
+          "questionnaire",
+          "laboratory",
+          "demographics",
+          "examination",
+          "dietary"
+        ]
+      }
+    },
+    {
+      "name": "cycle_year",
+      "type": "TEXT",
+      "nullable": false,
+      "stats": {
+        "null_count": 0,
+        "distinct_count": 1,
+        "null_percentage": 0.0,
+        "frequent_values": [
+          {
+            "value": "2017-2018",
+            "count": 127
+          }
+        ],
+        "sample_values": [
+          "2017-2018"
+        ]
+      }
+    },
+    {
+      "name": "data_file_name",
+      "type": "TEXT",
+      "nullable": false,
+      "stats": {
+        "null_count": 0,
+        "distinct_count": 127,
+        "null_percentage": 0.0,
+        "sample_values": [
+          "DPQ_J",
+          "UM_J",
+          "INS_J",
+          "SSFR_J",
+          "DXXSPN_J",
+          "OHQ_J",
+          "SSUVOC_J",
+          "DSQIDS_J",
+          "DBQ_J",
+          "DR2IFF_J",
+          "UAS_J",
+          "HUQ_J",
+          "FOLFMS_J",
+          "DXXAG_J",
+          "KIQ_U_J"
+        ]
+      }
+    },
+    {
+      "name": "data_file_description",
+      "type": "TEXT",
+      "nullable": false,
+      "stats": {
+        "null_count": 0,
+        "distinct_count": 126,
+        "null_percentage": 0.0,
+        "sample_values": [
+          "Occupation",
+          "Cardiovascular Health",
+          "Smoking - Secondhand Smoke Exposure",
+          "Physical Functioning",
+          "Physical Activity - Youth",
+          "Audiometry",
+          "Arsenics - Speciated - Urine",
+          "Urine Flow Rate",
+          "Dual-Energy X-ray Absorptiometry - Whole Body",
+          "Vitamin A, Vitamin E & Carotenoids",
+          "Audiometry - Wideband Reflectance",
+          "Folate Forms - Total & Individual - Serum",
+          "Dietary Interview - Individual Foods, First Day",
+          "Income",
+          "Personal Care and Consumer Product Chemicals and Metabolites"
+        ]
+      }
+    },
+    {
+      "name": "schema_name",
+      "type": "TEXT",
+      "nullable": false,
+      "stats": {
+        "null_count": 0,
+        "distinct_count": 5,
+        "null_percentage": 0.0,
+        "frequent_values": [
+          {
+            "value": "nhanes_laboratory",
+            "count": 59
+          },
+          {
+            "value": "nhanes_questionnaire",
+            "count": 43
+          },
+          {
+            "value": "nhanes_examination",
+            "count": 14
+          },
+          {
+            "value": "nhanes_dietary",
+            "count": 10
+          },
+          {
+            "value": "nhanes_demographics",
+            "count": 1
+          }
+        ],
+        "sample_values": [
+          "nhanes_examination",
+          "nhanes_dietary",
+          "nhanes_questionnaire",
+          "nhanes_laboratory",
+          "nhanes_demographics"
+        ]
+      }
+    },
+    {
+      "name": "table_name",
+      "type": "TEXT",
+      "nullable": false,
+      "stats": {
+        "null_count": 0,
+        "distinct_count": 127,
+        "null_percentage": 0.0,
+        "sample_values": [
+          "hepe_j",
+          "ephpp_j",
+          "ucm_j",
+          "dr1iff_j",
+          "dbq_j",
+          "dxxspn_j",
+          "uni_j",
+          "vtq_j",
+          "sspfas_j",
+          "uas_j",
+          "alb_cr_j",
+          "dxxag_j",
+          "hepc_j",
+          "ssuvcm_j",
+          "ucpreg_j"
+        ]
+      }
+    },
+    {
+      "name": "source_url",
+      "type": "TEXT",
+      "nullable": true,
+      "stats": {
+        "null_count": 0,
+        "distinct_count": 127,
+        "null_percentage": 0.0,
+        "sample_values": [
+          "https://wwwn.cdc.gov/nchs/nhanes/2017-2018/ALB_CR_J.XPT",
+          "https://wwwn.cdc.gov/nchs/nhanes/2017-2018/ETHOX_J.XPT",
+          "https://wwwn.cdc.gov/nchs/nhanes/2017-2018/PFQ_J.XPT",
+          "https://wwwn.cdc.gov/nchs/nhanes/2017-2018/OCQ_J.XPT",
+          "https://wwwn.cdc.gov/nchs/nhanes/2017-2018/DR1TOT_J.XPT",
+          "https://wwwn.cdc.gov/nchs/nhanes/2017-2018/HEPC_J.XPT",
+          "https://wwwn.cdc.gov/nchs/nhanes/2017-2018/SMQFAM_J.XPT",
+          "https://wwwn.cdc.gov/nchs/nhanes/2017-2018/SLQ_J.XPT",
+          "https://wwwn.cdc.gov/nchs/nhanes/2017-2018/SSGLYP_J.XPT",
+          "https://wwwn.cdc.gov/nchs/nhanes/2017-2018/PUQMEC_J.XPT",
+          "https://wwwn.cdc.gov/nchs/nhanes/2017-2018/OHQ_J.XPT",
+          "https://wwwn.cdc.gov/nchs/nhanes/2017-2018/IHGEM_J.XPT",
+          "https://wwwn.cdc.gov/nchs/nhanes/2017-2018/PAQY_J.XPT",
+          "https://wwwn.cdc.gov/nchs/nhanes/2017-2018/PFAS_J.XPT",
+          "https://wwwn.cdc.gov/nchs/nhanes/2017-2018/HEPE_J.XPT"
+        ]
+      }
+    },
+    {
+      "name": "row_count",
+      "type": "BIGINT",
+      "nullable": true,
+      "stats": {
+        "null_count": 0,
+        "distinct_count": 52,
+        "null_percentage": 0.0,
+        "numeric_stats": {
+          "avg": 7695.385826771653,
+          "min": 931.0,
+          "max": 112683.0,
+          "stddev": 12737.00808982
+        },
+        "frequent_values": [
+          {
+            "value": "2979",
+            "count": 13
+          },
+          {
+            "value": "9254",
+            "count": 12
+          },
+          {
+            "value": "8366",
+            "count": 9
+          },
+          {
+            "value": "7435",
+            "count": 9
+          },
+          {
+            "value": "2986",
+            "count": 8
+          }
+        ],
+        "sample_values": [
+          "7435",
+          "2045",
+          "3131",
+          "5856",
+          "6068",
+          "5533",
+          "6724",
+          "6401",
+          "2986",
+          "1057",
+          "2979",
+          "3172",
+          "19643",
+          "8897",
+          "2478"
+        ]
+      }
+    },
+    {
+      "name": "column_count",
+      "type": "BIGINT",
+      "nullable": true,
+      "stats": {
+        "null_count": 0,
+        "distinct_count": 52,
+        "null_percentage": 0.0,
+        "numeric_stats": {
+          "avg": 33.724409448818896,
+          "min": 2.0,
+          "max": 514.0,
+          "stddev": 64.96136546151621
+        },
+        "frequent_values": [
+          {
+            "value": "4",
+            "count": 15
+          },
+          {
+            "value": "3",
+            "count": 9
+          },
+          {
+            "value": "10",
+            "count": 7
+          },
+          {
+            "value": "49",
+            "count": 5
+          },
+          {
+            "value": "14",
+            "count": 5
+          }
+        ],
+        "sample_values": [
+          "27",
+          "23",
+          "58",
+          "44",
+          "11",
+          "8",
+          "344",
+          "54",
+          "29",
+          "88",
+          "4",
+          "82",
+          "41",
+          "40",
+          "46"
+        ]
+      }
+    },
+    {
+      "name": "loaded_at",
+      "type": "TIMESTAMP",
+      "nullable": true,
+      "stats": {
+        "null_count": 0,
+        "distinct_count": 127,
+        "null_percentage": 0.0,
+        "sample_values": [
+          "2026-06-11 20:51:37.150549",
+          "2026-06-11 20:48:03.656028",
+          "2026-06-11 20:43:51.314137",
+          "2026-06-11 20:46:28.339300",
+          "2026-06-11 20:50:20.853790",
+          "2026-06-11 20:34:35.863687",
+          "2026-06-11 20:44:06.110742",
+          "2026-06-11 20:44:19.102570",
+          "2026-06-11 20:49:37.551360",
+          "2026-06-11 20:42:53.510266",
+          "2026-06-11 20:43:32.131230",
+          "2026-06-11 20:48:53.517538",
+          "2026-06-11 20:54:22.517442",
+          "2026-06-11 20:49:12.677220",
+          "2026-06-11 20:50:28.488584"
+        ]
+      }
+    }
+  ],
+  "sample_rows": [
+    {
+      "id": 1,
+      "category": "demographics",
+      "cycle_year": "2017-2018",
+      "data_file_name": "DEMO_J",
+      "data_file_description": "Demographic Variables & Sample Weights",
+      "schema_name": "nhanes_demographics",
+      "table_name": "demo_j",
+      "source_url": "https://wwwn.cdc.gov/nchs/nhanes/2017-2018/DEMO_J.XPT",
+      "row_count": 9254,
+      "column_count": 46,
+      "loaded_at": "2026-06-11 20:15:10.915331"
+    },
+    {
+      "id": 2,
+      "category": "dietary",
+      "cycle_year": "2017-2018",
+      "data_file_name": "DR1TOT_J",
+      "data_file_description": "Dietary Interview - Total Nutrient Intakes, First Day",
+      "schema_name": "nhanes_dietary",
+      "table_name": "dr1tot_j",
+      "source_url": "https://wwwn.cdc.gov/nchs/nhanes/2017-2018/DR1TOT_J.XPT",
+      "row_count": 8704,
+      "column_count": 168,
+      "loaded_at": "2026-06-11 20:15:56.101482"
+    },
+    {
+      "id": 3,
+      "category": "dietary",
+      "cycle_year": "2017-2018",
+      "data_file_name": "DR2TOT_J",
+      "data_file_description": "Dietary Interview - Total Nutrient Intakes, Second Day",
+      "schema_name": "nhanes_dietary",
+      "table_name": "dr2tot_j",
+      "source_url": "https://wwwn.cdc.gov/nchs/nhanes/2017-2018/DR2TOT_J.XPT",
+      "row_count": 8704,
+      "column_count": 85,
+      "loaded_at": "2026-06-11 20:16:21.450401"
+    }
+  ],
+  "execution": {
+    "status": "success",
+    "seconds": 0.31,
+    "processed_at": "2026-06-11T21:11:16.986202",
+    "attempt": 1
+  }
+}

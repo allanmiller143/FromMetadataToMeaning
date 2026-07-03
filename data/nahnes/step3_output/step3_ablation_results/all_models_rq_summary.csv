@@ -1,0 +1,51 @@
+RQ,Comparacao,Variante_A,Variante_B,SoftDice_mean_all_models,SoftDice_std_all_models,Delta_TokensIn_mean
+P1_isolated_effects,sample_rows vs baseline,v07_plus_sample_rows,v00_baseline,0.7621103991468747,0.1905372991090056,19179.25
+P1_isolated_effects,FK vs baseline,v02_plus_fk,v00_baseline,0.7584027957121531,0.19412712154137135,262.5
+P1_isolated_effects,nullable vs baseline,v03_plus_nullable,v00_baseline,0.7500341624418894,0.2042093529246757,2846.25
+P1_isolated_effects,sample_values vs baseline,v05_plus_sample_values,v00_baseline,0.7462040037512778,0.21326376055609214,39573.0
+P1_isolated_effects,numeric_stats vs baseline,v04_plus_numeric_stats,v00_baseline,0.7268605140447616,0.18492239829629517,34842.0
+P1_isolated_effects,frequent_values vs baseline,v06_plus_frequent_values,v00_baseline,0.6996914949019749,0.22801765649804134,38719.25
+P2_numeric_stats,full vs full-sem-numeric_stats,v01_full,v24_full_no_numeric_stats,0.7593614342610041,0.22334107291468572,31456.5
+P2_numeric_stats,numeric_stats sozinho,v04_plus_numeric_stats,v00_baseline,0.7268605140447616,0.18492239829629517,34842.0
+P2_numeric_stats,numeric_stats + nullable vs nullable,v14_nullable_plus_numeric_stats,v03_plus_nullable,0.7017738980849585,0.20076262938507364,34860.75
+P3_sample_rows_vs_col_values,rows+sample_val vs sample_val,v15_sample_rows_vs_sample_values,v05_plus_sample_values,0.7738997208277384,0.19926007495498965,18387.75
+P3_sample_rows_vs_col_values,rows+sample_val vs rows,v15_sample_rows_vs_sample_values,v07_plus_sample_rows,0.7658400743405024,0.21015199210129618,38781.5
+P3_sample_rows_vs_col_values,rows+ambos vs rows,v17_sample_rows_plus_both_values,v07_plus_sample_rows,0.7598992164333661,0.19495329460070093,74509.0
+P3_sample_rows_vs_col_values,rows vs sample_values,v07_plus_sample_rows,v05_plus_sample_values,0.7590195095539093,0.18536435820023395,-20393.75
+P3_sample_rows_vs_col_values,rows+freq_val vs rows,v16_sample_rows_vs_frequent_values,v07_plus_sample_rows,0.7347770078579585,0.21640951514420503,38495.25
+P3_sample_rows_vs_col_values,full vs full-sem-rows,v01_full,v25_full_no_sample_rows,0.7347515466213227,0.20599444441128278,18905.0
+P3_sample_rows_vs_col_values,rows vs frequent_values,v07_plus_sample_rows,v06_plus_frequent_values,0.7305772090951602,0.22643099322701946,-19540.0
+P4_fk_interaction,FK+rows vs rows,v11_fk_plus_sample_rows,v07_plus_sample_rows,0.8136449985106786,0.19974422487496882,262.5
+P4_fk_interaction,FK+sample_val vs sample_val,v08_fk_plus_sample_values,v05_plus_sample_values,0.7935639681021373,0.1802065275569492,262.5
+P4_fk_interaction,FK+freq_val vs freq_val,v09_fk_plus_frequent_values,v06_plus_frequent_values,0.7893744127750396,0.232159444622253,262.5
+P4_fk_interaction,FK+ambos vs FK+sample_val,v10_fk_plus_sample_and_frequent,v08_fk_plus_sample_values,0.777198887348175,0.19075460724372761,35583.75
+P4_fk_interaction,FK isolado vs baseline,v02_plus_fk,v00_baseline,0.7584027957121531,0.19412712154137135,262.5
+P5_nullable_interaction,nullable+sample_val vs sample_val,v12_nullable_plus_sample_values,v05_plus_sample_values,0.8052043818036715,0.180345641872456,2865.0
+P5_nullable_interaction,nullable+numeric_stats vs numeric_stats,v14_nullable_plus_numeric_stats,v04_plus_numeric_stats,0.7936314235130947,0.18453487445436645,2865.0
+P5_nullable_interaction,nullable+freq_val vs freq_val,v13_nullable_plus_frequent_values,v06_plus_frequent_values,0.7920456540584564,0.23009869568363997,2865.0
+P5_nullable_interaction,nullable isolado vs baseline,v03_plus_nullable,v00_baseline,0.7500341624418894,0.2042093529246757,2846.25
+P7_vs_full,v17_sample_rows_plus_both_values vs v01_full,v17_sample_rows_plus_both_values,v01_full,0.7745033466418585,0.19563233157889648,-48904.5
+P7_vs_full,v23_fk_nullable_sample_rows_plus_sample_values vs v01_full,v23_fk_nullable_sample_rows_plus_sample_values,v01_full,0.7719750688473384,0.20269605363478305,-80700.5
+P7_vs_full,v15_sample_rows_vs_sample_values vs v01_full,v15_sample_rows_vs_sample_values,v01_full,0.7685230919122696,0.2130230730199362,-84632.0
+P7_vs_full,v24_full_no_numeric_stats vs v01_full,v24_full_no_numeric_stats,v01_full,0.7593614342610041,0.22334107291468572,-31456.5
+P7_vs_full,v05_plus_sample_values vs v01_full,v05_plus_sample_values,v01_full,0.7401508321762086,0.19993046929422678,-103019.75
+P7_vs_full,v10_fk_plus_sample_and_frequent vs v01_full,v10_fk_plus_sample_and_frequent,v01_full,0.7371299628416698,0.21494445199600948,-67173.5
+P7_vs_full,v07_plus_sample_rows vs v01_full,v07_plus_sample_rows,v01_full,0.7353141004641851,0.1928644873726021,-123413.5
+P7_vs_full,v25_full_no_sample_rows vs v01_full,v25_full_no_sample_rows,v01_full,0.7347515466213227,0.20599444441128278,-18905.0
+P7_vs_full,v20_fk_nullable_both_values vs v01_full,v20_fk_nullable_both_values,v01_full,0.7338067227602005,0.20963597965731828,-63488.5
+P7_vs_full,v18_fk_nullable_sample_values vs v01_full,v18_fk_nullable_sample_values,v01_full,0.730532052675883,0.1912860534126401,-99892.25
+P7_vs_full,v14_nullable_plus_numeric_stats vs v01_full,v14_nullable_plus_numeric_stats,v01_full,0.7288603303829829,0.20812257010414767,-104885.75
+P7_vs_full,v12_nullable_plus_sample_values vs v01_full,v12_nullable_plus_sample_values,v01_full,0.7261729960044225,0.19877443255384494,-100154.75
+P7_vs_full,v16_sample_rows_vs_frequent_values vs v01_full,v16_sample_rows_vs_frequent_values,v01_full,0.7244693938891094,0.229932924577241,-84918.25
+P7_vs_full,v11_fk_plus_sample_rows vs v01_full,v11_fk_plus_sample_rows,v01_full,0.7195162139336269,0.18986707778708367,-123151.0
+P7_vs_full,v08_fk_plus_sample_values vs v01_full,v08_fk_plus_sample_values,v01_full,0.7186577236255011,0.2000014586768542,-102757.25
+P7_vs_full,v13_nullable_plus_frequent_values vs v01_full,v13_nullable_plus_frequent_values,v01_full,0.7178372640212377,0.2107545289327812,-101008.5
+P7_vs_full,v04_plus_numeric_stats vs v01_full,v04_plus_numeric_stats,v01_full,0.7150089267889659,0.2071843639070036,-107750.75
+P7_vs_full,v22_fk_nullable_sample_rows_plus_frequent vs v01_full,v22_fk_nullable_sample_rows_plus_frequent,v01_full,0.7092539591789246,0.22045855273585666,-82224.25
+P7_vs_full,v06_plus_frequent_values vs v01_full,v06_plus_frequent_values,v01_full,0.7058779317140579,0.23289676294511952,-103873.5
+P7_vs_full,v09_fk_plus_frequent_values vs v01_full,v09_fk_plus_frequent_values,v01_full,0.7046217834949493,0.2286002191449326,-103611.0
+P7_vs_full,v19_fk_nullable_frequent_values vs v01_full,v19_fk_nullable_frequent_values,v01_full,0.7033518642187119,0.1992860312661694,-100746.0
+P7_vs_full,v21_fk_nullable_sample_rows vs v01_full,v21_fk_nullable_sample_rows,v01_full,0.702143345952034,0.20568032587752338,-120298.5
+P7_vs_full,v00_baseline vs v01_full,v00_baseline,v01_full,0.6933360271453857,0.2019603461624807,-142592.75
+P7_vs_full,v02_plus_fk vs v01_full,v02_plus_fk,v01_full,0.6638405789534251,0.21630060758122654,-142330.25
+P7_vs_full,v03_plus_nullable vs v01_full,v03_plus_nullable,v01_full,0.659367533604304,0.22114642551901284,-139746.5

@@ -1,0 +1,164 @@
+{
+  "schema": "nhanes_laboratory",
+  "table_name": "utas_j",
+  "row_count": 2979,
+  "primary_key": [],
+  "foreign_keys": [],
+  "columns": [
+    {
+      "name": "SEQN",
+      "type": "DOUBLE PRECISION",
+      "nullable": true,
+      "stats": {
+        "null_count": 0,
+        "distinct_count": 2979,
+        "null_percentage": 0.0,
+        "numeric_stats": {
+          "avg": 98304.5787176905,
+          "min": 93707.0,
+          "max": 102956.0,
+          "stddev": 2657.7196945082715
+        },
+        "sample_values": [
+          "100472.0",
+          "98778.0",
+          "98390.0",
+          "97449.0",
+          "94386.0",
+          "96153.0",
+          "96472.0",
+          "98813.0",
+          "100958.0",
+          "96058.0",
+          "98508.0",
+          "101319.0",
+          "100331.0",
+          "102850.0",
+          "102554.0"
+        ]
+      }
+    },
+    {
+      "name": "WTSA2YR",
+      "type": "DOUBLE PRECISION",
+      "nullable": true,
+      "stats": {
+        "null_count": 0,
+        "distinct_count": 2730,
+        "null_percentage": 0.0,
+        "numeric_stats": {
+          "avg": 103814.1997123699,
+          "min": 5.397605346934028e-79,
+          "max": 1502431.342308,
+          "stddev": 136361.65091679993
+        },
+        "sample_values": [
+          "47711.749182",
+          "156274.122551",
+          "538586.717543",
+          "23113.508549",
+          "7641.256822",
+          "91464.698382",
+          "86177.539652",
+          "37614.002992",
+          "718123.607707",
+          "100772.016414",
+          "38292.051329",
+          "76894.603336",
+          "15108.192099",
+          "82665.854743",
+          "110072.60928"
+        ]
+      }
+    },
+    {
+      "name": "URXUAS",
+      "type": "DOUBLE PRECISION",
+      "nullable": true,
+      "stats": {
+        "null_count": 187,
+        "distinct_count": 1570,
+        "null_percentage": 6.28,
+        "numeric_stats": {
+          "avg": 16.244684813753576,
+          "min": 0.16,
+          "max": 2802.29,
+          "stddev": 64.31900475998653
+        },
+        "sample_values": [
+          "7.96",
+          "0.8",
+          "3.07",
+          "19.37",
+          "123.29",
+          "74.67",
+          "19.82",
+          "10.98",
+          "5.38",
+          "44.6",
+          "5.33",
+          "4.8",
+          "37.69",
+          "79.56",
+          "3.23"
+        ]
+      }
+    },
+    {
+      "name": "URDUASLC",
+      "type": "DOUBLE PRECISION",
+      "nullable": true,
+      "stats": {
+        "null_count": 187,
+        "distinct_count": 2,
+        "null_percentage": 6.28,
+        "numeric_stats": {
+          "avg": 0.00035816618911174784,
+          "min": 5.397605346934028e-79,
+          "max": 1.0,
+          "stddev": 0.018925279102611606
+        },
+        "frequent_values": [
+          {
+            "value": "5.397605346934028e-79",
+            "count": 2791
+          },
+          {
+            "value": "1.0",
+            "count": 1
+          }
+        ],
+        "sample_values": [
+          "1.0",
+          "5.397605346934028e-79"
+        ]
+      }
+    }
+  ],
+  "sample_rows": [
+    {
+      "SEQN": 93707.0,
+      "WTSA2YR": 24984.393699,
+      "URXUAS": 5.09,
+      "URDUASLC": 5.397605346934028e-79
+    },
+    {
+      "SEQN": 93708.0,
+      "WTSA2YR": 39395.670748,
+      "URXUAS": 24.07,
+      "URDUASLC": 5.397605346934028e-79
+    },
+    {
+      "SEQN": 93711.0,
+      "WTSA2YR": 43892.647648,
+      "URXUAS": 2.89,
+      "URDUASLC": 5.397605346934028e-79
+    }
+  ],
+  "execution": {
+    "status": "success",
+    "seconds": 0.09,
+    "processed_at": "2026-06-11T21:19:05.983610",
+    "attempt": 1
+  }
+}

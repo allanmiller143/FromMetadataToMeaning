@@ -1,0 +1,179 @@
+{
+  "_summary": {
+    "variant": "v00_baseline",
+    "run": 1,
+    "tables_processed": 24,
+    "total_tokens_in": 24080,
+    "total_tokens_out": 580,
+    "total_tokens": 24660,
+    "total_elapsed_s": 32.986
+  },
+  "public.tb_ciap_ms": {
+    "tokens_in": 923,
+    "tokens_out": 25,
+    "tokens_total": 948,
+    "elapsed_s": 2.325,
+    "fallback": false
+  },
+  "public.tb_problema": {
+    "tokens_in": 888,
+    "tokens_out": 28,
+    "tokens_total": 916,
+    "elapsed_s": 1.573,
+    "fallback": false
+  },
+  "public.tb_dim_catmat": {
+    "tokens_in": 877,
+    "tokens_out": 28,
+    "tokens_total": 905,
+    "elapsed_s": 1.213,
+    "fallback": false
+  },
+  "public.ta_medicamento_catmat": {
+    "tokens_in": 992,
+    "tokens_out": 28,
+    "tokens_total": 1020,
+    "elapsed_s": 1.478,
+    "fallback": false
+  },
+  "public.ta_tecido_mole": {
+    "tokens_in": 935,
+    "tokens_out": 24,
+    "tokens_total": 959,
+    "elapsed_s": 1.432,
+    "fallback": false
+  },
+  "public.ta_vacinacao": {
+    "tokens_in": 939,
+    "tokens_out": 27,
+    "tokens_total": 966,
+    "elapsed_s": 1.337,
+    "fallback": false
+  },
+  "public.tb_antecedente": {
+    "tokens_in": 1384,
+    "tokens_out": 25,
+    "tokens_total": 1409,
+    "elapsed_s": 1.542,
+    "fallback": false
+  },
+  "public.tb_cidadao": {
+    "tokens_in": 2287,
+    "tokens_out": 26,
+    "tokens_total": 2313,
+    "elapsed_s": 1.577,
+    "fallback": false
+  },
+  "public.tb_cuidado_compartilhado_evol": {
+    "tokens_in": 1136,
+    "tokens_out": 28,
+    "tokens_total": 1164,
+    "elapsed_s": 1.218,
+    "fallback": false
+  },
+  "public.tb_evolucao_odonto": {
+    "tokens_in": 885,
+    "tokens_out": 23,
+    "tokens_total": 908,
+    "elapsed_s": 1.183,
+    "fallback": false
+  },
+  "public.tb_evolucao_subjetivo": {
+    "tokens_in": 801,
+    "tokens_out": 17,
+    "tokens_total": 818,
+    "elapsed_s": 1.134,
+    "fallback": false
+  },
+  "public.tb_exame_hemoglobina_glicada": {
+    "tokens_in": 812,
+    "tokens_out": 22,
+    "tokens_total": 834,
+    "elapsed_s": 1.561,
+    "fallback": false
+  },
+  "public.tb_exame_prenatal": {
+    "tokens_in": 841,
+    "tokens_out": 20,
+    "tokens_total": 861,
+    "elapsed_s": 1.498,
+    "fallback": false
+  },
+  "public.tb_fat_atend_odonto_problemas": {
+    "tokens_in": 1357,
+    "tokens_out": 23,
+    "tokens_total": 1380,
+    "elapsed_s": 1.208,
+    "fallback": false
+  },
+  "public.tb_fat_rel_op_risco_cardio": {
+    "tokens_in": 1106,
+    "tokens_out": 22,
+    "tokens_total": 1128,
+    "elapsed_s": 1.3,
+    "fallback": false
+  },
+  "public.tb_historico_dados_fao": {
+    "tokens_in": 826,
+    "tokens_out": 23,
+    "tokens_total": 849,
+    "elapsed_s": 1.327,
+    "fallback": false
+  },
+  "public.tb_justificativa_prontuario": {
+    "tokens_in": 855,
+    "tokens_out": 24,
+    "tokens_total": 879,
+    "elapsed_s": 1.241,
+    "fallback": false
+  },
+  "public.tb_lembrete_evolucao": {
+    "tokens_in": 875,
+    "tokens_out": 28,
+    "tokens_total": 903,
+    "elapsed_s": 1.238,
+    "fallback": false
+  },
+  "public.tb_medicamento_uso_continuo": {
+    "tokens_in": 827,
+    "tokens_out": 31,
+    "tokens_total": 858,
+    "elapsed_s": 1.437,
+    "fallback": false
+  },
+  "public.tb_medicao": {
+    "tokens_in": 1227,
+    "tokens_out": 22,
+    "tokens_total": 1249,
+    "elapsed_s": 1.417,
+    "fallback": false
+  },
+  "public.tb_odontograma": {
+    "tokens_in": 870,
+    "tokens_out": 23,
+    "tokens_total": 893,
+    "elapsed_s": 1.186,
+    "fallback": false
+  },
+  "public.tb_proced_exame_especifico": {
+    "tokens_in": 806,
+    "tokens_out": 24,
+    "tokens_total": 830,
+    "elapsed_s": 1.196,
+    "fallback": false
+  },
+  "public.tb_raca_cor": {
+    "tokens_in": 834,
+    "tokens_out": 23,
+    "tokens_total": 857,
+    "elapsed_s": 1.179,
+    "fallback": false
+  },
+  "public.tb_tipo_glicemia": {
+    "tokens_in": 797,
+    "tokens_out": 16,
+    "tokens_total": 813,
+    "elapsed_s": 1.175,
+    "fallback": false
+  }
+}

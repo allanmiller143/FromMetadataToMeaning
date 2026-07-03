@@ -1,0 +1,403 @@
+{
+  "schema": "nhanes_questionnaire",
+  "table_name": "hsq_j",
+  "row_count": 8366,
+  "primary_key": [],
+  "foreign_keys": [],
+  "columns": [
+    {
+      "name": "SEQN",
+      "type": "DOUBLE PRECISION",
+      "nullable": true,
+      "stats": {
+        "null_count": 0,
+        "distinct_count": 8366,
+        "null_percentage": 0.0,
+        "numeric_stats": {
+          "avg": 98320.86994979679,
+          "min": 93703.0,
+          "max": 102956.0,
+          "stddev": 2669.896205797456
+        },
+        "sample_values": [
+          "96472.0",
+          "101333.0",
+          "102403.0",
+          "97209.0",
+          "101319.0",
+          "100331.0",
+          "102850.0",
+          "94262.0",
+          "95105.0",
+          "93827.0",
+          "98270.0",
+          "95960.0",
+          "95559.0",
+          "95846.0",
+          "102448.0"
+        ]
+      }
+    },
+    {
+      "name": "HSD010",
+      "type": "DOUBLE PRECISION",
+      "nullable": true,
+      "stats": {
+        "null_count": 2398,
+        "distinct_count": 7,
+        "null_percentage": 28.66,
+        "numeric_stats": {
+          "avg": 2.79205764075067,
+          "min": 1.0,
+          "max": 9.0,
+          "stddev": 0.9815580802063777
+        },
+        "frequent_values": [
+          {
+            "value": "3.0",
+            "count": 2454
+          },
+          {
+            "value": "2.0",
+            "count": 1544
+          },
+          {
+            "value": "4.0",
+            "count": 1175
+          },
+          {
+            "value": "1.0",
+            "count": 619
+          },
+          {
+            "value": "5.0",
+            "count": 172
+          }
+        ],
+        "sample_values": [
+          "3.0",
+          "4.0",
+          "1.0",
+          "9.0",
+          "7.0",
+          "2.0",
+          "5.0"
+        ]
+      }
+    },
+    {
+      "name": "HSQ500",
+      "type": "DOUBLE PRECISION",
+      "nullable": true,
+      "stats": {
+        "null_count": 823,
+        "distinct_count": 4,
+        "null_percentage": 9.84,
+        "numeric_stats": {
+          "avg": 1.8698130717221264,
+          "min": 1.0,
+          "max": 9.0,
+          "stddev": 0.6843475249670661
+        },
+        "frequent_values": [
+          {
+            "value": "2.0",
+            "count": 6163
+          },
+          {
+            "value": "1.0",
+            "count": 1328
+          },
+          {
+            "value": "9.0",
+            "count": 43
+          },
+          {
+            "value": "7.0",
+            "count": 9
+          }
+        ],
+        "sample_values": [
+          "9.0",
+          "7.0",
+          "2.0",
+          "1.0"
+        ]
+      }
+    },
+    {
+      "name": "HSQ510",
+      "type": "DOUBLE PRECISION",
+      "nullable": true,
+      "stats": {
+        "null_count": 823,
+        "distinct_count": 4,
+        "null_percentage": 9.84,
+        "numeric_stats": {
+          "avg": 1.9467055548190375,
+          "min": 1.0,
+          "max": 9.0,
+          "stddev": 0.4961500723874299
+        },
+        "frequent_values": [
+          {
+            "value": "2.0",
+            "count": 6913
+          },
+          {
+            "value": "1.0",
+            "count": 599
+          },
+          {
+            "value": "9.0",
+            "count": 21
+          },
+          {
+            "value": "7.0",
+            "count": 10
+          }
+        ],
+        "sample_values": [
+          "9.0",
+          "7.0",
+          "2.0",
+          "1.0"
+        ]
+      }
+    },
+    {
+      "name": "HSQ520",
+      "type": "DOUBLE PRECISION",
+      "nullable": true,
+      "stats": {
+        "null_count": 823,
+        "distinct_count": 4,
+        "null_percentage": 9.84,
+        "numeric_stats": {
+          "avg": 1.9750762296168634,
+          "min": 1.0,
+          "max": 9.0,
+          "stddev": 0.422973639804226
+        },
+        "frequent_values": [
+          {
+            "value": "2.0",
+            "count": 7173
+          },
+          {
+            "value": "1.0",
+            "count": 345
+          },
+          {
+            "value": "9.0",
+            "count": 16
+          },
+          {
+            "value": "7.0",
+            "count": 9
+          }
+        ],
+        "sample_values": [
+          "9.0",
+          "7.0",
+          "2.0",
+          "1.0"
+        ]
+      }
+    },
+    {
+      "name": "HSQ571",
+      "type": "DOUBLE PRECISION",
+      "nullable": true,
+      "stats": {
+        "null_count": 2947,
+        "distinct_count": 3,
+        "null_percentage": 35.23,
+        "numeric_stats": {
+          "avg": 1.9529433474810851,
+          "min": 1.0,
+          "max": 9.0,
+          "stddev": 0.27542395040409495
+        },
+        "frequent_values": [
+          {
+            "value": "2.0",
+            "count": 5140
+          },
+          {
+            "value": "1.0",
+            "count": 276
+          },
+          {
+            "value": "9.0",
+            "count": 3
+          }
+        ],
+        "sample_values": [
+          "9.0",
+          "2.0",
+          "1.0"
+        ]
+      }
+    },
+    {
+      "name": "HSQ580",
+      "type": "DOUBLE PRECISION",
+      "nullable": true,
+      "stats": {
+        "null_count": 8092,
+        "distinct_count": 13,
+        "null_percentage": 96.72,
+        "numeric_stats": {
+          "avg": 6.569343065693431,
+          "min": 1.0,
+          "max": 99.0,
+          "stddev": 13.035761249797746
+        },
+        "frequent_values": [
+          {
+            "value": "1.0",
+            "count": 53
+          },
+          {
+            "value": "6.0",
+            "count": 40
+          },
+          {
+            "value": "2.0",
+            "count": 35
+          },
+          {
+            "value": "4.0",
+            "count": 33
+          },
+          {
+            "value": "3.0",
+            "count": 23
+          }
+        ],
+        "sample_values": [
+          "3.0",
+          "4.0",
+          "1.0",
+          "9.0",
+          "99.0",
+          "6.0",
+          "8.0",
+          "7.0",
+          "2.0",
+          "5.0",
+          "10.0",
+          "11.0",
+          "12.0"
+        ]
+      }
+    },
+    {
+      "name": "HSQ590",
+      "type": "DOUBLE PRECISION",
+      "nullable": true,
+      "stats": {
+        "null_count": 2947,
+        "distinct_count": 3,
+        "null_percentage": 35.23,
+        "numeric_stats": {
+          "avg": 1.8848496032478317,
+          "min": 1.0,
+          "max": 9.0,
+          "stddev": 1.4372661125423434
+        },
+        "frequent_values": [
+          {
+            "value": "2.0",
+            "count": 3275
+          },
+          {
+            "value": "1.0",
+            "count": 1954
+          },
+          {
+            "value": "9.0",
+            "count": 190
+          }
+        ],
+        "sample_values": [
+          "9.0",
+          "2.0",
+          "1.0"
+        ]
+      }
+    },
+    {
+      "name": "HSAQUEX",
+      "type": "DOUBLE PRECISION",
+      "nullable": true,
+      "stats": {
+        "null_count": 0,
+        "distinct_count": 2,
+        "null_percentage": 0.0,
+        "numeric_stats": {
+          "avg": 1.7651207267511355,
+          "min": 1.0,
+          "max": 2.0,
+          "stddev": 0.42394868077278886
+        },
+        "frequent_values": [
+          {
+            "value": "2.0",
+            "count": 6401
+          },
+          {
+            "value": "1.0",
+            "count": 1965
+          }
+        ],
+        "sample_values": [
+          "2.0",
+          "1.0"
+        ]
+      }
+    }
+  ],
+  "sample_rows": [
+    {
+      "SEQN": 93703.0,
+      "HSD010": NaN,
+      "HSQ500": NaN,
+      "HSQ510": NaN,
+      "HSQ520": NaN,
+      "HSQ571": NaN,
+      "HSQ580": null,
+      "HSQ590": NaN,
+      "HSAQUEX": 1.0
+    },
+    {
+      "SEQN": 93704.0,
+      "HSD010": NaN,
+      "HSQ500": 2.0,
+      "HSQ510": 2.0,
+      "HSQ520": 2.0,
+      "HSQ571": NaN,
+      "HSQ580": null,
+      "HSQ590": NaN,
+      "HSAQUEX": 1.0
+    },
+    {
+      "SEQN": 93705.0,
+      "HSD010": 3.0,
+      "HSQ500": 2.0,
+      "HSQ510": 2.0,
+      "HSQ520": 2.0,
+      "HSQ571": 2.0,
+      "HSQ580": null,
+      "HSQ590": 1.0,
+      "HSAQUEX": 2.0
+    }
+  ],
+  "execution": {
+    "status": "success",
+    "seconds": 0.14,
+    "processed_at": "2026-06-11T21:19:39.788932",
+    "attempt": 1
+  }
+}

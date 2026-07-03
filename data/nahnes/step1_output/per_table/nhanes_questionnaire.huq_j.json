@@ -1,0 +1,479 @@
+{
+  "schema": "nhanes_questionnaire",
+  "table_name": "huq_j",
+  "row_count": 9254,
+  "primary_key": [],
+  "foreign_keys": [],
+  "columns": [
+    {
+      "name": "SEQN",
+      "type": "DOUBLE PRECISION",
+      "nullable": true,
+      "stats": {
+        "null_count": 0,
+        "distinct_count": 9254,
+        "null_percentage": 0.0,
+        "numeric_stats": {
+          "avg": 98329.5,
+          "min": 93703.0,
+          "max": 102956.0,
+          "stddev": 2671.5440292085773
+        },
+        "sample_values": [
+          "96472.0",
+          "101333.0",
+          "102403.0",
+          "100276.0",
+          "97209.0",
+          "101319.0",
+          "100331.0",
+          "102850.0",
+          "94262.0",
+          "95105.0",
+          "93827.0",
+          "98270.0",
+          "95960.0",
+          "95559.0",
+          "95846.0"
+        ]
+      }
+    },
+    {
+      "name": "HUQ010",
+      "type": "DOUBLE PRECISION",
+      "nullable": true,
+      "stats": {
+        "null_count": 0,
+        "distinct_count": 7,
+        "null_percentage": 0.0,
+        "numeric_stats": {
+          "avg": 2.436135725091852,
+          "min": 1.0,
+          "max": 9.0,
+          "stddev": 1.1051766138659909
+        },
+        "frequent_values": [
+          {
+            "value": "3.0",
+            "count": 2847
+          },
+          {
+            "value": "2.0",
+            "count": 2501
+          },
+          {
+            "value": "1.0",
+            "count": 2303
+          },
+          {
+            "value": "4.0",
+            "count": 1335
+          },
+          {
+            "value": "5.0",
+            "count": 261
+          }
+        ],
+        "sample_values": [
+          "3.0",
+          "4.0",
+          "1.0",
+          "9.0",
+          "7.0",
+          "2.0",
+          "5.0"
+        ]
+      }
+    },
+    {
+      "name": "HUQ020",
+      "type": "DOUBLE PRECISION",
+      "nullable": true,
+      "stats": {
+        "null_count": 357,
+        "distinct_count": 4,
+        "null_percentage": 3.86,
+        "numeric_stats": {
+          "avg": 2.5236596605597392,
+          "min": 1.0,
+          "max": 9.0,
+          "stddev": 0.8274781318055927
+        },
+        "frequent_values": [
+          {
+            "value": "3.0",
+            "count": 6427
+          },
+          {
+            "value": "1.0",
+            "count": 1810
+          },
+          {
+            "value": "2.0",
+            "count": 654
+          },
+          {
+            "value": "9.0",
+            "count": 6
+          }
+        ],
+        "sample_values": [
+          "9.0",
+          "3.0",
+          "2.0",
+          "1.0"
+        ]
+      }
+    },
+    {
+      "name": "HUQ030",
+      "type": "DOUBLE PRECISION",
+      "nullable": true,
+      "stats": {
+        "null_count": 0,
+        "distinct_count": 4,
+        "null_percentage": 0.0,
+        "numeric_stats": {
+          "avg": 1.1633888048411498,
+          "min": 1.0,
+          "max": 9.0,
+          "stddev": 0.3992530753356057
+        },
+        "frequent_values": [
+          {
+            "value": "1.0",
+            "count": 7805
+          },
+          {
+            "value": "2.0",
+            "count": 1398
+          },
+          {
+            "value": "3.0",
+            "count": 49
+          },
+          {
+            "value": "9.0",
+            "count": 2
+          }
+        ],
+        "sample_values": [
+          "9.0",
+          "3.0",
+          "2.0",
+          "1.0"
+        ]
+      }
+    },
+    {
+      "name": "HUQ041",
+      "type": "DOUBLE PRECISION",
+      "nullable": true,
+      "stats": {
+        "null_count": 1400,
+        "distinct_count": 7,
+        "null_percentage": 15.13,
+        "numeric_stats": {
+          "avg": 1.9396485867074102,
+          "min": 1.0,
+          "max": 99.0,
+          "stddev": 2.7749629519979346
+        },
+        "frequent_values": [
+          {
+            "value": "2.0",
+            "count": 5315
+          },
+          {
+            "value": "1.0",
+            "count": 1994
+          },
+          {
+            "value": "3.0",
+            "count": 291
+          },
+          {
+            "value": "5.0",
+            "count": 137
+          },
+          {
+            "value": "4.0",
+            "count": 104
+          }
+        ],
+        "sample_values": [
+          "3.0",
+          "4.0",
+          "1.0",
+          "99.0",
+          "6.0",
+          "2.0",
+          "5.0"
+        ]
+      }
+    },
+    {
+      "name": "HUQ051",
+      "type": "DOUBLE PRECISION",
+      "nullable": true,
+      "stats": {
+        "null_count": 0,
+        "distinct_count": 10,
+        "null_percentage": 0.0,
+        "numeric_stats": {
+          "avg": 2.5633239680138318,
+          "min": 5.397605346934028e-79,
+          "max": 99.0,
+          "stddev": 5.352023711026281
+        },
+        "frequent_values": [
+          {
+            "value": "2.0",
+            "count": 2932
+          },
+          {
+            "value": "1.0",
+            "count": 1945
+          },
+          {
+            "value": "3.0",
+            "count": 1421
+          },
+          {
+            "value": "5.397605346934028e-79",
+            "count": 1276
+          },
+          {
+            "value": "4.0",
+            "count": 587
+          }
+        ],
+        "sample_values": [
+          "3.0",
+          "4.0",
+          "1.0",
+          "99.0",
+          "6.0",
+          "5.397605346934028e-79",
+          "8.0",
+          "7.0",
+          "2.0",
+          "5.0"
+        ]
+      }
+    },
+    {
+      "name": "HUQ061",
+      "type": "DOUBLE PRECISION",
+      "nullable": true,
+      "stats": {
+        "null_count": 7978,
+        "distinct_count": 7,
+        "null_percentage": 86.21,
+        "numeric_stats": {
+          "avg": 3.816614420062696,
+          "min": 1.0,
+          "max": 99.0,
+          "stddev": 6.656448312478785
+        },
+        "frequent_values": [
+          {
+            "value": "3.0",
+            "count": 455
+          },
+          {
+            "value": "4.0",
+            "count": 366
+          },
+          {
+            "value": "5.0",
+            "count": 165
+          },
+          {
+            "value": "1.0",
+            "count": 126
+          },
+          {
+            "value": "2.0",
+            "count": 113
+          }
+        ],
+        "sample_values": [
+          "3.0",
+          "4.0",
+          "1.0",
+          "99.0",
+          "6.0",
+          "2.0",
+          "5.0"
+        ]
+      }
+    },
+    {
+      "name": "HUQ071",
+      "type": "DOUBLE PRECISION",
+      "nullable": true,
+      "stats": {
+        "null_count": 0,
+        "distinct_count": 3,
+        "null_percentage": 0.0,
+        "numeric_stats": {
+          "avg": 1.9139831424248974,
+          "min": 1.0,
+          "max": 9.0,
+          "stddev": 0.3110992251871614
+        },
+        "frequent_values": [
+          {
+            "value": "2.0",
+            "count": 8434
+          },
+          {
+            "value": "1.0",
+            "count": 817
+          },
+          {
+            "value": "9.0",
+            "count": 3
+          }
+        ],
+        "sample_values": [
+          "9.0",
+          "2.0",
+          "1.0"
+        ]
+      }
+    },
+    {
+      "name": "HUD080",
+      "type": "DOUBLE PRECISION",
+      "nullable": true,
+      "stats": {
+        "null_count": 8437,
+        "distinct_count": 7,
+        "null_percentage": 91.17,
+        "numeric_stats": {
+          "avg": 613.5189718482252,
+          "min": 1.0,
+          "max": 99999.0,
+          "stddev": 7803.61588981854
+        },
+        "frequent_values": [
+          {
+            "value": "1.0",
+            "count": 564
+          },
+          {
+            "value": "2.0",
+            "count": 150
+          },
+          {
+            "value": "3.0",
+            "count": 50
+          },
+          {
+            "value": "4.0",
+            "count": 21
+          },
+          {
+            "value": "6.0",
+            "count": 17
+          }
+        ],
+        "sample_values": [
+          "3.0",
+          "99999.0",
+          "4.0",
+          "1.0",
+          "6.0",
+          "2.0",
+          "5.0"
+        ]
+      }
+    },
+    {
+      "name": "HUQ090",
+      "type": "DOUBLE PRECISION",
+      "nullable": true,
+      "stats": {
+        "null_count": 1019,
+        "distinct_count": 4,
+        "null_percentage": 11.01,
+        "numeric_stats": {
+          "avg": 1.9009107468123863,
+          "min": 1.0,
+          "max": 9.0,
+          "stddev": 0.33191928481869415
+        },
+        "frequent_values": [
+          {
+            "value": "2.0",
+            "count": 7391
+          },
+          {
+            "value": "1.0",
+            "count": 840
+          },
+          {
+            "value": "9.0",
+            "count": 2
+          },
+          {
+            "value": "7.0",
+            "count": 2
+          }
+        ],
+        "sample_values": [
+          "9.0",
+          "7.0",
+          "2.0",
+          "1.0"
+        ]
+      }
+    }
+  ],
+  "sample_rows": [
+    {
+      "SEQN": 93703.0,
+      "HUQ010": 1.0,
+      "HUQ020": 3.0,
+      "HUQ030": 1.0,
+      "HUQ041": 2.0,
+      "HUQ051": 3.0,
+      "HUQ061": null,
+      "HUQ071": 2.0,
+      "HUD080": null,
+      "HUQ090": NaN
+    },
+    {
+      "SEQN": 93704.0,
+      "HUQ010": 1.0,
+      "HUQ020": 3.0,
+      "HUQ030": 1.0,
+      "HUQ041": 2.0,
+      "HUQ051": 2.0,
+      "HUQ061": null,
+      "HUQ071": 2.0,
+      "HUD080": null,
+      "HUQ090": NaN
+    },
+    {
+      "SEQN": 93705.0,
+      "HUQ010": 3.0,
+      "HUQ020": 3.0,
+      "HUQ030": 1.0,
+      "HUQ041": 1.0,
+      "HUQ051": 2.0,
+      "HUQ061": null,
+      "HUQ071": 2.0,
+      "HUD080": null,
+      "HUQ090": 2.0
+    }
+  ],
+  "execution": {
+    "status": "success",
+    "seconds": 0.17,
+    "processed_at": "2026-06-11T21:19:40.741913",
+    "attempt": 1
+  }
+}

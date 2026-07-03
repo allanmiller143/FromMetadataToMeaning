@@ -1,0 +1,837 @@
+{
+  "schema": "nhanes_questionnaire",
+  "table_name": "paq_j",
+  "row_count": 5856,
+  "primary_key": [],
+  "foreign_keys": [],
+  "columns": [
+    {
+      "name": "SEQN",
+      "type": "DOUBLE PRECISION",
+      "nullable": true,
+      "stats": {
+        "null_count": 0,
+        "distinct_count": 5856,
+        "null_percentage": 0.0,
+        "numeric_stats": {
+          "avg": 98280.04320355192,
+          "min": 93705.0,
+          "max": 102956.0,
+          "stddev": 2683.2915034041234
+        },
+        "sample_values": [
+          "101333.0",
+          "98813.0",
+          "96811.0",
+          "100276.0",
+          "97209.0",
+          "94966.0",
+          "101319.0",
+          "102850.0",
+          "95820.0",
+          "94262.0",
+          "95105.0",
+          "93827.0",
+          "98270.0",
+          "95559.0",
+          "97247.0"
+        ]
+      }
+    },
+    {
+      "name": "PAQ605",
+      "type": "DOUBLE PRECISION",
+      "nullable": true,
+      "stats": {
+        "null_count": 0,
+        "distinct_count": 3,
+        "null_percentage": 0.0,
+        "numeric_stats": {
+          "avg": 1.7699795081967213,
+          "min": 1.0,
+          "max": 9.0,
+          "stddev": 0.48428107906714674
+        },
+        "frequent_values": [
+          {
+            "value": "2.0",
+            "count": 4461
+          },
+          {
+            "value": "1.0",
+            "count": 1389
+          },
+          {
+            "value": "9.0",
+            "count": 6
+          }
+        ],
+        "sample_values": [
+          "9.0",
+          "2.0",
+          "1.0"
+        ]
+      }
+    },
+    {
+      "name": "PAQ610",
+      "type": "DOUBLE PRECISION",
+      "nullable": true,
+      "stats": {
+        "null_count": 4467,
+        "distinct_count": 8,
+        "null_percentage": 76.28,
+        "numeric_stats": {
+          "avg": 4.197264218862491,
+          "min": 1.0,
+          "max": 99.0,
+          "stddev": 3.1149853483578243
+        },
+        "frequent_values": [
+          {
+            "value": "5.0",
+            "count": 384
+          },
+          {
+            "value": "3.0",
+            "count": 232
+          },
+          {
+            "value": "2.0",
+            "count": 178
+          },
+          {
+            "value": "6.0",
+            "count": 160
+          },
+          {
+            "value": "4.0",
+            "count": 153
+          }
+        ],
+        "sample_values": [
+          "3.0",
+          "4.0",
+          "1.0",
+          "99.0",
+          "6.0",
+          "7.0",
+          "2.0",
+          "5.0"
+        ]
+      }
+    },
+    {
+      "name": "PAD615",
+      "type": "DOUBLE PRECISION",
+      "nullable": true,
+      "stats": {
+        "null_count": 4475,
+        "distinct_count": 28,
+        "null_percentage": 76.42,
+        "numeric_stats": {
+          "avg": 242.85010861694425,
+          "min": 10.0,
+          "max": 9999.0,
+          "stddev": 664.7806394073045
+        },
+        "frequent_values": [
+          {
+            "value": "120.0",
+            "count": 234
+          },
+          {
+            "value": "60.0",
+            "count": 194
+          },
+          {
+            "value": "240.0",
+            "count": 177
+          },
+          {
+            "value": "180.0",
+            "count": 130
+          },
+          {
+            "value": "480.0",
+            "count": 107
+          }
+        ],
+        "sample_values": [
+          "12.0",
+          "9999.0",
+          "780.0",
+          "15.0",
+          "480.0",
+          "540.0",
+          "90.0",
+          "20.0",
+          "720.0",
+          "300.0",
+          "140.0",
+          "60.0",
+          "660.0",
+          "600.0",
+          "240.0"
+        ]
+      }
+    },
+    {
+      "name": "PAQ620",
+      "type": "DOUBLE PRECISION",
+      "nullable": true,
+      "stats": {
+        "null_count": 0,
+        "distinct_count": 3,
+        "null_percentage": 0.0,
+        "numeric_stats": {
+          "avg": 1.58948087431694,
+          "min": 1.0,
+          "max": 9.0,
+          "stddev": 0.5383835790581615
+        },
+        "frequent_values": [
+          {
+            "value": "2.0",
+            "count": 3412
+          },
+          {
+            "value": "1.0",
+            "count": 2439
+          },
+          {
+            "value": "9.0",
+            "count": 5
+          }
+        ],
+        "sample_values": [
+          "9.0",
+          "2.0",
+          "1.0"
+        ]
+      }
+    },
+    {
+      "name": "PAQ625",
+      "type": "DOUBLE PRECISION",
+      "nullable": true,
+      "stats": {
+        "null_count": 3417,
+        "distinct_count": 8,
+        "null_percentage": 58.35,
+        "numeric_stats": {
+          "avg": 4.469864698646987,
+          "min": 1.0,
+          "max": 99.0,
+          "stddev": 5.015625095702034
+        },
+        "frequent_values": [
+          {
+            "value": "5.0",
+            "count": 702
+          },
+          {
+            "value": "3.0",
+            "count": 401
+          },
+          {
+            "value": "7.0",
+            "count": 331
+          },
+          {
+            "value": "2.0",
+            "count": 308
+          },
+          {
+            "value": "4.0",
+            "count": 307
+          }
+        ],
+        "sample_values": [
+          "3.0",
+          "4.0",
+          "1.0",
+          "99.0",
+          "6.0",
+          "7.0",
+          "2.0",
+          "5.0"
+        ]
+      }
+    },
+    {
+      "name": "PAD630",
+      "type": "DOUBLE PRECISION",
+      "nullable": true,
+      "stats": {
+        "null_count": 3430,
+        "distinct_count": 30,
+        "null_percentage": 58.57,
+        "numeric_stats": {
+          "avg": 226.8833470733718,
+          "min": 10.0,
+          "max": 9999.0,
+          "stddev": 731.5884291631835
+        },
+        "frequent_values": [
+          {
+            "value": "120.0",
+            "count": 449
+          },
+          {
+            "value": "60.0",
+            "count": 362
+          },
+          {
+            "value": "240.0",
+            "count": 317
+          },
+          {
+            "value": "180.0",
+            "count": 277
+          },
+          {
+            "value": "30.0",
+            "count": 206
+          }
+        ],
+        "sample_values": [
+          "480.0",
+          "15.0",
+          "540.0",
+          "90.0",
+          "20.0",
+          "720.0",
+          "300.0",
+          "140.0",
+          "60.0",
+          "660.0",
+          "50.0",
+          "230.0",
+          "70.0",
+          "600.0",
+          "240.0"
+        ]
+      }
+    },
+    {
+      "name": "PAQ635",
+      "type": "DOUBLE PRECISION",
+      "nullable": true,
+      "stats": {
+        "null_count": 0,
+        "distinct_count": 2,
+        "null_percentage": 0.0,
+        "numeric_stats": {
+          "avg": 1.75426912568306,
+          "min": 1.0,
+          "max": 2.0,
+          "stddev": 0.4305564631402282
+        },
+        "frequent_values": [
+          {
+            "value": "2.0",
+            "count": 4417
+          },
+          {
+            "value": "1.0",
+            "count": 1439
+          }
+        ],
+        "sample_values": [
+          "2.0",
+          "1.0"
+        ]
+      }
+    },
+    {
+      "name": "PAQ640",
+      "type": "DOUBLE PRECISION",
+      "nullable": true,
+      "stats": {
+        "null_count": 4417,
+        "distinct_count": 8,
+        "null_percentage": 75.43,
+        "numeric_stats": {
+          "avg": 4.931202223766505,
+          "min": 1.0,
+          "max": 99.0,
+          "stddev": 5.322439769919233
+        },
+        "frequent_values": [
+          {
+            "value": "7.0",
+            "count": 410
+          },
+          {
+            "value": "5.0",
+            "count": 332
+          },
+          {
+            "value": "3.0",
+            "count": 230
+          },
+          {
+            "value": "2.0",
+            "count": 177
+          },
+          {
+            "value": "4.0",
+            "count": 135
+          }
+        ],
+        "sample_values": [
+          "3.0",
+          "4.0",
+          "1.0",
+          "99.0",
+          "6.0",
+          "7.0",
+          "2.0",
+          "5.0"
+        ]
+      }
+    },
+    {
+      "name": "PAD645",
+      "type": "DOUBLE PRECISION",
+      "nullable": true,
+      "stats": {
+        "null_count": 4426,
+        "distinct_count": 34,
+        "null_percentage": 75.58,
+        "numeric_stats": {
+          "avg": 85.71048951048951,
+          "min": 10.0,
+          "max": 9999.0,
+          "stddev": 530.2616371930902
+        },
+        "frequent_values": [
+          {
+            "value": "30.0",
+            "count": 333
+          },
+          {
+            "value": "60.0",
+            "count": 270
+          },
+          {
+            "value": "20.0",
+            "count": 176
+          },
+          {
+            "value": "10.0",
+            "count": 154
+          },
+          {
+            "value": "15.0",
+            "count": 119
+          }
+        ],
+        "sample_values": [
+          "480.0",
+          "15.0",
+          "540.0",
+          "90.0",
+          "20.0",
+          "17.0",
+          "300.0",
+          "60.0",
+          "660.0",
+          "14.0",
+          "230.0",
+          "50.0",
+          "600.0",
+          "110.0",
+          "240.0"
+        ]
+      }
+    },
+    {
+      "name": "PAQ650",
+      "type": "DOUBLE PRECISION",
+      "nullable": true,
+      "stats": {
+        "null_count": 0,
+        "distinct_count": 2,
+        "null_percentage": 0.0,
+        "numeric_stats": {
+          "avg": 1.7551229508196722,
+          "min": 1.0,
+          "max": 2.0,
+          "stddev": 0.43005099919509016
+        },
+        "frequent_values": [
+          {
+            "value": "2.0",
+            "count": 4422
+          },
+          {
+            "value": "1.0",
+            "count": 1434
+          }
+        ],
+        "sample_values": [
+          "2.0",
+          "1.0"
+        ]
+      }
+    },
+    {
+      "name": "PAQ655",
+      "type": "DOUBLE PRECISION",
+      "nullable": true,
+      "stats": {
+        "null_count": 4422,
+        "distinct_count": 8,
+        "null_percentage": 75.51,
+        "numeric_stats": {
+          "avg": 3.4790794979079496,
+          "min": 1.0,
+          "max": 99.0,
+          "stddev": 2.9788592618149616
+        },
+        "frequent_values": [
+          {
+            "value": "3.0",
+            "count": 385
+          },
+          {
+            "value": "2.0",
+            "count": 269
+          },
+          {
+            "value": "4.0",
+            "count": 264
+          },
+          {
+            "value": "5.0",
+            "count": 207
+          },
+          {
+            "value": "1.0",
+            "count": 163
+          }
+        ],
+        "sample_values": [
+          "3.0",
+          "4.0",
+          "1.0",
+          "99.0",
+          "6.0",
+          "7.0",
+          "2.0",
+          "5.0"
+        ]
+      }
+    },
+    {
+      "name": "PAD660",
+      "type": "DOUBLE PRECISION",
+      "nullable": true,
+      "stats": {
+        "null_count": 4425,
+        "distinct_count": 28,
+        "null_percentage": 75.56,
+        "numeric_stats": {
+          "avg": 83.17610062893081,
+          "min": 10.0,
+          "max": 9999.0,
+          "stddev": 267.6514846187674
+        },
+        "frequent_values": [
+          {
+            "value": "60.0",
+            "count": 464
+          },
+          {
+            "value": "120.0",
+            "count": 240
+          },
+          {
+            "value": "30.0",
+            "count": 210
+          },
+          {
+            "value": "90.0",
+            "count": 110
+          },
+          {
+            "value": "45.0",
+            "count": 110
+          }
+        ],
+        "sample_values": [
+          "480.0",
+          "15.0",
+          "90.0",
+          "55.0",
+          "20.0",
+          "300.0",
+          "60.0",
+          "50.0",
+          "240.0",
+          "30.0",
+          "80.0",
+          "10.0",
+          "360.0",
+          "23.0",
+          "75.0"
+        ]
+      }
+    },
+    {
+      "name": "PAQ665",
+      "type": "DOUBLE PRECISION",
+      "nullable": true,
+      "stats": {
+        "null_count": 0,
+        "distinct_count": 2,
+        "null_percentage": 0.0,
+        "numeric_stats": {
+          "avg": 1.6058743169398908,
+          "min": 1.0,
+          "max": 2.0,
+          "stddev": 0.48870380913728195
+        },
+        "frequent_values": [
+          {
+            "value": "2.0",
+            "count": 3548
+          },
+          {
+            "value": "1.0",
+            "count": 2308
+          }
+        ],
+        "sample_values": [
+          "2.0",
+          "1.0"
+        ]
+      }
+    },
+    {
+      "name": "PAQ670",
+      "type": "DOUBLE PRECISION",
+      "nullable": true,
+      "stats": {
+        "null_count": 3548,
+        "distinct_count": 8,
+        "null_percentage": 60.59,
+        "numeric_stats": {
+          "avg": 3.64948006932409,
+          "min": 1.0,
+          "max": 99.0,
+          "stddev": 3.8712162547305415
+        },
+        "frequent_values": [
+          {
+            "value": "3.0",
+            "count": 606
+          },
+          {
+            "value": "2.0",
+            "count": 491
+          },
+          {
+            "value": "5.0",
+            "count": 321
+          },
+          {
+            "value": "4.0",
+            "count": 293
+          },
+          {
+            "value": "1.0",
+            "count": 253
+          }
+        ],
+        "sample_values": [
+          "3.0",
+          "4.0",
+          "1.0",
+          "99.0",
+          "6.0",
+          "7.0",
+          "2.0",
+          "5.0"
+        ]
+      }
+    },
+    {
+      "name": "PAD675",
+      "type": "DOUBLE PRECISION",
+      "nullable": true,
+      "stats": {
+        "null_count": 3555,
+        "distinct_count": 30,
+        "null_percentage": 60.71,
+        "numeric_stats": {
+          "avg": 68.28465884398088,
+          "min": 10.0,
+          "max": 9999.0,
+          "stddev": 215.16616485713826
+        },
+        "frequent_values": [
+          {
+            "value": "60.0",
+            "count": 641
+          },
+          {
+            "value": "30.0",
+            "count": 557
+          },
+          {
+            "value": "120.0",
+            "count": 260
+          },
+          {
+            "value": "20.0",
+            "count": 194
+          },
+          {
+            "value": "45.0",
+            "count": 123
+          }
+        ],
+        "sample_values": [
+          "480.0",
+          "15.0",
+          "540.0",
+          "90.0",
+          "55.0",
+          "20.0",
+          "300.0",
+          "60.0",
+          "50.0",
+          "240.0",
+          "210.0",
+          "30.0",
+          "80.0",
+          "10.0",
+          "360.0"
+        ]
+      }
+    },
+    {
+      "name": "PAD680",
+      "type": "DOUBLE PRECISION",
+      "nullable": true,
+      "stats": {
+        "null_count": 10,
+        "distinct_count": 56,
+        "null_percentage": 0.17,
+        "numeric_stats": {
+          "avg": 389.55815942524805,
+          "min": 5.397605346934028e-79,
+          "max": 9999.0,
+          "stddev": 771.8130916034914
+        },
+        "frequent_values": [
+          {
+            "value": "240.0",
+            "count": 824
+          },
+          {
+            "value": "180.0",
+            "count": 720
+          },
+          {
+            "value": "300.0",
+            "count": 689
+          },
+          {
+            "value": "120.0",
+            "count": 668
+          },
+          {
+            "value": "360.0",
+            "count": 632
+          }
+        ],
+        "sample_values": [
+          "1.0",
+          "840.0",
+          "960.0",
+          "150.0",
+          "180.0",
+          "40.0",
+          "2.0",
+          "145.0",
+          "11.0",
+          "9999.0",
+          "780.0",
+          "1320.0",
+          "15.0",
+          "480.0",
+          "540.0"
+        ]
+      }
+    }
+  ],
+  "sample_rows": [
+    {
+      "SEQN": 93705.0,
+      "PAQ605": 2.0,
+      "PAQ610": null,
+      "PAD615": null,
+      "PAQ620": 2.0,
+      "PAQ625": null,
+      "PAD630": null,
+      "PAQ635": 2.0,
+      "PAQ640": NaN,
+      "PAD645": NaN,
+      "PAQ650": 2.0,
+      "PAQ655": null,
+      "PAD660": null,
+      "PAQ665": 1.0,
+      "PAQ670": 2.0,
+      "PAD675": 60.0,
+      "PAD680": 300.0
+    },
+    {
+      "SEQN": 93706.0,
+      "PAQ605": 2.0,
+      "PAQ610": null,
+      "PAD615": null,
+      "PAQ620": 2.0,
+      "PAQ625": null,
+      "PAD630": null,
+      "PAQ635": 1.0,
+      "PAQ640": 5.0,
+      "PAD645": 45.0,
+      "PAQ650": 2.0,
+      "PAQ655": null,
+      "PAD660": null,
+      "PAQ665": 1.0,
+      "PAQ670": 2.0,
+      "PAD675": 30.0,
+      "PAD680": 240.0
+    },
+    {
+      "SEQN": 93708.0,
+      "PAQ605": 2.0,
+      "PAQ610": null,
+      "PAD615": null,
+      "PAQ620": 2.0,
+      "PAQ625": null,
+      "PAD630": null,
+      "PAQ635": 2.0,
+      "PAQ640": NaN,
+      "PAD645": NaN,
+      "PAQ650": 2.0,
+      "PAQ655": null,
+      "PAD660": null,
+      "PAQ665": 1.0,
+      "PAQ670": 5.0,
+      "PAD675": 30.0,
+      "PAD680": 120.0
+    }
+  ],
+  "execution": {
+    "status": "success",
+    "seconds": 0.2,
+    "processed_at": "2026-06-11T21:19:53.248574",
+    "attempt": 1
+  }
+}

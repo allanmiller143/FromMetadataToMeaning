@@ -1,0 +1,6154 @@
+{
+  "nhanes_admin.load_catalog": {
+    "v00_baseline": [],
+    "v01_full": [],
+    "v02_plus_fk": [],
+    "v03_plus_nullable": [],
+    "v04_plus_numeric_stats": [],
+    "v05_plus_sample_values": [],
+    "v06_plus_frequent_values": [],
+    "v07_plus_sample_rows": [],
+    "v08_fk_plus_sample_values": [],
+    "v09_fk_plus_frequent_values": [],
+    "v10_fk_plus_sample_and_frequent": [],
+    "v11_fk_plus_sample_rows": [],
+    "v12_nullable_plus_sample_values": [],
+    "v13_nullable_plus_frequent_values": [],
+    "v14_nullable_plus_numeric_stats": [],
+    "v15_sample_rows_vs_sample_values": [],
+    "v16_sample_rows_vs_frequent_values": [],
+    "v17_sample_rows_plus_both_values": [],
+    "v18_fk_nullable_sample_values": [],
+    "v19_fk_nullable_frequent_values": [],
+    "v20_fk_nullable_both_values": [],
+    "v21_fk_nullable_sample_rows": [],
+    "v22_fk_nullable_sample_rows_plus_frequent": [],
+    "v23_fk_nullable_sample_rows_plus_sample_values": [],
+    "v24_full_no_numeric_stats": [],
+    "v25_full_no_sample_rows": []
+  },
+  "nhanes_demographics.demo_j": {
+    "v00_baseline": [
+      "Demografia",
+      "Status socioeconômico",
+      "Composição familiar"
+    ],
+    "v01_full": [
+      "Demografia",
+      "Socioeconomia",
+      "Pesos amostrais"
+    ],
+    "v02_plus_fk": [
+      "Demografia",
+      "Status socioeconômico",
+      "Composição familiar"
+    ],
+    "v03_plus_nullable": [
+      "Demografia",
+      "Status socioeconômico",
+      "Cidadania e imigração"
+    ],
+    "v04_plus_numeric_stats": [
+      "Demografia",
+      "Socioeconomia",
+      "Pesquisa NHANES"
+    ],
+    "v05_plus_sample_values": [
+      "Demografia",
+      "Status socioeconômico",
+      "Composição familiar"
+    ],
+    "v06_plus_frequent_values": [
+      "Demografia",
+      "Socioeconomia",
+      "Cidadania"
+    ],
+    "v07_plus_sample_rows": [
+      "Demografia",
+      "Socioeconomia",
+      "Pesos amostrais"
+    ],
+    "v08_fk_plus_sample_values": [
+      "Demografia e saúde",
+      "Status socioeconômico",
+      "Composição familiar"
+    ],
+    "v09_fk_plus_frequent_values": [
+      "Demografia",
+      "Status socioeconômico",
+      "Composição familiar"
+    ],
+    "v10_fk_plus_sample_and_frequent": [
+      "Demografia",
+      "Renda familiar",
+      "Educação"
+    ],
+    "v11_fk_plus_sample_rows": [
+      "Demografia",
+      "Renda familiar",
+      "Status de imigração"
+    ],
+    "v12_nullable_plus_sample_values": [
+      "Demografia",
+      "Renda familiar",
+      "Status de imigração"
+    ],
+    "v13_nullable_plus_frequent_values": [
+      "Demografia",
+      "Status socioeconômico",
+      "Composição familiar"
+    ],
+    "v14_nullable_plus_numeric_stats": [
+      "Demografia",
+      "Socioeconomia",
+      "Composição familiar"
+    ],
+    "v15_sample_rows_vs_sample_values": [
+      "Demografia",
+      "Status socioeconômico",
+      "Composição familiar"
+    ],
+    "v16_sample_rows_vs_frequent_values": [
+      "Demografia",
+      "Socioeconomia",
+      "Composição familiar"
+    ],
+    "v17_sample_rows_plus_both_values": [
+      "Demografia",
+      "Socioeconomia",
+      "Cidadania"
+    ],
+    "v18_fk_nullable_sample_values": [
+      "Demografia de saúde",
+      "Perfil socioeconômico",
+      "Composição familiar"
+    ],
+    "v19_fk_nullable_frequent_values": [
+      "Demografia",
+      "Renda familiar",
+      "Educação"
+    ],
+    "v20_fk_nullable_both_values": [
+      "Demografia",
+      "Socioeconomia",
+      "Pesquisa domiciliar"
+    ],
+    "v21_fk_nullable_sample_rows": [
+      "Demografia",
+      "Socioeconomia",
+      "Pesos amostrais"
+    ],
+    "v22_fk_nullable_sample_rows_plus_frequent": [
+      "Demografia",
+      "Socioeconomia",
+      "Cidadania"
+    ],
+    "v23_fk_nullable_sample_rows_plus_sample_values": [
+      "Demografia",
+      "Renda familiar",
+      "Status socioeconômico"
+    ],
+    "v24_full_no_numeric_stats": [
+      "Demografia",
+      "Socioeconomia",
+      "Cidadania"
+    ],
+    "v25_full_no_sample_rows": [
+      "Demografia",
+      "Renda familiar",
+      "Cidadania e imigração"
+    ]
+  },
+  "nhanes_dietary.dr1iff_j": {
+    "v00_baseline": [],
+    "v01_full": [],
+    "v02_plus_fk": [],
+    "v03_plus_nullable": [],
+    "v04_plus_numeric_stats": [],
+    "v05_plus_sample_values": [],
+    "v06_plus_frequent_values": [],
+    "v07_plus_sample_rows": [],
+    "v08_fk_plus_sample_values": [],
+    "v09_fk_plus_frequent_values": [],
+    "v10_fk_plus_sample_and_frequent": [],
+    "v11_fk_plus_sample_rows": [],
+    "v12_nullable_plus_sample_values": [],
+    "v13_nullable_plus_frequent_values": [],
+    "v14_nullable_plus_numeric_stats": [],
+    "v15_sample_rows_vs_sample_values": [],
+    "v16_sample_rows_vs_frequent_values": [],
+    "v17_sample_rows_plus_both_values": [],
+    "v18_fk_nullable_sample_values": [],
+    "v19_fk_nullable_frequent_values": [],
+    "v20_fk_nullable_both_values": [],
+    "v21_fk_nullable_sample_rows": [],
+    "v22_fk_nullable_sample_rows_plus_frequent": [],
+    "v23_fk_nullable_sample_rows_plus_sample_values": [],
+    "v24_full_no_numeric_stats": [],
+    "v25_full_no_sample_rows": []
+  },
+  "nhanes_dietary.dr1tot_j": {
+    "v00_baseline": [],
+    "v01_full": [],
+    "v02_plus_fk": [],
+    "v03_plus_nullable": [],
+    "v04_plus_numeric_stats": [],
+    "v05_plus_sample_values": [],
+    "v06_plus_frequent_values": [],
+    "v07_plus_sample_rows": [],
+    "v08_fk_plus_sample_values": [],
+    "v09_fk_plus_frequent_values": [],
+    "v10_fk_plus_sample_and_frequent": [],
+    "v11_fk_plus_sample_rows": [],
+    "v12_nullable_plus_sample_values": [],
+    "v13_nullable_plus_frequent_values": [],
+    "v14_nullable_plus_numeric_stats": [],
+    "v15_sample_rows_vs_sample_values": [],
+    "v16_sample_rows_vs_frequent_values": [],
+    "v17_sample_rows_plus_both_values": [],
+    "v18_fk_nullable_sample_values": [],
+    "v19_fk_nullable_frequent_values": [],
+    "v20_fk_nullable_both_values": [],
+    "v21_fk_nullable_sample_rows": [],
+    "v22_fk_nullable_sample_rows_plus_frequent": [],
+    "v23_fk_nullable_sample_rows_plus_sample_values": [],
+    "v24_full_no_numeric_stats": [],
+    "v25_full_no_sample_rows": []
+  },
+  "nhanes_dietary.dr2iff_j": {
+    "v00_baseline": [],
+    "v01_full": [],
+    "v02_plus_fk": [],
+    "v03_plus_nullable": [],
+    "v04_plus_numeric_stats": [],
+    "v05_plus_sample_values": [],
+    "v06_plus_frequent_values": [],
+    "v07_plus_sample_rows": [],
+    "v08_fk_plus_sample_values": [],
+    "v09_fk_plus_frequent_values": [],
+    "v10_fk_plus_sample_and_frequent": [],
+    "v11_fk_plus_sample_rows": [],
+    "v12_nullable_plus_sample_values": [],
+    "v13_nullable_plus_frequent_values": [],
+    "v14_nullable_plus_numeric_stats": [],
+    "v15_sample_rows_vs_sample_values": [],
+    "v16_sample_rows_vs_frequent_values": [],
+    "v17_sample_rows_plus_both_values": [],
+    "v18_fk_nullable_sample_values": [],
+    "v19_fk_nullable_frequent_values": [],
+    "v20_fk_nullable_both_values": [],
+    "v21_fk_nullable_sample_rows": [],
+    "v22_fk_nullable_sample_rows_plus_frequent": [],
+    "v23_fk_nullable_sample_rows_plus_sample_values": [],
+    "v24_full_no_numeric_stats": [],
+    "v25_full_no_sample_rows": []
+  },
+  "nhanes_dietary.dr2tot_j": {
+    "v00_baseline": [],
+    "v01_full": [],
+    "v02_plus_fk": [],
+    "v03_plus_nullable": [],
+    "v04_plus_numeric_stats": [],
+    "v05_plus_sample_values": [],
+    "v06_plus_frequent_values": [],
+    "v07_plus_sample_rows": [],
+    "v08_fk_plus_sample_values": [],
+    "v09_fk_plus_frequent_values": [],
+    "v10_fk_plus_sample_and_frequent": [],
+    "v11_fk_plus_sample_rows": [],
+    "v12_nullable_plus_sample_values": [],
+    "v13_nullable_plus_frequent_values": [],
+    "v14_nullable_plus_numeric_stats": [],
+    "v15_sample_rows_vs_sample_values": [],
+    "v16_sample_rows_vs_frequent_values": [],
+    "v17_sample_rows_plus_both_values": [],
+    "v18_fk_nullable_sample_values": [],
+    "v19_fk_nullable_frequent_values": [],
+    "v20_fk_nullable_both_values": [],
+    "v21_fk_nullable_sample_rows": [],
+    "v22_fk_nullable_sample_rows_plus_frequent": [],
+    "v23_fk_nullable_sample_rows_plus_sample_values": [],
+    "v24_full_no_numeric_stats": [],
+    "v25_full_no_sample_rows": []
+  },
+  "nhanes_dietary.ds1ids_j": {
+    "v00_baseline": [],
+    "v01_full": [],
+    "v02_plus_fk": [],
+    "v03_plus_nullable": [],
+    "v04_plus_numeric_stats": [],
+    "v05_plus_sample_values": [],
+    "v06_plus_frequent_values": [],
+    "v07_plus_sample_rows": [],
+    "v08_fk_plus_sample_values": [],
+    "v09_fk_plus_frequent_values": [],
+    "v10_fk_plus_sample_and_frequent": [],
+    "v11_fk_plus_sample_rows": [],
+    "v12_nullable_plus_sample_values": [],
+    "v13_nullable_plus_frequent_values": [],
+    "v14_nullable_plus_numeric_stats": [],
+    "v15_sample_rows_vs_sample_values": [],
+    "v16_sample_rows_vs_frequent_values": [],
+    "v17_sample_rows_plus_both_values": [],
+    "v18_fk_nullable_sample_values": [],
+    "v19_fk_nullable_frequent_values": [],
+    "v20_fk_nullable_both_values": [],
+    "v21_fk_nullable_sample_rows": [],
+    "v22_fk_nullable_sample_rows_plus_frequent": [],
+    "v23_fk_nullable_sample_rows_plus_sample_values": [],
+    "v24_full_no_numeric_stats": [],
+    "v25_full_no_sample_rows": []
+  },
+  "nhanes_dietary.ds1tot_j": {
+    "v00_baseline": [
+      "Suplementos dietéticos",
+      "Ingestão de nutrientes",
+      "Consumo alimentar"
+    ],
+    "v01_full": [
+      "Suplementos dietéticos",
+      "Nutrientes",
+      "Consumo alimentar"
+    ],
+    "v02_plus_fk": [
+      "Suplementos dietéticos",
+      "Nutrientes totais",
+      "Consumo alimentar"
+    ],
+    "v03_plus_nullable": [
+      "Suplementos dietéticos",
+      "Nutrientes totais",
+      "Consumo alimentar"
+    ],
+    "v04_plus_numeric_stats": [
+      "Suplementos dietéticos",
+      "Nutrientes",
+      "Consumo alimentar"
+    ],
+    "v05_plus_sample_values": [
+      "Suplementos dietéticos",
+      "Nutrientes totais",
+      "Consumo alimentar"
+    ],
+    "v06_plus_frequent_values": [
+      "Suplementos dietéticos",
+      "Nutrientes totais",
+      "Consumo alimentar"
+    ],
+    "v07_plus_sample_rows": [
+      "Suplementos dietéticos",
+      "Nutrientes totais",
+      "Consumo alimentar"
+    ],
+    "v08_fk_plus_sample_values": [
+      "Consumo de suplementos dietéticos",
+      "Ingestão de nutrientes",
+      "Pesquisa dietética NHANES"
+    ],
+    "v09_fk_plus_frequent_values": [
+      "Suplementos dietéticos",
+      "Nutrientes totais",
+      "Consumo alimentar"
+    ],
+    "v10_fk_plus_sample_and_frequent": [
+      "Suplementos dietéticos",
+      "Nutrientes totais",
+      "Consumo alimentar"
+    ],
+    "v11_fk_plus_sample_rows": [
+      "Suplementos dietéticos",
+      "Nutrientes totais",
+      "Consumo alimentar"
+    ],
+    "v12_nullable_plus_sample_values": [
+      "Suplementos dietéticos",
+      "Nutrientes totais",
+      "Consumo alimentar"
+    ],
+    "v13_nullable_plus_frequent_values": [
+      "Suplementos dietéticos",
+      "Nutrientes totais",
+      "Consumo alimentar"
+    ],
+    "v14_nullable_plus_numeric_stats": [
+      "Suplementos dietéticos",
+      "Nutrientes totais",
+      "Consumo alimentar"
+    ],
+    "v15_sample_rows_vs_sample_values": [
+      "Suplementos dietéticos",
+      "Nutrientes totais",
+      "Consumo alimentar"
+    ],
+    "v16_sample_rows_vs_frequent_values": [
+      "Suplementos dietéticos",
+      "Nutrientes totais",
+      "Consumo alimentar"
+    ],
+    "v17_sample_rows_plus_both_values": [
+      "Suplementos dietéticos",
+      "Nutrientes",
+      "Consumo alimentar"
+    ],
+    "v18_fk_nullable_sample_values": [
+      "Suplementos dietéticos",
+      "Nutrientes totais",
+      "Consumo alimentar"
+    ],
+    "v19_fk_nullable_frequent_values": [
+      "Suplementos dietéticos",
+      "Nutrientes totais",
+      "Consumo alimentar"
+    ],
+    "v20_fk_nullable_both_values": [
+      "Suplementos dietéticos",
+      "Nutrientes totais",
+      "Consumo alimentar"
+    ],
+    "v21_fk_nullable_sample_rows": [
+      "Suplementos dietéticos",
+      "Nutrientes totais",
+      "Consumo alimentar"
+    ],
+    "v22_fk_nullable_sample_rows_plus_frequent": [
+      "Suplementos dietéticos",
+      "Nutrientes totais",
+      "Consumo alimentar"
+    ],
+    "v23_fk_nullable_sample_rows_plus_sample_values": [
+      "Suplementos dietéticos",
+      "Nutrientes totais",
+      "Consumo alimentar"
+    ],
+    "v24_full_no_numeric_stats": [
+      "Suplementos dietéticos",
+      "Nutrientes totais",
+      "Pesquisa dietética"
+    ],
+    "v25_full_no_sample_rows": [
+      "Consumo de suplementos dietéticos",
+      "Ingestão de nutrientes",
+      "Pesquisa dietética NHANES"
+    ]
+  },
+  "nhanes_dietary.ds2ids_j": {
+    "v00_baseline": [
+      "Suplementos dietéticos",
+      "Nutrientes",
+      "Consumo alimentar"
+    ],
+    "v01_full": [
+      "Suplementos dietéticos",
+      "Ingestão de nutrientes",
+      "Pesquisa dietética NHANES"
+    ],
+    "v02_plus_fk": [
+      "Suplementos dietéticos",
+      "Nutrientes de suplementos",
+      "Consumo alimentar"
+    ],
+    "v03_plus_nullable": [
+      "Suplementos dietéticos",
+      "Nutrientes",
+      "Consumo alimentar"
+    ],
+    "v04_plus_numeric_stats": [
+      "Suplementos dietéticos",
+      "Nutrientes",
+      "Consumo alimentar"
+    ],
+    "v05_plus_sample_values": [
+      "Suplementos dietéticos",
+      "Nutrientes",
+      "Consumo alimentar"
+    ],
+    "v06_plus_frequent_values": [
+      "Suplementos dietéticos",
+      "Ingestão de nutrientes",
+      "Pesquisa dietética NHANES"
+    ],
+    "v07_plus_sample_rows": [
+      "Suplementos dietéticos",
+      "Ingestão de nutrientes",
+      "Pesquisa nutricional"
+    ],
+    "v08_fk_plus_sample_values": [
+      "Suplementos dietéticos",
+      "Nutrientes de suplementos",
+      "Consumo de suplementos"
+    ],
+    "v09_fk_plus_frequent_values": [
+      "Suplementos dietéticos",
+      "Nutrientes",
+      "Consumo alimentar"
+    ],
+    "v10_fk_plus_sample_and_frequent": [
+      "Suplementos dietéticos",
+      "Nutrientes",
+      "Consumo alimentar"
+    ],
+    "v11_fk_plus_sample_rows": [
+      "Suplementos dietéticos",
+      "Nutrientes individuais",
+      "Consumo alimentar"
+    ],
+    "v12_nullable_plus_sample_values": [
+      "Suplementos dietéticos",
+      "Nutrientes de suplementos",
+      "Pesos amostrais dietéticos"
+    ],
+    "v13_nullable_plus_frequent_values": [
+      "Suplementos dietéticos",
+      "Ingestão de nutrientes",
+      "Pesquisa NHANES"
+    ],
+    "v14_nullable_plus_numeric_stats": [
+      "Suplementos dietéticos",
+      "Nutrientes",
+      "Consumo alimentar"
+    ],
+    "v15_sample_rows_vs_sample_values": [
+      "Suplementos dietéticos",
+      "Ingestão de nutrientes",
+      "Pesquisa dietética NHANES"
+    ],
+    "v16_sample_rows_vs_frequent_values": [
+      "Suplementos dietéticos",
+      "Ingestão de nutrientes",
+      "Pesquisa NHANES"
+    ],
+    "v17_sample_rows_plus_both_values": [
+      "Suplementos dietéticos",
+      "Nutrientes",
+      "Pesos amostrais"
+    ],
+    "v18_fk_nullable_sample_values": [
+      "Suplementos dietéticos",
+      "Nutrientes de suplementos",
+      "Consumo alimentar"
+    ],
+    "v19_fk_nullable_frequent_values": [
+      "Suplementos dietéticos",
+      "Nutrientes",
+      "Consumo alimentar"
+    ],
+    "v20_fk_nullable_both_values": [
+      "Suplementos alimentares",
+      "Nutrientes dietéticos",
+      "Consumo de vitaminas e minerais"
+    ],
+    "v21_fk_nullable_sample_rows": [
+      "Suplementos dietéticos",
+      "Nutrientes",
+      "Consumo alimentar"
+    ],
+    "v22_fk_nullable_sample_rows_plus_frequent": [
+      "Suplementos dietéticos",
+      "Ingestão de nutrientes",
+      "Pesquisa dietética NHANES"
+    ],
+    "v23_fk_nullable_sample_rows_plus_sample_values": [
+      "Suplementos dietéticos",
+      "Ingestão de nutrientes",
+      "Pesquisa dietética NHANES"
+    ],
+    "v24_full_no_numeric_stats": [
+      "Suplementos dietéticos",
+      "Ingestão de nutrientes",
+      "Pesquisa dietética NHANES"
+    ],
+    "v25_full_no_sample_rows": [
+      "Suplementos dietéticos",
+      "Ingestão de nutrientes",
+      "Pesquisa dietética NHANES"
+    ]
+  },
+  "nhanes_dietary.ds2tot_j": {
+    "v00_baseline": [
+      "Suplementos dietéticos",
+      "Nutrientes totais",
+      "Consumo alimentar"
+    ],
+    "v01_full": [
+      "Suplementos dietéticos",
+      "Nutrientes totais",
+      "Consumo alimentar"
+    ],
+    "v02_plus_fk": [
+      "Suplementos dietéticos",
+      "Nutrientes totais",
+      "Consumo alimentar"
+    ],
+    "v03_plus_nullable": [
+      "Suplementos nutricionais",
+      "Ingestão de nutrientes",
+      "Consumo alimentar total"
+    ],
+    "v04_plus_numeric_stats": [
+      "Suplementos dietéticos",
+      "Nutrientes totais",
+      "Consumo alimentar"
+    ],
+    "v05_plus_sample_values": [
+      "Suplementos dietéticos",
+      "Nutrientes totais",
+      "Consumo alimentar"
+    ],
+    "v06_plus_frequent_values": [
+      "Suplementos dietéticos",
+      "Nutrientes totais",
+      "Consumo alimentar"
+    ],
+    "v07_plus_sample_rows": [
+      "Suplementos dietéticos",
+      "Nutrientes totais",
+      "Consumo alimentar"
+    ],
+    "v08_fk_plus_sample_values": [
+      "Consumo de suplementos dietéticos",
+      "Ingestão de nutrientes",
+      "Pesquisa dietética"
+    ],
+    "v09_fk_plus_frequent_values": [
+      "Suplementos dietéticos",
+      "Nutrientes totais",
+      "Consumo alimentar"
+    ],
+    "v10_fk_plus_sample_and_frequent": [
+      "Suplementos dietéticos",
+      "Nutrientes totais",
+      "Consumo alimentar"
+    ],
+    "v11_fk_plus_sample_rows": [
+      "Suplementos dietéticos",
+      "Nutrientes totais",
+      "Consumo alimentar"
+    ],
+    "v12_nullable_plus_sample_values": [
+      "Consumo de suplementos dietéticos",
+      "Ingestão de nutrientes",
+      "Pesquisa dietética NHANES"
+    ],
+    "v13_nullable_plus_frequent_values": [
+      "Suplementos dietéticos",
+      "Nutrientes totais",
+      "Consumo alimentar"
+    ],
+    "v14_nullable_plus_numeric_stats": [
+      "Suplementos dietéticos",
+      "Nutrientes totais",
+      "Consumo alimentar"
+    ],
+    "v15_sample_rows_vs_sample_values": [
+      "Suplementos dietéticos",
+      "Nutrientes totais",
+      "Consumo alimentar"
+    ],
+    "v16_sample_rows_vs_frequent_values": [
+      "Suplementos dietéticos",
+      "Nutrientes totais",
+      "Consumo alimentar"
+    ],
+    "v17_sample_rows_plus_both_values": [
+      "Suplementos dietéticos",
+      "Nutrientes totais",
+      "Consumo alimentar"
+    ],
+    "v18_fk_nullable_sample_values": [
+      "Suplementos dietéticos",
+      "Nutrientes totais",
+      "Consumo alimentar"
+    ],
+    "v19_fk_nullable_frequent_values": [
+      "Suplementos dietéticos",
+      "Nutrientes totais",
+      "Consumo alimentar"
+    ],
+    "v20_fk_nullable_both_values": [
+      "Suplementos dietéticos",
+      "Nutrientes totais",
+      "Consumo alimentar"
+    ],
+    "v21_fk_nullable_sample_rows": [
+      "Suplementos dietéticos",
+      "Nutrientes totais",
+      "Consumo alimentar"
+    ],
+    "v22_fk_nullable_sample_rows_plus_frequent": [
+      "Suplementos dietéticos",
+      "Nutrientes totais",
+      "Consumo alimentar"
+    ],
+    "v23_fk_nullable_sample_rows_plus_sample_values": [
+      "Suplementos dietéticos",
+      "Nutrientes totais",
+      "Consumo alimentar"
+    ],
+    "v24_full_no_numeric_stats": [
+      "Suplementos dietéticos",
+      "Nutrientes totais",
+      "Consumo alimentar"
+    ],
+    "v25_full_no_sample_rows": [
+      "Consumo de suplementos dietéticos",
+      "Ingestão de nutrientes",
+      "Pesquisa dietética NHANES"
+    ]
+  },
+  "nhanes_dietary.dsqids_j": {
+    "v00_baseline": [
+      "Suplementos dietéticos",
+      "Ingestão de nutrientes",
+      "Consumo alimentar"
+    ],
+    "v01_full": [
+      "Suplementos dietéticos",
+      "Consumo de nutrientes",
+      "Frequência de uso"
+    ],
+    "v02_plus_fk": [
+      "Suplementos dietéticos",
+      "Nutrientes ingeridos",
+      "Consumo alimentar"
+    ],
+    "v03_plus_nullable": [
+      "Suplementos dietéticos",
+      "Nutrientes totais",
+      "Consumo alimentar"
+    ],
+    "v04_plus_numeric_stats": [
+      "Suplementos dietéticos",
+      "Consumo de nutrientes",
+      "Inquérito alimentar"
+    ],
+    "v05_plus_sample_values": [
+      "Suplementos dietéticos",
+      "Ingestão de nutrientes",
+      "Consumo alimentar"
+    ],
+    "v06_plus_frequent_values": [
+      "Suplementos dietéticos",
+      "Consumo de nutrientes",
+      "Frequência de uso de suplementos"
+    ],
+    "v07_plus_sample_rows": [
+      "Suplementos dietéticos",
+      "Ingestão de nutrientes",
+      "Consumo de vitaminas"
+    ],
+    "v08_fk_plus_sample_values": [
+      "Suplementos dietéticos",
+      "Consumo de nutrientes",
+      "Dosagem de suplementos"
+    ],
+    "v09_fk_plus_frequent_values": [
+      "Suplementos dietéticos",
+      "Consumo de nutrientes",
+      "Frequência de uso"
+    ],
+    "v10_fk_plus_sample_and_frequent": [
+      "Suplementos dietéticos",
+      "Consumo de nutrientes",
+      "Dietary supplement use"
+    ],
+    "v11_fk_plus_sample_rows": [
+      "Suplementos dietéticos",
+      "Nutrientes",
+      "Consumo alimentar"
+    ],
+    "v12_nullable_plus_sample_values": [
+      "Suplementos dietéticos",
+      "Consumo de nutrientes",
+      "Ingestão alimentar"
+    ],
+    "v13_nullable_plus_frequent_values": [
+      "Suplementos dietéticos",
+      "Consumo de nutrientes",
+      "Frequência de uso"
+    ],
+    "v14_nullable_plus_numeric_stats": [
+      "Suplementos dietéticos",
+      "Consumo de nutrientes",
+      "Inquérito alimentar"
+    ],
+    "v15_sample_rows_vs_sample_values": [
+      "Suplementos dietéticos",
+      "Ingestão de nutrientes",
+      "Frequência de uso"
+    ],
+    "v16_sample_rows_vs_frequent_values": [
+      "Suplementos dietéticos",
+      "Consumo de nutrientes",
+      "Frequência de uso"
+    ],
+    "v17_sample_rows_plus_both_values": [
+      "Suplementos dietéticos",
+      "Nutrientes",
+      "Consumo alimentar"
+    ],
+    "v18_fk_nullable_sample_values": [
+      "Suplementos dietéticos",
+      "Consumo de nutrientes",
+      "Dietary supplement use"
+    ],
+    "v19_fk_nullable_frequent_values": [
+      "Suplementos dietéticos",
+      "Ingestão de nutrientes",
+      "Frequência de uso de suplementos"
+    ],
+    "v20_fk_nullable_both_values": [
+      "Suplementos dietéticos",
+      "Consumo de nutrientes",
+      "Frequência de uso"
+    ],
+    "v21_fk_nullable_sample_rows": [
+      "Suplementos dietéticos",
+      "Ingestão de nutrientes",
+      "Frequência de uso de suplementos"
+    ],
+    "v22_fk_nullable_sample_rows_plus_frequent": [
+      "Suplementos dietéticos",
+      "Ingestão de nutrientes",
+      "Frequência de uso"
+    ],
+    "v23_fk_nullable_sample_rows_plus_sample_values": [
+      "Suplementos dietéticos",
+      "Ingestão de nutrientes",
+      "Consumo de vitaminas e minerais"
+    ],
+    "v24_full_no_numeric_stats": [
+      "Suplementos dietéticos",
+      "Ingestão de nutrientes",
+      "Frequência de uso"
+    ],
+    "v25_full_no_sample_rows": [
+      "Suplementos dietéticos",
+      "Consumo de nutrientes",
+      "Frequência de uso"
+    ]
+  },
+  "nhanes_dietary.dsqtot_j": {
+    "v00_baseline": [
+      "Ingestão de nutrientes",
+      "Suplementos dietéticos",
+      "Consumo alimentar"
+    ],
+    "v01_full": [
+      "Consumo alimentar",
+      "Ingestão de nutrientes",
+      "Suplementos dietéticos"
+    ],
+    "v02_plus_fk": [
+      "Suplementos dietéticos",
+      "Nutrientes totais",
+      "Consumo alimentar"
+    ],
+    "v03_plus_nullable": [
+      "Ingestão de nutrientes",
+      "Suplementos dietéticos",
+      "Consumo energético"
+    ],
+    "v04_plus_numeric_stats": [
+      "Consumo de nutrientes",
+      "Suplementos dietéticos",
+      "Inquérito alimentar"
+    ],
+    "v05_plus_sample_values": [
+      "Nutrientes dietéticos totais",
+      "Consumo alimentar total",
+      "Micronutrientes e macronutrientes"
+    ],
+    "v06_plus_frequent_values": [
+      "Suplementos dietéticos",
+      "Nutrientes totais",
+      "Consumo alimentar"
+    ],
+    "v07_plus_sample_rows": [
+      "Suplementos dietéticos",
+      "Ingestão de nutrientes",
+      "Consumo alimentar"
+    ],
+    "v08_fk_plus_sample_values": [
+      "Consumo alimentar",
+      "Ingestão de nutrientes",
+      "Suplementos dietéticos"
+    ],
+    "v09_fk_plus_frequent_values": [
+      "Nutrientes dietéticos",
+      "Suplementos alimentares",
+      "Consumo de vitaminas e minerais"
+    ],
+    "v10_fk_plus_sample_and_frequent": [
+      "Nutrientes dietéticos",
+      "Consumo alimentar",
+      "Suplementos dietéticos"
+    ],
+    "v11_fk_plus_sample_rows": [
+      "Suplementos dietéticos",
+      "Nutrientes totais",
+      "Consumo alimentar"
+    ],
+    "v12_nullable_plus_sample_values": [
+      "Consumo alimentar",
+      "Ingestão de nutrientes",
+      "Suplementos dietéticos"
+    ],
+    "v13_nullable_plus_frequent_values": [
+      "Consumo de nutrientes",
+      "Suplementos dietéticos",
+      "Ingestão alimentar"
+    ],
+    "v14_nullable_plus_numeric_stats": [
+      "Nutrientes dietéticos",
+      "Consumo alimentar",
+      "Suplementos dietéticos"
+    ],
+    "v15_sample_rows_vs_sample_values": [
+      "Nutrientes dietéticos",
+      "Consumo alimentar",
+      "Suplementos dietéticos"
+    ],
+    "v16_sample_rows_vs_frequent_values": [
+      "Suplementos dietéticos",
+      "Nutrientes totais",
+      "Consumo alimentar"
+    ],
+    "v17_sample_rows_plus_both_values": [
+      "Consumo de nutrientes",
+      "Suplementos dietéticos",
+      "Ingestão alimentar"
+    ],
+    "v18_fk_nullable_sample_values": [
+      "Consumo alimentar total",
+      "Ingestão de nutrientes",
+      "Suplementos dietéticos"
+    ],
+    "v19_fk_nullable_frequent_values": [
+      "Nutrientes dietéticos totais",
+      "Consumo alimentar suplementar",
+      "Micronutrientes e macronutrientes"
+    ],
+    "v20_fk_nullable_both_values": [
+      "Consumo de nutrientes",
+      "Ingestão alimentar total",
+      "Suplementos dietéticos"
+    ],
+    "v21_fk_nullable_sample_rows": [
+      "Nutrientes dietéticos totais",
+      "Consumo alimentar suplementar",
+      "Micronutrientes e macronutrientes"
+    ],
+    "v22_fk_nullable_sample_rows_plus_frequent": [
+      "Consumo de nutrientes",
+      "Suplementos dietéticos",
+      "Ingestão alimentar total"
+    ],
+    "v23_fk_nullable_sample_rows_plus_sample_values": [
+      "Consumo de nutrientes",
+      "Ingestão alimentar total",
+      "Suplementos dietéticos"
+    ],
+    "v24_full_no_numeric_stats": [
+      "Consumo de nutrientes",
+      "Suplementos dietéticos",
+      "Ingestão alimentar total"
+    ],
+    "v25_full_no_sample_rows": [
+      "Ingestão de nutrientes",
+      "Consumo alimentar",
+      "Suplementos dietéticos"
+    ]
+  },
+  "nhanes_examination.aux_j": {
+    "v00_baseline": [],
+    "v01_full": [],
+    "v02_plus_fk": [],
+    "v03_plus_nullable": [],
+    "v04_plus_numeric_stats": [],
+    "v05_plus_sample_values": [],
+    "v06_plus_frequent_values": [],
+    "v07_plus_sample_rows": [],
+    "v08_fk_plus_sample_values": [],
+    "v09_fk_plus_frequent_values": [],
+    "v10_fk_plus_sample_and_frequent": [],
+    "v11_fk_plus_sample_rows": [],
+    "v12_nullable_plus_sample_values": [],
+    "v13_nullable_plus_frequent_values": [],
+    "v14_nullable_plus_numeric_stats": [],
+    "v15_sample_rows_vs_sample_values": [],
+    "v16_sample_rows_vs_frequent_values": [],
+    "v17_sample_rows_plus_both_values": [],
+    "v18_fk_nullable_sample_values": [],
+    "v19_fk_nullable_frequent_values": [],
+    "v20_fk_nullable_both_values": [],
+    "v21_fk_nullable_sample_rows": [],
+    "v22_fk_nullable_sample_rows_plus_frequent": [],
+    "v23_fk_nullable_sample_rows_plus_sample_values": [],
+    "v24_full_no_numeric_stats": [],
+    "v25_full_no_sample_rows": []
+  },
+  "nhanes_examination.auxar_j": {
+    "v00_baseline": [],
+    "v01_full": [],
+    "v02_plus_fk": [],
+    "v03_plus_nullable": [],
+    "v04_plus_numeric_stats": [],
+    "v05_plus_sample_values": [],
+    "v06_plus_frequent_values": [],
+    "v07_plus_sample_rows": [],
+    "v08_fk_plus_sample_values": [],
+    "v09_fk_plus_frequent_values": [],
+    "v10_fk_plus_sample_and_frequent": [],
+    "v11_fk_plus_sample_rows": [],
+    "v12_nullable_plus_sample_values": [],
+    "v13_nullable_plus_frequent_values": [],
+    "v14_nullable_plus_numeric_stats": [],
+    "v15_sample_rows_vs_sample_values": [],
+    "v16_sample_rows_vs_frequent_values": [],
+    "v17_sample_rows_plus_both_values": [],
+    "v18_fk_nullable_sample_values": [],
+    "v19_fk_nullable_frequent_values": [],
+    "v20_fk_nullable_both_values": [],
+    "v21_fk_nullable_sample_rows": [],
+    "v22_fk_nullable_sample_rows_plus_frequent": [],
+    "v23_fk_nullable_sample_rows_plus_sample_values": [],
+    "v24_full_no_numeric_stats": [],
+    "v25_full_no_sample_rows": []
+  },
+  "nhanes_examination.auxtym_j": {
+    "v00_baseline": [],
+    "v01_full": [],
+    "v02_plus_fk": [],
+    "v03_plus_nullable": [],
+    "v04_plus_numeric_stats": [],
+    "v05_plus_sample_values": [],
+    "v06_plus_frequent_values": [],
+    "v07_plus_sample_rows": [],
+    "v08_fk_plus_sample_values": [],
+    "v09_fk_plus_frequent_values": [],
+    "v10_fk_plus_sample_and_frequent": [],
+    "v11_fk_plus_sample_rows": [],
+    "v12_nullable_plus_sample_values": [],
+    "v13_nullable_plus_frequent_values": [],
+    "v14_nullable_plus_numeric_stats": [],
+    "v15_sample_rows_vs_sample_values": [],
+    "v16_sample_rows_vs_frequent_values": [],
+    "v17_sample_rows_plus_both_values": [],
+    "v18_fk_nullable_sample_values": [],
+    "v19_fk_nullable_frequent_values": [],
+    "v20_fk_nullable_both_values": [],
+    "v21_fk_nullable_sample_rows": [],
+    "v22_fk_nullable_sample_rows_plus_frequent": [],
+    "v23_fk_nullable_sample_rows_plus_sample_values": [],
+    "v24_full_no_numeric_stats": [],
+    "v25_full_no_sample_rows": []
+  },
+  "nhanes_examination.auxwbr_j": {
+    "v00_baseline": [],
+    "v01_full": [],
+    "v02_plus_fk": [],
+    "v03_plus_nullable": [],
+    "v04_plus_numeric_stats": [],
+    "v05_plus_sample_values": [],
+    "v06_plus_frequent_values": [],
+    "v07_plus_sample_rows": [],
+    "v08_fk_plus_sample_values": [],
+    "v09_fk_plus_frequent_values": [],
+    "v10_fk_plus_sample_and_frequent": [],
+    "v11_fk_plus_sample_rows": [],
+    "v12_nullable_plus_sample_values": [],
+    "v13_nullable_plus_frequent_values": [],
+    "v14_nullable_plus_numeric_stats": [],
+    "v15_sample_rows_vs_sample_values": [],
+    "v16_sample_rows_vs_frequent_values": [],
+    "v17_sample_rows_plus_both_values": [],
+    "v18_fk_nullable_sample_values": [],
+    "v19_fk_nullable_frequent_values": [],
+    "v20_fk_nullable_both_values": [],
+    "v21_fk_nullable_sample_rows": [],
+    "v22_fk_nullable_sample_rows_plus_frequent": [],
+    "v23_fk_nullable_sample_rows_plus_sample_values": [],
+    "v24_full_no_numeric_stats": [],
+    "v25_full_no_sample_rows": []
+  },
+  "nhanes_examination.bmx_j": {
+    "v00_baseline": [
+      "Antropometria",
+      "Medidas corporais",
+      "Índice de massa corporal"
+    ],
+    "v01_full": [
+      "Antropometria",
+      "Peso corporal",
+      "Circunferências corporais"
+    ],
+    "v02_plus_fk": [
+      "Antropometria",
+      "Medidas corporais",
+      "Exame físico"
+    ],
+    "v03_plus_nullable": [
+      "Medidas antropométricas",
+      "Composição corporal",
+      "Índice de massa corporal"
+    ],
+    "v04_plus_numeric_stats": [
+      "Antropometria",
+      "Índice de Massa Corporal",
+      "Medidas Corporais"
+    ],
+    "v05_plus_sample_values": [
+      "Antropometria",
+      "Composição corporal",
+      "Medidas físicas"
+    ],
+    "v06_plus_frequent_values": [
+      "Medidas antropométricas",
+      "Peso e altura",
+      "Circunferências corporais"
+    ],
+    "v07_plus_sample_rows": [
+      "Antropometria",
+      "Medidas corporais",
+      "IMC"
+    ],
+    "v08_fk_plus_sample_values": [
+      "Antropometria",
+      "Medidas corporais",
+      "Peso e altura"
+    ],
+    "v09_fk_plus_frequent_values": [
+      "Medidas antropométricas",
+      "Peso e altura",
+      "Circunferências corporais"
+    ],
+    "v10_fk_plus_sample_and_frequent": [
+      "Antropometria",
+      "Peso e estatura",
+      "Circunferências corporais"
+    ],
+    "v11_fk_plus_sample_rows": [
+      "Antropometria",
+      "Medidas corporais",
+      "Exame físico"
+    ],
+    "v12_nullable_plus_sample_values": [
+      "Antropometria",
+      "Medidas corporais",
+      "Índice de massa corporal"
+    ],
+    "v13_nullable_plus_frequent_values": [
+      "Medidas antropométricas",
+      "Peso e altura",
+      "Circunferências corporais"
+    ],
+    "v14_nullable_plus_numeric_stats": [
+      "Antropometria",
+      "Composição corporal",
+      "Medidas físicas"
+    ],
+    "v15_sample_rows_vs_sample_values": [
+      "Antropometria",
+      "Composição corporal",
+      "Medidas corporais"
+    ],
+    "v16_sample_rows_vs_frequent_values": [
+      "Antropometria",
+      "Medidas corporais",
+      "IMC"
+    ],
+    "v17_sample_rows_plus_both_values": [
+      "Antropometria",
+      "Medidas corporais",
+      "IMC"
+    ],
+    "v18_fk_nullable_sample_values": [
+      "Antropometria",
+      "Composição corporal",
+      "Medidas físicas"
+    ],
+    "v19_fk_nullable_frequent_values": [
+      "Medidas antropométricas",
+      "Peso e estatura",
+      "Circunferências corporais"
+    ],
+    "v20_fk_nullable_both_values": [
+      "Antropometria",
+      "Composição corporal",
+      "Medidas corporais"
+    ],
+    "v21_fk_nullable_sample_rows": [
+      "Antropometria",
+      "Composição corporal",
+      "Medidas físicas"
+    ],
+    "v22_fk_nullable_sample_rows_plus_frequent": [
+      "Medidas corporais",
+      "Antropometria",
+      "Índice de massa corporal"
+    ],
+    "v23_fk_nullable_sample_rows_plus_sample_values": [
+      "Antropometria",
+      "Medidas corporais",
+      "Avaliação nutricional"
+    ],
+    "v24_full_no_numeric_stats": [
+      "Antropometria",
+      "Composição corporal",
+      "Medidas corporais"
+    ],
+    "v25_full_no_sample_rows": [
+      "Antropometria",
+      "Composição corporal",
+      "Medidas físicas"
+    ]
+  },
+  "nhanes_examination.bpx_j": {
+    "v00_baseline": [
+      "Pressão arterial",
+      "Frequência cardíaca",
+      "Exame físico cardiovascular"
+    ],
+    "v01_full": [
+      "Pressão arterial",
+      "Frequência cardíaca",
+      "Pulso"
+    ],
+    "v02_plus_fk": [
+      "Pressão arterial",
+      "Frequência cardíaca",
+      "Exame físico cardiovascular"
+    ],
+    "v03_plus_nullable": [
+      "Pressão arterial",
+      "Frequência cardíaca",
+      "Medidas de pulso"
+    ],
+    "v04_plus_numeric_stats": [
+      "Pressão arterial",
+      "Frequência cardíaca",
+      "Exame cardiovascular"
+    ],
+    "v05_plus_sample_values": [
+      "Pressão arterial",
+      "Frequência cardíaca",
+      "Exame físico cardiovascular"
+    ],
+    "v06_plus_frequent_values": [
+      "Pressão arterial",
+      "Frequência cardíaca",
+      "Exame físico cardiovascular"
+    ],
+    "v07_plus_sample_rows": [
+      "Pressão arterial",
+      "Frequência cardíaca",
+      "Pulso"
+    ],
+    "v08_fk_plus_sample_values": [
+      "Pressão arterial sistólica",
+      "Pressão arterial diastólica",
+      "Frequência cardíaca"
+    ],
+    "v09_fk_plus_frequent_values": [
+      "Pressão arterial",
+      "Frequência cardíaca",
+      "Exame físico cardiovascular"
+    ],
+    "v10_fk_plus_sample_and_frequent": [
+      "Pressão arterial",
+      "Frequência cardíaca",
+      "Medidas de pulso"
+    ],
+    "v11_fk_plus_sample_rows": [
+      "Pressão arterial",
+      "Frequência cardíaca",
+      "Exame físico cardiovascular"
+    ],
+    "v12_nullable_plus_sample_values": [
+      "Pressão arterial",
+      "Frequência cardíaca",
+      "Exame físico cardiovascular"
+    ],
+    "v13_nullable_plus_frequent_values": [
+      "Pressão arterial",
+      "Frequência cardíaca",
+      "Exame físico cardiovascular"
+    ],
+    "v14_nullable_plus_numeric_stats": [
+      "Pressão arterial",
+      "Frequência cardíaca",
+      "Exame físico cardiovascular"
+    ],
+    "v15_sample_rows_vs_sample_values": [
+      "Pressão arterial",
+      "Frequência cardíaca",
+      "Pulso"
+    ],
+    "v16_sample_rows_vs_frequent_values": [
+      "Pressão arterial",
+      "Frequência cardíaca",
+      "Pulso"
+    ],
+    "v17_sample_rows_plus_both_values": [
+      "Pressão arterial",
+      "Frequência cardíaca",
+      "Pulso"
+    ],
+    "v18_fk_nullable_sample_values": [
+      "Pressão arterial sistólica",
+      "Pressão arterial diastólica",
+      "Frequência cardíaca"
+    ],
+    "v19_fk_nullable_frequent_values": [
+      "Pressão arterial",
+      "Frequência cardíaca",
+      "Medidas de pulso"
+    ],
+    "v20_fk_nullable_both_values": [
+      "Pressão arterial",
+      "Frequência cardíaca",
+      "Pulso"
+    ],
+    "v21_fk_nullable_sample_rows": [
+      "Pressão arterial",
+      "Frequência cardíaca",
+      "Medidas antropométricas"
+    ],
+    "v22_fk_nullable_sample_rows_plus_frequent": [
+      "Pressão arterial",
+      "Frequência cardíaca",
+      "Exame físico"
+    ],
+    "v23_fk_nullable_sample_rows_plus_sample_values": [
+      "Pressão arterial",
+      "Frequência cardíaca",
+      "Pulso"
+    ],
+    "v24_full_no_numeric_stats": [
+      "Pressão arterial",
+      "Frequência cardíaca",
+      "Pulso"
+    ],
+    "v25_full_no_sample_rows": [
+      "Pressão arterial",
+      "Frequência cardíaca",
+      "Pulso"
+    ]
+  },
+  "nhanes_examination.bpxo_j": {
+    "v00_baseline": [
+      "Pressão arterial oscultométrica",
+      "Medidas de pulso",
+      "Exame cardiovascular"
+    ],
+    "v01_full": [
+      "Pressão arterial sistólica",
+      "Pressão arterial diastólica",
+      "Pulso"
+    ],
+    "v02_plus_fk": [
+      "Pressão arterial",
+      "Medidas oscilométricas",
+      "Exame de saúde"
+    ],
+    "v03_plus_nullable": [
+      "Pressão arterial",
+      "Pulso",
+      "Medidas oscilométricas"
+    ],
+    "v04_plus_numeric_stats": [
+      "Pressão arterial",
+      "Oscilometria",
+      "Exame físico"
+    ],
+    "v05_plus_sample_values": [
+      "Pressão arterial",
+      "Oscilometria",
+      "Exame físico"
+    ],
+    "v06_plus_frequent_values": [
+      "Pressão arterial",
+      "Medidas oscilométricas",
+      "Saúde cardiovascular"
+    ],
+    "v07_plus_sample_rows": [
+      "Pressão arterial sistólica e diastólica",
+      "Pulso",
+      "Medidas de braço"
+    ],
+    "v08_fk_plus_sample_values": [
+      "Pressão arterial",
+      "Oscilometria",
+      "Exame físico"
+    ],
+    "v09_fk_plus_frequent_values": [
+      "Pressão arterial",
+      "Oscilometria",
+      "Exame físico"
+    ],
+    "v10_fk_plus_sample_and_frequent": [
+      "Pressão arterial",
+      "Oscilometria",
+      "Exame físico"
+    ],
+    "v11_fk_plus_sample_rows": [
+      "Pressão arterial sistólica",
+      "Pressão arterial diastólica",
+      "Pulso"
+    ],
+    "v12_nullable_plus_sample_values": [
+      "Pressão arterial",
+      "Oscilometria",
+      "Exame físico"
+    ],
+    "v13_nullable_plus_frequent_values": [
+      "Pressão arterial",
+      "Medidas oscilométricas",
+      "Exame físico"
+    ],
+    "v14_nullable_plus_numeric_stats": [
+      "Pressão arterial sistólica",
+      "Pressão arterial diastólica",
+      "Pulso"
+    ],
+    "v15_sample_rows_vs_sample_values": [
+      "Pressão arterial sistólica",
+      "Pressão arterial diastólica",
+      "Pulso"
+    ],
+    "v16_sample_rows_vs_frequent_values": [
+      "Pressão arterial",
+      "Oscilometria",
+      "Exame físico"
+    ],
+    "v17_sample_rows_plus_both_values": [
+      "Pressão arterial sistólica",
+      "Pressão arterial diastólica",
+      "Medidas oscilométricas"
+    ],
+    "v18_fk_nullable_sample_values": [
+      "Pressão arterial oscilométrica",
+      "Medidas repetidas de pressão",
+      "Braço de medição"
+    ],
+    "v19_fk_nullable_frequent_values": [
+      "Pressão arterial sistólica",
+      "Pressão arterial diastólica",
+      "Pulso"
+    ],
+    "v20_fk_nullable_both_values": [
+      "Pressão arterial",
+      "Oscilometria",
+      "Exame físico"
+    ],
+    "v21_fk_nullable_sample_rows": [
+      "Pressão arterial",
+      "Pulso",
+      "Medidas oscilométricas"
+    ],
+    "v22_fk_nullable_sample_rows_plus_frequent": [
+      "Pressão arterial sistólica",
+      "Pressão arterial diastólica",
+      "Pulso"
+    ],
+    "v23_fk_nullable_sample_rows_plus_sample_values": [
+      "Pressão arterial",
+      "Oscilometria",
+      "Exame físico"
+    ],
+    "v24_full_no_numeric_stats": [
+      "Pressão arterial sistólica",
+      "Pressão arterial diastólica",
+      "Medidas de pulso"
+    ],
+    "v25_full_no_sample_rows": [
+      "Pressão arterial sistólica",
+      "Pressão arterial diastólica",
+      "Medidas de pulso"
+    ]
+  },
+  "nhanes_examination.dxx_j": {
+    "v00_baseline": [],
+    "v01_full": [],
+    "v02_plus_fk": [],
+    "v03_plus_nullable": [],
+    "v04_plus_numeric_stats": [],
+    "v05_plus_sample_values": [],
+    "v06_plus_frequent_values": [],
+    "v07_plus_sample_rows": [],
+    "v08_fk_plus_sample_values": [],
+    "v09_fk_plus_frequent_values": [],
+    "v10_fk_plus_sample_and_frequent": [],
+    "v11_fk_plus_sample_rows": [],
+    "v12_nullable_plus_sample_values": [],
+    "v13_nullable_plus_frequent_values": [],
+    "v14_nullable_plus_numeric_stats": [],
+    "v15_sample_rows_vs_sample_values": [],
+    "v16_sample_rows_vs_frequent_values": [],
+    "v17_sample_rows_plus_both_values": [],
+    "v18_fk_nullable_sample_values": [],
+    "v19_fk_nullable_frequent_values": [],
+    "v20_fk_nullable_both_values": [],
+    "v21_fk_nullable_sample_rows": [],
+    "v22_fk_nullable_sample_rows_plus_frequent": [],
+    "v23_fk_nullable_sample_rows_plus_sample_values": [],
+    "v24_full_no_numeric_stats": [],
+    "v25_full_no_sample_rows": []
+  },
+  "nhanes_examination.dxxag_j": {
+    "v00_baseline": [],
+    "v01_full": [],
+    "v02_plus_fk": [],
+    "v03_plus_nullable": [],
+    "v04_plus_numeric_stats": [],
+    "v05_plus_sample_values": [],
+    "v06_plus_frequent_values": [],
+    "v07_plus_sample_rows": [],
+    "v08_fk_plus_sample_values": [],
+    "v09_fk_plus_frequent_values": [],
+    "v10_fk_plus_sample_and_frequent": [],
+    "v11_fk_plus_sample_rows": [],
+    "v12_nullable_plus_sample_values": [],
+    "v13_nullable_plus_frequent_values": [],
+    "v14_nullable_plus_numeric_stats": [],
+    "v15_sample_rows_vs_sample_values": [],
+    "v16_sample_rows_vs_frequent_values": [],
+    "v17_sample_rows_plus_both_values": [],
+    "v18_fk_nullable_sample_values": [],
+    "v19_fk_nullable_frequent_values": [],
+    "v20_fk_nullable_both_values": [],
+    "v21_fk_nullable_sample_rows": [],
+    "v22_fk_nullable_sample_rows_plus_frequent": [],
+    "v23_fk_nullable_sample_rows_plus_sample_values": [],
+    "v24_full_no_numeric_stats": [],
+    "v25_full_no_sample_rows": []
+  },
+  "nhanes_examination.dxxfem_j": {
+    "v00_baseline": [],
+    "v01_full": [],
+    "v02_plus_fk": [],
+    "v03_plus_nullable": [],
+    "v04_plus_numeric_stats": [],
+    "v05_plus_sample_values": [],
+    "v06_plus_frequent_values": [],
+    "v07_plus_sample_rows": [],
+    "v08_fk_plus_sample_values": [],
+    "v09_fk_plus_frequent_values": [],
+    "v10_fk_plus_sample_and_frequent": [],
+    "v11_fk_plus_sample_rows": [],
+    "v12_nullable_plus_sample_values": [],
+    "v13_nullable_plus_frequent_values": [],
+    "v14_nullable_plus_numeric_stats": [],
+    "v15_sample_rows_vs_sample_values": [],
+    "v16_sample_rows_vs_frequent_values": [],
+    "v17_sample_rows_plus_both_values": [],
+    "v18_fk_nullable_sample_values": [],
+    "v19_fk_nullable_frequent_values": [],
+    "v20_fk_nullable_both_values": [],
+    "v21_fk_nullable_sample_rows": [],
+    "v22_fk_nullable_sample_rows_plus_frequent": [],
+    "v23_fk_nullable_sample_rows_plus_sample_values": [],
+    "v24_full_no_numeric_stats": [],
+    "v25_full_no_sample_rows": []
+  },
+  "nhanes_examination.dxxspn_j": {
+    "v00_baseline": [],
+    "v01_full": [],
+    "v02_plus_fk": [],
+    "v03_plus_nullable": [],
+    "v04_plus_numeric_stats": [],
+    "v05_plus_sample_values": [],
+    "v06_plus_frequent_values": [],
+    "v07_plus_sample_rows": [],
+    "v08_fk_plus_sample_values": [],
+    "v09_fk_plus_frequent_values": [],
+    "v10_fk_plus_sample_and_frequent": [],
+    "v11_fk_plus_sample_rows": [],
+    "v12_nullable_plus_sample_values": [],
+    "v13_nullable_plus_frequent_values": [],
+    "v14_nullable_plus_numeric_stats": [],
+    "v15_sample_rows_vs_sample_values": [],
+    "v16_sample_rows_vs_frequent_values": [],
+    "v17_sample_rows_plus_both_values": [],
+    "v18_fk_nullable_sample_values": [],
+    "v19_fk_nullable_frequent_values": [],
+    "v20_fk_nullable_both_values": [],
+    "v21_fk_nullable_sample_rows": [],
+    "v22_fk_nullable_sample_rows_plus_frequent": [],
+    "v23_fk_nullable_sample_rows_plus_sample_values": [],
+    "v24_full_no_numeric_stats": [],
+    "v25_full_no_sample_rows": []
+  },
+  "nhanes_examination.lux_j": {
+    "v00_baseline": [],
+    "v01_full": [],
+    "v02_plus_fk": [],
+    "v03_plus_nullable": [],
+    "v04_plus_numeric_stats": [],
+    "v05_plus_sample_values": [],
+    "v06_plus_frequent_values": [],
+    "v07_plus_sample_rows": [],
+    "v08_fk_plus_sample_values": [],
+    "v09_fk_plus_frequent_values": [],
+    "v10_fk_plus_sample_and_frequent": [],
+    "v11_fk_plus_sample_rows": [],
+    "v12_nullable_plus_sample_values": [],
+    "v13_nullable_plus_frequent_values": [],
+    "v14_nullable_plus_numeric_stats": [],
+    "v15_sample_rows_vs_sample_values": [],
+    "v16_sample_rows_vs_frequent_values": [],
+    "v17_sample_rows_plus_both_values": [],
+    "v18_fk_nullable_sample_values": [],
+    "v19_fk_nullable_frequent_values": [],
+    "v20_fk_nullable_both_values": [],
+    "v21_fk_nullable_sample_rows": [],
+    "v22_fk_nullable_sample_rows_plus_frequent": [],
+    "v23_fk_nullable_sample_rows_plus_sample_values": [],
+    "v24_full_no_numeric_stats": [],
+    "v25_full_no_sample_rows": []
+  },
+  "nhanes_examination.ohxden_j": {
+    "v00_baseline": [],
+    "v01_full": [],
+    "v02_plus_fk": [],
+    "v03_plus_nullable": [],
+    "v04_plus_numeric_stats": [],
+    "v05_plus_sample_values": [],
+    "v06_plus_frequent_values": [],
+    "v07_plus_sample_rows": [],
+    "v08_fk_plus_sample_values": [],
+    "v09_fk_plus_frequent_values": [],
+    "v10_fk_plus_sample_and_frequent": [],
+    "v11_fk_plus_sample_rows": [],
+    "v12_nullable_plus_sample_values": [],
+    "v13_nullable_plus_frequent_values": [],
+    "v14_nullable_plus_numeric_stats": [],
+    "v15_sample_rows_vs_sample_values": [],
+    "v16_sample_rows_vs_frequent_values": [],
+    "v17_sample_rows_plus_both_values": [],
+    "v18_fk_nullable_sample_values": [],
+    "v19_fk_nullable_frequent_values": [],
+    "v20_fk_nullable_both_values": [],
+    "v21_fk_nullable_sample_rows": [],
+    "v22_fk_nullable_sample_rows_plus_frequent": [],
+    "v23_fk_nullable_sample_rows_plus_sample_values": [],
+    "v24_full_no_numeric_stats": [],
+    "v25_full_no_sample_rows": []
+  },
+  "nhanes_examination.ohxref_j": {
+    "v00_baseline": [],
+    "v01_full": [],
+    "v02_plus_fk": [],
+    "v03_plus_nullable": [],
+    "v04_plus_numeric_stats": [],
+    "v05_plus_sample_values": [],
+    "v06_plus_frequent_values": [],
+    "v07_plus_sample_rows": [],
+    "v08_fk_plus_sample_values": [],
+    "v09_fk_plus_frequent_values": [],
+    "v10_fk_plus_sample_and_frequent": [],
+    "v11_fk_plus_sample_rows": [],
+    "v12_nullable_plus_sample_values": [],
+    "v13_nullable_plus_frequent_values": [],
+    "v14_nullable_plus_numeric_stats": [],
+    "v15_sample_rows_vs_sample_values": [],
+    "v16_sample_rows_vs_frequent_values": [],
+    "v17_sample_rows_plus_both_values": [],
+    "v18_fk_nullable_sample_values": [],
+    "v19_fk_nullable_frequent_values": [],
+    "v20_fk_nullable_both_values": [],
+    "v21_fk_nullable_sample_rows": [],
+    "v22_fk_nullable_sample_rows_plus_frequent": [],
+    "v23_fk_nullable_sample_rows_plus_sample_values": [],
+    "v24_full_no_numeric_stats": [],
+    "v25_full_no_sample_rows": []
+  },
+  "nhanes_laboratory.alb_cr_j": {
+    "v00_baseline": [],
+    "v01_full": [],
+    "v02_plus_fk": [],
+    "v03_plus_nullable": [],
+    "v04_plus_numeric_stats": [],
+    "v05_plus_sample_values": [],
+    "v06_plus_frequent_values": [],
+    "v07_plus_sample_rows": [],
+    "v08_fk_plus_sample_values": [],
+    "v09_fk_plus_frequent_values": [],
+    "v10_fk_plus_sample_and_frequent": [],
+    "v11_fk_plus_sample_rows": [],
+    "v12_nullable_plus_sample_values": [],
+    "v13_nullable_plus_frequent_values": [],
+    "v14_nullable_plus_numeric_stats": [],
+    "v15_sample_rows_vs_sample_values": [],
+    "v16_sample_rows_vs_frequent_values": [],
+    "v17_sample_rows_plus_both_values": [],
+    "v18_fk_nullable_sample_values": [],
+    "v19_fk_nullable_frequent_values": [],
+    "v20_fk_nullable_both_values": [],
+    "v21_fk_nullable_sample_rows": [],
+    "v22_fk_nullable_sample_rows_plus_frequent": [],
+    "v23_fk_nullable_sample_rows_plus_sample_values": [],
+    "v24_full_no_numeric_stats": [],
+    "v25_full_no_sample_rows": []
+  },
+  "nhanes_laboratory.biopro_j": {
+    "v00_baseline": [],
+    "v01_full": [],
+    "v02_plus_fk": [],
+    "v03_plus_nullable": [],
+    "v04_plus_numeric_stats": [],
+    "v05_plus_sample_values": [],
+    "v06_plus_frequent_values": [],
+    "v07_plus_sample_rows": [],
+    "v08_fk_plus_sample_values": [],
+    "v09_fk_plus_frequent_values": [],
+    "v10_fk_plus_sample_and_frequent": [],
+    "v11_fk_plus_sample_rows": [],
+    "v12_nullable_plus_sample_values": [],
+    "v13_nullable_plus_frequent_values": [],
+    "v14_nullable_plus_numeric_stats": [],
+    "v15_sample_rows_vs_sample_values": [],
+    "v16_sample_rows_vs_frequent_values": [],
+    "v17_sample_rows_plus_both_values": [],
+    "v18_fk_nullable_sample_values": [],
+    "v19_fk_nullable_frequent_values": [],
+    "v20_fk_nullable_both_values": [],
+    "v21_fk_nullable_sample_rows": [],
+    "v22_fk_nullable_sample_rows_plus_frequent": [],
+    "v23_fk_nullable_sample_rows_plus_sample_values": [],
+    "v24_full_no_numeric_stats": [],
+    "v25_full_no_sample_rows": []
+  },
+  "nhanes_laboratory.cbc_j": {
+    "v00_baseline": [
+      "Hemograma completo",
+      "Contagem de células sanguíneas",
+      "Parâmetros eritrocitários"
+    ],
+    "v01_full": [
+      "Hemograma completo",
+      "Leucograma",
+      "Eritrograma"
+    ],
+    "v02_plus_fk": [
+      "Hemograma completo",
+      "Leucograma",
+      "Eritrograma"
+    ],
+    "v03_plus_nullable": [
+      "Hemograma completo",
+      "Contagem de leucócitos",
+      "Eritrograma"
+    ],
+    "v04_plus_numeric_stats": [
+      "Hemograma completo",
+      "Contagem de células sanguíneas",
+      "Parâmetros eritrocitários"
+    ],
+    "v05_plus_sample_values": [
+      "Hemograma completo",
+      "Contagem diferencial de leucócitos",
+      "Índices eritrocitários"
+    ],
+    "v06_plus_frequent_values": [
+      "Hemograma completo",
+      "Contagem de leucócitos",
+      "Eritrograma"
+    ],
+    "v07_plus_sample_rows": [
+      "Hemograma completo",
+      "Contagem diferencial de leucócitos",
+      "Índices eritrocitários"
+    ],
+    "v08_fk_plus_sample_values": [
+      "Hemograma completo",
+      "Contagem diferencial de leucócitos",
+      "Índices eritrocitários"
+    ],
+    "v09_fk_plus_frequent_values": [
+      "Hemograma completo",
+      "Contagem de leucócitos",
+      "Eritrograma"
+    ],
+    "v10_fk_plus_sample_and_frequent": [
+      "Hemograma completo",
+      "Contagem diferencial de leucócitos",
+      "Índices eritrocitários"
+    ],
+    "v11_fk_plus_sample_rows": [
+      "Hemograma completo",
+      "Leucograma",
+      "Eritrograma"
+    ],
+    "v12_nullable_plus_sample_values": [
+      "Hemograma completo",
+      "Leucograma",
+      "Eritrograma"
+    ],
+    "v13_nullable_plus_frequent_values": [
+      "Hemograma completo",
+      "Contagem de leucócitos",
+      "Eritrograma"
+    ],
+    "v14_nullable_plus_numeric_stats": [
+      "Hemograma completo",
+      "Leucograma",
+      "Eritrograma"
+    ],
+    "v15_sample_rows_vs_sample_values": [
+      "Hemograma completo",
+      "Contagem diferencial de leucócitos",
+      "Índices eritrocitários"
+    ],
+    "v16_sample_rows_vs_frequent_values": [
+      "Hemograma completo",
+      "Contagem diferencial de leucócitos",
+      "Índices eritrocitários"
+    ],
+    "v17_sample_rows_plus_both_values": [
+      "Hemograma completo",
+      "Contagem diferencial de leucócitos",
+      "Índices eritrocitários"
+    ],
+    "v18_fk_nullable_sample_values": [
+      "Hemograma completo",
+      "Contagem diferencial de leucócitos",
+      "Índices eritrocitários"
+    ],
+    "v19_fk_nullable_frequent_values": [
+      "Hemograma completo",
+      "Contagem diferencial de leucócitos",
+      "Índices eritrocitários"
+    ],
+    "v20_fk_nullable_both_values": [
+      "Hemograma completo",
+      "Contagem diferencial de leucócitos",
+      "Índices eritrocitários"
+    ],
+    "v21_fk_nullable_sample_rows": [
+      "Hemograma completo",
+      "Leucograma",
+      "Eritrograma"
+    ],
+    "v22_fk_nullable_sample_rows_plus_frequent": [
+      "Hemograma completo",
+      "Contagem diferencial de leucócitos",
+      "Índices eritrocitários"
+    ],
+    "v23_fk_nullable_sample_rows_plus_sample_values": [
+      "Hemograma completo",
+      "Leucograma",
+      "Eritrograma"
+    ],
+    "v24_full_no_numeric_stats": [
+      "Hemograma completo",
+      "Leucograma",
+      "Eritrograma"
+    ],
+    "v25_full_no_sample_rows": [
+      "Hemograma completo",
+      "Leucograma",
+      "Eritrograma"
+    ]
+  },
+  "nhanes_laboratory.cmv_j": {
+    "v00_baseline": [],
+    "v01_full": [],
+    "v02_plus_fk": [],
+    "v03_plus_nullable": [],
+    "v04_plus_numeric_stats": [],
+    "v05_plus_sample_values": [],
+    "v06_plus_frequent_values": [],
+    "v07_plus_sample_rows": [],
+    "v08_fk_plus_sample_values": [],
+    "v09_fk_plus_frequent_values": [],
+    "v10_fk_plus_sample_and_frequent": [],
+    "v11_fk_plus_sample_rows": [],
+    "v12_nullable_plus_sample_values": [],
+    "v13_nullable_plus_frequent_values": [],
+    "v14_nullable_plus_numeric_stats": [],
+    "v15_sample_rows_vs_sample_values": [],
+    "v16_sample_rows_vs_frequent_values": [],
+    "v17_sample_rows_plus_both_values": [],
+    "v18_fk_nullable_sample_values": [],
+    "v19_fk_nullable_frequent_values": [],
+    "v20_fk_nullable_both_values": [],
+    "v21_fk_nullable_sample_rows": [],
+    "v22_fk_nullable_sample_rows_plus_frequent": [],
+    "v23_fk_nullable_sample_rows_plus_sample_values": [],
+    "v24_full_no_numeric_stats": [],
+    "v25_full_no_sample_rows": []
+  },
+  "nhanes_laboratory.cot_j": {
+    "v00_baseline": [],
+    "v01_full": [],
+    "v02_plus_fk": [],
+    "v03_plus_nullable": [],
+    "v04_plus_numeric_stats": [],
+    "v05_plus_sample_values": [],
+    "v06_plus_frequent_values": [],
+    "v07_plus_sample_rows": [],
+    "v08_fk_plus_sample_values": [],
+    "v09_fk_plus_frequent_values": [],
+    "v10_fk_plus_sample_and_frequent": [],
+    "v11_fk_plus_sample_rows": [],
+    "v12_nullable_plus_sample_values": [],
+    "v13_nullable_plus_frequent_values": [],
+    "v14_nullable_plus_numeric_stats": [],
+    "v15_sample_rows_vs_sample_values": [],
+    "v16_sample_rows_vs_frequent_values": [],
+    "v17_sample_rows_plus_both_values": [],
+    "v18_fk_nullable_sample_values": [],
+    "v19_fk_nullable_frequent_values": [],
+    "v20_fk_nullable_both_values": [],
+    "v21_fk_nullable_sample_rows": [],
+    "v22_fk_nullable_sample_rows_plus_frequent": [],
+    "v23_fk_nullable_sample_rows_plus_sample_values": [],
+    "v24_full_no_numeric_stats": [],
+    "v25_full_no_sample_rows": []
+  },
+  "nhanes_laboratory.crco_j": {
+    "v00_baseline": [],
+    "v01_full": [],
+    "v02_plus_fk": [],
+    "v03_plus_nullable": [],
+    "v04_plus_numeric_stats": [],
+    "v05_plus_sample_values": [],
+    "v06_plus_frequent_values": [],
+    "v07_plus_sample_rows": [],
+    "v08_fk_plus_sample_values": [],
+    "v09_fk_plus_frequent_values": [],
+    "v10_fk_plus_sample_and_frequent": [],
+    "v11_fk_plus_sample_rows": [],
+    "v12_nullable_plus_sample_values": [],
+    "v13_nullable_plus_frequent_values": [],
+    "v14_nullable_plus_numeric_stats": [],
+    "v15_sample_rows_vs_sample_values": [],
+    "v16_sample_rows_vs_frequent_values": [],
+    "v17_sample_rows_plus_both_values": [],
+    "v18_fk_nullable_sample_values": [],
+    "v19_fk_nullable_frequent_values": [],
+    "v20_fk_nullable_both_values": [],
+    "v21_fk_nullable_sample_rows": [],
+    "v22_fk_nullable_sample_rows_plus_frequent": [],
+    "v23_fk_nullable_sample_rows_plus_sample_values": [],
+    "v24_full_no_numeric_stats": [],
+    "v25_full_no_sample_rows": []
+  },
+  "nhanes_laboratory.ephpp_j": {
+    "v00_baseline": [],
+    "v01_full": [],
+    "v02_plus_fk": [],
+    "v03_plus_nullable": [],
+    "v04_plus_numeric_stats": [],
+    "v05_plus_sample_values": [],
+    "v06_plus_frequent_values": [],
+    "v07_plus_sample_rows": [],
+    "v08_fk_plus_sample_values": [],
+    "v09_fk_plus_frequent_values": [],
+    "v10_fk_plus_sample_and_frequent": [],
+    "v11_fk_plus_sample_rows": [],
+    "v12_nullable_plus_sample_values": [],
+    "v13_nullable_plus_frequent_values": [],
+    "v14_nullable_plus_numeric_stats": [],
+    "v15_sample_rows_vs_sample_values": [],
+    "v16_sample_rows_vs_frequent_values": [],
+    "v17_sample_rows_plus_both_values": [],
+    "v18_fk_nullable_sample_values": [],
+    "v19_fk_nullable_frequent_values": [],
+    "v20_fk_nullable_both_values": [],
+    "v21_fk_nullable_sample_rows": [],
+    "v22_fk_nullable_sample_rows_plus_frequent": [],
+    "v23_fk_nullable_sample_rows_plus_sample_values": [],
+    "v24_full_no_numeric_stats": [],
+    "v25_full_no_sample_rows": []
+  },
+  "nhanes_laboratory.ethox_j": {
+    "v00_baseline": [],
+    "v01_full": [],
+    "v02_plus_fk": [],
+    "v03_plus_nullable": [],
+    "v04_plus_numeric_stats": [],
+    "v05_plus_sample_values": [],
+    "v06_plus_frequent_values": [],
+    "v07_plus_sample_rows": [],
+    "v08_fk_plus_sample_values": [],
+    "v09_fk_plus_frequent_values": [],
+    "v10_fk_plus_sample_and_frequent": [],
+    "v11_fk_plus_sample_rows": [],
+    "v12_nullable_plus_sample_values": [],
+    "v13_nullable_plus_frequent_values": [],
+    "v14_nullable_plus_numeric_stats": [],
+    "v15_sample_rows_vs_sample_values": [],
+    "v16_sample_rows_vs_frequent_values": [],
+    "v17_sample_rows_plus_both_values": [],
+    "v18_fk_nullable_sample_values": [],
+    "v19_fk_nullable_frequent_values": [],
+    "v20_fk_nullable_both_values": [],
+    "v21_fk_nullable_sample_rows": [],
+    "v22_fk_nullable_sample_rows_plus_frequent": [],
+    "v23_fk_nullable_sample_rows_plus_sample_values": [],
+    "v24_full_no_numeric_stats": [],
+    "v25_full_no_sample_rows": []
+  },
+  "nhanes_laboratory.fastqx_j": {
+    "v00_baseline": [
+      "Jejum laboratorial",
+      "Tempos de coleta",
+      "Questionário de saúde"
+    ],
+    "v01_full": [
+      "Jejum laboratorial",
+      "Tempo de jejum",
+      "Uso de cafeína e álcool"
+    ],
+    "v02_plus_fk": [
+      "Jejum laboratorial",
+      "Tempos de coleta",
+      "Marcadores de fase"
+    ],
+    "v03_plus_nullable": [
+      "Jejum laboratorial",
+      "Tempos de coleta",
+      "Marcadores de fase"
+    ],
+    "v04_plus_numeric_stats": [
+      "Jejum laboratorial",
+      "Tempo de jejum",
+      "Coleta de exames"
+    ],
+    "v05_plus_sample_values": [
+      "Jejum laboratorial",
+      "Tempos de jejum",
+      "Horas de jejum"
+    ],
+    "v06_plus_frequent_values": [
+      "Jejum laboratorial",
+      "Questionário de saúde",
+      "Tempos de coleta"
+    ],
+    "v07_plus_sample_rows": [
+      "Jejum laboratorial",
+      "Tempo de jejum",
+      "Consumo alimentar pré-exame"
+    ],
+    "v08_fk_plus_sample_values": [
+      "Jejum laboratorial",
+      "Tempo de jejum",
+      "Questionário de saúde"
+    ],
+    "v09_fk_plus_frequent_values": [
+      "Jejum laboratorial",
+      "Questionário de saúde",
+      "Tempos de coleta"
+    ],
+    "v10_fk_plus_sample_and_frequent": [
+      "Jejum laboratorial",
+      "Questionário de saúde",
+      "Tempos de jejum"
+    ],
+    "v11_fk_plus_sample_rows": [
+      "Jejum laboratorial",
+      "Tempo de jejum",
+      "Sessão de exame"
+    ],
+    "v12_nullable_plus_sample_values": [
+      "Jejum laboratorial",
+      "Tempo de jejum",
+      "Coleta de sangue"
+    ],
+    "v13_nullable_plus_frequent_values": [
+      "Jejum laboratorial",
+      "Questionário de saúde",
+      "Tempo de jejum"
+    ],
+    "v14_nullable_plus_numeric_stats": [
+      "Jejum laboratorial",
+      "Tempo de jejum",
+      "Coleta de exames"
+    ],
+    "v15_sample_rows_vs_sample_values": [
+      "Jejum laboratorial",
+      "Tempo de jejum",
+      "Consumo de cafeína e álcool"
+    ],
+    "v16_sample_rows_vs_frequent_values": [
+      "Jejum laboratorial",
+      "Tempo de jejum",
+      "Consumo de cafeína e álcool"
+    ],
+    "v17_sample_rows_plus_both_values": [
+      "Jejum laboratorial",
+      "Questionário de saúde",
+      "Tempos de jejum"
+    ],
+    "v18_fk_nullable_sample_values": [
+      "Jejum laboratorial",
+      "Coleta de sangue",
+      "Tempo de jejum"
+    ],
+    "v19_fk_nullable_frequent_values": [
+      "Jejum laboratorial",
+      "Consumo alimentar",
+      "Coleta de exames"
+    ],
+    "v20_fk_nullable_both_values": [
+      "Jejum laboratorial",
+      "Coleta de amostras",
+      "Triagem de exames"
+    ],
+    "v21_fk_nullable_sample_rows": [
+      "Jejum laboratorial",
+      "Tempo de jejum",
+      "Sessão de exame"
+    ],
+    "v22_fk_nullable_sample_rows_plus_frequent": [
+      "Jejum laboratorial",
+      "Consumo de cafeína",
+      "Consumo de álcool"
+    ],
+    "v23_fk_nullable_sample_rows_plus_sample_values": [
+      "Jejum laboratorial",
+      "Tempo de jejum",
+      "Questionário de saúde"
+    ],
+    "v24_full_no_numeric_stats": [
+      "Jejum laboratorial",
+      "Uso de substâncias",
+      "Saúde bucal"
+    ],
+    "v25_full_no_sample_rows": [
+      "Jejum laboratorial",
+      "Questionário de saúde",
+      "Tempos de jejum"
+    ]
+  },
+  "nhanes_laboratory.fertin_j": {
+    "v00_baseline": [],
+    "v01_full": [],
+    "v02_plus_fk": [],
+    "v03_plus_nullable": [],
+    "v04_plus_numeric_stats": [],
+    "v05_plus_sample_values": [],
+    "v06_plus_frequent_values": [],
+    "v07_plus_sample_rows": [],
+    "v08_fk_plus_sample_values": [],
+    "v09_fk_plus_frequent_values": [],
+    "v10_fk_plus_sample_and_frequent": [],
+    "v11_fk_plus_sample_rows": [],
+    "v12_nullable_plus_sample_values": [],
+    "v13_nullable_plus_frequent_values": [],
+    "v14_nullable_plus_numeric_stats": [],
+    "v15_sample_rows_vs_sample_values": [],
+    "v16_sample_rows_vs_frequent_values": [],
+    "v17_sample_rows_plus_both_values": [],
+    "v18_fk_nullable_sample_values": [],
+    "v19_fk_nullable_frequent_values": [],
+    "v20_fk_nullable_both_values": [],
+    "v21_fk_nullable_sample_rows": [],
+    "v22_fk_nullable_sample_rows_plus_frequent": [],
+    "v23_fk_nullable_sample_rows_plus_sample_values": [],
+    "v24_full_no_numeric_stats": [],
+    "v25_full_no_sample_rows": []
+  },
+  "nhanes_laboratory.fetib_j": {
+    "v00_baseline": [],
+    "v01_full": [],
+    "v02_plus_fk": [],
+    "v03_plus_nullable": [],
+    "v04_plus_numeric_stats": [],
+    "v05_plus_sample_values": [],
+    "v06_plus_frequent_values": [],
+    "v07_plus_sample_rows": [],
+    "v08_fk_plus_sample_values": [],
+    "v09_fk_plus_frequent_values": [],
+    "v10_fk_plus_sample_and_frequent": [],
+    "v11_fk_plus_sample_rows": [],
+    "v12_nullable_plus_sample_values": [],
+    "v13_nullable_plus_frequent_values": [],
+    "v14_nullable_plus_numeric_stats": [],
+    "v15_sample_rows_vs_sample_values": [],
+    "v16_sample_rows_vs_frequent_values": [],
+    "v17_sample_rows_plus_both_values": [],
+    "v18_fk_nullable_sample_values": [],
+    "v19_fk_nullable_frequent_values": [],
+    "v20_fk_nullable_both_values": [],
+    "v21_fk_nullable_sample_rows": [],
+    "v22_fk_nullable_sample_rows_plus_frequent": [],
+    "v23_fk_nullable_sample_rows_plus_sample_values": [],
+    "v24_full_no_numeric_stats": [],
+    "v25_full_no_sample_rows": []
+  },
+  "nhanes_laboratory.folate_j": {
+    "v00_baseline": [],
+    "v01_full": [],
+    "v02_plus_fk": [],
+    "v03_plus_nullable": [],
+    "v04_plus_numeric_stats": [],
+    "v05_plus_sample_values": [],
+    "v06_plus_frequent_values": [],
+    "v07_plus_sample_rows": [],
+    "v08_fk_plus_sample_values": [],
+    "v09_fk_plus_frequent_values": [],
+    "v10_fk_plus_sample_and_frequent": [],
+    "v11_fk_plus_sample_rows": [],
+    "v12_nullable_plus_sample_values": [],
+    "v13_nullable_plus_frequent_values": [],
+    "v14_nullable_plus_numeric_stats": [],
+    "v15_sample_rows_vs_sample_values": [],
+    "v16_sample_rows_vs_frequent_values": [],
+    "v17_sample_rows_plus_both_values": [],
+    "v18_fk_nullable_sample_values": [],
+    "v19_fk_nullable_frequent_values": [],
+    "v20_fk_nullable_both_values": [],
+    "v21_fk_nullable_sample_rows": [],
+    "v22_fk_nullable_sample_rows_plus_frequent": [],
+    "v23_fk_nullable_sample_rows_plus_sample_values": [],
+    "v24_full_no_numeric_stats": [],
+    "v25_full_no_sample_rows": []
+  },
+  "nhanes_laboratory.fr_j": {
+    "v00_baseline": [],
+    "v01_full": [],
+    "v02_plus_fk": [],
+    "v03_plus_nullable": [],
+    "v04_plus_numeric_stats": [],
+    "v05_plus_sample_values": [],
+    "v06_plus_frequent_values": [],
+    "v07_plus_sample_rows": [],
+    "v08_fk_plus_sample_values": [],
+    "v09_fk_plus_frequent_values": [],
+    "v10_fk_plus_sample_and_frequent": [],
+    "v11_fk_plus_sample_rows": [],
+    "v12_nullable_plus_sample_values": [],
+    "v13_nullable_plus_frequent_values": [],
+    "v14_nullable_plus_numeric_stats": [],
+    "v15_sample_rows_vs_sample_values": [],
+    "v16_sample_rows_vs_frequent_values": [],
+    "v17_sample_rows_plus_both_values": [],
+    "v18_fk_nullable_sample_values": [],
+    "v19_fk_nullable_frequent_values": [],
+    "v20_fk_nullable_both_values": [],
+    "v21_fk_nullable_sample_rows": [],
+    "v22_fk_nullable_sample_rows_plus_frequent": [],
+    "v23_fk_nullable_sample_rows_plus_sample_values": [],
+    "v24_full_no_numeric_stats": [],
+    "v25_full_no_sample_rows": []
+  },
+  "nhanes_laboratory.ghb_j": {
+    "v00_baseline": [
+      "Glicohemoglobina",
+      "Glicemia",
+      "Diabetes"
+    ],
+    "v01_full": [
+      "Hemoglobina glicada",
+      "Glicemia",
+      "Diabetes"
+    ],
+    "v02_plus_fk": [
+      "Glicemia",
+      "Hemoglobina glicada",
+      "Diabetes"
+    ],
+    "v03_plus_nullable": [
+      "Glicemia",
+      "Hemoglobina Glicada",
+      "Exames Laboratoriais"
+    ],
+    "v04_plus_numeric_stats": [
+      "Hemoglobina glicada",
+      "Glicemia",
+      "Diabetes"
+    ],
+    "v05_plus_sample_values": [
+      "Hemoglobina glicada",
+      "Glicemia",
+      "Diabetes"
+    ],
+    "v06_plus_frequent_values": [
+      "Hemoglobina glicada",
+      "Glicemia",
+      "Exames laboratoriais"
+    ],
+    "v07_plus_sample_rows": [
+      "Glicemia",
+      "Hemoglobina Glicada",
+      "Exame Laboratorial"
+    ],
+    "v08_fk_plus_sample_values": [
+      "Hemoglobina glicada",
+      "Glicemia laboratorial",
+      "Exames NHANES"
+    ],
+    "v09_fk_plus_frequent_values": [
+      "Glicemia",
+      "Hemoglobina Glicada",
+      "Exames Laboratoriais"
+    ],
+    "v10_fk_plus_sample_and_frequent": [
+      "Glicemia",
+      "Hemoglobina Glicada",
+      "Diabetes"
+    ],
+    "v11_fk_plus_sample_rows": [
+      "Glicemia",
+      "Hemoglobina Glicada",
+      "Diabetes"
+    ],
+    "v12_nullable_plus_sample_values": [
+      "Glico-hemoglobina",
+      "Hemoglobina glicada",
+      "Controle glicêmico"
+    ],
+    "v13_nullable_plus_frequent_values": [
+      "Glicemia",
+      "Hemoglobina Glicada",
+      "Exames Laboratoriais"
+    ],
+    "v14_nullable_plus_numeric_stats": [
+      "Glicemia",
+      "Hemoglobina glicada",
+      "Diabetes"
+    ],
+    "v15_sample_rows_vs_sample_values": [
+      "Hemoglobina glicada",
+      "Glicemia",
+      "Diabetes"
+    ],
+    "v16_sample_rows_vs_frequent_values": [
+      "Hemoglobina glicada",
+      "Glicemia",
+      "Diabetes"
+    ],
+    "v17_sample_rows_plus_both_values": [
+      "Hemoglobina glicada",
+      "Glicemia",
+      "Diabetes"
+    ],
+    "v18_fk_nullable_sample_values": [
+      "Hemoglobina glicada",
+      "Glicemia",
+      "Diabetes"
+    ],
+    "v19_fk_nullable_frequent_values": [
+      "Glicohemoglobina",
+      "Hemoglobina glicada",
+      "Controle glicêmico"
+    ],
+    "v20_fk_nullable_both_values": [
+      "Glicemia",
+      "Hemoglobina Glicada",
+      "Diabetes"
+    ],
+    "v21_fk_nullable_sample_rows": [
+      "Glicemia",
+      "Hemoglobina Glicada",
+      "Diabetes"
+    ],
+    "v22_fk_nullable_sample_rows_plus_frequent": [
+      "Glicohemoglobina",
+      "Glicemia",
+      "Diabetes"
+    ],
+    "v23_fk_nullable_sample_rows_plus_sample_values": [
+      "Hemoglobina glicada",
+      "Glicemia",
+      "Diabetes"
+    ],
+    "v24_full_no_numeric_stats": [
+      "Glicohemoglobina",
+      "Glicemia",
+      "Hemoglobina glicada"
+    ],
+    "v25_full_no_sample_rows": [
+      "Glicemia",
+      "Hemoglobina Glicada",
+      "Exames Laboratoriais"
+    ]
+  },
+  "nhanes_laboratory.glu_j": {
+    "v00_baseline": [],
+    "v01_full": [],
+    "v02_plus_fk": [],
+    "v03_plus_nullable": [],
+    "v04_plus_numeric_stats": [],
+    "v05_plus_sample_values": [],
+    "v06_plus_frequent_values": [],
+    "v07_plus_sample_rows": [],
+    "v08_fk_plus_sample_values": [],
+    "v09_fk_plus_frequent_values": [],
+    "v10_fk_plus_sample_and_frequent": [],
+    "v11_fk_plus_sample_rows": [],
+    "v12_nullable_plus_sample_values": [],
+    "v13_nullable_plus_frequent_values": [],
+    "v14_nullable_plus_numeric_stats": [],
+    "v15_sample_rows_vs_sample_values": [],
+    "v16_sample_rows_vs_frequent_values": [],
+    "v17_sample_rows_plus_both_values": [],
+    "v18_fk_nullable_sample_values": [],
+    "v19_fk_nullable_frequent_values": [],
+    "v20_fk_nullable_both_values": [],
+    "v21_fk_nullable_sample_rows": [],
+    "v22_fk_nullable_sample_rows_plus_frequent": [],
+    "v23_fk_nullable_sample_rows_plus_sample_values": [],
+    "v24_full_no_numeric_stats": [],
+    "v25_full_no_sample_rows": []
+  },
+  "nhanes_laboratory.hdl_j": {
+    "v00_baseline": [],
+    "v01_full": [],
+    "v02_plus_fk": [],
+    "v03_plus_nullable": [],
+    "v04_plus_numeric_stats": [],
+    "v05_plus_sample_values": [],
+    "v06_plus_frequent_values": [],
+    "v07_plus_sample_rows": [],
+    "v08_fk_plus_sample_values": [],
+    "v09_fk_plus_frequent_values": [],
+    "v10_fk_plus_sample_and_frequent": [],
+    "v11_fk_plus_sample_rows": [],
+    "v12_nullable_plus_sample_values": [],
+    "v13_nullable_plus_frequent_values": [],
+    "v14_nullable_plus_numeric_stats": [],
+    "v15_sample_rows_vs_sample_values": [],
+    "v16_sample_rows_vs_frequent_values": [],
+    "v17_sample_rows_plus_both_values": [],
+    "v18_fk_nullable_sample_values": [],
+    "v19_fk_nullable_frequent_values": [],
+    "v20_fk_nullable_both_values": [],
+    "v21_fk_nullable_sample_rows": [],
+    "v22_fk_nullable_sample_rows_plus_frequent": [],
+    "v23_fk_nullable_sample_rows_plus_sample_values": [],
+    "v24_full_no_numeric_stats": [],
+    "v25_full_no_sample_rows": []
+  },
+  "nhanes_laboratory.hepa_j": {
+    "v00_baseline": [
+      "Hepatite A",
+      "Sorologia viral",
+      "Exames laboratoriais"
+    ],
+    "v01_full": [
+      "Hepatite A",
+      "Sorologia",
+      "Inquérito laboratorial"
+    ],
+    "v02_plus_fk": [
+      "Hepatite A",
+      "Sorologia viral",
+      "Exame laboratorial"
+    ],
+    "v03_plus_nullable": [
+      "Hepatite A",
+      "Sorologia",
+      "Prevalência"
+    ],
+    "v04_plus_numeric_stats": [
+      "Hepatite A sorologia",
+      "Classificação sorológica",
+      "Prevalência de anticorpos"
+    ],
+    "v05_plus_sample_values": [
+      "Hepatite A sorologia",
+      "Prevalência de anticorpos HAV",
+      "Imunidade contra hepatite A"
+    ],
+    "v06_plus_frequent_values": [
+      "Hepatite A",
+      "Sorologia viral",
+      "Imunidade contra hepatite A"
+    ],
+    "v07_plus_sample_rows": [
+      "Hepatite A",
+      "Sorologia viral",
+      "Exame laboratorial"
+    ],
+    "v08_fk_plus_sample_values": [
+      "Hepatite A sorologia",
+      "Classificação de anticorpos",
+      "Prevalência de hepatite A"
+    ],
+    "v09_fk_plus_frequent_values": [
+      "Hepatite A",
+      "Sorologia",
+      "Prevalência de anticorpos"
+    ],
+    "v10_fk_plus_sample_and_frequent": [
+      "Hepatite A",
+      "Sorologia viral",
+      "Imunidade contra Hepatite A"
+    ],
+    "v11_fk_plus_sample_rows": [
+      "Hepatite A",
+      "Sorologia",
+      "Exames laboratoriais"
+    ],
+    "v12_nullable_plus_sample_values": [
+      "Hepatite A sorologia",
+      "Prevalência de anticorpos HAV"
+    ],
+    "v13_nullable_plus_frequent_values": [
+      "Hepatite A",
+      "Sorologia viral",
+      "Prevalência de anticorpos"
+    ],
+    "v14_nullable_plus_numeric_stats": [
+      "Hepatite A sorologia",
+      "Classificação de anticorpos",
+      "Prevalência de hepatite A"
+    ],
+    "v15_sample_rows_vs_sample_values": [
+      "Hepatite A",
+      "Sorologia",
+      "Exames laboratoriais"
+    ],
+    "v16_sample_rows_vs_frequent_values": [
+      "Hepatite A",
+      "Sorologia viral",
+      "Imunidade"
+    ],
+    "v17_sample_rows_plus_both_values": [
+      "Hepatite A",
+      "Sorologia",
+      "Inquérito laboratorial"
+    ],
+    "v18_fk_nullable_sample_values": [
+      "Hepatite A",
+      "Sorologia viral",
+      "Prevalência de anticorpos"
+    ],
+    "v19_fk_nullable_frequent_values": [
+      "Hepatite A sorologia",
+      "Prevalência de anticorpos",
+      "Imunidade viral"
+    ],
+    "v20_fk_nullable_both_values": [
+      "Hepatite A sorologia",
+      "Classificação de anticorpos",
+      "Prevalência de hepatite A"
+    ],
+    "v21_fk_nullable_sample_rows": [
+      "Hepatite A",
+      "Sorologia",
+      "Inquérito laboratorial"
+    ],
+    "v22_fk_nullable_sample_rows_plus_frequent": [
+      "Hepatite A",
+      "Sorologia",
+      "Inquérito laboratorial"
+    ],
+    "v23_fk_nullable_sample_rows_plus_sample_values": [
+      "Hepatite A",
+      "Sorologia",
+      "Inquérito laboratorial"
+    ],
+    "v24_full_no_numeric_stats": [
+      "Hepatite A",
+      "Sorologia",
+      "Inquérito laboratorial"
+    ],
+    "v25_full_no_sample_rows": [
+      "Hepatite A sorologia",
+      "Hepatite A anticorpos",
+      "Hepatite A status sorológico"
+    ]
+  },
+  "nhanes_laboratory.hepb_s_j": {
+    "v00_baseline": [],
+    "v01_full": [],
+    "v02_plus_fk": [],
+    "v03_plus_nullable": [],
+    "v04_plus_numeric_stats": [],
+    "v05_plus_sample_values": [],
+    "v06_plus_frequent_values": [],
+    "v07_plus_sample_rows": [],
+    "v08_fk_plus_sample_values": [],
+    "v09_fk_plus_frequent_values": [],
+    "v10_fk_plus_sample_and_frequent": [],
+    "v11_fk_plus_sample_rows": [],
+    "v12_nullable_plus_sample_values": [],
+    "v13_nullable_plus_frequent_values": [],
+    "v14_nullable_plus_numeric_stats": [],
+    "v15_sample_rows_vs_sample_values": [],
+    "v16_sample_rows_vs_frequent_values": [],
+    "v17_sample_rows_plus_both_values": [],
+    "v18_fk_nullable_sample_values": [],
+    "v19_fk_nullable_frequent_values": [],
+    "v20_fk_nullable_both_values": [],
+    "v21_fk_nullable_sample_rows": [],
+    "v22_fk_nullable_sample_rows_plus_frequent": [],
+    "v23_fk_nullable_sample_rows_plus_sample_values": [],
+    "v24_full_no_numeric_stats": [],
+    "v25_full_no_sample_rows": []
+  },
+  "nhanes_laboratory.hepbd_j": {
+    "v00_baseline": [],
+    "v01_full": [],
+    "v02_plus_fk": [],
+    "v03_plus_nullable": [],
+    "v04_plus_numeric_stats": [],
+    "v05_plus_sample_values": [],
+    "v06_plus_frequent_values": [],
+    "v07_plus_sample_rows": [],
+    "v08_fk_plus_sample_values": [],
+    "v09_fk_plus_frequent_values": [],
+    "v10_fk_plus_sample_and_frequent": [],
+    "v11_fk_plus_sample_rows": [],
+    "v12_nullable_plus_sample_values": [],
+    "v13_nullable_plus_frequent_values": [],
+    "v14_nullable_plus_numeric_stats": [],
+    "v15_sample_rows_vs_sample_values": [],
+    "v16_sample_rows_vs_frequent_values": [],
+    "v17_sample_rows_plus_both_values": [],
+    "v18_fk_nullable_sample_values": [],
+    "v19_fk_nullable_frequent_values": [],
+    "v20_fk_nullable_both_values": [],
+    "v21_fk_nullable_sample_rows": [],
+    "v22_fk_nullable_sample_rows_plus_frequent": [],
+    "v23_fk_nullable_sample_rows_plus_sample_values": [],
+    "v24_full_no_numeric_stats": [],
+    "v25_full_no_sample_rows": []
+  },
+  "nhanes_laboratory.hepc_j": {
+    "v00_baseline": [],
+    "v01_full": [],
+    "v02_plus_fk": [],
+    "v03_plus_nullable": [],
+    "v04_plus_numeric_stats": [],
+    "v05_plus_sample_values": [],
+    "v06_plus_frequent_values": [],
+    "v07_plus_sample_rows": [],
+    "v08_fk_plus_sample_values": [],
+    "v09_fk_plus_frequent_values": [],
+    "v10_fk_plus_sample_and_frequent": [],
+    "v11_fk_plus_sample_rows": [],
+    "v12_nullable_plus_sample_values": [],
+    "v13_nullable_plus_frequent_values": [],
+    "v14_nullable_plus_numeric_stats": [],
+    "v15_sample_rows_vs_sample_values": [],
+    "v16_sample_rows_vs_frequent_values": [],
+    "v17_sample_rows_plus_both_values": [],
+    "v18_fk_nullable_sample_values": [],
+    "v19_fk_nullable_frequent_values": [],
+    "v20_fk_nullable_both_values": [],
+    "v21_fk_nullable_sample_rows": [],
+    "v22_fk_nullable_sample_rows_plus_frequent": [],
+    "v23_fk_nullable_sample_rows_plus_sample_values": [],
+    "v24_full_no_numeric_stats": [],
+    "v25_full_no_sample_rows": []
+  },
+  "nhanes_laboratory.hepe_j": {
+    "v00_baseline": [],
+    "v01_full": [],
+    "v02_plus_fk": [],
+    "v03_plus_nullable": [],
+    "v04_plus_numeric_stats": [],
+    "v05_plus_sample_values": [],
+    "v06_plus_frequent_values": [],
+    "v07_plus_sample_rows": [],
+    "v08_fk_plus_sample_values": [],
+    "v09_fk_plus_frequent_values": [],
+    "v10_fk_plus_sample_and_frequent": [],
+    "v11_fk_plus_sample_rows": [],
+    "v12_nullable_plus_sample_values": [],
+    "v13_nullable_plus_frequent_values": [],
+    "v14_nullable_plus_numeric_stats": [],
+    "v15_sample_rows_vs_sample_values": [],
+    "v16_sample_rows_vs_frequent_values": [],
+    "v17_sample_rows_plus_both_values": [],
+    "v18_fk_nullable_sample_values": [],
+    "v19_fk_nullable_frequent_values": [],
+    "v20_fk_nullable_both_values": [],
+    "v21_fk_nullable_sample_rows": [],
+    "v22_fk_nullable_sample_rows_plus_frequent": [],
+    "v23_fk_nullable_sample_rows_plus_sample_values": [],
+    "v24_full_no_numeric_stats": [],
+    "v25_full_no_sample_rows": []
+  },
+  "nhanes_laboratory.hiv_j": {
+    "v00_baseline": [],
+    "v01_full": [],
+    "v02_plus_fk": [],
+    "v03_plus_nullable": [],
+    "v04_plus_numeric_stats": [],
+    "v05_plus_sample_values": [],
+    "v06_plus_frequent_values": [],
+    "v07_plus_sample_rows": [],
+    "v08_fk_plus_sample_values": [],
+    "v09_fk_plus_frequent_values": [],
+    "v10_fk_plus_sample_and_frequent": [],
+    "v11_fk_plus_sample_rows": [],
+    "v12_nullable_plus_sample_values": [],
+    "v13_nullable_plus_frequent_values": [],
+    "v14_nullable_plus_numeric_stats": [],
+    "v15_sample_rows_vs_sample_values": [],
+    "v16_sample_rows_vs_frequent_values": [],
+    "v17_sample_rows_plus_both_values": [],
+    "v18_fk_nullable_sample_values": [],
+    "v19_fk_nullable_frequent_values": [],
+    "v20_fk_nullable_both_values": [],
+    "v21_fk_nullable_sample_rows": [],
+    "v22_fk_nullable_sample_rows_plus_frequent": [],
+    "v23_fk_nullable_sample_rows_plus_sample_values": [],
+    "v24_full_no_numeric_stats": [],
+    "v25_full_no_sample_rows": []
+  },
+  "nhanes_laboratory.hscrp_j": {
+    "v00_baseline": [],
+    "v01_full": [],
+    "v02_plus_fk": [],
+    "v03_plus_nullable": [],
+    "v04_plus_numeric_stats": [],
+    "v05_plus_sample_values": [],
+    "v06_plus_frequent_values": [],
+    "v07_plus_sample_rows": [],
+    "v08_fk_plus_sample_values": [],
+    "v09_fk_plus_frequent_values": [],
+    "v10_fk_plus_sample_and_frequent": [],
+    "v11_fk_plus_sample_rows": [],
+    "v12_nullable_plus_sample_values": [],
+    "v13_nullable_plus_frequent_values": [],
+    "v14_nullable_plus_numeric_stats": [],
+    "v15_sample_rows_vs_sample_values": [],
+    "v16_sample_rows_vs_frequent_values": [],
+    "v17_sample_rows_plus_both_values": [],
+    "v18_fk_nullable_sample_values": [],
+    "v19_fk_nullable_frequent_values": [],
+    "v20_fk_nullable_both_values": [],
+    "v21_fk_nullable_sample_rows": [],
+    "v22_fk_nullable_sample_rows_plus_frequent": [],
+    "v23_fk_nullable_sample_rows_plus_sample_values": [],
+    "v24_full_no_numeric_stats": [],
+    "v25_full_no_sample_rows": []
+  },
+  "nhanes_laboratory.ihgem_j": {
+    "v00_baseline": [],
+    "v01_full": [],
+    "v02_plus_fk": [],
+    "v03_plus_nullable": [],
+    "v04_plus_numeric_stats": [],
+    "v05_plus_sample_values": [],
+    "v06_plus_frequent_values": [],
+    "v07_plus_sample_rows": [],
+    "v08_fk_plus_sample_values": [],
+    "v09_fk_plus_frequent_values": [],
+    "v10_fk_plus_sample_and_frequent": [],
+    "v11_fk_plus_sample_rows": [],
+    "v12_nullable_plus_sample_values": [],
+    "v13_nullable_plus_frequent_values": [],
+    "v14_nullable_plus_numeric_stats": [],
+    "v15_sample_rows_vs_sample_values": [],
+    "v16_sample_rows_vs_frequent_values": [],
+    "v17_sample_rows_plus_both_values": [],
+    "v18_fk_nullable_sample_values": [],
+    "v19_fk_nullable_frequent_values": [],
+    "v20_fk_nullable_both_values": [],
+    "v21_fk_nullable_sample_rows": [],
+    "v22_fk_nullable_sample_rows_plus_frequent": [],
+    "v23_fk_nullable_sample_rows_plus_sample_values": [],
+    "v24_full_no_numeric_stats": [],
+    "v25_full_no_sample_rows": []
+  },
+  "nhanes_laboratory.ins_j": {
+    "v00_baseline": [
+      "Insulina sérica",
+      "Insulina em SI",
+      "Insulinemia"
+    ],
+    "v01_full": [
+      "Insulina sérica",
+      "Pesos amostrais",
+      "Limite de detecção"
+    ],
+    "v02_plus_fk": [
+      "Insulina sérica",
+      "Insulina SI",
+      "Insulina em jejum"
+    ],
+    "v03_plus_nullable": [
+      "Insulina sérica",
+      "Insulina (SI)",
+      "Insulina em jejum"
+    ],
+    "v04_plus_numeric_stats": [
+      "Insulina sérica",
+      "Fatores de expansão amostral",
+      "Marcadores laboratoriais"
+    ],
+    "v05_plus_sample_values": [
+      "Insulina sérica",
+      "Resistência à insulina",
+      "Pesos amostrais"
+    ],
+    "v06_plus_frequent_values": [
+      "Insulina sérica",
+      "Insulina (SI)",
+      "Classificação de insulina"
+    ],
+    "v07_plus_sample_rows": [
+      "Insulina sérica",
+      "Peso amostral",
+      "Conversão de unidades"
+    ],
+    "v08_fk_plus_sample_values": [
+      "Insulina sérica",
+      "Pesos amostrais",
+      "Fatores de expansão"
+    ],
+    "v09_fk_plus_frequent_values": [
+      "Insulina sérica",
+      "Insulina em unidades SI",
+      "Classificação de insulina"
+    ],
+    "v10_fk_plus_sample_and_frequent": [
+      "Insulina sérica",
+      "Peso amostral",
+      "Limite de detecção"
+    ],
+    "v11_fk_plus_sample_rows": [
+      "Insulina sérica",
+      "Peso amostral",
+      "Metabolismo glicêmico"
+    ],
+    "v12_nullable_plus_sample_values": [
+      "Insulina sérica",
+      "Pesos amostrais",
+      "Metabolismo da glicose"
+    ],
+    "v13_nullable_plus_frequent_values": [
+      "Insulina sérica",
+      "Peso amostral laboratorial",
+      "Marcador de insulina"
+    ],
+    "v14_nullable_plus_numeric_stats": [
+      "Insulina sérica",
+      "Pesos amostrais",
+      "Marcadores laboratoriais"
+    ],
+    "v15_sample_rows_vs_sample_values": [
+      "Insulina sérica",
+      "Peso amostral",
+      "Limite de detecção"
+    ],
+    "v16_sample_rows_vs_frequent_values": [
+      "Insulina sérica",
+      "Peso amostral",
+      "Limite de detecção"
+    ],
+    "v17_sample_rows_plus_both_values": [
+      "Insulina sérica",
+      "Pesos amostrais",
+      "Marcadores laboratoriais"
+    ],
+    "v18_fk_nullable_sample_values": [
+      "Insulina sérica",
+      "Pesos amostrais",
+      "Fatores de expansão"
+    ],
+    "v19_fk_nullable_frequent_values": [
+      "Insulina sérica",
+      "Fatores de ponderação amostral",
+      "Metabolismo glicêmico"
+    ],
+    "v20_fk_nullable_both_values": [
+      "Insulina sérica",
+      "Pesos amostrais",
+      "Marcadores laboratoriais"
+    ],
+    "v21_fk_nullable_sample_rows": [
+      "Insulina sérica",
+      "Peso amostral laboratorial",
+      "Marcador inflamatório"
+    ],
+    "v22_fk_nullable_sample_rows_plus_frequent": [
+      "Insulina sérica",
+      "Pesos amostrais",
+      "Marcadores laboratoriais"
+    ],
+    "v23_fk_nullable_sample_rows_plus_sample_values": [
+      "Insulina sérica",
+      "Peso amostral",
+      "Fatores de risco metabólico"
+    ],
+    "v24_full_no_numeric_stats": [
+      "Insulina sérica",
+      "Pesos amostrais",
+      "Marcador de jejum"
+    ],
+    "v25_full_no_sample_rows": [
+      "Insulina sérica",
+      "Pesos amostrais",
+      "Marcadores laboratoriais"
+    ]
+  },
+  "nhanes_laboratory.opd_j": {
+    "v00_baseline": [],
+    "v01_full": [],
+    "v02_plus_fk": [],
+    "v03_plus_nullable": [],
+    "v04_plus_numeric_stats": [],
+    "v05_plus_sample_values": [],
+    "v06_plus_frequent_values": [],
+    "v07_plus_sample_rows": [],
+    "v08_fk_plus_sample_values": [],
+    "v09_fk_plus_frequent_values": [],
+    "v10_fk_plus_sample_and_frequent": [],
+    "v11_fk_plus_sample_rows": [],
+    "v12_nullable_plus_sample_values": [],
+    "v13_nullable_plus_frequent_values": [],
+    "v14_nullable_plus_numeric_stats": [],
+    "v15_sample_rows_vs_sample_values": [],
+    "v16_sample_rows_vs_frequent_values": [],
+    "v17_sample_rows_plus_both_values": [],
+    "v18_fk_nullable_sample_values": [],
+    "v19_fk_nullable_frequent_values": [],
+    "v20_fk_nullable_both_values": [],
+    "v21_fk_nullable_sample_rows": [],
+    "v22_fk_nullable_sample_rows_plus_frequent": [],
+    "v23_fk_nullable_sample_rows_plus_sample_values": [],
+    "v24_full_no_numeric_stats": [],
+    "v25_full_no_sample_rows": []
+  },
+  "nhanes_laboratory.pah_j": {
+    "v00_baseline": [],
+    "v01_full": [],
+    "v02_plus_fk": [],
+    "v03_plus_nullable": [],
+    "v04_plus_numeric_stats": [],
+    "v05_plus_sample_values": [],
+    "v06_plus_frequent_values": [],
+    "v07_plus_sample_rows": [],
+    "v08_fk_plus_sample_values": [],
+    "v09_fk_plus_frequent_values": [],
+    "v10_fk_plus_sample_and_frequent": [],
+    "v11_fk_plus_sample_rows": [],
+    "v12_nullable_plus_sample_values": [],
+    "v13_nullable_plus_frequent_values": [],
+    "v14_nullable_plus_numeric_stats": [],
+    "v15_sample_rows_vs_sample_values": [],
+    "v16_sample_rows_vs_frequent_values": [],
+    "v17_sample_rows_plus_both_values": [],
+    "v18_fk_nullable_sample_values": [],
+    "v19_fk_nullable_frequent_values": [],
+    "v20_fk_nullable_both_values": [],
+    "v21_fk_nullable_sample_rows": [],
+    "v22_fk_nullable_sample_rows_plus_frequent": [],
+    "v23_fk_nullable_sample_rows_plus_sample_values": [],
+    "v24_full_no_numeric_stats": [],
+    "v25_full_no_sample_rows": []
+  },
+  "nhanes_laboratory.pbcd_j": {
+    "v00_baseline": [],
+    "v01_full": [],
+    "v02_plus_fk": [],
+    "v03_plus_nullable": [],
+    "v04_plus_numeric_stats": [],
+    "v05_plus_sample_values": [],
+    "v06_plus_frequent_values": [],
+    "v07_plus_sample_rows": [],
+    "v08_fk_plus_sample_values": [],
+    "v09_fk_plus_frequent_values": [],
+    "v10_fk_plus_sample_and_frequent": [],
+    "v11_fk_plus_sample_rows": [],
+    "v12_nullable_plus_sample_values": [],
+    "v13_nullable_plus_frequent_values": [],
+    "v14_nullable_plus_numeric_stats": [],
+    "v15_sample_rows_vs_sample_values": [],
+    "v16_sample_rows_vs_frequent_values": [],
+    "v17_sample_rows_plus_both_values": [],
+    "v18_fk_nullable_sample_values": [],
+    "v19_fk_nullable_frequent_values": [],
+    "v20_fk_nullable_both_values": [],
+    "v21_fk_nullable_sample_rows": [],
+    "v22_fk_nullable_sample_rows_plus_frequent": [],
+    "v23_fk_nullable_sample_rows_plus_sample_values": [],
+    "v24_full_no_numeric_stats": [],
+    "v25_full_no_sample_rows": []
+  },
+  "nhanes_laboratory.pernt_j": {
+    "v00_baseline": [],
+    "v01_full": [],
+    "v02_plus_fk": [],
+    "v03_plus_nullable": [],
+    "v04_plus_numeric_stats": [],
+    "v05_plus_sample_values": [],
+    "v06_plus_frequent_values": [],
+    "v07_plus_sample_rows": [],
+    "v08_fk_plus_sample_values": [],
+    "v09_fk_plus_frequent_values": [],
+    "v10_fk_plus_sample_and_frequent": [],
+    "v11_fk_plus_sample_rows": [],
+    "v12_nullable_plus_sample_values": [],
+    "v13_nullable_plus_frequent_values": [],
+    "v14_nullable_plus_numeric_stats": [],
+    "v15_sample_rows_vs_sample_values": [],
+    "v16_sample_rows_vs_frequent_values": [],
+    "v17_sample_rows_plus_both_values": [],
+    "v18_fk_nullable_sample_values": [],
+    "v19_fk_nullable_frequent_values": [],
+    "v20_fk_nullable_both_values": [],
+    "v21_fk_nullable_sample_rows": [],
+    "v22_fk_nullable_sample_rows_plus_frequent": [],
+    "v23_fk_nullable_sample_rows_plus_sample_values": [],
+    "v24_full_no_numeric_stats": [],
+    "v25_full_no_sample_rows": []
+  },
+  "nhanes_laboratory.pfas_j": {
+    "v00_baseline": [],
+    "v01_full": [],
+    "v02_plus_fk": [],
+    "v03_plus_nullable": [],
+    "v04_plus_numeric_stats": [],
+    "v05_plus_sample_values": [],
+    "v06_plus_frequent_values": [],
+    "v07_plus_sample_rows": [],
+    "v08_fk_plus_sample_values": [],
+    "v09_fk_plus_frequent_values": [],
+    "v10_fk_plus_sample_and_frequent": [],
+    "v11_fk_plus_sample_rows": [],
+    "v12_nullable_plus_sample_values": [],
+    "v13_nullable_plus_frequent_values": [],
+    "v14_nullable_plus_numeric_stats": [],
+    "v15_sample_rows_vs_sample_values": [],
+    "v16_sample_rows_vs_frequent_values": [],
+    "v17_sample_rows_plus_both_values": [],
+    "v18_fk_nullable_sample_values": [],
+    "v19_fk_nullable_frequent_values": [],
+    "v20_fk_nullable_both_values": [],
+    "v21_fk_nullable_sample_rows": [],
+    "v22_fk_nullable_sample_rows_plus_frequent": [],
+    "v23_fk_nullable_sample_rows_plus_sample_values": [],
+    "v24_full_no_numeric_stats": [],
+    "v25_full_no_sample_rows": []
+  },
+  "nhanes_laboratory.phthte_j": {
+    "v00_baseline": [
+      "Exposição a ftalatos",
+      "Biomonitoramento urinário",
+      "Avaliação de metabólitos"
+    ],
+    "v01_full": [
+      "Ftalatos urinários",
+      "Exposição a desreguladores endócrinos",
+      "Biomonitoramento populacional"
+    ],
+    "v02_plus_fk": [
+      "Exposição a ftalatos",
+      "Biomonitoramento urinário",
+      "Pesquisa laboratorial NHANES"
+    ],
+    "v03_plus_nullable": [
+      "Exposição a Ftalatos",
+      "Biomonitoramento Urinário",
+      "Pesquisa NHANES"
+    ],
+    "v04_plus_numeric_stats": [
+      "Ftalatos urinários",
+      "Exposição química",
+      "Biomonitoramento"
+    ],
+    "v05_plus_sample_values": [
+      "Ftalatos urinários",
+      "Exposição a químicos",
+      "Biomonitoramento laboratorial"
+    ],
+    "v06_plus_frequent_values": [
+      "Ftalatos urinários",
+      "Exposição química",
+      "Biomonitoramento"
+    ],
+    "v07_plus_sample_rows": [
+      "Ftalatos urinários",
+      "Exposição química",
+      "Biomonitoramento laboratorial"
+    ],
+    "v08_fk_plus_sample_values": [
+      "Ftalatos urinários",
+      "Exposição a desreguladores endócrinos",
+      "Biomonitoramento laboratorial"
+    ],
+    "v09_fk_plus_frequent_values": [
+      "Ftalatos urinários",
+      "Exposição a metabólitos",
+      "Biomonitoramento laboratorial"
+    ],
+    "v10_fk_plus_sample_and_frequent": [
+      "Ftalatos urinários",
+      "Exposição a metabólitos de ftalatos",
+      "Biomonitoramento laboratorial"
+    ],
+    "v11_fk_plus_sample_rows": [
+      "Ftalatos urinários",
+      "Exposição química",
+      "Biomonitoramento"
+    ],
+    "v12_nullable_plus_sample_values": [
+      "Ftalatos urinários",
+      "Exposição a metabólitos",
+      "Pesquisa NHANES"
+    ],
+    "v13_nullable_plus_frequent_values": [
+      "Ftalatos urinários",
+      "Exposição a metabólitos",
+      "Biomonitoramento laboratorial"
+    ],
+    "v14_nullable_plus_numeric_stats": [
+      "Exposição a Ftalatos",
+      "Biomonitoramento Urinário",
+      "Metabólitos de Ftalatos"
+    ],
+    "v15_sample_rows_vs_sample_values": [
+      "Ftalatos urinários",
+      "Exposição química",
+      "Biomonitoramento"
+    ],
+    "v16_sample_rows_vs_frequent_values": [
+      "Ftalatos urinários",
+      "Exposição química",
+      "Biomonitoramento"
+    ],
+    "v17_sample_rows_plus_both_values": [
+      "Ftalatos urinários",
+      "Exposição a desreguladores endócrinos",
+      "Biomonitoramento laboratorial"
+    ],
+    "v18_fk_nullable_sample_values": [
+      "Ftalatos urinários",
+      "Exposição a desreguladores endócrinos",
+      "Biomonitoramento populacional"
+    ],
+    "v19_fk_nullable_frequent_values": [
+      "Ftalatos urinários",
+      "Exposição a desreguladores endócrinos",
+      "Biomonitoramento laboratorial"
+    ],
+    "v20_fk_nullable_both_values": [
+      "Ftalatos urinários",
+      "Exposição a plastificantes",
+      "Biomonitoramento laboratorial"
+    ],
+    "v21_fk_nullable_sample_rows": [
+      "Ftalatos urinários",
+      "Exposição química",
+      "Biomonitoramento"
+    ],
+    "v22_fk_nullable_sample_rows_plus_frequent": [
+      "Ftalatos urinários",
+      "Exposição química",
+      "Biomonitoramento"
+    ],
+    "v23_fk_nullable_sample_rows_plus_sample_values": [
+      "Ftalatos urinários",
+      "Exposição química",
+      "Biomonitoramento"
+    ],
+    "v24_full_no_numeric_stats": [
+      "Ftalatos urinários",
+      "Exposição química",
+      "Biomonitoramento populacional"
+    ],
+    "v25_full_no_sample_rows": [
+      "Ftalatos urinários",
+      "Exposição química",
+      "Biomonitoramento"
+    ]
+  },
+  "nhanes_laboratory.ssagp_j": {
+    "v00_baseline": [],
+    "v01_full": [],
+    "v02_plus_fk": [],
+    "v03_plus_nullable": [],
+    "v04_plus_numeric_stats": [],
+    "v05_plus_sample_values": [],
+    "v06_plus_frequent_values": [],
+    "v07_plus_sample_rows": [],
+    "v08_fk_plus_sample_values": [],
+    "v09_fk_plus_frequent_values": [],
+    "v10_fk_plus_sample_and_frequent": [],
+    "v11_fk_plus_sample_rows": [],
+    "v12_nullable_plus_sample_values": [],
+    "v13_nullable_plus_frequent_values": [],
+    "v14_nullable_plus_numeric_stats": [],
+    "v15_sample_rows_vs_sample_values": [],
+    "v16_sample_rows_vs_frequent_values": [],
+    "v17_sample_rows_plus_both_values": [],
+    "v18_fk_nullable_sample_values": [],
+    "v19_fk_nullable_frequent_values": [],
+    "v20_fk_nullable_both_values": [],
+    "v21_fk_nullable_sample_rows": [],
+    "v22_fk_nullable_sample_rows_plus_frequent": [],
+    "v23_fk_nullable_sample_rows_plus_sample_values": [],
+    "v24_full_no_numeric_stats": [],
+    "v25_full_no_sample_rows": []
+  },
+  "nhanes_laboratory.ssfr_j": {
+    "v00_baseline": [],
+    "v01_full": [],
+    "v02_plus_fk": [],
+    "v03_plus_nullable": [],
+    "v04_plus_numeric_stats": [],
+    "v05_plus_sample_values": [],
+    "v06_plus_frequent_values": [],
+    "v07_plus_sample_rows": [],
+    "v08_fk_plus_sample_values": [],
+    "v09_fk_plus_frequent_values": [],
+    "v10_fk_plus_sample_and_frequent": [],
+    "v11_fk_plus_sample_rows": [],
+    "v12_nullable_plus_sample_values": [],
+    "v13_nullable_plus_frequent_values": [],
+    "v14_nullable_plus_numeric_stats": [],
+    "v15_sample_rows_vs_sample_values": [],
+    "v16_sample_rows_vs_frequent_values": [],
+    "v17_sample_rows_plus_both_values": [],
+    "v18_fk_nullable_sample_values": [],
+    "v19_fk_nullable_frequent_values": [],
+    "v20_fk_nullable_both_values": [],
+    "v21_fk_nullable_sample_rows": [],
+    "v22_fk_nullable_sample_rows_plus_frequent": [],
+    "v23_fk_nullable_sample_rows_plus_sample_values": [],
+    "v24_full_no_numeric_stats": [],
+    "v25_full_no_sample_rows": []
+  },
+  "nhanes_laboratory.ssglyp_j": {
+    "v00_baseline": [],
+    "v01_full": [],
+    "v02_plus_fk": [],
+    "v03_plus_nullable": [],
+    "v04_plus_numeric_stats": [],
+    "v05_plus_sample_values": [],
+    "v06_plus_frequent_values": [],
+    "v07_plus_sample_rows": [],
+    "v08_fk_plus_sample_values": [],
+    "v09_fk_plus_frequent_values": [],
+    "v10_fk_plus_sample_and_frequent": [],
+    "v11_fk_plus_sample_rows": [],
+    "v12_nullable_plus_sample_values": [],
+    "v13_nullable_plus_frequent_values": [],
+    "v14_nullable_plus_numeric_stats": [],
+    "v15_sample_rows_vs_sample_values": [],
+    "v16_sample_rows_vs_frequent_values": [],
+    "v17_sample_rows_plus_both_values": [],
+    "v18_fk_nullable_sample_values": [],
+    "v19_fk_nullable_frequent_values": [],
+    "v20_fk_nullable_both_values": [],
+    "v21_fk_nullable_sample_rows": [],
+    "v22_fk_nullable_sample_rows_plus_frequent": [],
+    "v23_fk_nullable_sample_rows_plus_sample_values": [],
+    "v24_full_no_numeric_stats": [],
+    "v25_full_no_sample_rows": []
+  },
+  "nhanes_laboratory.ssneon_j": {
+    "v00_baseline": [],
+    "v01_full": [],
+    "v02_plus_fk": [],
+    "v03_plus_nullable": [],
+    "v04_plus_numeric_stats": [],
+    "v05_plus_sample_values": [],
+    "v06_plus_frequent_values": [],
+    "v07_plus_sample_rows": [],
+    "v08_fk_plus_sample_values": [],
+    "v09_fk_plus_frequent_values": [],
+    "v10_fk_plus_sample_and_frequent": [],
+    "v11_fk_plus_sample_rows": [],
+    "v12_nullable_plus_sample_values": [],
+    "v13_nullable_plus_frequent_values": [],
+    "v14_nullable_plus_numeric_stats": [],
+    "v15_sample_rows_vs_sample_values": [],
+    "v16_sample_rows_vs_frequent_values": [],
+    "v17_sample_rows_plus_both_values": [],
+    "v18_fk_nullable_sample_values": [],
+    "v19_fk_nullable_frequent_values": [],
+    "v20_fk_nullable_both_values": [],
+    "v21_fk_nullable_sample_rows": [],
+    "v22_fk_nullable_sample_rows_plus_frequent": [],
+    "v23_fk_nullable_sample_rows_plus_sample_values": [],
+    "v24_full_no_numeric_stats": [],
+    "v25_full_no_sample_rows": []
+  },
+  "nhanes_laboratory.sspfas_j": {
+    "v00_baseline": [],
+    "v01_full": [],
+    "v02_plus_fk": [],
+    "v03_plus_nullable": [],
+    "v04_plus_numeric_stats": [],
+    "v05_plus_sample_values": [],
+    "v06_plus_frequent_values": [],
+    "v07_plus_sample_rows": [],
+    "v08_fk_plus_sample_values": [],
+    "v09_fk_plus_frequent_values": [],
+    "v10_fk_plus_sample_and_frequent": [],
+    "v11_fk_plus_sample_rows": [],
+    "v12_nullable_plus_sample_values": [],
+    "v13_nullable_plus_frequent_values": [],
+    "v14_nullable_plus_numeric_stats": [],
+    "v15_sample_rows_vs_sample_values": [],
+    "v16_sample_rows_vs_frequent_values": [],
+    "v17_sample_rows_plus_both_values": [],
+    "v18_fk_nullable_sample_values": [],
+    "v19_fk_nullable_frequent_values": [],
+    "v20_fk_nullable_both_values": [],
+    "v21_fk_nullable_sample_rows": [],
+    "v22_fk_nullable_sample_rows_plus_frequent": [],
+    "v23_fk_nullable_sample_rows_plus_sample_values": [],
+    "v24_full_no_numeric_stats": [],
+    "v25_full_no_sample_rows": []
+  },
+  "nhanes_laboratory.sstst_j": {
+    "v00_baseline": [],
+    "v01_full": [],
+    "v02_plus_fk": [],
+    "v03_plus_nullable": [],
+    "v04_plus_numeric_stats": [],
+    "v05_plus_sample_values": [],
+    "v06_plus_frequent_values": [],
+    "v07_plus_sample_rows": [],
+    "v08_fk_plus_sample_values": [],
+    "v09_fk_plus_frequent_values": [],
+    "v10_fk_plus_sample_and_frequent": [],
+    "v11_fk_plus_sample_rows": [],
+    "v12_nullable_plus_sample_values": [],
+    "v13_nullable_plus_frequent_values": [],
+    "v14_nullable_plus_numeric_stats": [],
+    "v15_sample_rows_vs_sample_values": [],
+    "v16_sample_rows_vs_frequent_values": [],
+    "v17_sample_rows_plus_both_values": [],
+    "v18_fk_nullable_sample_values": [],
+    "v19_fk_nullable_frequent_values": [],
+    "v20_fk_nullable_both_values": [],
+    "v21_fk_nullable_sample_rows": [],
+    "v22_fk_nullable_sample_rows_plus_frequent": [],
+    "v23_fk_nullable_sample_rows_plus_sample_values": [],
+    "v24_full_no_numeric_stats": [],
+    "v25_full_no_sample_rows": []
+  },
+  "nhanes_laboratory.ssuvcm_j": {
+    "v00_baseline": [
+      "Pesos amostrais",
+      "Marcadores de exposição",
+      "Análise laboratorial"
+    ],
+    "v01_full": [
+      "Pesos amostrais",
+      "Marcadores sorológicos",
+      "Análise laboratorial"
+    ],
+    "v02_plus_fk": [
+      "Análise de exposição a substâncias químicas",
+      "Monitoramento de biomarcadores laboratoriais",
+      "Estudo de saúde populacional"
+    ],
+    "v03_plus_nullable": [
+      "Análise de exposição a compostos orgânicos voláteis",
+      "Estudo de metabólitos urinários",
+      "Pesquisa de biomarcadores ambientais"
+    ],
+    "v04_plus_numeric_stats": [
+      "Análise de exposição a substâncias químicas",
+      "Dados laboratoriais de biomonitoramento",
+      "Pesquisa em saúde populacional"
+    ],
+    "v05_plus_sample_values": [
+      "Análise de exposição a substâncias químicas",
+      "Estudo de biomarcadores laboratoriais",
+      "Pesquisa em saúde populacional"
+    ],
+    "v06_plus_frequent_values": [
+      "Análise de biomarcadores virais",
+      "Estudo de soroprevalência",
+      "Pesquisa de exposição a patógenos"
+    ],
+    "v07_plus_sample_rows": [
+      "Pesos amostrais",
+      "Marcadores sorológicos",
+      "Análise laboratorial"
+    ],
+    "v08_fk_plus_sample_values": [
+      "Análise de exposição a substâncias químicas",
+      "Estudo de biomarcadores laboratoriais",
+      "Pesquisa em saúde populacional"
+    ],
+    "v09_fk_plus_frequent_values": [
+      "Análise de exposição a substâncias químicas",
+      "Análise de biomarcadores laboratoriais",
+      "Estudos populacionais de saúde"
+    ],
+    "v10_fk_plus_sample_and_frequent": [
+      "Análise de exposição a substâncias químicas",
+      "Estudo de biomarcadores laboratoriais",
+      "Pesquisa em saúde populacional"
+    ],
+    "v11_fk_plus_sample_rows": [
+      "Análise de exposição a citomegalovírus",
+      "Imunologia populacional",
+      "Soroprevalência viral"
+    ],
+    "v12_nullable_plus_sample_values": [
+      "Análise de exposição a substâncias químicas",
+      "Estudo de biomarcadores laboratoriais",
+      "Pesquisa em saúde populacional"
+    ],
+    "v13_nullable_plus_frequent_values": [
+      "Análise de exposição a substâncias químicas",
+      "Estudo de biomarcadores urinários",
+      "Pesquisa em saúde populacional"
+    ],
+    "v14_nullable_plus_numeric_stats": [
+      "Análise de biomarcadores",
+      "Estudo de exposição química",
+      "Pesquisa laboratorial populacional"
+    ],
+    "v15_sample_rows_vs_sample_values": [
+      "Análise de exposição a substâncias químicas",
+      "Dosagem de metabólitos urinários",
+      "Estudo de fatores de ponderação amostral"
+    ],
+    "v16_sample_rows_vs_frequent_values": [
+      "Análise de biomarcadores",
+      "Pesquisa laboratorial",
+      "Dados de exames"
+    ],
+    "v17_sample_rows_plus_both_values": [
+      "Peso amostral",
+      "Marcadores sorológicos",
+      "Limiar de detecção"
+    ],
+    "v18_fk_nullable_sample_values": [
+      "Análise de biomarcadores",
+      "Estudo de exposição química",
+      "Pesquisa laboratorial populacional"
+    ],
+    "v19_fk_nullable_frequent_values": [
+      "Análise de exposição a substâncias químicas",
+      "Estudo de biomarcadores laboratoriais",
+      "Pesquisa em saúde populacional"
+    ],
+    "v20_fk_nullable_both_values": [
+      "Análise de biomarcadores",
+      "Pesquisa de exposição química",
+      "Estudo de saúde populacional"
+    ],
+    "v21_fk_nullable_sample_rows": [
+      "Análise de exposição a metais",
+      "Biomonitoramento de urina",
+      "Pesquisa em saúde populacional"
+    ],
+    "v22_fk_nullable_sample_rows_plus_frequent": [
+      "Análise de exposição a perfluoroquímicos",
+      "Pesquisa de biomarcadores séricos",
+      "Estudo de saúde populacional NHANES"
+    ],
+    "v23_fk_nullable_sample_rows_plus_sample_values": [
+      "Exposição a pesticidas",
+      "Biomarcadores urinários",
+      "Pesquisa NHANES"
+    ],
+    "v24_full_no_numeric_stats": [
+      "Exposição a substâncias químicas",
+      "Biomonitoramento populacional",
+      "Pesquisa em saúde ambiental"
+    ],
+    "v25_full_no_sample_rows": [
+      "Análise de marcadores de exposição a pesticidas",
+      "Estudo de metabólitos urinários",
+      "Pesquisa em saúde populacional"
+    ]
+  },
+  "nhanes_laboratory.ssuvoc_j": {
+    "v00_baseline": [],
+    "v01_full": [],
+    "v02_plus_fk": [],
+    "v03_plus_nullable": [],
+    "v04_plus_numeric_stats": [],
+    "v05_plus_sample_values": [],
+    "v06_plus_frequent_values": [],
+    "v07_plus_sample_rows": [],
+    "v08_fk_plus_sample_values": [],
+    "v09_fk_plus_frequent_values": [],
+    "v10_fk_plus_sample_and_frequent": [],
+    "v11_fk_plus_sample_rows": [],
+    "v12_nullable_plus_sample_values": [],
+    "v13_nullable_plus_frequent_values": [],
+    "v14_nullable_plus_numeric_stats": [],
+    "v15_sample_rows_vs_sample_values": [],
+    "v16_sample_rows_vs_frequent_values": [],
+    "v17_sample_rows_plus_both_values": [],
+    "v18_fk_nullable_sample_values": [],
+    "v19_fk_nullable_frequent_values": [],
+    "v20_fk_nullable_both_values": [],
+    "v21_fk_nullable_sample_rows": [],
+    "v22_fk_nullable_sample_rows_plus_frequent": [],
+    "v23_fk_nullable_sample_rows_plus_sample_values": [],
+    "v24_full_no_numeric_stats": [],
+    "v25_full_no_sample_rows": []
+  },
+  "nhanes_laboratory.tchol_j": {
+    "v00_baseline": [],
+    "v01_full": [],
+    "v02_plus_fk": [],
+    "v03_plus_nullable": [],
+    "v04_plus_numeric_stats": [],
+    "v05_plus_sample_values": [],
+    "v06_plus_frequent_values": [],
+    "v07_plus_sample_rows": [],
+    "v08_fk_plus_sample_values": [],
+    "v09_fk_plus_frequent_values": [],
+    "v10_fk_plus_sample_and_frequent": [],
+    "v11_fk_plus_sample_rows": [],
+    "v12_nullable_plus_sample_values": [],
+    "v13_nullable_plus_frequent_values": [],
+    "v14_nullable_plus_numeric_stats": [],
+    "v15_sample_rows_vs_sample_values": [],
+    "v16_sample_rows_vs_frequent_values": [],
+    "v17_sample_rows_plus_both_values": [],
+    "v18_fk_nullable_sample_values": [],
+    "v19_fk_nullable_frequent_values": [],
+    "v20_fk_nullable_both_values": [],
+    "v21_fk_nullable_sample_rows": [],
+    "v22_fk_nullable_sample_rows_plus_frequent": [],
+    "v23_fk_nullable_sample_rows_plus_sample_values": [],
+    "v24_full_no_numeric_stats": [],
+    "v25_full_no_sample_rows": []
+  },
+  "nhanes_laboratory.tfr_j": {
+    "v00_baseline": [],
+    "v01_full": [],
+    "v02_plus_fk": [],
+    "v03_plus_nullable": [],
+    "v04_plus_numeric_stats": [],
+    "v05_plus_sample_values": [],
+    "v06_plus_frequent_values": [],
+    "v07_plus_sample_rows": [],
+    "v08_fk_plus_sample_values": [],
+    "v09_fk_plus_frequent_values": [],
+    "v10_fk_plus_sample_and_frequent": [],
+    "v11_fk_plus_sample_rows": [],
+    "v12_nullable_plus_sample_values": [],
+    "v13_nullable_plus_frequent_values": [],
+    "v14_nullable_plus_numeric_stats": [],
+    "v15_sample_rows_vs_sample_values": [],
+    "v16_sample_rows_vs_frequent_values": [],
+    "v17_sample_rows_plus_both_values": [],
+    "v18_fk_nullable_sample_values": [],
+    "v19_fk_nullable_frequent_values": [],
+    "v20_fk_nullable_both_values": [],
+    "v21_fk_nullable_sample_rows": [],
+    "v22_fk_nullable_sample_rows_plus_frequent": [],
+    "v23_fk_nullable_sample_rows_plus_sample_values": [],
+    "v24_full_no_numeric_stats": [],
+    "v25_full_no_sample_rows": []
+  },
+  "nhanes_laboratory.trigly_j": {
+    "v00_baseline": [],
+    "v01_full": [],
+    "v02_plus_fk": [],
+    "v03_plus_nullable": [],
+    "v04_plus_numeric_stats": [],
+    "v05_plus_sample_values": [],
+    "v06_plus_frequent_values": [],
+    "v07_plus_sample_rows": [],
+    "v08_fk_plus_sample_values": [],
+    "v09_fk_plus_frequent_values": [],
+    "v10_fk_plus_sample_and_frequent": [],
+    "v11_fk_plus_sample_rows": [],
+    "v12_nullable_plus_sample_values": [],
+    "v13_nullable_plus_frequent_values": [],
+    "v14_nullable_plus_numeric_stats": [],
+    "v15_sample_rows_vs_sample_values": [],
+    "v16_sample_rows_vs_frequent_values": [],
+    "v17_sample_rows_plus_both_values": [],
+    "v18_fk_nullable_sample_values": [],
+    "v19_fk_nullable_frequent_values": [],
+    "v20_fk_nullable_both_values": [],
+    "v21_fk_nullable_sample_rows": [],
+    "v22_fk_nullable_sample_rows_plus_frequent": [],
+    "v23_fk_nullable_sample_rows_plus_sample_values": [],
+    "v24_full_no_numeric_stats": [],
+    "v25_full_no_sample_rows": []
+  },
+  "nhanes_laboratory.uas_j": {
+    "v00_baseline": [],
+    "v01_full": [],
+    "v02_plus_fk": [],
+    "v03_plus_nullable": [],
+    "v04_plus_numeric_stats": [],
+    "v05_plus_sample_values": [],
+    "v06_plus_frequent_values": [],
+    "v07_plus_sample_rows": [],
+    "v08_fk_plus_sample_values": [],
+    "v09_fk_plus_frequent_values": [],
+    "v10_fk_plus_sample_and_frequent": [],
+    "v11_fk_plus_sample_rows": [],
+    "v12_nullable_plus_sample_values": [],
+    "v13_nullable_plus_frequent_values": [],
+    "v14_nullable_plus_numeric_stats": [],
+    "v15_sample_rows_vs_sample_values": [],
+    "v16_sample_rows_vs_frequent_values": [],
+    "v17_sample_rows_plus_both_values": [],
+    "v18_fk_nullable_sample_values": [],
+    "v19_fk_nullable_frequent_values": [],
+    "v20_fk_nullable_both_values": [],
+    "v21_fk_nullable_sample_rows": [],
+    "v22_fk_nullable_sample_rows_plus_frequent": [],
+    "v23_fk_nullable_sample_rows_plus_sample_values": [],
+    "v24_full_no_numeric_stats": [],
+    "v25_full_no_sample_rows": []
+  },
+  "nhanes_laboratory.ucflow_j": {
+    "v00_baseline": [],
+    "v01_full": [],
+    "v02_plus_fk": [],
+    "v03_plus_nullable": [],
+    "v04_plus_numeric_stats": [],
+    "v05_plus_sample_values": [],
+    "v06_plus_frequent_values": [],
+    "v07_plus_sample_rows": [],
+    "v08_fk_plus_sample_values": [],
+    "v09_fk_plus_frequent_values": [],
+    "v10_fk_plus_sample_and_frequent": [],
+    "v11_fk_plus_sample_rows": [],
+    "v12_nullable_plus_sample_values": [],
+    "v13_nullable_plus_frequent_values": [],
+    "v14_nullable_plus_numeric_stats": [],
+    "v15_sample_rows_vs_sample_values": [],
+    "v16_sample_rows_vs_frequent_values": [],
+    "v17_sample_rows_plus_both_values": [],
+    "v18_fk_nullable_sample_values": [],
+    "v19_fk_nullable_frequent_values": [],
+    "v20_fk_nullable_both_values": [],
+    "v21_fk_nullable_sample_rows": [],
+    "v22_fk_nullable_sample_rows_plus_frequent": [],
+    "v23_fk_nullable_sample_rows_plus_sample_values": [],
+    "v24_full_no_numeric_stats": [],
+    "v25_full_no_sample_rows": []
+  },
+  "nhanes_laboratory.ucm_j": {
+    "v00_baseline": [],
+    "v01_full": [],
+    "v02_plus_fk": [],
+    "v03_plus_nullable": [],
+    "v04_plus_numeric_stats": [],
+    "v05_plus_sample_values": [],
+    "v06_plus_frequent_values": [],
+    "v07_plus_sample_rows": [],
+    "v08_fk_plus_sample_values": [],
+    "v09_fk_plus_frequent_values": [],
+    "v10_fk_plus_sample_and_frequent": [],
+    "v11_fk_plus_sample_rows": [],
+    "v12_nullable_plus_sample_values": [],
+    "v13_nullable_plus_frequent_values": [],
+    "v14_nullable_plus_numeric_stats": [],
+    "v15_sample_rows_vs_sample_values": [],
+    "v16_sample_rows_vs_frequent_values": [],
+    "v17_sample_rows_plus_both_values": [],
+    "v18_fk_nullable_sample_values": [],
+    "v19_fk_nullable_frequent_values": [],
+    "v20_fk_nullable_both_values": [],
+    "v21_fk_nullable_sample_rows": [],
+    "v22_fk_nullable_sample_rows_plus_frequent": [],
+    "v23_fk_nullable_sample_rows_plus_sample_values": [],
+    "v24_full_no_numeric_stats": [],
+    "v25_full_no_sample_rows": []
+  },
+  "nhanes_laboratory.ucot_j": {
+    "v00_baseline": [],
+    "v01_full": [],
+    "v02_plus_fk": [],
+    "v03_plus_nullable": [],
+    "v04_plus_numeric_stats": [],
+    "v05_plus_sample_values": [],
+    "v06_plus_frequent_values": [],
+    "v07_plus_sample_rows": [],
+    "v08_fk_plus_sample_values": [],
+    "v09_fk_plus_frequent_values": [],
+    "v10_fk_plus_sample_and_frequent": [],
+    "v11_fk_plus_sample_rows": [],
+    "v12_nullable_plus_sample_values": [],
+    "v13_nullable_plus_frequent_values": [],
+    "v14_nullable_plus_numeric_stats": [],
+    "v15_sample_rows_vs_sample_values": [],
+    "v16_sample_rows_vs_frequent_values": [],
+    "v17_sample_rows_plus_both_values": [],
+    "v18_fk_nullable_sample_values": [],
+    "v19_fk_nullable_frequent_values": [],
+    "v20_fk_nullable_both_values": [],
+    "v21_fk_nullable_sample_rows": [],
+    "v22_fk_nullable_sample_rows_plus_frequent": [],
+    "v23_fk_nullable_sample_rows_plus_sample_values": [],
+    "v24_full_no_numeric_stats": [],
+    "v25_full_no_sample_rows": []
+  },
+  "nhanes_laboratory.ucpreg_j": {
+    "v00_baseline": [],
+    "v01_full": [],
+    "v02_plus_fk": [],
+    "v03_plus_nullable": [],
+    "v04_plus_numeric_stats": [],
+    "v05_plus_sample_values": [],
+    "v06_plus_frequent_values": [],
+    "v07_plus_sample_rows": [],
+    "v08_fk_plus_sample_values": [],
+    "v09_fk_plus_frequent_values": [],
+    "v10_fk_plus_sample_and_frequent": [],
+    "v11_fk_plus_sample_rows": [],
+    "v12_nullable_plus_sample_values": [],
+    "v13_nullable_plus_frequent_values": [],
+    "v14_nullable_plus_numeric_stats": [],
+    "v15_sample_rows_vs_sample_values": [],
+    "v16_sample_rows_vs_frequent_values": [],
+    "v17_sample_rows_plus_both_values": [],
+    "v18_fk_nullable_sample_values": [],
+    "v19_fk_nullable_frequent_values": [],
+    "v20_fk_nullable_both_values": [],
+    "v21_fk_nullable_sample_rows": [],
+    "v22_fk_nullable_sample_rows_plus_frequent": [],
+    "v23_fk_nullable_sample_rows_plus_sample_values": [],
+    "v24_full_no_numeric_stats": [],
+    "v25_full_no_sample_rows": []
+  },
+  "nhanes_laboratory.uhg_j": {
+    "v00_baseline": [],
+    "v01_full": [],
+    "v02_plus_fk": [],
+    "v03_plus_nullable": [],
+    "v04_plus_numeric_stats": [],
+    "v05_plus_sample_values": [],
+    "v06_plus_frequent_values": [],
+    "v07_plus_sample_rows": [],
+    "v08_fk_plus_sample_values": [],
+    "v09_fk_plus_frequent_values": [],
+    "v10_fk_plus_sample_and_frequent": [],
+    "v11_fk_plus_sample_rows": [],
+    "v12_nullable_plus_sample_values": [],
+    "v13_nullable_plus_frequent_values": [],
+    "v14_nullable_plus_numeric_stats": [],
+    "v15_sample_rows_vs_sample_values": [],
+    "v16_sample_rows_vs_frequent_values": [],
+    "v17_sample_rows_plus_both_values": [],
+    "v18_fk_nullable_sample_values": [],
+    "v19_fk_nullable_frequent_values": [],
+    "v20_fk_nullable_both_values": [],
+    "v21_fk_nullable_sample_rows": [],
+    "v22_fk_nullable_sample_rows_plus_frequent": [],
+    "v23_fk_nullable_sample_rows_plus_sample_values": [],
+    "v24_full_no_numeric_stats": [],
+    "v25_full_no_sample_rows": []
+  },
+  "nhanes_laboratory.uio_j": {
+    "v00_baseline": [
+      "Iodo urinário",
+      "Pesos amostrais",
+      "Exames laboratoriais"
+    ],
+    "v01_full": [
+      "Iodo urinário",
+      "Pesquisa laboratorial",
+      "Amostragem populacional"
+    ],
+    "v02_plus_fk": [
+      "Iodo urinário",
+      "Pesos amostrais laboratoriais"
+    ],
+    "v03_plus_nullable": [
+      "Iodo urinário",
+      "Pesquisa laboratorial",
+      "Amostragem NHANES"
+    ],
+    "v04_plus_numeric_stats": [
+      "Iodo urinário",
+      "Pesquisa laboratorial",
+      "Amostragem NHANES"
+    ],
+    "v05_plus_sample_values": [
+      "Iodo urinário",
+      "Pesos amostrais",
+      "Exposição laboratorial"
+    ],
+    "v06_plus_frequent_values": [
+      "Iodo urinário",
+      "Pesos amostrais",
+      "Limites de detecção"
+    ],
+    "v07_plus_sample_rows": [
+      "Iodo urinário",
+      "Pesos amostrais",
+      "Limites de detecção"
+    ],
+    "v08_fk_plus_sample_values": [
+      "Iodine urinário",
+      "Pesos amostrais",
+      "Identificação do participante"
+    ],
+    "v09_fk_plus_frequent_values": [
+      "Iodo urinário",
+      "Pesos amostrais",
+      "Exames laboratoriais"
+    ],
+    "v10_fk_plus_sample_and_frequent": [
+      "Iodine urinário",
+      "Pesos amostrais",
+      "Identificação do participante"
+    ],
+    "v11_fk_plus_sample_rows": [
+      "Iodo urinário",
+      "Pesos amostrais",
+      "Limites de detecção"
+    ],
+    "v12_nullable_plus_sample_values": [
+      "Iodo urinário",
+      "Pesos amostrais",
+      "Exames laboratoriais"
+    ],
+    "v13_nullable_plus_frequent_values": [
+      "Iodo urinário",
+      "Pesos amostrais",
+      "Limite de detecção"
+    ],
+    "v14_nullable_plus_numeric_stats": [
+      "Iodo urinário",
+      "Pesquisa NHANES",
+      "Exposição ambiental"
+    ],
+    "v15_sample_rows_vs_sample_values": [
+      "Iodo urinário",
+      "Pesquisa laboratorial",
+      "Amostragem populacional"
+    ],
+    "v16_sample_rows_vs_frequent_values": [
+      "Iodo urinário",
+      "Pesos amostrais",
+      "Limite de detecção"
+    ],
+    "v17_sample_rows_plus_both_values": [
+      "Iodo urinário",
+      "Pesquisa laboratorial",
+      "Amostragem populacional"
+    ],
+    "v18_fk_nullable_sample_values": [
+      "Iodo urinário",
+      "Pesquisa laboratorial",
+      "Amostragem NHANES"
+    ],
+    "v19_fk_nullable_frequent_values": [
+      "Iodo urinário",
+      "Pesos amostrais",
+      "Limites de detecção"
+    ],
+    "v20_fk_nullable_both_values": [
+      "Iodo urinário",
+      "Pesquisa laboratorial",
+      "Amostragem populacional"
+    ],
+    "v21_fk_nullable_sample_rows": [
+      "Iodo urinário",
+      "Pesos amostrais",
+      "Limites de detecção"
+    ],
+    "v22_fk_nullable_sample_rows_plus_frequent": [
+      "Iodo urinário",
+      "Pesos amostrais",
+      "Exposição a iodo"
+    ],
+    "v23_fk_nullable_sample_rows_plus_sample_values": [
+      "Iodo urinário",
+      "Pesquisa laboratorial",
+      "Amostragem NHANES"
+    ],
+    "v24_full_no_numeric_stats": [
+      "Iodo urinário",
+      "Pesquisa laboratorial",
+      "Amostragem populacional"
+    ],
+    "v25_full_no_sample_rows": [
+      "Iodine urinário",
+      "Pesos amostrais",
+      "Identificação do participante"
+    ]
+  },
+  "nhanes_laboratory.um_j": {
+    "v00_baseline": [],
+    "v01_full": [],
+    "v02_plus_fk": [],
+    "v03_plus_nullable": [],
+    "v04_plus_numeric_stats": [],
+    "v05_plus_sample_values": [],
+    "v06_plus_frequent_values": [],
+    "v07_plus_sample_rows": [],
+    "v08_fk_plus_sample_values": [],
+    "v09_fk_plus_frequent_values": [],
+    "v10_fk_plus_sample_and_frequent": [],
+    "v11_fk_plus_sample_rows": [],
+    "v12_nullable_plus_sample_values": [],
+    "v13_nullable_plus_frequent_values": [],
+    "v14_nullable_plus_numeric_stats": [],
+    "v15_sample_rows_vs_sample_values": [],
+    "v16_sample_rows_vs_frequent_values": [],
+    "v17_sample_rows_plus_both_values": [],
+    "v18_fk_nullable_sample_values": [],
+    "v19_fk_nullable_frequent_values": [],
+    "v20_fk_nullable_both_values": [],
+    "v21_fk_nullable_sample_rows": [],
+    "v22_fk_nullable_sample_rows_plus_frequent": [],
+    "v23_fk_nullable_sample_rows_plus_sample_values": [],
+    "v24_full_no_numeric_stats": [],
+    "v25_full_no_sample_rows": []
+  },
+  "nhanes_laboratory.uni_j": {
+    "v00_baseline": [],
+    "v01_full": [],
+    "v02_plus_fk": [],
+    "v03_plus_nullable": [],
+    "v04_plus_numeric_stats": [],
+    "v05_plus_sample_values": [],
+    "v06_plus_frequent_values": [],
+    "v07_plus_sample_rows": [],
+    "v08_fk_plus_sample_values": [],
+    "v09_fk_plus_frequent_values": [],
+    "v10_fk_plus_sample_and_frequent": [],
+    "v11_fk_plus_sample_rows": [],
+    "v12_nullable_plus_sample_values": [],
+    "v13_nullable_plus_frequent_values": [],
+    "v14_nullable_plus_numeric_stats": [],
+    "v15_sample_rows_vs_sample_values": [],
+    "v16_sample_rows_vs_frequent_values": [],
+    "v17_sample_rows_plus_both_values": [],
+    "v18_fk_nullable_sample_values": [],
+    "v19_fk_nullable_frequent_values": [],
+    "v20_fk_nullable_both_values": [],
+    "v21_fk_nullable_sample_rows": [],
+    "v22_fk_nullable_sample_rows_plus_frequent": [],
+    "v23_fk_nullable_sample_rows_plus_sample_values": [],
+    "v24_full_no_numeric_stats": [],
+    "v25_full_no_sample_rows": []
+  },
+  "nhanes_laboratory.uphopm_j": {
+    "v00_baseline": [],
+    "v01_full": [],
+    "v02_plus_fk": [],
+    "v03_plus_nullable": [],
+    "v04_plus_numeric_stats": [],
+    "v05_plus_sample_values": [],
+    "v06_plus_frequent_values": [],
+    "v07_plus_sample_rows": [],
+    "v08_fk_plus_sample_values": [],
+    "v09_fk_plus_frequent_values": [],
+    "v10_fk_plus_sample_and_frequent": [],
+    "v11_fk_plus_sample_rows": [],
+    "v12_nullable_plus_sample_values": [],
+    "v13_nullable_plus_frequent_values": [],
+    "v14_nullable_plus_numeric_stats": [],
+    "v15_sample_rows_vs_sample_values": [],
+    "v16_sample_rows_vs_frequent_values": [],
+    "v17_sample_rows_plus_both_values": [],
+    "v18_fk_nullable_sample_values": [],
+    "v19_fk_nullable_frequent_values": [],
+    "v20_fk_nullable_both_values": [],
+    "v21_fk_nullable_sample_rows": [],
+    "v22_fk_nullable_sample_rows_plus_frequent": [],
+    "v23_fk_nullable_sample_rows_plus_sample_values": [],
+    "v24_full_no_numeric_stats": [],
+    "v25_full_no_sample_rows": []
+  },
+  "nhanes_laboratory.utas_j": {
+    "v00_baseline": [],
+    "v01_full": [],
+    "v02_plus_fk": [],
+    "v03_plus_nullable": [],
+    "v04_plus_numeric_stats": [],
+    "v05_plus_sample_values": [],
+    "v06_plus_frequent_values": [],
+    "v07_plus_sample_rows": [],
+    "v08_fk_plus_sample_values": [],
+    "v09_fk_plus_frequent_values": [],
+    "v10_fk_plus_sample_and_frequent": [],
+    "v11_fk_plus_sample_rows": [],
+    "v12_nullable_plus_sample_values": [],
+    "v13_nullable_plus_frequent_values": [],
+    "v14_nullable_plus_numeric_stats": [],
+    "v15_sample_rows_vs_sample_values": [],
+    "v16_sample_rows_vs_frequent_values": [],
+    "v17_sample_rows_plus_both_values": [],
+    "v18_fk_nullable_sample_values": [],
+    "v19_fk_nullable_frequent_values": [],
+    "v20_fk_nullable_both_values": [],
+    "v21_fk_nullable_sample_rows": [],
+    "v22_fk_nullable_sample_rows_plus_frequent": [],
+    "v23_fk_nullable_sample_rows_plus_sample_values": [],
+    "v24_full_no_numeric_stats": [],
+    "v25_full_no_sample_rows": []
+  },
+  "nhanes_laboratory.uvoc_j": {
+    "v00_baseline": [],
+    "v01_full": [],
+    "v02_plus_fk": [],
+    "v03_plus_nullable": [],
+    "v04_plus_numeric_stats": [],
+    "v05_plus_sample_values": [],
+    "v06_plus_frequent_values": [],
+    "v07_plus_sample_rows": [],
+    "v08_fk_plus_sample_values": [],
+    "v09_fk_plus_frequent_values": [],
+    "v10_fk_plus_sample_and_frequent": [],
+    "v11_fk_plus_sample_rows": [],
+    "v12_nullable_plus_sample_values": [],
+    "v13_nullable_plus_frequent_values": [],
+    "v14_nullable_plus_numeric_stats": [],
+    "v15_sample_rows_vs_sample_values": [],
+    "v16_sample_rows_vs_frequent_values": [],
+    "v17_sample_rows_plus_both_values": [],
+    "v18_fk_nullable_sample_values": [],
+    "v19_fk_nullable_frequent_values": [],
+    "v20_fk_nullable_both_values": [],
+    "v21_fk_nullable_sample_rows": [],
+    "v22_fk_nullable_sample_rows_plus_frequent": [],
+    "v23_fk_nullable_sample_rows_plus_sample_values": [],
+    "v24_full_no_numeric_stats": [],
+    "v25_full_no_sample_rows": []
+  },
+  "nhanes_laboratory.vic_j": {
+    "v00_baseline": [
+      "Dosagem de vitamina C",
+      "Status de deficiência de vitamina C",
+      "Níveis séricos de vitamina C"
+    ],
+    "v01_full": [
+      "Vitamina C sérica",
+      "Deficiência de vitamina C",
+      "Exposição à vitamina C"
+    ],
+    "v02_plus_fk": [
+      "Vitamina C sérica",
+      "Deficiência de vitamina C",
+      "Estado nutricional"
+    ],
+    "v03_plus_nullable": [
+      "Análise de vitamina C",
+      "Dosagem laboratorial",
+      "Bioquímica nutricional"
+    ],
+    "v04_plus_numeric_stats": [
+      "Vitamina C sérica",
+      "Deficiência de vitamina C",
+      "Estado nutricional"
+    ],
+    "v05_plus_sample_values": [
+      "Vitamina C sérica",
+      "Deficiência de vitamina C",
+      "Estado nutricional"
+    ],
+    "v06_plus_frequent_values": [
+      "Vitamina C sérica",
+      "Deficiência de vitamina C",
+      "Estado nutricional"
+    ],
+    "v07_plus_sample_rows": [
+      "Níveis de vitamina C",
+      "Deficiência de vitamina C",
+      "Análise laboratorial de vitamina C"
+    ],
+    "v08_fk_plus_sample_values": [
+      "Vitamina C sérica",
+      "Deficiência de vitamina C",
+      "Estado nutricional"
+    ],
+    "v09_fk_plus_frequent_values": [
+      "Níveis de Vitamina C",
+      "Deficiência de Vitamina C",
+      "Status Sorológico de Vitamina C"
+    ],
+    "v10_fk_plus_sample_and_frequent": [
+      "Vitamina C sérica",
+      "Deficiência de vitamina C",
+      "Suplementação de vitamina C"
+    ],
+    "v11_fk_plus_sample_rows": [
+      "Vitamina C sérica",
+      "Deficiência de vitamina C",
+      "Estado nutricional"
+    ],
+    "v12_nullable_plus_sample_values": [
+      "Vitamina C sérica",
+      "Deficiência de vitamina C",
+      "Estado nutricional"
+    ],
+    "v13_nullable_plus_frequent_values": [
+      "Vitamina C sérica",
+      "Deficiência de vitamina C",
+      "Estado nutricional"
+    ],
+    "v14_nullable_plus_numeric_stats": [
+      "Vitamina C sérica",
+      "Deficiência de vitamina C",
+      "Estado nutricional"
+    ],
+    "v15_sample_rows_vs_sample_values": [
+      "Vitamina C sérica",
+      "Deficiência de vitamina C",
+      "Estado nutricional"
+    ],
+    "v16_sample_rows_vs_frequent_values": [
+      "Vitamina C sérica",
+      "Deficiência de vitamina C",
+      "Estado nutricional"
+    ],
+    "v17_sample_rows_plus_both_values": [
+      "Vitamina C sérica",
+      "Deficiência de vitamina C",
+      "Estado nutricional"
+    ],
+    "v18_fk_nullable_sample_values": [
+      "Vitamina C sérica",
+      "Deficiência de vitamina C",
+      "Estado nutricional"
+    ],
+    "v19_fk_nullable_frequent_values": [
+      "Vitamina C sérica",
+      "Deficiência de vitamina C",
+      "Estado nutricional"
+    ],
+    "v20_fk_nullable_both_values": [
+      "Vitamina C sérica",
+      "Deficiência de vitamina C",
+      "Status nutricional"
+    ],
+    "v21_fk_nullable_sample_rows": [
+      "Vitamina C sérica",
+      "Deficiência de vitamina C",
+      "Estado nutricional"
+    ],
+    "v22_fk_nullable_sample_rows_plus_frequent": [
+      "Vitamina C sérica",
+      "Deficiência de vitamina C",
+      "Estado nutricional"
+    ],
+    "v23_fk_nullable_sample_rows_plus_sample_values": [
+      "Vitamina C sérica",
+      "Deficiência de vitamina C",
+      "Estado nutricional"
+    ],
+    "v24_full_no_numeric_stats": [
+      "Vitamina C sérica",
+      "Deficiência de vitamina C",
+      "Níveis de vitamina C"
+    ],
+    "v25_full_no_sample_rows": [
+      "Vitamina C sérica",
+      "Deficiência de vitamina C",
+      "Status nutricional"
+    ]
+  },
+  "nhanes_laboratory.vid_j": {
+    "v00_baseline": [
+      "Vitamina D total",
+      "Vitamina D2",
+      "Vitamina D3"
+    ],
+    "v01_full": [
+      "Vitamina D total",
+      "Vitamina D2",
+      "Vitamina D3"
+    ],
+    "v02_plus_fk": [
+      "Vitamina D",
+      "Vitamina E",
+      "Níveis séricos"
+    ],
+    "v03_plus_nullable": [
+      "Vitamina D total",
+      "Vitamina D2",
+      "Vitamina D3"
+    ],
+    "v04_plus_numeric_stats": [
+      "Vitamina D total",
+      "Vitamina D2",
+      "Vitamina D3"
+    ],
+    "v05_plus_sample_values": [
+      "Vitamina D total",
+      "Vitamina D2",
+      "Vitamina D3"
+    ],
+    "v06_plus_frequent_values": [
+      "Vitamina D total",
+      "Vitamina D2",
+      "Vitamina D3"
+    ],
+    "v07_plus_sample_rows": [
+      "Vitamina D",
+      "Vitamina E",
+      "Micronutrientes séricos"
+    ],
+    "v08_fk_plus_sample_values": [
+      "Vitamina D sérica",
+      "Vitamina E sérica",
+      "Micronutrientes lipossolúveis"
+    ],
+    "v09_fk_plus_frequent_values": [
+      "Dosagem de vitamina D",
+      "Dosagem de vitamina E",
+      "Análise laboratorial de micronutrientes"
+    ],
+    "v10_fk_plus_sample_and_frequent": [
+      "Dosagem de vitamina D",
+      "Dosagem de vitamina E",
+      "Análise de micronutrientes lipossolúveis"
+    ],
+    "v11_fk_plus_sample_rows": [
+      "vitamina D",
+      "vitamina E",
+      "micronutrientes séricos"
+    ],
+    "v12_nullable_plus_sample_values": [
+      "Vitamina D total",
+      "Vitamina D2",
+      "Vitamina D3"
+    ],
+    "v13_nullable_plus_frequent_values": [
+      "Vitamina D total",
+      "Vitamina D2",
+      "Vitamina D3"
+    ],
+    "v14_nullable_plus_numeric_stats": [
+      "Vitamina D",
+      "Vitamina E",
+      "Nutrição laboratorial"
+    ],
+    "v15_sample_rows_vs_sample_values": [
+      "Vitamina D total",
+      "Vitamina D2",
+      "Vitamina D3"
+    ],
+    "v16_sample_rows_vs_frequent_values": [
+      "Vitamina D total",
+      "Vitamina D2",
+      "Vitamina D3"
+    ],
+    "v17_sample_rows_plus_both_values": [
+      "Vitamina D total",
+      "Vitamina D2",
+      "Vitamina D3"
+    ],
+    "v18_fk_nullable_sample_values": [
+      "Vitamina D total",
+      "Vitamina D2 e D3",
+      "Vitamina E"
+    ],
+    "v19_fk_nullable_frequent_values": [
+      "Dosagem de vitamina D",
+      "Dosagem de vitamina E",
+      "Marcadores laboratoriais de micronutrientes"
+    ],
+    "v20_fk_nullable_both_values": [
+      "Vitamina D total",
+      "Vitamina D2",
+      "Vitamina D3"
+    ],
+    "v21_fk_nullable_sample_rows": [
+      "Vitamina D",
+      "Vitamina E",
+      "Micronutrientes séricos"
+    ],
+    "v22_fk_nullable_sample_rows_plus_frequent": [
+      "vitamina D",
+      "vitamina D2",
+      "vitamina D3"
+    ],
+    "v23_fk_nullable_sample_rows_plus_sample_values": [
+      "Vitamina D total",
+      "Vitamina D2",
+      "Vitamina D3"
+    ],
+    "v24_full_no_numeric_stats": [
+      "Níveis séricos de vitamina D",
+      "Níveis séricos de vitamina E",
+      "Marcadores de deficiência vitamínica"
+    ],
+    "v25_full_no_sample_rows": [
+      "Vitamina D total",
+      "Vitamina D2",
+      "Vitamina D3"
+    ]
+  },
+  "nhanes_laboratory.vitaec_j": {
+    "v00_baseline": [],
+    "v01_full": [],
+    "v02_plus_fk": [],
+    "v03_plus_nullable": [],
+    "v04_plus_numeric_stats": [],
+    "v05_plus_sample_values": [],
+    "v06_plus_frequent_values": [],
+    "v07_plus_sample_rows": [],
+    "v08_fk_plus_sample_values": [],
+    "v09_fk_plus_frequent_values": [],
+    "v10_fk_plus_sample_and_frequent": [],
+    "v11_fk_plus_sample_rows": [],
+    "v12_nullable_plus_sample_values": [],
+    "v13_nullable_plus_frequent_values": [],
+    "v14_nullable_plus_numeric_stats": [],
+    "v15_sample_rows_vs_sample_values": [],
+    "v16_sample_rows_vs_frequent_values": [],
+    "v17_sample_rows_plus_both_values": [],
+    "v18_fk_nullable_sample_values": [],
+    "v19_fk_nullable_frequent_values": [],
+    "v20_fk_nullable_both_values": [],
+    "v21_fk_nullable_sample_rows": [],
+    "v22_fk_nullable_sample_rows_plus_frequent": [],
+    "v23_fk_nullable_sample_rows_plus_sample_values": [],
+    "v24_full_no_numeric_stats": [],
+    "v25_full_no_sample_rows": []
+  },
+  "nhanes_laboratory.vocwb_j": {
+    "v00_baseline": [],
+    "v01_full": [],
+    "v02_plus_fk": [],
+    "v03_plus_nullable": [],
+    "v04_plus_numeric_stats": [],
+    "v05_plus_sample_values": [],
+    "v06_plus_frequent_values": [],
+    "v07_plus_sample_rows": [],
+    "v08_fk_plus_sample_values": [],
+    "v09_fk_plus_frequent_values": [],
+    "v10_fk_plus_sample_and_frequent": [],
+    "v11_fk_plus_sample_rows": [],
+    "v12_nullable_plus_sample_values": [],
+    "v13_nullable_plus_frequent_values": [],
+    "v14_nullable_plus_numeric_stats": [],
+    "v15_sample_rows_vs_sample_values": [],
+    "v16_sample_rows_vs_frequent_values": [],
+    "v17_sample_rows_plus_both_values": [],
+    "v18_fk_nullable_sample_values": [],
+    "v19_fk_nullable_frequent_values": [],
+    "v20_fk_nullable_both_values": [],
+    "v21_fk_nullable_sample_rows": [],
+    "v22_fk_nullable_sample_rows_plus_frequent": [],
+    "v23_fk_nullable_sample_rows_plus_sample_values": [],
+    "v24_full_no_numeric_stats": [],
+    "v25_full_no_sample_rows": []
+  },
+  "nhanes_questionnaire.acq_j": {
+    "v00_baseline": [],
+    "v01_full": [],
+    "v02_plus_fk": [],
+    "v03_plus_nullable": [],
+    "v04_plus_numeric_stats": [],
+    "v05_plus_sample_values": [],
+    "v06_plus_frequent_values": [],
+    "v07_plus_sample_rows": [],
+    "v08_fk_plus_sample_values": [],
+    "v09_fk_plus_frequent_values": [],
+    "v10_fk_plus_sample_and_frequent": [],
+    "v11_fk_plus_sample_rows": [],
+    "v12_nullable_plus_sample_values": [],
+    "v13_nullable_plus_frequent_values": [],
+    "v14_nullable_plus_numeric_stats": [],
+    "v15_sample_rows_vs_sample_values": [],
+    "v16_sample_rows_vs_frequent_values": [],
+    "v17_sample_rows_plus_both_values": [],
+    "v18_fk_nullable_sample_values": [],
+    "v19_fk_nullable_frequent_values": [],
+    "v20_fk_nullable_both_values": [],
+    "v21_fk_nullable_sample_rows": [],
+    "v22_fk_nullable_sample_rows_plus_frequent": [],
+    "v23_fk_nullable_sample_rows_plus_sample_values": [],
+    "v24_full_no_numeric_stats": [],
+    "v25_full_no_sample_rows": []
+  },
+  "nhanes_questionnaire.alq_j": {
+    "v00_baseline": [
+      "Consumo de álcool",
+      "Frequência de consumo",
+      "Quantidade de consumo"
+    ],
+    "v01_full": [
+      "Consumo de álcool",
+      "Frequência de consumo",
+      "Quantidade de bebidas"
+    ],
+    "v02_plus_fk": [
+      "Consumo de álcool",
+      "Frequência de ingestão",
+      "Quantidade de bebidas"
+    ],
+    "v03_plus_nullable": [
+      "Consumo de álcool",
+      "Frequência de ingestão",
+      "Quantidade de bebidas"
+    ],
+    "v04_plus_numeric_stats": [
+      "Consumo de álcool",
+      "Frequência de consumo",
+      "Quantidade de bebidas"
+    ],
+    "v05_plus_sample_values": [
+      "Consumo de álcool",
+      "Frequência de consumo",
+      "Quantidade de consumo"
+    ],
+    "v06_plus_frequent_values": [
+      "Consumo de álcool",
+      "Frequência de consumo",
+      "Quantidade de bebidas"
+    ],
+    "v07_plus_sample_rows": [
+      "Consumo de álcool",
+      "Frequência de consumo",
+      "Quantidade de consumo"
+    ],
+    "v08_fk_plus_sample_values": [
+      "Consumo de álcool",
+      "Frequência de consumo",
+      "Quantidade de consumo"
+    ],
+    "v09_fk_plus_frequent_values": [
+      "Consumo de álcool",
+      "Frequência de consumo",
+      "Quantidade de bebidas"
+    ],
+    "v10_fk_plus_sample_and_frequent": [
+      "Consumo de álcool",
+      "Frequência de ingestão",
+      "Quantidade de bebidas"
+    ],
+    "v11_fk_plus_sample_rows": [
+      "Consumo de álcool",
+      "Frequência de consumo",
+      "Quantidade de consumo"
+    ],
+    "v12_nullable_plus_sample_values": [
+      "Consumo de álcool",
+      "Frequência de ingestão",
+      "Quantidade de bebidas"
+    ],
+    "v13_nullable_plus_frequent_values": [
+      "Consumo de álcool",
+      "Frequência de consumo",
+      "Quantidade de bebidas"
+    ],
+    "v14_nullable_plus_numeric_stats": [
+      "Consumo de álcool",
+      "Frequência de ingestão",
+      "Quantidade de bebidas"
+    ],
+    "v15_sample_rows_vs_sample_values": [
+      "Consumo de álcool",
+      "Frequência de ingestão",
+      "Quantidade de consumo"
+    ],
+    "v16_sample_rows_vs_frequent_values": [
+      "Consumo de álcool",
+      "Frequência de consumo",
+      "Quantidade de bebidas"
+    ],
+    "v17_sample_rows_plus_both_values": [
+      "Consumo de álcool",
+      "Frequência de consumo",
+      "Quantidade de consumo"
+    ],
+    "v18_fk_nullable_sample_values": [
+      "Consumo de álcool",
+      "Frequência de ingestão",
+      "Quantidade de bebidas"
+    ],
+    "v19_fk_nullable_frequent_values": [
+      "Consumo de álcool",
+      "Frequência de consumo",
+      "Quantidade de bebidas"
+    ],
+    "v20_fk_nullable_both_values": [
+      "Consumo de álcool",
+      "Frequência de consumo",
+      "Quantidade de bebidas"
+    ],
+    "v21_fk_nullable_sample_rows": [
+      "Consumo de álcool",
+      "Frequência de consumo",
+      "Quantidade de bebidas"
+    ],
+    "v22_fk_nullable_sample_rows_plus_frequent": [
+      "Consumo de álcool",
+      "Frequência de ingestão",
+      "Quantidade de bebidas"
+    ],
+    "v23_fk_nullable_sample_rows_plus_sample_values": [
+      "Consumo de álcool",
+      "Frequência de consumo",
+      "Quantidade de consumo"
+    ],
+    "v24_full_no_numeric_stats": [
+      "Consumo de álcool",
+      "Frequência de consumo",
+      "Quantidade de bebidas"
+    ],
+    "v25_full_no_sample_rows": [
+      "Consumo de álcool",
+      "Frequência de consumo",
+      "Quantidade de bebidas"
+    ]
+  },
+  "nhanes_questionnaire.auq_j": {
+    "v00_baseline": [],
+    "v01_full": [],
+    "v02_plus_fk": [],
+    "v03_plus_nullable": [],
+    "v04_plus_numeric_stats": [],
+    "v05_plus_sample_values": [],
+    "v06_plus_frequent_values": [],
+    "v07_plus_sample_rows": [],
+    "v08_fk_plus_sample_values": [],
+    "v09_fk_plus_frequent_values": [],
+    "v10_fk_plus_sample_and_frequent": [],
+    "v11_fk_plus_sample_rows": [],
+    "v12_nullable_plus_sample_values": [],
+    "v13_nullable_plus_frequent_values": [],
+    "v14_nullable_plus_numeric_stats": [],
+    "v15_sample_rows_vs_sample_values": [],
+    "v16_sample_rows_vs_frequent_values": [],
+    "v17_sample_rows_plus_both_values": [],
+    "v18_fk_nullable_sample_values": [],
+    "v19_fk_nullable_frequent_values": [],
+    "v20_fk_nullable_both_values": [],
+    "v21_fk_nullable_sample_rows": [],
+    "v22_fk_nullable_sample_rows_plus_frequent": [],
+    "v23_fk_nullable_sample_rows_plus_sample_values": [],
+    "v24_full_no_numeric_stats": [],
+    "v25_full_no_sample_rows": []
+  },
+  "nhanes_questionnaire.bpq_j": {
+    "v00_baseline": [],
+    "v01_full": [],
+    "v02_plus_fk": [],
+    "v03_plus_nullable": [],
+    "v04_plus_numeric_stats": [],
+    "v05_plus_sample_values": [],
+    "v06_plus_frequent_values": [],
+    "v07_plus_sample_rows": [],
+    "v08_fk_plus_sample_values": [],
+    "v09_fk_plus_frequent_values": [],
+    "v10_fk_plus_sample_and_frequent": [],
+    "v11_fk_plus_sample_rows": [],
+    "v12_nullable_plus_sample_values": [],
+    "v13_nullable_plus_frequent_values": [],
+    "v14_nullable_plus_numeric_stats": [],
+    "v15_sample_rows_vs_sample_values": [],
+    "v16_sample_rows_vs_frequent_values": [],
+    "v17_sample_rows_plus_both_values": [],
+    "v18_fk_nullable_sample_values": [],
+    "v19_fk_nullable_frequent_values": [],
+    "v20_fk_nullable_both_values": [],
+    "v21_fk_nullable_sample_rows": [],
+    "v22_fk_nullable_sample_rows_plus_frequent": [],
+    "v23_fk_nullable_sample_rows_plus_sample_values": [],
+    "v24_full_no_numeric_stats": [],
+    "v25_full_no_sample_rows": []
+  },
+  "nhanes_questionnaire.cbq_j": {
+    "v00_baseline": [],
+    "v01_full": [],
+    "v02_plus_fk": [],
+    "v03_plus_nullable": [],
+    "v04_plus_numeric_stats": [],
+    "v05_plus_sample_values": [],
+    "v06_plus_frequent_values": [],
+    "v07_plus_sample_rows": [],
+    "v08_fk_plus_sample_values": [],
+    "v09_fk_plus_frequent_values": [],
+    "v10_fk_plus_sample_and_frequent": [],
+    "v11_fk_plus_sample_rows": [],
+    "v12_nullable_plus_sample_values": [],
+    "v13_nullable_plus_frequent_values": [],
+    "v14_nullable_plus_numeric_stats": [],
+    "v15_sample_rows_vs_sample_values": [],
+    "v16_sample_rows_vs_frequent_values": [],
+    "v17_sample_rows_plus_both_values": [],
+    "v18_fk_nullable_sample_values": [],
+    "v19_fk_nullable_frequent_values": [],
+    "v20_fk_nullable_both_values": [],
+    "v21_fk_nullable_sample_rows": [],
+    "v22_fk_nullable_sample_rows_plus_frequent": [],
+    "v23_fk_nullable_sample_rows_plus_sample_values": [],
+    "v24_full_no_numeric_stats": [],
+    "v25_full_no_sample_rows": []
+  },
+  "nhanes_questionnaire.cbqpfa_j": {
+    "v00_baseline": [],
+    "v01_full": [],
+    "v02_plus_fk": [],
+    "v03_plus_nullable": [],
+    "v04_plus_numeric_stats": [],
+    "v05_plus_sample_values": [],
+    "v06_plus_frequent_values": [],
+    "v07_plus_sample_rows": [],
+    "v08_fk_plus_sample_values": [],
+    "v09_fk_plus_frequent_values": [],
+    "v10_fk_plus_sample_and_frequent": [],
+    "v11_fk_plus_sample_rows": [],
+    "v12_nullable_plus_sample_values": [],
+    "v13_nullable_plus_frequent_values": [],
+    "v14_nullable_plus_numeric_stats": [],
+    "v15_sample_rows_vs_sample_values": [],
+    "v16_sample_rows_vs_frequent_values": [],
+    "v17_sample_rows_plus_both_values": [],
+    "v18_fk_nullable_sample_values": [],
+    "v19_fk_nullable_frequent_values": [],
+    "v20_fk_nullable_both_values": [],
+    "v21_fk_nullable_sample_rows": [],
+    "v22_fk_nullable_sample_rows_plus_frequent": [],
+    "v23_fk_nullable_sample_rows_plus_sample_values": [],
+    "v24_full_no_numeric_stats": [],
+    "v25_full_no_sample_rows": []
+  },
+  "nhanes_questionnaire.cbqpfc_j": {
+    "v00_baseline": [],
+    "v01_full": [],
+    "v02_plus_fk": [],
+    "v03_plus_nullable": [],
+    "v04_plus_numeric_stats": [],
+    "v05_plus_sample_values": [],
+    "v06_plus_frequent_values": [],
+    "v07_plus_sample_rows": [],
+    "v08_fk_plus_sample_values": [],
+    "v09_fk_plus_frequent_values": [],
+    "v10_fk_plus_sample_and_frequent": [],
+    "v11_fk_plus_sample_rows": [],
+    "v12_nullable_plus_sample_values": [],
+    "v13_nullable_plus_frequent_values": [],
+    "v14_nullable_plus_numeric_stats": [],
+    "v15_sample_rows_vs_sample_values": [],
+    "v16_sample_rows_vs_frequent_values": [],
+    "v17_sample_rows_plus_both_values": [],
+    "v18_fk_nullable_sample_values": [],
+    "v19_fk_nullable_frequent_values": [],
+    "v20_fk_nullable_both_values": [],
+    "v21_fk_nullable_sample_rows": [],
+    "v22_fk_nullable_sample_rows_plus_frequent": [],
+    "v23_fk_nullable_sample_rows_plus_sample_values": [],
+    "v24_full_no_numeric_stats": [],
+    "v25_full_no_sample_rows": []
+  },
+  "nhanes_questionnaire.cdq_j": {
+    "v00_baseline": [],
+    "v01_full": [],
+    "v02_plus_fk": [],
+    "v03_plus_nullable": [],
+    "v04_plus_numeric_stats": [],
+    "v05_plus_sample_values": [],
+    "v06_plus_frequent_values": [],
+    "v07_plus_sample_rows": [],
+    "v08_fk_plus_sample_values": [],
+    "v09_fk_plus_frequent_values": [],
+    "v10_fk_plus_sample_and_frequent": [],
+    "v11_fk_plus_sample_rows": [],
+    "v12_nullable_plus_sample_values": [],
+    "v13_nullable_plus_frequent_values": [],
+    "v14_nullable_plus_numeric_stats": [],
+    "v15_sample_rows_vs_sample_values": [],
+    "v16_sample_rows_vs_frequent_values": [],
+    "v17_sample_rows_plus_both_values": [],
+    "v18_fk_nullable_sample_values": [],
+    "v19_fk_nullable_frequent_values": [],
+    "v20_fk_nullable_both_values": [],
+    "v21_fk_nullable_sample_rows": [],
+    "v22_fk_nullable_sample_rows_plus_frequent": [],
+    "v23_fk_nullable_sample_rows_plus_sample_values": [],
+    "v24_full_no_numeric_stats": [],
+    "v25_full_no_sample_rows": []
+  },
+  "nhanes_questionnaire.dbq_j": {
+    "v00_baseline": [],
+    "v01_full": [],
+    "v02_plus_fk": [],
+    "v03_plus_nullable": [],
+    "v04_plus_numeric_stats": [],
+    "v05_plus_sample_values": [],
+    "v06_plus_frequent_values": [],
+    "v07_plus_sample_rows": [],
+    "v08_fk_plus_sample_values": [],
+    "v09_fk_plus_frequent_values": [],
+    "v10_fk_plus_sample_and_frequent": [],
+    "v11_fk_plus_sample_rows": [],
+    "v12_nullable_plus_sample_values": [],
+    "v13_nullable_plus_frequent_values": [],
+    "v14_nullable_plus_numeric_stats": [],
+    "v15_sample_rows_vs_sample_values": [],
+    "v16_sample_rows_vs_frequent_values": [],
+    "v17_sample_rows_plus_both_values": [],
+    "v18_fk_nullable_sample_values": [],
+    "v19_fk_nullable_frequent_values": [],
+    "v20_fk_nullable_both_values": [],
+    "v21_fk_nullable_sample_rows": [],
+    "v22_fk_nullable_sample_rows_plus_frequent": [],
+    "v23_fk_nullable_sample_rows_plus_sample_values": [],
+    "v24_full_no_numeric_stats": [],
+    "v25_full_no_sample_rows": []
+  },
+  "nhanes_questionnaire.deq_j": {
+    "v00_baseline": [],
+    "v01_full": [],
+    "v02_plus_fk": [],
+    "v03_plus_nullable": [],
+    "v04_plus_numeric_stats": [],
+    "v05_plus_sample_values": [],
+    "v06_plus_frequent_values": [],
+    "v07_plus_sample_rows": [],
+    "v08_fk_plus_sample_values": [],
+    "v09_fk_plus_frequent_values": [],
+    "v10_fk_plus_sample_and_frequent": [],
+    "v11_fk_plus_sample_rows": [],
+    "v12_nullable_plus_sample_values": [],
+    "v13_nullable_plus_frequent_values": [],
+    "v14_nullable_plus_numeric_stats": [],
+    "v15_sample_rows_vs_sample_values": [],
+    "v16_sample_rows_vs_frequent_values": [],
+    "v17_sample_rows_plus_both_values": [],
+    "v18_fk_nullable_sample_values": [],
+    "v19_fk_nullable_frequent_values": [],
+    "v20_fk_nullable_both_values": [],
+    "v21_fk_nullable_sample_rows": [],
+    "v22_fk_nullable_sample_rows_plus_frequent": [],
+    "v23_fk_nullable_sample_rows_plus_sample_values": [],
+    "v24_full_no_numeric_stats": [],
+    "v25_full_no_sample_rows": []
+  },
+  "nhanes_questionnaire.diq_j": {
+    "v00_baseline": [],
+    "v01_full": [],
+    "v02_plus_fk": [],
+    "v03_plus_nullable": [],
+    "v04_plus_numeric_stats": [],
+    "v05_plus_sample_values": [],
+    "v06_plus_frequent_values": [],
+    "v07_plus_sample_rows": [],
+    "v08_fk_plus_sample_values": [],
+    "v09_fk_plus_frequent_values": [],
+    "v10_fk_plus_sample_and_frequent": [],
+    "v11_fk_plus_sample_rows": [],
+    "v12_nullable_plus_sample_values": [],
+    "v13_nullable_plus_frequent_values": [],
+    "v14_nullable_plus_numeric_stats": [],
+    "v15_sample_rows_vs_sample_values": [],
+    "v16_sample_rows_vs_frequent_values": [],
+    "v17_sample_rows_plus_both_values": [],
+    "v18_fk_nullable_sample_values": [],
+    "v19_fk_nullable_frequent_values": [],
+    "v20_fk_nullable_both_values": [],
+    "v21_fk_nullable_sample_rows": [],
+    "v22_fk_nullable_sample_rows_plus_frequent": [],
+    "v23_fk_nullable_sample_rows_plus_sample_values": [],
+    "v24_full_no_numeric_stats": [],
+    "v25_full_no_sample_rows": []
+  },
+  "nhanes_questionnaire.dlq_j": {
+    "v00_baseline": [],
+    "v01_full": [],
+    "v02_plus_fk": [],
+    "v03_plus_nullable": [],
+    "v04_plus_numeric_stats": [],
+    "v05_plus_sample_values": [],
+    "v06_plus_frequent_values": [],
+    "v07_plus_sample_rows": [],
+    "v08_fk_plus_sample_values": [],
+    "v09_fk_plus_frequent_values": [],
+    "v10_fk_plus_sample_and_frequent": [],
+    "v11_fk_plus_sample_rows": [],
+    "v12_nullable_plus_sample_values": [],
+    "v13_nullable_plus_frequent_values": [],
+    "v14_nullable_plus_numeric_stats": [],
+    "v15_sample_rows_vs_sample_values": [],
+    "v16_sample_rows_vs_frequent_values": [],
+    "v17_sample_rows_plus_both_values": [],
+    "v18_fk_nullable_sample_values": [],
+    "v19_fk_nullable_frequent_values": [],
+    "v20_fk_nullable_both_values": [],
+    "v21_fk_nullable_sample_rows": [],
+    "v22_fk_nullable_sample_rows_plus_frequent": [],
+    "v23_fk_nullable_sample_rows_plus_sample_values": [],
+    "v24_full_no_numeric_stats": [],
+    "v25_full_no_sample_rows": []
+  },
+  "nhanes_questionnaire.dpq_j": {
+    "v00_baseline": [
+      "Depressão",
+      "Questionário de saúde mental",
+      "NHANES"
+    ],
+    "v01_full": [
+      "Depressão",
+      "Questionário de saúde mental",
+      "NHANES DPQ"
+    ],
+    "v02_plus_fk": [
+      "Depressão",
+      "Questionário de Saúde Mental",
+      "NHANES"
+    ],
+    "v03_plus_nullable": [
+      "Depressão",
+      "Questionário de saúde mental",
+      "NHANES"
+    ],
+    "v04_plus_numeric_stats": [
+      "Depressão",
+      "Saúde mental",
+      "Questionário DPQ"
+    ],
+    "v05_plus_sample_values": [
+      "Depressão",
+      "Questionário de Saúde Mental",
+      "NHANES DPQ"
+    ],
+    "v06_plus_frequent_values": [
+      "Depressão",
+      "Questionário de Saúde Mental",
+      "NHANES DPQ"
+    ],
+    "v07_plus_sample_rows": [
+      "Questionário DPQ",
+      "Saúde mental",
+      "Depressão"
+    ],
+    "v08_fk_plus_sample_values": [
+      "Depressão",
+      "Questionário de saúde mental",
+      "NHANES DPQ"
+    ],
+    "v09_fk_plus_frequent_values": [
+      "Saúde mental",
+      "Questionário DPQ",
+      "Frequência de sintomas"
+    ],
+    "v10_fk_plus_sample_and_frequent": [
+      "Depressão",
+      "Questionário de saúde mental",
+      "NHANES DPQ"
+    ],
+    "v11_fk_plus_sample_rows": [
+      "Depressão",
+      "Questionário de saúde mental",
+      "NHANES DPQ"
+    ],
+    "v12_nullable_plus_sample_values": [
+      "Depressão",
+      "Questionário de saúde mental",
+      "NHANES DPQ"
+    ],
+    "v13_nullable_plus_frequent_values": [
+      "Depressão",
+      "Questionário de saúde mental",
+      "NHANES DPQ"
+    ],
+    "v14_nullable_plus_numeric_stats": [
+      "Depressão",
+      "Saúde mental",
+      "Questionário DPQ"
+    ],
+    "v15_sample_rows_vs_sample_values": [
+      "Questionário DPQ",
+      "Saúde mental",
+      "Depressão"
+    ],
+    "v16_sample_rows_vs_frequent_values": [
+      "Depressão",
+      "Questionário DPQ",
+      "Saúde mental"
+    ],
+    "v17_sample_rows_plus_both_values": [
+      "Depressão",
+      "Questionário de saúde mental",
+      "Frequência de sintomas"
+    ],
+    "v18_fk_nullable_sample_values": [
+      "Depressão",
+      "Questionário de saúde mental",
+      "NHANES DPQ"
+    ],
+    "v19_fk_nullable_frequent_values": [
+      "Depressão",
+      "Questionário DPQ",
+      "Saúde Mental"
+    ],
+    "v20_fk_nullable_both_values": [
+      "Depressão",
+      "Saúde mental",
+      "Questionário DPQ"
+    ],
+    "v21_fk_nullable_sample_rows": [
+      "Questionário DPQ",
+      "Saúde mental",
+      "Depressão"
+    ],
+    "v22_fk_nullable_sample_rows_plus_frequent": [
+      "Depressão",
+      "Questionário DPQ",
+      "Saúde mental"
+    ],
+    "v23_fk_nullable_sample_rows_plus_sample_values": [
+      "Depressão",
+      "Questionário de saúde mental",
+      "NHANES DPQ"
+    ],
+    "v24_full_no_numeric_stats": [
+      "Depressão",
+      "Questionário DPQ",
+      "Saúde Mental"
+    ],
+    "v25_full_no_sample_rows": [
+      "Depressão",
+      "Saúde mental",
+      "Questionário DPQ"
+    ]
+  },
+  "nhanes_questionnaire.duq_j": {
+    "v00_baseline": [],
+    "v01_full": [],
+    "v02_plus_fk": [],
+    "v03_plus_nullable": [],
+    "v04_plus_numeric_stats": [],
+    "v05_plus_sample_values": [],
+    "v06_plus_frequent_values": [],
+    "v07_plus_sample_rows": [],
+    "v08_fk_plus_sample_values": [],
+    "v09_fk_plus_frequent_values": [],
+    "v10_fk_plus_sample_and_frequent": [],
+    "v11_fk_plus_sample_rows": [],
+    "v12_nullable_plus_sample_values": [],
+    "v13_nullable_plus_frequent_values": [],
+    "v14_nullable_plus_numeric_stats": [],
+    "v15_sample_rows_vs_sample_values": [],
+    "v16_sample_rows_vs_frequent_values": [],
+    "v17_sample_rows_plus_both_values": [],
+    "v18_fk_nullable_sample_values": [],
+    "v19_fk_nullable_frequent_values": [],
+    "v20_fk_nullable_both_values": [],
+    "v21_fk_nullable_sample_rows": [],
+    "v22_fk_nullable_sample_rows_plus_frequent": [],
+    "v23_fk_nullable_sample_rows_plus_sample_values": [],
+    "v24_full_no_numeric_stats": [],
+    "v25_full_no_sample_rows": []
+  },
+  "nhanes_questionnaire.ecq_j": {
+    "v00_baseline": [],
+    "v01_full": [],
+    "v02_plus_fk": [],
+    "v03_plus_nullable": [],
+    "v04_plus_numeric_stats": [],
+    "v05_plus_sample_values": [],
+    "v06_plus_frequent_values": [],
+    "v07_plus_sample_rows": [],
+    "v08_fk_plus_sample_values": [],
+    "v09_fk_plus_frequent_values": [],
+    "v10_fk_plus_sample_and_frequent": [],
+    "v11_fk_plus_sample_rows": [],
+    "v12_nullable_plus_sample_values": [],
+    "v13_nullable_plus_frequent_values": [],
+    "v14_nullable_plus_numeric_stats": [],
+    "v15_sample_rows_vs_sample_values": [],
+    "v16_sample_rows_vs_frequent_values": [],
+    "v17_sample_rows_plus_both_values": [],
+    "v18_fk_nullable_sample_values": [],
+    "v19_fk_nullable_frequent_values": [],
+    "v20_fk_nullable_both_values": [],
+    "v21_fk_nullable_sample_rows": [],
+    "v22_fk_nullable_sample_rows_plus_frequent": [],
+    "v23_fk_nullable_sample_rows_plus_sample_values": [],
+    "v24_full_no_numeric_stats": [],
+    "v25_full_no_sample_rows": []
+  },
+  "nhanes_questionnaire.fsq_j": {
+    "v00_baseline": [],
+    "v01_full": [],
+    "v02_plus_fk": [],
+    "v03_plus_nullable": [],
+    "v04_plus_numeric_stats": [],
+    "v05_plus_sample_values": [],
+    "v06_plus_frequent_values": [],
+    "v07_plus_sample_rows": [],
+    "v08_fk_plus_sample_values": [],
+    "v09_fk_plus_frequent_values": [],
+    "v10_fk_plus_sample_and_frequent": [],
+    "v11_fk_plus_sample_rows": [],
+    "v12_nullable_plus_sample_values": [],
+    "v13_nullable_plus_frequent_values": [],
+    "v14_nullable_plus_numeric_stats": [],
+    "v15_sample_rows_vs_sample_values": [],
+    "v16_sample_rows_vs_frequent_values": [],
+    "v17_sample_rows_plus_both_values": [],
+    "v18_fk_nullable_sample_values": [],
+    "v19_fk_nullable_frequent_values": [],
+    "v20_fk_nullable_both_values": [],
+    "v21_fk_nullable_sample_rows": [],
+    "v22_fk_nullable_sample_rows_plus_frequent": [],
+    "v23_fk_nullable_sample_rows_plus_sample_values": [],
+    "v24_full_no_numeric_stats": [],
+    "v25_full_no_sample_rows": []
+  },
+  "nhanes_questionnaire.heq_j": {
+    "v00_baseline": [],
+    "v01_full": [],
+    "v02_plus_fk": [],
+    "v03_plus_nullable": [],
+    "v04_plus_numeric_stats": [],
+    "v05_plus_sample_values": [],
+    "v06_plus_frequent_values": [],
+    "v07_plus_sample_rows": [],
+    "v08_fk_plus_sample_values": [],
+    "v09_fk_plus_frequent_values": [],
+    "v10_fk_plus_sample_and_frequent": [],
+    "v11_fk_plus_sample_rows": [],
+    "v12_nullable_plus_sample_values": [],
+    "v13_nullable_plus_frequent_values": [],
+    "v14_nullable_plus_numeric_stats": [],
+    "v15_sample_rows_vs_sample_values": [],
+    "v16_sample_rows_vs_frequent_values": [],
+    "v17_sample_rows_plus_both_values": [],
+    "v18_fk_nullable_sample_values": [],
+    "v19_fk_nullable_frequent_values": [],
+    "v20_fk_nullable_both_values": [],
+    "v21_fk_nullable_sample_rows": [],
+    "v22_fk_nullable_sample_rows_plus_frequent": [],
+    "v23_fk_nullable_sample_rows_plus_sample_values": [],
+    "v24_full_no_numeric_stats": [],
+    "v25_full_no_sample_rows": []
+  },
+  "nhanes_questionnaire.hiq_j": {
+    "v00_baseline": [],
+    "v01_full": [],
+    "v02_plus_fk": [],
+    "v03_plus_nullable": [],
+    "v04_plus_numeric_stats": [],
+    "v05_plus_sample_values": [],
+    "v06_plus_frequent_values": [],
+    "v07_plus_sample_rows": [],
+    "v08_fk_plus_sample_values": [],
+    "v09_fk_plus_frequent_values": [],
+    "v10_fk_plus_sample_and_frequent": [],
+    "v11_fk_plus_sample_rows": [],
+    "v12_nullable_plus_sample_values": [],
+    "v13_nullable_plus_frequent_values": [],
+    "v14_nullable_plus_numeric_stats": [],
+    "v15_sample_rows_vs_sample_values": [],
+    "v16_sample_rows_vs_frequent_values": [],
+    "v17_sample_rows_plus_both_values": [],
+    "v18_fk_nullable_sample_values": [],
+    "v19_fk_nullable_frequent_values": [],
+    "v20_fk_nullable_both_values": [],
+    "v21_fk_nullable_sample_rows": [],
+    "v22_fk_nullable_sample_rows_plus_frequent": [],
+    "v23_fk_nullable_sample_rows_plus_sample_values": [],
+    "v24_full_no_numeric_stats": [],
+    "v25_full_no_sample_rows": []
+  },
+  "nhanes_questionnaire.hoq_j": {
+    "v00_baseline": [],
+    "v01_full": [],
+    "v02_plus_fk": [],
+    "v03_plus_nullable": [],
+    "v04_plus_numeric_stats": [],
+    "v05_plus_sample_values": [],
+    "v06_plus_frequent_values": [],
+    "v07_plus_sample_rows": [],
+    "v08_fk_plus_sample_values": [],
+    "v09_fk_plus_frequent_values": [],
+    "v10_fk_plus_sample_and_frequent": [],
+    "v11_fk_plus_sample_rows": [],
+    "v12_nullable_plus_sample_values": [],
+    "v13_nullable_plus_frequent_values": [],
+    "v14_nullable_plus_numeric_stats": [],
+    "v15_sample_rows_vs_sample_values": [],
+    "v16_sample_rows_vs_frequent_values": [],
+    "v17_sample_rows_plus_both_values": [],
+    "v18_fk_nullable_sample_values": [],
+    "v19_fk_nullable_frequent_values": [],
+    "v20_fk_nullable_both_values": [],
+    "v21_fk_nullable_sample_rows": [],
+    "v22_fk_nullable_sample_rows_plus_frequent": [],
+    "v23_fk_nullable_sample_rows_plus_sample_values": [],
+    "v24_full_no_numeric_stats": [],
+    "v25_full_no_sample_rows": []
+  },
+  "nhanes_questionnaire.hsq_j": {
+    "v00_baseline": [
+      "Saúde geral",
+      "Condições crônicas",
+      "Utilização de serviços de saúde"
+    ],
+    "v01_full": [
+      "Saúde autorrelatada",
+      "Uso de serviços de saúde",
+      "Questionário de saúde"
+    ],
+    "v02_plus_fk": [
+      "Saúde geral",
+      "Condições crônicas",
+      "Utilização de serviços de saúde"
+    ],
+    "v03_plus_nullable": [
+      "Saúde geral",
+      "Condições crônicas",
+      "Utilização de serviços de saúde"
+    ],
+    "v04_plus_numeric_stats": [
+      "Saúde autorrelatada",
+      "Uso de serviços de saúde",
+      "Frequência de consultas médicas"
+    ],
+    "v05_plus_sample_values": [
+      "Saúde autorrelatada",
+      "Uso de serviços de saúde",
+      "Condições crônicas"
+    ],
+    "v06_plus_frequent_values": [
+      "Saúde geral",
+      "Uso de serviços de saúde",
+      "Condições crônicas"
+    ],
+    "v07_plus_sample_rows": [
+      "Saúde geral",
+      "Condições crônicas",
+      "Questionário de saúde"
+    ],
+    "v08_fk_plus_sample_values": [
+      "Saúde geral",
+      "Uso de serviços de saúde",
+      "Condições crônicas"
+    ],
+    "v09_fk_plus_frequent_values": [
+      "Saúde autorrelatada",
+      "Condições crônicas",
+      "Uso de serviços de saúde"
+    ],
+    "v10_fk_plus_sample_and_frequent": [
+      "Saúde geral",
+      "Uso de serviços de saúde",
+      "Questionário de saúde"
+    ],
+    "v11_fk_plus_sample_rows": [
+      "Saúde geral",
+      "Condições respiratórias",
+      "Questionário de saúde"
+    ],
+    "v12_nullable_plus_sample_values": [
+      "Saúde geral",
+      "Tontura",
+      "Uso de suplementos"
+    ],
+    "v13_nullable_plus_frequent_values": [
+      "Saúde geral",
+      "Condições crônicas",
+      "Uso de serviços de saúde"
+    ],
+    "v14_nullable_plus_numeric_stats": [
+      "Saúde geral",
+      "Utilização de serviços de saúde",
+      "Questionário de saúde"
+    ],
+    "v15_sample_rows_vs_sample_values": [
+      "Saúde autorreferida",
+      "Condições de saúde",
+      "Uso de serviços de saúde"
+    ],
+    "v16_sample_rows_vs_frequent_values": [
+      "Saúde geral",
+      "Condições crônicas",
+      "Uso de serviços de saúde"
+    ],
+    "v17_sample_rows_plus_both_values": [
+      "Saúde geral",
+      "Condições crônicas",
+      "Uso de serviços de saúde"
+    ],
+    "v18_fk_nullable_sample_values": [
+      "Saúde geral",
+      "Uso de serviços de saúde",
+      "Questionário de saúde"
+    ],
+    "v19_fk_nullable_frequent_values": [
+      "Saúde autorrelatada",
+      "Condições crônicas",
+      "Uso de serviços de saúde"
+    ],
+    "v20_fk_nullable_both_values": [
+      "Saúde geral",
+      "Uso de serviços de saúde",
+      "Condições crônicas"
+    ],
+    "v21_fk_nullable_sample_rows": [
+      "Saúde geral",
+      "Condições respiratórias",
+      "Uso de serviços de saúde"
+    ],
+    "v22_fk_nullable_sample_rows_plus_frequent": [
+      "Saúde geral",
+      "Condições crônicas",
+      "Uso de serviços de saúde"
+    ],
+    "v23_fk_nullable_sample_rows_plus_sample_values": [
+      "Saúde geral",
+      "Uso de serviços de saúde",
+      "Questionário de saúde"
+    ],
+    "v24_full_no_numeric_stats": [
+      "Saúde geral",
+      "Uso de serviços de saúde",
+      "Questionário de saúde"
+    ],
+    "v25_full_no_sample_rows": [
+      "Saúde geral",
+      "Saúde auditiva",
+      "Questionário de saúde"
+    ]
+  },
+  "nhanes_questionnaire.huq_j": {
+    "v00_baseline": [],
+    "v01_full": [],
+    "v02_plus_fk": [],
+    "v03_plus_nullable": [],
+    "v04_plus_numeric_stats": [],
+    "v05_plus_sample_values": [],
+    "v06_plus_frequent_values": [],
+    "v07_plus_sample_rows": [],
+    "v08_fk_plus_sample_values": [],
+    "v09_fk_plus_frequent_values": [],
+    "v10_fk_plus_sample_and_frequent": [],
+    "v11_fk_plus_sample_rows": [],
+    "v12_nullable_plus_sample_values": [],
+    "v13_nullable_plus_frequent_values": [],
+    "v14_nullable_plus_numeric_stats": [],
+    "v15_sample_rows_vs_sample_values": [],
+    "v16_sample_rows_vs_frequent_values": [],
+    "v17_sample_rows_plus_both_values": [],
+    "v18_fk_nullable_sample_values": [],
+    "v19_fk_nullable_frequent_values": [],
+    "v20_fk_nullable_both_values": [],
+    "v21_fk_nullable_sample_rows": [],
+    "v22_fk_nullable_sample_rows_plus_frequent": [],
+    "v23_fk_nullable_sample_rows_plus_sample_values": [],
+    "v24_full_no_numeric_stats": [],
+    "v25_full_no_sample_rows": []
+  },
+  "nhanes_questionnaire.imq_j": {
+    "v00_baseline": [],
+    "v01_full": [],
+    "v02_plus_fk": [],
+    "v03_plus_nullable": [],
+    "v04_plus_numeric_stats": [],
+    "v05_plus_sample_values": [],
+    "v06_plus_frequent_values": [],
+    "v07_plus_sample_rows": [],
+    "v08_fk_plus_sample_values": [],
+    "v09_fk_plus_frequent_values": [],
+    "v10_fk_plus_sample_and_frequent": [],
+    "v11_fk_plus_sample_rows": [],
+    "v12_nullable_plus_sample_values": [],
+    "v13_nullable_plus_frequent_values": [],
+    "v14_nullable_plus_numeric_stats": [],
+    "v15_sample_rows_vs_sample_values": [],
+    "v16_sample_rows_vs_frequent_values": [],
+    "v17_sample_rows_plus_both_values": [],
+    "v18_fk_nullable_sample_values": [],
+    "v19_fk_nullable_frequent_values": [],
+    "v20_fk_nullable_both_values": [],
+    "v21_fk_nullable_sample_rows": [],
+    "v22_fk_nullable_sample_rows_plus_frequent": [],
+    "v23_fk_nullable_sample_rows_plus_sample_values": [],
+    "v24_full_no_numeric_stats": [],
+    "v25_full_no_sample_rows": []
+  },
+  "nhanes_questionnaire.inq_j": {
+    "v00_baseline": [],
+    "v01_full": [],
+    "v02_plus_fk": [],
+    "v03_plus_nullable": [],
+    "v04_plus_numeric_stats": [],
+    "v05_plus_sample_values": [],
+    "v06_plus_frequent_values": [],
+    "v07_plus_sample_rows": [],
+    "v08_fk_plus_sample_values": [],
+    "v09_fk_plus_frequent_values": [],
+    "v10_fk_plus_sample_and_frequent": [],
+    "v11_fk_plus_sample_rows": [],
+    "v12_nullable_plus_sample_values": [],
+    "v13_nullable_plus_frequent_values": [],
+    "v14_nullable_plus_numeric_stats": [],
+    "v15_sample_rows_vs_sample_values": [],
+    "v16_sample_rows_vs_frequent_values": [],
+    "v17_sample_rows_plus_both_values": [],
+    "v18_fk_nullable_sample_values": [],
+    "v19_fk_nullable_frequent_values": [],
+    "v20_fk_nullable_both_values": [],
+    "v21_fk_nullable_sample_rows": [],
+    "v22_fk_nullable_sample_rows_plus_frequent": [],
+    "v23_fk_nullable_sample_rows_plus_sample_values": [],
+    "v24_full_no_numeric_stats": [],
+    "v25_full_no_sample_rows": []
+  },
+  "nhanes_questionnaire.kiq_u_j": {
+    "v00_baseline": [],
+    "v01_full": [],
+    "v02_plus_fk": [],
+    "v03_plus_nullable": [],
+    "v04_plus_numeric_stats": [],
+    "v05_plus_sample_values": [],
+    "v06_plus_frequent_values": [],
+    "v07_plus_sample_rows": [],
+    "v08_fk_plus_sample_values": [],
+    "v09_fk_plus_frequent_values": [],
+    "v10_fk_plus_sample_and_frequent": [],
+    "v11_fk_plus_sample_rows": [],
+    "v12_nullable_plus_sample_values": [],
+    "v13_nullable_plus_frequent_values": [],
+    "v14_nullable_plus_numeric_stats": [],
+    "v15_sample_rows_vs_sample_values": [],
+    "v16_sample_rows_vs_frequent_values": [],
+    "v17_sample_rows_plus_both_values": [],
+    "v18_fk_nullable_sample_values": [],
+    "v19_fk_nullable_frequent_values": [],
+    "v20_fk_nullable_both_values": [],
+    "v21_fk_nullable_sample_rows": [],
+    "v22_fk_nullable_sample_rows_plus_frequent": [],
+    "v23_fk_nullable_sample_rows_plus_sample_values": [],
+    "v24_full_no_numeric_stats": [],
+    "v25_full_no_sample_rows": []
+  },
+  "nhanes_questionnaire.mcq_j": {
+    "v00_baseline": [],
+    "v01_full": [],
+    "v02_plus_fk": [],
+    "v03_plus_nullable": [],
+    "v04_plus_numeric_stats": [],
+    "v05_plus_sample_values": [],
+    "v06_plus_frequent_values": [],
+    "v07_plus_sample_rows": [],
+    "v08_fk_plus_sample_values": [],
+    "v09_fk_plus_frequent_values": [],
+    "v10_fk_plus_sample_and_frequent": [],
+    "v11_fk_plus_sample_rows": [],
+    "v12_nullable_plus_sample_values": [],
+    "v13_nullable_plus_frequent_values": [],
+    "v14_nullable_plus_numeric_stats": [],
+    "v15_sample_rows_vs_sample_values": [],
+    "v16_sample_rows_vs_frequent_values": [],
+    "v17_sample_rows_plus_both_values": [],
+    "v18_fk_nullable_sample_values": [],
+    "v19_fk_nullable_frequent_values": [],
+    "v20_fk_nullable_both_values": [],
+    "v21_fk_nullable_sample_rows": [],
+    "v22_fk_nullable_sample_rows_plus_frequent": [],
+    "v23_fk_nullable_sample_rows_plus_sample_values": [],
+    "v24_full_no_numeric_stats": [],
+    "v25_full_no_sample_rows": []
+  },
+  "nhanes_questionnaire.ocq_j": {
+    "v00_baseline": [],
+    "v01_full": [],
+    "v02_plus_fk": [],
+    "v03_plus_nullable": [],
+    "v04_plus_numeric_stats": [],
+    "v05_plus_sample_values": [],
+    "v06_plus_frequent_values": [],
+    "v07_plus_sample_rows": [],
+    "v08_fk_plus_sample_values": [],
+    "v09_fk_plus_frequent_values": [],
+    "v10_fk_plus_sample_and_frequent": [],
+    "v11_fk_plus_sample_rows": [],
+    "v12_nullable_plus_sample_values": [],
+    "v13_nullable_plus_frequent_values": [],
+    "v14_nullable_plus_numeric_stats": [],
+    "v15_sample_rows_vs_sample_values": [],
+    "v16_sample_rows_vs_frequent_values": [],
+    "v17_sample_rows_plus_both_values": [],
+    "v18_fk_nullable_sample_values": [],
+    "v19_fk_nullable_frequent_values": [],
+    "v20_fk_nullable_both_values": [],
+    "v21_fk_nullable_sample_rows": [],
+    "v22_fk_nullable_sample_rows_plus_frequent": [],
+    "v23_fk_nullable_sample_rows_plus_sample_values": [],
+    "v24_full_no_numeric_stats": [],
+    "v25_full_no_sample_rows": []
+  },
+  "nhanes_questionnaire.ohq_j": {
+    "v00_baseline": [],
+    "v01_full": [],
+    "v02_plus_fk": [],
+    "v03_plus_nullable": [],
+    "v04_plus_numeric_stats": [],
+    "v05_plus_sample_values": [],
+    "v06_plus_frequent_values": [],
+    "v07_plus_sample_rows": [],
+    "v08_fk_plus_sample_values": [],
+    "v09_fk_plus_frequent_values": [],
+    "v10_fk_plus_sample_and_frequent": [],
+    "v11_fk_plus_sample_rows": [],
+    "v12_nullable_plus_sample_values": [],
+    "v13_nullable_plus_frequent_values": [],
+    "v14_nullable_plus_numeric_stats": [],
+    "v15_sample_rows_vs_sample_values": [],
+    "v16_sample_rows_vs_frequent_values": [],
+    "v17_sample_rows_plus_both_values": [],
+    "v18_fk_nullable_sample_values": [],
+    "v19_fk_nullable_frequent_values": [],
+    "v20_fk_nullable_both_values": [],
+    "v21_fk_nullable_sample_rows": [],
+    "v22_fk_nullable_sample_rows_plus_frequent": [],
+    "v23_fk_nullable_sample_rows_plus_sample_values": [],
+    "v24_full_no_numeric_stats": [],
+    "v25_full_no_sample_rows": []
+  },
+  "nhanes_questionnaire.osq_j": {
+    "v00_baseline": [],
+    "v01_full": [],
+    "v02_plus_fk": [],
+    "v03_plus_nullable": [],
+    "v04_plus_numeric_stats": [],
+    "v05_plus_sample_values": [],
+    "v06_plus_frequent_values": [],
+    "v07_plus_sample_rows": [],
+    "v08_fk_plus_sample_values": [],
+    "v09_fk_plus_frequent_values": [],
+    "v10_fk_plus_sample_and_frequent": [],
+    "v11_fk_plus_sample_rows": [],
+    "v12_nullable_plus_sample_values": [],
+    "v13_nullable_plus_frequent_values": [],
+    "v14_nullable_plus_numeric_stats": [],
+    "v15_sample_rows_vs_sample_values": [],
+    "v16_sample_rows_vs_frequent_values": [],
+    "v17_sample_rows_plus_both_values": [],
+    "v18_fk_nullable_sample_values": [],
+    "v19_fk_nullable_frequent_values": [],
+    "v20_fk_nullable_both_values": [],
+    "v21_fk_nullable_sample_rows": [],
+    "v22_fk_nullable_sample_rows_plus_frequent": [],
+    "v23_fk_nullable_sample_rows_plus_sample_values": [],
+    "v24_full_no_numeric_stats": [],
+    "v25_full_no_sample_rows": []
+  },
+  "nhanes_questionnaire.paq_j": {
+    "v00_baseline": [],
+    "v01_full": [],
+    "v02_plus_fk": [],
+    "v03_plus_nullable": [],
+    "v04_plus_numeric_stats": [],
+    "v05_plus_sample_values": [],
+    "v06_plus_frequent_values": [],
+    "v07_plus_sample_rows": [],
+    "v08_fk_plus_sample_values": [],
+    "v09_fk_plus_frequent_values": [],
+    "v10_fk_plus_sample_and_frequent": [],
+    "v11_fk_plus_sample_rows": [],
+    "v12_nullable_plus_sample_values": [],
+    "v13_nullable_plus_frequent_values": [],
+    "v14_nullable_plus_numeric_stats": [],
+    "v15_sample_rows_vs_sample_values": [],
+    "v16_sample_rows_vs_frequent_values": [],
+    "v17_sample_rows_plus_both_values": [],
+    "v18_fk_nullable_sample_values": [],
+    "v19_fk_nullable_frequent_values": [],
+    "v20_fk_nullable_both_values": [],
+    "v21_fk_nullable_sample_rows": [],
+    "v22_fk_nullable_sample_rows_plus_frequent": [],
+    "v23_fk_nullable_sample_rows_plus_sample_values": [],
+    "v24_full_no_numeric_stats": [],
+    "v25_full_no_sample_rows": []
+  },
+  "nhanes_questionnaire.paqy_j": {
+    "v00_baseline": [],
+    "v01_full": [],
+    "v02_plus_fk": [],
+    "v03_plus_nullable": [],
+    "v04_plus_numeric_stats": [],
+    "v05_plus_sample_values": [],
+    "v06_plus_frequent_values": [],
+    "v07_plus_sample_rows": [],
+    "v08_fk_plus_sample_values": [],
+    "v09_fk_plus_frequent_values": [],
+    "v10_fk_plus_sample_and_frequent": [],
+    "v11_fk_plus_sample_rows": [],
+    "v12_nullable_plus_sample_values": [],
+    "v13_nullable_plus_frequent_values": [],
+    "v14_nullable_plus_numeric_stats": [],
+    "v15_sample_rows_vs_sample_values": [],
+    "v16_sample_rows_vs_frequent_values": [],
+    "v17_sample_rows_plus_both_values": [],
+    "v18_fk_nullable_sample_values": [],
+    "v19_fk_nullable_frequent_values": [],
+    "v20_fk_nullable_both_values": [],
+    "v21_fk_nullable_sample_rows": [],
+    "v22_fk_nullable_sample_rows_plus_frequent": [],
+    "v23_fk_nullable_sample_rows_plus_sample_values": [],
+    "v24_full_no_numeric_stats": [],
+    "v25_full_no_sample_rows": []
+  },
+  "nhanes_questionnaire.pfq_j": {
+    "v00_baseline": [],
+    "v01_full": [],
+    "v02_plus_fk": [],
+    "v03_plus_nullable": [],
+    "v04_plus_numeric_stats": [],
+    "v05_plus_sample_values": [],
+    "v06_plus_frequent_values": [],
+    "v07_plus_sample_rows": [],
+    "v08_fk_plus_sample_values": [],
+    "v09_fk_plus_frequent_values": [],
+    "v10_fk_plus_sample_and_frequent": [],
+    "v11_fk_plus_sample_rows": [],
+    "v12_nullable_plus_sample_values": [],
+    "v13_nullable_plus_frequent_values": [],
+    "v14_nullable_plus_numeric_stats": [],
+    "v15_sample_rows_vs_sample_values": [],
+    "v16_sample_rows_vs_frequent_values": [],
+    "v17_sample_rows_plus_both_values": [],
+    "v18_fk_nullable_sample_values": [],
+    "v19_fk_nullable_frequent_values": [],
+    "v20_fk_nullable_both_values": [],
+    "v21_fk_nullable_sample_rows": [],
+    "v22_fk_nullable_sample_rows_plus_frequent": [],
+    "v23_fk_nullable_sample_rows_plus_sample_values": [],
+    "v24_full_no_numeric_stats": [],
+    "v25_full_no_sample_rows": []
+  },
+  "nhanes_questionnaire.puqmec_j": {
+    "v00_baseline": [
+      "Saúde reprodutiva",
+      "Menstruação",
+      "Gravidez"
+    ],
+    "v01_full": [
+      "Saúde reprodutiva",
+      "Gravidez",
+      "Questionário de saúde"
+    ],
+    "v02_plus_fk": [
+      "Saúde reprodutiva feminina",
+      "Histórico menstrual",
+      "Gravidez"
+    ],
+    "v03_plus_nullable": [
+      "Saúde reprodutiva",
+      "Menstruação",
+      "Gravidez"
+    ],
+    "v04_plus_numeric_stats": [
+      "Saúde reprodutiva",
+      "Questionário NHANES",
+      "Dados populacionais"
+    ],
+    "v05_plus_sample_values": [
+      "Saúde reprodutiva",
+      "Questionário de saúde",
+      "Dados NHANES"
+    ],
+    "v06_plus_frequent_values": [
+      "Uso de medicamentos",
+      "Questionário de saúde",
+      "Frequência de uso"
+    ],
+    "v07_plus_sample_rows": [
+      "Saúde reprodutiva",
+      "Uso de anticoncepcionais",
+      "Histórico gestacional"
+    ],
+    "v08_fk_plus_sample_values": [
+      "Saúde reprodutiva",
+      "Questionário de saúde",
+      "Dados de pesquisa NHANES"
+    ],
+    "v09_fk_plus_frequent_values": [
+      "Saúde reprodutiva",
+      "Uso de anticoncepcionais",
+      "Questionário populacional"
+    ],
+    "v10_fk_plus_sample_and_frequent": [
+      "Saúde reprodutiva",
+      "Questionário NHANES",
+      "Dados de puberdade"
+    ],
+    "v11_fk_plus_sample_rows": [
+      "Saúde reprodutiva",
+      "Uso de anticoncepcionais",
+      "Histórico gestacional"
+    ],
+    "v12_nullable_plus_sample_values": [
+      "Saúde reprodutiva",
+      "Questionário de saúde",
+      "Dados NHANES"
+    ],
+    "v13_nullable_plus_frequent_values": [
+      "Saúde reprodutiva",
+      "Histórico de gravidez",
+      "Questionário NHANES"
+    ],
+    "v14_nullable_plus_numeric_stats": [
+      "Saúde reprodutiva",
+      "Questionário masculino",
+      "Fertilidade"
+    ],
+    "v15_sample_rows_vs_sample_values": [
+      "Uso de produtos",
+      "Saúde reprodutiva"
+    ],
+    "v16_sample_rows_vs_frequent_values": [
+      "Uso de medicamentos",
+      "Condições de saúde",
+      "Questionário de saúde"
+    ],
+    "v17_sample_rows_plus_both_values": [
+      "Uso de medicamentos",
+      "Saúde reprodutiva",
+      "Questionário NHANES"
+    ],
+    "v18_fk_nullable_sample_values": [
+      "Saúde reprodutiva",
+      "Questionário de puberdade",
+      "Dados de desenvolvimento"
+    ],
+    "v19_fk_nullable_frequent_values": [
+      "Saúde reprodutiva masculina",
+      "Uso de medicamentos para disfunção erétil",
+      "Questionário de saúde sexual"
+    ],
+    "v20_fk_nullable_both_values": [
+      "Saúde reprodutiva",
+      "Questionário NHANES",
+      "Dados de puberdade"
+    ],
+    "v21_fk_nullable_sample_rows": [
+      "Saúde reprodutiva",
+      "Uso de contracepção",
+      "Questionário NHANES"
+    ],
+    "v22_fk_nullable_sample_rows_plus_frequent": [
+      "Saúde reprodutiva",
+      "Uso de contracepção",
+      "Histórico menstrual"
+    ],
+    "v23_fk_nullable_sample_rows_plus_sample_values": [
+      "Questionário de saúde",
+      "Dados de pesquisa populacional"
+    ],
+    "v24_full_no_numeric_stats": [
+      "Saúde reprodutiva",
+      "Uso de contracepção",
+      "Histórico gestacional"
+    ],
+    "v25_full_no_sample_rows": [
+      "Saúde reprodutiva",
+      "Histórico menstrual",
+      "Gravidez"
+    ]
+  },
+  "nhanes_questionnaire.rhq_j": {
+    "v00_baseline": [],
+    "v01_full": [],
+    "v02_plus_fk": [],
+    "v03_plus_nullable": [],
+    "v04_plus_numeric_stats": [],
+    "v05_plus_sample_values": [],
+    "v06_plus_frequent_values": [],
+    "v07_plus_sample_rows": [],
+    "v08_fk_plus_sample_values": [],
+    "v09_fk_plus_frequent_values": [],
+    "v10_fk_plus_sample_and_frequent": [],
+    "v11_fk_plus_sample_rows": [],
+    "v12_nullable_plus_sample_values": [],
+    "v13_nullable_plus_frequent_values": [],
+    "v14_nullable_plus_numeric_stats": [],
+    "v15_sample_rows_vs_sample_values": [],
+    "v16_sample_rows_vs_frequent_values": [],
+    "v17_sample_rows_plus_both_values": [],
+    "v18_fk_nullable_sample_values": [],
+    "v19_fk_nullable_frequent_values": [],
+    "v20_fk_nullable_both_values": [],
+    "v21_fk_nullable_sample_rows": [],
+    "v22_fk_nullable_sample_rows_plus_frequent": [],
+    "v23_fk_nullable_sample_rows_plus_sample_values": [],
+    "v24_full_no_numeric_stats": [],
+    "v25_full_no_sample_rows": []
+  },
+  "nhanes_questionnaire.rxq_rx_j": {
+    "v00_baseline": [],
+    "v01_full": [],
+    "v02_plus_fk": [],
+    "v03_plus_nullable": [],
+    "v04_plus_numeric_stats": [],
+    "v05_plus_sample_values": [],
+    "v06_plus_frequent_values": [],
+    "v07_plus_sample_rows": [],
+    "v08_fk_plus_sample_values": [],
+    "v09_fk_plus_frequent_values": [],
+    "v10_fk_plus_sample_and_frequent": [],
+    "v11_fk_plus_sample_rows": [],
+    "v12_nullable_plus_sample_values": [],
+    "v13_nullable_plus_frequent_values": [],
+    "v14_nullable_plus_numeric_stats": [],
+    "v15_sample_rows_vs_sample_values": [],
+    "v16_sample_rows_vs_frequent_values": [],
+    "v17_sample_rows_plus_both_values": [],
+    "v18_fk_nullable_sample_values": [],
+    "v19_fk_nullable_frequent_values": [],
+    "v20_fk_nullable_both_values": [],
+    "v21_fk_nullable_sample_rows": [],
+    "v22_fk_nullable_sample_rows_plus_frequent": [],
+    "v23_fk_nullable_sample_rows_plus_sample_values": [],
+    "v24_full_no_numeric_stats": [],
+    "v25_full_no_sample_rows": []
+  },
+  "nhanes_questionnaire.rxqasa_j": {
+    "v00_baseline": [],
+    "v01_full": [],
+    "v02_plus_fk": [],
+    "v03_plus_nullable": [],
+    "v04_plus_numeric_stats": [],
+    "v05_plus_sample_values": [],
+    "v06_plus_frequent_values": [],
+    "v07_plus_sample_rows": [],
+    "v08_fk_plus_sample_values": [],
+    "v09_fk_plus_frequent_values": [],
+    "v10_fk_plus_sample_and_frequent": [],
+    "v11_fk_plus_sample_rows": [],
+    "v12_nullable_plus_sample_values": [],
+    "v13_nullable_plus_frequent_values": [],
+    "v14_nullable_plus_numeric_stats": [],
+    "v15_sample_rows_vs_sample_values": [],
+    "v16_sample_rows_vs_frequent_values": [],
+    "v17_sample_rows_plus_both_values": [],
+    "v18_fk_nullable_sample_values": [],
+    "v19_fk_nullable_frequent_values": [],
+    "v20_fk_nullable_both_values": [],
+    "v21_fk_nullable_sample_rows": [],
+    "v22_fk_nullable_sample_rows_plus_frequent": [],
+    "v23_fk_nullable_sample_rows_plus_sample_values": [],
+    "v24_full_no_numeric_stats": [],
+    "v25_full_no_sample_rows": []
+  },
+  "nhanes_questionnaire.slq_j": {
+    "v00_baseline": [],
+    "v01_full": [],
+    "v02_plus_fk": [],
+    "v03_plus_nullable": [],
+    "v04_plus_numeric_stats": [],
+    "v05_plus_sample_values": [],
+    "v06_plus_frequent_values": [],
+    "v07_plus_sample_rows": [],
+    "v08_fk_plus_sample_values": [],
+    "v09_fk_plus_frequent_values": [],
+    "v10_fk_plus_sample_and_frequent": [],
+    "v11_fk_plus_sample_rows": [],
+    "v12_nullable_plus_sample_values": [],
+    "v13_nullable_plus_frequent_values": [],
+    "v14_nullable_plus_numeric_stats": [],
+    "v15_sample_rows_vs_sample_values": [],
+    "v16_sample_rows_vs_frequent_values": [],
+    "v17_sample_rows_plus_both_values": [],
+    "v18_fk_nullable_sample_values": [],
+    "v19_fk_nullable_frequent_values": [],
+    "v20_fk_nullable_both_values": [],
+    "v21_fk_nullable_sample_rows": [],
+    "v22_fk_nullable_sample_rows_plus_frequent": [],
+    "v23_fk_nullable_sample_rows_plus_sample_values": [],
+    "v24_full_no_numeric_stats": [],
+    "v25_full_no_sample_rows": []
+  },
+  "nhanes_questionnaire.smq_j": {
+    "v00_baseline": [],
+    "v01_full": [],
+    "v02_plus_fk": [],
+    "v03_plus_nullable": [],
+    "v04_plus_numeric_stats": [],
+    "v05_plus_sample_values": [],
+    "v06_plus_frequent_values": [],
+    "v07_plus_sample_rows": [],
+    "v08_fk_plus_sample_values": [],
+    "v09_fk_plus_frequent_values": [],
+    "v10_fk_plus_sample_and_frequent": [],
+    "v11_fk_plus_sample_rows": [],
+    "v12_nullable_plus_sample_values": [],
+    "v13_nullable_plus_frequent_values": [],
+    "v14_nullable_plus_numeric_stats": [],
+    "v15_sample_rows_vs_sample_values": [],
+    "v16_sample_rows_vs_frequent_values": [],
+    "v17_sample_rows_plus_both_values": [],
+    "v18_fk_nullable_sample_values": [],
+    "v19_fk_nullable_frequent_values": [],
+    "v20_fk_nullable_both_values": [],
+    "v21_fk_nullable_sample_rows": [],
+    "v22_fk_nullable_sample_rows_plus_frequent": [],
+    "v23_fk_nullable_sample_rows_plus_sample_values": [],
+    "v24_full_no_numeric_stats": [],
+    "v25_full_no_sample_rows": []
+  },
+  "nhanes_questionnaire.smqfam_j": {
+    "v00_baseline": [],
+    "v01_full": [],
+    "v02_plus_fk": [],
+    "v03_plus_nullable": [],
+    "v04_plus_numeric_stats": [],
+    "v05_plus_sample_values": [],
+    "v06_plus_frequent_values": [],
+    "v07_plus_sample_rows": [],
+    "v08_fk_plus_sample_values": [],
+    "v09_fk_plus_frequent_values": [],
+    "v10_fk_plus_sample_and_frequent": [],
+    "v11_fk_plus_sample_rows": [],
+    "v12_nullable_plus_sample_values": [],
+    "v13_nullable_plus_frequent_values": [],
+    "v14_nullable_plus_numeric_stats": [],
+    "v15_sample_rows_vs_sample_values": [],
+    "v16_sample_rows_vs_frequent_values": [],
+    "v17_sample_rows_plus_both_values": [],
+    "v18_fk_nullable_sample_values": [],
+    "v19_fk_nullable_frequent_values": [],
+    "v20_fk_nullable_both_values": [],
+    "v21_fk_nullable_sample_rows": [],
+    "v22_fk_nullable_sample_rows_plus_frequent": [],
+    "v23_fk_nullable_sample_rows_plus_sample_values": [],
+    "v24_full_no_numeric_stats": [],
+    "v25_full_no_sample_rows": []
+  },
+  "nhanes_questionnaire.smqrtu_j": {
+    "v00_baseline": [],
+    "v01_full": [],
+    "v02_plus_fk": [],
+    "v03_plus_nullable": [],
+    "v04_plus_numeric_stats": [],
+    "v05_plus_sample_values": [],
+    "v06_plus_frequent_values": [],
+    "v07_plus_sample_rows": [],
+    "v08_fk_plus_sample_values": [],
+    "v09_fk_plus_frequent_values": [],
+    "v10_fk_plus_sample_and_frequent": [],
+    "v11_fk_plus_sample_rows": [],
+    "v12_nullable_plus_sample_values": [],
+    "v13_nullable_plus_frequent_values": [],
+    "v14_nullable_plus_numeric_stats": [],
+    "v15_sample_rows_vs_sample_values": [],
+    "v16_sample_rows_vs_frequent_values": [],
+    "v17_sample_rows_plus_both_values": [],
+    "v18_fk_nullable_sample_values": [],
+    "v19_fk_nullable_frequent_values": [],
+    "v20_fk_nullable_both_values": [],
+    "v21_fk_nullable_sample_rows": [],
+    "v22_fk_nullable_sample_rows_plus_frequent": [],
+    "v23_fk_nullable_sample_rows_plus_sample_values": [],
+    "v24_full_no_numeric_stats": [],
+    "v25_full_no_sample_rows": []
+  },
+  "nhanes_questionnaire.smqshs_j": {
+    "v00_baseline": [
+      "Tabagismo",
+      "Uso de cigarros",
+      "Questionário de saúde"
+    ],
+    "v01_full": [
+      "Tabagismo",
+      "Questionário de saúde",
+      "Uso de produtos de tabaco"
+    ],
+    "v02_plus_fk": [
+      "Tabagismo",
+      "Questionário de saúde",
+      "Uso de substâncias"
+    ],
+    "v03_plus_nullable": [
+      "Tabagismo",
+      "Questionário de saúde",
+      "Uso de cigarros"
+    ],
+    "v04_plus_numeric_stats": [
+      "Tabagismo",
+      "Questionário de saúde",
+      "NHANES"
+    ],
+    "v05_plus_sample_values": [
+      "Tabagismo",
+      "Questionário de saúde",
+      "Uso de tabaco"
+    ],
+    "v06_plus_frequent_values": [
+      "Tabagismo",
+      "Questionário de saúde",
+      "NHANES"
+    ],
+    "v07_plus_sample_rows": [
+      "Tabagismo",
+      "Uso de cigarros",
+      "Questionário de saúde"
+    ],
+    "v08_fk_plus_sample_values": [
+      "Tabagismo",
+      "Questionário de saúde",
+      "Uso de cigarro"
+    ],
+    "v09_fk_plus_frequent_values": [
+      "Tabagismo",
+      "Uso de cigarros",
+      "Questionário de saúde"
+    ],
+    "v10_fk_plus_sample_and_frequent": [
+      "Tabagismo",
+      "Uso de cigarros",
+      "Histórico de fumo"
+    ],
+    "v11_fk_plus_sample_rows": [
+      "Tabagismo",
+      "Questionário de saúde",
+      "Uso de cigarro"
+    ],
+    "v12_nullable_plus_sample_values": [
+      "Tabagismo",
+      "Questionário de saúde",
+      "Uso de tabaco"
+    ],
+    "v13_nullable_plus_frequent_values": [
+      "Tabagismo",
+      "Saúde respiratória",
+      "Questionário de fumantes"
+    ],
+    "v14_nullable_plus_numeric_stats": [
+      "Tabagismo",
+      "Questionário de saúde",
+      "Uso de cigarro"
+    ],
+    "v15_sample_rows_vs_sample_values": [
+      "Tabagismo",
+      "Questionário de saúde",
+      "Uso de produtos de tabaco"
+    ],
+    "v16_sample_rows_vs_frequent_values": [
+      "Tabagismo",
+      "Questionário de saúde",
+      "NHANES"
+    ],
+    "v17_sample_rows_plus_both_values": [
+      "Tabagismo",
+      "Uso de cigarros",
+      "Questionário de saúde"
+    ],
+    "v18_fk_nullable_sample_values": [
+      "Tabagismo",
+      "Questionário de saúde",
+      "Uso de cigarro"
+    ],
+    "v19_fk_nullable_frequent_values": [
+      "Tabagismo",
+      "Saúde respiratória",
+      "Questionário de fumantes"
+    ],
+    "v20_fk_nullable_both_values": [
+      "Tabagismo",
+      "Uso de cigarros",
+      "Questionário de saúde"
+    ],
+    "v21_fk_nullable_sample_rows": [
+      "Tabagismo",
+      "Questionário de saúde",
+      "Uso de produtos de tabaco"
+    ],
+    "v22_fk_nullable_sample_rows_plus_frequent": [
+      "Tabagismo",
+      "Questionário de saúde",
+      "Uso de cigarros"
+    ],
+    "v23_fk_nullable_sample_rows_plus_sample_values": [
+      "Tabagismo",
+      "Questionário de saúde",
+      "Uso de cigarros"
+    ],
+    "v24_full_no_numeric_stats": [
+      "Tabagismo",
+      "Uso de cigarros",
+      "Questionário de saúde"
+    ],
+    "v25_full_no_sample_rows": [
+      "Tabagismo",
+      "Questionário de saúde",
+      "Uso de cigarro"
+    ]
+  },
+  "nhanes_questionnaire.vtq_j": {
+    "v00_baseline": [],
+    "v01_full": [],
+    "v02_plus_fk": [],
+    "v03_plus_nullable": [],
+    "v04_plus_numeric_stats": [],
+    "v05_plus_sample_values": [],
+    "v06_plus_frequent_values": [],
+    "v07_plus_sample_rows": [],
+    "v08_fk_plus_sample_values": [],
+    "v09_fk_plus_frequent_values": [],
+    "v10_fk_plus_sample_and_frequent": [],
+    "v11_fk_plus_sample_rows": [],
+    "v12_nullable_plus_sample_values": [],
+    "v13_nullable_plus_frequent_values": [],
+    "v14_nullable_plus_numeric_stats": [],
+    "v15_sample_rows_vs_sample_values": [],
+    "v16_sample_rows_vs_frequent_values": [],
+    "v17_sample_rows_plus_both_values": [],
+    "v18_fk_nullable_sample_values": [],
+    "v19_fk_nullable_frequent_values": [],
+    "v20_fk_nullable_both_values": [],
+    "v21_fk_nullable_sample_rows": [],
+    "v22_fk_nullable_sample_rows_plus_frequent": [],
+    "v23_fk_nullable_sample_rows_plus_sample_values": [],
+    "v24_full_no_numeric_stats": [],
+    "v25_full_no_sample_rows": []
+  },
+  "nhanes_questionnaire.whq_j": {
+    "v00_baseline": [
+      "Peso corporal",
+      "Histórico de peso",
+      "Percepção de peso"
+    ],
+    "v01_full": [
+      "Peso corporal",
+      "Altura",
+      "Saúde geral"
+    ],
+    "v02_plus_fk": [
+      "Peso corporal",
+      "Histórico de peso",
+      "Percepção de peso"
+    ],
+    "v03_plus_nullable": [
+      "Peso corporal",
+      "Histórico de peso",
+      "Percepção de peso"
+    ],
+    "v04_plus_numeric_stats": [
+      "Peso corporal",
+      "Altura",
+      "Histórico de peso"
+    ],
+    "v05_plus_sample_values": [
+      "Peso corporal",
+      "Altura",
+      "Histórico de peso"
+    ],
+    "v06_plus_frequent_values": [
+      "Peso corporal",
+      "Altura",
+      "Saúde autorrelatada"
+    ],
+    "v07_plus_sample_rows": [
+      "Peso corporal",
+      "Altura autorreferida",
+      "Histórico de peso"
+    ],
+    "v08_fk_plus_sample_values": [
+      "Peso corporal",
+      "Altura",
+      "Histórico de peso"
+    ],
+    "v09_fk_plus_frequent_values": [
+      "Peso corporal",
+      "Altura",
+      "Saúde autorrelatada"
+    ],
+    "v10_fk_plus_sample_and_frequent": [
+      "Peso corporal",
+      "Altura",
+      "Percepção de peso"
+    ],
+    "v11_fk_plus_sample_rows": [
+      "Peso e altura",
+      "Perda de peso",
+      "Saúde geral"
+    ],
+    "v12_nullable_plus_sample_values": [
+      "Peso corporal",
+      "Altura autorreferida",
+      "Histórico de peso"
+    ],
+    "v13_nullable_plus_frequent_values": [
+      "Peso corporal",
+      "Altura",
+      "Saúde geral"
+    ],
+    "v14_nullable_plus_numeric_stats": [
+      "Peso corporal",
+      "Histórico de peso",
+      "Percepção de peso"
+    ],
+    "v15_sample_rows_vs_sample_values": [
+      "Peso corporal",
+      "Altura",
+      "Histórico de peso"
+    ],
+    "v16_sample_rows_vs_frequent_values": [
+      "Peso e altura atuais",
+      "Peso e altura desejados",
+      "Histórico de peso"
+    ],
+    "v17_sample_rows_plus_both_values": [
+      "Peso corporal",
+      "Altura",
+      "Histórico de peso"
+    ],
+    "v18_fk_nullable_sample_values": [
+      "Peso corporal",
+      "Altura",
+      "Histórico de peso"
+    ],
+    "v19_fk_nullable_frequent_values": [
+      "Peso corporal",
+      "Altura",
+      "Percepção de peso"
+    ],
+    "v20_fk_nullable_both_values": [
+      "Peso corporal",
+      "Altura",
+      "Saúde geral"
+    ],
+    "v21_fk_nullable_sample_rows": [
+      "Peso e altura",
+      "Histórico de peso",
+      "Percepção de peso"
+    ],
+    "v22_fk_nullable_sample_rows_plus_frequent": [
+      "Peso e altura",
+      "Histórico de peso",
+      "Percepção de peso"
+    ],
+    "v23_fk_nullable_sample_rows_plus_sample_values": [
+      "Peso corporal",
+      "Altura",
+      "Histórico de peso"
+    ],
+    "v24_full_no_numeric_stats": [
+      "Peso corporal",
+      "Altura corporal",
+      "Percepção de peso"
+    ],
+    "v25_full_no_sample_rows": [
+      "Peso corporal",
+      "Altura",
+      "Perda de peso intencional"
+    ]
+  },
+  "nhanes_questionnaire.whqmec_j": {
+    "v00_baseline": [],
+    "v01_full": [],
+    "v02_plus_fk": [],
+    "v03_plus_nullable": [],
+    "v04_plus_numeric_stats": [],
+    "v05_plus_sample_values": [],
+    "v06_plus_frequent_values": [],
+    "v07_plus_sample_rows": [],
+    "v08_fk_plus_sample_values": [],
+    "v09_fk_plus_frequent_values": [],
+    "v10_fk_plus_sample_and_frequent": [],
+    "v11_fk_plus_sample_rows": [],
+    "v12_nullable_plus_sample_values": [],
+    "v13_nullable_plus_frequent_values": [],
+    "v14_nullable_plus_numeric_stats": [],
+    "v15_sample_rows_vs_sample_values": [],
+    "v16_sample_rows_vs_frequent_values": [],
+    "v17_sample_rows_plus_both_values": [],
+    "v18_fk_nullable_sample_values": [],
+    "v19_fk_nullable_frequent_values": [],
+    "v20_fk_nullable_both_values": [],
+    "v21_fk_nullable_sample_rows": [],
+    "v22_fk_nullable_sample_rows_plus_frequent": [],
+    "v23_fk_nullable_sample_rows_plus_sample_values": [],
+    "v24_full_no_numeric_stats": [],
+    "v25_full_no_sample_rows": []
+  }
+}

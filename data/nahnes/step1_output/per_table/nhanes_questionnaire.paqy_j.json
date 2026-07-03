@@ -1,0 +1,212 @@
+{
+  "schema": "nhanes_questionnaire",
+  "table_name": "paqy_j",
+  "row_count": 2778,
+  "primary_key": [],
+  "foreign_keys": [],
+  "columns": [
+    {
+      "name": "SEQN",
+      "type": "DOUBLE PRECISION",
+      "nullable": true,
+      "stats": {
+        "null_count": 0,
+        "distinct_count": 2778,
+        "null_percentage": 0.0,
+        "numeric_stats": {
+          "avg": 98429.6720662347,
+          "min": 93703.0,
+          "max": 102955.0,
+          "stddev": 2653.3941948797983
+        },
+        "sample_values": [
+          "100331.0",
+          "99386.0",
+          "102864.0",
+          "94383.0",
+          "95960.0",
+          "99562.0",
+          "102912.0",
+          "102051.0",
+          "102448.0",
+          "97414.0",
+          "95212.0",
+          "94999.0",
+          "98430.0",
+          "99202.0",
+          "98511.0"
+        ]
+      }
+    },
+    {
+      "name": "PAQ706",
+      "type": "DOUBLE PRECISION",
+      "nullable": true,
+      "stats": {
+        "null_count": 27,
+        "distinct_count": 9,
+        "null_percentage": 0.97,
+        "numeric_stats": {
+          "avg": 5.455470737913486,
+          "min": 5.397605346934028e-79,
+          "max": 99.0,
+          "stddev": 7.070818267303599
+        },
+        "frequent_values": [
+          {
+            "value": "7.0",
+            "count": 1202
+          },
+          {
+            "value": "5.0",
+            "count": 412
+          },
+          {
+            "value": "3.0",
+            "count": 246
+          },
+          {
+            "value": "4.0",
+            "count": 212
+          },
+          {
+            "value": "5.397605346934028e-79",
+            "count": 196
+          }
+        ],
+        "sample_values": [
+          "3.0",
+          "4.0",
+          "1.0",
+          "99.0",
+          "6.0",
+          "5.397605346934028e-79",
+          "7.0",
+          "2.0",
+          "5.0"
+        ]
+      }
+    },
+    {
+      "name": "PAQ710",
+      "type": "DOUBLE PRECISION",
+      "nullable": true,
+      "stats": {
+        "null_count": 27,
+        "distinct_count": 8,
+        "null_percentage": 0.97,
+        "numeric_stats": {
+          "avg": 2.4536532170119956,
+          "min": 5.397605346934028e-79,
+          "max": 99.0,
+          "stddev": 2.5529904593468484
+        },
+        "frequent_values": [
+          {
+            "value": "2.0",
+            "count": 787
+          },
+          {
+            "value": "1.0",
+            "count": 545
+          },
+          {
+            "value": "3.0",
+            "count": 406
+          },
+          {
+            "value": "5.0",
+            "count": 362
+          },
+          {
+            "value": "5.397605346934028e-79",
+            "count": 345
+          }
+        ],
+        "sample_values": [
+          "3.0",
+          "4.0",
+          "1.0",
+          "99.0",
+          "5.397605346934028e-79",
+          "8.0",
+          "2.0",
+          "5.0"
+        ]
+      }
+    },
+    {
+      "name": "PAQ715",
+      "type": "DOUBLE PRECISION",
+      "nullable": true,
+      "stats": {
+        "null_count": 27,
+        "distinct_count": 7,
+        "null_percentage": 0.97,
+        "numeric_stats": {
+          "avg": 2.856779352962559,
+          "min": 5.397605346934028e-79,
+          "max": 8.0,
+          "stddev": 2.4067761209526934
+        },
+        "frequent_values": [
+          {
+            "value": "2.0",
+            "count": 561
+          },
+          {
+            "value": "1.0",
+            "count": 508
+          },
+          {
+            "value": "5.0",
+            "count": 473
+          },
+          {
+            "value": "5.397605346934028e-79",
+            "count": 462
+          },
+          {
+            "value": "8.0",
+            "count": 286
+          }
+        ],
+        "sample_values": [
+          "3.0",
+          "4.0",
+          "1.0",
+          "5.397605346934028e-79",
+          "8.0",
+          "2.0",
+          "5.0"
+        ]
+      }
+    }
+  ],
+  "sample_rows": [
+    {
+      "SEQN": 93703.0,
+      "PAQ706": 7.0,
+      "PAQ710": 1.0,
+      "PAQ715": 8.0
+    },
+    {
+      "SEQN": 93704.0,
+      "PAQ706": 7.0,
+      "PAQ710": 1.0,
+      "PAQ715": 5.397605346934028e-79
+    },
+    {
+      "SEQN": 93707.0,
+      "PAQ706": 5.397605346934028e-79,
+      "PAQ710": 4.0,
+      "PAQ715": 1.0
+    }
+  ],
+  "execution": {
+    "status": "success",
+    "seconds": 0.06,
+    "processed_at": "2026-06-11T21:19:54.556653",
+    "attempt": 1
+  }
+}

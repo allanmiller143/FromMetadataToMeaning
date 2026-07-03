@@ -1,0 +1,697 @@
+{
+  "schema": "nhanes_examination",
+  "table_name": "lux_j",
+  "row_count": 6401,
+  "primary_key": [],
+  "foreign_keys": [],
+  "columns": [
+    {
+      "name": "SEQN",
+      "type": "DOUBLE PRECISION",
+      "nullable": true,
+      "stats": {
+        "null_count": 0,
+        "distinct_count": 6401,
+        "null_percentage": 0.0,
+        "numeric_stats": {
+          "avg": 98293.35431963755,
+          "min": 93705.0,
+          "max": 102956.0,
+          "stddev": 2685.0120562579386
+        },
+        "sample_values": [
+          "101333.0",
+          "98813.0",
+          "96811.0",
+          "97209.0",
+          "96347.0",
+          "94966.0",
+          "101319.0",
+          "102850.0",
+          "95820.0",
+          "94262.0",
+          "95105.0",
+          "93827.0",
+          "98270.0",
+          "95559.0",
+          "97247.0"
+        ]
+      }
+    },
+    {
+      "name": "LUAXSTAT",
+      "type": "DOUBLE PRECISION",
+      "nullable": true,
+      "stats": {
+        "null_count": 0,
+        "distinct_count": 4,
+        "null_percentage": 0.0,
+        "numeric_stats": {
+          "avg": 1.230745196063115,
+          "min": 1.0,
+          "max": 4.0,
+          "stddev": 0.635928128974541
+        },
+        "frequent_values": [
+          {
+            "value": "1.0",
+            "count": 5494
+          },
+          {
+            "value": "2.0",
+            "count": 493
+          },
+          {
+            "value": "3.0",
+            "count": 258
+          },
+          {
+            "value": "4.0",
+            "count": 156
+          }
+        ],
+        "sample_values": [
+          "3.0",
+          "4.0",
+          "2.0",
+          "1.0"
+        ]
+      }
+    },
+    {
+      "name": "LUARXNC",
+      "type": "DOUBLE PRECISION",
+      "nullable": true,
+      "stats": {
+        "null_count": 5908,
+        "distinct_count": 3,
+        "null_percentage": 92.3,
+        "numeric_stats": {
+          "avg": 1.695740365111562,
+          "min": 1.0,
+          "max": 3.0,
+          "stddev": 0.8044099169991217
+        },
+        "frequent_values": [
+          {
+            "value": "1.0",
+            "count": 257
+          },
+          {
+            "value": "2.0",
+            "count": 129
+          },
+          {
+            "value": "3.0",
+            "count": 107
+          }
+        ],
+        "sample_values": [
+          "3.0",
+          "2.0",
+          "1.0"
+        ]
+      }
+    },
+    {
+      "name": "LUARXND",
+      "type": "DOUBLE PRECISION",
+      "nullable": true,
+      "stats": {
+        "null_count": 6245,
+        "distinct_count": 3,
+        "null_percentage": 97.56,
+        "numeric_stats": {
+          "avg": 2.1794871794871793,
+          "min": 1.0,
+          "max": 3.0,
+          "stddev": 0.8384869590397547
+        },
+        "frequent_values": [
+          {
+            "value": "3.0",
+            "count": 71
+          },
+          {
+            "value": "1.0",
+            "count": 43
+          },
+          {
+            "value": "2.0",
+            "count": 42
+          }
+        ],
+        "sample_values": [
+          "3.0",
+          "2.0",
+          "1.0"
+        ]
+      }
+    },
+    {
+      "name": "LUARXIN",
+      "type": "DOUBLE PRECISION",
+      "nullable": true,
+      "stats": {
+        "null_count": 6143,
+        "distinct_count": 2,
+        "null_percentage": 95.97,
+        "numeric_stats": {
+          "avg": 1.6395348837209303,
+          "min": 1.0,
+          "max": 2.0,
+          "stddev": 0.4810686231497221
+        },
+        "frequent_values": [
+          {
+            "value": "2.0",
+            "count": 165
+          },
+          {
+            "value": "1.0",
+            "count": 93
+          }
+        ],
+        "sample_values": [
+          "2.0",
+          "1.0"
+        ]
+      }
+    },
+    {
+      "name": "LUAPNME",
+      "type": "TEXT",
+      "nullable": true,
+      "stats": {
+        "null_count": 0,
+        "distinct_count": 3,
+        "null_percentage": 0.0,
+        "frequent_values": [
+          {
+            "value": "M",
+            "count": 4478
+          },
+          {
+            "value": "XL",
+            "count": 1508
+          },
+          {
+            "value": "",
+            "count": 415
+          }
+        ],
+        "sample_values": [
+          "",
+          "XL",
+          "M"
+        ]
+      }
+    },
+    {
+      "name": "LUANMVGP",
+      "type": "DOUBLE PRECISION",
+      "nullable": true,
+      "stats": {
+        "null_count": 451,
+        "distinct_count": 21,
+        "null_percentage": 7.05,
+        "numeric_stats": {
+          "avg": 11.426554621848739,
+          "min": 1.0,
+          "max": 30.0,
+          "stddev": 2.650334643321761
+        },
+        "frequent_values": [
+          {
+            "value": "10.0",
+            "count": 3170
+          },
+          {
+            "value": "11.0",
+            "count": 823
+          },
+          {
+            "value": "12.0",
+            "count": 547
+          },
+          {
+            "value": "13.0",
+            "count": 374
+          },
+          {
+            "value": "14.0",
+            "count": 274
+          }
+        ],
+        "sample_values": [
+          "15.0",
+          "9.0",
+          "6.0",
+          "16.0",
+          "20.0",
+          "8.0",
+          "17.0",
+          "5.0",
+          "19.0",
+          "18.0",
+          "14.0",
+          "13.0",
+          "3.0",
+          "4.0",
+          "1.0"
+        ]
+      }
+    },
+    {
+      "name": "LUANMTGP",
+      "type": "DOUBLE PRECISION",
+      "nullable": true,
+      "stats": {
+        "null_count": 0,
+        "distinct_count": 19,
+        "null_percentage": 0.0,
+        "numeric_stats": {
+          "avg": 14.003436962974535,
+          "min": 5.397605346934028e-79,
+          "max": 30.0,
+          "stddev": 6.698739671418771
+        },
+        "frequent_values": [
+          {
+            "value": "10.0",
+            "count": 1442
+          },
+          {
+            "value": "11.0",
+            "count": 778
+          },
+          {
+            "value": "20.0",
+            "count": 682
+          },
+          {
+            "value": "12.0",
+            "count": 551
+          },
+          {
+            "value": "30.0",
+            "count": 540
+          }
+        ],
+        "sample_values": [
+          "15.0",
+          "9.0",
+          "6.0",
+          "16.0",
+          "20.0",
+          "17.0",
+          "5.0",
+          "19.0",
+          "18.0",
+          "14.0",
+          "13.0",
+          "3.0",
+          "4.0",
+          "1.0",
+          "5.397605346934028e-79"
+        ]
+      }
+    },
+    {
+      "name": "LUATECH",
+      "type": "TEXT",
+      "nullable": true,
+      "stats": {
+        "null_count": 0,
+        "distinct_count": 11,
+        "null_percentage": 0.0,
+        "frequent_values": [
+          {
+            "value": "D",
+            "count": 847
+          },
+          {
+            "value": "E",
+            "count": 820
+          },
+          {
+            "value": "G",
+            "count": 815
+          },
+          {
+            "value": "F",
+            "count": 815
+          },
+          {
+            "value": "H",
+            "count": 769
+          }
+        ],
+        "sample_values": [
+          "YY",
+          "B",
+          "J",
+          "E",
+          "I",
+          "D",
+          "A",
+          "C",
+          "H",
+          "G",
+          "F"
+        ]
+      }
+    },
+    {
+      "name": "LUXSMED",
+      "type": "DOUBLE PRECISION",
+      "nullable": true,
+      "stats": {
+        "null_count": 451,
+        "distinct_count": 233,
+        "null_percentage": 7.05,
+        "numeric_stats": {
+          "avg": 5.896386554621813,
+          "min": 1.6,
+          "max": 75.0,
+          "stddev": 5.080712679980482
+        },
+        "frequent_values": [
+          {
+            "value": "4.4",
+            "count": 195
+          },
+          {
+            "value": "4.6",
+            "count": 192
+          },
+          {
+            "value": "4.3",
+            "count": 189
+          },
+          {
+            "value": "4.5",
+            "count": 186
+          },
+          {
+            "value": "4.1",
+            "count": 185
+          }
+        ],
+        "sample_values": [
+          "12.4",
+          "14.7",
+          "5.8",
+          "4.8",
+          "61.0",
+          "6.2",
+          "42.6",
+          "3.0",
+          "27.7",
+          "4.3",
+          "7.8",
+          "7.0",
+          "25.5",
+          "8.9",
+          "18.9"
+        ]
+      }
+    },
+    {
+      "name": "LUXSIQR",
+      "type": "DOUBLE PRECISION",
+      "nullable": true,
+      "stats": {
+        "null_count": 444,
+        "distinct_count": 116,
+        "null_percentage": 6.94,
+        "numeric_stats": {
+          "avg": 0.9969783448044388,
+          "min": 5.397605346934028e-79,
+          "max": 66.9,
+          "stddev": 2.179354930492861
+        },
+        "frequent_values": [
+          {
+            "value": "0.3",
+            "count": 654
+          },
+          {
+            "value": "0.5",
+            "count": 644
+          },
+          {
+            "value": "0.4",
+            "count": 641
+          },
+          {
+            "value": "0.6",
+            "count": 592
+          },
+          {
+            "value": "0.7",
+            "count": 505
+          }
+        ],
+        "sample_values": [
+          "12.4",
+          "0.9",
+          "5.8",
+          "1.6",
+          "4.8",
+          "6.2",
+          "30.5",
+          "0.4",
+          "3.0",
+          "4.3",
+          "3.7",
+          "9.5",
+          "5.3",
+          "1.4",
+          "7.0"
+        ]
+      }
+    },
+    {
+      "name": "LUXSIQRM",
+      "type": "DOUBLE PRECISION",
+      "nullable": true,
+      "stats": {
+        "null_count": 459,
+        "distinct_count": 403,
+        "null_percentage": 7.17,
+        "numeric_stats": {
+          "avg": 15.462891282396606,
+          "min": 5.397605346934028e-79,
+          "max": 1338.0,
+          "stddev": 20.98514390044615
+        },
+        "frequent_values": [
+          {
+            "value": "11.1",
+            "count": 101
+          },
+          {
+            "value": "16.7",
+            "count": 92
+          },
+          {
+            "value": "12.5",
+            "count": 85
+          },
+          {
+            "value": "14.3",
+            "count": 84
+          },
+          {
+            "value": "10.0",
+            "count": 78
+          }
+        ],
+        "sample_values": [
+          "40.9",
+          "12.4",
+          "44.6",
+          "46.8",
+          "5.8",
+          "14.7",
+          "28.8",
+          "4.8",
+          "6.2",
+          "22.5",
+          "48.4",
+          "42.6",
+          "3.0",
+          "48.3",
+          "27.7"
+        ]
+      }
+    },
+    {
+      "name": "LUXCAPM",
+      "type": "DOUBLE PRECISION",
+      "nullable": true,
+      "stats": {
+        "null_count": 453,
+        "distinct_count": 299,
+        "null_percentage": 7.08,
+        "numeric_stats": {
+          "avg": 258.4749495628783,
+          "min": 100.0,
+          "max": 400.0,
+          "stddev": 63.922515504938055
+        },
+        "frequent_values": [
+          {
+            "value": "400.0",
+            "count": 103
+          },
+          {
+            "value": "273.0",
+            "count": 47
+          },
+          {
+            "value": "268.0",
+            "count": 47
+          },
+          {
+            "value": "238.0",
+            "count": 45
+          },
+          {
+            "value": "209.0",
+            "count": 44
+          }
+        ],
+        "sample_values": [
+          "154.0",
+          "346.0",
+          "174.0",
+          "322.0",
+          "248.0",
+          "215.0",
+          "362.0",
+          "342.0",
+          "367.0",
+          "235.0",
+          "156.0",
+          "153.0",
+          "135.0",
+          "284.0",
+          "318.0"
+        ]
+      }
+    },
+    {
+      "name": "LUXCPIQR",
+      "type": "DOUBLE PRECISION",
+      "nullable": true,
+      "stats": {
+        "null_count": 461,
+        "distinct_count": 149,
+        "null_percentage": 7.2,
+        "numeric_stats": {
+          "avg": 38.61178451178451,
+          "min": 5.397605346934028e-79,
+          "max": 206.0,
+          "stddev": 21.076448118164606
+        },
+        "frequent_values": [
+          {
+            "value": "33.0",
+            "count": 165
+          },
+          {
+            "value": "27.0",
+            "count": 161
+          },
+          {
+            "value": "30.0",
+            "count": 157
+          },
+          {
+            "value": "24.0",
+            "count": 156
+          },
+          {
+            "value": "34.0",
+            "count": 153
+          }
+        ],
+        "sample_values": [
+          "154.0",
+          "62.0",
+          "76.0",
+          "96.0",
+          "61.0",
+          "3.0",
+          "63.0",
+          "70.0",
+          "7.0",
+          "86.0",
+          "85.0",
+          "80.0",
+          "107.0",
+          "34.0",
+          "33.0"
+        ]
+      }
+    }
+  ],
+  "sample_rows": [
+    {
+      "SEQN": 93705.0,
+      "LUAXSTAT": 1.0,
+      "LUARXNC": null,
+      "LUARXND": null,
+      "LUARXIN": null,
+      "LUAPNME": "M",
+      "LUANMVGP": 10.0,
+      "LUANMTGP": 20.0,
+      "LUATECH": "A",
+      "LUXSMED": 12.5,
+      "LUXSIQR": 3.0,
+      "LUXSIQRM": 24.0,
+      "LUXCAPM": 225.0,
+      "LUXCPIQR": 28.0
+    },
+    {
+      "SEQN": 93706.0,
+      "LUAXSTAT": 1.0,
+      "LUARXNC": null,
+      "LUARXND": null,
+      "LUARXIN": null,
+      "LUAPNME": "M",
+      "LUANMVGP": 12.0,
+      "LUANMTGP": 15.0,
+      "LUATECH": "E",
+      "LUXSMED": 5.5,
+      "LUXSIQR": 1.0,
+      "LUXSIQRM": 18.2,
+      "LUXCAPM": 207.0,
+      "LUXCPIQR": 19.0
+    },
+    {
+      "SEQN": 93707.0,
+      "LUAXSTAT": 1.0,
+      "LUARXNC": null,
+      "LUARXND": null,
+      "LUARXIN": null,
+      "LUAPNME": "M",
+      "LUANMVGP": 10.0,
+      "LUANMTGP": 10.0,
+      "LUATECH": "D",
+      "LUXSMED": 4.9,
+      "LUXSIQR": 1.0,
+      "LUXSIQRM": 20.4,
+      "LUXCAPM": 209.0,
+      "LUXCPIQR": 66.0
+    }
+  ],
+  "execution": {
+    "status": "success",
+    "seconds": 0.32,
+    "processed_at": "2026-06-11T21:18:07.970118",
+    "attempt": 1
+  }
+}

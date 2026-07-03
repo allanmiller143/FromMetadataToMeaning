@@ -1,0 +1,714 @@
+{
+  "schema": "nhanes_examination",
+  "table_name": "bpxo_j",
+  "row_count": 7132,
+  "primary_key": [],
+  "foreign_keys": [],
+  "columns": [
+    {
+      "name": "SEQN",
+      "type": "DOUBLE PRECISION",
+      "nullable": true,
+      "stats": {
+        "null_count": 0,
+        "distinct_count": 7132,
+        "null_percentage": 0.0,
+        "numeric_stats": {
+          "avg": 98315.51528323052,
+          "min": 93705.0,
+          "max": 102956.0,
+          "stddev": 2678.9003277670704
+        },
+        "sample_values": [
+          "101333.0",
+          "97209.0",
+          "101319.0",
+          "102850.0",
+          "94262.0",
+          "95105.0",
+          "93827.0",
+          "98270.0",
+          "95960.0",
+          "95559.0",
+          "95846.0",
+          "96295.0",
+          "101097.0",
+          "98430.0",
+          "99202.0"
+        ]
+      }
+    },
+    {
+      "name": "BPAOARM",
+      "type": "TEXT",
+      "nullable": true,
+      "stats": {
+        "null_count": 0,
+        "distinct_count": 3,
+        "null_percentage": 0.0,
+        "frequent_values": [
+          {
+            "value": "R",
+            "count": 5246
+          },
+          {
+            "value": "",
+            "count": 1869
+          },
+          {
+            "value": "L",
+            "count": 17
+          }
+        ],
+        "sample_values": [
+          "",
+          "R",
+          "L"
+        ]
+      }
+    },
+    {
+      "name": "BPAOCSZ",
+      "type": "DOUBLE PRECISION",
+      "nullable": true,
+      "stats": {
+        "null_count": 988,
+        "distinct_count": 4,
+        "null_percentage": 13.85,
+        "numeric_stats": {
+          "avg": 3.4840494791666665,
+          "min": 2.0,
+          "max": 5.0,
+          "stddev": 0.6899710456119859
+        },
+        "frequent_values": [
+          {
+            "value": "3.0",
+            "count": 2818
+          },
+          {
+            "value": "4.0",
+            "count": 2631
+          },
+          {
+            "value": "2.0",
+            "count": 349
+          },
+          {
+            "value": "5.0",
+            "count": 346
+          }
+        ],
+        "sample_values": [
+          "3.0",
+          "2.0",
+          "4.0",
+          "5.0"
+        ]
+      }
+    },
+    {
+      "name": "BPAOMNTS",
+      "type": "DOUBLE PRECISION",
+      "nullable": true,
+      "stats": {
+        "null_count": 988,
+        "distinct_count": 361,
+        "null_percentage": 13.85,
+        "numeric_stats": {
+          "avg": -1.8709309895833333,
+          "min": -37245.0,
+          "max": 56014.0,
+          "stddev": 1654.8815779560039
+        },
+        "frequent_values": [
+          {
+            "value": "-15.0",
+            "count": 85
+          },
+          {
+            "value": "-18.0",
+            "count": 83
+          },
+          {
+            "value": "18.0",
+            "count": 81
+          },
+          {
+            "value": "-13.0",
+            "count": 78
+          },
+          {
+            "value": "-17.0",
+            "count": 75
+          }
+        ],
+        "sample_values": [
+          "154.0",
+          "174.0",
+          "-45.0",
+          "96.0",
+          "61.0",
+          "-80.0",
+          "-145.0",
+          "-169.0",
+          "-18892.0",
+          "-106.0",
+          "-15835.0",
+          "70.0",
+          "156.0",
+          "-125.0",
+          "-86.0"
+        ]
+      }
+    },
+    {
+      "name": "BPXOSY1",
+      "type": "DOUBLE PRECISION",
+      "nullable": true,
+      "stats": {
+        "null_count": 989,
+        "distinct_count": 136,
+        "null_percentage": 13.87,
+        "numeric_stats": {
+          "avg": 120.49715122904118,
+          "min": 52.0,
+          "max": 219.0,
+          "stddev": 20.10215566422739
+        },
+        "frequent_values": [
+          {
+            "value": "110.0",
+            "count": 168
+          },
+          {
+            "value": "106.0",
+            "count": 167
+          },
+          {
+            "value": "107.0",
+            "count": 158
+          },
+          {
+            "value": "112.0",
+            "count": 154
+          },
+          {
+            "value": "119.0",
+            "count": 152
+          }
+        ],
+        "sample_values": [
+          "154.0",
+          "174.0",
+          "217.0",
+          "162.0",
+          "76.0",
+          "96.0",
+          "61.0",
+          "143.0",
+          "191.0",
+          "156.0",
+          "153.0",
+          "135.0",
+          "185.0",
+          "85.0",
+          "86.0"
+        ]
+      }
+    },
+    {
+      "name": "BPXODI1",
+      "type": "DOUBLE PRECISION",
+      "nullable": true,
+      "stats": {
+        "null_count": 989,
+        "distinct_count": 92,
+        "null_percentage": 13.87,
+        "numeric_stats": {
+          "avg": 72.11606706820771,
+          "min": 31.0,
+          "max": 141.0,
+          "stddev": 12.22724059624909
+        },
+        "frequent_values": [
+          {
+            "value": "72.0",
+            "count": 231
+          },
+          {
+            "value": "65.0",
+            "count": 221
+          },
+          {
+            "value": "70.0",
+            "count": 208
+          },
+          {
+            "value": "69.0",
+            "count": 207
+          },
+          {
+            "value": "74.0",
+            "count": 203
+          }
+        ],
+        "sample_values": [
+          "62.0",
+          "65.0",
+          "38.0",
+          "90.0",
+          "105.0",
+          "98.0",
+          "76.0",
+          "96.0",
+          "61.0",
+          "84.0",
+          "122.0",
+          "78.0",
+          "60.0",
+          "112.0",
+          "50.0"
+        ]
+      }
+    },
+    {
+      "name": "BPXOSY2",
+      "type": "DOUBLE PRECISION",
+      "nullable": true,
+      "stats": {
+        "null_count": 1009,
+        "distinct_count": 136,
+        "null_percentage": 14.15,
+        "numeric_stats": {
+          "avg": 120.25657357504491,
+          "min": 54.0,
+          "max": 222.0,
+          "stddev": 19.928940748043818
+        },
+        "frequent_values": [
+          {
+            "value": "108.0",
+            "count": 153
+          },
+          {
+            "value": "115.0",
+            "count": 151
+          },
+          {
+            "value": "107.0",
+            "count": 150
+          },
+          {
+            "value": "111.0",
+            "count": 150
+          },
+          {
+            "value": "113.0",
+            "count": 145
+          }
+        ],
+        "sample_values": [
+          "154.0",
+          "174.0",
+          "162.0",
+          "76.0",
+          "96.0",
+          "143.0",
+          "215.0",
+          "191.0",
+          "70.0",
+          "156.0",
+          "153.0",
+          "135.0",
+          "185.0",
+          "85.0",
+          "86.0"
+        ]
+      }
+    },
+    {
+      "name": "BPXODI2",
+      "type": "DOUBLE PRECISION",
+      "nullable": true,
+      "stats": {
+        "null_count": 1009,
+        "distinct_count": 89,
+        "null_percentage": 14.15,
+        "numeric_stats": {
+          "avg": 71.66046055854973,
+          "min": 35.0,
+          "max": 136.0,
+          "stddev": 12.26102566374001
+        },
+        "frequent_values": [
+          {
+            "value": "70.0",
+            "count": 219
+          },
+          {
+            "value": "71.0",
+            "count": 207
+          },
+          {
+            "value": "74.0",
+            "count": 205
+          },
+          {
+            "value": "63.0",
+            "count": 203
+          },
+          {
+            "value": "67.0",
+            "count": 203
+          }
+        ],
+        "sample_values": [
+          "62.0",
+          "65.0",
+          "90.0",
+          "105.0",
+          "98.0",
+          "96.0",
+          "76.0",
+          "61.0",
+          "84.0",
+          "78.0",
+          "60.0",
+          "112.0",
+          "50.0",
+          "63.0",
+          "70.0"
+        ]
+      }
+    },
+    {
+      "name": "BPXOSY3",
+      "type": "DOUBLE PRECISION",
+      "nullable": true,
+      "stats": {
+        "null_count": 1038,
+        "distinct_count": 132,
+        "null_percentage": 14.55,
+        "numeric_stats": {
+          "avg": 120.21398096488349,
+          "min": 55.0,
+          "max": 215.0,
+          "stddev": 19.875118769598867
+        },
+        "frequent_values": [
+          {
+            "value": "107.0",
+            "count": 161
+          },
+          {
+            "value": "108.0",
+            "count": 158
+          },
+          {
+            "value": "110.0",
+            "count": 146
+          },
+          {
+            "value": "117.0",
+            "count": 146
+          },
+          {
+            "value": "115.0",
+            "count": 142
+          }
+        ],
+        "sample_values": [
+          "62.0",
+          "154.0",
+          "174.0",
+          "162.0",
+          "96.0",
+          "61.0",
+          "215.0",
+          "143.0",
+          "191.0",
+          "63.0",
+          "156.0",
+          "153.0",
+          "135.0",
+          "185.0",
+          "85.0"
+        ]
+      }
+    },
+    {
+      "name": "BPXODI3",
+      "type": "DOUBLE PRECISION",
+      "nullable": true,
+      "stats": {
+        "null_count": 1038,
+        "distinct_count": 87,
+        "null_percentage": 14.55,
+        "numeric_stats": {
+          "avg": 71.4803085001641,
+          "min": 30.0,
+          "max": 129.0,
+          "stddev": 12.285815664360848
+        },
+        "frequent_values": [
+          {
+            "value": "67.0",
+            "count": 223
+          },
+          {
+            "value": "66.0",
+            "count": 220
+          },
+          {
+            "value": "65.0",
+            "count": 207
+          },
+          {
+            "value": "70.0",
+            "count": 206
+          },
+          {
+            "value": "72.0",
+            "count": 199
+          }
+        ],
+        "sample_values": [
+          "62.0",
+          "65.0",
+          "90.0",
+          "105.0",
+          "96.0",
+          "98.0",
+          "76.0",
+          "61.0",
+          "84.0",
+          "78.0",
+          "60.0",
+          "112.0",
+          "50.0",
+          "63.0",
+          "70.0"
+        ]
+      }
+    },
+    {
+      "name": "BPXOPLS1",
+      "type": "DOUBLE PRECISION",
+      "nullable": true,
+      "stats": {
+        "null_count": 1870,
+        "distinct_count": 86,
+        "null_percentage": 26.22,
+        "numeric_stats": {
+          "avg": 70.76776890916001,
+          "min": 36.0,
+          "max": 142.0,
+          "stddev": 12.225423493153913
+        },
+        "frequent_values": [
+          {
+            "value": "66.0",
+            "count": 198
+          },
+          {
+            "value": "73.0",
+            "count": 186
+          },
+          {
+            "value": "72.0",
+            "count": 185
+          },
+          {
+            "value": "69.0",
+            "count": 183
+          },
+          {
+            "value": "67.0",
+            "count": 181
+          }
+        ],
+        "sample_values": [
+          "62.0",
+          "65.0",
+          "38.0",
+          "90.0",
+          "105.0",
+          "98.0",
+          "96.0",
+          "76.0",
+          "61.0",
+          "84.0",
+          "78.0",
+          "60.0",
+          "112.0",
+          "63.0",
+          "50.0"
+        ]
+      }
+    },
+    {
+      "name": "BPXOPLS2",
+      "type": "DOUBLE PRECISION",
+      "nullable": true,
+      "stats": {
+        "null_count": 1888,
+        "distinct_count": 85,
+        "null_percentage": 26.47,
+        "numeric_stats": {
+          "avg": 71.57608695652173,
+          "min": 34.0,
+          "max": 141.0,
+          "stddev": 12.319795010261306
+        },
+        "frequent_values": [
+          {
+            "value": "70.0",
+            "count": 198
+          },
+          {
+            "value": "73.0",
+            "count": 178
+          },
+          {
+            "value": "67.0",
+            "count": 178
+          },
+          {
+            "value": "75.0",
+            "count": 173
+          },
+          {
+            "value": "64.0",
+            "count": 173
+          }
+        ],
+        "sample_values": [
+          "62.0",
+          "65.0",
+          "90.0",
+          "105.0",
+          "98.0",
+          "96.0",
+          "76.0",
+          "61.0",
+          "84.0",
+          "78.0",
+          "60.0",
+          "112.0",
+          "63.0",
+          "50.0",
+          "70.0"
+        ]
+      }
+    },
+    {
+      "name": "BPXOPLS3",
+      "type": "DOUBLE PRECISION",
+      "nullable": true,
+      "stats": {
+        "null_count": 1912,
+        "distinct_count": 85,
+        "null_percentage": 26.81,
+        "numeric_stats": {
+          "avg": 72.11417624521073,
+          "min": 35.0,
+          "max": 141.0,
+          "stddev": 12.445519912232433
+        },
+        "frequent_values": [
+          {
+            "value": "71.0",
+            "count": 202
+          },
+          {
+            "value": "68.0",
+            "count": 173
+          },
+          {
+            "value": "70.0",
+            "count": 173
+          },
+          {
+            "value": "67.0",
+            "count": 168
+          },
+          {
+            "value": "75.0",
+            "count": 166
+          }
+        ],
+        "sample_values": [
+          "62.0",
+          "65.0",
+          "38.0",
+          "90.0",
+          "105.0",
+          "76.0",
+          "96.0",
+          "98.0",
+          "61.0",
+          "84.0",
+          "78.0",
+          "60.0",
+          "112.0",
+          "50.0",
+          "63.0"
+        ]
+      }
+    }
+  ],
+  "sample_rows": [
+    {
+      "SEQN": 93705.0,
+      "BPAOARM": "R",
+      "BPAOCSZ": 4.0,
+      "BPAOMNTS": -20.0,
+      "BPXOSY1": 164.0,
+      "BPXODI1": 66.0,
+      "BPXOSY2": 165.0,
+      "BPXODI2": 66.0,
+      "BPXOSY3": 172.0,
+      "BPXODI3": 66.0,
+      "BPXOPLS1": 52.0,
+      "BPXOPLS2": 51.0,
+      "BPXOPLS3": 49.0
+    },
+    {
+      "SEQN": 93706.0,
+      "BPAOARM": "R",
+      "BPAOCSZ": 3.0,
+      "BPAOMNTS": 138.0,
+      "BPXOSY1": 126.0,
+      "BPXODI1": 74.0,
+      "BPXOSY2": 128.0,
+      "BPXODI2": 68.0,
+      "BPXOSY3": 133.0,
+      "BPXODI3": 71.0,
+      "BPXOPLS1": 76.0,
+      "BPXOPLS2": 83.0,
+      "BPXOPLS3": 73.0
+    },
+    {
+      "SEQN": 93707.0,
+      "BPAOARM": "R",
+      "BPAOCSZ": 2.0,
+      "BPAOMNTS": 12.0,
+      "BPXOSY1": 136.0,
+      "BPXODI1": 71.0,
+      "BPXOSY2": 133.0,
+      "BPXODI2": 72.0,
+      "BPXOSY3": 139.0,
+      "BPXODI3": 71.0,
+      "BPXOPLS1": 100.0,
+      "BPXOPLS2": 89.0,
+      "BPXOPLS3": 91.0
+    }
+  ],
+  "execution": {
+    "status": "success",
+    "seconds": 0.31,
+    "processed_at": "2026-06-11T21:17:59.703433",
+    "attempt": 1
+  }
+}

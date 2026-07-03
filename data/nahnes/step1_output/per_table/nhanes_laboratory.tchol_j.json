@@ -1,0 +1,175 @@
+{
+  "schema": "nhanes_laboratory",
+  "table_name": "tchol_j",
+  "row_count": 7435,
+  "primary_key": [],
+  "foreign_keys": [],
+  "columns": [
+    {
+      "name": "SEQN",
+      "type": "DOUBLE PRECISION",
+      "nullable": true,
+      "stats": {
+        "null_count": 0,
+        "distinct_count": 7435,
+        "null_percentage": 0.0,
+        "numeric_stats": {
+          "avg": 98318.23887020847,
+          "min": 93705.0,
+          "max": 102956.0,
+          "stddev": 2676.2246259025287
+        },
+        "sample_values": [
+          "101333.0",
+          "102403.0",
+          "97209.0",
+          "101319.0",
+          "102850.0",
+          "94262.0",
+          "95105.0",
+          "93827.0",
+          "98270.0",
+          "95960.0",
+          "95559.0",
+          "95846.0",
+          "96295.0",
+          "101097.0",
+          "98430.0"
+        ]
+      }
+    },
+    {
+      "name": "LBXTC",
+      "type": "DOUBLE PRECISION",
+      "nullable": true,
+      "stats": {
+        "null_count": 697,
+        "distinct_count": 253,
+        "null_percentage": 9.37,
+        "numeric_stats": {
+          "avg": 179.89462748590086,
+          "min": 76.0,
+          "max": 446.0,
+          "stddev": 40.60224813829622
+        },
+        "frequent_values": [
+          {
+            "value": "164.0",
+            "count": 94
+          },
+          {
+            "value": "172.0",
+            "count": 85
+          },
+          {
+            "value": "180.0",
+            "count": 85
+          },
+          {
+            "value": "169.0",
+            "count": 82
+          },
+          {
+            "value": "150.0",
+            "count": 80
+          }
+        ],
+        "sample_values": [
+          "154.0",
+          "174.0",
+          "96.0",
+          "248.0",
+          "215.0",
+          "235.0",
+          "156.0",
+          "153.0",
+          "284.0",
+          "135.0",
+          "428.0",
+          "276.0",
+          "227.0",
+          "224.0",
+          "376.0"
+        ]
+      }
+    },
+    {
+      "name": "LBDTCSI",
+      "type": "DOUBLE PRECISION",
+      "nullable": true,
+      "stats": {
+        "null_count": 697,
+        "distinct_count": 253,
+        "null_percentage": 9.37,
+        "numeric_stats": {
+          "avg": 4.652122291481183,
+          "min": 1.97,
+          "max": 11.53,
+          "stddev": 1.0500182749833418
+        },
+        "frequent_values": [
+          {
+            "value": "4.24",
+            "count": 94
+          },
+          {
+            "value": "4.65",
+            "count": 85
+          },
+          {
+            "value": "4.45",
+            "count": 85
+          },
+          {
+            "value": "4.37",
+            "count": 82
+          },
+          {
+            "value": "4.16",
+            "count": 80
+          }
+        ],
+        "sample_values": [
+          "5.38",
+          "8.38",
+          "5.33",
+          "6.18",
+          "4.84",
+          "5.64",
+          "2.74",
+          "3.23",
+          "4.86",
+          "2.97",
+          "7.86",
+          "3.0",
+          "6.65",
+          "2.87",
+          "4.71"
+        ]
+      }
+    }
+  ],
+  "sample_rows": [
+    {
+      "SEQN": 93705.0,
+      "LBXTC": 157.0,
+      "LBDTCSI": 4.06
+    },
+    {
+      "SEQN": 93706.0,
+      "LBXTC": 148.0,
+      "LBDTCSI": 3.83
+    },
+    {
+      "SEQN": 93707.0,
+      "LBXTC": 189.0,
+      "LBDTCSI": 4.89
+    }
+  ],
+  "execution": {
+    "status": "success",
+    "seconds": 0.04,
+    "processed_at": "2026-06-11T21:18:55.484886",
+    "attempt": 1
+  }
+}

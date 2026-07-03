@@ -1,0 +1,175 @@
+{
+  "schema": "nhanes_laboratory",
+  "table_name": "fertin_j",
+  "row_count": 7332,
+  "primary_key": [],
+  "foreign_keys": [],
+  "columns": [
+    {
+      "name": "SEQN",
+      "type": "DOUBLE PRECISION",
+      "nullable": true,
+      "stats": {
+        "null_count": 0,
+        "distinct_count": 7332,
+        "null_percentage": 0.0,
+        "numeric_stats": {
+          "avg": 98299.51623022367,
+          "min": 93703.0,
+          "max": 102956.0,
+          "stddev": 2676.733162051283
+        },
+        "sample_values": [
+          "101333.0",
+          "97209.0",
+          "101319.0",
+          "100331.0",
+          "102850.0",
+          "94262.0",
+          "95105.0",
+          "93827.0",
+          "98270.0",
+          "95559.0",
+          "95846.0",
+          "102448.0",
+          "96295.0",
+          "101097.0",
+          "94601.0"
+        ]
+      }
+    },
+    {
+      "name": "LBXFER",
+      "type": "DOUBLE PRECISION",
+      "nullable": true,
+      "stats": {
+        "null_count": 743,
+        "distinct_count": 1599,
+        "null_percentage": 10.13,
+        "numeric_stats": {
+          "avg": 133.39492791015348,
+          "min": 1.04,
+          "max": 5190.0,
+          "stddev": 180.30780296524452
+        },
+        "frequent_values": [
+          {
+            "value": "116.0",
+            "count": 39
+          },
+          {
+            "value": "114.0",
+            "count": 28
+          },
+          {
+            "value": "158.0",
+            "count": 28
+          },
+          {
+            "value": "106.0",
+            "count": 28
+          },
+          {
+            "value": "105.0",
+            "count": 27
+          }
+        ],
+        "sample_values": [
+          "14.1",
+          "60.5",
+          "5.38",
+          "79.2",
+          "44.6",
+          "76.1",
+          "322.0",
+          "61.0",
+          "62.7",
+          "670.0",
+          "94.9",
+          "42.6",
+          "6.65",
+          "6.68",
+          "27.7"
+        ]
+      }
+    },
+    {
+      "name": "LBDFERSI",
+      "type": "DOUBLE PRECISION",
+      "nullable": true,
+      "stats": {
+        "null_count": 743,
+        "distinct_count": 1599,
+        "null_percentage": 10.13,
+        "numeric_stats": {
+          "avg": 133.39492791015348,
+          "min": 1.04,
+          "max": 5190.0,
+          "stddev": 180.30780296524452
+        },
+        "frequent_values": [
+          {
+            "value": "116.0",
+            "count": 39
+          },
+          {
+            "value": "114.0",
+            "count": 28
+          },
+          {
+            "value": "158.0",
+            "count": 28
+          },
+          {
+            "value": "106.0",
+            "count": 28
+          },
+          {
+            "value": "105.0",
+            "count": 27
+          }
+        ],
+        "sample_values": [
+          "14.1",
+          "60.5",
+          "5.38",
+          "79.2",
+          "44.6",
+          "76.1",
+          "322.0",
+          "61.0",
+          "62.7",
+          "670.0",
+          "94.9",
+          "42.6",
+          "6.65",
+          "6.68",
+          "27.7"
+        ]
+      }
+    }
+  ],
+  "sample_rows": [
+    {
+      "SEQN": 93703.0,
+      "LBXFER": NaN,
+      "LBDFERSI": NaN
+    },
+    {
+      "SEQN": 93704.0,
+      "LBXFER": 36.6,
+      "LBDFERSI": 36.6
+    },
+    {
+      "SEQN": 93705.0,
+      "LBXFER": 28.7,
+      "LBDFERSI": 28.7
+    }
+  ],
+  "execution": {
+    "status": "success",
+    "seconds": 0.05,
+    "processed_at": "2026-06-11T21:18:30.251226",
+    "attempt": 1
+  }
+}

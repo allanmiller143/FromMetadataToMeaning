@@ -1,0 +1,199 @@
+=================================================================
+NHANES — VALIDAÇÃO DO PIPELINE DE PROFILING TEMÁTICO
+=================================================================
+
+TABLE: NHANES Official File  →  SOM Macro-Theme
+-----------------------------------------------------------------
+
+  [DEMOGRAPHICS]
+    Demographic Variables and Sample Weights         →  demografia populacional  (#10)
+
+  [DIETARY]
+    Dietary Interview - Individual Foods (Day 1)     →  ingestao nutricional  (#11)
+    Dietary Interview - Total Nutrient Intakes (Day 1) →  ingestao nutricional  (#11)
+    Dietary Interview - Individual Foods (Day 2)     →  ingestao nutricional  (#11)
+    Dietary Interview - Total Nutrient Intakes (Day 2) →  ingestao nutricional  (#11)
+    Dietary Supplement Use (Day 1 - Individual)      →  ingestao nutricional  (#11)
+    Dietary Supplement Use (Day 1 - Total)           →  ingestao nutricional  (#11)
+    Dietary Supplement Use (Day 2 - Individual)      →  ingestao nutricional  (#11)
+    Dietary Supplement Use (Day 2 - Total)           →  ingestao nutricional  (#11)
+    Dietary Supplement Use (30-Day - Individual)     →  composicao de nutrientes  (#5)
+    Dietary Supplement Use (30-Day - Total)          →  consumo alimentar  (#16)
+
+  [EXAMINATION]
+    Audiometry                                       →  saude autorreferida  (#38)
+    Audiometry - Acoustic Reflex                     →  analise de saude  (#6)
+    Audiometry - Tympanometry                        →  analise de saude  (#6)
+    Audiometry - Wideband Reflectance                →  analise de saude  (#6)
+    Body Measures                                    →  circunferencias corporais  (#14)
+    Blood Pressure                                   →  analise de saude  (#6)
+    Blood Pressure & Cholesterol                     →  circunferencias corporais  (#14)
+    DXA - Whole Body                                 →  analise de saude  (#6)
+    DXA - Android/Gynoid                             →  analise de saude  (#6)
+    DXA - Femur                                      →  avaliacao de composicao corporal  (#26)
+    DXA - Spine                                      →  analise de saude  (#6)
+    Lower Extremity Disease                          →  respostas de questionario de saude  (#1)
+    Oral Health - Dentition                          →  saude geral  (#2)
+    Oral Health - Recommendation of Care             →  exame dentario  (#48)
+
+  [LABORATORY]
+    Albumin & Creatinine - Urine                     →  dados laboratoriais  (#3)
+    Standard Biochemistry Profile                    →  biomarcador laboratorial  (#12)
+    Complete Blood Count                             →  dados laboratoriais  (#3)
+    CMV IgG & IgM Antibodies - Serum                 →  hiv anticorpos  (#45)
+    Cotinine - Serum                                 →  dados laboratoriais  (#3)
+    Creatinine & Cotinine - Urine                    →  dados laboratoriais  (#3)
+    Pesticides - Environmental - Urine               →  dados de exames  (#19)
+    Glyphosate - Urine                               →  dados laboratoriais  (#3)
+    Fasting Questionnaire                            →  saude geral  (#2)
+    Ferritin                                         →  dados laboratoriais  (#3)
+    Iron, TIBC & Transferrin Saturation              →  dados de exames  (#19)
+    Folate - RBC                                     →  analise de dados laboratoriais  (#20)
+    Fluoride - Urine                                 →  pesos amostrais  (#7)
+    Glycohemoglobin                                  →  estatisticas de saude  (#4)
+    Plasma Fasting Glucose                           →  analise de saude  (#6)
+    HDL Cholesterol                                  →  analise de dados laboratoriais  (#20)
+    Hepatitis A                                      →  analise de saude  (#6)
+    Hepatitis B Surface Antibody                     →  dados laboratoriais  (#3)
+    Hepatitis B: Core Antibody & Surface Antigen     →  dados de exames  (#19)
+    Hepatitis C Antibody & RNA                       →  analise de saude  (#6)
+    Hepatitis E IgG & IgM Antibodies                 →  analise de saude  (#6)
+    HIV Antibody Test                                →  pesquisa laboratorial  (#24)
+    High-Sensitivity C-Reactive Protein (hsCRP)      →  analise de saude  (#6)
+    Mercury - Inorganic & Ethyl                      →  analise de saude  (#6)
+    Insulin                                          →  analise de saude  (#6)
+    Organophosphate Insecticides - Urine             →  analise de dados laboratoriais  (#20)
+    Polycyclic Aromatic Hydrocarbons - Urine         →  analise de dados laboratoriais  (#20)
+    Cadmium, Lead, Mercury, Selenium & Manganese - Blood →  biomarcador laboratorial  (#12)
+    Perchlorate, Nitrate & Thiocyanate - Urine       →  pesos amostrais  (#7)
+    Perfluoroalkyl and Polyfluoroalkyl Substances (PFAS) →  exposicao a contaminantes  (#8)
+    Phthalates & Plasticizers Metabolites - Urine    →  analise de saude  (#6)
+    Alpha-1-Acid Glycoprotein - Serum (Surplus)      →  analise de saude  (#6)
+    Flame Retardants & Plasticizers - Serum (Surplus) →  pesos amostrais  (#7)
+    Glyphosate - Urine (Surplus)                     →  dados laboratoriais  (#3)
+    Neonicotinoid Insecticides & Metabolites - Urine (Surplus) →  analise de saude  (#6)
+    PFAS (Surplus)                                   →  pesos amostrais  (#7)
+    Sex Steroid Hormone Panel (Surplus)              →  analise de saude  (#6)
+    Urinary VOC Metabolites (Surplus)                →  analise de saude  (#6)
+    Volatile Organic Compounds - Blood (Surplus)     →  analise de saude  (#6)
+    Total Cholesterol                                →  dados laboratoriais  (#3)
+    Transferrin Receptor                             →  estatisticas de saude  (#4)
+    Triglycerides & LDL-Cholesterol                  →  dados laboratoriais  (#3)
+    Arsenics - Urine                                 →  analise de saude  (#6)
+    Urine Collection - Volume & Flow Rate            →  valores de urina  (#17)
+    Mercury - Urine                                  →  analise de dados laboratoriais  (#20)
+    Cotinine & Hydroxycotinine - Urine               →  analise de dados laboratoriais  (#20)
+    Urine Pregnancy Test                             →  dados de exames  (#19)
+    Mercury - Urine (Surplus)                        →  analise de saude  (#6)
+    Iodine - Urine                                   →  analise de saude  (#6)
+    Metals - Urine                                   →  biomarcador laboratorial  (#12)
+    Nitrate & Nitrite - Urine                        →  pesos amostrais  (#7)
+    Organophosphate Insecticides - Urine (Surplus)   →  pesos amostrais  (#7)
+    Total Arsenic & Speciated Arsenics - Urine (Surplus) →  dados laboratoriais  (#3)
+    Volatile Organic Compounds - Blood               →  analise de saude  (#6)
+    Vitamin C                                        →  estatisticas de saude  (#4)
+    Vitamin D                                        →  dados de exames  (#19)
+    Vitamin A, E & Carotenoids                       →  dados laboratoriais  (#3)
+    Volatile Organic Compounds - Water/Blood         →  analise de laboratorio  (#55)
+
+  [QUESTIONNAIRE]
+    Acculturation                                    →  respostas de questionario de saude  (#1)
+    Alcohol Use                                      →  saude geral  (#2)
+    Audiometry (Questionnaire)                       →  saude geral  (#2)
+    Blood Pressure & Cholesterol (Questionnaire)     →  respostas de questionario de saude  (#1)
+    Consumer Behavior                                →  analise de saude  (#6)
+    Consumer Behavior Phone Follow-Up - Adults       →  respostas de questionario de saude  (#1)
+    Consumer Behavior Phone Follow-Up - Children     →  respostas de questionario de saude  (#1)
+    Cardiovascular Health                            →  respostas de questionario de saude  (#1)
+    Diet Behavior & Nutrition                        →  respostas de questionario de saude  (#1)
+    Dermatology                                      →  questionario de comportamento  (#9)
+    Diabetes                                         →  respostas de questionario de saude  (#1)
+    Disability                                       →  saude geral  (#2)
+    Mental Health - Depression Screener              →  respostas de questionario de saude  (#1)
+    Drug Use                                         →  respostas de questionario de saude  (#1)
+    Early Childhood                                  →  saude geral  (#2)
+    Food Security                                    →  questionario de comportamento  (#9)
+    Hepatitis (Questionnaire)                        →  respostas de questionario de saude  (#1)
+    Health Insurance                                 →  respostas de questionario de saude  (#1)
+    Housing Characteristics                          →  respostas de questionario de saude  (#1)
+    Current Health Status                            →  respostas de questionario de saude  (#1)
+    Hospital Utilization & Access to Care            →  saude geral  (#2)
+    Immunization                                     →  respostas de questionario de saude  (#1)
+    Income                                           →  respostas de questionario de saude  (#1)
+    Kidney Conditions - Urology                      →  saude geral  (#2)
+    Medical Conditions                               →  respostas de questionario de saude  (#1)
+    Occupation                                       →  respostas de questionario de saude  (#1)
+    Oral Health (Questionnaire)                      →  respostas de questionario de saude  (#1)
+    Osteoporosis                                     →  saude geral  (#2)
+    Physical Activity                                →  frequencia de atividade fisica  (#27)
+    Physical Activity - Youth                        →  respostas de questionario de saude  (#1)
+    Physical Functioning                             →  respostas de questionario de saude  (#1)
+    Pesticide Use                                    →  respostas de questionario de saude  (#1)
+    Reproductive Health                              →  respostas de questionario de saude  (#1)
+    Prescription Medications                         →  uso de medicamentos  (#50)
+    Aspirin Use                                      →  respostas de questionario de saude  (#1)
+    Sleep Disorders                                  →  respostas de questionario de saude  (#1)
+    Smoking - Cigarette Use                          →  consumo de cigarros  (#15)
+    Smoking - Household Smokers                      →  saude geral  (#2)
+    Smoking - Recent Tobacco Use                     →  respostas de questionario de saude  (#1)
+    Smoking - Secondhand Smoke Exposure              →  respostas de questionario de saude  (#1)
+    Volatile Toxicant                                →  respostas de questionario de saude  (#1)
+    Weight History                                   →  respostas de questionario de saude  (#1)
+    Weight History - Youth                           →  saude geral  (#2)
+
+=================================================================
+COBERTURA SEMÂNTICA POR COMPONENTE
+-----------------------------------------------------------------
+  Demographics      0/1      0.0%  
+  Dietary           0/10     0.0%  
+  Examination       3/14    21.4%  ████
+  Laboratory        9/58    15.5%  ███
+  Questionnaire    39/43    90.7%  ██████████████████
+  TOTAL            51/126   40.5%  ████████
+
+=================================================================
+CONSISTÊNCIA INTRA / INTER-MODELO
+-----------------------------------------------------------------
+  Intra-model (Hard Dice / Soft Dice):
+    DEEPSEEK      Hard=0.797  Soft=0.937
+    GEMINI        Hard=0.602  Soft=0.878
+    MISTRAL       Hard=0.698  Soft=0.898
+    OPENAI        Hard=0.822  Soft=0.933
+
+  Inter-model (Hard Dice / Soft Dice):
+    DEEPSEEK__VS__GEMINI            Hard=0.036  Soft=0.626
+    DEEPSEEK__VS__MISTRAL           Hard=0.065  Soft=0.568
+    DEEPSEEK__VS__OPENAI            Hard=0.060  Soft=0.526
+    GEMINI__VS__MISTRAL             Hard=0.040  Soft=0.587
+    GEMINI__VS__OPENAI              Hard=0.023  Soft=0.549
+    MISTRAL__VS__OPENAI             Hard=0.066  Soft=0.589
+
+=================================================================
+TOP-10 MACRO-TEMAS POR FREQUÊNCIA
+-----------------------------------------------------------------
+   1. respostas de questionario de saude       freq=  63  subtemas=13
+   2. saude geral                              freq=  47  subtemas=14
+   3. dados laboratoriais                      freq=  38  subtemas=7
+   4. estatisticas de saude                    freq=  27  subtemas=13
+   5. composicao de nutrientes                 freq=  27  subtemas=10
+   6. analise de saude                         freq=  26  subtemas=2
+   7. pesos amostrais                          freq=  24  subtemas=8
+   8. exposicao a contaminantes                freq=  24  subtemas=16
+   9. questionario de comportamento            freq=  24  subtemas=6
+  10. demografia populacional                  freq=  22  subtemas=6
+
+=================================================================
+COMPARATIVO E-SUS vs NHANES
+-----------------------------------------------------------------
+  Métrica                             E-SUS     NHANES
+  --------------------------------------------------
+  Tabelas                               885        126
+  Macro-temas gerados                   254        153
+  SOM Grid                            18x16      14x14
+  SOM Score (QE+TE) ↓                 0.766      0.649
+  Topographic Error (TE) ↓            0.077      0.015
+  Intra Soft Dice (melhor) ↑          0.951      0.937
+  Inter Soft Dice (média) ↑           0.710      0.574
+  Cobertura semântica ↑               85.7%      40.5%
+
+=================================================================

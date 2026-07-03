@@ -1,0 +1,1265 @@
+{
+  "schema": "nhanes_laboratory",
+  "table_name": "cbc_j",
+  "row_count": 8366,
+  "primary_key": [],
+  "foreign_keys": [],
+  "columns": [
+    {
+      "name": "SEQN",
+      "type": "DOUBLE PRECISION",
+      "nullable": true,
+      "stats": {
+        "null_count": 0,
+        "distinct_count": 8366,
+        "null_percentage": 0.0,
+        "numeric_stats": {
+          "avg": 98320.86994979679,
+          "min": 93703.0,
+          "max": 102956.0,
+          "stddev": 2669.896205797457
+        },
+        "sample_values": [
+          "96472.0",
+          "101333.0",
+          "102403.0",
+          "97209.0",
+          "101319.0",
+          "100331.0",
+          "102850.0",
+          "94262.0",
+          "95105.0",
+          "93827.0",
+          "98270.0",
+          "95960.0",
+          "95559.0",
+          "95846.0",
+          "102448.0"
+        ]
+      }
+    },
+    {
+      "name": "LBXWBCSI",
+      "type": "DOUBLE PRECISION",
+      "nullable": true,
+      "stats": {
+        "null_count": 838,
+        "distinct_count": 149,
+        "null_percentage": 10.02,
+        "numeric_stats": {
+          "avg": 7.383103081827855,
+          "min": 1.9,
+          "max": 400.0,
+          "stddev": 5.1062630147517405
+        },
+        "frequent_values": [
+          {
+            "value": "6.3",
+            "count": 179
+          },
+          {
+            "value": "6.5",
+            "count": 164
+          },
+          {
+            "value": "6.4",
+            "count": 162
+          },
+          {
+            "value": "6.7",
+            "count": 157
+          },
+          {
+            "value": "7.0",
+            "count": 156
+          }
+        ],
+        "sample_values": [
+          "12.4",
+          "14.7",
+          "13.2",
+          "5.8",
+          "4.8",
+          "6.2",
+          "7.7",
+          "16.3",
+          "20.3",
+          "13.4",
+          "3.0",
+          "10.6",
+          "4.3",
+          "15.5",
+          "3.7"
+        ]
+      }
+    },
+    {
+      "name": "LBXLYPCT",
+      "type": "DOUBLE PRECISION",
+      "nullable": true,
+      "stats": {
+        "null_count": 843,
+        "distinct_count": 600,
+        "null_percentage": 10.08,
+        "numeric_stats": {
+          "avg": 34.10598165625406,
+          "min": 4.4,
+          "max": 89.7,
+          "stddev": 10.66019048160759
+        },
+        "frequent_values": [
+          {
+            "value": "34.2",
+            "count": 44
+          },
+          {
+            "value": "31.3",
+            "count": 39
+          },
+          {
+            "value": "30.1",
+            "count": 38
+          },
+          {
+            "value": "27.0",
+            "count": 38
+          },
+          {
+            "value": "30.4",
+            "count": 37
+          }
+        ],
+        "sample_values": [
+          "58.9",
+          "37.4",
+          "46.6",
+          "50.6",
+          "41.6",
+          "60.7",
+          "44.2",
+          "36.1",
+          "32.3",
+          "49.5",
+          "24.6",
+          "40.0",
+          "24.8",
+          "39.0",
+          "14.1"
+        ]
+      }
+    },
+    {
+      "name": "LBXMOPCT",
+      "type": "DOUBLE PRECISION",
+      "nullable": true,
+      "stats": {
+        "null_count": 843,
+        "distinct_count": 167,
+        "null_percentage": 10.08,
+        "numeric_stats": {
+          "avg": 8.199521467499668,
+          "min": 0.7,
+          "max": 57.2,
+          "stddev": 2.23281461040917
+        },
+        "frequent_values": [
+          {
+            "value": "7.6",
+            "count": 176
+          },
+          {
+            "value": "7.4",
+            "count": 175
+          },
+          {
+            "value": "8.0",
+            "count": 174
+          },
+          {
+            "value": "7.0",
+            "count": 171
+          },
+          {
+            "value": "7.2",
+            "count": 163
+          }
+        ],
+        "sample_values": [
+          "57.2",
+          "16.7",
+          "12.4",
+          "14.7",
+          "13.2",
+          "5.8",
+          "4.8",
+          "6.2",
+          "22.5",
+          "7.7",
+          "16.3",
+          "20.3",
+          "3.0",
+          "13.4",
+          "10.6"
+        ]
+      }
+    },
+    {
+      "name": "LBXNEPCT",
+      "type": "DOUBLE PRECISION",
+      "nullable": true,
+      "stats": {
+        "null_count": 843,
+        "distinct_count": 633,
+        "null_percentage": 10.08,
+        "numeric_stats": {
+          "avg": 54.089272896450936,
+          "min": 8.4,
+          "max": 92.8,
+          "stddev": 11.34531379984981
+        },
+        "frequent_values": [
+          {
+            "value": "57.1",
+            "count": 42
+          },
+          {
+            "value": "56.3",
+            "count": 38
+          },
+          {
+            "value": "59.1",
+            "count": 37
+          },
+          {
+            "value": "62.9",
+            "count": 36
+          },
+          {
+            "value": "56.1",
+            "count": 36
+          }
+        ],
+        "sample_values": [
+          "37.1",
+          "60.5",
+          "79.2",
+          "44.6",
+          "76.1",
+          "61.0",
+          "33.6",
+          "62.7",
+          "42.6",
+          "27.7",
+          "79.8",
+          "68.9",
+          "69.5",
+          "63.3",
+          "18.9"
+        ]
+      }
+    },
+    {
+      "name": "LBXEOPCT",
+      "type": "DOUBLE PRECISION",
+      "nullable": true,
+      "stats": {
+        "null_count": 843,
+        "distinct_count": 170,
+        "null_percentage": 10.08,
+        "numeric_stats": {
+          "avg": 2.9746510700518494,
+          "min": 5.397605346934028e-79,
+          "max": 29.1,
+          "stddev": 2.332996150766649
+        },
+        "frequent_values": [
+          {
+            "value": "1.5",
+            "count": 254
+          },
+          {
+            "value": "2.0",
+            "count": 246
+          },
+          {
+            "value": "1.7",
+            "count": 238
+          },
+          {
+            "value": "1.6",
+            "count": 224
+          },
+          {
+            "value": "1.3",
+            "count": 220
+          }
+        ],
+        "sample_values": [
+          "12.4",
+          "0.9",
+          "14.7",
+          "5.8",
+          "1.6",
+          "4.8",
+          "6.2",
+          "7.7",
+          "0.4",
+          "13.4",
+          "3.0",
+          "10.6",
+          "4.3",
+          "15.5",
+          "8.7"
+        ]
+      }
+    },
+    {
+      "name": "LBXBAPCT",
+      "type": "DOUBLE PRECISION",
+      "nullable": true,
+      "stats": {
+        "null_count": 843,
+        "distinct_count": 34,
+        "null_percentage": 10.08,
+        "numeric_stats": {
+          "avg": 0.7550445301076685,
+          "min": 0.1,
+          "max": 4.8,
+          "stddev": 0.32983282368852607
+        },
+        "frequent_values": [
+          {
+            "value": "0.7",
+            "count": 1040
+          },
+          {
+            "value": "0.6",
+            "count": 1028
+          },
+          {
+            "value": "0.5",
+            "count": 943
+          },
+          {
+            "value": "0.8",
+            "count": 904
+          },
+          {
+            "value": "0.9",
+            "count": 733
+          }
+        ],
+        "sample_values": [
+          "1.8",
+          "0.2",
+          "3.3",
+          "0.9",
+          "3.4",
+          "1.6",
+          "0.1",
+          "0.5",
+          "4.8",
+          "0.3",
+          "1.1",
+          "0.4",
+          "3.0",
+          "1.9",
+          "0.6"
+        ]
+      }
+    },
+    {
+      "name": "LBDLYMNO",
+      "type": "DOUBLE PRECISION",
+      "nullable": true,
+      "stats": {
+        "null_count": 843,
+        "distinct_count": 86,
+        "null_percentage": 10.08,
+        "numeric_stats": {
+          "avg": 2.501595108334448,
+          "min": 0.4,
+          "max": 358.8,
+          "stddev": 4.3164997104012
+        },
+        "frequent_values": [
+          {
+            "value": "2.0",
+            "count": 419
+          },
+          {
+            "value": "2.3",
+            "count": 412
+          },
+          {
+            "value": "2.2",
+            "count": 404
+          },
+          {
+            "value": "1.9",
+            "count": 404
+          },
+          {
+            "value": "2.1",
+            "count": 392
+          }
+        ],
+        "sample_values": [
+          "1.8",
+          "0.9",
+          "4.9",
+          "5.8",
+          "1.6",
+          "4.8",
+          "6.2",
+          "37.5",
+          "1.1",
+          "0.4",
+          "3.0",
+          "10.6",
+          "4.3",
+          "1.9",
+          "6.6"
+        ]
+      }
+    },
+    {
+      "name": "LBDMONO",
+      "type": "DOUBLE PRECISION",
+      "nullable": true,
+      "stats": {
+        "null_count": 843,
+        "distinct_count": 24,
+        "null_percentage": 10.08,
+        "numeric_stats": {
+          "avg": 0.5878240063804334,
+          "min": 0.1,
+          "max": 6.7,
+          "stddev": 0.21508044010824434
+        },
+        "frequent_values": [
+          {
+            "value": "0.5",
+            "count": 1829
+          },
+          {
+            "value": "0.6",
+            "count": 1539
+          },
+          {
+            "value": "0.4",
+            "count": 1287
+          },
+          {
+            "value": "0.7",
+            "count": 1001
+          },
+          {
+            "value": "0.8",
+            "count": 611
+          }
+        ],
+        "sample_values": [
+          "1.9",
+          "0.6",
+          "1.0",
+          "2.6",
+          "0.7",
+          "1.4",
+          "1.7",
+          "1.5",
+          "6.7",
+          "0.8",
+          "2.0",
+          "1.3",
+          "1.8",
+          "1.2",
+          "0.2"
+        ]
+      }
+    },
+    {
+      "name": "LBDNENO",
+      "type": "DOUBLE PRECISION",
+      "nullable": true,
+      "stats": {
+        "null_count": 843,
+        "distinct_count": 121,
+        "null_percentage": 10.08,
+        "numeric_stats": {
+          "avg": 4.034640435996267,
+          "min": 0.4,
+          "max": 35.2,
+          "stddev": 1.7322270547806142
+        },
+        "frequent_values": [
+          {
+            "value": "3.6",
+            "count": 218
+          },
+          {
+            "value": "3.3",
+            "count": 214
+          },
+          {
+            "value": "3.2",
+            "count": 212
+          },
+          {
+            "value": "3.5",
+            "count": 206
+          },
+          {
+            "value": "4.2",
+            "count": 204
+          }
+        ],
+        "sample_values": [
+          "0.9",
+          "13.2",
+          "5.8",
+          "14.7",
+          "1.6",
+          "4.8",
+          "6.2",
+          "7.7",
+          "0.4",
+          "3.0",
+          "10.6",
+          "4.3",
+          "8.7",
+          "3.7",
+          "9.5"
+        ]
+      }
+    },
+    {
+      "name": "LBDEONO",
+      "type": "DOUBLE PRECISION",
+      "nullable": true,
+      "stats": {
+        "null_count": 843,
+        "distinct_count": 23,
+        "null_percentage": 10.08,
+        "numeric_stats": {
+          "avg": 0.21551242855243627,
+          "min": 5.397605346934028e-79,
+          "max": 3.2,
+          "stddev": 0.18635296123660058
+        },
+        "frequent_values": [
+          {
+            "value": "0.1",
+            "count": 2915
+          },
+          {
+            "value": "0.2",
+            "count": 2080
+          },
+          {
+            "value": "0.3",
+            "count": 1002
+          },
+          {
+            "value": "0.4",
+            "count": 465
+          },
+          {
+            "value": "5.397605346934028e-79",
+            "count": 427
+          }
+        ],
+        "sample_values": [
+          "1.1",
+          "0.4",
+          "1.9",
+          "0.6",
+          "1.0",
+          "2.6",
+          "0.7",
+          "1.7",
+          "1.4",
+          "5.397605346934028e-79",
+          "1.5",
+          "0.8",
+          "2.0",
+          "3.2",
+          "1.3"
+        ]
+      }
+    },
+    {
+      "name": "LBDBANO",
+      "type": "DOUBLE PRECISION",
+      "nullable": true,
+      "stats": {
+        "null_count": 843,
+        "distinct_count": 6,
+        "null_percentage": 10.08,
+        "numeric_stats": {
+          "avg": 0.0503256679516173,
+          "min": 5.397605346934028e-79,
+          "max": 0.5,
+          "stddev": 0.05203477621607778
+        },
+        "frequent_values": [
+          {
+            "value": "5.397605346934028e-79",
+            "count": 3802
+          },
+          {
+            "value": "0.1",
+            "count": 3664
+          },
+          {
+            "value": "0.2",
+            "count": 53
+          },
+          {
+            "value": "0.4",
+            "count": 2
+          },
+          {
+            "value": "0.5",
+            "count": 1
+          }
+        ],
+        "sample_values": [
+          "0.1",
+          "0.5",
+          "0.4",
+          "0.2",
+          "0.3",
+          "5.397605346934028e-79"
+        ]
+      }
+    },
+    {
+      "name": "LBXRBCSI",
+      "type": "DOUBLE PRECISION",
+      "nullable": true,
+      "stats": {
+        "null_count": 838,
+        "distinct_count": 327,
+        "null_percentage": 10.02,
+        "numeric_stats": {
+          "avg": 4.733653028692883,
+          "min": 2.32,
+          "max": 7.84,
+          "stddev": 0.480037438991923
+        },
+        "frequent_values": [
+          {
+            "value": "4.82",
+            "count": 83
+          },
+          {
+            "value": "4.59",
+            "count": 81
+          },
+          {
+            "value": "4.6",
+            "count": 78
+          },
+          {
+            "value": "4.75",
+            "count": 78
+          },
+          {
+            "value": "4.69",
+            "count": 77
+          }
+        ],
+        "sample_values": [
+          "5.23",
+          "5.38",
+          "5.33",
+          "5.8",
+          "4.84",
+          "5.64",
+          "4.8",
+          "3.23",
+          "3.53",
+          "4.86",
+          "2.97",
+          "5.85",
+          "5.45",
+          "6.56",
+          "4.3"
+        ]
+      }
+    },
+    {
+      "name": "LBXHGB",
+      "type": "DOUBLE PRECISION",
+      "nullable": true,
+      "stats": {
+        "null_count": 838,
+        "distinct_count": 118,
+        "null_percentage": 10.02,
+        "numeric_stats": {
+          "avg": 13.72627523910736,
+          "min": 6.4,
+          "max": 19.9,
+          "stddev": 1.5107894479066293
+        },
+        "frequent_values": [
+          {
+            "value": "13.4",
+            "count": 225
+          },
+          {
+            "value": "13.3",
+            "count": 222
+          },
+          {
+            "value": "13.2",
+            "count": 220
+          },
+          {
+            "value": "13.0",
+            "count": 219
+          },
+          {
+            "value": "12.8",
+            "count": 208
+          }
+        ],
+        "sample_values": [
+          "16.7",
+          "12.4",
+          "14.7",
+          "13.2",
+          "7.7",
+          "16.3",
+          "13.4",
+          "10.6",
+          "18.7",
+          "8.7",
+          "15.5",
+          "9.5",
+          "7.8",
+          "7.0",
+          "8.9"
+        ]
+      }
+    },
+    {
+      "name": "LBXHCT",
+      "type": "DOUBLE PRECISION",
+      "nullable": true,
+      "stats": {
+        "null_count": 838,
+        "distinct_count": 277,
+        "null_percentage": 10.02,
+        "numeric_stats": {
+          "avg": 40.849601487778955,
+          "min": 23.0,
+          "max": 58.8,
+          "stddev": 4.169070365062612
+        },
+        "frequent_values": [
+          {
+            "value": "39.7",
+            "count": 90
+          },
+          {
+            "value": "39.3",
+            "count": 85
+          },
+          {
+            "value": "38.5",
+            "count": 84
+          },
+          {
+            "value": "39.1",
+            "count": 80
+          },
+          {
+            "value": "38.9",
+            "count": 79
+          }
+        ],
+        "sample_values": [
+          "40.9",
+          "44.6",
+          "46.8",
+          "40.4",
+          "34.7",
+          "28.8",
+          "33.6",
+          "30.5",
+          "48.4",
+          "42.6",
+          "38.5",
+          "27.7",
+          "48.3",
+          "32.7",
+          "29.7"
+        ]
+      }
+    },
+    {
+      "name": "LBXMCVSI",
+      "type": "DOUBLE PRECISION",
+      "nullable": true,
+      "stats": {
+        "null_count": 838,
+        "distinct_count": 434,
+        "null_percentage": 10.02,
+        "numeric_stats": {
+          "avg": 86.56346971307137,
+          "min": 35.4,
+          "max": 114.6,
+          "stddev": 6.594074361330398
+        },
+        "frequent_values": [
+          {
+            "value": "87.1",
+            "count": 64
+          },
+          {
+            "value": "85.8",
+            "count": 63
+          },
+          {
+            "value": "88.7",
+            "count": 62
+          },
+          {
+            "value": "87.7",
+            "count": 61
+          },
+          {
+            "value": "87.3",
+            "count": 60
+          }
+        ],
+        "sample_values": [
+          "92.6",
+          "68.0",
+          "60.5",
+          "100.4",
+          "93.7",
+          "79.2",
+          "84.5",
+          "106.2",
+          "89.2",
+          "76.1",
+          "96.0",
+          "89.9",
+          "62.7",
+          "94.9",
+          "81.5"
+        ]
+      }
+    },
+    {
+      "name": "LBXMCHSI",
+      "type": "DOUBLE PRECISION",
+      "nullable": true,
+      "stats": {
+        "null_count": 838,
+        "distinct_count": 193,
+        "null_percentage": 10.02,
+        "numeric_stats": {
+          "avg": 29.074109989373152,
+          "min": 12.4,
+          "max": 39.2,
+          "stddev": 2.538204013009048
+        },
+        "frequent_values": [
+          {
+            "value": "29.8",
+            "count": 149
+          },
+          {
+            "value": "29.1",
+            "count": 149
+          },
+          {
+            "value": "29.7",
+            "count": 148
+          },
+          {
+            "value": "29.3",
+            "count": 147
+          },
+          {
+            "value": "30.2",
+            "count": 146
+          }
+        ],
+        "sample_values": [
+          "28.5",
+          "39.2",
+          "36.9",
+          "12.4",
+          "24.3",
+          "13.2",
+          "25.6",
+          "34.7",
+          "28.8",
+          "33.6",
+          "23.5",
+          "22.9",
+          "22.5",
+          "26.2",
+          "30.5"
+        ]
+      }
+    },
+    {
+      "name": "LBXMC",
+      "type": "DOUBLE PRECISION",
+      "nullable": true,
+      "stats": {
+        "null_count": 838,
+        "distinct_count": 82,
+        "null_percentage": 10.02,
+        "numeric_stats": {
+          "avg": 33.569075451647244,
+          "min": 25.2,
+          "max": 38.3,
+          "stddev": 0.9329879007236384
+        },
+        "frequent_values": [
+          {
+            "value": "33.8",
+            "count": 384
+          },
+          {
+            "value": "33.4",
+            "count": 369
+          },
+          {
+            "value": "33.6",
+            "count": 368
+          },
+          {
+            "value": "33.7",
+            "count": 354
+          },
+          {
+            "value": "33.5",
+            "count": 342
+          }
+        ],
+        "sample_values": [
+          "31.6",
+          "36.5",
+          "31.7",
+          "38.3",
+          "33.1",
+          "31.1",
+          "34.7",
+          "30.9",
+          "33.6",
+          "35.1",
+          "30.5",
+          "37.2",
+          "27.7",
+          "32.7",
+          "29.7"
+        ]
+      }
+    },
+    {
+      "name": "LBXRDW",
+      "type": "DOUBLE PRECISION",
+      "nullable": true,
+      "stats": {
+        "null_count": 838,
+        "distinct_count": 110,
+        "null_percentage": 10.02,
+        "numeric_stats": {
+          "avg": 13.775318809776815,
+          "min": 11.3,
+          "max": 29.2,
+          "stddev": 1.2710538217702094
+        },
+        "frequent_values": [
+          {
+            "value": "13.4",
+            "count": 385
+          },
+          {
+            "value": "13.2",
+            "count": 382
+          },
+          {
+            "value": "13.3",
+            "count": 380
+          },
+          {
+            "value": "13.5",
+            "count": 377
+          },
+          {
+            "value": "13.1",
+            "count": 375
+          }
+        ],
+        "sample_values": [
+          "17.9",
+          "12.9",
+          "21.2",
+          "17.7",
+          "11.9",
+          "14.1",
+          "19.8",
+          "17.4",
+          "15.0",
+          "26.0",
+          "16.7",
+          "12.4",
+          "14.7",
+          "13.2",
+          "15.9"
+        ]
+      }
+    },
+    {
+      "name": "LBXPLTSI",
+      "type": "DOUBLE PRECISION",
+      "nullable": true,
+      "stats": {
+        "null_count": 838,
+        "distinct_count": 424,
+        "null_percentage": 10.02,
+        "numeric_stats": {
+          "avg": 259.250132837407,
+          "min": 8.0,
+          "max": 818.0,
+          "stddev": 70.68910558152818
+        },
+        "frequent_values": [
+          {
+            "value": "248.0",
+            "count": 67
+          },
+          {
+            "value": "228.0",
+            "count": 59
+          },
+          {
+            "value": "256.0",
+            "count": 58
+          },
+          {
+            "value": "231.0",
+            "count": 58
+          },
+          {
+            "value": "216.0",
+            "count": 55
+          }
+        ],
+        "sample_values": [
+          "519.0",
+          "154.0",
+          "346.0",
+          "174.0",
+          "517.0",
+          "96.0",
+          "61.0",
+          "514.0",
+          "322.0",
+          "248.0",
+          "215.0",
+          "362.0",
+          "367.0",
+          "342.0",
+          "235.0"
+        ]
+      }
+    },
+    {
+      "name": "LBXMPSI",
+      "type": "DOUBLE PRECISION",
+      "nullable": true,
+      "stats": {
+        "null_count": 838,
+        "distinct_count": 66,
+        "null_percentage": 10.02,
+        "numeric_stats": {
+          "avg": 8.093876195536671,
+          "min": 5.4,
+          "max": 13.0,
+          "stddev": 0.9113770732274623
+        },
+        "frequent_values": [
+          {
+            "value": "7.7",
+            "count": 348
+          },
+          {
+            "value": "8.0",
+            "count": 340
+          },
+          {
+            "value": "7.9",
+            "count": 339
+          },
+          {
+            "value": "7.6",
+            "count": 332
+          },
+          {
+            "value": "7.8",
+            "count": 326
+          }
+        ],
+        "sample_values": [
+          "5.8",
+          "11.4",
+          "11.1",
+          "9.0",
+          "6.2",
+          "7.7",
+          "10.6",
+          "6.6",
+          "8.7",
+          "9.5",
+          "7.8",
+          "7.0",
+          "6.7",
+          "8.9",
+          "5.5"
+        ]
+      }
+    },
+    {
+      "name": "LBXNRBC",
+      "type": "DOUBLE PRECISION",
+      "nullable": true,
+      "stats": {
+        "null_count": 843,
+        "distinct_count": 12,
+        "null_percentage": 10.08,
+        "numeric_stats": {
+          "avg": 0.08509902964243658,
+          "min": 5.397605346934028e-79,
+          "max": 2.0,
+          "stddev": 0.0834477111903833
+        },
+        "frequent_values": [
+          {
+            "value": "0.1",
+            "count": 4192
+          },
+          {
+            "value": "5.397605346934028e-79",
+            "count": 2404
+          },
+          {
+            "value": "0.2",
+            "count": 731
+          },
+          {
+            "value": "0.3",
+            "count": 136
+          },
+          {
+            "value": "0.5",
+            "count": 21
+          }
+        ],
+        "sample_values": [
+          "1.1",
+          "0.4",
+          "0.2",
+          "0.6",
+          "0.1",
+          "0.7",
+          "0.5",
+          "0.3",
+          "5.397605346934028e-79",
+          "1.5",
+          "0.8",
+          "2.0"
+        ]
+      }
+    }
+  ],
+  "sample_rows": [
+    {
+      "SEQN": 93703.0,
+      "LBXWBCSI": NaN,
+      "LBXLYPCT": NaN,
+      "LBXMOPCT": NaN,
+      "LBXNEPCT": NaN,
+      "LBXEOPCT": NaN,
+      "LBXBAPCT": NaN,
+      "LBDLYMNO": NaN,
+      "LBDMONO": NaN,
+      "LBDNENO": NaN,
+      "LBDEONO": NaN,
+      "LBDBANO": NaN,
+      "LBXRBCSI": NaN,
+      "LBXHGB": NaN,
+      "LBXHCT": NaN,
+      "LBXMCVSI": NaN,
+      "LBXMCHSI": NaN,
+      "LBXMC": NaN,
+      "LBXRDW": NaN,
+      "LBXPLTSI": NaN,
+      "LBXMPSI": NaN,
+      "LBXNRBC": NaN
+    },
+    {
+      "SEQN": 93704.0,
+      "LBXWBCSI": 7.4,
+      "LBXLYPCT": 47.8,
+      "LBXMOPCT": 8.0,
+      "LBXNEPCT": 42.6,
+      "LBXEOPCT": 1.0,
+      "LBXBAPCT": 0.7,
+      "LBDLYMNO": 3.5,
+      "LBDMONO": 0.6,
+      "LBDNENO": 3.2,
+      "LBDEONO": 0.1,
+      "LBDBANO": 0.1,
+      "LBXRBCSI": 4.25,
+      "LBXHGB": 13.1,
+      "LBXHCT": 37.0,
+      "LBXMCVSI": 87.0,
+      "LBXMCHSI": 30.8,
+      "LBXMC": 35.4,
+      "LBXRDW": 12.8,
+      "LBXPLTSI": 239.0,
+      "LBXMPSI": 8.6,
+      "LBXNRBC": 0.1
+    },
+    {
+      "SEQN": 93705.0,
+      "LBXWBCSI": 8.6,
+      "LBXLYPCT": 40.0,
+      "LBXMOPCT": 7.4,
+      "LBXNEPCT": 48.8,
+      "LBXEOPCT": 2.9,
+      "LBXBAPCT": 1.0,
+      "LBDLYMNO": 3.4,
+      "LBDMONO": 0.6,
+      "LBDNENO": 4.2,
+      "LBDEONO": 0.2,
+      "LBDBANO": 0.1,
+      "LBXRBCSI": 5.48,
+      "LBXHGB": 11.9,
+      "LBXHCT": 36.7,
+      "LBXMCVSI": 67.0,
+      "LBXMCHSI": 21.7,
+      "LBXMC": 32.4,
+      "LBXRDW": 15.6,
+      "LBXPLTSI": 309.0,
+      "LBXMPSI": 7.9,
+      "LBXNRBC": 5.397605346934028e-79
+    }
+  ],
+  "execution": {
+    "status": "success",
+    "seconds": 0.42,
+    "processed_at": "2026-06-11T21:18:24.297382",
+    "attempt": 1
+  }
+}

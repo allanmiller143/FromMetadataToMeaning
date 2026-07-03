@@ -1,0 +1,181 @@
+{
+  "schema": "nhanes_laboratory",
+  "table_name": "hiv_j",
+  "row_count": 3515,
+  "primary_key": [],
+  "foreign_keys": [],
+  "columns": [
+    {
+      "name": "SEQN",
+      "type": "DOUBLE PRECISION",
+      "nullable": true,
+      "stats": {
+        "null_count": 0,
+        "distinct_count": 3515,
+        "null_percentage": 0.0,
+        "numeric_stats": {
+          "avg": 98291.80853485064,
+          "min": 93706.0,
+          "max": 102956.0,
+          "stddev": 2681.82922914002
+        },
+        "sample_values": [
+          "96811.0",
+          "94966.0",
+          "101319.0",
+          "102850.0",
+          "95820.0",
+          "94262.0",
+          "95559.0",
+          "97247.0",
+          "98022.0",
+          "96295.0",
+          "96552.0",
+          "101097.0",
+          "101311.0",
+          "97897.0",
+          "96264.0"
+        ]
+      }
+    },
+    {
+      "name": "LBXHIVC",
+      "type": "DOUBLE PRECISION",
+      "nullable": true,
+      "stats": {
+        "null_count": 268,
+        "distinct_count": 2,
+        "null_percentage": 7.62,
+        "numeric_stats": {
+          "avg": 1.9947643979057592,
+          "min": 1.0,
+          "max": 2.0,
+          "stddev": 0.07217891007689468
+        },
+        "frequent_values": [
+          {
+            "value": "2.0",
+            "count": 3230
+          },
+          {
+            "value": "1.0",
+            "count": 17
+          }
+        ],
+        "sample_values": [
+          "2.0",
+          "1.0"
+        ]
+      }
+    },
+    {
+      "name": "LBXHIV1",
+      "type": "DOUBLE PRECISION",
+      "nullable": true,
+      "stats": {
+        "null_count": 3498,
+        "distinct_count": 2,
+        "null_percentage": 99.52,
+        "numeric_stats": {
+          "avg": 1.1176470588235294,
+          "min": 1.0,
+          "max": 2.0,
+          "stddev": 0.3321055820775357
+        },
+        "frequent_values": [
+          {
+            "value": "1.0",
+            "count": 15
+          },
+          {
+            "value": "2.0",
+            "count": 2
+          }
+        ],
+        "sample_values": [
+          "1.0",
+          "2.0"
+        ]
+      }
+    },
+    {
+      "name": "LBXHIV2",
+      "type": "DOUBLE PRECISION",
+      "nullable": true,
+      "stats": {
+        "null_count": 3498,
+        "distinct_count": 1,
+        "null_percentage": 99.52,
+        "numeric_stats": {
+          "avg": 2.0,
+          "min": 2.0,
+          "max": 2.0,
+          "stddev": 0.0
+        },
+        "frequent_values": [
+          {
+            "value": "2.0",
+            "count": 17
+          }
+        ],
+        "sample_values": [
+          "2.0"
+        ]
+      }
+    },
+    {
+      "name": "LBXHNAT",
+      "type": "DOUBLE PRECISION",
+      "nullable": true,
+      "stats": {
+        "null_count": 3513,
+        "distinct_count": 1,
+        "null_percentage": 99.94,
+        "numeric_stats": {
+          "avg": 2.0,
+          "min": 2.0,
+          "max": 2.0,
+          "stddev": 0.0
+        },
+        "frequent_values": [
+          {
+            "value": "2.0",
+            "count": 2
+          }
+        ],
+        "sample_values": [
+          "2.0"
+        ]
+      }
+    }
+  ],
+  "sample_rows": [
+    {
+      "SEQN": 93706.0,
+      "LBXHIVC": 2.0,
+      "LBXHIV1": null,
+      "LBXHIV2": null,
+      "LBXHNAT": null
+    },
+    {
+      "SEQN": 93711.0,
+      "LBXHIVC": 2.0,
+      "LBXHIV1": null,
+      "LBXHIV2": null,
+      "LBXHNAT": null
+    },
+    {
+      "SEQN": 93712.0,
+      "LBXHIVC": 2.0,
+      "LBXHIV1": null,
+      "LBXHIV2": null,
+      "LBXHNAT": null
+    }
+  ],
+  "execution": {
+    "status": "success",
+    "seconds": 0.04,
+    "processed_at": "2026-06-11T21:18:40.873058",
+    "attempt": 1
+  }
+}

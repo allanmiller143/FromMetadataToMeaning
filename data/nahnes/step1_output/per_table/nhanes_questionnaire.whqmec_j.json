@@ -1,0 +1,193 @@
+{
+  "schema": "nhanes_questionnaire",
+  "table_name": "whqmec_j",
+  "row_count": 1304,
+  "primary_key": [],
+  "foreign_keys": [],
+  "columns": [
+    {
+      "name": "SEQN",
+      "type": "DOUBLE PRECISION",
+      "nullable": true,
+      "stats": {
+        "null_count": 0,
+        "distinct_count": 1304,
+        "null_percentage": 0.0,
+        "numeric_stats": {
+          "avg": 98478.49846625768,
+          "min": 93707.0,
+          "max": 102955.0,
+          "stddev": 2659.3418919987475
+        },
+        "sample_values": [
+          "99386.0",
+          "102864.0",
+          "95960.0",
+          "95879.0",
+          "102912.0",
+          "98886.0",
+          "99413.0",
+          "94035.0",
+          "102384.0",
+          "98430.0",
+          "99202.0",
+          "98511.0",
+          "94601.0",
+          "101539.0",
+          "101042.0"
+        ]
+      }
+    },
+    {
+      "name": "WHQ030M",
+      "type": "DOUBLE PRECISION",
+      "nullable": true,
+      "stats": {
+        "null_count": 56,
+        "distinct_count": 5,
+        "null_percentage": 4.29,
+        "numeric_stats": {
+          "avg": 2.5889423076923075,
+          "min": 1.0,
+          "max": 9.0,
+          "stddev": 0.8955594828745906
+        },
+        "frequent_values": [
+          {
+            "value": "3.0",
+            "count": 929
+          },
+          {
+            "value": "1.0",
+            "count": 234
+          },
+          {
+            "value": "2.0",
+            "count": 79
+          },
+          {
+            "value": "9.0",
+            "count": 5
+          },
+          {
+            "value": "7.0",
+            "count": 1
+          }
+        ],
+        "sample_values": [
+          "9.0",
+          "3.0",
+          "7.0",
+          "2.0",
+          "1.0"
+        ]
+      }
+    },
+    {
+      "name": "WHQ500",
+      "type": "DOUBLE PRECISION",
+      "nullable": true,
+      "stats": {
+        "null_count": 56,
+        "distinct_count": 5,
+        "null_percentage": 4.29,
+        "numeric_stats": {
+          "avg": 2.4599358974358974,
+          "min": 1.0,
+          "max": 9.0,
+          "stddev": 1.2613547772117977
+        },
+        "frequent_values": [
+          {
+            "value": "1.0",
+            "count": 440
+          },
+          {
+            "value": "4.0",
+            "count": 355
+          },
+          {
+            "value": "3.0",
+            "count": 290
+          },
+          {
+            "value": "2.0",
+            "count": 161
+          },
+          {
+            "value": "9.0",
+            "count": 2
+          }
+        ],
+        "sample_values": [
+          "9.0",
+          "3.0",
+          "2.0",
+          "4.0",
+          "1.0"
+        ]
+      }
+    },
+    {
+      "name": "WHQ520",
+      "type": "DOUBLE PRECISION",
+      "nullable": true,
+      "stats": {
+        "null_count": 56,
+        "distinct_count": 3,
+        "null_percentage": 4.29,
+        "numeric_stats": {
+          "avg": 1.7163461538461537,
+          "min": 1.0,
+          "max": 3.0,
+          "stddev": 0.6417613958656024
+        },
+        "frequent_values": [
+          {
+            "value": "2.0",
+            "count": 634
+          },
+          {
+            "value": "1.0",
+            "count": 484
+          },
+          {
+            "value": "3.0",
+            "count": 130
+          }
+        ],
+        "sample_values": [
+          "3.0",
+          "2.0",
+          "1.0"
+        ]
+      }
+    }
+  ],
+  "sample_rows": [
+    {
+      "SEQN": 93707.0,
+      "WHQ030M": 3.0,
+      "WHQ500": 3.0,
+      "WHQ520": 2.0
+    },
+    {
+      "SEQN": 93719.0,
+      "WHQ030M": 3.0,
+      "WHQ500": 3.0,
+      "WHQ520": 1.0
+    },
+    {
+      "SEQN": 93725.0,
+      "WHQ030M": 3.0,
+      "WHQ500": 4.0,
+      "WHQ520": 1.0
+    }
+  ],
+  "execution": {
+    "status": "success",
+    "seconds": 0.03,
+    "processed_at": "2026-06-11T21:20:12.374933",
+    "attempt": 1
+  }
+}

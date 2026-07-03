@@ -1,0 +1,1949 @@
+{
+  "schema": "nhanes_questionnaire",
+  "table_name": "duq_j",
+  "row_count": 4572,
+  "primary_key": [],
+  "foreign_keys": [],
+  "columns": [
+    {
+      "name": "SEQN",
+      "type": "DOUBLE PRECISION",
+      "nullable": true,
+      "stats": {
+        "null_count": 0,
+        "distinct_count": 4572,
+        "null_percentage": 0.0,
+        "numeric_stats": {
+          "avg": 98278.96653543306,
+          "min": 93705.0,
+          "max": 102956.0,
+          "stddev": 2690.960284318331
+        },
+        "sample_values": [
+          "98813.0",
+          "96811.0",
+          "94966.0",
+          "101319.0",
+          "102850.0",
+          "95820.0",
+          "94262.0",
+          "95105.0",
+          "93827.0",
+          "98270.0",
+          "95559.0",
+          "97247.0",
+          "98022.0",
+          "96916.0",
+          "96295.0"
+        ]
+      }
+    },
+    {
+      "name": "DUQ200",
+      "type": "DOUBLE PRECISION",
+      "nullable": true,
+      "stats": {
+        "null_count": 1372,
+        "distinct_count": 3,
+        "null_percentage": 30.01,
+        "numeric_stats": {
+          "avg": 1.4590625,
+          "min": 1.0,
+          "max": 9.0,
+          "stddev": 0.5156619213196704
+        },
+        "frequent_values": [
+          {
+            "value": "1.0",
+            "count": 1738
+          },
+          {
+            "value": "2.0",
+            "count": 1461
+          },
+          {
+            "value": "9.0",
+            "count": 1
+          }
+        ],
+        "sample_values": [
+          "9.0",
+          "2.0",
+          "1.0"
+        ]
+      }
+    },
+    {
+      "name": "DUQ210",
+      "type": "DOUBLE PRECISION",
+      "nullable": true,
+      "stats": {
+        "null_count": 2834,
+        "distinct_count": 39,
+        "null_percentage": 61.99,
+        "numeric_stats": {
+          "avg": 17.97698504027618,
+          "min": 11.0,
+          "max": 999.0,
+          "stddev": 24.031128816961406
+        },
+        "frequent_values": [
+          {
+            "value": "16.0",
+            "count": 276
+          },
+          {
+            "value": "15.0",
+            "count": 220
+          },
+          {
+            "value": "18.0",
+            "count": 214
+          },
+          {
+            "value": "17.0",
+            "count": 175
+          },
+          {
+            "value": "13.0",
+            "count": 126
+          }
+        ],
+        "sample_values": [
+          "15.0",
+          "26.0",
+          "38.0",
+          "44.0",
+          "55.0",
+          "20.0",
+          "36.0",
+          "17.0",
+          "999.0",
+          "29.0",
+          "13.0",
+          "14.0",
+          "31.0",
+          "50.0",
+          "27.0"
+        ]
+      }
+    },
+    {
+      "name": "DUQ211",
+      "type": "DOUBLE PRECISION",
+      "nullable": true,
+      "stats": {
+        "null_count": 2834,
+        "distinct_count": 3,
+        "null_percentage": 61.99,
+        "numeric_stats": {
+          "avg": 1.504602991944764,
+          "min": 1.0,
+          "max": 9.0,
+          "stddev": 0.5313776622671497
+        },
+        "frequent_values": [
+          {
+            "value": "2.0",
+            "count": 869
+          },
+          {
+            "value": "1.0",
+            "count": 868
+          },
+          {
+            "value": "9.0",
+            "count": 1
+          }
+        ],
+        "sample_values": [
+          "9.0",
+          "2.0",
+          "1.0"
+        ]
+      }
+    },
+    {
+      "name": "DUQ213",
+      "type": "DOUBLE PRECISION",
+      "nullable": true,
+      "stats": {
+        "null_count": 3704,
+        "distinct_count": 36,
+        "null_percentage": 81.01,
+        "numeric_stats": {
+          "avg": 18.52073732718894,
+          "min": 11.0,
+          "max": 55.0,
+          "stddev": 6.002366577500303
+        },
+        "frequent_values": [
+          {
+            "value": "16.0",
+            "count": 124
+          },
+          {
+            "value": "18.0",
+            "count": 110
+          },
+          {
+            "value": "15.0",
+            "count": 102
+          },
+          {
+            "value": "17.0",
+            "count": 87
+          },
+          {
+            "value": "14.0",
+            "count": 53
+          }
+        ],
+        "sample_values": [
+          "15.0",
+          "26.0",
+          "38.0",
+          "55.0",
+          "51.0",
+          "20.0",
+          "17.0",
+          "29.0",
+          "14.0",
+          "13.0",
+          "31.0",
+          "50.0",
+          "27.0",
+          "32.0",
+          "30.0"
+        ]
+      }
+    },
+    {
+      "name": "DUQ215Q",
+      "type": "DOUBLE PRECISION",
+      "nullable": true,
+      "stats": {
+        "null_count": 3714,
+        "distinct_count": 47,
+        "null_percentage": 81.23,
+        "numeric_stats": {
+          "avg": 50.04895104895105,
+          "min": 5.397605346934028e-79,
+          "max": 9999.0,
+          "stddev": 610.9976175208606
+        },
+        "frequent_values": [
+          {
+            "value": "1.0",
+            "count": 273
+          },
+          {
+            "value": "2.0",
+            "count": 95
+          },
+          {
+            "value": "3.0",
+            "count": 61
+          },
+          {
+            "value": "5.397605346934028e-79",
+            "count": 53
+          },
+          {
+            "value": "5.0",
+            "count": 46
+          }
+        ],
+        "sample_values": [
+          "15.0",
+          "26.0",
+          "38.0",
+          "9.0",
+          "6.0",
+          "20.0",
+          "36.0",
+          "17.0",
+          "999.0",
+          "5.0",
+          "29.0",
+          "13.0",
+          "14.0",
+          "3.0",
+          "27.0"
+        ]
+      }
+    },
+    {
+      "name": "DUQ215U",
+      "type": "DOUBLE PRECISION",
+      "nullable": true,
+      "stats": {
+        "null_count": 3718,
+        "distinct_count": 4,
+        "null_percentage": 81.32,
+        "numeric_stats": {
+          "avg": 2.529274004683841,
+          "min": 1.0,
+          "max": 4.0,
+          "stddev": 1.3690465914703314
+        },
+        "frequent_values": [
+          {
+            "value": "1.0",
+            "count": 348
+          },
+          {
+            "value": "4.0",
+            "count": 345
+          },
+          {
+            "value": "3.0",
+            "count": 110
+          },
+          {
+            "value": "2.0",
+            "count": 51
+          }
+        ],
+        "sample_values": [
+          "3.0",
+          "2.0",
+          "4.0",
+          "1.0"
+        ]
+      }
+    },
+    {
+      "name": "DUQ217",
+      "type": "DOUBLE PRECISION",
+      "nullable": true,
+      "stats": {
+        "null_count": 3704,
+        "distinct_count": 5,
+        "null_percentage": 81.01,
+        "numeric_stats": {
+          "avg": 3.737327188940092,
+          "min": 1.0,
+          "max": 5.0,
+          "stddev": 1.276217829442625
+        },
+        "frequent_values": [
+          {
+            "value": "5.0",
+            "count": 340
+          },
+          {
+            "value": "4.0",
+            "count": 187
+          },
+          {
+            "value": "3.0",
+            "count": 169
+          },
+          {
+            "value": "2.0",
+            "count": 117
+          },
+          {
+            "value": "1.0",
+            "count": 55
+          }
+        ],
+        "sample_values": [
+          "3.0",
+          "2.0",
+          "4.0",
+          "1.0",
+          "5.0"
+        ]
+      }
+    },
+    {
+      "name": "DUQ219",
+      "type": "DOUBLE PRECISION",
+      "nullable": true,
+      "stats": {
+        "null_count": 3704,
+        "distinct_count": 6,
+        "null_percentage": 81.01,
+        "numeric_stats": {
+          "avg": 2.0725806451612905,
+          "min": 1.0,
+          "max": 9.0,
+          "stddev": 1.1317110069171534
+        },
+        "frequent_values": [
+          {
+            "value": "1.0",
+            "count": 341
+          },
+          {
+            "value": "3.0",
+            "count": 239
+          },
+          {
+            "value": "2.0",
+            "count": 221
+          },
+          {
+            "value": "4.0",
+            "count": 60
+          },
+          {
+            "value": "9.0",
+            "count": 5
+          }
+        ],
+        "sample_values": [
+          "9.0",
+          "3.0",
+          "7.0",
+          "4.0",
+          "2.0",
+          "1.0"
+        ]
+      }
+    },
+    {
+      "name": "DUQ220Q",
+      "type": "DOUBLE PRECISION",
+      "nullable": true,
+      "stats": {
+        "null_count": 2835,
+        "distinct_count": 51,
+        "null_percentage": 62.01,
+        "numeric_stats": {
+          "avg": 29.931491076568797,
+          "min": 5.397605346934028e-79,
+          "max": 9999.0,
+          "stddev": 429.1916840296758
+        },
+        "frequent_values": [
+          {
+            "value": "1.0",
+            "count": 420
+          },
+          {
+            "value": "2.0",
+            "count": 212
+          },
+          {
+            "value": "3.0",
+            "count": 136
+          },
+          {
+            "value": "5.0",
+            "count": 77
+          },
+          {
+            "value": "4.0",
+            "count": 72
+          }
+        ],
+        "sample_values": [
+          "15.0",
+          "26.0",
+          "38.0",
+          "44.0",
+          "9.0",
+          "55.0",
+          "20.0",
+          "6.0",
+          "17.0",
+          "36.0",
+          "5.0",
+          "29.0",
+          "13.0",
+          "14.0",
+          "112.0"
+        ]
+      }
+    },
+    {
+      "name": "DUQ220U",
+      "type": "DOUBLE PRECISION",
+      "nullable": true,
+      "stats": {
+        "null_count": 2839,
+        "distinct_count": 4,
+        "null_percentage": 62.1,
+        "numeric_stats": {
+          "avg": 2.885747259088286,
+          "min": 1.0,
+          "max": 4.0,
+          "stddev": 1.302284800966671
+        },
+        "frequent_values": [
+          {
+            "value": "4.0",
+            "count": 894
+          },
+          {
+            "value": "1.0",
+            "count": 487
+          },
+          {
+            "value": "3.0",
+            "count": 234
+          },
+          {
+            "value": "2.0",
+            "count": 118
+          }
+        ],
+        "sample_values": [
+          "3.0",
+          "2.0",
+          "4.0",
+          "1.0"
+        ]
+      }
+    },
+    {
+      "name": "DUQ230",
+      "type": "DOUBLE PRECISION",
+      "nullable": true,
+      "stats": {
+        "null_count": 3945,
+        "distinct_count": 28,
+        "null_percentage": 86.29,
+        "numeric_stats": {
+          "avg": 16.082934609250398,
+          "min": 1.0,
+          "max": 999.0,
+          "stddev": 41.12277431949526
+        },
+        "frequent_values": [
+          {
+            "value": "30.0",
+            "count": 172
+          },
+          {
+            "value": "1.0",
+            "count": 109
+          },
+          {
+            "value": "2.0",
+            "count": 61
+          },
+          {
+            "value": "3.0",
+            "count": 32
+          },
+          {
+            "value": "20.0",
+            "count": 31
+          }
+        ],
+        "sample_values": [
+          "15.0",
+          "26.0",
+          "9.0",
+          "20.0",
+          "6.0",
+          "999.0",
+          "5.0",
+          "29.0",
+          "13.0",
+          "14.0",
+          "3.0",
+          "27.0",
+          "7.0",
+          "30.0",
+          "10.0"
+        ]
+      }
+    },
+    {
+      "name": "DUQ240",
+      "type": "DOUBLE PRECISION",
+      "nullable": true,
+      "stats": {
+        "null_count": 419,
+        "distinct_count": 4,
+        "null_percentage": 9.16,
+        "numeric_stats": {
+          "avg": 1.8516734890440645,
+          "min": 1.0,
+          "max": 9.0,
+          "stddev": 0.47190602460915226
+        },
+        "frequent_values": [
+          {
+            "value": "2.0",
+            "count": 3473
+          },
+          {
+            "value": "1.0",
+            "count": 671
+          },
+          {
+            "value": "9.0",
+            "count": 5
+          },
+          {
+            "value": "7.0",
+            "count": 4
+          }
+        ],
+        "sample_values": [
+          "9.0",
+          "7.0",
+          "2.0",
+          "1.0"
+        ]
+      }
+    },
+    {
+      "name": "DUQ250",
+      "type": "DOUBLE PRECISION",
+      "nullable": true,
+      "stats": {
+        "null_count": 3901,
+        "distinct_count": 3,
+        "null_percentage": 85.32,
+        "numeric_stats": {
+          "avg": 1.0625931445603576,
+          "min": 1.0,
+          "max": 7.0,
+          "stddev": 0.385116938876556
+        },
+        "frequent_values": [
+          {
+            "value": "1.0",
+            "count": 639
+          },
+          {
+            "value": "2.0",
+            "count": 30
+          },
+          {
+            "value": "7.0",
+            "count": 2
+          }
+        ],
+        "sample_values": [
+          "7.0",
+          "2.0",
+          "1.0"
+        ]
+      }
+    },
+    {
+      "name": "DUQ260",
+      "type": "DOUBLE PRECISION",
+      "nullable": true,
+      "stats": {
+        "null_count": 4094,
+        "distinct_count": 29,
+        "null_percentage": 89.55,
+        "numeric_stats": {
+          "avg": 21.06694560669456,
+          "min": 12.0,
+          "max": 48.0,
+          "stddev": 5.1963254515371755
+        },
+        "frequent_values": [
+          {
+            "value": "18.0",
+            "count": 64
+          },
+          {
+            "value": "20.0",
+            "count": 52
+          },
+          {
+            "value": "16.0",
+            "count": 48
+          },
+          {
+            "value": "21.0",
+            "count": 43
+          },
+          {
+            "value": "25.0",
+            "count": 42
+          }
+        ],
+        "sample_values": [
+          "15.0",
+          "26.0",
+          "20.0",
+          "17.0",
+          "29.0",
+          "13.0",
+          "14.0",
+          "31.0",
+          "27.0",
+          "32.0",
+          "30.0",
+          "48.0",
+          "24.0",
+          "34.0",
+          "33.0"
+        ]
+      }
+    },
+    {
+      "name": "DUQ270Q",
+      "type": "DOUBLE PRECISION",
+      "nullable": true,
+      "stats": {
+        "null_count": 4095,
+        "distinct_count": 40,
+        "null_percentage": 89.57,
+        "numeric_stats": {
+          "avg": 12.30607966457023,
+          "min": 1.0,
+          "max": 120.0,
+          "stddev": 11.281474400126033
+        },
+        "frequent_values": [
+          {
+            "value": "1.0",
+            "count": 49
+          },
+          {
+            "value": "2.0",
+            "count": 41
+          },
+          {
+            "value": "3.0",
+            "count": 41
+          },
+          {
+            "value": "5.0",
+            "count": 34
+          },
+          {
+            "value": "10.0",
+            "count": 34
+          }
+        ],
+        "sample_values": [
+          "15.0",
+          "26.0",
+          "9.0",
+          "6.0",
+          "20.0",
+          "36.0",
+          "17.0",
+          "5.0",
+          "29.0",
+          "13.0",
+          "14.0",
+          "31.0",
+          "3.0",
+          "27.0",
+          "32.0"
+        ]
+      }
+    },
+    {
+      "name": "DUQ270U",
+      "type": "DOUBLE PRECISION",
+      "nullable": true,
+      "stats": {
+        "null_count": 4095,
+        "distinct_count": 4,
+        "null_percentage": 89.57,
+        "numeric_stats": {
+          "avg": 3.5765199161425576,
+          "min": 1.0,
+          "max": 4.0,
+          "stddev": 0.8798121255007479
+        },
+        "frequent_values": [
+          {
+            "value": "4.0",
+            "count": 367
+          },
+          {
+            "value": "3.0",
+            "count": 52
+          },
+          {
+            "value": "1.0",
+            "count": 34
+          },
+          {
+            "value": "2.0",
+            "count": 24
+          }
+        ],
+        "sample_values": [
+          "3.0",
+          "2.0",
+          "4.0",
+          "1.0"
+        ]
+      }
+    },
+    {
+      "name": "DUQ272",
+      "type": "DOUBLE PRECISION",
+      "nullable": true,
+      "stats": {
+        "null_count": 4094,
+        "distinct_count": 7,
+        "null_percentage": 89.55,
+        "numeric_stats": {
+          "avg": 3.7531380753138075,
+          "min": 1.0,
+          "max": 99.0,
+          "stddev": 4.656068444551709
+        },
+        "frequent_values": [
+          {
+            "value": "2.0",
+            "count": 118
+          },
+          {
+            "value": "6.0",
+            "count": 88
+          },
+          {
+            "value": "4.0",
+            "count": 86
+          },
+          {
+            "value": "3.0",
+            "count": 85
+          },
+          {
+            "value": "5.0",
+            "count": 58
+          }
+        ],
+        "sample_values": [
+          "3.0",
+          "4.0",
+          "1.0",
+          "99.0",
+          "6.0",
+          "2.0",
+          "5.0"
+        ]
+      }
+    },
+    {
+      "name": "DUQ280",
+      "type": "DOUBLE PRECISION",
+      "nullable": true,
+      "stats": {
+        "null_count": 4507,
+        "distinct_count": 14,
+        "null_percentage": 98.58,
+        "numeric_stats": {
+          "avg": 4.953846153846154,
+          "min": 1.0,
+          "max": 30.0,
+          "stddev": 7.542444003004699
+        },
+        "frequent_values": [
+          {
+            "value": "1.0",
+            "count": 26
+          },
+          {
+            "value": "2.0",
+            "count": 16
+          },
+          {
+            "value": "3.0",
+            "count": 5
+          },
+          {
+            "value": "8.0",
+            "count": 3
+          },
+          {
+            "value": "5.0",
+            "count": 3
+          }
+        ],
+        "sample_values": [
+          "10.0",
+          "24.0",
+          "28.0",
+          "9.0",
+          "6.0",
+          "20.0",
+          "8.0",
+          "5.0",
+          "3.0",
+          "25.0",
+          "4.0",
+          "1.0",
+          "30.0",
+          "2.0"
+        ]
+      }
+    },
+    {
+      "name": "DUQ290",
+      "type": "DOUBLE PRECISION",
+      "nullable": true,
+      "stats": {
+        "null_count": 3901,
+        "distinct_count": 3,
+        "null_percentage": 85.32,
+        "numeric_stats": {
+          "avg": 1.8479880774962743,
+          "min": 1.0,
+          "max": 7.0,
+          "stddev": 0.4169805892340077
+        },
+        "frequent_values": [
+          {
+            "value": "2.0",
+            "count": 563
+          },
+          {
+            "value": "1.0",
+            "count": 107
+          },
+          {
+            "value": "7.0",
+            "count": 1
+          }
+        ],
+        "sample_values": [
+          "7.0",
+          "2.0",
+          "1.0"
+        ]
+      }
+    },
+    {
+      "name": "DUQ300",
+      "type": "DOUBLE PRECISION",
+      "nullable": true,
+      "stats": {
+        "null_count": 4493,
+        "distinct_count": 26,
+        "null_percentage": 98.27,
+        "numeric_stats": {
+          "avg": 24.20253164556962,
+          "min": 13.0,
+          "max": 56.0,
+          "stddev": 8.972007388846947
+        },
+        "frequent_values": [
+          {
+            "value": "25.0",
+            "count": 10
+          },
+          {
+            "value": "20.0",
+            "count": 7
+          },
+          {
+            "value": "16.0",
+            "count": 6
+          },
+          {
+            "value": "22.0",
+            "count": 5
+          },
+          {
+            "value": "19.0",
+            "count": 5
+          }
+        ],
+        "sample_values": [
+          "15.0",
+          "33.0",
+          "26.0",
+          "23.0",
+          "22.0",
+          "28.0",
+          "42.0",
+          "21.0",
+          "20.0",
+          "16.0",
+          "17.0",
+          "56.0",
+          "53.0",
+          "19.0",
+          "29.0"
+        ]
+      }
+    },
+    {
+      "name": "DUQ310Q",
+      "type": "DOUBLE PRECISION",
+      "nullable": true,
+      "stats": {
+        "null_count": 4493,
+        "distinct_count": 29,
+        "null_percentage": 98.27,
+        "numeric_stats": {
+          "avg": 13.39240506329114,
+          "min": 1.0,
+          "max": 60.0,
+          "stddev": 12.559007107495713
+        },
+        "frequent_values": [
+          {
+            "value": "2.0",
+            "count": 8
+          },
+          {
+            "value": "20.0",
+            "count": 7
+          },
+          {
+            "value": "5.0",
+            "count": 7
+          },
+          {
+            "value": "1.0",
+            "count": 7
+          },
+          {
+            "value": "7.0",
+            "count": 6
+          }
+        ],
+        "sample_values": [
+          "15.0",
+          "26.0",
+          "38.0",
+          "9.0",
+          "6.0",
+          "20.0",
+          "17.0",
+          "5.0",
+          "60.0",
+          "29.0",
+          "14.0",
+          "31.0",
+          "3.0",
+          "27.0",
+          "7.0"
+        ]
+      }
+    },
+    {
+      "name": "DUQ310U",
+      "type": "DOUBLE PRECISION",
+      "nullable": true,
+      "stats": {
+        "null_count": 4493,
+        "distinct_count": 4,
+        "null_percentage": 98.27,
+        "numeric_stats": {
+          "avg": 3.5443037974683542,
+          "min": 1.0,
+          "max": 4.0,
+          "stddev": 0.8740924722897455
+        },
+        "frequent_values": [
+          {
+            "value": "4.0",
+            "count": 57
+          },
+          {
+            "value": "3.0",
+            "count": 14
+          },
+          {
+            "value": "1.0",
+            "count": 6
+          },
+          {
+            "value": "2.0",
+            "count": 2
+          }
+        ],
+        "sample_values": [
+          "3.0",
+          "2.0",
+          "4.0",
+          "1.0"
+        ]
+      }
+    },
+    {
+      "name": "DUQ320",
+      "type": "DOUBLE PRECISION",
+      "nullable": true,
+      "stats": {
+        "null_count": 4564,
+        "distinct_count": 5,
+        "null_percentage": 99.83,
+        "numeric_stats": {
+          "avg": 15.875,
+          "min": 1.0,
+          "max": 30.0,
+          "stddev": 12.017100910191038
+        },
+        "frequent_values": [
+          {
+            "value": "1.0",
+            "count": 2
+          },
+          {
+            "value": "10.0",
+            "count": 2
+          },
+          {
+            "value": "30.0",
+            "count": 2
+          },
+          {
+            "value": "20.0",
+            "count": 1
+          },
+          {
+            "value": "25.0",
+            "count": 1
+          }
+        ],
+        "sample_values": [
+          "1.0",
+          "10.0",
+          "20.0",
+          "25.0",
+          "30.0"
+        ]
+      }
+    },
+    {
+      "name": "DUQ330",
+      "type": "DOUBLE PRECISION",
+      "nullable": true,
+      "stats": {
+        "null_count": 3901,
+        "distinct_count": 3,
+        "null_percentage": 85.32,
+        "numeric_stats": {
+          "avg": 1.585692995529061,
+          "min": 1.0,
+          "max": 9.0,
+          "stddev": 0.5714901348792439
+        },
+        "frequent_values": [
+          {
+            "value": "2.0",
+            "count": 385
+          },
+          {
+            "value": "1.0",
+            "count": 285
+          },
+          {
+            "value": "9.0",
+            "count": 1
+          }
+        ],
+        "sample_values": [
+          "9.0",
+          "2.0",
+          "1.0"
+        ]
+      }
+    },
+    {
+      "name": "DUQ340",
+      "type": "DOUBLE PRECISION",
+      "nullable": true,
+      "stats": {
+        "null_count": 4341,
+        "distinct_count": 35,
+        "null_percentage": 94.95,
+        "numeric_stats": {
+          "avg": 23.103896103896105,
+          "min": 12.0,
+          "max": 55.0,
+          "stddev": 7.759287980979145
+        },
+        "frequent_values": [
+          {
+            "value": "18.0",
+            "count": 26
+          },
+          {
+            "value": "20.0",
+            "count": 20
+          },
+          {
+            "value": "16.0",
+            "count": 19
+          },
+          {
+            "value": "21.0",
+            "count": 17
+          },
+          {
+            "value": "19.0",
+            "count": 17
+          }
+        ],
+        "sample_values": [
+          "15.0",
+          "26.0",
+          "44.0",
+          "55.0",
+          "51.0",
+          "20.0",
+          "36.0",
+          "17.0",
+          "29.0",
+          "14.0",
+          "13.0",
+          "31.0",
+          "50.0",
+          "27.0",
+          "32.0"
+        ]
+      }
+    },
+    {
+      "name": "DUQ350Q",
+      "type": "DOUBLE PRECISION",
+      "nullable": true,
+      "stats": {
+        "null_count": 4342,
+        "distinct_count": 35,
+        "null_percentage": 94.97,
+        "numeric_stats": {
+          "avg": 11.452173913043477,
+          "min": 1.0,
+          "max": 40.0,
+          "stddev": 9.919979819549898
+        },
+        "frequent_values": [
+          {
+            "value": "1.0",
+            "count": 27
+          },
+          {
+            "value": "2.0",
+            "count": 20
+          },
+          {
+            "value": "10.0",
+            "count": 18
+          },
+          {
+            "value": "3.0",
+            "count": 17
+          },
+          {
+            "value": "6.0",
+            "count": 17
+          }
+        ],
+        "sample_values": [
+          "15.0",
+          "26.0",
+          "9.0",
+          "20.0",
+          "6.0",
+          "36.0",
+          "17.0",
+          "5.0",
+          "29.0",
+          "14.0",
+          "13.0",
+          "3.0",
+          "27.0",
+          "32.0",
+          "7.0"
+        ]
+      }
+    },
+    {
+      "name": "DUQ350U",
+      "type": "DOUBLE PRECISION",
+      "nullable": true,
+      "stats": {
+        "null_count": 4342,
+        "distinct_count": 4,
+        "null_percentage": 94.97,
+        "numeric_stats": {
+          "avg": 3.4782608695652173,
+          "min": 1.0,
+          "max": 4.0,
+          "stddev": 1.0224367339260343
+        },
+        "frequent_values": [
+          {
+            "value": "4.0",
+            "count": 173
+          },
+          {
+            "value": "1.0",
+            "count": 28
+          },
+          {
+            "value": "3.0",
+            "count": 22
+          },
+          {
+            "value": "2.0",
+            "count": 7
+          }
+        ],
+        "sample_values": [
+          "3.0",
+          "2.0",
+          "4.0",
+          "1.0"
+        ]
+      }
+    },
+    {
+      "name": "DUQ352",
+      "type": "DOUBLE PRECISION",
+      "nullable": true,
+      "stats": {
+        "null_count": 4341,
+        "distinct_count": 7,
+        "null_percentage": 94.95,
+        "numeric_stats": {
+          "avg": 4.021645021645021,
+          "min": 1.0,
+          "max": 77.0,
+          "stddev": 5.124065885132786
+        },
+        "frequent_values": [
+          {
+            "value": "6.0",
+            "count": 59
+          },
+          {
+            "value": "3.0",
+            "count": 42
+          },
+          {
+            "value": "2.0",
+            "count": 42
+          },
+          {
+            "value": "4.0",
+            "count": 39
+          },
+          {
+            "value": "1.0",
+            "count": 27
+          }
+        ],
+        "sample_values": [
+          "3.0",
+          "4.0",
+          "1.0",
+          "6.0",
+          "77.0",
+          "2.0",
+          "5.0"
+        ]
+      }
+    },
+    {
+      "name": "DUQ360",
+      "type": "DOUBLE PRECISION",
+      "nullable": true,
+      "stats": {
+        "null_count": 4538,
+        "distinct_count": 12,
+        "null_percentage": 99.26,
+        "numeric_stats": {
+          "avg": 10.205882352941176,
+          "min": 1.0,
+          "max": 30.0,
+          "stddev": 10.467205385956671
+        },
+        "frequent_values": [
+          {
+            "value": "2.0",
+            "count": 7
+          },
+          {
+            "value": "1.0",
+            "count": 6
+          },
+          {
+            "value": "5.0",
+            "count": 6
+          },
+          {
+            "value": "10.0",
+            "count": 3
+          },
+          {
+            "value": "30.0",
+            "count": 3
+          }
+        ],
+        "sample_values": [
+          "1.0",
+          "2.0",
+          "3.0",
+          "5.0",
+          "10.0",
+          "15.0",
+          "20.0",
+          "24.0",
+          "25.0",
+          "27.0",
+          "28.0",
+          "30.0"
+        ]
+      }
+    },
+    {
+      "name": "DUQ370",
+      "type": "DOUBLE PRECISION",
+      "nullable": true,
+      "stats": {
+        "null_count": 419,
+        "distinct_count": 4,
+        "null_percentage": 9.16,
+        "numeric_stats": {
+          "avg": 1.9824223452925596,
+          "min": 1.0,
+          "max": 9.0,
+          "stddev": 0.28008601727473237
+        },
+        "frequent_values": [
+          {
+            "value": "2.0",
+            "count": 4042
+          },
+          {
+            "value": "1.0",
+            "count": 106
+          },
+          {
+            "value": "9.0",
+            "count": 4
+          },
+          {
+            "value": "7.0",
+            "count": 1
+          }
+        ],
+        "sample_values": [
+          "9.0",
+          "7.0",
+          "2.0",
+          "1.0"
+        ]
+      }
+    },
+    {
+      "name": "DUQ380A",
+      "type": "DOUBLE PRECISION",
+      "nullable": true,
+      "stats": {
+        "null_count": 4518,
+        "distinct_count": 1,
+        "null_percentage": 98.82,
+        "numeric_stats": {
+          "avg": 1.0,
+          "min": 1.0,
+          "max": 1.0,
+          "stddev": 0.0
+        },
+        "frequent_values": [
+          {
+            "value": "1.0",
+            "count": 54
+          }
+        ],
+        "sample_values": [
+          "1.0"
+        ]
+      }
+    },
+    {
+      "name": "DUQ380B",
+      "type": "DOUBLE PRECISION",
+      "nullable": true,
+      "stats": {
+        "null_count": 4518,
+        "distinct_count": 1,
+        "null_percentage": 98.82,
+        "numeric_stats": {
+          "avg": 2.0,
+          "min": 2.0,
+          "max": 2.0,
+          "stddev": 0.0
+        },
+        "frequent_values": [
+          {
+            "value": "2.0",
+            "count": 54
+          }
+        ],
+        "sample_values": [
+          "2.0"
+        ]
+      }
+    },
+    {
+      "name": "DUQ380C",
+      "type": "DOUBLE PRECISION",
+      "nullable": true,
+      "stats": {
+        "null_count": 4538,
+        "distinct_count": 1,
+        "null_percentage": 99.26,
+        "numeric_stats": {
+          "avg": 3.0,
+          "min": 3.0,
+          "max": 3.0,
+          "stddev": 0.0
+        },
+        "frequent_values": [
+          {
+            "value": "3.0",
+            "count": 34
+          }
+        ],
+        "sample_values": [
+          "3.0"
+        ]
+      }
+    },
+    {
+      "name": "DUD380F",
+      "type": "DOUBLE PRECISION",
+      "nullable": true,
+      "stats": {
+        "null_count": 4547,
+        "distinct_count": 1,
+        "null_percentage": 99.45,
+        "numeric_stats": {
+          "avg": 6.0,
+          "min": 6.0,
+          "max": 6.0,
+          "stddev": 0.0
+        },
+        "frequent_values": [
+          {
+            "value": "6.0",
+            "count": 25
+          }
+        ],
+        "sample_values": [
+          "6.0"
+        ]
+      }
+    },
+    {
+      "name": "DUQ390",
+      "type": "DOUBLE PRECISION",
+      "nullable": true,
+      "stats": {
+        "null_count": 4466,
+        "distinct_count": 30,
+        "null_percentage": 97.68,
+        "numeric_stats": {
+          "avg": 40.839622641509436,
+          "min": 13.0,
+          "max": 999.0,
+          "stddev": 119.36124734383135
+        },
+        "frequent_values": [
+          {
+            "value": "19.0",
+            "count": 10
+          },
+          {
+            "value": "21.0",
+            "count": 9
+          },
+          {
+            "value": "20.0",
+            "count": 9
+          },
+          {
+            "value": "30.0",
+            "count": 9
+          },
+          {
+            "value": "18.0",
+            "count": 8
+          }
+        ],
+        "sample_values": [
+          "15.0",
+          "777.0",
+          "61.0",
+          "20.0",
+          "17.0",
+          "999.0",
+          "29.0",
+          "60.0",
+          "14.0",
+          "13.0",
+          "50.0",
+          "27.0",
+          "32.0",
+          "30.0",
+          "24.0"
+        ]
+      }
+    },
+    {
+      "name": "DUQ400Q",
+      "type": "DOUBLE PRECISION",
+      "nullable": true,
+      "stats": {
+        "null_count": 4466,
+        "distinct_count": 37,
+        "null_percentage": 97.68,
+        "numeric_stats": {
+          "avg": 161.8490566037736,
+          "min": 5.397605346934028e-79,
+          "max": 7777.0,
+          "stddev": 1061.138999848324
+        },
+        "frequent_values": [
+          {
+            "value": "3.0",
+            "count": 9
+          },
+          {
+            "value": "2.0",
+            "count": 8
+          },
+          {
+            "value": "1.0",
+            "count": 8
+          },
+          {
+            "value": "6.0",
+            "count": 6
+          },
+          {
+            "value": "9.0",
+            "count": 6
+          }
+        ],
+        "sample_values": [
+          "65.0",
+          "15.0",
+          "26.0",
+          "9.0",
+          "20.0",
+          "6.0",
+          "5.0",
+          "29.0",
+          "13.0",
+          "14.0",
+          "3.0",
+          "27.0",
+          "32.0",
+          "5.397605346934028e-79",
+          "7.0"
+        ]
+      }
+    },
+    {
+      "name": "DUQ400U",
+      "type": "DOUBLE PRECISION",
+      "nullable": true,
+      "stats": {
+        "null_count": 4468,
+        "distinct_count": 4,
+        "null_percentage": 97.73,
+        "numeric_stats": {
+          "avg": 3.769230769230769,
+          "min": 1.0,
+          "max": 4.0,
+          "stddev": 0.6110752775004221
+        },
+        "frequent_values": [
+          {
+            "value": "4.0",
+            "count": 87
+          },
+          {
+            "value": "3.0",
+            "count": 13
+          },
+          {
+            "value": "1.0",
+            "count": 3
+          },
+          {
+            "value": "2.0",
+            "count": 1
+          }
+        ],
+        "sample_values": [
+          "3.0",
+          "2.0",
+          "4.0",
+          "1.0"
+        ]
+      }
+    },
+    {
+      "name": "DUQ410",
+      "type": "DOUBLE PRECISION",
+      "nullable": true,
+      "stats": {
+        "null_count": 4466,
+        "distinct_count": 7,
+        "null_percentage": 97.68,
+        "numeric_stats": {
+          "avg": 4.518867924528302,
+          "min": 1.0,
+          "max": 77.0,
+          "stddev": 7.343583051857778
+        },
+        "frequent_values": [
+          {
+            "value": "6.0",
+            "count": 35
+          },
+          {
+            "value": "2.0",
+            "count": 26
+          },
+          {
+            "value": "4.0",
+            "count": 14
+          },
+          {
+            "value": "1.0",
+            "count": 11
+          },
+          {
+            "value": "3.0",
+            "count": 11
+          }
+        ],
+        "sample_values": [
+          "3.0",
+          "4.0",
+          "1.0",
+          "6.0",
+          "77.0",
+          "2.0",
+          "5.0"
+        ]
+      }
+    },
+    {
+      "name": "DUQ420",
+      "type": "DOUBLE PRECISION",
+      "nullable": true,
+      "stats": {
+        "null_count": 4477,
+        "distinct_count": 7,
+        "null_percentage": 97.92,
+        "numeric_stats": {
+          "avg": 2.5473684210526315,
+          "min": 1.0,
+          "max": 9.0,
+          "stddev": 1.7120873228663953
+        },
+        "frequent_values": [
+          {
+            "value": "1.0",
+            "count": 37
+          },
+          {
+            "value": "2.0",
+            "count": 20
+          },
+          {
+            "value": "5.0",
+            "count": 17
+          },
+          {
+            "value": "3.0",
+            "count": 12
+          },
+          {
+            "value": "4.0",
+            "count": 7
+          }
+        ],
+        "sample_values": [
+          "3.0",
+          "4.0",
+          "1.0",
+          "9.0",
+          "7.0",
+          "2.0",
+          "5.0"
+        ]
+      }
+    },
+    {
+      "name": "DUQ430",
+      "type": "DOUBLE PRECISION",
+      "nullable": true,
+      "stats": {
+        "null_count": 2807,
+        "distinct_count": 2,
+        "null_percentage": 61.4,
+        "numeric_stats": {
+          "avg": 1.8946175637393767,
+          "min": 1.0,
+          "max": 2.0,
+          "stddev": 0.30713258275130184
+        },
+        "frequent_values": [
+          {
+            "value": "2.0",
+            "count": 1579
+          },
+          {
+            "value": "1.0",
+            "count": 186
+          }
+        ],
+        "sample_values": [
+          "2.0",
+          "1.0"
+        ]
+      }
+    }
+  ],
+  "sample_rows": [
+    {
+      "SEQN": 93705.0,
+      "DUQ200": NaN,
+      "DUQ210": null,
+      "DUQ211": null,
+      "DUQ213": null,
+      "DUQ215Q": null,
+      "DUQ215U": null,
+      "DUQ217": null,
+      "DUQ219": null,
+      "DUQ220Q": null,
+      "DUQ220U": null,
+      "DUQ230": null,
+      "DUQ240": 2.0,
+      "DUQ250": null,
+      "DUQ260": null,
+      "DUQ270Q": null,
+      "DUQ270U": null,
+      "DUQ272": null,
+      "DUQ280": null,
+      "DUQ290": null,
+      "DUQ300": null,
+      "DUQ310Q": null,
+      "DUQ310U": null,
+      "DUQ320": null,
+      "DUQ330": null,
+      "DUQ340": null,
+      "DUQ350Q": null,
+      "DUQ350U": null,
+      "DUQ352": null,
+      "DUQ360": null,
+      "DUQ370": 2.0,
+      "DUQ380A": null,
+      "DUQ380B": null,
+      "DUQ380C": null,
+      "DUD380F": null,
+      "DUQ390": null,
+      "DUQ400Q": null,
+      "DUQ400U": null,
+      "DUQ410": null,
+      "DUQ420": null,
+      "DUQ430": null
+    },
+    {
+      "SEQN": 93706.0,
+      "DUQ200": 2.0,
+      "DUQ210": null,
+      "DUQ211": null,
+      "DUQ213": null,
+      "DUQ215Q": null,
+      "DUQ215U": null,
+      "DUQ217": null,
+      "DUQ219": null,
+      "DUQ220Q": null,
+      "DUQ220U": null,
+      "DUQ230": null,
+      "DUQ240": 2.0,
+      "DUQ250": null,
+      "DUQ260": null,
+      "DUQ270Q": null,
+      "DUQ270U": null,
+      "DUQ272": null,
+      "DUQ280": null,
+      "DUQ290": null,
+      "DUQ300": null,
+      "DUQ310Q": null,
+      "DUQ310U": null,
+      "DUQ320": null,
+      "DUQ330": null,
+      "DUQ340": null,
+      "DUQ350Q": null,
+      "DUQ350U": null,
+      "DUQ352": null,
+      "DUQ360": null,
+      "DUQ370": 2.0,
+      "DUQ380A": null,
+      "DUQ380B": null,
+      "DUQ380C": null,
+      "DUD380F": null,
+      "DUQ390": null,
+      "DUQ400Q": null,
+      "DUQ400U": null,
+      "DUQ410": null,
+      "DUQ420": null,
+      "DUQ430": null
+    },
+    {
+      "SEQN": 93708.0,
+      "DUQ200": NaN,
+      "DUQ210": null,
+      "DUQ211": null,
+      "DUQ213": null,
+      "DUQ215Q": null,
+      "DUQ215U": null,
+      "DUQ217": null,
+      "DUQ219": null,
+      "DUQ220Q": null,
+      "DUQ220U": null,
+      "DUQ230": null,
+      "DUQ240": 2.0,
+      "DUQ250": null,
+      "DUQ260": null,
+      "DUQ270Q": null,
+      "DUQ270U": null,
+      "DUQ272": null,
+      "DUQ280": null,
+      "DUQ290": null,
+      "DUQ300": null,
+      "DUQ310Q": null,
+      "DUQ310U": null,
+      "DUQ320": null,
+      "DUQ330": null,
+      "DUQ340": null,
+      "DUQ350Q": null,
+      "DUQ350U": null,
+      "DUQ352": null,
+      "DUQ360": null,
+      "DUQ370": 2.0,
+      "DUQ380A": null,
+      "DUQ380B": null,
+      "DUQ380C": null,
+      "DUD380F": null,
+      "DUQ390": null,
+      "DUQ400Q": null,
+      "DUQ400U": null,
+      "DUQ410": null,
+      "DUQ420": null,
+      "DUQ430": null
+    }
+  ],
+  "execution": {
+    "status": "success",
+    "seconds": 0.4,
+    "processed_at": "2026-06-11T21:19:32.614736",
+    "attempt": 1
+  }
+}

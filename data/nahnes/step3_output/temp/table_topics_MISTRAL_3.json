@@ -1,0 +1,629 @@
+{
+  "nhanes_admin.load_catalog": [
+    "categorias de dados de saúde",
+    "ciclos de pesquisa NHANES",
+    "estrutura de tabelas de dados"
+  ],
+  "nhanes_demographics.demo_j": [
+    "demografia populacional",
+    "idade e gênero",
+    "etnia e origem"
+  ],
+  "nhanes_dietary.dr1iff_j": [
+    "consumo diário de nutrientes",
+    "peso dietético individual",
+    "ingestão de alimentos por linha"
+  ],
+  "nhanes_dietary.dr1tot_j": [
+    "consumo nutricional diário",
+    "pesos dietéticos",
+    "avaliação de dieta"
+  ],
+  "nhanes_dietary.dr2iff_j": [
+    "consumo nutricional diário",
+    "ingestão de vitaminas",
+    "composição de refeições"
+  ],
+  "nhanes_dietary.dr2tot_j": [
+    "consumo nutricional diário",
+    "ingestão calórica total",
+    "composição de macronutrientes"
+  ],
+  "nhanes_dietary.ds1ids_j": [
+    "suplementos dietéticos",
+    "ingestão nutricional diária",
+    "peso amostral"
+  ],
+  "nhanes_dietary.ds1tot_j": [
+    "consumo nutricional diário",
+    "pesquisa de dieta",
+    "avaliação de nutrientes"
+  ],
+  "nhanes_dietary.ds2ids_j": [
+    "suplementos dietéticos",
+    "ingestão nutricional",
+    "localização de consumo"
+  ],
+  "nhanes_dietary.ds2tot_j": [
+    "consumo diário de nutrientes",
+    "pesquisa de dieta alimentar",
+    "avaliação de ingestão calórica"
+  ],
+  "nhanes_dietary.dsqids_j": [
+    "suplementos dietéticos",
+    "nutrientes consumidos",
+    "frequência de suplementação"
+  ],
+  "nhanes_dietary.dsqtot_j": [
+    "consumo de nutrientes",
+    "ingestão calórica diária",
+    "teor de vitaminas"
+  ],
+  "nhanes_examination.aux_j": [
+    "exames auditivos",
+    "medições de pressão",
+    "avaliação de tímpano"
+  ],
+  "nhanes_examination.auxar_j": [],
+  "nhanes_examination.auxtym_j": [],
+  "nhanes_examination.auxwbr_j": [
+    "medidas de peso corporal",
+    "avaliação de composição corporal",
+    "medidas de circunferência abdominal"
+  ],
+  "nhanes_examination.bmx_j": [
+    "medidas antropométricas",
+    "índice de massa corporal",
+    "circunferência da cintura"
+  ],
+  "nhanes_examination.bpx_j": [
+    "pressão arterial sistólica",
+    "pressão arterial diastólica",
+    "frequência cardíaca"
+  ],
+  "nhanes_examination.bpxo_j": [
+    "pressão arterial sistólica",
+    "pressão arterial diastólica",
+    "lateralidade do braço"
+  ],
+  "nhanes_examination.dxx_j": [
+    "composição corporal por DXA",
+    "densidade mineral óssea",
+    "avaliação de gordura corporal"
+  ],
+  "nhanes_examination.dxxag_j": [
+    "composição corporal",
+    "medidas antropométricas",
+    "índice de gordura"
+  ],
+  "nhanes_examination.dxxfem_j": [
+    "densidade mineral óssea",
+    "composição corporal",
+    "exame de mulheres"
+  ],
+  "nhanes_examination.dxxspn_j": [
+    "densidade mineral óssea",
+    "composição corporal",
+    "exame de saúde"
+  ],
+  "nhanes_examination.lux_j": [
+    "medidas de luxação",
+    "classificação de tamanho",
+    "análise de exames oftalmológicos"
+  ],
+  "nhanes_examination.ohxden_j": [
+    "saúde bucal",
+    "exame dentário",
+    "condição dental"
+  ],
+  "nhanes_examination.ohxref_j": [
+    "exame odontológico",
+    "condição dentária",
+    "status de saúde bucal"
+  ],
+  "nhanes_laboratory.alb_cr_j": [
+    "análise de albumina",
+    "excreção de creatinina",
+    "marcadores laboratoriais"
+  ],
+  "nhanes_laboratory.biopro_j": [
+    "análise de biomarcadores sanguíneos",
+    "níveis de substâncias bioquímicas",
+    "exames laboratoriais"
+  ],
+  "nhanes_laboratory.cbc_j": [
+    "análise de hemograma completo",
+    "contagem de células sanguíneas",
+    "parâmetros hematológicos"
+  ],
+  "nhanes_laboratory.cmv_j": [
+    "avaliação de imunoglobulinas",
+    "testes laboratoriais de CMV",
+    "classificação de resultados sorológicos"
+  ],
+  "nhanes_laboratory.cot_j": [
+    "níveis de cotinina",
+    "análise de hematócrito",
+    "valores laboratoriais"
+  ],
+  "nhanes_laboratory.crco_j": [
+    "análise de creatinina",
+    "níveis de bilirrubina",
+    "avaliação de marcadores laboratoriais"
+  ],
+  "nhanes_laboratory.ephpp_j": [
+    "análise de urina",
+    "concentração de substâncias",
+    "pesos amostrais"
+  ],
+  "nhanes_laboratory.ethox_j": [
+    "exposição a etox",
+    "níveis de etox em sangue",
+    "consumo de álcool"
+  ],
+  "nhanes_laboratory.fastqx_j": [
+    "respostas de questionário de saúde",
+    "sessões de pesquisa",
+    "pontuação de sintomas"
+  ],
+  "nhanes_laboratory.fertin_j": [
+    "ferro sérico",
+    "ferritina",
+    "análise laboratorial"
+  ],
+  "nhanes_laboratory.fetib_j": [
+    "ferro sérico",
+    "índice de saturação de transferrina",
+    "percentual de saturação de ferro"
+  ],
+  "nhanes_laboratory.folate_j": [
+    "análise de folato",
+    "níveis de vitamina B9",
+    "dados laboratoriais nutricionais"
+  ],
+  "nhanes_laboratory.fr_j": [
+    "análise de laboratório",
+    "concentração de substâncias",
+    "pesos amostrais"
+  ],
+  "nhanes_laboratory.ghb_j": [
+    "concentração de GHB",
+    "análise laboratorial",
+    "valores de referência bioquímica"
+  ],
+  "nhanes_laboratory.glu_j": [
+    "níveis de glicose no sangue",
+    "pesos amostrais em pesquisas",
+    "análise de dados laboratoriais"
+  ],
+  "nhanes_laboratory.hdl_j": [
+    "níveis de HDL",
+    "análise de colesterol",
+    "valores laboratoriais"
+  ],
+  "nhanes_laboratory.hepa_j": [
+    "hepatite B",
+    "testes laboratoriais",
+    "resultados de exames"
+  ],
+  "nhanes_laboratory.hepb_s_j": [
+    "hepatite B sorologia",
+    "testes laboratoriais",
+    "resultados de exames"
+  ],
+  "nhanes_laboratory.hepbd_j": [
+    "hepatite B",
+    "testes laboratoriais",
+    "resultados de exames"
+  ],
+  "nhanes_laboratory.hepc_j": [
+    "hepatite C",
+    "testes laboratoriais",
+    "resultados de exames"
+  ],
+  "nhanes_laboratory.hepe_j": [
+    "hepatite B",
+    "testes laboratoriais",
+    "resultados de exames"
+  ],
+  "nhanes_laboratory.hiv_j": [
+    "testes de HIV",
+    "resultados laboratoriais",
+    "prevalência de HIV"
+  ],
+  "nhanes_laboratory.hscrp_j": [
+    "níveis de proteína C reativa",
+    "marcadores inflamatórios sanguíneos",
+    "análise de amostras laboratoriais"
+  ],
+  "nhanes_laboratory.ihgem_j": [
+    "níveis de hemoglobina glicada",
+    "indicadores de diabetes",
+    "exames laboratoriais de sangue"
+  ],
+  "nhanes_laboratory.ins_j": [
+    "análise de insulina",
+    "pesos amostrais",
+    "valores laboratoriais"
+  ],
+  "nhanes_laboratory.opd_j": [
+    "análise de opióides",
+    "pesquisa de laboratório",
+    "peso amostral"
+  ],
+  "nhanes_laboratory.pah_j": [
+    "análise de metabólitos urinários",
+    "pesquisa de exposição a poluentes",
+    "avaliação de concentrações químicas"
+  ],
+  "nhanes_laboratory.pbcd_j": [
+    "concentração de chumbo no sangue",
+    "níveis de mercúrio no sangue",
+    "análise de biomarcadores laboratoriais"
+  ],
+  "nhanes_laboratory.pernt_j": [
+    "níveis de urina",
+    "pesos amostrais",
+    "compostos nitrogenados"
+  ],
+  "nhanes_laboratory.pfas_j": [
+    "níveis de PFAS no sangue",
+    "exposição a substâncias químicas",
+    "pesquisa laboratorial de saúde"
+  ],
+  "nhanes_laboratory.phthte_j": [
+    "concentração de metais na urina",
+    "pesos amostrais em pesquisas",
+    "valores de limite de detecção"
+  ],
+  "nhanes_laboratory.ssagp_j": [
+    "pesos amostrais",
+    "valores laboratoriais",
+    "análise de variáveis numéricas"
+  ],
+  "nhanes_laboratory.ssfr_j": [
+    "análise de marcadores sorológicos",
+    "pesquisa de soroprevalência",
+    "estudo de pesos amostrais"
+  ],
+  "nhanes_laboratory.ssglyp_j": [
+    "glicose sérica",
+    "pesos amostrais",
+    "limiares laboratoriais"
+  ],
+  "nhanes_laboratory.ssneon_j": [
+    "análise de laboratório",
+    "resultados de exames",
+    "pesos amostrais"
+  ],
+  "nhanes_laboratory.sspfas_j": [
+    "pesos amostrais",
+    "valores laboratoriais",
+    "limites de detecção"
+  ],
+  "nhanes_laboratory.sstst_j": [
+    "análise de hormônios",
+    "testes laboratoriais",
+    "pesos amostrais"
+  ],
+  "nhanes_laboratory.ssuvcm_j": [
+    "análise de marcadores laboratoriais",
+    "pesquisa de valores de referência",
+    "estudo de pesos amostrais"
+  ],
+  "nhanes_laboratory.ssuvoc_j": [
+    "análise de laboratório",
+    "pesos amostrais",
+    "valores de marcadores"
+  ],
+  "nhanes_laboratory.tchol_j": [
+    "colesterol total",
+    "índice de colesterol",
+    "exames laboratoriais"
+  ],
+  "nhanes_laboratory.tfr_j": [
+    "ferro sérico",
+    "índice de saturação de transferrina",
+    "análise laboratorial"
+  ],
+  "nhanes_laboratory.trigly_j": [
+    "análise de triglicerídeos",
+    "níveis de LDL",
+    "pesos amostrais laboratoriais"
+  ],
+  "nhanes_laboratory.uas_j": [
+    "análise de urina",
+    "resultados laboratoriais",
+    "pesquisa de saúde"
+  ],
+  "nhanes_laboratory.ucflow_j": [
+    "fluxo urinário",
+    "volume urinário",
+    "tempo de coleta urinária"
+  ],
+  "nhanes_laboratory.ucm_j": [
+    "concentração de urina",
+    "peso amostral laboratorial",
+    "detecção de substâncias"
+  ],
+  "nhanes_laboratory.ucot_j": [
+    "análise de cotinina urinária",
+    "pesquisa de biomarcadores laboratoriais",
+    "estudo de exposição ao tabaco"
+  ],
+  "nhanes_laboratory.ucpreg_j": [
+    "gravidez em mulheres",
+    "resultados de exames",
+    "identificação de participantes"
+  ],
+  "nhanes_laboratory.uhg_j": [
+    "análise de urina",
+    "concentração de hemoglobina",
+    "pesos amostrais"
+  ],
+  "nhanes_laboratory.uio_j": [
+    "análise de urânio",
+    "pesos amostrais",
+    "valores laboratoriais"
+  ],
+  "nhanes_laboratory.um_j": [
+    "análise de urina",
+    "concentração de substâncias",
+    "pesquisa laboratorial"
+  ],
+  "nhanes_laboratory.uni_j": [
+    "análise de urina",
+    "pesquisa laboratorial",
+    "peso amostral"
+  ],
+  "nhanes_laboratory.uphopm_j": [
+    "análise de urina",
+    "concentração de substâncias",
+    "pesos amostrais"
+  ],
+  "nhanes_laboratory.utas_j": [
+    "análise de urina",
+    "pesquisa de arsênio",
+    "pesagem amostral"
+  ],
+  "nhanes_laboratory.uvoc_j": [
+    "análise de laboratório",
+    "concentração de metais",
+    "pesquisa de saúde"
+  ],
+  "nhanes_laboratory.vic_j": [
+    "análise de vitamina C",
+    "níveis laboratoriais",
+    "avaliação de suplementação"
+  ],
+  "nhanes_laboratory.vid_j": [
+    "análise de vitamina D",
+    "níveis de marcadores laboratoriais",
+    "avaliação de deficiências nutricionais"
+  ],
+  "nhanes_laboratory.vitaec_j": [
+    "análise de vitamina A",
+    "níveis de glicose no sangue",
+    "concentração de colesterol"
+  ],
+  "nhanes_laboratory.vocwb_j": [
+    "análise de laboratório",
+    "resultados de exames bioquímicos",
+    "valores de marcadores sanguíneos"
+  ],
+  "nhanes_questionnaire.acq_j": [
+    "respostas de questionário",
+    "avaliação de saúde",
+    "dados demográficos"
+  ],
+  "nhanes_questionnaire.alq_j": [
+    "consumo de álcool",
+    "padrões de ingestão",
+    "frequência de consumo"
+  ],
+  "nhanes_questionnaire.auq_j": [
+    "respostas questionário auditivo",
+    "frequência de respostas",
+    "avaliação de audição"
+  ],
+  "nhanes_questionnaire.bpq_j": [
+    "pressão arterial",
+    "respostas questionário saúde",
+    "medidas biométricas"
+  ],
+  "nhanes_questionnaire.cbq_j": [
+    "consumo de nutrientes",
+    "valores nutricionais",
+    "padrões alimentares"
+  ],
+  "nhanes_questionnaire.cbqpfa_j": [
+    "respostas de questionário de saúde",
+    "frequência de respostas por pergunta",
+    "peso amostral individual"
+  ],
+  "nhanes_questionnaire.cbqpfc_j": [
+    "respostas de questionário",
+    "comportamento alimentar",
+    "peso corporal"
+  ],
+  "nhanes_questionnaire.cdq_j": [
+    "respostas de questionário",
+    "comportamento alimentar",
+    "preferências de consumo"
+  ],
+  "nhanes_questionnaire.dbq_j": [
+    "consumo de alimentos",
+    "frequência de refeições",
+    "padrões dietéticos"
+  ],
+  "nhanes_questionnaire.deq_j": [
+    "respostas de questionário",
+    "sintomas depressivos",
+    "escore de depressão"
+  ],
+  "nhanes_questionnaire.diq_j": [
+    "respostas de questionário",
+    "avaliação de dieta",
+    "consumo de nutrientes"
+  ],
+  "nhanes_questionnaire.dlq_j": [
+    "respostas de questionário de saúde mental",
+    "avaliação de depressão",
+    "prevalência de sintomas depressivos"
+  ],
+  "nhanes_questionnaire.dpq_j": [
+    "respostas de depressão",
+    "escala de sintomas psicológicos",
+    "avaliação de saúde mental"
+  ],
+  "nhanes_questionnaire.duq_j": [
+    "consumo de tabaco",
+    "frequência de uso",
+    "idade de início"
+  ],
+  "nhanes_questionnaire.ecq_j": [
+    "respostas de questionário",
+    "saúde mental",
+    "avaliação de sintomas"
+  ],
+  "nhanes_questionnaire.fsq_j": [
+    "respostas de questionário",
+    "avaliação de frequência alimentar",
+    "padrões de consumo"
+  ],
+  "nhanes_questionnaire.heq_j": [
+    "respostas de questionário de saúde",
+    "avaliação de sintomas depressivos",
+    "prevalência de condições de saúde mental"
+  ],
+  "nhanes_questionnaire.hiq_j": [
+    "saúde intestinal",
+    "frequência de sintomas",
+    "avaliação de saúde"
+  ],
+  "nhanes_questionnaire.hoq_j": [
+    "respostas de questionário de saúde",
+    "avaliação de dificuldade de locomoção",
+    "classificação de ajuda para locomoção"
+  ],
+  "nhanes_questionnaire.hsq_j": [
+    "saúde do sono",
+    "respostas de questionário",
+    "padrões de sono"
+  ],
+  "nhanes_questionnaire.huq_j": [
+    "saúde mental",
+    "respostas de questionário",
+    "avaliação de saúde"
+  ],
+  "nhanes_questionnaire.imq_j": [
+    "respostas de questionário",
+    "avaliação de saúde mental",
+    "prevalência de sintomas"
+  ],
+  "nhanes_questionnaire.inq_j": [
+    "respostas de questionário",
+    "avaliação de saúde",
+    "padrões de resposta"
+  ],
+  "nhanes_questionnaire.kiq_u_j": [
+    "respostas de questionário",
+    "avaliação de conhecimento",
+    "frequência de respostas"
+  ],
+  "nhanes_questionnaire.mcq_j": [
+    "respostas questionário saúde",
+    "avaliação condições médicas",
+    "frequência sintomas depressivos"
+  ],
+  "nhanes_questionnaire.ocq_j": [
+    "respostas de questionário",
+    "pontuação de saúde mental",
+    "avaliação de sintomas"
+  ],
+  "nhanes_questionnaire.ohq_j": [
+    "saúde bucal",
+    "respostas de questionário",
+    "avaliação odontológica"
+  ],
+  "nhanes_questionnaire.osq_j": [
+    "respostas de questionário",
+    "avaliação de saúde",
+    "dados demográficos"
+  ],
+  "nhanes_questionnaire.paq_j": [
+    "atividade física",
+    "tempo de exercício",
+    "duração de caminhada"
+  ],
+  "nhanes_questionnaire.paqy_j": [
+    "atividade física",
+    "questionário de saúde",
+    "respostas de pesquisa"
+  ],
+  "nhanes_questionnaire.pfq_j": [
+    "respostas de questionário",
+    "percepção familiar",
+    "avaliação de saúde"
+  ],
+  "nhanes_questionnaire.puqmec_j": [
+    "respostas de questionário",
+    "avaliação de saúde mental",
+    "frequência de sintomas"
+  ],
+  "nhanes_questionnaire.rhq_j": [
+    "respostas de questionário de saúde",
+    "avaliação de sintomas psicológicos",
+    "padrões de respostas em pesquisa"
+  ],
+  "nhanes_questionnaire.rxq_rx_j": [
+    "uso de medicamentos",
+    "condições médicas associadas",
+    "duração do tratamento"
+  ],
+  "nhanes_questionnaire.rxqasa_j": [
+    "respostas de questionário",
+    "medicação prescrita",
+    "dosagem de medicamento"
+  ],
+  "nhanes_questionnaire.slq_j": [
+    "horários de sono",
+    "duração do sono",
+    "padrões de sono"
+  ],
+  "nhanes_questionnaire.smq_j": [
+    "tabagismo",
+    "consumo de cigarros",
+    "marcas de cigarros"
+  ],
+  "nhanes_questionnaire.smqfam_j": [
+    "tabagismo familiar",
+    "respostas de questionário",
+    "frequência de sintomas"
+  ],
+  "nhanes_questionnaire.smqrtu_j": [
+    "respostas de questionário de saúde",
+    "frequência de sintomas respiratórios",
+    "avaliação de tabagismo"
+  ],
+  "nhanes_questionnaire.smqshs_j": [
+    "respostas de questionário de saúde",
+    "avaliação de sintomas respiratórios",
+    "classificação de asma"
+  ],
+  "nhanes_questionnaire.vtq_j": [
+    "respostas de questionário",
+    "peso amostral",
+    "avaliação de saúde vocal"
+  ],
+  "nhanes_questionnaire.whq_j": [
+    "peso corporal",
+    "altura",
+    "frequência de atividade física"
+  ],
+  "nhanes_questionnaire.whqmec_j": [
+    "respostas de questionário",
+    "saúde mental",
+    "avaliação de bem-estar"
+  ]
+}

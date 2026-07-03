@@ -1,0 +1,637 @@
+{
+  "nhanes_admin.load_catalog": [
+    "dados demográficos",
+    "entrevista dietética",
+    "variáveis laboratoriais"
+  ],
+  "nhanes_demographics.demo_j": [
+    "demografia",
+    "idade",
+    "gênero"
+  ],
+  "nhanes_dietary.dr1iff_j": [
+    "nutrição",
+    "ingestão de nutrientes",
+    "dados dietéticos"
+  ],
+  "nhanes_dietary.dr1tot_j": [
+    "nutrição",
+    "ingestão de calorias",
+    "dieta"
+  ],
+  "nhanes_dietary.dr2iff_j": [
+    "nutrição",
+    "ingestão de nutrientes",
+    "dados dietéticos"
+  ],
+  "nhanes_dietary.dr2tot_j": [
+    "nutrição",
+    "ingestão de nutrientes",
+    "dados dietéticos"
+  ],
+  "nhanes_dietary.ds1ids_j": [
+    "suplementos dietéticos",
+    "nutrição",
+    "ingestão de vitaminas"
+  ],
+  "nhanes_dietary.ds1tot_j": [
+    "nutrição",
+    "ingestão de nutrientes",
+    "dados dietéticos"
+  ],
+  "nhanes_dietary.ds2ids_j": [
+    "suplementos dietéticos",
+    "nutrição",
+    "ingestão de nutrientes"
+  ],
+  "nhanes_dietary.ds2tot_j": [
+    "nutrição",
+    "ingestão de nutrientes",
+    "dados dietéticos"
+  ],
+  "nhanes_dietary.dsqids_j": [
+    "suplementos nutricionais",
+    "ingestão de vitaminas",
+    "dados de saúde"
+  ],
+  "nhanes_dietary.dsqtot_j": [
+    "nutrição",
+    "consumo de calorias",
+    "análise de macronutrientes"
+  ],
+  "nhanes_examination.aux_j": [
+    "exame de saúde",
+    "status de exame",
+    "comportamento de saúde"
+  ],
+  "nhanes_examination.auxar_j": [
+    "análise de saúde",
+    "exames médicos",
+    "dados demográficos"
+  ],
+  "nhanes_examination.auxtym_j": [
+    "análise de saúde",
+    "medidas antropométricas",
+    "variáveis de exame"
+  ],
+  "nhanes_examination.auxwbr_j": [
+    "análise de saúde",
+    "medidas antropométricas",
+    "fatores de risco"
+  ],
+  "nhanes_examination.bmx_j": [
+    "estatísticas de saúde",
+    "medidas antropométricas",
+    "índice de massa corporal"
+  ],
+  "nhanes_examination.bpx_j": [
+    "pressão arterial",
+    "análise de saúde",
+    "variáveis biométricas"
+  ],
+  "nhanes_examination.bpxo_j": [
+    "pressão arterial",
+    "medidas de saúde",
+    "exame físico"
+  ],
+  "nhanes_examination.dxx_j": [
+    "análise de saúde",
+    "exames de densidade óssea",
+    "dados de saúde populacional"
+  ],
+  "nhanes_examination.dxxag_j": [
+    "análise de saúde",
+    "dados antropométricos",
+    "avaliação nutricional"
+  ],
+  "nhanes_examination.dxxfem_j": [
+    "saúde feminina",
+    "exames médicos",
+    "dados biométricos"
+  ],
+  "nhanes_examination.dxxspn_j": [
+    "análise de saúde",
+    "medidas biométricas",
+    "dados de exames"
+  ],
+  "nhanes_examination.lux_j": [
+    "uso de medicamentos",
+    "avaliação de saúde",
+    "tratamento médico"
+  ],
+  "nhanes_examination.ohxden_j": [
+    "status de saúde",
+    "exame físico",
+    "classificação de resultados"
+  ],
+  "nhanes_examination.ohxref_j": [
+    "status de exame",
+    "recuperação de saúde",
+    "análise de condições"
+  ],
+  "nhanes_laboratory.alb_cr_j": [
+    "análise de uréia",
+    "dados laboratoriais",
+    "valores de referência"
+  ],
+  "nhanes_laboratory.biopro_j": [
+    "análise de biomarcadores",
+    "dados laboratoriais de saúde",
+    "variáveis de saúde populacional"
+  ],
+  "nhanes_laboratory.cbc_j": [
+    "análise de hemograma",
+    "dados laboratoriais",
+    "contagem de células sanguíneas"
+  ],
+  "nhanes_laboratory.cmv_j": [
+    "imunoglobulina G",
+    "imunoglobulina M",
+    "imunoglobulina A"
+  ],
+  "nhanes_laboratory.cot_j": [
+    "análise de cotinina",
+    "níveis de hemoglobina",
+    "dados laboratoriais"
+  ],
+  "nhanes_laboratory.crco_j": [
+    "análise de biomarcadores",
+    "dados laboratoriais",
+    "valores de referência"
+  ],
+  "nhanes_laboratory.ephpp_j": [
+    "análise de biomarcadores",
+    "dados de saúde",
+    "exames laboratoriais"
+  ],
+  "nhanes_laboratory.ethox_j": [
+    "exposição a etanol",
+    "nível de etanol",
+    "dados laboratoriais"
+  ],
+  "nhanes_laboratory.fastqx_j": [
+    "saúde mental",
+    "sintomas depressivos",
+    "avaliação de saúde"
+  ],
+  "nhanes_laboratory.fertin_j": [
+    "análise de fertilidade",
+    "dados laboratoriais",
+    "valores de referência"
+  ],
+  "nhanes_laboratory.fetib_j": [
+    "análise de biomarcadores",
+    "dados laboratoriais de saúde",
+    "resultados de exames"
+  ],
+  "nhanes_laboratory.folate_j": [
+    "nível de folato",
+    "análise laboratorial",
+    "dados nutricionais"
+  ],
+  "nhanes_laboratory.fr_j": [
+    "análise de biomarcadores",
+    "dados de saúde",
+    "exames laboratoriais"
+  ],
+  "nhanes_laboratory.ghb_j": [
+    "nível de hemoglobina glicada",
+    "dados de saúde",
+    "análise laboratorial"
+  ],
+  "nhanes_laboratory.glu_j": [
+    "nível de glicose",
+    "análise de saúde",
+    "dados laboratoriais"
+  ],
+  "nhanes_laboratory.hdl_j": [
+    "nível de HDL",
+    "nível de LBDHDD",
+    "nível de LBDHDDSI"
+  ],
+  "nhanes_laboratory.hepa_j": [
+    "análise de saúde",
+    "resultados laboratoriais",
+    "exames de hepatite"
+  ],
+  "nhanes_laboratory.hepb_s_j": [
+    "análise de hepatite B",
+    "dados laboratoriais",
+    "saúde pública"
+  ],
+  "nhanes_laboratory.hepbd_j": [
+    "análise de hemoglobina",
+    "níveis de glicose",
+    "dados laboratoriais"
+  ],
+  "nhanes_laboratory.hepc_j": [
+    "análise de saúde",
+    "resultados laboratoriais",
+    "marcadores de hepatite"
+  ],
+  "nhanes_laboratory.hepe_j": [
+    "análise de saúde",
+    "resultados laboratoriais",
+    "exames de sangue"
+  ],
+  "nhanes_laboratory.hiv_j": [
+    "status de HIV",
+    "teste de HIV",
+    "resultados laboratoriais"
+  ],
+  "nhanes_laboratory.hscrp_j": [
+    "nível de hsCRP",
+    "presença de DHRPLC",
+    "variabilidade de SEQN"
+  ],
+  "nhanes_laboratory.ihgem_j": [
+    "análise de saúde",
+    "dados laboratoriais",
+    "resultados de exames"
+  ],
+  "nhanes_laboratory.ins_j": [
+    "análise de saúde",
+    "dados laboratoriais",
+    "medidas biométricas"
+  ],
+  "nhanes_laboratory.opd_j": [
+    "análise de dados laboratoriais",
+    "valores de uréia",
+    "medidas de peso corporal"
+  ],
+  "nhanes_laboratory.pah_j": [
+    "análise de dados laboratoriais",
+    "valores de biomarcadores",
+    "tendências de saúde pública"
+  ],
+  "nhanes_laboratory.pbcd_j": [
+    "análise de biomarcadores",
+    "dados laboratoriais de saúde",
+    "exames de sangue"
+  ],
+  "nhanes_laboratory.pernt_j": [
+    "análise de uréia",
+    "níveis de nitrato",
+    "concentração de escaneamento"
+  ],
+  "nhanes_laboratory.pfas_j": [
+    "exposição a PFAS",
+    "análise de biomarcadores",
+    "dados de saúde pública"
+  ],
+  "nhanes_laboratory.phthte_j": [
+    "análise de saúde",
+    "dados laboratoriais",
+    "variáveis biométricas"
+  ],
+  "nhanes_laboratory.ssagp_j": [
+    "análise de saúde",
+    "dados laboratoriais",
+    "variabilidade de biomarcadores"
+  ],
+  "nhanes_laboratory.ssfr_j": [
+    "análise de biomarcadores",
+    "dados de saúde",
+    "variáveis laboratoriais"
+  ],
+  "nhanes_laboratory.ssglyp_j": [
+    "análise de glicose",
+    "dados laboratoriais",
+    "biomarcadores de saúde"
+  ],
+  "nhanes_laboratory.ssneon_j": [
+    "análise de saúde",
+    "dados laboratoriais",
+    "variáveis biométricas"
+  ],
+  "nhanes_laboratory.sspfas_j": [
+    "análise de substâncias químicas",
+    "dados laboratoriais de saúde",
+    "exposição a poluentes"
+  ],
+  "nhanes_laboratory.sstst_j": [
+    "análise de saúde",
+    "dados laboratoriais",
+    "medidas biométricas"
+  ],
+  "nhanes_laboratory.ssuvcm_j": [
+    "análise de saúde",
+    "dados laboratoriais",
+    "variáveis biométricas"
+  ],
+  "nhanes_laboratory.ssuvoc_j": [
+    "análise de saúde",
+    "dados laboratoriais",
+    "variáveis biométricas"
+  ],
+  "nhanes_laboratory.tchol_j": [
+    "nível de colesterol total",
+    "índice de saúde cardiovascular",
+    "variabilidade de lipídios"
+  ],
+  "nhanes_laboratory.tfr_j": [
+    "nível de ferro",
+    "análise laboratorial",
+    "dados de saúde"
+  ],
+  "nhanes_laboratory.trigly_j": [
+    "níveis de triglicerídeos",
+    "níveis de LDL",
+    "níveis de colesterol"
+  ],
+  "nhanes_laboratory.uas_j": [
+    "análise de saúde",
+    "dados laboratoriais",
+    "exames de urina"
+  ],
+  "nhanes_laboratory.ucflow_j": [
+    "volume urinário",
+    "fluxo urinário",
+    "tempo de coleta"
+  ],
+  "nhanes_laboratory.ucm_j": [
+    "análise de dados laboratoriais",
+    "valores de urina",
+    "medidas de saúde"
+  ],
+  "nhanes_laboratory.ucot_j": [
+    "análise de dados laboratoriais",
+    "valores de urina",
+    "medidas de saúde"
+  ],
+  "nhanes_laboratory.ucpreg_j": [
+    "análise de gravidez",
+    "dados de urina",
+    "estudos populacionais"
+  ],
+  "nhanes_laboratory.uhg_j": [
+    "análise de saúde",
+    "dados laboratoriais",
+    "exames de urina"
+  ],
+  "nhanes_laboratory.uio_j": [
+    "análise de dados laboratoriais",
+    "valores de urina",
+    "tendências de saúde"
+  ],
+  "nhanes_laboratory.um_j": [
+    "análise de biomarcadores",
+    "dados laboratoriais de saúde",
+    "exames de urina"
+  ],
+  "nhanes_laboratory.uni_j": [
+    "análise de dados laboratoriais",
+    "valores de urina",
+    "estatísticas de saúde"
+  ],
+  "nhanes_laboratory.uphopm_j": [
+    "análise de dados laboratoriais",
+    "valores de biomarcadores",
+    "tendências de saúde pública"
+  ],
+  "nhanes_laboratory.utas_j": [
+    "análise de saúde",
+    "dados laboratoriais",
+    "exames de urina"
+  ],
+  "nhanes_laboratory.uvoc_j": [
+    "análise de saúde",
+    "dados laboratoriais",
+    "exames biomédicos"
+  ],
+  "nhanes_laboratory.vic_j": [
+    "análise de biomarcadores",
+    "valores laboratoriais",
+    "dados de saúde"
+  ],
+  "nhanes_laboratory.vid_j": [
+    "análise de biomarcadores",
+    "dados laboratoriais",
+    "valores de referência"
+  ],
+  "nhanes_laboratory.vitaec_j": [
+    "análise de álcool",
+    "níveis de biomarcadores",
+    "dados laboratoriais"
+  ],
+  "nhanes_laboratory.vocwb_j": [
+    "análise de substâncias químicas",
+    "dados de saúde pública",
+    "exposição a poluentes"
+  ],
+  "nhanes_questionnaire.acq_j": [
+    "questionário de saúde",
+    "respostas de questionário",
+    "dados demográficos"
+  ],
+  "nhanes_questionnaire.alq_j": [
+    "consumo de álcool",
+    "saúde mental",
+    "avaliação de hábitos"
+  ],
+  "nhanes_questionnaire.auq_j": [
+    "saúde mental",
+    "questionário de saúde",
+    "dados de questionário"
+  ],
+  "nhanes_questionnaire.bpq_j": [
+    "saúde mental",
+    "pressão arterial",
+    "questionário de saúde"
+  ],
+  "nhanes_questionnaire.cbq_j": [
+    "consumo de substâncias",
+    "dados de saúde",
+    "questionário de saúde"
+  ],
+  "nhanes_questionnaire.cbqpfa_j": [
+    "questionário de saúde",
+    "dados demográficos",
+    "comportamento alimentar"
+  ],
+  "nhanes_questionnaire.cbqpfc_j": [
+    "saúde mental",
+    "comportamento alimentar",
+    "atividade física"
+  ],
+  "nhanes_questionnaire.cdq_j": [
+    "questionário de saúde",
+    "respostas de questionário",
+    "dados demográficos"
+  ],
+  "nhanes_questionnaire.dbq_j": [
+    "questionário de saúde",
+    "dados demográficos",
+    "comportamento alimentar"
+  ],
+  "nhanes_questionnaire.deq_j": [
+    "avaliação de saúde",
+    "questionário de dieta",
+    "dados demográficos"
+  ],
+  "nhanes_questionnaire.diq_j": [
+    "diabetes diagnóstico",
+    "questões de saúde",
+    "questionário de saúde"
+  ],
+  "nhanes_questionnaire.dlq_j": [
+    "qualidade de sono",
+    "dificuldades de sono",
+    "avaliação de saúde"
+  ],
+  "nhanes_questionnaire.dpq_j": [
+    "saúde mental",
+    "questionário de saúde",
+    "avaliação de sintomas"
+  ],
+  "nhanes_questionnaire.duq_j": [
+    "questionário de saúde",
+    "dados demográficos",
+    "avaliação de hábitos"
+  ],
+  "nhanes_questionnaire.ecq_j": [
+    "saúde mental",
+    "questionário de saúde",
+    "dados demográficos"
+  ],
+  "nhanes_questionnaire.fsq_j": [
+    "frequência de respostas",
+    "análise de dados de saúde",
+    "questionários de saúde"
+  ],
+  "nhanes_questionnaire.heq_j": [
+    "saúde mental",
+    "qualidade de vida",
+    "questionário de saúde"
+  ],
+  "nhanes_questionnaire.hiq_j": [
+    "saúde mental",
+    "qualidade de vida",
+    "questionário de saúde"
+  ],
+  "nhanes_questionnaire.hoq_j": [
+    "saúde mental",
+    "autoavaliação de saúde",
+    "questionário de saúde"
+  ],
+  "nhanes_questionnaire.hsq_j": [
+    "saúde mental",
+    "qualidade de vida",
+    "comportamento de saúde"
+  ],
+  "nhanes_questionnaire.huq_j": [
+    "saúde mental",
+    "comportamento de saúde",
+    "questionário de saúde"
+  ],
+  "nhanes_questionnaire.imq_j": [
+    "saúde mental",
+    "questionário de saúde",
+    "avaliação de sintomas"
+  ],
+  "nhanes_questionnaire.inq_j": [
+    "questionário de saúde",
+    "indicadores de saúde",
+    "análise de dados demográficos"
+  ],
+  "nhanes_questionnaire.kiq_u_j": [
+    "saúde mental",
+    "comportamento alimentar",
+    "qualidade de vida"
+  ],
+  "nhanes_questionnaire.mcq_j": [
+    "saúde mental",
+    "questionário de saúde",
+    "dados demográficos"
+  ],
+  "nhanes_questionnaire.ocq_j": [
+    "saúde mental",
+    "comportamento compulsivo",
+    "questionário de saúde"
+  ],
+  "nhanes_questionnaire.ohq_j": [
+    "saúde mental",
+    "questionário de saúde",
+    "dados demográficos"
+  ],
+  "nhanes_questionnaire.osq_j": [
+    "saúde mental",
+    "comportamento social",
+    "qualidade de vida"
+  ],
+  "nhanes_questionnaire.paq_j": [
+    "atividade física",
+    "dieta alimentar",
+    "saúde geral"
+  ],
+  "nhanes_questionnaire.paqy_j": [
+    "atividade física",
+    "nível de atividade",
+    "questionário de saúde"
+  ],
+  "nhanes_questionnaire.pfq_j": [
+    "saúde mental",
+    "qualidade de vida",
+    "questionário de saúde"
+  ],
+  "nhanes_questionnaire.puqmec_j": [
+    "saúde mental",
+    "questionário de saúde",
+    "avaliação de sintomas"
+  ],
+  "nhanes_questionnaire.rhq_j": [
+    "saúde mental",
+    "questionário de saúde",
+    "dados demográficos"
+  ],
+  "nhanes_questionnaire.rxq_rx_j": [
+    "uso de medicamentos",
+    "diagnósticos de doenças",
+    "duração do tratamento"
+  ],
+  "nhanes_questionnaire.rxqasa_j": [
+    "uso de medicamentos",
+    "avaliação de saúde",
+    "questionário de saúde"
+  ],
+  "nhanes_questionnaire.slq_j": [
+    "horários de sono",
+    "nível de atividade",
+    "avaliação de saúde"
+  ],
+  "nhanes_questionnaire.smq_j": [
+    "uso de tabaco",
+    "saúde pública",
+    "comportamento de consumo"
+  ],
+  "nhanes_questionnaire.smqfam_j": [
+    "saúde mental",
+    "questionário familiar",
+    "dados demográficos"
+  ],
+  "nhanes_questionnaire.smqrtu_j": [
+    "saúde mental",
+    "questionário de saúde",
+    "dados de pesquisa"
+  ],
+  "nhanes_questionnaire.smqshs_j": [
+    "saúde mental",
+    "questionário de saúde",
+    "avaliação de sintomas"
+  ],
+  "nhanes_questionnaire.vtq_j": [
+    "avaliação de saúde",
+    "questionário de saúde",
+    "dados demográficos"
+  ],
+  "nhanes_questionnaire.whq_j": [
+    "saúde nutricional",
+    "questionário de saúde",
+    "dados demográficos"
+  ],
+  "nhanes_questionnaire.whqmec_j": [
+    "saúde mental",
+    "qualidade de vida",
+    "comportamento de saúde"
+  ]
+}

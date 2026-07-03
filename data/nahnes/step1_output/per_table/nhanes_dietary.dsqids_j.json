@@ -1,0 +1,3839 @@
+{
+  "schema": "nhanes_dietary",
+  "table_name": "dsqids_j",
+  "row_count": 9984,
+  "primary_key": [],
+  "foreign_keys": [],
+  "columns": [
+    {
+      "name": "SEQN",
+      "type": "DOUBLE PRECISION",
+      "nullable": true,
+      "stats": {
+        "null_count": 0,
+        "distinct_count": 4559,
+        "null_percentage": 0.0,
+        "numeric_stats": {
+          "avg": 98318.75440705128,
+          "min": 93703.0,
+          "max": 102956.0,
+          "stddev": 2726.8660344816403
+        },
+        "frequent_values": [
+          {
+            "value": "102773.0",
+            "count": 20
+          },
+          {
+            "value": "97689.0",
+            "count": 20
+          },
+          {
+            "value": "94950.0",
+            "count": 19
+          },
+          {
+            "value": "99708.0",
+            "count": 19
+          },
+          {
+            "value": "98394.0",
+            "count": 18
+          }
+        ],
+        "sample_values": [
+          "96472.0",
+          "101333.0",
+          "98813.0",
+          "97209.0",
+          "96347.0",
+          "94966.0",
+          "101319.0",
+          "100331.0",
+          "102850.0",
+          "95820.0",
+          "94262.0",
+          "95105.0",
+          "98270.0",
+          "97247.0",
+          "95846.0"
+        ]
+      }
+    },
+    {
+      "name": "DSDPID",
+      "type": "DOUBLE PRECISION",
+      "nullable": true,
+      "stats": {
+        "null_count": 0,
+        "distinct_count": 2677,
+        "null_percentage": 0.0,
+        "numeric_stats": {
+          "avg": 154259642.86328125,
+          "min": 275.0,
+          "max": 6666667082.0,
+          "stddev": 1002305602.3694277
+        },
+        "frequent_values": [
+          {
+            "value": "17523.0",
+            "count": 389
+          },
+          {
+            "value": "8507.0",
+            "count": 279
+          },
+          {
+            "value": "646.0",
+            "count": 246
+          },
+          {
+            "value": "17701.0",
+            "count": 218
+          },
+          {
+            "value": "642.0",
+            "count": 172
+          }
+        ],
+        "sample_values": [
+          "17910.0",
+          "19403.0",
+          "18126.0",
+          "18947.0",
+          "16269.0",
+          "17896.0",
+          "9276.0",
+          "19409.0",
+          "17966.0",
+          "14601.0",
+          "18673.0",
+          "15133.0",
+          "8987.0",
+          "19145.0",
+          "19375.0"
+        ]
+      }
+    },
+    {
+      "name": "DSDSUPP",
+      "type": "TEXT",
+      "nullable": true,
+      "stats": {
+        "null_count": 0,
+        "distinct_count": 2561,
+        "null_percentage": 0.0,
+        "frequent_values": [
+          {
+            "value": "TUMS CALCIUM CARBONATE ANTACID REGULAR STRENGTH 500 GSK",
+            "count": 389
+          },
+          {
+            "value": "VITAMIN D 2000 IU",
+            "count": 279
+          },
+          {
+            "value": "VITAMIN D 1000 IU",
+            "count": 246
+          },
+          {
+            "value": "DEFAULT VITAMIN D",
+            "count": 218
+          },
+          {
+            "value": "VITAMIN C (ASCORBIC ACID) 500 MG",
+            "count": 172
+          }
+        ],
+        "sample_values": [
+          "BLUEBONNET CINNULIN PF CINNAMON BARK EXTRACT",
+          "NATROL GUMMIES KIDS' MULTI MADE WITH 26 FRUITS AND VEGGIES 90% ORGANIC MADE WITH ORGANIC SWEETENERS",
+          "LIFEVANTAGE PROTANDIM NRF1 SYNERGIZER NEW BREAKTHROUGH",
+          "MAGNESIUM 40 MG",
+          "DEFAULT CRANBERRY",
+          "HUMANN NEO40 NITRIC OXIDE FORMULA",
+          "OSTEO BI-FLEX WITH 5-LOXIN ADVANCED JOINT CARE TRIPLE STRENGTH GLUCOSAMINE CHONDROITIN PLUS JOINT SHIELD 2 PER DAY",
+          "SP STANDARD PROCESS MIN-CHEX 5525",
+          "NATURE'S BOUNTY SAW PALMETTO 450 MG | WHOLE HERB",
+          "SELENIUM 100 MCG",
+          "AMAZING GRASS GREEN SUPERFOOD THE ORIGINAL SUPERFOOD WHOLE FOOD",
+          "THE VITAMIN SHOPPE REDUCED GLUTATHIONE 250 MG",
+          "ZINC 10 MG",
+          "CVS HEALTH FISH OIL 1000 MG PROVIDES 300 MG OF TOTAL OMEGA 3 FATTY ACIDS",
+          "IRON, 27 MG"
+        ]
+      }
+    },
+    {
+      "name": "DSDANTA",
+      "type": "DOUBLE PRECISION",
+      "nullable": true,
+      "stats": {
+        "null_count": 0,
+        "distinct_count": 3,
+        "null_percentage": 0.0,
+        "numeric_stats": {
+          "avg": 0.1759815705128205,
+          "min": 5.397605346934028e-79,
+          "max": 2.0,
+          "stddev": 0.5665029669830679
+        },
+        "frequent_values": [
+          {
+            "value": "5.397605346934028e-79",
+            "count": 9105
+          },
+          {
+            "value": "2.0",
+            "count": 878
+          },
+          {
+            "value": "1.0",
+            "count": 1
+          }
+        ],
+        "sample_values": [
+          "5.397605346934028e-79",
+          "2.0",
+          "1.0"
+        ]
+      }
+    },
+    {
+      "name": "DSD070",
+      "type": "DOUBLE PRECISION",
+      "nullable": true,
+      "stats": {
+        "null_count": 86,
+        "distinct_count": 2,
+        "null_percentage": 0.86,
+        "numeric_stats": {
+          "avg": 1.1447767225702161,
+          "min": 1.0,
+          "max": 2.0,
+          "stddev": 0.3518933555390257
+        },
+        "frequent_values": [
+          {
+            "value": "1.0",
+            "count": 8465
+          },
+          {
+            "value": "2.0",
+            "count": 1433
+          }
+        ],
+        "sample_values": [
+          "2.0",
+          "1.0"
+        ]
+      }
+    },
+    {
+      "name": "DSDMTCH",
+      "type": "DOUBLE PRECISION",
+      "nullable": true,
+      "stats": {
+        "null_count": 0,
+        "distinct_count": 8,
+        "null_percentage": 0.0,
+        "numeric_stats": {
+          "avg": 2.5850360576923075,
+          "min": 1.0,
+          "max": 9.0,
+          "stddev": 1.5751184512703593
+        },
+        "frequent_values": [
+          {
+            "value": "1.0",
+            "count": 3952
+          },
+          {
+            "value": "3.0",
+            "count": 2508
+          },
+          {
+            "value": "4.0",
+            "count": 1313
+          },
+          {
+            "value": "5.0",
+            "count": 1178
+          },
+          {
+            "value": "2.0",
+            "count": 802
+          }
+        ],
+        "sample_values": [
+          "3.0",
+          "4.0",
+          "1.0",
+          "9.0",
+          "6.0",
+          "7.0",
+          "2.0",
+          "5.0"
+        ]
+      }
+    },
+    {
+      "name": "DSD090",
+      "type": "DOUBLE PRECISION",
+      "nullable": true,
+      "stats": {
+        "null_count": 86,
+        "distinct_count": 120,
+        "null_percentage": 0.86,
+        "numeric_stats": {
+          "avg": 54711.70115174783,
+          "min": 1.0,
+          "max": 9999999.0,
+          "stddev": 721497.7465619846
+        },
+        "frequent_values": [
+          {
+            "value": "365.0",
+            "count": 1198
+          },
+          {
+            "value": "730.0",
+            "count": 1061
+          },
+          {
+            "value": "1825.0",
+            "count": 900
+          },
+          {
+            "value": "1095.0",
+            "count": 728
+          },
+          {
+            "value": "3650.0",
+            "count": 698
+          }
+        ],
+        "sample_values": [
+          "12775.0",
+          "9490.0",
+          "2190.0",
+          "517.0",
+          "547.0",
+          "426.0",
+          "61.0",
+          "16790.0",
+          "3.0",
+          "70.0",
+          "9125.0",
+          "18250.0",
+          "6935.0",
+          "608.0",
+          "7.0"
+        ]
+      }
+    },
+    {
+      "name": "DSD103",
+      "type": "DOUBLE PRECISION",
+      "nullable": true,
+      "stats": {
+        "null_count": 419,
+        "distinct_count": 32,
+        "null_percentage": 4.2,
+        "numeric_stats": {
+          "avg": 36.23617354939885,
+          "min": 1.0,
+          "max": 9999.0,
+          "stddev": 376.16711471027793
+        },
+        "frequent_values": [
+          {
+            "value": "30.0",
+            "count": 5359
+          },
+          {
+            "value": "20.0",
+            "count": 603
+          },
+          {
+            "value": "15.0",
+            "count": 513
+          },
+          {
+            "value": "1.0",
+            "count": 408
+          },
+          {
+            "value": "2.0",
+            "count": 318
+          }
+        ],
+        "sample_values": [
+          "15.0",
+          "26.0",
+          "9.0",
+          "6.0",
+          "20.0",
+          "17.0",
+          "5.0",
+          "29.0",
+          "13.0",
+          "14.0",
+          "3.0",
+          "27.0",
+          "7.0",
+          "30.0",
+          "10.0"
+        ]
+      }
+    },
+    {
+      "name": "DSD122Q",
+      "type": "DOUBLE PRECISION",
+      "nullable": true,
+      "stats": {
+        "null_count": 132,
+        "distinct_count": 41,
+        "null_percentage": 1.32,
+        "numeric_stats": {
+          "avg": 407.52440611043454,
+          "min": 0.017,
+          "max": 999999.0,
+          "stddev": 20146.544445151165
+        },
+        "frequent_values": [
+          {
+            "value": "1.0",
+            "count": 6952
+          },
+          {
+            "value": "2.0",
+            "count": 2176
+          },
+          {
+            "value": "3.0",
+            "count": 309
+          },
+          {
+            "value": "4.0",
+            "count": 173
+          },
+          {
+            "value": "6.0",
+            "count": 52
+          }
+        ],
+        "sample_values": [
+          "4.0",
+          "1.0",
+          "0.167",
+          "0.017",
+          "49.0",
+          "40.0",
+          "0.8",
+          "2.5",
+          "2.0",
+          "12.0",
+          "11.0",
+          "0.2",
+          "0.67",
+          "15.0",
+          "44.0"
+        ]
+      }
+    },
+    {
+      "name": "DSD122U",
+      "type": "DOUBLE PRECISION",
+      "nullable": true,
+      "stats": {
+        "null_count": 132,
+        "distinct_count": 18,
+        "null_percentage": 1.32,
+        "numeric_stats": {
+          "avg": 4.069630531871701,
+          "min": 1.0,
+          "max": 99.0,
+          "stddev": 7.23930210872093
+        },
+        "frequent_values": [
+          {
+            "value": "1.0",
+            "count": 8122
+          },
+          {
+            "value": "20.0",
+            "count": 1185
+          },
+          {
+            "value": "7.0",
+            "count": 143
+          },
+          {
+            "value": "12.0",
+            "count": 104
+          },
+          {
+            "value": "28.0",
+            "count": 79
+          }
+        ],
+        "sample_values": [
+          "15.0",
+          "23.0",
+          "28.0",
+          "21.0",
+          "99.0",
+          "6.0",
+          "16.0",
+          "20.0",
+          "29.0",
+          "19.0",
+          "13.0",
+          "3.0",
+          "27.0",
+          "1.0",
+          "7.0"
+        ]
+      }
+    },
+    {
+      "name": "DSDACTSS",
+      "type": "DOUBLE PRECISION",
+      "nullable": true,
+      "stats": {
+        "null_count": 281,
+        "distinct_count": 47,
+        "null_percentage": 2.81,
+        "numeric_stats": {
+          "avg": 1.1775490672987738,
+          "min": 0.165,
+          "max": 30.0,
+          "stddev": 0.8771142793961915
+        },
+        "frequent_values": [
+          {
+            "value": "1.0",
+            "count": 6996
+          },
+          {
+            "value": "2.0",
+            "count": 1122
+          },
+          {
+            "value": "0.5",
+            "count": 868
+          },
+          {
+            "value": "3.0",
+            "count": 198
+          },
+          {
+            "value": "0.3333",
+            "count": 112
+          }
+        ],
+        "sample_values": [
+          "23.7",
+          "0.25",
+          "3.5",
+          "2.2",
+          "1.25",
+          "0.3333",
+          "4.0",
+          "1.0",
+          "7.6923",
+          "0.8",
+          "2.5",
+          "2.0",
+          "12.0",
+          "11.0",
+          "2.8571"
+        ]
+      }
+    },
+    {
+      "name": "DSDDAY1",
+      "type": "DOUBLE PRECISION",
+      "nullable": true,
+      "stats": {
+        "null_count": 1733,
+        "distinct_count": 4,
+        "null_percentage": 17.36,
+        "numeric_stats": {
+          "avg": 1.3896497394255243,
+          "min": 1.0,
+          "max": 9.0,
+          "stddev": 0.6149921002446013
+        },
+        "frequent_values": [
+          {
+            "value": "1.0",
+            "count": 5187
+          },
+          {
+            "value": "2.0",
+            "count": 3041
+          },
+          {
+            "value": "9.0",
+            "count": 18
+          },
+          {
+            "value": "7.0",
+            "count": 5
+          }
+        ],
+        "sample_values": [
+          "9.0",
+          "7.0",
+          "2.0",
+          "1.0"
+        ]
+      }
+    },
+    {
+      "name": "DSDDAY2",
+      "type": "DOUBLE PRECISION",
+      "nullable": true,
+      "stats": {
+        "null_count": 2605,
+        "distinct_count": 3,
+        "null_percentage": 26.09,
+        "numeric_stats": {
+          "avg": 1.3398834530424177,
+          "min": 1.0,
+          "max": 9.0,
+          "stddev": 0.5548734650177062
+        },
+        "frequent_values": [
+          {
+            "value": "1.0",
+            "count": 4948
+          },
+          {
+            "value": "2.0",
+            "count": 2420
+          },
+          {
+            "value": "9.0",
+            "count": 11
+          }
+        ],
+        "sample_values": [
+          "9.0",
+          "2.0",
+          "1.0"
+        ]
+      }
+    },
+    {
+      "name": "DSQ124",
+      "type": "DOUBLE PRECISION",
+      "nullable": true,
+      "stats": {
+        "null_count": 1275,
+        "distinct_count": 3,
+        "null_percentage": 12.77,
+        "numeric_stats": {
+          "avg": 1.3777701228614077,
+          "min": 1.0,
+          "max": 9.0,
+          "stddev": 0.597723469393882
+        },
+        "frequent_values": [
+          {
+            "value": "1.0",
+            "count": 5552
+          },
+          {
+            "value": "2.0",
+            "count": 3138
+          },
+          {
+            "value": "9.0",
+            "count": 19
+          }
+        ],
+        "sample_values": [
+          "9.0",
+          "2.0",
+          "1.0"
+        ]
+      }
+    },
+    {
+      "name": "DSQ128A",
+      "type": "DOUBLE PRECISION",
+      "nullable": true,
+      "stats": {
+        "null_count": 9638,
+        "distinct_count": 3,
+        "null_percentage": 96.53,
+        "numeric_stats": {
+          "avg": 41.25433526011561,
+          "min": 10.0,
+          "max": 99.0,
+          "stddev": 42.44394832325316
+        },
+        "frequent_values": [
+          {
+            "value": "10.0",
+            "count": 224
+          },
+          {
+            "value": "99.0",
+            "count": 120
+          },
+          {
+            "value": "77.0",
+            "count": 2
+          }
+        ],
+        "sample_values": [
+          "10.0",
+          "99.0",
+          "77.0"
+        ]
+      }
+    },
+    {
+      "name": "DSQ128B",
+      "type": "DOUBLE PRECISION",
+      "nullable": true,
+      "stats": {
+        "null_count": 9901,
+        "distinct_count": 1,
+        "null_percentage": 99.17,
+        "numeric_stats": {
+          "avg": 11.0,
+          "min": 11.0,
+          "max": 11.0,
+          "stddev": 0.0
+        },
+        "frequent_values": [
+          {
+            "value": "11.0",
+            "count": 83
+          }
+        ],
+        "sample_values": [
+          "11.0"
+        ]
+      }
+    },
+    {
+      "name": "DSQ128C",
+      "type": "DOUBLE PRECISION",
+      "nullable": true,
+      "stats": {
+        "null_count": 9759,
+        "distinct_count": 1,
+        "null_percentage": 97.75,
+        "numeric_stats": {
+          "avg": 12.0,
+          "min": 12.0,
+          "max": 12.0,
+          "stddev": 0.0
+        },
+        "frequent_values": [
+          {
+            "value": "12.0",
+            "count": 225
+          }
+        ],
+        "sample_values": [
+          "12.0"
+        ]
+      }
+    },
+    {
+      "name": "DSQ128D",
+      "type": "DOUBLE PRECISION",
+      "nullable": true,
+      "stats": {
+        "null_count": 8875,
+        "distinct_count": 1,
+        "null_percentage": 88.89,
+        "numeric_stats": {
+          "avg": 13.0,
+          "min": 13.0,
+          "max": 13.0,
+          "stddev": 0.0
+        },
+        "frequent_values": [
+          {
+            "value": "13.0",
+            "count": 1109
+          }
+        ],
+        "sample_values": [
+          "13.0"
+        ]
+      }
+    },
+    {
+      "name": "DSQ128E",
+      "type": "DOUBLE PRECISION",
+      "nullable": true,
+      "stats": {
+        "null_count": 7731,
+        "distinct_count": 1,
+        "null_percentage": 77.43,
+        "numeric_stats": {
+          "avg": 14.0,
+          "min": 14.0,
+          "max": 14.0,
+          "stddev": 0.0
+        },
+        "frequent_values": [
+          {
+            "value": "14.0",
+            "count": 2253
+          }
+        ],
+        "sample_values": [
+          "14.0"
+        ]
+      }
+    },
+    {
+      "name": "DSQ128F",
+      "type": "DOUBLE PRECISION",
+      "nullable": true,
+      "stats": {
+        "null_count": 9889,
+        "distinct_count": 1,
+        "null_percentage": 99.05,
+        "numeric_stats": {
+          "avg": 15.0,
+          "min": 15.0,
+          "max": 15.0,
+          "stddev": 0.0
+        },
+        "frequent_values": [
+          {
+            "value": "15.0",
+            "count": 95
+          }
+        ],
+        "sample_values": [
+          "15.0"
+        ]
+      }
+    },
+    {
+      "name": "DSQ128G",
+      "type": "DOUBLE PRECISION",
+      "nullable": true,
+      "stats": {
+        "null_count": 8959,
+        "distinct_count": 1,
+        "null_percentage": 89.73,
+        "numeric_stats": {
+          "avg": 16.0,
+          "min": 16.0,
+          "max": 16.0,
+          "stddev": 0.0
+        },
+        "frequent_values": [
+          {
+            "value": "16.0",
+            "count": 1025
+          }
+        ],
+        "sample_values": [
+          "16.0"
+        ]
+      }
+    },
+    {
+      "name": "DSQ128H",
+      "type": "DOUBLE PRECISION",
+      "nullable": true,
+      "stats": {
+        "null_count": 7544,
+        "distinct_count": 1,
+        "null_percentage": 75.56,
+        "numeric_stats": {
+          "avg": 17.0,
+          "min": 17.0,
+          "max": 17.0,
+          "stddev": 0.0
+        },
+        "frequent_values": [
+          {
+            "value": "17.0",
+            "count": 2440
+          }
+        ],
+        "sample_values": [
+          "17.0"
+        ]
+      }
+    },
+    {
+      "name": "DSQ128I",
+      "type": "DOUBLE PRECISION",
+      "nullable": true,
+      "stats": {
+        "null_count": 9003,
+        "distinct_count": 1,
+        "null_percentage": 90.17,
+        "numeric_stats": {
+          "avg": 18.0,
+          "min": 18.0,
+          "max": 18.0,
+          "stddev": 0.0
+        },
+        "frequent_values": [
+          {
+            "value": "18.0",
+            "count": 981
+          }
+        ],
+        "sample_values": [
+          "18.0"
+        ]
+      }
+    },
+    {
+      "name": "DSQ128J",
+      "type": "DOUBLE PRECISION",
+      "nullable": true,
+      "stats": {
+        "null_count": 9314,
+        "distinct_count": 1,
+        "null_percentage": 93.29,
+        "numeric_stats": {
+          "avg": 19.0,
+          "min": 19.0,
+          "max": 19.0,
+          "stddev": 0.0
+        },
+        "frequent_values": [
+          {
+            "value": "19.0",
+            "count": 670
+          }
+        ],
+        "sample_values": [
+          "19.0"
+        ]
+      }
+    },
+    {
+      "name": "DSQ128K",
+      "type": "DOUBLE PRECISION",
+      "nullable": true,
+      "stats": {
+        "null_count": 9705,
+        "distinct_count": 1,
+        "null_percentage": 97.21,
+        "numeric_stats": {
+          "avg": 20.0,
+          "min": 20.0,
+          "max": 20.0,
+          "stddev": 0.0
+        },
+        "frequent_values": [
+          {
+            "value": "20.0",
+            "count": 279
+          }
+        ],
+        "sample_values": [
+          "20.0"
+        ]
+      }
+    },
+    {
+      "name": "DSQ128L",
+      "type": "DOUBLE PRECISION",
+      "nullable": true,
+      "stats": {
+        "null_count": 9487,
+        "distinct_count": 1,
+        "null_percentage": 95.02,
+        "numeric_stats": {
+          "avg": 21.0,
+          "min": 21.0,
+          "max": 21.0,
+          "stddev": 0.0
+        },
+        "frequent_values": [
+          {
+            "value": "21.0",
+            "count": 497
+          }
+        ],
+        "sample_values": [
+          "21.0"
+        ]
+      }
+    },
+    {
+      "name": "DSQ128M",
+      "type": "DOUBLE PRECISION",
+      "nullable": true,
+      "stats": {
+        "null_count": 9424,
+        "distinct_count": 1,
+        "null_percentage": 94.39,
+        "numeric_stats": {
+          "avg": 22.0,
+          "min": 22.0,
+          "max": 22.0,
+          "stddev": 0.0
+        },
+        "frequent_values": [
+          {
+            "value": "22.0",
+            "count": 560
+          }
+        ],
+        "sample_values": [
+          "22.0"
+        ]
+      }
+    },
+    {
+      "name": "DSQ128N",
+      "type": "DOUBLE PRECISION",
+      "nullable": true,
+      "stats": {
+        "null_count": 9825,
+        "distinct_count": 1,
+        "null_percentage": 98.41,
+        "numeric_stats": {
+          "avg": 23.0,
+          "min": 23.0,
+          "max": 23.0,
+          "stddev": 0.0
+        },
+        "frequent_values": [
+          {
+            "value": "23.0",
+            "count": 159
+          }
+        ],
+        "sample_values": [
+          "23.0"
+        ]
+      }
+    },
+    {
+      "name": "DSQ128O",
+      "type": "DOUBLE PRECISION",
+      "nullable": true,
+      "stats": {
+        "null_count": 8866,
+        "distinct_count": 1,
+        "null_percentage": 88.8,
+        "numeric_stats": {
+          "avg": 24.0,
+          "min": 24.0,
+          "max": 24.0,
+          "stddev": 0.0
+        },
+        "frequent_values": [
+          {
+            "value": "24.0",
+            "count": 1118
+          }
+        ],
+        "sample_values": [
+          "24.0"
+        ]
+      }
+    },
+    {
+      "name": "DSQ128P",
+      "type": "DOUBLE PRECISION",
+      "nullable": true,
+      "stats": {
+        "null_count": 8979,
+        "distinct_count": 1,
+        "null_percentage": 89.93,
+        "numeric_stats": {
+          "avg": 25.0,
+          "min": 25.0,
+          "max": 25.0,
+          "stddev": 0.0
+        },
+        "frequent_values": [
+          {
+            "value": "25.0",
+            "count": 1005
+          }
+        ],
+        "sample_values": [
+          "25.0"
+        ]
+      }
+    },
+    {
+      "name": "DSQ128Q",
+      "type": "DOUBLE PRECISION",
+      "nullable": true,
+      "stats": {
+        "null_count": 9877,
+        "distinct_count": 1,
+        "null_percentage": 98.93,
+        "numeric_stats": {
+          "avg": 26.0,
+          "min": 26.0,
+          "max": 26.0,
+          "stddev": 0.0
+        },
+        "frequent_values": [
+          {
+            "value": "26.0",
+            "count": 107
+          }
+        ],
+        "sample_values": [
+          "26.0"
+        ]
+      }
+    },
+    {
+      "name": "DSQ128R",
+      "type": "DOUBLE PRECISION",
+      "nullable": true,
+      "stats": {
+        "null_count": 9630,
+        "distinct_count": 1,
+        "null_percentage": 96.45,
+        "numeric_stats": {
+          "avg": 27.0,
+          "min": 27.0,
+          "max": 27.0,
+          "stddev": 0.0
+        },
+        "frequent_values": [
+          {
+            "value": "27.0",
+            "count": 354
+          }
+        ],
+        "sample_values": [
+          "27.0"
+        ]
+      }
+    },
+    {
+      "name": "DSD128T",
+      "type": "DOUBLE PRECISION",
+      "nullable": true,
+      "stats": {
+        "null_count": 9687,
+        "distinct_count": 1,
+        "null_percentage": 97.03,
+        "numeric_stats": {
+          "avg": 28.0,
+          "min": 28.0,
+          "max": 28.0,
+          "stddev": 0.0
+        },
+        "frequent_values": [
+          {
+            "value": "28.0",
+            "count": 297
+          }
+        ],
+        "sample_values": [
+          "28.0"
+        ]
+      }
+    },
+    {
+      "name": "DSD128V",
+      "type": "DOUBLE PRECISION",
+      "nullable": true,
+      "stats": {
+        "null_count": 9850,
+        "distinct_count": 1,
+        "null_percentage": 98.66,
+        "numeric_stats": {
+          "avg": 30.0,
+          "min": 30.0,
+          "max": 30.0,
+          "stddev": 0.0
+        },
+        "frequent_values": [
+          {
+            "value": "30.0",
+            "count": 134
+          }
+        ],
+        "sample_values": [
+          "30.0"
+        ]
+      }
+    },
+    {
+      "name": "DSD128W",
+      "type": "DOUBLE PRECISION",
+      "nullable": true,
+      "stats": {
+        "null_count": 9979,
+        "distinct_count": 1,
+        "null_percentage": 99.95,
+        "numeric_stats": {
+          "avg": 31.0,
+          "min": 31.0,
+          "max": 31.0,
+          "stddev": 0.0
+        },
+        "frequent_values": [
+          {
+            "value": "31.0",
+            "count": 5
+          }
+        ],
+        "sample_values": [
+          "31.0"
+        ]
+      }
+    },
+    {
+      "name": "DSD128X",
+      "type": "DOUBLE PRECISION",
+      "nullable": true,
+      "stats": {
+        "null_count": 9977,
+        "distinct_count": 1,
+        "null_percentage": 99.93,
+        "numeric_stats": {
+          "avg": 32.0,
+          "min": 32.0,
+          "max": 32.0,
+          "stddev": 0.0
+        },
+        "frequent_values": [
+          {
+            "value": "32.0",
+            "count": 7
+          }
+        ],
+        "sample_values": [
+          "32.0"
+        ]
+      }
+    },
+    {
+      "name": "DSD128Z",
+      "type": "DOUBLE PRECISION",
+      "nullable": true,
+      "stats": {
+        "null_count": 9588,
+        "distinct_count": 1,
+        "null_percentage": 96.03,
+        "numeric_stats": {
+          "avg": 34.0,
+          "min": 34.0,
+          "max": 34.0,
+          "stddev": 0.0
+        },
+        "frequent_values": [
+          {
+            "value": "34.0",
+            "count": 396
+          }
+        ],
+        "sample_values": [
+          "34.0"
+        ]
+      }
+    },
+    {
+      "name": "DSD128AA",
+      "type": "DOUBLE PRECISION",
+      "nullable": true,
+      "stats": {
+        "null_count": 9939,
+        "distinct_count": 1,
+        "null_percentage": 99.55,
+        "numeric_stats": {
+          "avg": 35.0,
+          "min": 35.0,
+          "max": 35.0,
+          "stddev": 0.0
+        },
+        "frequent_values": [
+          {
+            "value": "35.0",
+            "count": 45
+          }
+        ],
+        "sample_values": [
+          "35.0"
+        ]
+      }
+    },
+    {
+      "name": "DSD128BB",
+      "type": "DOUBLE PRECISION",
+      "nullable": true,
+      "stats": {
+        "null_count": 9765,
+        "distinct_count": 1,
+        "null_percentage": 97.81,
+        "numeric_stats": {
+          "avg": 36.0,
+          "min": 36.0,
+          "max": 36.0,
+          "stddev": 0.0
+        },
+        "frequent_values": [
+          {
+            "value": "36.0",
+            "count": 219
+          }
+        ],
+        "sample_values": [
+          "36.0"
+        ]
+      }
+    },
+    {
+      "name": "DSD128DD",
+      "type": "DOUBLE PRECISION",
+      "nullable": true,
+      "stats": {
+        "null_count": 9753,
+        "distinct_count": 1,
+        "null_percentage": 97.69,
+        "numeric_stats": {
+          "avg": 38.0,
+          "min": 38.0,
+          "max": 38.0,
+          "stddev": 0.0
+        },
+        "frequent_values": [
+          {
+            "value": "38.0",
+            "count": 231
+          }
+        ],
+        "sample_values": [
+          "38.0"
+        ]
+      }
+    },
+    {
+      "name": "DSD128EE",
+      "type": "DOUBLE PRECISION",
+      "nullable": true,
+      "stats": {
+        "null_count": 9961,
+        "distinct_count": 1,
+        "null_percentage": 99.77,
+        "numeric_stats": {
+          "avg": 39.0,
+          "min": 39.0,
+          "max": 39.0,
+          "stddev": 0.0
+        },
+        "frequent_values": [
+          {
+            "value": "39.0",
+            "count": 23
+          }
+        ],
+        "sample_values": [
+          "39.0"
+        ]
+      }
+    },
+    {
+      "name": "DSD128FF",
+      "type": "DOUBLE PRECISION",
+      "nullable": true,
+      "stats": {
+        "null_count": 9862,
+        "distinct_count": 1,
+        "null_percentage": 98.78,
+        "numeric_stats": {
+          "avg": 40.0,
+          "min": 40.0,
+          "max": 40.0,
+          "stddev": 0.0
+        },
+        "frequent_values": [
+          {
+            "value": "40.0",
+            "count": 122
+          }
+        ],
+        "sample_values": [
+          "40.0"
+        ]
+      }
+    },
+    {
+      "name": "DSD128GG",
+      "type": "DOUBLE PRECISION",
+      "nullable": true,
+      "stats": {
+        "null_count": 9978,
+        "distinct_count": 1,
+        "null_percentage": 99.94,
+        "numeric_stats": {
+          "avg": 41.0,
+          "min": 41.0,
+          "max": 41.0,
+          "stddev": 0.0
+        },
+        "frequent_values": [
+          {
+            "value": "41.0",
+            "count": 6
+          }
+        ],
+        "sample_values": [
+          "41.0"
+        ]
+      }
+    },
+    {
+      "name": "DSD128HH",
+      "type": "DOUBLE PRECISION",
+      "nullable": true,
+      "stats": {
+        "null_count": 9960,
+        "distinct_count": 1,
+        "null_percentage": 99.76,
+        "numeric_stats": {
+          "avg": 42.0,
+          "min": 42.0,
+          "max": 42.0,
+          "stddev": 0.0
+        },
+        "frequent_values": [
+          {
+            "value": "42.0",
+            "count": 24
+          }
+        ],
+        "sample_values": [
+          "42.0"
+        ]
+      }
+    },
+    {
+      "name": "DSD128II",
+      "type": "DOUBLE PRECISION",
+      "nullable": true,
+      "stats": {
+        "null_count": 9969,
+        "distinct_count": 1,
+        "null_percentage": 99.85,
+        "numeric_stats": {
+          "avg": 43.0,
+          "min": 43.0,
+          "max": 43.0,
+          "stddev": 0.0
+        },
+        "frequent_values": [
+          {
+            "value": "43.0",
+            "count": 15
+          }
+        ],
+        "sample_values": [
+          "43.0"
+        ]
+      }
+    },
+    {
+      "name": "DSD128JJ",
+      "type": "DOUBLE PRECISION",
+      "nullable": true,
+      "stats": {
+        "null_count": 9916,
+        "distinct_count": 1,
+        "null_percentage": 99.32,
+        "numeric_stats": {
+          "avg": 44.0,
+          "min": 44.0,
+          "max": 44.0,
+          "stddev": 0.0
+        },
+        "frequent_values": [
+          {
+            "value": "44.0",
+            "count": 68
+          }
+        ],
+        "sample_values": [
+          "44.0"
+        ]
+      }
+    },
+    {
+      "name": "DSD128KK",
+      "type": "DOUBLE PRECISION",
+      "nullable": true,
+      "stats": {
+        "null_count": 9814,
+        "distinct_count": 1,
+        "null_percentage": 98.3,
+        "numeric_stats": {
+          "avg": 45.0,
+          "min": 45.0,
+          "max": 45.0,
+          "stddev": 0.0
+        },
+        "frequent_values": [
+          {
+            "value": "45.0",
+            "count": 170
+          }
+        ],
+        "sample_values": [
+          "45.0"
+        ]
+      }
+    },
+    {
+      "name": "DSD128LL",
+      "type": "DOUBLE PRECISION",
+      "nullable": true,
+      "stats": {
+        "null_count": 9982,
+        "distinct_count": 1,
+        "null_percentage": 99.98,
+        "numeric_stats": {
+          "avg": 46.0,
+          "min": 46.0,
+          "max": 46.0,
+          "stddev": 0.0
+        },
+        "frequent_values": [
+          {
+            "value": "46.0",
+            "count": 2
+          }
+        ],
+        "sample_values": [
+          "46.0"
+        ]
+      }
+    },
+    {
+      "name": "DSD128MM",
+      "type": "DOUBLE PRECISION",
+      "nullable": true,
+      "stats": {
+        "null_count": 9956,
+        "distinct_count": 1,
+        "null_percentage": 99.72,
+        "numeric_stats": {
+          "avg": 47.0,
+          "min": 47.0,
+          "max": 47.0,
+          "stddev": 0.0
+        },
+        "frequent_values": [
+          {
+            "value": "47.0",
+            "count": 28
+          }
+        ],
+        "sample_values": [
+          "47.0"
+        ]
+      }
+    },
+    {
+      "name": "DSQ128NN",
+      "type": "DOUBLE PRECISION",
+      "nullable": true,
+      "stats": {
+        "null_count": 9726,
+        "distinct_count": 1,
+        "null_percentage": 97.42,
+        "numeric_stats": {
+          "avg": 48.0,
+          "min": 48.0,
+          "max": 48.0,
+          "stddev": 0.0
+        },
+        "frequent_values": [
+          {
+            "value": "48.0",
+            "count": 258
+          }
+        ],
+        "sample_values": [
+          "48.0"
+        ]
+      }
+    },
+    {
+      "name": "DSD128OO",
+      "type": "DOUBLE PRECISION",
+      "nullable": true,
+      "stats": {
+        "null_count": 9955,
+        "distinct_count": 1,
+        "null_percentage": 99.71,
+        "numeric_stats": {
+          "avg": 49.0,
+          "min": 49.0,
+          "max": 49.0,
+          "stddev": 0.0
+        },
+        "frequent_values": [
+          {
+            "value": "49.0",
+            "count": 29
+          }
+        ],
+        "sample_values": [
+          "49.0"
+        ]
+      }
+    },
+    {
+      "name": "DSD128PP",
+      "type": "DOUBLE PRECISION",
+      "nullable": true,
+      "stats": {
+        "null_count": 9971,
+        "distinct_count": 1,
+        "null_percentage": 99.87,
+        "numeric_stats": {
+          "avg": 50.0,
+          "min": 50.0,
+          "max": 50.0,
+          "stddev": 0.0
+        },
+        "frequent_values": [
+          {
+            "value": "50.0",
+            "count": 13
+          }
+        ],
+        "sample_values": [
+          "50.0"
+        ]
+      }
+    },
+    {
+      "name": "DSQ128S",
+      "type": "DOUBLE PRECISION",
+      "nullable": true,
+      "stats": {
+        "null_count": 9902,
+        "distinct_count": 1,
+        "null_percentage": 99.18,
+        "numeric_stats": {
+          "avg": 91.0,
+          "min": 91.0,
+          "max": 91.0,
+          "stddev": 0.0
+        },
+        "frequent_values": [
+          {
+            "value": "91.0",
+            "count": 82
+          }
+        ],
+        "sample_values": [
+          "91.0"
+        ]
+      }
+    },
+    {
+      "name": "RXQ215A",
+      "type": "DOUBLE PRECISION",
+      "nullable": true,
+      "stats": {
+        "null_count": 9128,
+        "distinct_count": 5,
+        "null_percentage": 91.43,
+        "numeric_stats": {
+          "avg": 1.199766355140187,
+          "min": 1.0,
+          "max": 9.0,
+          "stddev": 0.73256734578226
+        },
+        "frequent_values": [
+          {
+            "value": "1.0",
+            "count": 776
+          },
+          {
+            "value": "3.0",
+            "count": 56
+          },
+          {
+            "value": "2.0",
+            "count": 14
+          },
+          {
+            "value": "4.0",
+            "count": 7
+          },
+          {
+            "value": "9.0",
+            "count": 3
+          }
+        ],
+        "sample_values": [
+          "9.0",
+          "3.0",
+          "4.0",
+          "2.0",
+          "1.0"
+        ]
+      }
+    },
+    {
+      "name": "DSQIKCAL",
+      "type": "DOUBLE PRECISION",
+      "nullable": true,
+      "stats": {
+        "null_count": 7707,
+        "distinct_count": 57,
+        "null_percentage": 77.19,
+        "numeric_stats": {
+          "avg": 15.914361001317523,
+          "min": 1.0,
+          "max": 420.0,
+          "stddev": 24.384319455811127
+        },
+        "frequent_values": [
+          {
+            "value": "10.0",
+            "count": 587
+          },
+          {
+            "value": "15.0",
+            "count": 528
+          },
+          {
+            "value": "5.0",
+            "count": 247
+          },
+          {
+            "value": "8.0",
+            "count": 239
+          },
+          {
+            "value": "20.0",
+            "count": 157
+          }
+        ],
+        "sample_values": [
+          "15.0",
+          "26.0",
+          "38.0",
+          "90.0",
+          "9.0",
+          "17.0",
+          "170.0",
+          "60.0",
+          "50.0",
+          "3.0",
+          "70.0",
+          "7.0",
+          "210.0",
+          "30.0",
+          "80.0"
+        ]
+      }
+    },
+    {
+      "name": "DSQIPROT",
+      "type": "DOUBLE PRECISION",
+      "nullable": true,
+      "stats": {
+        "null_count": 9770,
+        "distinct_count": 32,
+        "null_percentage": 97.86,
+        "numeric_stats": {
+          "avg": 3.4029345794392523,
+          "min": 0.002,
+          "max": 60.0,
+          "stddev": 8.741420067347303
+        },
+        "frequent_values": [
+          {
+            "value": "0.5",
+            "count": 69
+          },
+          {
+            "value": "1.0",
+            "count": 54
+          },
+          {
+            "value": "2.0",
+            "count": 18
+          },
+          {
+            "value": "0.667",
+            "count": 11
+          },
+          {
+            "value": "0.2",
+            "count": 6
+          }
+        ],
+        "sample_values": [
+          "0.05",
+          "2.5",
+          "0.8",
+          "2.0",
+          "0.333",
+          "0.2",
+          "15.0",
+          "0.164",
+          "38.0",
+          "0.667",
+          "0.75",
+          "4.5",
+          "0.1",
+          "9.0",
+          "0.5"
+        ]
+      }
+    },
+    {
+      "name": "DSQICARB",
+      "type": "DOUBLE PRECISION",
+      "nullable": true,
+      "stats": {
+        "null_count": 8236,
+        "distinct_count": 69,
+        "null_percentage": 82.49,
+        "numeric_stats": {
+          "avg": 2.94591876430206,
+          "min": 0.001,
+          "max": 62.0,
+          "stddev": 4.046161211541054
+        },
+        "frequent_values": [
+          {
+            "value": "3.0",
+            "count": 480
+          },
+          {
+            "value": "1.0",
+            "count": 312
+          },
+          {
+            "value": "1.5",
+            "count": 243
+          },
+          {
+            "value": "2.0",
+            "count": 166
+          },
+          {
+            "value": "4.0",
+            "count": 148
+          }
+        ],
+        "sample_values": [
+          "11.0",
+          "0.001",
+          "62.0",
+          "0.333",
+          "15.0",
+          "12.4",
+          "0.667",
+          "1.6",
+          "9.0",
+          "1.485",
+          "0.3",
+          "2.97",
+          "1.1",
+          "2.667",
+          "0.4"
+        ]
+      }
+    },
+    {
+      "name": "DSQISUGR",
+      "type": "DOUBLE PRECISION",
+      "nullable": true,
+      "stats": {
+        "null_count": 8898,
+        "distinct_count": 36,
+        "null_percentage": 89.12,
+        "numeric_stats": {
+          "avg": 2.4733425414364643,
+          "min": 0.2,
+          "max": 24.0,
+          "stddev": 2.144795816299803
+        },
+        "frequent_values": [
+          {
+            "value": "2.0",
+            "count": 286
+          },
+          {
+            "value": "3.0",
+            "count": 265
+          },
+          {
+            "value": "1.0",
+            "count": 219
+          },
+          {
+            "value": "1.5",
+            "count": 103
+          },
+          {
+            "value": "4.0",
+            "count": 45
+          }
+        ],
+        "sample_values": [
+          "12.0",
+          "0.67",
+          "0.2",
+          "0.75",
+          "4.5",
+          "0.5",
+          "9.0",
+          "2.15",
+          "6.0",
+          "0.3",
+          "2.67",
+          "5.0",
+          "14.0",
+          "3.0",
+          "0.6"
+        ]
+      }
+    },
+    {
+      "name": "DSQIFIBE",
+      "type": "DOUBLE PRECISION",
+      "nullable": true,
+      "stats": {
+        "null_count": 9824,
+        "distinct_count": 40,
+        "null_percentage": 98.4,
+        "numeric_stats": {
+          "avg": 3.6353750000000007,
+          "min": 0.06,
+          "max": 26.0,
+          "stddev": 4.754053667512063
+        },
+        "frequent_values": [
+          {
+            "value": "1.0",
+            "count": 34
+          },
+          {
+            "value": "2.0",
+            "count": 18
+          },
+          {
+            "value": "3.0",
+            "count": 16
+          },
+          {
+            "value": "0.5",
+            "count": 10
+          },
+          {
+            "value": "4.0",
+            "count": 9
+          }
+        ],
+        "sample_values": [
+          "4.0",
+          "1.0",
+          "0.06",
+          "2.64",
+          "2.5",
+          "0.8",
+          "6.5",
+          "2.0",
+          "0.37",
+          "12.0",
+          "1.22",
+          "0.67",
+          "0.2",
+          "1.13",
+          "26.0"
+        ]
+      }
+    },
+    {
+      "name": "DSQITFAT",
+      "type": "DOUBLE PRECISION",
+      "nullable": true,
+      "stats": {
+        "null_count": 9165,
+        "distinct_count": 39,
+        "null_percentage": 91.8,
+        "numeric_stats": {
+          "avg": 1.4692307692307691,
+          "min": 0.02,
+          "max": 30.0,
+          "stddev": 1.90079407399043
+        },
+        "frequent_values": [
+          {
+            "value": "1.0",
+            "count": 416
+          },
+          {
+            "value": "0.5",
+            "count": 101
+          },
+          {
+            "value": "2.0",
+            "count": 92
+          },
+          {
+            "value": "1.5",
+            "count": 65
+          },
+          {
+            "value": "3.0",
+            "count": 34
+          }
+        ],
+        "sample_values": [
+          "2.25",
+          "0.2",
+          "0.67",
+          "0.75",
+          "4.5",
+          "9.0",
+          "0.5",
+          "9.38",
+          "6.0",
+          "5.0",
+          "13.0",
+          "0.4",
+          "3.0",
+          "27.0",
+          "3.6"
+        ]
+      }
+    },
+    {
+      "name": "DSQISFAT",
+      "type": "DOUBLE PRECISION",
+      "nullable": true,
+      "stats": {
+        "null_count": 9856,
+        "distinct_count": 20,
+        "null_percentage": 98.72,
+        "numeric_stats": {
+          "avg": 0.88082734375,
+          "min": 0.0002,
+          "max": 6.0,
+          "stddev": 1.0725685563841918
+        },
+        "frequent_values": [
+          {
+            "value": "0.5",
+            "count": 37
+          },
+          {
+            "value": "1.0",
+            "count": 22
+          },
+          {
+            "value": "0.25",
+            "count": 19
+          },
+          {
+            "value": "0.1667",
+            "count": 6
+          },
+          {
+            "value": "0.3334",
+            "count": 6
+          }
+        ],
+        "sample_values": [
+          "0.2",
+          "0.67",
+          "0.1667",
+          "1.0001",
+          "0.125",
+          "0.5",
+          "0.3",
+          "6.0",
+          "0.0002",
+          "5.0",
+          "0.25",
+          "0.4",
+          "1.25",
+          "3.0",
+          "1.0"
+        ]
+      }
+    },
+    {
+      "name": "DSQIMFAT",
+      "type": "DOUBLE PRECISION",
+      "nullable": true,
+      "stats": {
+        "null_count": 9902,
+        "distinct_count": 11,
+        "null_percentage": 99.18,
+        "numeric_stats": {
+          "avg": 0.6560975609756098,
+          "min": 0.17,
+          "max": 6.0,
+          "stddev": 0.759686023671542
+        },
+        "frequent_values": [
+          {
+            "value": "0.5",
+            "count": 25
+          },
+          {
+            "value": "0.25",
+            "count": 20
+          },
+          {
+            "value": "1.0",
+            "count": 17
+          },
+          {
+            "value": "0.33",
+            "count": 8
+          },
+          {
+            "value": "0.17",
+            "count": 5
+          }
+        ],
+        "sample_values": [
+          "0.17",
+          "0.25",
+          "0.33",
+          "0.38",
+          "0.5",
+          "0.75",
+          "1.0",
+          "1.68",
+          "2.0",
+          "3.0",
+          "6.0"
+        ]
+      }
+    },
+    {
+      "name": "DSQIPFAT",
+      "type": "DOUBLE PRECISION",
+      "nullable": true,
+      "stats": {
+        "null_count": 9757,
+        "distinct_count": 18,
+        "null_percentage": 97.73,
+        "numeric_stats": {
+          "avg": 0.9345814977973569,
+          "min": 0.25,
+          "max": 12.0,
+          "stddev": 1.2501936756902108
+        },
+        "frequent_values": [
+          {
+            "value": "0.5",
+            "count": 77
+          },
+          {
+            "value": "1.0",
+            "count": 53
+          },
+          {
+            "value": "0.25",
+            "count": 50
+          },
+          {
+            "value": "2.0",
+            "count": 14
+          },
+          {
+            "value": "1.5",
+            "count": 10
+          }
+        ],
+        "sample_values": [
+          "1.5",
+          "2.0",
+          "10.0",
+          "12.0",
+          "2.25",
+          "6.03",
+          "0.67",
+          "1.33",
+          "0.75",
+          "4.5",
+          "0.5",
+          "6.0",
+          "0.25",
+          "3.0",
+          "4.0"
+        ]
+      }
+    },
+    {
+      "name": "DSQICHOL",
+      "type": "DOUBLE PRECISION",
+      "nullable": true,
+      "stats": {
+        "null_count": 9542,
+        "distinct_count": 29,
+        "null_percentage": 95.57,
+        "numeric_stats": {
+          "avg": 13.248868778280542,
+          "min": 1.0,
+          "max": 250.0,
+          "stddev": 23.43585951462184
+        },
+        "frequent_values": [
+          {
+            "value": "5.0",
+            "count": 152
+          },
+          {
+            "value": "10.0",
+            "count": 149
+          },
+          {
+            "value": "20.0",
+            "count": 25
+          },
+          {
+            "value": "3.0",
+            "count": 21
+          },
+          {
+            "value": "8.0",
+            "count": 15
+          }
+        ],
+        "sample_values": [
+          "15.0",
+          "65.0",
+          "125.0",
+          "90.0",
+          "55.0",
+          "6.0",
+          "20.0",
+          "5.0",
+          "60.0",
+          "13.0",
+          "50.0",
+          "3.0",
+          "135.0",
+          "250.0",
+          "7.0"
+        ]
+      }
+    },
+    {
+      "name": "DSQILYCO",
+      "type": "DOUBLE PRECISION",
+      "nullable": true,
+      "stats": {
+        "null_count": 9393,
+        "distinct_count": 32,
+        "null_percentage": 94.08,
+        "numeric_stats": {
+          "avg": 701.4010152284264,
+          "min": 100.0,
+          "max": 30000.0,
+          "stddev": 1761.0444156322337
+        },
+        "frequent_values": [
+          {
+            "value": "300.0",
+            "count": 360
+          },
+          {
+            "value": "600.0",
+            "count": 70
+          },
+          {
+            "value": "1000.0",
+            "count": 29
+          },
+          {
+            "value": "500.0",
+            "count": 28
+          },
+          {
+            "value": "370.0",
+            "count": 20
+          }
+        ],
+        "sample_values": [
+          "15000.0",
+          "1000.0",
+          "990.0",
+          "30000.0",
+          "370.0",
+          "667.0",
+          "1667.0",
+          "1500.0",
+          "300.0",
+          "660.0",
+          "330.0",
+          "1200.0",
+          "4000.0",
+          "375.0",
+          "500.0"
+        ]
+      }
+    },
+    {
+      "name": "DSQILZ",
+      "type": "DOUBLE PRECISION",
+      "nullable": true,
+      "stats": {
+        "null_count": 9257,
+        "distinct_count": 64,
+        "null_percentage": 92.72,
+        "numeric_stats": {
+          "avg": 1940.5804676753783,
+          "min": 3.0,
+          "max": 48000.0,
+          "stddev": 4951.654138990317
+        },
+        "frequent_values": [
+          {
+            "value": "250.0",
+            "count": 257
+          },
+          {
+            "value": "300.0",
+            "count": 106
+          },
+          {
+            "value": "275.0",
+            "count": 64
+          },
+          {
+            "value": "100.0",
+            "count": 39
+          },
+          {
+            "value": "1200.0",
+            "count": 21
+          }
+        ],
+        "sample_values": [
+          "1000.0",
+          "12000.0",
+          "8000.0",
+          "667.0",
+          "24000.0",
+          "300.0",
+          "528.0",
+          "1800.0",
+          "1160.0",
+          "3.0",
+          "5305.0",
+          "50.0",
+          "600.0",
+          "6240.0",
+          "1050.0"
+        ]
+      }
+    },
+    {
+      "name": "DSQIVB1",
+      "type": "DOUBLE PRECISION",
+      "nullable": true,
+      "stats": {
+        "null_count": 8149,
+        "distinct_count": 106,
+        "null_percentage": 81.62,
+        "numeric_stats": {
+          "avg": 10.294523160762928,
+          "min": 0.02,
+          "max": 250.0,
+          "stddev": 25.24749537722918
+        },
+        "frequent_values": [
+          {
+            "value": "1.5",
+            "count": 779
+          },
+          {
+            "value": "1.35",
+            "count": 102
+          },
+          {
+            "value": "100.0",
+            "count": 87
+          },
+          {
+            "value": "25.0",
+            "count": 69
+          },
+          {
+            "value": "1.1",
+            "count": 68
+          }
+        ],
+        "sample_values": [
+          "5.62",
+          "2.25",
+          "1.8",
+          "0.19",
+          "15.0",
+          "0.9",
+          "33.34",
+          "2.01",
+          "1.6",
+          "9.0",
+          "10.13",
+          "0.3",
+          "1.26",
+          "37.5",
+          "33.33"
+        ]
+      }
+    },
+    {
+      "name": "DSQIVB2",
+      "type": "DOUBLE PRECISION",
+      "nullable": true,
+      "stats": {
+        "null_count": 8164,
+        "distinct_count": 117,
+        "null_percentage": 81.77,
+        "numeric_stats": {
+          "avg": 6.921335164835277,
+          "min": 0.02,
+          "max": 400.0,
+          "stddev": 19.109694738945873
+        },
+        "frequent_values": [
+          {
+            "value": "1.7",
+            "count": 920
+          },
+          {
+            "value": "3.4",
+            "count": 95
+          },
+          {
+            "value": "20.0",
+            "count": 80
+          },
+          {
+            "value": "1.1",
+            "count": 65
+          },
+          {
+            "value": "0.85",
+            "count": 50
+          }
+        ],
+        "sample_values": [
+          "0.9",
+          "1.6",
+          "1.28",
+          "0.4",
+          "3.0",
+          "1.4",
+          "0.14",
+          "1.5",
+          "80.0",
+          "0.57",
+          "12.5",
+          "3.33",
+          "34.0",
+          "33.0",
+          "1.33"
+        ]
+      }
+    },
+    {
+      "name": "DSQINIAC",
+      "type": "DOUBLE PRECISION",
+      "nullable": true,
+      "stats": {
+        "null_count": 7968,
+        "distinct_count": 86,
+        "null_percentage": 79.81,
+        "numeric_stats": {
+          "avg": 27.939161706349214,
+          "min": 0.16,
+          "max": 1500.0,
+          "stddev": 66.1163264569383
+        },
+        "frequent_values": [
+          {
+            "value": "20.0",
+            "count": 883
+          },
+          {
+            "value": "10.0",
+            "count": 147
+          },
+          {
+            "value": "25.0",
+            "count": 141
+          },
+          {
+            "value": "18.0",
+            "count": 119
+          },
+          {
+            "value": "15.0",
+            "count": 100
+          }
+        ],
+        "sample_values": [
+          "2.25",
+          "65.0",
+          "15.0",
+          "16.7",
+          "33.34",
+          "5.33",
+          "9.0",
+          "11.4",
+          "0.3",
+          "1500.0",
+          "0.24",
+          "37.5",
+          "22.5",
+          "187.5",
+          "60.0"
+        ]
+      }
+    },
+    {
+      "name": "DSQIVB6",
+      "type": "DOUBLE PRECISION",
+      "nullable": true,
+      "stats": {
+        "null_count": 7305,
+        "distinct_count": 98,
+        "null_percentage": 73.17,
+        "numeric_stats": {
+          "avg": 7.2185031728256766,
+          "min": 0.03,
+          "max": 500.0,
+          "stddev": 20.42238802022766
+        },
+        "frequent_values": [
+          {
+            "value": "2.0",
+            "count": 845
+          },
+          {
+            "value": "3.0",
+            "count": 362
+          },
+          {
+            "value": "1.0",
+            "count": 242
+          },
+          {
+            "value": "5.0",
+            "count": 166
+          },
+          {
+            "value": "6.0",
+            "count": 120
+          }
+        ],
+        "sample_values": [
+          "40.0",
+          "0.8",
+          "1.8",
+          "29.13",
+          "15.0",
+          "26.0",
+          "0.9",
+          "33.34",
+          "2.01",
+          "1.6",
+          "6.97",
+          "9.0",
+          "300.0",
+          "37.5",
+          "60.0"
+        ]
+      }
+    },
+    {
+      "name": "DSQIFA",
+      "type": "DOUBLE PRECISION",
+      "nullable": true,
+      "stats": {
+        "null_count": 7361,
+        "distinct_count": 87,
+        "null_percentage": 73.73,
+        "numeric_stats": {
+          "avg": 387.0934044986657,
+          "min": 1.0,
+          "max": 16000.0,
+          "stddev": 438.3249172388273
+        },
+        "frequent_values": [
+          {
+            "value": "400.0",
+            "count": 1202
+          },
+          {
+            "value": "200.0",
+            "count": 352
+          },
+          {
+            "value": "800.0",
+            "count": 207
+          },
+          {
+            "value": "100.0",
+            "count": 192
+          },
+          {
+            "value": "140.0",
+            "count": 111
+          }
+        ],
+        "sample_values": [
+          "1000.0",
+          "26.0",
+          "1333.0",
+          "534.0",
+          "1600.0",
+          "96.0",
+          "667.0",
+          "1700.0",
+          "84.0",
+          "1500.0",
+          "300.0",
+          "680.0",
+          "170.0",
+          "60.0",
+          "221.0"
+        ]
+      }
+    },
+    {
+      "name": "DSQIFDFE",
+      "type": "DOUBLE PRECISION",
+      "nullable": true,
+      "stats": {
+        "null_count": 7361,
+        "distinct_count": 87,
+        "null_percentage": 73.73,
+        "numeric_stats": {
+          "avg": 658.0609988562715,
+          "min": 2.0,
+          "max": 27200.0,
+          "stddev": 745.1521978467415
+        },
+        "frequent_values": [
+          {
+            "value": "680.0",
+            "count": 1202
+          },
+          {
+            "value": "340.0",
+            "count": 352
+          },
+          {
+            "value": "1360.0",
+            "count": 207
+          },
+          {
+            "value": "170.0",
+            "count": 192
+          },
+          {
+            "value": "238.0",
+            "count": 111
+          }
+        ],
+        "sample_values": [
+          "612.0",
+          "27200.0",
+          "61.0",
+          "1131.0",
+          "17.0",
+          "1700.0",
+          "143.0",
+          "170.0",
+          "680.0",
+          "1511.0",
+          "2266.0",
+          "367.0",
+          "221.0",
+          "230.0",
+          "1020.0"
+        ]
+      }
+    },
+    {
+      "name": "DSQICHL",
+      "type": "DOUBLE PRECISION",
+      "nullable": true,
+      "stats": {
+        "null_count": 9385,
+        "distinct_count": 60,
+        "null_percentage": 94.0,
+        "numeric_stats": {
+          "avg": 12.934056761268808,
+          "min": 0.005,
+          "max": 1058.0,
+          "stddev": 67.86593865315919
+        },
+        "frequent_values": [
+          {
+            "value": "0.04",
+            "count": 235
+          },
+          {
+            "value": "0.02",
+            "count": 73
+          },
+          {
+            "value": "10.0",
+            "count": 49
+          },
+          {
+            "value": "5.0",
+            "count": 33
+          },
+          {
+            "value": "0.06",
+            "count": 27
+          }
+        ],
+        "sample_values": [
+          "1000.0",
+          "15.0",
+          "16.7",
+          "38.0",
+          "9.0",
+          "16.665",
+          "60.0",
+          "50.0",
+          "0.12",
+          "0.033",
+          "0.14",
+          "9.999",
+          "30.0",
+          "0.005",
+          "24.0"
+        ]
+      }
+    },
+    {
+      "name": "DSQIVB12",
+      "type": "DOUBLE PRECISION",
+      "nullable": true,
+      "stats": {
+        "null_count": 7024,
+        "distinct_count": 124,
+        "null_percentage": 70.35,
+        "numeric_stats": {
+          "avg": 245.55831081081064,
+          "min": 0.41,
+          "max": 15000.0,
+          "stddev": 791.5514263697296
+        },
+        "frequent_values": [
+          {
+            "value": "6.0",
+            "count": 683
+          },
+          {
+            "value": "25.0",
+            "count": 341
+          },
+          {
+            "value": "1000.0",
+            "count": 238
+          },
+          {
+            "value": "3.0",
+            "count": 188
+          },
+          {
+            "value": "18.0",
+            "count": 152
+          }
+        ],
+        "sample_values": [
+          "1000.0",
+          "5.8",
+          "5.33",
+          "1.6",
+          "4.8",
+          "33.33",
+          "22.5",
+          "3.0",
+          "70.0",
+          "3300.0",
+          "4.3",
+          "7.0",
+          "1.5",
+          "5.5",
+          "3.33"
+        ]
+      }
+    },
+    {
+      "name": "DSQIVC",
+      "type": "DOUBLE PRECISION",
+      "nullable": true,
+      "stats": {
+        "null_count": 6643,
+        "distinct_count": 128,
+        "null_percentage": 66.54,
+        "numeric_stats": {
+          "avg": 200.0532295719844,
+          "min": 0.2,
+          "max": 30000.0,
+          "stddev": 650.7894043197127
+        },
+        "frequent_values": [
+          {
+            "value": "60.0",
+            "count": 905
+          },
+          {
+            "value": "30.0",
+            "count": 296
+          },
+          {
+            "value": "500.0",
+            "count": 277
+          },
+          {
+            "value": "20.0",
+            "count": 192
+          },
+          {
+            "value": "120.0",
+            "count": 190
+          }
+        ],
+        "sample_values": [
+          "1000.0",
+          "990.0",
+          "5.33",
+          "96.0",
+          "33.33",
+          "22.5",
+          "416.68",
+          "235.0",
+          "63.0",
+          "3.0",
+          "70.0",
+          "135.0",
+          "7.0",
+          "85.0",
+          "80.0"
+        ]
+      }
+    },
+    {
+      "name": "DSQIVK",
+      "type": "DOUBLE PRECISION",
+      "nullable": true,
+      "stats": {
+        "null_count": 8727,
+        "distinct_count": 42,
+        "null_percentage": 87.41,
+        "numeric_stats": {
+          "avg": 55.042959427207634,
+          "min": 1.0,
+          "max": 10000.0,
+          "stddev": 397.9238633448116
+        },
+        "frequent_values": [
+          {
+            "value": "25.0",
+            "count": 331
+          },
+          {
+            "value": "30.0",
+            "count": 225
+          },
+          {
+            "value": "20.0",
+            "count": 159
+          },
+          {
+            "value": "80.0",
+            "count": 85
+          },
+          {
+            "value": "50.0",
+            "count": 78
+          }
+        ],
+        "sample_values": [
+          "15.0",
+          "65.0",
+          "160.0",
+          "38.0",
+          "125.0",
+          "90.0",
+          "81.0",
+          "51.0",
+          "55.0",
+          "20.0",
+          "5.0",
+          "60.0",
+          "14.0",
+          "13.0",
+          "67.0"
+        ]
+      }
+    },
+    {
+      "name": "DSQIVD",
+      "type": "DOUBLE PRECISION",
+      "nullable": true,
+      "stats": {
+        "null_count": 6244,
+        "distinct_count": 81,
+        "null_percentage": 62.54,
+        "numeric_stats": {
+          "avg": 44.03066577540107,
+          "min": 0.01,
+          "max": 2500.0,
+          "stddev": 136.16222702938614
+        },
+        "frequent_values": [
+          {
+            "value": "25.0",
+            "count": 923
+          },
+          {
+            "value": "50.0",
+            "count": 542
+          },
+          {
+            "value": "10.0",
+            "count": 541
+          },
+          {
+            "value": "20.0",
+            "count": 314
+          },
+          {
+            "value": "15.0",
+            "count": 270
+          }
+        ],
+        "sample_values": [
+          "65.0",
+          "15.0",
+          "33.34",
+          "37.5",
+          "22.5",
+          "60.0",
+          "50.0",
+          "70.0",
+          "31.25",
+          "6.6",
+          "3.75",
+          "1.5",
+          "30.0",
+          "80.0",
+          "18.75"
+        ]
+      }
+    },
+    {
+      "name": "DSQICALC",
+      "type": "DOUBLE PRECISION",
+      "nullable": true,
+      "stats": {
+        "null_count": 6872,
+        "distinct_count": 230,
+        "null_percentage": 68.83,
+        "numeric_stats": {
+          "avg": 352.8916291773778,
+          "min": 0.2,
+          "max": 7584.0,
+          "stddev": 353.42354418423787
+        },
+        "frequent_values": [
+          {
+            "value": "200.0",
+            "count": 513
+          },
+          {
+            "value": "600.0",
+            "count": 298
+          },
+          {
+            "value": "400.0",
+            "count": 279
+          },
+          {
+            "value": "220.0",
+            "count": 244
+          },
+          {
+            "value": "100.0",
+            "count": 226
+          }
+        ],
+        "sample_values": [
+          "174.0",
+          "5.33",
+          "880.0",
+          "11.42",
+          "215.0",
+          "1800.0",
+          "3.0",
+          "7.25",
+          "810.0",
+          "70.0",
+          "135.0",
+          "108.5",
+          "7.0",
+          "80.0",
+          "3.33"
+        ]
+      }
+    },
+    {
+      "name": "DSQIPHOS",
+      "type": "DOUBLE PRECISION",
+      "nullable": true,
+      "stats": {
+        "null_count": 9186,
+        "distinct_count": 54,
+        "null_percentage": 92.01,
+        "numeric_stats": {
+          "avg": 42.714285714285715,
+          "min": 6.0,
+          "max": 1200.0,
+          "stddev": 62.089311731536654
+        },
+        "frequent_values": [
+          {
+            "value": "20.0",
+            "count": 498
+          },
+          {
+            "value": "50.0",
+            "count": 59
+          },
+          {
+            "value": "110.0",
+            "count": 31
+          },
+          {
+            "value": "109.0",
+            "count": 27
+          },
+          {
+            "value": "38.0",
+            "count": 24
+          }
+        ],
+        "sample_values": [
+          "15.0",
+          "38.0",
+          "218.0",
+          "90.0",
+          "51.0",
+          "96.0",
+          "76.0",
+          "6.0",
+          "20.0",
+          "17.0",
+          "140.0",
+          "29.0",
+          "60.0",
+          "13.0",
+          "31.0"
+        ]
+      }
+    },
+    {
+      "name": "DSQIMAGN",
+      "type": "DOUBLE PRECISION",
+      "nullable": true,
+      "stats": {
+        "null_count": 8311,
+        "distinct_count": 139,
+        "null_percentage": 83.24,
+        "numeric_stats": {
+          "avg": 131.40263000597724,
+          "min": 0.1,
+          "max": 3390.0,
+          "stddev": 189.78386666339821
+        },
+        "frequent_values": [
+          {
+            "value": "50.0",
+            "count": 521
+          },
+          {
+            "value": "100.0",
+            "count": 194
+          },
+          {
+            "value": "400.0",
+            "count": 108
+          },
+          {
+            "value": "140.0",
+            "count": 104
+          },
+          {
+            "value": "250.0",
+            "count": 56
+          }
+        ],
+        "sample_values": [
+          "62.0",
+          "1000.0",
+          "630.0",
+          "16.7",
+          "83.3",
+          "1800.0",
+          "3.0",
+          "70.0",
+          "112.5",
+          "9.5",
+          "1020.0",
+          "135.0",
+          "1260.0",
+          "7.0",
+          "86.0"
+        ]
+      }
+    },
+    {
+      "name": "DSQIIRON",
+      "type": "DOUBLE PRECISION",
+      "nullable": true,
+      "stats": {
+        "null_count": 8815,
+        "distinct_count": 86,
+        "null_percentage": 88.29,
+        "numeric_stats": {
+          "avg": 26.878739007698908,
+          "min": 0.0005,
+          "max": 260.0,
+          "stddev": 27.525746077205305
+        },
+        "frequent_values": [
+          {
+            "value": "18.0",
+            "count": 487
+          },
+          {
+            "value": "65.0",
+            "count": 191
+          },
+          {
+            "value": "8.0",
+            "count": 78
+          },
+          {
+            "value": "28.0",
+            "count": 56
+          },
+          {
+            "value": "9.0",
+            "count": 36
+          }
+        ],
+        "sample_values": [
+          "0.8",
+          "1.9998",
+          "162.5",
+          "1.8",
+          "15.0",
+          "65.0",
+          "26.0",
+          "0.9",
+          "0.32",
+          "5.9994",
+          "90.0",
+          "1.6",
+          "9.0",
+          "0.24",
+          "3.3335"
+        ]
+      }
+    },
+    {
+      "name": "DSQIZINC",
+      "type": "DOUBLE PRECISION",
+      "nullable": true,
+      "stats": {
+        "null_count": 7610,
+        "distinct_count": 109,
+        "null_percentage": 76.22,
+        "numeric_stats": {
+          "avg": 11.746499663016017,
+          "min": 0.0001,
+          "max": 450.0,
+          "stddev": 14.768859065100296
+        },
+        "frequent_values": [
+          {
+            "value": "11.0",
+            "count": 457
+          },
+          {
+            "value": "15.0",
+            "count": 454
+          },
+          {
+            "value": "2.5",
+            "count": 138
+          },
+          {
+            "value": "2.7",
+            "count": 128
+          },
+          {
+            "value": "1.25",
+            "count": 105
+          }
+        ],
+        "sample_values": [
+          "69.6",
+          "0.8335",
+          "6.25",
+          "2.2",
+          "25.0",
+          "6.75",
+          "7.9998",
+          "6.667",
+          "0.02",
+          "10.4",
+          "26.3",
+          "4.9995",
+          "40.0",
+          "0.8",
+          "6.5"
+        ]
+      }
+    },
+    {
+      "name": "DSQICOPP",
+      "type": "DOUBLE PRECISION",
+      "nullable": true,
+      "stats": {
+        "null_count": 8556,
+        "distinct_count": 49,
+        "null_percentage": 85.7,
+        "numeric_stats": {
+          "avg": 1.246266316526612,
+          "min": 0.0001,
+          "max": 7.5,
+          "stddev": 0.8336074954023069
+        },
+        "frequent_values": [
+          {
+            "value": "0.5",
+            "count": 507
+          },
+          {
+            "value": "2.0",
+            "count": 477
+          },
+          {
+            "value": "1.0",
+            "count": 138
+          },
+          {
+            "value": "0.9",
+            "count": 77
+          },
+          {
+            "value": "2.2",
+            "count": 45
+          }
+        ],
+        "sample_values": [
+          "0.04",
+          "2.2",
+          "0.3333",
+          "4.0",
+          "0.075",
+          "1.0",
+          "0.7",
+          "0.0667",
+          "0.05",
+          "0.425",
+          "0.8",
+          "2.0",
+          "0.0035",
+          "1.8",
+          "0.2"
+        ]
+      }
+    },
+    {
+      "name": "DSQISODI",
+      "type": "DOUBLE PRECISION",
+      "nullable": true,
+      "stats": {
+        "null_count": 9223,
+        "distinct_count": 73,
+        "null_percentage": 92.38,
+        "numeric_stats": {
+          "avg": 29.68593955321945,
+          "min": 1.0,
+          "max": 1500.0,
+          "stddev": 77.2727222548506
+        },
+        "frequent_values": [
+          {
+            "value": "10.0",
+            "count": 188
+          },
+          {
+            "value": "5.0",
+            "count": 118
+          },
+          {
+            "value": "4.0",
+            "count": 48
+          },
+          {
+            "value": "2.0",
+            "count": 42
+          },
+          {
+            "value": "3.0",
+            "count": 41
+          }
+        ],
+        "sample_values": [
+          "65.0",
+          "15.0",
+          "38.0",
+          "90.0",
+          "105.0",
+          "9.0",
+          "1500.0",
+          "84.0",
+          "122.0",
+          "60.0",
+          "230.0",
+          "63.0",
+          "50.0",
+          "3.0",
+          "70.0"
+        ]
+      }
+    },
+    {
+      "name": "DSQIPOTA",
+      "type": "DOUBLE PRECISION",
+      "nullable": true,
+      "stats": {
+        "null_count": 9044,
+        "distinct_count": 98,
+        "null_percentage": 90.58,
+        "numeric_stats": {
+          "avg": 107.77925531914897,
+          "min": 0.01,
+          "max": 6750.0,
+          "stddev": 265.5954042500798
+        },
+        "frequent_values": [
+          {
+            "value": "80.0",
+            "count": 564
+          },
+          {
+            "value": "99.0",
+            "count": 52
+          },
+          {
+            "value": "200.0",
+            "count": 29
+          },
+          {
+            "value": "5.0",
+            "count": 26
+          },
+          {
+            "value": "15.0",
+            "count": 19
+          }
+        ],
+        "sample_values": [
+          "15.0",
+          "38.0",
+          "90.0",
+          "105.0",
+          "98.0",
+          "170.0",
+          "37.5",
+          "33.33",
+          "60.0",
+          "3.0",
+          "50.0",
+          "70.0",
+          "520.0",
+          "1900.0",
+          "600.0"
+        ]
+      }
+    },
+    {
+      "name": "DSQISELE",
+      "type": "DOUBLE PRECISION",
+      "nullable": true,
+      "stats": {
+        "null_count": 8627,
+        "distinct_count": 77,
+        "null_percentage": 86.41,
+        "numeric_stats": {
+          "avg": 57.49882092851883,
+          "min": 0.3,
+          "max": 2100.0,
+          "stddev": 75.68610381895166
+        },
+        "frequent_values": [
+          {
+            "value": "55.0",
+            "count": 288
+          },
+          {
+            "value": "19.0",
+            "count": 178
+          },
+          {
+            "value": "20.0",
+            "count": 128
+          },
+          {
+            "value": "110.0",
+            "count": 128
+          },
+          {
+            "value": "100.0",
+            "count": 67
+          }
+        ],
+        "sample_values": [
+          "15.0",
+          "16.7",
+          "38.0",
+          "90.0",
+          "31.1",
+          "105.0",
+          "83.3",
+          "0.3",
+          "17.0",
+          "60.0",
+          "22.5",
+          "63.0",
+          "50.0",
+          "70.0",
+          "7.0"
+        ]
+      }
+    },
+    {
+      "name": "DSQICAFF",
+      "type": "DOUBLE PRECISION",
+      "nullable": true,
+      "stats": {
+        "null_count": 9967,
+        "distinct_count": 14,
+        "null_percentage": 99.83,
+        "numeric_stats": {
+          "avg": 225.8235294117647,
+          "min": 20.0,
+          "max": 1200.0,
+          "stddev": 280.3371263528338
+        },
+        "frequent_values": [
+          {
+            "value": "200.0",
+            "count": 3
+          },
+          {
+            "value": "120.0",
+            "count": 2
+          },
+          {
+            "value": "45.0",
+            "count": 1
+          },
+          {
+            "value": "90.0",
+            "count": 1
+          },
+          {
+            "value": "82.0",
+            "count": 1
+          }
+        ],
+        "sample_values": [
+          "20.0",
+          "33.0",
+          "45.0",
+          "82.0",
+          "90.0",
+          "120.0",
+          "135.0",
+          "150.0",
+          "160.0",
+          "164.0",
+          "200.0",
+          "440.0",
+          "480.0",
+          "1200.0"
+        ]
+      }
+    },
+    {
+      "name": "DSQIIODI",
+      "type": "DOUBLE PRECISION",
+      "nullable": true,
+      "stats": {
+        "null_count": 8139,
+        "distinct_count": 54,
+        "null_percentage": 81.52,
+        "numeric_stats": {
+          "avg": 125.11653116531166,
+          "min": 2.0,
+          "max": 12500.0,
+          "stddev": 419.91502984728686
+        },
+        "frequent_values": [
+          {
+            "value": "150.0",
+            "count": 1000
+          },
+          {
+            "value": "42.0",
+            "count": 159
+          },
+          {
+            "value": "75.0",
+            "count": 107
+          },
+          {
+            "value": "15.0",
+            "count": 85
+          },
+          {
+            "value": "30.0",
+            "count": 72
+          }
+        ],
+        "sample_values": [
+          "113.0",
+          "150.0",
+          "290.0",
+          "40.0",
+          "2.0",
+          "3000.0",
+          "68.0",
+          "306.0",
+          "190.0",
+          "1000.0",
+          "15.0",
+          "38.0",
+          "125.0",
+          "400.0",
+          "12500.0"
+        ]
+      }
+    }
+  ],
+  "sample_rows": [
+    {
+      "SEQN": 93703.0,
+      "DSDPID": 18558.0,
+      "DSDSUPP": "KIRKLAND SIGNATURE CHILDREN'S COMPLETE MULTIVITAMIN GUMMIES",
+      "DSDANTA": 5.397605346934028e-79,
+      "DSD070": 1.0,
+      "DSDMTCH": 1.0,
+      "DSD090": 365.0,
+      "DSD103": 30.0,
+      "DSD122Q": 1.0,
+      "DSD122U": 20.0,
+      "DSDACTSS": 0.5,
+      "DSDDAY1": NaN,
+      "DSDDAY2": NaN,
+      "DSQ124": 1.0,
+      "DSQ128A": null,
+      "DSQ128B": null,
+      "DSQ128C": null,
+      "DSQ128D": NaN,
+      "DSQ128E": NaN,
+      "DSQ128F": null,
+      "DSQ128G": NaN,
+      "DSQ128H": 17.0,
+      "DSQ128I": null,
+      "DSQ128J": null,
+      "DSQ128K": NaN,
+      "DSQ128L": null,
+      "DSQ128M": null,
+      "DSQ128N": null,
+      "DSQ128O": NaN,
+      "DSQ128P": null,
+      "DSQ128Q": null,
+      "DSQ128R": null,
+      "DSD128T": null,
+      "DSD128V": null,
+      "DSD128W": null,
+      "DSD128X": null,
+      "DSD128Z": null,
+      "DSD128AA": null,
+      "DSD128BB": null,
+      "DSD128DD": null,
+      "DSD128EE": null,
+      "DSD128FF": null,
+      "DSD128GG": null,
+      "DSD128HH": null,
+      "DSD128II": null,
+      "DSD128JJ": null,
+      "DSD128KK": null,
+      "DSD128LL": null,
+      "DSD128MM": null,
+      "DSQ128NN": null,
+      "DSD128OO": null,
+      "DSD128PP": null,
+      "DSQ128S": null,
+      "RXQ215A": null,
+      "DSQIKCAL": 8.0,
+      "DSQIPROT": null,
+      "DSQICARB": 2.0,
+      "DSQISUGR": null,
+      "DSQIFIBE": null,
+      "DSQITFAT": null,
+      "DSQISFAT": null,
+      "DSQIMFAT": null,
+      "DSQIPFAT": null,
+      "DSQICHOL": null,
+      "DSQILYCO": null,
+      "DSQILZ": null,
+      "DSQIVB1": null,
+      "DSQIVB2": null,
+      "DSQINIAC": null,
+      "DSQIVB6": 1.0,
+      "DSQIFA": 167.0,
+      "DSQIFDFE": 284.0,
+      "DSQICHL": null,
+      "DSQIVB12": 3.0,
+      "DSQIVC": 20.0,
+      "DSQIVK": null,
+      "DSQIVD": 7.5,
+      "DSQICALC": null,
+      "DSQIPHOS": null,
+      "DSQIMAGN": null,
+      "DSQIIRON": null,
+      "DSQIZINC": 1.35,
+      "DSQICOPP": null,
+      "DSQISODI": null,
+      "DSQIPOTA": null,
+      "DSQISELE": null,
+      "DSQICAFF": null,
+      "DSQIIODI": 21.0
+    },
+    {
+      "SEQN": 93705.0,
+      "DSDPID": 276.0,
+      "DSDSUPP": "VITAMIN A 8000 IU",
+      "DSDANTA": 5.397605346934028e-79,
+      "DSD070": 1.0,
+      "DSDMTCH": 3.0,
+      "DSD090": 3650.0,
+      "DSD103": 10.0,
+      "DSD122Q": 1.0,
+      "DSD122U": 1.0,
+      "DSDACTSS": 1.0,
+      "DSDDAY1": 1.0,
+      "DSDDAY2": 1.0,
+      "DSQ124": 1.0,
+      "DSQ128A": null,
+      "DSQ128B": null,
+      "DSQ128C": null,
+      "DSQ128D": NaN,
+      "DSQ128E": 14.0,
+      "DSQ128F": null,
+      "DSQ128G": NaN,
+      "DSQ128H": NaN,
+      "DSQ128I": null,
+      "DSQ128J": null,
+      "DSQ128K": NaN,
+      "DSQ128L": null,
+      "DSQ128M": null,
+      "DSQ128N": null,
+      "DSQ128O": 24.0,
+      "DSQ128P": null,
+      "DSQ128Q": null,
+      "DSQ128R": null,
+      "DSD128T": null,
+      "DSD128V": null,
+      "DSD128W": null,
+      "DSD128X": null,
+      "DSD128Z": null,
+      "DSD128AA": null,
+      "DSD128BB": null,
+      "DSD128DD": null,
+      "DSD128EE": null,
+      "DSD128FF": null,
+      "DSD128GG": null,
+      "DSD128HH": null,
+      "DSD128II": null,
+      "DSD128JJ": null,
+      "DSD128KK": null,
+      "DSD128LL": null,
+      "DSD128MM": null,
+      "DSQ128NN": null,
+      "DSD128OO": null,
+      "DSD128PP": null,
+      "DSQ128S": null,
+      "RXQ215A": null,
+      "DSQIKCAL": NaN,
+      "DSQIPROT": null,
+      "DSQICARB": NaN,
+      "DSQISUGR": null,
+      "DSQIFIBE": null,
+      "DSQITFAT": null,
+      "DSQISFAT": null,
+      "DSQIMFAT": null,
+      "DSQIPFAT": null,
+      "DSQICHOL": null,
+      "DSQILYCO": null,
+      "DSQILZ": null,
+      "DSQIVB1": null,
+      "DSQIVB2": null,
+      "DSQINIAC": null,
+      "DSQIVB6": NaN,
+      "DSQIFA": NaN,
+      "DSQIFDFE": NaN,
+      "DSQICHL": null,
+      "DSQIVB12": NaN,
+      "DSQIVC": NaN,
+      "DSQIVK": null,
+      "DSQIVD": NaN,
+      "DSQICALC": null,
+      "DSQIPHOS": null,
+      "DSQIMAGN": null,
+      "DSQIIRON": null,
+      "DSQIZINC": NaN,
+      "DSQICOPP": null,
+      "DSQISODI": null,
+      "DSQIPOTA": null,
+      "DSQISELE": null,
+      "DSQICAFF": null,
+      "DSQIIODI": NaN
+    },
+    {
+      "SEQN": 93705.0,
+      "DSDPID": 596.0,
+      "DSDSUPP": "VITAMIN B-12 (COBALAMIN) 500 MCG",
+      "DSDANTA": 5.397605346934028e-79,
+      "DSD070": 1.0,
+      "DSDMTCH": 3.0,
+      "DSD090": 7300.0,
+      "DSD103": 5.0,
+      "DSD122Q": 1.0,
+      "DSD122U": 1.0,
+      "DSDACTSS": 1.0,
+      "DSDDAY1": 1.0,
+      "DSDDAY2": 1.0,
+      "DSQ124": 1.0,
+      "DSQ128A": null,
+      "DSQ128B": null,
+      "DSQ128C": null,
+      "DSQ128D": 13.0,
+      "DSQ128E": 14.0,
+      "DSQ128F": null,
+      "DSQ128G": 16.0,
+      "DSQ128H": 17.0,
+      "DSQ128I": null,
+      "DSQ128J": null,
+      "DSQ128K": 20.0,
+      "DSQ128L": null,
+      "DSQ128M": null,
+      "DSQ128N": null,
+      "DSQ128O": NaN,
+      "DSQ128P": null,
+      "DSQ128Q": null,
+      "DSQ128R": null,
+      "DSD128T": null,
+      "DSD128V": null,
+      "DSD128W": null,
+      "DSD128X": null,
+      "DSD128Z": null,
+      "DSD128AA": null,
+      "DSD128BB": null,
+      "DSD128DD": null,
+      "DSD128EE": null,
+      "DSD128FF": null,
+      "DSD128GG": null,
+      "DSD128HH": null,
+      "DSD128II": null,
+      "DSD128JJ": null,
+      "DSD128KK": null,
+      "DSD128LL": null,
+      "DSD128MM": null,
+      "DSQ128NN": null,
+      "DSD128OO": null,
+      "DSD128PP": null,
+      "DSQ128S": null,
+      "RXQ215A": null,
+      "DSQIKCAL": NaN,
+      "DSQIPROT": null,
+      "DSQICARB": NaN,
+      "DSQISUGR": null,
+      "DSQIFIBE": null,
+      "DSQITFAT": null,
+      "DSQISFAT": null,
+      "DSQIMFAT": null,
+      "DSQIPFAT": null,
+      "DSQICHOL": null,
+      "DSQILYCO": null,
+      "DSQILZ": null,
+      "DSQIVB1": null,
+      "DSQIVB2": null,
+      "DSQINIAC": null,
+      "DSQIVB6": NaN,
+      "DSQIFA": NaN,
+      "DSQIFDFE": NaN,
+      "DSQICHL": null,
+      "DSQIVB12": 500.0,
+      "DSQIVC": NaN,
+      "DSQIVK": null,
+      "DSQIVD": NaN,
+      "DSQICALC": null,
+      "DSQIPHOS": null,
+      "DSQIMAGN": null,
+      "DSQIIRON": null,
+      "DSQIZINC": NaN,
+      "DSQICOPP": null,
+      "DSQISODI": null,
+      "DSQIPOTA": null,
+      "DSQISELE": null,
+      "DSQICAFF": null,
+      "DSQIIODI": NaN
+    }
+  ],
+  "execution": {
+    "status": "success",
+    "seconds": 2.96,
+    "processed_at": "2026-06-11T21:13:13.014954",
+    "attempt": 1
+  }
+}

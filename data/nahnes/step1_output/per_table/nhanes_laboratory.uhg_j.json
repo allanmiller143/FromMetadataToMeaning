@@ -1,0 +1,186 @@
+{
+  "schema": "nhanes_laboratory",
+  "table_name": "uhg_j",
+  "row_count": 2979,
+  "primary_key": [],
+  "foreign_keys": [],
+  "columns": [
+    {
+      "name": "SEQN",
+      "type": "DOUBLE PRECISION",
+      "nullable": true,
+      "stats": {
+        "null_count": 0,
+        "distinct_count": 2979,
+        "null_percentage": 0.0,
+        "numeric_stats": {
+          "avg": 98304.5787176905,
+          "min": 93707.0,
+          "max": 102956.0,
+          "stddev": 2657.7196945082715
+        },
+        "sample_values": [
+          "100472.0",
+          "98778.0",
+          "98390.0",
+          "97449.0",
+          "94386.0",
+          "96153.0",
+          "96472.0",
+          "98813.0",
+          "100958.0",
+          "96058.0",
+          "98508.0",
+          "101319.0",
+          "100331.0",
+          "102850.0",
+          "102554.0"
+        ]
+      }
+    },
+    {
+      "name": "WTSA2YR",
+      "type": "DOUBLE PRECISION",
+      "nullable": true,
+      "stats": {
+        "null_count": 0,
+        "distinct_count": 2730,
+        "null_percentage": 0.0,
+        "numeric_stats": {
+          "avg": 103814.1997123699,
+          "min": 5.397605346934028e-79,
+          "max": 1502431.342308,
+          "stddev": 136361.65091679993
+        },
+        "sample_values": [
+          "47711.749182",
+          "156274.122551",
+          "538586.717543",
+          "23113.508549",
+          "7641.256822",
+          "91464.698382",
+          "86177.539652",
+          "37614.002992",
+          "718123.607707",
+          "100772.016414",
+          "38292.051329",
+          "76894.603336",
+          "15108.192099",
+          "82665.854743",
+          "110072.60928"
+        ]
+      }
+    },
+    {
+      "name": "URXUHG",
+      "type": "DOUBLE PRECISION",
+      "nullable": true,
+      "stats": {
+        "null_count": 167,
+        "distinct_count": 202,
+        "null_percentage": 5.61,
+        "numeric_stats": {
+          "avg": 0.3355298719772441,
+          "min": 0.09,
+          "max": 30.1,
+          "stddev": 1.017118143159208
+        },
+        "frequent_values": [
+          {
+            "value": "0.09",
+            "count": 1669
+          },
+          {
+            "value": "0.13",
+            "count": 47
+          },
+          {
+            "value": "0.26",
+            "count": 35
+          },
+          {
+            "value": "0.17",
+            "count": 35
+          },
+          {
+            "value": "0.18",
+            "count": 33
+          }
+        ],
+        "sample_values": [
+          "2.42",
+          "0.54",
+          "1.45",
+          "2.1",
+          "2.16",
+          "0.58",
+          "0.59",
+          "6.93",
+          "1.03",
+          "1.58",
+          "5.4",
+          "1.37",
+          "2.92",
+          "1.94",
+          "1.04"
+        ]
+      }
+    },
+    {
+      "name": "URDUHGLC",
+      "type": "DOUBLE PRECISION",
+      "nullable": true,
+      "stats": {
+        "null_count": 167,
+        "distinct_count": 2,
+        "null_percentage": 5.61,
+        "numeric_stats": {
+          "avg": 0.5935277382645804,
+          "min": 5.397605346934028e-79,
+          "max": 1.0,
+          "stddev": 0.4912620345975582
+        },
+        "frequent_values": [
+          {
+            "value": "1.0",
+            "count": 1669
+          },
+          {
+            "value": "5.397605346934028e-79",
+            "count": 1143
+          }
+        ],
+        "sample_values": [
+          "5.397605346934028e-79",
+          "1.0"
+        ]
+      }
+    }
+  ],
+  "sample_rows": [
+    {
+      "SEQN": 93707.0,
+      "WTSA2YR": 24984.393699,
+      "URXUHG": 0.09,
+      "URDUHGLC": 1.0
+    },
+    {
+      "SEQN": 93708.0,
+      "WTSA2YR": 39395.670748,
+      "URXUHG": 0.63,
+      "URDUHGLC": 5.397605346934028e-79
+    },
+    {
+      "SEQN": 93711.0,
+      "WTSA2YR": 43892.647648,
+      "URXUHG": 0.09,
+      "URDUHGLC": 1.0
+    }
+  ],
+  "execution": {
+    "status": "success",
+    "seconds": 0.03,
+    "processed_at": "2026-06-11T21:19:01.763528",
+    "attempt": 1
+  }
+}

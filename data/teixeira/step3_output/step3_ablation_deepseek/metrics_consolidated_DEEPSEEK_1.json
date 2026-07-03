@@ -1,0 +1,4613 @@
+{
+  "_global_summary": {
+    "total_variants": 26,
+    "global_elapsed_s": 889.712,
+    "grand_total_tokens_in": 0,
+    "grand_total_tokens_out": 0,
+    "grand_total_tokens": 0
+  },
+  "by_variant": {
+    "v00_baseline": {
+      "total_tokens_in": 0,
+      "total_tokens_out": 0,
+      "total_tokens": 0,
+      "total_elapsed_s": 0,
+      "tables_processed": 0,
+      "per_table": {
+        "public.tb_ciap_ms": {
+          "tokens_in": 923,
+          "tokens_out": 25,
+          "tokens_total": 948,
+          "elapsed_s": 2.325,
+          "fallback": false
+        },
+        "public.tb_problema": {
+          "tokens_in": 888,
+          "tokens_out": 28,
+          "tokens_total": 916,
+          "elapsed_s": 1.573,
+          "fallback": false
+        },
+        "public.tb_dim_catmat": {
+          "tokens_in": 877,
+          "tokens_out": 28,
+          "tokens_total": 905,
+          "elapsed_s": 1.213,
+          "fallback": false
+        },
+        "public.ta_medicamento_catmat": {
+          "tokens_in": 992,
+          "tokens_out": 28,
+          "tokens_total": 1020,
+          "elapsed_s": 1.478,
+          "fallback": false
+        },
+        "public.ta_tecido_mole": {
+          "tokens_in": 935,
+          "tokens_out": 24,
+          "tokens_total": 959,
+          "elapsed_s": 1.432,
+          "fallback": false
+        },
+        "public.ta_vacinacao": {
+          "tokens_in": 939,
+          "tokens_out": 27,
+          "tokens_total": 966,
+          "elapsed_s": 1.337,
+          "fallback": false
+        },
+        "public.tb_antecedente": {
+          "tokens_in": 1384,
+          "tokens_out": 25,
+          "tokens_total": 1409,
+          "elapsed_s": 1.542,
+          "fallback": false
+        },
+        "public.tb_cidadao": {
+          "tokens_in": 2287,
+          "tokens_out": 26,
+          "tokens_total": 2313,
+          "elapsed_s": 1.577,
+          "fallback": false
+        },
+        "public.tb_cuidado_compartilhado_evol": {
+          "tokens_in": 1136,
+          "tokens_out": 28,
+          "tokens_total": 1164,
+          "elapsed_s": 1.218,
+          "fallback": false
+        },
+        "public.tb_evolucao_odonto": {
+          "tokens_in": 885,
+          "tokens_out": 23,
+          "tokens_total": 908,
+          "elapsed_s": 1.183,
+          "fallback": false
+        },
+        "public.tb_evolucao_subjetivo": {
+          "tokens_in": 801,
+          "tokens_out": 17,
+          "tokens_total": 818,
+          "elapsed_s": 1.134,
+          "fallback": false
+        },
+        "public.tb_exame_hemoglobina_glicada": {
+          "tokens_in": 812,
+          "tokens_out": 22,
+          "tokens_total": 834,
+          "elapsed_s": 1.561,
+          "fallback": false
+        },
+        "public.tb_exame_prenatal": {
+          "tokens_in": 841,
+          "tokens_out": 20,
+          "tokens_total": 861,
+          "elapsed_s": 1.498,
+          "fallback": false
+        },
+        "public.tb_fat_atend_odonto_problemas": {
+          "tokens_in": 1357,
+          "tokens_out": 23,
+          "tokens_total": 1380,
+          "elapsed_s": 1.208,
+          "fallback": false
+        },
+        "public.tb_fat_rel_op_risco_cardio": {
+          "tokens_in": 1106,
+          "tokens_out": 22,
+          "tokens_total": 1128,
+          "elapsed_s": 1.3,
+          "fallback": false
+        },
+        "public.tb_historico_dados_fao": {
+          "tokens_in": 826,
+          "tokens_out": 23,
+          "tokens_total": 849,
+          "elapsed_s": 1.327,
+          "fallback": false
+        },
+        "public.tb_justificativa_prontuario": {
+          "tokens_in": 855,
+          "tokens_out": 24,
+          "tokens_total": 879,
+          "elapsed_s": 1.241,
+          "fallback": false
+        },
+        "public.tb_lembrete_evolucao": {
+          "tokens_in": 875,
+          "tokens_out": 28,
+          "tokens_total": 903,
+          "elapsed_s": 1.238,
+          "fallback": false
+        },
+        "public.tb_medicamento_uso_continuo": {
+          "tokens_in": 827,
+          "tokens_out": 31,
+          "tokens_total": 858,
+          "elapsed_s": 1.437,
+          "fallback": false
+        },
+        "public.tb_medicao": {
+          "tokens_in": 1227,
+          "tokens_out": 22,
+          "tokens_total": 1249,
+          "elapsed_s": 1.417,
+          "fallback": false
+        },
+        "public.tb_odontograma": {
+          "tokens_in": 870,
+          "tokens_out": 23,
+          "tokens_total": 893,
+          "elapsed_s": 1.186,
+          "fallback": false
+        },
+        "public.tb_proced_exame_especifico": {
+          "tokens_in": 806,
+          "tokens_out": 24,
+          "tokens_total": 830,
+          "elapsed_s": 1.196,
+          "fallback": false
+        },
+        "public.tb_raca_cor": {
+          "tokens_in": 834,
+          "tokens_out": 23,
+          "tokens_total": 857,
+          "elapsed_s": 1.179,
+          "fallback": false
+        },
+        "public.tb_tipo_glicemia": {
+          "tokens_in": 797,
+          "tokens_out": 16,
+          "tokens_total": 813,
+          "elapsed_s": 1.175,
+          "fallback": false
+        }
+      }
+    },
+    "v01_full": {
+      "total_tokens_in": 0,
+      "total_tokens_out": 0,
+      "total_tokens": 0,
+      "total_elapsed_s": 0,
+      "tables_processed": 0,
+      "per_table": {
+        "public.tb_ciap_ms": {
+          "tokens_in": 5943,
+          "tokens_out": 21,
+          "tokens_total": 5964,
+          "elapsed_s": 1.548,
+          "fallback": false
+        },
+        "public.tb_problema": {
+          "tokens_in": 2773,
+          "tokens_out": 30,
+          "tokens_total": 2803,
+          "elapsed_s": 1.873,
+          "fallback": false
+        },
+        "public.tb_dim_catmat": {
+          "tokens_in": 2402,
+          "tokens_out": 22,
+          "tokens_total": 2424,
+          "elapsed_s": 1.227,
+          "fallback": false
+        },
+        "public.ta_medicamento_catmat": {
+          "tokens_in": 4408,
+          "tokens_out": 25,
+          "tokens_total": 4433,
+          "elapsed_s": 1.719,
+          "fallback": false
+        },
+        "public.ta_tecido_mole": {
+          "tokens_in": 2978,
+          "tokens_out": 19,
+          "tokens_total": 2997,
+          "elapsed_s": 1.251,
+          "fallback": false
+        },
+        "public.ta_vacinacao": {
+          "tokens_in": 2916,
+          "tokens_out": 21,
+          "tokens_total": 2937,
+          "elapsed_s": 1.25,
+          "fallback": false
+        },
+        "public.tb_antecedente": {
+          "tokens_in": 7657,
+          "tokens_out": 26,
+          "tokens_total": 7683,
+          "elapsed_s": 1.256,
+          "fallback": false
+        },
+        "public.tb_cidadao": {
+          "tokens_in": 19004,
+          "tokens_out": 20,
+          "tokens_total": 19024,
+          "elapsed_s": 2.132,
+          "fallback": false
+        },
+        "public.tb_cuidado_compartilhado_evol": {
+          "tokens_in": 6234,
+          "tokens_out": 25,
+          "tokens_total": 6259,
+          "elapsed_s": 1.596,
+          "fallback": false
+        },
+        "public.tb_evolucao_odonto": {
+          "tokens_in": 2834,
+          "tokens_out": 23,
+          "tokens_total": 2857,
+          "elapsed_s": 1.492,
+          "fallback": false
+        },
+        "public.tb_evolucao_subjetivo": {
+          "tokens_in": 1478,
+          "tokens_out": 32,
+          "tokens_total": 1510,
+          "elapsed_s": 1.227,
+          "fallback": false
+        },
+        "public.tb_exame_hemoglobina_glicada": {
+          "tokens_in": 1524,
+          "tokens_out": 23,
+          "tokens_total": 1547,
+          "elapsed_s": 1.262,
+          "fallback": false
+        },
+        "public.tb_exame_prenatal": {
+          "tokens_in": 1994,
+          "tokens_out": 26,
+          "tokens_total": 2020,
+          "elapsed_s": 1.245,
+          "fallback": false
+        },
+        "public.tb_fat_atend_odonto_problemas": {
+          "tokens_in": 9981,
+          "tokens_out": 22,
+          "tokens_total": 10003,
+          "elapsed_s": 1.552,
+          "fallback": false
+        },
+        "public.tb_fat_rel_op_risco_cardio": {
+          "tokens_in": 6154,
+          "tokens_out": 14,
+          "tokens_total": 6168,
+          "elapsed_s": 1.256,
+          "fallback": false
+        },
+        "public.tb_historico_dados_fao": {
+          "tokens_in": 3173,
+          "tokens_out": 22,
+          "tokens_total": 3195,
+          "elapsed_s": 1.209,
+          "fallback": false
+        },
+        "public.tb_justificativa_prontuario": {
+          "tokens_in": 2623,
+          "tokens_out": 26,
+          "tokens_total": 2649,
+          "elapsed_s": 1.147,
+          "fallback": false
+        },
+        "public.tb_lembrete_evolucao": {
+          "tokens_in": 3575,
+          "tokens_out": 31,
+          "tokens_total": 3606,
+          "elapsed_s": 1.518,
+          "fallback": false
+        },
+        "public.tb_medicamento_uso_continuo": {
+          "tokens_in": 1822,
+          "tokens_out": 26,
+          "tokens_total": 1848,
+          "elapsed_s": 1.146,
+          "fallback": false
+        },
+        "public.tb_medicao": {
+          "tokens_in": 6032,
+          "tokens_out": 22,
+          "tokens_total": 6054,
+          "elapsed_s": 1.581,
+          "fallback": false
+        },
+        "public.tb_odontograma": {
+          "tokens_in": 2163,
+          "tokens_out": 23,
+          "tokens_total": 2186,
+          "elapsed_s": 1.154,
+          "fallback": false
+        },
+        "public.tb_proced_exame_especifico": {
+          "tokens_in": 1395,
+          "tokens_out": 23,
+          "tokens_total": 1418,
+          "elapsed_s": 1.235,
+          "fallback": false
+        },
+        "public.tb_raca_cor": {
+          "tokens_in": 1357,
+          "tokens_out": 26,
+          "tokens_total": 1383,
+          "elapsed_s": 1.361,
+          "fallback": false
+        },
+        "public.tb_tipo_glicemia": {
+          "tokens_in": 1157,
+          "tokens_out": 33,
+          "tokens_total": 1190,
+          "elapsed_s": 1.287,
+          "fallback": false
+        }
+      }
+    },
+    "v02_plus_fk": {
+      "total_tokens_in": 0,
+      "total_tokens_out": 0,
+      "total_tokens": 0,
+      "total_elapsed_s": 0,
+      "tables_processed": 0,
+      "per_table": {
+        "public.tb_ciap_ms": {
+          "tokens_in": 1098,
+          "tokens_out": 25,
+          "tokens_total": 1123,
+          "elapsed_s": 1.714,
+          "fallback": false
+        },
+        "public.tb_problema": {
+          "tokens_in": 1071,
+          "tokens_out": 33,
+          "tokens_total": 1104,
+          "elapsed_s": 1.75,
+          "fallback": false
+        },
+        "public.tb_dim_catmat": {
+          "tokens_in": 942,
+          "tokens_out": 23,
+          "tokens_total": 965,
+          "elapsed_s": 1.451,
+          "fallback": false
+        },
+        "public.ta_medicamento_catmat": {
+          "tokens_in": 1012,
+          "tokens_out": 25,
+          "tokens_total": 1037,
+          "elapsed_s": 1.381,
+          "fallback": false
+        },
+        "public.ta_tecido_mole": {
+          "tokens_in": 953,
+          "tokens_out": 24,
+          "tokens_total": 977,
+          "elapsed_s": 1.825,
+          "fallback": false
+        },
+        "public.ta_vacinacao": {
+          "tokens_in": 956,
+          "tokens_out": 33,
+          "tokens_total": 989,
+          "elapsed_s": 1.576,
+          "fallback": false
+        },
+        "public.tb_antecedente": {
+          "tokens_in": 1438,
+          "tokens_out": 24,
+          "tokens_total": 1462,
+          "elapsed_s": 1.893,
+          "fallback": false
+        },
+        "public.tb_cidadao": {
+          "tokens_in": 2968,
+          "tokens_out": 22,
+          "tokens_total": 2990,
+          "elapsed_s": 1.795,
+          "fallback": false
+        },
+        "public.tb_cuidado_compartilhado_evol": {
+          "tokens_in": 1729,
+          "tokens_out": 30,
+          "tokens_total": 1759,
+          "elapsed_s": 2.05,
+          "fallback": false
+        },
+        "public.tb_evolucao_odonto": {
+          "tokens_in": 1041,
+          "tokens_out": 23,
+          "tokens_total": 1064,
+          "elapsed_s": 1.553,
+          "fallback": false
+        },
+        "public.tb_evolucao_subjetivo": {
+          "tokens_in": 859,
+          "tokens_out": 23,
+          "tokens_total": 882,
+          "elapsed_s": 1.827,
+          "fallback": false
+        },
+        "public.tb_exame_hemoglobina_glicada": {
+          "tokens_in": 885,
+          "tokens_out": 23,
+          "tokens_total": 908,
+          "elapsed_s": 1.772,
+          "fallback": false
+        },
+        "public.tb_exame_prenatal": {
+          "tokens_in": 910,
+          "tokens_out": 25,
+          "tokens_total": 935,
+          "elapsed_s": 1.671,
+          "fallback": false
+        },
+        "public.tb_fat_atend_odonto_problemas": {
+          "tokens_in": 2224,
+          "tokens_out": 30,
+          "tokens_total": 2254,
+          "elapsed_s": 1.654,
+          "fallback": false
+        },
+        "public.tb_fat_rel_op_risco_cardio": {
+          "tokens_in": 1182,
+          "tokens_out": 17,
+          "tokens_total": 1199,
+          "elapsed_s": 1.41,
+          "fallback": false
+        },
+        "public.tb_historico_dados_fao": {
+          "tokens_in": 836,
+          "tokens_out": 21,
+          "tokens_total": 857,
+          "elapsed_s": 1.372,
+          "fallback": false
+        },
+        "public.tb_justificativa_prontuario": {
+          "tokens_in": 993,
+          "tokens_out": 25,
+          "tokens_total": 1018,
+          "elapsed_s": 1.627,
+          "fallback": false
+        },
+        "public.tb_lembrete_evolucao": {
+          "tokens_in": 1027,
+          "tokens_out": 32,
+          "tokens_total": 1059,
+          "elapsed_s": 1.462,
+          "fallback": false
+        },
+        "public.tb_medicamento_uso_continuo": {
+          "tokens_in": 982,
+          "tokens_out": 29,
+          "tokens_total": 1011,
+          "elapsed_s": 1.3,
+          "fallback": false
+        },
+        "public.tb_medicao": {
+          "tokens_in": 1327,
+          "tokens_out": 18,
+          "tokens_total": 1345,
+          "elapsed_s": 1.532,
+          "fallback": false
+        },
+        "public.tb_odontograma": {
+          "tokens_in": 975,
+          "tokens_out": 23,
+          "tokens_total": 998,
+          "elapsed_s": 1.475,
+          "fallback": false
+        },
+        "public.tb_proced_exame_especifico": {
+          "tokens_in": 826,
+          "tokens_out": 24,
+          "tokens_total": 850,
+          "elapsed_s": 1.321,
+          "fallback": false
+        },
+        "public.tb_raca_cor": {
+          "tokens_in": 850,
+          "tokens_out": 26,
+          "tokens_total": 876,
+          "elapsed_s": 1.599,
+          "fallback": false
+        },
+        "public.tb_tipo_glicemia": {
+          "tokens_in": 814,
+          "tokens_out": 17,
+          "tokens_total": 831,
+          "elapsed_s": 1.781,
+          "fallback": false
+        }
+      }
+    },
+    "v03_plus_nullable": {
+      "total_tokens_in": 0,
+      "total_tokens_out": 0,
+      "total_tokens": 0,
+      "total_elapsed_s": 0,
+      "tables_processed": 0,
+      "per_table": {
+        "public.tb_ciap_ms": {
+          "tokens_in": 967,
+          "tokens_out": 24,
+          "tokens_total": 991,
+          "elapsed_s": 1.25,
+          "fallback": false
+        },
+        "public.tb_problema": {
+          "tokens_in": 926,
+          "tokens_out": 19,
+          "tokens_total": 945,
+          "elapsed_s": 1.451,
+          "fallback": false
+        },
+        "public.tb_dim_catmat": {
+          "tokens_in": 907,
+          "tokens_out": 28,
+          "tokens_total": 935,
+          "elapsed_s": 1.193,
+          "fallback": false
+        },
+        "public.ta_medicamento_catmat": {
+          "tokens_in": 1052,
+          "tokens_out": 22,
+          "tokens_total": 1074,
+          "elapsed_s": 1.171,
+          "fallback": false
+        },
+        "public.ta_tecido_mole": {
+          "tokens_in": 982,
+          "tokens_out": 26,
+          "tokens_total": 1008,
+          "elapsed_s": 1.319,
+          "fallback": false
+        },
+        "public.ta_vacinacao": {
+          "tokens_in": 992,
+          "tokens_out": 28,
+          "tokens_total": 1020,
+          "elapsed_s": 1.21,
+          "fallback": false
+        },
+        "public.tb_antecedente": {
+          "tokens_in": 1513,
+          "tokens_out": 24,
+          "tokens_total": 1537,
+          "elapsed_s": 1.256,
+          "fallback": false
+        },
+        "public.tb_cidadao": {
+          "tokens_in": 2649,
+          "tokens_out": 26,
+          "tokens_total": 2675,
+          "elapsed_s": 1.07,
+          "fallback": false
+        },
+        "public.tb_cuidado_compartilhado_evol": {
+          "tokens_in": 1228,
+          "tokens_out": 24,
+          "tokens_total": 1252,
+          "elapsed_s": 1.214,
+          "fallback": false
+        },
+        "public.tb_evolucao_odonto": {
+          "tokens_in": 918,
+          "tokens_out": 23,
+          "tokens_total": 941,
+          "elapsed_s": 1.126,
+          "fallback": false
+        },
+        "public.tb_evolucao_subjetivo": {
+          "tokens_in": 815,
+          "tokens_out": 23,
+          "tokens_total": 838,
+          "elapsed_s": 1.25,
+          "fallback": false
+        },
+        "public.tb_exame_hemoglobina_glicada": {
+          "tokens_in": 826,
+          "tokens_out": 22,
+          "tokens_total": 848,
+          "elapsed_s": 1.108,
+          "fallback": false
+        },
+        "public.tb_exame_prenatal": {
+          "tokens_in": 865,
+          "tokens_out": 18,
+          "tokens_total": 883,
+          "elapsed_s": 1.144,
+          "fallback": false
+        },
+        "public.tb_fat_atend_odonto_problemas": {
+          "tokens_in": 1500,
+          "tokens_out": 28,
+          "tokens_total": 1528,
+          "elapsed_s": 1.671,
+          "fallback": false
+        },
+        "public.tb_fat_rel_op_risco_cardio": {
+          "tokens_in": 1195,
+          "tokens_out": 17,
+          "tokens_total": 1212,
+          "elapsed_s": 1.176,
+          "fallback": false
+        },
+        "public.tb_historico_dados_fao": {
+          "tokens_in": 843,
+          "tokens_out": 25,
+          "tokens_total": 868,
+          "elapsed_s": 1.294,
+          "fallback": false
+        },
+        "public.tb_justificativa_prontuario": {
+          "tokens_in": 883,
+          "tokens_out": 36,
+          "tokens_total": 919,
+          "elapsed_s": 1.434,
+          "fallback": false
+        },
+        "public.tb_lembrete_evolucao": {
+          "tokens_in": 909,
+          "tokens_out": 28,
+          "tokens_total": 937,
+          "elapsed_s": 1.314,
+          "fallback": false
+        },
+        "public.tb_medicamento_uso_continuo": {
+          "tokens_in": 846,
+          "tokens_out": 24,
+          "tokens_total": 870,
+          "elapsed_s": 1.384,
+          "fallback": false
+        },
+        "public.tb_medicao": {
+          "tokens_in": 1317,
+          "tokens_out": 22,
+          "tokens_total": 1339,
+          "elapsed_s": 1.386,
+          "fallback": false
+        },
+        "public.tb_odontograma": {
+          "tokens_in": 904,
+          "tokens_out": 23,
+          "tokens_total": 927,
+          "elapsed_s": 1.208,
+          "fallback": false
+        },
+        "public.tb_proced_exame_especifico": {
+          "tokens_in": 819,
+          "tokens_out": 26,
+          "tokens_total": 845,
+          "elapsed_s": 1.261,
+          "fallback": false
+        },
+        "public.tb_raca_cor": {
+          "tokens_in": 855,
+          "tokens_out": 23,
+          "tokens_total": 878,
+          "elapsed_s": 1.219,
+          "fallback": false
+        },
+        "public.tb_tipo_glicemia": {
+          "tokens_in": 810,
+          "tokens_out": 17,
+          "tokens_total": 827,
+          "elapsed_s": 1.118,
+          "fallback": false
+        }
+      }
+    },
+    "v04_plus_numeric_stats": {
+      "total_tokens_in": 0,
+      "total_tokens_out": 0,
+      "total_tokens": 0,
+      "total_elapsed_s": 0,
+      "tables_processed": 0,
+      "per_table": {
+        "public.tb_ciap_ms": {
+          "tokens_in": 1140,
+          "tokens_out": 26,
+          "tokens_total": 1166,
+          "elapsed_s": 1.449,
+          "fallback": false
+        },
+        "public.tb_problema": {
+          "tokens_in": 1193,
+          "tokens_out": 28,
+          "tokens_total": 1221,
+          "elapsed_s": 1.278,
+          "fallback": false
+        },
+        "public.tb_dim_catmat": {
+          "tokens_in": 1027,
+          "tokens_out": 23,
+          "tokens_total": 1050,
+          "elapsed_s": 1.535,
+          "fallback": false
+        },
+        "public.ta_medicamento_catmat": {
+          "tokens_in": 1353,
+          "tokens_out": 23,
+          "tokens_total": 1376,
+          "elapsed_s": 1.846,
+          "fallback": false
+        },
+        "public.ta_tecido_mole": {
+          "tokens_in": 1289,
+          "tokens_out": 24,
+          "tokens_total": 1313,
+          "elapsed_s": 1.242,
+          "fallback": false
+        },
+        "public.ta_vacinacao": {
+          "tokens_in": 1348,
+          "tokens_out": 19,
+          "tokens_total": 1367,
+          "elapsed_s": 1.37,
+          "fallback": false
+        },
+        "public.tb_antecedente": {
+          "tokens_in": 1558,
+          "tokens_out": 24,
+          "tokens_total": 1582,
+          "elapsed_s": 1.203,
+          "fallback": false
+        },
+        "public.tb_cidadao": {
+          "tokens_in": 3988,
+          "tokens_out": 27,
+          "tokens_total": 4015,
+          "elapsed_s": 1.218,
+          "fallback": false
+        },
+        "public.tb_cuidado_compartilhado_evol": {
+          "tokens_in": 1779,
+          "tokens_out": 30,
+          "tokens_total": 1809,
+          "elapsed_s": 1.572,
+          "fallback": false
+        },
+        "public.tb_evolucao_odonto": {
+          "tokens_in": 1099,
+          "tokens_out": 23,
+          "tokens_total": 1122,
+          "elapsed_s": 1.105,
+          "fallback": false
+        },
+        "public.tb_evolucao_subjetivo": {
+          "tokens_in": 859,
+          "tokens_out": 25,
+          "tokens_total": 884,
+          "elapsed_s": 1.179,
+          "fallback": false
+        },
+        "public.tb_exame_hemoglobina_glicada": {
+          "tokens_in": 959,
+          "tokens_out": 22,
+          "tokens_total": 981,
+          "elapsed_s": 1.375,
+          "fallback": false
+        },
+        "public.tb_exame_prenatal": {
+          "tokens_in": 1043,
+          "tokens_out": 25,
+          "tokens_total": 1068,
+          "elapsed_s": 1.401,
+          "fallback": false
+        },
+        "public.tb_fat_atend_odonto_problemas": {
+          "tokens_in": 2520,
+          "tokens_out": 23,
+          "tokens_total": 2543,
+          "elapsed_s": 1.268,
+          "fallback": false
+        },
+        "public.tb_fat_rel_op_risco_cardio": {
+          "tokens_in": 1377,
+          "tokens_out": 17,
+          "tokens_total": 1394,
+          "elapsed_s": 1.377,
+          "fallback": false
+        },
+        "public.tb_historico_dados_fao": {
+          "tokens_in": 843,
+          "tokens_out": 25,
+          "tokens_total": 868,
+          "elapsed_s": 1.263,
+          "fallback": false
+        },
+        "public.tb_justificativa_prontuario": {
+          "tokens_in": 1062,
+          "tokens_out": 36,
+          "tokens_total": 1098,
+          "elapsed_s": 1.262,
+          "fallback": false
+        },
+        "public.tb_lembrete_evolucao": {
+          "tokens_in": 1116,
+          "tokens_out": 27,
+          "tokens_total": 1143,
+          "elapsed_s": 1.212,
+          "fallback": false
+        },
+        "public.tb_medicamento_uso_continuo": {
+          "tokens_in": 1027,
+          "tokens_out": 25,
+          "tokens_total": 1052,
+          "elapsed_s": 1.18,
+          "fallback": false
+        },
+        "public.tb_medicao": {
+          "tokens_in": 1498,
+          "tokens_out": 21,
+          "tokens_total": 1519,
+          "elapsed_s": 1.504,
+          "fallback": false
+        },
+        "public.tb_odontograma": {
+          "tokens_in": 1222,
+          "tokens_out": 23,
+          "tokens_total": 1245,
+          "elapsed_s": 1.252,
+          "fallback": false
+        },
+        "public.tb_proced_exame_especifico": {
+          "tokens_in": 859,
+          "tokens_out": 23,
+          "tokens_total": 882,
+          "elapsed_s": 1.296,
+          "fallback": false
+        },
+        "public.tb_raca_cor": {
+          "tokens_in": 896,
+          "tokens_out": 33,
+          "tokens_total": 929,
+          "elapsed_s": 1.327,
+          "fallback": false
+        },
+        "public.tb_tipo_glicemia": {
+          "tokens_in": 851,
+          "tokens_out": 17,
+          "tokens_total": 868,
+          "elapsed_s": 1.37,
+          "fallback": false
+        }
+      }
+    },
+    "v05_plus_sample_values": {
+      "total_tokens_in": 0,
+      "total_tokens_out": 0,
+      "total_tokens": 0,
+      "total_elapsed_s": 0,
+      "tables_processed": 0,
+      "per_table": {
+        "public.tb_ciap_ms": {
+          "tokens_in": 3820,
+          "tokens_out": 25,
+          "tokens_total": 3845,
+          "elapsed_s": 1.447,
+          "fallback": false
+        },
+        "public.tb_problema": {
+          "tokens_in": 1587,
+          "tokens_out": 27,
+          "tokens_total": 1614,
+          "elapsed_s": 1.433,
+          "fallback": false
+        },
+        "public.tb_dim_catmat": {
+          "tokens_in": 1502,
+          "tokens_out": 23,
+          "tokens_total": 1525,
+          "elapsed_s": 1.261,
+          "fallback": false
+        },
+        "public.ta_medicamento_catmat": {
+          "tokens_in": 2224,
+          "tokens_out": 24,
+          "tokens_total": 2248,
+          "elapsed_s": 1.141,
+          "fallback": false
+        },
+        "public.ta_tecido_mole": {
+          "tokens_in": 1636,
+          "tokens_out": 24,
+          "tokens_total": 1660,
+          "elapsed_s": 1.181,
+          "fallback": false
+        },
+        "public.ta_vacinacao": {
+          "tokens_in": 1543,
+          "tokens_out": 22,
+          "tokens_total": 1565,
+          "elapsed_s": 1.509,
+          "fallback": false
+        },
+        "public.tb_antecedente": {
+          "tokens_in": 3569,
+          "tokens_out": 24,
+          "tokens_total": 3593,
+          "elapsed_s": 1.19,
+          "fallback": false
+        },
+        "public.tb_cidadao": {
+          "tokens_in": 7807,
+          "tokens_out": 22,
+          "tokens_total": 7829,
+          "elapsed_s": 1.773,
+          "fallback": false
+        },
+        "public.tb_cuidado_compartilhado_evol": {
+          "tokens_in": 3123,
+          "tokens_out": 31,
+          "tokens_total": 3154,
+          "elapsed_s": 1.538,
+          "fallback": false
+        },
+        "public.tb_evolucao_odonto": {
+          "tokens_in": 1541,
+          "tokens_out": 23,
+          "tokens_total": 1564,
+          "elapsed_s": 1.164,
+          "fallback": false
+        },
+        "public.tb_evolucao_subjetivo": {
+          "tokens_in": 1059,
+          "tokens_out": 29,
+          "tokens_total": 1088,
+          "elapsed_s": 1.254,
+          "fallback": false
+        },
+        "public.tb_exame_hemoglobina_glicada": {
+          "tokens_in": 1008,
+          "tokens_out": 22,
+          "tokens_total": 1030,
+          "elapsed_s": 1.345,
+          "fallback": false
+        },
+        "public.tb_exame_prenatal": {
+          "tokens_in": 1166,
+          "tokens_out": 20,
+          "tokens_total": 1186,
+          "elapsed_s": 1.673,
+          "fallback": false
+        },
+        "public.tb_fat_atend_odonto_problemas": {
+          "tokens_in": 4180,
+          "tokens_out": 20,
+          "tokens_total": 4200,
+          "elapsed_s": 1.736,
+          "fallback": false
+        },
+        "public.tb_fat_rel_op_risco_cardio": {
+          "tokens_in": 3129,
+          "tokens_out": 14,
+          "tokens_total": 3143,
+          "elapsed_s": 1.12,
+          "fallback": false
+        },
+        "public.tb_historico_dados_fao": {
+          "tokens_in": 2306,
+          "tokens_out": 19,
+          "tokens_total": 2325,
+          "elapsed_s": 1.261,
+          "fallback": false
+        },
+        "public.tb_justificativa_prontuario": {
+          "tokens_in": 1482,
+          "tokens_out": 36,
+          "tokens_total": 1518,
+          "elapsed_s": 1.234,
+          "fallback": false
+        },
+        "public.tb_lembrete_evolucao": {
+          "tokens_in": 2501,
+          "tokens_out": 34,
+          "tokens_total": 2535,
+          "elapsed_s": 1.527,
+          "fallback": false
+        },
+        "public.tb_medicamento_uso_continuo": {
+          "tokens_in": 1053,
+          "tokens_out": 25,
+          "tokens_total": 1078,
+          "elapsed_s": 1.294,
+          "fallback": false
+        },
+        "public.tb_medicao": {
+          "tokens_in": 2899,
+          "tokens_out": 22,
+          "tokens_total": 2921,
+          "elapsed_s": 1.875,
+          "fallback": false
+        },
+        "public.tb_odontograma": {
+          "tokens_in": 1084,
+          "tokens_out": 23,
+          "tokens_total": 1107,
+          "elapsed_s": 1.221,
+          "fallback": false
+        },
+        "public.tb_proced_exame_especifico": {
+          "tokens_in": 1103,
+          "tokens_out": 20,
+          "tokens_total": 1123,
+          "elapsed_s": 1.103,
+          "fallback": false
+        },
+        "public.tb_raca_cor": {
+          "tokens_in": 985,
+          "tokens_out": 33,
+          "tokens_total": 1018,
+          "elapsed_s": 1.3,
+          "fallback": false
+        },
+        "public.tb_tipo_glicemia": {
+          "tokens_in": 887,
+          "tokens_out": 25,
+          "tokens_total": 912,
+          "elapsed_s": 1.414,
+          "fallback": false
+        }
+      }
+    },
+    "v06_plus_frequent_values": {
+      "total_tokens_in": 0,
+      "total_tokens_out": 0,
+      "total_tokens": 0,
+      "total_elapsed_s": 0,
+      "tables_processed": 0,
+      "per_table": {
+        "public.tb_ciap_ms": {
+          "tokens_in": 1904,
+          "tokens_out": 21,
+          "tokens_total": 1925,
+          "elapsed_s": 1.223,
+          "fallback": false
+        },
+        "public.tb_problema": {
+          "tokens_in": 1071,
+          "tokens_out": 36,
+          "tokens_total": 1107,
+          "elapsed_s": 1.567,
+          "fallback": false
+        },
+        "public.tb_dim_catmat": {
+          "tokens_in": 1143,
+          "tokens_out": 25,
+          "tokens_total": 1168,
+          "elapsed_s": 1.447,
+          "fallback": false
+        },
+        "public.ta_medicamento_catmat": {
+          "tokens_in": 1956,
+          "tokens_out": 25,
+          "tokens_total": 1981,
+          "elapsed_s": 1.343,
+          "fallback": false
+        },
+        "public.ta_tecido_mole": {
+          "tokens_in": 1290,
+          "tokens_out": 19,
+          "tokens_total": 1309,
+          "elapsed_s": 1.136,
+          "fallback": false
+        },
+        "public.ta_vacinacao": {
+          "tokens_in": 1234,
+          "tokens_out": 21,
+          "tokens_total": 1255,
+          "elapsed_s": 1.287,
+          "fallback": false
+        },
+        "public.tb_antecedente": {
+          "tokens_in": 3444,
+          "tokens_out": 26,
+          "tokens_total": 3470,
+          "elapsed_s": 1.622,
+          "fallback": false
+        },
+        "public.tb_cidadao": {
+          "tokens_in": 6362,
+          "tokens_out": 23,
+          "tokens_total": 6385,
+          "elapsed_s": 1.293,
+          "fallback": false
+        },
+        "public.tb_cuidado_compartilhado_evol": {
+          "tokens_in": 1718,
+          "tokens_out": 29,
+          "tokens_total": 1747,
+          "elapsed_s": 1.531,
+          "fallback": false
+        },
+        "public.tb_evolucao_odonto": {
+          "tokens_in": 1365,
+          "tokens_out": 24,
+          "tokens_total": 1389,
+          "elapsed_s": 1.326,
+          "fallback": false
+        },
+        "public.tb_evolucao_subjetivo": {
+          "tokens_in": 929,
+          "tokens_out": 26,
+          "tokens_total": 955,
+          "elapsed_s": 1.358,
+          "fallback": false
+        },
+        "public.tb_exame_hemoglobina_glicada": {
+          "tokens_in": 901,
+          "tokens_out": 20,
+          "tokens_total": 921,
+          "elapsed_s": 1.306,
+          "fallback": false
+        },
+        "public.tb_exame_prenatal": {
+          "tokens_in": 1085,
+          "tokens_out": 26,
+          "tokens_total": 1111,
+          "elapsed_s": 1.43,
+          "fallback": false
+        },
+        "public.tb_fat_atend_odonto_problemas": {
+          "tokens_in": 3176,
+          "tokens_out": 26,
+          "tokens_total": 3202,
+          "elapsed_s": 1.543,
+          "fallback": false
+        },
+        "public.tb_fat_rel_op_risco_cardio": {
+          "tokens_in": 2565,
+          "tokens_out": 14,
+          "tokens_total": 2579,
+          "elapsed_s": 1.334,
+          "fallback": false
+        },
+        "public.tb_historico_dados_fao": {
+          "tokens_in": 1266,
+          "tokens_out": 16,
+          "tokens_total": 1282,
+          "elapsed_s": 1.291,
+          "fallback": false
+        },
+        "public.tb_justificativa_prontuario": {
+          "tokens_in": 1202,
+          "tokens_out": 37,
+          "tokens_total": 1239,
+          "elapsed_s": 1.52,
+          "fallback": false
+        },
+        "public.tb_lembrete_evolucao": {
+          "tokens_in": 1023,
+          "tokens_out": 26,
+          "tokens_total": 1049,
+          "elapsed_s": 1.404,
+          "fallback": false
+        },
+        "public.tb_medicamento_uso_continuo": {
+          "tokens_in": 984,
+          "tokens_out": 25,
+          "tokens_total": 1009,
+          "elapsed_s": 1.215,
+          "fallback": false
+        },
+        "public.tb_medicao": {
+          "tokens_in": 2578,
+          "tokens_out": 22,
+          "tokens_total": 2600,
+          "elapsed_s": 1.377,
+          "fallback": false
+        },
+        "public.tb_odontograma": {
+          "tokens_in": 1089,
+          "tokens_out": 23,
+          "tokens_total": 1112,
+          "elapsed_s": 1.175,
+          "fallback": false
+        },
+        "public.tb_proced_exame_especifico": {
+          "tokens_in": 819,
+          "tokens_out": 26,
+          "tokens_total": 845,
+          "elapsed_s": 1.51,
+          "fallback": false
+        },
+        "public.tb_raca_cor": {
+          "tokens_in": 855,
+          "tokens_out": 26,
+          "tokens_total": 881,
+          "elapsed_s": 1.563,
+          "fallback": false
+        },
+        "public.tb_tipo_glicemia": {
+          "tokens_in": 810,
+          "tokens_out": 16,
+          "tokens_total": 826,
+          "elapsed_s": 1.141,
+          "fallback": false
+        }
+      }
+    },
+    "v07_plus_sample_rows": {
+      "total_tokens_in": 0,
+      "total_tokens_out": 0,
+      "total_tokens": 0,
+      "total_elapsed_s": 0,
+      "tables_processed": 0,
+      "per_table": {
+        "public.tb_ciap_ms": {
+          "tokens_in": 1445,
+          "tokens_out": 19,
+          "tokens_total": 1464,
+          "elapsed_s": 1.25,
+          "fallback": false
+        },
+        "public.tb_problema": {
+          "tokens_in": 1220,
+          "tokens_out": 28,
+          "tokens_total": 1248,
+          "elapsed_s": 1.322,
+          "fallback": false
+        },
+        "public.tb_dim_catmat": {
+          "tokens_in": 1132,
+          "tokens_out": 23,
+          "tokens_total": 1155,
+          "elapsed_s": 1.287,
+          "fallback": false
+        },
+        "public.ta_medicamento_catmat": {
+          "tokens_in": 1522,
+          "tokens_out": 22,
+          "tokens_total": 1544,
+          "elapsed_s": 1.246,
+          "fallback": false
+        },
+        "public.ta_tecido_mole": {
+          "tokens_in": 1325,
+          "tokens_out": 22,
+          "tokens_total": 1347,
+          "elapsed_s": 1.284,
+          "fallback": false
+        },
+        "public.ta_vacinacao": {
+          "tokens_in": 1338,
+          "tokens_out": 22,
+          "tokens_total": 1360,
+          "elapsed_s": 1.63,
+          "fallback": false
+        },
+        "public.tb_antecedente": {
+          "tokens_in": 2422,
+          "tokens_out": 24,
+          "tokens_total": 2446,
+          "elapsed_s": 1.06,
+          "fallback": false
+        },
+        "public.tb_cidadao": {
+          "tokens_in": 5118,
+          "tokens_out": 22,
+          "tokens_total": 5140,
+          "elapsed_s": 1.332,
+          "fallback": false
+        },
+        "public.tb_cuidado_compartilhado_evol": {
+          "tokens_in": 2004,
+          "tokens_out": 30,
+          "tokens_total": 2034,
+          "elapsed_s": 1.445,
+          "fallback": false
+        },
+        "public.tb_evolucao_odonto": {
+          "tokens_in": 1164,
+          "tokens_out": 23,
+          "tokens_total": 1187,
+          "elapsed_s": 1.377,
+          "fallback": false
+        },
+        "public.tb_evolucao_subjetivo": {
+          "tokens_in": 906,
+          "tokens_out": 22,
+          "tokens_total": 928,
+          "elapsed_s": 1.267,
+          "fallback": false
+        },
+        "public.tb_exame_hemoglobina_glicada": {
+          "tokens_in": 949,
+          "tokens_out": 23,
+          "tokens_total": 972,
+          "elapsed_s": 1.322,
+          "fallback": false
+        },
+        "public.tb_exame_prenatal": {
+          "tokens_in": 1038,
+          "tokens_out": 20,
+          "tokens_total": 1058,
+          "elapsed_s": 1.189,
+          "fallback": false
+        },
+        "public.tb_fat_atend_odonto_problemas": {
+          "tokens_in": 2602,
+          "tokens_out": 26,
+          "tokens_total": 2628,
+          "elapsed_s": 1.206,
+          "fallback": false
+        },
+        "public.tb_fat_rel_op_risco_cardio": {
+          "tokens_in": 1901,
+          "tokens_out": 22,
+          "tokens_total": 1923,
+          "elapsed_s": 1.2,
+          "fallback": false
+        },
+        "public.tb_historico_dados_fao": {
+          "tokens_in": 1129,
+          "tokens_out": 19,
+          "tokens_total": 1148,
+          "elapsed_s": 1.231,
+          "fallback": false
+        },
+        "public.tb_justificativa_prontuario": {
+          "tokens_in": 1161,
+          "tokens_out": 34,
+          "tokens_total": 1195,
+          "elapsed_s": 1.421,
+          "fallback": false
+        },
+        "public.tb_lembrete_evolucao": {
+          "tokens_in": 1254,
+          "tokens_out": 31,
+          "tokens_total": 1285,
+          "elapsed_s": 1.25,
+          "fallback": false
+        },
+        "public.tb_medicamento_uso_continuo": {
+          "tokens_in": 990,
+          "tokens_out": 24,
+          "tokens_total": 1014,
+          "elapsed_s": 1.254,
+          "fallback": false
+        },
+        "public.tb_medicao": {
+          "tokens_in": 2124,
+          "tokens_out": 19,
+          "tokens_total": 2143,
+          "elapsed_s": 1.457,
+          "fallback": false
+        },
+        "public.tb_odontograma": {
+          "tokens_in": 1106,
+          "tokens_out": 23,
+          "tokens_total": 1129,
+          "elapsed_s": 1.2,
+          "fallback": false
+        },
+        "public.tb_proced_exame_especifico": {
+          "tokens_in": 947,
+          "tokens_out": 30,
+          "tokens_total": 977,
+          "elapsed_s": 1.59,
+          "fallback": false
+        },
+        "public.tb_raca_cor": {
+          "tokens_in": 998,
+          "tokens_out": 26,
+          "tokens_total": 1024,
+          "elapsed_s": 1.336,
+          "fallback": false
+        },
+        "public.tb_tipo_glicemia": {
+          "tokens_in": 918,
+          "tokens_out": 34,
+          "tokens_total": 952,
+          "elapsed_s": 1.353,
+          "fallback": false
+        }
+      }
+    },
+    "v08_fk_plus_sample_values": {
+      "total_tokens_in": 0,
+      "total_tokens_out": 0,
+      "total_tokens": 0,
+      "total_elapsed_s": 0,
+      "tables_processed": 0,
+      "per_table": {
+        "public.tb_ciap_ms": {
+          "tokens_in": 3995,
+          "tokens_out": 31,
+          "tokens_total": 4026,
+          "elapsed_s": 1.412,
+          "fallback": false
+        },
+        "public.tb_problema": {
+          "tokens_in": 1770,
+          "tokens_out": 28,
+          "tokens_total": 1798,
+          "elapsed_s": 1.438,
+          "fallback": false
+        },
+        "public.tb_dim_catmat": {
+          "tokens_in": 1567,
+          "tokens_out": 28,
+          "tokens_total": 1595,
+          "elapsed_s": 1.367,
+          "fallback": false
+        },
+        "public.ta_medicamento_catmat": {
+          "tokens_in": 2244,
+          "tokens_out": 27,
+          "tokens_total": 2271,
+          "elapsed_s": 1.383,
+          "fallback": false
+        },
+        "public.ta_tecido_mole": {
+          "tokens_in": 1654,
+          "tokens_out": 24,
+          "tokens_total": 1678,
+          "elapsed_s": 1.28,
+          "fallback": false
+        },
+        "public.ta_vacinacao": {
+          "tokens_in": 1560,
+          "tokens_out": 20,
+          "tokens_total": 1580,
+          "elapsed_s": 1.154,
+          "fallback": false
+        },
+        "public.tb_antecedente": {
+          "tokens_in": 3623,
+          "tokens_out": 24,
+          "tokens_total": 3647,
+          "elapsed_s": 1.46,
+          "fallback": false
+        },
+        "public.tb_cidadao": {
+          "tokens_in": 8488,
+          "tokens_out": 23,
+          "tokens_total": 8511,
+          "elapsed_s": 1.36,
+          "fallback": false
+        },
+        "public.tb_cuidado_compartilhado_evol": {
+          "tokens_in": 3716,
+          "tokens_out": 25,
+          "tokens_total": 3741,
+          "elapsed_s": 1.278,
+          "fallback": false
+        },
+        "public.tb_evolucao_odonto": {
+          "tokens_in": 1697,
+          "tokens_out": 23,
+          "tokens_total": 1720,
+          "elapsed_s": 1.532,
+          "fallback": false
+        },
+        "public.tb_evolucao_subjetivo": {
+          "tokens_in": 1117,
+          "tokens_out": 32,
+          "tokens_total": 1149,
+          "elapsed_s": 1.365,
+          "fallback": false
+        },
+        "public.tb_exame_hemoglobina_glicada": {
+          "tokens_in": 1081,
+          "tokens_out": 20,
+          "tokens_total": 1101,
+          "elapsed_s": 1.233,
+          "fallback": false
+        },
+        "public.tb_exame_prenatal": {
+          "tokens_in": 1235,
+          "tokens_out": 25,
+          "tokens_total": 1260,
+          "elapsed_s": 1.394,
+          "fallback": false
+        },
+        "public.tb_fat_atend_odonto_problemas": {
+          "tokens_in": 5047,
+          "tokens_out": 22,
+          "tokens_total": 5069,
+          "elapsed_s": 1.299,
+          "fallback": false
+        },
+        "public.tb_fat_rel_op_risco_cardio": {
+          "tokens_in": 3205,
+          "tokens_out": 14,
+          "tokens_total": 3219,
+          "elapsed_s": 1.248,
+          "fallback": false
+        },
+        "public.tb_historico_dados_fao": {
+          "tokens_in": 2316,
+          "tokens_out": 21,
+          "tokens_total": 2337,
+          "elapsed_s": 1.184,
+          "fallback": false
+        },
+        "public.tb_justificativa_prontuario": {
+          "tokens_in": 1620,
+          "tokens_out": 35,
+          "tokens_total": 1655,
+          "elapsed_s": 1.51,
+          "fallback": false
+        },
+        "public.tb_lembrete_evolucao": {
+          "tokens_in": 2653,
+          "tokens_out": 30,
+          "tokens_total": 2683,
+          "elapsed_s": 1.429,
+          "fallback": false
+        },
+        "public.tb_medicamento_uso_continuo": {
+          "tokens_in": 1208,
+          "tokens_out": 26,
+          "tokens_total": 1234,
+          "elapsed_s": 1.476,
+          "fallback": false
+        },
+        "public.tb_medicao": {
+          "tokens_in": 2999,
+          "tokens_out": 21,
+          "tokens_total": 3020,
+          "elapsed_s": 1.698,
+          "fallback": false
+        },
+        "public.tb_odontograma": {
+          "tokens_in": 1189,
+          "tokens_out": 23,
+          "tokens_total": 1212,
+          "elapsed_s": 1.23,
+          "fallback": false
+        },
+        "public.tb_proced_exame_especifico": {
+          "tokens_in": 1123,
+          "tokens_out": 20,
+          "tokens_total": 1143,
+          "elapsed_s": 1.138,
+          "fallback": false
+        },
+        "public.tb_raca_cor": {
+          "tokens_in": 1001,
+          "tokens_out": 31,
+          "tokens_total": 1032,
+          "elapsed_s": 1.704,
+          "fallback": false
+        },
+        "public.tb_tipo_glicemia": {
+          "tokens_in": 904,
+          "tokens_out": 25,
+          "tokens_total": 929,
+          "elapsed_s": 1.451,
+          "fallback": false
+        }
+      }
+    },
+    "v09_fk_plus_frequent_values": {
+      "total_tokens_in": 0,
+      "total_tokens_out": 0,
+      "total_tokens": 0,
+      "total_elapsed_s": 0,
+      "tables_processed": 0,
+      "per_table": {
+        "public.tb_ciap_ms": {
+          "tokens_in": 2079,
+          "tokens_out": 21,
+          "tokens_total": 2100,
+          "elapsed_s": 1.29,
+          "fallback": false
+        },
+        "public.tb_problema": {
+          "tokens_in": 1254,
+          "tokens_out": 34,
+          "tokens_total": 1288,
+          "elapsed_s": 1.622,
+          "fallback": false
+        },
+        "public.tb_dim_catmat": {
+          "tokens_in": 1208,
+          "tokens_out": 33,
+          "tokens_total": 1241,
+          "elapsed_s": 1.283,
+          "fallback": false
+        },
+        "public.ta_medicamento_catmat": {
+          "tokens_in": 1976,
+          "tokens_out": 25,
+          "tokens_total": 2001,
+          "elapsed_s": 1.547,
+          "fallback": false
+        },
+        "public.ta_tecido_mole": {
+          "tokens_in": 1308,
+          "tokens_out": 29,
+          "tokens_total": 1337,
+          "elapsed_s": 1.436,
+          "fallback": false
+        },
+        "public.ta_vacinacao": {
+          "tokens_in": 1251,
+          "tokens_out": 25,
+          "tokens_total": 1276,
+          "elapsed_s": 1.372,
+          "fallback": false
+        },
+        "public.tb_antecedente": {
+          "tokens_in": 3498,
+          "tokens_out": 24,
+          "tokens_total": 3522,
+          "elapsed_s": 1.263,
+          "fallback": false
+        },
+        "public.tb_cidadao": {
+          "tokens_in": 7043,
+          "tokens_out": 23,
+          "tokens_total": 7066,
+          "elapsed_s": 1.372,
+          "fallback": false
+        },
+        "public.tb_cuidado_compartilhado_evol": {
+          "tokens_in": 2311,
+          "tokens_out": 27,
+          "tokens_total": 2338,
+          "elapsed_s": 1.596,
+          "fallback": false
+        },
+        "public.tb_evolucao_odonto": {
+          "tokens_in": 1521,
+          "tokens_out": 23,
+          "tokens_total": 1544,
+          "elapsed_s": 1.305,
+          "fallback": false
+        },
+        "public.tb_evolucao_subjetivo": {
+          "tokens_in": 987,
+          "tokens_out": 26,
+          "tokens_total": 1013,
+          "elapsed_s": 1.513,
+          "fallback": false
+        },
+        "public.tb_exame_hemoglobina_glicada": {
+          "tokens_in": 974,
+          "tokens_out": 20,
+          "tokens_total": 994,
+          "elapsed_s": 1.29,
+          "fallback": false
+        },
+        "public.tb_exame_prenatal": {
+          "tokens_in": 1154,
+          "tokens_out": 19,
+          "tokens_total": 1173,
+          "elapsed_s": 1.151,
+          "fallback": false
+        },
+        "public.tb_fat_atend_odonto_problemas": {
+          "tokens_in": 4043,
+          "tokens_out": 22,
+          "tokens_total": 4065,
+          "elapsed_s": 1.533,
+          "fallback": false
+        },
+        "public.tb_fat_rel_op_risco_cardio": {
+          "tokens_in": 2641,
+          "tokens_out": 14,
+          "tokens_total": 2655,
+          "elapsed_s": 1.191,
+          "fallback": false
+        },
+        "public.tb_historico_dados_fao": {
+          "tokens_in": 1276,
+          "tokens_out": 18,
+          "tokens_total": 1294,
+          "elapsed_s": 1.563,
+          "fallback": false
+        },
+        "public.tb_justificativa_prontuario": {
+          "tokens_in": 1340,
+          "tokens_out": 24,
+          "tokens_total": 1364,
+          "elapsed_s": 1.38,
+          "fallback": false
+        },
+        "public.tb_lembrete_evolucao": {
+          "tokens_in": 1175,
+          "tokens_out": 29,
+          "tokens_total": 1204,
+          "elapsed_s": 1.202,
+          "fallback": false
+        },
+        "public.tb_medicamento_uso_continuo": {
+          "tokens_in": 1139,
+          "tokens_out": 29,
+          "tokens_total": 1168,
+          "elapsed_s": 1.368,
+          "fallback": false
+        },
+        "public.tb_medicao": {
+          "tokens_in": 2678,
+          "tokens_out": 22,
+          "tokens_total": 2700,
+          "elapsed_s": 1.874,
+          "fallback": false
+        },
+        "public.tb_odontograma": {
+          "tokens_in": 1194,
+          "tokens_out": 23,
+          "tokens_total": 1217,
+          "elapsed_s": 1.199,
+          "fallback": false
+        },
+        "public.tb_proced_exame_especifico": {
+          "tokens_in": 839,
+          "tokens_out": 24,
+          "tokens_total": 863,
+          "elapsed_s": 1.15,
+          "fallback": false
+        },
+        "public.tb_raca_cor": {
+          "tokens_in": 871,
+          "tokens_out": 32,
+          "tokens_total": 903,
+          "elapsed_s": 1.357,
+          "fallback": false
+        },
+        "public.tb_tipo_glicemia": {
+          "tokens_in": 827,
+          "tokens_out": 25,
+          "tokens_total": 852,
+          "elapsed_s": 1.332,
+          "fallback": false
+        }
+      }
+    },
+    "v10_fk_plus_sample_and_frequent": {
+      "total_tokens_in": 0,
+      "total_tokens_out": 0,
+      "total_tokens": 0,
+      "total_elapsed_s": 0,
+      "tables_processed": 0,
+      "per_table": {
+        "public.tb_ciap_ms": {
+          "tokens_in": 4938,
+          "tokens_out": 31,
+          "tokens_total": 4969,
+          "elapsed_s": 1.564,
+          "fallback": false
+        },
+        "public.tb_problema": {
+          "tokens_in": 1918,
+          "tokens_out": 28,
+          "tokens_total": 1946,
+          "elapsed_s": 1.436,
+          "fallback": false
+        },
+        "public.tb_dim_catmat": {
+          "tokens_in": 1807,
+          "tokens_out": 23,
+          "tokens_total": 1830,
+          "elapsed_s": 1.309,
+          "fallback": false
+        },
+        "public.ta_medicamento_catmat": {
+          "tokens_in": 3160,
+          "tokens_out": 27,
+          "tokens_total": 3187,
+          "elapsed_s": 1.518,
+          "fallback": false
+        },
+        "public.ta_tecido_mole": {
+          "tokens_in": 1968,
+          "tokens_out": 29,
+          "tokens_total": 1997,
+          "elapsed_s": 1.557,
+          "fallback": false
+        },
+        "public.ta_vacinacao": {
+          "tokens_in": 1809,
+          "tokens_out": 21,
+          "tokens_total": 1830,
+          "elapsed_s": 1.247,
+          "fallback": false
+        },
+        "public.tb_antecedente": {
+          "tokens_in": 5584,
+          "tokens_out": 24,
+          "tokens_total": 5608,
+          "elapsed_s": 1.812,
+          "fallback": false
+        },
+        "public.tb_cidadao": {
+          "tokens_in": 12273,
+          "tokens_out": 23,
+          "tokens_total": 12296,
+          "elapsed_s": 1.929,
+          "fallback": false
+        },
+        "public.tb_cuidado_compartilhado_evol": {
+          "tokens_in": 4219,
+          "tokens_out": 25,
+          "tokens_total": 4244,
+          "elapsed_s": 2.174,
+          "fallback": false
+        },
+        "public.tb_evolucao_odonto": {
+          "tokens_in": 2149,
+          "tokens_out": 23,
+          "tokens_total": 2172,
+          "elapsed_s": 1.442,
+          "fallback": false
+        },
+        "public.tb_evolucao_subjetivo": {
+          "tokens_in": 1233,
+          "tokens_out": 31,
+          "tokens_total": 1264,
+          "elapsed_s": 1.677,
+          "fallback": false
+        },
+        "public.tb_exame_hemoglobina_glicada": {
+          "tokens_in": 1157,
+          "tokens_out": 20,
+          "tokens_total": 1177,
+          "elapsed_s": 1.178,
+          "fallback": false
+        },
+        "public.tb_exame_prenatal": {
+          "tokens_in": 1458,
+          "tokens_out": 26,
+          "tokens_total": 1484,
+          "elapsed_s": 1.52,
+          "fallback": false
+        },
+        "public.tb_fat_atend_odonto_problemas": {
+          "tokens_in": 6749,
+          "tokens_out": 20,
+          "tokens_total": 6769,
+          "elapsed_s": 1.434,
+          "fallback": false
+        },
+        "public.tb_fat_rel_op_risco_cardio": {
+          "tokens_in": 4591,
+          "tokens_out": 14,
+          "tokens_total": 4605,
+          "elapsed_s": 1.727,
+          "fallback": false
+        },
+        "public.tb_historico_dados_fao": {
+          "tokens_in": 2744,
+          "tokens_out": 18,
+          "tokens_total": 2762,
+          "elapsed_s": 1.312,
+          "fallback": false
+        },
+        "public.tb_justificativa_prontuario": {
+          "tokens_in": 1943,
+          "tokens_out": 38,
+          "tokens_total": 1981,
+          "elapsed_s": 1.851,
+          "fallback": false
+        },
+        "public.tb_lembrete_evolucao": {
+          "tokens_in": 2770,
+          "tokens_out": 30,
+          "tokens_total": 2800,
+          "elapsed_s": 1.853,
+          "fallback": false
+        },
+        "public.tb_medicamento_uso_continuo": {
+          "tokens_in": 1348,
+          "tokens_out": 27,
+          "tokens_total": 1375,
+          "elapsed_s": 1.398,
+          "fallback": false
+        },
+        "public.tb_medicao": {
+          "tokens_in": 4278,
+          "tokens_out": 21,
+          "tokens_total": 4299,
+          "elapsed_s": 1.788,
+          "fallback": false
+        },
+        "public.tb_odontograma": {
+          "tokens_in": 1379,
+          "tokens_out": 23,
+          "tokens_total": 1402,
+          "elapsed_s": 1.445,
+          "fallback": false
+        },
+        "public.tb_proced_exame_especifico": {
+          "tokens_in": 1123,
+          "tokens_out": 20,
+          "tokens_total": 1143,
+          "elapsed_s": 1.299,
+          "fallback": false
+        },
+        "public.tb_raca_cor": {
+          "tokens_in": 1001,
+          "tokens_out": 26,
+          "tokens_total": 1027,
+          "elapsed_s": 1.363,
+          "fallback": false
+        },
+        "public.tb_tipo_glicemia": {
+          "tokens_in": 904,
+          "tokens_out": 25,
+          "tokens_total": 929,
+          "elapsed_s": 1.096,
+          "fallback": false
+        }
+      }
+    },
+    "v11_fk_plus_sample_rows": {
+      "total_tokens_in": 0,
+      "total_tokens_out": 0,
+      "total_tokens": 0,
+      "total_elapsed_s": 0,
+      "tables_processed": 0,
+      "per_table": {
+        "public.tb_ciap_ms": {
+          "tokens_in": 1620,
+          "tokens_out": 25,
+          "tokens_total": 1645,
+          "elapsed_s": 1.202,
+          "fallback": false
+        },
+        "public.tb_problema": {
+          "tokens_in": 1403,
+          "tokens_out": 33,
+          "tokens_total": 1436,
+          "elapsed_s": 1.266,
+          "fallback": false
+        },
+        "public.tb_dim_catmat": {
+          "tokens_in": 1197,
+          "tokens_out": 23,
+          "tokens_total": 1220,
+          "elapsed_s": 1.188,
+          "fallback": false
+        },
+        "public.ta_medicamento_catmat": {
+          "tokens_in": 1542,
+          "tokens_out": 28,
+          "tokens_total": 1570,
+          "elapsed_s": 1.46,
+          "fallback": false
+        },
+        "public.ta_tecido_mole": {
+          "tokens_in": 1343,
+          "tokens_out": 30,
+          "tokens_total": 1373,
+          "elapsed_s": 1.419,
+          "fallback": false
+        },
+        "public.ta_vacinacao": {
+          "tokens_in": 1355,
+          "tokens_out": 28,
+          "tokens_total": 1383,
+          "elapsed_s": 1.204,
+          "fallback": false
+        },
+        "public.tb_antecedente": {
+          "tokens_in": 2476,
+          "tokens_out": 24,
+          "tokens_total": 2500,
+          "elapsed_s": 1.487,
+          "fallback": false
+        },
+        "public.tb_cidadao": {
+          "tokens_in": 5799,
+          "tokens_out": 23,
+          "tokens_total": 5822,
+          "elapsed_s": 1.356,
+          "fallback": false
+        },
+        "public.tb_cuidado_compartilhado_evol": {
+          "tokens_in": 2597,
+          "tokens_out": 26,
+          "tokens_total": 2623,
+          "elapsed_s": 1.168,
+          "fallback": false
+        },
+        "public.tb_evolucao_odonto": {
+          "tokens_in": 1320,
+          "tokens_out": 23,
+          "tokens_total": 1343,
+          "elapsed_s": 1.166,
+          "fallback": false
+        },
+        "public.tb_evolucao_subjetivo": {
+          "tokens_in": 964,
+          "tokens_out": 17,
+          "tokens_total": 981,
+          "elapsed_s": 1.041,
+          "fallback": false
+        },
+        "public.tb_exame_hemoglobina_glicada": {
+          "tokens_in": 1022,
+          "tokens_out": 24,
+          "tokens_total": 1046,
+          "elapsed_s": 1.127,
+          "fallback": false
+        },
+        "public.tb_exame_prenatal": {
+          "tokens_in": 1107,
+          "tokens_out": 26,
+          "tokens_total": 1133,
+          "elapsed_s": 1.51,
+          "fallback": false
+        },
+        "public.tb_fat_atend_odonto_problemas": {
+          "tokens_in": 3469,
+          "tokens_out": 22,
+          "tokens_total": 3491,
+          "elapsed_s": 1.266,
+          "fallback": false
+        },
+        "public.tb_fat_rel_op_risco_cardio": {
+          "tokens_in": 1977,
+          "tokens_out": 20,
+          "tokens_total": 1997,
+          "elapsed_s": 1.244,
+          "fallback": false
+        },
+        "public.tb_historico_dados_fao": {
+          "tokens_in": 1139,
+          "tokens_out": 19,
+          "tokens_total": 1158,
+          "elapsed_s": 1.401,
+          "fallback": false
+        },
+        "public.tb_justificativa_prontuario": {
+          "tokens_in": 1299,
+          "tokens_out": 35,
+          "tokens_total": 1334,
+          "elapsed_s": 1.312,
+          "fallback": false
+        },
+        "public.tb_lembrete_evolucao": {
+          "tokens_in": 1406,
+          "tokens_out": 27,
+          "tokens_total": 1433,
+          "elapsed_s": 1.19,
+          "fallback": false
+        },
+        "public.tb_medicamento_uso_continuo": {
+          "tokens_in": 1145,
+          "tokens_out": 29,
+          "tokens_total": 1174,
+          "elapsed_s": 1.676,
+          "fallback": false
+        },
+        "public.tb_medicao": {
+          "tokens_in": 2224,
+          "tokens_out": 20,
+          "tokens_total": 2244,
+          "elapsed_s": 1.264,
+          "fallback": false
+        },
+        "public.tb_odontograma": {
+          "tokens_in": 1211,
+          "tokens_out": 23,
+          "tokens_total": 1234,
+          "elapsed_s": 1.301,
+          "fallback": false
+        },
+        "public.tb_proced_exame_especifico": {
+          "tokens_in": 967,
+          "tokens_out": 24,
+          "tokens_total": 991,
+          "elapsed_s": 1.265,
+          "fallback": false
+        },
+        "public.tb_raca_cor": {
+          "tokens_in": 1014,
+          "tokens_out": 36,
+          "tokens_total": 1050,
+          "elapsed_s": 1.588,
+          "fallback": false
+        },
+        "public.tb_tipo_glicemia": {
+          "tokens_in": 935,
+          "tokens_out": 28,
+          "tokens_total": 963,
+          "elapsed_s": 1.201,
+          "fallback": false
+        }
+      }
+    },
+    "v12_nullable_plus_sample_values": {
+      "total_tokens_in": 0,
+      "total_tokens_out": 0,
+      "total_tokens": 0,
+      "total_elapsed_s": 0,
+      "tables_processed": 0,
+      "per_table": {
+        "public.tb_ciap_ms": {
+          "tokens_in": 3870,
+          "tokens_out": 24,
+          "tokens_total": 3894,
+          "elapsed_s": 1.354,
+          "fallback": false
+        },
+        "public.tb_problema": {
+          "tokens_in": 1627,
+          "tokens_out": 20,
+          "tokens_total": 1647,
+          "elapsed_s": 1.244,
+          "fallback": false
+        },
+        "public.tb_dim_catmat": {
+          "tokens_in": 1537,
+          "tokens_out": 40,
+          "tokens_total": 1577,
+          "elapsed_s": 1.403,
+          "fallback": false
+        },
+        "public.ta_medicamento_catmat": {
+          "tokens_in": 2289,
+          "tokens_out": 23,
+          "tokens_total": 2312,
+          "elapsed_s": 1.21,
+          "fallback": false
+        },
+        "public.ta_tecido_mole": {
+          "tokens_in": 1686,
+          "tokens_out": 24,
+          "tokens_total": 1710,
+          "elapsed_s": 1.435,
+          "fallback": false
+        },
+        "public.ta_vacinacao": {
+          "tokens_in": 1598,
+          "tokens_out": 22,
+          "tokens_total": 1620,
+          "elapsed_s": 1.166,
+          "fallback": false
+        },
+        "public.tb_antecedente": {
+          "tokens_in": 3724,
+          "tokens_out": 24,
+          "tokens_total": 3748,
+          "elapsed_s": 1.294,
+          "fallback": false
+        },
+        "public.tb_cidadao": {
+          "tokens_in": 8207,
+          "tokens_out": 23,
+          "tokens_total": 8230,
+          "elapsed_s": 1.303,
+          "fallback": false
+        },
+        "public.tb_cuidado_compartilhado_evol": {
+          "tokens_in": 3218,
+          "tokens_out": 24,
+          "tokens_total": 3242,
+          "elapsed_s": 1.461,
+          "fallback": false
+        },
+        "public.tb_evolucao_odonto": {
+          "tokens_in": 1576,
+          "tokens_out": 24,
+          "tokens_total": 1600,
+          "elapsed_s": 1.297,
+          "fallback": false
+        },
+        "public.tb_evolucao_subjetivo": {
+          "tokens_in": 1074,
+          "tokens_out": 30,
+          "tokens_total": 1104,
+          "elapsed_s": 1.301,
+          "fallback": false
+        },
+        "public.tb_exame_hemoglobina_glicada": {
+          "tokens_in": 1023,
+          "tokens_out": 22,
+          "tokens_total": 1045,
+          "elapsed_s": 1.442,
+          "fallback": false
+        },
+        "public.tb_exame_prenatal": {
+          "tokens_in": 1191,
+          "tokens_out": 20,
+          "tokens_total": 1211,
+          "elapsed_s": 1.478,
+          "fallback": false
+        },
+        "public.tb_fat_atend_odonto_problemas": {
+          "tokens_in": 4330,
+          "tokens_out": 22,
+          "tokens_total": 4352,
+          "elapsed_s": 1.821,
+          "fallback": false
+        },
+        "public.tb_fat_rel_op_risco_cardio": {
+          "tokens_in": 3219,
+          "tokens_out": 14,
+          "tokens_total": 3233,
+          "elapsed_s": 1.178,
+          "fallback": false
+        },
+        "public.tb_historico_dados_fao": {
+          "tokens_in": 2326,
+          "tokens_out": 19,
+          "tokens_total": 2345,
+          "elapsed_s": 1.699,
+          "fallback": false
+        },
+        "public.tb_justificativa_prontuario": {
+          "tokens_in": 1512,
+          "tokens_out": 35,
+          "tokens_total": 1547,
+          "elapsed_s": 1.28,
+          "fallback": false
+        },
+        "public.tb_lembrete_evolucao": {
+          "tokens_in": 2536,
+          "tokens_out": 34,
+          "tokens_total": 2570,
+          "elapsed_s": 1.443,
+          "fallback": false
+        },
+        "public.tb_medicamento_uso_continuo": {
+          "tokens_in": 1073,
+          "tokens_out": 27,
+          "tokens_total": 1100,
+          "elapsed_s": 1.296,
+          "fallback": false
+        },
+        "public.tb_medicao": {
+          "tokens_in": 3004,
+          "tokens_out": 21,
+          "tokens_total": 3025,
+          "elapsed_s": 1.407,
+          "fallback": false
+        },
+        "public.tb_odontograma": {
+          "tokens_in": 1119,
+          "tokens_out": 23,
+          "tokens_total": 1142,
+          "elapsed_s": 1.515,
+          "fallback": false
+        },
+        "public.tb_proced_exame_especifico": {
+          "tokens_in": 1118,
+          "tokens_out": 20,
+          "tokens_total": 1138,
+          "elapsed_s": 1.427,
+          "fallback": false
+        },
+        "public.tb_raca_cor": {
+          "tokens_in": 1010,
+          "tokens_out": 29,
+          "tokens_total": 1039,
+          "elapsed_s": 1.303,
+          "fallback": false
+        },
+        "public.tb_tipo_glicemia": {
+          "tokens_in": 902,
+          "tokens_out": 25,
+          "tokens_total": 927,
+          "elapsed_s": 1.147,
+          "fallback": false
+        }
+      }
+    },
+    "v13_nullable_plus_frequent_values": {
+      "total_tokens_in": 0,
+      "total_tokens_out": 0,
+      "total_tokens": 0,
+      "total_elapsed_s": 0,
+      "tables_processed": 0,
+      "per_table": {
+        "public.tb_ciap_ms": {
+          "tokens_in": 1954,
+          "tokens_out": 22,
+          "tokens_total": 1976,
+          "elapsed_s": 1.187,
+          "fallback": false
+        },
+        "public.tb_problema": {
+          "tokens_in": 1111,
+          "tokens_out": 28,
+          "tokens_total": 1139,
+          "elapsed_s": 1.239,
+          "fallback": false
+        },
+        "public.tb_dim_catmat": {
+          "tokens_in": 1178,
+          "tokens_out": 26,
+          "tokens_total": 1204,
+          "elapsed_s": 1.393,
+          "fallback": false
+        },
+        "public.ta_medicamento_catmat": {
+          "tokens_in": 2021,
+          "tokens_out": 33,
+          "tokens_total": 2054,
+          "elapsed_s": 1.251,
+          "fallback": false
+        },
+        "public.ta_tecido_mole": {
+          "tokens_in": 1340,
+          "tokens_out": 19,
+          "tokens_total": 1359,
+          "elapsed_s": 1.287,
+          "fallback": false
+        },
+        "public.ta_vacinacao": {
+          "tokens_in": 1289,
+          "tokens_out": 25,
+          "tokens_total": 1314,
+          "elapsed_s": 1.214,
+          "fallback": false
+        },
+        "public.tb_antecedente": {
+          "tokens_in": 3599,
+          "tokens_out": 26,
+          "tokens_total": 3625,
+          "elapsed_s": 2.117,
+          "fallback": false
+        },
+        "public.tb_cidadao": {
+          "tokens_in": 6762,
+          "tokens_out": 23,
+          "tokens_total": 6785,
+          "elapsed_s": 2.079,
+          "fallback": false
+        },
+        "public.tb_cuidado_compartilhado_evol": {
+          "tokens_in": 1813,
+          "tokens_out": 26,
+          "tokens_total": 1839,
+          "elapsed_s": 1.356,
+          "fallback": false
+        },
+        "public.tb_evolucao_odonto": {
+          "tokens_in": 1400,
+          "tokens_out": 24,
+          "tokens_total": 1424,
+          "elapsed_s": 1.65,
+          "fallback": false
+        },
+        "public.tb_evolucao_subjetivo": {
+          "tokens_in": 944,
+          "tokens_out": 26,
+          "tokens_total": 970,
+          "elapsed_s": 1.525,
+          "fallback": false
+        },
+        "public.tb_exame_hemoglobina_glicada": {
+          "tokens_in": 916,
+          "tokens_out": 23,
+          "tokens_total": 939,
+          "elapsed_s": 1.749,
+          "fallback": false
+        },
+        "public.tb_exame_prenatal": {
+          "tokens_in": 1110,
+          "tokens_out": 19,
+          "tokens_total": 1129,
+          "elapsed_s": 1.185,
+          "fallback": false
+        },
+        "public.tb_fat_atend_odonto_problemas": {
+          "tokens_in": 3326,
+          "tokens_out": 23,
+          "tokens_total": 3349,
+          "elapsed_s": 1.099,
+          "fallback": false
+        },
+        "public.tb_fat_rel_op_risco_cardio": {
+          "tokens_in": 2655,
+          "tokens_out": 14,
+          "tokens_total": 2669,
+          "elapsed_s": 1.349,
+          "fallback": false
+        },
+        "public.tb_historico_dados_fao": {
+          "tokens_in": 1286,
+          "tokens_out": 17,
+          "tokens_total": 1303,
+          "elapsed_s": 1.121,
+          "fallback": false
+        },
+        "public.tb_justificativa_prontuario": {
+          "tokens_in": 1232,
+          "tokens_out": 23,
+          "tokens_total": 1255,
+          "elapsed_s": 1.205,
+          "fallback": false
+        },
+        "public.tb_lembrete_evolucao": {
+          "tokens_in": 1058,
+          "tokens_out": 27,
+          "tokens_total": 1085,
+          "elapsed_s": 1.819,
+          "fallback": false
+        },
+        "public.tb_medicamento_uso_continuo": {
+          "tokens_in": 1004,
+          "tokens_out": 25,
+          "tokens_total": 1029,
+          "elapsed_s": 1.806,
+          "fallback": false
+        },
+        "public.tb_medicao": {
+          "tokens_in": 2683,
+          "tokens_out": 23,
+          "tokens_total": 2706,
+          "elapsed_s": 1.544,
+          "fallback": false
+        },
+        "public.tb_odontograma": {
+          "tokens_in": 1124,
+          "tokens_out": 23,
+          "tokens_total": 1147,
+          "elapsed_s": 1.455,
+          "fallback": false
+        },
+        "public.tb_proced_exame_especifico": {
+          "tokens_in": 834,
+          "tokens_out": 21,
+          "tokens_total": 855,
+          "elapsed_s": 1.301,
+          "fallback": false
+        },
+        "public.tb_raca_cor": {
+          "tokens_in": 880,
+          "tokens_out": 32,
+          "tokens_total": 912,
+          "elapsed_s": 1.364,
+          "fallback": false
+        },
+        "public.tb_tipo_glicemia": {
+          "tokens_in": 825,
+          "tokens_out": 17,
+          "tokens_total": 842,
+          "elapsed_s": 1.311,
+          "fallback": false
+        }
+      }
+    },
+    "v14_nullable_plus_numeric_stats": {
+      "total_tokens_in": 0,
+      "total_tokens_out": 0,
+      "total_tokens": 0,
+      "total_elapsed_s": 0,
+      "tables_processed": 0,
+      "per_table": {
+        "public.tb_ciap_ms": {
+          "tokens_in": 1190,
+          "tokens_out": 24,
+          "tokens_total": 1214,
+          "elapsed_s": 1.24,
+          "fallback": false
+        },
+        "public.tb_problema": {
+          "tokens_in": 1233,
+          "tokens_out": 20,
+          "tokens_total": 1253,
+          "elapsed_s": 1.46,
+          "fallback": false
+        },
+        "public.tb_dim_catmat": {
+          "tokens_in": 1062,
+          "tokens_out": 23,
+          "tokens_total": 1085,
+          "elapsed_s": 1.492,
+          "fallback": false
+        },
+        "public.ta_medicamento_catmat": {
+          "tokens_in": 1418,
+          "tokens_out": 23,
+          "tokens_total": 1441,
+          "elapsed_s": 1.454,
+          "fallback": false
+        },
+        "public.ta_tecido_mole": {
+          "tokens_in": 1339,
+          "tokens_out": 24,
+          "tokens_total": 1363,
+          "elapsed_s": 1.225,
+          "fallback": false
+        },
+        "public.ta_vacinacao": {
+          "tokens_in": 1403,
+          "tokens_out": 23,
+          "tokens_total": 1426,
+          "elapsed_s": 1.298,
+          "fallback": false
+        },
+        "public.tb_antecedente": {
+          "tokens_in": 1713,
+          "tokens_out": 24,
+          "tokens_total": 1737,
+          "elapsed_s": 1.498,
+          "fallback": false
+        },
+        "public.tb_cidadao": {
+          "tokens_in": 4388,
+          "tokens_out": 23,
+          "tokens_total": 4411,
+          "elapsed_s": 1.411,
+          "fallback": false
+        },
+        "public.tb_cuidado_compartilhado_evol": {
+          "tokens_in": 1874,
+          "tokens_out": 24,
+          "tokens_total": 1898,
+          "elapsed_s": 1.289,
+          "fallback": false
+        },
+        "public.tb_evolucao_odonto": {
+          "tokens_in": 1134,
+          "tokens_out": 23,
+          "tokens_total": 1157,
+          "elapsed_s": 1.185,
+          "fallback": false
+        },
+        "public.tb_evolucao_subjetivo": {
+          "tokens_in": 874,
+          "tokens_out": 23,
+          "tokens_total": 897,
+          "elapsed_s": 1.261,
+          "fallback": false
+        },
+        "public.tb_exame_hemoglobina_glicada": {
+          "tokens_in": 974,
+          "tokens_out": 23,
+          "tokens_total": 997,
+          "elapsed_s": 1.355,
+          "fallback": false
+        },
+        "public.tb_exame_prenatal": {
+          "tokens_in": 1068,
+          "tokens_out": 26,
+          "tokens_total": 1094,
+          "elapsed_s": 1.151,
+          "fallback": false
+        },
+        "public.tb_fat_atend_odonto_problemas": {
+          "tokens_in": 2670,
+          "tokens_out": 23,
+          "tokens_total": 2693,
+          "elapsed_s": 1.316,
+          "fallback": false
+        },
+        "public.tb_fat_rel_op_risco_cardio": {
+          "tokens_in": 1467,
+          "tokens_out": 17,
+          "tokens_total": 1484,
+          "elapsed_s": 1.168,
+          "fallback": false
+        },
+        "public.tb_historico_dados_fao": {
+          "tokens_in": 863,
+          "tokens_out": 25,
+          "tokens_total": 888,
+          "elapsed_s": 1.99,
+          "fallback": false
+        },
+        "public.tb_justificativa_prontuario": {
+          "tokens_in": 1092,
+          "tokens_out": 36,
+          "tokens_total": 1128,
+          "elapsed_s": 1.432,
+          "fallback": false
+        },
+        "public.tb_lembrete_evolucao": {
+          "tokens_in": 1151,
+          "tokens_out": 28,
+          "tokens_total": 1179,
+          "elapsed_s": 1.222,
+          "fallback": false
+        },
+        "public.tb_medicamento_uso_continuo": {
+          "tokens_in": 1047,
+          "tokens_out": 26,
+          "tokens_total": 1073,
+          "elapsed_s": 1.251,
+          "fallback": false
+        },
+        "public.tb_medicao": {
+          "tokens_in": 1603,
+          "tokens_out": 18,
+          "tokens_total": 1621,
+          "elapsed_s": 1.265,
+          "fallback": false
+        },
+        "public.tb_odontograma": {
+          "tokens_in": 1257,
+          "tokens_out": 23,
+          "tokens_total": 1280,
+          "elapsed_s": 1.238,
+          "fallback": false
+        },
+        "public.tb_proced_exame_especifico": {
+          "tokens_in": 874,
+          "tokens_out": 26,
+          "tokens_total": 900,
+          "elapsed_s": 1.389,
+          "fallback": false
+        },
+        "public.tb_raca_cor": {
+          "tokens_in": 921,
+          "tokens_out": 25,
+          "tokens_total": 946,
+          "elapsed_s": 1.551,
+          "fallback": false
+        },
+        "public.tb_tipo_glicemia": {
+          "tokens_in": 866,
+          "tokens_out": 16,
+          "tokens_total": 882,
+          "elapsed_s": 1.522,
+          "fallback": false
+        }
+      }
+    },
+    "v15_sample_rows_vs_sample_values": {
+      "total_tokens_in": 0,
+      "total_tokens_out": 0,
+      "total_tokens": 0,
+      "total_elapsed_s": 0,
+      "tables_processed": 0,
+      "per_table": {
+        "public.tb_ciap_ms": {
+          "tokens_in": 4342,
+          "tokens_out": 22,
+          "tokens_total": 4364,
+          "elapsed_s": 1.475,
+          "fallback": false
+        },
+        "public.tb_problema": {
+          "tokens_in": 1919,
+          "tokens_out": 28,
+          "tokens_total": 1947,
+          "elapsed_s": 1.492,
+          "fallback": false
+        },
+        "public.tb_dim_catmat": {
+          "tokens_in": 1758,
+          "tokens_out": 23,
+          "tokens_total": 1781,
+          "elapsed_s": 1.094,
+          "fallback": false
+        },
+        "public.ta_medicamento_catmat": {
+          "tokens_in": 2754,
+          "tokens_out": 30,
+          "tokens_total": 2784,
+          "elapsed_s": 1.539,
+          "fallback": false
+        },
+        "public.ta_tecido_mole": {
+          "tokens_in": 2027,
+          "tokens_out": 20,
+          "tokens_total": 2047,
+          "elapsed_s": 1.131,
+          "fallback": false
+        },
+        "public.ta_vacinacao": {
+          "tokens_in": 1942,
+          "tokens_out": 21,
+          "tokens_total": 1963,
+          "elapsed_s": 1.166,
+          "fallback": false
+        },
+        "public.tb_antecedente": {
+          "tokens_in": 4607,
+          "tokens_out": 25,
+          "tokens_total": 4632,
+          "elapsed_s": 1.396,
+          "fallback": false
+        },
+        "public.tb_cidadao": {
+          "tokens_in": 10638,
+          "tokens_out": 22,
+          "tokens_total": 10660,
+          "elapsed_s": 1.564,
+          "fallback": false
+        },
+        "public.tb_cuidado_compartilhado_evol": {
+          "tokens_in": 3992,
+          "tokens_out": 31,
+          "tokens_total": 4023,
+          "elapsed_s": 1.372,
+          "fallback": false
+        },
+        "public.tb_evolucao_odonto": {
+          "tokens_in": 1820,
+          "tokens_out": 23,
+          "tokens_total": 1843,
+          "elapsed_s": 1.331,
+          "fallback": false
+        },
+        "public.tb_evolucao_subjetivo": {
+          "tokens_in": 1164,
+          "tokens_out": 22,
+          "tokens_total": 1186,
+          "elapsed_s": 1.112,
+          "fallback": false
+        },
+        "public.tb_exame_hemoglobina_glicada": {
+          "tokens_in": 1146,
+          "tokens_out": 26,
+          "tokens_total": 1172,
+          "elapsed_s": 1.196,
+          "fallback": false
+        },
+        "public.tb_exame_prenatal": {
+          "tokens_in": 1364,
+          "tokens_out": 25,
+          "tokens_total": 1389,
+          "elapsed_s": 1.272,
+          "fallback": false
+        },
+        "public.tb_fat_atend_odonto_problemas": {
+          "tokens_in": 5425,
+          "tokens_out": 20,
+          "tokens_total": 5445,
+          "elapsed_s": 1.567,
+          "fallback": false
+        },
+        "public.tb_fat_rel_op_risco_cardio": {
+          "tokens_in": 3925,
+          "tokens_out": 14,
+          "tokens_total": 3939,
+          "elapsed_s": 1.285,
+          "fallback": false
+        },
+        "public.tb_historico_dados_fao": {
+          "tokens_in": 2610,
+          "tokens_out": 19,
+          "tokens_total": 2629,
+          "elapsed_s": 1.518,
+          "fallback": false
+        },
+        "public.tb_justificativa_prontuario": {
+          "tokens_in": 1789,
+          "tokens_out": 35,
+          "tokens_total": 1824,
+          "elapsed_s": 1.326,
+          "fallback": false
+        },
+        "public.tb_lembrete_evolucao": {
+          "tokens_in": 2881,
+          "tokens_out": 27,
+          "tokens_total": 2908,
+          "elapsed_s": 1.265,
+          "fallback": false
+        },
+        "public.tb_medicamento_uso_continuo": {
+          "tokens_in": 1217,
+          "tokens_out": 27,
+          "tokens_total": 1244,
+          "elapsed_s": 1.271,
+          "fallback": false
+        },
+        "public.tb_medicao": {
+          "tokens_in": 3796,
+          "tokens_out": 22,
+          "tokens_total": 3818,
+          "elapsed_s": 1.762,
+          "fallback": false
+        },
+        "public.tb_odontograma": {
+          "tokens_in": 1321,
+          "tokens_out": 23,
+          "tokens_total": 1344,
+          "elapsed_s": 1.401,
+          "fallback": false
+        },
+        "public.tb_proced_exame_especifico": {
+          "tokens_in": 1244,
+          "tokens_out": 22,
+          "tokens_total": 1266,
+          "elapsed_s": 1.205,
+          "fallback": false
+        },
+        "public.tb_raca_cor": {
+          "tokens_in": 1149,
+          "tokens_out": 36,
+          "tokens_total": 1185,
+          "elapsed_s": 1.447,
+          "fallback": false
+        },
+        "public.tb_tipo_glicemia": {
+          "tokens_in": 1008,
+          "tokens_out": 33,
+          "tokens_total": 1041,
+          "elapsed_s": 1.221,
+          "fallback": false
+        }
+      }
+    },
+    "v16_sample_rows_vs_frequent_values": {
+      "total_tokens_in": 0,
+      "total_tokens_out": 0,
+      "total_tokens": 0,
+      "total_elapsed_s": 0,
+      "tables_processed": 0,
+      "per_table": {
+        "public.tb_ciap_ms": {
+          "tokens_in": 2426,
+          "tokens_out": 24,
+          "tokens_total": 2450,
+          "elapsed_s": 1.288,
+          "fallback": false
+        },
+        "public.tb_problema": {
+          "tokens_in": 1403,
+          "tokens_out": 28,
+          "tokens_total": 1431,
+          "elapsed_s": 1.27,
+          "fallback": false
+        },
+        "public.tb_dim_catmat": {
+          "tokens_in": 1399,
+          "tokens_out": 24,
+          "tokens_total": 1423,
+          "elapsed_s": 1.401,
+          "fallback": false
+        },
+        "public.ta_medicamento_catmat": {
+          "tokens_in": 2486,
+          "tokens_out": 22,
+          "tokens_total": 2508,
+          "elapsed_s": 1.243,
+          "fallback": false
+        },
+        "public.ta_tecido_mole": {
+          "tokens_in": 1681,
+          "tokens_out": 19,
+          "tokens_total": 1700,
+          "elapsed_s": 1.345,
+          "fallback": false
+        },
+        "public.ta_vacinacao": {
+          "tokens_in": 1633,
+          "tokens_out": 24,
+          "tokens_total": 1657,
+          "elapsed_s": 1.403,
+          "fallback": false
+        },
+        "public.tb_antecedente": {
+          "tokens_in": 4482,
+          "tokens_out": 26,
+          "tokens_total": 4508,
+          "elapsed_s": 1.593,
+          "fallback": false
+        },
+        "public.tb_cidadao": {
+          "tokens_in": 9193,
+          "tokens_out": 20,
+          "tokens_total": 9213,
+          "elapsed_s": 1.367,
+          "fallback": false
+        },
+        "public.tb_cuidado_compartilhado_evol": {
+          "tokens_in": 2587,
+          "tokens_out": 28,
+          "tokens_total": 2615,
+          "elapsed_s": 1.274,
+          "fallback": false
+        },
+        "public.tb_evolucao_odonto": {
+          "tokens_in": 1644,
+          "tokens_out": 23,
+          "tokens_total": 1667,
+          "elapsed_s": 1.186,
+          "fallback": false
+        },
+        "public.tb_evolucao_subjetivo": {
+          "tokens_in": 1034,
+          "tokens_out": 25,
+          "tokens_total": 1059,
+          "elapsed_s": 1.198,
+          "fallback": false
+        },
+        "public.tb_exame_hemoglobina_glicada": {
+          "tokens_in": 1039,
+          "tokens_out": 26,
+          "tokens_total": 1065,
+          "elapsed_s": 1.475,
+          "fallback": false
+        },
+        "public.tb_exame_prenatal": {
+          "tokens_in": 1283,
+          "tokens_out": 22,
+          "tokens_total": 1305,
+          "elapsed_s": 1.317,
+          "fallback": false
+        },
+        "public.tb_fat_atend_odonto_problemas": {
+          "tokens_in": 4421,
+          "tokens_out": 26,
+          "tokens_total": 4447,
+          "elapsed_s": 1.448,
+          "fallback": false
+        },
+        "public.tb_fat_rel_op_risco_cardio": {
+          "tokens_in": 3361,
+          "tokens_out": 14,
+          "tokens_total": 3375,
+          "elapsed_s": 1.263,
+          "fallback": false
+        },
+        "public.tb_historico_dados_fao": {
+          "tokens_in": 1570,
+          "tokens_out": 18,
+          "tokens_total": 1588,
+          "elapsed_s": 1.236,
+          "fallback": false
+        },
+        "public.tb_justificativa_prontuario": {
+          "tokens_in": 1509,
+          "tokens_out": 28,
+          "tokens_total": 1537,
+          "elapsed_s": 1.635,
+          "fallback": false
+        },
+        "public.tb_lembrete_evolucao": {
+          "tokens_in": 1403,
+          "tokens_out": 27,
+          "tokens_total": 1430,
+          "elapsed_s": 1.328,
+          "fallback": false
+        },
+        "public.tb_medicamento_uso_continuo": {
+          "tokens_in": 1148,
+          "tokens_out": 26,
+          "tokens_total": 1174,
+          "elapsed_s": 1.4,
+          "fallback": false
+        },
+        "public.tb_medicao": {
+          "tokens_in": 3475,
+          "tokens_out": 21,
+          "tokens_total": 3496,
+          "elapsed_s": 1.235,
+          "fallback": false
+        },
+        "public.tb_odontograma": {
+          "tokens_in": 1326,
+          "tokens_out": 23,
+          "tokens_total": 1349,
+          "elapsed_s": 1.176,
+          "fallback": false
+        },
+        "public.tb_proced_exame_especifico": {
+          "tokens_in": 960,
+          "tokens_out": 25,
+          "tokens_total": 985,
+          "elapsed_s": 1.226,
+          "fallback": false
+        },
+        "public.tb_raca_cor": {
+          "tokens_in": 1019,
+          "tokens_out": 26,
+          "tokens_total": 1045,
+          "elapsed_s": 1.189,
+          "fallback": false
+        },
+        "public.tb_tipo_glicemia": {
+          "tokens_in": 931,
+          "tokens_out": 24,
+          "tokens_total": 955,
+          "elapsed_s": 1.226,
+          "fallback": false
+        }
+      }
+    },
+    "v17_sample_rows_plus_both_values": {
+      "total_tokens_in": 0,
+      "total_tokens_out": 0,
+      "total_tokens": 0,
+      "total_elapsed_s": 0,
+      "tables_processed": 0,
+      "per_table": {
+        "public.tb_ciap_ms": {
+          "tokens_in": 5285,
+          "tokens_out": 24,
+          "tokens_total": 5309,
+          "elapsed_s": 1.636,
+          "fallback": false
+        },
+        "public.tb_problema": {
+          "tokens_in": 2067,
+          "tokens_out": 29,
+          "tokens_total": 2096,
+          "elapsed_s": 1.811,
+          "fallback": false
+        },
+        "public.tb_dim_catmat": {
+          "tokens_in": 1998,
+          "tokens_out": 23,
+          "tokens_total": 2021,
+          "elapsed_s": 1.359,
+          "fallback": false
+        },
+        "public.ta_medicamento_catmat": {
+          "tokens_in": 3670,
+          "tokens_out": 25,
+          "tokens_total": 3695,
+          "elapsed_s": 1.484,
+          "fallback": false
+        },
+        "public.ta_tecido_mole": {
+          "tokens_in": 2341,
+          "tokens_out": 24,
+          "tokens_total": 2365,
+          "elapsed_s": 1.328,
+          "fallback": false
+        },
+        "public.ta_vacinacao": {
+          "tokens_in": 2191,
+          "tokens_out": 22,
+          "tokens_total": 2213,
+          "elapsed_s": 1.639,
+          "fallback": false
+        },
+        "public.tb_antecedente": {
+          "tokens_in": 6568,
+          "tokens_out": 26,
+          "tokens_total": 6594,
+          "elapsed_s": 1.547,
+          "fallback": false
+        },
+        "public.tb_cidadao": {
+          "tokens_in": 14423,
+          "tokens_out": 20,
+          "tokens_total": 14443,
+          "elapsed_s": 1.832,
+          "fallback": false
+        },
+        "public.tb_cuidado_compartilhado_evol": {
+          "tokens_in": 4495,
+          "tokens_out": 25,
+          "tokens_total": 4520,
+          "elapsed_s": 1.407,
+          "fallback": false
+        },
+        "public.tb_evolucao_odonto": {
+          "tokens_in": 2272,
+          "tokens_out": 23,
+          "tokens_total": 2295,
+          "elapsed_s": 1.529,
+          "fallback": false
+        },
+        "public.tb_evolucao_subjetivo": {
+          "tokens_in": 1280,
+          "tokens_out": 25,
+          "tokens_total": 1305,
+          "elapsed_s": 3.005,
+          "fallback": false
+        },
+        "public.tb_exame_hemoglobina_glicada": {
+          "tokens_in": 1222,
+          "tokens_out": 22,
+          "tokens_total": 1244,
+          "elapsed_s": 1.207,
+          "fallback": false
+        },
+        "public.tb_exame_prenatal": {
+          "tokens_in": 1587,
+          "tokens_out": 22,
+          "tokens_total": 1609,
+          "elapsed_s": 1.782,
+          "fallback": false
+        },
+        "public.tb_fat_atend_odonto_problemas": {
+          "tokens_in": 7127,
+          "tokens_out": 26,
+          "tokens_total": 7153,
+          "elapsed_s": 2.009,
+          "fallback": false
+        },
+        "public.tb_fat_rel_op_risco_cardio": {
+          "tokens_in": 5311,
+          "tokens_out": 14,
+          "tokens_total": 5325,
+          "elapsed_s": 1.524,
+          "fallback": false
+        },
+        "public.tb_historico_dados_fao": {
+          "tokens_in": 3038,
+          "tokens_out": 16,
+          "tokens_total": 3054,
+          "elapsed_s": 1.427,
+          "fallback": false
+        },
+        "public.tb_justificativa_prontuario": {
+          "tokens_in": 2112,
+          "tokens_out": 35,
+          "tokens_total": 2147,
+          "elapsed_s": 1.544,
+          "fallback": false
+        },
+        "public.tb_lembrete_evolucao": {
+          "tokens_in": 2998,
+          "tokens_out": 31,
+          "tokens_total": 3029,
+          "elapsed_s": 2.047,
+          "fallback": false
+        },
+        "public.tb_medicamento_uso_continuo": {
+          "tokens_in": 1357,
+          "tokens_out": 26,
+          "tokens_total": 1383,
+          "elapsed_s": 1.444,
+          "fallback": false
+        },
+        "public.tb_medicao": {
+          "tokens_in": 5075,
+          "tokens_out": 21,
+          "tokens_total": 5096,
+          "elapsed_s": 1.714,
+          "fallback": false
+        },
+        "public.tb_odontograma": {
+          "tokens_in": 1511,
+          "tokens_out": 23,
+          "tokens_total": 1534,
+          "elapsed_s": 1.453,
+          "fallback": false
+        },
+        "public.tb_proced_exame_especifico": {
+          "tokens_in": 1244,
+          "tokens_out": 22,
+          "tokens_total": 1266,
+          "elapsed_s": 1.011,
+          "fallback": false
+        },
+        "public.tb_raca_cor": {
+          "tokens_in": 1149,
+          "tokens_out": 36,
+          "tokens_total": 1185,
+          "elapsed_s": 1.396,
+          "fallback": false
+        },
+        "public.tb_tipo_glicemia": {
+          "tokens_in": 1008,
+          "tokens_out": 33,
+          "tokens_total": 1041,
+          "elapsed_s": 1.318,
+          "fallback": false
+        }
+      }
+    },
+    "v18_fk_nullable_sample_values": {
+      "total_tokens_in": 0,
+      "total_tokens_out": 0,
+      "total_tokens": 0,
+      "total_elapsed_s": 0,
+      "tables_processed": 0,
+      "per_table": {
+        "public.tb_ciap_ms": {
+          "tokens_in": 4045,
+          "tokens_out": 31,
+          "tokens_total": 4076,
+          "elapsed_s": 1.783,
+          "fallback": false
+        },
+        "public.tb_problema": {
+          "tokens_in": 1810,
+          "tokens_out": 28,
+          "tokens_total": 1838,
+          "elapsed_s": 1.411,
+          "fallback": false
+        },
+        "public.tb_dim_catmat": {
+          "tokens_in": 1602,
+          "tokens_out": 31,
+          "tokens_total": 1633,
+          "elapsed_s": 1.356,
+          "fallback": false
+        },
+        "public.ta_medicamento_catmat": {
+          "tokens_in": 2309,
+          "tokens_out": 25,
+          "tokens_total": 2334,
+          "elapsed_s": 1.192,
+          "fallback": false
+        },
+        "public.ta_tecido_mole": {
+          "tokens_in": 1704,
+          "tokens_out": 29,
+          "tokens_total": 1733,
+          "elapsed_s": 1.428,
+          "fallback": false
+        },
+        "public.ta_vacinacao": {
+          "tokens_in": 1615,
+          "tokens_out": 22,
+          "tokens_total": 1637,
+          "elapsed_s": 1.473,
+          "fallback": false
+        },
+        "public.tb_antecedente": {
+          "tokens_in": 3778,
+          "tokens_out": 24,
+          "tokens_total": 3802,
+          "elapsed_s": 1.305,
+          "fallback": false
+        },
+        "public.tb_cidadao": {
+          "tokens_in": 8888,
+          "tokens_out": 23,
+          "tokens_total": 8911,
+          "elapsed_s": 1.685,
+          "fallback": false
+        },
+        "public.tb_cuidado_compartilhado_evol": {
+          "tokens_in": 3811,
+          "tokens_out": 25,
+          "tokens_total": 3836,
+          "elapsed_s": 1.444,
+          "fallback": false
+        },
+        "public.tb_evolucao_odonto": {
+          "tokens_in": 1732,
+          "tokens_out": 24,
+          "tokens_total": 1756,
+          "elapsed_s": 1.439,
+          "fallback": false
+        },
+        "public.tb_evolucao_subjetivo": {
+          "tokens_in": 1132,
+          "tokens_out": 31,
+          "tokens_total": 1163,
+          "elapsed_s": 1.276,
+          "fallback": false
+        },
+        "public.tb_exame_hemoglobina_glicada": {
+          "tokens_in": 1096,
+          "tokens_out": 20,
+          "tokens_total": 1116,
+          "elapsed_s": 1.273,
+          "fallback": false
+        },
+        "public.tb_exame_prenatal": {
+          "tokens_in": 1260,
+          "tokens_out": 26,
+          "tokens_total": 1286,
+          "elapsed_s": 1.26,
+          "fallback": false
+        },
+        "public.tb_fat_atend_odonto_problemas": {
+          "tokens_in": 5197,
+          "tokens_out": 22,
+          "tokens_total": 5219,
+          "elapsed_s": 1.477,
+          "fallback": false
+        },
+        "public.tb_fat_rel_op_risco_cardio": {
+          "tokens_in": 3295,
+          "tokens_out": 14,
+          "tokens_total": 3309,
+          "elapsed_s": 1.063,
+          "fallback": false
+        },
+        "public.tb_historico_dados_fao": {
+          "tokens_in": 2336,
+          "tokens_out": 19,
+          "tokens_total": 2355,
+          "elapsed_s": 1.786,
+          "fallback": false
+        },
+        "public.tb_justificativa_prontuario": {
+          "tokens_in": 1650,
+          "tokens_out": 35,
+          "tokens_total": 1685,
+          "elapsed_s": 1.28,
+          "fallback": false
+        },
+        "public.tb_lembrete_evolucao": {
+          "tokens_in": 2688,
+          "tokens_out": 30,
+          "tokens_total": 2718,
+          "elapsed_s": 1.241,
+          "fallback": false
+        },
+        "public.tb_medicamento_uso_continuo": {
+          "tokens_in": 1228,
+          "tokens_out": 26,
+          "tokens_total": 1254,
+          "elapsed_s": 1.251,
+          "fallback": false
+        },
+        "public.tb_medicao": {
+          "tokens_in": 3104,
+          "tokens_out": 21,
+          "tokens_total": 3125,
+          "elapsed_s": 1.841,
+          "fallback": false
+        },
+        "public.tb_odontograma": {
+          "tokens_in": 1224,
+          "tokens_out": 23,
+          "tokens_total": 1247,
+          "elapsed_s": 1.19,
+          "fallback": false
+        },
+        "public.tb_proced_exame_especifico": {
+          "tokens_in": 1138,
+          "tokens_out": 20,
+          "tokens_total": 1158,
+          "elapsed_s": 1.036,
+          "fallback": false
+        },
+        "public.tb_raca_cor": {
+          "tokens_in": 1026,
+          "tokens_out": 31,
+          "tokens_total": 1057,
+          "elapsed_s": 1.25,
+          "fallback": false
+        },
+        "public.tb_tipo_glicemia": {
+          "tokens_in": 919,
+          "tokens_out": 25,
+          "tokens_total": 944,
+          "elapsed_s": 1.263,
+          "fallback": false
+        }
+      }
+    },
+    "v19_fk_nullable_frequent_values": {
+      "total_tokens_in": 0,
+      "total_tokens_out": 0,
+      "total_tokens": 0,
+      "total_elapsed_s": 0,
+      "tables_processed": 0,
+      "per_table": {
+        "public.tb_ciap_ms": {
+          "tokens_in": 2129,
+          "tokens_out": 21,
+          "tokens_total": 2150,
+          "elapsed_s": 1.263,
+          "fallback": false
+        },
+        "public.tb_problema": {
+          "tokens_in": 1294,
+          "tokens_out": 28,
+          "tokens_total": 1322,
+          "elapsed_s": 1.327,
+          "fallback": false
+        },
+        "public.tb_dim_catmat": {
+          "tokens_in": 1243,
+          "tokens_out": 31,
+          "tokens_total": 1274,
+          "elapsed_s": 1.27,
+          "fallback": false
+        },
+        "public.ta_medicamento_catmat": {
+          "tokens_in": 2041,
+          "tokens_out": 25,
+          "tokens_total": 2066,
+          "elapsed_s": 1.436,
+          "fallback": false
+        },
+        "public.ta_tecido_mole": {
+          "tokens_in": 1358,
+          "tokens_out": 29,
+          "tokens_total": 1387,
+          "elapsed_s": 1.29,
+          "fallback": false
+        },
+        "public.ta_vacinacao": {
+          "tokens_in": 1306,
+          "tokens_out": 23,
+          "tokens_total": 1329,
+          "elapsed_s": 1.225,
+          "fallback": false
+        },
+        "public.tb_antecedente": {
+          "tokens_in": 3653,
+          "tokens_out": 25,
+          "tokens_total": 3678,
+          "elapsed_s": 1.441,
+          "fallback": false
+        },
+        "public.tb_cidadao": {
+          "tokens_in": 7443,
+          "tokens_out": 23,
+          "tokens_total": 7466,
+          "elapsed_s": 2.028,
+          "fallback": false
+        },
+        "public.tb_cuidado_compartilhado_evol": {
+          "tokens_in": 2406,
+          "tokens_out": 26,
+          "tokens_total": 2432,
+          "elapsed_s": 1.522,
+          "fallback": false
+        },
+        "public.tb_evolucao_odonto": {
+          "tokens_in": 1556,
+          "tokens_out": 24,
+          "tokens_total": 1580,
+          "elapsed_s": 1.332,
+          "fallback": false
+        },
+        "public.tb_evolucao_subjetivo": {
+          "tokens_in": 1002,
+          "tokens_out": 31,
+          "tokens_total": 1033,
+          "elapsed_s": 1.397,
+          "fallback": false
+        },
+        "public.tb_exame_hemoglobina_glicada": {
+          "tokens_in": 989,
+          "tokens_out": 23,
+          "tokens_total": 1012,
+          "elapsed_s": 1.295,
+          "fallback": false
+        },
+        "public.tb_exame_prenatal": {
+          "tokens_in": 1179,
+          "tokens_out": 19,
+          "tokens_total": 1198,
+          "elapsed_s": 1.291,
+          "fallback": false
+        },
+        "public.tb_fat_atend_odonto_problemas": {
+          "tokens_in": 4193,
+          "tokens_out": 22,
+          "tokens_total": 4215,
+          "elapsed_s": 1.617,
+          "fallback": false
+        },
+        "public.tb_fat_rel_op_risco_cardio": {
+          "tokens_in": 2731,
+          "tokens_out": 14,
+          "tokens_total": 2745,
+          "elapsed_s": 1.374,
+          "fallback": false
+        },
+        "public.tb_historico_dados_fao": {
+          "tokens_in": 1296,
+          "tokens_out": 18,
+          "tokens_total": 1314,
+          "elapsed_s": 1.129,
+          "fallback": false
+        },
+        "public.tb_justificativa_prontuario": {
+          "tokens_in": 1370,
+          "tokens_out": 30,
+          "tokens_total": 1400,
+          "elapsed_s": 1.608,
+          "fallback": false
+        },
+        "public.tb_lembrete_evolucao": {
+          "tokens_in": 1210,
+          "tokens_out": 28,
+          "tokens_total": 1238,
+          "elapsed_s": 1.262,
+          "fallback": false
+        },
+        "public.tb_medicamento_uso_continuo": {
+          "tokens_in": 1159,
+          "tokens_out": 26,
+          "tokens_total": 1185,
+          "elapsed_s": 1.212,
+          "fallback": false
+        },
+        "public.tb_medicao": {
+          "tokens_in": 2783,
+          "tokens_out": 22,
+          "tokens_total": 2805,
+          "elapsed_s": 1.541,
+          "fallback": false
+        },
+        "public.tb_odontograma": {
+          "tokens_in": 1229,
+          "tokens_out": 23,
+          "tokens_total": 1252,
+          "elapsed_s": 1.413,
+          "fallback": false
+        },
+        "public.tb_proced_exame_especifico": {
+          "tokens_in": 854,
+          "tokens_out": 19,
+          "tokens_total": 873,
+          "elapsed_s": 1.311,
+          "fallback": false
+        },
+        "public.tb_raca_cor": {
+          "tokens_in": 896,
+          "tokens_out": 32,
+          "tokens_total": 928,
+          "elapsed_s": 1.292,
+          "fallback": false
+        },
+        "public.tb_tipo_glicemia": {
+          "tokens_in": 842,
+          "tokens_out": 16,
+          "tokens_total": 858,
+          "elapsed_s": 1.362,
+          "fallback": false
+        }
+      }
+    },
+    "v20_fk_nullable_both_values": {
+      "total_tokens_in": 0,
+      "total_tokens_out": 0,
+      "total_tokens": 0,
+      "total_elapsed_s": 0,
+      "tables_processed": 0,
+      "per_table": {
+        "public.tb_ciap_ms": {
+          "tokens_in": 4988,
+          "tokens_out": 23,
+          "tokens_total": 5011,
+          "elapsed_s": 1.604,
+          "fallback": false
+        },
+        "public.tb_problema": {
+          "tokens_in": 1958,
+          "tokens_out": 28,
+          "tokens_total": 1986,
+          "elapsed_s": 1.462,
+          "fallback": false
+        },
+        "public.tb_dim_catmat": {
+          "tokens_in": 1842,
+          "tokens_out": 27,
+          "tokens_total": 1869,
+          "elapsed_s": 1.542,
+          "fallback": false
+        },
+        "public.ta_medicamento_catmat": {
+          "tokens_in": 3225,
+          "tokens_out": 27,
+          "tokens_total": 3252,
+          "elapsed_s": 1.303,
+          "fallback": false
+        },
+        "public.ta_tecido_mole": {
+          "tokens_in": 2018,
+          "tokens_out": 19,
+          "tokens_total": 2037,
+          "elapsed_s": 1.471,
+          "fallback": false
+        },
+        "public.ta_vacinacao": {
+          "tokens_in": 1864,
+          "tokens_out": 21,
+          "tokens_total": 1885,
+          "elapsed_s": 1.422,
+          "fallback": false
+        },
+        "public.tb_antecedente": {
+          "tokens_in": 5739,
+          "tokens_out": 24,
+          "tokens_total": 5763,
+          "elapsed_s": 1.76,
+          "fallback": false
+        },
+        "public.tb_cidadao": {
+          "tokens_in": 12673,
+          "tokens_out": 23,
+          "tokens_total": 12696,
+          "elapsed_s": 1.486,
+          "fallback": false
+        },
+        "public.tb_cuidado_compartilhado_evol": {
+          "tokens_in": 4314,
+          "tokens_out": 25,
+          "tokens_total": 4339,
+          "elapsed_s": 1.711,
+          "fallback": false
+        },
+        "public.tb_evolucao_odonto": {
+          "tokens_in": 2184,
+          "tokens_out": 23,
+          "tokens_total": 2207,
+          "elapsed_s": 1.224,
+          "fallback": false
+        },
+        "public.tb_evolucao_subjetivo": {
+          "tokens_in": 1248,
+          "tokens_out": 32,
+          "tokens_total": 1280,
+          "elapsed_s": 1.381,
+          "fallback": false
+        },
+        "public.tb_exame_hemoglobina_glicada": {
+          "tokens_in": 1172,
+          "tokens_out": 23,
+          "tokens_total": 1195,
+          "elapsed_s": 1.126,
+          "fallback": false
+        },
+        "public.tb_exame_prenatal": {
+          "tokens_in": 1483,
+          "tokens_out": 26,
+          "tokens_total": 1509,
+          "elapsed_s": 1.789,
+          "fallback": false
+        },
+        "public.tb_fat_atend_odonto_problemas": {
+          "tokens_in": 6899,
+          "tokens_out": 22,
+          "tokens_total": 6921,
+          "elapsed_s": 1.734,
+          "fallback": false
+        },
+        "public.tb_fat_rel_op_risco_cardio": {
+          "tokens_in": 4681,
+          "tokens_out": 14,
+          "tokens_total": 4695,
+          "elapsed_s": 1.735,
+          "fallback": false
+        },
+        "public.tb_historico_dados_fao": {
+          "tokens_in": 2764,
+          "tokens_out": 16,
+          "tokens_total": 2780,
+          "elapsed_s": 1.62,
+          "fallback": false
+        },
+        "public.tb_justificativa_prontuario": {
+          "tokens_in": 1973,
+          "tokens_out": 35,
+          "tokens_total": 2008,
+          "elapsed_s": 1.932,
+          "fallback": false
+        },
+        "public.tb_lembrete_evolucao": {
+          "tokens_in": 2805,
+          "tokens_out": 30,
+          "tokens_total": 2835,
+          "elapsed_s": 1.946,
+          "fallback": false
+        },
+        "public.tb_medicamento_uso_continuo": {
+          "tokens_in": 1368,
+          "tokens_out": 26,
+          "tokens_total": 1394,
+          "elapsed_s": 1.535,
+          "fallback": false
+        },
+        "public.tb_medicao": {
+          "tokens_in": 4383,
+          "tokens_out": 23,
+          "tokens_total": 4406,
+          "elapsed_s": 1.382,
+          "fallback": false
+        },
+        "public.tb_odontograma": {
+          "tokens_in": 1414,
+          "tokens_out": 23,
+          "tokens_total": 1437,
+          "elapsed_s": 1.558,
+          "fallback": false
+        },
+        "public.tb_proced_exame_especifico": {
+          "tokens_in": 1138,
+          "tokens_out": 20,
+          "tokens_total": 1158,
+          "elapsed_s": 1.38,
+          "fallback": false
+        },
+        "public.tb_raca_cor": {
+          "tokens_in": 1026,
+          "tokens_out": 31,
+          "tokens_total": 1057,
+          "elapsed_s": 1.567,
+          "fallback": false
+        },
+        "public.tb_tipo_glicemia": {
+          "tokens_in": 919,
+          "tokens_out": 28,
+          "tokens_total": 947,
+          "elapsed_s": 1.546,
+          "fallback": false
+        }
+      }
+    },
+    "v21_fk_nullable_sample_rows": {
+      "total_tokens_in": 0,
+      "total_tokens_out": 0,
+      "total_tokens": 0,
+      "total_elapsed_s": 0,
+      "tables_processed": 0,
+      "per_table": {
+        "public.tb_ciap_ms": {
+          "tokens_in": 1664,
+          "tokens_out": 25,
+          "tokens_total": 1689,
+          "elapsed_s": 1.328,
+          "fallback": false
+        },
+        "public.tb_problema": {
+          "tokens_in": 1441,
+          "tokens_out": 28,
+          "tokens_total": 1469,
+          "elapsed_s": 1.619,
+          "fallback": false
+        },
+        "public.tb_dim_catmat": {
+          "tokens_in": 1228,
+          "tokens_out": 23,
+          "tokens_total": 1251,
+          "elapsed_s": 1.184,
+          "fallback": false
+        },
+        "public.ta_medicamento_catmat": {
+          "tokens_in": 1602,
+          "tokens_out": 28,
+          "tokens_total": 1630,
+          "elapsed_s": 1.543,
+          "fallback": false
+        },
+        "public.ta_tecido_mole": {
+          "tokens_in": 1391,
+          "tokens_out": 30,
+          "tokens_total": 1421,
+          "elapsed_s": 1.284,
+          "fallback": false
+        },
+        "public.ta_vacinacao": {
+          "tokens_in": 1408,
+          "tokens_out": 27,
+          "tokens_total": 1435,
+          "elapsed_s": 1.331,
+          "fallback": false
+        },
+        "public.tb_antecedente": {
+          "tokens_in": 2605,
+          "tokens_out": 24,
+          "tokens_total": 2629,
+          "elapsed_s": 1.162,
+          "fallback": false
+        },
+        "public.tb_cidadao": {
+          "tokens_in": 6161,
+          "tokens_out": 23,
+          "tokens_total": 6184,
+          "elapsed_s": 1.337,
+          "fallback": false
+        },
+        "public.tb_cuidado_compartilhado_evol": {
+          "tokens_in": 2690,
+          "tokens_out": 26,
+          "tokens_total": 2716,
+          "elapsed_s": 1.331,
+          "fallback": false
+        },
+        "public.tb_evolucao_odonto": {
+          "tokens_in": 1353,
+          "tokens_out": 24,
+          "tokens_total": 1377,
+          "elapsed_s": 1.472,
+          "fallback": false
+        },
+        "public.tb_evolucao_subjetivo": {
+          "tokens_in": 978,
+          "tokens_out": 17,
+          "tokens_total": 995,
+          "elapsed_s": 1.469,
+          "fallback": false
+        },
+        "public.tb_exame_hemoglobina_glicada": {
+          "tokens_in": 1037,
+          "tokens_out": 23,
+          "tokens_total": 1060,
+          "elapsed_s": 1.259,
+          "fallback": false
+        },
+        "public.tb_exame_prenatal": {
+          "tokens_in": 1132,
+          "tokens_out": 26,
+          "tokens_total": 1158,
+          "elapsed_s": 1.506,
+          "fallback": false
+        },
+        "public.tb_fat_atend_odonto_problemas": {
+          "tokens_in": 3612,
+          "tokens_out": 22,
+          "tokens_total": 3634,
+          "elapsed_s": 1.294,
+          "fallback": false
+        },
+        "public.tb_fat_rel_op_risco_cardio": {
+          "tokens_in": 2067,
+          "tokens_out": 22,
+          "tokens_total": 2089,
+          "elapsed_s": 1.711,
+          "fallback": false
+        },
+        "public.tb_historico_dados_fao": {
+          "tokens_in": 1157,
+          "tokens_out": 20,
+          "tokens_total": 1177,
+          "elapsed_s": 1.612,
+          "fallback": false
+        },
+        "public.tb_justificativa_prontuario": {
+          "tokens_in": 1328,
+          "tokens_out": 35,
+          "tokens_total": 1363,
+          "elapsed_s": 1.597,
+          "fallback": false
+        },
+        "public.tb_lembrete_evolucao": {
+          "tokens_in": 1441,
+          "tokens_out": 29,
+          "tokens_total": 1470,
+          "elapsed_s": 1.199,
+          "fallback": false
+        },
+        "public.tb_medicamento_uso_continuo": {
+          "tokens_in": 1165,
+          "tokens_out": 30,
+          "tokens_total": 1195,
+          "elapsed_s": 1.288,
+          "fallback": false
+        },
+        "public.tb_medicao": {
+          "tokens_in": 2314,
+          "tokens_out": 25,
+          "tokens_total": 2339,
+          "elapsed_s": 1.529,
+          "fallback": false
+        },
+        "public.tb_odontograma": {
+          "tokens_in": 1246,
+          "tokens_out": 32,
+          "tokens_total": 1278,
+          "elapsed_s": 1.601,
+          "fallback": false
+        },
+        "public.tb_proced_exame_especifico": {
+          "tokens_in": 980,
+          "tokens_out": 23,
+          "tokens_total": 1003,
+          "elapsed_s": 1.203,
+          "fallback": false
+        },
+        "public.tb_raca_cor": {
+          "tokens_in": 1035,
+          "tokens_out": 37,
+          "tokens_total": 1072,
+          "elapsed_s": 1.335,
+          "fallback": false
+        },
+        "public.tb_tipo_glicemia": {
+          "tokens_in": 948,
+          "tokens_out": 28,
+          "tokens_total": 976,
+          "elapsed_s": 1.235,
+          "fallback": false
+        }
+      }
+    },
+    "v22_fk_nullable_sample_rows_plus_frequent": {
+      "total_tokens_in": 0,
+      "total_tokens_out": 0,
+      "total_tokens": 0,
+      "total_elapsed_s": 0,
+      "tables_processed": 0,
+      "per_table": {
+        "public.tb_ciap_ms": {
+          "tokens_in": 2651,
+          "tokens_out": 21,
+          "tokens_total": 2672,
+          "elapsed_s": 1.396,
+          "fallback": false
+        },
+        "public.tb_problema": {
+          "tokens_in": 1626,
+          "tokens_out": 20,
+          "tokens_total": 1646,
+          "elapsed_s": 1.172,
+          "fallback": false
+        },
+        "public.tb_dim_catmat": {
+          "tokens_in": 1499,
+          "tokens_out": 31,
+          "tokens_total": 1530,
+          "elapsed_s": 1.264,
+          "fallback": false
+        },
+        "public.ta_medicamento_catmat": {
+          "tokens_in": 2571,
+          "tokens_out": 25,
+          "tokens_total": 2596,
+          "elapsed_s": 1.305,
+          "fallback": false
+        },
+        "public.ta_tecido_mole": {
+          "tokens_in": 1749,
+          "tokens_out": 19,
+          "tokens_total": 1768,
+          "elapsed_s": 1.22,
+          "fallback": false
+        },
+        "public.ta_vacinacao": {
+          "tokens_in": 1705,
+          "tokens_out": 23,
+          "tokens_total": 1728,
+          "elapsed_s": 1.438,
+          "fallback": false
+        },
+        "public.tb_antecedente": {
+          "tokens_in": 4691,
+          "tokens_out": 26,
+          "tokens_total": 4717,
+          "elapsed_s": 1.64,
+          "fallback": false
+        },
+        "public.tb_cidadao": {
+          "tokens_in": 10274,
+          "tokens_out": 23,
+          "tokens_total": 10297,
+          "elapsed_s": 1.633,
+          "fallback": false
+        },
+        "public.tb_cuidado_compartilhado_evol": {
+          "tokens_in": 3275,
+          "tokens_out": 26,
+          "tokens_total": 3301,
+          "elapsed_s": 1.253,
+          "fallback": false
+        },
+        "public.tb_evolucao_odonto": {
+          "tokens_in": 1835,
+          "tokens_out": 25,
+          "tokens_total": 1860,
+          "elapsed_s": 1.38,
+          "fallback": false
+        },
+        "public.tb_evolucao_subjetivo": {
+          "tokens_in": 1107,
+          "tokens_out": 26,
+          "tokens_total": 1133,
+          "elapsed_s": 1.288,
+          "fallback": false
+        },
+        "public.tb_exame_hemoglobina_glicada": {
+          "tokens_in": 1127,
+          "tokens_out": 26,
+          "tokens_total": 1153,
+          "elapsed_s": 1.276,
+          "fallback": false
+        },
+        "public.tb_exame_prenatal": {
+          "tokens_in": 1377,
+          "tokens_out": 20,
+          "tokens_total": 1397,
+          "elapsed_s": 1.438,
+          "fallback": false
+        },
+        "public.tb_fat_atend_odonto_problemas": {
+          "tokens_in": 5438,
+          "tokens_out": 22,
+          "tokens_total": 5460,
+          "elapsed_s": 1.475,
+          "fallback": false
+        },
+        "public.tb_fat_rel_op_risco_cardio": {
+          "tokens_in": 3527,
+          "tokens_out": 14,
+          "tokens_total": 3541,
+          "elapsed_s": 1.21,
+          "fallback": false
+        },
+        "public.tb_historico_dados_fao": {
+          "tokens_in": 1600,
+          "tokens_out": 18,
+          "tokens_total": 1618,
+          "elapsed_s": 1.661,
+          "fallback": false
+        },
+        "public.tb_justificativa_prontuario": {
+          "tokens_in": 1677,
+          "tokens_out": 35,
+          "tokens_total": 1712,
+          "elapsed_s": 1.372,
+          "fallback": false
+        },
+        "public.tb_lembrete_evolucao": {
+          "tokens_in": 1590,
+          "tokens_out": 34,
+          "tokens_total": 1624,
+          "elapsed_s": 1.498,
+          "fallback": false
+        },
+        "public.tb_medicamento_uso_continuo": {
+          "tokens_in": 1323,
+          "tokens_out": 27,
+          "tokens_total": 1350,
+          "elapsed_s": 1.407,
+          "fallback": false
+        },
+        "public.tb_medicao": {
+          "tokens_in": 3680,
+          "tokens_out": 21,
+          "tokens_total": 3701,
+          "elapsed_s": 1.957,
+          "fallback": false
+        },
+        "public.tb_odontograma": {
+          "tokens_in": 1466,
+          "tokens_out": 34,
+          "tokens_total": 1500,
+          "elapsed_s": 1.394,
+          "fallback": false
+        },
+        "public.tb_proced_exame_especifico": {
+          "tokens_in": 995,
+          "tokens_out": 24,
+          "tokens_total": 1019,
+          "elapsed_s": 1.429,
+          "fallback": false
+        },
+        "public.tb_raca_cor": {
+          "tokens_in": 1060,
+          "tokens_out": 36,
+          "tokens_total": 1096,
+          "elapsed_s": 1.334,
+          "fallback": false
+        },
+        "public.tb_tipo_glicemia": {
+          "tokens_in": 963,
+          "tokens_out": 28,
+          "tokens_total": 991,
+          "elapsed_s": 1.315,
+          "fallback": false
+        }
+      }
+    },
+    "v23_fk_nullable_sample_rows_plus_sample_values": {
+      "total_tokens_in": 0,
+      "total_tokens_out": 0,
+      "total_tokens": 0,
+      "total_elapsed_s": 0,
+      "tables_processed": 0,
+      "per_table": {
+        "public.tb_ciap_ms": {
+          "tokens_in": 4567,
+          "tokens_out": 29,
+          "tokens_total": 4596,
+          "elapsed_s": 1.635,
+          "fallback": false
+        },
+        "public.tb_problema": {
+          "tokens_in": 2142,
+          "tokens_out": 28,
+          "tokens_total": 2170,
+          "elapsed_s": 1.27,
+          "fallback": false
+        },
+        "public.tb_dim_catmat": {
+          "tokens_in": 1858,
+          "tokens_out": 27,
+          "tokens_total": 1885,
+          "elapsed_s": 1.211,
+          "fallback": false
+        },
+        "public.ta_medicamento_catmat": {
+          "tokens_in": 2839,
+          "tokens_out": 25,
+          "tokens_total": 2864,
+          "elapsed_s": 1.546,
+          "fallback": false
+        },
+        "public.ta_tecido_mole": {
+          "tokens_in": 2095,
+          "tokens_out": 24,
+          "tokens_total": 2119,
+          "elapsed_s": 1.228,
+          "fallback": false
+        },
+        "public.ta_vacinacao": {
+          "tokens_in": 2014,
+          "tokens_out": 21,
+          "tokens_total": 2035,
+          "elapsed_s": 1.308,
+          "fallback": false
+        },
+        "public.tb_antecedente": {
+          "tokens_in": 4816,
+          "tokens_out": 24,
+          "tokens_total": 4840,
+          "elapsed_s": 1.442,
+          "fallback": false
+        },
+        "public.tb_cidadao": {
+          "tokens_in": 11719,
+          "tokens_out": 23,
+          "tokens_total": 11742,
+          "elapsed_s": 1.663,
+          "fallback": false
+        },
+        "public.tb_cuidado_compartilhado_evol": {
+          "tokens_in": 4680,
+          "tokens_out": 25,
+          "tokens_total": 4705,
+          "elapsed_s": 1.619,
+          "fallback": false
+        },
+        "public.tb_evolucao_odonto": {
+          "tokens_in": 2011,
+          "tokens_out": 23,
+          "tokens_total": 2034,
+          "elapsed_s": 1.229,
+          "fallback": false
+        },
+        "public.tb_evolucao_subjetivo": {
+          "tokens_in": 1237,
+          "tokens_out": 21,
+          "tokens_total": 1258,
+          "elapsed_s": 1.359,
+          "fallback": false
+        },
+        "public.tb_exame_hemoglobina_glicada": {
+          "tokens_in": 1234,
+          "tokens_out": 23,
+          "tokens_total": 1257,
+          "elapsed_s": 1.522,
+          "fallback": false
+        },
+        "public.tb_exame_prenatal": {
+          "tokens_in": 1458,
+          "tokens_out": 25,
+          "tokens_total": 1483,
+          "elapsed_s": 1.479,
+          "fallback": false
+        },
+        "public.tb_fat_atend_odonto_problemas": {
+          "tokens_in": 6442,
+          "tokens_out": 22,
+          "tokens_total": 6464,
+          "elapsed_s": 1.658,
+          "fallback": false
+        },
+        "public.tb_fat_rel_op_risco_cardio": {
+          "tokens_in": 4091,
+          "tokens_out": 20,
+          "tokens_total": 4111,
+          "elapsed_s": 1.214,
+          "fallback": false
+        },
+        "public.tb_historico_dados_fao": {
+          "tokens_in": 2640,
+          "tokens_out": 19,
+          "tokens_total": 2659,
+          "elapsed_s": 1.365,
+          "fallback": false
+        },
+        "public.tb_justificativa_prontuario": {
+          "tokens_in": 1957,
+          "tokens_out": 35,
+          "tokens_total": 1992,
+          "elapsed_s": 1.373,
+          "fallback": false
+        },
+        "public.tb_lembrete_evolucao": {
+          "tokens_in": 3068,
+          "tokens_out": 31,
+          "tokens_total": 3099,
+          "elapsed_s": 1.414,
+          "fallback": false
+        },
+        "public.tb_medicamento_uso_continuo": {
+          "tokens_in": 1392,
+          "tokens_out": 26,
+          "tokens_total": 1418,
+          "elapsed_s": 1.59,
+          "fallback": false
+        },
+        "public.tb_medicao": {
+          "tokens_in": 4001,
+          "tokens_out": 23,
+          "tokens_total": 4024,
+          "elapsed_s": 1.395,
+          "fallback": false
+        },
+        "public.tb_odontograma": {
+          "tokens_in": 1461,
+          "tokens_out": 23,
+          "tokens_total": 1484,
+          "elapsed_s": 1.464,
+          "fallback": false
+        },
+        "public.tb_proced_exame_especifico": {
+          "tokens_in": 1279,
+          "tokens_out": 29,
+          "tokens_total": 1308,
+          "elapsed_s": 1.414,
+          "fallback": false
+        },
+        "public.tb_raca_cor": {
+          "tokens_in": 1190,
+          "tokens_out": 37,
+          "tokens_total": 1227,
+          "elapsed_s": 1.859,
+          "fallback": false
+        },
+        "public.tb_tipo_glicemia": {
+          "tokens_in": 1040,
+          "tokens_out": 33,
+          "tokens_total": 1073,
+          "elapsed_s": 1.321,
+          "fallback": false
+        }
+      }
+    },
+    "v24_full_no_numeric_stats": {
+      "total_tokens_in": 0,
+      "total_tokens_out": 0,
+      "total_tokens": 0,
+      "total_elapsed_s": 0,
+      "tables_processed": 0,
+      "per_table": {
+        "public.tb_ciap_ms": {
+          "tokens_in": 5760,
+          "tokens_out": 29,
+          "tokens_total": 5789,
+          "elapsed_s": 1.868,
+          "fallback": false
+        },
+        "public.tb_problema": {
+          "tokens_in": 2498,
+          "tokens_out": 28,
+          "tokens_total": 2526,
+          "elapsed_s": 1.486,
+          "fallback": false
+        },
+        "public.tb_dim_catmat": {
+          "tokens_in": 2275,
+          "tokens_out": 23,
+          "tokens_total": 2298,
+          "elapsed_s": 1.248,
+          "fallback": false
+        },
+        "public.ta_medicamento_catmat": {
+          "tokens_in": 4088,
+          "tokens_out": 25,
+          "tokens_total": 4113,
+          "elapsed_s": 1.441,
+          "fallback": false
+        },
+        "public.ta_tecido_mole": {
+          "tokens_in": 2659,
+          "tokens_out": 25,
+          "tokens_total": 2684,
+          "elapsed_s": 1.159,
+          "fallback": false
+        },
+        "public.ta_vacinacao": {
+          "tokens_in": 2545,
+          "tokens_out": 23,
+          "tokens_total": 2568,
+          "elapsed_s": 1.255,
+          "fallback": false
+        },
+        "public.tb_antecedente": {
+          "tokens_in": 7583,
+          "tokens_out": 26,
+          "tokens_total": 7609,
+          "elapsed_s": 1.581,
+          "fallback": false
+        },
+        "public.tb_cidadao": {
+          "tokens_in": 17576,
+          "tokens_out": 20,
+          "tokens_total": 17596,
+          "elapsed_s": 2.384,
+          "fallback": false
+        },
+        "public.tb_cuidado_compartilhado_evol": {
+          "tokens_in": 5658,
+          "tokens_out": 25,
+          "tokens_total": 5683,
+          "elapsed_s": 1.667,
+          "fallback": false
+        },
+        "public.tb_evolucao_odonto": {
+          "tokens_in": 2644,
+          "tokens_out": 23,
+          "tokens_total": 2667,
+          "elapsed_s": 1.437,
+          "fallback": false
+        },
+        "public.tb_evolucao_subjetivo": {
+          "tokens_in": 1432,
+          "tokens_out": 30,
+          "tokens_total": 1462,
+          "elapsed_s": 1.394,
+          "fallback": false
+        },
+        "public.tb_exame_hemoglobina_glicada": {
+          "tokens_in": 1387,
+          "tokens_out": 28,
+          "tokens_total": 1415,
+          "elapsed_s": 1.295,
+          "fallback": false
+        },
+        "public.tb_exame_prenatal": {
+          "tokens_in": 1809,
+          "tokens_out": 22,
+          "tokens_total": 1831,
+          "elapsed_s": 1.454,
+          "fallback": false
+        },
+        "public.tb_fat_atend_odonto_problemas": {
+          "tokens_in": 8911,
+          "tokens_out": 22,
+          "tokens_total": 8933,
+          "elapsed_s": 2.062,
+          "fallback": false
+        },
+        "public.tb_fat_rel_op_risco_cardio": {
+          "tokens_in": 5952,
+          "tokens_out": 14,
+          "tokens_total": 5966,
+          "elapsed_s": 1.553,
+          "fallback": false
+        },
+        "public.tb_historico_dados_fao": {
+          "tokens_in": 3172,
+          "tokens_out": 18,
+          "tokens_total": 3190,
+          "elapsed_s": 1.688,
+          "fallback": false
+        },
+        "public.tb_justificativa_prontuario": {
+          "tokens_in": 2436,
+          "tokens_out": 35,
+          "tokens_total": 2471,
+          "elapsed_s": 1.609,
+          "fallback": false
+        },
+        "public.tb_lembrete_evolucao": {
+          "tokens_in": 3360,
+          "tokens_out": 31,
+          "tokens_total": 3391,
+          "elapsed_s": 1.561,
+          "fallback": false
+        },
+        "public.tb_medicamento_uso_continuo": {
+          "tokens_in": 1635,
+          "tokens_out": 26,
+          "tokens_total": 1661,
+          "elapsed_s": 1.732,
+          "fallback": false
+        },
+        "public.tb_medicao": {
+          "tokens_in": 5829,
+          "tokens_out": 21,
+          "tokens_total": 5850,
+          "elapsed_s": 1.651,
+          "fallback": false
+        },
+        "public.tb_odontograma": {
+          "tokens_in": 1833,
+          "tokens_out": 23,
+          "tokens_total": 1856,
+          "elapsed_s": 1.581,
+          "fallback": false
+        },
+        "public.tb_proced_exame_especifico": {
+          "tokens_in": 1354,
+          "tokens_out": 22,
+          "tokens_total": 1376,
+          "elapsed_s": 1.579,
+          "fallback": false
+        },
+        "public.tb_raca_cor": {
+          "tokens_in": 1315,
+          "tokens_out": 33,
+          "tokens_total": 1348,
+          "elapsed_s": 1.496,
+          "fallback": false
+        },
+        "public.tb_tipo_glicemia": {
+          "tokens_in": 1115,
+          "tokens_out": 28,
+          "tokens_total": 1143,
+          "elapsed_s": 1.679,
+          "fallback": false
+        }
+      }
+    },
+    "v25_full_no_sample_rows": {
+      "total_tokens_in": 0,
+      "total_tokens_out": 0,
+      "total_tokens": 0,
+      "total_elapsed_s": 0,
+      "tables_processed": 0,
+      "per_table": {
+        "public.tb_ciap_ms": {
+          "tokens_in": 5415,
+          "tokens_out": 22,
+          "tokens_total": 5437,
+          "elapsed_s": 1.732,
+          "fallback": false
+        },
+        "public.tb_problema": {
+          "tokens_in": 2439,
+          "tokens_out": 28,
+          "tokens_total": 2467,
+          "elapsed_s": 1.905,
+          "fallback": false
+        },
+        "public.tb_dim_catmat": {
+          "tokens_in": 2142,
+          "tokens_out": 19,
+          "tokens_total": 2161,
+          "elapsed_s": 1.388,
+          "fallback": false
+        },
+        "public.ta_medicamento_catmat": {
+          "tokens_in": 3866,
+          "tokens_out": 25,
+          "tokens_total": 3891,
+          "elapsed_s": 1.731,
+          "fallback": false
+        },
+        "public.ta_tecido_mole": {
+          "tokens_in": 2582,
+          "tokens_out": 24,
+          "tokens_total": 2606,
+          "elapsed_s": 1.76,
+          "fallback": false
+        },
+        "public.ta_vacinacao": {
+          "tokens_in": 2510,
+          "tokens_out": 21,
+          "tokens_total": 2531,
+          "elapsed_s": 1.685,
+          "fallback": false
+        },
+        "public.tb_antecedente": {
+          "tokens_in": 6591,
+          "tokens_out": 24,
+          "tokens_total": 6615,
+          "elapsed_s": 1.821,
+          "fallback": false
+        },
+        "public.tb_cidadao": {
+          "tokens_in": 16117,
+          "tokens_out": 23,
+          "tokens_total": 16140,
+          "elapsed_s": 2.693,
+          "fallback": false
+        },
+        "public.tb_cuidado_compartilhado_evol": {
+          "tokens_in": 5355,
+          "tokens_out": 25,
+          "tokens_total": 5380,
+          "elapsed_s": 2.314,
+          "fallback": false
+        },
+        "public.tb_evolucao_odonto": {
+          "tokens_in": 2550,
+          "tokens_out": 23,
+          "tokens_total": 2573,
+          "elapsed_s": 1.673,
+          "fallback": false
+        },
+        "public.tb_evolucao_subjetivo": {
+          "tokens_in": 1372,
+          "tokens_out": 30,
+          "tokens_total": 1402,
+          "elapsed_s": 1.899,
+          "fallback": false
+        },
+        "public.tb_exame_hemoglobina_glicada": {
+          "tokens_in": 1385,
+          "tokens_out": 23,
+          "tokens_total": 1408,
+          "elapsed_s": 1.36,
+          "fallback": false
+        },
+        "public.tb_exame_prenatal": {
+          "tokens_in": 1793,
+          "tokens_out": 26,
+          "tokens_total": 1819,
+          "elapsed_s": 1.706,
+          "fallback": false
+        },
+        "public.tb_fat_atend_odonto_problemas": {
+          "tokens_in": 8710,
+          "tokens_out": 20,
+          "tokens_total": 8730,
+          "elapsed_s": 1.982,
+          "fallback": false
+        },
+        "public.tb_fat_rel_op_risco_cardio": {
+          "tokens_in": 5342,
+          "tokens_out": 14,
+          "tokens_total": 5356,
+          "elapsed_s": 1.962,
+          "fallback": false
+        },
+        "public.tb_historico_dados_fao": {
+          "tokens_in": 2868,
+          "tokens_out": 18,
+          "tokens_total": 2886,
+          "elapsed_s": 1.901,
+          "fallback": false
+        },
+        "public.tb_justificativa_prontuario": {
+          "tokens_in": 2312,
+          "tokens_out": 35,
+          "tokens_total": 2347,
+          "elapsed_s": 1.848,
+          "fallback": false
+        },
+        "public.tb_lembrete_evolucao": {
+          "tokens_in": 3192,
+          "tokens_out": 32,
+          "tokens_total": 3224,
+          "elapsed_s": 1.938,
+          "fallback": false
+        },
+        "public.tb_medicamento_uso_continuo": {
+          "tokens_in": 1656,
+          "tokens_out": 26,
+          "tokens_total": 1682,
+          "elapsed_s": 1.94,
+          "fallback": false
+        },
+        "public.tb_medicao": {
+          "tokens_in": 5117,
+          "tokens_out": 21,
+          "tokens_total": 5138,
+          "elapsed_s": 1.56,
+          "fallback": false
+        },
+        "public.tb_odontograma": {
+          "tokens_in": 1921,
+          "tokens_out": 23,
+          "tokens_total": 1944,
+          "elapsed_s": 1.739,
+          "fallback": false
+        },
+        "public.tb_proced_exame_especifico": {
+          "tokens_in": 1254,
+          "tokens_out": 23,
+          "tokens_total": 1277,
+          "elapsed_s": 1.703,
+          "fallback": false
+        },
+        "public.tb_raca_cor": {
+          "tokens_in": 1193,
+          "tokens_out": 36,
+          "tokens_total": 1229,
+          "elapsed_s": 1.716,
+          "fallback": false
+        },
+        "public.tb_tipo_glicemia": {
+          "tokens_in": 1036,
+          "tokens_out": 28,
+          "tokens_total": 1064,
+          "elapsed_s": 1.938,
+          "fallback": false
+        }
+      }
+    }
+  }
+}

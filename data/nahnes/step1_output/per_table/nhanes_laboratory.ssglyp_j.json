@@ -1,0 +1,186 @@
+{
+  "schema": "nhanes_laboratory",
+  "table_name": "ssglyp_j",
+  "row_count": 2986,
+  "primary_key": [],
+  "foreign_keys": [],
+  "columns": [
+    {
+      "name": "SEQN",
+      "type": "DOUBLE PRECISION",
+      "nullable": true,
+      "stats": {
+        "null_count": 0,
+        "distinct_count": 2986,
+        "null_percentage": 0.0,
+        "numeric_stats": {
+          "avg": 98345.420964501,
+          "min": 93706.0,
+          "max": 102955.0,
+          "stddev": 2657.279434039394
+        },
+        "sample_values": [
+          "99729.0",
+          "100500.0",
+          "97230.0",
+          "96472.0",
+          "102403.0",
+          "100958.0",
+          "97209.0",
+          "96347.0",
+          "100331.0",
+          "94390.0",
+          "94262.0",
+          "101864.0",
+          "95105.0",
+          "94383.0",
+          "95960.0"
+        ]
+      }
+    },
+    {
+      "name": "WTSSBJ2Y",
+      "type": "DOUBLE PRECISION",
+      "nullable": true,
+      "stats": {
+        "null_count": 0,
+        "distinct_count": 2248,
+        "null_percentage": 0.0,
+        "numeric_stats": {
+          "avg": 103570.83085840032,
+          "min": 5.397605346934028e-79,
+          "max": 1489188.643382,
+          "stddev": 144301.34617254903
+        },
+        "sample_values": [
+          "165971.657929",
+          "26777.256508",
+          "25392.307408",
+          "76880.312279",
+          "98457.673958",
+          "35388.678742",
+          "75679.490046",
+          "48697.237066",
+          "50834.080579",
+          "261679.262396",
+          "33114.433306",
+          "40958.298769",
+          "425680.92641",
+          "323767.028326",
+          "182807.695636"
+        ]
+      }
+    },
+    {
+      "name": "SSGLYP",
+      "type": "DOUBLE PRECISION",
+      "nullable": true,
+      "stats": {
+        "null_count": 657,
+        "distinct_count": 786,
+        "null_percentage": 22.0,
+        "numeric_stats": {
+          "avg": 0.45240618291112317,
+          "min": 0.071,
+          "max": 7.69,
+          "stddev": 0.5668078858363661
+        },
+        "frequent_values": [
+          {
+            "value": "0.071",
+            "count": 407
+          },
+          {
+            "value": "0.144",
+            "count": 10
+          },
+          {
+            "value": "0.19",
+            "count": 9
+          },
+          {
+            "value": "0.363",
+            "count": 9
+          },
+          {
+            "value": "0.143",
+            "count": 9
+          }
+        ],
+        "sample_values": [
+          "0.804",
+          "0.94",
+          "0.431",
+          "0.598",
+          "0.349",
+          "0.427",
+          "0.316",
+          "0.473",
+          "0.365",
+          "0.884",
+          "0.658",
+          "0.282",
+          "0.376",
+          "0.105",
+          "0.542"
+        ]
+      }
+    },
+    {
+      "name": "SSGLYPL",
+      "type": "DOUBLE PRECISION",
+      "nullable": true,
+      "stats": {
+        "null_count": 657,
+        "distinct_count": 2,
+        "null_percentage": 22.0,
+        "numeric_stats": {
+          "avg": 0.17475311292400172,
+          "min": 5.397605346934028e-79,
+          "max": 1.0,
+          "stddev": 0.379837347084934
+        },
+        "frequent_values": [
+          {
+            "value": "5.397605346934028e-79",
+            "count": 1922
+          },
+          {
+            "value": "1.0",
+            "count": 407
+          }
+        ],
+        "sample_values": [
+          "5.397605346934028e-79",
+          "1.0"
+        ]
+      }
+    }
+  ],
+  "sample_rows": [
+    {
+      "SEQN": 93706.0,
+      "WTSSBJ2Y": 30088.74769,
+      "SSGLYP": 0.071,
+      "SSGLYPL": 1.0
+    },
+    {
+      "SEQN": 93715.0,
+      "WTSSBJ2Y": 30905.566678,
+      "SSGLYP": 0.552,
+      "SSGLYPL": 5.397605346934028e-79
+    },
+    {
+      "SEQN": 93717.0,
+      "WTSSBJ2Y": 153784.381956,
+      "SSGLYP": 1.34,
+      "SSGLYPL": 5.397605346934028e-79
+    }
+  ],
+  "execution": {
+    "status": "success",
+    "seconds": 0.03,
+    "processed_at": "2026-06-11T21:18:50.279981",
+    "attempt": 1
+  }
+}

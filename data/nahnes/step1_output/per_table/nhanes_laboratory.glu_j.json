@@ -1,0 +1,211 @@
+{
+  "schema": "nhanes_laboratory",
+  "table_name": "glu_j",
+  "row_count": 3036,
+  "primary_key": [],
+  "foreign_keys": [],
+  "columns": [
+    {
+      "name": "SEQN",
+      "type": "DOUBLE PRECISION",
+      "nullable": true,
+      "stats": {
+        "null_count": 0,
+        "distinct_count": 3036,
+        "null_percentage": 0.0,
+        "numeric_stats": {
+          "avg": 98359.56752305666,
+          "min": 93708.0,
+          "max": 102956.0,
+          "stddev": 2696.4741279348477
+        },
+        "sample_values": [
+          "100500.0",
+          "101333.0",
+          "98813.0",
+          "96811.0",
+          "96347.0",
+          "98508.0",
+          "94966.0",
+          "102850.0",
+          "102554.0",
+          "94390.0",
+          "94262.0",
+          "101864.0",
+          "96978.0",
+          "93827.0",
+          "98270.0"
+        ]
+      }
+    },
+    {
+      "name": "WTSAF2YR",
+      "type": "DOUBLE PRECISION",
+      "nullable": true,
+      "stats": {
+        "null_count": 0,
+        "distinct_count": 2639,
+        "null_percentage": 0.0,
+        "numeric_stats": {
+          "avg": 89741.91006743987,
+          "min": 5.397605346934028e-79,
+          "max": 944153.249752,
+          "stddev": 109439.47894932036
+        },
+        "sample_values": [
+          "192250.049141",
+          "33503.028473",
+          "41317.61025",
+          "66390.301194",
+          "45656.407657",
+          "31982.026296",
+          "13678.685109",
+          "100052.114051",
+          "304455.891362",
+          "186249.771499",
+          "30196.453806",
+          "97379.792022",
+          "127187.796127",
+          "123199.685396",
+          "432920.565013"
+        ]
+      }
+    },
+    {
+      "name": "LBXGLU",
+      "type": "DOUBLE PRECISION",
+      "nullable": true,
+      "stats": {
+        "null_count": 145,
+        "distinct_count": 207,
+        "null_percentage": 4.78,
+        "numeric_stats": {
+          "avg": 111.80318228986509,
+          "min": 47.0,
+          "max": 451.0,
+          "stddev": 35.53314652518483
+        },
+        "frequent_values": [
+          {
+            "value": "97.0",
+            "count": 118
+          },
+          {
+            "value": "101.0",
+            "count": 113
+          },
+          {
+            "value": "95.0",
+            "count": 112
+          },
+          {
+            "value": "100.0",
+            "count": 109
+          },
+          {
+            "value": "99.0",
+            "count": 109
+          }
+        ],
+        "sample_values": [
+          "62.0",
+          "154.0",
+          "346.0",
+          "174.0",
+          "217.0",
+          "162.0",
+          "76.0",
+          "96.0",
+          "356.0",
+          "215.0",
+          "143.0",
+          "342.0",
+          "235.0",
+          "63.0",
+          "70.0"
+        ]
+      }
+    },
+    {
+      "name": "LBDGLUSI",
+      "type": "DOUBLE PRECISION",
+      "nullable": true,
+      "stats": {
+        "null_count": 145,
+        "distinct_count": 186,
+        "null_percentage": 4.78,
+        "numeric_stats": {
+          "avg": 6.206233137322702,
+          "min": 2.61,
+          "max": 25.0,
+          "stddev": 1.9727282391373053
+        },
+        "frequent_values": [
+          {
+            "value": "5.38",
+            "count": 118
+          },
+          {
+            "value": "5.61",
+            "count": 113
+          },
+          {
+            "value": "5.27",
+            "count": 112
+          },
+          {
+            "value": "5.5",
+            "count": 109
+          },
+          {
+            "value": "5.55",
+            "count": 109
+          }
+        ],
+        "sample_values": [
+          "5.38",
+          "12.4",
+          "8.38",
+          "13.2",
+          "7.16",
+          "5.33",
+          "9.05",
+          "9.71",
+          "16.3",
+          "13.4",
+          "20.3",
+          "6.55",
+          "8.83",
+          "9.16",
+          "8.72"
+        ]
+      }
+    }
+  ],
+  "sample_rows": [
+    {
+      "SEQN": 93708.0,
+      "WTSAF2YR": 25653.677102,
+      "LBXGLU": 122.0,
+      "LBDGLUSI": 6.77
+    },
+    {
+      "SEQN": 93711.0,
+      "WTSAF2YR": 29226.045506,
+      "LBXGLU": 107.0,
+      "LBDGLUSI": 5.94
+    },
+    {
+      "SEQN": 93717.0,
+      "WTSAF2YR": 137150.988033,
+      "LBXGLU": 91.0,
+      "LBDGLUSI": 5.05
+    }
+  ],
+  "execution": {
+    "status": "success",
+    "seconds": 0.04,
+    "processed_at": "2026-06-11T21:18:35.324475",
+    "attempt": 1
+  }
+}

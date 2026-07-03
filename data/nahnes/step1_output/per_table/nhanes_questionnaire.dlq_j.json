@@ -1,0 +1,548 @@
+{
+  "schema": "nhanes_questionnaire",
+  "table_name": "dlq_j",
+  "row_count": 8897,
+  "primary_key": [],
+  "foreign_keys": [],
+  "columns": [
+    {
+      "name": "SEQN",
+      "type": "DOUBLE PRECISION",
+      "nullable": true,
+      "stats": {
+        "null_count": 0,
+        "distinct_count": 8897,
+        "null_percentage": 0.0,
+        "numeric_stats": {
+          "avg": 98333.8557940879,
+          "min": 93703.0,
+          "max": 102956.0,
+          "stddev": 2671.896913978537
+        },
+        "sample_values": [
+          "96472.0",
+          "101333.0",
+          "102403.0",
+          "100276.0",
+          "97209.0",
+          "101319.0",
+          "100331.0",
+          "102850.0",
+          "94262.0",
+          "95105.0",
+          "93827.0",
+          "98270.0",
+          "95960.0",
+          "95559.0",
+          "95846.0"
+        ]
+      }
+    },
+    {
+      "name": "DLQ010",
+      "type": "DOUBLE PRECISION",
+      "nullable": true,
+      "stats": {
+        "null_count": 0,
+        "distinct_count": 3,
+        "null_percentage": 0.0,
+        "numeric_stats": {
+          "avg": 1.9388557940878948,
+          "min": 1.0,
+          "max": 9.0,
+          "stddev": 0.2645788597370608
+        },
+        "frequent_values": [
+          {
+            "value": "2.0",
+            "count": 8337
+          },
+          {
+            "value": "1.0",
+            "count": 558
+          },
+          {
+            "value": "9.0",
+            "count": 2
+          }
+        ],
+        "sample_values": [
+          "9.0",
+          "2.0",
+          "1.0"
+        ]
+      }
+    },
+    {
+      "name": "DLQ020",
+      "type": "DOUBLE PRECISION",
+      "nullable": true,
+      "stats": {
+        "null_count": 0,
+        "distinct_count": 3,
+        "null_percentage": 0.0,
+        "numeric_stats": {
+          "avg": 1.9485219736989996,
+          "min": 1.0,
+          "max": 9.0,
+          "stddev": 0.23479457383278635
+        },
+        "frequent_values": [
+          {
+            "value": "2.0",
+            "count": 8431
+          },
+          {
+            "value": "1.0",
+            "count": 465
+          },
+          {
+            "value": "9.0",
+            "count": 1
+          }
+        ],
+        "sample_values": [
+          "9.0",
+          "2.0",
+          "1.0"
+        ]
+      }
+    },
+    {
+      "name": "DLQ040",
+      "type": "DOUBLE PRECISION",
+      "nullable": true,
+      "stats": {
+        "null_count": 841,
+        "distinct_count": 4,
+        "null_percentage": 9.45,
+        "numeric_stats": {
+          "avg": 1.8891509433962264,
+          "min": 1.0,
+          "max": 9.0,
+          "stddev": 0.3885403445092131
+        },
+        "frequent_values": [
+          {
+            "value": "2.0",
+            "count": 7101
+          },
+          {
+            "value": "1.0",
+            "count": 947
+          },
+          {
+            "value": "9.0",
+            "count": 7
+          },
+          {
+            "value": "7.0",
+            "count": 1
+          }
+        ],
+        "sample_values": [
+          "9.0",
+          "7.0",
+          "2.0",
+          "1.0"
+        ]
+      }
+    },
+    {
+      "name": "DLQ050",
+      "type": "DOUBLE PRECISION",
+      "nullable": true,
+      "stats": {
+        "null_count": 841,
+        "distinct_count": 3,
+        "null_percentage": 9.45,
+        "numeric_stats": {
+          "avg": 1.8793445878848063,
+          "min": 1.0,
+          "max": 9.0,
+          "stddev": 0.3563249445359896
+        },
+        "frequent_values": [
+          {
+            "value": "2.0",
+            "count": 7060
+          },
+          {
+            "value": "1.0",
+            "count": 993
+          },
+          {
+            "value": "9.0",
+            "count": 3
+          }
+        ],
+        "sample_values": [
+          "9.0",
+          "2.0",
+          "1.0"
+        ]
+      }
+    },
+    {
+      "name": "DLQ060",
+      "type": "DOUBLE PRECISION",
+      "nullable": true,
+      "stats": {
+        "null_count": 841,
+        "distinct_count": 2,
+        "null_percentage": 9.45,
+        "numeric_stats": {
+          "avg": 1.9488579940417081,
+          "min": 1.0,
+          "max": 2.0,
+          "stddev": 0.22030098860374397
+        },
+        "frequent_values": [
+          {
+            "value": "2.0",
+            "count": 7644
+          },
+          {
+            "value": "1.0",
+            "count": 412
+          }
+        ],
+        "sample_values": [
+          "2.0",
+          "1.0"
+        ]
+      }
+    },
+    {
+      "name": "DLQ080",
+      "type": "DOUBLE PRECISION",
+      "nullable": true,
+      "stats": {
+        "null_count": 2601,
+        "distinct_count": 3,
+        "null_percentage": 29.23,
+        "numeric_stats": {
+          "avg": 1.9093074968233799,
+          "min": 1.0,
+          "max": 9.0,
+          "stddev": 0.36858671774306806
+        },
+        "frequent_values": [
+          {
+            "value": "2.0",
+            "count": 5677
+          },
+          {
+            "value": "1.0",
+            "count": 613
+          },
+          {
+            "value": "9.0",
+            "count": 6
+          }
+        ],
+        "sample_values": [
+          "9.0",
+          "2.0",
+          "1.0"
+        ]
+      }
+    },
+    {
+      "name": "DLQ100",
+      "type": "DOUBLE PRECISION",
+      "nullable": true,
+      "stats": {
+        "null_count": 3135,
+        "distinct_count": 6,
+        "null_percentage": 35.24,
+        "numeric_stats": {
+          "avg": 3.416869142658799,
+          "min": 1.0,
+          "max": 9.0,
+          "stddev": 1.4131502513654137
+        },
+        "frequent_values": [
+          {
+            "value": "4.0",
+            "count": 1967
+          },
+          {
+            "value": "5.0",
+            "count": 1437
+          },
+          {
+            "value": "1.0",
+            "count": 861
+          },
+          {
+            "value": "2.0",
+            "count": 807
+          },
+          {
+            "value": "3.0",
+            "count": 675
+          }
+        ],
+        "sample_values": [
+          "9.0",
+          "3.0",
+          "2.0",
+          "4.0",
+          "1.0",
+          "5.0"
+        ]
+      }
+    },
+    {
+      "name": "DLQ110",
+      "type": "DOUBLE PRECISION",
+      "nullable": true,
+      "stats": {
+        "null_count": 3135,
+        "distinct_count": 3,
+        "null_percentage": 35.24,
+        "numeric_stats": {
+          "avg": 1.8944810829573064,
+          "min": 1.0,
+          "max": 9.0,
+          "stddev": 0.3907995219409206
+        },
+        "frequent_values": [
+          {
+            "value": "2.0",
+            "count": 5106
+          },
+          {
+            "value": "1.0",
+            "count": 650
+          },
+          {
+            "value": "9.0",
+            "count": 6
+          }
+        ],
+        "sample_values": [
+          "9.0",
+          "2.0",
+          "1.0"
+        ]
+      }
+    },
+    {
+      "name": "DLQ130",
+      "type": "DOUBLE PRECISION",
+      "nullable": true,
+      "stats": {
+        "null_count": 4572,
+        "distinct_count": 4,
+        "null_percentage": 51.39,
+        "numeric_stats": {
+          "avg": 1.8996531791907514,
+          "min": 1.0,
+          "max": 9.0,
+          "stddev": 0.9771261691116498
+        },
+        "frequent_values": [
+          {
+            "value": "1.0",
+            "count": 2114
+          },
+          {
+            "value": "3.0",
+            "count": 1617
+          },
+          {
+            "value": "2.0",
+            "count": 585
+          },
+          {
+            "value": "9.0",
+            "count": 9
+          }
+        ],
+        "sample_values": [
+          "9.0",
+          "3.0",
+          "2.0",
+          "1.0"
+        ]
+      }
+    },
+    {
+      "name": "DLQ140",
+      "type": "DOUBLE PRECISION",
+      "nullable": true,
+      "stats": {
+        "null_count": 3135,
+        "distinct_count": 7,
+        "null_percentage": 35.24,
+        "numeric_stats": {
+          "avg": 4.0947587643179455,
+          "min": 1.0,
+          "max": 9.0,
+          "stddev": 1.1797532328627018
+        },
+        "frequent_values": [
+          {
+            "value": "5.0",
+            "count": 2725
+          },
+          {
+            "value": "4.0",
+            "count": 1818
+          },
+          {
+            "value": "3.0",
+            "count": 475
+          },
+          {
+            "value": "2.0",
+            "count": 410
+          },
+          {
+            "value": "1.0",
+            "count": 319
+          }
+        ],
+        "sample_values": [
+          "3.0",
+          "4.0",
+          "1.0",
+          "9.0",
+          "7.0",
+          "2.0",
+          "5.0"
+        ]
+      }
+    },
+    {
+      "name": "DLQ150",
+      "type": "DOUBLE PRECISION",
+      "nullable": true,
+      "stats": {
+        "null_count": 3135,
+        "distinct_count": 3,
+        "null_percentage": 35.24,
+        "numeric_stats": {
+          "avg": 1.9048941339812564,
+          "min": 1.0,
+          "max": 9.0,
+          "stddev": 0.3669854927947991
+        },
+        "frequent_values": [
+          {
+            "value": "2.0",
+            "count": 5174
+          },
+          {
+            "value": "1.0",
+            "count": 583
+          },
+          {
+            "value": "9.0",
+            "count": 5
+          }
+        ],
+        "sample_values": [
+          "9.0",
+          "2.0",
+          "1.0"
+        ]
+      }
+    },
+    {
+      "name": "DLQ170",
+      "type": "DOUBLE PRECISION",
+      "nullable": true,
+      "stats": {
+        "null_count": 5860,
+        "distinct_count": 4,
+        "null_percentage": 65.86,
+        "numeric_stats": {
+          "avg": 1.9084622983207111,
+          "min": 1.0,
+          "max": 9.0,
+          "stddev": 1.0128542287580968
+        },
+        "frequent_values": [
+          {
+            "value": "1.0",
+            "count": 1457
+          },
+          {
+            "value": "3.0",
+            "count": 1095
+          },
+          {
+            "value": "2.0",
+            "count": 473
+          },
+          {
+            "value": "9.0",
+            "count": 12
+          }
+        ],
+        "sample_values": [
+          "9.0",
+          "3.0",
+          "2.0",
+          "1.0"
+        ]
+      }
+    }
+  ],
+  "sample_rows": [
+    {
+      "SEQN": 93703.0,
+      "DLQ010": 2.0,
+      "DLQ020": 2.0,
+      "DLQ040": NaN,
+      "DLQ050": NaN,
+      "DLQ060": NaN,
+      "DLQ080": NaN,
+      "DLQ100": NaN,
+      "DLQ110": NaN,
+      "DLQ130": NaN,
+      "DLQ140": NaN,
+      "DLQ150": NaN,
+      "DLQ170": NaN
+    },
+    {
+      "SEQN": 93704.0,
+      "DLQ010": 2.0,
+      "DLQ020": 2.0,
+      "DLQ040": NaN,
+      "DLQ050": NaN,
+      "DLQ060": NaN,
+      "DLQ080": NaN,
+      "DLQ100": NaN,
+      "DLQ110": NaN,
+      "DLQ130": NaN,
+      "DLQ140": NaN,
+      "DLQ150": NaN,
+      "DLQ170": NaN
+    },
+    {
+      "SEQN": 93705.0,
+      "DLQ010": 2.0,
+      "DLQ020": 2.0,
+      "DLQ040": 2.0,
+      "DLQ050": 2.0,
+      "DLQ060": 2.0,
+      "DLQ080": 2.0,
+      "DLQ100": 4.0,
+      "DLQ110": 2.0,
+      "DLQ130": 1.0,
+      "DLQ140": 4.0,
+      "DLQ150": 2.0,
+      "DLQ170": 1.0
+    }
+  ],
+  "execution": {
+    "status": "success",
+    "seconds": 0.22,
+    "processed_at": "2026-06-11T21:19:30.522997",
+    "attempt": 1
+  }
+}

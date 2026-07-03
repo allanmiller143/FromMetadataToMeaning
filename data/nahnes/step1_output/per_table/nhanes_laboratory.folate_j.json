@@ -1,0 +1,211 @@
+{
+  "schema": "nhanes_laboratory",
+  "table_name": "folate_j",
+  "row_count": 5092,
+  "primary_key": [],
+  "foreign_keys": [],
+  "columns": [
+    {
+      "name": "SEQN",
+      "type": "DOUBLE PRECISION",
+      "nullable": true,
+      "stats": {
+        "null_count": 0,
+        "distinct_count": 5092,
+        "null_percentage": 0.0,
+        "numeric_stats": {
+          "avg": 98296.8552631579,
+          "min": 93706.0,
+          "max": 102956.0,
+          "stddev": 2666.804759130547
+        },
+        "sample_values": [
+          "98813.0",
+          "96811.0",
+          "97209.0",
+          "96347.0",
+          "96058.0",
+          "94966.0",
+          "101319.0",
+          "102850.0",
+          "95820.0",
+          "93827.0",
+          "95559.0",
+          "97247.0",
+          "98022.0",
+          "94999.0",
+          "101097.0"
+        ]
+      }
+    },
+    {
+      "name": "WTFOL2YR",
+      "type": "DOUBLE PRECISION",
+      "nullable": true,
+      "stats": {
+        "null_count": 0,
+        "distinct_count": 4218,
+        "null_percentage": 0.0,
+        "numeric_stats": {
+          "avg": 62277.82541240807,
+          "min": 5.397605346934028e-79,
+          "max": 903457.153266,
+          "stddev": 81327.09031623047
+        },
+        "sample_values": [
+          "64767.738917",
+          "134491.477619",
+          "88683.128938",
+          "26149.275507",
+          "54283.79349",
+          "76667.880971",
+          "143828.589445",
+          "125622.585358",
+          "23136.509662",
+          "115847.347908",
+          "63322.566866",
+          "47173.912998",
+          "35833.076952",
+          "25630.997643",
+          "31096.743879"
+        ]
+      }
+    },
+    {
+      "name": "LBDRFO",
+      "type": "DOUBLE PRECISION",
+      "nullable": true,
+      "stats": {
+        "null_count": 510,
+        "distinct_count": 456,
+        "null_percentage": 10.02,
+        "numeric_stats": {
+          "avg": 506.68179834133565,
+          "min": 50.3,
+          "max": 2590.0,
+          "stddev": 207.34800338605157
+        },
+        "frequent_values": [
+          {
+            "value": "503.0",
+            "count": 62
+          },
+          {
+            "value": "468.0",
+            "count": 58
+          },
+          {
+            "value": "446.0",
+            "count": 56
+          },
+          {
+            "value": "464.0",
+            "count": 52
+          },
+          {
+            "value": "490.0",
+            "count": 52
+          }
+        ],
+        "sample_values": [
+          "472.0",
+          "1860.0",
+          "346.0",
+          "517.0",
+          "547.0",
+          "322.0",
+          "248.0",
+          "667.0",
+          "215.0",
+          "362.0",
+          "367.0",
+          "342.0",
+          "235.0",
+          "412.0",
+          "830.0"
+        ]
+      }
+    },
+    {
+      "name": "LBDRFOSI",
+      "type": "DOUBLE PRECISION",
+      "nullable": true,
+      "stats": {
+        "null_count": 510,
+        "distinct_count": 748,
+        "null_percentage": 10.02,
+        "numeric_stats": {
+          "avg": 1147.6494980357922,
+          "min": 114.0,
+          "max": 5870.0,
+          "stddev": 469.7496453827603
+        },
+        "frequent_values": [
+          {
+            "value": "1140.0",
+            "count": 62
+          },
+          {
+            "value": "1060.0",
+            "count": 58
+          },
+          {
+            "value": "1010.0",
+            "count": 56
+          },
+          {
+            "value": "1050.0",
+            "count": 52
+          },
+          {
+            "value": "1110.0",
+            "count": 52
+          }
+        ],
+        "sample_values": [
+          "571.0",
+          "572.0",
+          "845.0",
+          "725.0",
+          "504.0",
+          "850.0",
+          "610.0",
+          "1330.0",
+          "797.0",
+          "908.0",
+          "1540.0",
+          "154.0",
+          "1860.0",
+          "615.0",
+          "873.0"
+        ]
+      }
+    }
+  ],
+  "sample_rows": [
+    {
+      "SEQN": 93706.0,
+      "WTFOL2YR": 18472.790609,
+      "LBDRFO": 314.0,
+      "LBDRFOSI": 712.0
+    },
+    {
+      "SEQN": 93707.0,
+      "WTFOL2YR": 14960.045471,
+      "LBDRFO": 636.0,
+      "LBDRFOSI": 1440.0
+    },
+    {
+      "SEQN": 93708.0,
+      "WTFOL2YR": 27032.876894,
+      "LBDRFO": 490.0,
+      "LBDRFOSI": 1110.0
+    }
+  ],
+  "execution": {
+    "status": "success",
+    "seconds": 0.04,
+    "processed_at": "2026-06-11T21:18:31.763619",
+    "attempt": 1
+  }
+}

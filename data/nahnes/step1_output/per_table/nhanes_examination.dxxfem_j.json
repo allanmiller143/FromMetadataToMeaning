@@ -1,0 +1,1048 @@
+{
+  "schema": "nhanes_examination",
+  "table_name": "dxxfem_j",
+  "row_count": 2898,
+  "primary_key": [],
+  "foreign_keys": [],
+  "columns": [
+    {
+      "name": "SEQN",
+      "type": "DOUBLE PRECISION",
+      "nullable": true,
+      "stats": {
+        "null_count": 0,
+        "distinct_count": 2898,
+        "null_percentage": 0.0,
+        "numeric_stats": {
+          "avg": 98257.37715665977,
+          "min": 93705.0,
+          "max": 102952.0,
+          "stddev": 2694.780058932956
+        },
+        "sample_values": [
+          "101333.0",
+          "98813.0",
+          "97209.0",
+          "98508.0",
+          "102850.0",
+          "102554.0",
+          "94390.0",
+          "101864.0",
+          "96978.0",
+          "95105.0",
+          "93827.0",
+          "98270.0",
+          "101662.0",
+          "95846.0",
+          "96916.0"
+        ]
+      }
+    },
+    {
+      "name": "DXAFMRST",
+      "type": "DOUBLE PRECISION",
+      "nullable": true,
+      "stats": {
+        "null_count": 0,
+        "distinct_count": 4,
+        "null_percentage": 0.0,
+        "numeric_stats": {
+          "avg": 1.6639061421670118,
+          "min": 1.0,
+          "max": 5.0,
+          "stddev": 1.4259594063909113
+        },
+        "frequent_values": [
+          {
+            "value": "1.0",
+            "count": 2286
+          },
+          {
+            "value": "5.0",
+            "count": 436
+          },
+          {
+            "value": "2.0",
+            "count": 174
+          },
+          {
+            "value": "4.0",
+            "count": 2
+          }
+        ],
+        "sample_values": [
+          "4.0",
+          "2.0",
+          "5.0",
+          "1.0"
+        ]
+      }
+    },
+    {
+      "name": "DXXFMBCC",
+      "type": "DOUBLE PRECISION",
+      "nullable": true,
+      "stats": {
+        "null_count": 438,
+        "distinct_count": 5,
+        "null_percentage": 15.11,
+        "numeric_stats": {
+          "avg": 0.4142276422764228,
+          "min": 5.397605346934028e-79,
+          "max": 6.0,
+          "stddev": 1.516468097607575
+        },
+        "frequent_values": [
+          {
+            "value": "5.397605346934028e-79",
+            "count": 2286
+          },
+          {
+            "value": "6.0",
+            "count": 168
+          },
+          {
+            "value": "1.0",
+            "count": 4
+          },
+          {
+            "value": "3.0",
+            "count": 1
+          },
+          {
+            "value": "4.0",
+            "count": 1
+          }
+        ],
+        "sample_values": [
+          "3.0",
+          "6.0",
+          "5.397605346934028e-79",
+          "4.0",
+          "1.0"
+        ]
+      }
+    },
+    {
+      "name": "DXXOFBMD",
+      "type": "DOUBLE PRECISION",
+      "nullable": true,
+      "stats": {
+        "null_count": 612,
+        "distinct_count": 661,
+        "null_percentage": 21.12,
+        "numeric_stats": {
+          "avg": 0.9223245844269471,
+          "min": 0.37,
+          "max": 1.55,
+          "stddev": 0.16020438144126461
+        },
+        "frequent_values": [
+          {
+            "value": "0.897",
+            "count": 12
+          },
+          {
+            "value": "0.849",
+            "count": 11
+          },
+          {
+            "value": "0.996",
+            "count": 10
+          },
+          {
+            "value": "0.863",
+            "count": 10
+          },
+          {
+            "value": "1.038",
+            "count": 10
+          }
+        ],
+        "sample_values": [
+          "0.945",
+          "0.871",
+          "1.082",
+          "1.241",
+          "1.154",
+          "0.884",
+          "0.658",
+          "0.563",
+          "0.87",
+          "1.157",
+          "1.195",
+          "1.312",
+          "0.783",
+          "0.596",
+          "0.937"
+        ]
+      }
+    },
+    {
+      "name": "DXXOFBMC",
+      "type": "DOUBLE PRECISION",
+      "nullable": true,
+      "stats": {
+        "null_count": 612,
+        "distinct_count": 1715,
+        "null_percentage": 21.12,
+        "numeric_stats": {
+          "avg": 35.43101487314086,
+          "min": 13.42,
+          "max": 70.99,
+          "stddev": 9.884800232859655
+        },
+        "sample_values": [
+          "32.02",
+          "43.92",
+          "21.94",
+          "38.86",
+          "36.05",
+          "57.99",
+          "27.13",
+          "37.69",
+          "36.85",
+          "26.64",
+          "29.7",
+          "23.85",
+          "21.99",
+          "36.16",
+          "44.93"
+        ]
+      }
+    },
+    {
+      "name": "DXXOFA",
+      "type": "DOUBLE PRECISION",
+      "nullable": true,
+      "stats": {
+        "null_count": 612,
+        "distinct_count": 1487,
+        "null_percentage": 21.12,
+        "numeric_stats": {
+          "avg": 38.04525809273829,
+          "min": 24.29,
+          "max": 61.57,
+          "stddev": 6.438136444211012
+        },
+        "sample_values": [
+          "37.42",
+          "43.92",
+          "51.04",
+          "29.75",
+          "38.86",
+          "44.6",
+          "42.05",
+          "36.05",
+          "47.79",
+          "37.69",
+          "41.13",
+          "49.16",
+          "36.85",
+          "42.6",
+          "27.7"
+        ]
+      }
+    },
+    {
+      "name": "DXXNKBMD",
+      "type": "DOUBLE PRECISION",
+      "nullable": true,
+      "stats": {
+        "null_count": 612,
+        "distinct_count": 602,
+        "null_percentage": 21.12,
+        "numeric_stats": {
+          "avg": 0.7553718285214339,
+          "min": 0.144,
+          "max": 1.421,
+          "stddev": 0.14259919185164596
+        },
+        "frequent_values": [
+          {
+            "value": "0.695",
+            "count": 14
+          },
+          {
+            "value": "0.759",
+            "count": 13
+          },
+          {
+            "value": "0.696",
+            "count": 13
+          },
+          {
+            "value": "0.665",
+            "count": 12
+          },
+          {
+            "value": "0.685",
+            "count": 12
+          }
+        ],
+        "sample_values": [
+          "0.349",
+          "0.945",
+          "0.871",
+          "1.082",
+          "0.884",
+          "0.658",
+          "0.87",
+          "0.563",
+          "1.157",
+          "0.542",
+          "0.783",
+          "0.596",
+          "0.937",
+          "0.686",
+          "0.801"
+        ]
+      }
+    },
+    {
+      "name": "DXXNKBMC",
+      "type": "DOUBLE PRECISION",
+      "nullable": true,
+      "stats": {
+        "null_count": 612,
+        "distinct_count": 417,
+        "null_percentage": 21.12,
+        "numeric_stats": {
+          "avg": 3.9777121609798813,
+          "min": 0.16,
+          "max": 8.46,
+          "stddev": 0.9152058836424709
+        },
+        "frequent_values": [
+          {
+            "value": "3.66",
+            "count": 21
+          },
+          {
+            "value": "3.88",
+            "count": 20
+          },
+          {
+            "value": "3.6",
+            "count": 19
+          },
+          {
+            "value": "4.27",
+            "count": 18
+          },
+          {
+            "value": "3.41",
+            "count": 16
+          }
+        ],
+        "sample_values": [
+          "3.07",
+          "3.71",
+          "2.52",
+          "2.76",
+          "5.38",
+          "5.23",
+          "5.8",
+          "5.33",
+          "2.36",
+          "4.84",
+          "5.64",
+          "4.8",
+          "6.2",
+          "3.23",
+          "2.74"
+        ]
+      }
+    },
+    {
+      "name": "DXXNKA",
+      "type": "DOUBLE PRECISION",
+      "nullable": true,
+      "stats": {
+        "null_count": 612,
+        "distinct_count": 289,
+        "null_percentage": 21.12,
+        "numeric_stats": {
+          "avg": 5.251832895888017,
+          "min": 1.11,
+          "max": 7.23,
+          "stddev": 0.5800372809893498
+        },
+        "frequent_values": [
+          {
+            "value": "5.15",
+            "count": 23
+          },
+          {
+            "value": "5.02",
+            "count": 22
+          },
+          {
+            "value": "5.3",
+            "count": 21
+          },
+          {
+            "value": "5.54",
+            "count": 21
+          },
+          {
+            "value": "5.4",
+            "count": 20
+          }
+        ],
+        "sample_values": [
+          "5.23",
+          "5.38",
+          "5.8",
+          "5.33",
+          "6.18",
+          "4.84",
+          "4.8",
+          "5.64",
+          "6.2",
+          "4.86",
+          "6.65",
+          "6.68",
+          "5.85",
+          "5.45",
+          "6.56"
+        ]
+      }
+    },
+    {
+      "name": "DXXTRBMD",
+      "type": "DOUBLE PRECISION",
+      "nullable": true,
+      "stats": {
+        "null_count": 612,
+        "distinct_count": 577,
+        "null_percentage": 21.12,
+        "numeric_stats": {
+          "avg": 0.6955778652668412,
+          "min": 0.269,
+          "max": 1.224,
+          "stddev": 0.13141035939297566
+        },
+        "frequent_values": [
+          {
+            "value": "0.711",
+            "count": 16
+          },
+          {
+            "value": "0.639",
+            "count": 14
+          },
+          {
+            "value": "0.678",
+            "count": 13
+          },
+          {
+            "value": "0.602",
+            "count": 12
+          },
+          {
+            "value": "0.655",
+            "count": 12
+          }
+        ],
+        "sample_values": [
+          "0.473",
+          "0.871",
+          "0.447",
+          "0.884",
+          "0.658",
+          "0.563",
+          "0.87",
+          "0.542",
+          "0.783",
+          "0.596",
+          "0.937",
+          "0.686",
+          "0.801",
+          "0.584",
+          "0.651"
+        ]
+      }
+    },
+    {
+      "name": "DXXTRBMC",
+      "type": "DOUBLE PRECISION",
+      "nullable": true,
+      "stats": {
+        "null_count": 612,
+        "distinct_count": 864,
+        "null_percentage": 21.12,
+        "numeric_stats": {
+          "avg": 8.467038495188104,
+          "min": 2.52,
+          "max": 33.78,
+          "stddev": 2.5731195594504412
+        },
+        "frequent_values": [
+          {
+            "value": "6.02",
+            "count": 10
+          },
+          {
+            "value": "7.73",
+            "count": 9
+          },
+          {
+            "value": "7.04",
+            "count": 9
+          },
+          {
+            "value": "9.1",
+            "count": 9
+          },
+          {
+            "value": "6.45",
+            "count": 8
+          }
+        ],
+        "sample_values": [
+          "10.98",
+          "5.38",
+          "12.75",
+          "8.38",
+          "5.33",
+          "10.28",
+          "4.8",
+          "5.64",
+          "3.23",
+          "11.42",
+          "11.37",
+          "11.74",
+          "7.25",
+          "6.65",
+          "6.68"
+        ]
+      }
+    },
+    {
+      "name": "DXXTRA",
+      "type": "DOUBLE PRECISION",
+      "nullable": true,
+      "stats": {
+        "null_count": 612,
+        "distinct_count": 820,
+        "null_percentage": 21.12,
+        "numeric_stats": {
+          "avg": 12.073083989501322,
+          "min": 5.9,
+          "max": 39.46,
+          "stddev": 2.3194057714312986
+        },
+        "frequent_values": [
+          {
+            "value": "13.34",
+            "count": 11
+          },
+          {
+            "value": "11.32",
+            "count": 10
+          },
+          {
+            "value": "10.14",
+            "count": 9
+          },
+          {
+            "value": "11.97",
+            "count": 9
+          },
+          {
+            "value": "12.19",
+            "count": 9
+          }
+        ],
+        "sample_values": [
+          "15.23",
+          "14.1",
+          "11.94",
+          "10.98",
+          "12.75",
+          "15.06",
+          "16.48",
+          "8.38",
+          "13.67",
+          "17.16",
+          "10.28",
+          "11.42",
+          "15.09",
+          "11.37",
+          "11.74"
+        ]
+      }
+    },
+    {
+      "name": "DXXINBMD",
+      "type": "DOUBLE PRECISION",
+      "nullable": true,
+      "stats": {
+        "null_count": 612,
+        "distinct_count": 749,
+        "null_percentage": 21.12,
+        "numeric_stats": {
+          "avg": 1.0992786526684137,
+          "min": 0.419,
+          "max": 1.805,
+          "stddev": 0.1907926704736197
+        },
+        "frequent_values": [
+          {
+            "value": "1.037",
+            "count": 10
+          },
+          {
+            "value": "1.015",
+            "count": 10
+          },
+          {
+            "value": "1.021",
+            "count": 10
+          },
+          {
+            "value": "1.053",
+            "count": 10
+          },
+          {
+            "value": "1.167",
+            "count": 10
+          }
+        ],
+        "sample_values": [
+          "0.945",
+          "1.374",
+          "0.871",
+          "1.082",
+          "1.332",
+          "1.241",
+          "1.154",
+          "0.884",
+          "0.87",
+          "1.157",
+          "1.195",
+          "0.783",
+          "1.312",
+          "1.32",
+          "1.342"
+        ]
+      }
+    },
+    {
+      "name": "DXXINBMC",
+      "type": "DOUBLE PRECISION",
+      "nullable": true,
+      "stats": {
+        "null_count": 612,
+        "distinct_count": 1495,
+        "null_percentage": 21.12,
+        "numeric_stats": {
+          "avg": 22.986150481189878,
+          "min": 7.79,
+          "max": 47.47,
+          "stddev": 6.878215550360004
+        },
+        "sample_values": [
+          "24.6",
+          "19.37",
+          "32.02",
+          "14.1",
+          "19.82",
+          "17.25",
+          "29.38",
+          "29.75",
+          "21.94",
+          "25.35",
+          "27.13",
+          "11.42",
+          "15.09",
+          "17.97",
+          "12.97"
+        ]
+      }
+    },
+    {
+      "name": "DXXINA",
+      "type": "DOUBLE PRECISION",
+      "nullable": true,
+      "stats": {
+        "null_count": 612,
+        "distinct_count": 1199,
+        "null_percentage": 21.12,
+        "numeric_stats": {
+          "avg": 20.720354330708698,
+          "min": 8.54,
+          "max": 38.1,
+          "stddev": 4.253061474914955
+        },
+        "frequent_values": [
+          {
+            "value": "23.55",
+            "count": 7
+          },
+          {
+            "value": "17.19",
+            "count": 6
+          },
+          {
+            "value": "24.01",
+            "count": 6
+          },
+          {
+            "value": "17.4",
+            "count": 6
+          },
+          {
+            "value": "19.1",
+            "count": 6
+          }
+        ],
+        "sample_values": [
+          "19.37",
+          "14.1",
+          "19.82",
+          "17.25",
+          "29.75",
+          "25.35",
+          "27.13",
+          "15.09",
+          "20.47",
+          "17.97",
+          "12.97",
+          "18.7",
+          "23.85",
+          "24.28",
+          "22.94"
+        ]
+      }
+    },
+    {
+      "name": "DXXWDBMD",
+      "type": "DOUBLE PRECISION",
+      "nullable": true,
+      "stats": {
+        "null_count": 612,
+        "distinct_count": 661,
+        "null_percentage": 21.12,
+        "numeric_stats": {
+          "avg": 0.5520629921259841,
+          "min": 5.397605346934028e-79,
+          "max": 1.354,
+          "stddev": 0.16186340910625358
+        },
+        "frequent_values": [
+          {
+            "value": "0.54",
+            "count": 12
+          },
+          {
+            "value": "0.549",
+            "count": 12
+          },
+          {
+            "value": "0.471",
+            "count": 12
+          },
+          {
+            "value": "0.589",
+            "count": 11
+          },
+          {
+            "value": "0.488",
+            "count": 11
+          }
+        ],
+        "sample_values": [
+          "0.443",
+          "0.387",
+          "0.804",
+          "0.821",
+          "0.678",
+          "0.598",
+          "0.431",
+          "0.349",
+          "0.427",
+          "0.316",
+          "0.473",
+          "0.945",
+          "0.365",
+          "0.871",
+          "0.447"
+        ]
+      }
+    },
+    {
+      "name": "DXXWDBMC",
+      "type": "DOUBLE PRECISION",
+      "nullable": true,
+      "stats": {
+        "null_count": 612,
+        "distinct_count": 125,
+        "null_percentage": 21.12,
+        "numeric_stats": {
+          "avg": 0.6502405949256342,
+          "min": 5.397605346934028e-79,
+          "max": 1.72,
+          "stddev": 0.20620120155856847
+        },
+        "frequent_values": [
+          {
+            "value": "0.61",
+            "count": 61
+          },
+          {
+            "value": "0.59",
+            "count": 58
+          },
+          {
+            "value": "0.55",
+            "count": 55
+          },
+          {
+            "value": "0.56",
+            "count": 53
+          },
+          {
+            "value": "0.51",
+            "count": 51
+          }
+        ],
+        "sample_values": [
+          "0.91",
+          "0.9",
+          "0.62",
+          "0.87",
+          "0.24",
+          "1.26",
+          "0.4",
+          "1.32",
+          "0.26",
+          "1.29",
+          "0.14",
+          "0.18",
+          "0.57",
+          "0.53",
+          "0.73"
+        ]
+      }
+    },
+    {
+      "name": "DXXWDA",
+      "type": "DOUBLE PRECISION",
+      "nullable": true,
+      "stats": {
+        "null_count": 612,
+        "distinct_count": 37,
+        "null_percentage": 21.12,
+        "numeric_stats": {
+          "avg": 1.1749300087489096,
+          "min": 5.397605346934028e-79,
+          "max": 1.32,
+          "stddev": 0.08645141006705427
+        },
+        "frequent_values": [
+          {
+            "value": "1.3",
+            "count": 323
+          },
+          {
+            "value": "1.16",
+            "count": 323
+          },
+          {
+            "value": "1.17",
+            "count": 292
+          },
+          {
+            "value": "1.12",
+            "count": 199
+          },
+          {
+            "value": "1.32",
+            "count": 171
+          }
+        ],
+        "sample_values": [
+          "0.93",
+          "0.8",
+          "1.19",
+          "1.09",
+          "1.06",
+          "1.22",
+          "1.13",
+          "1.08",
+          "1.02",
+          "1.16",
+          "1.28",
+          "1.26",
+          "1.1",
+          "1.07",
+          "1.14"
+        ]
+      }
+    },
+    {
+      "name": "DXAFMRK",
+      "type": "DOUBLE PRECISION",
+      "nullable": true,
+      "stats": {
+        "null_count": 612,
+        "distinct_count": 371,
+        "null_percentage": 21.12,
+        "numeric_stats": {
+          "avg": 1.1457853018372686,
+          "min": 1.1221,
+          "max": 1.1701,
+          "stddev": 0.009106490967576467
+        },
+        "frequent_values": [
+          {
+            "value": "1.1536",
+            "count": 16
+          },
+          {
+            "value": "1.1518",
+            "count": 16
+          },
+          {
+            "value": "1.155",
+            "count": 16
+          },
+          {
+            "value": "1.1504",
+            "count": 16
+          },
+          {
+            "value": "1.1491",
+            "count": 16
+          }
+        ],
+        "sample_values": [
+          "1.1564",
+          "1.1562",
+          "1.1315",
+          "1.1444",
+          "1.1552",
+          "1.1362",
+          "1.1333",
+          "1.1577",
+          "1.1583",
+          "1.154",
+          "1.1527",
+          "1.1475",
+          "1.153",
+          "1.1548",
+          "1.1594"
+        ]
+      }
+    },
+    {
+      "name": "DXAFMRD0",
+      "type": "DOUBLE PRECISION",
+      "nullable": true,
+      "stats": {
+        "null_count": 612,
+        "distinct_count": 2239,
+        "null_percentage": 21.12,
+        "numeric_stats": {
+          "avg": 46.224170866141684,
+          "min": 36.875,
+          "max": 54.9098,
+          "stddev": 2.344295514808786
+        },
+        "sample_values": [
+          "46.2199",
+          "50.6848",
+          "46.8451",
+          "45.4483",
+          "47.5752",
+          "45.3322",
+          "47.838",
+          "46.4093",
+          "48.6315",
+          "46.9748",
+          "49.0149",
+          "50.4231",
+          "47.5368",
+          "49.0264",
+          "40.3703"
+        ]
+      }
+    }
+  ],
+  "sample_rows": [
+    {
+      "SEQN": 93705.0,
+      "DXAFMRST": 1.0,
+      "DXXFMBCC": 5.397605346934028e-79,
+      "DXXOFBMD": 1.058,
+      "DXXOFBMC": 36.42,
+      "DXXOFA": 34.44,
+      "DXXNKBMD": 0.858,
+      "DXXNKBMC": 3.29,
+      "DXXNKA": 3.84,
+      "DXXTRBMD": 0.744,
+      "DXXTRBMC": 7.38,
+      "DXXTRA": 9.93,
+      "DXXINBMD": 1.246,
+      "DXXINBMC": 25.75,
+      "DXXINA": 20.67,
+      "DXXWDBMD": 0.585,
+      "DXXWDBMC": 0.64,
+      "DXXWDA": 1.09,
+      "DXAFMRK": 1.1522,
+      "DXAFMRD0": 41.9278
+    },
+    {
+      "SEQN": 93708.0,
+      "DXAFMRST": 1.0,
+      "DXXFMBCC": 5.397605346934028e-79,
+      "DXXOFBMD": 0.801,
+      "DXXOFBMC": 19.45,
+      "DXXOFA": 24.29,
+      "DXXNKBMD": 0.632,
+      "DXXNKBMC": 2.36,
+      "DXXNKA": 3.74,
+      "DXXTRBMD": 0.684,
+      "DXXTRBMC": 5.85,
+      "DXXTRA": 8.55,
+      "DXXINBMD": 0.937,
+      "DXXINBMC": 11.25,
+      "DXXINA": 12.0,
+      "DXXWDBMD": 0.481,
+      "DXXWDBMC": 0.54,
+      "DXXWDA": 1.12,
+      "DXAFMRK": 1.1595,
+      "DXAFMRD0": 48.2757
+    },
+    {
+      "SEQN": 93709.0,
+      "DXAFMRST": 1.0,
+      "DXXFMBCC": 5.397605346934028e-79,
+      "DXXOFBMD": 0.88,
+      "DXXOFBMC": 24.69,
+      "DXXOFA": 28.05,
+      "DXXNKBMD": 0.871,
+      "DXXNKBMC": 3.57,
+      "DXXNKA": 4.1,
+      "DXXTRBMD": 0.66,
+      "DXXTRBMC": 6.44,
+      "DXXTRA": 9.76,
+      "DXXINBMD": 1.034,
+      "DXXINBMC": 14.68,
+      "DXXINA": 14.2,
+      "DXXWDBMD": 0.726,
+      "DXXWDBMC": 0.96,
+      "DXXWDA": 1.32,
+      "DXAFMRK": 1.1472,
+      "DXAFMRD0": 43.8614
+    }
+  ],
+  "execution": {
+    "status": "success",
+    "seconds": 0.39,
+    "processed_at": "2026-06-11T21:18:05.834181",
+    "attempt": 1
+  }
+}

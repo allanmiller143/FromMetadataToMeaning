@@ -1,0 +1,121 @@
+{
+  "public.tb_ciap_ms": [
+    "classificação de doenças",
+    "definição de critérios",
+    "exclusão de diagnósticos"
+  ],
+  "public.tb_problema": [
+    "problemas de saúde",
+    "evolução de problemas",
+    "classificação CID10"
+  ],
+  "public.tb_dim_catmat": [
+    "categorias de medicamentos",
+    "princípios ativos",
+    "formas farmacêuticas"
+  ],
+  "public.ta_medicamento_catmat": [
+    "auditoria de medicamentos",
+    "categorias de medicamentos",
+    "frequência de instalação"
+  ],
+  "public.ta_tecido_mole": [
+    "auditoria de tecido mole",
+    "atendimento odontológico",
+    "evolução de prontuário"
+  ],
+  "public.ta_vacinacao": [
+    "auditoria de vacinação",
+    "condição maternal",
+    "atendimento profissional"
+  ],
+  "public.tb_antecedente": [
+    "antecedentes obstétricos",
+    "dados de gestação",
+    "resultados de parto"
+  ],
+  "public.tb_cidadao": [
+    "dados demográficos",
+    "informações de saúde",
+    "registro de cidadania"
+  ],
+  "public.tb_cuidado_compartilhado_evol": [
+    "evolução de cuidado compartilhado",
+    "classificação de prioridade",
+    "conduta de cuidado compartilhado"
+  ],
+  "public.tb_evolucao_odonto": [
+    "evolução odontológica",
+    "atendimento odontológico",
+    "partes bucais"
+  ],
+  "public.tb_evolucao_subjetivo": [
+    "evolução de sintomas",
+    "atendimento profissional",
+    "acompanhamento de especialidade"
+  ],
+  "public.tb_exame_hemoglobina_glicada": [
+    "exame de hemoglobina",
+    "valores de glicada",
+    "monitoramento de diabetes"
+  ],
+  "public.tb_exame_prenatal": [
+    "exames de pré-natal",
+    "gestação",
+    "datas de parto"
+  ],
+  "public.tb_fat_atend_odonto_problemas": [
+    "atendimento odontológico",
+    "problemas de saúde",
+    "profissionais de saúde"
+  ],
+  "public.tb_fat_rel_op_risco_cardio": [
+    "riscos cardiovasculares",
+    "diabetes",
+    "hipertensão arterial"
+  ],
+  "public.tb_historico_dados_fao": [
+    "histórico de saúde",
+    "dados de diagnóstico",
+    "informações de pacientes"
+  ],
+  "public.tb_justificativa_prontuario": [
+    "justificativa de prontuário",
+    "acesso a prontuário",
+    "registro de usuário"
+  ],
+  "public.tb_lembrete_evolucao": [
+    "evolução de lembretes",
+    "visibilidade de lembretes",
+    "status de lembretes"
+  ],
+  "public.tb_medicamento_uso_continuo": [
+    "uso contínuo de medicamentos",
+    "controle de prontuários",
+    "receitas médicas"
+  ],
+  "public.tb_medicao": [
+    "medição de saúde",
+    "monitoramento de glicemia",
+    "avaliação de sinais vitais"
+  ],
+  "public.tb_odontograma": [
+    "odontologia",
+    "prontuário odontológico",
+    "tratamento ortodontia"
+  ],
+  "public.tb_proced_exame_especifico": [
+    "procedimentos de exames",
+    "identificadores de exames",
+    "tipos de exames específicos"
+  ],
+  "public.tb_raca_cor": [
+    "classificação de raça",
+    "categorias de cor",
+    "identificação de raça"
+  ],
+  "public.tb_tipo_glicemia": [
+    "tipos de glicemia",
+    "classificação de glicemia"
+  ]
+}

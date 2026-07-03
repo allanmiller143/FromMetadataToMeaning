@@ -1,0 +1,1824 @@
+{
+  "schema": "nhanes_laboratory",
+  "table_name": "phthte_j",
+  "row_count": 2986,
+  "primary_key": [],
+  "foreign_keys": [],
+  "columns": [
+    {
+      "name": "SEQN",
+      "type": "DOUBLE PRECISION",
+      "nullable": true,
+      "stats": {
+        "null_count": 0,
+        "distinct_count": 2986,
+        "null_percentage": 0.0,
+        "numeric_stats": {
+          "avg": 98345.420964501,
+          "min": 93706.0,
+          "max": 102955.0,
+          "stddev": 2657.279434039394
+        },
+        "sample_values": [
+          "99729.0",
+          "100500.0",
+          "97230.0",
+          "96472.0",
+          "102403.0",
+          "100958.0",
+          "97209.0",
+          "96347.0",
+          "100331.0",
+          "94390.0",
+          "94262.0",
+          "101864.0",
+          "95105.0",
+          "94383.0",
+          "95960.0"
+        ]
+      }
+    },
+    {
+      "name": "WTSB2YR",
+      "type": "DOUBLE PRECISION",
+      "nullable": true,
+      "stats": {
+        "null_count": 0,
+        "distinct_count": 2720,
+        "null_percentage": 0.0,
+        "numeric_stats": {
+          "avg": 103570.83085839647,
+          "min": 5.397605346934028e-79,
+          "max": 1395405.465402,
+          "stddev": 132452.9770703488
+        },
+        "sample_values": [
+          "45811.186673",
+          "37144.57136",
+          "23932.883542",
+          "33815.064129",
+          "735513.793498",
+          "66559.341601",
+          "174227.653326",
+          "30003.721397",
+          "70774.574718",
+          "22584.787554",
+          "68407.606574",
+          "309407.599385",
+          "22228.617698",
+          "291691.397786",
+          "334313.192689"
+        ]
+      }
+    },
+    {
+      "name": "URXCNP",
+      "type": "DOUBLE PRECISION",
+      "nullable": true,
+      "stats": {
+        "null_count": 224,
+        "distinct_count": 168,
+        "null_percentage": 7.5,
+        "numeric_stats": {
+          "avg": 2.440680666183927,
+          "min": 0.14,
+          "max": 123.5,
+          "stddev": 5.5747646184077535
+        },
+        "frequent_values": [
+          {
+            "value": "0.4",
+            "count": 141
+          },
+          {
+            "value": "0.7",
+            "count": 135
+          },
+          {
+            "value": "0.6",
+            "count": 126
+          },
+          {
+            "value": "0.8",
+            "count": 122
+          },
+          {
+            "value": "1.2",
+            "count": 121
+          }
+        ],
+        "sample_values": [
+          "16.7",
+          "0.9",
+          "5.8",
+          "1.6",
+          "4.8",
+          "6.2",
+          "53.3",
+          "7.7",
+          "0.4",
+          "13.4",
+          "3.0",
+          "48.3",
+          "18.7",
+          "4.3",
+          "8.7"
+        ]
+      }
+    },
+    {
+      "name": "URDCNPLC",
+      "type": "DOUBLE PRECISION",
+      "nullable": true,
+      "stats": {
+        "null_count": 224,
+        "distinct_count": 2,
+        "null_percentage": 7.5,
+        "numeric_stats": {
+          "avg": 0.03765387400434468,
+          "min": 5.397605346934028e-79,
+          "max": 1.0,
+          "stddev": 0.19039218478921727
+        },
+        "frequent_values": [
+          {
+            "value": "5.397605346934028e-79",
+            "count": 2658
+          },
+          {
+            "value": "1.0",
+            "count": 104
+          }
+        ],
+        "sample_values": [
+          "1.0",
+          "5.397605346934028e-79"
+        ]
+      }
+    },
+    {
+      "name": "URXCOP",
+      "type": "DOUBLE PRECISION",
+      "nullable": true,
+      "stats": {
+        "null_count": 224,
+        "distinct_count": 425,
+        "null_percentage": 7.5,
+        "numeric_stats": {
+          "avg": 13.919927588703844,
+          "min": 0.21,
+          "max": 3346.1,
+          "stddev": 76.02075608833736
+        },
+        "frequent_values": [
+          {
+            "value": "2.1",
+            "count": 52
+          },
+          {
+            "value": "2.2",
+            "count": 44
+          },
+          {
+            "value": "1.5",
+            "count": 42
+          },
+          {
+            "value": "3.0",
+            "count": 39
+          },
+          {
+            "value": "2.6",
+            "count": 39
+          }
+        ],
+        "sample_values": [
+          "40.9",
+          "12.4",
+          "14.7",
+          "5.8",
+          "4.8",
+          "6.2",
+          "33.6",
+          "22.5",
+          "48.4",
+          "3.0",
+          "48.3",
+          "115.6",
+          "175.8",
+          "18.7",
+          "4.3"
+        ]
+      }
+    },
+    {
+      "name": "URDCOPLC",
+      "type": "DOUBLE PRECISION",
+      "nullable": true,
+      "stats": {
+        "null_count": 224,
+        "distinct_count": 2,
+        "null_percentage": 7.5,
+        "numeric_stats": {
+          "avg": 0.005068790731354091,
+          "min": 5.397605346934028e-79,
+          "max": 1.0,
+          "stddev": 0.07102763292928166
+        },
+        "frequent_values": [
+          {
+            "value": "5.397605346934028e-79",
+            "count": 2748
+          },
+          {
+            "value": "1.0",
+            "count": 14
+          }
+        ],
+        "sample_values": [
+          "1.0",
+          "5.397605346934028e-79"
+        ]
+      }
+    },
+    {
+      "name": "URXECP",
+      "type": "DOUBLE PRECISION",
+      "nullable": true,
+      "stats": {
+        "null_count": 224,
+        "distinct_count": 498,
+        "null_percentage": 7.5,
+        "numeric_stats": {
+          "avg": 14.79275887038374,
+          "min": 0.28,
+          "max": 446.9,
+          "stddev": 24.37383251359393
+        },
+        "frequent_values": [
+          {
+            "value": "2.5",
+            "count": 27
+          },
+          {
+            "value": "3.0",
+            "count": 26
+          },
+          {
+            "value": "5.5",
+            "count": 25
+          },
+          {
+            "value": "7.2",
+            "count": 25
+          },
+          {
+            "value": "5.4",
+            "count": 24
+          }
+        ],
+        "sample_values": [
+          "44.6",
+          "4.8",
+          "33.6",
+          "3.0",
+          "18.7",
+          "4.3",
+          "29.7",
+          "7.8",
+          "1.5",
+          "7.0",
+          "18.9",
+          "5.2",
+          "36.7",
+          "29.8",
+          "123.7"
+        ]
+      }
+    },
+    {
+      "name": "URDECPLC",
+      "type": "DOUBLE PRECISION",
+      "nullable": true,
+      "stats": {
+        "null_count": 224,
+        "distinct_count": 2,
+        "null_percentage": 7.5,
+        "numeric_stats": {
+          "avg": 0.0018102824040550326,
+          "min": 5.397605346934028e-79,
+          "max": 1.0,
+          "stddev": 0.04251658213688608
+        },
+        "frequent_values": [
+          {
+            "value": "5.397605346934028e-79",
+            "count": 2757
+          },
+          {
+            "value": "1.0",
+            "count": 5
+          }
+        ],
+        "sample_values": [
+          "1.0",
+          "5.397605346934028e-79"
+        ]
+      }
+    },
+    {
+      "name": "URXECPT",
+      "type": "DOUBLE PRECISION",
+      "nullable": true,
+      "stats": {
+        "null_count": 224,
+        "distinct_count": 1235,
+        "null_percentage": 7.5,
+        "numeric_stats": {
+          "avg": 107.93545257060092,
+          "min": 0.14,
+          "max": 6066.6,
+          "stddev": 304.2289467959228
+        },
+        "frequent_values": [
+          {
+            "value": "6.1",
+            "count": 17
+          },
+          {
+            "value": "4.1",
+            "count": 15
+          },
+          {
+            "value": "4.9",
+            "count": 14
+          },
+          {
+            "value": "6.2",
+            "count": 14
+          },
+          {
+            "value": "2.2",
+            "count": 12
+          }
+        ],
+        "sample_values": [
+          "14.1",
+          "60.5",
+          "79.2",
+          "132.7",
+          "1462.7",
+          "136.2",
+          "96.0",
+          "4.8",
+          "61.0",
+          "62.7",
+          "1232.9",
+          "94.9",
+          "42.6",
+          "27.7",
+          "192.5"
+        ]
+      }
+    },
+    {
+      "name": "URDEPCLC",
+      "type": "DOUBLE PRECISION",
+      "nullable": true,
+      "stats": {
+        "null_count": 224,
+        "distinct_count": 2,
+        "null_percentage": 7.5,
+        "numeric_stats": {
+          "avg": 0.0010861694424330196,
+          "min": 5.397605346934028e-79,
+          "max": 1.0,
+          "stddev": 0.03294514604911145
+        },
+        "frequent_values": [
+          {
+            "value": "5.397605346934028e-79",
+            "count": 2759
+          },
+          {
+            "value": "1.0",
+            "count": 3
+          }
+        ],
+        "sample_values": [
+          "1.0",
+          "5.397605346934028e-79"
+        ]
+      }
+    },
+    {
+      "name": "URXHIBP",
+      "type": "DOUBLE PRECISION",
+      "nullable": true,
+      "stats": {
+        "null_count": 224,
+        "distinct_count": 243,
+        "null_percentage": 7.5,
+        "numeric_stats": {
+          "avg": 4.772664735698778,
+          "min": 0.28,
+          "max": 249.1,
+          "stddev": 10.113309338848847
+        },
+        "frequent_values": [
+          {
+            "value": "0.28",
+            "count": 135
+          },
+          {
+            "value": "1.2",
+            "count": 75
+          },
+          {
+            "value": "1.9",
+            "count": 73
+          },
+          {
+            "value": "0.6",
+            "count": 69
+          },
+          {
+            "value": "0.9",
+            "count": 65
+          }
+        ],
+        "sample_values": [
+          "12.4",
+          "14.7",
+          "5.8",
+          "4.8",
+          "6.2",
+          "48.4",
+          "3.0",
+          "18.7",
+          "4.3",
+          "1.4",
+          "7.8",
+          "7.0",
+          "1.5",
+          "8.9",
+          "18.9"
+        ]
+      }
+    },
+    {
+      "name": "URDHIBLC",
+      "type": "DOUBLE PRECISION",
+      "nullable": true,
+      "stats": {
+        "null_count": 224,
+        "distinct_count": 2,
+        "null_percentage": 7.5,
+        "numeric_stats": {
+          "avg": 0.04887762490948588,
+          "min": 5.397605346934028e-79,
+          "max": 1.0,
+          "stddev": 0.2156512005270153
+        },
+        "frequent_values": [
+          {
+            "value": "5.397605346934028e-79",
+            "count": 2627
+          },
+          {
+            "value": "1.0",
+            "count": 135
+          }
+        ],
+        "sample_values": [
+          "1.0",
+          "5.397605346934028e-79"
+        ]
+      }
+    },
+    {
+      "name": "URXMBP",
+      "type": "DOUBLE PRECISION",
+      "nullable": true,
+      "stats": {
+        "null_count": 224,
+        "distinct_count": 547,
+        "null_percentage": 7.5,
+        "numeric_stats": {
+          "avg": 16.85543808834179,
+          "min": 0.28,
+          "max": 649.1,
+          "stddev": 26.04129232204526
+        },
+        "frequent_values": [
+          {
+            "value": "3.8",
+            "count": 25
+          },
+          {
+            "value": "2.9",
+            "count": 24
+          },
+          {
+            "value": "4.5",
+            "count": 24
+          },
+          {
+            "value": "6.7",
+            "count": 22
+          },
+          {
+            "value": "3.6",
+            "count": 22
+          }
+        ],
+        "sample_values": [
+          "167.1",
+          "44.6",
+          "4.8",
+          "61.0",
+          "42.6",
+          "3.0",
+          "27.7",
+          "18.7",
+          "4.3",
+          "29.7",
+          "7.8",
+          "1.5",
+          "7.0",
+          "18.9",
+          "99.3"
+        ]
+      }
+    },
+    {
+      "name": "URDMBPLC",
+      "type": "DOUBLE PRECISION",
+      "nullable": true,
+      "stats": {
+        "null_count": 224,
+        "distinct_count": 2,
+        "null_percentage": 7.5,
+        "numeric_stats": {
+          "avg": 0.0068790731354091235,
+          "min": 5.397605346934028e-79,
+          "max": 1.0,
+          "stddev": 0.08266937682099826
+        },
+        "frequent_values": [
+          {
+            "value": "5.397605346934028e-79",
+            "count": 2743
+          },
+          {
+            "value": "1.0",
+            "count": 19
+          }
+        ],
+        "sample_values": [
+          "1.0",
+          "5.397605346934028e-79"
+        ]
+      }
+    },
+    {
+      "name": "URXMC1",
+      "type": "DOUBLE PRECISION",
+      "nullable": true,
+      "stats": {
+        "null_count": 224,
+        "distinct_count": 147,
+        "null_percentage": 7.5,
+        "numeric_stats": {
+          "avg": 3.091636495293267,
+          "min": 0.28,
+          "max": 2170.0,
+          "stddev": 41.999605010142446
+        },
+        "frequent_values": [
+          {
+            "value": "0.28",
+            "count": 465
+          },
+          {
+            "value": "0.7",
+            "count": 142
+          },
+          {
+            "value": "0.5",
+            "count": 140
+          },
+          {
+            "value": "0.6",
+            "count": 127
+          },
+          {
+            "value": "0.9",
+            "count": 123
+          }
+        ],
+        "sample_values": [
+          "36.9",
+          "12.4",
+          "0.9",
+          "5.8",
+          "13.2",
+          "1.6",
+          "4.8",
+          "6.2",
+          "23.5",
+          "7.7",
+          "16.3",
+          "0.4",
+          "20.3",
+          "3.0",
+          "10.6"
+        ]
+      }
+    },
+    {
+      "name": "URDMC1LC",
+      "type": "DOUBLE PRECISION",
+      "nullable": true,
+      "stats": {
+        "null_count": 224,
+        "distinct_count": 2,
+        "null_percentage": 7.5,
+        "numeric_stats": {
+          "avg": 0.16835626357711803,
+          "min": 5.397605346934028e-79,
+          "max": 1.0,
+          "stddev": 0.37425010736146125
+        },
+        "frequent_values": [
+          {
+            "value": "5.397605346934028e-79",
+            "count": 2297
+          },
+          {
+            "value": "1.0",
+            "count": 465
+          }
+        ],
+        "sample_values": [
+          "1.0",
+          "5.397605346934028e-79"
+        ]
+      }
+    },
+    {
+      "name": "URXMCOH",
+      "type": "DOUBLE PRECISION",
+      "nullable": true,
+      "stats": {
+        "null_count": 224,
+        "distinct_count": 153,
+        "null_percentage": 7.5,
+        "numeric_stats": {
+          "avg": 1.8016292541636325,
+          "min": 0.35,
+          "max": 279.5,
+          "stddev": 8.600562797306228
+        },
+        "frequent_values": [
+          {
+            "value": "0.35",
+            "count": 1534
+          },
+          {
+            "value": "0.6",
+            "count": 162
+          },
+          {
+            "value": "0.7",
+            "count": 102
+          },
+          {
+            "value": "0.8",
+            "count": 97
+          },
+          {
+            "value": "0.5",
+            "count": 84
+          }
+        ],
+        "sample_values": [
+          "36.5",
+          "68.2",
+          "0.9",
+          "5.8",
+          "1.6",
+          "4.8",
+          "6.2",
+          "100.7",
+          "90.2",
+          "7.7",
+          "3.0",
+          "32.7",
+          "4.3",
+          "3.7",
+          "8.7"
+        ]
+      }
+    },
+    {
+      "name": "URDMCOLC",
+      "type": "DOUBLE PRECISION",
+      "nullable": true,
+      "stats": {
+        "null_count": 224,
+        "distinct_count": 2,
+        "null_percentage": 7.5,
+        "numeric_stats": {
+          "avg": 0.555394641564084,
+          "min": 5.397605346934028e-79,
+          "max": 1.0,
+          "stddev": 0.4970119406941579
+        },
+        "frequent_values": [
+          {
+            "value": "1.0",
+            "count": 1534
+          },
+          {
+            "value": "5.397605346934028e-79",
+            "count": 1228
+          }
+        ],
+        "sample_values": [
+          "5.397605346934028e-79",
+          "1.0"
+        ]
+      }
+    },
+    {
+      "name": "URXMEP",
+      "type": "DOUBLE PRECISION",
+      "nullable": true,
+      "stats": {
+        "null_count": 224,
+        "distinct_count": 1148,
+        "null_percentage": 7.5,
+        "numeric_stats": {
+          "avg": 149.00041636495294,
+          "min": 0.85,
+          "max": 102452.0,
+          "stddev": 2015.8048503042096
+        },
+        "frequent_values": [
+          {
+            "value": "3.8",
+            "count": 15
+          },
+          {
+            "value": "0.85",
+            "count": 13
+          },
+          {
+            "value": "6.8",
+            "count": 13
+          },
+          {
+            "value": "5.2",
+            "count": 13
+          },
+          {
+            "value": "10.4",
+            "count": 12
+          }
+        ],
+        "sample_values": [
+          "84.7",
+          "44.2",
+          "215.5",
+          "24.6",
+          "1134.1",
+          "341.8",
+          "192.3",
+          "14.1",
+          "60.5",
+          "211.7",
+          "44.6",
+          "76.1",
+          "4.8",
+          "61.0",
+          "322.0"
+        ]
+      }
+    },
+    {
+      "name": "URDMEPLC",
+      "type": "DOUBLE PRECISION",
+      "nullable": true,
+      "stats": {
+        "null_count": 224,
+        "distinct_count": 2,
+        "null_percentage": 7.5,
+        "numeric_stats": {
+          "avg": 0.004706734250543085,
+          "min": 5.397605346934028e-79,
+          "max": 1.0,
+          "stddev": 0.0684563919617004
+        },
+        "frequent_values": [
+          {
+            "value": "5.397605346934028e-79",
+            "count": 2749
+          },
+          {
+            "value": "1.0",
+            "count": 13
+          }
+        ],
+        "sample_values": [
+          "1.0",
+          "5.397605346934028e-79"
+        ]
+      }
+    },
+    {
+      "name": "URXMHBP",
+      "type": "DOUBLE PRECISION",
+      "nullable": true,
+      "stats": {
+        "null_count": 224,
+        "distinct_count": 108,
+        "null_percentage": 7.5,
+        "numeric_stats": {
+          "avg": 1.5742360608255017,
+          "min": 0.28,
+          "max": 82.8,
+          "stddev": 2.7758033667879776
+        },
+        "frequent_values": [
+          {
+            "value": "0.28",
+            "count": 688
+          },
+          {
+            "value": "0.5",
+            "count": 173
+          },
+          {
+            "value": "0.6",
+            "count": 144
+          },
+          {
+            "value": "0.7",
+            "count": 131
+          },
+          {
+            "value": "0.9",
+            "count": 125
+          }
+        ],
+        "sample_values": [
+          "1.8",
+          "37.6",
+          "12.4",
+          "0.9",
+          "4.9",
+          "5.8",
+          "1.6",
+          "11.4",
+          "4.8",
+          "6.2",
+          "7.7",
+          "22.3",
+          "1.1",
+          "0.4",
+          "3.0"
+        ]
+      }
+    },
+    {
+      "name": "URDMHBLC",
+      "type": "DOUBLE PRECISION",
+      "nullable": true,
+      "stats": {
+        "null_count": 224,
+        "distinct_count": 2,
+        "null_percentage": 7.5,
+        "numeric_stats": {
+          "avg": 0.2490948587979725,
+          "min": 5.397605346934028e-79,
+          "max": 1.0,
+          "stddev": 0.43256716944731705
+        },
+        "frequent_values": [
+          {
+            "value": "5.397605346934028e-79",
+            "count": 2074
+          },
+          {
+            "value": "1.0",
+            "count": 688
+          }
+        ],
+        "sample_values": [
+          "1.0",
+          "5.397605346934028e-79"
+        ]
+      }
+    },
+    {
+      "name": "URXMHH",
+      "type": "DOUBLE PRECISION",
+      "nullable": true,
+      "stats": {
+        "null_count": 224,
+        "distinct_count": 384,
+        "null_percentage": 7.5,
+        "numeric_stats": {
+          "avg": 9.239703113685747,
+          "min": 0.28,
+          "max": 371.6,
+          "stddev": 15.298419063565342
+        },
+        "frequent_values": [
+          {
+            "value": "2.2",
+            "count": 41
+          },
+          {
+            "value": "3.4",
+            "count": 40
+          },
+          {
+            "value": "2.5",
+            "count": 36
+          },
+          {
+            "value": "1.8",
+            "count": 36
+          },
+          {
+            "value": "1.7",
+            "count": 35
+          }
+        ],
+        "sample_values": [
+          "40.9",
+          "12.4",
+          "46.8",
+          "14.7",
+          "5.8",
+          "4.8",
+          "61.0",
+          "6.2",
+          "62.7",
+          "30.5",
+          "22.5",
+          "48.4",
+          "3.0",
+          "27.7",
+          "175.8"
+        ]
+      }
+    },
+    {
+      "name": "URDMHHLC",
+      "type": "DOUBLE PRECISION",
+      "nullable": true,
+      "stats": {
+        "null_count": 224,
+        "distinct_count": 2,
+        "null_percentage": 7.5,
+        "numeric_stats": {
+          "avg": 0.009775524981897175,
+          "min": 5.397605346934028e-79,
+          "max": 1.0,
+          "stddev": 0.09840462416124605
+        },
+        "frequent_values": [
+          {
+            "value": "5.397605346934028e-79",
+            "count": 2735
+          },
+          {
+            "value": "1.0",
+            "count": 27
+          }
+        ],
+        "sample_values": [
+          "1.0",
+          "5.397605346934028e-79"
+        ]
+      }
+    },
+    {
+      "name": "URXMHHT",
+      "type": "DOUBLE PRECISION",
+      "nullable": true,
+      "stats": {
+        "null_count": 224,
+        "distinct_count": 621,
+        "null_percentage": 7.5,
+        "numeric_stats": {
+          "avg": 21.82028240405502,
+          "min": 0.28,
+          "max": 2346.5,
+          "stddev": 68.98296429590077
+        },
+        "frequent_values": [
+          {
+            "value": "0.28",
+            "count": 94
+          },
+          {
+            "value": "1.0",
+            "count": 39
+          },
+          {
+            "value": "0.8",
+            "count": 38
+          },
+          {
+            "value": "1.6",
+            "count": 34
+          },
+          {
+            "value": "1.3",
+            "count": 34
+          }
+        ],
+        "sample_values": [
+          "155.1",
+          "4.8",
+          "33.6",
+          "94.9",
+          "3.0",
+          "27.7",
+          "144.1",
+          "18.7",
+          "4.3",
+          "192.5",
+          "29.7",
+          "7.8",
+          "7.0",
+          "1.5",
+          "18.9"
+        ]
+      }
+    },
+    {
+      "name": "URDMHTLC",
+      "type": "DOUBLE PRECISION",
+      "nullable": true,
+      "stats": {
+        "null_count": 224,
+        "distinct_count": 2,
+        "null_percentage": 7.5,
+        "numeric_stats": {
+          "avg": 0.03403330919623461,
+          "min": 5.397605346934028e-79,
+          "max": 1.0,
+          "stddev": 0.181347594400278
+        },
+        "frequent_values": [
+          {
+            "value": "5.397605346934028e-79",
+            "count": 2668
+          },
+          {
+            "value": "1.0",
+            "count": 94
+          }
+        ],
+        "sample_values": [
+          "1.0",
+          "5.397605346934028e-79"
+        ]
+      }
+    },
+    {
+      "name": "URXMHNC",
+      "type": "DOUBLE PRECISION",
+      "nullable": true,
+      "stats": {
+        "null_count": 224,
+        "distinct_count": 201,
+        "null_percentage": 7.5,
+        "numeric_stats": {
+          "avg": 2.9589210716871586,
+          "min": 0.28,
+          "max": 511.0,
+          "stddev": 14.39105219689868
+        },
+        "frequent_values": [
+          {
+            "value": "0.28",
+            "count": 918
+          },
+          {
+            "value": "0.5",
+            "count": 170
+          },
+          {
+            "value": "0.6",
+            "count": 160
+          },
+          {
+            "value": "0.7",
+            "count": 134
+          },
+          {
+            "value": "0.4",
+            "count": 99
+          }
+        ],
+        "sample_values": [
+          "115.2",
+          "5.1",
+          "14.3",
+          "92.8",
+          "8.5",
+          "10.2",
+          "8.4",
+          "0.7",
+          "208.5",
+          "40.7",
+          "0.8",
+          "21.2",
+          "6.5",
+          "28.5",
+          "36.9"
+        ]
+      }
+    },
+    {
+      "name": "URDMCHLC",
+      "type": "DOUBLE PRECISION",
+      "nullable": true,
+      "stats": {
+        "null_count": 224,
+        "distinct_count": 2,
+        "null_percentage": 7.5,
+        "numeric_stats": {
+          "avg": 0.332367849384504,
+          "min": 5.397605346934028e-79,
+          "max": 1.0,
+          "stddev": 0.47114735626612686
+        },
+        "frequent_values": [
+          {
+            "value": "5.397605346934028e-79",
+            "count": 1844
+          },
+          {
+            "value": "1.0",
+            "count": 918
+          }
+        ],
+        "sample_values": [
+          "1.0",
+          "5.397605346934028e-79"
+        ]
+      }
+    },
+    {
+      "name": "URXMHP",
+      "type": "DOUBLE PRECISION",
+      "nullable": true,
+      "stats": {
+        "null_count": 224,
+        "distinct_count": 121,
+        "null_percentage": 7.5,
+        "numeric_stats": {
+          "avg": 1.8239065894279518,
+          "min": 0.57,
+          "max": 115.9,
+          "stddev": 3.372454171365013
+        },
+        "frequent_values": [
+          {
+            "value": "0.57",
+            "count": 1209
+          },
+          {
+            "value": "1.1",
+            "count": 107
+          },
+          {
+            "value": "0.9",
+            "count": 98
+          },
+          {
+            "value": "1.0",
+            "count": 97
+          },
+          {
+            "value": "1.2",
+            "count": 87
+          }
+        ],
+        "sample_values": [
+          "0.9",
+          "115.9",
+          "5.8",
+          "1.6",
+          "4.8",
+          "6.2",
+          "7.7",
+          "13.4",
+          "3.0",
+          "27.7",
+          "4.3",
+          "3.7",
+          "9.5",
+          "5.3",
+          "1.4"
+        ]
+      }
+    },
+    {
+      "name": "URDMHPLC",
+      "type": "DOUBLE PRECISION",
+      "nullable": true,
+      "stats": {
+        "null_count": 224,
+        "distinct_count": 2,
+        "null_percentage": 7.5,
+        "numeric_stats": {
+          "avg": 0.4377262853005069,
+          "min": 5.397605346934028e-79,
+          "max": 1.0,
+          "stddev": 0.4961966614071775
+        },
+        "frequent_values": [
+          {
+            "value": "5.397605346934028e-79",
+            "count": 1553
+          },
+          {
+            "value": "1.0",
+            "count": 1209
+          }
+        ],
+        "sample_values": [
+          "5.397605346934028e-79",
+          "1.0"
+        ]
+      }
+    },
+    {
+      "name": "URXMIB",
+      "type": "DOUBLE PRECISION",
+      "nullable": true,
+      "stats": {
+        "null_count": 224,
+        "distinct_count": 480,
+        "null_percentage": 7.5,
+        "numeric_stats": {
+          "avg": 14.672556118754517,
+          "min": 0.57,
+          "max": 513.6,
+          "stddev": 27.23174555303415
+        },
+        "frequent_values": [
+          {
+            "value": "0.57",
+            "count": 60
+          },
+          {
+            "value": "3.7",
+            "count": 29
+          },
+          {
+            "value": "2.3",
+            "count": 28
+          },
+          {
+            "value": "1.7",
+            "count": 27
+          },
+          {
+            "value": "3.6",
+            "count": 25
+          }
+        ],
+        "sample_values": [
+          "4.8",
+          "33.6",
+          "3.0",
+          "4.3",
+          "18.7",
+          "29.7",
+          "7.8",
+          "1.5",
+          "7.0",
+          "18.9",
+          "51.5",
+          "5.2",
+          "286.1",
+          "102.5",
+          "90.7"
+        ]
+      }
+    },
+    {
+      "name": "URDMIBLC",
+      "type": "DOUBLE PRECISION",
+      "nullable": true,
+      "stats": {
+        "null_count": 224,
+        "distinct_count": 2,
+        "null_percentage": 7.5,
+        "numeric_stats": {
+          "avg": 0.02172338884866039,
+          "min": 5.397605346934028e-79,
+          "max": 1.0,
+          "stddev": 0.14580528196734305
+        },
+        "frequent_values": [
+          {
+            "value": "5.397605346934028e-79",
+            "count": 2702
+          },
+          {
+            "value": "1.0",
+            "count": 60
+          }
+        ],
+        "sample_values": [
+          "1.0",
+          "5.397605346934028e-79"
+        ]
+      }
+    },
+    {
+      "name": "URXMNP",
+      "type": "DOUBLE PRECISION",
+      "nullable": true,
+      "stats": {
+        "null_count": 224,
+        "distinct_count": 78,
+        "null_percentage": 7.5,
+        "numeric_stats": {
+          "avg": 1.0979145546705202,
+          "min": 0.64,
+          "max": 207.7,
+          "stddev": 5.111041289179844
+        },
+        "frequent_values": [
+          {
+            "value": "0.64",
+            "count": 2391
+          },
+          {
+            "value": "1.0",
+            "count": 45
+          },
+          {
+            "value": "0.9",
+            "count": 34
+          },
+          {
+            "value": "1.2",
+            "count": 32
+          },
+          {
+            "value": "1.1",
+            "count": 29
+          }
+        ],
+        "sample_values": [
+          "1.8",
+          "40.9",
+          "0.9",
+          "4.9",
+          "5.8",
+          "14.7",
+          "1.6",
+          "11.4",
+          "96.0",
+          "4.8",
+          "6.2",
+          "1.1",
+          "3.0",
+          "4.3",
+          "1.9"
+        ]
+      }
+    },
+    {
+      "name": "URDMNPLC",
+      "type": "DOUBLE PRECISION",
+      "nullable": true,
+      "stats": {
+        "null_count": 224,
+        "distinct_count": 2,
+        "null_percentage": 7.5,
+        "numeric_stats": {
+          "avg": 0.8656770456191166,
+          "min": 5.397605346934028e-79,
+          "max": 1.0,
+          "stddev": 0.34106071833469587
+        },
+        "frequent_values": [
+          {
+            "value": "1.0",
+            "count": 2391
+          },
+          {
+            "value": "5.397605346934028e-79",
+            "count": 371
+          }
+        ],
+        "sample_values": [
+          "5.397605346934028e-79",
+          "1.0"
+        ]
+      }
+    },
+    {
+      "name": "URXMOH",
+      "type": "DOUBLE PRECISION",
+      "nullable": true,
+      "stats": {
+        "null_count": 224,
+        "distinct_count": 287,
+        "null_percentage": 7.5,
+        "numeric_stats": {
+          "avg": 6.214127443881243,
+          "min": 0.14,
+          "max": 203.3,
+          "stddev": 9.657286210200176
+        },
+        "frequent_values": [
+          {
+            "value": "1.5",
+            "count": 61
+          },
+          {
+            "value": "1.0",
+            "count": 61
+          },
+          {
+            "value": "1.4",
+            "count": 53
+          },
+          {
+            "value": "1.1",
+            "count": 50
+          },
+          {
+            "value": "0.5",
+            "count": 46
+          }
+        ],
+        "sample_values": [
+          "12.4",
+          "44.6",
+          "14.7",
+          "5.8",
+          "34.7",
+          "28.8",
+          "4.8",
+          "6.2",
+          "30.5",
+          "38.5",
+          "3.0",
+          "4.3",
+          "1.4",
+          "7.8",
+          "0.14"
+        ]
+      }
+    },
+    {
+      "name": "URDMOHLC",
+      "type": "DOUBLE PRECISION",
+      "nullable": true,
+      "stats": {
+        "null_count": 224,
+        "distinct_count": 2,
+        "null_percentage": 7.5,
+        "numeric_stats": {
+          "avg": 0.00832729905865315,
+          "min": 5.397605346934028e-79,
+          "max": 1.0,
+          "stddev": 0.09088974682606453
+        },
+        "frequent_values": [
+          {
+            "value": "5.397605346934028e-79",
+            "count": 2739
+          },
+          {
+            "value": "1.0",
+            "count": 23
+          }
+        ],
+        "sample_values": [
+          "1.0",
+          "5.397605346934028e-79"
+        ]
+      }
+    },
+    {
+      "name": "URXMONP",
+      "type": "DOUBLE PRECISION",
+      "nullable": true,
+      "stats": {
+        "null_count": 224,
+        "distinct_count": 202,
+        "null_percentage": 7.5,
+        "numeric_stats": {
+          "avg": 4.0498551774076885,
+          "min": 0.28,
+          "max": 833.3,
+          "stddev": 22.951117739323102
+        },
+        "frequent_values": [
+          {
+            "value": "0.28",
+            "count": 355
+          },
+          {
+            "value": "0.5",
+            "count": 128
+          },
+          {
+            "value": "0.8",
+            "count": 123
+          },
+          {
+            "value": "1.1",
+            "count": 118
+          },
+          {
+            "value": "0.6",
+            "count": 114
+          }
+        ],
+        "sample_values": [
+          "57.2",
+          "233.5",
+          "0.9",
+          "24.3",
+          "14.7",
+          "5.8",
+          "1.6",
+          "4.8",
+          "89.9",
+          "6.2",
+          "23.5",
+          "7.7",
+          "0.4",
+          "3.0",
+          "10.6"
+        ]
+      }
+    },
+    {
+      "name": "URDMONLC",
+      "type": "DOUBLE PRECISION",
+      "nullable": true,
+      "stats": {
+        "null_count": 224,
+        "distinct_count": 2,
+        "null_percentage": 7.5,
+        "numeric_stats": {
+          "avg": 0.12853005068790732,
+          "min": 5.397605346934028e-79,
+          "max": 1.0,
+          "stddev": 0.3347396681309595
+        },
+        "frequent_values": [
+          {
+            "value": "5.397605346934028e-79",
+            "count": 2407
+          },
+          {
+            "value": "1.0",
+            "count": 355
+          }
+        ],
+        "sample_values": [
+          "1.0",
+          "5.397605346934028e-79"
+        ]
+      }
+    },
+    {
+      "name": "URXMZP",
+      "type": "DOUBLE PRECISION",
+      "nullable": true,
+      "stats": {
+        "null_count": 224,
+        "distinct_count": 401,
+        "null_percentage": 7.5,
+        "numeric_stats": {
+          "avg": 9.12224837074581,
+          "min": 0.21,
+          "max": 307.2,
+          "stddev": 18.680087123926516
+        },
+        "frequent_values": [
+          {
+            "value": "0.21",
+            "count": 105
+          },
+          {
+            "value": "1.0",
+            "count": 59
+          },
+          {
+            "value": "0.9",
+            "count": 57
+          },
+          {
+            "value": "0.5",
+            "count": 54
+          },
+          {
+            "value": "1.2",
+            "count": 51
+          }
+        ],
+        "sample_values": [
+          "12.4",
+          "44.6",
+          "14.7",
+          "5.8",
+          "28.8",
+          "34.7",
+          "4.8",
+          "6.2",
+          "22.5",
+          "3.0",
+          "48.3",
+          "27.7",
+          "192.5",
+          "18.7",
+          "4.3"
+        ]
+      }
+    },
+    {
+      "name": "URDMZPLC",
+      "type": "DOUBLE PRECISION",
+      "nullable": true,
+      "stats": {
+        "null_count": 224,
+        "distinct_count": 2,
+        "null_percentage": 7.5,
+        "numeric_stats": {
+          "avg": 0.03801593048515568,
+          "min": 5.397605346934028e-79,
+          "max": 1.0,
+          "stddev": 0.19126935189966238
+        },
+        "frequent_values": [
+          {
+            "value": "5.397605346934028e-79",
+            "count": 2657
+          },
+          {
+            "value": "1.0",
+            "count": 105
+          }
+        ],
+        "sample_values": [
+          "1.0",
+          "5.397605346934028e-79"
+        ]
+      }
+    }
+  ],
+  "sample_rows": [
+    {
+      "SEQN": 93706.0,
+      "WTSB2YR": 26027.047633,
+      "URXCNP": 0.4,
+      "URDCNPLC": 5.397605346934028e-79,
+      "URXCOP": 2.6,
+      "URDCOPLC": 5.397605346934028e-79,
+      "URXECP": 1.7,
+      "URDECPLC": 5.397605346934028e-79,
+      "URXECPT": 57.4,
+      "URDEPCLC": 5.397605346934028e-79,
+      "URXHIBP": 1.2,
+      "URDHIBLC": 5.397605346934028e-79,
+      "URXMBP": 9.2,
+      "URDMBPLC": 5.397605346934028e-79,
+      "URXMC1": 0.5,
+      "URDMC1LC": 5.397605346934028e-79,
+      "URXMCOH": 0.35,
+      "URDMCOLC": 1.0,
+      "URXMEP": 4.2,
+      "URDMEPLC": 5.397605346934028e-79,
+      "URXMHBP": 0.7,
+      "URDMHBLC": 5.397605346934028e-79,
+      "URXMHH": 1.1,
+      "URDMHHLC": 5.397605346934028e-79,
+      "URXMHHT": 14.2,
+      "URDMHTLC": 5.397605346934028e-79,
+      "URXMHNC": 0.5,
+      "URDMCHLC": 5.397605346934028e-79,
+      "URXMHP": 0.57,
+      "URDMHPLC": 1.0,
+      "URXMIB": 5.6,
+      "URDMIBLC": 5.397605346934028e-79,
+      "URXMNP": 0.64,
+      "URDMNPLC": 1.0,
+      "URXMOH": 0.6,
+      "URDMOHLC": 5.397605346934028e-79,
+      "URXMONP": 0.4,
+      "URDMONLC": 5.397605346934028e-79,
+      "URXMZP": 0.6,
+      "URDMZPLC": 5.397605346934028e-79
+    },
+    {
+      "SEQN": 93715.0,
+      "WTSB2YR": 28400.583165,
+      "URXCNP": 2.7,
+      "URDCNPLC": 5.397605346934028e-79,
+      "URXCOP": 6.4,
+      "URDCOPLC": 5.397605346934028e-79,
+      "URXECP": 6.6,
+      "URDECPLC": 5.397605346934028e-79,
+      "URXECPT": 35.8,
+      "URDEPCLC": 5.397605346934028e-79,
+      "URXHIBP": 3.1,
+      "URDHIBLC": 5.397605346934028e-79,
+      "URXMBP": 11.0,
+      "URDMBPLC": 5.397605346934028e-79,
+      "URXMC1": 0.8,
+      "URDMC1LC": 5.397605346934028e-79,
+      "URXMCOH": 0.35,
+      "URDMCOLC": 1.0,
+      "URXMEP": 9.6,
+      "URDMEPLC": 5.397605346934028e-79,
+      "URXMHBP": 0.9,
+      "URDMHBLC": 5.397605346934028e-79,
+      "URXMHH": 4.4,
+      "URDMHHLC": 5.397605346934028e-79,
+      "URXMHHT": 7.7,
+      "URDMHTLC": 5.397605346934028e-79,
+      "URXMHNC": 0.7,
+      "URDMCHLC": 5.397605346934028e-79,
+      "URXMHP": 0.9,
+      "URDMHPLC": 5.397605346934028e-79,
+      "URXMIB": 9.8,
+      "URDMIBLC": 5.397605346934028e-79,
+      "URXMNP": 0.64,
+      "URDMNPLC": 1.0,
+      "URXMOH": 3.3,
+      "URDMOHLC": 5.397605346934028e-79,
+      "URXMONP": 1.6,
+      "URDMONLC": 5.397605346934028e-79,
+      "URXMZP": 2.9,
+      "URDMZPLC": 5.397605346934028e-79
+    },
+    {
+      "SEQN": 93717.0,
+      "WTSB2YR": 141021.884734,
+      "URXCNP": 2.6,
+      "URDCNPLC": 5.397605346934028e-79,
+      "URXCOP": 13.8,
+      "URDCOPLC": 5.397605346934028e-79,
+      "URXECP": 9.9,
+      "URDECPLC": 5.397605346934028e-79,
+      "URXECPT": 410.7,
+      "URDEPCLC": 5.397605346934028e-79,
+      "URXHIBP": 8.2,
+      "URDHIBLC": 5.397605346934028e-79,
+      "URXMBP": 23.8,
+      "URDMBPLC": 5.397605346934028e-79,
+      "URXMC1": 2.4,
+      "URDMC1LC": 5.397605346934028e-79,
+      "URXMCOH": 1.2,
+      "URDMCOLC": 5.397605346934028e-79,
+      "URXMEP": 293.5,
+      "URDMEPLC": 5.397605346934028e-79,
+      "URXMHBP": 2.6,
+      "URDMHBLC": 5.397605346934028e-79,
+      "URXMHH": 8.8,
+      "URDMHHLC": 5.397605346934028e-79,
+      "URXMHHT": 192.5,
+      "URDMHTLC": 5.397605346934028e-79,
+      "URXMHNC": 2.5,
+      "URDMCHLC": 5.397605346934028e-79,
+      "URXMHP": 1.9,
+      "URDMHPLC": 5.397605346934028e-79,
+      "URXMIB": 23.0,
+      "URDMIBLC": 5.397605346934028e-79,
+      "URXMNP": 0.64,
+      "URDMNPLC": 1.0,
+      "URXMOH": 5.0,
+      "URDMOHLC": 5.397605346934028e-79,
+      "URXMONP": 3.0,
+      "URDMONLC": 5.397605346934028e-79,
+      "URXMZP": 8.0,
+      "URDMZPLC": 5.397605346934028e-79
+    }
+  ],
+  "execution": {
+    "status": "success",
+    "seconds": 0.52,
+    "processed_at": "2026-06-11T21:18:48.180815",
+    "attempt": 1
+  }
+}

@@ -1,0 +1,159 @@
+{
+  "schema": "nhanes_laboratory",
+  "table_name": "uio_j",
+  "row_count": 2979,
+  "primary_key": [],
+  "foreign_keys": [],
+  "columns": [
+    {
+      "name": "SEQN",
+      "type": "DOUBLE PRECISION",
+      "nullable": true,
+      "stats": {
+        "null_count": 0,
+        "distinct_count": 2979,
+        "null_percentage": 0.0,
+        "numeric_stats": {
+          "avg": 98304.5787176905,
+          "min": 93707.0,
+          "max": 102956.0,
+          "stddev": 2657.7196945082715
+        },
+        "sample_values": [
+          "100472.0",
+          "98778.0",
+          "98390.0",
+          "97449.0",
+          "94386.0",
+          "96153.0",
+          "96472.0",
+          "98813.0",
+          "100958.0",
+          "96058.0",
+          "98508.0",
+          "101319.0",
+          "100331.0",
+          "102850.0",
+          "102554.0"
+        ]
+      }
+    },
+    {
+      "name": "WTSA2YR",
+      "type": "DOUBLE PRECISION",
+      "nullable": true,
+      "stats": {
+        "null_count": 0,
+        "distinct_count": 2730,
+        "null_percentage": 0.0,
+        "numeric_stats": {
+          "avg": 103814.1997123699,
+          "min": 5.397605346934028e-79,
+          "max": 1502431.342308,
+          "stddev": 136361.65091679993
+        },
+        "sample_values": [
+          "47711.749182",
+          "156274.122551",
+          "538586.717543",
+          "23113.508549",
+          "7641.256822",
+          "91464.698382",
+          "86177.539652",
+          "37614.002992",
+          "718123.607707",
+          "100772.016414",
+          "38292.051329",
+          "76894.603336",
+          "15108.192099",
+          "82665.854743",
+          "110072.60928"
+        ]
+      }
+    },
+    {
+      "name": "URXUIO",
+      "type": "DOUBLE PRECISION",
+      "nullable": true,
+      "stats": {
+        "null_count": 167,
+        "distinct_count": 1983,
+        "null_percentage": 5.61,
+        "numeric_stats": {
+          "avg": 231.96034850640123,
+          "min": 2.6,
+          "max": 23637.3,
+          "stddev": 606.2180175587223
+        },
+        "sample_values": [
+          "192.3",
+          "14.1",
+          "60.5",
+          "211.7",
+          "132.7",
+          "96.0",
+          "61.0",
+          "336.7",
+          "166.5",
+          "1480.3",
+          "214.6",
+          "18.7",
+          "79.8",
+          "69.5",
+          "375.8"
+        ]
+      }
+    },
+    {
+      "name": "URDUIOLC",
+      "type": "DOUBLE PRECISION",
+      "nullable": true,
+      "stats": {
+        "null_count": 167,
+        "distinct_count": 1,
+        "null_percentage": 5.61,
+        "numeric_stats": {
+          "avg": 5.397605346934028e-79,
+          "min": 5.397605346934028e-79,
+          "max": 5.397605346934028e-79,
+          "stddev": 0.0
+        },
+        "frequent_values": [
+          {
+            "value": "5.397605346934028e-79",
+            "count": 2812
+          }
+        ],
+        "sample_values": [
+          "5.397605346934028e-79"
+        ]
+      }
+    }
+  ],
+  "sample_rows": [
+    {
+      "SEQN": 93707.0,
+      "WTSA2YR": 24984.393699,
+      "URXUIO": 723.3,
+      "URDUIOLC": 5.397605346934028e-79
+    },
+    {
+      "SEQN": 93708.0,
+      "WTSA2YR": 39395.670748,
+      "URXUIO": 197.0,
+      "URDUIOLC": 5.397605346934028e-79
+    },
+    {
+      "SEQN": 93711.0,
+      "WTSA2YR": 43892.647648,
+      "URXUIO": 166.0,
+      "URDUIOLC": 5.397605346934028e-79
+    }
+  ],
+  "execution": {
+    "status": "success",
+    "seconds": 0.04,
+    "processed_at": "2026-06-11T21:19:02.553592",
+    "attempt": 1
+  }
+}

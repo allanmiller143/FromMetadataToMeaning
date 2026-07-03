@@ -1,0 +1,122 @@
+{
+  "public.tb_ciap_ms": [
+    "classificação de doenças",
+    "critérios diagnósticos",
+    "componentes CIAP"
+  ],
+  "public.tb_problema": [
+    "classificação de problemas clínicos",
+    "mapeamento CID-10",
+    "registro de evolução de saúde"
+  ],
+  "public.tb_dim_catmat": [
+    "categorização de medicamentos",
+    "concentração de fármacos",
+    "forma farmacêutica"
+  ],
+  "public.ta_medicamento_catmat": [
+    "cadastro de medicamentos",
+    "controle de estoque farmacêutico",
+    "auditoria de fornecimento"
+  ],
+  "public.ta_tecido_mole": [
+    "auditoria de tecido mole",
+    "classificação de CID-10 em tecido mole",
+    "parte bucal afetada"
+  ],
+  "public.ta_vacinacao": [
+    "vacinação gestante",
+    "auditoria vacinal",
+    "condição materna"
+  ],
+  "public.tb_antecedente": [
+    "histórico obstétrico",
+    "dados perinatais",
+    "desfecho gestacional"
+  ],
+  "public.tb_cidadao": [
+    "cadastro de cidadãos",
+    "dados demográficos e sociais",
+    "localização geográfica"
+  ],
+  "public.tb_cuidado_compartilhado_evol": [
+    "evolução de cuidado compartilhado",
+    "prioridade de atendimento",
+    "conduta clínica"
+  ],
+  "public.tb_evolucao_odonto": [
+    "evolução odontológica",
+    "procedimentos dentários",
+    "partes bucais"
+  ],
+  "public.tb_evolucao_subjetivo": [
+    "evolução de atendimento",
+    "subjetivo de consulta",
+    "condicionalidades do bolsa família"
+  ],
+  "public.tb_exame_hemoglobina_glicada": [
+    "análise de hemoglobina glicada",
+    "monitoramento de diabetes",
+    "resultados de exames laboratoriais"
+  ],
+  "public.tb_exame_prenatal": [
+    "exames pré-natais",
+    "idade gestacional",
+    "data provável de parto"
+  ],
+  "public.tb_fat_atend_odonto_problemas": [
+    "problemas odontológicos",
+    "evolução de atendimentos",
+    "classificação de CID e CIAP"
+  ],
+  "public.tb_fat_rel_op_risco_cardio": [
+    "fatores de risco cardiovascular",
+    "rastreamento de doenças crônicas",
+    "atendimento domiciliar"
+  ],
+  "public.tb_historico_dados_fao": [
+    "diagnóstico odontológico",
+    "histórico de saúde",
+    "classificação CIAP/CID"
+  ],
+  "public.tb_justificativa_prontuario": [
+    "justificativas de acesso a prontuários",
+    "motivos de vigilância em prontuários",
+    "registros de auditoria de prontuários"
+  ],
+  "public.tb_lembrete_evolucao": [
+    "evolução de lembretes",
+    "visibilidade de lembretes",
+    "lotação de lembretes"
+  ],
+  "public.tb_medicamento_uso_continuo": [
+    "uso de medicamentos",
+    "prescrição contínua",
+    "medicamentos por paciente"
+  ],
+  "public.tb_medicao": [
+    "medições clínicas",
+    "sinais vitais",
+    "glicemia e IMC"
+  ],
+  "public.tb_odontograma": [
+    "odontograma de pacientes",
+    "uso de próteses dentárias",
+    "tratamento ortodôntico"
+  ],
+  "public.tb_proced_exame_especifico": [
+    "procedimentos de exames específicos",
+    "identificadores de exames",
+    "cadastro de exames"
+  ],
+  "public.tb_raca_cor": [
+    "classificação étnico-racial",
+    "códigos de raça/cor",
+    "mapeamento de terminologias"
+  ],
+  "public.tb_tipo_glicemia": [
+    "classificação de glicemia",
+    "tipos de medição glicêmica",
+    "categorias de exames"
+  ]
+}

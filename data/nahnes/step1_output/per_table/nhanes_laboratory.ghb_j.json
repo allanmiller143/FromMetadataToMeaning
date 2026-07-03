@@ -1,0 +1,117 @@
+{
+  "schema": "nhanes_laboratory",
+  "table_name": "ghb_j",
+  "row_count": 6401,
+  "primary_key": [],
+  "foreign_keys": [],
+  "columns": [
+    {
+      "name": "SEQN",
+      "type": "DOUBLE PRECISION",
+      "nullable": true,
+      "stats": {
+        "null_count": 0,
+        "distinct_count": 6401,
+        "null_percentage": 0.0,
+        "numeric_stats": {
+          "avg": 98293.35431963755,
+          "min": 93705.0,
+          "max": 102956.0,
+          "stddev": 2685.0120562579373
+        },
+        "sample_values": [
+          "101333.0",
+          "98813.0",
+          "96811.0",
+          "97209.0",
+          "96347.0",
+          "94966.0",
+          "101319.0",
+          "102850.0",
+          "95820.0",
+          "94262.0",
+          "95105.0",
+          "93827.0",
+          "98270.0",
+          "95559.0",
+          "97247.0"
+        ]
+      }
+    },
+    {
+      "name": "LBXGH",
+      "type": "DOUBLE PRECISION",
+      "nullable": true,
+      "stats": {
+        "null_count": 356,
+        "distinct_count": 94,
+        "null_percentage": 5.56,
+        "numeric_stats": {
+          "avg": 5.769561621174523,
+          "min": 3.8,
+          "max": 16.2,
+          "stddev": 1.0378380249817238
+        },
+        "frequent_values": [
+          {
+            "value": "5.4",
+            "count": 571
+          },
+          {
+            "value": "5.5",
+            "count": 550
+          },
+          {
+            "value": "5.3",
+            "count": 530
+          },
+          {
+            "value": "5.6",
+            "count": 466
+          },
+          {
+            "value": "5.2",
+            "count": 442
+          }
+        ],
+        "sample_values": [
+          "12.4",
+          "4.9",
+          "13.2",
+          "5.8",
+          "11.4",
+          "9.0",
+          "11.1",
+          "4.8",
+          "6.2",
+          "7.7",
+          "10.6",
+          "4.3",
+          "6.6",
+          "8.7",
+          "9.5"
+        ]
+      }
+    }
+  ],
+  "sample_rows": [
+    {
+      "SEQN": 93705.0,
+      "LBXGH": 6.2
+    },
+    {
+      "SEQN": 93706.0,
+      "LBXGH": 5.2
+    },
+    {
+      "SEQN": 93707.0,
+      "LBXGH": 5.6
+    }
+  ],
+  "execution": {
+    "status": "success",
+    "seconds": 0.04,
+    "processed_at": "2026-06-11T21:18:34.659574",
+    "attempt": 1
+  }
+}

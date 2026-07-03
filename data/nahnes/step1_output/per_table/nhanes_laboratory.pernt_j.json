@@ -1,0 +1,363 @@
+{
+  "schema": "nhanes_laboratory",
+  "table_name": "pernt_j",
+  "row_count": 2979,
+  "primary_key": [],
+  "foreign_keys": [],
+  "columns": [
+    {
+      "name": "SEQN",
+      "type": "DOUBLE PRECISION",
+      "nullable": true,
+      "stats": {
+        "null_count": 0,
+        "distinct_count": 2979,
+        "null_percentage": 0.0,
+        "numeric_stats": {
+          "avg": 98304.5787176905,
+          "min": 93707.0,
+          "max": 102956.0,
+          "stddev": 2657.7196945082715
+        },
+        "sample_values": [
+          "100472.0",
+          "98778.0",
+          "98390.0",
+          "97449.0",
+          "94386.0",
+          "96153.0",
+          "96472.0",
+          "98813.0",
+          "100958.0",
+          "96058.0",
+          "98508.0",
+          "101319.0",
+          "100331.0",
+          "102850.0",
+          "102554.0"
+        ]
+      }
+    },
+    {
+      "name": "WTSA2YR",
+      "type": "DOUBLE PRECISION",
+      "nullable": true,
+      "stats": {
+        "null_count": 0,
+        "distinct_count": 2730,
+        "null_percentage": 0.0,
+        "numeric_stats": {
+          "avg": 103814.1997123699,
+          "min": 5.397605346934028e-79,
+          "max": 1502431.342308,
+          "stddev": 136361.65091679993
+        },
+        "sample_values": [
+          "47711.749182",
+          "156274.122551",
+          "538586.717543",
+          "23113.508549",
+          "7641.256822",
+          "91464.698382",
+          "86177.539652",
+          "37614.002992",
+          "718123.607707",
+          "100772.016414",
+          "38292.051329",
+          "76894.603336",
+          "15108.192099",
+          "82665.854743",
+          "110072.60928"
+        ]
+      }
+    },
+    {
+      "name": "URXUP8",
+      "type": "DOUBLE PRECISION",
+      "nullable": true,
+      "stats": {
+        "null_count": 230,
+        "distinct_count": 1096,
+        "null_percentage": 7.72,
+        "numeric_stats": {
+          "avg": 3.8489145143688632,
+          "min": 0.109,
+          "max": 200.0,
+          "stddev": 7.57129013657575
+        },
+        "frequent_values": [
+          {
+            "value": "1.21",
+            "count": 14
+          },
+          {
+            "value": "1.56",
+            "count": 13
+          },
+          {
+            "value": "2.18",
+            "count": 13
+          },
+          {
+            "value": "1.16",
+            "count": 12
+          },
+          {
+            "value": "2.12",
+            "count": 12
+          }
+        ],
+        "sample_values": [
+          "0.473",
+          "4.84",
+          "0.884",
+          "4.8",
+          "3.23",
+          "6.65",
+          "27.7",
+          "0.596",
+          "6.68",
+          "1.32",
+          "6.56",
+          "0.937",
+          "0.801",
+          "0.651",
+          "4.28"
+        ]
+      }
+    },
+    {
+      "name": "URDUP8LC",
+      "type": "DOUBLE PRECISION",
+      "nullable": true,
+      "stats": {
+        "null_count": 230,
+        "distinct_count": 1,
+        "null_percentage": 7.72,
+        "numeric_stats": {
+          "avg": 5.397605346934028e-79,
+          "min": 5.397605346934028e-79,
+          "max": 5.397605346934028e-79,
+          "stddev": 0.0
+        },
+        "frequent_values": [
+          {
+            "value": "5.397605346934028e-79",
+            "count": 2749
+          }
+        ],
+        "sample_values": [
+          "5.397605346934028e-79"
+        ]
+      }
+    },
+    {
+      "name": "URXNO3",
+      "type": "DOUBLE PRECISION",
+      "nullable": true,
+      "stats": {
+        "null_count": 231,
+        "distinct_count": 1012,
+        "null_percentage": 7.75,
+        "numeric_stats": {
+          "avg": 55476.73944687045,
+          "min": 495.0,
+          "max": 656000.0,
+          "stddev": 48025.703262683186
+        },
+        "frequent_values": [
+          {
+            "value": "31000.0",
+            "count": 12
+          },
+          {
+            "value": "112000.0",
+            "count": 11
+          },
+          {
+            "value": "105000.0",
+            "count": 10
+          },
+          {
+            "value": "30000.0",
+            "count": 10
+          },
+          {
+            "value": "104000.0",
+            "count": 10
+          }
+        ],
+        "sample_values": [
+          "10900.0",
+          "36000.0",
+          "31300.0",
+          "67400.0",
+          "129000.0",
+          "20200.0",
+          "29300.0",
+          "72400.0",
+          "8710.0",
+          "21200.0",
+          "8250.0",
+          "31100.0",
+          "48000.0",
+          "95600.0",
+          "1880.0"
+        ]
+      }
+    },
+    {
+      "name": "URDNO3LC",
+      "type": "DOUBLE PRECISION",
+      "nullable": true,
+      "stats": {
+        "null_count": 231,
+        "distinct_count": 2,
+        "null_percentage": 7.75,
+        "numeric_stats": {
+          "avg": 0.002183406113537118,
+          "min": 5.397605346934028e-79,
+          "max": 1.0,
+          "stddev": 0.046684386563253924
+        },
+        "frequent_values": [
+          {
+            "value": "5.397605346934028e-79",
+            "count": 2742
+          },
+          {
+            "value": "1.0",
+            "count": 6
+          }
+        ],
+        "sample_values": [
+          "1.0",
+          "5.397605346934028e-79"
+        ]
+      }
+    },
+    {
+      "name": "URXSCN",
+      "type": "DOUBLE PRECISION",
+      "nullable": true,
+      "stats": {
+        "null_count": 230,
+        "distinct_count": 1262,
+        "null_percentage": 7.72,
+        "numeric_stats": {
+          "avg": 1943.5155061113142,
+          "min": 14.1421,
+          "max": 37400.0,
+          "stddev": 3243.247883729491
+        },
+        "frequent_values": [
+          {
+            "value": "1190.0",
+            "count": 13
+          },
+          {
+            "value": "1090.0",
+            "count": 12
+          },
+          {
+            "value": "1320.0",
+            "count": 12
+          },
+          {
+            "value": "1010.0",
+            "count": 11
+          },
+          {
+            "value": "1110.0",
+            "count": 11
+          }
+        ],
+        "sample_values": [
+          "10900.0",
+          "1540.0",
+          "1860.0",
+          "615.0",
+          "322.0",
+          "514.0",
+          "798.0",
+          "607.0",
+          "409.0",
+          "796.0",
+          "710.0",
+          "809.0",
+          "99.3",
+          "454.0",
+          "1880.0"
+        ]
+      }
+    },
+    {
+      "name": "URDSCNLC",
+      "type": "DOUBLE PRECISION",
+      "nullable": true,
+      "stats": {
+        "null_count": 230,
+        "distinct_count": 2,
+        "null_percentage": 7.72,
+        "numeric_stats": {
+          "avg": 0.0010913059294288831,
+          "min": 5.397605346934028e-79,
+          "max": 1.0,
+          "stddev": 0.033022896219888596
+        },
+        "frequent_values": [
+          {
+            "value": "5.397605346934028e-79",
+            "count": 2746
+          },
+          {
+            "value": "1.0",
+            "count": 3
+          }
+        ],
+        "sample_values": [
+          "1.0",
+          "5.397605346934028e-79"
+        ]
+      }
+    }
+  ],
+  "sample_rows": [
+    {
+      "SEQN": 93707.0,
+      "WTSA2YR": 24984.393699,
+      "URXUP8": 2.19,
+      "URDUP8LC": 5.397605346934028e-79,
+      "URXNO3": 80600.0,
+      "URDNO3LC": 5.397605346934028e-79,
+      "URXSCN": 663.0,
+      "URDSCNLC": 5.397605346934028e-79
+    },
+    {
+      "SEQN": 93708.0,
+      "WTSA2YR": 39395.670748,
+      "URXUP8": 11.2,
+      "URDUP8LC": 5.397605346934028e-79,
+      "URXNO3": 283000.0,
+      "URDNO3LC": 5.397605346934028e-79,
+      "URXSCN": 602.0,
+      "URDSCNLC": 5.397605346934028e-79
+    },
+    {
+      "SEQN": 93711.0,
+      "WTSA2YR": 43892.647648,
+      "URXUP8": 2.04,
+      "URDUP8LC": 5.397605346934028e-79,
+      "URXNO3": 37400.0,
+      "URDNO3LC": 5.397605346934028e-79,
+      "URXSCN": 1510.0,
+      "URDSCNLC": 5.397605346934028e-79
+    }
+  ],
+  "execution": {
+    "status": "success",
+    "seconds": 0.07,
+    "processed_at": "2026-06-11T21:18:46.229404",
+    "attempt": 1
+  }
+}

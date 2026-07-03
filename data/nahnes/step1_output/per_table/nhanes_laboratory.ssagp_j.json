@@ -1,0 +1,153 @@
+{
+  "schema": "nhanes_laboratory",
+  "table_name": "ssagp_j",
+  "row_count": 2750,
+  "primary_key": [],
+  "foreign_keys": [],
+  "columns": [
+    {
+      "name": "SEQN",
+      "type": "DOUBLE PRECISION",
+      "nullable": true,
+      "stats": {
+        "null_count": 0,
+        "distinct_count": 2750,
+        "null_percentage": 0.0,
+        "numeric_stats": {
+          "avg": 98283.77418181818,
+          "min": 93703.0,
+          "max": 102955.0,
+          "stddev": 2646.712049690806
+        },
+        "sample_values": [
+          "100331.0",
+          "94383.0",
+          "95559.0",
+          "96573.0",
+          "94481.0",
+          "100294.0",
+          "98022.0",
+          "95210.0",
+          "102448.0",
+          "97414.0",
+          "95212.0",
+          "94999.0",
+          "101097.0",
+          "100431.0",
+          "98511.0"
+        ]
+      }
+    },
+    {
+      "name": "WTSSGP2Y",
+      "type": "DOUBLE PRECISION",
+      "nullable": true,
+      "stats": {
+        "null_count": 0,
+        "distinct_count": 1653,
+        "null_percentage": 0.0,
+        "numeric_stats": {
+          "avg": 36441.50763635779,
+          "min": 5.397605346934028e-79,
+          "max": 352907.896658,
+          "stddev": 43770.877883611436
+        },
+        "sample_values": [
+          "58763.313138",
+          "84439.150169",
+          "46655.438957",
+          "41513.200919",
+          "62452.320506",
+          "31637.739902",
+          "22211.202237",
+          "59546.636738",
+          "50044.136586",
+          "63685.327817",
+          "52417.663384",
+          "48323.117112",
+          "75311.780441",
+          "20537.555655",
+          "25939.902613"
+        ]
+      }
+    },
+    {
+      "name": "SSAGP",
+      "type": "DOUBLE PRECISION",
+      "nullable": true,
+      "stats": {
+        "null_count": 902,
+        "distinct_count": 592,
+        "null_percentage": 32.8,
+        "numeric_stats": {
+          "avg": 0.7679117965367951,
+          "min": 0.23,
+          "max": 2.07,
+          "stddev": 0.25118601254473605
+        },
+        "frequent_values": [
+          {
+            "value": "0.63",
+            "count": 22
+          },
+          {
+            "value": "0.6",
+            "count": 22
+          },
+          {
+            "value": "0.89",
+            "count": 20
+          },
+          {
+            "value": "1.02",
+            "count": 18
+          },
+          {
+            "value": "0.67",
+            "count": 18
+          }
+        ],
+        "sample_values": [
+          "1.68",
+          "0.349",
+          "0.473",
+          "0.871",
+          "0.447",
+          "0.884",
+          "0.658",
+          "0.563",
+          "0.87",
+          "0.376",
+          "1.32",
+          "0.937",
+          "0.686",
+          "0.584",
+          "0.651"
+        ]
+      }
+    }
+  ],
+  "sample_rows": [
+    {
+      "SEQN": 93703.0,
+      "WTSSGP2Y": 5.397605346934028e-79,
+      "SSAGP": NaN
+    },
+    {
+      "SEQN": 93704.0,
+      "WTSSGP2Y": 5.397605346934028e-79,
+      "SSAGP": NaN
+    },
+    {
+      "SEQN": 93719.0,
+      "WTSSGP2Y": 82551.897947,
+      "SSAGP": 1.0
+    }
+  ],
+  "execution": {
+    "status": "success",
+    "seconds": 0.03,
+    "processed_at": "2026-06-11T21:18:48.923461",
+    "attempt": 1
+  }
+}

@@ -1,0 +1,2240 @@
+{
+  "schema": "nhanes_questionnaire",
+  "table_name": "auq_j",
+  "row_count": 8897,
+  "primary_key": [],
+  "foreign_keys": [],
+  "columns": [
+    {
+      "name": "SEQN",
+      "type": "DOUBLE PRECISION",
+      "nullable": true,
+      "stats": {
+        "null_count": 0,
+        "distinct_count": 8897,
+        "null_percentage": 0.0,
+        "numeric_stats": {
+          "avg": 98333.8557940879,
+          "min": 93703.0,
+          "max": 102956.0,
+          "stddev": 2671.8969139785404
+        },
+        "sample_values": [
+          "96472.0",
+          "101333.0",
+          "102403.0",
+          "100276.0",
+          "97209.0",
+          "101319.0",
+          "100331.0",
+          "102850.0",
+          "94262.0",
+          "95105.0",
+          "93827.0",
+          "98270.0",
+          "95960.0",
+          "95559.0",
+          "95846.0"
+        ]
+      }
+    },
+    {
+      "name": "AUQ054",
+      "type": "DOUBLE PRECISION",
+      "nullable": true,
+      "stats": {
+        "null_count": 0,
+        "distinct_count": 7,
+        "null_percentage": 0.0,
+        "numeric_stats": {
+          "avg": 1.7930763178599527,
+          "min": 1.0,
+          "max": 99.0,
+          "stddev": 2.0239142856490377
+        },
+        "frequent_values": [
+          {
+            "value": "1.0",
+            "count": 4361
+          },
+          {
+            "value": "2.0",
+            "count": 3074
+          },
+          {
+            "value": "3.0",
+            "count": 899
+          },
+          {
+            "value": "4.0",
+            "count": 372
+          },
+          {
+            "value": "5.0",
+            "count": 166
+          }
+        ],
+        "sample_values": [
+          "3.0",
+          "4.0",
+          "1.0",
+          "99.0",
+          "6.0",
+          "2.0",
+          "5.0"
+        ]
+      }
+    },
+    {
+      "name": "AUQ060",
+      "type": "DOUBLE PRECISION",
+      "nullable": true,
+      "stats": {
+        "null_count": 7234,
+        "distinct_count": 4,
+        "null_percentage": 81.31,
+        "numeric_stats": {
+          "avg": 1.492483463619964,
+          "min": 1.0,
+          "max": 9.0,
+          "stddev": 1.130917660703893
+        },
+        "frequent_values": [
+          {
+            "value": "1.0",
+            "count": 1059
+          },
+          {
+            "value": "2.0",
+            "count": 573
+          },
+          {
+            "value": "9.0",
+            "count": 30
+          },
+          {
+            "value": "7.0",
+            "count": 1
+          }
+        ],
+        "sample_values": [
+          "9.0",
+          "7.0",
+          "2.0",
+          "1.0"
+        ]
+      }
+    },
+    {
+      "name": "AUQ070",
+      "type": "DOUBLE PRECISION",
+      "nullable": true,
+      "stats": {
+        "null_count": 8293,
+        "distinct_count": 4,
+        "null_percentage": 93.21,
+        "numeric_stats": {
+          "avg": 1.455298013245033,
+          "min": 1.0,
+          "max": 9.0,
+          "stddev": 1.0203509999572657
+        },
+        "frequent_values": [
+          {
+            "value": "1.0",
+            "count": 390
+          },
+          {
+            "value": "2.0",
+            "count": 205
+          },
+          {
+            "value": "9.0",
+            "count": 8
+          },
+          {
+            "value": "7.0",
+            "count": 1
+          }
+        ],
+        "sample_values": [
+          "9.0",
+          "7.0",
+          "2.0",
+          "1.0"
+        ]
+      }
+    },
+    {
+      "name": "AUQ080",
+      "type": "DOUBLE PRECISION",
+      "nullable": true,
+      "stats": {
+        "null_count": 8683,
+        "distinct_count": 3,
+        "null_percentage": 97.59,
+        "numeric_stats": {
+          "avg": 1.355140186915888,
+          "min": 1.0,
+          "max": 9.0,
+          "stddev": 1.0093677326385977
+        },
+        "frequent_values": [
+          {
+            "value": "1.0",
+            "count": 159
+          },
+          {
+            "value": "2.0",
+            "count": 52
+          },
+          {
+            "value": "9.0",
+            "count": 3
+          }
+        ],
+        "sample_values": [
+          "9.0",
+          "2.0",
+          "1.0"
+        ]
+      }
+    },
+    {
+      "name": "AUQ090",
+      "type": "DOUBLE PRECISION",
+      "nullable": true,
+      "stats": {
+        "null_count": 8842,
+        "distinct_count": 3,
+        "null_percentage": 99.38,
+        "numeric_stats": {
+          "avg": 1.6181818181818182,
+          "min": 1.0,
+          "max": 9.0,
+          "stddev": 1.5213408935797772
+        },
+        "frequent_values": [
+          {
+            "value": "1.0",
+            "count": 35
+          },
+          {
+            "value": "2.0",
+            "count": 18
+          },
+          {
+            "value": "9.0",
+            "count": 2
+          }
+        ],
+        "sample_values": [
+          "1.0",
+          "2.0",
+          "9.0"
+        ]
+      }
+    },
+    {
+      "name": "AUQ400",
+      "type": "DOUBLE PRECISION",
+      "nullable": true,
+      "stats": {
+        "null_count": 8291,
+        "distinct_count": 9,
+        "null_percentage": 93.19,
+        "numeric_stats": {
+          "avg": 7.123762376237623,
+          "min": 1.0,
+          "max": 99.0,
+          "stddev": 12.617953745763153
+        },
+        "frequent_values": [
+          {
+            "value": "7.0",
+            "count": 219
+          },
+          {
+            "value": "6.0",
+            "count": 129
+          },
+          {
+            "value": "3.0",
+            "count": 79
+          },
+          {
+            "value": "5.0",
+            "count": 78
+          },
+          {
+            "value": "4.0",
+            "count": 46
+          }
+        ],
+        "sample_values": [
+          "3.0",
+          "4.0",
+          "1.0",
+          "99.0",
+          "6.0",
+          "8.0",
+          "7.0",
+          "2.0",
+          "5.0"
+        ]
+      }
+    },
+    {
+      "name": "AUQ410A",
+      "type": "DOUBLE PRECISION",
+      "nullable": true,
+      "stats": {
+        "null_count": 8813,
+        "distinct_count": 2,
+        "null_percentage": 99.06,
+        "numeric_stats": {
+          "avg": 34.833333333333336,
+          "min": 1.0,
+          "max": 99.0,
+          "stddev": 46.87353746045015
+        },
+        "frequent_values": [
+          {
+            "value": "1.0",
+            "count": 55
+          },
+          {
+            "value": "99.0",
+            "count": 29
+          }
+        ],
+        "sample_values": [
+          "99.0",
+          "1.0"
+        ]
+      }
+    },
+    {
+      "name": "AUQ410B",
+      "type": "DOUBLE PRECISION",
+      "nullable": true,
+      "stats": {
+        "null_count": 8816,
+        "distinct_count": 1,
+        "null_percentage": 99.09,
+        "numeric_stats": {
+          "avg": 2.0,
+          "min": 2.0,
+          "max": 2.0,
+          "stddev": 0.0
+        },
+        "frequent_values": [
+          {
+            "value": "2.0",
+            "count": 81
+          }
+        ],
+        "sample_values": [
+          "2.0"
+        ]
+      }
+    },
+    {
+      "name": "AUQ410C",
+      "type": "DOUBLE PRECISION",
+      "nullable": true,
+      "stats": {
+        "null_count": 8879,
+        "distinct_count": 1,
+        "null_percentage": 99.8,
+        "numeric_stats": {
+          "avg": 3.0,
+          "min": 3.0,
+          "max": 3.0,
+          "stddev": 0.0
+        },
+        "frequent_values": [
+          {
+            "value": "3.0",
+            "count": 18
+          }
+        ],
+        "sample_values": [
+          "3.0"
+        ]
+      }
+    },
+    {
+      "name": "AUQ410D",
+      "type": "DOUBLE PRECISION",
+      "nullable": true,
+      "stats": {
+        "null_count": 8871,
+        "distinct_count": 1,
+        "null_percentage": 99.71,
+        "numeric_stats": {
+          "avg": 4.0,
+          "min": 4.0,
+          "max": 4.0,
+          "stddev": 0.0
+        },
+        "frequent_values": [
+          {
+            "value": "4.0",
+            "count": 26
+          }
+        ],
+        "sample_values": [
+          "4.0"
+        ]
+      }
+    },
+    {
+      "name": "AUQ410E",
+      "type": "DOUBLE PRECISION",
+      "nullable": true,
+      "stats": {
+        "null_count": 8889,
+        "distinct_count": 1,
+        "null_percentage": 99.91,
+        "numeric_stats": {
+          "avg": 5.0,
+          "min": 5.0,
+          "max": 5.0,
+          "stddev": 0.0
+        },
+        "frequent_values": [
+          {
+            "value": "5.0",
+            "count": 8
+          }
+        ],
+        "sample_values": [
+          "5.0"
+        ]
+      }
+    },
+    {
+      "name": "AUQ410F",
+      "type": "DOUBLE PRECISION",
+      "nullable": true,
+      "stats": {
+        "null_count": 8879,
+        "distinct_count": 1,
+        "null_percentage": 99.8,
+        "numeric_stats": {
+          "avg": 6.0,
+          "min": 6.0,
+          "max": 6.0,
+          "stddev": 0.0
+        },
+        "frequent_values": [
+          {
+            "value": "6.0",
+            "count": 18
+          }
+        ],
+        "sample_values": [
+          "6.0"
+        ]
+      }
+    },
+    {
+      "name": "AUQ410G",
+      "type": "DOUBLE PRECISION",
+      "nullable": true,
+      "stats": {
+        "null_count": 8807,
+        "distinct_count": 1,
+        "null_percentage": 98.99,
+        "numeric_stats": {
+          "avg": 7.0,
+          "min": 7.0,
+          "max": 7.0,
+          "stddev": 0.0
+        },
+        "frequent_values": [
+          {
+            "value": "7.0",
+            "count": 90
+          }
+        ],
+        "sample_values": [
+          "7.0"
+        ]
+      }
+    },
+    {
+      "name": "AUQ410H",
+      "type": "DOUBLE PRECISION",
+      "nullable": true,
+      "stats": {
+        "null_count": 8709,
+        "distinct_count": 1,
+        "null_percentage": 97.89,
+        "numeric_stats": {
+          "avg": 8.0,
+          "min": 8.0,
+          "max": 8.0,
+          "stddev": 0.0
+        },
+        "frequent_values": [
+          {
+            "value": "8.0",
+            "count": 188
+          }
+        ],
+        "sample_values": [
+          "8.0"
+        ]
+      }
+    },
+    {
+      "name": "AUQ410I",
+      "type": "DOUBLE PRECISION",
+      "nullable": true,
+      "stats": {
+        "null_count": 8585,
+        "distinct_count": 1,
+        "null_percentage": 96.49,
+        "numeric_stats": {
+          "avg": 9.0,
+          "min": 9.0,
+          "max": 9.0,
+          "stddev": 0.0
+        },
+        "frequent_values": [
+          {
+            "value": "9.0",
+            "count": 312
+          }
+        ],
+        "sample_values": [
+          "9.0"
+        ]
+      }
+    },
+    {
+      "name": "AUQ410J",
+      "type": "DOUBLE PRECISION",
+      "nullable": true,
+      "stats": {
+        "null_count": 8871,
+        "distinct_count": 1,
+        "null_percentage": 99.71,
+        "numeric_stats": {
+          "avg": 10.0,
+          "min": 10.0,
+          "max": 10.0,
+          "stddev": 0.0
+        },
+        "frequent_values": [
+          {
+            "value": "10.0",
+            "count": 26
+          }
+        ],
+        "sample_values": [
+          "10.0"
+        ]
+      }
+    },
+    {
+      "name": "AUQ156",
+      "type": "DOUBLE PRECISION",
+      "nullable": true,
+      "stats": {
+        "null_count": 8291,
+        "distinct_count": 2,
+        "null_percentage": 93.19,
+        "numeric_stats": {
+          "avg": 1.7953795379537953,
+          "min": 1.0,
+          "max": 2.0,
+          "stddev": 0.4037572765381101
+        },
+        "frequent_values": [
+          {
+            "value": "2.0",
+            "count": 482
+          },
+          {
+            "value": "1.0",
+            "count": 124
+          }
+        ],
+        "sample_values": [
+          "2.0",
+          "1.0"
+        ]
+      }
+    },
+    {
+      "name": "AUQ420",
+      "type": "DOUBLE PRECISION",
+      "nullable": true,
+      "stats": {
+        "null_count": 5544,
+        "distinct_count": 3,
+        "null_percentage": 62.31,
+        "numeric_stats": {
+          "avg": 1.547867581270504,
+          "min": 1.0,
+          "max": 9.0,
+          "stddev": 0.7059598091603994
+        },
+        "frequent_values": [
+          {
+            "value": "2.0",
+            "count": 1717
+          },
+          {
+            "value": "1.0",
+            "count": 1621
+          },
+          {
+            "value": "9.0",
+            "count": 15
+          }
+        ],
+        "sample_values": [
+          "9.0",
+          "2.0",
+          "1.0"
+        ]
+      }
+    },
+    {
+      "name": "AUQ430",
+      "type": "DOUBLE PRECISION",
+      "nullable": true,
+      "stats": {
+        "null_count": 7276,
+        "distinct_count": 3,
+        "null_percentage": 81.78,
+        "numeric_stats": {
+          "avg": 1.6224552745219,
+          "min": 1.0,
+          "max": 9.0,
+          "stddev": 0.9625527492383459
+        },
+        "frequent_values": [
+          {
+            "value": "2.0",
+            "count": 849
+          },
+          {
+            "value": "1.0",
+            "count": 752
+          },
+          {
+            "value": "9.0",
+            "count": 20
+          }
+        ],
+        "sample_values": [
+          "9.0",
+          "2.0",
+          "1.0"
+        ]
+      }
+    },
+    {
+      "name": "AUQ139",
+      "type": "DOUBLE PRECISION",
+      "nullable": true,
+      "stats": {
+        "null_count": 7276,
+        "distinct_count": 4,
+        "null_percentage": 81.78,
+        "numeric_stats": {
+          "avg": 1.9512646514497225,
+          "min": 1.0,
+          "max": 9.0,
+          "stddev": 0.7861257978465225
+        },
+        "frequent_values": [
+          {
+            "value": "2.0",
+            "count": 1408
+          },
+          {
+            "value": "1.0",
+            "count": 196
+          },
+          {
+            "value": "9.0",
+            "count": 16
+          },
+          {
+            "value": "7.0",
+            "count": 1
+          }
+        ],
+        "sample_values": [
+          "9.0",
+          "7.0",
+          "2.0",
+          "1.0"
+        ]
+      }
+    },
+    {
+      "name": "AUQ144",
+      "type": "DOUBLE PRECISION",
+      "nullable": true,
+      "stats": {
+        "null_count": 5544,
+        "distinct_count": 7,
+        "null_percentage": 62.31,
+        "numeric_stats": {
+          "avg": 3.0011929615269906,
+          "min": 1.0,
+          "max": 9.0,
+          "stddev": 1.8806890802346066
+        },
+        "frequent_values": [
+          {
+            "value": "2.0",
+            "count": 932
+          },
+          {
+            "value": "1.0",
+            "count": 829
+          },
+          {
+            "value": "5.0",
+            "count": 794
+          },
+          {
+            "value": "3.0",
+            "count": 366
+          },
+          {
+            "value": "4.0",
+            "count": 316
+          }
+        ],
+        "sample_values": [
+          "3.0",
+          "4.0",
+          "1.0",
+          "9.0",
+          "7.0",
+          "2.0",
+          "5.0"
+        ]
+      }
+    },
+    {
+      "name": "AUQ147",
+      "type": "DOUBLE PRECISION",
+      "nullable": true,
+      "stats": {
+        "null_count": 5544,
+        "distinct_count": 2,
+        "null_percentage": 62.31,
+        "numeric_stats": {
+          "avg": 1.935878317924247,
+          "min": 1.0,
+          "max": 2.0,
+          "stddev": 0.24500611162906621
+        },
+        "frequent_values": [
+          {
+            "value": "2.0",
+            "count": 3138
+          },
+          {
+            "value": "1.0",
+            "count": 215
+          }
+        ],
+        "sample_values": [
+          "2.0",
+          "1.0"
+        ]
+      }
+    },
+    {
+      "name": "AUQ149A",
+      "type": "DOUBLE PRECISION",
+      "nullable": true,
+      "stats": {
+        "null_count": 8690,
+        "distinct_count": 1,
+        "null_percentage": 97.67,
+        "numeric_stats": {
+          "avg": 1.0,
+          "min": 1.0,
+          "max": 1.0,
+          "stddev": 0.0
+        },
+        "frequent_values": [
+          {
+            "value": "1.0",
+            "count": 207
+          }
+        ],
+        "sample_values": [
+          "1.0"
+        ]
+      }
+    },
+    {
+      "name": "AUQ149B",
+      "type": "DOUBLE PRECISION",
+      "nullable": true,
+      "stats": {
+        "null_count": 8889,
+        "distinct_count": 1,
+        "null_percentage": 99.91,
+        "numeric_stats": {
+          "avg": 2.0,
+          "min": 2.0,
+          "max": 2.0,
+          "stddev": 0.0
+        },
+        "frequent_values": [
+          {
+            "value": "2.0",
+            "count": 8
+          }
+        ],
+        "sample_values": [
+          "2.0"
+        ]
+      }
+    },
+    {
+      "name": "AUQ149C",
+      "type": "DOUBLE PRECISION",
+      "nullable": true,
+      "stats": {
+        "null_count": 8893,
+        "distinct_count": 1,
+        "null_percentage": 99.96,
+        "numeric_stats": {
+          "avg": 3.0,
+          "min": 3.0,
+          "max": 3.0,
+          "stddev": 0.0
+        },
+        "frequent_values": [
+          {
+            "value": "3.0",
+            "count": 4
+          }
+        ],
+        "sample_values": [
+          "3.0"
+        ]
+      }
+    },
+    {
+      "name": "AUQ153",
+      "type": "DOUBLE PRECISION",
+      "nullable": true,
+      "stats": {
+        "null_count": 8682,
+        "distinct_count": 5,
+        "null_percentage": 97.58,
+        "numeric_stats": {
+          "avg": 3.6511627906976742,
+          "min": 1.0,
+          "max": 5.0,
+          "stddev": 0.9141596654502434
+        },
+        "frequent_values": [
+          {
+            "value": "4.0",
+            "count": 138
+          },
+          {
+            "value": "3.0",
+            "count": 32
+          },
+          {
+            "value": "5.0",
+            "count": 19
+          },
+          {
+            "value": "2.0",
+            "count": 16
+          },
+          {
+            "value": "1.0",
+            "count": 10
+          }
+        ],
+        "sample_values": [
+          "3.0",
+          "2.0",
+          "4.0",
+          "5.0",
+          "1.0"
+        ]
+      }
+    },
+    {
+      "name": "AUQ630",
+      "type": "DOUBLE PRECISION",
+      "nullable": true,
+      "stats": {
+        "null_count": 5759,
+        "distinct_count": 2,
+        "null_percentage": 64.73,
+        "numeric_stats": {
+          "avg": 1.9853409815168896,
+          "min": 1.0,
+          "max": 2.0,
+          "stddev": 0.12020289556121187
+        },
+        "frequent_values": [
+          {
+            "value": "2.0",
+            "count": 3092
+          },
+          {
+            "value": "1.0",
+            "count": 46
+          }
+        ],
+        "sample_values": [
+          "2.0",
+          "1.0"
+        ]
+      }
+    },
+    {
+      "name": "AUQ440",
+      "type": "DOUBLE PRECISION",
+      "nullable": true,
+      "stats": {
+        "null_count": 7181,
+        "distinct_count": 3,
+        "null_percentage": 80.71,
+        "numeric_stats": {
+          "avg": 1.794871794871795,
+          "min": 1.0,
+          "max": 9.0,
+          "stddev": 0.44249153558465393
+        },
+        "frequent_values": [
+          {
+            "value": "2.0",
+            "count": 1356
+          },
+          {
+            "value": "1.0",
+            "count": 359
+          },
+          {
+            "value": "9.0",
+            "count": 1
+          }
+        ],
+        "sample_values": [
+          "9.0",
+          "2.0",
+          "1.0"
+        ]
+      }
+    },
+    {
+      "name": "AUQ450A",
+      "type": "DOUBLE PRECISION",
+      "nullable": true,
+      "stats": {
+        "null_count": 8658,
+        "distinct_count": 1,
+        "null_percentage": 97.31,
+        "numeric_stats": {
+          "avg": 1.0,
+          "min": 1.0,
+          "max": 1.0,
+          "stddev": 0.0
+        },
+        "frequent_values": [
+          {
+            "value": "1.0",
+            "count": 239
+          }
+        ],
+        "sample_values": [
+          "1.0"
+        ]
+      }
+    },
+    {
+      "name": "AUQ450B",
+      "type": "DOUBLE PRECISION",
+      "nullable": true,
+      "stats": {
+        "null_count": 8742,
+        "distinct_count": 1,
+        "null_percentage": 98.26,
+        "numeric_stats": {
+          "avg": 2.0,
+          "min": 2.0,
+          "max": 2.0,
+          "stddev": 0.0
+        },
+        "frequent_values": [
+          {
+            "value": "2.0",
+            "count": 155
+          }
+        ],
+        "sample_values": [
+          "2.0"
+        ]
+      }
+    },
+    {
+      "name": "AUQ450C",
+      "type": "DOUBLE PRECISION",
+      "nullable": true,
+      "stats": {
+        "null_count": 8859,
+        "distinct_count": 1,
+        "null_percentage": 99.57,
+        "numeric_stats": {
+          "avg": 3.0,
+          "min": 3.0,
+          "max": 3.0,
+          "stddev": 0.0
+        },
+        "frequent_values": [
+          {
+            "value": "3.0",
+            "count": 38
+          }
+        ],
+        "sample_values": [
+          "3.0"
+        ]
+      }
+    },
+    {
+      "name": "AUQ450D",
+      "type": "DOUBLE PRECISION",
+      "nullable": true,
+      "stats": {
+        "null_count": 8849,
+        "distinct_count": 1,
+        "null_percentage": 99.46,
+        "numeric_stats": {
+          "avg": 4.0,
+          "min": 4.0,
+          "max": 4.0,
+          "stddev": 0.0
+        },
+        "frequent_values": [
+          {
+            "value": "4.0",
+            "count": 48
+          }
+        ],
+        "sample_values": [
+          "4.0"
+        ]
+      }
+    },
+    {
+      "name": "AUQ450E",
+      "type": "DOUBLE PRECISION",
+      "nullable": true,
+      "stats": {
+        "null_count": 8855,
+        "distinct_count": 1,
+        "null_percentage": 99.53,
+        "numeric_stats": {
+          "avg": 5.0,
+          "min": 5.0,
+          "max": 5.0,
+          "stddev": 0.0
+        },
+        "frequent_values": [
+          {
+            "value": "5.0",
+            "count": 42
+          }
+        ],
+        "sample_values": [
+          "5.0"
+        ]
+      }
+    },
+    {
+      "name": "AUQ450F",
+      "type": "DOUBLE PRECISION",
+      "nullable": true,
+      "stats": {
+        "null_count": 8819,
+        "distinct_count": 1,
+        "null_percentage": 99.12,
+        "numeric_stats": {
+          "avg": 6.0,
+          "min": 6.0,
+          "max": 6.0,
+          "stddev": 0.0
+        },
+        "frequent_values": [
+          {
+            "value": "6.0",
+            "count": 78
+          }
+        ],
+        "sample_values": [
+          "6.0"
+        ]
+      }
+    },
+    {
+      "name": "AUQ460",
+      "type": "DOUBLE PRECISION",
+      "nullable": true,
+      "stats": {
+        "null_count": 7181,
+        "distinct_count": 3,
+        "null_percentage": 80.71,
+        "numeric_stats": {
+          "avg": 1.99009324009324,
+          "min": 1.0,
+          "max": 9.0,
+          "stddev": 0.2740811153171976
+        },
+        "frequent_values": [
+          {
+            "value": "2.0",
+            "count": 1683
+          },
+          {
+            "value": "1.0",
+            "count": 31
+          },
+          {
+            "value": "9.0",
+            "count": 2
+          }
+        ],
+        "sample_values": [
+          "9.0",
+          "2.0",
+          "1.0"
+        ]
+      }
+    },
+    {
+      "name": "AUQ470",
+      "type": "DOUBLE PRECISION",
+      "nullable": true,
+      "stats": {
+        "null_count": 8866,
+        "distinct_count": 5,
+        "null_percentage": 99.65,
+        "numeric_stats": {
+          "avg": 2.5483870967741935,
+          "min": 1.0,
+          "max": 9.0,
+          "stddev": 1.748117266802952
+        },
+        "frequent_values": [
+          {
+            "value": "1.0",
+            "count": 12
+          },
+          {
+            "value": "4.0",
+            "count": 9
+          },
+          {
+            "value": "2.0",
+            "count": 5
+          },
+          {
+            "value": "3.0",
+            "count": 4
+          },
+          {
+            "value": "9.0",
+            "count": 1
+          }
+        ],
+        "sample_values": [
+          "1.0",
+          "2.0",
+          "3.0",
+          "4.0",
+          "9.0"
+        ]
+      }
+    },
+    {
+      "name": "AUQ101",
+      "type": "DOUBLE PRECISION",
+      "nullable": true,
+      "stats": {
+        "null_count": 7261,
+        "distinct_count": 6,
+        "null_percentage": 81.61,
+        "numeric_stats": {
+          "avg": 3.6350855745721273,
+          "min": 1.0,
+          "max": 9.0,
+          "stddev": 1.2501121877532242
+        },
+        "frequent_values": [
+          {
+            "value": "4.0",
+            "count": 532
+          },
+          {
+            "value": "5.0",
+            "count": 475
+          },
+          {
+            "value": "3.0",
+            "count": 300
+          },
+          {
+            "value": "2.0",
+            "count": 199
+          },
+          {
+            "value": "1.0",
+            "count": 128
+          }
+        ],
+        "sample_values": [
+          "9.0",
+          "3.0",
+          "2.0",
+          "4.0",
+          "1.0",
+          "5.0"
+        ]
+      }
+    },
+    {
+      "name": "AUQ110",
+      "type": "DOUBLE PRECISION",
+      "nullable": true,
+      "stats": {
+        "null_count": 7261,
+        "distinct_count": 7,
+        "null_percentage": 81.61,
+        "numeric_stats": {
+          "avg": 4.243887530562347,
+          "min": 1.0,
+          "max": 9.0,
+          "stddev": 1.1147300863099288
+        },
+        "frequent_values": [
+          {
+            "value": "5.0",
+            "count": 949
+          },
+          {
+            "value": "4.0",
+            "count": 358
+          },
+          {
+            "value": "3.0",
+            "count": 159
+          },
+          {
+            "value": "2.0",
+            "count": 105
+          },
+          {
+            "value": "1.0",
+            "count": 63
+          }
+        ],
+        "sample_values": [
+          "3.0",
+          "4.0",
+          "1.0",
+          "9.0",
+          "7.0",
+          "2.0",
+          "5.0"
+        ]
+      }
+    },
+    {
+      "name": "AUQ480",
+      "type": "DOUBLE PRECISION",
+      "nullable": true,
+      "stats": {
+        "null_count": 7261,
+        "distinct_count": 7,
+        "null_percentage": 81.61,
+        "numeric_stats": {
+          "avg": 4.5880195599022,
+          "min": 1.0,
+          "max": 9.0,
+          "stddev": 0.8952218331251907
+        },
+        "frequent_values": [
+          {
+            "value": "5.0",
+            "count": 1237
+          },
+          {
+            "value": "4.0",
+            "count": 221
+          },
+          {
+            "value": "3.0",
+            "count": 95
+          },
+          {
+            "value": "2.0",
+            "count": 47
+          },
+          {
+            "value": "1.0",
+            "count": 33
+          }
+        ],
+        "sample_values": [
+          "3.0",
+          "4.0",
+          "1.0",
+          "9.0",
+          "7.0",
+          "2.0",
+          "5.0"
+        ]
+      }
+    },
+    {
+      "name": "AUQ490",
+      "type": "DOUBLE PRECISION",
+      "nullable": true,
+      "stats": {
+        "null_count": 7261,
+        "distinct_count": 3,
+        "null_percentage": 81.61,
+        "numeric_stats": {
+          "avg": 1.6491442542787287,
+          "min": 1.0,
+          "max": 9.0,
+          "stddev": 0.5750196390508622
+        },
+        "frequent_values": [
+          {
+            "value": "2.0",
+            "count": 1038
+          },
+          {
+            "value": "1.0",
+            "count": 595
+          },
+          {
+            "value": "9.0",
+            "count": 3
+          }
+        ],
+        "sample_values": [
+          "9.0",
+          "2.0",
+          "1.0"
+        ]
+      }
+    },
+    {
+      "name": "AUQ191",
+      "type": "DOUBLE PRECISION",
+      "nullable": true,
+      "stats": {
+        "null_count": 7261,
+        "distinct_count": 3,
+        "null_percentage": 81.61,
+        "numeric_stats": {
+          "avg": 1.8361858190709046,
+          "min": 1.0,
+          "max": 9.0,
+          "stddev": 0.45339210775072314
+        },
+        "frequent_values": [
+          {
+            "value": "2.0",
+            "count": 1352
+          },
+          {
+            "value": "1.0",
+            "count": 282
+          },
+          {
+            "value": "9.0",
+            "count": 2
+          }
+        ],
+        "sample_values": [
+          "9.0",
+          "2.0",
+          "1.0"
+        ]
+      }
+    },
+    {
+      "name": "AUQ250",
+      "type": "DOUBLE PRECISION",
+      "nullable": true,
+      "stats": {
+        "null_count": 8615,
+        "distinct_count": 6,
+        "null_percentage": 96.83,
+        "numeric_stats": {
+          "avg": 3.578014184397163,
+          "min": 1.0,
+          "max": 9.0,
+          "stddev": 1.6148594773139502
+        },
+        "frequent_values": [
+          {
+            "value": "5.0",
+            "count": 112
+          },
+          {
+            "value": "3.0",
+            "count": 51
+          },
+          {
+            "value": "2.0",
+            "count": 40
+          },
+          {
+            "value": "1.0",
+            "count": 40
+          },
+          {
+            "value": "4.0",
+            "count": 35
+          }
+        ],
+        "sample_values": [
+          "9.0",
+          "3.0",
+          "2.0",
+          "4.0",
+          "5.0",
+          "1.0"
+        ]
+      }
+    },
+    {
+      "name": "AUQ255",
+      "type": "DOUBLE PRECISION",
+      "nullable": true,
+      "stats": {
+        "null_count": 8615,
+        "distinct_count": 6,
+        "null_percentage": 96.83,
+        "numeric_stats": {
+          "avg": 2.624113475177305,
+          "min": 1.0,
+          "max": 9.0,
+          "stddev": 1.6662400705908753
+        },
+        "frequent_values": [
+          {
+            "value": "1.0",
+            "count": 111
+          },
+          {
+            "value": "5.0",
+            "count": 59
+          },
+          {
+            "value": "3.0",
+            "count": 42
+          },
+          {
+            "value": "2.0",
+            "count": 41
+          },
+          {
+            "value": "4.0",
+            "count": 27
+          }
+        ],
+        "sample_values": [
+          "9.0",
+          "3.0",
+          "4.0",
+          "2.0",
+          "1.0",
+          "5.0"
+        ]
+      }
+    },
+    {
+      "name": "AUQ260",
+      "type": "DOUBLE PRECISION",
+      "nullable": true,
+      "stats": {
+        "null_count": 8615,
+        "distinct_count": 3,
+        "null_percentage": 96.83,
+        "numeric_stats": {
+          "avg": 1.9574468085106382,
+          "min": 1.0,
+          "max": 9.0,
+          "stddev": 1.0184933428017167
+        },
+        "frequent_values": [
+          {
+            "value": "2.0",
+            "count": 230
+          },
+          {
+            "value": "1.0",
+            "count": 47
+          },
+          {
+            "value": "9.0",
+            "count": 5
+          }
+        ],
+        "sample_values": [
+          "9.0",
+          "2.0",
+          "1.0"
+        ]
+      }
+    },
+    {
+      "name": "AUQ270",
+      "type": "DOUBLE PRECISION",
+      "nullable": true,
+      "stats": {
+        "null_count": 8615,
+        "distinct_count": 3,
+        "null_percentage": 96.83,
+        "numeric_stats": {
+          "avg": 1.698581560283688,
+          "min": 1.0,
+          "max": 9.0,
+          "stddev": 0.6407830858216662
+        },
+        "frequent_values": [
+          {
+            "value": "2.0",
+            "count": 189
+          },
+          {
+            "value": "1.0",
+            "count": 92
+          },
+          {
+            "value": "9.0",
+            "count": 1
+          }
+        ],
+        "sample_values": [
+          "9.0",
+          "2.0",
+          "1.0"
+        ]
+      }
+    },
+    {
+      "name": "AUQ280",
+      "type": "DOUBLE PRECISION",
+      "nullable": true,
+      "stats": {
+        "null_count": 8615,
+        "distinct_count": 5,
+        "null_percentage": 96.83,
+        "numeric_stats": {
+          "avg": 2.1808510638297873,
+          "min": 1.0,
+          "max": 5.0,
+          "stddev": 0.9577862147969616
+        },
+        "frequent_values": [
+          {
+            "value": "2.0",
+            "count": 106
+          },
+          {
+            "value": "3.0",
+            "count": 78
+          },
+          {
+            "value": "1.0",
+            "count": 76
+          },
+          {
+            "value": "4.0",
+            "count": 17
+          },
+          {
+            "value": "5.0",
+            "count": 5
+          }
+        ],
+        "sample_values": [
+          "3.0",
+          "4.0",
+          "2.0",
+          "5.0",
+          "1.0"
+        ]
+      }
+    },
+    {
+      "name": "AUQ500",
+      "type": "DOUBLE PRECISION",
+      "nullable": true,
+      "stats": {
+        "null_count": 8615,
+        "distinct_count": 3,
+        "null_percentage": 96.83,
+        "numeric_stats": {
+          "avg": 1.5283687943262412,
+          "min": 1.0,
+          "max": 9.0,
+          "stddev": 0.805393406766724
+        },
+        "frequent_values": [
+          {
+            "value": "1.0",
+            "count": 147
+          },
+          {
+            "value": "2.0",
+            "count": 133
+          },
+          {
+            "value": "9.0",
+            "count": 2
+          }
+        ],
+        "sample_values": [
+          "9.0",
+          "2.0",
+          "1.0"
+        ]
+      }
+    },
+    {
+      "name": "AUQ300",
+      "type": "DOUBLE PRECISION",
+      "nullable": true,
+      "stats": {
+        "null_count": 7261,
+        "distinct_count": 3,
+        "null_percentage": 81.61,
+        "numeric_stats": {
+          "avg": 1.6081907090464547,
+          "min": 1.0,
+          "max": 7.0,
+          "stddev": 0.506743663370569
+        },
+        "frequent_values": [
+          {
+            "value": "2.0",
+            "count": 989
+          },
+          {
+            "value": "1.0",
+            "count": 646
+          },
+          {
+            "value": "7.0",
+            "count": 1
+          }
+        ],
+        "sample_values": [
+          "7.0",
+          "2.0",
+          "1.0"
+        ]
+      }
+    },
+    {
+      "name": "AUQ310",
+      "type": "DOUBLE PRECISION",
+      "nullable": true,
+      "stats": {
+        "null_count": 8251,
+        "distinct_count": 7,
+        "null_percentage": 92.74,
+        "numeric_stats": {
+          "avg": 2.088235294117647,
+          "min": 1.0,
+          "max": 9.0,
+          "stddev": 1.4031915936274748
+        },
+        "frequent_values": [
+          {
+            "value": "1.0",
+            "count": 289
+          },
+          {
+            "value": "2.0",
+            "count": 154
+          },
+          {
+            "value": "3.0",
+            "count": 131
+          },
+          {
+            "value": "4.0",
+            "count": 45
+          },
+          {
+            "value": "5.0",
+            "count": 15
+          }
+        ],
+        "sample_values": [
+          "3.0",
+          "4.0",
+          "1.0",
+          "9.0",
+          "7.0",
+          "2.0",
+          "5.0"
+        ]
+      }
+    },
+    {
+      "name": "AUQ320",
+      "type": "DOUBLE PRECISION",
+      "nullable": true,
+      "stats": {
+        "null_count": 8251,
+        "distinct_count": 7,
+        "null_percentage": 92.74,
+        "numeric_stats": {
+          "avg": 3.524767801857585,
+          "min": 1.0,
+          "max": 9.0,
+          "stddev": 1.7104801063042054
+        },
+        "frequent_values": [
+          {
+            "value": "5.0",
+            "count": 309
+          },
+          {
+            "value": "1.0",
+            "count": 154
+          },
+          {
+            "value": "4.0",
+            "count": 69
+          },
+          {
+            "value": "2.0",
+            "count": 56
+          },
+          {
+            "value": "3.0",
+            "count": 55
+          }
+        ],
+        "sample_values": [
+          "3.0",
+          "4.0",
+          "1.0",
+          "9.0",
+          "7.0",
+          "2.0",
+          "5.0"
+        ]
+      }
+    },
+    {
+      "name": "AUQ330",
+      "type": "DOUBLE PRECISION",
+      "nullable": true,
+      "stats": {
+        "null_count": 7261,
+        "distinct_count": 4,
+        "null_percentage": 81.61,
+        "numeric_stats": {
+          "avg": 1.7658924205378974,
+          "min": 1.0,
+          "max": 9.0,
+          "stddev": 0.596286570405952
+        },
+        "frequent_values": [
+          {
+            "value": "2.0",
+            "count": 1061
+          },
+          {
+            "value": "1.0",
+            "count": 485
+          },
+          {
+            "value": "3.0",
+            "count": 88
+          },
+          {
+            "value": "9.0",
+            "count": 2
+          }
+        ],
+        "sample_values": [
+          "9.0",
+          "3.0",
+          "2.0",
+          "1.0"
+        ]
+      }
+    },
+    {
+      "name": "AUQ340",
+      "type": "DOUBLE PRECISION",
+      "nullable": true,
+      "stats": {
+        "null_count": 8412,
+        "distinct_count": 7,
+        "null_percentage": 94.55,
+        "numeric_stats": {
+          "avg": 4.991752577319588,
+          "min": 1.0,
+          "max": 7.0,
+          "stddev": 2.1377978794465764
+        },
+        "frequent_values": [
+          {
+            "value": "7.0",
+            "count": 203
+          },
+          {
+            "value": "5.0",
+            "count": 56
+          },
+          {
+            "value": "3.0",
+            "count": 52
+          },
+          {
+            "value": "1.0",
+            "count": 46
+          },
+          {
+            "value": "6.0",
+            "count": 44
+          }
+        ],
+        "sample_values": [
+          "3.0",
+          "4.0",
+          "1.0",
+          "6.0",
+          "7.0",
+          "2.0",
+          "5.0"
+        ]
+      }
+    },
+    {
+      "name": "AUQ350",
+      "type": "DOUBLE PRECISION",
+      "nullable": true,
+      "stats": {
+        "null_count": 8412,
+        "distinct_count": 3,
+        "null_percentage": 94.55,
+        "numeric_stats": {
+          "avg": 1.4164948453608248,
+          "min": 1.0,
+          "max": 9.0,
+          "stddev": 0.6891545323787461
+        },
+        "frequent_values": [
+          {
+            "value": "1.0",
+            "count": 297
+          },
+          {
+            "value": "2.0",
+            "count": 186
+          },
+          {
+            "value": "9.0",
+            "count": 2
+          }
+        ],
+        "sample_values": [
+          "9.0",
+          "2.0",
+          "1.0"
+        ]
+      }
+    },
+    {
+      "name": "AUQ360",
+      "type": "DOUBLE PRECISION",
+      "nullable": true,
+      "stats": {
+        "null_count": 8600,
+        "distinct_count": 8,
+        "null_percentage": 96.66,
+        "numeric_stats": {
+          "avg": 5.824915824915825,
+          "min": 1.0,
+          "max": 99.0,
+          "stddev": 7.937444535429885
+        },
+        "frequent_values": [
+          {
+            "value": "7.0",
+            "count": 132
+          },
+          {
+            "value": "5.0",
+            "count": 43
+          },
+          {
+            "value": "3.0",
+            "count": 31
+          },
+          {
+            "value": "4.0",
+            "count": 30
+          },
+          {
+            "value": "2.0",
+            "count": 21
+          }
+        ],
+        "sample_values": [
+          "3.0",
+          "4.0",
+          "1.0",
+          "99.0",
+          "6.0",
+          "7.0",
+          "2.0",
+          "5.0"
+        ]
+      }
+    },
+    {
+      "name": "AUQ370",
+      "type": "DOUBLE PRECISION",
+      "nullable": true,
+      "stats": {
+        "null_count": 7261,
+        "distinct_count": 3,
+        "null_percentage": 81.61,
+        "numeric_stats": {
+          "avg": 1.89119804400978,
+          "min": 1.0,
+          "max": 9.0,
+          "stddev": 0.36231776128553317
+        },
+        "frequent_values": [
+          {
+            "value": "2.0",
+            "count": 1450
+          },
+          {
+            "value": "1.0",
+            "count": 185
+          },
+          {
+            "value": "9.0",
+            "count": 1
+          }
+        ],
+        "sample_values": [
+          "9.0",
+          "2.0",
+          "1.0"
+        ]
+      }
+    },
+    {
+      "name": "AUQ510",
+      "type": "DOUBLE PRECISION",
+      "nullable": true,
+      "stats": {
+        "null_count": 8712,
+        "distinct_count": 5,
+        "null_percentage": 97.92,
+        "numeric_stats": {
+          "avg": 2.7513513513513512,
+          "min": 1.0,
+          "max": 9.0,
+          "stddev": 1.3959611037042645
+        },
+        "frequent_values": [
+          {
+            "value": "4.0",
+            "count": 85
+          },
+          {
+            "value": "1.0",
+            "count": 56
+          },
+          {
+            "value": "2.0",
+            "count": 25
+          },
+          {
+            "value": "3.0",
+            "count": 18
+          },
+          {
+            "value": "9.0",
+            "count": 1
+          }
+        ],
+        "sample_values": [
+          "9.0",
+          "3.0",
+          "2.0",
+          "4.0",
+          "1.0"
+        ]
+      }
+    },
+    {
+      "name": "AUQ380",
+      "type": "DOUBLE PRECISION",
+      "nullable": true,
+      "stats": {
+        "null_count": 7261,
+        "distinct_count": 6,
+        "null_percentage": 81.61,
+        "numeric_stats": {
+          "avg": 4.8288508557457215,
+          "min": 1.0,
+          "max": 6.0,
+          "stddev": 1.1803897763982736
+        },
+        "frequent_values": [
+          {
+            "value": "5.0",
+            "count": 987
+          },
+          {
+            "value": "6.0",
+            "count": 372
+          },
+          {
+            "value": "4.0",
+            "count": 107
+          },
+          {
+            "value": "1.0",
+            "count": 71
+          },
+          {
+            "value": "2.0",
+            "count": 63
+          }
+        ],
+        "sample_values": [
+          "3.0",
+          "6.0",
+          "4.0",
+          "2.0",
+          "1.0",
+          "5.0"
+        ]
+      }
+    }
+  ],
+  "sample_rows": [
+    {
+      "SEQN": 93703.0,
+      "AUQ054": 1.0,
+      "AUQ060": null,
+      "AUQ070": null,
+      "AUQ080": null,
+      "AUQ090": null,
+      "AUQ400": null,
+      "AUQ410A": null,
+      "AUQ410B": null,
+      "AUQ410C": null,
+      "AUQ410D": null,
+      "AUQ410E": null,
+      "AUQ410F": null,
+      "AUQ410G": null,
+      "AUQ410H": null,
+      "AUQ410I": null,
+      "AUQ410J": null,
+      "AUQ156": null,
+      "AUQ420": null,
+      "AUQ430": null,
+      "AUQ139": null,
+      "AUQ144": null,
+      "AUQ147": null,
+      "AUQ149A": null,
+      "AUQ149B": null,
+      "AUQ149C": null,
+      "AUQ153": null,
+      "AUQ630": null,
+      "AUQ440": null,
+      "AUQ450A": null,
+      "AUQ450B": null,
+      "AUQ450C": null,
+      "AUQ450D": null,
+      "AUQ450E": null,
+      "AUQ450F": null,
+      "AUQ460": null,
+      "AUQ470": null,
+      "AUQ101": null,
+      "AUQ110": null,
+      "AUQ480": null,
+      "AUQ490": null,
+      "AUQ191": null,
+      "AUQ250": null,
+      "AUQ255": null,
+      "AUQ260": null,
+      "AUQ270": null,
+      "AUQ280": null,
+      "AUQ500": null,
+      "AUQ300": null,
+      "AUQ310": null,
+      "AUQ320": null,
+      "AUQ330": null,
+      "AUQ340": null,
+      "AUQ350": null,
+      "AUQ360": null,
+      "AUQ370": null,
+      "AUQ510": null,
+      "AUQ380": null
+    },
+    {
+      "SEQN": 93704.0,
+      "AUQ054": 1.0,
+      "AUQ060": null,
+      "AUQ070": null,
+      "AUQ080": null,
+      "AUQ090": null,
+      "AUQ400": null,
+      "AUQ410A": null,
+      "AUQ410B": null,
+      "AUQ410C": null,
+      "AUQ410D": null,
+      "AUQ410E": null,
+      "AUQ410F": null,
+      "AUQ410G": null,
+      "AUQ410H": null,
+      "AUQ410I": null,
+      "AUQ410J": null,
+      "AUQ156": null,
+      "AUQ420": null,
+      "AUQ430": null,
+      "AUQ139": null,
+      "AUQ144": null,
+      "AUQ147": null,
+      "AUQ149A": null,
+      "AUQ149B": null,
+      "AUQ149C": null,
+      "AUQ153": null,
+      "AUQ630": null,
+      "AUQ440": null,
+      "AUQ450A": null,
+      "AUQ450B": null,
+      "AUQ450C": null,
+      "AUQ450D": null,
+      "AUQ450E": null,
+      "AUQ450F": null,
+      "AUQ460": null,
+      "AUQ470": null,
+      "AUQ101": null,
+      "AUQ110": null,
+      "AUQ480": null,
+      "AUQ490": null,
+      "AUQ191": null,
+      "AUQ250": null,
+      "AUQ255": null,
+      "AUQ260": null,
+      "AUQ270": null,
+      "AUQ280": null,
+      "AUQ500": null,
+      "AUQ300": null,
+      "AUQ310": null,
+      "AUQ320": null,
+      "AUQ330": null,
+      "AUQ340": null,
+      "AUQ350": null,
+      "AUQ360": null,
+      "AUQ370": null,
+      "AUQ510": null,
+      "AUQ380": null
+    },
+    {
+      "SEQN": 93705.0,
+      "AUQ054": 2.0,
+      "AUQ060": null,
+      "AUQ070": null,
+      "AUQ080": null,
+      "AUQ090": null,
+      "AUQ400": null,
+      "AUQ410A": null,
+      "AUQ410B": null,
+      "AUQ410C": null,
+      "AUQ410D": null,
+      "AUQ410E": null,
+      "AUQ410F": null,
+      "AUQ410G": null,
+      "AUQ410H": null,
+      "AUQ410I": null,
+      "AUQ410J": null,
+      "AUQ156": null,
+      "AUQ420": null,
+      "AUQ430": null,
+      "AUQ139": null,
+      "AUQ144": null,
+      "AUQ147": null,
+      "AUQ149A": null,
+      "AUQ149B": null,
+      "AUQ149C": null,
+      "AUQ153": null,
+      "AUQ630": null,
+      "AUQ440": null,
+      "AUQ450A": null,
+      "AUQ450B": null,
+      "AUQ450C": null,
+      "AUQ450D": null,
+      "AUQ450E": null,
+      "AUQ450F": null,
+      "AUQ460": null,
+      "AUQ470": null,
+      "AUQ101": null,
+      "AUQ110": null,
+      "AUQ480": null,
+      "AUQ490": null,
+      "AUQ191": null,
+      "AUQ250": null,
+      "AUQ255": null,
+      "AUQ260": null,
+      "AUQ270": null,
+      "AUQ280": null,
+      "AUQ500": null,
+      "AUQ300": null,
+      "AUQ310": null,
+      "AUQ320": null,
+      "AUQ330": null,
+      "AUQ340": null,
+      "AUQ350": null,
+      "AUQ360": null,
+      "AUQ370": null,
+      "AUQ510": null,
+      "AUQ380": null
+    }
+  ],
+  "execution": {
+    "status": "success",
+    "seconds": 0.97,
+    "processed_at": "2026-06-11T21:19:17.352142",
+    "attempt": 1
+  }
+}

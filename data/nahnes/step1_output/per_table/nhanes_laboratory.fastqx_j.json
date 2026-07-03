@@ -1,0 +1,957 @@
+{
+  "schema": "nhanes_laboratory",
+  "table_name": "fastqx_j",
+  "row_count": 8366,
+  "primary_key": [],
+  "foreign_keys": [],
+  "columns": [
+    {
+      "name": "SEQN",
+      "type": "DOUBLE PRECISION",
+      "nullable": true,
+      "stats": {
+        "null_count": 0,
+        "distinct_count": 8366,
+        "null_percentage": 0.0,
+        "numeric_stats": {
+          "avg": 98320.86994979679,
+          "min": 93703.0,
+          "max": 102956.0,
+          "stddev": 2669.896205797456
+        },
+        "sample_values": [
+          "96472.0",
+          "101333.0",
+          "102403.0",
+          "97209.0",
+          "101319.0",
+          "100331.0",
+          "102850.0",
+          "94262.0",
+          "95105.0",
+          "93827.0",
+          "98270.0",
+          "95960.0",
+          "95559.0",
+          "95846.0",
+          "102448.0"
+        ]
+      }
+    },
+    {
+      "name": "PHQ020",
+      "type": "DOUBLE PRECISION",
+      "nullable": true,
+      "stats": {
+        "null_count": 370,
+        "distinct_count": 2,
+        "null_percentage": 4.42,
+        "numeric_stats": {
+          "avg": 1.9852426213106553,
+          "min": 1.0,
+          "max": 2.0,
+          "stddev": 0.12058779809743769
+        },
+        "frequent_values": [
+          {
+            "value": "2.0",
+            "count": 7878
+          },
+          {
+            "value": "1.0",
+            "count": 118
+          }
+        ],
+        "sample_values": [
+          "2.0",
+          "1.0"
+        ]
+      }
+    },
+    {
+      "name": "PHACOFHR",
+      "type": "DOUBLE PRECISION",
+      "nullable": true,
+      "stats": {
+        "null_count": 8248,
+        "distinct_count": 15,
+        "null_percentage": 98.59,
+        "numeric_stats": {
+          "avg": 4.593220338983051,
+          "min": 5.397605346934028e-79,
+          "max": 17.0,
+          "stddev": 3.5427481923578186
+        },
+        "frequent_values": [
+          {
+            "value": "4.0",
+            "count": 24
+          },
+          {
+            "value": "5.0",
+            "count": 20
+          },
+          {
+            "value": "3.0",
+            "count": 16
+          },
+          {
+            "value": "1.0",
+            "count": 14
+          },
+          {
+            "value": "2.0",
+            "count": 12
+          }
+        ],
+        "sample_values": [
+          "9.0",
+          "16.0",
+          "6.0",
+          "8.0",
+          "17.0",
+          "5.0",
+          "13.0",
+          "3.0",
+          "4.0",
+          "1.0",
+          "5.397605346934028e-79",
+          "7.0",
+          "2.0",
+          "12.0",
+          "10.0"
+        ]
+      }
+    },
+    {
+      "name": "PHACOFMN",
+      "type": "DOUBLE PRECISION",
+      "nullable": true,
+      "stats": {
+        "null_count": 8248,
+        "distinct_count": 54,
+        "null_percentage": 98.59,
+        "numeric_stats": {
+          "avg": 28.28813559322034,
+          "min": 5.397605346934028e-79,
+          "max": 59.0,
+          "stddev": 18.37738376649722
+        },
+        "frequent_values": [
+          {
+            "value": "2.0",
+            "count": 6
+          },
+          {
+            "value": "7.0",
+            "count": 6
+          },
+          {
+            "value": "3.0",
+            "count": 5
+          },
+          {
+            "value": "35.0",
+            "count": 5
+          },
+          {
+            "value": "41.0",
+            "count": 5
+          }
+        ],
+        "sample_values": [
+          "15.0",
+          "26.0",
+          "38.0",
+          "44.0",
+          "9.0",
+          "55.0",
+          "51.0",
+          "20.0",
+          "6.0",
+          "36.0",
+          "17.0",
+          "5.0",
+          "29.0",
+          "13.0",
+          "31.0"
+        ]
+      }
+    },
+    {
+      "name": "PHQ030",
+      "type": "DOUBLE PRECISION",
+      "nullable": true,
+      "stats": {
+        "null_count": 370,
+        "distinct_count": 2,
+        "null_percentage": 4.42,
+        "numeric_stats": {
+          "avg": 1.9951225612806402,
+          "min": 1.0,
+          "max": 2.0,
+          "stddev": 0.06967249382999673
+        },
+        "frequent_values": [
+          {
+            "value": "2.0",
+            "count": 7957
+          },
+          {
+            "value": "1.0",
+            "count": 39
+          }
+        ],
+        "sample_values": [
+          "2.0",
+          "1.0"
+        ]
+      }
+    },
+    {
+      "name": "PHAALCHR",
+      "type": "DOUBLE PRECISION",
+      "nullable": true,
+      "stats": {
+        "null_count": 8327,
+        "distinct_count": 14,
+        "null_percentage": 99.53,
+        "numeric_stats": {
+          "avg": 9.76923076923077,
+          "min": 5.397605346934028e-79,
+          "max": 17.0,
+          "stddev": 4.048791492607058
+        },
+        "frequent_values": [
+          {
+            "value": "12.0",
+            "count": 6
+          },
+          {
+            "value": "11.0",
+            "count": 6
+          },
+          {
+            "value": "10.0",
+            "count": 6
+          },
+          {
+            "value": "9.0",
+            "count": 5
+          },
+          {
+            "value": "3.0",
+            "count": 3
+          }
+        ],
+        "sample_values": [
+          "5.397605346934028e-79",
+          "1.0",
+          "2.0",
+          "3.0",
+          "4.0",
+          "8.0",
+          "9.0",
+          "10.0",
+          "11.0",
+          "12.0",
+          "13.0",
+          "14.0",
+          "15.0",
+          "17.0"
+        ]
+      }
+    },
+    {
+      "name": "PHAALCMN",
+      "type": "DOUBLE PRECISION",
+      "nullable": true,
+      "stats": {
+        "null_count": 8327,
+        "distinct_count": 31,
+        "null_percentage": 99.53,
+        "numeric_stats": {
+          "avg": 30.82051282051282,
+          "min": 5.397605346934028e-79,
+          "max": 59.0,
+          "stddev": 18.716544601911906
+        },
+        "frequent_values": [
+          {
+            "value": "48.0",
+            "count": 3
+          },
+          {
+            "value": "46.0",
+            "count": 2
+          },
+          {
+            "value": "5.397605346934028e-79",
+            "count": 2
+          },
+          {
+            "value": "14.0",
+            "count": 2
+          },
+          {
+            "value": "26.0",
+            "count": 2
+          }
+        ],
+        "sample_values": [
+          "5.397605346934028e-79",
+          "1.0",
+          "3.0",
+          "4.0",
+          "5.0",
+          "8.0",
+          "9.0",
+          "13.0",
+          "14.0",
+          "16.0",
+          "20.0",
+          "26.0",
+          "27.0",
+          "28.0",
+          "29.0"
+        ]
+      }
+    },
+    {
+      "name": "PHQ040",
+      "type": "DOUBLE PRECISION",
+      "nullable": true,
+      "stats": {
+        "null_count": 370,
+        "distinct_count": 2,
+        "null_percentage": 4.42,
+        "numeric_stats": {
+          "avg": 1.9791145572786393,
+          "min": 1.0,
+          "max": 2.0,
+          "stddev": 0.1430097855302742
+        },
+        "frequent_values": [
+          {
+            "value": "2.0",
+            "count": 7829
+          },
+          {
+            "value": "1.0",
+            "count": 167
+          }
+        ],
+        "sample_values": [
+          "2.0",
+          "1.0"
+        ]
+      }
+    },
+    {
+      "name": "PHAGUMHR",
+      "type": "DOUBLE PRECISION",
+      "nullable": true,
+      "stats": {
+        "null_count": 8199,
+        "distinct_count": 15,
+        "null_percentage": 98.0,
+        "numeric_stats": {
+          "avg": 2.5748502994011977,
+          "min": 5.397605346934028e-79,
+          "max": 16.0,
+          "stddev": 3.521717792838388
+        },
+        "frequent_values": [
+          {
+            "value": "5.397605346934028e-79",
+            "count": 63
+          },
+          {
+            "value": "2.0",
+            "count": 25
+          },
+          {
+            "value": "1.0",
+            "count": 23
+          },
+          {
+            "value": "3.0",
+            "count": 18
+          },
+          {
+            "value": "4.0",
+            "count": 9
+          }
+        ],
+        "sample_values": [
+          "9.0",
+          "16.0",
+          "6.0",
+          "8.0",
+          "5.0",
+          "14.0",
+          "13.0",
+          "3.0",
+          "4.0",
+          "1.0",
+          "5.397605346934028e-79",
+          "7.0",
+          "2.0",
+          "11.0",
+          "12.0"
+        ]
+      }
+    },
+    {
+      "name": "PHAGUMMN",
+      "type": "DOUBLE PRECISION",
+      "nullable": true,
+      "stats": {
+        "null_count": 8199,
+        "distinct_count": 53,
+        "null_percentage": 98.0,
+        "numeric_stats": {
+          "avg": 23.898203592814372,
+          "min": 5.397605346934028e-79,
+          "max": 59.0,
+          "stddev": 17.725699378028164
+        },
+        "frequent_values": [
+          {
+            "value": "1.0",
+            "count": 11
+          },
+          {
+            "value": "3.0",
+            "count": 8
+          },
+          {
+            "value": "5.397605346934028e-79",
+            "count": 8
+          },
+          {
+            "value": "2.0",
+            "count": 7
+          },
+          {
+            "value": "43.0",
+            "count": 6
+          }
+        ],
+        "sample_values": [
+          "15.0",
+          "26.0",
+          "38.0",
+          "44.0",
+          "9.0",
+          "55.0",
+          "20.0",
+          "6.0",
+          "17.0",
+          "36.0",
+          "5.0",
+          "29.0",
+          "14.0",
+          "31.0",
+          "3.0"
+        ]
+      }
+    },
+    {
+      "name": "PHQ050",
+      "type": "DOUBLE PRECISION",
+      "nullable": true,
+      "stats": {
+        "null_count": 370,
+        "distinct_count": 2,
+        "null_percentage": 4.42,
+        "numeric_stats": {
+          "avg": 1.991870935467734,
+          "min": 1.0,
+          "max": 2.0,
+          "stddev": 0.08979972909350069
+        },
+        "frequent_values": [
+          {
+            "value": "2.0",
+            "count": 7931
+          },
+          {
+            "value": "1.0",
+            "count": 65
+          }
+        ],
+        "sample_values": [
+          "2.0",
+          "1.0"
+        ]
+      }
+    },
+    {
+      "name": "PHAANTHR",
+      "type": "DOUBLE PRECISION",
+      "nullable": true,
+      "stats": {
+        "null_count": 8301,
+        "distinct_count": 16,
+        "null_percentage": 99.22,
+        "numeric_stats": {
+          "avg": 4.6923076923076925,
+          "min": 5.397605346934028e-79,
+          "max": 16.0,
+          "stddev": 4.636550027104868
+        },
+        "frequent_values": [
+          {
+            "value": "1.0",
+            "count": 14
+          },
+          {
+            "value": "2.0",
+            "count": 9
+          },
+          {
+            "value": "3.0",
+            "count": 8
+          },
+          {
+            "value": "5.397605346934028e-79",
+            "count": 7
+          },
+          {
+            "value": "4.0",
+            "count": 5
+          }
+        ],
+        "sample_values": [
+          "15.0",
+          "9.0",
+          "16.0",
+          "6.0",
+          "8.0",
+          "5.0",
+          "14.0",
+          "13.0",
+          "3.0",
+          "4.0",
+          "1.0",
+          "5.397605346934028e-79",
+          "2.0",
+          "11.0",
+          "12.0"
+        ]
+      }
+    },
+    {
+      "name": "PHAANTMN",
+      "type": "DOUBLE PRECISION",
+      "nullable": true,
+      "stats": {
+        "null_count": 8301,
+        "distinct_count": 42,
+        "null_percentage": 99.22,
+        "numeric_stats": {
+          "avg": 30.53846153846154,
+          "min": 5.397605346934028e-79,
+          "max": 57.0,
+          "stddev": 17.85888865092545
+        },
+        "frequent_values": [
+          {
+            "value": "40.0",
+            "count": 3
+          },
+          {
+            "value": "25.0",
+            "count": 3
+          },
+          {
+            "value": "57.0",
+            "count": 3
+          },
+          {
+            "value": "55.0",
+            "count": 2
+          },
+          {
+            "value": "3.0",
+            "count": 2
+          }
+        ],
+        "sample_values": [
+          "5.397605346934028e-79",
+          "2.0",
+          "3.0",
+          "4.0",
+          "5.0",
+          "6.0",
+          "8.0",
+          "10.0",
+          "11.0",
+          "16.0",
+          "19.0",
+          "20.0",
+          "21.0",
+          "22.0",
+          "24.0"
+        ]
+      }
+    },
+    {
+      "name": "PHQ060",
+      "type": "DOUBLE PRECISION",
+      "nullable": true,
+      "stats": {
+        "null_count": 370,
+        "distinct_count": 2,
+        "null_percentage": 4.42,
+        "numeric_stats": {
+          "avg": 1.9828664332166084,
+          "min": 1.0,
+          "max": 2.0,
+          "stddev": 0.12977717052732404
+        },
+        "frequent_values": [
+          {
+            "value": "2.0",
+            "count": 7859
+          },
+          {
+            "value": "1.0",
+            "count": 137
+          }
+        ],
+        "sample_values": [
+          "2.0",
+          "1.0"
+        ]
+      }
+    },
+    {
+      "name": "PHASUPHR",
+      "type": "DOUBLE PRECISION",
+      "nullable": true,
+      "stats": {
+        "null_count": 8229,
+        "distinct_count": 17,
+        "null_percentage": 98.36,
+        "numeric_stats": {
+          "avg": 4.197080291970803,
+          "min": 5.397605346934028e-79,
+          "max": 16.0,
+          "stddev": 3.88594642885328
+        },
+        "frequent_values": [
+          {
+            "value": "1.0",
+            "count": 33
+          },
+          {
+            "value": "2.0",
+            "count": 26
+          },
+          {
+            "value": "3.0",
+            "count": 18
+          },
+          {
+            "value": "4.0",
+            "count": 13
+          },
+          {
+            "value": "6.0",
+            "count": 8
+          }
+        ],
+        "sample_values": [
+          "15.0",
+          "9.0",
+          "16.0",
+          "6.0",
+          "8.0",
+          "5.0",
+          "13.0",
+          "14.0",
+          "3.0",
+          "4.0",
+          "1.0",
+          "5.397605346934028e-79",
+          "7.0",
+          "2.0",
+          "10.0"
+        ]
+      }
+    },
+    {
+      "name": "PHASUPMN",
+      "type": "DOUBLE PRECISION",
+      "nullable": true,
+      "stats": {
+        "null_count": 8229,
+        "distinct_count": 50,
+        "null_percentage": 98.36,
+        "numeric_stats": {
+          "avg": 29.83941605839416,
+          "min": 5.397605346934028e-79,
+          "max": 59.0,
+          "stddev": 17.449184026364
+        },
+        "frequent_values": [
+          {
+            "value": "34.0",
+            "count": 7
+          },
+          {
+            "value": "19.0",
+            "count": 6
+          },
+          {
+            "value": "5.397605346934028e-79",
+            "count": 5
+          },
+          {
+            "value": "8.0",
+            "count": 5
+          },
+          {
+            "value": "11.0",
+            "count": 5
+          }
+        ],
+        "sample_values": [
+          "26.0",
+          "38.0",
+          "44.0",
+          "9.0",
+          "55.0",
+          "51.0",
+          "20.0",
+          "6.0",
+          "17.0",
+          "36.0",
+          "5.0",
+          "29.0",
+          "13.0",
+          "31.0",
+          "50.0"
+        ]
+      }
+    },
+    {
+      "name": "PHAFSTHR",
+      "type": "DOUBLE PRECISION",
+      "nullable": true,
+      "stats": {
+        "null_count": 370,
+        "distinct_count": 38,
+        "null_percentage": 4.42,
+        "numeric_stats": {
+          "avg": 7.80327663831916,
+          "min": 5.397605346934028e-79,
+          "max": 38.0,
+          "stddev": 5.349119314654603
+        },
+        "frequent_values": [
+          {
+            "value": "4.0",
+            "count": 947
+          },
+          {
+            "value": "5.0",
+            "count": 764
+          },
+          {
+            "value": "11.0",
+            "count": 641
+          },
+          {
+            "value": "3.0",
+            "count": 612
+          },
+          {
+            "value": "12.0",
+            "count": 588
+          }
+        ],
+        "sample_values": [
+          "15.0",
+          "26.0",
+          "38.0",
+          "9.0",
+          "6.0",
+          "20.0",
+          "36.0",
+          "17.0",
+          "5.0",
+          "29.0",
+          "14.0",
+          "13.0",
+          "31.0",
+          "3.0",
+          "27.0"
+        ]
+      }
+    },
+    {
+      "name": "PHAFSTMN",
+      "type": "DOUBLE PRECISION",
+      "nullable": true,
+      "stats": {
+        "null_count": 370,
+        "distinct_count": 60,
+        "null_percentage": 4.42,
+        "numeric_stats": {
+          "avg": 28.90057528764382,
+          "min": 5.397605346934028e-79,
+          "max": 59.0,
+          "stddev": 17.46542714579508
+        },
+        "frequent_values": [
+          {
+            "value": "32.0",
+            "count": 169
+          },
+          {
+            "value": "2.0",
+            "count": 169
+          },
+          {
+            "value": "39.0",
+            "count": 165
+          },
+          {
+            "value": "4.0",
+            "count": 164
+          },
+          {
+            "value": "9.0",
+            "count": 164
+          }
+        ],
+        "sample_values": [
+          "15.0",
+          "26.0",
+          "38.0",
+          "9.0",
+          "17.0",
+          "50.0",
+          "3.0",
+          "7.0",
+          "30.0",
+          "24.0",
+          "47.0",
+          "33.0",
+          "34.0",
+          "52.0",
+          "41.0"
+        ]
+      }
+    },
+    {
+      "name": "PHDSESN",
+      "type": "DOUBLE PRECISION",
+      "nullable": true,
+      "stats": {
+        "null_count": 0,
+        "distinct_count": 3,
+        "null_percentage": 0.0,
+        "numeric_stats": {
+          "avg": 0.7103753287114511,
+          "min": 5.397605346934028e-79,
+          "max": 2.0,
+          "stddev": 0.7343700653506948
+        },
+        "frequent_values": [
+          {
+            "value": "5.397605346934028e-79",
+            "count": 3818
+          },
+          {
+            "value": "1.0",
+            "count": 3153
+          },
+          {
+            "value": "2.0",
+            "count": 1395
+          }
+        ],
+        "sample_values": [
+          "5.397605346934028e-79",
+          "2.0",
+          "1.0"
+        ]
+      }
+    }
+  ],
+  "sample_rows": [
+    {
+      "SEQN": 93703.0,
+      "PHQ020": NaN,
+      "PHACOFHR": null,
+      "PHACOFMN": null,
+      "PHQ030": NaN,
+      "PHAALCHR": null,
+      "PHAALCMN": null,
+      "PHQ040": NaN,
+      "PHAGUMHR": null,
+      "PHAGUMMN": null,
+      "PHQ050": NaN,
+      "PHAANTHR": null,
+      "PHAANTMN": null,
+      "PHQ060": NaN,
+      "PHASUPHR": null,
+      "PHASUPMN": null,
+      "PHAFSTHR": NaN,
+      "PHAFSTMN": NaN,
+      "PHDSESN": 2.0
+    },
+    {
+      "SEQN": 93704.0,
+      "PHQ020": 2.0,
+      "PHACOFHR": null,
+      "PHACOFMN": null,
+      "PHQ030": 2.0,
+      "PHAALCHR": null,
+      "PHAALCMN": null,
+      "PHQ040": 2.0,
+      "PHAGUMHR": null,
+      "PHAGUMMN": null,
+      "PHQ050": 2.0,
+      "PHAANTHR": null,
+      "PHAANTMN": null,
+      "PHQ060": 2.0,
+      "PHASUPHR": null,
+      "PHASUPMN": null,
+      "PHAFSTHR": 1.0,
+      "PHAFSTMN": 38.0,
+      "PHDSESN": 1.0
+    },
+    {
+      "SEQN": 93705.0,
+      "PHQ020": 2.0,
+      "PHACOFHR": null,
+      "PHACOFMN": null,
+      "PHQ030": 2.0,
+      "PHAALCHR": null,
+      "PHAALCMN": null,
+      "PHQ040": 2.0,
+      "PHAGUMHR": null,
+      "PHAGUMMN": null,
+      "PHQ050": 2.0,
+      "PHAANTHR": null,
+      "PHAANTMN": null,
+      "PHQ060": 2.0,
+      "PHASUPHR": null,
+      "PHASUPMN": null,
+      "PHAFSTHR": 4.0,
+      "PHAFSTMN": 32.0,
+      "PHDSESN": 2.0
+    }
+  ],
+  "execution": {
+    "status": "success",
+    "seconds": 0.39,
+    "processed_at": "2026-06-11T21:18:29.591168",
+    "attempt": 1
+  }
+}

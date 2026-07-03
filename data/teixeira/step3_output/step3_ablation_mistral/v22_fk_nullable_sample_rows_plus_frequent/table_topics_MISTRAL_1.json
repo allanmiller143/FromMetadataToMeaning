@@ -1,0 +1,122 @@
+{
+  "public.tb_ciap_ms": [
+    "classificação de doenças",
+    "critérios diagnósticos",
+    "componentes de saúde"
+  ],
+  "public.tb_problema": [
+    "classificação de problemas clínicos",
+    "mapeamento CID10-CIAP",
+    "evolução de diagnósticos"
+  ],
+  "public.tb_dim_catmat": [
+    "classificação de medicamentos",
+    "concentração de fármacos",
+    "forma farmacêutica"
+  ],
+  "public.ta_medicamento_catmat": [
+    "auditoria de medicamentos",
+    "cadastro de medicamentos",
+    "volume de fornecimento"
+  ],
+  "public.ta_tecido_mole": [
+    "auditoria de tecido mole",
+    "classificação CID-10 em tecido mole",
+    "sintomatologia bucal"
+  ],
+  "public.ta_vacinacao": [
+    "auditoria de vacinação",
+    "gestantes vacinadas",
+    "condições maternas"
+  ],
+  "public.tb_antecedente": [
+    "histórico gestacional",
+    "parto e nascimento",
+    "desfecho perinatal"
+  ],
+  "public.tb_cidadao": [
+    "cadastro de cidadãos",
+    "dados demográficos individuais",
+    "localização residencial"
+  ],
+  "public.tb_cuidado_compartilhado_evol": [
+    "evolução de cuidado compartilhado",
+    "classificação de prioridade em saúde",
+    "versão de sistema de saúde"
+  ],
+  "public.tb_evolucao_odonto": [
+    "evolução odontológica",
+    "procedimentos dentários",
+    "localização bucal"
+  ],
+  "public.tb_evolucao_subjetivo": [
+    "evolução de atendimento",
+    "descrição subjetiva de paciente",
+    "especialidade acompanhada"
+  ],
+  "public.tb_exame_hemoglobina_glicada": [
+    "resultados de exames",
+    "hemoglobina glicada",
+    "controle glicêmico"
+  ],
+  "public.tb_exame_prenatal": [
+    "exames de pré-natal",
+    "idade gestacional",
+    "data provável de parto"
+  ],
+  "public.tb_fat_atend_odonto_problemas": [
+    "problemas odontológicos",
+    "atendimento em saúde",
+    "classificação de doenças"
+  ],
+  "public.tb_fat_rel_op_risco_cardio": [
+    "fatores de risco cardiovascular",
+    "rastreamento de doenças crônicas",
+    "avaliação de saúde domiciliar"
+  ],
+  "public.tb_historico_dados_fao": [
+    "registros de saúde bucal",
+    "diagnósticos odontológicos",
+    "histórico de atendimento"
+  ],
+  "public.tb_justificativa_prontuario": [
+    "justificativas de acesso",
+    "acesso a prontuários",
+    "auditoria de registros"
+  ],
+  "public.tb_lembrete_evolucao": [
+    "evolução de lembretes",
+    "visibilidade de alertas",
+    "lotação de lembretes"
+  ],
+  "public.tb_medicamento_uso_continuo": [
+    "uso contínuo de medicamentos",
+    "prescrição de medicamentos",
+    "rastreamento de receitas"
+  ],
+  "public.tb_medicao": [
+    "medidas biométricas",
+    "monitoramento de glicemia",
+    "avaliação pré-natal"
+  ],
+  "public.tb_odontograma": [
+    "odontograma de pacientes",
+    "uso de próteses dentárias",
+    "tratamentos ortodônticos"
+  ],
+  "public.tb_proced_exame_especifico": [
+    "exames específicos",
+    "procedimentos laboratoriais",
+    "identificadores de exames"
+  ],
+  "public.tb_raca_cor": [
+    "classificação étnico-racial",
+    "códigos de raça/cor",
+    "mapeamento de categorias"
+  ],
+  "public.tb_tipo_glicemia": [
+    "classificação de medição de glicemia",
+    "tipos de glicemia",
+    "categorias de glicemia"
+  ]
+}

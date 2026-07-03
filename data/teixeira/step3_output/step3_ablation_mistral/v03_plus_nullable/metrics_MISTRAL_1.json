@@ -1,0 +1,179 @@
+{
+  "_summary": {
+    "variant": "v03_plus_nullable",
+    "run": 1,
+    "tables_processed": 24,
+    "total_tokens_in": 25647,
+    "total_tokens_out": 622,
+    "total_tokens": 26269,
+    "total_elapsed_s": 37.026
+  },
+  "public.tb_ciap_ms": {
+    "tokens_in": 983,
+    "tokens_out": 27,
+    "tokens_total": 1010,
+    "elapsed_s": 1.544,
+    "fallback": false
+  },
+  "public.tb_problema": {
+    "tokens_in": 929,
+    "tokens_out": 27,
+    "tokens_total": 956,
+    "elapsed_s": 1.497,
+    "fallback": false
+  },
+  "public.tb_dim_catmat": {
+    "tokens_in": 911,
+    "tokens_out": 30,
+    "tokens_total": 941,
+    "elapsed_s": 1.755,
+    "fallback": false
+  },
+  "public.ta_medicamento_catmat": {
+    "tokens_in": 1051,
+    "tokens_out": 24,
+    "tokens_total": 1075,
+    "elapsed_s": 1.653,
+    "fallback": false
+  },
+  "public.ta_tecido_mole": {
+    "tokens_in": 982,
+    "tokens_out": 27,
+    "tokens_total": 1009,
+    "elapsed_s": 1.583,
+    "fallback": false
+  },
+  "public.ta_vacinacao": {
+    "tokens_in": 992,
+    "tokens_out": 19,
+    "tokens_total": 1011,
+    "elapsed_s": 1.426,
+    "fallback": false
+  },
+  "public.tb_antecedente": {
+    "tokens_in": 1568,
+    "tokens_out": 22,
+    "tokens_total": 1590,
+    "elapsed_s": 1.666,
+    "fallback": false
+  },
+  "public.tb_cidadao": {
+    "tokens_in": 2689,
+    "tokens_out": 24,
+    "tokens_total": 2713,
+    "elapsed_s": 1.45,
+    "fallback": false
+  },
+  "public.tb_cuidado_compartilhado_evol": {
+    "tokens_in": 1222,
+    "tokens_out": 26,
+    "tokens_total": 1248,
+    "elapsed_s": 1.553,
+    "fallback": false
+  },
+  "public.tb_evolucao_odonto": {
+    "tokens_in": 919,
+    "tokens_out": 22,
+    "tokens_total": 941,
+    "elapsed_s": 1.462,
+    "fallback": false
+  },
+  "public.tb_evolucao_subjetivo": {
+    "tokens_in": 816,
+    "tokens_out": 30,
+    "tokens_total": 846,
+    "elapsed_s": 1.571,
+    "fallback": false
+  },
+  "public.tb_exame_hemoglobina_glicada": {
+    "tokens_in": 825,
+    "tokens_out": 26,
+    "tokens_total": 851,
+    "elapsed_s": 1.445,
+    "fallback": false
+  },
+  "public.tb_exame_prenatal": {
+    "tokens_in": 864,
+    "tokens_out": 24,
+    "tokens_total": 888,
+    "elapsed_s": 1.487,
+    "fallback": false
+  },
+  "public.tb_fat_atend_odonto_problemas": {
+    "tokens_in": 1503,
+    "tokens_out": 25,
+    "tokens_total": 1528,
+    "elapsed_s": 1.456,
+    "fallback": false
+  },
+  "public.tb_fat_rel_op_risco_cardio": {
+    "tokens_in": 1191,
+    "tokens_out": 29,
+    "tokens_total": 1220,
+    "elapsed_s": 1.472,
+    "fallback": false
+  },
+  "public.tb_historico_dados_fao": {
+    "tokens_in": 842,
+    "tokens_out": 30,
+    "tokens_total": 872,
+    "elapsed_s": 1.58,
+    "fallback": false
+  },
+  "public.tb_justificativa_prontuario": {
+    "tokens_in": 885,
+    "tokens_out": 36,
+    "tokens_total": 921,
+    "elapsed_s": 1.547,
+    "fallback": false
+  },
+  "public.tb_lembrete_evolucao": {
+    "tokens_in": 905,
+    "tokens_out": 25,
+    "tokens_total": 930,
+    "elapsed_s": 1.535,
+    "fallback": false
+  },
+  "public.tb_medicamento_uso_continuo": {
+    "tokens_in": 846,
+    "tokens_out": 26,
+    "tokens_total": 872,
+    "elapsed_s": 1.576,
+    "fallback": false
+  },
+  "public.tb_medicao": {
+    "tokens_in": 1333,
+    "tokens_out": 21,
+    "tokens_total": 1354,
+    "elapsed_s": 1.47,
+    "fallback": false
+  },
+  "public.tb_odontograma": {
+    "tokens_in": 903,
+    "tokens_out": 25,
+    "tokens_total": 928,
+    "elapsed_s": 1.412,
+    "fallback": false
+  },
+  "public.tb_proced_exame_especifico": {
+    "tokens_in": 820,
+    "tokens_out": 20,
+    "tokens_total": 840,
+    "elapsed_s": 1.786,
+    "fallback": false
+  },
+  "public.tb_raca_cor": {
+    "tokens_in": 858,
+    "tokens_out": 28,
+    "tokens_total": 886,
+    "elapsed_s": 1.597,
+    "fallback": false
+  },
+  "public.tb_tipo_glicemia": {
+    "tokens_in": 810,
+    "tokens_out": 29,
+    "tokens_total": 839,
+    "elapsed_s": 1.487,
+    "fallback": false
+  }
+}

@@ -1,0 +1,200 @@
+{
+  "schema": "nhanes_laboratory",
+  "table_name": "ins_j",
+  "row_count": 3036,
+  "primary_key": [],
+  "foreign_keys": [],
+  "columns": [
+    {
+      "name": "SEQN",
+      "type": "DOUBLE PRECISION",
+      "nullable": true,
+      "stats": {
+        "null_count": 0,
+        "distinct_count": 3036,
+        "null_percentage": 0.0,
+        "numeric_stats": {
+          "avg": 98359.56752305666,
+          "min": 93708.0,
+          "max": 102956.0,
+          "stddev": 2696.4741279348477
+        },
+        "sample_values": [
+          "100500.0",
+          "101333.0",
+          "98813.0",
+          "96811.0",
+          "96347.0",
+          "98508.0",
+          "94966.0",
+          "102850.0",
+          "102554.0",
+          "94390.0",
+          "94262.0",
+          "101864.0",
+          "96978.0",
+          "93827.0",
+          "98270.0"
+        ]
+      }
+    },
+    {
+      "name": "WTSAF2YR",
+      "type": "DOUBLE PRECISION",
+      "nullable": true,
+      "stats": {
+        "null_count": 0,
+        "distinct_count": 2639,
+        "null_percentage": 0.0,
+        "numeric_stats": {
+          "avg": 89741.91006743987,
+          "min": 5.397605346934028e-79,
+          "max": 944153.249752,
+          "stddev": 109439.47894932036
+        },
+        "sample_values": [
+          "192250.049141",
+          "33503.028473",
+          "41317.61025",
+          "66390.301194",
+          "45656.407657",
+          "31982.026296",
+          "13678.685109",
+          "100052.114051",
+          "304455.891362",
+          "186249.771499",
+          "30196.453806",
+          "97379.792022",
+          "127187.796127",
+          "123199.685396",
+          "432920.565013"
+        ]
+      }
+    },
+    {
+      "name": "LBXIN",
+      "type": "DOUBLE PRECISION",
+      "nullable": true,
+      "stats": {
+        "null_count": 211,
+        "distinct_count": 1715,
+        "null_percentage": 6.95,
+        "numeric_stats": {
+          "avg": 14.670661946902635,
+          "min": 0.71,
+          "max": 485.1,
+          "stddev": 20.375371056790538
+        },
+        "sample_values": [
+          "17.25",
+          "5.38",
+          "95.59",
+          "5.33",
+          "4.84",
+          "27.13",
+          "4.8",
+          "3.23",
+          "11.42",
+          "15.09",
+          "11.74",
+          "20.47",
+          "6.65",
+          "6.68",
+          "12.97"
+        ]
+      }
+    },
+    {
+      "name": "LBDINSI",
+      "type": "DOUBLE PRECISION",
+      "nullable": true,
+      "stats": {
+        "null_count": 211,
+        "distinct_count": 1715,
+        "null_percentage": 6.95,
+        "numeric_stats": {
+          "avg": 88.0239716814159,
+          "min": 4.26,
+          "max": 2910.6,
+          "stddev": 122.25222634074329
+        },
+        "sample_values": [
+          "53.04",
+          "85.62",
+          "138.12",
+          "138.42",
+          "45.78",
+          "203.16",
+          "96.12",
+          "56.22",
+          "92.16",
+          "14.1",
+          "43.92",
+          "145.74",
+          "57.72",
+          "79.2",
+          "86.76"
+        ]
+      }
+    },
+    {
+      "name": "LBDINLC",
+      "type": "DOUBLE PRECISION",
+      "nullable": true,
+      "stats": {
+        "null_count": 211,
+        "distinct_count": 2,
+        "null_percentage": 6.95,
+        "numeric_stats": {
+          "avg": 0.00247787610619469,
+          "min": 5.397605346934028e-79,
+          "max": 1.0,
+          "stddev": 0.04972536070159685
+        },
+        "frequent_values": [
+          {
+            "value": "5.397605346934028e-79",
+            "count": 2818
+          },
+          {
+            "value": "1.0",
+            "count": 7
+          }
+        ],
+        "sample_values": [
+          "1.0",
+          "5.397605346934028e-79"
+        ]
+      }
+    }
+  ],
+  "sample_rows": [
+    {
+      "SEQN": 93708.0,
+      "WTSAF2YR": 25653.677102,
+      "LBXIN": 9.72,
+      "LBDINSI": 58.32,
+      "LBDINLC": 5.397605346934028e-79
+    },
+    {
+      "SEQN": 93711.0,
+      "WTSAF2YR": 29226.045506,
+      "LBXIN": 5.28,
+      "LBDINSI": 31.68,
+      "LBDINLC": 5.397605346934028e-79
+    },
+    {
+      "SEQN": 93717.0,
+      "WTSAF2YR": 137150.988033,
+      "LBXIN": 3.94,
+      "LBDINSI": 23.64,
+      "LBDINLC": 5.397605346934028e-79
+    }
+  ],
+  "execution": {
+    "status": "success",
+    "seconds": 0.04,
+    "processed_at": "2026-06-11T21:18:43.083795",
+    "attempt": 1
+  }
+}

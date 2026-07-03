@@ -1,0 +1,179 @@
+{
+  "_summary": {
+    "variant": "v22_fk_nullable_sample_rows_plus_frequent",
+    "run": 1,
+    "tables_processed": 24,
+    "total_tokens_in": 63322,
+    "total_tokens_out": 590,
+    "total_tokens": 63912,
+    "total_elapsed_s": 53.451
+  },
+  "public.tb_ciap_ms": {
+    "tokens_in": 2863,
+    "tokens_out": 22,
+    "tokens_total": 2885,
+    "elapsed_s": 1.74,
+    "fallback": false
+  },
+  "public.tb_problema": {
+    "tokens_in": 1742,
+    "tokens_out": 29,
+    "tokens_total": 1771,
+    "elapsed_s": 1.625,
+    "fallback": false
+  },
+  "public.tb_dim_catmat": {
+    "tokens_in": 1543,
+    "tokens_out": 24,
+    "tokens_total": 1567,
+    "elapsed_s": 2.229,
+    "fallback": false
+  },
+  "public.ta_medicamento_catmat": {
+    "tokens_in": 2903,
+    "tokens_out": 21,
+    "tokens_total": 2924,
+    "elapsed_s": 1.756,
+    "fallback": false
+  },
+  "public.ta_tecido_mole": {
+    "tokens_in": 1863,
+    "tokens_out": 29,
+    "tokens_total": 1892,
+    "elapsed_s": 1.972,
+    "fallback": false
+  },
+  "public.ta_vacinacao": {
+    "tokens_in": 1810,
+    "tokens_out": 21,
+    "tokens_total": 1831,
+    "elapsed_s": 1.703,
+    "fallback": false
+  },
+  "public.tb_antecedente": {
+    "tokens_in": 5121,
+    "tokens_out": 20,
+    "tokens_total": 5141,
+    "elapsed_s": 1.959,
+    "fallback": false
+  },
+  "public.tb_cidadao": {
+    "tokens_in": 11299,
+    "tokens_out": 22,
+    "tokens_total": 11321,
+    "elapsed_s": 5.323,
+    "fallback": false
+  },
+  "public.tb_cuidado_compartilhado_evol": {
+    "tokens_in": 3365,
+    "tokens_out": 28,
+    "tokens_total": 3393,
+    "elapsed_s": 1.877,
+    "fallback": false
+  },
+  "public.tb_evolucao_odonto": {
+    "tokens_in": 1916,
+    "tokens_out": 22,
+    "tokens_total": 1938,
+    "elapsed_s": 1.817,
+    "fallback": false
+  },
+  "public.tb_evolucao_subjetivo": {
+    "tokens_in": 1120,
+    "tokens_out": 26,
+    "tokens_total": 1146,
+    "elapsed_s": 1.932,
+    "fallback": false
+  },
+  "public.tb_exame_hemoglobina_glicada": {
+    "tokens_in": 1134,
+    "tokens_out": 24,
+    "tokens_total": 1158,
+    "elapsed_s": 1.681,
+    "fallback": false
+  },
+  "public.tb_exame_prenatal": {
+    "tokens_in": 1424,
+    "tokens_out": 21,
+    "tokens_total": 1445,
+    "elapsed_s": 1.713,
+    "fallback": false
+  },
+  "public.tb_fat_atend_odonto_problemas": {
+    "tokens_in": 6031,
+    "tokens_out": 23,
+    "tokens_total": 6054,
+    "elapsed_s": 1.981,
+    "fallback": false
+  },
+  "public.tb_fat_rel_op_risco_cardio": {
+    "tokens_in": 3994,
+    "tokens_out": 30,
+    "tokens_total": 4024,
+    "elapsed_s": 2.154,
+    "fallback": false
+  },
+  "public.tb_historico_dados_fao": {
+    "tokens_in": 1771,
+    "tokens_out": 24,
+    "tokens_total": 1795,
+    "elapsed_s": 1.847,
+    "fallback": false
+  },
+  "public.tb_justificativa_prontuario": {
+    "tokens_in": 1790,
+    "tokens_out": 23,
+    "tokens_total": 1813,
+    "elapsed_s": 1.616,
+    "fallback": false
+  },
+  "public.tb_lembrete_evolucao": {
+    "tokens_in": 1636,
+    "tokens_out": 26,
+    "tokens_total": 1662,
+    "elapsed_s": 1.792,
+    "fallback": false
+  },
+  "public.tb_medicamento_uso_continuo": {
+    "tokens_in": 1372,
+    "tokens_out": 26,
+    "tokens_total": 1398,
+    "elapsed_s": 1.918,
+    "fallback": false
+  },
+  "public.tb_medicao": {
+    "tokens_in": 4107,
+    "tokens_out": 24,
+    "tokens_total": 4131,
+    "elapsed_s": 7.264,
+    "fallback": false
+  },
+  "public.tb_odontograma": {
+    "tokens_in": 1487,
+    "tokens_out": 26,
+    "tokens_total": 1513,
+    "elapsed_s": 1.972,
+    "fallback": false
+  },
+  "public.tb_proced_exame_especifico": {
+    "tokens_in": 997,
+    "tokens_out": 22,
+    "tokens_total": 1019,
+    "elapsed_s": 1.906,
+    "fallback": false
+  },
+  "public.tb_raca_cor": {
+    "tokens_in": 1069,
+    "tokens_out": 28,
+    "tokens_total": 1097,
+    "elapsed_s": 1.737,
+    "fallback": false
+  },
+  "public.tb_tipo_glicemia": {
+    "tokens_in": 965,
+    "tokens_out": 29,
+    "tokens_total": 994,
+    "elapsed_s": 1.921,
+    "fallback": false
+  }
+}

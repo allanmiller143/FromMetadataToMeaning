@@ -1,0 +1,4769 @@
+{
+  "schema": "nhanes_dietary",
+  "table_name": "dr2iff_j",
+  "row_count": 93500,
+  "primary_key": [],
+  "foreign_keys": [],
+  "columns": [
+    {
+      "name": "SEQN",
+      "type": "DOUBLE PRECISION",
+      "nullable": true,
+      "stats": {
+        "null_count": 0,
+        "distinct_count": 6639,
+        "null_percentage": 0.0,
+        "numeric_stats": {
+          "avg": 98293.51275935829,
+          "min": 93704.0,
+          "max": 102956.0,
+          "stddev": 2677.3012695860143
+        },
+        "frequent_values": [
+          {
+            "value": "94740.0",
+            "count": 39
+          },
+          {
+            "value": "94832.0",
+            "count": 38
+          },
+          {
+            "value": "102863.0",
+            "count": 38
+          },
+          {
+            "value": "101333.0",
+            "count": 37
+          },
+          {
+            "value": "95575.0",
+            "count": 37
+          }
+        ],
+        "sample_values": [
+          "99729.0",
+          "96472.0",
+          "101333.0",
+          "96811.0",
+          "97209.0",
+          "96347.0",
+          "96058.0",
+          "94966.0",
+          "101319.0",
+          "100331.0",
+          "102850.0",
+          "94262.0",
+          "95105.0",
+          "98270.0",
+          "95960.0"
+        ]
+      }
+    },
+    {
+      "name": "WTDRD1",
+      "type": "DOUBLE PRECISION",
+      "nullable": true,
+      "stats": {
+        "null_count": 0,
+        "distinct_count": 6301,
+        "null_percentage": 0.0,
+        "numeric_stats": {
+          "avg": 44173.711655031526,
+          "min": 1478.156428,
+          "max": 691139.546883,
+          "stddev": 57489.40803259292
+        },
+        "frequent_values": [
+          {
+            "value": "9983.326247",
+            "count": 78
+          },
+          {
+            "value": "13201.208817",
+            "count": 62
+          },
+          {
+            "value": "184910.727487",
+            "count": 55
+          },
+          {
+            "value": "105709.519211",
+            "count": 55
+          },
+          {
+            "value": "52633.80188",
+            "count": 54
+          }
+        ],
+        "sample_values": [
+          "15288.875317",
+          "38923.662643",
+          "28175.076698",
+          "18746.219532",
+          "23343.930796",
+          "106185.930989",
+          "14911.449911",
+          "8092.708259",
+          "23000.084969",
+          "4947.936777",
+          "31079.834823",
+          "20909.121954",
+          "84193.458757",
+          "81203.074879",
+          "14103.49167"
+        ]
+      }
+    },
+    {
+      "name": "WTDR2D",
+      "type": "DOUBLE PRECISION",
+      "nullable": true,
+      "stats": {
+        "null_count": 0,
+        "distinct_count": 6391,
+        "null_percentage": 0.0,
+        "numeric_stats": {
+          "avg": 50558.970235786306,
+          "min": 1232.691132,
+          "max": 901995.118861,
+          "stddev": 69752.13477648956
+        },
+        "frequent_values": [
+          {
+            "value": "9030.327929",
+            "count": 58
+          },
+          {
+            "value": "178363.58816",
+            "count": 55
+          },
+          {
+            "value": "110161.584701",
+            "count": 55
+          },
+          {
+            "value": "58237.618097",
+            "count": 54
+          },
+          {
+            "value": "8450.951873",
+            "count": 54
+          }
+        ],
+        "sample_values": [
+          "45264.664866",
+          "11663.055661",
+          "16382.319457",
+          "17313.254351",
+          "4889.857365",
+          "7809.16791",
+          "81298.51339",
+          "23102.488292",
+          "76125.233313",
+          "52535.045757",
+          "4469.836497",
+          "20618.514586",
+          "7276.592365",
+          "81595.396784",
+          "12812.227374"
+        ]
+      }
+    },
+    {
+      "name": "DR2ILINE",
+      "type": "DOUBLE PRECISION",
+      "nullable": true,
+      "stats": {
+        "null_count": 0,
+        "distinct_count": 40,
+        "null_percentage": 0.0,
+        "numeric_stats": {
+          "avg": 8.805561497326202,
+          "min": 1.0,
+          "max": 40.0,
+          "stddev": 5.931303964620942
+        },
+        "frequent_values": [
+          {
+            "value": "1.0",
+            "count": 6631
+          },
+          {
+            "value": "2.0",
+            "count": 6615
+          },
+          {
+            "value": "3.0",
+            "count": 6553
+          },
+          {
+            "value": "4.0",
+            "count": 6476
+          },
+          {
+            "value": "5.0",
+            "count": 6369
+          }
+        ],
+        "sample_values": [
+          "15.0",
+          "26.0",
+          "38.0",
+          "9.0",
+          "20.0",
+          "6.0",
+          "36.0",
+          "17.0",
+          "5.0",
+          "29.0",
+          "14.0",
+          "13.0",
+          "31.0",
+          "3.0",
+          "27.0"
+        ]
+      }
+    },
+    {
+      "name": "DR2DRSTZ",
+      "type": "DOUBLE PRECISION",
+      "nullable": true,
+      "stats": {
+        "null_count": 0,
+        "distinct_count": 2,
+        "null_percentage": 0.0,
+        "numeric_stats": {
+          "avg": 1.0503422459893048,
+          "min": 1.0,
+          "max": 4.0,
+          "stddev": 0.38534917206038116
+        },
+        "frequent_values": [
+          {
+            "value": "1.0",
+            "count": 91931
+          },
+          {
+            "value": "4.0",
+            "count": 1569
+          }
+        ],
+        "sample_values": [
+          "4.0",
+          "1.0"
+        ]
+      }
+    },
+    {
+      "name": "DR2EXMER",
+      "type": "DOUBLE PRECISION",
+      "nullable": true,
+      "stats": {
+        "null_count": 0,
+        "distinct_count": 10,
+        "null_percentage": 0.0,
+        "numeric_stats": {
+          "avg": 72.1262459893048,
+          "min": 32.0,
+          "max": 91.0,
+          "stddev": 17.130701479802653
+        },
+        "frequent_values": [
+          {
+            "value": "87.0",
+            "count": 24422
+          },
+          {
+            "value": "78.0",
+            "count": 17765
+          },
+          {
+            "value": "79.0",
+            "count": 17680
+          },
+          {
+            "value": "53.0",
+            "count": 8594
+          },
+          {
+            "value": "91.0",
+            "count": 5458
+          }
+        ],
+        "sample_values": [
+          "52.0",
+          "79.0",
+          "32.0",
+          "43.0",
+          "91.0",
+          "39.0",
+          "78.0",
+          "87.0",
+          "58.0",
+          "53.0"
+        ]
+      }
+    },
+    {
+      "name": "DRABF",
+      "type": "DOUBLE PRECISION",
+      "nullable": true,
+      "stats": {
+        "null_count": 0,
+        "distinct_count": 2,
+        "null_percentage": 0.0,
+        "numeric_stats": {
+          "avg": 1.981818181818182,
+          "min": 1.0,
+          "max": 2.0,
+          "stddev": 0.13360924591439355
+        },
+        "frequent_values": [
+          {
+            "value": "2.0",
+            "count": 91800
+          },
+          {
+            "value": "1.0",
+            "count": 1700
+          }
+        ],
+        "sample_values": [
+          "2.0",
+          "1.0"
+        ]
+      }
+    },
+    {
+      "name": "DRDINT",
+      "type": "DOUBLE PRECISION",
+      "nullable": true,
+      "stats": {
+        "null_count": 0,
+        "distinct_count": 1,
+        "null_percentage": 0.0,
+        "numeric_stats": {
+          "avg": 2.0,
+          "min": 2.0,
+          "max": 2.0,
+          "stddev": 0.0
+        },
+        "frequent_values": [
+          {
+            "value": "2.0",
+            "count": 93500
+          }
+        ],
+        "sample_values": [
+          "2.0"
+        ]
+      }
+    },
+    {
+      "name": "DR2DBIH",
+      "type": "DOUBLE PRECISION",
+      "nullable": true,
+      "stats": {
+        "null_count": 2910,
+        "distinct_count": 134,
+        "null_percentage": 3.11,
+        "numeric_stats": {
+          "avg": 19.86506236891489,
+          "min": -33.0,
+          "max": 137.0,
+          "stddev": 15.936026925869909
+        },
+        "frequent_values": [
+          {
+            "value": "6.0",
+            "count": 4219
+          },
+          {
+            "value": "7.0",
+            "count": 3629
+          },
+          {
+            "value": "5.0",
+            "count": 3479
+          },
+          {
+            "value": "8.0",
+            "count": 3368
+          },
+          {
+            "value": "13.0",
+            "count": 3362
+          }
+        ],
+        "sample_values": [
+          "62.0",
+          "-5.0",
+          "-33.0",
+          "76.0",
+          "96.0",
+          "61.0",
+          "63.0",
+          "3.0",
+          "70.0",
+          "-11.0",
+          "7.0",
+          "-15.0",
+          "86.0",
+          "80.0",
+          "107.0"
+        ]
+      }
+    },
+    {
+      "name": "DR2DAY",
+      "type": "DOUBLE PRECISION",
+      "nullable": true,
+      "stats": {
+        "null_count": 0,
+        "distinct_count": 7,
+        "null_percentage": 0.0,
+        "numeric_stats": {
+          "avg": 3.4089304812834222,
+          "min": 1.0,
+          "max": 7.0,
+          "stddev": 1.7330401912710507
+        },
+        "frequent_values": [
+          {
+            "value": "3.0",
+            "count": 19619
+          },
+          {
+            "value": "1.0",
+            "count": 16411
+          },
+          {
+            "value": "4.0",
+            "count": 16090
+          },
+          {
+            "value": "2.0",
+            "count": 15104
+          },
+          {
+            "value": "5.0",
+            "count": 12215
+          }
+        ],
+        "sample_values": [
+          "3.0",
+          "4.0",
+          "1.0",
+          "6.0",
+          "7.0",
+          "2.0",
+          "5.0"
+        ]
+      }
+    },
+    {
+      "name": "DR2LANG",
+      "type": "DOUBLE PRECISION",
+      "nullable": true,
+      "stats": {
+        "null_count": 0,
+        "distinct_count": 5,
+        "null_percentage": 0.0,
+        "numeric_stats": {
+          "avg": 1.1130053475935828,
+          "min": 1.0,
+          "max": 5.0,
+          "stddev": 0.42775584610362677
+        },
+        "frequent_values": [
+          {
+            "value": "1.0",
+            "count": 85048
+          },
+          {
+            "value": "2.0",
+            "count": 7516
+          },
+          {
+            "value": "5.0",
+            "count": 576
+          },
+          {
+            "value": "3.0",
+            "count": 334
+          },
+          {
+            "value": "4.0",
+            "count": 26
+          }
+        ],
+        "sample_values": [
+          "3.0",
+          "4.0",
+          "2.0",
+          "5.0",
+          "1.0"
+        ]
+      }
+    },
+    {
+      "name": "DR2CCMNM",
+      "type": "DOUBLE PRECISION",
+      "nullable": true,
+      "stats": {
+        "null_count": 0,
+        "distinct_count": 12,
+        "null_percentage": 0.0,
+        "numeric_stats": {
+          "avg": 0.925336898395722,
+          "min": 5.397605346934028e-79,
+          "max": 11.0,
+          "stddev": 1.4316656712248037
+        },
+        "frequent_values": [
+          {
+            "value": "5.397605346934028e-79",
+            "count": 56006
+          },
+          {
+            "value": "1.0",
+            "count": 13249
+          },
+          {
+            "value": "2.0",
+            "count": 10716
+          },
+          {
+            "value": "3.0",
+            "count": 6954
+          },
+          {
+            "value": "4.0",
+            "count": 3694
+          }
+        ],
+        "sample_values": [
+          "3.0",
+          "4.0",
+          "1.0",
+          "9.0",
+          "6.0",
+          "5.397605346934028e-79",
+          "8.0",
+          "7.0",
+          "2.0",
+          "5.0",
+          "11.0",
+          "10.0"
+        ]
+      }
+    },
+    {
+      "name": "DR2CCMTX",
+      "type": "DOUBLE PRECISION",
+      "nullable": true,
+      "stats": {
+        "null_count": 0,
+        "distinct_count": 16,
+        "null_percentage": 0.0,
+        "numeric_stats": {
+          "avg": 4.249090909090909,
+          "min": 5.397605346934028e-79,
+          "max": 90.0,
+          "stddev": 15.050097865324974
+        },
+        "frequent_values": [
+          {
+            "value": "5.397605346934028e-79",
+            "count": 56006
+          },
+          {
+            "value": "1.0",
+            "count": 8109
+          },
+          {
+            "value": "5.0",
+            "count": 7699
+          },
+          {
+            "value": "4.0",
+            "count": 4367
+          },
+          {
+            "value": "2.0",
+            "count": 3835
+          }
+        ],
+        "sample_values": [
+          "90.0",
+          "9.0",
+          "6.0",
+          "8.0",
+          "5.0",
+          "13.0",
+          "14.0",
+          "3.0",
+          "4.0",
+          "1.0",
+          "5.397605346934028e-79",
+          "7.0",
+          "2.0",
+          "10.0",
+          "11.0"
+        ]
+      }
+    },
+    {
+      "name": "DR2_020",
+      "type": "DOUBLE PRECISION",
+      "nullable": true,
+      "stats": {
+        "null_count": 0,
+        "distinct_count": 369,
+        "null_percentage": 0.0,
+        "numeric_stats": {
+          "avg": 50411.92941176471,
+          "min": 5.397605346934028e-79,
+          "max": 86340.0,
+          "stddev": 17140.307493755114
+        },
+        "frequent_values": [
+          {
+            "value": "43200.0",
+            "count": 5256
+          },
+          {
+            "value": "64800.0",
+            "count": 4938
+          },
+          {
+            "value": "68400.0",
+            "count": 4733
+          },
+          {
+            "value": "46800.0",
+            "count": 4010
+          },
+          {
+            "value": "72000.0",
+            "count": 3638
+          }
+        ],
+        "sample_values": [
+          "63420.0",
+          "1860.0",
+          "80100.0",
+          "36000.0",
+          "38940.0",
+          "41640.0",
+          "36600.0",
+          "52380.0",
+          "1800.0",
+          "73200.0",
+          "70020.0",
+          "65460.0",
+          "20400.0",
+          "19080.0",
+          "52740.0"
+        ]
+      }
+    },
+    {
+      "name": "DR2_030Z",
+      "type": "DOUBLE PRECISION",
+      "nullable": true,
+      "stats": {
+        "null_count": 0,
+        "distinct_count": 20,
+        "null_percentage": 0.0,
+        "numeric_stats": {
+          "avg": 4.078342245989305,
+          "min": 1.0,
+          "max": 99.0,
+          "stddev": 3.2850592497646427
+        },
+        "frequent_values": [
+          {
+            "value": "3.0",
+            "count": 20407
+          },
+          {
+            "value": "2.0",
+            "count": 19609
+          },
+          {
+            "value": "1.0",
+            "count": 18292
+          },
+          {
+            "value": "6.0",
+            "count": 14429
+          },
+          {
+            "value": "7.0",
+            "count": 5867
+          }
+        ],
+        "sample_values": [
+          "15.0",
+          "99.0",
+          "9.0",
+          "16.0",
+          "6.0",
+          "8.0",
+          "17.0",
+          "5.0",
+          "19.0",
+          "18.0",
+          "14.0",
+          "13.0",
+          "3.0",
+          "4.0",
+          "1.0"
+        ]
+      }
+    },
+    {
+      "name": "DR2FS",
+      "type": "DOUBLE PRECISION",
+      "nullable": true,
+      "stats": {
+        "null_count": 6945,
+        "distinct_count": 25,
+        "null_percentage": 7.43,
+        "numeric_stats": {
+          "avg": 3.138605510946797,
+          "min": 1.0,
+          "max": 99.0,
+          "stddev": 6.213653842098605
+        },
+        "frequent_values": [
+          {
+            "value": "1.0",
+            "count": 63865
+          },
+          {
+            "value": "3.0",
+            "count": 7313
+          },
+          {
+            "value": "2.0",
+            "count": 4618
+          },
+          {
+            "value": "16.0",
+            "count": 2613
+          },
+          {
+            "value": "27.0",
+            "count": 2407
+          }
+        ],
+        "sample_values": [
+          "7.0",
+          "2.0",
+          "11.0",
+          "10.0",
+          "12.0",
+          "24.0",
+          "15.0",
+          "26.0",
+          "28.0",
+          "9.0",
+          "99.0",
+          "20.0",
+          "6.0",
+          "16.0",
+          "8.0"
+        ]
+      }
+    },
+    {
+      "name": "DR2_040Z",
+      "type": "DOUBLE PRECISION",
+      "nullable": true,
+      "stats": {
+        "null_count": 774,
+        "distinct_count": 3,
+        "null_percentage": 0.83,
+        "numeric_stats": {
+          "avg": 1.2749498522528742,
+          "min": 1.0,
+          "max": 9.0,
+          "stddev": 0.44986027029045006
+        },
+        "frequent_values": [
+          {
+            "value": "1.0",
+            "count": 67266
+          },
+          {
+            "value": "2.0",
+            "count": 25455
+          },
+          {
+            "value": "9.0",
+            "count": 5
+          }
+        ],
+        "sample_values": [
+          "9.0",
+          "2.0",
+          "1.0"
+        ]
+      }
+    },
+    {
+      "name": "DR2IFDCD",
+      "type": "DOUBLE PRECISION",
+      "nullable": true,
+      "stats": {
+        "null_count": 0,
+        "distinct_count": 4340,
+        "null_percentage": 0.0,
+        "numeric_stats": {
+          "avg": 61288418.3226738,
+          "min": 11000000.0,
+          "max": 95342000.0,
+          "stddev": 28323865.321009792
+        },
+        "frequent_values": [
+          {
+            "value": "94000100.0",
+            "count": 6171
+          },
+          {
+            "value": "94100100.0",
+            "count": 6146
+          },
+          {
+            "value": "92101000.0",
+            "count": 2042
+          },
+          {
+            "value": "11111000.0",
+            "count": 1444
+          },
+          {
+            "value": "11112110.0",
+            "count": 1366
+          }
+        ],
+        "sample_values": [
+          "28311030.0",
+          "54337030.0",
+          "43102300.0",
+          "28110660.0",
+          "73102222.0",
+          "71507035.0",
+          "71900200.0",
+          "75121000.0",
+          "42302105.0",
+          "54301100.0",
+          "26101180.0",
+          "53233100.0",
+          "71910110.0",
+          "56203065.0",
+          "63219610.0"
+        ]
+      }
+    },
+    {
+      "name": "DR2IGRMS",
+      "type": "DOUBLE PRECISION",
+      "nullable": true,
+      "stats": {
+        "null_count": 774,
+        "distinct_count": 3930,
+        "null_percentage": 0.83,
+        "numeric_stats": {
+          "avg": 181.78099626858324,
+          "min": 0.06,
+          "max": 9600.0,
+          "stddev": 308.51961307723616
+        },
+        "frequent_values": [
+          {
+            "value": "240.0",
+            "count": 3214
+          },
+          {
+            "value": "480.0",
+            "count": 1878
+          },
+          {
+            "value": "120.0",
+            "count": 1638
+          },
+          {
+            "value": "360.0",
+            "count": 1623
+          },
+          {
+            "value": "30.0",
+            "count": 1503
+          }
+        ],
+        "sample_values": [
+          "51.04",
+          "1860.0",
+          "4.84",
+          "47.79",
+          "96.0",
+          "41.13",
+          "166.5",
+          "163.99",
+          "83.45",
+          "192.5",
+          "436.0",
+          "111.76",
+          "121.68",
+          "4.37",
+          "74.25"
+        ]
+      }
+    },
+    {
+      "name": "DR2IKCAL",
+      "type": "DOUBLE PRECISION",
+      "nullable": true,
+      "stats": {
+        "null_count": 774,
+        "distinct_count": 1257,
+        "null_percentage": 0.83,
+        "numeric_stats": {
+          "avg": 126.96371028621961,
+          "min": 5.397605346934028e-79,
+          "max": 4050.0,
+          "stddev": 177.2695433182076
+        },
+        "frequent_values": [
+          {
+            "value": "5.397605346934028e-79",
+            "count": 13166
+          },
+          {
+            "value": "2.0",
+            "count": 2007
+          },
+          {
+            "value": "4.0",
+            "count": 1471
+          },
+          {
+            "value": "3.0",
+            "count": 1449
+          },
+          {
+            "value": "1.0",
+            "count": 1344
+          }
+        ],
+        "sample_values": [
+          "615.0",
+          "2123.0",
+          "1333.0",
+          "96.0",
+          "322.0",
+          "514.0",
+          "61.0",
+          "798.0",
+          "987.0",
+          "670.0",
+          "607.0",
+          "436.0",
+          "759.0",
+          "409.0",
+          "796.0"
+        ]
+      }
+    },
+    {
+      "name": "DR2IPROT",
+      "type": "DOUBLE PRECISION",
+      "nullable": true,
+      "stats": {
+        "null_count": 774,
+        "distinct_count": 3968,
+        "null_percentage": 0.83,
+        "numeric_stats": {
+          "avg": 4.888637706792193,
+          "min": 5.397605346934028e-79,
+          "max": 202.81,
+          "stddev": 9.7663221421669
+        },
+        "frequent_values": [
+          {
+            "value": "5.397605346934028e-79",
+            "count": 19488
+          },
+          {
+            "value": "1.37",
+            "count": 962
+          },
+          {
+            "value": "0.18",
+            "count": 929
+          },
+          {
+            "value": "0.13",
+            "count": 811
+          },
+          {
+            "value": "0.02",
+            "count": 795
+          }
+        ],
+        "sample_values": [
+          "10.98",
+          "25.35",
+          "4.84",
+          "94.9",
+          "1.32",
+          "26.64",
+          "18.7",
+          "23.85",
+          "16.86",
+          "4.37",
+          "9.27",
+          "2.98",
+          "3.25",
+          "3.27",
+          "37.27"
+        ]
+      }
+    },
+    {
+      "name": "DR2ICARB",
+      "type": "DOUBLE PRECISION",
+      "nullable": true,
+      "stats": {
+        "null_count": 774,
+        "distinct_count": 6894,
+        "null_percentage": 0.83,
+        "numeric_stats": {
+          "avg": 15.358069473503477,
+          "min": 5.397605346934028e-79,
+          "max": 763.64,
+          "stddev": 22.702316525590522
+        },
+        "frequent_values": [
+          {
+            "value": "5.397605346934028e-79",
+            "count": 17846
+          },
+          {
+            "value": "28.78",
+            "count": 822
+          },
+          {
+            "value": "0.08",
+            "count": 683
+          },
+          {
+            "value": "0.23",
+            "count": 456
+          },
+          {
+            "value": "0.27",
+            "count": 452
+          }
+        ],
+        "sample_values": [
+          "18.93",
+          "54.39",
+          "14.1",
+          "32.02",
+          "135.31",
+          "51.04",
+          "58.93",
+          "10.98",
+          "42.05",
+          "25.35",
+          "36.05",
+          "4.84",
+          "47.79",
+          "41.13",
+          "81.45"
+        ]
+      }
+    },
+    {
+      "name": "DR2ISUGR",
+      "type": "DOUBLE PRECISION",
+      "nullable": true,
+      "stats": {
+        "null_count": 774,
+        "distinct_count": 4033,
+        "null_percentage": 0.83,
+        "numeric_stats": {
+          "avg": 6.597717468671122,
+          "min": 5.397605346934028e-79,
+          "max": 767.81,
+          "stddev": 13.266995598082397
+        },
+        "frequent_values": [
+          {
+            "value": "5.397605346934028e-79",
+            "count": 22164
+          },
+          {
+            "value": "0.08",
+            "count": 949
+          },
+          {
+            "value": "15.41",
+            "count": 850
+          },
+          {
+            "value": "0.07",
+            "count": 697
+          },
+          {
+            "value": "0.19",
+            "count": 677
+          }
+        ],
+        "sample_values": [
+          "10.98",
+          "25.35",
+          "62.59",
+          "36.05",
+          "4.84",
+          "1.32",
+          "26.64",
+          "30.37",
+          "18.7",
+          "23.85",
+          "16.86",
+          "4.37",
+          "9.27",
+          "57.92",
+          "2.98"
+        ]
+      }
+    },
+    {
+      "name": "DR2IFIBE",
+      "type": "DOUBLE PRECISION",
+      "nullable": true,
+      "stats": {
+        "null_count": 774,
+        "distinct_count": 270,
+        "null_percentage": 0.83,
+        "numeric_stats": {
+          "avg": 1.054588788473614,
+          "min": 5.397605346934028e-79,
+          "max": 74.2,
+          "stddev": 2.154267035361254
+        },
+        "frequent_values": [
+          {
+            "value": "5.397605346934028e-79",
+            "count": 43719
+          },
+          {
+            "value": "0.2",
+            "count": 3694
+          },
+          {
+            "value": "0.1",
+            "count": 3607
+          },
+          {
+            "value": "0.3",
+            "count": 2471
+          },
+          {
+            "value": "0.5",
+            "count": 2334
+          }
+        ],
+        "sample_values": [
+          "12.4",
+          "62.1",
+          "14.7",
+          "5.8",
+          "28.8",
+          "4.8",
+          "6.2",
+          "33.6",
+          "30.5",
+          "3.0",
+          "27.7",
+          "32.7",
+          "18.7",
+          "4.3",
+          "1.4"
+        ]
+      }
+    },
+    {
+      "name": "DR2ITFAT",
+      "type": "DOUBLE PRECISION",
+      "nullable": true,
+      "stats": {
+        "null_count": 774,
+        "distinct_count": 3881,
+        "null_percentage": 0.83,
+        "numeric_stats": {
+          "avg": 5.097514073722783,
+          "min": 5.397605346934028e-79,
+          "max": 175.04,
+          "stddev": 9.457089341399186
+        },
+        "frequent_values": [
+          {
+            "value": "5.397605346934028e-79",
+            "count": 17814
+          },
+          {
+            "value": "0.01",
+            "count": 2423
+          },
+          {
+            "value": "0.02",
+            "count": 1599
+          },
+          {
+            "value": "0.04",
+            "count": 1591
+          },
+          {
+            "value": "0.05",
+            "count": 1377
+          }
+        ],
+        "sample_values": [
+          "51.04",
+          "10.98",
+          "42.05",
+          "25.35",
+          "36.05",
+          "4.84",
+          "81.45",
+          "1.32",
+          "18.7",
+          "23.85",
+          "16.86",
+          "4.37",
+          "9.27",
+          "57.92",
+          "2.98"
+        ]
+      }
+    },
+    {
+      "name": "DR2ISFAT",
+      "type": "DOUBLE PRECISION",
+      "nullable": true,
+      "stats": {
+        "null_count": 774,
+        "distinct_count": 7328,
+        "null_percentage": 0.83,
+        "numeric_stats": {
+          "avg": 1.6832371503138253,
+          "min": 5.397605346934028e-79,
+          "max": 79.939,
+          "stddev": 3.5248165764171837
+        },
+        "frequent_values": [
+          {
+            "value": "5.397605346934028e-79",
+            "count": 20792
+          },
+          {
+            "value": "0.005",
+            "count": 1674
+          },
+          {
+            "value": "0.002",
+            "count": 1463
+          },
+          {
+            "value": "0.006",
+            "count": 1086
+          },
+          {
+            "value": "0.004",
+            "count": 1046
+          }
+        ],
+        "sample_values": [
+          "19.582",
+          "0.473",
+          "7.481",
+          "2.687",
+          "2.287",
+          "0.937",
+          "0.136",
+          "1.119",
+          "4.246",
+          "6.885",
+          "3.588",
+          "2.98",
+          "8.033",
+          "3.27",
+          "2.953"
+        ]
+      }
+    },
+    {
+      "name": "DR2IMFAT",
+      "type": "DOUBLE PRECISION",
+      "nullable": true,
+      "stats": {
+        "null_count": 774,
+        "distinct_count": 7755,
+        "null_percentage": 0.83,
+        "numeric_stats": {
+          "avg": 1.7297629143927988,
+          "min": 5.397605346934028e-79,
+          "max": 90.225,
+          "stddev": 3.54247411022154
+        },
+        "frequent_values": [
+          {
+            "value": "5.397605346934028e-79",
+            "count": 22248
+          },
+          {
+            "value": "0.002",
+            "count": 1616
+          },
+          {
+            "value": "0.001",
+            "count": 1555
+          },
+          {
+            "value": "0.003",
+            "count": 1309
+          },
+          {
+            "value": "0.04",
+            "count": 890
+          }
+        ],
+        "sample_values": [
+          "4.168",
+          "0.473",
+          "4.84",
+          "4.461",
+          "10.958",
+          "2.287",
+          "0.937",
+          "0.136",
+          "1.119",
+          "4.246",
+          "3.588",
+          "8.189",
+          "2.98",
+          "6.309",
+          "8.033"
+        ]
+      }
+    },
+    {
+      "name": "DR2IPFAT",
+      "type": "DOUBLE PRECISION",
+      "nullable": true,
+      "stats": {
+        "null_count": 774,
+        "distinct_count": 6168,
+        "null_percentage": 0.83,
+        "numeric_stats": {
+          "avg": 1.185436166770862,
+          "min": 5.397605346934028e-79,
+          "max": 90.931,
+          "stddev": 2.662923927170012
+        },
+        "frequent_values": [
+          {
+            "value": "5.397605346934028e-79",
+            "count": 20680
+          },
+          {
+            "value": "0.002",
+            "count": 1166
+          },
+          {
+            "value": "0.005",
+            "count": 1149
+          },
+          {
+            "value": "0.003",
+            "count": 900
+          },
+          {
+            "value": "0.092",
+            "count": 864
+          }
+        ],
+        "sample_values": [
+          "2.273",
+          "11.823",
+          "6.013",
+          "2.314",
+          "2.087",
+          "3.495",
+          "6.976",
+          "7.853",
+          "6.205",
+          "1.549",
+          "0.473",
+          "1.154",
+          "4.461",
+          "7.481",
+          "11.283"
+        ]
+      }
+    },
+    {
+      "name": "DR2ICHOL",
+      "type": "DOUBLE PRECISION",
+      "nullable": true,
+      "stats": {
+        "null_count": 774,
+        "distinct_count": 507,
+        "null_percentage": 0.83,
+        "numeric_stats": {
+          "avg": 18.477298708021483,
+          "min": 5.397605346934028e-79,
+          "max": 2319.0,
+          "stddev": 59.41030969877166
+        },
+        "frequent_values": [
+          {
+            "value": "5.397605346934028e-79",
+            "count": 59858
+          },
+          {
+            "value": "1.0",
+            "count": 2004
+          },
+          {
+            "value": "2.0",
+            "count": 1696
+          },
+          {
+            "value": "3.0",
+            "count": 1238
+          },
+          {
+            "value": "6.0",
+            "count": 1228
+          }
+        ],
+        "sample_values": [
+          "154.0",
+          "615.0",
+          "517.0",
+          "96.0",
+          "322.0",
+          "514.0",
+          "61.0",
+          "215.0",
+          "670.0",
+          "235.0",
+          "3.0",
+          "412.0",
+          "436.0",
+          "409.0",
+          "153.0"
+        ]
+      }
+    },
+    {
+      "name": "DR2IATOC",
+      "type": "DOUBLE PRECISION",
+      "nullable": true,
+      "stats": {
+        "null_count": 774,
+        "distinct_count": 972,
+        "null_percentage": 0.83,
+        "numeric_stats": {
+          "avg": 0.5470825874080502,
+          "min": 5.397605346934028e-79,
+          "max": 72.96,
+          "stddev": 1.3435754987561552
+        },
+        "frequent_values": [
+          {
+            "value": "5.397605346934028e-79",
+            "count": 24267
+          },
+          {
+            "value": "0.02",
+            "count": 3252
+          },
+          {
+            "value": "0.03",
+            "count": 2390
+          },
+          {
+            "value": "0.01",
+            "count": 2362
+          },
+          {
+            "value": "0.05",
+            "count": 2245
+          }
+        ],
+        "sample_values": [
+          "5.38",
+          "5.33",
+          "4.84",
+          "4.8",
+          "3.23",
+          "6.68",
+          "1.32",
+          "6.56",
+          "4.28",
+          "4.71",
+          "4.37",
+          "2.98",
+          "2.53",
+          "18.43",
+          "3.25"
+        ]
+      }
+    },
+    {
+      "name": "DR2IATOA",
+      "type": "DOUBLE PRECISION",
+      "nullable": true,
+      "stats": {
+        "null_count": 774,
+        "distinct_count": 391,
+        "null_percentage": 0.83,
+        "numeric_stats": {
+          "avg": 0.06094924832301631,
+          "min": 5.397605346934028e-79,
+          "max": 66.18,
+          "stddev": 0.7199780189506062
+        },
+        "frequent_values": [
+          {
+            "value": "5.397605346934028e-79",
+            "count": 90367
+          },
+          {
+            "value": "1.62",
+            "count": 81
+          },
+          {
+            "value": "0.1",
+            "count": 69
+          },
+          {
+            "value": "1.08",
+            "count": 67
+          },
+          {
+            "value": "1.21",
+            "count": 63
+          }
+        ],
+        "sample_values": [
+          "5.38",
+          "2.36",
+          "1.57",
+          "4.8",
+          "1.28",
+          "8.74",
+          "3.53",
+          "0.87",
+          "4.86",
+          "0.24",
+          "2.97",
+          "3.0",
+          "3.06",
+          "6.55",
+          "4.3"
+        ]
+      }
+    },
+    {
+      "name": "DR2IRET",
+      "type": "DOUBLE PRECISION",
+      "nullable": true,
+      "stats": {
+        "null_count": 774,
+        "distinct_count": 684,
+        "null_percentage": 0.83,
+        "numeric_stats": {
+          "avg": 29.59665034618122,
+          "min": 5.397605346934028e-79,
+          "max": 14484.0,
+          "stddev": 123.7438610483405
+        },
+        "frequent_values": [
+          {
+            "value": "5.397605346934028e-79",
+            "count": 59084
+          },
+          {
+            "value": "2.0",
+            "count": 2239
+          },
+          {
+            "value": "1.0",
+            "count": 1763
+          },
+          {
+            "value": "3.0",
+            "count": 1351
+          },
+          {
+            "value": "4.0",
+            "count": 1100
+          }
+        ],
+        "sample_values": [
+          "154.0",
+          "615.0",
+          "517.0",
+          "96.0",
+          "514.0",
+          "322.0",
+          "61.0",
+          "667.0",
+          "798.0",
+          "215.0",
+          "515.0",
+          "1074.0",
+          "235.0",
+          "607.0",
+          "3.0"
+        ]
+      }
+    },
+    {
+      "name": "DR2IVARA",
+      "type": "DOUBLE PRECISION",
+      "nullable": true,
+      "stats": {
+        "null_count": 774,
+        "distinct_count": 876,
+        "null_percentage": 0.83,
+        "numeric_stats": {
+          "avg": 41.783976446735544,
+          "min": 5.397605346934028e-79,
+          "max": 14514.0,
+          "stddev": 152.6794176045578
+        },
+        "frequent_values": [
+          {
+            "value": "5.397605346934028e-79",
+            "count": 43043
+          },
+          {
+            "value": "1.0",
+            "count": 3616
+          },
+          {
+            "value": "2.0",
+            "count": 3579
+          },
+          {
+            "value": "4.0",
+            "count": 2563
+          },
+          {
+            "value": "3.0",
+            "count": 2052
+          }
+        ],
+        "sample_values": [
+          "120.0",
+          "572.0",
+          "1216.0",
+          "504.0",
+          "374.0",
+          "180.0",
+          "610.0",
+          "40.0",
+          "39.0",
+          "2419.0",
+          "154.0",
+          "615.0",
+          "517.0",
+          "1926.0",
+          "96.0"
+        ]
+      }
+    },
+    {
+      "name": "DR2IACAR",
+      "type": "DOUBLE PRECISION",
+      "nullable": true,
+      "stats": {
+        "null_count": 774,
+        "distinct_count": 850,
+        "null_percentage": 0.83,
+        "numeric_stats": {
+          "avg": 23.96208183249574,
+          "min": 5.397605346934028e-79,
+          "max": 62525.0,
+          "stddev": 342.26129288762814
+        },
+        "frequent_values": [
+          {
+            "value": "5.397605346934028e-79",
+            "count": 77719
+          },
+          {
+            "value": "1.0",
+            "count": 2279
+          },
+          {
+            "value": "2.0",
+            "count": 1185
+          },
+          {
+            "value": "32.0",
+            "count": 894
+          },
+          {
+            "value": "3.0",
+            "count": 732
+          }
+        ],
+        "sample_values": [
+          "120.0",
+          "571.0",
+          "725.0",
+          "1734.0",
+          "504.0",
+          "850.0",
+          "180.0",
+          "374.0",
+          "2434.0",
+          "610.0",
+          "40.0",
+          "39.0",
+          "908.0",
+          "1321.0",
+          "1868.0"
+        ]
+      }
+    },
+    {
+      "name": "DR2IBCAR",
+      "type": "DOUBLE PRECISION",
+      "nullable": true,
+      "stats": {
+        "null_count": 774,
+        "distinct_count": 1992,
+        "null_percentage": 0.83,
+        "numeric_stats": {
+          "avg": 131.18610745637685,
+          "min": 5.397605346934028e-79,
+          "max": 133963.0,
+          "stddev": 953.2231305877207
+        },
+        "frequent_values": [
+          {
+            "value": "5.397605346934028e-79",
+            "count": 48575
+          },
+          {
+            "value": "1.0",
+            "count": 4741
+          },
+          {
+            "value": "2.0",
+            "count": 2694
+          },
+          {
+            "value": "3.0",
+            "count": 1790
+          },
+          {
+            "value": "4.0",
+            "count": 1424
+          }
+        ],
+        "sample_values": [
+          "615.0",
+          "3242.0",
+          "8699.0",
+          "5641.0",
+          "96.0",
+          "61.0",
+          "2504.0",
+          "436.0",
+          "409.0",
+          "759.0",
+          "796.0",
+          "710.0",
+          "1984.0",
+          "454.0",
+          "1880.0"
+        ]
+      }
+    },
+    {
+      "name": "DR2ICRYP",
+      "type": "DOUBLE PRECISION",
+      "nullable": true,
+      "stats": {
+        "null_count": 774,
+        "distinct_count": 308,
+        "null_percentage": 0.83,
+        "numeric_stats": {
+          "avg": 6.000819619092811,
+          "min": 5.397605346934028e-79,
+          "max": 5209.0,
+          "stddev": 61.52932536732918
+        },
+        "frequent_values": [
+          {
+            "value": "5.397605346934028e-79",
+            "count": 75844
+          },
+          {
+            "value": "1.0",
+            "count": 4279
+          },
+          {
+            "value": "2.0",
+            "count": 1255
+          },
+          {
+            "value": "5.0",
+            "count": 1122
+          },
+          {
+            "value": "3.0",
+            "count": 816
+          }
+        ],
+        "sample_values": [
+          "154.0",
+          "346.0",
+          "96.0",
+          "61.0",
+          "248.0",
+          "215.0",
+          "367.0",
+          "235.0",
+          "3.0",
+          "70.0",
+          "156.0",
+          "153.0",
+          "135.0",
+          "318.0",
+          "7.0"
+        ]
+      }
+    },
+    {
+      "name": "DR2ILYCO",
+      "type": "DOUBLE PRECISION",
+      "nullable": true,
+      "stats": {
+        "null_count": 774,
+        "distinct_count": 2190,
+        "null_percentage": 0.83,
+        "numeric_stats": {
+          "avg": 284.03522205206735,
+          "min": 5.397605346934028e-79,
+          "max": 99366.0,
+          "stddev": 2013.18390834286
+        },
+        "frequent_values": [
+          {
+            "value": "5.397605346934028e-79",
+            "count": 84685
+          },
+          {
+            "value": "1.0",
+            "count": 364
+          },
+          {
+            "value": "515.0",
+            "count": 301
+          },
+          {
+            "value": "2051.0",
+            "count": 261
+          },
+          {
+            "value": "2.0",
+            "count": 187
+          }
+        ],
+        "sample_values": [
+          "615.0",
+          "20274.0",
+          "7867.0",
+          "96.0",
+          "4559.0",
+          "12832.0",
+          "4117.0",
+          "2122.0",
+          "33020.0",
+          "436.0",
+          "409.0",
+          "5197.0",
+          "2121.0",
+          "4061.0",
+          "3484.0"
+        ]
+      }
+    },
+    {
+      "name": "DR2ILZ",
+      "type": "DOUBLE PRECISION",
+      "nullable": true,
+      "stats": {
+        "null_count": 774,
+        "distinct_count": 1503,
+        "null_percentage": 0.83,
+        "numeric_stats": {
+          "avg": 92.25325151521687,
+          "min": 5.397605346934028e-79,
+          "max": 67265.0,
+          "stddev": 673.1037602570616
+        },
+        "frequent_values": [
+          {
+            "value": "5.397605346934028e-79",
+            "count": 46731
+          },
+          {
+            "value": "1.0",
+            "count": 3278
+          },
+          {
+            "value": "2.0",
+            "count": 2338
+          },
+          {
+            "value": "3.0",
+            "count": 1564
+          },
+          {
+            "value": "25.0",
+            "count": 1218
+          }
+        ],
+        "sample_values": [
+          "615.0",
+          "1333.0",
+          "96.0",
+          "514.0",
+          "322.0",
+          "61.0",
+          "798.0",
+          "987.0",
+          "2504.0",
+          "2206.0",
+          "436.0",
+          "759.0",
+          "409.0",
+          "796.0",
+          "710.0"
+        ]
+      }
+    },
+    {
+      "name": "DR2IVB1",
+      "type": "DOUBLE PRECISION",
+      "nullable": true,
+      "stats": {
+        "null_count": 774,
+        "distinct_count": 1336,
+        "null_percentage": 0.83,
+        "numeric_stats": {
+          "avg": 0.10341228997261251,
+          "min": 5.397605346934028e-79,
+          "max": 10.962,
+          "stddev": 0.21199292067503564
+        },
+        "frequent_values": [
+          {
+            "value": "5.397605346934028e-79",
+            "count": 22163
+          },
+          {
+            "value": "0.001",
+            "count": 2589
+          },
+          {
+            "value": "0.002",
+            "count": 1690
+          },
+          {
+            "value": "0.004",
+            "count": 1469
+          },
+          {
+            "value": "0.007",
+            "count": 1412
+          }
+        ],
+        "sample_values": [
+          "0.945",
+          "0.365",
+          "0.473",
+          "1.082",
+          "1.241",
+          "0.884",
+          "0.042",
+          "3.23",
+          "0.282",
+          "0.376",
+          "0.783",
+          "0.596",
+          "0.937",
+          "0.136",
+          "1.444"
+        ]
+      }
+    },
+    {
+      "name": "DR2IVB2",
+      "type": "DOUBLE PRECISION",
+      "nullable": true,
+      "stats": {
+        "null_count": 774,
+        "distinct_count": 1386,
+        "null_percentage": 0.83,
+        "numeric_stats": {
+          "avg": 0.12657963246555487,
+          "min": 5.397605346934028e-79,
+          "max": 11.904,
+          "stddev": 0.2462342687108332
+        },
+        "frequent_values": [
+          {
+            "value": "5.397605346934028e-79",
+            "count": 18356
+          },
+          {
+            "value": "0.002",
+            "count": 1895
+          },
+          {
+            "value": "0.003",
+            "count": 1894
+          },
+          {
+            "value": "0.004",
+            "count": 1764
+          },
+          {
+            "value": "0.001",
+            "count": 1505
+          }
+        ],
+        "sample_values": [
+          "0.945",
+          "0.473",
+          "0.365",
+          "0.871",
+          "4.457",
+          "1.082",
+          "1.241",
+          "1.154",
+          "0.884",
+          "0.042",
+          "2.736",
+          "1.157",
+          "0.282",
+          "0.376",
+          "2.126"
+        ]
+      }
+    },
+    {
+      "name": "DR2INIAC",
+      "type": "DOUBLE PRECISION",
+      "nullable": true,
+      "stats": {
+        "null_count": 774,
+        "distinct_count": 7151,
+        "null_percentage": 0.83,
+        "numeric_stats": {
+          "avg": 1.5668906779112723,
+          "min": 5.397605346934028e-79,
+          "max": 100.787,
+          "stddev": 3.4834509276006496
+        },
+        "frequent_values": [
+          {
+            "value": "5.397605346934028e-79",
+            "count": 20121
+          },
+          {
+            "value": "0.838",
+            "count": 830
+          },
+          {
+            "value": "0.001",
+            "count": 754
+          },
+          {
+            "value": "0.002",
+            "count": 641
+          },
+          {
+            "value": "0.028",
+            "count": 544
+          }
+        ],
+        "sample_values": [
+          "0.473",
+          "9.566",
+          "4.84",
+          "4.461",
+          "2.687",
+          "9.686",
+          "2.287",
+          "26.64",
+          "0.937",
+          "0.136",
+          "1.119",
+          "6.113",
+          "4.246",
+          "6.885",
+          "3.588"
+        ]
+      }
+    },
+    {
+      "name": "DR2IVB6",
+      "type": "DOUBLE PRECISION",
+      "nullable": true,
+      "stats": {
+        "null_count": 774,
+        "distinct_count": 1567,
+        "null_percentage": 0.83,
+        "numeric_stats": {
+          "avg": 0.13041891163212888,
+          "min": 5.397605346934028e-79,
+          "max": 16.527,
+          "stddev": 0.3390105122046229
+        },
+        "frequent_values": [
+          {
+            "value": "5.397605346934028e-79",
+            "count": 22645
+          },
+          {
+            "value": "0.001",
+            "count": 1915
+          },
+          {
+            "value": "0.002",
+            "count": 1655
+          },
+          {
+            "value": "0.005",
+            "count": 1351
+          },
+          {
+            "value": "0.003",
+            "count": 1310
+          }
+        ],
+        "sample_values": [
+          "0.821",
+          "0.8",
+          "0.598",
+          "0.431",
+          "1.263",
+          "0.473",
+          "1.766",
+          "0.945",
+          "0.365",
+          "0.871",
+          "1.082",
+          "3.618",
+          "0.884",
+          "1.154",
+          "0.042"
+        ]
+      }
+    },
+    {
+      "name": "DR2IFOLA",
+      "type": "DOUBLE PRECISION",
+      "nullable": true,
+      "stats": {
+        "null_count": 774,
+        "distinct_count": 561,
+        "null_percentage": 0.83,
+        "numeric_stats": {
+          "avg": 24.561449863037335,
+          "min": 5.397605346934028e-79,
+          "max": 2853.0,
+          "stddev": 60.6243663220595
+        },
+        "frequent_values": [
+          {
+            "value": "5.397605346934028e-79",
+            "count": 29800
+          },
+          {
+            "value": "1.0",
+            "count": 5273
+          },
+          {
+            "value": "2.0",
+            "count": 4150
+          },
+          {
+            "value": "3.0",
+            "count": 3521
+          },
+          {
+            "value": "5.0",
+            "count": 3075
+          }
+        ],
+        "sample_values": [
+          "154.0",
+          "615.0",
+          "517.0",
+          "96.0",
+          "322.0",
+          "61.0",
+          "215.0",
+          "515.0",
+          "235.0",
+          "607.0",
+          "3.0",
+          "412.0",
+          "153.0",
+          "135.0",
+          "7.0"
+        ]
+      }
+    },
+    {
+      "name": "DR2IFA",
+      "type": "DOUBLE PRECISION",
+      "nullable": true,
+      "stats": {
+        "null_count": 774,
+        "distinct_count": 449,
+        "null_percentage": 0.83,
+        "numeric_stats": {
+          "avg": 12.140510752108362,
+          "min": 5.397605346934028e-79,
+          "max": 2819.0,
+          "stddev": 50.058170344952835
+        },
+        "frequent_values": [
+          {
+            "value": "5.397605346934028e-79",
+            "count": 72773
+          },
+          {
+            "value": "9.0",
+            "count": 590
+          },
+          {
+            "value": "48.0",
+            "count": 572
+          },
+          {
+            "value": "6.0",
+            "count": 528
+          },
+          {
+            "value": "24.0",
+            "count": 486
+          }
+        ],
+        "sample_values": [
+          "725.0",
+          "180.0",
+          "40.0",
+          "39.0",
+          "68.0",
+          "683.0",
+          "519.0",
+          "472.0",
+          "154.0",
+          "346.0",
+          "174.0",
+          "544.0",
+          "517.0",
+          "96.0",
+          "61.0"
+        ]
+      }
+    },
+    {
+      "name": "DR2IFF",
+      "type": "DOUBLE PRECISION",
+      "nullable": true,
+      "stats": {
+        "null_count": 774,
+        "distinct_count": 344,
+        "null_percentage": 0.83,
+        "numeric_stats": {
+          "avg": 12.444416884153313,
+          "min": 5.397605346934028e-79,
+          "max": 1319.0,
+          "stddev": 28.761210626769422
+        },
+        "frequent_values": [
+          {
+            "value": "5.397605346934028e-79",
+            "count": 31347
+          },
+          {
+            "value": "1.0",
+            "count": 6028
+          },
+          {
+            "value": "2.0",
+            "count": 4936
+          },
+          {
+            "value": "3.0",
+            "count": 4139
+          },
+          {
+            "value": "5.0",
+            "count": 3810
+          }
+        ],
+        "sample_values": [
+          "519.0",
+          "154.0",
+          "615.0",
+          "174.0",
+          "517.0",
+          "96.0",
+          "322.0",
+          "61.0",
+          "215.0",
+          "235.0",
+          "3.0",
+          "70.0",
+          "156.0",
+          "153.0",
+          "284.0"
+        ]
+      }
+    },
+    {
+      "name": "DR2IFDFE",
+      "type": "DOUBLE PRECISION",
+      "nullable": true,
+      "stats": {
+        "null_count": 774,
+        "distinct_count": 719,
+        "null_percentage": 0.83,
+        "numeric_stats": {
+          "avg": 33.04044173155318,
+          "min": 5.397605346934028e-79,
+          "max": 4825.0,
+          "stddev": 92.99744989609778
+        },
+        "frequent_values": [
+          {
+            "value": "5.397605346934028e-79",
+            "count": 29751
+          },
+          {
+            "value": "1.0",
+            "count": 5282
+          },
+          {
+            "value": "2.0",
+            "count": 4131
+          },
+          {
+            "value": "3.0",
+            "count": 3461
+          },
+          {
+            "value": "5.0",
+            "count": 3049
+          }
+        ],
+        "sample_values": [
+          "154.0",
+          "615.0",
+          "517.0",
+          "1640.0",
+          "96.0",
+          "514.0",
+          "322.0",
+          "61.0",
+          "215.0",
+          "987.0",
+          "235.0",
+          "607.0",
+          "1344.0",
+          "3.0",
+          "412.0"
+        ]
+      }
+    },
+    {
+      "name": "DR2ICHL",
+      "type": "DOUBLE PRECISION",
+      "nullable": true,
+      "stats": {
+        "null_count": 774,
+        "distinct_count": 2118,
+        "null_percentage": 0.83,
+        "numeric_stats": {
+          "avg": 20.05008304035622,
+          "min": 5.397605346934028e-79,
+          "max": 877.8,
+          "stddev": 43.115458917590736
+        },
+        "frequent_values": [
+          {
+            "value": "5.397605346934028e-79",
+            "count": 18539
+          },
+          {
+            "value": "1.1",
+            "count": 1170
+          },
+          {
+            "value": "0.9",
+            "count": 996
+          },
+          {
+            "value": "12.3",
+            "count": 905
+          },
+          {
+            "value": "0.8",
+            "count": 876
+          }
+        ],
+        "sample_values": [
+          "14.1",
+          "60.5",
+          "79.2",
+          "132.7",
+          "96.0",
+          "4.8",
+          "61.0",
+          "166.5",
+          "94.9",
+          "27.7",
+          "18.7",
+          "29.7",
+          "283.4",
+          "79.8",
+          "133.2"
+        ]
+      }
+    },
+    {
+      "name": "DR2IVB12",
+      "type": "DOUBLE PRECISION",
+      "nullable": true,
+      "stats": {
+        "null_count": 774,
+        "distinct_count": 786,
+        "null_percentage": 0.83,
+        "numeric_stats": {
+          "avg": 0.30880119923213417,
+          "min": 5.397605346934028e-79,
+          "max": 155.81,
+          "stddev": 1.3848623251618912
+        },
+        "frequent_values": [
+          {
+            "value": "5.397605346934028e-79",
+            "count": 57280
+          },
+          {
+            "value": "0.01",
+            "count": 1959
+          },
+          {
+            "value": "0.02",
+            "count": 1572
+          },
+          {
+            "value": "0.03",
+            "count": 1173
+          },
+          {
+            "value": "0.06",
+            "count": 771
+          }
+        ],
+        "sample_values": [
+          "5.38",
+          "12.75",
+          "5.64",
+          "4.8",
+          "3.23",
+          "2.74",
+          "0.87",
+          "1.86",
+          "3.0",
+          "3.06",
+          "6.68",
+          "1.32",
+          "18.7",
+          "4.3",
+          "6.56"
+        ]
+      }
+    },
+    {
+      "name": "DR2IB12A",
+      "type": "DOUBLE PRECISION",
+      "nullable": true,
+      "stats": {
+        "null_count": 774,
+        "distinct_count": 495,
+        "null_percentage": 0.83,
+        "numeric_stats": {
+          "avg": 0.07077152039341707,
+          "min": 5.397605346934028e-79,
+          "max": 49.6,
+          "stddev": 0.6237879744781875
+        },
+        "frequent_values": [
+          {
+            "value": "5.397605346934028e-79",
+            "count": 89289
+          },
+          {
+            "value": "0.24",
+            "count": 99
+          },
+          {
+            "value": "0.3",
+            "count": 95
+          },
+          {
+            "value": "0.2",
+            "count": 90
+          },
+          {
+            "value": "0.36",
+            "count": 72
+          }
+        ],
+        "sample_values": [
+          "12.75",
+          "5.64",
+          "2.74",
+          "1.86",
+          "0.87",
+          "3.0",
+          "1.32",
+          "3.06",
+          "6.68",
+          "18.7",
+          "5.34",
+          "0.14",
+          "1.5",
+          "4.37",
+          "2.53"
+        ]
+      }
+    },
+    {
+      "name": "DR2IVC",
+      "type": "DOUBLE PRECISION",
+      "nullable": true,
+      "stats": {
+        "null_count": 774,
+        "distinct_count": 1089,
+        "null_percentage": 0.83,
+        "numeric_stats": {
+          "avg": 5.335673921014468,
+          "min": 5.397605346934028e-79,
+          "max": 711.2,
+          "stddev": 18.363462640328716
+        },
+        "frequent_values": [
+          {
+            "value": "5.397605346934028e-79",
+            "count": 51251
+          },
+          {
+            "value": "0.1",
+            "count": 3756
+          },
+          {
+            "value": "0.2",
+            "count": 2224
+          },
+          {
+            "value": "0.3",
+            "count": 1747
+          },
+          {
+            "value": "0.4",
+            "count": 1432
+          }
+        ],
+        "sample_values": [
+          "14.1",
+          "60.5",
+          "44.6",
+          "96.0",
+          "76.1",
+          "4.8",
+          "61.0",
+          "166.5",
+          "62.7",
+          "104.9",
+          "27.7",
+          "18.7",
+          "100.6",
+          "29.7",
+          "181.3"
+        ]
+      }
+    },
+    {
+      "name": "DR2IVD",
+      "type": "DOUBLE PRECISION",
+      "nullable": true,
+      "stats": {
+        "null_count": 774,
+        "distinct_count": 188,
+        "null_percentage": 0.83,
+        "numeric_stats": {
+          "avg": 0.32697409572286856,
+          "min": 5.397605346934028e-79,
+          "max": 90.3,
+          "stddev": 1.2856290202865326
+        },
+        "frequent_values": [
+          {
+            "value": "5.397605346934028e-79",
+            "count": 68684
+          },
+          {
+            "value": "0.1",
+            "count": 4789
+          },
+          {
+            "value": "0.2",
+            "count": 2656
+          },
+          {
+            "value": "0.3",
+            "count": 1749
+          },
+          {
+            "value": "0.5",
+            "count": 1129
+          }
+        ],
+        "sample_values": [
+          "12.4",
+          "16.7",
+          "46.8",
+          "0.9",
+          "14.7",
+          "5.8",
+          "1.6",
+          "4.8",
+          "6.2",
+          "22.9",
+          "22.5",
+          "7.7",
+          "16.3",
+          "0.4",
+          "13.4"
+        ]
+      }
+    },
+    {
+      "name": "DR2IVK",
+      "type": "DOUBLE PRECISION",
+      "nullable": true,
+      "stats": {
+        "null_count": 774,
+        "distinct_count": 1333,
+        "null_percentage": 0.83,
+        "numeric_stats": {
+          "avg": 7.038456312144962,
+          "min": 5.397605346934028e-79,
+          "max": 2318.1,
+          "stddev": 33.34338086636113
+        },
+        "frequent_values": [
+          {
+            "value": "5.397605346934028e-79",
+            "count": 31113
+          },
+          {
+            "value": "0.1",
+            "count": 4336
+          },
+          {
+            "value": "0.2",
+            "count": 4230
+          },
+          {
+            "value": "0.3",
+            "count": 3080
+          },
+          {
+            "value": "0.5",
+            "count": 2783
+          }
+        ],
+        "sample_values": [
+          "14.1",
+          "60.5",
+          "211.7",
+          "79.2",
+          "299.7",
+          "44.6",
+          "474.9",
+          "132.7",
+          "4.8",
+          "514.0",
+          "61.0",
+          "166.5",
+          "104.9",
+          "42.6",
+          "27.7"
+        ]
+      }
+    },
+    {
+      "name": "DR2ICALC",
+      "type": "DOUBLE PRECISION",
+      "nullable": true,
+      "stats": {
+        "null_count": 774,
+        "distinct_count": 904,
+        "null_percentage": 0.83,
+        "numeric_stats": {
+          "avg": 61.958080797187414,
+          "min": 5.397605346934028e-79,
+          "max": 2856.0,
+          "stddev": 122.37712416259575
+        },
+        "frequent_values": [
+          {
+            "value": "5.397605346934028e-79",
+            "count": 5549
+          },
+          {
+            "value": "2.0",
+            "count": 4409
+          },
+          {
+            "value": "1.0",
+            "count": 4251
+          },
+          {
+            "value": "4.0",
+            "count": 3732
+          },
+          {
+            "value": "5.0",
+            "count": 3707
+          }
+        ],
+        "sample_values": [
+          "908.0",
+          "1868.0",
+          "154.0",
+          "615.0",
+          "96.0",
+          "514.0",
+          "61.0",
+          "322.0",
+          "215.0",
+          "515.0",
+          "987.0",
+          "670.0",
+          "235.0",
+          "3.0",
+          "412.0"
+        ]
+      }
+    },
+    {
+      "name": "DR2IPHOS",
+      "type": "DOUBLE PRECISION",
+      "nullable": true,
+      "stats": {
+        "null_count": 774,
+        "distinct_count": 1044,
+        "null_percentage": 0.83,
+        "numeric_stats": {
+          "avg": 84.79761879084614,
+          "min": 5.397605346934028e-79,
+          "max": 2597.0,
+          "stddev": 140.02997638150578
+        },
+        "frequent_values": [
+          {
+            "value": "5.397605346934028e-79",
+            "count": 17535
+          },
+          {
+            "value": "2.0",
+            "count": 2453
+          },
+          {
+            "value": "1.0",
+            "count": 2167
+          },
+          {
+            "value": "4.0",
+            "count": 1988
+          },
+          {
+            "value": "3.0",
+            "count": 1919
+          }
+        ],
+        "sample_values": [
+          "1540.0",
+          "615.0",
+          "96.0",
+          "322.0",
+          "514.0",
+          "61.0",
+          "987.0",
+          "670.0",
+          "607.0",
+          "436.0",
+          "759.0",
+          "409.0",
+          "796.0",
+          "710.0",
+          "454.0"
+        ]
+      }
+    },
+    {
+      "name": "DR2IMAGN",
+      "type": "DOUBLE PRECISION",
+      "nullable": true,
+      "stats": {
+        "null_count": 774,
+        "distinct_count": 317,
+        "null_percentage": 0.83,
+        "numeric_stats": {
+          "avg": 17.843679226969783,
+          "min": 5.397605346934028e-79,
+          "max": 886.0,
+          "stddev": 26.696070384225255
+        },
+        "frequent_values": [
+          {
+            "value": "5.397605346934028e-79",
+            "count": 8534
+          },
+          {
+            "value": "2.0",
+            "count": 6887
+          },
+          {
+            "value": "1.0",
+            "count": 5458
+          },
+          {
+            "value": "5.0",
+            "count": 4880
+          },
+          {
+            "value": "10.0",
+            "count": 4376
+          }
+        ],
+        "sample_values": [
+          "154.0",
+          "346.0",
+          "642.0",
+          "96.0",
+          "514.0",
+          "61.0",
+          "215.0",
+          "342.0",
+          "3.0",
+          "70.0",
+          "156.0",
+          "153.0",
+          "135.0",
+          "318.0",
+          "7.0"
+        ]
+      }
+    },
+    {
+      "name": "DR2IIRON",
+      "type": "DOUBLE PRECISION",
+      "nullable": true,
+      "stats": {
+        "null_count": 774,
+        "distinct_count": 1308,
+        "null_percentage": 0.83,
+        "numeric_stats": {
+          "avg": 0.9353975152599985,
+          "min": 5.397605346934028e-79,
+          "max": 59.23,
+          "stddev": 2.162808005977614
+        },
+        "frequent_values": [
+          {
+            "value": "5.397605346934028e-79",
+            "count": 20079
+          },
+          {
+            "value": "0.03",
+            "count": 2661
+          },
+          {
+            "value": "0.02",
+            "count": 2370
+          },
+          {
+            "value": "0.01",
+            "count": 2284
+          },
+          {
+            "value": "0.05",
+            "count": 2077
+          }
+        ],
+        "sample_values": [
+          "5.38",
+          "10.98",
+          "5.33",
+          "4.84",
+          "4.8",
+          "3.23",
+          "11.42",
+          "49.16",
+          "20.47",
+          "17.97",
+          "6.65",
+          "6.68",
+          "1.32",
+          "6.56",
+          "24.28"
+        ]
+      }
+    },
+    {
+      "name": "DR2IZINC",
+      "type": "DOUBLE PRECISION",
+      "nullable": true,
+      "stats": {
+        "null_count": 774,
+        "distinct_count": 1073,
+        "null_percentage": 0.83,
+        "numeric_stats": {
+          "avg": 0.6732917412591766,
+          "min": 5.397605346934028e-79,
+          "max": 91.79,
+          "stddev": 1.5075868038056948
+        },
+        "frequent_values": [
+          {
+            "value": "5.397605346934028e-79",
+            "count": 10677
+          },
+          {
+            "value": "0.02",
+            "count": 5106
+          },
+          {
+            "value": "0.01",
+            "count": 4025
+          },
+          {
+            "value": "0.03",
+            "count": 3951
+          },
+          {
+            "value": "0.05",
+            "count": 3743
+          }
+        ],
+        "sample_values": [
+          "5.38",
+          "10.98",
+          "5.33",
+          "4.84",
+          "4.8",
+          "3.23",
+          "11.42",
+          "6.65",
+          "1.32",
+          "6.56",
+          "34.44",
+          "4.28",
+          "4.71",
+          "4.37",
+          "2.98"
+        ]
+      }
+    },
+    {
+      "name": "DR2ICOPP",
+      "type": "DOUBLE PRECISION",
+      "nullable": true,
+      "stats": {
+        "null_count": 774,
+        "distinct_count": 945,
+        "null_percentage": 0.83,
+        "numeric_stats": {
+          "avg": 0.07085770981171005,
+          "min": 5.397605346934028e-79,
+          "max": 27.341,
+          "stddev": 0.21012928205090922
+        },
+        "frequent_values": [
+          {
+            "value": "5.397605346934028e-79",
+            "count": 3906
+          },
+          {
+            "value": "0.002",
+            "count": 3442
+          },
+          {
+            "value": "0.001",
+            "count": 3047
+          },
+          {
+            "value": "0.003",
+            "count": 2208
+          },
+          {
+            "value": "0.004",
+            "count": 2188
+          }
+        ],
+        "sample_values": [
+          "0.473",
+          "0.365",
+          "1.082",
+          "0.042",
+          "0.282",
+          "0.376",
+          "0.783",
+          "0.596",
+          "0.937",
+          "0.136",
+          "0.651",
+          "0.801",
+          "0.264",
+          "0.471",
+          "1.955"
+        ]
+      }
+    },
+    {
+      "name": "DR2ISODI",
+      "type": "DOUBLE PRECISION",
+      "nullable": true,
+      "stats": {
+        "null_count": 774,
+        "distinct_count": 2167,
+        "null_percentage": 0.83,
+        "numeric_stats": {
+          "avg": 202.9236028729806,
+          "min": 5.397605346934028e-79,
+          "max": 7671.0,
+          "stddev": 374.7524702716237
+        },
+        "frequent_values": [
+          {
+            "value": "5.397605346934028e-79",
+            "count": 4422
+          },
+          {
+            "value": "1.0",
+            "count": 4323
+          },
+          {
+            "value": "10.0",
+            "count": 4141
+          },
+          {
+            "value": "2.0",
+            "count": 3801
+          },
+          {
+            "value": "5.0",
+            "count": 3385
+          }
+        ],
+        "sample_values": [
+          "1860.0",
+          "615.0",
+          "1333.0",
+          "96.0",
+          "61.0",
+          "2122.0",
+          "987.0",
+          "2504.0",
+          "436.0",
+          "759.0",
+          "409.0",
+          "2121.0",
+          "1337.0",
+          "1915.0",
+          "796.0"
+        ]
+      }
+    },
+    {
+      "name": "DR2IPOTA",
+      "type": "DOUBLE PRECISION",
+      "nullable": true,
+      "stats": {
+        "null_count": 774,
+        "distinct_count": 1516,
+        "null_percentage": 0.83,
+        "numeric_stats": {
+          "avg": 159.43925112697625,
+          "min": 5.397605346934028e-79,
+          "max": 5305.0,
+          "stddev": 232.51828714327507
+        },
+        "frequent_values": [
+          {
+            "value": "5.397605346934028e-79",
+            "count": 14705
+          },
+          {
+            "value": "1.0",
+            "count": 1160
+          },
+          {
+            "value": "3.0",
+            "count": 1116
+          },
+          {
+            "value": "2.0",
+            "count": 986
+          },
+          {
+            "value": "451.0",
+            "count": 862
+          }
+        ],
+        "sample_values": [
+          "1540.0",
+          "1860.0",
+          "615.0",
+          "1333.0",
+          "96.0",
+          "61.0",
+          "514.0",
+          "322.0",
+          "798.0",
+          "2122.0",
+          "987.0",
+          "670.0",
+          "1344.0",
+          "607.0",
+          "436.0"
+        ]
+      }
+    },
+    {
+      "name": "DR2ISELE",
+      "type": "DOUBLE PRECISION",
+      "nullable": true,
+      "stats": {
+        "null_count": 774,
+        "distinct_count": 1139,
+        "null_percentage": 0.83,
+        "numeric_stats": {
+          "avg": 6.865131678277218,
+          "min": 5.397605346934028e-79,
+          "max": 323.2,
+          "stddev": 15.306346653266512
+        },
+        "frequent_values": [
+          {
+            "value": "5.397605346934028e-79",
+            "count": 26149
+          },
+          {
+            "value": "0.1",
+            "count": 6666
+          },
+          {
+            "value": "0.2",
+            "count": 5052
+          },
+          {
+            "value": "0.3",
+            "count": 3160
+          },
+          {
+            "value": "0.4",
+            "count": 2174
+          }
+        ],
+        "sample_values": [
+          "121.7",
+          "14.1",
+          "60.5",
+          "79.2",
+          "44.6",
+          "76.1",
+          "4.8",
+          "61.0",
+          "62.7",
+          "94.9",
+          "104.9",
+          "42.6",
+          "27.7",
+          "18.7",
+          "100.6"
+        ]
+      }
+    },
+    {
+      "name": "DR2ICAFF",
+      "type": "DOUBLE PRECISION",
+      "nullable": true,
+      "stats": {
+        "null_count": 774,
+        "distinct_count": 270,
+        "null_percentage": 0.83,
+        "numeric_stats": {
+          "avg": 6.218288290231435,
+          "min": 5.397605346934028e-79,
+          "max": 2880.0,
+          "stddev": 38.24090241750597
+        },
+        "frequent_values": [
+          {
+            "value": "5.397605346934028e-79",
+            "count": 83355
+          },
+          {
+            "value": "2.0",
+            "count": 941
+          },
+          {
+            "value": "1.0",
+            "count": 816
+          },
+          {
+            "value": "96.0",
+            "count": 412
+          },
+          {
+            "value": "3.0",
+            "count": 395
+          }
+        ],
+        "sample_values": [
+          "154.0",
+          "174.0",
+          "96.0",
+          "61.0",
+          "667.0",
+          "215.0",
+          "3.0",
+          "70.0",
+          "156.0",
+          "153.0",
+          "135.0",
+          "318.0",
+          "7.0",
+          "648.0",
+          "276.0"
+        ]
+      }
+    },
+    {
+      "name": "DR2ITHEO",
+      "type": "DOUBLE PRECISION",
+      "nullable": true,
+      "stats": {
+        "null_count": 774,
+        "distinct_count": 249,
+        "null_percentage": 0.83,
+        "numeric_stats": {
+          "avg": 2.165757177059293,
+          "min": 5.397605346934028e-79,
+          "max": 900.0,
+          "stddev": 16.5473075461897
+        },
+        "frequent_values": [
+          {
+            "value": "5.397605346934028e-79",
+            "count": 88239
+          },
+          {
+            "value": "5.0",
+            "count": 324
+          },
+          {
+            "value": "4.0",
+            "count": 171
+          },
+          {
+            "value": "2.0",
+            "count": 153
+          },
+          {
+            "value": "30.0",
+            "count": 150
+          }
+        ],
+        "sample_values": [
+          "154.0",
+          "96.0",
+          "61.0",
+          "215.0",
+          "367.0",
+          "3.0",
+          "412.0",
+          "70.0",
+          "153.0",
+          "135.0",
+          "284.0",
+          "7.0",
+          "80.0",
+          "33.0",
+          "71.0"
+        ]
+      }
+    },
+    {
+      "name": "DR2IALCO",
+      "type": "DOUBLE PRECISION",
+      "nullable": true,
+      "stats": {
+        "null_count": 774,
+        "distinct_count": 214,
+        "null_percentage": 0.83,
+        "numeric_stats": {
+          "avg": 0.25180100511183495,
+          "min": 5.397605346934028e-79,
+          "max": 443.5,
+          "stddev": 4.157087733325211
+        },
+        "frequent_values": [
+          {
+            "value": "5.397605346934028e-79",
+            "count": 91963
+          },
+          {
+            "value": "14.0",
+            "count": 60
+          },
+          {
+            "value": "28.1",
+            "count": 45
+          },
+          {
+            "value": "11.2",
+            "count": 32
+          },
+          {
+            "value": "22.3",
+            "count": 29
+          }
+        ],
+        "sample_values": [
+          "13.5",
+          "63.1",
+          "111.6",
+          "168.5",
+          "38.2",
+          "56.9",
+          "29.2",
+          "9.4",
+          "55.6",
+          "149.6",
+          "5.4",
+          "10.7",
+          "43.4",
+          "28.1",
+          "37.4"
+        ]
+      }
+    },
+    {
+      "name": "DR2IMOIS",
+      "type": "DOUBLE PRECISION",
+      "nullable": true,
+      "stats": {
+        "null_count": 774,
+        "distinct_count": 14017,
+        "null_percentage": 0.83,
+        "numeric_stats": {
+          "avg": 155.06026713112286,
+          "min": 5.397605346934028e-79,
+          "max": 9590.4,
+          "stddev": 305.67559612660403
+        },
+        "frequent_values": [
+          {
+            "value": "5.397605346934028e-79",
+            "count": 1275
+          },
+          {
+            "value": "239.76",
+            "count": 1093
+          },
+          {
+            "value": "479.9",
+            "count": 960
+          },
+          {
+            "value": "506.9",
+            "count": 908
+          },
+          {
+            "value": "239.95",
+            "count": 844
+          }
+        ],
+        "sample_values": [
+          "135.31",
+          "51.04",
+          "190.21",
+          "52.98",
+          "389.78",
+          "25.35",
+          "36.05",
+          "4.84",
+          "314.62",
+          "74.94",
+          "81.05",
+          "1014.25",
+          "281.15",
+          "230.79",
+          "92.51"
+        ]
+      }
+    },
+    {
+      "name": "DR2IS040",
+      "type": "DOUBLE PRECISION",
+      "nullable": true,
+      "stats": {
+        "null_count": 774,
+        "distinct_count": 826,
+        "null_percentage": 0.83,
+        "numeric_stats": {
+          "avg": 0.03008352565623466,
+          "min": 5.397605346934028e-79,
+          "max": 3.809,
+          "stddev": 0.10509704886518144
+        },
+        "frequent_values": [
+          {
+            "value": "5.397605346934028e-79",
+            "count": 65561
+          },
+          {
+            "value": "0.001",
+            "count": 2740
+          },
+          {
+            "value": "0.002",
+            "count": 2383
+          },
+          {
+            "value": "0.004",
+            "count": 1155
+          },
+          {
+            "value": "0.003",
+            "count": 1048
+          }
+        ],
+        "sample_values": [
+          "0.804",
+          "0.678",
+          "0.431",
+          "0.598",
+          "0.349",
+          "0.427",
+          "0.473",
+          "0.365",
+          "0.316",
+          "0.447",
+          "0.042",
+          "0.563",
+          "0.016",
+          "0.282",
+          "0.376"
+        ]
+      }
+    },
+    {
+      "name": "DR2IS060",
+      "type": "DOUBLE PRECISION",
+      "nullable": true,
+      "stats": {
+        "null_count": 774,
+        "distinct_count": 625,
+        "null_percentage": 0.83,
+        "numeric_stats": {
+          "avg": 0.020176994586199003,
+          "min": 5.397605346934028e-79,
+          "max": 1.991,
+          "stddev": 0.06843180735923086
+        },
+        "frequent_values": [
+          {
+            "value": "5.397605346934028e-79",
+            "count": 68601
+          },
+          {
+            "value": "0.001",
+            "count": 2376
+          },
+          {
+            "value": "0.002",
+            "count": 1136
+          },
+          {
+            "value": "0.003",
+            "count": 644
+          },
+          {
+            "value": "0.005",
+            "count": 533
+          }
+        ],
+        "sample_values": [
+          "0.349",
+          "0.473",
+          "0.365",
+          "0.871",
+          "0.447",
+          "0.042",
+          "0.658",
+          "0.016",
+          "0.282",
+          "0.376",
+          "0.105",
+          "0.114",
+          "0.276",
+          "0.136",
+          "0.264"
+        ]
+      }
+    },
+    {
+      "name": "DR2IS080",
+      "type": "DOUBLE PRECISION",
+      "nullable": true,
+      "stats": {
+        "null_count": 774,
+        "distinct_count": 566,
+        "null_percentage": 0.83,
+        "numeric_stats": {
+          "avg": 0.02109356599011966,
+          "min": 5.397605346934028e-79,
+          "max": 3.43,
+          "stddev": 0.09828184232518623
+        },
+        "frequent_values": [
+          {
+            "value": "5.397605346934028e-79",
+            "count": 60118
+          },
+          {
+            "value": "0.001",
+            "count": 3746
+          },
+          {
+            "value": "0.002",
+            "count": 2518
+          },
+          {
+            "value": "0.003",
+            "count": 1904
+          },
+          {
+            "value": "0.004",
+            "count": 1570
+          }
+        ],
+        "sample_values": [
+          "2.091",
+          "0.065",
+          "0.013",
+          "0.387",
+          "0.02",
+          "0.94",
+          "0.8",
+          "0.431",
+          "0.427",
+          "0.349",
+          "2.819",
+          "0.945",
+          "0.365",
+          "0.473",
+          "0.316"
+        ]
+      }
+    },
+    {
+      "name": "DR2IS100",
+      "type": "DOUBLE PRECISION",
+      "nullable": true,
+      "stats": {
+        "null_count": 774,
+        "distinct_count": 855,
+        "null_percentage": 0.83,
+        "numeric_stats": {
+          "avg": 0.036350495006797066,
+          "min": 5.397605346934028e-79,
+          "max": 2.472,
+          "stddev": 0.11431131672042161
+        },
+        "frequent_values": [
+          {
+            "value": "5.397605346934028e-79",
+            "count": 53090
+          },
+          {
+            "value": "0.001",
+            "count": 4475
+          },
+          {
+            "value": "0.003",
+            "count": 2949
+          },
+          {
+            "value": "0.002",
+            "count": 2489
+          },
+          {
+            "value": "0.005",
+            "count": 1256
+          }
+        ],
+        "sample_values": [
+          "0.743",
+          "1.458",
+          "0.443",
+          "0.065",
+          "0.013",
+          "0.975",
+          "0.387",
+          "0.02",
+          "0.804",
+          "1.042",
+          "0.8",
+          "0.821",
+          "0.431",
+          "0.427",
+          "0.349"
+        ]
+      }
+    },
+    {
+      "name": "DR2IS120",
+      "type": "DOUBLE PRECISION",
+      "nullable": true,
+      "stats": {
+        "null_count": 774,
+        "distinct_count": 1201,
+        "null_percentage": 0.83,
+        "numeric_stats": {
+          "avg": 0.06332234756163944,
+          "min": 5.397605346934028e-79,
+          "max": 18.016,
+          "stddev": 0.3132862555710017
+        },
+        "frequent_values": [
+          {
+            "value": "5.397605346934028e-79",
+            "count": 51693
+          },
+          {
+            "value": "0.001",
+            "count": 3582
+          },
+          {
+            "value": "0.003",
+            "count": 2709
+          },
+          {
+            "value": "0.002",
+            "count": 2523
+          },
+          {
+            "value": "0.004",
+            "count": 1973
+          }
+        ],
+        "sample_values": [
+          "1.549",
+          "0.365",
+          "0.473",
+          "4.457",
+          "0.042",
+          "2.384",
+          "1.157",
+          "0.282",
+          "0.376",
+          "0.783",
+          "1.32",
+          "0.596",
+          "0.937",
+          "0.136",
+          "0.801"
+        ]
+      }
+    },
+    {
+      "name": "DR2IS140",
+      "type": "DOUBLE PRECISION",
+      "nullable": true,
+      "stats": {
+        "null_count": 774,
+        "distinct_count": 2029,
+        "null_percentage": 0.83,
+        "numeric_stats": {
+          "avg": 0.14476132907708708,
+          "min": 5.397605346934028e-79,
+          "max": 13.243,
+          "stddev": 0.42165255308620686
+        },
+        "frequent_values": [
+          {
+            "value": "5.397605346934028e-79",
+            "count": 38255
+          },
+          {
+            "value": "0.001",
+            "count": 3762
+          },
+          {
+            "value": "0.002",
+            "count": 3402
+          },
+          {
+            "value": "0.003",
+            "count": 2669
+          },
+          {
+            "value": "0.004",
+            "count": 1820
+          }
+        ],
+        "sample_values": [
+          "1.549",
+          "0.473",
+          "4.184",
+          "1.082",
+          "1.154",
+          "0.042",
+          "0.884",
+          "0.282",
+          "2.214",
+          "2.287",
+          "1.895",
+          "0.596",
+          "1.32",
+          "0.937",
+          "0.136"
+        ]
+      }
+    },
+    {
+      "name": "DR2IS160",
+      "type": "DOUBLE PRECISION",
+      "nullable": true,
+      "stats": {
+        "null_count": 774,
+        "distinct_count": 5481,
+        "null_percentage": 0.83,
+        "numeric_stats": {
+          "avg": 0.918749498522485,
+          "min": 5.397605346934028e-79,
+          "max": 39.228,
+          "stddev": 1.8708029032944506
+        },
+        "frequent_values": [
+          {
+            "value": "5.397605346934028e-79",
+            "count": 21075
+          },
+          {
+            "value": "0.002",
+            "count": 1686
+          },
+          {
+            "value": "0.001",
+            "count": 1530
+          },
+          {
+            "value": "0.005",
+            "count": 1485
+          },
+          {
+            "value": "0.004",
+            "count": 1395
+          }
+        ],
+        "sample_values": [
+          "6.941",
+          "1.549",
+          "0.473",
+          "9.725",
+          "4.84",
+          "12.499",
+          "1.154",
+          "15.753",
+          "5.948",
+          "0.282",
+          "2.687",
+          "2.287",
+          "8.749",
+          "1.32",
+          "0.937"
+        ]
+      }
+    },
+    {
+      "name": "DR2IS180",
+      "type": "DOUBLE PRECISION",
+      "nullable": true,
+      "stats": {
+        "null_count": 774,
+        "distinct_count": 3400,
+        "null_percentage": 0.83,
+        "numeric_stats": {
+          "avg": 0.3884852576408219,
+          "min": 5.397605346934028e-79,
+          "max": 18.81,
+          "stddev": 0.853804608571657
+        },
+        "frequent_values": [
+          {
+            "value": "5.397605346934028e-79",
+            "count": 28716
+          },
+          {
+            "value": "0.001",
+            "count": 3501
+          },
+          {
+            "value": "0.002",
+            "count": 2521
+          },
+          {
+            "value": "0.006",
+            "count": 1700
+          },
+          {
+            "value": "0.003",
+            "count": 1553
+          }
+        ],
+        "sample_values": [
+          "1.549",
+          "4.168",
+          "0.473",
+          "1.082",
+          "0.884",
+          "0.042",
+          "1.154",
+          "4.461",
+          "10.152",
+          "4.624",
+          "1.157",
+          "0.282",
+          "2.214",
+          "2.287",
+          "0.596"
+        ]
+      }
+    },
+    {
+      "name": "DR2IM161",
+      "type": "DOUBLE PRECISION",
+      "nullable": true,
+      "stats": {
+        "null_count": 774,
+        "distinct_count": 1314,
+        "null_percentage": 0.83,
+        "numeric_stats": {
+          "avg": 0.07020490477320991,
+          "min": 5.397605346934028e-79,
+          "max": 6.532,
+          "stddev": 0.20053958349671291
+        },
+        "frequent_values": [
+          {
+            "value": "5.397605346934028e-79",
+            "count": 38007
+          },
+          {
+            "value": "0.001",
+            "count": 4213
+          },
+          {
+            "value": "0.002",
+            "count": 2431
+          },
+          {
+            "value": "0.005",
+            "count": 1865
+          },
+          {
+            "value": "0.003",
+            "count": 1803
+          }
+        ],
+        "sample_values": [
+          "2.076",
+          "0.473",
+          "0.365",
+          "0.871",
+          "1.082",
+          "3.618",
+          "1.154",
+          "0.884",
+          "0.042",
+          "0.282",
+          "2.287",
+          "0.376",
+          "0.783",
+          "1.32",
+          "0.596"
+        ]
+      }
+    },
+    {
+      "name": "DR2IM181",
+      "type": "DOUBLE PRECISION",
+      "nullable": true,
+      "stats": {
+        "null_count": 774,
+        "distinct_count": 7479,
+        "null_percentage": 0.83,
+        "numeric_stats": {
+          "avg": 1.6292299031554682,
+          "min": 5.397605346934028e-79,
+          "max": 90.198,
+          "stddev": 3.333986605645096
+        },
+        "frequent_values": [
+          {
+            "value": "5.397605346934028e-79",
+            "count": 25619
+          },
+          {
+            "value": "0.001",
+            "count": 1570
+          },
+          {
+            "value": "0.002",
+            "count": 1280
+          },
+          {
+            "value": "0.003",
+            "count": 1195
+          },
+          {
+            "value": "0.028",
+            "count": 973
+          }
+        ],
+        "sample_values": [
+          "0.473",
+          "13.902",
+          "4.84",
+          "4.461",
+          "42.185",
+          "2.687",
+          "2.287",
+          "7.867",
+          "0.136",
+          "0.937",
+          "6.113",
+          "1.119",
+          "4.246",
+          "25.769",
+          "3.588"
+        ]
+      }
+    },
+    {
+      "name": "DR2IM201",
+      "type": "DOUBLE PRECISION",
+      "nullable": true,
+      "stats": {
+        "null_count": 774,
+        "distinct_count": 560,
+        "null_percentage": 0.83,
+        "numeric_stats": {
+          "avg": 0.01958250113236732,
+          "min": 5.397605346934028e-79,
+          "max": 4.513,
+          "stddev": 0.0657494441247264
+        },
+        "frequent_values": [
+          {
+            "value": "5.397605346934028e-79",
+            "count": 48092
+          },
+          {
+            "value": "0.002",
+            "count": 2334
+          },
+          {
+            "value": "0.006",
+            "count": 2024
+          },
+          {
+            "value": "0.005",
+            "count": 1985
+          },
+          {
+            "value": "0.003",
+            "count": 1974
+          }
+        ],
+        "sample_values": [
+          "0.316",
+          "0.447",
+          "0.042",
+          "0.016",
+          "0.282",
+          "1.632",
+          "0.376",
+          "0.105",
+          "0.114",
+          "0.596",
+          "0.276",
+          "0.136",
+          "0.686",
+          "0.801",
+          "0.264"
+        ]
+      }
+    },
+    {
+      "name": "DR2IM221",
+      "type": "DOUBLE PRECISION",
+      "nullable": true,
+      "stats": {
+        "null_count": 774,
+        "distinct_count": 180,
+        "null_percentage": 0.83,
+        "numeric_stats": {
+          "avg": 0.002053383085650228,
+          "min": 5.397605346934028e-79,
+          "max": 6.102,
+          "stddev": 0.03128303510358727
+        },
+        "frequent_values": [
+          {
+            "value": "5.397605346934028e-79",
+            "count": 78679
+          },
+          {
+            "value": "0.001",
+            "count": 3728
+          },
+          {
+            "value": "0.002",
+            "count": 2088
+          },
+          {
+            "value": "0.003",
+            "count": 1755
+          },
+          {
+            "value": "0.004",
+            "count": 918
+          }
+        ],
+        "sample_values": [
+          "0.248",
+          "0.427",
+          "0.001",
+          "0.059",
+          "0.162",
+          "0.419",
+          "0.042",
+          "0.006",
+          "0.084",
+          "0.016",
+          "0.386",
+          "0.105",
+          "0.114",
+          "0.091",
+          "0.136"
+        ]
+      }
+    },
+    {
+      "name": "DR2IP182",
+      "type": "DOUBLE PRECISION",
+      "nullable": true,
+      "stats": {
+        "null_count": 774,
+        "distinct_count": 5808,
+        "null_percentage": 0.83,
+        "numeric_stats": {
+          "avg": 1.052634029290567,
+          "min": 5.397605346934028e-79,
+          "max": 78.692,
+          "stddev": 2.3715951231288126
+        },
+        "frequent_values": [
+          {
+            "value": "5.397605346934028e-79",
+            "count": 20984
+          },
+          {
+            "value": "0.002",
+            "count": 2029
+          },
+          {
+            "value": "0.004",
+            "count": 1132
+          },
+          {
+            "value": "0.005",
+            "count": 1084
+          },
+          {
+            "value": "0.007",
+            "count": 1031
+          }
+        ],
+        "sample_values": [
+          "2.273",
+          "4.012",
+          "2.314",
+          "35.723",
+          "2.087",
+          "3.495",
+          "7.853",
+          "6.205",
+          "1.549",
+          "4.168",
+          "0.473",
+          "12.339",
+          "16.049",
+          "1.154",
+          "4.461"
+        ]
+      }
+    },
+    {
+      "name": "DR2IP183",
+      "type": "DOUBLE PRECISION",
+      "nullable": true,
+      "stats": {
+        "null_count": 774,
+        "distinct_count": 1578,
+        "null_percentage": 0.83,
+        "numeric_stats": {
+          "avg": 0.10855363112828328,
+          "min": 5.397605346934028e-79,
+          "max": 12.038,
+          "stddev": 0.2943242685424226
+        },
+        "frequent_values": [
+          {
+            "value": "5.397605346934028e-79",
+            "count": 27597
+          },
+          {
+            "value": "0.001",
+            "count": 2475
+          },
+          {
+            "value": "0.004",
+            "count": 1599
+          },
+          {
+            "value": "0.002",
+            "count": 1505
+          },
+          {
+            "value": "0.007",
+            "count": 1406
+          }
+        ],
+        "sample_values": [
+          "0.365",
+          "0.473",
+          "0.871",
+          "1.082",
+          "1.241",
+          "0.884",
+          "0.042",
+          "0.282",
+          "2.214",
+          "0.376",
+          "0.783",
+          "1.895",
+          "0.596",
+          "1.32",
+          "0.937"
+        ]
+      }
+    },
+    {
+      "name": "DR2IP184",
+      "type": "DOUBLE PRECISION",
+      "nullable": true,
+      "stats": {
+        "null_count": 774,
+        "distinct_count": 150,
+        "null_percentage": 0.83,
+        "numeric_stats": {
+          "avg": 0.0005478290878502224,
+          "min": 5.397605346934028e-79,
+          "max": 1.258,
+          "stddev": 0.008767454571939406
+        },
+        "frequent_values": [
+          {
+            "value": "5.397605346934028e-79",
+            "count": 87789
+          },
+          {
+            "value": "0.001",
+            "count": 2110
+          },
+          {
+            "value": "0.002",
+            "count": 1150
+          },
+          {
+            "value": "0.003",
+            "count": 493
+          },
+          {
+            "value": "0.004",
+            "count": 264
+          }
+        ],
+        "sample_values": [
+          "0.427",
+          "0.001",
+          "0.059",
+          "0.162",
+          "0.112",
+          "0.042",
+          "0.006",
+          "0.084",
+          "0.016",
+          "0.282",
+          "0.105",
+          "0.114",
+          "0.015",
+          "0.18",
+          "0.471"
+        ]
+      }
+    },
+    {
+      "name": "DR2IP204",
+      "type": "DOUBLE PRECISION",
+      "nullable": true,
+      "stats": {
+        "null_count": 774,
+        "distinct_count": 352,
+        "null_percentage": 0.83,
+        "numeric_stats": {
+          "avg": 0.010168539568188842,
+          "min": 5.397605346934028e-79,
+          "max": 0.832,
+          "stddev": 0.033053297330569935
+        },
+        "frequent_values": [
+          {
+            "value": "5.397605346934028e-79",
+            "count": 60377
+          },
+          {
+            "value": "0.001",
+            "count": 3575
+          },
+          {
+            "value": "0.002",
+            "count": 2412
+          },
+          {
+            "value": "0.003",
+            "count": 2074
+          },
+          {
+            "value": "0.007",
+            "count": 1761
+          }
+        ],
+        "sample_values": [
+          "0.427",
+          "0.826",
+          "0.473",
+          "0.385",
+          "0.042",
+          "0.006",
+          "0.229",
+          "0.24",
+          "0.016",
+          "0.282",
+          "0.376",
+          "0.105",
+          "0.149",
+          "0.114",
+          "0.091"
+        ]
+      }
+    },
+    {
+      "name": "DR2IP205",
+      "type": "DOUBLE PRECISION",
+      "nullable": true,
+      "stats": {
+        "null_count": 774,
+        "distinct_count": 273,
+        "null_percentage": 0.83,
+        "numeric_stats": {
+          "avg": 0.001826132907706662,
+          "min": 5.397605346934028e-79,
+          "max": 4.263,
+          "stddev": 0.027729002663768845
+        },
+        "frequent_values": [
+          {
+            "value": "5.397605346934028e-79",
+            "count": 77347
+          },
+          {
+            "value": "0.001",
+            "count": 4964
+          },
+          {
+            "value": "0.002",
+            "count": 3660
+          },
+          {
+            "value": "0.003",
+            "count": 1805
+          },
+          {
+            "value": "0.004",
+            "count": 1178
+          }
+        ],
+        "sample_values": [
+          "0.316",
+          "0.473",
+          "0.042",
+          "0.006",
+          "0.24",
+          "0.016",
+          "0.105",
+          "0.149",
+          "0.114",
+          "0.535",
+          "0.091",
+          "0.128",
+          "1.115",
+          "0.464",
+          "0.183"
+        ]
+      }
+    },
+    {
+      "name": "DR2IP225",
+      "type": "DOUBLE PRECISION",
+      "nullable": true,
+      "stats": {
+        "null_count": 774,
+        "distinct_count": 154,
+        "null_percentage": 0.83,
+        "numeric_stats": {
+          "avg": 0.001581767788969664,
+          "min": 5.397605346934028e-79,
+          "max": 1.012,
+          "stddev": 0.009857389987167838
+        },
+        "frequent_values": [
+          {
+            "value": "5.397605346934028e-79",
+            "count": 74582
+          },
+          {
+            "value": "0.001",
+            "count": 2716
+          },
+          {
+            "value": "0.002",
+            "count": 2625
+          },
+          {
+            "value": "0.003",
+            "count": 2232
+          },
+          {
+            "value": "0.004",
+            "count": 2105
+          }
+        ],
+        "sample_values": [
+          "0.001",
+          "0.316",
+          "0.059",
+          "0.162",
+          "0.112",
+          "0.042",
+          "0.197",
+          "0.006",
+          "0.084",
+          "0.016",
+          "0.386",
+          "0.105",
+          "0.091",
+          "0.128",
+          "0.015"
+        ]
+      }
+    },
+    {
+      "name": "DR2IP226",
+      "type": "DOUBLE PRECISION",
+      "nullable": true,
+      "stats": {
+        "null_count": 774,
+        "distinct_count": 375,
+        "null_percentage": 0.83,
+        "numeric_stats": {
+          "avg": 0.004095313072924254,
+          "min": 5.397605346934028e-79,
+          "max": 6.905,
+          "stddev": 0.049547757041094535
+        },
+        "frequent_values": [
+          {
+            "value": "5.397605346934028e-79",
+            "count": 80093
+          },
+          {
+            "value": "0.001",
+            "count": 3304
+          },
+          {
+            "value": "0.002",
+            "count": 1532
+          },
+          {
+            "value": "0.003",
+            "count": 1217
+          },
+          {
+            "value": "0.004",
+            "count": 678
+          }
+        ],
+        "sample_values": [
+          "0.427",
+          "0.473",
+          "0.447",
+          "1.154",
+          "0.042",
+          "0.006",
+          "0.87",
+          "0.24",
+          "0.016",
+          "6.905",
+          "0.105",
+          "0.376",
+          "0.114",
+          "0.149",
+          "0.276"
+        ]
+      }
+    }
+  ],
+  "sample_rows": [
+    {
+      "SEQN": 93704.0,
+      "WTDRD1": 81714.005497,
+      "WTDR2D": 82442.869214,
+      "DR2ILINE": 1.0,
+      "DR2DRSTZ": 1.0,
+      "DR2EXMER": 87.0,
+      "DRABF": 2.0,
+      "DRDINT": 2.0,
+      "DR2DBIH": 18.0,
+      "DR2DAY": 6.0,
+      "DR2LANG": 1.0,
+      "DR2CCMNM": 5.397605346934028e-79,
+      "DR2CCMTX": 5.397605346934028e-79,
+      "DR2_020": 25200.0,
+      "DR2_030Z": 1.0,
+      "DR2FS": 1.0,
+      "DR2_040Z": 1.0,
+      "DR2IFDCD": 64104010.0,
+      "DR2IGRMS": 155.0,
+      "DR2IKCAL": 71.0,
+      "DR2IPROT": 0.16,
+      "DR2ICARB": 17.52,
+      "DR2ISUGR": 14.91,
+      "DR2IFIBE": 0.3,
+      "DR2ITFAT": 0.2,
+      "DR2ISFAT": 0.034,
+      "DR2IMFAT": 0.009,
+      "DR2IPFAT": 0.06,
+      "DR2ICHOL": 5.397605346934028e-79,
+      "DR2IATOC": 0.02,
+      "DR2IATOA": 5.397605346934028e-79,
+      "DR2IRET": 5.397605346934028e-79,
+      "DR2IVARA": 5.397605346934028e-79,
+      "DR2IACAR": 5.397605346934028e-79,
+      "DR2IBCAR": 5.397605346934028e-79,
+      "DR2ICRYP": 5.397605346934028e-79,
+      "DR2ILYCO": 5.397605346934028e-79,
+      "DR2ILZ": 25.0,
+      "DR2IVB1": 0.033,
+      "DR2IVB2": 0.026,
+      "DR2INIAC": 0.113,
+      "DR2IVB6": 0.028,
+      "DR2IFOLA": 5.397605346934028e-79,
+      "DR2IFA": 5.397605346934028e-79,
+      "DR2IFF": 5.397605346934028e-79,
+      "DR2IFDFE": 5.397605346934028e-79,
+      "DR2ICHL": 2.8,
+      "DR2IVB12": 5.397605346934028e-79,
+      "DR2IB12A": 5.397605346934028e-79,
+      "DR2IVC": 16.0,
+      "DR2IVD": 5.397605346934028e-79,
+      "DR2IVK": 5.397605346934028e-79,
+      "DR2ICALC": 12.0,
+      "DR2IPHOS": 11.0,
+      "DR2IMAGN": 8.0,
+      "DR2IIRON": 0.19,
+      "DR2IZINC": 0.03,
+      "DR2ICOPP": 0.019,
+      "DR2ISODI": 6.0,
+      "DR2IPOTA": 157.0,
+      "DR2ISELE": 0.2,
+      "DR2ICAFF": 5.397605346934028e-79,
+      "DR2ITHEO": 5.397605346934028e-79,
+      "DR2IALCO": 5.397605346934028e-79,
+      "DR2IMOIS": 136.77,
+      "DR2IS040": 5.397605346934028e-79,
+      "DR2IS060": 5.397605346934028e-79,
+      "DR2IS080": 5.397605346934028e-79,
+      "DR2IS100": 5.397605346934028e-79,
+      "DR2IS120": 5.397605346934028e-79,
+      "DR2IS140": 0.002,
+      "DR2IS160": 0.028,
+      "DR2IS180": 0.003,
+      "DR2IM161": 5.397605346934028e-79,
+      "DR2IM181": 0.008,
+      "DR2IM201": 5.397605346934028e-79,
+      "DR2IM221": 5.397605346934028e-79,
+      "DR2IP182": 0.051,
+      "DR2IP183": 0.011,
+      "DR2IP184": 5.397605346934028e-79,
+      "DR2IP204": 5.397605346934028e-79,
+      "DR2IP205": 5.397605346934028e-79,
+      "DR2IP225": 5.397605346934028e-79,
+      "DR2IP226": 5.397605346934028e-79
+    },
+    {
+      "SEQN": 93704.0,
+      "WTDRD1": 81714.005497,
+      "WTDR2D": 82442.869214,
+      "DR2ILINE": 2.0,
+      "DR2DRSTZ": 1.0,
+      "DR2EXMER": 87.0,
+      "DRABF": 2.0,
+      "DRDINT": 2.0,
+      "DR2DBIH": 18.0,
+      "DR2DAY": 6.0,
+      "DR2LANG": 1.0,
+      "DR2CCMNM": 1.0,
+      "DR2CCMTX": 2.0,
+      "DR2_020": 25200.0,
+      "DR2_030Z": 1.0,
+      "DR2FS": 1.0,
+      "DR2_040Z": 1.0,
+      "DR2IFDCD": 57241000.0,
+      "DR2IGRMS": 27.75,
+      "DR2IKCAL": 104.0,
+      "DR2IPROT": 2.46,
+      "DR2ICARB": 22.11,
+      "DR2ISUGR": 9.13,
+      "DR2IFIBE": 2.0,
+      "DR2ITFAT": 1.39,
+      "DR2ISFAT": 0.147,
+      "DR2IMFAT": 0.306,
+      "DR2IPFAT": 0.284,
+      "DR2ICHOL": 5.397605346934028e-79,
+      "DR2IATOC": 0.13,
+      "DR2IATOA": 5.397605346934028e-79,
+      "DR2IRET": 231.0,
+      "DR2IVARA": 231.0,
+      "DR2IACAR": 5.397605346934028e-79,
+      "DR2IBCAR": 5.397605346934028e-79,
+      "DR2ICRYP": 5.397605346934028e-79,
+      "DR2ILYCO": 5.397605346934028e-79,
+      "DR2ILZ": 14.0,
+      "DR2IVB1": 0.532,
+      "DR2IVB2": 0.518,
+      "DR2INIAC": 5.939,
+      "DR2IVB6": 0.629,
+      "DR2IFOLA": 183.0,
+      "DR2IFA": 178.0,
+      "DR2IFF": 5.0,
+      "DR2IFDFE": 307.0,
+      "DR2ICHL": 5.7,
+      "DR2IVB12": 2.08,
+      "DR2IB12A": 2.08,
+      "DR2IVC": 5.9,
+      "DR2IVD": 1.3,
+      "DR2IVK": 0.6,
+      "DR2ICALC": 118.0,
+      "DR2IPHOS": 91.0,
+      "DR2IMAGN": 25.0,
+      "DR2IIRON": 5.71,
+      "DR2IZINC": 4.77,
+      "DR2ICOPP": 0.065,
+      "DR2ISODI": 157.0,
+      "DR2IPOTA": 114.0,
+      "DR2ISELE": 4.4,
+      "DR2ICAFF": 5.397605346934028e-79,
+      "DR2ITHEO": 5.397605346934028e-79,
+      "DR2IALCO": 5.397605346934028e-79,
+      "DR2IMOIS": 0.79,
+      "DR2IS040": 5.397605346934028e-79,
+      "DR2IS060": 5.397605346934028e-79,
+      "DR2IS080": 5.397605346934028e-79,
+      "DR2IS100": 5.397605346934028e-79,
+      "DR2IS120": 5.397605346934028e-79,
+      "DR2IS140": 0.002,
+      "DR2IS160": 0.125,
+      "DR2IS180": 0.015,
+      "DR2IM161": 0.001,
+      "DR2IM181": 0.296,
+      "DR2IM201": 0.007,
+      "DR2IM221": 0.001,
+      "DR2IP182": 0.274,
+      "DR2IP183": 0.01,
+      "DR2IP184": 5.397605346934028e-79,
+      "DR2IP204": 5.397605346934028e-79,
+      "DR2IP205": 5.397605346934028e-79,
+      "DR2IP225": 5.397605346934028e-79,
+      "DR2IP226": 5.397605346934028e-79
+    },
+    {
+      "SEQN": 93704.0,
+      "WTDRD1": 81714.005497,
+      "WTDR2D": 82442.869214,
+      "DR2ILINE": 3.0,
+      "DR2DRSTZ": 1.0,
+      "DR2EXMER": 87.0,
+      "DRABF": 2.0,
+      "DRDINT": 2.0,
+      "DR2DBIH": 18.0,
+      "DR2DAY": 6.0,
+      "DR2LANG": 1.0,
+      "DR2CCMNM": 1.0,
+      "DR2CCMTX": 2.0,
+      "DR2_020": 25200.0,
+      "DR2_030Z": 1.0,
+      "DR2FS": 1.0,
+      "DR2_040Z": 1.0,
+      "DR2IFDCD": 11112210.0,
+      "DR2IGRMS": 122.0,
+      "DR2IKCAL": 52.0,
+      "DR2IPROT": 4.12,
+      "DR2ICARB": 6.33,
+      "DR2ISUGR": 6.05,
+      "DR2IFIBE": 5.397605346934028e-79,
+      "DR2ITFAT": 1.16,
+      "DR2ISFAT": 0.693,
+      "DR2IMFAT": 0.256,
+      "DR2IPFAT": 0.039,
+      "DR2ICHOL": 6.0,
+      "DR2IATOC": 0.02,
+      "DR2IATOA": 5.397605346934028e-79,
+      "DR2IRET": 71.0,
+      "DR2IVARA": 71.0,
+      "DR2IACAR": 5.397605346934028e-79,
+      "DR2IBCAR": 1.0,
+      "DR2ICRYP": 5.397605346934028e-79,
+      "DR2ILYCO": 5.397605346934028e-79,
+      "DR2ILZ": 5.397605346934028e-79,
+      "DR2IVB1": 0.07,
+      "DR2IVB2": 0.171,
+      "DR2INIAC": 0.138,
+      "DR2IVB6": 0.073,
+      "DR2IFOLA": 2.0,
+      "DR2IFA": 5.397605346934028e-79,
+      "DR2IFF": 2.0,
+      "DR2IFDFE": 2.0,
+      "DR2ICHL": 21.2,
+      "DR2IVB12": 0.74,
+      "DR2IB12A": 5.397605346934028e-79,
+      "DR2IVC": 5.397605346934028e-79,
+      "DR2IVD": 1.3,
+      "DR2IVK": 0.1,
+      "DR2ICALC": 154.0,
+      "DR2IPHOS": 126.0,
+      "DR2IMAGN": 15.0,
+      "DR2IIRON": 5.397605346934028e-79,
+      "DR2IZINC": 0.53,
+      "DR2ICOPP": 0.001,
+      "DR2ISODI": 48.0,
+      "DR2IPOTA": 194.0,
+      "DR2ISELE": 2.6,
+      "DR2ICAFF": 5.397605346934028e-79,
+      "DR2ITHEO": 5.397605346934028e-79,
+      "DR2IALCO": 5.397605346934028e-79,
+      "DR2IMOIS": 109.43,
+      "DR2IS040": 0.027,
+      "DR2IS060": 0.018,
+      "DR2IS080": 0.013,
+      "DR2IS100": 0.028,
+      "DR2IS120": 0.032,
+      "DR2IS140": 0.113,
+      "DR2IS160": 0.323,
+      "DR2IS180": 0.117,
+      "DR2IM161": 0.017,
+      "DR2IM181": 0.261,
+      "DR2IM201": 0.001,
+      "DR2IM221": 5.397605346934028e-79,
+      "DR2IP182": 0.04,
+      "DR2IP183": 0.005,
+      "DR2IP184": 5.397605346934028e-79,
+      "DR2IP204": 0.001,
+      "DR2IP205": 5.397605346934028e-79,
+      "DR2IP225": 5.397605346934028e-79,
+      "DR2IP226": 5.397605346934028e-79
+    }
+  ],
+  "execution": {
+    "status": "success",
+    "seconds": 41.85,
+    "processed_at": "2026-06-11T21:13:03.912986",
+    "attempt": 1
+  }
+}

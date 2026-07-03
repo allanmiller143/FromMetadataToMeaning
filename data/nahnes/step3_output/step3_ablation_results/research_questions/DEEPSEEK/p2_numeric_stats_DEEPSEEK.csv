@@ -1,0 +1,4 @@
+Comparacao,Variante_A,Variante_B,N_Tabelas,HardDice_mean,SoftDice_mean,SoftDice_std,TokensIn_A,TokensIn_B,Delta_TokensIn
+full vs full-sem-numeric_stats,v01_full,v24_full_no_numeric_stats,25,0.6133333333333333,0.785257507165273,0.24293637698743692,160713.0,133865.0,26848.0
+numeric_stats sozinho,v04_plus_numeric_stats,v00_baseline,25,0.4666666666666666,0.7183096265792847,0.22878768333896243,58015.0,29433.0,28582.0
+numeric_stats + nullable vs nullable,v14_nullable_plus_numeric_stats,v03_plus_nullable,25,0.4533333333333333,0.7102416427930196,0.1913654180308273,60880.0,32273.0,28607.0

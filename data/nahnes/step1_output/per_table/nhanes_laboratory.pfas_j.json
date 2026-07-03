@@ -1,0 +1,907 @@
+{
+  "schema": "nhanes_laboratory",
+  "table_name": "pfas_j",
+  "row_count": 2133,
+  "primary_key": [],
+  "foreign_keys": [],
+  "columns": [
+    {
+      "name": "SEQN",
+      "type": "DOUBLE PRECISION",
+      "nullable": true,
+      "stats": {
+        "null_count": 0,
+        "distinct_count": 2133,
+        "null_percentage": 0.0,
+        "numeric_stats": {
+          "avg": 98321.58274730426,
+          "min": 93706.0,
+          "max": 102955.0,
+          "stddev": 2680.6410528708143
+        },
+        "sample_values": [
+          "94390.0",
+          "94262.0",
+          "101864.0",
+          "95105.0",
+          "101662.0",
+          "99308.0",
+          "100294.0",
+          "96916.0",
+          "100422.0",
+          "94616.0",
+          "101283.0",
+          "98946.0",
+          "101042.0",
+          "95377.0",
+          "97337.0"
+        ]
+      }
+    },
+    {
+      "name": "WTSB2YR",
+      "type": "DOUBLE PRECISION",
+      "nullable": true,
+      "stats": {
+        "null_count": 0,
+        "distinct_count": 2024,
+        "null_percentage": 0.0,
+        "numeric_stats": {
+          "avg": 127733.9141864657,
+          "min": 5.397605346934028e-79,
+          "max": 1395405.465402,
+          "stddev": 146533.36105882443
+        },
+        "sample_values": [
+          "291691.397786",
+          "334313.192689",
+          "76835.847699",
+          "78965.840063",
+          "50553.907746",
+          "54274.090832",
+          "29706.272706",
+          "67805.478195",
+          "54210.919289",
+          "46451.942442",
+          "66605.179649",
+          "57156.477617",
+          "699694.87835",
+          "37164.800373",
+          "72036.741484"
+        ]
+      }
+    },
+    {
+      "name": "LBXPFDE",
+      "type": "DOUBLE PRECISION",
+      "nullable": true,
+      "stats": {
+        "null_count": 204,
+        "distinct_count": 31,
+        "null_percentage": 9.56,
+        "numeric_stats": {
+          "avg": 0.2733333333333333,
+          "min": 0.07,
+          "max": 6.9,
+          "stddev": 0.36027483937870264
+        },
+        "frequent_values": [
+          {
+            "value": "0.2",
+            "count": 686
+          },
+          {
+            "value": "0.1",
+            "count": 429
+          },
+          {
+            "value": "0.3",
+            "count": 277
+          },
+          {
+            "value": "0.07",
+            "count": 218
+          },
+          {
+            "value": "0.4",
+            "count": 91
+          }
+        ],
+        "sample_values": [
+          "1.8",
+          "0.2",
+          "3.3",
+          "0.9",
+          "5.8",
+          "1.6",
+          "0.1",
+          "0.5",
+          "0.3",
+          "1.1",
+          "0.4",
+          "1.9",
+          "0.6",
+          "2.3",
+          "1.7"
+        ]
+      }
+    },
+    {
+      "name": "LBDPFDEL",
+      "type": "DOUBLE PRECISION",
+      "nullable": true,
+      "stats": {
+        "null_count": 204,
+        "distinct_count": 2,
+        "null_percentage": 9.56,
+        "numeric_stats": {
+          "avg": 0.11301192327630896,
+          "min": 5.397605346934028e-79,
+          "max": 1.0,
+          "stddev": 0.31668946981774804
+        },
+        "frequent_values": [
+          {
+            "value": "5.397605346934028e-79",
+            "count": 1711
+          },
+          {
+            "value": "1.0",
+            "count": 218
+          }
+        ],
+        "sample_values": [
+          "1.0",
+          "5.397605346934028e-79"
+        ]
+      }
+    },
+    {
+      "name": "LBXPFHS",
+      "type": "DOUBLE PRECISION",
+      "nullable": true,
+      "stats": {
+        "null_count": 204,
+        "distinct_count": 101,
+        "null_percentage": 9.56,
+        "numeric_stats": {
+          "avg": 1.5995904613789538,
+          "min": 0.07,
+          "max": 48.8,
+          "stddev": 2.390326868790126
+        },
+        "frequent_values": [
+          {
+            "value": "0.5",
+            "count": 148
+          },
+          {
+            "value": "0.4",
+            "count": 136
+          },
+          {
+            "value": "0.6",
+            "count": 117
+          },
+          {
+            "value": "0.7",
+            "count": 104
+          },
+          {
+            "value": "0.8",
+            "count": 96
+          }
+        ],
+        "sample_values": [
+          "48.8",
+          "0.07",
+          "0.8",
+          "6.5",
+          "11.9",
+          "14.1",
+          "1.8",
+          "15.0",
+          "0.9",
+          "4.9",
+          "5.8",
+          "1.6",
+          "4.8",
+          "6.2",
+          "0.3"
+        ]
+      }
+    },
+    {
+      "name": "LBDPFHSL",
+      "type": "DOUBLE PRECISION",
+      "nullable": true,
+      "stats": {
+        "null_count": 204,
+        "distinct_count": 2,
+        "null_percentage": 9.56,
+        "numeric_stats": {
+          "avg": 0.00673924313115604,
+          "min": 5.397605346934028e-79,
+          "max": 1.0,
+          "stddev": 0.08183701872923459
+        },
+        "frequent_values": [
+          {
+            "value": "5.397605346934028e-79",
+            "count": 1916
+          },
+          {
+            "value": "1.0",
+            "count": 13
+          }
+        ],
+        "sample_values": [
+          "1.0",
+          "5.397605346934028e-79"
+        ]
+      }
+    },
+    {
+      "name": "LBXMPAH",
+      "type": "DOUBLE PRECISION",
+      "nullable": true,
+      "stats": {
+        "null_count": 204,
+        "distinct_count": 26,
+        "null_percentage": 9.56,
+        "numeric_stats": {
+          "avg": 0.18989113530326393,
+          "min": 0.07,
+          "max": 4.5,
+          "stddev": 0.29486782074481316
+        },
+        "frequent_values": [
+          {
+            "value": "0.07",
+            "count": 790
+          },
+          {
+            "value": "0.1",
+            "count": 497
+          },
+          {
+            "value": "0.2",
+            "count": 305
+          },
+          {
+            "value": "0.3",
+            "count": 109
+          },
+          {
+            "value": "0.4",
+            "count": 81
+          }
+        ],
+        "sample_values": [
+          "1.1",
+          "0.4",
+          "1.9",
+          "0.6",
+          "1.0",
+          "3.7",
+          "0.7",
+          "1.7",
+          "1.5",
+          "0.07",
+          "0.8",
+          "2.0",
+          "1.3",
+          "3.1",
+          "1.2"
+        ]
+      }
+    },
+    {
+      "name": "LBDMPAHL",
+      "type": "DOUBLE PRECISION",
+      "nullable": true,
+      "stats": {
+        "null_count": 204,
+        "distinct_count": 2,
+        "null_percentage": 9.56,
+        "numeric_stats": {
+          "avg": 0.4095386210471747,
+          "min": 5.397605346934028e-79,
+          "max": 1.0,
+          "stddev": 0.49187616585653327
+        },
+        "frequent_values": [
+          {
+            "value": "5.397605346934028e-79",
+            "count": 1139
+          },
+          {
+            "value": "1.0",
+            "count": 790
+          }
+        ],
+        "sample_values": [
+          "5.397605346934028e-79",
+          "1.0"
+        ]
+      }
+    },
+    {
+      "name": "LBXPFNA",
+      "type": "DOUBLE PRECISION",
+      "nullable": true,
+      "stats": {
+        "null_count": 204,
+        "distinct_count": 41,
+        "null_percentage": 9.56,
+        "numeric_stats": {
+          "avg": 0.5738465526179378,
+          "min": 0.07,
+          "max": 6.5,
+          "stddev": 0.5434498007960419
+        },
+        "frequent_values": [
+          {
+            "value": "0.4",
+            "count": 268
+          },
+          {
+            "value": "0.3",
+            "count": 264
+          },
+          {
+            "value": "0.2",
+            "count": 231
+          },
+          {
+            "value": "0.5",
+            "count": 225
+          },
+          {
+            "value": "0.6",
+            "count": 156
+          }
+        ],
+        "sample_values": [
+          "1.8",
+          "0.2",
+          "0.9",
+          "4.4",
+          "4.5",
+          "1.6",
+          "0.1",
+          "0.5",
+          "0.3",
+          "1.1",
+          "0.4",
+          "3.0",
+          "1.9",
+          "0.6",
+          "3.6"
+        ]
+      }
+    },
+    {
+      "name": "LBDPFNAL",
+      "type": "DOUBLE PRECISION",
+      "nullable": true,
+      "stats": {
+        "null_count": 204,
+        "distinct_count": 2,
+        "null_percentage": 9.56,
+        "numeric_stats": {
+          "avg": 0.0751684810782789,
+          "min": 5.397605346934028e-79,
+          "max": 1.0,
+          "stddev": 0.26373137408780456
+        },
+        "frequent_values": [
+          {
+            "value": "5.397605346934028e-79",
+            "count": 1784
+          },
+          {
+            "value": "1.0",
+            "count": 145
+          }
+        ],
+        "sample_values": [
+          "1.0",
+          "5.397605346934028e-79"
+        ]
+      }
+    },
+    {
+      "name": "LBXPFUA",
+      "type": "DOUBLE PRECISION",
+      "nullable": true,
+      "stats": {
+        "null_count": 204,
+        "distinct_count": 27,
+        "null_percentage": 9.56,
+        "numeric_stats": {
+          "avg": 0.18913945049248151,
+          "min": 0.07,
+          "max": 4.8,
+          "stddev": 0.26941419804418093
+        },
+        "frequent_values": [
+          {
+            "value": "0.07",
+            "count": 655
+          },
+          {
+            "value": "0.1",
+            "count": 533
+          },
+          {
+            "value": "0.2",
+            "count": 431
+          },
+          {
+            "value": "0.3",
+            "count": 128
+          },
+          {
+            "value": "0.4",
+            "count": 54
+          }
+        ],
+        "sample_values": [
+          "1.2",
+          "3.1",
+          "1.8",
+          "0.2",
+          "2.1",
+          "0.9",
+          "1.6",
+          "0.1",
+          "0.5",
+          "4.8",
+          "0.3",
+          "1.1",
+          "0.4",
+          "2.2",
+          "2.4"
+        ]
+      }
+    },
+    {
+      "name": "LBDPFUAL",
+      "type": "DOUBLE PRECISION",
+      "nullable": true,
+      "stats": {
+        "null_count": 204,
+        "distinct_count": 2,
+        "null_percentage": 9.56,
+        "numeric_stats": {
+          "avg": 0.33955417314670816,
+          "min": 5.397605346934028e-79,
+          "max": 1.0,
+          "stddev": 0.47368074964854456
+        },
+        "frequent_values": [
+          {
+            "value": "5.397605346934028e-79",
+            "count": 1274
+          },
+          {
+            "value": "1.0",
+            "count": 655
+          }
+        ],
+        "sample_values": [
+          "1.0",
+          "5.397605346934028e-79"
+        ]
+      }
+    },
+    {
+      "name": "LBXNFOA",
+      "type": "DOUBLE PRECISION",
+      "nullable": true,
+      "stats": {
+        "null_count": 204,
+        "distinct_count": 80,
+        "null_percentage": 9.56,
+        "numeric_stats": {
+          "avg": 1.6290254017625734,
+          "min": 0.07,
+          "max": 52.8,
+          "stddev": 1.8157607552221855
+        },
+        "frequent_values": [
+          {
+            "value": "1.0",
+            "count": 116
+          },
+          {
+            "value": "0.7",
+            "count": 114
+          },
+          {
+            "value": "0.9",
+            "count": 114
+          },
+          {
+            "value": "1.3",
+            "count": 99
+          },
+          {
+            "value": "1.2",
+            "count": 98
+          }
+        ],
+        "sample_values": [
+          "1.8",
+          "0.9",
+          "4.9",
+          "15.9",
+          "1.6",
+          "11.4",
+          "4.8",
+          "6.2",
+          "0.3",
+          "7.7",
+          "1.1",
+          "0.4",
+          "3.0",
+          "4.3",
+          "1.9"
+        ]
+      }
+    },
+    {
+      "name": "LBDNFOAL",
+      "type": "DOUBLE PRECISION",
+      "nullable": true,
+      "stats": {
+        "null_count": 204,
+        "distinct_count": 2,
+        "null_percentage": 9.56,
+        "numeric_stats": {
+          "avg": 0.0036288232244686366,
+          "min": 5.397605346934028e-79,
+          "max": 1.0,
+          "stddev": 0.060145907642459195
+        },
+        "frequent_values": [
+          {
+            "value": "5.397605346934028e-79",
+            "count": 1922
+          },
+          {
+            "value": "1.0",
+            "count": 7
+          }
+        ],
+        "sample_values": [
+          "1.0",
+          "5.397605346934028e-79"
+        ]
+      }
+    },
+    {
+      "name": "LBXBFOA",
+      "type": "DOUBLE PRECISION",
+      "nullable": true,
+      "stats": {
+        "null_count": 204,
+        "distinct_count": 8,
+        "null_percentage": 9.56,
+        "numeric_stats": {
+          "avg": 0.0807102125453566,
+          "min": 0.07,
+          "max": 0.7,
+          "stddev": 0.04378089904003294
+        },
+        "frequent_values": [
+          {
+            "value": "0.07",
+            "count": 1737
+          },
+          {
+            "value": "0.2",
+            "count": 96
+          },
+          {
+            "value": "0.1",
+            "count": 78
+          },
+          {
+            "value": "0.3",
+            "count": 11
+          },
+          {
+            "value": "0.6",
+            "count": 3
+          }
+        ],
+        "sample_values": [
+          "0.4",
+          "0.2",
+          "0.6",
+          "0.1",
+          "0.7",
+          "0.5",
+          "0.3",
+          "0.07"
+        ]
+      }
+    },
+    {
+      "name": "LBDBFOAL",
+      "type": "DOUBLE PRECISION",
+      "nullable": true,
+      "stats": {
+        "null_count": 204,
+        "distinct_count": 2,
+        "null_percentage": 9.56,
+        "numeric_stats": {
+          "avg": 0.9004665629860031,
+          "min": 5.397605346934028e-79,
+          "max": 1.0,
+          "stddev": 0.29945453531479144
+        },
+        "frequent_values": [
+          {
+            "value": "1.0",
+            "count": 1737
+          },
+          {
+            "value": "5.397605346934028e-79",
+            "count": 192
+          }
+        ],
+        "sample_values": [
+          "5.397605346934028e-79",
+          "1.0"
+        ]
+      }
+    },
+    {
+      "name": "LBXNFOS",
+      "type": "DOUBLE PRECISION",
+      "nullable": true,
+      "stats": {
+        "null_count": 204,
+        "distinct_count": 215,
+        "null_percentage": 9.56,
+        "numeric_stats": {
+          "avg": 4.75257646448937,
+          "min": 0.07,
+          "max": 88.4,
+          "stddev": 6.4299500642961585
+        },
+        "frequent_values": [
+          {
+            "value": "1.7",
+            "count": 55
+          },
+          {
+            "value": "1.3",
+            "count": 53
+          },
+          {
+            "value": "1.4",
+            "count": 47
+          },
+          {
+            "value": "1.6",
+            "count": 46
+          },
+          {
+            "value": "2.5",
+            "count": 45
+          }
+        ],
+        "sample_values": [
+          "27.2",
+          "10.2",
+          "8.4",
+          "0.7",
+          "10.4",
+          "30.1",
+          "0.07",
+          "0.8",
+          "6.5",
+          "14.1",
+          "12.4",
+          "0.9",
+          "13.2",
+          "5.8",
+          "14.7"
+        ]
+      }
+    },
+    {
+      "name": "LBDNFOSL",
+      "type": "DOUBLE PRECISION",
+      "nullable": true,
+      "stats": {
+        "null_count": 204,
+        "distinct_count": 2,
+        "null_percentage": 9.56,
+        "numeric_stats": {
+          "avg": 0.003110419906687403,
+          "min": 5.397605346934028e-79,
+          "max": 1.0,
+          "stddev": 0.055698774358334695
+        },
+        "frequent_values": [
+          {
+            "value": "5.397605346934028e-79",
+            "count": 1923
+          },
+          {
+            "value": "1.0",
+            "count": 6
+          }
+        ],
+        "sample_values": [
+          "1.0",
+          "5.397605346934028e-79"
+        ]
+      }
+    },
+    {
+      "name": "LBXMFOS",
+      "type": "DOUBLE PRECISION",
+      "nullable": true,
+      "stats": {
+        "null_count": 204,
+        "distinct_count": 96,
+        "null_percentage": 9.56,
+        "numeric_stats": {
+          "avg": 1.7599896319336477,
+          "min": 0.07,
+          "max": 19.3,
+          "stddev": 1.764002721526303
+        },
+        "frequent_values": [
+          {
+            "value": "0.5",
+            "count": 120
+          },
+          {
+            "value": "0.6",
+            "count": 116
+          },
+          {
+            "value": "0.4",
+            "count": 109
+          },
+          {
+            "value": "0.8",
+            "count": 106
+          },
+          {
+            "value": "0.7",
+            "count": 98
+          }
+        ],
+        "sample_values": [
+          "1.8",
+          "0.9",
+          "4.9",
+          "5.8",
+          "1.6",
+          "4.8",
+          "6.2",
+          "0.3",
+          "7.7",
+          "1.1",
+          "0.4",
+          "3.0",
+          "1.9",
+          "4.3",
+          "6.6"
+        ]
+      }
+    },
+    {
+      "name": "LBDMFOSL",
+      "type": "DOUBLE PRECISION",
+      "nullable": true,
+      "stats": {
+        "null_count": 204,
+        "distinct_count": 2,
+        "null_percentage": 9.56,
+        "numeric_stats": {
+          "avg": 0.00829445308449974,
+          "min": 5.397605346934028e-79,
+          "max": 1.0,
+          "stddev": 0.09071891506828092
+        },
+        "frequent_values": [
+          {
+            "value": "5.397605346934028e-79",
+            "count": 1913
+          },
+          {
+            "value": "1.0",
+            "count": 16
+          }
+        ],
+        "sample_values": [
+          "1.0",
+          "5.397605346934028e-79"
+        ]
+      }
+    }
+  ],
+  "sample_rows": [
+    {
+      "SEQN": 93706.0,
+      "WTSB2YR": 26027.047633,
+      "LBXPFDE": 0.5,
+      "LBDPFDEL": 5.397605346934028e-79,
+      "LBXPFHS": 0.9,
+      "LBDPFHSL": 5.397605346934028e-79,
+      "LBXMPAH": 0.07,
+      "LBDMPAHL": 1.0,
+      "LBXPFNA": 1.8,
+      "LBDPFNAL": 5.397605346934028e-79,
+      "LBXPFUA": 0.4,
+      "LBDPFUAL": 5.397605346934028e-79,
+      "LBXNFOA": 1.6,
+      "LBDNFOAL": 5.397605346934028e-79,
+      "LBXBFOA": 0.07,
+      "LBDBFOAL": 1.0,
+      "LBXNFOS": 6.1,
+      "LBDNFOSL": 5.397605346934028e-79,
+      "LBXMFOS": 1.0,
+      "LBDMFOSL": 5.397605346934028e-79
+    },
+    {
+      "SEQN": 93715.0,
+      "WTSB2YR": 28400.583165,
+      "LBXPFDE": 0.3,
+      "LBDPFDEL": 5.397605346934028e-79,
+      "LBXPFHS": 1.3,
+      "LBDPFHSL": 5.397605346934028e-79,
+      "LBXMPAH": 0.1,
+      "LBDMPAHL": 5.397605346934028e-79,
+      "LBXPFNA": 0.6,
+      "LBDPFNAL": 5.397605346934028e-79,
+      "LBXPFUA": 0.2,
+      "LBDPFUAL": 5.397605346934028e-79,
+      "LBXNFOA": 2.0,
+      "LBDNFOAL": 5.397605346934028e-79,
+      "LBXBFOA": 0.07,
+      "LBDBFOAL": 1.0,
+      "LBXNFOS": 6.2,
+      "LBDNFOSL": 5.397605346934028e-79,
+      "LBXMFOS": 2.3,
+      "LBDMFOSL": 5.397605346934028e-79
+    },
+    {
+      "SEQN": 93717.0,
+      "WTSB2YR": 141021.884734,
+      "LBXPFDE": 0.4,
+      "LBDPFDEL": 5.397605346934028e-79,
+      "LBXPFHS": 1.4,
+      "LBDPFHSL": 5.397605346934028e-79,
+      "LBXMPAH": 0.3,
+      "LBDMPAHL": 5.397605346934028e-79,
+      "LBXPFNA": 1.0,
+      "LBDPFNAL": 5.397605346934028e-79,
+      "LBXPFUA": 0.3,
+      "LBDPFUAL": 5.397605346934028e-79,
+      "LBXNFOA": 1.9,
+      "LBDNFOAL": 5.397605346934028e-79,
+      "LBXBFOA": 0.07,
+      "LBDBFOAL": 1.0,
+      "LBXNFOS": 9.6,
+      "LBDNFOSL": 5.397605346934028e-79,
+      "LBXMFOS": 2.3,
+      "LBDMFOSL": 5.397605346934028e-79
+    }
+  ],
+  "execution": {
+    "status": "success",
+    "seconds": 0.15,
+    "processed_at": "2026-06-11T21:18:47.008260",
+    "attempt": 1
+  }
+}

@@ -1,0 +1,186 @@
+{
+  "_summary": {
+    "variant": "v14_nullable_plus_numeric_stats",
+    "run": 1,
+    "tables_processed": 25,
+    "total_tokens_in": 58140,
+    "total_tokens_out": 445,
+    "total_tokens": 58585,
+    "total_elapsed_s": 22.801
+  },
+  "nhanes_demographics.demo_j": {
+    "tokens_in": 4070,
+    "tokens_out": 20,
+    "tokens_total": 4090,
+    "elapsed_s": 0.751,
+    "fallback": false
+  },
+  "nhanes_dietary.ds1tot_j": {
+    "tokens_in": 4254,
+    "tokens_out": 16,
+    "tokens_total": 4270,
+    "elapsed_s": 1.081,
+    "fallback": false
+  },
+  "nhanes_dietary.ds2ids_j": {
+    "tokens_in": 4163,
+    "tokens_out": 17,
+    "tokens_total": 4180,
+    "elapsed_s": 1.344,
+    "fallback": false
+  },
+  "nhanes_dietary.ds2tot_j": {
+    "tokens_in": 4249,
+    "tokens_out": 16,
+    "tokens_total": 4265,
+    "elapsed_s": 1.016,
+    "fallback": false
+  },
+  "nhanes_dietary.dsqids_j": {
+    "tokens_in": 6646,
+    "tokens_out": 16,
+    "tokens_total": 6662,
+    "elapsed_s": 0.942,
+    "fallback": false
+  },
+  "nhanes_dietary.dsqtot_j": {
+    "tokens_in": 3505,
+    "tokens_out": 17,
+    "tokens_total": 3522,
+    "elapsed_s": 0.861,
+    "fallback": false
+  },
+  "nhanes_examination.bmx_j": {
+    "tokens_in": 2091,
+    "tokens_out": 20,
+    "tokens_total": 2111,
+    "elapsed_s": 0.735,
+    "fallback": false
+  },
+  "nhanes_examination.bpx_j": {
+    "tokens_in": 2207,
+    "tokens_out": 17,
+    "tokens_total": 2224,
+    "elapsed_s": 0.801,
+    "fallback": false
+  },
+  "nhanes_examination.bpxo_j": {
+    "tokens_in": 1574,
+    "tokens_out": 17,
+    "tokens_total": 1591,
+    "elapsed_s": 0.933,
+    "fallback": false
+  },
+  "nhanes_laboratory.cbc_j": {
+    "tokens_in": 2288,
+    "tokens_out": 21,
+    "tokens_total": 2309,
+    "elapsed_s": 0.813,
+    "fallback": false
+  },
+  "nhanes_laboratory.fastqx_j": {
+    "tokens_in": 2125,
+    "tokens_out": 17,
+    "tokens_total": 2142,
+    "elapsed_s": 0.864,
+    "fallback": false
+  },
+  "nhanes_laboratory.ghb_j": {
+    "tokens_in": 823,
+    "tokens_out": 18,
+    "tokens_total": 841,
+    "elapsed_s": 1.042,
+    "fallback": false
+  },
+  "nhanes_laboratory.hepa_j": {
+    "tokens_in": 823,
+    "tokens_out": 18,
+    "tokens_total": 841,
+    "elapsed_s": 0.677,
+    "fallback": false
+  },
+  "nhanes_laboratory.ins_j": {
+    "tokens_in": 1054,
+    "tokens_out": 18,
+    "tokens_total": 1072,
+    "elapsed_s": 0.884,
+    "fallback": false
+  },
+  "nhanes_laboratory.phthte_j": {
+    "tokens_in": 3709,
+    "tokens_out": 18,
+    "tokens_total": 3727,
+    "elapsed_s": 1.33,
+    "fallback": false
+  },
+  "nhanes_laboratory.ssuvcm_j": {
+    "tokens_in": 1136,
+    "tokens_out": 18,
+    "tokens_total": 1154,
+    "elapsed_s": 0.675,
+    "fallback": false
+  },
+  "nhanes_laboratory.uio_j": {
+    "tokens_in": 990,
+    "tokens_out": 18,
+    "tokens_total": 1008,
+    "elapsed_s": 0.757,
+    "fallback": false
+  },
+  "nhanes_laboratory.vic_j": {
+    "tokens_in": 976,
+    "tokens_out": 19,
+    "tokens_total": 995,
+    "elapsed_s": 0.99,
+    "fallback": false
+  },
+  "nhanes_laboratory.vid_j": {
+    "tokens_in": 1367,
+    "tokens_out": 17,
+    "tokens_total": 1384,
+    "elapsed_s": 0.659,
+    "fallback": false
+  },
+  "nhanes_questionnaire.alq_j": {
+    "tokens_in": 1427,
+    "tokens_out": 19,
+    "tokens_total": 1446,
+    "elapsed_s": 1.096,
+    "fallback": false
+  },
+  "nhanes_questionnaire.dpq_j": {
+    "tokens_in": 1539,
+    "tokens_out": 19,
+    "tokens_total": 1558,
+    "elapsed_s": 0.904,
+    "fallback": false
+  },
+  "nhanes_questionnaire.hsq_j": {
+    "tokens_in": 1323,
+    "tokens_out": 18,
+    "tokens_total": 1341,
+    "elapsed_s": 0.881,
+    "fallback": false
+  },
+  "nhanes_questionnaire.puqmec_j": {
+    "tokens_in": 896,
+    "tokens_out": 17,
+    "tokens_total": 913,
+    "elapsed_s": 0.851,
+    "fallback": false
+  },
+  "nhanes_questionnaire.smqshs_j": {
+    "tokens_in": 1754,
+    "tokens_out": 18,
+    "tokens_total": 1772,
+    "elapsed_s": 0.979,
+    "fallback": false
+  },
+  "nhanes_questionnaire.whq_j": {
+    "tokens_in": 3151,
+    "tokens_out": 16,
+    "tokens_total": 3167,
+    "elapsed_s": 0.924,
+    "fallback": false
+  }
+}

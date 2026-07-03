@@ -1,0 +1,175 @@
+{
+  "schema": "nhanes_laboratory",
+  "table_name": "tfr_j",
+  "row_count": 7332,
+  "primary_key": [],
+  "foreign_keys": [],
+  "columns": [
+    {
+      "name": "SEQN",
+      "type": "DOUBLE PRECISION",
+      "nullable": true,
+      "stats": {
+        "null_count": 0,
+        "distinct_count": 7332,
+        "null_percentage": 0.0,
+        "numeric_stats": {
+          "avg": 98299.51623022367,
+          "min": 93703.0,
+          "max": 102956.0,
+          "stddev": 2676.7331620512828
+        },
+        "sample_values": [
+          "101333.0",
+          "97209.0",
+          "101319.0",
+          "100331.0",
+          "102850.0",
+          "94262.0",
+          "95105.0",
+          "93827.0",
+          "98270.0",
+          "95559.0",
+          "95846.0",
+          "102448.0",
+          "96295.0",
+          "101097.0",
+          "94601.0"
+        ]
+      }
+    },
+    {
+      "name": "LBXTFR",
+      "type": "DOUBLE PRECISION",
+      "nullable": true,
+      "stats": {
+        "null_count": 765,
+        "distinct_count": 668,
+        "null_percentage": 10.43,
+        "numeric_stats": {
+          "avg": 3.4355154560682153,
+          "min": 1.01,
+          "max": 41.3,
+          "stddev": 1.8912118459994263
+        },
+        "frequent_values": [
+          {
+            "value": "2.96",
+            "count": 46
+          },
+          {
+            "value": "2.52",
+            "count": 44
+          },
+          {
+            "value": "2.85",
+            "count": 43
+          },
+          {
+            "value": "2.66",
+            "count": 42
+          },
+          {
+            "value": "2.67",
+            "count": 42
+          }
+        ],
+        "sample_values": [
+          "5.38",
+          "2.41",
+          "5.33",
+          "4.84",
+          "4.8",
+          "5.64",
+          "2.74",
+          "3.23",
+          "1.86",
+          "7.25",
+          "6.65",
+          "3.0",
+          "3.06",
+          "5.45",
+          "6.56"
+        ]
+      }
+    },
+    {
+      "name": "LBDTFRSI",
+      "type": "DOUBLE PRECISION",
+      "nullable": true,
+      "stats": {
+        "null_count": 765,
+        "distinct_count": 651,
+        "null_percentage": 10.43,
+        "numeric_stats": {
+          "avg": 40.53975940307602,
+          "min": 11.9,
+          "max": 487.0,
+          "stddev": 22.314295845695508
+        },
+        "frequent_values": [
+          {
+            "value": "34.9",
+            "count": 46
+          },
+          {
+            "value": "29.7",
+            "count": 44
+          },
+          {
+            "value": "33.6",
+            "count": 43
+          },
+          {
+            "value": "31.4",
+            "count": 42
+          },
+          {
+            "value": "31.5",
+            "count": 42
+          }
+        ],
+        "sample_values": [
+          "37.1",
+          "60.5",
+          "44.6",
+          "322.0",
+          "61.0",
+          "33.6",
+          "215.0",
+          "62.7",
+          "42.6",
+          "27.7",
+          "29.7",
+          "153.0",
+          "135.0",
+          "79.8",
+          "68.9"
+        ]
+      }
+    }
+  ],
+  "sample_rows": [
+    {
+      "SEQN": 93703.0,
+      "LBXTFR": NaN,
+      "LBDTFRSI": NaN
+    },
+    {
+      "SEQN": 93704.0,
+      "LBXTFR": 2.59,
+      "LBDTFRSI": 30.6
+    },
+    {
+      "SEQN": 93705.0,
+      "LBXTFR": 3.37,
+      "LBDTFRSI": 39.8
+    }
+  ],
+  "execution": {
+    "status": "success",
+    "seconds": 0.04,
+    "processed_at": "2026-06-11T21:18:56.205197",
+    "attempt": 1
+  }
+}

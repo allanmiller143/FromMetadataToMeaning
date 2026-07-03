@@ -1,0 +1,641 @@
+{
+  "schema": "nhanes_laboratory",
+  "table_name": "fr_j",
+  "row_count": 2986,
+  "primary_key": [],
+  "foreign_keys": [],
+  "columns": [
+    {
+      "name": "SEQN",
+      "type": "DOUBLE PRECISION",
+      "nullable": true,
+      "stats": {
+        "null_count": 0,
+        "distinct_count": 2986,
+        "null_percentage": 0.0,
+        "numeric_stats": {
+          "avg": 98345.420964501,
+          "min": 93706.0,
+          "max": 102955.0,
+          "stddev": 2657.279434039394
+        },
+        "sample_values": [
+          "99729.0",
+          "100500.0",
+          "97230.0",
+          "96472.0",
+          "102403.0",
+          "100958.0",
+          "97209.0",
+          "96347.0",
+          "100331.0",
+          "94390.0",
+          "94262.0",
+          "101864.0",
+          "95105.0",
+          "94383.0",
+          "95960.0"
+        ]
+      }
+    },
+    {
+      "name": "WTSB2YR",
+      "type": "DOUBLE PRECISION",
+      "nullable": true,
+      "stats": {
+        "null_count": 0,
+        "distinct_count": 2720,
+        "null_percentage": 0.0,
+        "numeric_stats": {
+          "avg": 103570.83085839647,
+          "min": 5.397605346934028e-79,
+          "max": 1395405.465402,
+          "stddev": 132452.97707034872
+        },
+        "sample_values": [
+          "45811.186673",
+          "37144.57136",
+          "23932.883542",
+          "33815.064129",
+          "735513.793498",
+          "66559.341601",
+          "174227.653326",
+          "30003.721397",
+          "70774.574718",
+          "22584.787554",
+          "68407.606574",
+          "309407.599385",
+          "22228.617698",
+          "291691.397786",
+          "334313.192689"
+        ]
+      }
+    },
+    {
+      "name": "URXBCPP",
+      "type": "DOUBLE PRECISION",
+      "nullable": true,
+      "stats": {
+        "null_count": 185,
+        "distinct_count": 597,
+        "null_percentage": 6.2,
+        "numeric_stats": {
+          "avg": 0.3129630132095626,
+          "min": 0.0707,
+          "max": 26.1,
+          "stddev": 0.9543720663063099
+        },
+        "frequent_values": [
+          {
+            "value": "0.0707",
+            "count": 1512
+          },
+          {
+            "value": "0.108",
+            "count": 11
+          },
+          {
+            "value": "0.106",
+            "count": 11
+          },
+          {
+            "value": "0.114",
+            "count": 9
+          },
+          {
+            "value": "0.131",
+            "count": 9
+          }
+        ],
+        "sample_values": [
+          "0.431",
+          "0.427",
+          "0.349",
+          "2.41",
+          "0.316",
+          "0.473",
+          "0.365",
+          "0.871",
+          "4.84",
+          "0.282",
+          "0.105",
+          "0.783",
+          "0.114",
+          "1.32",
+          "0.276"
+        ]
+      }
+    },
+    {
+      "name": "URDBCPLC",
+      "type": "DOUBLE PRECISION",
+      "nullable": true,
+      "stats": {
+        "null_count": 185,
+        "distinct_count": 2,
+        "null_percentage": 6.2,
+        "numeric_stats": {
+          "avg": 0.5398072117101035,
+          "min": 5.397605346934028e-79,
+          "max": 1.0,
+          "stddev": 0.49850186125684953
+        },
+        "frequent_values": [
+          {
+            "value": "1.0",
+            "count": 1512
+          },
+          {
+            "value": "5.397605346934028e-79",
+            "count": 1289
+          }
+        ],
+        "sample_values": [
+          "5.397605346934028e-79",
+          "1.0"
+        ]
+      }
+    },
+    {
+      "name": "URXBCEP",
+      "type": "DOUBLE PRECISION",
+      "nullable": true,
+      "stats": {
+        "null_count": 183,
+        "distinct_count": 981,
+        "null_percentage": 6.13,
+        "numeric_stats": {
+          "avg": 1.332794042097771,
+          "min": 0.0707,
+          "max": 268.0,
+          "stddev": 8.974704948585503
+        },
+        "frequent_values": [
+          {
+            "value": "0.0707",
+            "count": 591
+          },
+          {
+            "value": "1.1",
+            "count": 13
+          },
+          {
+            "value": "1.12",
+            "count": 10
+          },
+          {
+            "value": "0.231",
+            "count": 9
+          },
+          {
+            "value": "0.349",
+            "count": 9
+          }
+        ],
+        "sample_values": [
+          "0.945",
+          "0.365",
+          "0.473",
+          "0.871",
+          "0.884",
+          "0.282",
+          "0.376",
+          "0.596",
+          "1.32",
+          "0.136",
+          "0.651",
+          "0.801",
+          "0.264",
+          "0.471",
+          "4.71"
+        ]
+      }
+    },
+    {
+      "name": "URDCEPLC",
+      "type": "DOUBLE PRECISION",
+      "nullable": true,
+      "stats": {
+        "null_count": 183,
+        "distinct_count": 2,
+        "null_percentage": 6.13,
+        "numeric_stats": {
+          "avg": 0.21084552265429896,
+          "min": 5.397605346934028e-79,
+          "max": 1.0,
+          "stddev": 0.40798170388331995
+        },
+        "frequent_values": [
+          {
+            "value": "5.397605346934028e-79",
+            "count": 2212
+          },
+          {
+            "value": "1.0",
+            "count": 591
+          }
+        ],
+        "sample_values": [
+          "1.0",
+          "5.397605346934028e-79"
+        ]
+      }
+    },
+    {
+      "name": "URXBDCP",
+      "type": "DOUBLE PRECISION",
+      "nullable": true,
+      "stats": {
+        "null_count": 186,
+        "distinct_count": 1303,
+        "null_percentage": 6.23,
+        "numeric_stats": {
+          "avg": 3.2720756428571565,
+          "min": 0.0707,
+          "max": 260.0,
+          "stddev": 8.332183435584557
+        },
+        "frequent_values": [
+          {
+            "value": "0.0707",
+            "count": 74
+          },
+          {
+            "value": "1.1",
+            "count": 13
+          },
+          {
+            "value": "1.18",
+            "count": 12
+          },
+          {
+            "value": "1.14",
+            "count": 11
+          },
+          {
+            "value": "1.02",
+            "count": 11
+          }
+        ],
+        "sample_values": [
+          "0.945",
+          "5.38",
+          "5.33",
+          "0.884",
+          "4.8",
+          "3.23",
+          "0.376",
+          "6.65",
+          "0.783",
+          "0.596",
+          "1.32",
+          "0.136",
+          "0.937",
+          "0.651",
+          "0.801"
+        ]
+      }
+    },
+    {
+      "name": "URDBDCLC",
+      "type": "DOUBLE PRECISION",
+      "nullable": true,
+      "stats": {
+        "null_count": 186,
+        "distinct_count": 2,
+        "null_percentage": 6.23,
+        "numeric_stats": {
+          "avg": 0.02642857142857143,
+          "min": 5.397605346934028e-79,
+          "max": 1.0,
+          "stddev": 0.16043470524187428
+        },
+        "frequent_values": [
+          {
+            "value": "5.397605346934028e-79",
+            "count": 2726
+          },
+          {
+            "value": "1.0",
+            "count": 74
+          }
+        ],
+        "sample_values": [
+          "1.0",
+          "5.397605346934028e-79"
+        ]
+      }
+    },
+    {
+      "name": "URXDBUP",
+      "type": "DOUBLE PRECISION",
+      "nullable": true,
+      "stats": {
+        "null_count": 187,
+        "distinct_count": 620,
+        "null_percentage": 6.26,
+        "numeric_stats": {
+          "avg": 0.3867212933190371,
+          "min": 0.0707,
+          "max": 62.3,
+          "stddev": 1.704064530673681
+        },
+        "frequent_values": [
+          {
+            "value": "0.0707",
+            "count": 1317
+          },
+          {
+            "value": "0.109",
+            "count": 15
+          },
+          {
+            "value": "0.123",
+            "count": 15
+          },
+          {
+            "value": "0.15",
+            "count": 14
+          },
+          {
+            "value": "0.104",
+            "count": 13
+          }
+        ],
+        "sample_values": [
+          "0.349",
+          "0.427",
+          "0.365",
+          "0.871",
+          "0.376",
+          "0.105",
+          "0.542",
+          "3.0",
+          "0.114",
+          "3.06",
+          "1.32",
+          "0.276",
+          "0.136",
+          "0.584",
+          "0.264"
+        ]
+      }
+    },
+    {
+      "name": "URDDUPLC",
+      "type": "DOUBLE PRECISION",
+      "nullable": true,
+      "stats": {
+        "null_count": 187,
+        "distinct_count": 2,
+        "null_percentage": 6.26,
+        "numeric_stats": {
+          "avg": 0.4705251875669882,
+          "min": 5.397605346934028e-79,
+          "max": 1.0,
+          "stddev": 0.49921966555072594
+        },
+        "frequent_values": [
+          {
+            "value": "5.397605346934028e-79",
+            "count": 1482
+          },
+          {
+            "value": "1.0",
+            "count": 1317
+          }
+        ],
+        "sample_values": [
+          "1.0",
+          "5.397605346934028e-79"
+        ]
+      }
+    },
+    {
+      "name": "URXDPHP",
+      "type": "DOUBLE PRECISION",
+      "nullable": true,
+      "stats": {
+        "null_count": 181,
+        "distinct_count": 1240,
+        "null_percentage": 6.06,
+        "numeric_stats": {
+          "avg": 2.3862031372549097,
+          "min": 0.0707,
+          "max": 270.0,
+          "stddev": 7.64620196472151
+        },
+        "frequent_values": [
+          {
+            "value": "0.0707",
+            "count": 84
+          },
+          {
+            "value": "1.14",
+            "count": 17
+          },
+          {
+            "value": "1.26",
+            "count": 16
+          },
+          {
+            "value": "1.21",
+            "count": 13
+          },
+          {
+            "value": "1.31",
+            "count": 12
+          }
+        ],
+        "sample_values": [
+          "0.365",
+          "5.38",
+          "0.473",
+          "0.871",
+          "4.84",
+          "4.8",
+          "3.23",
+          "0.282",
+          "0.376",
+          "0.783",
+          "6.65",
+          "1.32",
+          "0.596",
+          "0.937",
+          "0.136"
+        ]
+      }
+    },
+    {
+      "name": "URDDPHLC",
+      "type": "DOUBLE PRECISION",
+      "nullable": true,
+      "stats": {
+        "null_count": 181,
+        "distinct_count": 2,
+        "null_percentage": 6.06,
+        "numeric_stats": {
+          "avg": 0.029946524064171122,
+          "min": 5.397605346934028e-79,
+          "max": 1.0,
+          "stddev": 0.17047020227589185
+        },
+        "frequent_values": [
+          {
+            "value": "5.397605346934028e-79",
+            "count": 2721
+          },
+          {
+            "value": "1.0",
+            "count": 84
+          }
+        ],
+        "sample_values": [
+          "1.0",
+          "5.397605346934028e-79"
+        ]
+      }
+    },
+    {
+      "name": "URXTBBA",
+      "type": "DOUBLE PRECISION",
+      "nullable": true,
+      "stats": {
+        "null_count": 181,
+        "distinct_count": 126,
+        "null_percentage": 6.06,
+        "numeric_stats": {
+          "avg": 0.04387978609625542,
+          "min": 0.0354,
+          "max": 1.36,
+          "stddev": 0.052854976754460666
+        },
+        "frequent_values": [
+          {
+            "value": "0.0354",
+            "count": 2572
+          },
+          {
+            "value": "0.052",
+            "count": 9
+          },
+          {
+            "value": "0.051",
+            "count": 8
+          },
+          {
+            "value": "0.05",
+            "count": 7
+          },
+          {
+            "value": "0.06",
+            "count": 7
+          }
+        ],
+        "sample_values": [
+          "0.059",
+          "0.419",
+          "0.112",
+          "0.197",
+          "0.084",
+          "0.24",
+          "0.105",
+          "0.438",
+          "0.398",
+          "0.26",
+          "0.136",
+          "0.091",
+          "0.222",
+          "0.665",
+          "0.264"
+        ]
+      }
+    },
+    {
+      "name": "URDBBALC",
+      "type": "DOUBLE PRECISION",
+      "nullable": true,
+      "stats": {
+        "null_count": 181,
+        "distinct_count": 2,
+        "null_percentage": 6.06,
+        "numeric_stats": {
+          "avg": 0.9169340463458111,
+          "min": 5.397605346934028e-79,
+          "max": 1.0,
+          "stddev": 0.27603109306046186
+        },
+        "frequent_values": [
+          {
+            "value": "1.0",
+            "count": 2572
+          },
+          {
+            "value": "5.397605346934028e-79",
+            "count": 233
+          }
+        ],
+        "sample_values": [
+          "5.397605346934028e-79",
+          "1.0"
+        ]
+      }
+    }
+  ],
+  "sample_rows": [
+    {
+      "SEQN": 93706.0,
+      "WTSB2YR": 26027.047633,
+      "URXBCPP": 0.0707,
+      "URDBCPLC": 1.0,
+      "URXBCEP": 0.226,
+      "URDCEPLC": 5.397605346934028e-79,
+      "URXBDCP": 2.12,
+      "URDBDCLC": 5.397605346934028e-79,
+      "URXDBUP": 0.102,
+      "URDDUPLC": 5.397605346934028e-79,
+      "URXDPHP": 0.512,
+      "URDDPHLC": 5.397605346934028e-79,
+      "URXTBBA": 0.0354,
+      "URDBBALC": 1.0
+    },
+    {
+      "SEQN": 93715.0,
+      "WTSB2YR": 28400.583165,
+      "URXBCPP": 0.0707,
+      "URDBCPLC": 1.0,
+      "URXBCEP": 0.322,
+      "URDCEPLC": 5.397605346934028e-79,
+      "URXBDCP": 1.44,
+      "URDBDCLC": 5.397605346934028e-79,
+      "URXDBUP": 0.0707,
+      "URDDUPLC": 1.0,
+      "URXDPHP": 0.963,
+      "URDDPHLC": 5.397605346934028e-79,
+      "URXTBBA": 0.0354,
+      "URDBBALC": 1.0
+    },
+    {
+      "SEQN": 93717.0,
+      "WTSB2YR": 141021.884734,
+      "URXBCPP": 0.0707,
+      "URDBCPLC": 1.0,
+      "URXBCEP": 3.27,
+      "URDCEPLC": 5.397605346934028e-79,
+      "URXBDCP": 260.0,
+      "URDBDCLC": 5.397605346934028e-79,
+      "URXDBUP": 0.57,
+      "URDDUPLC": 5.397605346934028e-79,
+      "URXDPHP": 36.7,
+      "URDDPHLC": 5.397605346934028e-79,
+      "URXTBBA": 0.078,
+      "URDBBALC": 5.397605346934028e-79
+    }
+  ],
+  "execution": {
+    "status": "success",
+    "seconds": 0.18,
+    "processed_at": "2026-06-11T21:18:33.962678",
+    "attempt": 1
+  }
+}
