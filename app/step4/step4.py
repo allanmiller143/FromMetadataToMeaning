@@ -19,7 +19,7 @@ import matplotlib.pyplot as plt
 # CONFIG
 # =========================
 ROOT_DIR = Path(__file__).resolve().parents[2]
-DATA_DIR = ROOT_DIR / "data"
+DATA_DIR = ROOT_DIR / "data" / "nhanes"
 INPUT_DIR = DATA_DIR / "step3_output"
 OUTPUT_DIR = DATA_DIR / "step4_output"
 OUTPUT_DIR.mkdir(parents=True, exist_ok=True)

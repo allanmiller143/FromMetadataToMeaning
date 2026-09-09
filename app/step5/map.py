@@ -356,6 +356,17 @@ def build_interactive_map_v3(som, themes, embeddings, macrothemes, occurrences, 
         const tooltip = d3.select("#tooltip");
         const sidebar = d3.select("#sidebar");
 
+        // ===== NORMALIZAÇÃO DE TEXTO PARA BUSCA (remove acentos, trata hífen/underline/espaço) =====
+        function normalizeText(str) {{
+            return (str || "")
+                .toString()
+                .normalize("NFD")
+                .replace(/[\\u0300-\\u036f]/g, "")
+                .toLowerCase()
+                .replace(/[-_\\s]+/g, " ")
+                .trim();
+        }}
+
         let macroQuery = "";
         let themeQuery = "";
         let sidebarFilter = "";
@@ -393,11 +404,11 @@ def build_interactive_map_v3(som, themes, embeddings, macrothemes, occurrences, 
                 return;
             }}
             
-            const tQ = themeQuery.toLowerCase().trim();
-            const sF = sidebarFilter.toLowerCase().trim();
+            const tQ = normalizeText(themeQuery);
+            const sF = normalizeText(sidebarFilter);
             
             const filteredThemes = d.themes.filter(t => 
-                (sF === "" || t.theme.toLowerCase().includes(sF))
+                (sF === "" || normalizeText(t.theme).includes(sF))
             );
 
             let html = `
@@ -419,7 +430,7 @@ def build_interactive_map_v3(som, themes, embeddings, macrothemes, occurrences, 
             `;
             
             html += filteredThemes.map(t => {{
-                const match = tQ !== "" && t.theme.toLowerCase().includes(tQ);
+                const match = tQ !== "" && normalizeText(t.theme).includes(tQ);
                 const highlightStyle = match ? 'style="background: rgba(255, 159, 67, 0.15); border-left: 3px solid var(--primary); padding-left: 8px;"' : 'style="padding-left: 8px;"';
                 
                 const tablesHtml = t.tables && t.tables.length > 0 
@@ -560,10 +571,10 @@ def build_interactive_map_v3(som, themes, embeddings, macrothemes, occurrences, 
         function updateTooltip(event, d) {{
             let content = `<span class="t-macro">${{d.macro || "Sem Macrotema"}}</span>`;
             content += `<div style="margin-bottom:8px; font-size:0.7rem; color:#aaa;">Neurônio: (${{d.x}}, ${{d.y}}) | Temas: ${{d.count}}</div>`;
-            const tQ = themeQuery.toLowerCase().trim();
+            const tQ = normalizeText(themeQuery);
             const visibleThemes = d.themes.slice(0, 10);
             content += visibleThemes.map(t => {{
-                const match = tQ !== "" && t.theme.toLowerCase().includes(tQ);
+                const match = tQ !== "" && normalizeText(t.theme).includes(tQ);
                 const style = match ? 'style="color:var(--primary); font-weight:bold;"' : '';
                 return `<div ${{style}}>• ${{t.theme}} (${{t.freq}})</div>`;
             }}).join("");
@@ -572,13 +583,13 @@ def build_interactive_map_v3(som, themes, embeddings, macrothemes, occurrences, 
         }}
 
         function applyFilters() {{
-            const mQ = macroQuery.toLowerCase().trim();
-            const tQ = themeQuery.toLowerCase().trim();
+            const mQ = normalizeText(macroQuery);
+            const tQ = normalizeText(themeQuery);
             g.selectAll(".hexagon:not(.empty)").each(function(d) {{
-                const macroName = (d.macro || "").toLowerCase();
+                const macroName = normalizeText(d.macro || "");
                 const hasMacroMatch = mQ === "" || macroName.includes(mQ);
                 const isMacroActive = !activeMacro || d.macro === activeMacro;
-                const hasThemeMatch = tQ === "" || d.themes.some(t => t.theme.toLowerCase().includes(tQ));
+                const hasThemeMatch = tQ === "" || d.themes.some(t => normalizeText(t.theme).includes(tQ));
                 const isVisible = hasMacroMatch && isMacroActive && hasThemeMatch;
                 const isSearching = mQ !== "" || tQ !== "" || activeMacro !== null;
                 d3.select(this).classed("dimmed", isSearching && !isVisible).classed("highlight", isSearching && isVisible);

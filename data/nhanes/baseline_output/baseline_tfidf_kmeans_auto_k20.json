@@ -1,0 +1,661 @@
+{
+  "method": "TF-IDF + K-Means",
+  "dataset": "nhanes",
+  "n_tables": 127,
+  "selected_k": 20,
+  "selection_criterion": "highest cosine silhouette score",
+  "k_evaluations": [
+    {
+      "k": 20,
+      "silhouette_score": 0.04175670951157683,
+      "inertia": 100.29385946981837,
+      "smallest_cluster": 1,
+      "largest_cluster": 98
+    },
+    {
+      "k": 22,
+      "silhouette_score": 0.04062753281284176,
+      "inertia": 98.3745118668469,
+      "smallest_cluster": 1,
+      "largest_cluster": 97
+    },
+    {
+      "k": 14,
+      "silhouette_score": 0.0386570173644343,
+      "inertia": 106.41734504599638,
+      "smallest_cluster": 1,
+      "largest_cluster": 106
+    },
+    {
+      "k": 13,
+      "silhouette_score": 0.03847635554127067,
+      "inertia": 107.4662915005545,
+      "smallest_cluster": 1,
+      "largest_cluster": 107
+    },
+    {
+      "k": 21,
+      "silhouette_score": 0.03716357173485284,
+      "inertia": 99.35007757952883,
+      "smallest_cluster": 1,
+      "largest_cluster": 96
+    },
+    {
+      "k": 18,
+      "silhouette_score": 0.03681972306621571,
+      "inertia": 102.37937099806706,
+      "smallest_cluster": 1,
+      "largest_cluster": 99
+    },
+    {
+      "k": 15,
+      "silhouette_score": 0.03643463499765391,
+      "inertia": 105.41339060069913,
+      "smallest_cluster": 1,
+      "largest_cluster": 102
+    },
+    {
+      "k": 5,
+      "silhouette_score": 0.035861634504867276,
+      "inertia": 115.86644151474265,
+      "smallest_cluster": 2,
+      "largest_cluster": 113
+    },
+    {
+      "k": 7,
+      "silhouette_score": 0.03583599140032417,
+      "inertia": 113.90429874113133,
+      "smallest_cluster": 1,
+      "largest_cluster": 111
+    },
+    {
+      "k": 19,
+      "silhouette_score": 0.03564244482153392,
+      "inertia": 101.47734958679017,
+      "smallest_cluster": 1,
+      "largest_cluster": 99
+    },
+    {
+      "k": 17,
+      "silhouette_score": 0.035452169977216084,
+      "inertia": 103.47363061243672,
+      "smallest_cluster": 1,
+      "largest_cluster": 101
+    },
+    {
+      "k": 11,
+      "silhouette_score": 0.034920318942352965,
+      "inertia": 109.44144526482295,
+      "smallest_cluster": 1,
+      "largest_cluster": 107
+    },
+    {
+      "k": 12,
+      "silhouette_score": 0.03491423961492462,
+      "inertia": 108.44993183325583,
+      "smallest_cluster": 1,
+      "largest_cluster": 106
+    },
+    {
+      "k": 9,
+      "silhouette_score": 0.03479908221151188,
+      "inertia": 111.96903879082979,
+      "smallest_cluster": 1,
+      "largest_cluster": 110
+    },
+    {
+      "k": 10,
+      "silhouette_score": 0.03477698574442197,
+      "inertia": 110.47041303293628,
+      "smallest_cluster": 1,
+      "largest_cluster": 108
+    },
+    {
+      "k": 8,
+      "silhouette_score": 0.03447996855009727,
+      "inertia": 112.4682429574782,
+      "smallest_cluster": 1,
+      "largest_cluster": 110
+    },
+    {
+      "k": 4,
+      "silhouette_score": 0.0344270109978673,
+      "inertia": 116.95495732267584,
+      "smallest_cluster": 2,
+      "largest_cluster": 115
+    },
+    {
+      "k": 3,
+      "silhouette_score": 0.034269388179899746,
+      "inertia": 117.97460753691732,
+      "smallest_cluster": 2,
+      "largest_cluster": 117
+    },
+    {
+      "k": 16,
+      "silhouette_score": 0.03401362413980132,
+      "inertia": 104.54170325652123,
+      "smallest_cluster": 1,
+      "largest_cluster": 103
+    },
+    {
+      "k": 23,
+      "silhouette_score": 0.03333751891181899,
+      "inertia": 97.37017223698447,
+      "smallest_cluster": 1,
+      "largest_cluster": 95
+    },
+    {
+      "k": 6,
+      "silhouette_score": 0.029191251208019665,
+      "inertia": 114.7649533579031,
+      "smallest_cluster": 1,
+      "largest_cluster": 113
+    },
+    {
+      "k": 2,
+      "silhouette_score": 0.028496605045827763,
+      "inertia": 119.3157780457251,
+      "smallest_cluster": 8,
+      "largest_cluster": 119
+    }
+  ],
+  "clusters": [
+    {
+      "cluster_id": 0,
+      "cluster_label": "seqn | ssagp | acq",
+      "cluster_terms": [
+        "seqn",
+        "ssagp",
+        "acq"
+      ],
+      "n_tables": 98,
+      "tables": [
+        "nhanes_demographics.demo_j",
+        "nhanes_examination.aux_j",
+        "nhanes_examination.auxar_j",
+        "nhanes_examination.auxtym_j",
+        "nhanes_examination.auxwbr_j",
+        "nhanes_examination.bmx_j",
+        "nhanes_examination.bpx_j",
+        "nhanes_examination.bpxo_j",
+        "nhanes_examination.dxx_j",
+        "nhanes_examination.dxxag_j",
+        "nhanes_examination.dxxfem_j",
+        "nhanes_examination.dxxspn_j",
+        "nhanes_examination.lux_j",
+        "nhanes_laboratory.alb_cr_j",
+        "nhanes_laboratory.cmv_j",
+        "nhanes_laboratory.crco_j",
+        "nhanes_laboratory.ephpp_j",
+        "nhanes_laboratory.ethox_j",
+        "nhanes_laboratory.fastqx_j",
+        "nhanes_laboratory.fertin_j",
+        "nhanes_laboratory.fetib_j",
+        "nhanes_laboratory.folate_j",
+        "nhanes_laboratory.fr_j",
+        "nhanes_laboratory.ghb_j",
+        "nhanes_laboratory.hdl_j",
+        "nhanes_laboratory.hepa_j",
+        "nhanes_laboratory.hepb_s_j",
+        "nhanes_laboratory.hepbd_j",
+        "nhanes_laboratory.hepc_j",
+        "nhanes_laboratory.hepe_j",
+        "nhanes_laboratory.hiv_j",
+        "nhanes_laboratory.hscrp_j",
+        "nhanes_laboratory.ihgem_j",
+        "nhanes_laboratory.ins_j",
+        "nhanes_laboratory.opd_j",
+        "nhanes_laboratory.pah_j",
+        "nhanes_laboratory.pbcd_j",
+        "nhanes_laboratory.pernt_j",
+        "nhanes_laboratory.phthte_j",
+        "nhanes_laboratory.ssagp_j",
+        "nhanes_laboratory.ssfr_j",
+        "nhanes_laboratory.sspfas_j",
+        "nhanes_laboratory.sstst_j",
+        "nhanes_laboratory.ssuvcm_j",
+        "nhanes_laboratory.ssuvoc_j",
+        "nhanes_laboratory.tchol_j",
+        "nhanes_laboratory.tfr_j",
+        "nhanes_laboratory.uas_j",
+        "nhanes_laboratory.ucflow_j",
+        "nhanes_laboratory.ucpreg_j",
+        "nhanes_laboratory.uhg_j",
+        "nhanes_laboratory.uio_j",
+        "nhanes_laboratory.uni_j",
+        "nhanes_laboratory.utas_j",
+        "nhanes_laboratory.vic_j",
+        "nhanes_laboratory.vitaec_j",
+        "nhanes_laboratory.vocwb_j",
+        "nhanes_questionnaire.acq_j",
+        "nhanes_questionnaire.alq_j",
+        "nhanes_questionnaire.auq_j",
+        "nhanes_questionnaire.bpq_j",
+        "nhanes_questionnaire.cbq_j",
+        "nhanes_questionnaire.cbqpfa_j",
+        "nhanes_questionnaire.cbqpfc_j",
+        "nhanes_questionnaire.cdq_j",
+        "nhanes_questionnaire.dbq_j",
+        "nhanes_questionnaire.deq_j",
+        "nhanes_questionnaire.diq_j",
+        "nhanes_questionnaire.dlq_j",
+        "nhanes_questionnaire.dpq_j",
+        "nhanes_questionnaire.duq_j",
+        "nhanes_questionnaire.ecq_j",
+        "nhanes_questionnaire.fsq_j",
+        "nhanes_questionnaire.heq_j",
+        "nhanes_questionnaire.hiq_j",
+        "nhanes_questionnaire.hoq_j",
+        "nhanes_questionnaire.hsq_j",
+        "nhanes_questionnaire.huq_j",
+        "nhanes_questionnaire.imq_j",
+        "nhanes_questionnaire.inq_j",
+        "nhanes_questionnaire.kiq_u_j",
+        "nhanes_questionnaire.mcq_j",
+        "nhanes_questionnaire.ocq_j",
+        "nhanes_questionnaire.ohq_j",
+        "nhanes_questionnaire.osq_j",
+        "nhanes_questionnaire.paq_j",
+        "nhanes_questionnaire.paqy_j",
+        "nhanes_questionnaire.pfq_j",
+        "nhanes_questionnaire.puqmec_j",
+        "nhanes_questionnaire.rhq_j",
+        "nhanes_questionnaire.rxq_rx_j",
+        "nhanes_questionnaire.rxqasa_j",
+        "nhanes_questionnaire.slq_j",
+        "nhanes_questionnaire.smq_j",
+        "nhanes_questionnaire.smqfam_j",
+        "nhanes_questionnaire.vtq_j",
+        "nhanes_questionnaire.whq_j",
+        "nhanes_questionnaire.whqmec_j"
+      ]
+    },
+    {
+      "cluster_id": 1,
+      "cluster_label": "smaquex | smqshs | smqrtu",
+      "cluster_terms": [
+        "smaquex",
+        "smqshs",
+        "smqrtu"
+      ],
+      "n_tables": 2,
+      "tables": [
+        "nhanes_questionnaire.smqrtu_j",
+        "nhanes_questionnaire.smqshs_j"
+      ]
+    },
+    {
+      "cluster_id": 2,
+      "cluster_label": "name | file | data",
+      "cluster_terms": [
+        "name",
+        "file",
+        "data"
+      ],
+      "n_tables": 2,
+      "tables": [
+        "nhanes_admin.load_catalog",
+        "nhanes_laboratory.biopro_j"
+      ]
+    },
+    {
+      "cluster_id": 3,
+      "cluster_label": "drdint | drabf | seqn",
+      "cluster_terms": [
+        "drdint",
+        "drabf",
+        "seqn"
+      ],
+      "n_tables": 6,
+      "tables": [
+        "nhanes_dietary.dr1iff_j",
+        "nhanes_dietary.dr1tot_j",
+        "nhanes_dietary.dr2iff_j",
+        "nhanes_dietary.dr2tot_j",
+        "nhanes_dietary.ds1tot_j",
+        "nhanes_dietary.ds2tot_j"
+      ]
+    },
+    {
+      "cluster_id": 4,
+      "cluster_label": "urdnoxlc | urdniclc | urdnctlc",
+      "cluster_terms": [
+        "urdnoxlc",
+        "urdniclc",
+        "urdnctlc"
+      ],
+      "n_tables": 1,
+      "tables": [
+        "nhanes_laboratory.ucot_j"
+      ]
+    },
+    {
+      "cluster_id": 5,
+      "cluster_label": "trigly | lbxtr | lbdtrsi",
+      "cluster_terms": [
+        "trigly",
+        "lbxtr",
+        "lbdtrsi"
+      ],
+      "n_tables": 1,
+      "tables": [
+        "nhanes_laboratory.trigly_j"
+      ]
+    },
+    {
+      "cluster_id": 6,
+      "cluster_label": "dsqilz | dsqichl | dsqizinc",
+      "cluster_terms": [
+        "dsqilz",
+        "dsqichl",
+        "dsqizinc"
+      ],
+      "n_tables": 1,
+      "tables": [
+        "nhanes_dietary.dsqids_j"
+      ]
+    },
+    {
+      "cluster_id": 7,
+      "cluster_label": "ssglyp | ssglypl | seqn",
+      "cluster_terms": [
+        "ssglyp",
+        "ssglypl",
+        "seqn"
+      ],
+      "n_tables": 1,
+      "tables": [
+        "nhanes_laboratory.ssglyp_j"
+      ]
+    },
+    {
+      "cluster_id": 8,
+      "cluster_label": "lbxhct | lbxcot | lbdhctlc",
+      "cluster_terms": [
+        "lbxhct",
+        "lbxcot",
+        "lbdhctlc"
+      ],
+      "n_tables": 2,
+      "tables": [
+        "nhanes_laboratory.cbc_j",
+        "nhanes_laboratory.cot_j"
+      ]
+    },
+    {
+      "cluster_id": 9,
+      "cluster_label": "urxmal | urdmallc | uphopm",
+      "cluster_terms": [
+        "urxmal",
+        "urdmallc",
+        "uphopm"
+      ],
+      "n_tables": 1,
+      "tables": [
+        "nhanes_laboratory.uphopm_j"
+      ]
+    },
+    {
+      "cluster_id": 10,
+      "cluster_label": "urxucm | urducmlc | ucm",
+      "cluster_terms": [
+        "urxucm",
+        "urducmlc",
+        "ucm"
+      ],
+      "n_tables": 1,
+      "tables": [
+        "nhanes_laboratory.ucm_j"
+      ]
+    },
+    {
+      "cluster_id": 11,
+      "cluster_label": "ohdexsts | ohddests | ohxrreso",
+      "cluster_terms": [
+        "ohdexsts",
+        "ohddests",
+        "ohxrreso"
+      ],
+      "n_tables": 2,
+      "tables": [
+        "nhanes_examination.ohxden_j",
+        "nhanes_examination.ohxref_j"
+      ]
+    },
+    {
+      "cluster_id": 12,
+      "cluster_label": "lbxvidms | vid | lbdvidlc",
+      "cluster_terms": [
+        "lbxvidms",
+        "vid",
+        "lbdvidlc"
+      ],
+      "n_tables": 1,
+      "tables": [
+        "nhanes_laboratory.vid_j"
+      ]
+    },
+    {
+      "cluster_id": 13,
+      "cluster_label": "dsqtmfat | dsqtzinc | dsqtvk",
+      "cluster_terms": [
+        "dsqtmfat",
+        "dsqtzinc",
+        "dsqtvk"
+      ],
+      "n_tables": 1,
+      "tables": [
+        "nhanes_dietary.dsqtot_j"
+      ]
+    },
+    {
+      "cluster_id": 14,
+      "cluster_label": "dsdsupp | dsdpid | drdint",
+      "cluster_terms": [
+        "dsdsupp",
+        "dsdpid",
+        "drdint"
+      ],
+      "n_tables": 2,
+      "tables": [
+        "nhanes_dietary.ds1ids_j",
+        "nhanes_dietary.ds2ids_j"
+      ]
+    },
+    {
+      "cluster_id": 15,
+      "cluster_label": "urxhem | urdamclc | urxgam",
+      "cluster_terms": [
+        "urxhem",
+        "urdamclc",
+        "urxgam"
+      ],
+      "n_tables": 1,
+      "tables": [
+        "nhanes_laboratory.uvoc_j"
+      ]
+    },
+    {
+      "cluster_id": 16,
+      "cluster_label": "lbxpfhs | lbxpfde | lbxmpah",
+      "cluster_terms": [
+        "lbxpfhs",
+        "lbxpfde",
+        "lbxmpah"
+      ],
+      "n_tables": 1,
+      "tables": [
+        "nhanes_laboratory.pfas_j"
+      ]
+    },
+    {
+      "cluster_id": 17,
+      "cluster_label": "lbxglu | lbdglusi | glu",
+      "cluster_terms": [
+        "lbxglu",
+        "lbdglusi",
+        "glu"
+      ],
+      "n_tables": 1,
+      "tables": [
+        "nhanes_laboratory.glu_j"
+      ]
+    },
+    {
+      "cluster_id": 18,
+      "cluster_label": "urdusnlc | urxucs | urdusblc",
+      "cluster_terms": [
+        "urdusnlc",
+        "urxucs",
+        "urdusblc"
+      ],
+      "n_tables": 1,
+      "tables": [
+        "nhanes_laboratory.um_j"
+      ]
+    },
+    {
+      "cluster_id": 19,
+      "cluster_label": "ssandlc | ssfluplc | ssflup",
+      "cluster_terms": [
+        "ssandlc",
+        "ssfluplc",
+        "ssflup"
+      ],
+      "n_tables": 1,
+      "tables": [
+        "nhanes_laboratory.ssneon_j"
+      ]
+    }
+  ],
+  "table_to_cluster": {
+    "nhanes_admin.load_catalog": 2,
+    "nhanes_demographics.demo_j": 0,
+    "nhanes_dietary.dr1iff_j": 3,
+    "nhanes_dietary.dr1tot_j": 3,
+    "nhanes_dietary.dr2iff_j": 3,
+    "nhanes_dietary.dr2tot_j": 3,
+    "nhanes_dietary.ds1ids_j": 14,
+    "nhanes_dietary.ds1tot_j": 3,
+    "nhanes_dietary.ds2ids_j": 14,
+    "nhanes_dietary.ds2tot_j": 3,
+    "nhanes_dietary.dsqids_j": 6,
+    "nhanes_dietary.dsqtot_j": 13,
+    "nhanes_examination.aux_j": 0,
+    "nhanes_examination.auxar_j": 0,
+    "nhanes_examination.auxtym_j": 0,
+    "nhanes_examination.auxwbr_j": 0,
+    "nhanes_examination.bmx_j": 0,
+    "nhanes_examination.bpx_j": 0,
+    "nhanes_examination.bpxo_j": 0,
+    "nhanes_examination.dxx_j": 0,
+    "nhanes_examination.dxxag_j": 0,
+    "nhanes_examination.dxxfem_j": 0,
+    "nhanes_examination.dxxspn_j": 0,
+    "nhanes_examination.lux_j": 0,
+    "nhanes_examination.ohxden_j": 11,
+    "nhanes_examination.ohxref_j": 11,
+    "nhanes_laboratory.alb_cr_j": 0,
+    "nhanes_laboratory.biopro_j": 2,
+    "nhanes_laboratory.cbc_j": 8,
+    "nhanes_laboratory.cmv_j": 0,
+    "nhanes_laboratory.cot_j": 8,
+    "nhanes_laboratory.crco_j": 0,
+    "nhanes_laboratory.ephpp_j": 0,
+    "nhanes_laboratory.ethox_j": 0,
+    "nhanes_laboratory.fastqx_j": 0,
+    "nhanes_laboratory.fertin_j": 0,
+    "nhanes_laboratory.fetib_j": 0,
+    "nhanes_laboratory.folate_j": 0,
+    "nhanes_laboratory.fr_j": 0,
+    "nhanes_laboratory.ghb_j": 0,
+    "nhanes_laboratory.glu_j": 17,
+    "nhanes_laboratory.hdl_j": 0,
+    "nhanes_laboratory.hepa_j": 0,
+    "nhanes_laboratory.hepb_s_j": 0,
+    "nhanes_laboratory.hepbd_j": 0,
+    "nhanes_laboratory.hepc_j": 0,
+    "nhanes_laboratory.hepe_j": 0,
+    "nhanes_laboratory.hiv_j": 0,
+    "nhanes_laboratory.hscrp_j": 0,
+    "nhanes_laboratory.ihgem_j": 0,
+    "nhanes_laboratory.ins_j": 0,
+    "nhanes_laboratory.opd_j": 0,
+    "nhanes_laboratory.pah_j": 0,
+    "nhanes_laboratory.pbcd_j": 0,
+    "nhanes_laboratory.pernt_j": 0,
+    "nhanes_laboratory.pfas_j": 16,
+    "nhanes_laboratory.phthte_j": 0,
+    "nhanes_laboratory.ssagp_j": 0,
+    "nhanes_laboratory.ssfr_j": 0,
+    "nhanes_laboratory.ssglyp_j": 7,
+    "nhanes_laboratory.ssneon_j": 19,
+    "nhanes_laboratory.sspfas_j": 0,
+    "nhanes_laboratory.sstst_j": 0,
+    "nhanes_laboratory.ssuvcm_j": 0,
+    "nhanes_laboratory.ssuvoc_j": 0,
+    "nhanes_laboratory.tchol_j": 0,
+    "nhanes_laboratory.tfr_j": 0,
+    "nhanes_laboratory.trigly_j": 5,
+    "nhanes_laboratory.uas_j": 0,
+    "nhanes_laboratory.ucflow_j": 0,
+    "nhanes_laboratory.ucm_j": 10,
+    "nhanes_laboratory.ucot_j": 4,
+    "nhanes_laboratory.ucpreg_j": 0,
+    "nhanes_laboratory.uhg_j": 0,
+    "nhanes_laboratory.uio_j": 0,
+    "nhanes_laboratory.um_j": 18,
+    "nhanes_laboratory.uni_j": 0,
+    "nhanes_laboratory.uphopm_j": 9,
+    "nhanes_laboratory.utas_j": 0,
+    "nhanes_laboratory.uvoc_j": 15,
+    "nhanes_laboratory.vic_j": 0,
+    "nhanes_laboratory.vid_j": 12,
+    "nhanes_laboratory.vitaec_j": 0,
+    "nhanes_laboratory.vocwb_j": 0,
+    "nhanes_questionnaire.acq_j": 0,
+    "nhanes_questionnaire.alq_j": 0,
+    "nhanes_questionnaire.auq_j": 0,
+    "nhanes_questionnaire.bpq_j": 0,
+    "nhanes_questionnaire.cbq_j": 0,
+    "nhanes_questionnaire.cbqpfa_j": 0,
+    "nhanes_questionnaire.cbqpfc_j": 0,
+    "nhanes_questionnaire.cdq_j": 0,
+    "nhanes_questionnaire.dbq_j": 0,
+    "nhanes_questionnaire.deq_j": 0,
+    "nhanes_questionnaire.diq_j": 0,
+    "nhanes_questionnaire.dlq_j": 0,
+    "nhanes_questionnaire.dpq_j": 0,
+    "nhanes_questionnaire.duq_j": 0,
+    "nhanes_questionnaire.ecq_j": 0,
+    "nhanes_questionnaire.fsq_j": 0,
+    "nhanes_questionnaire.heq_j": 0,
+    "nhanes_questionnaire.hiq_j": 0,
+    "nhanes_questionnaire.hoq_j": 0,
+    "nhanes_questionnaire.hsq_j": 0,
+    "nhanes_questionnaire.huq_j": 0,
+    "nhanes_questionnaire.imq_j": 0,
+    "nhanes_questionnaire.inq_j": 0,
+    "nhanes_questionnaire.kiq_u_j": 0,
+    "nhanes_questionnaire.mcq_j": 0,
+    "nhanes_questionnaire.ocq_j": 0,
+    "nhanes_questionnaire.ohq_j": 0,
+    "nhanes_questionnaire.osq_j": 0,
+    "nhanes_questionnaire.paq_j": 0,
+    "nhanes_questionnaire.paqy_j": 0,
+    "nhanes_questionnaire.pfq_j": 0,
+    "nhanes_questionnaire.puqmec_j": 0,
+    "nhanes_questionnaire.rhq_j": 0,
+    "nhanes_questionnaire.rxq_rx_j": 0,
+    "nhanes_questionnaire.rxqasa_j": 0,
+    "nhanes_questionnaire.slq_j": 0,
+    "nhanes_questionnaire.smq_j": 0,
+    "nhanes_questionnaire.smqfam_j": 0,
+    "nhanes_questionnaire.smqrtu_j": 1,
+    "nhanes_questionnaire.smqshs_j": 1,
+    "nhanes_questionnaire.vtq_j": 0,
+    "nhanes_questionnaire.whq_j": 0,
+    "nhanes_questionnaire.whqmec_j": 0
+  }
+}

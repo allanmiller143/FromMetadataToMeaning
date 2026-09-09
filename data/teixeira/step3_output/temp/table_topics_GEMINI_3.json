@@ -1,0 +1,4384 @@
+{
+  "public.TB_MIGRACAO_DADOS": [
+    "Histórico de Atualizações do Sistema",
+    "Desempenho de Migrações",
+    "Controle de Versões de Banco de Dados"
+  ],
+  "public.tb_acomp_cidadaos_vinculados": [
+    "Perfil dos Cidadãos",
+    "Vínculo com Equipes de Saúde",
+    "Endereços e Localização"
+  ],
+  "public.tb_dim_dose_imunobiologico": [
+    "Esquemas Vacinais",
+    "Doses de Reforço",
+    "Tipos de Doses"
+  ],
+  "public.tb_dim_imunobiologico": [
+    "Catálogo de Imunobiológicos",
+    "Tipos de Vacinas",
+    "Vacinas COVID-19"
+  ],
+  "public.ta_ad_cidadao": [
+    "Auditoria de Atendimentos",
+    "Histórico do Paciente",
+    "Diagnósticos (CID-10)"
+  ],
+  "public.ta_evolucao_subjetivo": [
+    "Motivos de Consulta",
+    "Queixas de Pacientes",
+    "Registros de Atendimento"
+  ],
+  "public.tb_acomp_cidadaos_vinc_prcs": [
+    "Tempo de Processamento",
+    "Frequência de Execução",
+    "Monitoramento de Tarefas"
+  ],
+  "public.tb_alim_bebida": [
+    "Tipos de Alimentos",
+    "Categorias Alimentares",
+    "Grupos de Alimentos"
+  ],
+  "public.tb_auditoria_evento": [
+    "Auditoria de Acessos",
+    "Atividade de Usuários",
+    "Fluxo de Atendimento"
+  ],
+  "public.tb_beneficio": [
+    "Benefícios Sociais",
+    "Assistência Social",
+    "Programas Governamentais"
+  ],
+  "public.tb_categ_substancia_alergia": [
+    "Categorias de Alergias",
+    "Tipos de Alérgenos",
+    "Classificação de Substâncias"
+  ],
+  "public.tb_cds_vacinacao": [
+    "Perfil dos Vacinados",
+    "Logística da Vacinação",
+    "Vacinação e Maternidade"
+  ],
+  "public.tb_cds_visita_dom_desfecho": [
+    "Resultados de Visitas Domiciliares",
+    "Saúde Pública",
+    "Classificação de Atendimentos"
+  ],
+  "public.tb_cidadao_bolsa_familia": [
+    "Beneficiários Bolsa Família",
+    "Identificação de Cidadãos",
+    "Análise de Programa Social"
+  ],
+  "public.tb_cnes": [
+    "Estabelecimentos de Saúde",
+    "Localização de Unidades",
+    "Versão do Cadastro"
+  ],
+  "public.tb_cronicidade": [
+    "Classificação de Cronicidade",
+    "Tipos de Condições",
+    "Duração de Doenças"
+  ],
+  "public.tb_dim_agrupador_filtro": [
+    "Estrutura de equipes de saúde",
+    "Distribuição de profissionais de saúde",
+    "Alocação por cargo (CBO)"
+  ],
+  "public.tb_dim_cidadao_pec_grupo": [
+    "Tipos de Identificação",
+    "Unificação de Cadastros",
+    "Agrupamento de Cidadãos"
+  ],
+  "public.tb_dim_grau_vulnerabilidade": [
+    "Vulnerabilidade Clínica",
+    "Classificação de Risco",
+    "Saúde Funcional"
+  ],
+  "public.tb_dim_pic": [
+    "Práticas Integrativas (PICs)",
+    "Terapias Complementares",
+    "Tipos de Tratamentos de Saúde"
+  ],
+  "public.tb_dim_tipo_participacao_atend": [
+    "Tipos de Atendimento",
+    "Canais de Comunicação",
+    "Formas de Participação"
+  ],
+  "public.tb_dim_via_administracao": [
+    "Vias de Administração",
+    "Administração de Medicamentos",
+    "Tratamentos Médicos"
+  ],
+  "public.tb_dim_zika_tipo_exame": [
+    "Resultados de Exames Zika",
+    "Diagnóstico de Zika Congênita",
+    "Tipos de Exames Médicos"
+  ],
+  "public.tb_envio_rnds": [
+    "Erros de Envio RNDS",
+    "Tipos de Registros de Saúde",
+    "Análise de Falhas por Versão"
+  ],
+  "public.tb_fat_cnslddo_ciddo_fai_cid": [
+    "Diagnósticos por Cidadão",
+    "Ocorrência de Doenças",
+    "Perfil de Saúde"
+  ],
+  "public.tb_fat_consolidado_cidadao_fad": [
+    "Último Atendimento do Cidadão",
+    "Atividade do Cidadão",
+    "Recência do Atendimento"
+  ],
+  "public.tb_fat_consolidado_cidadao_fai": [
+    "Saúde Cardiovascular do Cidadão",
+    "Acompanhamento Materno-Infantil",
+    "Condições Crônicas de Saúde"
+  ],
+  "public.tb_fat_consolidado_cidadao_fao": [
+    "Último Atendimento Odontológico",
+    "Acompanhamento de Cidadãos",
+    "Registro de Atendimentos"
+  ],
+  "public.tb_fat_consolidado_cidadao_fci": [
+    "Prevalência de Doenças",
+    "Fatores de Risco",
+    "Perfil de Saúde do Cidadão"
+  ],
+  "public.tb_fat_consolidado_cidadao_fp": [
+    "Triagem Neonatal",
+    "Saúde Infantil",
+    "Acompanhamento de Saúde"
+  ],
+  "public.tb_fat_consolidado_cidadao_fvd": [
+    "Visitas de Agentes de Saúde",
+    "Acompanhamento de Pacientes",
+    "Atualização de Fichas Médicas"
+  ],
+  "public.tb_forma_farmaceutica": [
+    "Formas Farmacêuticas",
+    "Tipos de Medicamentos",
+    "Vias de Administração"
+  ],
+  "public.tb_gravidade": [
+    "Classificação de Severidade",
+    "Níveis de Gravidade",
+    "Categorias de Impacto"
+  ],
+  "public.tb_grupo_atendimento": [
+    "Grupos Prioritários de Vacinação",
+    "Categorias Populacionais",
+    "Critérios de Atendimento em Saúde"
+  ],
+  "public.tb_unidade_medida_tempo": [
+    "Unidades de Tempo",
+    "Classificação Temporal",
+    "Medidas de Duração"
+  ],
+  "public.tl_cds_visita_domiciliar": [
+    "Análise de Visitas Domiciliares",
+    "Perfil Demográfico dos Pacientes",
+    "Distribuição Geográfica da Saúde"
+  ],
+  "public.tl_perfil": [
+    "Perfis Profissionais de Saúde",
+    "Cargos na Saúde Pública",
+    "Estrutura de Equipes de Saúde"
+  ],
+  "public.tb_ad_destino": [
+    "Desfechos de Pacientes",
+    "Destino do Atendimento",
+    "Tipos de Alta Médica"
+  ],
+  "public.tb_grupo_ativ_col": [
+    "Tipos de Atividade Coletiva",
+    "Grupos de Atividade em Saúde",
+    "Atividades por Unidade de Saúde"
+  ],
+  "public.tb_tipo_escoamento_sanitar": [
+    "Saneamento Básico",
+    "Esgotamento Sanitário",
+    "Infraestrutura Sanitária"
+  ],
+  "public.tb_vinculacao_equipes": [
+    "Estrutura de Equipes",
+    "Hierarquia de Equipes",
+    "Vinculação de Equipes"
+  ],
+  "public.tb_ad_modalidade": [
+    "Modalidades de Atendimento",
+    "Tipos de Cuidado Domiciliar",
+    "Classificação de Elegibilidade"
+  ],
+  "public.tb_ad_origem": [
+    "Origem da Admissão",
+    "Encaminhamento de Pacientes",
+    "Níveis de Atendimento de Saúde"
+  ],
+  "public.tb_ad_tipo_elegivel": [
+    "Tipos de Elegibilidade",
+    "Encaminhamentos de Saúde",
+    "Fluxo de Pacientes"
+  ],
+  "public.tb_ad_tipo_inelegivel": [
+    "Critérios de Inelegibilidade",
+    "Motivos Clínicos",
+    "Condições Sociais"
+  ],
+  "public.tb_videochamada": [
+    "Duração de videochamadas",
+    "Frequência de chamadas",
+    "Volume de videochamadas"
+  ],
+  "public.tb_agend_compartilhado": [
+    "Agendamentos Compartilhados",
+    "Participantes de Agendamentos",
+    "Videochamadas em Agendamentos"
+  ],
+  "public.tb_polo_base": [
+    "Infraestrutura dos Polos Base",
+    "Localização dos Polos Base",
+    "Atendimento em Saúde Indígena"
+  ],
+  "public.tb_terra_indigena": [
+    "Cadastro de Terras Indígenas",
+    "Demarcação de Terras",
+    "Status das Terras"
+  ],
+  "public.tb_tipo_area": [
+    "Tipos de Área",
+    "Classificação Geográfica",
+    "Zoneamento Rural/Urbano"
+  ],
+  "public.tb_tipo_terra": [
+    "Classificação de Terras",
+    "Propriedade de Terras"
+  ],
+  "public.rl_atend_obs_responsavel": [
+    "Carga de Trabalho por Responsável",
+    "Performance de Atendimento",
+    "Mapeamento de Responsáveis"
+  ],
+  "public.rl_atend_prof_conduta": [
+    "Condutas em Atendimentos",
+    "Procedimentos por Atendimento",
+    "Associação de Condutas"
+  ],
+  "public.rl_atend_prof_odonto_tipo_encm": [
+    "Encaminhamentos Odontológicos",
+    "Fluxo de Pacientes",
+    "Frequência de Encaminhamentos"
+  ],
+  "public.rl_atend_prof_odonto_tipo_frnc": [
+    "Fornecimento Odontológico",
+    "Suprimentos por Atendimento"
+  ],
+  "public.tb_antecedente_historico": [
+    "Histórico de Atendimentos",
+    "Registros de Antecedentes"
+  ],
+  "public.tb_status_revisao_atend": [
+    "Status de Atendimento",
+    "Fluxo de Revisão",
+    "Gestão de Qualidade"
+  ],
+  "public.tb_atend_obs": [
+    "Status de Atendimentos",
+    "Fluxo de Trabalho",
+    "Carga de Trabalho por Profissional"
+  ],
+  "public.tb_atend_prof_pre_natal": [
+    "Acompanhamento Pré-Natal",
+    "Saúde da Gestante",
+    "Bem-estar Fetal"
+  ],
+  "public.tb_cirurgias_internacoes": [
+    "Histórico Cirúrgico",
+    "Procedimentos Cirúrgicos",
+    "Internações de Pacientes"
+  ],
+  "public.rl_ativ_col_lot_env": [
+    "Envolvimento em Atividades",
+    "Lotações por Atividade",
+    "Participação de Lotações"
+  ],
+  "public.rl_ativ_col_pratica_saude": [
+    "Práticas de Saúde Coletiva",
+    "Atividades em Saúde",
+    "Associação Atividade-Prática"
+  ],
+  "public.rl_ativ_col_publico_alvo": [
+    "Público-alvo por atividade",
+    "Atividades por público-alvo",
+    "Segmentação de público"
+  ],
+  "public.rl_ativ_col_tema_reuniao": [
+    "Temas de Reuniões",
+    "Atividades Coletivas",
+    "Relação Atividade-Tema"
+  ],
+  "public.rl_ativ_col_tema_saude": [
+    "Atividades Coletivas de Saúde",
+    "Temas de Saúde Abordados",
+    "Relação Atividade-Tema"
+  ],
+  "public.tb_atividade_coletiva": [
+    "Atividades de Saúde Coletiva",
+    "Ações de Saúde Pública",
+    "Planejamento de Equipes"
+  ],
+  "public.tb_agendado": [
+    "Análise de Consultas",
+    "Situação Cadastral (CNS)",
+    "Gestão da Agenda"
+  ],
+  "public.rl_ator_papel_perfil": [
+    "Mapeamento de Perfis",
+    "Permissões de Acesso",
+    "Controle de Usuários"
+  ],
+  "public.tb_adm_geral": [
+    "Status da Instalação",
+    "Configuração do Sistema"
+  ],
+  "public.tb_ator_papel": [
+    "Perfis de Acesso",
+    "Lotação de Profissionais",
+    "Módulos do Sistema"
+  ],
+  "public.rl_cds_atend_dom_proced": [
+    "Procedimentos em Atendimento Domiciliar",
+    "Frequência de Procedimentos",
+    "Cuidados de Saúde Domiciliar"
+  ],
+  "public.tb_cds_adm_medicamento": [
+    "Vias de Administração",
+    "Administração de Medicamentos",
+    "Tipos de Aplicação"
+  ],
+  "public.tb_cds_aleitamento_materno": [
+    "Tipos de Aleitamento",
+    "Saúde Infantil",
+    "Nutrição Infantil"
+  ],
+  "public.tb_tipo_domicilio": [
+    "Tipos de Moradia",
+    "Condições de Habitação",
+    "Classificação Domiciliar"
+  ],
+  "public.tb_tipo_localizacao": [
+    "Tipos de Localização",
+    "Classificação Geográfica",
+    "Zonas Urbanas/Rurais"
+  ],
+  "public.tb_tipo_material_parede": [
+    "Materiais de construção",
+    "Tipos de moradia",
+    "Qualidade habitacional"
+  ],
+  "public.tb_tipo_origem_energia_eletric": [
+    "Origem da energia elétrica",
+    "Fontes de energia",
+    "Geração de energia"
+  ],
+  "public.tb_tipo_posse_terra": [
+    "Posse de Terra",
+    "Reforma Agrária",
+    "Terras Indígenas"
+  ],
+  "public.tb_tipo_situacao_moradia": [
+    "Situação de Moradia",
+    "Condições Habitacionais",
+    "Posse de Imóveis"
+  ],
+  "public.tb_tipo_tratamento_agua": [
+    "Tipos de tratamento de água",
+    "Qualidade da água",
+    "Saneamento básico"
+  ],
+  "public.rl_cds_atend_individual_exame": [
+    "Exames por atendimento",
+    "Exames solicitados",
+    "Status de solicitações de exames"
+  ],
+  "public.rl_cds_atend_odonto_proced": [
+    "Procedimentos Odontológicos",
+    "Procedimentos por Atendimento",
+    "Quantidade de Procedimentos"
+  ],
+  "public.rl_cds_atend_odonto_tipo_cnslt": [
+    "Tipos de Consulta Odontológica",
+    "Atendimentos Odontológicos"
+  ],
+  "public.rl_cds_atend_odonto_tipo_encam": [
+    "Tipos de Encaminhamento Odontológico",
+    "Frequência de Encaminhamentos",
+    "Encaminhamentos por Atendimento"
+  ],
+  "public.rl_cds_atend_odonto_tipo_fornc": [
+    "Fornecimento Odontológico",
+    "Insumos em Atendimentos",
+    "Tipos de Insumos"
+  ],
+  "public.tb_cds_ativ_col_pratica": [
+    "Ações de Saúde Pública",
+    "Promoção da Saúde",
+    "Prevenção de Doenças"
+  ],
+  "public.tb_cds_ativ_col_publico_alvo": [
+    "Demografia de Público-Alvo",
+    "Saúde Mental e Vícios",
+    "Grupos de Saúde Pública"
+  ],
+  "public.tb_cds_ativ_col_tema": [
+    "Temas de Atividades Coletivas",
+    "Gestão de Equipes de Saúde",
+    "Planejamento em Saúde"
+  ],
+  "public.rl_cds_aval_eleg_ad_tipo_inelg": [
+    "Avaliação de Elegibilidade",
+    "Tipos de Inelegibilidade",
+    "Critérios de Inelegibilidade"
+  ],
+  "public.rl_cds_ficha_ativ_col_pratica": [
+    "Práticas em Saúde Coletiva",
+    "Atividades em Grupo",
+    "Fichas de Atendimento"
+  ],
+  "public.rl_cds_ficha_ativ_col_pub_alvo": [
+    "Público-alvo de atividades coletivas",
+    "Atividades de saúde coletiva",
+    "Perfil de ações de saúde"
+  ],
+  "public.rl_cds_ficha_ativ_col_tema": [
+    "Temas de Atividades Coletivas",
+    "Fichas por Tema",
+    "Saúde Coletiva"
+  ],
+  "public.tb_cds_ativ_col_participante": [
+    "Perfil de Saúde dos Participantes",
+    "Evasão de Grupos de Saúde",
+    "Hábitos de Saúde"
+  ],
+  "public.tb_cds_cidadao_resposta": [
+    "Condições de Saúde",
+    "Práticas Integrativas",
+    "Questionário de Saúde"
+  ],
+  "public.tb_cds_domicilio_familia": [
+    "Renda Familiar",
+    "Composição Familiar",
+    "Mobilidade Residencial"
+  ],
+  "public.tb_cds_domicilio_resposta": [
+    "Condições de Moradia",
+    "Perfil Socioeconômico",
+    "Saúde Domiciliar"
+  ],
+  "public.rl_cds_ficha_atend_indivdl_prf": [
+    "Produtividade de Profissionais",
+    "Vínculo Atendimento-Profissional"
+  ],
+  "public.rl_proced_cds_proced": [
+    "Relação entre Procedimentos",
+    "Agrupamento de Códigos de Saúde",
+    "Mapeamento de Dados (CDS)"
+  ],
+  "public.tb_cds_cad_individual": [
+    "Perfil Sociodemográfico",
+    "Cadastro de Cidadãos",
+    "Distribuição Geográfica"
+  ],
+  "public.tb_cds_ficha_atend_individual": [
+    "Atendimentos por Profissional",
+    "Volume de Atendimentos no Tempo",
+    "Origem dos Registros"
+  ],
+  "public.tb_cds_pic": [
+    "Práticas Integrativas (PICS)",
+    "Terapias Complementares",
+    "Saúde Integrativa"
+  ],
+  "public.rl_cds_atend_dom_situacao_pres": [
+    "Condições em Atendimento Domiciliar",
+    "Comorbidades de Pacientes",
+    "Perfil de Atendimentos"
+  ],
+  "public.rl_cds_ficha_atend_odonto_prof": [
+    "Atendimentos por Profissional",
+    "Alocação de Profissionais",
+    "Responsáveis por Atendimento"
+  ],
+  "public.rl_cds_ficha_ativ_col_prof": [
+    "Profissionais por Atividade",
+    "Colaboração Profissional",
+    "Produtividade por Profissional"
+  ],
+  "public.tb_cds_ficha_atend_domiciliar": [
+    "Atendimentos Domiciliares",
+    "Atuação dos Profissionais",
+    "Status dos Registros"
+  ],
+  "public.tb_cds_ficha_atend_odonto": [
+    "Atendimentos Odontológicos",
+    "Produtividade por Profissional",
+    "Uso do Sistema de Fichas"
+  ],
+  "public.tb_cds_ficha_consumo_alimentar": [
+    "Consumo Alimentar",
+    "Perfil do Paciente",
+    "Atendimentos de Saúde"
+  ],
+  "public.tb_cds_ficha_proced": [
+    "Procedimentos de Saúde",
+    "Aferições de Sinais Vitais",
+    "Cuidados de Enfermagem"
+  ],
+  "public.tb_cds_ficha_visita_domiciliar": [
+    "Visitas Domiciliares",
+    "Atividade de Profissionais",
+    "Saúde por Localidade"
+  ],
+  "public.tb_cds_prof": [
+    "Ocupações de Profissionais",
+    "Alocação por Equipe",
+    "Lotação de Profissionais"
+  ],
+  "public.tb_cds_tipo_situacao_presente": [
+    "Condições de Saúde do Paciente",
+    "Atendimento Domiciliar",
+    "Necessidades de Suporte Clínico"
+  ],
+  "public.rl_cds_atend_odont_tip_vig_buc": [
+    "Vigilância em Saúde Bucal",
+    "Atendimentos Odontológicos"
+  ],
+  "public.tb_cds_tipo_origem": [
+    "Origem dos Registros de Saúde",
+    "Plataformas de Coleta de Dados",
+    "Sistemas de Informação em Saúde"
+  ],
+  "public.tb_cds_tipo_vig_saude_bucal": [
+    "Condições de Saúde Bucal",
+    "Vigilância em Saúde Bucal",
+    "Agravos Odontológicos"
+  ],
+  "public.tb_ficha_zika_tipo_exame": [
+    "Tipos de Exame Zika",
+    "Resultados de Diagnóstico",
+    "Zika Congênita"
+  ],
+  "public.tb_sessao_sincronizacao": [
+    "Atividade de Sincronização",
+    "Uso de Versões do Aplicativo",
+    "Sincronização por Usuário"
+  ],
+  "public.tb_tipo_atend": [
+    "Tipos de Atendimento",
+    "Modalidades de Consulta",
+    "Classificação de Atendimento"
+  ],
+  "public.rl_cds_visita_dom_motivo": [
+    "Motivos de Visitas Domiciliares",
+    "Ações de Saúde Pública",
+    "Atenção Básica Domiciliar"
+  ],
+  "public.tb_agenda_fixada_ator_papel": [
+    "Agendamento por Ator",
+    "Configuração de Agendas",
+    "Papéis e Agendas Fixas"
+  ],
+  "public.tb_cds_atend_odonto": [
+    "Perfil do Paciente",
+    "Serviços Odontológicos",
+    "Atendimento a Grupos Especiais"
+  ],
+  "public.tb_cds_proced": [
+    "Perfil do Paciente",
+    "Local de Atendimento",
+    "Procedimentos de Saúde"
+  ],
+  "public.tb_cds_turno": [
+    "Turnos do dia",
+    "Períodos de atividades",
+    "Cadastro de turnos"
+  ],
+  "public.tb_cds_visita_dom_motivo": [
+    "Motivos de Visita Domiciliar",
+    "Acompanhamento de Pacientes",
+    "Controle de Vetores"
+  ],
+  "public.rl_antecedente_ciap": [
+    "Prevalência de Doenças Crônicas",
+    "Comorbidades de Pacientes",
+    "Histórico de Saúde do Paciente"
+  ],
+  "public.rl_cds_atend_individual_ciap": [
+    "Diagnósticos por Atendimento",
+    "Condições de Saúde",
+    "Classificação CIAP"
+  ],
+  "public.tb_adm_municipal": [
+    "Administração Municipal",
+    "Atores Municipais",
+    "Controle de Acesso"
+  ],
+  "public.tb_cfg_certificado": [
+    "Gestão de Certificados Digitais",
+    "Habilitação de Sistemas de Saúde",
+    "Validade de Certificados"
+  ],
+  "public.tb_ciap_dab": [
+    "Classificação de Doenças",
+    "Atenção Primária à Saúde",
+    "Códigos de Saúde"
+  ],
+  "public.rl_atend_proced": [
+    "Procedimentos por Atendimento",
+    "Frequência de Procedimentos Médicos"
+  ],
+  "public.rl_evolucao_plano_ciap": [
+    "Planos de cuidado",
+    "Procedimentos médicos",
+    "Classificação CIAP"
+  ],
+  "public.rl_evolucao_subjetivo_ciap": [
+    "Diagnósticos em Atenção Primária",
+    "Motivos de Consulta (CIAP)",
+    "Queixas de Pacientes"
+  ],
+  "public.tb_ad_cidadao": [
+    "Admissão e Alta de Pacientes",
+    "Diagnósticos de Pacientes (CID-10)",
+    "Acompanhamento Domiciliar"
+  ],
+  "public.tb_ciap": [
+    "Problemas de Saúde",
+    "Sinais e Sintomas",
+    "Codificação Médica"
+  ],
+  "public.tb_ciap_capitulo": [
+    "Classificação de Doenças",
+    "Atenção Primária",
+    "Sistemas Corporais"
+  ],
+  "public.tb_ciap_componente": [
+    "Classificação CIAP",
+    "Motivos de Consulta",
+    "Componentes do Atendimento"
+  ],
+  "public.tb_ciap_ms": [
+    "Classificação de Doenças",
+    "Sintomas e Diagnósticos",
+    "Critérios Médicos"
+  ],
+  "public.rl_evolucao_avaliacao_ciap_cid": [
+    "Correlação CIAP e CID-10",
+    "Diagnósticos por atendimento",
+    "Evolução clínica do paciente"
+  ],
+  "public.rl_proced_cid10": [
+    "Compatibilidade Procedimento-CID",
+    "Diagnósticos por Procedimento",
+    "Regras de Saúde"
+  ],
+  "public.tb_cidadao_nucleo_familiar": [
+    "Estrutura Familiar",
+    "Mobilidade Populacional",
+    "Vínculo com Unidades de Saúde"
+  ],
+  "public.tb_fat_op_acompanhamento_idosa": [
+    "Saúde do Idoso",
+    "Avaliação de Vulnerabilidade",
+    "Acompanhamento Multidimensional"
+  ],
+  "public.tb_problema": [
+    "Diagnósticos Médicos",
+    "Condições de Saúde do Paciente",
+    "Evolução de Condições"
+  ],
+  "public.tb_requisicao_exame": [
+    "Motivos para Solicitação de Exames",
+    "Diagnósticos por CID-10",
+    "Tipos de Procedimentos Médicos"
+  ],
+  "public.tb_sinan_notificacao": [
+    "Vigilância Epidemiológica",
+    "Agravos de Saúde Pública",
+    "Acidentes e Violências"
+  ],
+  "public.tb_dado_transp_recebido": [
+    "Fluxo de dados",
+    "Tempo de processamento",
+    "Status do recebimento"
+  ],
+  "public.tb_dente": [
+    "Numeração de Dentes",
+    "Estrutura da Boca",
+    "Catálogo Odontológico"
+  ],
+  "public.tb_dia_semana": [
+    "Dias da Semana",
+    "Calendário",
+    "Análise Temporal"
+  ],
+  "public.tb_cfg_agenda_detalhe": [
+    "Horários de Funcionamento",
+    "Disponibilidade por Período",
+    "Jornada de Trabalho"
+  ],
+  "public.tb_dado_transp": [
+    "Origem e Transmissão de Dados",
+    "Produção por Unidade de Saúde",
+    "Validação e Qualidade dos Dados"
+  ],
+  "public.tb_dim_aleitamento": [
+    "Tipos de Aleitamento",
+    "Saúde Infantil",
+    "Nutrição Infantil"
+  ],
+  "public.tb_evolucao_dente": [
+    "Saúde bucal",
+    "Análise de odontogramas",
+    "Condição da coroa dentária"
+  ],
+  "public.tb_dim_ciap": [
+    "Classificação CIAP",
+    "Condições de Saúde",
+    "Sintomas e Doenças"
+  ],
+  "public.tb_dim_cid": [
+    "Classificação de Doenças (CID)",
+    "Códigos de Diagnósticos",
+    "Terminologia de Saúde"
+  ],
+  "public.tb_dim_classificacao_risc_enc": [
+    "Classificação de Risco",
+    "Prioridade de Atendimento",
+    "Triagem de Pacientes"
+  ],
+  "public.tb_dim_conduta_ad": [
+    "Desfechos de pacientes",
+    "Atenção domiciliar",
+    "Condutas de saúde"
+  ],
+  "public.tb_dim_conduta_cuidado": [
+    "Procedimentos de Cuidado",
+    "Agendamento de Consultas",
+    "Ações de Telessaúde"
+  ],
+  "public.tb_dim_cuidador": [
+    "Tipos de Cuidadores",
+    "Parentesco Familiar",
+    "Rede de Apoio"
+  ],
+  "public.tb_dim_desfecho_visita": [
+    "Resultados de Visitas",
+    "Status de Contato",
+    "Engajamento em Visitas"
+  ],
+  "public.tb_dim_dose_frequencia": [
+    "Frequência de Doses",
+    "Tipos de Frequência",
+    "Categorias de Dosagem"
+  ],
+  "public.tb_dim_dsei": [
+    "Distritos Sanitários Indígenas",
+    "Cadastro de DSEI",
+    "Saúde Indígena"
+  ],
+  "public.tb_dim_duracao_tratamento_med": [
+    "Duração de Tratamento Médico",
+    "Unidades de Tempo",
+    "Períodos de Tratamento"
+  ],
+  "public.tb_dim_dose_frequencia_medida": [
+    "Frequência de Dosagem",
+    "Posologia de Medicamentos",
+    "Períodos de Medicação"
+  ],
+  "public.tb_dim_especialidade": [
+    "Especialidades Médicas",
+    "Tipos de Consulta",
+    "Especialidades Odontológicas"
+  ],
+  "public.tb_dim_etnia": [
+    "Etnias Indígenas",
+    "Povos Originários",
+    "Classificação Étnica"
+  ],
+  "public.tb_dim_grupo_atendimento": [
+    "Grupos de Atendimento",
+    "Profissões da Saúde",
+    "Comorbidades"
+  ],
+  "public.tb_dim_catmat": [
+    "Princípios Ativos",
+    "Formas Farmacêuticas",
+    "Concentração de Medicamentos"
+  ],
+  "public.tb_dim_cbo": [
+    "Classificação de Ocupações",
+    "Mercado de Trabalho",
+    "Profissões e Cargos"
+  ],
+  "public.tb_dim_faixa_etaria": [
+    "Faixas Etárias",
+    "Grupos de Idade",
+    "Análise Demográfica"
+  ],
+  "public.tb_dim_forma_farmaceutica": [
+    "Formas Farmacêuticas",
+    "Apresentação de Medicamentos",
+    "Tipos de Formulação"
+  ],
+  "public.tb_dim_frequencia_alimentacao": [
+    "Frequência de Alimentação",
+    "Hábitos Alimentares"
+  ],
+  "public.tb_dim_grupo_cbo": [
+    "Profissionais de Saúde",
+    "Grupos de Ocupações",
+    "Classificação de Cargos"
+  ],
+  "public.tb_dim_inep": [
+    "Cadastro de Escolas",
+    "Códigos INEP",
+    "Estabelecimentos de Ensino"
+  ],
+  "public.tb_dim_local_atendimento": [
+    "Locais de Atendimento",
+    "Tipos de Unidades de Saúde",
+    "Rede de Atendimento SUS"
+  ],
+  "public.tb_dim_modalidade_ad": [
+    "Modalidades AD",
+    "Tipos de Modalidade",
+    "Elegibilidade de Modalidade"
+  ],
+  "public.tb_dim_nacionalidade": [
+    "Tipos de Nacionalidade",
+    "Status de Cidadania",
+    "Categorias Demográficas"
+  ],
+  "public.tb_dim_aldeia": [
+    "Cadastro de Aldeias Indígenas"
+  ],
+  "public.tb_dim_pais": [
+    "Cadastro de Países",
+    "Geografia Política",
+    "Códigos de Países (CADSUS)"
+  ],
+  "public.tb_dim_polo_base": [
+    "Cadastro de Polos Base",
+    "Saúde Indígena"
+  ],
+  "public.tb_dim_povo_comunidad_trad": [
+    "Povos e Comunidades Tradicionais",
+    "Classificação Populacional",
+    "Demografia Rural"
+  ],
+  "public.tb_dim_prioridade_cuidado": [
+    "Prioridade de Cuidado",
+    "Níveis de Atendimento",
+    "Classificação de Risco"
+  ],
+  "public.tb_dim_procedencia_origem": [
+    "Origem do Paciente",
+    "Fluxo de Atendimento",
+    "Níveis de Atenção à Saúde"
+  ],
+  "public.tb_dim_procedimento": [
+    "Procedimentos de Saúde",
+    "Classificação de Procedimentos",
+    "Serviços de Saúde"
+  ],
+  "public.tb_fat_ivcf": [
+    "Avaliação de Vulnerabilidade",
+    "Saúde do Idoso",
+    "Indicadores de Saúde Pública"
+  ],
+  "public.tb_dim_profissional": [
+    "Cadastro de Profissionais",
+    "Identificação CNS",
+    "Validade do Registro"
+  ],
+  "public.tb_dim_raca_cor": [
+    "Classificação de Raça/Cor",
+    "Categorias Raciais",
+    "Demografia"
+  ],
+  "public.tb_dim_racionalidade_saude": [
+    "Práticas Integrativas em Saúde",
+    "Terapias Complementares",
+    "Racionalidades Médicas"
+  ],
+  "public.tb_dado_rel_processamento": [
+    "Tempo de Processamento",
+    "Monitoramento de Pipeline",
+    "Atualização de Dados de Saúde"
+  ],
+  "public.tb_dim_sexo": [
+    "Classificação de Gênero",
+    "Categorias de Sexo",
+    "Demografia de Gênero"
+  ],
+  "public.tb_dim_situacao_problema": [
+    "Status de Problemas",
+    "Classificação de Problemas",
+    "Gestão de Incidentes"
+  ],
+  "public.tb_dim_situacao_trabalho": [
+    "Situação de Trabalho",
+    "Formalidade do Trabalho",
+    "Vínculo Empregatício"
+  ],
+  "public.tb_dim_tempo_morador_rua": [
+    "Duração da Situação de Rua",
+    "Perfil da População de Rua",
+    "Vulnerabilidade Social"
+  ],
+  "public.tb_dim_tipo_abastecimento_agua": [
+    "Abastecimento de Água",
+    "Fontes de Água",
+    "Saneamento Básico"
+  ],
+  "public.tb_dim_tipo_acesso_domicilio": [
+    "Infraestrutura de Acesso",
+    "Condições de Moradia",
+    "Acessibilidade Domiciliar"
+  ],
+  "public.tb_dim_tipo_atendimento": [
+    "Tipos de Atendimento",
+    "Modalidades de Atendimento",
+    "Categorias de Atendimento"
+  ],
+  "public.tb_dim_tipo_atividade": [
+    "Tipos de Atividade em Saúde",
+    "Categorias de Atividades",
+    "Atividades de Saúde Coletiva"
+  ],
+  "public.tb_dim_tipo_condicao_peso": [
+    "Condição de Peso",
+    "Estado Nutricional",
+    "Classificação de Peso"
+  ],
+  "public.tb_dim_tipo_destino_lixo": [
+    "Gestão de Resíduos",
+    "Saneamento Básico",
+    "Destinação do Lixo"
+  ],
+  "public.tb_dim_tipo_domicilio": [
+    "Tipos de Domicílio",
+    "Classificação de Moradia",
+    "Condições de Habitação"
+  ],
+  "public.tb_dim_tipo_elegibilidade": [
+    "Tipos de Elegibilidade",
+    "Encaminhamento de Pacientes",
+    "Atenção Domiciliar"
+  ],
+  "public.tb_dim_tipo_endereco": [
+    "Tipos de Endereço",
+    "Classificação de Moradia",
+    "Tipologia de Assentamentos"
+  ],
+  "public.tb_dim_tipo_escoamento_sanitar": [
+    "Saneamento Básico",
+    "Infraestrutura Sanitária",
+    "Condições de Moradia"
+  ],
+  "public.tb_dim_tipo_escolaridade": [
+    "Níveis de Escolaridade",
+    "Educação de Adultos",
+    "Sistema de Ensino"
+  ],
+  "public.tb_dim_tipo_imovel": [
+    "Tipos de Imóveis",
+    "Uso do Solo",
+    "Cadastro Imobiliário"
+  ],
+  "public.tb_dim_tipo_localizacao": [
+    "Tipos de Localização",
+    "Classificação Geográfica",
+    "Zonas Urbanas e Rurais"
+  ],
+  "public.tb_dim_tipo_ficha": [
+    "Tipos de Fichas",
+    "Registros de Saúde",
+    "Formulários de Atendimento"
+  ],
+  "public.tb_dim_tipo_glicemia": [
+    "Tipos de Glicemia",
+    "Medição de Glicose",
+    "Controle de Diabetes"
+  ],
+  "public.tb_dim_tipo_logradouro": [
+    "Tipos de Logradouro",
+    "Nomenclatura de Endereços",
+    "Classificação de Vias"
+  ],
+  "public.tb_dim_tipo_material_parede": [
+    "Materiais de Construção",
+    "Condições de Moradia",
+    "Tipologia de Domicílios"
+  ],
+  "public.tb_dim_tipo_orientacao_sexual": [
+    "Orientação Sexual",
+    "Diversidade Sexual",
+    "Classificação Demográfica"
+  ],
+  "public.tb_dim_tipo_parentesco": [
+    "Tipos de Parentesco",
+    "Estrutura Familiar",
+    "Composição Domiciliar"
+  ],
+  "public.tb_dim_tipo_posse_terra": [
+    "Posse de Terra",
+    "Estrutura Fundiária",
+    "Direitos sobre a Terra"
+  ],
+  "public.tb_dim_tipo_renda_familiar": [
+    "Renda Familiar",
+    "Níveis Socioeconômicos",
+    "Desigualdade Social"
+  ],
+  "public.tb_dim_tipo_saida_cadastro": [
+    "Motivos de Saída de Cadastro",
+    "Mortalidade",
+    "Mobilidade Territorial"
+  ],
+  "public.tb_dim_tipo_situacao_moradia": [
+    "Tipos de Moradia",
+    "Situação Habitacional",
+    "Condição de Moradia"
+  ],
+  "public.tb_dim_tipo_tratamento_agua": [
+    "Tipos de tratamento de água",
+    "Qualidade da água potável",
+    "Saneamento básico"
+  ],
+  "public.tb_dim_tipo_origem": [
+    "Origem do Registro",
+    "Plataformas de Coleta",
+    "Sistemas de Saúde"
+  ],
+  "public.tb_dim_tipo_origem_energ_elet": [
+    "Fontes de energia elétrica",
+    "Geração de energia",
+    "Energia fotovoltaica"
+  ],
+  "public.tb_dim_municipio": [
+    "Cadastro de Municípios",
+    "Códigos IBGE",
+    "Geografia Municipal"
+  ],
+  "public.tb_dim_turno": [
+    "Turnos do dia",
+    "Períodos do dia",
+    "Catálogo de turnos"
+  ],
+  "public.tb_dim_uf": [
+    "Estados do Brasil",
+    "Unidades Federativas",
+    "Localização Geográfica"
+  ],
+  "public.tb_dim_unidade_saude": [
+    "Cadastro de Unidades de Saúde",
+    "Localização de Postos de Saúde",
+    "Rede de Atendimento de Saúde"
+  ],
+  "public.tb_dim_equipe": [
+    "Equipes de Saúde",
+    "Tipos de Equipe",
+    "Cadastro de Equipes (INE)"
+  ],
+  "public.tb_dim_estrategia_vacinacao": [
+    "Estratégias de Vacinação",
+    "Campanhas de Saúde",
+    "Tipos de Imunização"
+  ],
+  "public.tb_dim_identidade_genero": [
+    "Identidade de Gênero",
+    "Demografia",
+    "Diversidade e Inclusão"
+  ],
+  "public.tb_dim_vinculacao_equipes": [
+    "Vinculação de Equipes",
+    "Estrutura Organizacional",
+    "Hierarquia de Equipes"
+  ],
+  "public.rl_calendario_vacnl_grupo_alvo": [
+    "Calendário Vacinal por Idade",
+    "Grupos Alvo de Vacinação",
+    "Recomendações Vacinais por Sexo"
+  ],
+  "public.tb_calendario_vacinal": [
+    "Calendário Vacinal",
+    "Tipos de Vacinas",
+    "Doses e Esquemas Vacinais"
+  ],
+  "public.tb_dim_tempo": [
+    "Análise Temporal",
+    "Sazonalidade",
+    "Tendências Históricas"
+  ],
+  "public.tb_dose_imunobiologico": [
+    "Esquemas Vacinais",
+    "Profilaxia e Tratamento",
+    "Administração de Doses"
+  ],
+  "public.tb_faixa_etaria_vacinacao": [
+    "Grupos etários de vacinação",
+    "Critérios de idade para vacinas",
+    "Público-alvo de vacinação"
+  ],
+  "public.tb_fat_cidadao_pec": [
+    "Perfil Demográfico de Cidadãos",
+    "Vínculo com Unidades de Saúde",
+    "Mortalidade de Pacientes"
+  ],
+  "public.tb_fat_vacinacao": [
+    "Perfil dos Vacinados",
+    "Vacinas e Fabricantes",
+    "Logística da Vacinação"
+  ],
+  "public.tb_fat_vacinacao_vacina": [
+    "Aplicação de Vacinas",
+    "Estratégias de Vacinação",
+    "Fabricantes e Lotes de Vacinas"
+  ],
+  "public.tb_grupo_alvo_vacinacao": [
+    "Grupos de Vacinação",
+    "Público-Alvo Vacinação",
+    "Campanhas de Vacinação"
+  ],
+  "public.tb_imunobiologico": [
+    "Catálogo de Imunobiológicos",
+    "Vacinas de COVID-19",
+    "Doenças Preveníveis por Vacina"
+  ],
+  "public.tb_regra_vacinal_estrategia": [
+    "Estratégias de vacinação",
+    "Calendário vacinal",
+    "Intervalo entre doses"
+  ],
+  "public.tb_fat_rel_op_gestante": [
+    "Acompanhamento Pré-natal",
+    "Cuidado Pós-parto",
+    "Saúde da Gestante"
+  ],
+  "public.rl_aldeia_localidade": [
+    "Mapeamento Aldeia-Localidade",
+    "Distribuição Geográfica de Aldeias",
+    "Estrutura de Localidades"
+  ],
+  "public.rl_arquivo_atendprof": [
+    "Exames Médicos",
+    "Anexos de Atendimento",
+    "Histórico do Paciente"
+  ],
+  "public.rl_atend_tipo_servico": [
+    "Tipos de Atendimento",
+    "Serviços por Atendimento"
+  ],
+  "public.rl_cds_atend_individual_condut": [
+    "Condutas em Atendimentos",
+    "Procedimentos Clínicos",
+    "Frequência de Condutas"
+  ],
+  "public.rl_cds_atend_individual_nasf": [
+    "Atendimentos Individuais NASF",
+    "Tipos de Atendimento NASF",
+    "Serviços do NASF"
+  ],
+  "public.rl_cds_aval_eleg_cds_situc_prs": [
+    "Elegibilidade em Saúde",
+    "Condições Atuais do Cidadão",
+    "Critérios de Avaliação"
+  ],
+  "public.rl_ciap_cid10": [
+    "Relação CIAP e CID-10",
+    "Classificação de Doenças",
+    "Correspondência de Códigos"
+  ],
+  "public.rl_evol_aval_tp_vig_saude_bucl": [
+    "Vigilância em Saúde Bucal",
+    "Procedimentos Odontológicos",
+    "Avaliação de Atendimentos"
+  ],
+  "public.rl_evolucao_odonto_parte_bucal": [
+    "Tratamentos por dente",
+    "Evolução de tratamentos",
+    "Partes bucais tratadas"
+  ],
+  "public.rl_evolucao_odonto_proced": [
+    "Procedimentos Odontológicos",
+    "Evolução de Tratamentos",
+    "Frequência de Procedimentos"
+  ],
+  "public.rl_grupo_condicao_ciap_cid": [
+    "Mapeamento CIAP e CID-10",
+    "Agrupamento de Condições de Saúde",
+    "Classificação de Doenças"
+  ],
+  "public.rl_historico_cabecalho": [
+    "Fusão de Fichas",
+    "Histórico de Concatenação",
+    "Unificação de Registros"
+  ],
+  "public.rl_inscrito_topico_notificacao": [
+    "Inscrições por Tópico",
+    "Inscrições por Lotação",
+    "Evolução das Inscrições"
+  ],
+  "public.rl_manifest_alergiaevolucao": [
+    "Evolução de Alergias",
+    "Manifestações Alérgicas",
+    "Relação Manifestação-Evolução"
+  ],
+  "public.rl_perfil_cbo_padrao": [
+    "Perfis Profissionais de Saúde",
+    "Classificação de Ocupações (CBO)",
+    "Estrutura de Equipes de Saúde"
+  ],
+  "public.rl_proced_atributo_complem": [
+    "Atributos de Procedimentos",
+    "Regras de Procedimentos",
+    "Vigência de Regras"
+  ],
+  "public.rl_proced_cbo": [
+    "Procedimentos por Ocupação",
+    "Qualificações para Procedimentos",
+    "Evolução das Atribuições"
+  ],
+  "public.rl_proced_exame_detalhe": [
+    "Relação Procedimento-Exame",
+    "Detalhes de Exames",
+    "Análise de Procedimentos"
+  ],
+  "public.rl_proced_grupo_exame": [
+    "Grupos de Exames",
+    "Classificação de Procedimentos",
+    "Relação Procedimento-Exame"
+  ],
+  "public.rl_proced_tipo_registro": [
+    "Tipos de Registro por Procedimento",
+    "Classificação de Procedimentos",
+    "Vigência de Regras"
+  ],
+  "public.rl_prof_municipio": [
+    "Profissionais por Município",
+    "Localização de Profissionais"
+  ],
+  "public.rl_qst_associacao_opcao_pergnt": [
+    "Estrutura de Questionários",
+    "Mapeamento de Respostas"
+  ],
+  "public.rl_qst_resposta_opcao_pergunta": [
+    "Análise de Respostas",
+    "Resultados de Questionários",
+    "Padrões de Seleção"
+  ],
+  "public.rl_recurso_acao": [
+    "Ações por Recurso",
+    "Frequência de Ações"
+  ],
+  "public.rl_respostamca_opcaomca": [
+    "Análise de Respostas",
+    "Frequência de Opções",
+    "Respostas de Questionários"
+  ],
+  "public.rl_situacaoface_evolucaodente": [
+    "Evolução da saúde do dente",
+    "Condições das faces dentárias",
+    "Tratamentos odontológicos"
+  ],
+  "public.rl_situacaoraiz_evolucaodente": [
+    "Situação da Raiz Dentária",
+    "Evolução do Tratamento Odontológico",
+    "Saúde Radicular"
+  ],
+  "public.rl_tecido_mole_lesao": [
+    "Lesões em Tecidos Moles",
+    "Frequência de Lesões",
+    "Tipos de Lesões por Tecido"
+  ],
+  "public.rl_tipo_atend_proced_automatic": [
+    "Tipos de Atendimento por Procedimento",
+    "Regras de Atendimento Automático",
+    "Configuração de Serviços"
+  ],
+  "public.rl_tipo_consulta_odnt_prc_auto": [
+    "Procedimentos por Consulta",
+    "Tipos de Consulta Odontológica",
+    "Regras de Automação Odontológica"
+  ],
+  "public.rl_tipo_encam_odonto_procd_aut": [
+    "Procedimentos por Encaminhamento",
+    "Regras de Automação Odontológica",
+    "Mapeamento de Procedimentos"
+  ],
+  "public.rl_tipo_servico_padrao": [
+    "Serviços por Unidade de Saúde",
+    "Padronização de Serviços",
+    "Classificação de Unidades"
+  ],
+  "public.rl_unidade_medida_dose": [
+    "Conversão de Unidades",
+    "Mapeamento de Doses",
+    "Unidades de Medida"
+  ],
+  "public.rl_unidade_saude_complexidade": [
+    "Classificação de Unidades de Saúde",
+    "Níveis de Complexidade",
+    "Rede de Atendimento"
+  ],
+  "public.rl_unidade_saude_tipo_servico": [
+    "Serviços por Unidade de Saúde",
+    "Distribuição de Serviços",
+    "Tipos de Atendimento"
+  ],
+  "public.rl_via_adm_local_apl_vacina": [
+    "Administração de Vacinas",
+    "Locais de Aplicação",
+    "Vias de Administração"
+  ],
+  "public.ta_adm_geral": [
+    "Auditoria de Instalação",
+    "Registro de Atividades",
+    "Controle de Acesso"
+  ],
+  "public.ta_adm_municipal": [
+    "Auditoria Municipal",
+    "Controle de Instalações",
+    "Atividade de Usuários"
+  ],
+  "public.ta_agend_compartilhado": [
+    "Auditoria de Agendamentos",
+    "Agendamentos Compartilhados",
+    "Log de Videochamadas"
+  ],
+  "public.ta_agendado": [
+    "Auditoria de Agendamentos",
+    "Tipos de Atendimento",
+    "Agendamento Online"
+  ],
+  "public.ta_alergia": [
+    "Alergias de Pacientes",
+    "Auditoria de Alergias",
+    "Evolução de Alergias"
+  ],
+  "public.ta_alergia_evolucao": [
+    "Criticidade de Alergias",
+    "Evolução de Registros",
+    "Reações Alérgicas"
+  ],
+  "public.ta_animais_domicilio": [
+    "Perfil de Animais Domésticos",
+    "Quantidade de Animais",
+    "Animais por Domicílio"
+  ],
+  "public.ta_antecedente": [
+    "Histórico Obstétrico",
+    "Saúde do Recém-Nascido",
+    "Características do Parto"
+  ],
+  "public.ta_antecedente_ciap": [
+    "Histórico de Saúde",
+    "Condições de Saúde (CIAP)",
+    "Auditoria de Registros"
+  ],
+  "public.ta_antecedente_historico": [
+    "Auditoria de Registros",
+    "Histórico de Atendimento",
+    "Criação de Registros"
+  ],
+  "public.ta_antecedente_item": [
+    "Histórico de Pacientes",
+    "Auditoria de Registros",
+    "Tipos de Antecedentes Clínicos"
+  ],
+  "public.ta_arquivo": [
+    "Auditoria de Arquivos",
+    "Atividade de Profissionais",
+    "Ciclo de Vida de Arquivos"
+  ],
+  "public.ta_arquivo_atendprof": [
+    "Exames Médicos Anexados",
+    "Documentos por Atendimento",
+    "Categorias de Arquivos"
+  ],
+  "public.ta_atend": [
+    "Fluxo de Atendimento",
+    "Classificação de Risco do Paciente",
+    "Auditoria de Registros de Saúde"
+  ],
+  "public.ta_atend_obs": [
+    "Auditoria de Atendimentos",
+    "Fluxo de Atendimento",
+    "Desempenho Profissional"
+  ],
+  "public.ta_atend_obs_plano_cuidado": [
+    "Administração de Medicamentos",
+    "Evolução Clínica do Paciente",
+    "Auditoria de Atendimento"
+  ],
+  "public.ta_atend_obs_responsavel": [
+    "Desempenho de Responsáveis",
+    "Auditoria de Atendimentos",
+    "Distribuição de Carga de Trabalho"
+  ],
+  "public.ta_atend_proced": [
+    "Auditoria de Atendimentos",
+    "Frequência de Procedimentos",
+    "Atividade por Profissional"
+  ],
+  "public.ta_atend_prof": [
+    "Duração do Atendimento",
+    "Perfil de Atendimento",
+    "Classificação de Risco"
+  ],
+  "public.ta_atend_prof_conduta": [
+    "Tipos de Conduta",
+    "Auditoria de Atendimentos",
+    "Condutas por Atendimento"
+  ],
+  "public.ta_atend_prof_obs": [
+    "Auditoria de Atendimentos",
+    "Vínculo Profissional-Observação",
+    "Histórico de Alterações"
+  ],
+  "public.ta_atend_prof_odonto": [
+    "Tipos de Consulta Odontológica",
+    "Auditoria de Atendimentos",
+    "Evolução dos Atendimentos"
+  ],
+  "public.ta_atend_prof_odonto_tipo_encm": [
+    "Encaminhamentos Odontológicos",
+    "Auditoria de Atendimentos",
+    "Tipos de Encaminhamento"
+  ],
+  "public.ta_atend_prof_odonto_tipo_frnc": [
+    "Atendimentos Odontológicos",
+    "Fornecimento Odontológico",
+    "Auditoria de Atendimentos"
+  ],
+  "public.ta_atend_prof_pre_natal": [
+    "Atendimento Pré-Natal",
+    "Saúde Gestacional",
+    "Planejamento da Gravidez"
+  ],
+  "public.ta_atend_prof_puericultura": [
+    "Atendimentos de Puericultura",
+    "Aleitamento Materno",
+    "Auditoria de Saúde"
+  ],
+  "public.ta_atend_tipo_servico": [
+    "Tipos de Serviço Prestado",
+    "Auditoria de Atendimentos",
+    "Histórico de Serviços"
+  ],
+  "public.ta_atestado": [
+    "Afastamentos do trabalho",
+    "Diagnósticos médicos",
+    "Auditoria de atestados"
+  ],
+  "public.ta_atestado_modelo": [
+    "Modelos de Atestados",
+    "Auditoria de Modelos",
+    "Tipos de Atestados Médicos"
+  ],
+  "public.ta_ativ_col_lot_env": [
+    "Lotações por Atividade",
+    "Auditoria de Atividades",
+    "Histórico de Lotações"
+  ],
+  "public.ta_ativ_col_pratica_saude": [
+    "Histórico de Alterações",
+    "Atividades Coletivas de Saúde",
+    "Práticas de Saúde"
+  ],
+  "public.ta_ativ_col_publico_alvo": [
+    "Público-Alvo de Atividades",
+    "Auditoria de Atividades Coletivas"
+  ],
+  "public.ta_ativ_col_registro_particip": [
+    "Participação em atividades coletivas",
+    "Auditoria de participações"
+  ],
+  "public.ta_ativ_col_tema_reuniao": [
+    "Temas de Atividades Coletivas",
+    "Histórico de Temas de Reunião",
+    "Frequência de Temas de Reunião"
+  ],
+  "public.ta_ativ_col_tema_saude": [
+    "Atividades por Tema de Saúde",
+    "Frequência de Temas de Saúde",
+    "Auditoria de Atividades"
+  ],
+  "public.ta_ativacao_agendamento_online": [
+    "Auditoria de Ativação",
+    "Agendamento por Profissional",
+    "Histórico de Agendamento Online"
+  ],
+  "public.ta_atividade_coletiva": [
+    "Auditoria de Atividades",
+    "Atividades de Saúde",
+    "Participantes por Atividade"
+  ],
+  "public.ta_ator_papel": [
+    "Auditoria de Papéis",
+    "Gestão de Perfis de Acesso",
+    "Uso de Módulos por Papel"
+  ],
+  "public.ta_ator_papel_perfil": [
+    "Auditoria de Acessos",
+    "Histórico de Permissões",
+    "Atribuição de Perfis"
+  ],
+  "public.ta_cbo_atend": [
+    "Atendimento por Ocupação",
+    "Tempo de Consulta",
+    "Disponibilidade de Lotação"
+  ],
+  "public.ta_cds_domicilio": [
+    "Caracterização de Domicílios",
+    "Condições de Saneamento",
+    "Cobertura da Saúde"
+  ],
+  "public.ta_cfg_agenda": [
+    "Auditoria de Configurações",
+    "Histórico de Alterações",
+    "Atividade por Período"
+  ],
+  "public.ta_cfg_agenda_detalhe": [
+    "Configuração de Horários",
+    "Auditoria de Agendas",
+    "Análise de Turnos"
+  ],
+  "public.ta_cfg_agenda_municipal": [
+    "Auditoria de Configurações",
+    "Agendamento Municipal",
+    "Duração de Atendimento"
+  ],
+  "public.ta_cfg_agenda_online_detalhe": [
+    "Configuração de Agenda",
+    "Auditoria de Horários",
+    "Sincronização de Dados"
+  ],
+  "public.ta_cfg_certificado": [
+    "Gestão de Certificados Digitais",
+    "Auditoria de Configurações",
+    "Validade de Certificados"
+  ],
+  "public.ta_cidadao": [
+    "Perfil Sociodemográfico",
+    "Cadastro de Saúde",
+    "Diversidade e Inclusão"
+  ],
+  "public.ta_cidadao_grupo": [
+    "Auditoria de Cadastros",
+    "Unificação de Cadastros",
+    "Identificação do Cidadão"
+  ],
+  "public.ta_cidadao_vinculacao_equipe": [
+    "Vínculo Cidadão-Equipe",
+    "Cadastro de Pacientes",
+    "Rotatividade de Pacientes"
+  ],
+  "public.ta_compartilhamento_prontuario": [
+    "Auditoria de Acessos",
+    "Compartilhamento de Prontuários",
+    "Atividade de Usuários"
+  ],
+  "public.ta_config_agenda_fechamento": [
+    "Auditoria de Agendas",
+    "Bloqueio de Agenda",
+    "Histórico de Configurações"
+  ],
+  "public.ta_config_sistema": [
+    "Auditoria de Configurações",
+    "Histórico de Versões",
+    "Ativação de Funcionalidades"
+  ],
+  "public.ta_cuidado_compartilhado": [
+    "Fluxo de Atendimento",
+    "Perfil Clínico dos Pacientes",
+    "Auditoria de Cuidados"
+  ],
+  "public.ta_cuidado_compartilhado_evol": [
+    "Evolução Clínica de Pacientes",
+    "Acompanhamento Multiprofissional",
+    "Histórico de Atendimentos"
+  ],
+  "public.ta_encaminhamento": [
+    "Encaminhamentos de Pacientes",
+    "Diagnósticos de Saúde",
+    "Classificação de Risco"
+  ],
+  "public.ta_equipe": [
+    "Auditoria de equipes",
+    "Equipes de saúde",
+    "Unidades de saúde"
+  ],
+  "public.ta_evol_aval_tp_vig_saude_bucl": [
+    "Vigilância em Saúde Bucal",
+    "Avaliação em Saúde",
+    "Auditoria de Dados de Saúde"
+  ],
+  "public.ta_evolucao_avaliacao": [
+    "Avaliações Clínicas",
+    "Condições de Saúde",
+    "Necessidade de Prótese"
+  ],
+  "public.ta_evolucao_avaliacao_ciap_cid": [
+    "Diagnósticos Clínicos (CID/CIAP)",
+    "Evolução de Atendimentos",
+    "Auditoria de Registros de Saúde"
+  ],
+  "public.ta_evolucao_dente": [
+    "Saúde Bucal",
+    "Tratamentos Odontológicos",
+    "Análise de Odontogramas"
+  ],
+  "public.ta_evolucao_objetivo": [
+    "Anotações Clínicas",
+    "Motivos de Consulta",
+    "Atendimento a Pacientes Especiais"
+  ],
+  "public.ta_evolucao_odonto": [
+    "Procedimentos Odontológicos",
+    "Dentes e Regiões Tratadas",
+    "Histórico de Tratamentos"
+  ],
+  "public.ta_evolucao_odonto_parte_bucal": [
+    "Tratamentos por Região Bucal",
+    "Evolução de Atendimentos Odontológicos",
+    "Auditoria de Registros Odontológicos"
+  ],
+  "public.ta_evolucao_odonto_proced": [
+    "Auditoria de Procedimentos",
+    "Frequência de Procedimentos",
+    "Evolução de Tratamentos"
+  ],
+  "public.ta_evolucao_plano": [
+    "Administração de Medicamentos",
+    "Procedimentos Médicos",
+    "Encaminhamentos de Pacientes"
+  ],
+  "public.ta_evolucao_plano_ciap": [
+    "Auditoria de Atendimentos",
+    "Procedimentos Clínicos",
+    "Classificação CIAP"
+  ],
+  "public.ta_evolucao_subjetivo_ciap": [
+    "Diagnósticos de Saúde (CIAP)",
+    "Auditoria de Registros Clínicos",
+    "Atendimentos por Diagnóstico"
+  ],
+  "public.ta_exame_clearance_creatina": [
+    "Resultados de Creatinina",
+    "Função Renal",
+    "Auditoria de Exames"
+  ],
+  "public.ta_exame_colesterol_hdl": [
+    "Níveis de Colesterol",
+    "Histórico de Exames",
+    "Auditoria de Dados"
+  ],
+  "public.ta_exame_colesterol_ldl": [
+    "Níveis de Colesterol LDL",
+    "Tendências de Colesterol",
+    "Auditoria de Exames"
+  ],
+  "public.ta_exame_colesterol_total": [
+    "Níveis de Colesterol",
+    "Resultados de Exames",
+    "Auditoria de Exames"
+  ],
+  "public.ta_exame_creatina_serica": [
+    "Níveis de Creatinina",
+    "Avaliação da Função Renal",
+    "Auditoria de Exames"
+  ],
+  "public.ta_exame_hemoglobina_glicada": [
+    "Níveis de Hemoglobina Glicada",
+    "Controle Glicêmico",
+    "Evolução dos Resultados"
+  ],
+  "public.ta_exame_prenatal": [
+    "Idade Gestacional",
+    "Previsão de Parto",
+    "Exames Pré-natais"
+  ],
+  "public.ta_exame_puericultura": [
+    "Auditoria de exames",
+    "Exames de puericultura",
+    "Histórico de requisições"
+  ],
+  "public.ta_exame_requisitado": [
+    "Resultados de Exames Médicos",
+    "Tempo de Atendimento de Exames",
+    "Auditoria de Solicitações"
+  ],
+  "public.ta_exame_triglicerideos": [
+    "Níveis de Triglicerídeos",
+    "Resultados de Exames Laboratoriais",
+    "Auditoria de Exames Médicos"
+  ],
+  "public.ta_gestor_municipal": [
+    "Auditoria de gestores",
+    "Histórico de registros",
+    "Atividade por usuário"
+  ],
+  "public.ta_imunobiologico_lote": [
+    "Controle de Lotes",
+    "Fabricantes de Imunobiológicos",
+    "Validade dos Lotes"
+  ],
+  "public.ta_ivcf": [
+    "Vulnerabilidade Clínico-Funcional",
+    "Avaliação Geriátrica",
+    "Saúde do Idoso"
+  ],
+  "public.ta_ivcf_aplicacao": [
+    "Auditoria de Conformidade",
+    "Análise de Respostas",
+    "Avaliação de Questionários"
+  ],
+  "public.ta_justificativa_agenda": [
+    "Cancelamento de Agendamentos",
+    "Motivos de Cancelamento",
+    "Auditoria de Agendas"
+  ],
+  "public.ta_lembrete": [
+    "Auditoria de Lembretes",
+    "Uso por Profissional",
+    "Lembretes por Prontuário"
+  ],
+  "public.ta_lembrete_evolucao": [
+    "Tratamentos Odontológicos",
+    "Anotações de Prontuário",
+    "Alertas de Pacientes"
+  ],
+  "public.ta_lotacao": [
+    "Alocação de Profissionais de Saúde",
+    "Composição de Equipes de Saúde",
+    "Auditoria de Lotações"
+  ],
+  "public.ta_manifest_alergiaevolucao": [
+    "Evolução de Alergias",
+    "Manifestações Alérgicas",
+    "Histórico de Alergias"
+  ],
+  "public.ta_marcador_consumo_alimentar": [
+    "Consumo Alimentar",
+    "Questionários Alimentares",
+    "Auditoria de Dados"
+  ],
+  "public.ta_medicamento": [
+    "Princípios Ativos",
+    "Formas Farmacêuticas",
+    "Concentração de Medicamentos"
+  ],
+  "public.ta_medicamento_catmat": [
+    "Catálogo de Medicamentos",
+    "Princípios Ativos",
+    "Frequência de Uso"
+  ],
+  "public.ta_medicamento_uso_continuo": [
+    "Uso Contínuo de Medicamentos",
+    "Histórico de Pacientes",
+    "Auditoria de Prescrições"
+  ],
+  "public.ta_medicao": [
+    "Sinais Vitais",
+    "Saúde Materno-Infantil",
+    "Monitoramento de Doenças Crônicas"
+  ],
+  "public.ta_modelo_personalizado": [
+    "Auditoria de modelos",
+    "Criação de relatórios",
+    "Análises de saúde"
+  ],
+  "public.ta_neuro_alter_fenot": [
+    "Fenótipos Neurológicos",
+    "Evolução Clínica",
+    "Histórico de Pacientes"
+  ],
+  "public.ta_neuro_alter_fenot_evolucao": [
+    "Evolução fenotípica neurológica",
+    "Auditoria de registros médicos",
+    "Atendimentos profissionais"
+  ],
+  "public.ta_neuro_fator_risco": [
+    "Fatores de Risco Neurológico",
+    "Evolução de Riscos do Paciente",
+    "Auditoria de Prontuários"
+  ],
+  "public.ta_neuro_fator_risco_evolucao": [
+    "Fatores de Risco Neurológico",
+    "Evolução de Fatores de Risco",
+    "Auditoria de Registros Médicos"
+  ],
+  "public.ta_neuro_marco": [
+    "Evolução Neurológica",
+    "Auditoria de Registros",
+    "Análise de Prontuários"
+  ],
+  "public.ta_neuro_marco_evolucao": [
+    "Marcos do Neurodesenvolvimento",
+    "Atrasos no Desenvolvimento Infantil",
+    "Acompanhamento Pediátrico"
+  ],
+  "public.ta_nodo": [
+    "Auditoria de Nodos",
+    "Status de Conexão",
+    "Configuração de Servidores"
+  ],
+  "public.ta_odontograma": [
+    "Uso de Próteses Dentárias",
+    "Histórico Odontológico do Paciente",
+    "Auditoria de Atendimentos"
+  ],
+  "public.ta_orientacao": [
+    "Encaminhamentos Médicos",
+    "Diagnósticos Clínicos",
+    "Orientações ao Paciente"
+  ],
+  "public.ta_perfil": [
+    "Perfis de Acesso",
+    "Auditoria de Perfis",
+    "Cargos de Saúde Bucal"
+  ],
+  "public.ta_perfil_recurso": [
+    "Auditoria de Permissões",
+    "Perfis de Acesso",
+    "Recursos do Sistema"
+  ],
+  "public.ta_periograma_simplificado": [
+    "Saúde Periodontal",
+    "Diagnóstico Odontológico",
+    "Fatores de Risco Bucal"
+  ],
+  "public.ta_pre_natal": [
+    "Acompanhamento Pré-natal",
+    "Fatores de Risco na Gravidez",
+    "Auditoria de Registros"
+  ],
+  "public.ta_problema": [
+    "Diagnósticos de Saúde",
+    "Histórico de Pacientes",
+    "Auditoria de Registros"
+  ],
+  "public.ta_problema_evolucao": [
+    "Evolução de Problemas de Saúde",
+    "Acompanhamento de Gestantes",
+    "Histórico de Atendimentos Clínicos"
+  ],
+  "public.ta_prof": [
+    "Perfil de Profissionais",
+    "Auditoria de Cadastros",
+    "Registro Profissional"
+  ],
+  "public.ta_prof_historico_cns": [
+    "Cadastro de Profissionais",
+    "Histórico de CNS",
+    "Auditoria de Dados"
+  ],
+  "public.ta_prontuario": [
+    "Auditoria de Prontuários",
+    "Histórico de Alterações",
+    "Tipos de Auditoria"
+  ],
+  "public.ta_prontuario_grupo_historico": [
+    "Unificação de Prontuários",
+    "Histórico de Agrupamento",
+    "Auditoria de Registros"
+  ],
+  "public.ta_receita_medicamento": [
+    "Padrões de Prescrição",
+    "Adesão ao Tratamento",
+    "Análise de Posologia"
+  ],
+  "public.ta_registro_vacinacao": [
+    "Administração de Vacinas",
+    "Estratégias de Vacinação",
+    "Controle de Lotes de Vacinas"
+  ],
+  "public.ta_requisicao_exame": [
+    "Motivos de Exames",
+    "Diagnósticos Médicos",
+    "Auditoria de Requisições"
+  ],
+  "public.ta_resposta_mca": [
+    "Auditoria de Respostas",
+    "Consumo Alimentar",
+    "Histórico de Questionários"
+  ],
+  "public.ta_respostamca_opcaomca": [
+    "Auditoria de Respostas",
+    "Seleção de Opções",
+    "Histórico de Respostas"
+  ],
+  "public.ta_retificacao_atend": [
+    "Auditoria de Atendimentos",
+    "Retificações por Lotação",
+    "Histórico de Prontuários"
+  ],
+  "public.ta_sinan_notificacao_evolucao": [
+    "Evolução Notificações SINAN",
+    "Auditoria de Prontuários",
+    "Registros por Profissional"
+  ],
+  "public.ta_situacaoface_evolucaodente": [
+    "Evolução da Saúde Bucal",
+    "Tratamentos Odontológicos",
+    "Auditoria de Procedimentos Dentários"
+  ],
+  "public.ta_situacaoraiz_evolucaodente": [
+    "Condições da Raiz Dentária",
+    "Evolução do Tratamento Dentário",
+    "Auditoria de Registros Odontológicos"
+  ],
+  "public.ta_substancia_espec_alergia": [
+    "Substâncias Alergênicas",
+    "Alergias a Medicamentos",
+    "Categorias de Alergias"
+  ],
+  "public.ta_tecido_mole": [
+    "Auditoria Odontológica",
+    "Patologias de Tecido Mole",
+    "Atendimentos Odontológicos"
+  ],
+  "public.ta_tecido_mole_lesao": [
+    "Lesões de tecidos moles",
+    "Classificação de lesões",
+    "Auditoria de registros médicos"
+  ],
+  "public.ta_territorio_cidadao_erro": [
+    "Auditoria de Erros",
+    "Validação de Dados",
+    "Qualidade do Cadastro"
+  ],
+  "public.ta_tipo_servico": [
+    "Especialidades Odontológicas",
+    "Auditoria de Serviços"
+  ],
+  "public.ta_unidade_saude": [
+    "Cadastro de Unidades de Saúde",
+    "Tipos de Unidades de Saúde",
+    "Auditoria de Dados"
+  ],
+  "public.ta_unidade_saude_complexidade": [
+    "Complexidade de Unidades de Saúde",
+    "Auditoria de Classificação",
+    "Histórico de Alterações"
+  ],
+  "public.ta_unidade_saude_tipo_servico": [
+    "Auditoria de Serviços de Saúde",
+    "Histórico de Modificações",
+    "Tipos de Serviço de Saúde"
+  ],
+  "public.ta_usuario": [
+    "Auditoria de Usuários",
+    "Segurança de Acesso",
+    "Engajamento de Usuários"
+  ],
+  "public.ta_vacinacao": [
+    "Auditoria de Vacinação",
+    "Vacinação de Gestantes",
+    "Condições do Paciente"
+  ],
+  "public.ta_videochamada": [
+    "Auditoria de videochamadas",
+    "Duração de videochamadas",
+    "Frequência de chamadas"
+  ],
+  "public.ta_vinculacao_equipes": [
+    "Vínculos entre Equipes",
+    "Estrutura de Equipes",
+    "Auditoria de Vinculação"
+  ],
+  "public.tb_aldeia": [
+    "Cadastro de Aldeias Indígenas",
+    "Demografia de Aldeias",
+    "Contato e Histórico"
+  ],
+  "public.tb_alergia": [
+    "Alergias de Pacientes",
+    "Evolução de Alergias",
+    "Substâncias Alergênicas"
+  ],
+  "public.tb_alergia_evolucao": [
+    "Perfil de Alergias",
+    "Monitoramento de Pacientes",
+    "Reações Alérgicas"
+  ],
+  "public.tb_animais_domicilio": [
+    "Posse de Animais",
+    "Animais Domésticos",
+    "Censo Animal Domiciliar"
+  ],
+  "public.tb_antecedente": [
+    "Histórico Obstétrico",
+    "Saúde do Recém-Nascido",
+    "Condições de Parto"
+  ],
+  "public.tb_antecedente_item": [
+    "Histórico de Saúde",
+    "Condições Clínicas",
+    "Antecedentes do Paciente"
+  ],
+  "public.tb_antecedente_tipo_item": [
+    "Histórico Obstétrico",
+    "Saúde do Recém-Nascido",
+    "Antecedentes Clínicos"
+  ],
+  "public.tb_aplicacao_medicamento": [
+    "Vias de Administração de Medicamentos",
+    "Frequência de Uso por Via",
+    "Procedimentos Médicos"
+  ],
+  "public.tb_arcada": [
+    "Arcada Dentária",
+    "Partes da Boca",
+    "Saúde Bucal"
+  ],
+  "public.tb_arquivo": [
+    "Gerenciamento de Arquivos",
+    "Atividade por Profissional",
+    "Análise de Nomes de Arquivos"
+  ],
+  "public.tb_arquivo_temporario": [
+    "Geração de Relatórios",
+    "Análise de Erros",
+    "Atividade de Usuários"
+  ],
+  "public.tb_atend": [
+    "Fluxo de Atendimento",
+    "Classificação de Risco",
+    "Desempenho Operacional"
+  ],
+  "public.tb_atend_obs_plano_cuidado": [
+    "Planos de Cuidado",
+    "Administração de Medicamentos",
+    "Evolução Clínica do Paciente"
+  ],
+  "public.tb_atend_prof": [
+    "Tipos de Atendimento",
+    "Classificação de Risco",
+    "Duração do Atendimento"
+  ],
+  "public.tb_atend_prof_obs": [
+    "Observações por Atendimento",
+    "Vínculo Profissional-Observação"
+  ],
+  "public.tb_atend_prof_odonto": [
+    "Tipos de consulta odontológica",
+    "Frequência de atendimentos",
+    "Saúde bucal"
+  ],
+  "public.tb_atend_prof_puericultura": [
+    "Atendimento de Puericultura",
+    "Aleitamento Materno"
+  ],
+  "public.tb_atend_prof_tipo_encam_intrn": [
+    "Tipos de Encaminhamento Interno",
+    "Encaminhamentos por Unidade",
+    "Agendamento de Atendimentos"
+  ],
+  "public.tb_atestado": [
+    "Afastamentos Médicos",
+    "Diagnósticos (CID-10)",
+    "Emissão de Atestados"
+  ],
+  "public.tb_atestado_modelo": [
+    "Modelos de Atestados",
+    "Laudos Médicos",
+    "Declarações Médicas"
+  ],
+  "public.tb_ativ_col_registro_particip": [
+    "Participação em atividades coletivas",
+    "Acompanhamento de peso e altura",
+    "Avaliação de saúde"
+  ],
+  "public.tb_ativacao_agendamento_online": [
+    "Ativação de Agendamento",
+    "Adoção por Profissionais",
+    "Histórico de Ativações"
+  ],
+  "public.tb_ator": [
+    "Cadastro de Atores"
+  ],
+  "public.tb_atributo_complem": [
+    "Regras de Procedimentos Médicos",
+    "Programas de Saúde Pública",
+    "Autorização de Procedimentos (APAC)"
+  ],
+  "public.tb_bairro": [
+    "Cadastro de Bairros",
+    "Divisão Territorial",
+    "Endereçamento Postal"
+  ],
+  "public.tb_categoria_agente_causador": [
+    "Categorias de Agentes Causadores",
+    "Causas de Eventos Adversos",
+    "Tipos de Substâncias"
+  ],
+  "public.tb_categoria_arquivo_atendprof": [
+    "Tipos de arquivos médicos",
+    "Documentos de saúde",
+    "Categorias de exames"
+  ],
+  "public.tb_cbo": [
+    "Classificação de Profissões",
+    "Ocupações Brasileiras",
+    "Estrutura do Mercado de Trabalho"
+  ],
+  "public.tb_cbo_atend": [
+    "Tempo de Consulta",
+    "Disponibilidade de Profissionais",
+    "Alocação por Localidade"
+  ],
+  "public.tb_cds_atend_domiciliar": [
+    "Perfil de Pacientes Domiciliares",
+    "Diagnósticos em Atendimento Domiciliar",
+    "Modalidades de Atendimento"
+  ],
+  "public.tb_cds_atend_individual": [
+    "Diagnósticos de Saúde",
+    "Saúde Materna e Pré-natal",
+    "Saúde Infantil e Vacinação"
+  ],
+  "public.tb_cds_aval_elegibilidade": [
+    "Perfil Sociodemográfico do Cidadão",
+    "Elegibilidade por Diagnóstico (CID10)",
+    "Avaliação de Elegibilidade"
+  ],
+  "public.tb_cds_cad_domiciliar": [
+    "Cadastro Domiciliar",
+    "Geolocalização de Domicílios",
+    "Saúde da Família"
+  ],
+  "public.tb_cds_domicilio": [
+    "Condições de Moradia",
+    "Saneamento Básico",
+    "Cadastro de Saúde"
+  ],
+  "public.tb_cds_ficha_ativ_col": [
+    "Atividades Coletivas de Saúde",
+    "Programa Saúde na Escola",
+    "Participação em Ações de Saúde"
+  ],
+  "public.tb_cds_ficha_vacinacao": [
+    "Registros de Vacinação",
+    "Atividade por Profissional",
+    "Uso do Sistema de Coleta"
+  ],
+  "public.tb_cds_tipo_atend_nasf": [
+    "Tipos de Atendimento NASF",
+    "Procedimentos de Saúde",
+    "Classificação de Serviços"
+  ],
+  "public.tb_cds_tipo_ativ_col": [
+    "Atividades Coletivas de Saúde",
+    "Tipos de Atendimento",
+    "Classificação de Atividades"
+  ],
+  "public.tb_cds_tipo_conduta": [
+    "Condutas em Saúde",
+    "Encaminhamentos de Pacientes",
+    "Fluxo do Paciente"
+  ],
+  "public.tb_cds_tipo_cuidador": [
+    "Tipos de Cuidadores",
+    "Parentesco Familiar",
+    "Rede de Apoio"
+  ],
+  "public.tb_cds_tipo_imovel": [
+    "Tipos de Imóveis",
+    "Uso do Solo Urbano",
+    "Cadastro Territorial"
+  ],
+  "public.tb_cds_vacina": [
+    "Aplicação de Vacinas",
+    "Controle de Lotes de Vacinas",
+    "Estratégias de Vacinação"
+  ],
+  "public.tb_cds_visita_domiciliar": [
+    "Acompanhamento de Saúde",
+    "Visitas Domiciliares",
+    "Saúde por Localidade"
+  ],
+  "public.tb_cfg_agenda": [
+    "Configuração de Agenda",
+    "Tipos de Configuração",
+    "Entidades Configuradas"
+  ],
+  "public.tb_cfg_agenda_municipal": [
+    "Duração de Atendimento",
+    "Configuração de Agenda",
+    "Parâmetros Municipais"
+  ],
+  "public.tb_cfg_agenda_online_detalhe": [
+    "Disponibilidade de horários",
+    "Horários por lotação",
+    "Gestão de agendamentos"
+  ],
+  "public.tb_cid10": [
+    "Códigos de Doenças (CID-10)",
+    "Tipos de Agravos à Saúde",
+    "Doenças por Gênero"
+  ],
+  "public.tb_cidadao": [
+    "Perfil Sociodemográfico",
+    "Cadastro de Cidadãos",
+    "Endereços e Contatos"
+  ],
+  "public.tb_cidadao_grupo": [
+    "Unificação de Cadastros",
+    "Deduplicação de Registros",
+    "Qualidade de Dados Cadastrais"
+  ],
+  "public.tb_cidadao_vinculacao_equipe": [
+    "Vínculo Cidadão-Equipe",
+    "Rotatividade de Cadastros",
+    "Origem dos Cadastros"
+  ],
+  "public.tb_classe_imunobiologico": [
+    "Tipos de Imunobiológicos",
+    "Classificação de Vacinas",
+    "Classificação de Soros"
+  ],
+  "public.tb_classificacao_prioridade_cc": [
+    "Níveis de Prioridade",
+    "Classificação de Prioridade",
+    "Escala de Prioridade"
+  ],
+  "public.tb_classificacao_risco": [
+    "Classificação de Risco de Pacientes",
+    "Priorização de Atendimento Médico",
+    "Protocolos de Triagem"
+  ],
+  "public.tb_classificacao_risco_encam": [
+    "Classificação de Risco",
+    "Triagem de Pacientes",
+    "Níveis de Urgência"
+  ],
+  "public.tb_complexidade": [
+    "Níveis de Atenção à Saúde",
+    "Complexidade de Atendimento",
+    "Classificação de Serviços de Saúde"
+  ],
+  "public.tb_conduta_cuidado_compartilhd": [
+    "Condutas de Cuidado",
+    "Colaboração em Saúde",
+    "Modalidades de Atendimento"
+  ],
+  "public.tb_config_agenda_fechamento": [
+    "Bloqueio de Agenda",
+    "Motivos de Indisponibilidade",
+    "Agendamento por Lotação"
+  ],
+  "public.tb_config_atencao_domiciliar": [
+    "Configuração de Atenção Domiciliar",
+    "Duração da Consulta",
+    "Parâmetros de Atendimento"
+  ],
+  "public.tb_config_sistema": [
+    "Parâmetros do sistema de saúde",
+    "Configuração de atendimentos",
+    "Funcionalidades do software"
+  ],
+  "public.tb_conselho_classe": [
+    "Conselhos Profissionais",
+    "Regulamentação Profissional",
+    "Profissões da Saúde"
+  ],
+  "public.tb_contexto_pergunta": [
+    "Tipos de Cadastro",
+    "Contexto de Cadastro"
+  ],
+  "public.tb_criticidade_alergia": [
+    "Criticidade de Alergias",
+    "Níveis de Alergia",
+    "Gravidade de Alergias"
+  ],
+  "public.tb_cuidado_compartilhado": [
+    "Encaminhamentos de Pacientes",
+    "Diagnósticos Clínicos",
+    "Priorização de Atendimentos"
+  ],
+  "public.tb_cuidado_compartilhado_evol": [
+    "Evolução do Paciente",
+    "Acompanhamento Multiprofissional",
+    "Prioridade de Atendimento"
+  ],
+  "public.tb_cuidado_finalizacao_auto": [
+    "Finalização de Cuidados",
+    "Reabertura de Casos",
+    "Evolução do Cuidado"
+  ],
+  "public.tb_dado_recebido_competencia": [
+    "Períodos de Competência",
+    "Análise Temporal",
+    "Calendário de Dados"
+  ],
+  "public.tb_dado_recebido_info_instalac": [
+    "Controle de Instalações",
+    "Análise de Responsáveis",
+    "Versões de Software"
+  ],
+  "public.tb_dim_condicao_maternal": [
+    "Condição Materna",
+    "Gravidez e Puerpério",
+    "Saúde da Mulher"
+  ],
+  "public.tb_dim_tipo_consulta_odonto": [
+    "Tipos de Consulta Odontológica",
+    "Jornada do Paciente Odontológico",
+    "Categorias de Atendimento"
+  ],
+  "public.tb_dim_tipo_origem_dado_transp": [
+    "Origem dos dados",
+    "Fontes de informação",
+    "Métodos de coleta de dados"
+  ],
+  "public.tb_dsei": [
+    "Distritos de Saúde Indígena",
+    "Localização dos DSEI",
+    "Contatos e Gestores"
+  ],
+  "public.tb_encaminhamento": [
+    "Encaminhamentos por especialidade",
+    "Diagnósticos de pacientes",
+    "Classificação de risco"
+  ],
+  "public.tb_equipe": [
+    "Estrutura das Equipes de Saúde",
+    "Alocação por Unidade de Saúde",
+    "Status das Equipes (Ativas/Inativas)"
+  ],
+  "public.tb_escolaridade": [
+    "Nível de Escolaridade",
+    "Grau de Instrução",
+    "Tipos de Ensino"
+  ],
+  "public.tb_especialidade_sisreg": [
+    "Especialidades Médicas SISREG",
+    "Classificação de Especialidades",
+    "Especialidades por Profissão (CBO)"
+  ],
+  "public.tb_estado_civil": [
+    "Estado Civil",
+    "Demografia",
+    "Perfil Populacional"
+  ],
+  "public.tb_estrategia_vacinacao": [
+    "Estratégias de Vacinação",
+    "Campanhas de Saúde",
+    "Controle Epidemiológico"
+  ],
+  "public.tb_etl_auxiliar_number": [
+    "Controle de Processamento ETL",
+    "Monitoramento de Carga de Dados"
+  ],
+  "public.tb_etnia": [
+    "Povos Indígenas",
+    "Saúde Indígena",
+    "Demografia Étnica"
+  ],
+  "public.tb_evolucao_avaliacao": [
+    "Evolução Clínica do Paciente",
+    "Motivos de Consulta",
+    "Necessidade de Prótese"
+  ],
+  "public.tb_evolucao_objetivo": [
+    "Motivos de Consulta",
+    "Acompanhamento de Doenças Crônicas",
+    "Atendimentos Odontológicos"
+  ],
+  "public.tb_evolucao_odonto": [
+    "Procedimentos Odontológicos",
+    "Dentes e Regiões Tratadas",
+    "Histórico de Tratamentos"
+  ],
+  "public.tb_evolucao_plano": [
+    "Planos de Tratamento",
+    "Condutas Médicas",
+    "Prescrição de Medicamentos"
+  ],
+  "public.tb_evolucao_subjetivo": [
+    "Motivos de Consulta",
+    "Queixas de Pacientes",
+    "Acompanhamento de Saúde"
+  ],
+  "public.tb_exame_clearance_creatina": [
+    "Função Renal",
+    "Resultados de Exames",
+    "Diagnóstico Clínico"
+  ],
+  "public.tb_exame_colesterol_hdl": [
+    "Níveis de Colesterol HDL",
+    "Resultados de Exames",
+    "Saúde Cardiovascular"
+  ],
+  "public.tb_exame_colesterol_ldl": [
+    "Níveis de Colesterol LDL",
+    "Risco Cardiovascular",
+    "Resultados de Exames"
+  ],
+  "public.tb_exame_colesterol_total": [
+    "Níveis de Colesterol",
+    "Resultados de Exames Laboratoriais",
+    "Saúde Cardiovascular"
+  ],
+  "public.tb_exame_creatina_serica": [
+    "Função Renal",
+    "Níveis de Creatinina",
+    "Exames Laboratoriais"
+  ],
+  "public.tb_exame_detalhe": [
+    "Parâmetros de Exames Laboratoriais",
+    "Valores de Referência",
+    "Tipos de Exames Médicos"
+  ],
+  "public.tb_exame_hemoglobina_glicada": [
+    "Resultados de Hemoglobina Glicada",
+    "Monitoramento de Diabetes",
+    "Controle Glicêmico"
+  ],
+  "public.tb_exame_prenatal": [
+    "Acompanhamento da gestação",
+    "Idade gestacional",
+    "Previsão de parto"
+  ],
+  "public.tb_exame_puericultura": [
+    "Exames de Puericultura",
+    "Investigação do Zika Vírus",
+    "Tipos de Exames Realizados"
+  ],
+  "public.tb_exame_requisitado": [
+    "Resultados de Exames Médicos",
+    "Tempo de Espera por Exames",
+    "Procedimentos por Paciente"
+  ],
+  "public.tb_exame_triglicerideos": [
+    "Níveis de Triglicerídeos",
+    "Saúde Cardiovascular",
+    "Perfil Lipídico"
+  ],
+  "public.tb_familia": [
+    "Perfil Socioeconômico",
+    "Demografia Familiar",
+    "Situação Domiciliar"
+  ],
+  "public.tb_fat_atd_ind_encaminhamentos": [
+    "Encaminhamentos de Pacientes",
+    "Fluxo na Rede de Saúde",
+    "Perfil de Diagnósticos"
+  ],
+  "public.tb_fat_atd_ind_exames": [
+    "Resultados de Exames",
+    "Procedimentos de Saúde",
+    "Atendimentos por Profissional"
+  ],
+  "public.tb_fat_atd_ind_medicamentos": [
+    "Prescrição de medicamentos",
+    "Uso de medicamentos",
+    "Atendimentos de saúde"
+  ],
+  "public.tb_fat_atd_ind_problemas": [
+    "Problemas de Saúde",
+    "Atendimentos Individuais",
+    "Evolução de Diagnósticos"
+  ],
+  "public.tb_fat_atd_ind_procedimentos": [
+    "Procedimentos de Saúde",
+    "Atendimentos por Perfil",
+    "Produção das Equipes"
+  ],
+  "public.tb_fat_atend_dom_prob_cond": [
+    "Diagnósticos em Atendimento Domiciliar",
+    "Perfil Epidemiológico Domiciliar",
+    "Atuação Profissional em Saúde"
+  ],
+  "public.tb_fat_atend_dom_proced": [
+    "Procedimentos em Atendimento Domiciliar",
+    "Atuação de Profissionais de Saúde",
+    "Produção das Equipes de Saúde"
+  ],
+  "public.tb_fat_atend_odonto_encaminham": [
+    "Encaminhamentos Odontológicos",
+    "Diagnósticos por Especialidade",
+    "Classificação de Risco"
+  ],
+  "public.tb_fat_atend_odonto_exames": [
+    "Exames Odontológicos",
+    "Perfil do Paciente",
+    "Atendimentos de Saúde Bucal"
+  ],
+  "public.tb_fat_atend_odonto_medicament": [
+    "Prescrição de Medicamentos",
+    "Tratamentos Odontológicos",
+    "Atendimentos por Profissional"
+  ],
+  "public.tb_fat_atend_odonto_problemas": [
+    "Diagnósticos Odontológicos",
+    "Atendimentos em Saúde Bucal",
+    "Epidemiologia Odontológica"
+  ],
+  "public.tb_fat_atend_odonto_proced": [
+    "Procedimentos Odontológicos",
+    "Perfil do Paciente",
+    "Produção por Unidade de Saúde"
+  ],
+  "public.tb_fat_atendimento_domiciliar": [
+    "Atendimento Domiciliar",
+    "Condições de Saúde do Paciente",
+    "Procedimentos Realizados"
+  ],
+  "public.tb_fat_atendimento_individual": [
+    "Perfil de Atendimentos",
+    "Saúde Materno-Infantil",
+    "Condutas e Encaminhamentos"
+  ],
+  "public.tb_fat_atendimento_odonto": [
+    "Atendimentos odontológicos",
+    "Saúde bucal",
+    "Procedimentos odontológicos"
+  ],
+  "public.tb_fat_atividade_coletiva": [
+    "Atividades de Saúde Coletiva",
+    "Programa Saúde na Escola",
+    "Ações de Saúde Pública"
+  ],
+  "public.tb_fat_atvdd_coletiva_ext": [
+    "Público-alvo das atividades",
+    "Temas de saúde abordados",
+    "Práticas de saúde coletiva"
+  ],
+  "public.tb_fat_atvdd_coletiva_int": [
+    "Gestão de equipes de saúde",
+    "Atividades de profissionais de saúde",
+    "Educação permanente em saúde"
+  ],
+  "public.tb_fat_atvdd_coletiva_part": [
+    "Perfil de Participantes",
+    "Atividades de Saúde Coletiva",
+    "Resultados das Atividades"
+  ],
+  "public.tb_fat_atvdd_coletiva_propart": [
+    "Participação em Atividades de Saúde",
+    "Perfil de Profissionais de Saúde",
+    "Alocação de Equipes de Saúde"
+  ],
+  "public.tb_fat_avaliacao_elegibilidade": [
+    "Elegibilidade para Cuidado Domiciliar",
+    "Perfil de Saúde do Paciente",
+    "Condições Clínicas e Procedimentos"
+  ],
+  "public.tb_fat_cad_dom_familia": [
+    "Perfil Socioeconômico Familiar",
+    "Cadastro Domiciliar de Saúde",
+    "Mobilidade Residencial"
+  ],
+  "public.tb_fat_cad_domiciliar": [
+    "Condições de Moradia",
+    "Saneamento Básico",
+    "Acesso à Saúde"
+  ],
+  "public.tb_fat_cad_individual": [
+    "Perfil sociodemográfico dos cidadãos",
+    "Condições de saúde e doenças",
+    "Vulnerabilidade social e alimentar"
+  ],
+  "public.tb_fat_cidadao": [
+    "Vínculo do Cidadão",
+    "Mobilidade Populacional",
+    "Perfil Demográfico"
+  ],
+  "public.tb_fat_cidadao_territorio": [
+    "Mapeamento de Cidadãos",
+    "Dinâmica Populacional",
+    "Estrutura Familiar"
+  ],
+  "public.tb_fat_cuidado_compartilhado": [
+    "Coordenação do Cuidado",
+    "Perfil de Atendimentos",
+    "Evolução Clínica do Paciente"
+  ],
+  "public.tb_fat_familia": [
+    "Cadastro de Famílias",
+    "Cobertura por Equipe de Saúde",
+    "Qualidade dos Dados Cadastrais"
+  ],
+  "public.tb_fat_familia_territorio": [
+    "Mobilidade Familiar",
+    "Cobertura Territorial da Saúde",
+    "Qualidade do Cadastro"
+  ],
+  "public.tb_fat_fichas": [
+    "Produção de equipes de saúde",
+    "Registros por unidade de saúde",
+    "Tipos de atendimento"
+  ],
+  "public.tb_fat_marca_consumo_alimnt": [
+    "Consumo Alimentar",
+    "Nutrição Infantil",
+    "Perfil Nutricional Populacional"
+  ],
+  "public.tb_fat_proced_atend": [
+    "Atendimentos de Saúde",
+    "Perfil de Pacientes",
+    "Produção das Unidades"
+  ],
+  "public.tb_fat_proced_atend_proced": [
+    "Atendimentos de Saúde",
+    "Procedimentos Médicos",
+    "Perfil de Pacientes"
+  ],
+  "public.tb_fat_procedimento": [
+    "Procedimentos de Saúde",
+    "Atenção Primária",
+    "Produção de Saúde"
+  ],
+  "public.tb_fat_rel_op_crianca": [
+    "Acompanhamento Pediátrico",
+    "Desenvolvimento Infantil",
+    "Triagem Neonatal"
+  ],
+  "public.tb_fat_rel_op_risco_cardio": [
+    "Fatores de Risco Cardiovascular",
+    "Prevalência de Doenças Crônicas",
+    "Acompanhamento de Pacientes"
+  ],
+  "public.tb_fat_visita_domiciliar": [
+    "Visitas Domiciliares de Saúde",
+    "Acompanhamento de Pacientes",
+    "Controle de Vetores"
+  ],
+  "public.tb_funcao_social": [
+    "Funções Sociais",
+    "Cargos Comunitários",
+    "Lideranças Indígenas"
+  ],
+  "public.tb_gestor_municipal": [
+    "Gestores Municipais",
+    "Administração Municipal"
+  ],
+  "public.tb_grau_certeza_alergia": [
+    "Classificação de Alergias",
+    "Diagnóstico de Alergias",
+    "Status da Alergia"
+  ],
+  "public.tb_grau_parentesco": [
+    "Graus de Parentesco",
+    "Relações Familiares",
+    "Estrutura Familiar"
+  ],
+  "public.tb_grupo_condicao_saude": [
+    "Condições de Saúde",
+    "Doenças e Agravos",
+    "Grupos de Risco"
+  ],
+  "public.tb_grupo_especialidade": [
+    "Grupos de Especialidade",
+    "Categorias Profissionais",
+    "Áreas da Saúde"
+  ],
+  "public.tb_grupo_exame": [
+    "Acompanhamento de Gestantes",
+    "Monitoramento de Doenças",
+    "Critérios para Exames"
+  ],
+  "public.tb_historico_acesso": [
+    "Atividade de Usuários",
+    "Segurança de Acesso",
+    "Tecnologia do Usuário"
+  ],
+  "public.tb_historico_cabecalho": [
+    "Tipos de Atendimento de Saúde",
+    "Produção por Profissional",
+    "Fluxo de Pacientes"
+  ],
+  "public.tb_historico_dados_exames": [
+    "Acompanhamento de Exames",
+    "Histórico do Paciente",
+    "Solicitação e Avaliação"
+  ],
+  "public.tb_historico_dados_fad": [
+    "Condições de Saúde do Paciente",
+    "Cuidados Domiciliares",
+    "Cuidados Paliativos"
+  ],
+  "public.tb_historico_dados_fae": [
+    "Diagnósticos e Comorbidades (CID-10)",
+    "Perfil de Atendimento Domiciliar",
+    "Necessidades de Cuidados Paliativos"
+  ],
+  "public.tb_historico_dados_fai": [
+    "Diagnósticos de Saúde",
+    "Medicina Preventiva",
+    "Saúde Materno-Infantil"
+  ],
+  "public.tb_historico_dados_fao": [
+    "Saúde bucal",
+    "Atendimento odontológico",
+    "Saúde na gravidez"
+  ],
+  "public.tb_historico_dados_fcc": [
+    "Diagnósticos de pacientes",
+    "Encaminhamentos entre equipes",
+    "Prioridade de atendimento"
+  ],
+  "public.tb_historico_dados_proced": [
+    "Procedimentos em Saúde",
+    "Atendimentos na Atenção Primária",
+    "Consultas por Cidadão"
+  ],
+  "public.tb_historico_dados_tags": [
+    "Perfil de Atendimentos",
+    "Classificação de Risco",
+    "Procedimentos Clínicos"
+  ],
+  "public.tb_historico_dados_vacina": [
+    "Cobertura Vacinal",
+    "Vacinação de Gestantes",
+    "Campanhas de Imunização"
+  ],
+  "public.tb_historico_unificacao": [
+    "Unificação de Cadastros",
+    "Atividade de Profissionais",
+    "Histórico de Cidadãos"
+  ],
+  "public.tb_importacao_bolsa_familia": [
+    "Auditoria de Importação",
+    "Vigência dos Dados",
+    "Desempenho do Processamento"
+  ],
+  "public.tb_importacao_cnes": [
+    "Atualização do cadastro CNES",
+    "Qualidade dos dados de profissionais",
+    "Alocação de equipes de saúde"
+  ],
+  "public.tb_imunobiologico_fabricante": [
+    "Fabricantes de Vacinas",
+    "Fornecedores de Imunobiológicos",
+    "Vacinas COVID-19"
+  ],
+  "public.tb_imunobiologico_lote": [
+    "Rastreabilidade de Lotes",
+    "Controle de Validade",
+    "Fabricantes de Imunobiológicos"
+  ],
+  "public.tb_inep": [
+    "Cadastro de Escolas",
+    "Localização de Escolas",
+    "Nomes de Estabelecimentos"
+  ],
+  "public.tb_ivcf": [
+    "Vulnerabilidade Clínico-Funcional",
+    "Capacidade Funcional do Idoso",
+    "Avaliação Geriátrica"
+  ],
+  "public.tb_ivcf_aplicacao": [
+    "Resultados do IVCF",
+    "Análise de Respostas",
+    "Fatores de Vulnerabilidade"
+  ],
+  "public.tb_ivcf_perguntas": [
+    "Capacidade Funcional",
+    "Saúde Mental e Cognitiva",
+    "Vulnerabilidade Clínica"
+  ],
+  "public.tb_justificativa_agenda": [
+    "Cancelamento de Agendamentos",
+    "Motivos de Justificativa",
+    "Análise de Responsáveis"
+  ],
+  "public.tb_justificativa_prontuario": [
+    "Auditoria de Acessos",
+    "Motivos de Acesso",
+    "Padrões de Uso"
+  ],
+  "public.tb_lembrete": [
+    "Gestão de Lembretes",
+    "Acompanhamento de Pacientes",
+    "Atividade Profissional"
+  ],
+  "public.tb_lembrete_evolucao": [
+    "Procedimentos Endodônticos",
+    "Alertas de Saúde",
+    "Evolução de Tratamentos"
+  ],
+  "public.tb_lista_espera_motivo_saida": [
+    "Motivos de Saída",
+    "Lista de Espera",
+    "Gestão de Filas"
+  ],
+  "public.tb_lista_espera_tipo_atend": [
+    "Tipos de Atendimento",
+    "Categorias de Consulta",
+    "Serviços de Saúde"
+  ],
+  "public.tb_lista_medicamento": [
+    "Classificação de Medicamentos",
+    "Regras de Receituário",
+    "Medicamentos Controlados"
+  ],
+  "public.tb_local_apl_vacina": [
+    "Locais de Vacinação",
+    "Anatomia da Vacinação",
+    "Vias de Administração"
+  ],
+  "public.tb_local_atend": [
+    "Locais de Atendimento",
+    "Tipos de Unidades de Saúde",
+    "Rede de Saúde"
+  ],
+  "public.tb_local_ocorrencia": [
+    "Local da Ocorrência",
+    "Tipos de Local"
+  ],
+  "public.tb_localidade": [
+    "Cadastro de Localidades",
+    "Distribuição Geográfica",
+    "Tipos de Localidade"
+  ],
+  "public.tb_logradouro": [
+    "Cadastro de Endereços",
+    "Nomes de Ruas",
+    "Mapeamento de CEP"
+  ],
+  "public.tb_lotacao": [
+    "Alocação de Profissionais",
+    "Composição de Equipes de Saúde",
+    "Distribuição de Ocupações"
+  ],
+  "public.tb_lote_transp": [
+    "Retransmissão de Lotes",
+    "Transmissão por Município",
+    "Monitoramento de Transmissões"
+  ],
+  "public.tb_lote_transp_historico_exprt": [
+    "Histórico de Exportação",
+    "Auditoria de Lotes",
+    "Atividade por Profissional"
+  ],
+  "public.tb_lote_transp_item": [
+    "Composição de Lotes",
+    "Tamanho de Lotes",
+    "Agrupamento de Itens"
+  ],
+  "public.tb_lote_transp_item_nodo": [
+    "Status de Envio",
+    "Análise de Erros",
+    "Histórico de Tentativas"
+  ],
+  "public.tb_lote_transp_nodo": [
+    "Fluxo Logístico",
+    "Tempo de Trânsito",
+    "Rastreamento de Lotes"
+  ],
+  "public.tb_manifestacao_alergia": [
+    "Reações Alérgicas",
+    "Sintomas de Alergia",
+    "Terminologia Médica"
+  ],
+  "public.tb_marcador_consumo_alimentar": [
+    "Hábitos Alimentares",
+    "Inquéritos Nutricionais",
+    "Saúde Pública"
+  ],
+  "public.tb_mchat": [
+    "Rastreamento de Autismo",
+    "Pontuação do Teste M-CHAT",
+    "Avaliação de Saúde Infantil"
+  ],
+  "public.tb_mchat_aplicacao": [
+    "Triagem de Autismo",
+    "Desenvolvimento Infantil",
+    "Resultados do Teste M-CHAT"
+  ],
+  "public.tb_mchat_pergunta": [
+    "Desenvolvimento Infantil",
+    "Triagem de Autismo",
+    "Comportamento Social Infantil"
+  ],
+  "public.tb_medicamento": [
+    "Princípios Ativos",
+    "Concentração de Medicamentos",
+    "Formas Farmacêuticas"
+  ],
+  "public.tb_medicamento_catmat": [
+    "Características de Medicamentos",
+    "Princípios Ativos",
+    "Unidades de Fornecimento"
+  ],
+  "public.tb_medicamento_uso_continuo": [
+    "Medicamentos de Uso Contínuo",
+    "Tratamento de Pacientes",
+    "Histórico de Prescrições"
+  ],
+  "public.tb_medicao": [
+    "Sinais Vitais do Paciente",
+    "Acompanhamento Pré-natal",
+    "Saúde Infantil"
+  ],
+  "public.tb_migracao": [
+    "Histórico de Migrações",
+    "Evolução do Schema",
+    "Atividade por Autor"
+  ],
+  "public.tb_migracao_estrutura": [
+    "Evolução do Schema",
+    "Histórico de Migrações",
+    "Análise de Scripts"
+  ],
+  "public.tb_migracao_trava": [
+    "Controle de Migração",
+    "Status de Bloqueio",
+    "Execução de Processos"
+  ],
+  "public.tb_modelo_personalizado": [
+    "Modelos Personalizados",
+    "Autoria de Modelos",
+    "Classificação de Modelos"
+  ],
+  "public.tb_motivo_reserva": [
+    "Motivos de Reserva",
+    "Tipos de Atividade",
+    "Categorias de Agendamento"
+  ],
+  "public.tb_nacionalidade": [
+    "Tipos de Nacionalidade",
+    "Status de Cidadania"
+  ],
+  "public.tb_neuro_alter_fenot": [
+    "Alterações Fenotípicas",
+    "Evolução Neurológica",
+    "Histórico do Paciente"
+  ],
+  "public.tb_neuro_alter_fenot_detalhe": [
+    "Alterações Fenotípicas",
+    "Características Congênitas",
+    "Sinais Clínicos"
+  ],
+  "public.tb_neuro_alter_fenot_evolucao": [
+    "Evolução Neurológica",
+    "Alterações Fenotípicas",
+    "Avaliação Neurológica"
+  ],
+  "public.tb_neuro_faixa_etaria": [
+    "Faixas Etárias Infantis",
+    "Desenvolvimento Neurológico",
+    "Classificação por Idade"
+  ],
+  "public.tb_neuro_fator_risco": [
+    "Fatores de Risco Neurológico",
+    "Evolução de Fatores de Risco",
+    "Prevalência de Fatores de Risco"
+  ],
+  "public.tb_neuro_fator_risco_detalhe": [
+    "Fatores de risco neurológico",
+    "Saúde neonatal",
+    "Desenvolvimento infantil"
+  ],
+  "public.tb_neuro_fator_risco_evolucao": [
+    "Prevalência de Fatores de Risco",
+    "Evolução de Risco Neurológico",
+    "Avaliação de Risco em Atendimentos"
+  ],
+  "public.tb_neuro_marco": [
+    "Desenvolvimento neurológico",
+    "Marcos do desenvolvimento",
+    "Evolução de pacientes"
+  ],
+  "public.tb_neuro_marco_detalhe": [
+    "Marcos do desenvolvimento infantil",
+    "Desenvolvimento neurológico",
+    "Avaliação pediátrica"
+  ],
+  "public.tb_neuro_marco_evolucao": [
+    "Desenvolvimento Infantil",
+    "Marcos Neurológicos",
+    "Atrasos no Desenvolvimento"
+  ],
+  "public.tb_nodo": [
+    "Configuração de Servidores",
+    "Status da Conexão",
+    "Atividade dos Nodos"
+  ],
+  "public.tb_notificacao_status": [
+    "Configuração de Notificações",
+    "Assinaturas por Departamento",
+    "Canais de Comunicação"
+  ],
+  "public.tb_odontograma": [
+    "Uso de Próteses Dentárias",
+    "Tratamentos Ortodônticos",
+    "Registros de Odontograma"
+  ],
+  "public.tb_opcoes_result_exm_qlitativo": [
+    "Resultados de Exames",
+    "Prova do Laço",
+    "Diagnóstico Clínico"
+  ],
+  "public.tb_orientacao": [
+    "Encaminhamentos médicos",
+    "Diagnósticos e laudos",
+    "Orientações ao paciente"
+  ],
+  "public.tb_origem": [
+    "Origem de Registros",
+    "Sistemas de Saúde",
+    "Fontes de Dados"
+  ],
+  "public.tb_pais": [
+    "Códigos de Países",
+    "Nomes de Países",
+    "Cadastro de Saúde (CADSUS)"
+  ],
+  "public.tb_parte_bucal": [
+    "Anatomia Bucal",
+    "Nomenclatura Odontológica",
+    "Mapeamento Dental"
+  ],
+  "public.tb_parte_bucal_cid10": [
+    "Diagnósticos Odontológicos",
+    "Classificação de Doenças Bucais",
+    "Anatomia e Patologia Bucal"
+  ],
+  "public.tb_parte_bucal_proced": [
+    "Procedimentos Odontológicos",
+    "Tratamentos por Dente",
+    "Saúde Bucal"
+  ],
+  "public.tb_perfil": [
+    "Cargos e Profissões de Saúde",
+    "Perfis de Acesso ao Sistema",
+    "Estrutura de Gestão em Saúde"
+  ],
+  "public.tb_perfil_recurso": [
+    "Permissões de Acesso",
+    "Perfis de Usuário",
+    "Recursos do Sistema"
+  ],
+  "public.tb_pergunta": [
+    "Condições de Saúde",
+    "Perfil Sociodemográfico",
+    "Condições de Moradia"
+  ],
+  "public.tb_pergunta_detalhe": [
+    "Opções de Resposta",
+    "Estrutura de Questionário",
+    "Itens de Pesquisa"
+  ],
+  "public.tb_periodo": [
+    "Classificação de Períodos",
+    "Dimensão Temporal"
+  ],
+  "public.tb_periograma_simplificado": [
+    "Saúde Periodontal",
+    "Rastreamento de Doença Periodontal",
+    "Fatores de Risco Odontológico"
+  ],
+  "public.tb_povo_comunidade_tradicional": [
+    "Povos e Comunidades Tradicionais",
+    "Populações Rurais",
+    "Grupos Sociais Específicos"
+  ],
+  "public.tb_pratica_saude": [
+    "Saúde Bucal",
+    "Controle do Tabagismo",
+    "Ações de Saúde Preventiva"
+  ],
+  "public.tb_pre_natal": [
+    "Gestação de Alto Risco",
+    "Planejamento da Gravidez",
+    "Desfechos da Gestação"
+  ],
+  "public.tb_principio_ativo": [
+    "Princípios Ativos",
+    "Composição de Medicamentos",
+    "Listas de Medicamentos"
+  ],
+  "public.tb_problema_evolucao": [
+    "Acompanhamento de Condições",
+    "Evolução de Problemas de Saúde",
+    "Desfechos Clínicos"
+  ],
+  "public.tb_proced": [
+    "Procedimentos Médicos",
+    "Critérios por Idade e Gênero",
+    "Classificação de Procedimentos"
+  ],
+  "public.tb_proced_automatico": [
+    "Regras de Procedimentos",
+    "Agendamento de Consultas",
+    "Atendimento Odontológico"
+  ],
+  "public.tb_proced_exame_especifico": [
+    "Exames Médicos",
+    "Procedimentos Diagnósticos",
+    "Catálogo de Exames"
+  ],
+  "public.tb_proced_filtro": [
+    "Classificação de Procedimentos",
+    "Procedimentos Odontológicos",
+    "Tipos de Exames"
+  ],
+  "public.tb_proced_forma_organizacional": [
+    "Classificação de Procedimentos Médicos",
+    "Especialidades e Tratamentos Médicos",
+    "Catálogo de Medicamentos"
+  ],
+  "public.tb_proced_grupo": [
+    "Grupos de Procedimentos Médicos",
+    "Categorias de Atendimento em Saúde",
+    "Classificação de Serviços de Saúde"
+  ],
+  "public.tb_proced_subgrupo": [
+    "Procedimentos Médicos",
+    "Especialidades Médicas",
+    "Classificação de Atendimentos"
+  ],
+  "public.tb_processamento_dom_cid": [
+    "Análise de Erros",
+    "Volume de Processamento",
+    "Qualidade dos Dados"
+  ],
+  "public.tb_processamento_hist_cds": [
+    "Histórico de Processamento",
+    "Volume de Dados Processados",
+    "Log de Sucesso"
+  ],
+  "public.tb_processamento_historico": [
+    "Status do Processamento",
+    "Monitoramento de Cargas",
+    "Controle de Ingestão de Dados"
+  ],
+  "public.tb_processo": [
+    "Status de Processos",
+    "Análise de Falhas",
+    "Histórico de Execução"
+  ],
+  "public.tb_prof": [
+    "Perfil dos Profissionais",
+    "Registros de Classe",
+    "Distribuição Geográfica"
+  ],
+  "public.tb_prof_historico_cns": [
+    "Identificação de Profissionais",
+    "Histórico do CNS",
+    "Cadastro de Profissionais de Saúde"
+  ],
+  "public.tb_prontuario": [
+    "Registros de Pacientes",
+    "Saúde Familiar",
+    "Encaminhamentos Médicos"
+  ],
+  "public.tb_prontuario_grupo_historico": [
+    "Unificação de Prontuários",
+    "Duplicidade de Pacientes",
+    "Histórico de Agrupamento"
+  ],
+  "public.tb_publico_alvo": [
+    "Segmentação de público",
+    "Grupos demográficos",
+    "Condições de saúde"
+  ],
+  "public.tb_qst_associacao_pergunta": [
+    "Estrutura de Questionários",
+    "Lógica de Perguntas",
+    "Dependência entre Perguntas"
+  ],
+  "public.tb_qst_opcao_pergunta": [
+    "Estrutura de Questionário",
+    "Opções de Resposta",
+    "Orientação Profissional"
+  ],
+  "public.tb_qst_opcao_tipo_pergunta": [
+    "Tipos de Refeição",
+    "Consistência dos Alimentos",
+    "Opções de Resposta"
+  ],
+  "public.tb_qst_orientacao_prof": [
+    "Nutrição Infantil",
+    "Aleitamento Materno",
+    "Hábitos Alimentares"
+  ],
+  "public.tb_qst_pergunta": [
+    "Hábitos Alimentares",
+    "Nutrição Infantil",
+    "Consumo de Alimentos"
+  ],
+  "public.tb_qst_questionario": [
+    "Tipos de Questionário",
+    "Faixas Etárias",
+    "Grupos Populacionais"
+  ],
+  "public.tb_qst_questionario_pergunta": [
+    "Estrutura de Questionários",
+    "Ordenação de Perguntas",
+    "Mapeamento de Perguntas"
+  ],
+  "public.tb_qst_questionario_respondido": [
+    "Respostas de Questionários",
+    "Análise Temporal de Respostas",
+    "Tipos de Questionário"
+  ],
+  "public.tb_qst_resposta": [
+    "Respostas de Questionários",
+    "Análise de Opções",
+    "Padrões de Resposta"
+  ],
+  "public.tb_qst_tipo_questionario": [
+    "Tipos de Questionário",
+    "Questionário Alimentar"
+  ],
+  "public.tb_qst_tipo_resposta": [
+    "Tipos de Resposta",
+    "Estrutura de Questionário",
+    "Formato de Pergunta"
+  ],
+  "public.tb_raca_cor": [
+    "Classificação Racial/Étnica",
+    "Perfil Demográfico",
+    "Dados do SUS"
+  ],
+  "public.tb_racionalidade_saude": [
+    "Práticas Integrativas de Saúde",
+    "Terapias Complementares",
+    "Medicina Alternativa"
+  ],
+  "public.tb_recebimento_item": [
+    "Transmissão de dados de saúde",
+    "Dados por unidade de saúde",
+    "Versões de software de saúde"
+  ],
+  "public.tb_recebimento_lote": [
+    "Controle de Lotes",
+    "Responsáveis pelo Envio",
+    "Origem dos Dados"
+  ],
+  "public.tb_recebimento_validacao_erros": [
+    "Erros de Validação",
+    "Qualidade de Dados",
+    "Inconsistências de Dados"
+  ],
+  "public.tb_receita_medicamento": [
+    "Padrões de Prescrição",
+    "Duração de Tratamentos",
+    "Análise de Posologia"
+  ],
+  "public.tb_receita_tipo_frequencia": [
+    "Tipos de Frequência",
+    "Frequência de Medicação",
+    "Posologia de Receitas"
+  ],
+  "public.tb_recurso": [
+    "Funcionalidades do sistema",
+    "Estrutura da aplicação",
+    "Controle de acesso"
+  ],
+  "public.tb_recurso_credencial_integ": [
+    "Recursos de Sistema",
+    "Tipos de Funcionalidade",
+    "Módulos de Integração"
+  ],
+  "public.tb_refresh_token": [
+    "Acessos de Usuários",
+    "Acesso por Plataforma",
+    "Controle de Sessões"
+  ],
+  "public.tb_registro_vacinacao": [
+    "Cobertura Vacinal",
+    "Administração de Vacinas",
+    "Estratégias de Imunização"
+  ],
+  "public.tb_regra_vacinal_dose": [
+    "Regras de Vacinação",
+    "Calendário Vacinal",
+    "Dosagem de Imunobiológicos"
+  ],
+  "public.tb_rel_fichas_config": [
+    "Configuração de Relatórios",
+    "Estrutura de Fichas"
+  ],
+  "public.tb_relatorio_processamento": [
+    "Análise de Erros de Processamento",
+    "Desempenho do Processamento",
+    "Processamento por Tipo de Dado"
+  ],
+  "public.tb_renda_familiar": [
+    "Renda Familiar",
+    "Faixas de Renda",
+    "Nível Socioeconômico"
+  ],
+  "public.tb_report_etl_configs": [
+    "Configuração de ETL",
+    "Parâmetros de Desempenho",
+    "Módulos de Processamento de Dados"
+  ],
+  "public.tb_resposta_mca": [
+    "Respostas de questionários",
+    "Consumo alimentar",
+    "Hábitos alimentares"
+  ],
+  "public.tb_retificacao_atend": [
+    "Auditoria de Atendimentos",
+    "Correções de Registros",
+    "Exclusão de Atendimentos"
+  ],
+  "public.tb_revisao": [
+    "Auditoria de Acessos",
+    "Registros de Saúde",
+    "Padrões de Uso do Sistema"
+  ],
+  "public.tb_sexo": [
+    "Classificação de Gênero",
+    "Identificação de Pessoas",
+    "Dados Demográficos"
+  ],
+  "public.tb_sextante": [
+    "Estrutura Bucal",
+    "Mapeamento de Arcadas",
+    "Sextantes Odontológicos"
+  ],
+  "public.tb_sinan_notificacao_evolucao": [
+    "Evolução de Casos SINAN",
+    "Acompanhamento de Pacientes",
+    "Atendimentos por Profissional"
+  ],
+  "public.tb_situacao_agendado": [
+    "Status de Agendamentos",
+    "Situação do Atendimento",
+    "Fluxo de Atendimento"
+  ],
+  "public.tb_situacao_coroa": [
+    "Situação da Coroa Dentária",
+    "Status de Tratamento Odontológico",
+    "Classificação de Saúde Bucal"
+  ],
+  "public.tb_situacao_dado_recebido": [
+    "Qualidade de Dados",
+    "Status de Processamento",
+    "Validação de Dados"
+  ],
+  "public.tb_situacao_face": [
+    "Condições Dentárias",
+    "Tratamentos Odontológicos",
+    "Cárie Dentária"
+  ],
+  "public.tb_situacao_localidade": [
+    "Situação da Localidade",
+    "Codificação de Endereços",
+    "Status de Codificação"
+  ],
+  "public.tb_situacao_lote_transp_nodo": [
+    "Status de Envio",
+    "Logística de Transporte",
+    "Rastreamento de Lotes"
+  ],
+  "public.tb_situacao_problema": [
+    "Status de Problemas",
+    "Gestão de Incidentes",
+    "Ciclo de Vida de Problemas"
+  ],
+  "public.tb_situacao_raiz": [
+    "Saúde da Raiz Dentária",
+    "Procedimentos Odontológicos",
+    "Reabilitação Protética"
+  ],
+  "public.tb_status_assinatura": [
+    "Status de Assinatura",
+    "Resultados de Processos",
+    "Falhas de Assinatura"
+  ],
+  "public.tb_status_atend": [
+    "Status do Atendimento",
+    "Fluxo de Atendimento",
+    "Etapas do Atendimento"
+  ],
+  "public.tb_status_atend_prof": [
+    "Status de Atendimento"
+  ],
+  "public.tb_status_cuidado_compartilhad": [
+    "Status do Cuidado",
+    "Classificação de Atendimentos",
+    "Resultados do Cuidado"
+  ],
+  "public.tb_substancia_cbara": [
+    "Substâncias Alergênicas",
+    "Alergias Alimentares",
+    "Classificação de Alérgenos"
+  ],
+  "public.tb_substancia_espec_alergia": [
+    "Alergias a Medicamentos",
+    "Substâncias Alergênicas",
+    "Categorias de Alergias"
+  ],
+  "public.tb_subtipo_unidade_saude": [
+    "Tipologia de Unidades de Saúde",
+    "Especialidades Médicas",
+    "Serviços de Saúde"
+  ],
+  "public.tb_tecido_mole": [
+    "Diagnósticos de Tecido Mole",
+    "Localização de Lesões Bucais",
+    "Evolução de Atendimentos"
+  ],
+  "public.tb_tecido_mole_lesao": [
+    "Classificação de Lesões",
+    "Morfologia de Lesões",
+    "Sintomas de Lesões"
+  ],
+  "public.tb_tema_reuniao": [
+    "Temas de Reunião",
+    "Gestão de Equipes",
+    "Planejamento de Ações"
+  ],
+  "public.tb_tema_saude": [
+    "Temas de Saúde",
+    "Categorias de Saúde Pública",
+    "Prevenção em Saúde"
+  ],
+  "public.tb_tipo_abastecimento_agua": [
+    "Abastecimento de Água",
+    "Saneamento Básico",
+    "Fontes de Água"
+  ],
+  "public.tb_tipo_acesso_domicilio": [
+    "Acesso ao Domicílio",
+    "Infraestrutura de Acesso",
+    "Condições de Moradia"
+  ],
+  "public.tb_tipo_agendamento": [
+    "Tipos de Agendamento",
+    "Categorias de Agendamento"
+  ],
+  "public.tb_tipo_agravo": [
+    "Tipos de Agravo",
+    "Classificação de Notificações"
+  ],
+  "public.tb_tipo_atend_prof": [
+    "Tipos de Atendimento Médico",
+    "Saúde Materno-Infantil",
+    "Serviços de Saúde Pública"
+  ],
+  "public.tb_tipo_atividade": [
+    "Tipos de Atividade em Saúde",
+    "Atividades Coletivas",
+    "Gestão em Saúde"
+  ],
+  "public.tb_tipo_cfg_agenda": [
+    "Tipos de Agendamento",
+    "Configuração de Agenda",
+    "Níveis Organizacionais"
+  ],
+  "public.tb_tipo_ciap": [
+    "Classificação CIAP",
+    "Tipos de Diagnóstico",
+    "Categorias de Saúde"
+  ],
+  "public.tb_tipo_config_atend_domicilir": [
+    "Tipos de Atendimento Domiciliar",
+    "Configuração de Atendimento"
+  ],
+  "public.tb_tipo_consulta_odonto": [
+    "Tipos de consulta odontológica",
+    "Atendimento odontológico",
+    "Jornada do paciente"
+  ],
+  "public.tb_tipo_dado_transp": [
+    "Tipos de Fichas Médicas",
+    "Registros de Saúde Pública",
+    "Coleta de Dados e-SUS"
+  ],
+  "public.tb_tipo_destino_lixo": [
+    "Destinação do Lixo",
+    "Gestão de Resíduos",
+    "Saneamento Básico"
+  ],
+  "public.tb_tipo_edema": [
+    "Classificação de Edema",
+    "Sinais Clínicos",
+    "Gravidade do Edema"
+  ],
+  "public.tb_tipo_encam_interno": [
+    "Tipos de Encaminhamento Interno",
+    "Fluxo de Atendimento",
+    "Gestão de Atendimento ao Cidadão"
+  ],
+  "public.tb_tipo_encam_odonto": [
+    "Especialidades Odontológicas",
+    "Encaminhamentos Odontológicos",
+    "Tipos de Tratamento"
+  ],
+  "public.tb_tipo_endereco": [
+    "Tipos de Endereço",
+    "Classificação de Moradia",
+    "Tipologia de Logradouros"
+  ],
+  "public.tb_tipo_equipe": [
+    "Tipos de Equipes de Saúde",
+    "Estrutura da Atenção Básica",
+    "Modalidades de Atendimento"
+  ],
+  "public.tb_tipo_exame": [
+    "Tipos de Exame",
+    "Custo de Exames",
+    "Exames por Gênero"
+  ],
+  "public.tb_tipo_fornec_odonto": [
+    "Tipos de Insumos Odontológicos",
+    "Produtos de Higiene Bucal",
+    "Saúde Bucal"
+  ],
+  "public.tb_tipo_glicemia": [
+    "Tipos de Glicemia",
+    "Monitoramento de Diabetes",
+    "Controle Glicêmico"
+  ],
+  "public.tb_tipo_gravidez": [
+    "Tipos de Gravidez",
+    "Gestação Múltipla",
+    "Classificação de Nascimentos"
+  ],
+  "public.tb_tipo_localidade": [
+    "Tipos de Localidade",
+    "Classificação Geográfica",
+    "Divisões Administrativas"
+  ],
+  "public.tb_tipo_logradouro": [
+    "Tipos de Logradouros",
+    "Frequência de Logradouros",
+    "Padronização de Endereços"
+  ],
+  "public.tb_tipo_opcao": [
+    "Tipos de Resposta",
+    "Estrutura de Questionário",
+    "Formulários e Pesquisas"
+  ],
+  "public.tb_tipo_origem_dado_transp": [
+    "Origem dos dados",
+    "Entrada de dados",
+    "Fontes de informação"
+  ],
+  "public.tb_tipo_paridade": [
+    "Tipos de Paridade",
+    "Lateralidade",
+    "Paridade Numérica"
+  ],
+  "public.tb_tipo_parte_bucal": [
+    "Anatomia Bucal",
+    "Procedimentos Odontológicos",
+    "Classificação Odontológica"
+  ],
+  "public.tb_tipo_participacao_atend": [
+    "Tipos de Atendimento",
+    "Comunicação Digital",
+    "Interação Síncrona e Assíncrona"
+  ],
+  "public.tb_tipo_parto": [
+    "Tipos de Parto"
+  ],
+  "public.tb_tipo_pergunta": [
+    "Tipos de Pergunta",
+    "Formatos de Questionário",
+    "Estrutura de Pesquisa"
+  ],
+  "public.tb_tipo_reacao_alergia": [
+    "Tipos de Alergia",
+    "Reações Adversas"
+  ],
+  "public.tb_tipo_receita": [
+    "Tipos de Receita Médica",
+    "Classificação de Prescrições",
+    "Receitas de Controle Especial"
+  ],
+  "public.tb_tipo_registro": [
+    "Tipos de Atendimento SUS",
+    "Registros de Saúde",
+    "Procedimentos Médicos"
+  ],
+  "public.tb_tipo_registro_vacinacao": [
+    "Tipos de Registro Vacinal",
+    "Status da Vacinação"
+  ],
+  "public.tb_tipo_servico": [
+    "Tipos de Serviços de Saúde",
+    "Serviços Odontológicos",
+    "Catálogo de Procedimentos"
+  ],
+  "public.tb_tipo_topico_notificacao": [
+    "Tipos de Notificação",
+    "Tópicos de Saúde",
+    "Classificação de Alertas"
+  ],
+  "public.tb_tipo_unidade_saude": [
+    "Tipos de Unidades de Saúde",
+    "Classificação de Estabelecimentos de Saúde",
+    "Nomenclatura CNES"
+  ],
+  "public.tb_titulo_patente": [
+    "Patentes Militares",
+    "Títulos e Profissões",
+    "Cargos e Ocupações"
+  ],
+  "public.tb_topico_notificacao": [
+    "Gerenciamento de Tópicos",
+    "Histórico de Atualizações",
+    "Mapeamento de Identificadores"
+  ],
+  "public.tb_uf": [
+    "Estados do Brasil",
+    "Divisão Territorial",
+    "Códigos Geográficos"
+  ],
+  "public.tb_unidade_medida": [
+    "Formas Farmacêuticas",
+    "Unidades de Medida",
+    "Apresentação de Produtos"
+  ],
+  "public.tb_unidade_saude": [
+    "Cadastro de Unidades de Saúde",
+    "Localização Geográfica",
+    "Tipos de Atendimento"
+  ],
+  "public.tb_usuario": [
+    "Segurança de Acesso",
+    "Engajamento de Usuários",
+    "Aceite de Termos de Uso"
+  ],
+  "public.tb_vacinacao": [
+    "Vacinação de Pacientes",
+    "Condições Maternas",
+    "Grupos de Risco"
+  ],
+  "public.tb_via_adm_vacina": [
+    "Vias de Administração",
+    "Tipos de Aplicação",
+    "Métodos de Vacinação"
+  ],
+  "public.tb_visibilidade_lembrete": [
+    "Visibilidade de Lembretes",
+    "Privacidade de Lembretes",
+    "Tipos de Acesso"
+  ],
+  "public.tb_visita_domiciliar_acs": [
+    "Visitas Domiciliares de Saúde",
+    "Ações de Saúde Comunitária",
+    "Acompanhamento de Domicílios"
+  ],
+  "public.tl_acesso": [
+    "Acesso por Perfil",
+    "Uso de Recursos",
+    "Padrões de Ação"
+  ],
+  "public.tl_ad_cidadao": [
+    "Diagnósticos de Pacientes",
+    "Admissões em Saúde",
+    "Agendamento de Visitas"
+  ],
+  "public.tl_ad_cidadao_historico": [
+    "Histórico do Cidadão",
+    "Alocação de Profissionais",
+    "Modalidades de Atendimento"
+  ],
+  "public.tl_adm_geral": [
+    "Configuração do Sistema",
+    "Status da Instalação",
+    "Controle de Revisão"
+  ],
+  "public.tl_adm_municipal": [
+    "Administração Municipal",
+    "Status de Instalação",
+    "Revisões de Processos"
+  ],
+  "public.tl_agendado": [
+    "Motivos de Agendamento",
+    "Padrões de Agendamento",
+    "Agendamento Online de Cidadãos"
+  ],
+  "public.tl_antecedente": [
+    "Saúde do recém-nascido",
+    "Características do parto",
+    "Histórico gestacional"
+  ],
+  "public.tl_antecedente_ciap": [
+    "Antecedentes do Paciente",
+    "Classificação de Saúde (CIAP)",
+    "Histórico de Atendimentos"
+  ],
+  "public.tl_antecedente_historico": [
+    "Histórico de Atendimentos",
+    "Revisões de Registros",
+    "Auditoria de Atendimentos"
+  ],
+  "public.tl_antecedente_item": [
+    "Histórico Médico do Paciente",
+    "Antecedentes Obstétricos",
+    "Histórico de Saúde"
+  ],
+  "public.tl_aplicacao_medicamento": [
+    "Vias de Administração",
+    "Frequência de Aplicação"
+  ],
+  "public.tl_atend": [
+    "Tipos de Atendimento",
+    "Classificação de Risco",
+    "Atendimentos por Unidade"
+  ],
+  "public.tl_atend_proced": [
+    "Procedimentos Realizados",
+    "Atendimentos Médicos",
+    "Registros de Atendimento"
+  ],
+  "public.tl_atend_prof": [
+    "Duração de atendimentos",
+    "Classificação de risco",
+    "Encaminhamentos de pacientes"
+  ],
+  "public.tl_atend_prof_conduta": [
+    "Condutas de Atendimento",
+    "Resultados de Consulta",
+    "Fluxo de Pacientes"
+  ],
+  "public.tl_atend_prof_odonto": [
+    "Tipos de consulta odontológica",
+    "Frequência de atendimentos"
+  ],
+  "public.tl_atend_prof_odonto_tipo_encm": [
+    "Encaminhamentos Odontológicos",
+    "Tipos de Encaminhamento",
+    "Atendimentos Odontológicos"
+  ],
+  "public.tl_atend_prof_odonto_tipo_frnc": [
+    "Tipos de Fornecimento Odontológico",
+    "Atendimentos Odontológicos",
+    "Revisão de Atendimentos"
+  ],
+  "public.tl_atend_prof_pre_natal": [
+    "Acompanhamento Pré-Natal",
+    "Planejamento da Gravidez",
+    "Saúde Fetal"
+  ],
+  "public.tl_atend_prof_puericultura": [
+    "Tipos de Aleitamento Materno",
+    "Atendimento de Puericultura",
+    "Saúde Infantil"
+  ],
+  "public.tl_atend_prof_tipo_encam_intrn": [
+    "Tipos de Encaminhamento",
+    "Fluxo de Encaminhamentos",
+    "Agendamentos por Encaminhamento"
+  ],
+  "public.tl_atend_tipo_servico": [
+    "Tipos de serviço",
+    "Revisão de atendimentos",
+    "Frequência de serviços"
+  ],
+  "public.tl_atestado": [
+    "Afastamentos do Trabalho",
+    "Diagnósticos e CID",
+    "Atestados Médicos"
+  ],
+  "public.tl_ator": [
+    "Revisões de Atores",
+    "Tipos de Revisão",
+    "Histórico de Atores"
+  ],
+  "public.tl_ator_papel": [
+    "Tipos de Atores",
+    "Perfis de Acesso",
+    "Revisão de Papéis"
+  ],
+  "public.tl_ator_papel_perfil": [
+    "Perfis de Acesso",
+    "Auditoria de Permissões",
+    "Mapeamento de Papéis e Perfis"
+  ],
+  "public.tl_cds_atend_dom_proced": [
+    "Procedimentos em Atendimento Domiciliar",
+    "Frequência de Procedimentos",
+    "Análise de Atendimentos Domiciliares"
+  ],
+  "public.tl_cds_atend_dom_situacao_pres": [
+    "Condições de Saúde Domiciliar",
+    "Atendimento Domiciliar (CDS)",
+    "Perfil de Visitas Domiciliares"
+  ],
+  "public.tl_cds_atend_domiciliar": [
+    "Atendimento Domiciliar",
+    "Perfil do Paciente",
+    "Diagnósticos de Saúde"
+  ],
+  "public.tl_cds_atend_individual": [
+    "Perfil do Paciente",
+    "Saúde Materno-Infantil",
+    "Condições de Saúde (CID-10)"
+  ],
+  "public.tl_cds_atend_individual_ciap": [
+    "Motivos de Consulta",
+    "Condições de Saúde",
+    "Perfil de Morbidade"
+  ],
+  "public.tl_cds_atend_individual_condut": [
+    "Condutas em Atendimentos",
+    "Encaminhamentos de Pacientes",
+    "Revisão de Atendimentos"
+  ],
+  "public.tl_cds_atend_individual_nasf": [
+    "Atendimentos Individuais NASF",
+    "Tipos de Atendimento",
+    "Revisão de Registros"
+  ],
+  "public.tl_cds_atend_odont_tip_vig_buc": [
+    "Vigilância em Saúde Bucal",
+    "Atendimentos Odontológicos",
+    "Saúde Pública Odontológica"
+  ],
+  "public.tl_cds_atend_odonto": [
+    "Perfil do Paciente Odontológico",
+    "Tipos de Atendimento Odontológico",
+    "Atendimento a Gestantes e Especiais"
+  ],
+  "public.tl_cds_atend_odonto_tipo_cnslt": [
+    "Tipos de Consulta Odontológica",
+    "Revisão de Atendimentos",
+    "Frequência de Consultas"
+  ],
+  "public.tl_cds_atend_odonto_tipo_encam": [
+    "Encaminhamentos Odontológicos",
+    "Fluxo de Pacientes",
+    "Revisão de Atendimentos"
+  ],
+  "public.tl_cds_atend_odonto_tipo_fornc": [
+    "Fornecimento Odontológico",
+    "Tipos de Atendimento",
+    "Revisão de Dados"
+  ],
+  "public.tl_cds_ativ_col_participante": [
+    "Perfil dos Participantes",
+    "Avaliação Antropométrica",
+    "Adesão a Grupos de Saúde"
+  ],
+  "public.tl_cds_aval_eleg_ad_tipo_inelg": [
+    "Motivos de Inelegibilidade",
+    "Avaliação de Elegibilidade",
+    "Revisão de Cadastros"
+  ],
+  "public.tl_cds_aval_eleg_cds_situc_prs": [
+    "Avaliação de Elegibilidade",
+    "Situações de Cadastro",
+    "Análise de Revisões"
+  ],
+  "public.tl_cds_aval_elegibilidade": [
+    "Elegibilidade para Atenção Domiciliar",
+    "Perfil Sociodemográfico de Pacientes",
+    "Diagnósticos (CID-10) para Cuidado Domiciliar"
+  ],
+  "public.tl_cds_cad_domiciliar": [
+    "Mapeamento de Domicílios",
+    "Cadastro de Saúde Primária",
+    "Caracterização de Imóveis"
+  ],
+  "public.tl_cds_cad_individual": [
+    "Perfil Sociodemográfico",
+    "Cadastro de Saúde (SUS)",
+    "Distribuição Geográfica"
+  ],
+  "public.tl_cds_cidadao_resposta": [
+    "Condições de Saúde",
+    "Plantas Medicinais",
+    "Questionário Individual"
+  ],
+  "public.tl_cds_domicilio": [
+    "Cadastro de Domicílios",
+    "Mapeamento de Saúde",
+    "Geolocalização de Endereços"
+  ],
+  "public.tl_cds_domicilio_familia": [
+    "Perfil Socioeconômico Familiar",
+    "Composição Familiar",
+    "Mobilidade Residencial"
+  ],
+  "public.tl_cds_domicilio_resposta": [
+    "Respostas de questionários",
+    "Cadastro Domiciliar (CDS)",
+    "Condições de moradia"
+  ],
+  "public.tl_cds_ficha_atend_domiciliar": [
+    "Atendimentos Domiciliares",
+    "Atividade por Profissional",
+    "Revisão de Fichas"
+  ],
+  "public.tl_cds_ficha_atend_indivdl_prf": [
+    "Atendimentos por Profissional",
+    "Revisão de Fichas de Saúde"
+  ],
+  "public.tl_cds_ficha_atend_individual": [
+    "Frequência de Atendimentos",
+    "Atendimentos por Profissional",
+    "Revisão de Fichas"
+  ],
+  "public.tl_cds_ficha_atend_odonto": [
+    "Atendimentos Odontológicos",
+    "Revisão de Registros",
+    "Versões do Sistema"
+  ],
+  "public.tl_cds_ficha_atend_odonto_prof": [
+    "Atendimentos Odontológicos",
+    "Produtividade de Profissionais",
+    "Revisão de Atendimentos"
+  ],
+  "public.tl_cds_ficha_ativ_col": [
+    "Atividades Coletivas de Saúde",
+    "Programa Saúde na Escola (PSE)",
+    "Produção de Saúde Pública"
+  ],
+  "public.tl_cds_ficha_ativ_col_pratica": [
+    "Atividades Coletivas de Saúde",
+    "Práticas em Saúde Coletiva",
+    "Frequência de Atividades"
+  ],
+  "public.tl_cds_ficha_ativ_col_prof": [
+    "Participação em Atividades Coletivas",
+    "Profissionais por Atividade",
+    "Revisão de Registros"
+  ],
+  "public.tl_cds_ficha_ativ_col_pub_alvo": [
+    "Público-alvo de atividades",
+    "Atividades de saúde coletiva",
+    "Revisão de registros"
+  ],
+  "public.tl_cds_ficha_ativ_col_tema": [
+    "Temas de Atividades Coletivas",
+    "Frequência de Temas de Saúde",
+    "Categorização de Atividades"
+  ],
+  "public.tl_cds_ficha_consumo_alimentar": [
+    "Perfil do Cidadão",
+    "Consumo Alimentar",
+    "Atendimentos por Profissional"
+  ],
+  "public.tl_cds_ficha_proced": [
+    "Análise de Procedimentos Médicos",
+    "Monitoramento de Saúde Básica",
+    "Frequência de Atendimentos"
+  ],
+  "public.tl_cds_ficha_vacinacao": [
+    "Registros de Vacinação",
+    "Atividade de Profissionais",
+    "Versões de Software"
+  ],
+  "public.tl_cds_ficha_visita_domiciliar": [
+    "Visitas Domiciliares de Saúde",
+    "Atividade de Profissionais",
+    "Registros de Atendimento"
+  ],
+  "public.tl_cds_proced": [
+    "Perfil de Pacientes",
+    "Procedimentos de Saúde",
+    "Locais de Atendimento"
+  ],
+  "public.tl_cds_prof": [
+    "Profissões da Saúde",
+    "Profissionais por Unidade",
+    "Composição de Equipes"
+  ],
+  "public.tl_cds_vacina": [
+    "Lotes e Fabricantes de Vacinas",
+    "Doses e Tipos de Vacina",
+    "Estratégias de Vacinação"
+  ],
+  "public.tl_cds_vacinacao": [
+    "Registros de Vacinação",
+    "Perfil de Vacinados",
+    "Vacinação de Gestantes"
+  ],
+  "public.tl_cidadao": [
+    "Perfil Sociodemográfico",
+    "Distribuição Geográfica",
+    "Cadastro de Cidadãos"
+  ],
+  "public.tl_cidadao_grupo": [
+    "Unificação de Cadastros",
+    "Identificação do Cidadão",
+    "Histórico de Revisões"
+  ],
+  "public.tl_cidadao_nucleo_familiar": [
+    "Composição Familiar",
+    "Mobilidade Populacional",
+    "Vínculo com Unidades de Saúde"
+  ],
+  "public.tl_cidadao_vinculacao_equipe": [
+    "Vínculo Cidadão-Equipe",
+    "Motivos de Desligamento de Pacientes",
+    "Cadastro por Unidade de Saúde"
+  ],
+  "public.tl_cns": [
+    "Duplicidade de CNS",
+    "Status do CNS",
+    "Revisão de Cadastros"
+  ],
+  "public.tl_config_agenda_detalhe": [
+    "Horários de Trabalho",
+    "Gestão de Turnos",
+    "Agenda por Lotação"
+  ],
+  "public.tl_config_atencao_domiciliar": [
+    "Configuração Atendimento Domiciliar",
+    "Duração de Consultas",
+    "Parâmetros de Atendimento"
+  ],
+  "public.tl_configperiodo_diasemana": [
+    "Configuração de Períodos",
+    "Dias da Semana",
+    "Regras de Agendamento"
+  ],
+  "public.tl_configuracao_horario": [
+    "Horários de Atendimento",
+    "Duração de Consultas",
+    "Gestão de Agendas"
+  ],
+  "public.tl_encaminhamento": [
+    "Encaminhamentos por Especialidade",
+    "Diagnósticos de Pacientes",
+    "Classificação de Risco"
+  ],
+  "public.tl_equipe": [
+    "Composição de equipes de saúde",
+    "Equipes por unidade de saúde",
+    "Cadastro de equipes (INE)"
+  ],
+  "public.tl_evol_aval_tp_vig_saude_bucl": [
+    "Vigilância em Saúde Bucal",
+    "Avaliação em Saúde Bucal",
+    "Tipos de Vigilância"
+  ],
+  "public.tl_evolucao_avaliacao": [
+    "Acompanhamento de Gestantes e Crianças",
+    "Saúde Bucal e Próteses",
+    "Acompanhamento de Programas Sociais"
+  ],
+  "public.tl_evolucao_avaliacao_ciap_cid": [
+    "Relação CIAP e CID",
+    "Diagnósticos em Saúde",
+    "Evolução de Atendimentos"
+  ],
+  "public.tl_evolucao_dente": [
+    "Histórico Odontológico",
+    "Tratamentos Dentários",
+    "Análise de Odontogramas"
+  ],
+  "public.tl_evolucao_objetivo": [
+    "Motivos de Consulta",
+    "Acompanhamento de Doenças",
+    "Saúde da Criança"
+  ],
+  "public.tl_evolucao_odonto": [
+    "Procedimentos Odontológicos",
+    "Tratamentos por Dente",
+    "Prevenção em Saúde Bucal"
+  ],
+  "public.tl_evolucao_odonto_parte_bucal": [
+    "Evolução Odontológica",
+    "Análise por Parte Bucal",
+    "Registros de Revisões"
+  ],
+  "public.tl_evolucao_odonto_proced": [
+    "Procedimentos Odontológicos",
+    "Evolução de Tratamentos",
+    "Frequência de Procedimentos"
+  ],
+  "public.tl_evolucao_plano": [
+    "Planos de tratamento",
+    "Prescrição de medicamentos",
+    "Orientações ao paciente"
+  ],
+  "public.tl_evolucao_plano_ciap": [
+    "Diagnósticos e Procedimentos",
+    "Evolução do Plano de Cuidado",
+    "Classificação de Doenças (CIAP)"
+  ],
+  "public.tl_evolucao_subjetivo": [
+    "Motivos de Consulta",
+    "Sintomas de Pacientes",
+    "Renovação de Receitas"
+  ],
+  "public.tl_evolucao_subjetivo_ciap": [
+    "Condições de Saúde",
+    "Diagnósticos CIAP",
+    "Atendimentos em Saúde Primária"
+  ],
+  "public.tl_exame_clearance_creatina": [
+    "Clearance de Creatinina",
+    "Função Renal",
+    "Exames Laboratoriais"
+  ],
+  "public.tl_exame_colesterol_hdl": [
+    "Colesterol HDL",
+    "Resultados de Exames",
+    "Saúde Cardiovascular"
+  ],
+  "public.tl_exame_colesterol_ldl": [
+    "Níveis de Colesterol LDL",
+    "Exames Laboratoriais",
+    "Risco Cardiovascular"
+  ],
+  "public.tl_exame_colesterol_total": [
+    "Níveis de colesterol",
+    "Resultados de exames",
+    "Saúde cardiovascular"
+  ],
+  "public.tl_exame_creatina_serica": [
+    "Exames de Creatinina",
+    "Função Renal",
+    "Diagnóstico Renal"
+  ],
+  "public.tl_exame_hemoglobina_glicada": [
+    "Hemoglobina Glicada",
+    "Controle Glicêmico",
+    "Monitoramento de Diabetes"
+  ],
+  "public.tl_exame_prenatal": [
+    "Exames pré-natais",
+    "Idade gestacional",
+    "Previsão de parto"
+  ],
+  "public.tl_exame_puericultura": [
+    "Exames em Puericultura",
+    "Saúde Infantil",
+    "Acompanhamento Pediátrico"
+  ],
+  "public.tl_exame_requisitado": [
+    "Resultados de Exames",
+    "Tempo de Atendimento",
+    "Requisições de Exames"
+  ],
+  "public.tl_exame_triglicerideos": [
+    "Níveis de Triglicerídeos",
+    "Resultados de Exames",
+    "Saúde Cardiovascular"
+  ],
+  "public.tl_familia": [
+    "Perfil Socioeconômico Familiar",
+    "Demografia Familiar",
+    "Cadastro de Saúde Familiar"
+  ],
+  "public.tl_grupo_ativ_col": [
+    "Grupos de Atividades Coletivas",
+    "Atividades por Estabelecimento (CNES)",
+    "Categorias de Saúde Pública"
+  ],
+  "public.tl_imunobiologico_lote": [
+    "Rastreamento de Lotes",
+    "Controle de Validade",
+    "Lotes por Fabricante"
+  ],
+  "public.tl_justificativa_prontuario": [
+    "Acesso a prontuários",
+    "Motivos de acesso",
+    "Auditoria de usuários"
+  ],
+  "public.tl_lembrete": [
+    "Lembretes de Prontuário",
+    "Revisão Clínica",
+    "Lembretes de Atendimento"
+  ],
+  "public.tl_lembrete_evolucao": [
+    "Lembretes de pacientes",
+    "Alertas clínicos",
+    "Acompanhamento de gestantes"
+  ],
+  "public.tl_lotacao": [
+    "Alocação de Profissionais de Saúde",
+    "Estrutura de Equipes de Saúde",
+    "Cargos e Ocupações na Saúde"
+  ],
+  "public.tl_medicamento": [
+    "Princípios Ativos de Medicamentos",
+    "Dosagens e Formas Farmacêuticas",
+    "Revisões de Medicamentos"
+  ],
+  "public.tl_medicamento_uso_continuo": [
+    "Uso Contínuo de Medicamentos",
+    "Padrões de Prescrição",
+    "Tratamentos de Pacientes"
+  ],
+  "public.tl_medicao": [
+    "Sinais Vitais",
+    "Acompanhamento Pré-natal",
+    "Medidas Antropométricas"
+  ],
+  "public.tl_neuro_alter_fenot": [
+    "Alterações Neurológicas",
+    "Evolução de Condições",
+    "Prontuários de Pacientes"
+  ],
+  "public.tl_neuro_alter_fenot_evolucao": [
+    "Avaliação Fenotípica Neurológica",
+    "Evolução de Alterações Neurológicas",
+    "Prevalência de Alterações"
+  ],
+  "public.tl_neuro_fator_risco": [
+    "Fatores de Risco Neurológico",
+    "Evolução de Fatores de Risco",
+    "Perfil de Risco do Paciente"
+  ],
+  "public.tl_neuro_fator_risco_evolucao": [
+    "Fatores de Risco Neurológico",
+    "Evolução de Fatores de Risco",
+    "Avaliação por Profissional"
+  ],
+  "public.tl_neuro_marco": [
+    "Evolução de Pacientes",
+    "Marcos do Desenvolvimento Neurológico",
+    "Histórico de Prontuários"
+  ],
+  "public.tl_neuro_marco_evolucao": [
+    "Marcos do Desenvolvimento Infantil",
+    "Atrasos no Desenvolvimento",
+    "Avaliação Neurológica Infantil"
+  ],
+  "public.tl_odontograma": [
+    "Uso de Próteses",
+    "Histórico Odontológico",
+    "Atendimentos Odontológicos"
+  ],
+  "public.tl_orientacao": [
+    "Acompanhamento de Diabetes",
+    "Encaminhamentos Médicos",
+    "Orientações de Amamentação"
+  ],
+  "public.tl_papel": [
+    "Cargos de Saúde",
+    "Lotação de Profissionais",
+    "Unidades de Saúde"
+  ],
+  "public.tl_pre_natal": [
+    "Acompanhamento Pré-Natal",
+    "Gravidez de Alto Risco",
+    "Planejamento Gestacional"
+  ],
+  "public.tl_problema": [
+    "Diagnósticos de Saúde",
+    "Evolução de Problemas de Saúde",
+    "Registros de Atenção Primária"
+  ],
+  "public.tl_problema_evolucao": [
+    "Acompanhamento de Saúde",
+    "Evolução de Condições",
+    "Saúde da Gestante"
+  ],
+  "public.tl_proced_cds_proced": [
+    "Mapeamento de Procedimentos",
+    "Revisão de Procedimentos",
+    "Frequência de Procedimentos"
+  ],
+  "public.tl_prof": [
+    "Registro Profissional",
+    "Identificação de Profissionais",
+    "Perfil Demográfico"
+  ],
+  "public.tl_prof_municipio": [
+    "Revisões por município",
+    "Profissionais por revisão",
+    "Atribuição de profissionais"
+  ],
+  "public.tl_prontuario": [
+    "Revisões de prontuários",
+    "Processamento de cadastros",
+    "Agrupamento de prontuários"
+  ],
+  "public.tl_prontuario_grupo_historico": [
+    "Unificação de Prontuários",
+    "Histórico de Revisões",
+    "Agrupamento de Pacientes"
+  ],
+  "public.tl_qst_opcao_pergunta": [
+    "Configuração de Questionários",
+    "Revisões de Questionários",
+    "Opções de Resposta"
+  ],
+  "public.tl_qst_questionario_respondido": [
+    "Respostas de Questionários",
+    "Avaliação de Revisões",
+    "Histórico de Respostas"
+  ],
+  "public.tl_qst_resposta": [
+    "Respostas de Questionários",
+    "Padrões de Resposta",
+    "Análise por Revisão"
+  ],
+  "public.tl_qst_resposta_opcao_pergunta": [
+    "Análise de Respostas",
+    "Padrões de Questionário",
+    "Frequência de Opções"
+  ],
+  "public.tl_receita": [
+    "Tipos de Receita",
+    "Atendimentos Profissionais",
+    "Revisão de Prescrições"
+  ],
+  "public.tl_receita_medicamento": [
+    "Padrões de Prescrição",
+    "Duração de Tratamentos",
+    "Uso Contínuo de Medicamentos"
+  ],
+  "public.tl_recurso": [
+    "Recursos do Sistema e-SUS",
+    "Gestão de Cadastros de Saúde",
+    "Administração de Saúde Pública"
+  ],
+  "public.tl_registro_vacinacao": [
+    "Campanhas de Vacinação",
+    "Administração de Vacinas",
+    "Esquema Vacinal"
+  ],
+  "public.tl_requisicao_exame": [
+    "Motivos de Exames Médicos",
+    "Acompanhamento Pré-natal",
+    "Rastreamento de Doenças"
+  ],
+  "public.tl_rl_cds_visita_dom_motivo": [
+    "Motivos de Visitas Domiciliares",
+    "Saúde Pública",
+    "Atenção Primária à Saúde"
+  ],
+  "public.tl_sinan_notificacao_evolucao": [
+    "Evolução de Casos SINAN",
+    "Registros de Atendimento",
+    "Histórico de Notificações"
+  ],
+  "public.tl_unidade_saude": [
+    "Cadastro de Unidades de Saúde",
+    "Tipos de Estabelecimentos de Saúde",
+    "Localização de Hospitais e Clínicas"
+  ],
+  "public.tl_unidade_saude_complexidade": [
+    "Complexidade de Unidades",
+    "Papéis de Atores da Saúde",
+    "Classificação de Unidades"
+  ],
+  "public.tl_unidade_saude_tipo_servico": [
+    "Serviços de saúde",
+    "Papéis profissionais",
+    "Revisões de unidades"
+  ],
+  "public.tl_usuario": [
+    "Segurança de Senhas",
+    "Controle de Acesso",
+    "Auditoria de Usuários"
+  ],
+  "public.tl_vacinacao": [
+    "Registros de Vacinação",
+    "Vacinação de Gestantes",
+    "Histórico de Vacinação do Paciente"
+  ]
+}

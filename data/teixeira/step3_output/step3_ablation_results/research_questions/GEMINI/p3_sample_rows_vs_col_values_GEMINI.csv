@@ -1,8 +1,0 @@
-Comparacao,Variante_A,Variante_B,N_Tabelas,HardDice_mean,SoftDice_mean,SoftDice_std,TokensIn_A,TokensIn_B,Delta_TokensIn
-full vs full-sem-rows,v01_full,v25_full_no_sample_rows,24,0.4222222222222222,0.7929864082071516,0.18316640828442085,118078.0,104004.0,14074.0
-rows+sample_val vs sample_val,v15_sample_rows_vs_sample_values,v05_plus_sample_values,24,0.3611111111111111,0.790166012942791,0.12780361212867586,75182.0,61106.0,14076.0
-rows+freq_val vs rows,v16_sample_rows_vs_frequent_values,v07_plus_sample_rows,24,0.3111111111111111,0.7706583687000804,0.14215702182338882,56971.0,37322.0,19649.0
-rows+sample_val vs rows,v15_sample_rows_vs_sample_values,v07_plus_sample_rows,24,0.35000000000000003,0.7380247443914413,0.1605608189609842,75182.0,37322.0,37860.0
-rows+ambos vs rows,v17_sample_rows_plus_both_values,v07_plus_sample_rows,24,0.22499999999999998,0.704007007016076,0.1628150256213997,93609.0,37322.0,56287.0
-rows vs sample_values,v07_plus_sample_rows,v05_plus_sample_values,24,0.22499999999999998,0.7025388510690794,0.18117260347189648,37322.0,61106.0,-23784.0
-rows vs frequent_values,v07_plus_sample_rows,v06_plus_frequent_values,24,0.3,0.6864313347472084,0.1702246187666447,37322.0,42895.0,-5573.0

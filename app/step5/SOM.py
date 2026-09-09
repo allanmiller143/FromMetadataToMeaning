@@ -30,7 +30,7 @@ random.seed(SEED)
 np.random.seed(SEED)
 
 ROOT_DIR = Path(__file__).resolve().parents[2]
-DATA_DIR = ROOT_DIR / "data"
+DATA_DIR = ROOT_DIR / "data" / "teixeira"
 INPUT_DIR = DATA_DIR / "step3_output"
 OUTPUT_DIR = DATA_DIR / "step5_output"
 OUTPUT_DIR.mkdir(parents=True, exist_ok=True)
@@ -134,11 +134,11 @@ def grid_search_som(data):
     print("Iniciando Grid Search para otimização do SOM...")
 
     grid = {
-        "x": [14],
-        "y": [14],
+        "x": [18],
+        "y": [16],
         "sigma": [2.5],
         "learning_rate": [0.1],
-        "iterations": [3000]
+        "iterations": [2000]
     }
 
     best = None
@@ -208,6 +208,58 @@ def compute_umatrix_hexagonal(som):
                 umatrix[x, y] = float(np.mean([np.linalg.norm(weights[x, y] - n) for n in neighbors]))
 
     return umatrix
+
+def plot_umatrix_hex_static_plain(umatrix, out_png, cmap="inferno"):
+    """
+    Plot estático da U-Matrix em colmeia hexagonal, SEM anotações de macrotemas.
+    """
+    from mpl_toolkits.axes_grid1 import make_axes_locatable
+
+    x_dim, y_dim = umatrix.shape
+    patches = []
+    colors = []
+
+    hex_width = 1.0
+    hex_height = np.sqrt(3) / 2 * hex_width
+
+    for x in range(x_dim):
+        for y in range(y_dim):
+            x_offset = 0.5 * hex_width if (y % 2 == 1) else 0.0
+            x_plot = x * hex_width + x_offset
+            y_plot = y * hex_height
+
+            hexagon = RegularPolygon(
+                (x_plot, y_plot),
+                numVertices=6,
+                radius=hex_width / np.sqrt(3),
+                orientation=0,
+                facecolor='none',
+                edgecolor='white',
+                linewidth=0.5
+            )
+            patches.append(hexagon)
+            colors.append(float(umatrix[x, y]))
+
+    fig, ax = plt.subplots(figsize=(14, 12))
+
+    pc = PatchCollection(patches, cmap=cmap, edgecolor="white", linewidth=0.5)
+    pc.set_array(np.asarray(colors, dtype=np.float32))
+    ax.add_collection(pc)
+
+    ax.set_aspect("equal")
+    ax.autoscale_view()
+    ax.axis("off")
+
+    divider = make_axes_locatable(ax)
+    cax = divider.append_axes("right", size="3%", pad=0.15)
+    plt.colorbar(pc, cax=cax, label="Distância média (U-Matrix)")
+
+    ax.set_title("U-Matrix (grade hexagonal - colmeia)")
+
+    plt.tight_layout()
+    plt.savefig(out_png, dpi=300, bbox_inches='tight')
+    plt.close()
+    print(f"U-Matrix (sem anotações) salva em: {out_png}")
 
 def plot_umatrix_hex_static(umatrix, out_png, macrothemes=None, top_n=10, cmap="inferno"):
     """
@@ -566,6 +618,11 @@ def main():
         OUTPUT_DIR / "fig_umatrix_hex_colmeia.png",
         macrothemes=macrothemes,
         top_n=10
+    )
+
+    plot_umatrix_hex_static_plain(
+        umatrix,
+        OUTPUT_DIR / "fig_umatrix_hex_colmeia_sem_labels.png"
     )
 
     # RELATÓRIOS

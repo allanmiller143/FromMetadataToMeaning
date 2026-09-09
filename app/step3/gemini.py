@@ -14,7 +14,7 @@ OUTPUT_DIR = DATA_DIR / "step3_output"
 OUTPUT_DIR.mkdir(parents=True, exist_ok=True)
 TEMPERATURE = float(os.getenv("TEMPERATURE", "0.0"))
 MODEL_NAME = "GEMINI"
-RUN = int(sys.argv[1]) if len(sys.argv) > 1 else 1
+RUN = int(sys.argv[3]) if len(sys.argv) > 3 else 3
 DESCRIPTIONS_PATH = OUTPUT_DIR / f"table_descriptions_{MODEL_NAME}_{RUN}.json"
 TOPICS_PATH = OUTPUT_DIR / f"table_topics_{MODEL_NAME}_{RUN}.json"
 
@@ -66,7 +66,7 @@ def summarize_table(table_meta: Dict[str, Any]) -> str:
         "sample_rows": table_meta.get("sample_rows", [])[:3]
     }
 
-    print(f"Resumo completo para {schema}.{table_name}: {json.dumps(summary, ensure_ascii=False)}")
+    # print(f"Resumo completo para {schema}.{table_name}: {json.dumps(summary, ensure_ascii=False)}")
 
     return json.dumps(summary, ensure_ascii=False)
 
@@ -217,29 +217,14 @@ def llm_suggest_topics(client: genai.Client, table_summary: str) -> List[str]:
     prompt = f"""
     Com base na descrição e metadados da tabela abaixo, liste até 3 temas principais de pesquisa ou análise que essa tabela pode ajudar a estudar.
 
-    OBJETIVO:
-    - Descrever o propósito funcional da tabela.
-    - Responder à pergunta: "O que essa tabela É no sistema?"
-    - Encontrar o conceito mais específico possível.
-    - Usar apenas evidências contidas na própria tabela.
-    - Não usar conhecimento externo nem contexto de domínio fornecido fora da entrada.
-    - Usar linguagem direta e objetiva, como faria um arquiteto de dados.
+    INSTRUÇÕES:
+        1. ANALISE OS VALORES para identificar categorias específicas
+        2. Use LINGUAGEM SIMPLES e CLARA
+        3. Cada tema deve ter 1-3 palavras
+        4. Seja CONCRETO - evite genéricos como "informações", "dados", "registros"
+        5. Esses temas devem estar em formato simples e claro, para que qualquer usuário, seja ele técnico ou não possa entende-lo facilmente.
 
-    CRITÉRIOS:
-    1. Examine nomes de colunas, sample_values, frequent_values, sample_rows, foreign_keys e nome da tabela.
-    2. Prefira temas específicos sustentados por pelo menos 2 evidências independentes.
-    3. Evite temas muito genéricos isoladamente como:
-    "dados", "registros", "informações", "cadastro", "atendimento", "sistema".
-    4. Caso use um tema genérico, ele deve ser acompanhado por um tema específico relacionado. Exemplo: "atendimento de (subjetivo)" + "cadastro de (específico)".
-    5. Cada tema deve ter 1 a 4 palavras.
-    6. Use termos que apareçam explicitamente ou sejam fortemente inferíveis a partir dos valores.
-    7. Se a tabela parecer estrutural ou administrativa, retorne temas estruturais honestos.
-    8. Se não houver evidência confiável, retorne menos temas; não invente.
-    9. Use LINGUAGEM SIMPLES e CLARA
-
-
-    Responda APENAS com um array JSON válido.
-
+    Responda APENAS com um array JSON de strings, por exemplo:
     REGRAS IMPORTANTES:
     - NÃO use ```json ou ``` 
     - NÃO adicione explicações
@@ -248,7 +233,7 @@ def llm_suggest_topics(client: genai.Client, table_summary: str) -> List[str]:
     - O resultado deve começar com [ e terminar com ]
 
     Exemplo válido:
-    ["Tema 1", "Tema 2", "Tema 3"]
+    ["Tema 1", "Tema 2", "Tema 3"]    
 
     O formato do JSON de entrada segue esta estrutura:
         - schema: nome do schema
@@ -261,8 +246,8 @@ def llm_suggest_topics(client: genai.Client, table_summary: str) -> List[str]:
 
     Exemplo de saída JSON:
 
-    Temas: ["Tema 1", "tema 2", "tema 3"]    
-    
+    Temas: ["Tema 1", "tema 2", "tema 3"]
+
     OBS. Se houver menos de 3 temas relevantes, liste apenas os que fizerem sentido. Não invente temas irrelevantes. você pode listar apenas 1 ou 2 temas, se apropriado.
 
 Metadados da tabela:
@@ -368,8 +353,22 @@ def main():
 
     table_topics = {}
 
-    for idx, table_meta in enumerate(metadata[:5], 1):  
+    # se o JSON de saída já existe, carrega o que já foi processado para poder retomar de onde parou
+    if TOPICS_PATH.exists():
+        with TOPICS_PATH.open("r", encoding="utf-8") as f_read:
+            try:
+                table_topics = json.load(f_read)
+            except json.JSONDecodeError:
+                table_topics = {}
+
+    for idx, table_meta in enumerate(metadata, 1):
         full_name = f"{table_meta.get('schema')}.{table_meta.get('table_name')}"
+
+        # pula tabelas já processadas com sucesso (topics não vazio); retenta as que deram erro antes
+        if table_topics.get(full_name):
+            print(f"[{idx}/{len(metadata)}] {full_name} já processado, pulando...")
+            continue
+
         print(f"[{idx}/{len(metadata)}] Processando {full_name}...")
 
         try:
@@ -390,8 +389,9 @@ def main():
             print(f"  ERRO ao processar {full_name}: {e}")
             table_topics[full_name] = []
 
-    with TOPICS_PATH.open("w", encoding="utf-8") as f:
-        json.dump(table_topics, f, ensure_ascii=False, indent=2)
+        # regrava o JSON no disco assim que a tabela é processada, para não perder progresso
+        with TOPICS_PATH.open("w", encoding="utf-8") as f:
+            json.dump(table_topics, f, ensure_ascii=False, indent=2)
 
     print(f"Temas salvos com sucesso")
 

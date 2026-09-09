@@ -298,7 +298,7 @@ def v14_nullable_plus_numeric_stats(table_meta: Dict[str, Any]) -> str:
 # Pergunta: "é melhor mandar linhas completas ou valores por coluna?"
 # ---------------------------------------------------------------------------
 
-def v15_sample_rows_vs_sample_values(table_meta: Dict[str, Any]) -> str:
+def v15_sample_rows_plus_sample_values(table_meta: Dict[str, Any]) -> str:
     """sample_rows + sample_values juntos. Par com v15 e v13 para comparação direta."""
     return _build_summary(
         table_meta,
@@ -308,7 +308,7 @@ def v15_sample_rows_vs_sample_values(table_meta: Dict[str, Any]) -> str:
     )
 
 
-def v16_sample_rows_vs_frequent_values(table_meta: Dict[str, Any]) -> str:
+def v16_sample_rows_plus_frequent_values(table_meta: Dict[str, Any]) -> str:
     """sample_rows + frequent_values juntos. Par com v15 e v14."""
     return _build_summary(
         table_meta,
@@ -465,8 +465,8 @@ ABLATION_VARIANTS = {
     "v14_nullable_plus_numeric_stats":       v14_nullable_plus_numeric_stats,
 
     # --- Grupo 4: sample_rows vs valores por coluna ---
-    "v15_sample_rows_vs_sample_values":      v15_sample_rows_vs_sample_values,
-    "v16_sample_rows_vs_frequent_values":    v16_sample_rows_vs_frequent_values,
+    "v15_sample_rows_plus_sample_values":      v15_sample_rows_plus_sample_values,
+    "v16_sample_rows_plus_frequent_values":    v16_sample_rows_plus_frequent_values,
     "v17_sample_rows_plus_both_values":      v17_sample_rows_plus_both_values,
 
     # --- Grupo 5: combinações ricas candidatas a ótimo ---
