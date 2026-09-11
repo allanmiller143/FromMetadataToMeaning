@@ -1,6 +1,6 @@
 # Relatório de Filtragem de Metadados
 
-**Data de Execução:** 03/07/2026 08:03:42
+**Data de Execução:** 10/09/2026 21:48:46
 
 ## Resumo
 

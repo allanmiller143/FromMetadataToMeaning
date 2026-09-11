@@ -1,11 +1,20 @@
 #!/usr/bin/env python3
 """
-Script para filtrar tabelas de metadados com base em critérios de row_count.
+Script para filtrar tabelas de metadados com base em critérios de row_count
+E, em seguida, anonimizar automaticamente o resultado (chamando
+anonymize_metadata.py), sem gravar em disco o JSON intermediário
+filtrado-mas-ainda-não-anonimizado.
 
-Critérios de filtragem:
-- Remove APENAS tabelas com row_count igual a 0
+Pipeline (um único comando, um único arquivo de dados salvo no final):
+    1) Lê o metadata.json bruto.
+    2) Filtra em memória: remove APENAS tabelas com row_count igual a 0.
+    3) Anonimiza em memória o resultado filtrado (usando
+       anonymize_metadata.anonymize_metadata_data()).
+    4) Salva SOMENTE o JSON final já filtrado E anonimizado.
 
 O JSON de saída mantém exatamente o mesmo formato do JSON de entrada.
+Este script precisa estar na mesma pasta que anonymize_metadata.py e
+sensitive_columns.json.
 """
 
 import json
@@ -13,6 +22,7 @@ import sys
 from pathlib import Path
 from datetime import datetime
 
+from anonymize_metadata import anonymize_metadata_data, generate_report as generate_anon_report
 
 def generate_report(metadata, filtered_metadata, removed_tables, output_file: str):
     """
@@ -119,94 +129,110 @@ A remoção de tabelas com `row_count = 0` é justificada pelos seguintes motivo
     # print(f"Relatório salvo em: {output_file}")
 
 
-def filter_metadata(input_file: str, output_file: str, report_file: str):
+def filter_and_anonymize(input_file: str, output_file: str, filter_report_file: str,
+                          anon_report_file: str, config_file: str):
     """
-    Filtra tabelas de metadados baseado no row_count.
-    Remove APENAS tabelas com row_count = 0.
-    
+    Filtra tabelas de metadados baseado no row_count e, na sequência,
+    anonimiza o resultado — tudo em memória, sem gravar o JSON
+    filtrado-mas-nao-anonimizado em disco.
+
+    Remove APENAS tabelas com row_count = 0, depois anonimiza os valores
+    das colunas sensíveis (ver anonymize_metadata.py / sensitive_columns.json).
+
     Args:
-        input_file: Caminho para o arquivo JSON de entrada
-        output_file: Caminho para o arquivo JSON de saída
-        report_file: Caminho para o arquivo de relatório MD
+        input_file: Caminho para o arquivo JSON de entrada (metadata bruto)
+        output_file: Caminho para o ÚNICO JSON de saída (já filtrado E anonimizado)
+        filter_report_file: Caminho para o relatório MD da etapa de filtragem
+        anon_report_file: Caminho para o relatório MD da etapa de anonimização
+        config_file: Caminho para o sensitive_columns.json
     """
-    
+
     # Ler o arquivo JSON de entrada
-    # print(f"Lendo arquivo: {input_file}")
     with open(input_file, 'r', encoding='utf-8') as f:
         metadata = json.load(f)
-    
+
     total_tables = len(metadata)
-    # print(f"Total de tabelas no arquivo original: {total_tables}")
-    
-    # Filtrar tabelas com row_count > 0
+
+    # --- Etapa 1: filtragem (em memória) ---
     filtered_metadata = [
-        table for table in metadata 
+        table for table in metadata
         if table.get('row_count', 0) > 0
     ]
-    
-    # Tabelas removidas (row_count = 0)
+
     removed_tables = [
-        table for table in metadata 
+        table for table in metadata
         if table.get('row_count', 0) == 0
     ]
-    
+
     filtered_count = len(filtered_metadata)
     removed_count = len(removed_tables)
-    
-    # print(f"\nTabelas removidas (row_count = 0): {removed_count}")
-    # print(f"Tabelas mantidas: {filtered_count}")
-    # print(f"Percentual removido: {(removed_count/total_tables)*100:.2f}%")
-    
-    # Mostrar algumas tabelas removidas
-    # if removed_tables:
-    #     print(f"\nExemplos de tabelas removidas:")
-    #     for table in removed_tables[:10]:
-    #         print(f"  - {table['table_name']}: {table['row_count']} linhas")
-    #     if len(removed_tables) > 10:
-    #         print(f"  ... e mais {len(removed_tables) - 10} tabelas")
-    
-    # Salvar o JSON filtrado mantendo o formato original
-    # print(f"\nSalvando arquivo filtrado: {output_file}")
+
+    # Relatório da filtragem (apenas markdown — não é dado, pode ser salvo)
+    generate_report(metadata, filtered_metadata, removed_tables, filter_report_file)
+
+    # --- Etapa 2: anonimização (em memória, direto sobre o resultado filtrado) ---
+    anon_metadata, per_table_anonymized, per_table_content_pii, patterns, auto_anonymize_keys = \
+        anonymize_metadata_data(filtered_metadata, config_file)
+
+    # Único arquivo de dados salvo no final: já filtrado E anonimizado
     with open(output_file, 'w', encoding='utf-8') as f:
-        json.dump(filtered_metadata, f, indent=2, ensure_ascii=False)
-    
-    # Gerar relatório
-    # print(f"\nGerando relatório...")
-    generate_report(metadata, filtered_metadata, removed_tables, report_file)
-    
-    # print("\nProcesso concluído com sucesso!")
+        json.dump(anon_metadata, f, indent=2, ensure_ascii=False)
+
+    # Relatório da anonimização
+    generate_anon_report(anon_metadata, per_table_anonymized, per_table_content_pii,
+                          patterns, auto_anonymize_keys, anon_report_file)
 
 
 def main():
     """Função principal do script."""
-    
+
+    # Pasta onde este script está salvo — usada para localizar o
+    # sensitive_columns.json de forma independente de onde o comando
+    # for executado (mesma convenção do anonymize_metadata.py).
+    SCRIPT_DIR = Path(__file__).resolve().parent
+
     # Configurações padrão
     input_file = "./data/teixeira/step1_output/metadata.json"
     output_file = "./data/teixeira/step2_output/metadata.json"
-    report_file = "./data/teixeira/step2_output/relatorio_filtragem.md"
-    
+    filter_report_file = "./data/teixeira/step2_output/relatorio_filtragem.md"
+    anon_report_file = "./data/teixeira/step2_output/relatorio_anonimizacao.md"
+    config_file = str(SCRIPT_DIR / "sensitive_columns.json")
+
     # Verificar argumentos da linha de comando
     if len(sys.argv) > 1:
         input_file = sys.argv[1]
     if len(sys.argv) > 2:
         output_file = sys.argv[2]
     if len(sys.argv) > 3:
-        report_file = sys.argv[3]
-    
+        filter_report_file = sys.argv[3]
+    if len(sys.argv) > 4:
+        anon_report_file = sys.argv[4]
+    if len(sys.argv) > 5:
+        config_file = sys.argv[5]
+
     # Verificar se o arquivo de entrada existe
     if not Path(input_file).exists():
         print(f"ERRO: Arquivo de entrada não encontrado: {input_file}")
         sys.exit(1)
-    
+
+    if not Path(config_file).exists():
+        print(f"ERRO: Arquivo de configuração não encontrado: {config_file}")
+        print("Crie um sensitive_columns.json com a chave 'patterns' (lista de regex).")
+        sys.exit(1)
+
     # Criar diretório de saída se não existir
     output_dir = Path(output_file).parent
     if output_dir and not output_dir.exists():
         print(f"Criando diretório: {output_dir}")
         output_dir.mkdir(parents=True, exist_ok=True)
-    
-    # Executar filtragem
+
+    # Executar filtragem + anonimização em sequência
     try:
-        filter_metadata(input_file, output_file, report_file)
+        filter_and_anonymize(input_file, output_file, filter_report_file, anon_report_file, config_file)
+        print("Processo concluído com sucesso!")
+        print(f"Metadata filtrado e anonimizado: {output_file}")
+        print(f"Relatório de filtragem: {filter_report_file}")
+        print(f"Relatório de anonimização: {anon_report_file}")
     except Exception as e:
         print(f"ERRO durante a execução: {e}")
         import traceback

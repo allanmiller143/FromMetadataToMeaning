@@ -1,0 +1,101 @@
+{
+  "_comentario": "Cada entrada em 'patterns' é um regex (case-insensitive) aplicado ao NOME da coluna. Se o nome bater com qualquer padrão, a coluna é tratada como sensível e todos os VALORES relacionados a ela no metadata.json (sample_values, frequent_values, sample_rows) são substituídos por '<anonimizado>'. Adapte/adicione padrões livremente para outras bases além do e-SUS.",
+
+  "auto_anonymize_non_numeric_keys": true,
+  "_auto_anonymize_non_numeric_keys_comentario": "Se true, qualquer coluna que seja Primary Key ou Foreign Key E cujo tipo NAO pareca numerico (ou seja, nao contem int/serial/bigint/smallint/float/double/real) sera tratada como possivel CHAVE NATURAL (ex: CPF/CNS usado como PK, comum em sistemas legados como o e-SUS) e tera seus valores anonimizados automaticamente, mesmo que o nome da coluna nao bata com nenhum padrao da lista abaixo. Chaves numericas (ids sequenciais) NAO sao anonimizadas por padrao, pois normalmente nao sao identificadoras sozinhas e o LLM precisa delas para entender relacionamentos entre tabelas.",
+
+  "patterns": [
+    "cpf",
+    "cnpj",
+    "cns",
+    "^rg$",
+    "rg_numero",
+    "identidade",
+    "nis",
+    "^pis$",
+    "pasep",
+    "prontuario",
+    "matricula",
+    "titulo_eleitor",
+    "passaporte",
+
+    "nome",
+    "nm_",
+    "_nm$",
+    "apelido",
+    "nome_social",
+    "nome_mae",
+    "nome_pai",
+    "nome_responsavel",
+    "nome_paciente",
+    "nome_completo",
+
+    "telefone",
+    "celular",
+    "fone",
+    "whatsapp",
+    "contato",
+
+    "email",
+    "e_mail",
+
+    "endereco",
+    "logradouro",
+    "numero_casa",
+    "complemento",
+    "cep",
+    "^bairro$",
+
+    "latitude",
+    "longitude",
+    "geolocaliz",
+    "coordenada",
+
+    "data_nasc",
+    "dt_nasc",
+    "nascimento",
+
+    "raca",
+    "cor_raca",
+    "etnia",
+    "orientacao_sexual",
+    "identidade_genero",
+
+    "diagnostico",
+    "\\bcid\\b",
+    "cid_",
+    "_cid",
+    "doenca",
+    "condicao_saude",
+    "medicamento",
+    "alergia",
+    "gestante",
+    "resultado_exame",
+
+    "senha",
+    "password",
+    "token",
+    "chave_acesso",
+
+    "login",
+    "usuario",
+    "documento",
+    "responsavel",
+    "principal",
+
+    "atestado",
+    "laudo",
+    "modelo",
+    "detalhes",
+    "declaracao",
+
+    "profissional",
+    "chefe",
+    "motivo_reserva",
+    "^no_mae", "^no_pai\\b", "no_social", "no_cuidador",
+    "tipo_sanguineo", "no_bairro", "no_municipio", "no_aldeia",
+    "no_dsei", "no_polo_base", "^no_sexo$"
+  ],
+
+  "_dica": "Padrões são testados com re.search (não precisa bater a string inteira). Use ^...$ quando quiser casar o nome exato da coluna (ex: '^rg$' evita bater em 'endereco_registro')."
+}
