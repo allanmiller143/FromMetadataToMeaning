@@ -1,0 +1,58 @@
+{
+  "schema": "magento2",
+  "table_name": "oauth_consumer",
+  "row_count": 0,
+  "primary_key": [
+    "entity_id"
+  ],
+  "foreign_keys": [],
+  "columns": [
+    {
+      "name": "entity_id",
+      "type": "INTEGER",
+      "nullable": false
+    },
+    {
+      "name": "created_at",
+      "type": "TIMESTAMP",
+      "nullable": false
+    },
+    {
+      "name": "updated_at",
+      "type": "TIMESTAMP",
+      "nullable": true
+    },
+    {
+      "name": "name",
+      "type": "VARCHAR(255)",
+      "nullable": false
+    },
+    {
+      "name": "key",
+      "type": "VARCHAR(32)",
+      "nullable": false
+    },
+    {
+      "name": "secret",
+      "type": "VARCHAR(32)",
+      "nullable": false
+    },
+    {
+      "name": "callback_url",
+      "type": "VARCHAR(255)",
+      "nullable": true
+    },
+    {
+      "name": "rejected_callback_url",
+      "type": "VARCHAR(255)",
+      "nullable": false
+    }
+  ],
+  "sample_rows": [],
+  "execution": {
+    "status": "success",
+    "seconds": 0.01,
+    "processed_at": "2026-09-13T18:56:33.859774",
+    "attempt": 1
+  }
+}

@@ -1,0 +1,145 @@
+{
+  "schema": "magento2",
+  "table_name": "customer_form_attribute",
+  "row_count": 90,
+  "primary_key": [
+    "form_code",
+    "attribute_id"
+  ],
+  "foreign_keys": [
+    {
+      "name": "FK_CSTR_FORM_ATTR_ATTR_ID_EAV_ATTR_ATTR_ID",
+      "constrained_columns": [
+        "attribute_id"
+      ],
+      "referred_schema": "magento2",
+      "referred_table": "eav_attribute",
+      "referred_columns": [
+        "attribute_id"
+      ],
+      "options": {
+        "onupdate": "CASCADE",
+        "ondelete": "CASCADE"
+      }
+    }
+  ],
+  "columns": [
+    {
+      "name": "form_code",
+      "type": "VARCHAR(32)",
+      "nullable": false,
+      "stats": {
+        "null_count": 0,
+        "distinct_count": 8,
+        "null_percentage": 0.0,
+        "frequent_values": [
+          {
+            "value": "adminhtml_customer_address",
+            "count": 15
+          },
+          {
+            "value": "customer_address_edit",
+            "count": 15
+          },
+          {
+            "value": "customer_register_address",
+            "count": 15
+          },
+          {
+            "value": "adminhtml_customer",
+            "count": 13
+          },
+          {
+            "value": "checkout_register",
+            "count": 9
+          }
+        ],
+        "sample_values": [
+          "adminhtml_checkout",
+          "adminhtml_customer",
+          "adminhtml_customer_address",
+          "checkout_register",
+          "customer_account_create",
+          "customer_account_edit",
+          "customer_address_edit",
+          "customer_register_address"
+        ]
+      }
+    },
+    {
+      "name": "attribute_id",
+      "type": "SMALLINT",
+      "nullable": false,
+      "stats": {
+        "null_count": 0,
+        "distinct_count": 28,
+        "null_percentage": 0.0,
+        "numeric_stats": {
+          "avg": 412.4222,
+          "min": 1.0,
+          "max": 955.0,
+          "stddev": 411.8431194784349
+        },
+        "frequent_values": [
+          {
+            "value": "925",
+            "count": 5
+          },
+          {
+            "value": "3",
+            "count": 5
+          },
+          {
+            "value": "829",
+            "count": 5
+          },
+          {
+            "value": "830",
+            "count": 5
+          },
+          {
+            "value": "827",
+            "count": 4
+          }
+        ],
+        "sample_values": [
+          "1",
+          "2",
+          "3",
+          "9",
+          "10",
+          "11",
+          "12",
+          "13",
+          "14",
+          "15",
+          "16",
+          "17",
+          "18",
+          "95",
+          "477"
+        ]
+      }
+    }
+  ],
+  "sample_rows": [
+    {
+      "form_code": "adminhtml_customer",
+      "attribute_id": 1
+    },
+    {
+      "form_code": "checkout_register",
+      "attribute_id": 1
+    },
+    {
+      "form_code": "customer_account_create",
+      "attribute_id": 1
+    }
+  ],
+  "execution": {
+    "status": "success",
+    "seconds": 0.04,
+    "processed_at": "2026-09-13T18:56:25.318735",
+    "attempt": 1
+  }
+}

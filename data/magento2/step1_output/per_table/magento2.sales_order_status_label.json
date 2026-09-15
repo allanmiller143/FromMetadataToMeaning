@@ -1,0 +1,50 @@
+{
+  "schema": "magento2",
+  "table_name": "sales_order_status_label",
+  "row_count": 0,
+  "primary_key": [
+    "status",
+    "store_id"
+  ],
+  "foreign_keys": [
+    {
+      "name": "sales_order_status_label_ibfk_1",
+      "constrained_columns": [
+        "store_id"
+      ],
+      "referred_schema": "magento2",
+      "referred_table": "store",
+      "referred_columns": [
+        "store_id"
+      ],
+      "options": {
+        "onupdate": "CASCADE",
+        "ondelete": "CASCADE"
+      }
+    }
+  ],
+  "columns": [
+    {
+      "name": "status",
+      "type": "VARCHAR(32)",
+      "nullable": false
+    },
+    {
+      "name": "store_id",
+      "type": "SMALLINT",
+      "nullable": false
+    },
+    {
+      "name": "label",
+      "type": "VARCHAR(128)",
+      "nullable": false
+    }
+  ],
+  "sample_rows": [],
+  "execution": {
+    "status": "success",
+    "seconds": 0.01,
+    "processed_at": "2026-09-13T18:56:42.200081",
+    "attempt": 1
+  }
+}

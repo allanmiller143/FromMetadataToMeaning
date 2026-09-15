@@ -1,0 +1,53 @@
+{
+  "schema": "magento2",
+  "table_name": "googleshopping_types",
+  "row_count": 0,
+  "primary_key": [
+    "type_id"
+  ],
+  "foreign_keys": [
+    {
+      "name": "FK_GOOGLESHOPPING_TYPES_ATTR_SET_ID_EAV_ATTR_SET_ATTR_SET_ID",
+      "constrained_columns": [
+        "attribute_set_id"
+      ],
+      "referred_schema": "magento2",
+      "referred_table": "eav_attribute_set",
+      "referred_columns": [
+        "attribute_set_id"
+      ],
+      "options": {
+        "ondelete": "CASCADE"
+      }
+    }
+  ],
+  "columns": [
+    {
+      "name": "type_id",
+      "type": "INTEGER",
+      "nullable": false
+    },
+    {
+      "name": "attribute_set_id",
+      "type": "SMALLINT",
+      "nullable": false
+    },
+    {
+      "name": "target_country",
+      "type": "VARCHAR(2)",
+      "nullable": false
+    },
+    {
+      "name": "category",
+      "type": "VARCHAR(40)",
+      "nullable": true
+    }
+  ],
+  "sample_rows": [],
+  "execution": {
+    "status": "success",
+    "seconds": 0.01,
+    "processed_at": "2026-09-13T18:56:31.076965",
+    "attempt": 1
+  }
+}

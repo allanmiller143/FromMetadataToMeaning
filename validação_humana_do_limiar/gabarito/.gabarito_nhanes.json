@@ -1,0 +1,902 @@
+{
+  "nhanes_1": {
+    "similaridade_real": 0.44070887565612793,
+    "threshold_atual_pipeline": 0.5,
+    "modelo_a": "OPENAI",
+    "modelo_b": "DEEPSEEK",
+    "run_a": 1,
+    "run_b": 2,
+    "tabela": "nhanes_laboratory.hscrp_j"
+  },
+  "nhanes_2": {
+    "similaridade_real": 0.6520270109176636,
+    "threshold_atual_pipeline": 0.5,
+    "modelo_a": "MISTRAL",
+    "modelo_b": "OPENAI",
+    "run_a": 2,
+    "run_b": 3,
+    "tabela": "nhanes_laboratory.ihgem_j"
+  },
+  "nhanes_3": {
+    "similaridade_real": 0.6467073559761047,
+    "threshold_atual_pipeline": 0.5,
+    "modelo_a": "MISTRAL",
+    "modelo_b": "DEEPSEEK",
+    "run_a": 1,
+    "run_b": 1,
+    "tabela": "nhanes_dietary.dr1iff_j"
+  },
+  "nhanes_4": {
+    "similaridade_real": 0.6534208059310913,
+    "threshold_atual_pipeline": 0.5,
+    "modelo_a": "MISTRAL",
+    "modelo_b": "DEEPSEEK",
+    "run_a": 2,
+    "run_b": 2,
+    "tabela": "nhanes_dietary.dr1tot_j"
+  },
+  "nhanes_5": {
+    "similaridade_real": 0.40079399943351746,
+    "threshold_atual_pipeline": 0.5,
+    "modelo_a": "MISTRAL",
+    "modelo_b": "OPENAI",
+    "run_a": 1,
+    "run_b": 1,
+    "tabela": "nhanes_laboratory.opd_j"
+  },
+  "nhanes_6": {
+    "similaridade_real": 0.35317251086235046,
+    "threshold_atual_pipeline": 0.5,
+    "modelo_a": "MISTRAL",
+    "modelo_b": "DEEPSEEK",
+    "run_a": 1,
+    "run_b": 1,
+    "tabela": "nhanes_questionnaire.diq_j"
+  },
+  "nhanes_7": {
+    "similaridade_real": 0.4996420443058014,
+    "threshold_atual_pipeline": 0.5,
+    "modelo_a": "MISTRAL",
+    "modelo_b": "DEEPSEEK",
+    "run_a": 1,
+    "run_b": 1,
+    "tabela": "nhanes_laboratory.pbcd_j"
+  },
+  "nhanes_8": {
+    "similaridade_real": 0.559866189956665,
+    "threshold_atual_pipeline": 0.5,
+    "modelo_a": "MISTRAL",
+    "modelo_b": "OPENAI",
+    "run_a": 3,
+    "run_b": 1,
+    "tabela": "nhanes_dietary.ds1tot_j"
+  },
+  "nhanes_9": {
+    "similaridade_real": 0.6119797825813293,
+    "threshold_atual_pipeline": 0.5,
+    "modelo_a": "MISTRAL",
+    "modelo_b": "OPENAI",
+    "run_a": 3,
+    "run_b": 1,
+    "tabela": "nhanes_questionnaire.dpq_j"
+  },
+  "nhanes_10": {
+    "similaridade_real": 0.5680134892463684,
+    "threshold_atual_pipeline": 0.5,
+    "modelo_a": "OPENAI",
+    "modelo_b": "DEEPSEEK",
+    "run_a": 1,
+    "run_b": 1,
+    "tabela": "nhanes_dietary.ds1tot_j"
+  },
+  "nhanes_11": {
+    "similaridade_real": 0.41033685207366943,
+    "threshold_atual_pipeline": 0.5,
+    "modelo_a": "MISTRAL",
+    "modelo_b": "OPENAI",
+    "run_a": 1,
+    "run_b": 1,
+    "tabela": "nhanes_dietary.ds2ids_j"
+  },
+  "nhanes_12": {
+    "similaridade_real": 0.5144690275192261,
+    "threshold_atual_pipeline": 0.5,
+    "modelo_a": "MISTRAL",
+    "modelo_b": "DEEPSEEK",
+    "run_a": 3,
+    "run_b": 2,
+    "tabela": "nhanes_laboratory.pbcd_j"
+  },
+  "nhanes_13": {
+    "similaridade_real": 0.3857634961605072,
+    "threshold_atual_pipeline": 0.5,
+    "modelo_a": "MISTRAL",
+    "modelo_b": "DEEPSEEK",
+    "run_a": 1,
+    "run_b": 1,
+    "tabela": "nhanes_dietary.ds2ids_j"
+  },
+  "nhanes_14": {
+    "similaridade_real": 0.5383473634719849,
+    "threshold_atual_pipeline": 0.5,
+    "modelo_a": "OPENAI",
+    "modelo_b": "DEEPSEEK",
+    "run_a": 1,
+    "run_b": 1,
+    "tabela": "nhanes_dietary.ds2ids_j"
+  },
+  "nhanes_15": {
+    "similaridade_real": 0.6232169270515442,
+    "threshold_atual_pipeline": 0.5,
+    "modelo_a": "MISTRAL",
+    "modelo_b": "OPENAI",
+    "run_a": 1,
+    "run_b": 1,
+    "tabela": "nhanes_laboratory.pernt_j"
+  },
+  "nhanes_16": {
+    "similaridade_real": 0.4652668535709381,
+    "threshold_atual_pipeline": 0.5,
+    "modelo_a": "OPENAI",
+    "modelo_b": "DEEPSEEK",
+    "run_a": 1,
+    "run_b": 1,
+    "tabela": "nhanes_questionnaire.duq_j"
+  },
+  "nhanes_17": {
+    "similaridade_real": 0.4824146628379822,
+    "threshold_atual_pipeline": 0.5,
+    "modelo_a": "MISTRAL",
+    "modelo_b": "OPENAI",
+    "run_a": 1,
+    "run_b": 1,
+    "tabela": "nhanes_dietary.dsqids_j"
+  },
+  "nhanes_18": {
+    "similaridade_real": 0.37578892707824707,
+    "threshold_atual_pipeline": 0.5,
+    "modelo_a": "OPENAI",
+    "modelo_b": "DEEPSEEK",
+    "run_a": 1,
+    "run_b": 1,
+    "tabela": "nhanes_laboratory.pernt_j"
+  },
+  "nhanes_19": {
+    "similaridade_real": 0.6642802357673645,
+    "threshold_atual_pipeline": 0.5,
+    "modelo_a": "OPENAI",
+    "modelo_b": "DEEPSEEK",
+    "run_a": 1,
+    "run_b": 3,
+    "tabela": "nhanes_dietary.dsqids_j"
+  },
+  "nhanes_20": {
+    "similaridade_real": 0.5632292628288269,
+    "threshold_atual_pipeline": 0.5,
+    "modelo_a": "MISTRAL",
+    "modelo_b": "OPENAI",
+    "run_a": 1,
+    "run_b": 2,
+    "tabela": "nhanes_laboratory.pfas_j"
+  },
+  "nhanes_21": {
+    "similaridade_real": 0.697352945804596,
+    "threshold_atual_pipeline": 0.5,
+    "modelo_a": "MISTRAL",
+    "modelo_b": "OPENAI",
+    "run_a": 1,
+    "run_b": 3,
+    "tabela": "nhanes_laboratory.pfas_j"
+  },
+  "nhanes_22": {
+    "similaridade_real": 0.4765084981918335,
+    "threshold_atual_pipeline": 0.5,
+    "modelo_a": "MISTRAL",
+    "modelo_b": "DEEPSEEK",
+    "run_a": 2,
+    "run_b": 1,
+    "tabela": "nhanes_questionnaire.ecq_j"
+  },
+  "nhanes_23": {
+    "similaridade_real": 0.4655269384384155,
+    "threshold_atual_pipeline": 0.5,
+    "modelo_a": "MISTRAL",
+    "modelo_b": "DEEPSEEK",
+    "run_a": 3,
+    "run_b": 1,
+    "tabela": "nhanes_dietary.dsqtot_j"
+  },
+  "nhanes_24": {
+    "similaridade_real": 0.623382031917572,
+    "threshold_atual_pipeline": 0.5,
+    "modelo_a": "OPENAI",
+    "modelo_b": "DEEPSEEK",
+    "run_a": 1,
+    "run_b": 1,
+    "tabela": "nhanes_examination.aux_j"
+  },
+  "nhanes_25": {
+    "similaridade_real": 0.6382527351379395,
+    "threshold_atual_pipeline": 0.5,
+    "modelo_a": "MISTRAL",
+    "modelo_b": "OPENAI",
+    "run_a": 1,
+    "run_b": 1,
+    "tabela": "nhanes_laboratory.phthte_j"
+  },
+  "nhanes_26": {
+    "similaridade_real": 0.5643986463546753,
+    "threshold_atual_pipeline": 0.5,
+    "modelo_a": "MISTRAL",
+    "modelo_b": "DEEPSEEK",
+    "run_a": 1,
+    "run_b": 1,
+    "tabela": "nhanes_questionnaire.heq_j"
+  },
+  "nhanes_27": {
+    "similaridade_real": 0.5808520913124084,
+    "threshold_atual_pipeline": 0.5,
+    "modelo_a": "MISTRAL",
+    "modelo_b": "OPENAI",
+    "run_a": 1,
+    "run_b": 1,
+    "tabela": "nhanes_examination.bmx_j"
+  },
+  "nhanes_28": {
+    "similaridade_real": 0.4513418972492218,
+    "threshold_atual_pipeline": 0.5,
+    "modelo_a": "MISTRAL",
+    "modelo_b": "DEEPSEEK",
+    "run_a": 1,
+    "run_b": 3,
+    "tabela": "nhanes_laboratory.ssfr_j"
+  },
+  "nhanes_29": {
+    "similaridade_real": 0.46087661385536194,
+    "threshold_atual_pipeline": 0.5,
+    "modelo_a": "MISTRAL",
+    "modelo_b": "OPENAI",
+    "run_a": 1,
+    "run_b": 1,
+    "tabela": "nhanes_examination.dxxag_j"
+  },
+  "nhanes_30": {
+    "similaridade_real": 0.49856019020080566,
+    "threshold_atual_pipeline": 0.5,
+    "modelo_a": "MISTRAL",
+    "modelo_b": "OPENAI",
+    "run_a": 1,
+    "run_b": 1,
+    "tabela": "nhanes_questionnaire.hsq_j"
+  },
+  "nhanes_31": {
+    "similaridade_real": 0.5744146108627319,
+    "threshold_atual_pipeline": 0.5,
+    "modelo_a": "MISTRAL",
+    "modelo_b": "DEEPSEEK",
+    "run_a": 3,
+    "run_b": 1,
+    "tabela": "nhanes_laboratory.ssglyp_j"
+  },
+  "nhanes_32": {
+    "similaridade_real": 0.6657904386520386,
+    "threshold_atual_pipeline": 0.5,
+    "modelo_a": "MISTRAL",
+    "modelo_b": "OPENAI",
+    "run_a": 1,
+    "run_b": 1,
+    "tabela": "nhanes_questionnaire.hsq_j"
+  },
+  "nhanes_33": {
+    "similaridade_real": 0.4908650815486908,
+    "threshold_atual_pipeline": 0.5,
+    "modelo_a": "MISTRAL",
+    "modelo_b": "DEEPSEEK",
+    "run_a": 1,
+    "run_b": 1,
+    "tabela": "nhanes_questionnaire.hsq_j"
+  },
+  "nhanes_34": {
+    "similaridade_real": 0.46864739060401917,
+    "threshold_atual_pipeline": 0.5,
+    "modelo_a": "MISTRAL",
+    "modelo_b": "OPENAI",
+    "run_a": 1,
+    "run_b": 1,
+    "tabela": "nhanes_laboratory.ssneon_j"
+  },
+  "nhanes_35": {
+    "similaridade_real": 0.6469589471817017,
+    "threshold_atual_pipeline": 0.5,
+    "modelo_a": "OPENAI",
+    "modelo_b": "DEEPSEEK",
+    "run_a": 1,
+    "run_b": 1,
+    "tabela": "nhanes_questionnaire.hsq_j"
+  },
+  "nhanes_36": {
+    "similaridade_real": 0.38728591799736023,
+    "threshold_atual_pipeline": 0.5,
+    "modelo_a": "OPENAI",
+    "modelo_b": "DEEPSEEK",
+    "run_a": 1,
+    "run_b": 2,
+    "tabela": "nhanes_examination.dxxfem_j"
+  },
+  "nhanes_37": {
+    "similaridade_real": 0.6680238246917725,
+    "threshold_atual_pipeline": 0.5,
+    "modelo_a": "MISTRAL",
+    "modelo_b": "OPENAI",
+    "run_a": 1,
+    "run_b": 1,
+    "tabela": "nhanes_laboratory.sspfas_j"
+  },
+  "nhanes_38": {
+    "similaridade_real": 0.5710292458534241,
+    "threshold_atual_pipeline": 0.5,
+    "modelo_a": "MISTRAL",
+    "modelo_b": "OPENAI",
+    "run_a": 1,
+    "run_b": 1,
+    "tabela": "nhanes_examination.dxxspn_j"
+  },
+  "nhanes_39": {
+    "similaridade_real": 0.3688502311706543,
+    "threshold_atual_pipeline": 0.5,
+    "modelo_a": "MISTRAL",
+    "modelo_b": "DEEPSEEK",
+    "run_a": 3,
+    "run_b": 1,
+    "tabela": "nhanes_laboratory.sspfas_j"
+  },
+  "nhanes_40": {
+    "similaridade_real": 0.530597984790802,
+    "threshold_atual_pipeline": 0.5,
+    "modelo_a": "MISTRAL",
+    "modelo_b": "DEEPSEEK",
+    "run_a": 1,
+    "run_b": 1,
+    "tabela": "nhanes_questionnaire.inq_j"
+  },
+  "nhanes_41": {
+    "similaridade_real": 0.6970407366752625,
+    "threshold_atual_pipeline": 0.5,
+    "modelo_a": "MISTRAL",
+    "modelo_b": "DEEPSEEK",
+    "run_a": 2,
+    "run_b": 1,
+    "tabela": "nhanes_examination.lux_j"
+  },
+  "nhanes_42": {
+    "similaridade_real": 0.3804326057434082,
+    "threshold_atual_pipeline": 0.5,
+    "modelo_a": "MISTRAL",
+    "modelo_b": "DEEPSEEK",
+    "run_a": 1,
+    "run_b": 1,
+    "tabela": "nhanes_laboratory.ssuvoc_j"
+  },
+  "nhanes_43": {
+    "similaridade_real": 0.4051538109779358,
+    "threshold_atual_pipeline": 0.5,
+    "modelo_a": "MISTRAL",
+    "modelo_b": "DEEPSEEK",
+    "run_a": 1,
+    "run_b": 1,
+    "tabela": "nhanes_laboratory.ssuvoc_j"
+  },
+  "nhanes_44": {
+    "similaridade_real": 0.6139141321182251,
+    "threshold_atual_pipeline": 0.5,
+    "modelo_a": "MISTRAL",
+    "modelo_b": "OPENAI",
+    "run_a": 1,
+    "run_b": 1,
+    "tabela": "nhanes_examination.ohxden_j"
+  },
+  "nhanes_45": {
+    "similaridade_real": 0.6008094549179077,
+    "threshold_atual_pipeline": 0.5,
+    "modelo_a": "MISTRAL",
+    "modelo_b": "OPENAI",
+    "run_a": 1,
+    "run_b": 2,
+    "tabela": "nhanes_examination.ohxden_j"
+  },
+  "nhanes_46": {
+    "similaridade_real": 0.5413050055503845,
+    "threshold_atual_pipeline": 0.5,
+    "modelo_a": "OPENAI",
+    "modelo_b": "DEEPSEEK",
+    "run_a": 1,
+    "run_b": 3,
+    "tabela": "nhanes_laboratory.ssuvoc_j"
+  },
+  "nhanes_47": {
+    "similaridade_real": 0.5517933964729309,
+    "threshold_atual_pipeline": 0.5,
+    "modelo_a": "MISTRAL",
+    "modelo_b": "OPENAI",
+    "run_a": 1,
+    "run_b": 1,
+    "tabela": "nhanes_laboratory.tchol_j"
+  },
+  "nhanes_48": {
+    "similaridade_real": 0.5439462661743164,
+    "threshold_atual_pipeline": 0.5,
+    "modelo_a": "OPENAI",
+    "modelo_b": "DEEPSEEK",
+    "run_a": 1,
+    "run_b": 1,
+    "tabela": "nhanes_questionnaire.mcq_j"
+  },
+  "nhanes_49": {
+    "similaridade_real": 0.4282856285572052,
+    "threshold_atual_pipeline": 0.5,
+    "modelo_a": "MISTRAL",
+    "modelo_b": "OPENAI",
+    "run_a": 1,
+    "run_b": 1,
+    "tabela": "nhanes_questionnaire.ocq_j"
+  },
+  "nhanes_50": {
+    "similaridade_real": 0.39075183868408203,
+    "threshold_atual_pipeline": 0.5,
+    "modelo_a": "MISTRAL",
+    "modelo_b": "DEEPSEEK",
+    "run_a": 1,
+    "run_b": 1,
+    "tabela": "nhanes_questionnaire.ocq_j"
+  },
+  "nhanes_51": {
+    "similaridade_real": 0.6273441910743713,
+    "threshold_atual_pipeline": 0.5,
+    "modelo_a": "OPENAI",
+    "modelo_b": "DEEPSEEK",
+    "run_a": 1,
+    "run_b": 1,
+    "tabela": "nhanes_examination.ohxref_j"
+  },
+  "nhanes_52": {
+    "similaridade_real": 0.6848999261856079,
+    "threshold_atual_pipeline": 0.5,
+    "modelo_a": "MISTRAL",
+    "modelo_b": "DEEPSEEK",
+    "run_a": 2,
+    "run_b": 1,
+    "tabela": "nhanes_laboratory.alb_cr_j"
+  },
+  "nhanes_53": {
+    "similaridade_real": 0.5914762616157532,
+    "threshold_atual_pipeline": 0.5,
+    "modelo_a": "MISTRAL",
+    "modelo_b": "DEEPSEEK",
+    "run_a": 1,
+    "run_b": 1,
+    "tabela": "nhanes_questionnaire.ohq_j"
+  },
+  "nhanes_54": {
+    "similaridade_real": 0.3797788619995117,
+    "threshold_atual_pipeline": 0.5,
+    "modelo_a": "OPENAI",
+    "modelo_b": "DEEPSEEK",
+    "run_a": 1,
+    "run_b": 1,
+    "tabela": "nhanes_laboratory.tfr_j"
+  },
+  "nhanes_55": {
+    "similaridade_real": 0.46226397156715393,
+    "threshold_atual_pipeline": 0.5,
+    "modelo_a": "OPENAI",
+    "modelo_b": "DEEPSEEK",
+    "run_a": 1,
+    "run_b": 1,
+    "tabela": "nhanes_laboratory.alb_cr_j"
+  },
+  "nhanes_56": {
+    "similaridade_real": 0.38990268111228943,
+    "threshold_atual_pipeline": 0.5,
+    "modelo_a": "MISTRAL",
+    "modelo_b": "OPENAI",
+    "run_a": 1,
+    "run_b": 1,
+    "tabela": "nhanes_questionnaire.osq_j"
+  },
+  "nhanes_57": {
+    "similaridade_real": 0.5835818648338318,
+    "threshold_atual_pipeline": 0.5,
+    "modelo_a": "MISTRAL",
+    "modelo_b": "DEEPSEEK",
+    "run_a": 1,
+    "run_b": 1,
+    "tabela": "nhanes_laboratory.biopro_j"
+  },
+  "nhanes_58": {
+    "similaridade_real": 0.5347307920455933,
+    "threshold_atual_pipeline": 0.5,
+    "modelo_a": "MISTRAL",
+    "modelo_b": "OPENAI",
+    "run_a": 1,
+    "run_b": 1,
+    "tabela": "nhanes_laboratory.uas_j"
+  },
+  "nhanes_59": {
+    "similaridade_real": 0.37398067116737366,
+    "threshold_atual_pipeline": 0.5,
+    "modelo_a": "MISTRAL",
+    "modelo_b": "OPENAI",
+    "run_a": 2,
+    "run_b": 1,
+    "tabela": "nhanes_questionnaire.paq_j"
+  },
+  "nhanes_60": {
+    "similaridade_real": 0.699676513671875,
+    "threshold_atual_pipeline": 0.5,
+    "modelo_a": "MISTRAL",
+    "modelo_b": "DEEPSEEK",
+    "run_a": 2,
+    "run_b": 1,
+    "tabela": "nhanes_laboratory.cbc_j"
+  },
+  "nhanes_61": {
+    "similaridade_real": 0.5275304317474365,
+    "threshold_atual_pipeline": 0.5,
+    "modelo_a": "MISTRAL",
+    "modelo_b": "DEEPSEEK",
+    "run_a": 1,
+    "run_b": 1,
+    "tabela": "nhanes_laboratory.ucm_j"
+  },
+  "nhanes_62": {
+    "similaridade_real": 0.5069099068641663,
+    "threshold_atual_pipeline": 0.5,
+    "modelo_a": "MISTRAL",
+    "modelo_b": "DEEPSEEK",
+    "run_a": 1,
+    "run_b": 1,
+    "tabela": "nhanes_laboratory.ucm_j"
+  },
+  "nhanes_63": {
+    "similaridade_real": 0.4747040569782257,
+    "threshold_atual_pipeline": 0.5,
+    "modelo_a": "MISTRAL",
+    "modelo_b": "DEEPSEEK",
+    "run_a": 1,
+    "run_b": 1,
+    "tabela": "nhanes_laboratory.cot_j"
+  },
+  "nhanes_64": {
+    "similaridade_real": 0.4392491579055786,
+    "threshold_atual_pipeline": 0.5,
+    "modelo_a": "MISTRAL",
+    "modelo_b": "OPENAI",
+    "run_a": 2,
+    "run_b": 1,
+    "tabela": "nhanes_laboratory.ucot_j"
+  },
+  "nhanes_65": {
+    "similaridade_real": 0.44779446721076965,
+    "threshold_atual_pipeline": 0.5,
+    "modelo_a": "MISTRAL",
+    "modelo_b": "DEEPSEEK",
+    "run_a": 2,
+    "run_b": 1,
+    "tabela": "nhanes_laboratory.crco_j"
+  },
+  "nhanes_66": {
+    "similaridade_real": 0.6001911163330078,
+    "threshold_atual_pipeline": 0.5,
+    "modelo_a": "MISTRAL",
+    "modelo_b": "OPENAI",
+    "run_a": 1,
+    "run_b": 1,
+    "tabela": "nhanes_laboratory.ephpp_j"
+  },
+  "nhanes_67": {
+    "similaridade_real": 0.5718722939491272,
+    "threshold_atual_pipeline": 0.5,
+    "modelo_a": "MISTRAL",
+    "modelo_b": "OPENAI",
+    "run_a": 1,
+    "run_b": 1,
+    "tabela": "nhanes_questionnaire.rxq_rx_j"
+  },
+  "nhanes_68": {
+    "similaridade_real": 0.3668001592159271,
+    "threshold_atual_pipeline": 0.5,
+    "modelo_a": "MISTRAL",
+    "modelo_b": "DEEPSEEK",
+    "run_a": 2,
+    "run_b": 1,
+    "tabela": "nhanes_laboratory.ephpp_j"
+  },
+  "nhanes_69": {
+    "similaridade_real": 0.6371628642082214,
+    "threshold_atual_pipeline": 0.5,
+    "modelo_a": "OPENAI",
+    "modelo_b": "DEEPSEEK",
+    "run_a": 1,
+    "run_b": 3,
+    "tabela": "nhanes_laboratory.ucpreg_j"
+  },
+  "nhanes_70": {
+    "similaridade_real": 0.48508480191230774,
+    "threshold_atual_pipeline": 0.5,
+    "modelo_a": "MISTRAL",
+    "modelo_b": "OPENAI",
+    "run_a": 1,
+    "run_b": 2,
+    "tabela": "nhanes_laboratory.uio_j"
+  },
+  "nhanes_71": {
+    "similaridade_real": 0.38291850686073303,
+    "threshold_atual_pipeline": 0.5,
+    "modelo_a": "OPENAI",
+    "modelo_b": "DEEPSEEK",
+    "run_a": 1,
+    "run_b": 1,
+    "tabela": "nhanes_questionnaire.smq_j"
+  },
+  "nhanes_72": {
+    "similaridade_real": 0.41644972562789917,
+    "threshold_atual_pipeline": 0.5,
+    "modelo_a": "MISTRAL",
+    "modelo_b": "OPENAI",
+    "run_a": 3,
+    "run_b": 1,
+    "tabela": "nhanes_laboratory.uio_j"
+  },
+  "nhanes_73": {
+    "similaridade_real": 0.6885362863540649,
+    "threshold_atual_pipeline": 0.5,
+    "modelo_a": "MISTRAL",
+    "modelo_b": "OPENAI",
+    "run_a": 1,
+    "run_b": 1,
+    "tabela": "nhanes_laboratory.fastqx_j"
+  },
+  "nhanes_74": {
+    "similaridade_real": 0.437414288520813,
+    "threshold_atual_pipeline": 0.5,
+    "modelo_a": "MISTRAL",
+    "modelo_b": "OPENAI",
+    "run_a": 1,
+    "run_b": 1,
+    "tabela": "nhanes_questionnaire.smqrtu_j"
+  },
+  "nhanes_75": {
+    "similaridade_real": 0.40027642250061035,
+    "threshold_atual_pipeline": 0.5,
+    "modelo_a": "MISTRAL",
+    "modelo_b": "DEEPSEEK",
+    "run_a": 1,
+    "run_b": 1,
+    "tabela": "nhanes_laboratory.fastqx_j"
+  },
+  "nhanes_76": {
+    "similaridade_real": 0.6900078654289246,
+    "threshold_atual_pipeline": 0.5,
+    "modelo_a": "MISTRAL",
+    "modelo_b": "DEEPSEEK",
+    "run_a": 1,
+    "run_b": 1,
+    "tabela": "nhanes_questionnaire.smqrtu_j"
+  },
+  "nhanes_77": {
+    "similaridade_real": 0.566160261631012,
+    "threshold_atual_pipeline": 0.5,
+    "modelo_a": "OPENAI",
+    "modelo_b": "DEEPSEEK",
+    "run_a": 1,
+    "run_b": 1,
+    "tabela": "nhanes_laboratory.um_j"
+  },
+  "nhanes_78": {
+    "similaridade_real": 0.41930249333381653,
+    "threshold_atual_pipeline": 0.5,
+    "modelo_a": "MISTRAL",
+    "modelo_b": "DEEPSEEK",
+    "run_a": 1,
+    "run_b": 1,
+    "tabela": "nhanes_questionnaire.vtq_j"
+  },
+  "nhanes_79": {
+    "similaridade_real": 0.6826285123825073,
+    "threshold_atual_pipeline": 0.5,
+    "modelo_a": "MISTRAL",
+    "modelo_b": "DEEPSEEK",
+    "run_a": 3,
+    "run_b": 1,
+    "tabela": "nhanes_laboratory.fertin_j"
+  },
+  "nhanes_80": {
+    "similaridade_real": 0.6547004580497742,
+    "threshold_atual_pipeline": 0.5,
+    "modelo_a": "MISTRAL",
+    "modelo_b": "DEEPSEEK",
+    "run_a": 1,
+    "run_b": 1,
+    "tabela": "nhanes_questionnaire.whqmec_j"
+  },
+  "nhanes_81": {
+    "similaridade_real": 0.37246620655059814,
+    "threshold_atual_pipeline": 0.5,
+    "modelo_a": "MISTRAL",
+    "modelo_b": "DEEPSEEK",
+    "run_a": 2,
+    "run_b": 1,
+    "tabela": "nhanes_questionnaire.whqmec_j"
+  },
+  "nhanes_82": {
+    "similaridade_real": 0.4038489758968353,
+    "threshold_atual_pipeline": 0.5,
+    "modelo_a": "OPENAI",
+    "modelo_b": "DEEPSEEK",
+    "run_a": 1,
+    "run_b": 3,
+    "tabela": "nhanes_laboratory.folate_j"
+  },
+  "nhanes_83": {
+    "similaridade_real": 0.36443695425987244,
+    "threshold_atual_pipeline": 0.5,
+    "modelo_a": "OPENAI",
+    "modelo_b": "DEEPSEEK",
+    "run_a": 1,
+    "run_b": 1,
+    "tabela": "nhanes_laboratory.fr_j"
+  },
+  "nhanes_84": {
+    "similaridade_real": 0.5469036102294922,
+    "threshold_atual_pipeline": 0.5,
+    "modelo_a": "MISTRAL",
+    "modelo_b": "OPENAI",
+    "run_a": 1,
+    "run_b": 2,
+    "tabela": "nhanes_laboratory.glu_j"
+  },
+  "nhanes_85": {
+    "similaridade_real": 0.6346805095672607,
+    "threshold_atual_pipeline": 0.5,
+    "modelo_a": "MISTRAL",
+    "modelo_b": "DEEPSEEK",
+    "run_a": 1,
+    "run_b": 1,
+    "tabela": "nhanes_laboratory.glu_j"
+  },
+  "nhanes_86": {
+    "similaridade_real": 0.4317535161972046,
+    "threshold_atual_pipeline": 0.5,
+    "modelo_a": "OPENAI",
+    "modelo_b": "DEEPSEEK",
+    "run_a": 2,
+    "run_b": 1,
+    "tabela": "nhanes_laboratory.glu_j"
+  },
+  "nhanes_87": {
+    "similaridade_real": 0.622124195098877,
+    "threshold_atual_pipeline": 0.5,
+    "modelo_a": "MISTRAL",
+    "modelo_b": "DEEPSEEK",
+    "run_a": 3,
+    "run_b": 1,
+    "tabela": "nhanes_laboratory.hdl_j"
+  },
+  "nhanes_88": {
+    "similaridade_real": 0.6396297216415405,
+    "threshold_atual_pipeline": 0.5,
+    "modelo_a": "MISTRAL",
+    "modelo_b": "OPENAI",
+    "run_a": 1,
+    "run_b": 1,
+    "tabela": "nhanes_laboratory.vitaec_j"
+  },
+  "nhanes_89": {
+    "similaridade_real": 0.4882168769836426,
+    "threshold_atual_pipeline": 0.5,
+    "modelo_a": "OPENAI",
+    "modelo_b": "DEEPSEEK",
+    "run_a": 1,
+    "run_b": 1,
+    "tabela": "nhanes_laboratory.vitaec_j"
+  },
+  "nhanes_90": {
+    "similaridade_real": 0.6549345254898071,
+    "threshold_atual_pipeline": 0.5,
+    "modelo_a": "OPENAI",
+    "modelo_b": "DEEPSEEK",
+    "run_a": 3,
+    "run_b": 2,
+    "tabela": "nhanes_laboratory.hdl_j"
+  },
+  "nhanes_91": {
+    "similaridade_real": 0.6591238379478455,
+    "threshold_atual_pipeline": 0.5,
+    "modelo_a": "MISTRAL",
+    "modelo_b": "OPENAI",
+    "run_a": 1,
+    "run_b": 1,
+    "tabela": "nhanes_laboratory.hepa_j"
+  },
+  "nhanes_92": {
+    "similaridade_real": 0.5003339648246765,
+    "threshold_atual_pipeline": 0.5,
+    "modelo_a": "MISTRAL",
+    "modelo_b": "OPENAI",
+    "run_a": 2,
+    "run_b": 1,
+    "tabela": "nhanes_laboratory.hepa_j"
+  },
+  "nhanes_93": {
+    "similaridade_real": 0.597811758518219,
+    "threshold_atual_pipeline": 0.5,
+    "modelo_a": "MISTRAL",
+    "modelo_b": "OPENAI",
+    "run_a": 1,
+    "run_b": 3,
+    "tabela": "nhanes_laboratory.vocwb_j"
+  },
+  "nhanes_94": {
+    "similaridade_real": 0.5171917676925659,
+    "threshold_atual_pipeline": 0.5,
+    "modelo_a": "OPENAI",
+    "modelo_b": "DEEPSEEK",
+    "run_a": 1,
+    "run_b": 1,
+    "tabela": "nhanes_laboratory.hepa_j"
+  },
+  "nhanes_95": {
+    "similaridade_real": 0.5155792832374573,
+    "threshold_atual_pipeline": 0.5,
+    "modelo_a": "MISTRAL",
+    "modelo_b": "DEEPSEEK",
+    "run_a": 1,
+    "run_b": 1,
+    "tabela": "nhanes_questionnaire.alq_j"
+  },
+  "nhanes_96": {
+    "similaridade_real": 0.51047283411026,
+    "threshold_atual_pipeline": 0.5,
+    "modelo_a": "OPENAI",
+    "modelo_b": "DEEPSEEK",
+    "run_a": 1,
+    "run_b": 1,
+    "tabela": "nhanes_questionnaire.auq_j"
+  },
+  "nhanes_97": {
+    "similaridade_real": 0.5942072868347168,
+    "threshold_atual_pipeline": 0.5,
+    "modelo_a": "MISTRAL",
+    "modelo_b": "OPENAI",
+    "run_a": 1,
+    "run_b": 1,
+    "tabela": "nhanes_laboratory.hepc_j"
+  },
+  "nhanes_98": {
+    "similaridade_real": 0.4640507698059082,
+    "threshold_atual_pipeline": 0.5,
+    "modelo_a": "MISTRAL",
+    "modelo_b": "OPENAI",
+    "run_a": 3,
+    "run_b": 2,
+    "tabela": "nhanes_questionnaire.cbq_j"
+  },
+  "nhanes_99": {
+    "similaridade_real": 0.5444785952568054,
+    "threshold_atual_pipeline": 0.5,
+    "modelo_a": "MISTRAL",
+    "modelo_b": "DEEPSEEK",
+    "run_a": 1,
+    "run_b": 1,
+    "tabela": "nhanes_questionnaire.cbq_j"
+  },
+  "nhanes_100": {
+    "similaridade_real": 0.4210354685783386,
+    "threshold_atual_pipeline": 0.5,
+    "modelo_a": "MISTRAL",
+    "modelo_b": "OPENAI",
+    "run_a": 1,
+    "run_b": 1,
+    "tabela": "nhanes_questionnaire.cbqpfa_j"
+  }
+}

@@ -1,0 +1,223 @@
+{
+  "schema": "magento2",
+  "table_name": "translation",
+  "row_count": 46,
+  "primary_key": [
+    "key_id"
+  ],
+  "foreign_keys": [
+    {
+      "name": "FK_TRANSLATION_STORE_ID_STORE_STORE_ID",
+      "constrained_columns": [
+        "store_id"
+      ],
+      "referred_schema": "magento2",
+      "referred_table": "store",
+      "referred_columns": [
+        "store_id"
+      ],
+      "options": {
+        "onupdate": "CASCADE",
+        "ondelete": "CASCADE"
+      }
+    }
+  ],
+  "columns": [
+    {
+      "name": "key_id",
+      "type": "INTEGER",
+      "nullable": false,
+      "stats": {
+        "null_count": 0,
+        "distinct_count": 46,
+        "null_percentage": 0.0,
+        "numeric_stats": {
+          "avg": 23.5,
+          "min": 1.0,
+          "max": 46.0,
+          "stddev": 13.275918047351755
+        },
+        "sample_values": [
+          "16",
+          "40",
+          "36",
+          "7",
+          "31",
+          "12",
+          "6",
+          "33",
+          "45",
+          "10",
+          "28",
+          "4",
+          "44",
+          "42",
+          "22"
+        ]
+      }
+    },
+    {
+      "name": "string",
+      "type": "VARCHAR(255)",
+      "nullable": false,
+      "stats": {
+        "null_count": 0,
+        "distinct_count": 46,
+        "null_percentage": 0.0,
+        "sample_values": [
+          "Weight",
+          "Max Resolution",
+          "Price",
+          "Main Image",
+          "Megapixels",
+          "Model",
+          "Medium Image",
+          "Visibility",
+          "Disk Speed",
+          "Manufacturer",
+          "Finish",
+          "Med image",
+          "CPU Speed",
+          "Contrast Ratio",
+          "Shoe Size"
+        ]
+      }
+    },
+    {
+      "name": "store_id",
+      "type": "SMALLINT",
+      "nullable": false,
+      "stats": {
+        "null_count": 0,
+        "distinct_count": 1,
+        "null_percentage": 0.0,
+        "numeric_stats": {
+          "avg": 0.0,
+          "min": 0.0,
+          "max": 0.0,
+          "stddev": 0.0
+        },
+        "frequent_values": [
+          {
+            "value": "0",
+            "count": 46
+          }
+        ],
+        "sample_values": [
+          "0"
+        ]
+      }
+    },
+    {
+      "name": "translate",
+      "type": "VARCHAR(255)",
+      "nullable": true,
+      "stats": {
+        "null_count": 0,
+        "distinct_count": 46,
+        "null_percentage": 0.0,
+        "sample_values": [
+          "Size",
+          "Color",
+          "Thumbnail Image",
+          "Med image",
+          "Large Image",
+          "Medium Image",
+          "Main Image",
+          "In Depth",
+          "Small Image",
+          "Manufacturer",
+          "Dimensions",
+          "Model",
+          "Activation Information",
+          "Thumbnail",
+          "Description"
+        ]
+      }
+    },
+    {
+      "name": "locale",
+      "type": "VARCHAR(20)",
+      "nullable": false,
+      "stats": {
+        "null_count": 0,
+        "distinct_count": 1,
+        "null_percentage": 0.0,
+        "frequent_values": [
+          {
+            "value": "en_US",
+            "count": 46
+          }
+        ],
+        "sample_values": [
+          "en_US"
+        ]
+      }
+    },
+    {
+      "name": "crc_string",
+      "type": "BIGINT",
+      "nullable": false,
+      "stats": {
+        "null_count": 0,
+        "distinct_count": 46,
+        "null_percentage": 0.0,
+        "numeric_stats": {
+          "avg": 1966345772.4565,
+          "min": 6377591.0,
+          "max": 3996997501.0,
+          "stddev": 1291351667.6551812
+        },
+        "sample_values": [
+          "6377591",
+          "21225799",
+          "185142749",
+          "310977753",
+          "369513238",
+          "374627805",
+          "401977951",
+          "517161168",
+          "538727910",
+          "624639268",
+          "660991534",
+          "714457251",
+          "716455267",
+          "889978296",
+          "1013451706"
+        ]
+      }
+    }
+  ],
+  "sample_rows": [
+    {
+      "key_id": 1,
+      "string": "Size",
+      "store_id": 0,
+      "translate": "Size",
+      "locale": "en_US",
+      "crc_string": 1475513172
+    },
+    {
+      "key_id": 2,
+      "string": "Color",
+      "store_id": 0,
+      "translate": "Color",
+      "locale": "en_US",
+      "crc_string": 2811717613
+    },
+    {
+      "key_id": 3,
+      "string": "Thumbnail Image",
+      "store_id": 0,
+      "translate": "Thumbnail Image",
+      "locale": "en_US",
+      "crc_string": 3084548980
+    }
+  ],
+  "execution": {
+    "status": "success",
+    "seconds": 0.03,
+    "processed_at": "2026-09-13T18:56:50.677348",
+    "attempt": 1
+  }
+}

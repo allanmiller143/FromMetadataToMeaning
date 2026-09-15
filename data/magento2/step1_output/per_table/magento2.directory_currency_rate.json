@@ -1,0 +1,34 @@
+{
+  "schema": "magento2",
+  "table_name": "directory_currency_rate",
+  "row_count": 0,
+  "primary_key": [
+    "currency_from",
+    "currency_to"
+  ],
+  "foreign_keys": [],
+  "columns": [
+    {
+      "name": "currency_from",
+      "type": "VARCHAR(3)",
+      "nullable": false
+    },
+    {
+      "name": "currency_to",
+      "type": "VARCHAR(3)",
+      "nullable": false
+    },
+    {
+      "name": "rate",
+      "type": "DECIMAL(24, 12)",
+      "nullable": false
+    }
+  ],
+  "sample_rows": [],
+  "execution": {
+    "status": "success",
+    "seconds": 0.0,
+    "processed_at": "2026-09-13T18:56:26.526938",
+    "attempt": 1
+  }
+}

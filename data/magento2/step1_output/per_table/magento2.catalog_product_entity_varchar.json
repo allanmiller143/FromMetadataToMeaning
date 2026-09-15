@@ -1,0 +1,336 @@
+{
+  "schema": "magento2",
+  "table_name": "catalog_product_entity_varchar",
+  "row_count": 1508,
+  "primary_key": [
+    "value_id"
+  ],
+  "foreign_keys": [
+    {
+      "name": "catalog_product_entity_varchar_ibfk_1",
+      "constrained_columns": [
+        "store_id"
+      ],
+      "referred_schema": "magento2",
+      "referred_table": "store",
+      "referred_columns": [
+        "store_id"
+      ],
+      "options": {
+        "onupdate": "CASCADE",
+        "ondelete": "CASCADE"
+      }
+    },
+    {
+      "name": "catalog_product_entity_varchar_ibfk_2",
+      "constrained_columns": [
+        "attribute_id"
+      ],
+      "referred_schema": "magento2",
+      "referred_table": "eav_attribute",
+      "referred_columns": [
+        "attribute_id"
+      ],
+      "options": {
+        "onupdate": "CASCADE",
+        "ondelete": "CASCADE"
+      }
+    },
+    {
+      "name": "catalog_product_entity_varchar_ibfk_3",
+      "constrained_columns": [
+        "entity_id"
+      ],
+      "referred_schema": "magento2",
+      "referred_table": "catalog_product_entity",
+      "referred_columns": [
+        "entity_id"
+      ],
+      "options": {
+        "onupdate": "CASCADE",
+        "ondelete": "CASCADE"
+      }
+    }
+  ],
+  "columns": [
+    {
+      "name": "value_id",
+      "type": "INTEGER",
+      "nullable": false,
+      "stats": {
+        "null_count": 0,
+        "distinct_count": 1508,
+        "null_percentage": 0.0,
+        "numeric_stats": {
+          "avg": 757.626,
+          "min": 1.0,
+          "max": 1522.0,
+          "stddev": 439.5044721899186
+        },
+        "sample_values": [
+          "1",
+          "9",
+          "17",
+          "25",
+          "33",
+          "40",
+          "47",
+          "54",
+          "61",
+          "68",
+          "75",
+          "82",
+          "89",
+          "96",
+          "103"
+        ]
+      }
+    },
+    {
+      "name": "entity_type_id",
+      "type": "INTEGER",
+      "nullable": false,
+      "stats": {
+        "null_count": 0,
+        "distinct_count": 1,
+        "null_percentage": 0.0,
+        "numeric_stats": {
+          "avg": 10.0,
+          "min": 10.0,
+          "max": 10.0,
+          "stddev": 0.0
+        },
+        "frequent_values": [
+          {
+            "value": "10",
+            "count": 1508
+          }
+        ],
+        "sample_values": [
+          "10"
+        ]
+      }
+    },
+    {
+      "name": "attribute_id",
+      "type": "SMALLINT",
+      "nullable": false,
+      "stats": {
+        "null_count": 0,
+        "distinct_count": 21,
+        "null_percentage": 0.0,
+        "numeric_stats": {
+          "avg": 379.008,
+          "min": 96.0,
+          "max": 940.0,
+          "stddev": 256.96178320299464
+        },
+        "frequent_values": [
+          {
+            "value": "570",
+            "count": 240
+          },
+          {
+            "value": "96",
+            "count": 120
+          },
+          {
+            "value": "493",
+            "count": 120
+          },
+          {
+            "value": "106",
+            "count": 120
+          },
+          {
+            "value": "109",
+            "count": 120
+          }
+        ],
+        "sample_values": [
+          "96",
+          "102",
+          "103",
+          "105",
+          "106",
+          "109",
+          "481",
+          "493",
+          "562",
+          "570",
+          "571",
+          "836",
+          "873",
+          "874",
+          "876"
+        ]
+      }
+    },
+    {
+      "name": "store_id",
+      "type": "SMALLINT",
+      "nullable": false,
+      "stats": {
+        "null_count": 0,
+        "distinct_count": 2,
+        "null_percentage": 0.0,
+        "numeric_stats": {
+          "avg": 0.0796,
+          "min": 0.0,
+          "max": 1.0,
+          "stddev": 0.2706350332240787
+        },
+        "frequent_values": [
+          {
+            "value": "0",
+            "count": 1388
+          },
+          {
+            "value": "1",
+            "count": 120
+          }
+        ],
+        "sample_values": [
+          "0",
+          "1"
+        ]
+      }
+    },
+    {
+      "name": "entity_id",
+      "type": "INTEGER",
+      "nullable": false,
+      "stats": {
+        "null_count": 0,
+        "distinct_count": 120,
+        "null_percentage": 0.0,
+        "numeric_stats": {
+          "avg": 98.1618,
+          "min": 16.0,
+          "max": 166.0,
+          "stddev": 44.37664720216891
+        },
+        "frequent_values": [
+          {
+            "value": "166",
+            "count": 17
+          },
+          {
+            "value": "156",
+            "count": 14
+          },
+          {
+            "value": "157",
+            "count": 14
+          },
+          {
+            "value": "152",
+            "count": 14
+          },
+          {
+            "value": "147",
+            "count": 14
+          }
+        ],
+        "sample_values": [
+          "16",
+          "17",
+          "18",
+          "19",
+          "20",
+          "25",
+          "26",
+          "27",
+          "28",
+          "29",
+          "30",
+          "31",
+          "32",
+          "33",
+          "34"
+        ]
+      }
+    },
+    {
+      "name": "value",
+      "type": "VARCHAR(255)",
+      "nullable": true,
+      "stats": {
+        "null_count": 5,
+        "distinct_count": 439,
+        "null_percentage": 0.33,
+        "frequent_values": [
+          {
+            "value": "",
+            "count": 287
+          },
+          {
+            "value": "container2",
+            "count": 108
+          },
+          {
+            "value": "no_selection",
+            "count": 48
+          },
+          {
+            "value": "CN Clogs Beach/Garden Clog",
+            "count": 33
+          },
+          {
+            "value": "Zolof The Rock And Roll Destroyer: LOL Cat T-shirt",
+            "count": 24
+          }
+        ],
+        "sample_values": [
+          "Nokia 2610 Phone",
+          "20",
+          "nokia-2610-phone",
+          "Nokia 2610",
+          "Offering advanced media and calling features without breaking the bank, The Nokia 2610 is an easy to use",
+          "/n/o/nokia-2610-phone-2.jpg",
+          "BlackBerry 8100 Pearl",
+          "21",
+          "blackberry-8100-pearl",
+          "BlackBerry 8100 Pearl sports a large 240 x 260 screen that supports over 65,000 colors-- plenty of real estate to view your e-mails, Web browser content, messaging sessions, and attachments.",
+          "/b/l/blackberry-8100-pearl-2.jpg",
+          "Sony Ericsson W810i",
+          "2",
+          "sony-ericsson-w810i",
+          "The W810i follows a long tradition of beautifully designed and crafted phones from Sony Ericsson. The same candy-bar style that graced the W800 is here, as is the horizontally-oriented camera unit on the back of the phone, allowing you to hold the phone j"
+        ]
+      }
+    }
+  ],
+  "sample_rows": [
+    {
+      "value_id": 1,
+      "entity_type_id": 10,
+      "attribute_id": 96,
+      "store_id": 0,
+      "entity_id": 16,
+      "value": "Nokia 2610 Phone"
+    },
+    {
+      "value_id": 2,
+      "entity_type_id": 10,
+      "attribute_id": 102,
+      "store_id": 0,
+      "entity_id": 16,
+      "value": "20"
+    },
+    {
+      "value_id": 3,
+      "entity_type_id": 10,
+      "attribute_id": 481,
+      "store_id": 0,
+      "entity_id": 16,
+      "value": "nokia-2610-phone"
+    }
+  ],
+  "execution": {
+    "status": "success",
+    "seconds": 0.07,
+    "processed_at": "2026-09-13T18:56:14.699504",
+    "attempt": 1
+  }
+}

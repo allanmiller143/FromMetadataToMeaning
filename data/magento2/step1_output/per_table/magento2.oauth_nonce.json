@@ -1,0 +1,31 @@
+{
+  "schema": "magento2",
+  "table_name": "oauth_nonce",
+  "row_count": 0,
+  "primary_key": [],
+  "foreign_keys": [],
+  "columns": [
+    {
+      "name": "nonce",
+      "type": "VARCHAR(32)",
+      "nullable": false
+    },
+    {
+      "name": "timestamp",
+      "type": "INTEGER",
+      "nullable": false
+    },
+    {
+      "name": "consumer_id",
+      "type": "INTEGER",
+      "nullable": false
+    }
+  ],
+  "sample_rows": [],
+  "execution": {
+    "status": "success",
+    "seconds": 0.0,
+    "processed_at": "2026-09-13T18:56:33.973390",
+    "attempt": 1
+  }
+}

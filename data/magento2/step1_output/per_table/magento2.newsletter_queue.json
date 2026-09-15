@@ -1,0 +1,89 @@
+{
+  "schema": "magento2",
+  "table_name": "newsletter_queue",
+  "row_count": 0,
+  "primary_key": [
+    "queue_id"
+  ],
+  "foreign_keys": [
+    {
+      "name": "FK_NEWSLETTER_QUEUE_TEMPLATE_ID_NEWSLETTER_TEMPLATE_TEMPLATE_ID",
+      "constrained_columns": [
+        "template_id"
+      ],
+      "referred_schema": "magento2",
+      "referred_table": "newsletter_template",
+      "referred_columns": [
+        "template_id"
+      ],
+      "options": {
+        "onupdate": "CASCADE",
+        "ondelete": "CASCADE"
+      }
+    }
+  ],
+  "columns": [
+    {
+      "name": "queue_id",
+      "type": "INTEGER",
+      "nullable": false
+    },
+    {
+      "name": "template_id",
+      "type": "INTEGER",
+      "nullable": false
+    },
+    {
+      "name": "newsletter_type",
+      "type": "INTEGER",
+      "nullable": true
+    },
+    {
+      "name": "newsletter_text",
+      "type": "TEXT",
+      "nullable": true
+    },
+    {
+      "name": "newsletter_styles",
+      "type": "TEXT",
+      "nullable": true
+    },
+    {
+      "name": "newsletter_subject",
+      "type": "VARCHAR(200)",
+      "nullable": true
+    },
+    {
+      "name": "newsletter_sender_name",
+      "type": "VARCHAR(200)",
+      "nullable": true
+    },
+    {
+      "name": "newsletter_sender_email",
+      "type": "VARCHAR(200)",
+      "nullable": true
+    },
+    {
+      "name": "queue_status",
+      "type": "INTEGER",
+      "nullable": false
+    },
+    {
+      "name": "queue_start_at",
+      "type": "TIMESTAMP",
+      "nullable": true
+    },
+    {
+      "name": "queue_finish_at",
+      "type": "TIMESTAMP",
+      "nullable": true
+    }
+  ],
+  "sample_rows": [],
+  "execution": {
+    "status": "success",
+    "seconds": 0.01,
+    "processed_at": "2026-09-13T18:56:33.043835",
+    "attempt": 1
+  }
+}

@@ -1,0 +1,55 @@
+{
+  "schema": "magento2",
+  "table_name": "catalog_product_index_price_opt_tmp",
+  "row_count": 0,
+  "primary_key": [
+    "entity_id",
+    "customer_group_id",
+    "website_id"
+  ],
+  "foreign_keys": [],
+  "columns": [
+    {
+      "name": "entity_id",
+      "type": "INTEGER",
+      "nullable": false
+    },
+    {
+      "name": "customer_group_id",
+      "type": "SMALLINT",
+      "nullable": false
+    },
+    {
+      "name": "website_id",
+      "type": "SMALLINT",
+      "nullable": false
+    },
+    {
+      "name": "min_price",
+      "type": "DECIMAL(12, 4)",
+      "nullable": true
+    },
+    {
+      "name": "max_price",
+      "type": "DECIMAL(12, 4)",
+      "nullable": true
+    },
+    {
+      "name": "tier_price",
+      "type": "DECIMAL(12, 4)",
+      "nullable": true
+    },
+    {
+      "name": "group_price",
+      "type": "DECIMAL(12, 4)",
+      "nullable": true
+    }
+  ],
+  "sample_rows": [],
+  "execution": {
+    "status": "success",
+    "seconds": 0.01,
+    "processed_at": "2026-09-13T18:56:17.004840",
+    "attempt": 1
+  }
+}

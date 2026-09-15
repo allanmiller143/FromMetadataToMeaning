@@ -1,0 +1,163 @@
+{
+  "schema": "magento2",
+  "table_name": "authorization_role",
+  "row_count": 1,
+  "primary_key": [
+    "role_id"
+  ],
+  "foreign_keys": [],
+  "columns": [
+    {
+      "name": "role_id",
+      "type": "INTEGER",
+      "nullable": false,
+      "stats": {
+        "null_count": 0,
+        "distinct_count": 1,
+        "null_percentage": 0.0,
+        "numeric_stats": {
+          "avg": 1.0,
+          "min": 1.0,
+          "max": 1.0,
+          "stddev": 0.0
+        },
+        "sample_values": [
+          "1"
+        ]
+      }
+    },
+    {
+      "name": "parent_id",
+      "type": "INTEGER",
+      "nullable": false,
+      "stats": {
+        "null_count": 0,
+        "distinct_count": 1,
+        "null_percentage": 0.0,
+        "numeric_stats": {
+          "avg": 0.0,
+          "min": 0.0,
+          "max": 0.0,
+          "stddev": 0.0
+        },
+        "sample_values": [
+          "0"
+        ]
+      }
+    },
+    {
+      "name": "tree_level",
+      "type": "SMALLINT",
+      "nullable": false,
+      "stats": {
+        "null_count": 0,
+        "distinct_count": 1,
+        "null_percentage": 0.0,
+        "numeric_stats": {
+          "avg": 1.0,
+          "min": 1.0,
+          "max": 1.0,
+          "stddev": 0.0
+        },
+        "sample_values": [
+          "1"
+        ]
+      }
+    },
+    {
+      "name": "sort_order",
+      "type": "SMALLINT",
+      "nullable": false,
+      "stats": {
+        "null_count": 0,
+        "distinct_count": 1,
+        "null_percentage": 0.0,
+        "numeric_stats": {
+          "avg": 0.0,
+          "min": 0.0,
+          "max": 0.0,
+          "stddev": 0.0
+        },
+        "sample_values": [
+          "0"
+        ]
+      }
+    },
+    {
+      "name": "role_type",
+      "type": "VARCHAR(1)",
+      "nullable": false,
+      "stats": {
+        "null_count": 0,
+        "distinct_count": 1,
+        "null_percentage": 0.0,
+        "sample_values": [
+          "G"
+        ]
+      }
+    },
+    {
+      "name": "user_id",
+      "type": "INTEGER",
+      "nullable": false,
+      "stats": {
+        "null_count": 0,
+        "distinct_count": 1,
+        "null_percentage": 0.0,
+        "numeric_stats": {
+          "avg": 0.0,
+          "min": 0.0,
+          "max": 0.0,
+          "stddev": 0.0
+        },
+        "sample_values": [
+          "0"
+        ]
+      }
+    },
+    {
+      "name": "user_type",
+      "type": "VARCHAR(16)",
+      "nullable": true,
+      "stats": {
+        "null_count": 0,
+        "distinct_count": 1,
+        "null_percentage": 0.0,
+        "sample_values": [
+          "2"
+        ]
+      }
+    },
+    {
+      "name": "role_name",
+      "type": "VARCHAR(50)",
+      "nullable": true,
+      "stats": {
+        "null_count": 0,
+        "distinct_count": 1,
+        "null_percentage": 0.0,
+        "sample_values": [
+          "Administrators"
+        ]
+      }
+    }
+  ],
+  "sample_rows": [
+    {
+      "role_id": 1,
+      "parent_id": 0,
+      "tree_level": 1,
+      "sort_order": 0,
+      "role_type": "G",
+      "user_id": 0,
+      "user_type": "2",
+      "role_name": "Administrators"
+    }
+  ],
+  "execution": {
+    "status": "success",
+    "seconds": 0.03,
+    "processed_at": "2026-09-13T18:56:12.326282",
+    "attempt": 1
+  }
+}

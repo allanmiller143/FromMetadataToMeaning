@@ -1,0 +1,89 @@
+{
+  "schema": "magento2",
+  "table_name": "sales_shipment_track",
+  "row_count": 0,
+  "primary_key": [
+    "entity_id"
+  ],
+  "foreign_keys": [
+    {
+      "name": "sales_shipment_track_ibfk_1",
+      "constrained_columns": [
+        "parent_id"
+      ],
+      "referred_schema": "magento2",
+      "referred_table": "sales_shipment",
+      "referred_columns": [
+        "entity_id"
+      ],
+      "options": {
+        "onupdate": "CASCADE",
+        "ondelete": "CASCADE"
+      }
+    }
+  ],
+  "columns": [
+    {
+      "name": "entity_id",
+      "type": "INTEGER",
+      "nullable": false
+    },
+    {
+      "name": "parent_id",
+      "type": "INTEGER",
+      "nullable": false
+    },
+    {
+      "name": "weight",
+      "type": "DECIMAL(12, 4)",
+      "nullable": true
+    },
+    {
+      "name": "qty",
+      "type": "DECIMAL(12, 4)",
+      "nullable": true
+    },
+    {
+      "name": "order_id",
+      "type": "INTEGER",
+      "nullable": false
+    },
+    {
+      "name": "track_number",
+      "type": "TEXT",
+      "nullable": true
+    },
+    {
+      "name": "description",
+      "type": "TEXT",
+      "nullable": true
+    },
+    {
+      "name": "title",
+      "type": "VARCHAR(255)",
+      "nullable": true
+    },
+    {
+      "name": "carrier_code",
+      "type": "VARCHAR(32)",
+      "nullable": true
+    },
+    {
+      "name": "created_at",
+      "type": "TIMESTAMP",
+      "nullable": true
+    },
+    {
+      "name": "updated_at",
+      "type": "TIMESTAMP",
+      "nullable": true
+    }
+  ],
+  "sample_rows": [],
+  "execution": {
+    "status": "success",
+    "seconds": 0.01,
+    "processed_at": "2026-09-13T18:56:45.340148",
+    "attempt": 1
+  }
+}

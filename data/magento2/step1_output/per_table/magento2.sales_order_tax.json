@@ -1,0 +1,78 @@
+{
+  "schema": "magento2",
+  "table_name": "sales_order_tax",
+  "row_count": 0,
+  "primary_key": [
+    "tax_id"
+  ],
+  "foreign_keys": [],
+  "columns": [
+    {
+      "name": "tax_id",
+      "type": "INTEGER",
+      "nullable": false
+    },
+    {
+      "name": "order_id",
+      "type": "INTEGER",
+      "nullable": false
+    },
+    {
+      "name": "code",
+      "type": "VARCHAR(255)",
+      "nullable": true
+    },
+    {
+      "name": "title",
+      "type": "VARCHAR(255)",
+      "nullable": true
+    },
+    {
+      "name": "percent",
+      "type": "DECIMAL(12, 4)",
+      "nullable": true
+    },
+    {
+      "name": "amount",
+      "type": "DECIMAL(12, 4)",
+      "nullable": true
+    },
+    {
+      "name": "priority",
+      "type": "INTEGER",
+      "nullable": false
+    },
+    {
+      "name": "position",
+      "type": "INTEGER",
+      "nullable": false
+    },
+    {
+      "name": "base_amount",
+      "type": "DECIMAL(12, 4)",
+      "nullable": true
+    },
+    {
+      "name": "process",
+      "type": "SMALLINT",
+      "nullable": false
+    },
+    {
+      "name": "base_real_amount",
+      "type": "DECIMAL(12, 4)",
+      "nullable": true
+    },
+    {
+      "name": "hidden",
+      "type": "SMALLINT",
+      "nullable": false
+    }
+  ],
+  "sample_rows": [],
+  "execution": {
+    "status": "success",
+    "seconds": 0.0,
+    "processed_at": "2026-09-13T18:56:42.566576",
+    "attempt": 1
+  }
+}

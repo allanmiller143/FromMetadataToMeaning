@@ -1,0 +1,48 @@
+{
+  "schema": "magento2",
+  "table_name": "mview_state",
+  "row_count": 0,
+  "primary_key": [
+    "state_id"
+  ],
+  "foreign_keys": [],
+  "columns": [
+    {
+      "name": "state_id",
+      "type": "INTEGER",
+      "nullable": false
+    },
+    {
+      "name": "view_id",
+      "type": "VARCHAR(255)",
+      "nullable": true
+    },
+    {
+      "name": "mode",
+      "type": "VARCHAR(16)",
+      "nullable": true
+    },
+    {
+      "name": "status",
+      "type": "VARCHAR(16)",
+      "nullable": true
+    },
+    {
+      "name": "updated",
+      "type": "DATETIME",
+      "nullable": true
+    },
+    {
+      "name": "version_id",
+      "type": "INTEGER",
+      "nullable": true
+    }
+  ],
+  "sample_rows": [],
+  "execution": {
+    "status": "success",
+    "seconds": 0.0,
+    "processed_at": "2026-09-13T18:56:32.853021",
+    "attempt": 1
+  }
+}

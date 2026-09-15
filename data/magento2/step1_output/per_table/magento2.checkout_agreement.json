@@ -1,0 +1,53 @@
+{
+  "schema": "magento2",
+  "table_name": "checkout_agreement",
+  "row_count": 0,
+  "primary_key": [
+    "agreement_id"
+  ],
+  "foreign_keys": [],
+  "columns": [
+    {
+      "name": "agreement_id",
+      "type": "INTEGER",
+      "nullable": false
+    },
+    {
+      "name": "name",
+      "type": "VARCHAR(255)",
+      "nullable": true
+    },
+    {
+      "name": "content",
+      "type": "TEXT",
+      "nullable": true
+    },
+    {
+      "name": "content_height",
+      "type": "VARCHAR(25)",
+      "nullable": true
+    },
+    {
+      "name": "checkbox_text",
+      "type": "TEXT",
+      "nullable": true
+    },
+    {
+      "name": "is_active",
+      "type": "SMALLINT",
+      "nullable": false
+    },
+    {
+      "name": "is_html",
+      "type": "SMALLINT",
+      "nullable": false
+    }
+  ],
+  "sample_rows": [],
+  "execution": {
+    "status": "success",
+    "seconds": 0.02,
+    "processed_at": "2026-09-13T18:56:21.023524",
+    "attempt": 1
+  }
+}

@@ -1,0 +1,465 @@
+{
+  "schema": "magento2",
+  "table_name": "catalogrule_product",
+  "row_count": 75,
+  "primary_key": [
+    "rule_product_id"
+  ],
+  "foreign_keys": [],
+  "columns": [
+    {
+      "name": "rule_product_id",
+      "type": "INTEGER",
+      "nullable": false,
+      "stats": {
+        "null_count": 0,
+        "distinct_count": 75,
+        "null_percentage": 0.0,
+        "numeric_stats": {
+          "avg": 745.0,
+          "min": 708.0,
+          "max": 782.0,
+          "stddev": 21.64871050817273
+        },
+        "sample_values": [
+          "708",
+          "712",
+          "716",
+          "720",
+          "723",
+          "726",
+          "729",
+          "732",
+          "735",
+          "738",
+          "741",
+          "744",
+          "747",
+          "750",
+          "753"
+        ]
+      }
+    },
+    {
+      "name": "rule_id",
+      "type": "INTEGER",
+      "nullable": false,
+      "stats": {
+        "null_count": 0,
+        "distinct_count": 3,
+        "null_percentage": 0.0,
+        "numeric_stats": {
+          "avg": 5.7867,
+          "min": 4.0,
+          "max": 6.0,
+          "stddev": 0.5239168721170271
+        },
+        "frequent_values": [
+          {
+            "value": "6",
+            "count": 63
+          },
+          {
+            "value": "5",
+            "count": 8
+          },
+          {
+            "value": "4",
+            "count": 4
+          }
+        ],
+        "sample_values": [
+          "4",
+          "5",
+          "6"
+        ]
+      }
+    },
+    {
+      "name": "from_time",
+      "type": "INTEGER",
+      "nullable": false,
+      "stats": {
+        "null_count": 0,
+        "distinct_count": 3,
+        "null_percentage": 0.0,
+        "numeric_stats": {
+          "avg": 1219840128.0,
+          "min": 1219536000.0,
+          "max": 1219881600.0,
+          "stddev": 106856.92685068249
+        },
+        "frequent_values": [
+          {
+            "value": "1219881600",
+            "count": 63
+          },
+          {
+            "value": "1219536000",
+            "count": 8
+          },
+          {
+            "value": "1219795200",
+            "count": 4
+          }
+        ],
+        "sample_values": [
+          "1219536000",
+          "1219795200",
+          "1219881600"
+        ]
+      }
+    },
+    {
+      "name": "to_time",
+      "type": "INTEGER",
+      "nullable": false,
+      "stats": {
+        "null_count": 0,
+        "distinct_count": 3,
+        "null_percentage": 0.0,
+        "numeric_stats": {
+          "avg": 1256361983.0,
+          "min": 1251503999.0,
+          "max": 1256947199.0,
+          "stddev": 1432856.4700430469
+        },
+        "frequent_values": [
+          {
+            "value": "1256947199",
+            "count": 63
+          },
+          {
+            "value": "1254182399",
+            "count": 8
+          },
+          {
+            "value": "1251503999",
+            "count": 4
+          }
+        ],
+        "sample_values": [
+          "1251503999",
+          "1254182399",
+          "1256947199"
+        ]
+      }
+    },
+    {
+      "name": "customer_group_id",
+      "type": "SMALLINT",
+      "nullable": false,
+      "stats": {
+        "null_count": 0,
+        "distinct_count": 4,
+        "null_percentage": 0.0,
+        "numeric_stats": {
+          "avg": 1.12,
+          "min": 0.0,
+          "max": 4.0,
+          "stddev": 0.9927738916792684
+        },
+        "frequent_values": [
+          {
+            "value": "0",
+            "count": 24
+          },
+          {
+            "value": "1",
+            "count": 24
+          },
+          {
+            "value": "2",
+            "count": 24
+          },
+          {
+            "value": "4",
+            "count": 3
+          }
+        ],
+        "sample_values": [
+          "0",
+          "1",
+          "2",
+          "4"
+        ]
+      }
+    },
+    {
+      "name": "product_id",
+      "type": "INTEGER",
+      "nullable": false,
+      "stats": {
+        "null_count": 0,
+        "distinct_count": 24,
+        "null_percentage": 0.0,
+        "numeric_stats": {
+          "avg": 99.44,
+          "min": 35.0,
+          "max": 137.0,
+          "stddev": 39.74057204755194
+        },
+        "frequent_values": [
+          {
+            "value": "135",
+            "count": 4
+          },
+          {
+            "value": "52",
+            "count": 4
+          },
+          {
+            "value": "41",
+            "count": 4
+          },
+          {
+            "value": "137",
+            "count": 3
+          },
+          {
+            "value": "36",
+            "count": 3
+          }
+        ],
+        "sample_values": [
+          "35",
+          "36",
+          "37",
+          "38",
+          "39",
+          "41",
+          "52",
+          "117",
+          "118",
+          "119",
+          "120",
+          "121",
+          "122",
+          "123",
+          "124"
+        ]
+      }
+    },
+    {
+      "name": "action_operator",
+      "type": "VARCHAR(10)",
+      "nullable": true,
+      "stats": {
+        "null_count": 0,
+        "distinct_count": 1,
+        "null_percentage": 0.0,
+        "frequent_values": [
+          {
+            "value": "by_percent",
+            "count": 75
+          }
+        ],
+        "sample_values": [
+          "by_percent"
+        ]
+      }
+    },
+    {
+      "name": "action_amount",
+      "type": "DECIMAL(12, 4)",
+      "nullable": false,
+      "stats": {
+        "null_count": 0,
+        "distinct_count": 1,
+        "null_percentage": 0.0,
+        "numeric_stats": {
+          "avg": 20.0,
+          "min": 20.0,
+          "max": 20.0,
+          "stddev": 0.0
+        },
+        "frequent_values": [
+          {
+            "value": "20.0000",
+            "count": 75
+          }
+        ],
+        "sample_values": [
+          "20.0000"
+        ]
+      }
+    },
+    {
+      "name": "action_stop",
+      "type": "SMALLINT",
+      "nullable": false,
+      "stats": {
+        "null_count": 0,
+        "distinct_count": 2,
+        "null_percentage": 0.0,
+        "numeric_stats": {
+          "avg": 0.16,
+          "min": 0.0,
+          "max": 1.0,
+          "stddev": 0.36660605559646736
+        },
+        "frequent_values": [
+          {
+            "value": "0",
+            "count": 63
+          },
+          {
+            "value": "1",
+            "count": 12
+          }
+        ],
+        "sample_values": [
+          "1",
+          "0"
+        ]
+      }
+    },
+    {
+      "name": "sort_order",
+      "type": "INTEGER",
+      "nullable": false,
+      "stats": {
+        "null_count": 0,
+        "distinct_count": 1,
+        "null_percentage": 0.0,
+        "numeric_stats": {
+          "avg": 0.0,
+          "min": 0.0,
+          "max": 0.0,
+          "stddev": 0.0
+        },
+        "frequent_values": [
+          {
+            "value": "0",
+            "count": 75
+          }
+        ],
+        "sample_values": [
+          "0"
+        ]
+      }
+    },
+    {
+      "name": "website_id",
+      "type": "SMALLINT",
+      "nullable": false,
+      "stats": {
+        "null_count": 0,
+        "distinct_count": 1,
+        "null_percentage": 0.0,
+        "numeric_stats": {
+          "avg": 1.0,
+          "min": 1.0,
+          "max": 1.0,
+          "stddev": 0.0
+        },
+        "frequent_values": [
+          {
+            "value": "1",
+            "count": 75
+          }
+        ],
+        "sample_values": [
+          "1"
+        ]
+      }
+    },
+    {
+      "name": "sub_simple_action",
+      "type": "VARCHAR(32)",
+      "nullable": true,
+      "stats": {
+        "null_count": 0,
+        "distinct_count": 1,
+        "null_percentage": 0.0,
+        "frequent_values": [
+          {
+            "value": "",
+            "count": 75
+          }
+        ],
+        "sample_values": [
+          ""
+        ]
+      }
+    },
+    {
+      "name": "sub_discount_amount",
+      "type": "DECIMAL(12, 4)",
+      "nullable": false,
+      "stats": {
+        "null_count": 0,
+        "distinct_count": 1,
+        "null_percentage": 0.0,
+        "numeric_stats": {
+          "avg": 0.0,
+          "min": 0.0,
+          "max": 0.0,
+          "stddev": 0.0
+        },
+        "frequent_values": [
+          {
+            "value": "0.0000",
+            "count": 75
+          }
+        ],
+        "sample_values": [
+          "0.0000"
+        ]
+      }
+    }
+  ],
+  "sample_rows": [
+    {
+      "rule_product_id": 708,
+      "rule_id": 4,
+      "from_time": 1219795200,
+      "to_time": 1251503999,
+      "customer_group_id": 0,
+      "product_id": 135,
+      "action_operator": "by_percent",
+      "action_amount": 20.0,
+      "action_stop": 1,
+      "sort_order": 0,
+      "website_id": 1,
+      "sub_simple_action": "",
+      "sub_discount_amount": 0.0
+    },
+    {
+      "rule_product_id": 709,
+      "rule_id": 4,
+      "from_time": 1219795200,
+      "to_time": 1251503999,
+      "customer_group_id": 1,
+      "product_id": 135,
+      "action_operator": "by_percent",
+      "action_amount": 20.0,
+      "action_stop": 1,
+      "sort_order": 0,
+      "website_id": 1,
+      "sub_simple_action": "",
+      "sub_discount_amount": 0.0
+    },
+    {
+      "rule_product_id": 710,
+      "rule_id": 4,
+      "from_time": 1219795200,
+      "to_time": 1251503999,
+      "customer_group_id": 2,
+      "product_id": 135,
+      "action_operator": "by_percent",
+      "action_amount": 20.0,
+      "action_stop": 1,
+      "sort_order": 0,
+      "website_id": 1,
+      "sub_simple_action": "",
+      "sub_discount_amount": 0.0
+    }
+  ],
+  "execution": {
+    "status": "success",
+    "seconds": 0.05,
+    "processed_at": "2026-09-13T18:56:20.535459",
+    "attempt": 1
+  }
+}

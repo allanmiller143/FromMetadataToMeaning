@@ -30,7 +30,7 @@ random.seed(SEED)
 np.random.seed(SEED)
 
 ROOT_DIR = Path(__file__).resolve().parents[2]
-DATA_DIR = ROOT_DIR / "data" / "teixeira"
+DATA_DIR = ROOT_DIR / "data" / "magento2"
 INPUT_DIR = DATA_DIR / "step3_output"
 OUTPUT_DIR = DATA_DIR / "step5_output"
 OUTPUT_DIR.mkdir(parents=True, exist_ok=True)
@@ -134,11 +134,11 @@ def grid_search_som(data):
     print("Iniciando Grid Search para otimização do SOM...")
 
     grid = {
-        "x": [18],
-        "y": [16],
-        "sigma": [2.5],
-        "learning_rate": [0.1],
-        "iterations": [2000]
+        "x": [10, 12, 15],
+        "y": [10, 12, 15],
+        "sigma": [3.0, 5.0, 7.5],
+        "learning_rate": [0.1, 0.3, 0.5],
+        "iterations": [2000, 5000, 10000]
     }
 
     best = None

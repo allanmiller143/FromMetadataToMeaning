@@ -1,0 +1,78 @@
+{
+  "schema": "magento2",
+  "table_name": "email_template",
+  "row_count": 0,
+  "primary_key": [
+    "template_id"
+  ],
+  "foreign_keys": [],
+  "columns": [
+    {
+      "name": "template_id",
+      "type": "INTEGER",
+      "nullable": false
+    },
+    {
+      "name": "template_code",
+      "type": "VARCHAR(150)",
+      "nullable": false
+    },
+    {
+      "name": "template_text",
+      "type": "TEXT",
+      "nullable": false
+    },
+    {
+      "name": "template_styles",
+      "type": "TEXT",
+      "nullable": true
+    },
+    {
+      "name": "template_type",
+      "type": "INTEGER",
+      "nullable": true
+    },
+    {
+      "name": "template_subject",
+      "type": "VARCHAR(200)",
+      "nullable": false
+    },
+    {
+      "name": "template_sender_name",
+      "type": "VARCHAR(200)",
+      "nullable": true
+    },
+    {
+      "name": "template_sender_email",
+      "type": "VARCHAR(200)",
+      "nullable": true
+    },
+    {
+      "name": "added_at",
+      "type": "TIMESTAMP",
+      "nullable": true
+    },
+    {
+      "name": "modified_at",
+      "type": "TIMESTAMP",
+      "nullable": true
+    },
+    {
+      "name": "orig_template_code",
+      "type": "VARCHAR(200)",
+      "nullable": true
+    },
+    {
+      "name": "orig_template_variables",
+      "type": "TEXT",
+      "nullable": true
+    }
+  ],
+  "sample_rows": [],
+  "execution": {
+    "status": "success",
+    "seconds": 0.01,
+    "processed_at": "2026-09-13T18:56:30.359173",
+    "attempt": 1
+  }
+}

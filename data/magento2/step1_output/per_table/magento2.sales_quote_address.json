@@ -1,0 +1,344 @@
+{
+  "schema": "magento2",
+  "table_name": "sales_quote_address",
+  "row_count": 0,
+  "primary_key": [
+    "address_id"
+  ],
+  "foreign_keys": [
+    {
+      "name": "sales_quote_address_ibfk_1",
+      "constrained_columns": [
+        "quote_id"
+      ],
+      "referred_schema": "magento2",
+      "referred_table": "sales_quote",
+      "referred_columns": [
+        "entity_id"
+      ],
+      "options": {
+        "onupdate": "CASCADE",
+        "ondelete": "CASCADE"
+      }
+    }
+  ],
+  "columns": [
+    {
+      "name": "address_id",
+      "type": "INTEGER",
+      "nullable": false
+    },
+    {
+      "name": "quote_id",
+      "type": "INTEGER",
+      "nullable": false
+    },
+    {
+      "name": "created_at",
+      "type": "TIMESTAMP",
+      "nullable": false
+    },
+    {
+      "name": "updated_at",
+      "type": "TIMESTAMP",
+      "nullable": false
+    },
+    {
+      "name": "customer_id",
+      "type": "INTEGER",
+      "nullable": true
+    },
+    {
+      "name": "save_in_address_book",
+      "type": "SMALLINT",
+      "nullable": true
+    },
+    {
+      "name": "customer_address_id",
+      "type": "INTEGER",
+      "nullable": true
+    },
+    {
+      "name": "address_type",
+      "type": "VARCHAR(255)",
+      "nullable": true
+    },
+    {
+      "name": "email",
+      "type": "VARCHAR(255)",
+      "nullable": true
+    },
+    {
+      "name": "prefix",
+      "type": "VARCHAR(40)",
+      "nullable": true
+    },
+    {
+      "name": "firstname",
+      "type": "VARCHAR(255)",
+      "nullable": true
+    },
+    {
+      "name": "middlename",
+      "type": "VARCHAR(40)",
+      "nullable": true
+    },
+    {
+      "name": "lastname",
+      "type": "VARCHAR(255)",
+      "nullable": true
+    },
+    {
+      "name": "suffix",
+      "type": "VARCHAR(40)",
+      "nullable": true
+    },
+    {
+      "name": "company",
+      "type": "VARCHAR(255)",
+      "nullable": true
+    },
+    {
+      "name": "street",
+      "type": "VARCHAR(255)",
+      "nullable": true
+    },
+    {
+      "name": "city",
+      "type": "VARCHAR(255)",
+      "nullable": true
+    },
+    {
+      "name": "region",
+      "type": "VARCHAR(255)",
+      "nullable": true
+    },
+    {
+      "name": "region_id",
+      "type": "INTEGER",
+      "nullable": true
+    },
+    {
+      "name": "postcode",
+      "type": "VARCHAR(255)",
+      "nullable": true
+    },
+    {
+      "name": "country_id",
+      "type": "VARCHAR(255)",
+      "nullable": true
+    },
+    {
+      "name": "telephone",
+      "type": "VARCHAR(255)",
+      "nullable": true
+    },
+    {
+      "name": "fax",
+      "type": "VARCHAR(255)",
+      "nullable": true
+    },
+    {
+      "name": "same_as_billing",
+      "type": "SMALLINT",
+      "nullable": false
+    },
+    {
+      "name": "collect_shipping_rates",
+      "type": "SMALLINT",
+      "nullable": false
+    },
+    {
+      "name": "shipping_method",
+      "type": "VARCHAR(255)",
+      "nullable": true
+    },
+    {
+      "name": "shipping_description",
+      "type": "VARCHAR(255)",
+      "nullable": true
+    },
+    {
+      "name": "weight",
+      "type": "DECIMAL(12, 4)",
+      "nullable": false
+    },
+    {
+      "name": "subtotal",
+      "type": "DECIMAL(12, 4)",
+      "nullable": false
+    },
+    {
+      "name": "base_subtotal",
+      "type": "DECIMAL(12, 4)",
+      "nullable": false
+    },
+    {
+      "name": "subtotal_with_discount",
+      "type": "DECIMAL(12, 4)",
+      "nullable": false
+    },
+    {
+      "name": "base_subtotal_with_discount",
+      "type": "DECIMAL(12, 4)",
+      "nullable": false
+    },
+    {
+      "name": "tax_amount",
+      "type": "DECIMAL(12, 4)",
+      "nullable": false
+    },
+    {
+      "name": "base_tax_amount",
+      "type": "DECIMAL(12, 4)",
+      "nullable": false
+    },
+    {
+      "name": "shipping_amount",
+      "type": "DECIMAL(12, 4)",
+      "nullable": false
+    },
+    {
+      "name": "base_shipping_amount",
+      "type": "DECIMAL(12, 4)",
+      "nullable": false
+    },
+    {
+      "name": "shipping_tax_amount",
+      "type": "DECIMAL(12, 4)",
+      "nullable": true
+    },
+    {
+      "name": "base_shipping_tax_amount",
+      "type": "DECIMAL(12, 4)",
+      "nullable": true
+    },
+    {
+      "name": "discount_amount",
+      "type": "DECIMAL(12, 4)",
+      "nullable": false
+    },
+    {
+      "name": "base_discount_amount",
+      "type": "DECIMAL(12, 4)",
+      "nullable": false
+    },
+    {
+      "name": "grand_total",
+      "type": "DECIMAL(12, 4)",
+      "nullable": false
+    },
+    {
+      "name": "base_grand_total",
+      "type": "DECIMAL(12, 4)",
+      "nullable": false
+    },
+    {
+      "name": "customer_notes",
+      "type": "TEXT",
+      "nullable": true
+    },
+    {
+      "name": "applied_taxes",
+      "type": "TEXT",
+      "nullable": true
+    },
+    {
+      "name": "discount_description",
+      "type": "VARCHAR(255)",
+      "nullable": true
+    },
+    {
+      "name": "shipping_discount_amount",
+      "type": "DECIMAL(12, 4)",
+      "nullable": true
+    },
+    {
+      "name": "base_shipping_discount_amount",
+      "type": "DECIMAL(12, 4)",
+      "nullable": true
+    },
+    {
+      "name": "subtotal_incl_tax",
+      "type": "DECIMAL(12, 4)",
+      "nullable": true
+    },
+    {
+      "name": "base_subtotal_total_incl_tax",
+      "type": "DECIMAL(12, 4)",
+      "nullable": true
+    },
+    {
+      "name": "hidden_tax_amount",
+      "type": "DECIMAL(12, 4)",
+      "nullable": true
+    },
+    {
+      "name": "base_hidden_tax_amount",
+      "type": "DECIMAL(12, 4)",
+      "nullable": true
+    },
+    {
+      "name": "shipping_hidden_tax_amount",
+      "type": "DECIMAL(12, 4)",
+      "nullable": true
+    },
+    {
+      "name": "base_shipping_hidden_tax_amnt",
+      "type": "DECIMAL(12, 4)",
+      "nullable": true
+    },
+    {
+      "name": "shipping_incl_tax",
+      "type": "DECIMAL(12, 4)",
+      "nullable": true
+    },
+    {
+      "name": "base_shipping_incl_tax",
+      "type": "DECIMAL(12, 4)",
+      "nullable": true
+    },
+    {
+      "name": "free_shipping",
+      "type": "SMALLINT",
+      "nullable": true
+    },
+    {
+      "name": "vat_id",
+      "type": "TEXT",
+      "nullable": true
+    },
+    {
+      "name": "vat_is_valid",
+      "type": "SMALLINT",
+      "nullable": true
+    },
+    {
+      "name": "vat_request_id",
+      "type": "TEXT",
+      "nullable": true
+    },
+    {
+      "name": "vat_request_date",
+      "type": "TEXT",
+      "nullable": true
+    },
+    {
+      "name": "vat_request_success",
+      "type": "SMALLINT",
+      "nullable": true
+    },
+    {
+      "name": "gift_message_id",
+      "type": "INTEGER",
+      "nullable": true
+    }
+  ],
+  "sample_rows": [],
+  "execution": {
+    "status": "success",
+    "seconds": 0.02,
+    "processed_at": "2026-09-13T18:56:43.310657",
+    "attempt": 1
+  }
+}

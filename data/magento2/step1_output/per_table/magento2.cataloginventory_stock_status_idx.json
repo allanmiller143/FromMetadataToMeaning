@@ -1,0 +1,188 @@
+{
+  "schema": "magento2",
+  "table_name": "cataloginventory_stock_status_idx",
+  "row_count": 119,
+  "primary_key": [
+    "product_id",
+    "website_id",
+    "stock_id"
+  ],
+  "foreign_keys": [],
+  "columns": [
+    {
+      "name": "product_id",
+      "type": "INTEGER",
+      "nullable": false,
+      "stats": {
+        "null_count": 0,
+        "distinct_count": 119,
+        "null_percentage": 0.0,
+        "numeric_stats": {
+          "avg": 98.1681,
+          "min": 16.0,
+          "max": 166.0,
+          "stddev": 44.49989506695797
+        },
+        "sample_values": [
+          "16",
+          "17",
+          "18",
+          "19",
+          "20",
+          "25",
+          "26",
+          "27",
+          "28",
+          "29",
+          "30",
+          "31",
+          "32",
+          "33",
+          "34"
+        ]
+      }
+    },
+    {
+      "name": "website_id",
+      "type": "SMALLINT",
+      "nullable": false,
+      "stats": {
+        "null_count": 0,
+        "distinct_count": 1,
+        "null_percentage": 0.0,
+        "numeric_stats": {
+          "avg": 1.0,
+          "min": 1.0,
+          "max": 1.0,
+          "stddev": 0.0
+        },
+        "frequent_values": [
+          {
+            "value": "1",
+            "count": 119
+          }
+        ],
+        "sample_values": [
+          "1"
+        ]
+      }
+    },
+    {
+      "name": "stock_id",
+      "type": "SMALLINT",
+      "nullable": false,
+      "stats": {
+        "null_count": 0,
+        "distinct_count": 1,
+        "null_percentage": 0.0,
+        "numeric_stats": {
+          "avg": 1.0,
+          "min": 1.0,
+          "max": 1.0,
+          "stddev": 0.0
+        },
+        "frequent_values": [
+          {
+            "value": "1",
+            "count": 119
+          }
+        ],
+        "sample_values": [
+          "1"
+        ]
+      }
+    },
+    {
+      "name": "qty",
+      "type": "DECIMAL(12, 4)",
+      "nullable": false,
+      "stats": {
+        "null_count": 0,
+        "distinct_count": 99,
+        "null_percentage": 0.0,
+        "numeric_stats": {
+          "avg": 456.38655462,
+          "min": 0.0,
+          "max": 999.0,
+          "stddev": 319.11240108322977
+        },
+        "sample_values": [
+          "996.0000",
+          "797.0000",
+          "989.0000",
+          "328.0000",
+          "361.0000",
+          "143.0000",
+          "11.0000",
+          "595.0000",
+          "681.0000",
+          "16.0000",
+          "719.0000",
+          "441.0000",
+          "805.0000",
+          "386.0000",
+          "718.0000"
+        ]
+      }
+    },
+    {
+      "name": "stock_status",
+      "type": "SMALLINT",
+      "nullable": false,
+      "stats": {
+        "null_count": 0,
+        "distinct_count": 2,
+        "null_percentage": 0.0,
+        "numeric_stats": {
+          "avg": 0.9916,
+          "min": 0.0,
+          "max": 1.0,
+          "stddev": 0.09128386967395138
+        },
+        "frequent_values": [
+          {
+            "value": "1",
+            "count": 118
+          },
+          {
+            "value": "0",
+            "count": 1
+          }
+        ],
+        "sample_values": [
+          "1",
+          "0"
+        ]
+      }
+    }
+  ],
+  "sample_rows": [
+    {
+      "product_id": 16,
+      "website_id": 1,
+      "stock_id": 1,
+      "qty": 996.0,
+      "stock_status": 1
+    },
+    {
+      "product_id": 17,
+      "website_id": 1,
+      "stock_id": 1,
+      "qty": 797.0,
+      "stock_status": 1
+    },
+    {
+      "product_id": 18,
+      "website_id": 1,
+      "stock_id": 1,
+      "qty": 989.0,
+      "stock_status": 1
+    }
+  ],
+  "execution": {
+    "status": "success",
+    "seconds": 0.03,
+    "processed_at": "2026-09-13T18:56:19.968562",
+    "attempt": 1
+  }
+}

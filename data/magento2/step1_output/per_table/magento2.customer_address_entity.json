@@ -1,0 +1,74 @@
+{
+  "schema": "magento2",
+  "table_name": "customer_address_entity",
+  "row_count": 0,
+  "primary_key": [
+    "entity_id"
+  ],
+  "foreign_keys": [
+    {
+      "name": "customer_address_entity_ibfk_1",
+      "constrained_columns": [
+        "parent_id"
+      ],
+      "referred_schema": "magento2",
+      "referred_table": "customer_entity",
+      "referred_columns": [
+        "entity_id"
+      ],
+      "options": {
+        "onupdate": "CASCADE",
+        "ondelete": "CASCADE"
+      }
+    }
+  ],
+  "columns": [
+    {
+      "name": "entity_id",
+      "type": "INTEGER",
+      "nullable": false
+    },
+    {
+      "name": "entity_type_id",
+      "type": "SMALLINT",
+      "nullable": false
+    },
+    {
+      "name": "attribute_set_id",
+      "type": "SMALLINT",
+      "nullable": false
+    },
+    {
+      "name": "increment_id",
+      "type": "VARCHAR(50)",
+      "nullable": true
+    },
+    {
+      "name": "parent_id",
+      "type": "INTEGER",
+      "nullable": true
+    },
+    {
+      "name": "created_at",
+      "type": "TIMESTAMP",
+      "nullable": false
+    },
+    {
+      "name": "updated_at",
+      "type": "TIMESTAMP",
+      "nullable": false
+    },
+    {
+      "name": "is_active",
+      "type": "SMALLINT",
+      "nullable": false
+    }
+  ],
+  "sample_rows": [],
+  "execution": {
+    "status": "success",
+    "seconds": 0.01,
+    "processed_at": "2026-09-13T18:56:23.384653",
+    "attempt": 1
+  }
+}

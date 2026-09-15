@@ -1,0 +1,198 @@
+{
+  "schema": "magento2",
+  "table_name": "customer_entity_int",
+  "row_count": 3,
+  "primary_key": [
+    "value_id"
+  ],
+  "foreign_keys": [
+    {
+      "name": "customer_entity_int_ibfk_1",
+      "constrained_columns": [
+        "entity_type_id"
+      ],
+      "referred_schema": "magento2",
+      "referred_table": "eav_entity_type",
+      "referred_columns": [
+        "entity_type_id"
+      ],
+      "options": {
+        "onupdate": "CASCADE",
+        "ondelete": "CASCADE"
+      }
+    },
+    {
+      "name": "customer_entity_int_ibfk_2",
+      "constrained_columns": [
+        "attribute_id"
+      ],
+      "referred_schema": "magento2",
+      "referred_table": "eav_attribute",
+      "referred_columns": [
+        "attribute_id"
+      ],
+      "options": {
+        "onupdate": "CASCADE",
+        "ondelete": "CASCADE"
+      }
+    },
+    {
+      "name": "customer_entity_int_ibfk_3",
+      "constrained_columns": [
+        "entity_id"
+      ],
+      "referred_schema": "magento2",
+      "referred_table": "customer_entity",
+      "referred_columns": [
+        "entity_id"
+      ],
+      "options": {
+        "onupdate": "CASCADE",
+        "ondelete": "CASCADE"
+      }
+    }
+  ],
+  "columns": [
+    {
+      "name": "value_id",
+      "type": "INTEGER",
+      "nullable": false,
+      "stats": {
+        "null_count": 0,
+        "distinct_count": 3,
+        "null_percentage": 0.0,
+        "numeric_stats": {
+          "avg": 2.0,
+          "min": 1.0,
+          "max": 3.0,
+          "stddev": 0.816496580927726
+        },
+        "sample_values": [
+          "1",
+          "2",
+          "3"
+        ]
+      }
+    },
+    {
+      "name": "entity_type_id",
+      "type": "SMALLINT",
+      "nullable": false,
+      "stats": {
+        "null_count": 0,
+        "distinct_count": 1,
+        "null_percentage": 0.0,
+        "numeric_stats": {
+          "avg": 1.0,
+          "min": 1.0,
+          "max": 1.0,
+          "stddev": 0.0
+        },
+        "frequent_values": [
+          {
+            "value": "1",
+            "count": 3
+          }
+        ],
+        "sample_values": [
+          "1"
+        ]
+      }
+    },
+    {
+      "name": "attribute_id",
+      "type": "SMALLINT",
+      "nullable": false,
+      "stats": {
+        "null_count": 0,
+        "distinct_count": 3,
+        "null_percentage": 0.0,
+        "numeric_stats": {
+          "avg": 182.3333,
+          "min": 7.0,
+          "max": 532.0,
+          "stddev": 247.2520081931703
+        },
+        "sample_values": [
+          "7",
+          "8",
+          "532"
+        ]
+      }
+    },
+    {
+      "name": "entity_id",
+      "type": "INTEGER",
+      "nullable": false,
+      "stats": {
+        "null_count": 0,
+        "distinct_count": 1,
+        "null_percentage": 0.0,
+        "numeric_stats": {
+          "avg": 1.0,
+          "min": 1.0,
+          "max": 1.0,
+          "stddev": 0.0
+        },
+        "frequent_values": [
+          {
+            "value": "1",
+            "count": 3
+          }
+        ],
+        "sample_values": [
+          "1"
+        ]
+      }
+    },
+    {
+      "name": "value",
+      "type": "INTEGER",
+      "nullable": false,
+      "stats": {
+        "null_count": 0,
+        "distinct_count": 2,
+        "null_percentage": 0.0,
+        "numeric_stats": {
+          "avg": 183.0,
+          "min": 1.0,
+          "max": 274.0,
+          "stddev": 128.69343417595164
+        },
+        "sample_values": [
+          "274",
+          "1"
+        ]
+      }
+    }
+  ],
+  "sample_rows": [
+    {
+      "value_id": 1,
+      "entity_type_id": 1,
+      "attribute_id": 7,
+      "entity_id": 1,
+      "value": 274
+    },
+    {
+      "value_id": 2,
+      "entity_type_id": 1,
+      "attribute_id": 8,
+      "entity_id": 1,
+      "value": 274
+    },
+    {
+      "value_id": 3,
+      "entity_type_id": 1,
+      "attribute_id": 532,
+      "entity_id": 1,
+      "value": 1
+    }
+  ],
+  "execution": {
+    "status": "success",
+    "seconds": 0.02,
+    "processed_at": "2026-09-13T18:56:24.817023",
+    "attempt": 1
+  }
+}

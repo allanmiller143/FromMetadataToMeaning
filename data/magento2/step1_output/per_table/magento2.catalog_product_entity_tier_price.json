@@ -1,0 +1,303 @@
+{
+  "schema": "magento2",
+  "table_name": "catalog_product_entity_tier_price",
+  "row_count": 10,
+  "primary_key": [
+    "value_id"
+  ],
+  "foreign_keys": [
+    {
+      "name": "catalog_product_entity_tier_price_ibfk_1",
+      "constrained_columns": [
+        "customer_group_id"
+      ],
+      "referred_schema": "magento2",
+      "referred_table": "customer_group",
+      "referred_columns": [
+        "customer_group_id"
+      ],
+      "options": {
+        "onupdate": "CASCADE",
+        "ondelete": "CASCADE"
+      }
+    },
+    {
+      "name": "catalog_product_entity_tier_price_ibfk_2",
+      "constrained_columns": [
+        "entity_id"
+      ],
+      "referred_schema": "magento2",
+      "referred_table": "catalog_product_entity",
+      "referred_columns": [
+        "entity_id"
+      ],
+      "options": {
+        "onupdate": "CASCADE",
+        "ondelete": "CASCADE"
+      }
+    },
+    {
+      "name": "catalog_product_entity_tier_price_ibfk_3",
+      "constrained_columns": [
+        "website_id"
+      ],
+      "referred_schema": "magento2",
+      "referred_table": "store_website",
+      "referred_columns": [
+        "website_id"
+      ],
+      "options": {
+        "onupdate": "CASCADE",
+        "ondelete": "CASCADE"
+      }
+    }
+  ],
+  "columns": [
+    {
+      "name": "value_id",
+      "type": "INTEGER",
+      "nullable": false,
+      "stats": {
+        "null_count": 0,
+        "distinct_count": 10,
+        "null_percentage": 0.0,
+        "numeric_stats": {
+          "avg": 5.5,
+          "min": 1.0,
+          "max": 10.0,
+          "stddev": 2.8722813232690143
+        },
+        "sample_values": [
+          "1",
+          "2",
+          "3",
+          "4",
+          "5",
+          "6",
+          "7",
+          "8",
+          "9",
+          "10"
+        ]
+      }
+    },
+    {
+      "name": "entity_id",
+      "type": "INTEGER",
+      "nullable": false,
+      "stats": {
+        "null_count": 0,
+        "distinct_count": 4,
+        "null_percentage": 0.0,
+        "numeric_stats": {
+          "avg": 115.1,
+          "min": 44.0,
+          "max": 126.0,
+          "stddev": 23.81365154695936
+        },
+        "frequent_values": [
+          {
+            "value": "120",
+            "count": 3
+          },
+          {
+            "value": "123",
+            "count": 3
+          },
+          {
+            "value": "126",
+            "count": 3
+          },
+          {
+            "value": "44",
+            "count": 1
+          }
+        ],
+        "sample_values": [
+          "44",
+          "120",
+          "123",
+          "126"
+        ]
+      }
+    },
+    {
+      "name": "all_groups",
+      "type": "SMALLINT",
+      "nullable": false,
+      "stats": {
+        "null_count": 0,
+        "distinct_count": 1,
+        "null_percentage": 0.0,
+        "numeric_stats": {
+          "avg": 1.0,
+          "min": 1.0,
+          "max": 1.0,
+          "stddev": 0.0
+        },
+        "frequent_values": [
+          {
+            "value": "1",
+            "count": 10
+          }
+        ],
+        "sample_values": [
+          "1"
+        ]
+      }
+    },
+    {
+      "name": "customer_group_id",
+      "type": "SMALLINT",
+      "nullable": false,
+      "stats": {
+        "null_count": 0,
+        "distinct_count": 1,
+        "null_percentage": 0.0,
+        "numeric_stats": {
+          "avg": 0.0,
+          "min": 0.0,
+          "max": 0.0,
+          "stddev": 0.0
+        },
+        "frequent_values": [
+          {
+            "value": "0",
+            "count": 10
+          }
+        ],
+        "sample_values": [
+          "0"
+        ]
+      }
+    },
+    {
+      "name": "qty",
+      "type": "DECIMAL(12, 4)",
+      "nullable": false,
+      "stats": {
+        "null_count": 0,
+        "distinct_count": 4,
+        "null_percentage": 0.0,
+        "numeric_stats": {
+          "avg": 10.7,
+          "min": 2.0,
+          "max": 20.0,
+          "stddev": 6.588626564011653
+        },
+        "frequent_values": [
+          {
+            "value": "5.0000",
+            "count": 3
+          },
+          {
+            "value": "10.0000",
+            "count": 3
+          },
+          {
+            "value": "20.0000",
+            "count": 3
+          },
+          {
+            "value": "2.0000",
+            "count": 1
+          }
+        ],
+        "sample_values": [
+          "2.0000",
+          "5.0000",
+          "10.0000",
+          "20.0000"
+        ]
+      }
+    },
+    {
+      "name": "value",
+      "type": "DECIMAL(12, 4)",
+      "nullable": false,
+      "stats": {
+        "null_count": 0,
+        "distinct_count": 10,
+        "null_percentage": 0.0,
+        "numeric_stats": {
+          "avg": 78.15,
+          "min": 9.5,
+          "max": 449.0,
+          "stddev": 127.07105295857119
+        },
+        "sample_values": [
+          "449.0000",
+          "90.0000",
+          "80.0000",
+          "70.0000",
+          "21.0000",
+          "20.0000",
+          "18.0000",
+          "12.5000",
+          "11.5000",
+          "9.5000"
+        ]
+      }
+    },
+    {
+      "name": "website_id",
+      "type": "SMALLINT",
+      "nullable": false,
+      "stats": {
+        "null_count": 0,
+        "distinct_count": 1,
+        "null_percentage": 0.0,
+        "numeric_stats": {
+          "avg": 0.0,
+          "min": 0.0,
+          "max": 0.0,
+          "stddev": 0.0
+        },
+        "frequent_values": [
+          {
+            "value": "0",
+            "count": 10
+          }
+        ],
+        "sample_values": [
+          "0"
+        ]
+      }
+    }
+  ],
+  "sample_rows": [
+    {
+      "value_id": 1,
+      "entity_id": 44,
+      "all_groups": 1,
+      "customer_group_id": 0,
+      "qty": 2.0,
+      "value": 449.0,
+      "website_id": 0
+    },
+    {
+      "value_id": 2,
+      "entity_id": 123,
+      "all_groups": 1,
+      "customer_group_id": 0,
+      "qty": 5.0,
+      "value": 90.0,
+      "website_id": 0
+    },
+    {
+      "value_id": 3,
+      "entity_id": 123,
+      "all_groups": 1,
+      "customer_group_id": 0,
+      "qty": 10.0,
+      "value": 80.0,
+      "website_id": 0
+    }
+  ],
+  "execution": {
+    "status": "success",
+    "seconds": 0.03,
+    "processed_at": "2026-09-13T18:56:14.597087",
+    "attempt": 1
+  }
+}

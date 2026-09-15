@@ -1,0 +1,29 @@
+{
+  "schema": "magento2",
+  "table_name": "core_cache_tag",
+  "row_count": 0,
+  "primary_key": [
+    "tag",
+    "cache_id"
+  ],
+  "foreign_keys": [],
+  "columns": [
+    {
+      "name": "tag",
+      "type": "VARCHAR(100)",
+      "nullable": false
+    },
+    {
+      "name": "cache_id",
+      "type": "VARCHAR(200)",
+      "nullable": false
+    }
+  ],
+  "sample_rows": [],
+  "execution": {
+    "status": "success",
+    "seconds": 0.01,
+    "processed_at": "2026-09-13T18:56:21.912636",
+    "attempt": 1
+  }
+}

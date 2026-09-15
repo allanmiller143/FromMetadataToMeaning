@@ -1,0 +1,40 @@
+{
+  "schema": "magento2",
+  "table_name": "catalog_product_index_eav_decimal_tmp",
+  "row_count": 0,
+  "primary_key": [
+    "entity_id",
+    "attribute_id",
+    "store_id"
+  ],
+  "foreign_keys": [],
+  "columns": [
+    {
+      "name": "entity_id",
+      "type": "INTEGER",
+      "nullable": false
+    },
+    {
+      "name": "attribute_id",
+      "type": "SMALLINT",
+      "nullable": false
+    },
+    {
+      "name": "store_id",
+      "type": "SMALLINT",
+      "nullable": false
+    },
+    {
+      "name": "value",
+      "type": "DECIMAL(12, 4)",
+      "nullable": false
+    }
+  ],
+  "sample_rows": [],
+  "execution": {
+    "status": "success",
+    "seconds": 0.01,
+    "processed_at": "2026-09-13T18:56:14.917908",
+    "attempt": 1
+  }
+}

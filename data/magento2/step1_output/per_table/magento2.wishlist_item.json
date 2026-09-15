@@ -1,0 +1,99 @@
+{
+  "schema": "magento2",
+  "table_name": "wishlist_item",
+  "row_count": 0,
+  "primary_key": [
+    "wishlist_item_id"
+  ],
+  "foreign_keys": [
+    {
+      "name": "FK_WISHLIST_ITEM_PRODUCT_ID_CATALOG_PRODUCT_ENTITY_ENTITY_ID",
+      "constrained_columns": [
+        "product_id"
+      ],
+      "referred_schema": "magento2",
+      "referred_table": "catalog_product_entity",
+      "referred_columns": [
+        "entity_id"
+      ],
+      "options": {
+        "onupdate": "CASCADE",
+        "ondelete": "CASCADE"
+      }
+    },
+    {
+      "name": "FK_WISHLIST_ITEM_STORE_ID_STORE_STORE_ID",
+      "constrained_columns": [
+        "store_id"
+      ],
+      "referred_schema": "magento2",
+      "referred_table": "store",
+      "referred_columns": [
+        "store_id"
+      ],
+      "options": {
+        "onupdate": "CASCADE",
+        "ondelete": "SET NULL"
+      }
+    },
+    {
+      "name": "FK_WISHLIST_ITEM_WISHLIST_ID_WISHLIST_WISHLIST_ID",
+      "constrained_columns": [
+        "wishlist_id"
+      ],
+      "referred_schema": "magento2",
+      "referred_table": "wishlist",
+      "referred_columns": [
+        "wishlist_id"
+      ],
+      "options": {
+        "onupdate": "CASCADE",
+        "ondelete": "CASCADE"
+      }
+    }
+  ],
+  "columns": [
+    {
+      "name": "wishlist_item_id",
+      "type": "INTEGER",
+      "nullable": false
+    },
+    {
+      "name": "wishlist_id",
+      "type": "INTEGER",
+      "nullable": false
+    },
+    {
+      "name": "product_id",
+      "type": "INTEGER",
+      "nullable": false
+    },
+    {
+      "name": "store_id",
+      "type": "SMALLINT",
+      "nullable": true
+    },
+    {
+      "name": "added_at",
+      "type": "TIMESTAMP",
+      "nullable": true
+    },
+    {
+      "name": "description",
+      "type": "TEXT",
+      "nullable": true
+    },
+    {
+      "name": "qty",
+      "type": "DECIMAL(12, 4)",
+      "nullable": false
+    }
+  ],
+  "sample_rows": [],
+  "execution": {
+    "status": "success",
+    "seconds": 0.01,
+    "processed_at": "2026-09-13T18:56:52.342548",
+    "attempt": 1
+  }
+}

@@ -1,0 +1,74 @@
+{
+  "schema": "magento2",
+  "table_name": "catalog_product_option_price",
+  "row_count": 0,
+  "primary_key": [
+    "option_price_id"
+  ],
+  "foreign_keys": [
+    {
+      "name": "catalog_product_option_price_ibfk_1",
+      "constrained_columns": [
+        "store_id"
+      ],
+      "referred_schema": "magento2",
+      "referred_table": "store",
+      "referred_columns": [
+        "store_id"
+      ],
+      "options": {
+        "onupdate": "CASCADE",
+        "ondelete": "CASCADE"
+      }
+    },
+    {
+      "name": "catalog_product_option_price_ibfk_2",
+      "constrained_columns": [
+        "option_id"
+      ],
+      "referred_schema": "magento2",
+      "referred_table": "catalog_product_option",
+      "referred_columns": [
+        "option_id"
+      ],
+      "options": {
+        "onupdate": "CASCADE",
+        "ondelete": "CASCADE"
+      }
+    }
+  ],
+  "columns": [
+    {
+      "name": "option_price_id",
+      "type": "INTEGER",
+      "nullable": false
+    },
+    {
+      "name": "option_id",
+      "type": "INTEGER",
+      "nullable": false
+    },
+    {
+      "name": "store_id",
+      "type": "SMALLINT",
+      "nullable": false
+    },
+    {
+      "name": "price",
+      "type": "DECIMAL(12, 4)",
+      "nullable": false
+    },
+    {
+      "name": "price_type",
+      "type": "VARCHAR(7)",
+      "nullable": false
+    }
+  ],
+  "sample_rows": [],
+  "execution": {
+    "status": "success",
+    "seconds": 0.01,
+    "processed_at": "2026-09-13T18:56:18.165220",
+    "attempt": 1
+  }
+}

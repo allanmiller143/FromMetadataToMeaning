@@ -1,0 +1,74 @@
+{
+  "schema": "magento2",
+  "table_name": "sales_refunded_aggregated_order",
+  "row_count": 0,
+  "primary_key": [
+    "id"
+  ],
+  "foreign_keys": [
+    {
+      "name": "sales_refunded_aggregated_order_ibfk_1",
+      "constrained_columns": [
+        "store_id"
+      ],
+      "referred_schema": "magento2",
+      "referred_table": "store",
+      "referred_columns": [
+        "store_id"
+      ],
+      "options": {
+        "onupdate": "CASCADE",
+        "ondelete": "SET NULL"
+      }
+    }
+  ],
+  "columns": [
+    {
+      "name": "id",
+      "type": "INTEGER",
+      "nullable": false
+    },
+    {
+      "name": "period",
+      "type": "DATE",
+      "nullable": true
+    },
+    {
+      "name": "store_id",
+      "type": "SMALLINT",
+      "nullable": true
+    },
+    {
+      "name": "order_status",
+      "type": "VARCHAR(50)",
+      "nullable": true
+    },
+    {
+      "name": "orders_count",
+      "type": "INTEGER",
+      "nullable": false
+    },
+    {
+      "name": "refunded",
+      "type": "DECIMAL(12, 4)",
+      "nullable": true
+    },
+    {
+      "name": "online_refunded",
+      "type": "DECIMAL(12, 4)",
+      "nullable": true
+    },
+    {
+      "name": "offline_refunded",
+      "type": "DECIMAL(12, 4)",
+      "nullable": true
+    }
+  ],
+  "sample_rows": [],
+  "execution": {
+    "status": "success",
+    "seconds": 0.01,
+    "processed_at": "2026-09-13T18:56:44.549222",
+    "attempt": 1
+  }
+}

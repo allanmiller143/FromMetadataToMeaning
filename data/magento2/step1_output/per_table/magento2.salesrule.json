@@ -1,0 +1,138 @@
+{
+  "schema": "magento2",
+  "table_name": "salesrule",
+  "row_count": 0,
+  "primary_key": [
+    "rule_id"
+  ],
+  "foreign_keys": [],
+  "columns": [
+    {
+      "name": "rule_id",
+      "type": "INTEGER",
+      "nullable": false
+    },
+    {
+      "name": "name",
+      "type": "VARCHAR(255)",
+      "nullable": true
+    },
+    {
+      "name": "description",
+      "type": "TEXT",
+      "nullable": true
+    },
+    {
+      "name": "from_date",
+      "type": "DATE",
+      "nullable": true
+    },
+    {
+      "name": "to_date",
+      "type": "DATE",
+      "nullable": true
+    },
+    {
+      "name": "uses_per_customer",
+      "type": "INTEGER",
+      "nullable": false
+    },
+    {
+      "name": "is_active",
+      "type": "SMALLINT",
+      "nullable": false
+    },
+    {
+      "name": "conditions_serialized",
+      "type": "MEDIUMTEXT",
+      "nullable": true
+    },
+    {
+      "name": "actions_serialized",
+      "type": "MEDIUMTEXT",
+      "nullable": true
+    },
+    {
+      "name": "stop_rules_processing",
+      "type": "SMALLINT",
+      "nullable": false
+    },
+    {
+      "name": "is_advanced",
+      "type": "SMALLINT",
+      "nullable": false
+    },
+    {
+      "name": "product_ids",
+      "type": "TEXT",
+      "nullable": true
+    },
+    {
+      "name": "sort_order",
+      "type": "INTEGER",
+      "nullable": false
+    },
+    {
+      "name": "simple_action",
+      "type": "VARCHAR(32)",
+      "nullable": true
+    },
+    {
+      "name": "discount_amount",
+      "type": "DECIMAL(12, 4)",
+      "nullable": false
+    },
+    {
+      "name": "discount_qty",
+      "type": "DECIMAL(12, 4)",
+      "nullable": true
+    },
+    {
+      "name": "discount_step",
+      "type": "INTEGER",
+      "nullable": false
+    },
+    {
+      "name": "apply_to_shipping",
+      "type": "SMALLINT",
+      "nullable": false
+    },
+    {
+      "name": "times_used",
+      "type": "INTEGER",
+      "nullable": false
+    },
+    {
+      "name": "is_rss",
+      "type": "SMALLINT",
+      "nullable": false
+    },
+    {
+      "name": "coupon_type",
+      "type": "SMALLINT",
+      "nullable": false
+    },
+    {
+      "name": "use_auto_generation",
+      "type": "SMALLINT",
+      "nullable": false
+    },
+    {
+      "name": "uses_per_coupon",
+      "type": "INTEGER",
+      "nullable": false
+    },
+    {
+      "name": "simple_free_shipping",
+      "type": "SMALLINT",
+      "nullable": true
+    }
+  ],
+  "sample_rows": [],
+  "execution": {
+    "status": "success",
+    "seconds": 0.01,
+    "processed_at": "2026-09-13T18:56:45.787111",
+    "attempt": 1
+  }
+}

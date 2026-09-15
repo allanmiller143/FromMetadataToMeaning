@@ -1,0 +1,745 @@
+{
+  "schema": "magento2",
+  "table_name": "catalog_eav_attribute",
+  "row_count": 118,
+  "primary_key": [
+    "attribute_id"
+  ],
+  "foreign_keys": [
+    {
+      "name": "catalog_eav_attribute_ibfk_1",
+      "constrained_columns": [
+        "attribute_id"
+      ],
+      "referred_schema": "magento2",
+      "referred_table": "eav_attribute",
+      "referred_columns": [
+        "attribute_id"
+      ],
+      "options": {
+        "onupdate": "CASCADE",
+        "ondelete": "CASCADE"
+      }
+    }
+  ],
+  "columns": [
+    {
+      "name": "attribute_id",
+      "type": "SMALLINT",
+      "nullable": false,
+      "stats": {
+        "null_count": 0,
+        "distinct_count": 118,
+        "null_percentage": 0.0,
+        "numeric_stats": {
+          "avg": 565.0254,
+          "min": 96.0,
+          "max": 964.0,
+          "stddev": 309.6531263779971
+        },
+        "sample_values": [
+          "97",
+          "98",
+          "100",
+          "101",
+          "102",
+          "103",
+          "104",
+          "105",
+          "106",
+          "107",
+          "109",
+          "110",
+          "111",
+          "112",
+          "113"
+        ]
+      }
+    },
+    {
+      "name": "frontend_input_renderer",
+      "type": "VARCHAR(255)",
+      "nullable": true,
+      "stats": {
+        "null_count": 107,
+        "distinct_count": 11,
+        "null_percentage": 90.68,
+        "frequent_values": [
+          {
+            "value": "Magento\\Catalog\\Block\\Adminhtml\\Product\\Helper\\Form\\Weight",
+            "count": 1
+          },
+          {
+            "value": "Magento\\Catalog\\Block\\Adminhtml\\Product\\Helper\\Form\\BaseImage",
+            "count": 1
+          },
+          {
+            "value": "Magento\\Framework\\Data\\Form\\Element\\Hidden",
+            "count": 1
+          },
+          {
+            "value": "Magento\\GiftMessage\\Block\\Adminhtml\\Product\\Helper\\Form\\Config",
+            "count": 1
+          },
+          {
+            "value": "Magento\\Catalog\\Block\\Adminhtml\\Category\\Helper\\Sortby\\Available",
+            "count": 1
+          }
+        ],
+        "sample_values": [
+          "Magento\\Catalog\\Block\\Adminhtml\\Product\\Helper\\Form\\Weight",
+          "Magento\\Catalog\\Block\\Adminhtml\\Product\\Helper\\Form\\BaseImage",
+          "Magento\\Framework\\Data\\Form\\Element\\Hidden",
+          "Magento\\GiftMessage\\Block\\Adminhtml\\Product\\Helper\\Form\\Config",
+          "Magento\\Catalog\\Block\\Adminhtml\\Category\\Helper\\Sortby\\Available",
+          "Magento\\Catalog\\Block\\Adminhtml\\Category\\Helper\\Sortby\\DefaultSortby",
+          "Magento\\Catalog\\Block\\Adminhtml\\Category\\Helper\\Pricestep",
+          "Magento\\Msrp\\Block\\Adminhtml\\Product\\Helper\\Form\\Type\\Price",
+          "Magento\\Msrp\\Block\\Adminhtml\\Product\\Helper\\Form\\Type",
+          "Magento\\Catalog\\Block\\Adminhtml\\Product\\Helper\\Form\\Category",
+          "Magento\\CatalogInventory\\Block\\Adminhtml\\Form\\Field\\Stock"
+        ]
+      }
+    },
+    {
+      "name": "is_global",
+      "type": "SMALLINT",
+      "nullable": false,
+      "stats": {
+        "null_count": 0,
+        "distinct_count": 3,
+        "null_percentage": 0.0,
+        "numeric_stats": {
+          "avg": 0.6356,
+          "min": 0.0,
+          "max": 2.0,
+          "stddev": 0.6722748408567374
+        },
+        "frequent_values": [
+          {
+            "value": "0",
+            "count": 56
+          },
+          {
+            "value": "1",
+            "count": 49
+          },
+          {
+            "value": "2",
+            "count": 13
+          }
+        ],
+        "sample_values": [
+          "0",
+          "1",
+          "2"
+        ]
+      }
+    },
+    {
+      "name": "is_visible",
+      "type": "SMALLINT",
+      "nullable": false,
+      "stats": {
+        "null_count": 0,
+        "distinct_count": 2,
+        "null_percentage": 0.0,
+        "numeric_stats": {
+          "avg": 0.7797,
+          "min": 0.0,
+          "max": 1.0,
+          "stddev": 0.41447522917415186
+        },
+        "frequent_values": [
+          {
+            "value": "1",
+            "count": 92
+          },
+          {
+            "value": "0",
+            "count": 26
+          }
+        ],
+        "sample_values": [
+          "1",
+          "0"
+        ]
+      }
+    },
+    {
+      "name": "is_searchable",
+      "type": "SMALLINT",
+      "nullable": false,
+      "stats": {
+        "null_count": 0,
+        "distinct_count": 2,
+        "null_percentage": 0.0,
+        "numeric_stats": {
+          "avg": 0.2119,
+          "min": 0.0,
+          "max": 1.0,
+          "stddev": 0.40862926953359974
+        },
+        "frequent_values": [
+          {
+            "value": "0",
+            "count": 93
+          },
+          {
+            "value": "1",
+            "count": 25
+          }
+        ],
+        "sample_values": [
+          "1",
+          "0"
+        ]
+      }
+    },
+    {
+      "name": "is_filterable",
+      "type": "SMALLINT",
+      "nullable": false,
+      "stats": {
+        "null_count": 0,
+        "distinct_count": 3,
+        "null_percentage": 0.0,
+        "numeric_stats": {
+          "avg": 0.0763,
+          "min": 0.0,
+          "max": 2.0,
+          "stddev": 0.29564006004258314
+        },
+        "frequent_values": [
+          {
+            "value": "0",
+            "count": 110
+          },
+          {
+            "value": "1",
+            "count": 7
+          },
+          {
+            "value": "2",
+            "count": 1
+          }
+        ],
+        "sample_values": [
+          "0",
+          "1",
+          "2"
+        ]
+      }
+    },
+    {
+      "name": "is_comparable",
+      "type": "SMALLINT",
+      "nullable": false,
+      "stats": {
+        "null_count": 0,
+        "distinct_count": 2,
+        "null_percentage": 0.0,
+        "numeric_stats": {
+          "avg": 0.1695,
+          "min": 0.0,
+          "max": 1.0,
+          "stddev": 0.3751854851047229
+        },
+        "frequent_values": [
+          {
+            "value": "0",
+            "count": 98
+          },
+          {
+            "value": "1",
+            "count": 20
+          }
+        ],
+        "sample_values": [
+          "0",
+          "1"
+        ]
+      }
+    },
+    {
+      "name": "is_visible_on_front",
+      "type": "SMALLINT",
+      "nullable": false,
+      "stats": {
+        "null_count": 0,
+        "distinct_count": 2,
+        "null_percentage": 0.0,
+        "numeric_stats": {
+          "avg": 0.1356,
+          "min": 0.0,
+          "max": 1.0,
+          "stddev": 0.3423560996054942
+        },
+        "frequent_values": [
+          {
+            "value": "0",
+            "count": 102
+          },
+          {
+            "value": "1",
+            "count": 16
+          }
+        ],
+        "sample_values": [
+          "0",
+          "1"
+        ]
+      }
+    },
+    {
+      "name": "is_html_allowed_on_front",
+      "type": "SMALLINT",
+      "nullable": false,
+      "stats": {
+        "null_count": 0,
+        "distinct_count": 2,
+        "null_percentage": 0.0,
+        "numeric_stats": {
+          "avg": 0.0339,
+          "min": 0.0,
+          "max": 1.0,
+          "stddev": 0.18096742800053064
+        },
+        "frequent_values": [
+          {
+            "value": "0",
+            "count": 114
+          },
+          {
+            "value": "1",
+            "count": 4
+          }
+        ],
+        "sample_values": [
+          "0",
+          "1"
+        ]
+      }
+    },
+    {
+      "name": "is_used_for_price_rules",
+      "type": "SMALLINT",
+      "nullable": false,
+      "stats": {
+        "null_count": 0,
+        "distinct_count": 2,
+        "null_percentage": 0.0,
+        "numeric_stats": {
+          "avg": 0.8559,
+          "min": 0.0,
+          "max": 1.0,
+          "stddev": 0.35115846364577397
+        },
+        "frequent_values": [
+          {
+            "value": "1",
+            "count": 101
+          },
+          {
+            "value": "0",
+            "count": 17
+          }
+        ],
+        "sample_values": [
+          "1",
+          "0"
+        ]
+      }
+    },
+    {
+      "name": "is_filterable_in_search",
+      "type": "SMALLINT",
+      "nullable": false,
+      "stats": {
+        "null_count": 0,
+        "distinct_count": 2,
+        "null_percentage": 0.0,
+        "numeric_stats": {
+          "avg": 0.0763,
+          "min": 0.0,
+          "max": 1.0,
+          "stddev": 0.2654315214129801
+        },
+        "frequent_values": [
+          {
+            "value": "0",
+            "count": 109
+          },
+          {
+            "value": "1",
+            "count": 9
+          }
+        ],
+        "sample_values": [
+          "0",
+          "1"
+        ]
+      }
+    },
+    {
+      "name": "used_in_product_listing",
+      "type": "SMALLINT",
+      "nullable": false,
+      "stats": {
+        "null_count": 0,
+        "distinct_count": 2,
+        "null_percentage": 0.0,
+        "numeric_stats": {
+          "avg": 0.2203,
+          "min": 0.0,
+          "max": 1.0,
+          "stddev": 0.41447522917415197
+        },
+        "frequent_values": [
+          {
+            "value": "0",
+            "count": 92
+          },
+          {
+            "value": "1",
+            "count": 26
+          }
+        ],
+        "sample_values": [
+          "0",
+          "1"
+        ]
+      }
+    },
+    {
+      "name": "used_for_sort_by",
+      "type": "SMALLINT",
+      "nullable": false,
+      "stats": {
+        "null_count": 0,
+        "distinct_count": 2,
+        "null_percentage": 0.0,
+        "numeric_stats": {
+          "avg": 0.0169,
+          "min": 0.0,
+          "max": 1.0,
+          "stddev": 0.12908090009938827
+        },
+        "frequent_values": [
+          {
+            "value": "0",
+            "count": 116
+          },
+          {
+            "value": "1",
+            "count": 2
+          }
+        ],
+        "sample_values": [
+          "0",
+          "1"
+        ]
+      }
+    },
+    {
+      "name": "apply_to",
+      "type": "VARCHAR(255)",
+      "nullable": true,
+      "stats": {
+        "null_count": 66,
+        "distinct_count": 12,
+        "null_percentage": 55.93,
+        "frequent_values": [
+          {
+            "value": "simple,grouped,configurable",
+            "count": 17
+          },
+          {
+            "value": "",
+            "count": 8
+          },
+          {
+            "value": "simple,virtual,configurable",
+            "count": 6
+          },
+          {
+            "value": "bundle",
+            "count": 5
+          },
+          {
+            "value": "simple,virtual",
+            "count": 4
+          }
+        ],
+        "sample_values": [
+          "simple,virtual,configurable",
+          "simple,virtual",
+          "simple,virtual,downloadable,configurable",
+          "simple,grouped,configurable",
+          "simple",
+          "simple,configurable,virtual,bundle,downloadable",
+          "",
+          "bundle",
+          "downloadable",
+          "simple,configurable,bundle,grouped",
+          "simple,virtual,downloadable,bundle,configurable",
+          "simple,virtual,bundle,downloadable,configurable"
+        ]
+      }
+    },
+    {
+      "name": "is_visible_in_advanced_search",
+      "type": "SMALLINT",
+      "nullable": false,
+      "stats": {
+        "null_count": 0,
+        "distinct_count": 2,
+        "null_percentage": 0.0,
+        "numeric_stats": {
+          "avg": 0.0763,
+          "min": 0.0,
+          "max": 1.0,
+          "stddev": 0.26543152141298015
+        },
+        "frequent_values": [
+          {
+            "value": "0",
+            "count": 109
+          },
+          {
+            "value": "1",
+            "count": 9
+          }
+        ],
+        "sample_values": [
+          "1",
+          "0"
+        ]
+      }
+    },
+    {
+      "name": "position",
+      "type": "INTEGER",
+      "nullable": false,
+      "stats": {
+        "null_count": 0,
+        "distinct_count": 2,
+        "null_percentage": 0.0,
+        "numeric_stats": {
+          "avg": 0.1695,
+          "min": 0.0,
+          "max": 1.0,
+          "stddev": 0.3751854851047229
+        },
+        "frequent_values": [
+          {
+            "value": "0",
+            "count": 98
+          },
+          {
+            "value": "1",
+            "count": 20
+          }
+        ],
+        "sample_values": [
+          "0",
+          "1"
+        ]
+      }
+    },
+    {
+      "name": "is_wysiwyg_enabled",
+      "type": "SMALLINT",
+      "nullable": false,
+      "stats": {
+        "null_count": 0,
+        "distinct_count": 2,
+        "null_percentage": 0.0,
+        "numeric_stats": {
+          "avg": 0.0254,
+          "min": 0.0,
+          "max": 1.0,
+          "stddev": 0.15740826797463314
+        },
+        "frequent_values": [
+          {
+            "value": "0",
+            "count": 115
+          },
+          {
+            "value": "1",
+            "count": 3
+          }
+        ],
+        "sample_values": [
+          "0",
+          "1"
+        ]
+      }
+    },
+    {
+      "name": "is_used_for_promo_rules",
+      "type": "SMALLINT",
+      "nullable": false,
+      "stats": {
+        "null_count": 0,
+        "distinct_count": 2,
+        "null_percentage": 0.0,
+        "numeric_stats": {
+          "avg": 0.322,
+          "min": 0.0,
+          "max": 1.0,
+          "stddev": 0.4672558899013635
+        },
+        "frequent_values": [
+          {
+            "value": "0",
+            "count": 80
+          },
+          {
+            "value": "1",
+            "count": 38
+          }
+        ],
+        "sample_values": [
+          "0",
+          "1"
+        ]
+      }
+    },
+    {
+      "name": "is_required_in_admin_store",
+      "type": "SMALLINT",
+      "nullable": false,
+      "stats": {
+        "null_count": 0,
+        "distinct_count": 2,
+        "null_percentage": 0.0,
+        "numeric_stats": {
+          "avg": 0.0169,
+          "min": 0.0,
+          "max": 1.0,
+          "stddev": 0.12908090009938827
+        },
+        "frequent_values": [
+          {
+            "value": "0",
+            "count": 116
+          },
+          {
+            "value": "1",
+            "count": 2
+          }
+        ],
+        "sample_values": [
+          "0",
+          "1"
+        ]
+      }
+    },
+    {
+      "name": "is_configurable",
+      "type": "SMALLINT",
+      "nullable": true,
+      "stats": {
+        "null_count": 0,
+        "distinct_count": 2,
+        "null_percentage": 0.0,
+        "numeric_stats": {
+          "avg": 0.822,
+          "min": 0.0,
+          "max": 1.0,
+          "stddev": 0.38248420665751726
+        },
+        "frequent_values": [
+          {
+            "value": "1",
+            "count": 97
+          },
+          {
+            "value": "0",
+            "count": 21
+          }
+        ],
+        "sample_values": [
+          "1",
+          "0"
+        ]
+      }
+    }
+  ],
+  "sample_rows": [
+    {
+      "attribute_id": 96,
+      "frontend_input_renderer": null,
+      "is_global": 0,
+      "is_visible": 1,
+      "is_searchable": 1,
+      "is_filterable": 0,
+      "is_comparable": 0,
+      "is_visible_on_front": 0,
+      "is_html_allowed_on_front": 0,
+      "is_used_for_price_rules": 1,
+      "is_filterable_in_search": 0,
+      "used_in_product_listing": 1,
+      "used_for_sort_by": 1,
+      "apply_to": null,
+      "is_visible_in_advanced_search": 1,
+      "position": 0,
+      "is_wysiwyg_enabled": 0,
+      "is_used_for_promo_rules": 0,
+      "is_required_in_admin_store": 0,
+      "is_configurable": 1
+    },
+    {
+      "attribute_id": 97,
+      "frontend_input_renderer": null,
+      "is_global": 0,
+      "is_visible": 1,
+      "is_searchable": 1,
+      "is_filterable": 0,
+      "is_comparable": 1,
+      "is_visible_on_front": 0,
+      "is_html_allowed_on_front": 1,
+      "is_used_for_price_rules": 1,
+      "is_filterable_in_search": 0,
+      "used_in_product_listing": 0,
+      "used_for_sort_by": 0,
+      "apply_to": null,
+      "is_visible_in_advanced_search": 1,
+      "position": 0,
+      "is_wysiwyg_enabled": 1,
+      "is_used_for_promo_rules": 0,
+      "is_required_in_admin_store": 0,
+      "is_configurable": 1
+    },
+    {
+      "attribute_id": 98,
+      "frontend_input_renderer": null,
+      "is_global": 1,
+      "is_visible": 1,
+      "is_searchable": 1,
+      "is_filterable": 0,
+      "is_comparable": 1,
+      "is_visible_on_front": 0,
+      "is_html_allowed_on_front": 0,
+      "is_used_for_price_rules": 1,
+      "is_filterable_in_search": 0,
+      "used_in_product_listing": 0,
+      "used_for_sort_by": 0,
+      "apply_to": null,
+      "is_visible_in_advanced_search": 1,
+      "position": 0,
+      "is_wysiwyg_enabled": 0,
+      "is_used_for_promo_rules": 1,
+      "is_required_in_admin_store": 0,
+      "is_configurable": 1
+    }
+  ],
+  "execution": {
+    "status": "success",
+    "seconds": 0.18,
+    "processed_at": "2026-09-13T18:56:13.270546",
+    "attempt": 1
+  }
+}

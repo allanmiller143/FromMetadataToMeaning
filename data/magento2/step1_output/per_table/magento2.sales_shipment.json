@@ -1,0 +1,124 @@
+{
+  "schema": "magento2",
+  "table_name": "sales_shipment",
+  "row_count": 0,
+  "primary_key": [
+    "entity_id"
+  ],
+  "foreign_keys": [
+    {
+      "name": "sales_shipment_ibfk_1",
+      "constrained_columns": [
+        "order_id"
+      ],
+      "referred_schema": "magento2",
+      "referred_table": "sales_order",
+      "referred_columns": [
+        "entity_id"
+      ],
+      "options": {
+        "onupdate": "CASCADE",
+        "ondelete": "CASCADE"
+      }
+    },
+    {
+      "name": "sales_shipment_ibfk_2",
+      "constrained_columns": [
+        "store_id"
+      ],
+      "referred_schema": "magento2",
+      "referred_table": "store",
+      "referred_columns": [
+        "store_id"
+      ],
+      "options": {
+        "onupdate": "CASCADE",
+        "ondelete": "SET NULL"
+      }
+    }
+  ],
+  "columns": [
+    {
+      "name": "entity_id",
+      "type": "INTEGER",
+      "nullable": false
+    },
+    {
+      "name": "store_id",
+      "type": "SMALLINT",
+      "nullable": true
+    },
+    {
+      "name": "total_weight",
+      "type": "DECIMAL(12, 4)",
+      "nullable": true
+    },
+    {
+      "name": "total_qty",
+      "type": "DECIMAL(12, 4)",
+      "nullable": true
+    },
+    {
+      "name": "email_sent",
+      "type": "SMALLINT",
+      "nullable": true
+    },
+    {
+      "name": "order_id",
+      "type": "INTEGER",
+      "nullable": false
+    },
+    {
+      "name": "customer_id",
+      "type": "INTEGER",
+      "nullable": true
+    },
+    {
+      "name": "shipping_address_id",
+      "type": "INTEGER",
+      "nullable": true
+    },
+    {
+      "name": "billing_address_id",
+      "type": "INTEGER",
+      "nullable": true
+    },
+    {
+      "name": "shipment_status",
+      "type": "INTEGER",
+      "nullable": true
+    },
+    {
+      "name": "increment_id",
+      "type": "VARCHAR(50)",
+      "nullable": true
+    },
+    {
+      "name": "created_at",
+      "type": "TIMESTAMP",
+      "nullable": true
+    },
+    {
+      "name": "updated_at",
+      "type": "TIMESTAMP",
+      "nullable": true
+    },
+    {
+      "name": "packages",
+      "type": "TEXT",
+      "nullable": true
+    },
+    {
+      "name": "shipping_label",
+      "type": "MEDIUMBLOB",
+      "nullable": true
+    }
+  ],
+  "sample_rows": [],
+  "execution": {
+    "status": "success",
+    "seconds": 0.01,
+    "processed_at": "2026-09-13T18:56:44.702603",
+    "attempt": 1
+  }
+}

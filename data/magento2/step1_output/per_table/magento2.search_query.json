@@ -1,0 +1,89 @@
+{
+  "schema": "magento2",
+  "table_name": "search_query",
+  "row_count": 0,
+  "primary_key": [
+    "query_id"
+  ],
+  "foreign_keys": [
+    {
+      "name": "search_query_ibfk_1",
+      "constrained_columns": [
+        "store_id"
+      ],
+      "referred_schema": "magento2",
+      "referred_table": "store",
+      "referred_columns": [
+        "store_id"
+      ],
+      "options": {
+        "onupdate": "CASCADE",
+        "ondelete": "CASCADE"
+      }
+    }
+  ],
+  "columns": [
+    {
+      "name": "query_id",
+      "type": "INTEGER",
+      "nullable": false
+    },
+    {
+      "name": "query_text",
+      "type": "VARCHAR(255)",
+      "nullable": true
+    },
+    {
+      "name": "num_results",
+      "type": "INTEGER",
+      "nullable": false
+    },
+    {
+      "name": "popularity",
+      "type": "INTEGER",
+      "nullable": false
+    },
+    {
+      "name": "redirect",
+      "type": "VARCHAR(255)",
+      "nullable": true
+    },
+    {
+      "name": "synonym_for",
+      "type": "VARCHAR(255)",
+      "nullable": true
+    },
+    {
+      "name": "store_id",
+      "type": "SMALLINT",
+      "nullable": false
+    },
+    {
+      "name": "display_in_terms",
+      "type": "SMALLINT",
+      "nullable": false
+    },
+    {
+      "name": "is_active",
+      "type": "SMALLINT",
+      "nullable": true
+    },
+    {
+      "name": "is_processed",
+      "type": "SMALLINT",
+      "nullable": true
+    },
+    {
+      "name": "updated_at",
+      "type": "TIMESTAMP",
+      "nullable": false
+    }
+  ],
+  "sample_rows": [],
+  "execution": {
+    "status": "success",
+    "seconds": 0.02,
+    "processed_at": "2026-09-13T18:56:47.693524",
+    "attempt": 1
+  }
+}

@@ -1,0 +1,38 @@
+{
+  "schema": "magento2",
+  "table_name": "directory_country_format",
+  "row_count": 0,
+  "primary_key": [
+    "country_format_id"
+  ],
+  "foreign_keys": [],
+  "columns": [
+    {
+      "name": "country_format_id",
+      "type": "INTEGER",
+      "nullable": false
+    },
+    {
+      "name": "country_id",
+      "type": "VARCHAR(2)",
+      "nullable": true
+    },
+    {
+      "name": "type",
+      "type": "VARCHAR(30)",
+      "nullable": true
+    },
+    {
+      "name": "format",
+      "type": "TEXT",
+      "nullable": false
+    }
+  ],
+  "sample_rows": [],
+  "execution": {
+    "status": "success",
+    "seconds": 0.01,
+    "processed_at": "2026-09-13T18:56:26.064071",
+    "attempt": 1
+  }
+}

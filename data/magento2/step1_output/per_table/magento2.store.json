@@ -1,0 +1,221 @@
+{
+  "schema": "magento2",
+  "table_name": "store",
+  "row_count": 4,
+  "primary_key": [
+    "store_id"
+  ],
+  "foreign_keys": [
+    {
+      "name": "FK_STORE_GROUP_ID_STORE_GROUP_GROUP_ID",
+      "constrained_columns": [
+        "group_id"
+      ],
+      "referred_schema": "magento2",
+      "referred_table": "store_group",
+      "referred_columns": [
+        "group_id"
+      ],
+      "options": {
+        "onupdate": "CASCADE",
+        "ondelete": "CASCADE"
+      }
+    },
+    {
+      "name": "FK_STORE_WEBSITE_ID_STORE_WEBSITE_WEBSITE_ID",
+      "constrained_columns": [
+        "website_id"
+      ],
+      "referred_schema": "magento2",
+      "referred_table": "store_website",
+      "referred_columns": [
+        "website_id"
+      ],
+      "options": {
+        "onupdate": "CASCADE",
+        "ondelete": "CASCADE"
+      }
+    }
+  ],
+  "columns": [
+    {
+      "name": "store_id",
+      "type": "SMALLINT",
+      "nullable": false,
+      "stats": {
+        "null_count": 0,
+        "distinct_count": 4,
+        "null_percentage": 0.0,
+        "numeric_stats": {
+          "avg": 1.5,
+          "min": 0.0,
+          "max": 3.0,
+          "stddev": 1.118033988749895
+        },
+        "sample_values": [
+          "0",
+          "1",
+          "2",
+          "3"
+        ]
+      }
+    },
+    {
+      "name": "code",
+      "type": "VARCHAR(32)",
+      "nullable": true,
+      "stats": {
+        "null_count": 0,
+        "distinct_count": 4,
+        "null_percentage": 0.0,
+        "sample_values": [
+          "admin",
+          "default",
+          "french",
+          "german"
+        ]
+      }
+    },
+    {
+      "name": "website_id",
+      "type": "SMALLINT",
+      "nullable": false,
+      "stats": {
+        "null_count": 0,
+        "distinct_count": 2,
+        "null_percentage": 0.0,
+        "numeric_stats": {
+          "avg": 0.75,
+          "min": 0.0,
+          "max": 1.0,
+          "stddev": 0.43301270189221935
+        },
+        "sample_values": [
+          "0",
+          "1"
+        ]
+      }
+    },
+    {
+      "name": "group_id",
+      "type": "SMALLINT",
+      "nullable": false,
+      "stats": {
+        "null_count": 0,
+        "distinct_count": 2,
+        "null_percentage": 0.0,
+        "numeric_stats": {
+          "avg": 0.75,
+          "min": 0.0,
+          "max": 1.0,
+          "stddev": 0.43301270189221935
+        },
+        "sample_values": [
+          "0",
+          "1"
+        ]
+      }
+    },
+    {
+      "name": "name",
+      "type": "VARCHAR(255)",
+      "nullable": false,
+      "stats": {
+        "null_count": 0,
+        "distinct_count": 4,
+        "null_percentage": 0.0,
+        "sample_values": [
+          "Admin",
+          "English",
+          "German",
+          "French"
+        ]
+      }
+    },
+    {
+      "name": "sort_order",
+      "type": "SMALLINT",
+      "nullable": false,
+      "stats": {
+        "null_count": 0,
+        "distinct_count": 1,
+        "null_percentage": 0.0,
+        "numeric_stats": {
+          "avg": 0.0,
+          "min": 0.0,
+          "max": 0.0,
+          "stddev": 0.0
+        },
+        "frequent_values": [
+          {
+            "value": "0",
+            "count": 4
+          }
+        ],
+        "sample_values": [
+          "0"
+        ]
+      }
+    },
+    {
+      "name": "is_active",
+      "type": "SMALLINT",
+      "nullable": false,
+      "stats": {
+        "null_count": 0,
+        "distinct_count": 1,
+        "null_percentage": 0.0,
+        "numeric_stats": {
+          "avg": 1.0,
+          "min": 1.0,
+          "max": 1.0,
+          "stddev": 0.0
+        },
+        "frequent_values": [
+          {
+            "value": "1",
+            "count": 4
+          }
+        ],
+        "sample_values": [
+          "1"
+        ]
+      }
+    }
+  ],
+  "sample_rows": [
+    {
+      "store_id": 0,
+      "code": "admin",
+      "website_id": 0,
+      "group_id": 0,
+      "name": "Admin",
+      "sort_order": 0,
+      "is_active": 1
+    },
+    {
+      "store_id": 1,
+      "code": "default",
+      "website_id": 1,
+      "group_id": 1,
+      "name": "English",
+      "sort_order": 0,
+      "is_active": 1
+    },
+    {
+      "store_id": 2,
+      "code": "german",
+      "website_id": 1,
+      "group_id": 1,
+      "name": "German",
+      "sort_order": 0,
+      "is_active": 1
+    }
+  ],
+  "execution": {
+    "status": "success",
+    "seconds": 0.03,
+    "processed_at": "2026-09-13T18:56:48.593167",
+    "attempt": 1
+  }
+}

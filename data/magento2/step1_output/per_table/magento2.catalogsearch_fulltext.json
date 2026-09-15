@@ -1,0 +1,209 @@
+{
+  "schema": "magento2",
+  "table_name": "catalogsearch_fulltext",
+  "row_count": 183,
+  "primary_key": [
+    "fulltext_id"
+  ],
+  "foreign_keys": [],
+  "columns": [
+    {
+      "name": "product_id",
+      "type": "INTEGER",
+      "nullable": false,
+      "stats": {
+        "null_count": 0,
+        "distinct_count": 61,
+        "null_percentage": 0.0,
+        "numeric_stats": {
+          "avg": 104.1475,
+          "min": 16.0,
+          "max": 166.0,
+          "stddev": 52.79556491108991
+        },
+        "frequent_values": [
+          {
+            "value": "16",
+            "count": 3
+          },
+          {
+            "value": "17",
+            "count": 3
+          },
+          {
+            "value": "18",
+            "count": 3
+          },
+          {
+            "value": "19",
+            "count": 3
+          },
+          {
+            "value": "20",
+            "count": 3
+          }
+        ],
+        "sample_values": [
+          "16",
+          "17",
+          "18",
+          "19",
+          "20",
+          "25",
+          "26",
+          "27",
+          "28",
+          "39",
+          "41",
+          "42",
+          "44",
+          "45",
+          "46"
+        ]
+      }
+    },
+    {
+      "name": "store_id",
+      "type": "SMALLINT",
+      "nullable": false,
+      "stats": {
+        "null_count": 0,
+        "distinct_count": 3,
+        "null_percentage": 0.0,
+        "numeric_stats": {
+          "avg": 2.0,
+          "min": 1.0,
+          "max": 3.0,
+          "stddev": 0.8164965809277259
+        },
+        "frequent_values": [
+          {
+            "value": "1",
+            "count": 61
+          },
+          {
+            "value": "2",
+            "count": 61
+          },
+          {
+            "value": "3",
+            "count": 61
+          }
+        ],
+        "sample_values": [
+          "1",
+          "2",
+          "3"
+        ]
+      }
+    },
+    {
+      "name": "data_index",
+      "type": "LONGTEXT",
+      "nullable": true,
+      "stats": {
+        "null_count": 0,
+        "distinct_count": 61,
+        "null_percentage": 0.0,
+        "frequent_values": [
+          {
+            "value": "HTC Touch Diamond | attr_status_1 | Enabled | attr_visibility_4 | attr_color_24 | Black | attr_manufacturer_122 | HTC | attr_enable_googlecheckout_0 | HTC Touch Diamond | HTC Touch Diamond | Re-defining the perception of advanced mobile phones&hellip; the HTC Touch Diamond&trade; signals a giant leap forward in combining hi-tech prowess with intuitive usability and exhilarating design. | Re-defining the perception of advanced mobile phones&hellip; the HTC Touch Diamond&trade; signals a giant leap forward in combining hi-tech prowess with intuitive usability and exhilarating design. Featuring a sharp 2.8-inch touch screen housed within a stunning formation of brushed metal and flawless faceted edges, the HTC Touch Diamond is as beautiful to behold as it is to use. With HTC&rsquo;s vibrant touch-responsive user interface, TouchFLO&trade; 3D, and ultra-fast HSDPA internet connectivity&hellip; the HTC Touch Diamond offers a rich online experience to rival a notebook computer, allowing you to interact with Google, YouTube, and Wikipedia as freely as you would with a broadband connection. Your contacts, favourite music, videos and photos are no longer an uninspired line of text. With TouchFLO 3D, album artwork, video stills and snapshots of your friends&rsquo; and family&rsquo;s faces are brought to life for you to interact, play and launch at your fingertips. A 3.2 megapixel auto-focus camera will help you capture the perfect moment in style and with a massive 4GB of internal storage you can keep all the files you need. The integrated ultra-sensitive GPS will help you find your destination as quickly and efficiently as a dedicated satellite navigation unit. Style and substance in a phone are no longer mutually exclusive. The HTC Touch Diamond has arrived. | Re-defining the perception of advanced mobile phones??? the HTC Touch Diamond??? signals a giant leap forward in combining hi-tech prowess with intuitive usability and exhilarating design. Featuring a sharp 2.8-inch touch screen housed within a stunning formation of brushed metal and flawless faceted edges, the HTC Touch Diamond is as beautiful to behold as it is to use. With HTC???s vibrant touch-responsive user interface, TouchFLO??? 3D, and ultra-fast HSDPA internet connectivity??? the HTC Touch Diamond offers a rich online experience to rival a notebook computer, allowing you to interact with Google, YouTube, and Wikipedia as freely as you would with a broadband connection. Your contacts, favourite music, videos and photos are no longer an uninspired line of text. With TouchFLO 3D, album artwork, video stills and snapshots of your friends??? and family???s faces are brought to life for you to interact, play and launch at your fingertips. A 3.2 megapixel auto-focus camera will help you capture the perfect moment in style and with a massive 4GB of internal storage you can keep all the files you need. The integrated ultra-sensitive GPS will help you find your destination as quickly and efficiently as a dedicated satellite navigation unit. Style and substance in a phone are no longer mutually exclusive. The HTC Touch Diamond has arrived. | 102 mm (L) X 51 mm (W) X 11.35 mm (T)",
+            "count": 3
+          },
+          {
+            "value": "ken|Black|Gray|Gray|Gray|Gray|Gray|Mens|Mens|Mens|Mens|Mens|Mens|Enabled|Enabled|Enabled|Enabled|Enabled|Enabled|Dress|Running|Running|Running|Running|Running|Kenneth Cole New York Men's Con-verge Slip-on|ASICS?? Men's GEL-Kayano?? XII|ASICS?? Men's GEL-Kayano?? XII|ASICS?? Men's GEL-Kayano?? XII|ASICS?? Men's GEL-Kayano?? XII|ASICS?? Men's GEL-Kayano?? XII|B000IKC6AY|B000CP1M00|B000CP1M00|B000CP1M00|B000CP1M00|B000CP1M00|Smooth leather upper in a dress slip on style, with a stitched and covered seam moc-inspired square toe.|The ASICS?? GEL-Kayano?? XII running shoe delivers the ultimate blend of cushioning and support. Biomorphic Fit??? upper offers enhanced upper fit and comfort while decreasing the potential for irritation.|The ASICS?? GEL-Kayano?? XII running shoe delivers the ultimate blend of cushioning and support. Biomorphic Fit??? upper offers enhanced upper fit and comfort while decreasing the potential for irritation.|The ASICS?? GEL-Kayano?? XII running shoe delivers the ultimate blend of cushioning and support. Biomorphic Fit??? upper offers enhanced upper fit and comfort while decreasing the potential for irritation.|The ASICS?? GEL-Kayano?? XII running shoe delivers the ultimate blend of cushioning and support. Biomorphic Fit??? upper offers enhanced upper fit and comfort while decreasing the potential for irritation.|The ASICS?? GEL-Kayano?? XII running shoe delivers the ultimate blend of cushioning and support. Biomorphic Fit??? upper offers enhanced upper fit and comfort while decreasing the potential for irritation.|High fashion and classic good looks converge in this suave slip on from Kenneth Cole. Smooth leather upper in a dress slip on style, with a stitched and covered seam moc-inspired square toe, quarter panel curved overlays and flared tongue with side elastic panels for a comfortable, secure fit. Smooth leather lining, cushioned leather topped insole. Dress midsole with a beveled edge, 1 inch capped dress heel. Flat traction outsole.|The ASICS?? GEL-Kayano?? XII running shoe delivers the ultimate blend of cushioning and support. Biomorphic Fit??? upper offers enhanced upper fit and comfort while decreasing the potential for irritation. Solyte midsole material is lighter than standard EVA and SpEVA?? combined with improved cushioning and durability. Impact Guidance System (I.G.S.??) uses linked componentry to encourage optimal gait while allowing for natural foot movement from heel strike to toe off. DuoMax?? support system helps ensure that the shoe maintains proper support for the foot during the critical transition from heel strike to toe off. Space Trusstic?? System creates a pocket between the Trusstic?? System device and the midsole, allowing for greater midsole deformation and more efficient foot function. GEL?? Cushioning System provides maximum rearfoot and forefoot shock attenuation. Wt. 12.6 oz.|The ASICS?? GEL-Kayano?? XII running shoe delivers the ultimate blend of cushioning and support. Biomorphic Fit??? upper offers enhanced upper fit and comfort while decreasing the potential for irritation. Solyte midsole material is lighter than standard EVA and SpEVA?? combined with improved cushioning and durability. Impact Guidance System (I.G.S.??) uses linked componentry to encourage optimal gait while allowing for natural foot movement from heel strike to toe off. DuoMax?? support system helps ensure that the shoe maintains proper support for the foot during the critical transition from heel strike to toe off. Space Trusstic?? System creates a pocket between the Trusstic?? System device and the midsole, allowing for greater midsole deformation and more efficient foot function. GEL?? Cushioning System provides maximum rearfoot and forefoot shock attenuation. Wt. 12.6 oz.|The ASICS?? GEL-Kayano?? XII running shoe delivers the ultimate blend of cushioning and support. Biomorphic Fit??? upper offers enhanced upper fit and comfort while decreasing the potential for irritation. Solyte midsole material is lighter than standard EVA and SpEVA?? combined with improved cushioning and durability. Impact Guidance System (I.G.S.??) uses linked componentry to encourage optimal gait while allowing for natural foot movement from heel strike to toe off. DuoMax?? support system helps ensure that the shoe maintains proper support for the foot during the critical transition from heel strike to toe off. Space Trusstic?? System creates a pocket between the Trusstic?? System device and the midsole, allowing for greater midsole deformation and more efficient foot function. GEL?? Cushioning System provides maximum rearfoot and forefoot shock attenuation. Wt. 12.6 oz.|The ASICS?? GEL-Kayano?? XII running shoe delivers the ultimate blend of cushioning and support. Biomorphic Fit??? upper offers enhanced upper fit and comfort while decreasing the potential for irritation. Solyte midsole material is lighter than standard EVA and SpEVA?? combined with improved cushioning and durability. Impact Guidance System (I.G.S.??) uses linked componentry to encourage optimal gait while allowing for natural foot movement from heel strike to toe off. DuoMax?? support system helps ensure that the shoe maintains proper support for the foot during the critical transition from heel strike to toe off. Space Trusstic?? System creates a pocket between the Trusstic?? System device and the midsole, allowing for greater midsole deformation and more efficient foot function. GEL?? Cushioning System provides maximum rearfoot and forefoot shock attenuation. Wt. 12.6 oz.|The ASICS?? GEL-Kayano?? XII running shoe delivers the ultimate blend of cushioning and support. Biomorphic Fit??? upper offers enhanced upper fit and comfort while decreasing the potential for irritation. Solyte midsole material is lighter than standard EVA and SpEVA?? combined with improved cushioning and durability. Impact Guidance System (I.G.S.??) uses linked componentry to encourage optimal gait while allowing for natural foot movement from heel strike to toe off. DuoMax?? support system helps ensure that the shoe maintains proper support for the foot during the critical transition from heel strike to toe off. Space Trusstic?? System creates a pocket between the Trusstic?? System device and the midsole, allowing for greater midsole deformation and more efficient foot function. GEL?? Cushioning System provides maximum rearfoot and forefoot shock attenuation. Wt. 12.6 oz.|The handsome style of the Con-Verge slip-on from Kenneth Cole New York is larger than life. This sharp shoe has a semi-polished smooth leather upper, a squared off stitched apron toe, and dual-goring for easy on/off accessibility. It also features soft leather linings, a cushioned insole, and a paneled rubber outsole for a sturdy step. The Con-Verge is a perfect companion to your business and special occasion wardrobes.|# I.G.S.?: Allows for natural foot movement from heel strike to toe-off # DuoMax? Support System: Maintains proper support for the foot during the critical transition from heel strike to toe-off # Space Trusstic System?: Allows for greater midsole deformation and more efficient foot function # GEL? Cushioning System: Provides maximum rearfoot/forefoot shock attenuation # Biomorphic Fit Upper: Provides enhanced upper fit and comfort while limiting irritation|# I.G.S.?: Allows for natural foot movement from heel strike to toe-off # DuoMax? Support System: Maintains proper support for the foot during the critical transition from heel strike to toe-off # Space Trusstic System?: Allows for greater midsole deformation and more efficient foot function # GEL? Cushioning System: Provides maximum rearfoot/forefoot shock attenuation # Biomorphic Fit Upper: Provides enhanced upper fit and comfort while limiting irritation|# I.G.S.?: Allows for natural foot movement from heel strike to toe-off # DuoMax? Support System: Maintains proper support for the foot during the critical transition from heel strike to toe-off # Space Trusstic System?: Allows for greater midsole deformation and more efficient foot function # GEL? Cushioning System: Provides maximum rearfoot/forefoot shock attenuation # Biomorphic Fit Upper: Provides enhanced upper fit and comfort while limiting irritation|# I.G.S.?: Allows for natural foot movement from heel strike to toe-off # DuoMax? Support System: Maintains proper support for the foot during the critical transition from heel strike to toe-off # Space Trusstic System?: Allows for greater midsole deformation and more efficient foot function # GEL? Cushioning System: Provides maximum rearfoot/forefoot shock attenuation # Biomorphic Fit Upper: Provides enhanced upper fit and comfort while limiting irritation|# I.G.S.?: Allows for natural foot movement from heel strike to toe-off # DuoMax? Support System: Maintains proper support for the foot during the critical transition from heel strike to toe-off # Space Trusstic System?: Allows for greater midsole deformation and more efficient foot function # GEL? Cushioning System: Provides maximum rearfoot/forefoot shock attenuation # Biomorphic Fit Upper: Provides enhanced upper fit and comfort while limiting irritation|160.99|134.99|134.99|134.99|134.99|134.99|9|11|10|12|8|1",
+            "count": 3
+          },
+          {
+            "value": "A630|Silver|8|Enabled|Canon PowerShot A630 8MP Digital Camera with 4x Optical Zoom|A630|4.3 x 2.6 x 1.9 inches|Replacing the highly popular PowerShot A620, the PowerShot A630 features a rotating 2.5-inch vari-angle LCD, 4x optical zoom lens, and a vast array of creative shooting modes. The PowerShot A630 packs a vast array of advanced features into a remarkably compact space|8-megapixel CCD captures enough detail for photo-quality 16 x 22-inch prints 4x optical zoom; 2.5-inch vari-angle LCD display ISO range up to ISO 800 for less blur in low light while hand-holding 3:2 guide masks LCD to display 4 x 6-inch print size; 16:9 format option for still images Stores images on SD cards; powered by 4 AA-size batteries|Replacing the highly popular PowerShot A620, the PowerShot A630 features a rotating 2.5-inch vari-angle LCD, 4x optical zoom lens, and a vast array of creative shooting modes.|329.99|1",
+            "count": 3
+          },
+          {
+            "value": "ac674|Enabled|SLR Camera Tripod|Sturdy, lightweight tripods are designed to meet the needs of amateur and professional photographers and videographers.|Sturdy, lightweight tripods are designed to meet the needs of amateur and professional photographers and videographers.|99|1",
+            "count": 3
+          },
+          {
+            "value": "512dimm|Enabled|Crucial|Crucial 512MB PC4200 DDR2 533MHz Memory|Crucial 512MB PC4200 DDR2 533MHz Memory Crucial Technologies is part of Micron, the largest DRAM manufacturer in the U.S. and one of the largest in the world. Because they actually manufacture memory, they have unparalleled expertise in the upgrade industry. Crucial is the only consumer memory upgrade supplier that is part of a major DRAM manufacturer. Every single Crucial memory module is tested before it goes out their doors. Crucial chips are individually tested under varying temperatures, voltages, and operational conditions for performance and functionality.|Crucial 512MB PC4200 DDR2 533MHz Memory Crucial Technologies is part of Micron, the largest DRAM manufacturer in the U.S. and one of the largest in the world. Because they actually manufacture memory, they have unparalleled expertise in the upgrade industry. Crucial is the only consumer memory upgrade supplier that is part of a major DRAM manufacturer. Every single Crucial memory module is tested before it goes out their doors. Crucial chips are individually tested under varying temperatures, voltages, and operational conditions for performance and functionality.|99.99|1",
+            "count": 3
+          }
+        ],
+        "sample_values": [
+          "n2610|Enabled|Black|Nokia 2610 Phone|2610|4.1 x 1.7 x 0.7 inches|The Nokia 2610 is an easy to use device that combines multiple messaging options including email, instant messaging, and more. You can even download MP3 ringtones, graphics, and games straight to the phone, or surf the Internet with Cingular's MEdia Net service. It's the perfect complement to Cingular service for those even remotely interested in mobile Web capabilities in an affordable handset. Design Compact and stylish, the 2610 features a candybar design sporting a bright 128 x 128 pixel display capable of displaying over 65,000 colors. Most of the phone's features and on-screen menus are controlled by a center toggle on the control pad. A standard hands-free headphone jack is provided, as are volume control keys, and there's even a \"Go-To\" button that can be assigned by the user for quick access to favorite applications. Lastly, the included speakerphone allows you to talk handsfree, and because the phone sports an internal antenna, there's nothing to snag or break off.|Integrated camera with video recorder to capture those special moments Enriched data connections for complete mobile access via Email, MMS, and MEdia Net Personalize with downloadable MP3 and polyphonic Ring tones, Games, and Graphics Use AIM, Yahoo! and MSN Messenger to stay in touch on the go Mobile Internet browser and email|The words \"entry level\" no longer mean \"low-end,\" especially when it comes to the Nokia 2610. Offering advanced media and calling features without breaking the bank|149.99|1",
+          "bb8100|Silver|Enabled|BlackBerry 8100 Pearl|8100|4.2 x 2 x 0.6 inches|Like the BlackBerry 7105t, the BlackBerry 8100 Pearl is The BlackBerry 8100 Pearl sports a large 240 x 260 screen that supports over 65,000 colors-- plenty of real estate to view your e-mails, Web browser content, messaging sessions, and attachments. The venerable BlackBerry trackwheel has been replaced on this model with an innovative four-way trackball placed below the screen. On the rear of the handheld, you'll find a 1.3-megapixel camera and a self portrait mirror. The handheld's microSD memory card slot is located inside the device, behind the battery. There's also a standard 2.5mm headset jack that can be used with the included headset, as well as a mini-USB port for data connectivity.|1.3 mega pixel camera to capture those special moments MP3 player lets you listen to your favorite music on the go Menu and escape keys on the front of the device for easier access Bluetooth technology lets you experience hands free and wire free features Package Contents: phone,AC adapter,software CD,headset,USB cable,sim- card,get started poster,reference guide|The BlackBerry 8100 Pearl is a departure from the form factor of previous BlackBerry devices. This BlackBerry handset is far more phone-like, and RIM's engineers have managed to fit a QWERTY keyboard onto the handset's slim frame.|349.99|1",
+          "sw810i|Black|Enabled|Sony Ericsson W810i|W810i|3.5 x 1.8 x 1 inches|The W810i's screen sports 176 x 220 pixel resolution with support for 262,000 colors. Quick access buttons below the screen make it easy to control the phone's Walkman music features, while a five-way center button controls most of the phone's menus and features.|Disc2Phone??? music copying software is supplied in the W810 kit and it???s easy to copy songs from your favorite CDs, and PC music folders The built-in W810 2 megapixel digital camera with autofus takes excellent photos and when you need to catch some action, W810 has video too Sharing images and other phone content is easy. Use Bluetooth???, or Multimedia messaging when you want to send images and video Wherever you are, you have high speed access to the internet with EDGE technology A full-function email client in your W810 gives you access to your inbox wherever you go|The W810i follows a long tradition of beautifully designed and crafted phones from Sony Ericsson. The same candy-bar style that graced the W800 is here.|399.99|1",
+          "8525PDA|Silver|Enabled|AT&T 8525 PDA|8525 PDA|4.4 x 2.4 x 0.9 inches|The design of the 8525 is clean and uncluttered, with just a few buttons for mail, Internet Explorer, and contextual menus. Meanwhile, call answer and end buttons surround a five-way toggle that allows you to navigate and control the Windows Mobile interface. As mentioned, a full QWERTY keyboard cleverly slides out from underneath the screen. This allows you to hold the device horizontally, and the screen is automatically placed in landscape mode when you're using the keyboard. A side scroll wheel is conveniently tucked away on the side, making navigation when accessing the music player and other various applications a cinch when needed. A mini-SD memory expansion card slot is provided, as is an infrared port and support for a stereo Bluetooth headset. A mini-USB port is also included for wired data transfers and charging.|tri-band UMTS/HSDPA; quad-band GSM/GPRS/EDGE for global use Windows Mobile 5.0 with Messaging & Security Feature Pack sliding QWERTY keyboard with improved keypad design and improved backlight for easier use in low light conditions 128MB ROM / 64MB RAM; ~51MB user available memory 2.0 mega-pixel camera with video capabilities|Under the hood, the 8525 features 128MB of embedded memory and 64MB RAM, running on a 400 MHz Samsung processor. Up front, the 240 x 320 LCD touch-screen supports over 65,000 colors, while the rear of the device houses a 2.0 megapixel camera.|199.99|1",
+          "MM-A900M|Silver|Enabled|Samsung MM-A900M Ace|MM-A900M|3.9 x 2 x 0.6 inches|New services supported by both the MM-A900m include the newly announced Sprint Music StoreSM, which allows users to immediately buy and download complete songs directly to their phone; 30 channels of live and on demand video and audio from Sprint TVSM and On Demand, a personalized resource guide to news, traffic, weather, sports and entertainment. The MM-A900m offers great-looking design with the ability to download a rich selection of content directly to the phone. Features like external music-navigation keys make these phones both functional and attractive. These handsets are sure to be at the top of many wish lists.|Bluetooth Wireless Technology: Built-in radio technology allows fast, secure transmission between your phone and accessories without cables or wires. Bluetooth wireless accessories are sold separately. Mass Storage Area: Store pictures, videos, voice memos and music within the internal memory of the phone. Streaming Music Enabled: Stream music to your phone with Music Choice??. Select from Pop, Rock, Hip Hop, and R&B plus exclusive video clips, performances, and artist interviews.|The MM-A900m offers great-looking design with the ability to download a rich selection of content directly to the phone.|150|1",
+          "MA464LL/A|Silver|Enabled|Apple|Apple MacBook Pro MA464LL/A 15.4\" Notebook PC|MA464LL/A|19.5 x 7.6 x 19.5 inches|2.0 GHz Intel Core Duo processor with 2 MB shared L2 Cache|1 GB (single SODIMM) 667 MHz DDR2 SDRAM (PC2-5300)|100 GB 5400 rpm Serial ATA hard drive|15.4-inch TFT widescreen display with 1440 x 900 resolution|This, combined with myriad other engineering leaps, boosts performance up to four times higher than the PowerBook G4. With this awesome power, it's a breeze to render complex 3D models, enjoy smooth playback of HD video, or host a four-way video conference.Intel Core Duo is the first chip built using Intel's groundbreaking 65-nanometer process - resulting in transistors so small, you could fit a hundred inside a single human cell. With smaller distances for electrons to travel, and two processors designed to share resources and conserve power, Intel Core Duo achieves higher levels of performance as it uses fewer watts. Which is what makes it possible to design a super-powerful MacBook Pro that's only one inch thin.When Mac technology makes something easy, it's hardly news. So here's more non-news for MacBook Pro owners: software just works. If you see the Universal logo on a new application, that means it will run on Intel- and PowerPC-based Mac computers. For most existing applications, you simply do what you've always done: double-click them. Thanks to the Rosetta technology in Mac OS X, they look and feel just like they did before.|2.0 GHz Intel Core Duo processor with 2 MB shared L2 Cache 1 GB (single SODIMM) 667 MHz DDR2 SDRAM (PC2-5300); 100 GB 5400 rpm Serial ATA hard drive; slot-load SuperDrive (DVD??RW/CD-RW) One FireWire 400, two USB 2.0 ports, and ExpressCard/34 slot; no FireWire 800 slots Built-in 10/100/1000BASE-T (Gigabit); built-in 54 Mbps AirPort Extreme (802.11g); built-in Bluetooth 2.0+EDR 15.4-inch TFT widescreen display with 1440 x 900 resolution|You've seen improvements in notebook performance before - but never on this scale. The Intel Core Duo powering MacBook Pro is actually two processors built into a single chip.|2299.99|1",
+          "LX.FR206.001|Black|Enabled|Acer|Acer Ferrari 3200 Notebook Computer PC|LX.FR206.001|Mobile AMD Athlon 64 2800+|512MB of PC2700 DDR333 SDRAM|80 gig Western Digital|15-inch, 200-nit, high-brightness TFT LCD screen|Acer has flawlessly designed the Ferrari 3200, instilling it with exceptional performance, brilliant graphics, and lightning-fast connectivity. This exclusive edition is another striking symbol of cooperation between Acer and Ferrari -- two progressive companies with proud heritages built on passion, innovation, power and success.|Mobile AMD Athlon 64 2800+ 1MB L2 Cache 512MB of PC2700 DDR333 SDRAM 2 RAM Slots (0 open - upgrading requires chip removal) RAM is upgradeable to 2GB|This exclusive edition is another striking symbol of cooperation between Acer and Ferrari -- two progressive companies with proud heritages built on passion, innovation, power and success||1799.99|1",
+          "VGN-TXN27N/B|Black|Enabled|Sony|Sony VAIO VGN-TXN27N/B 11.1\" Notebook PC|VGN-TXN27N/B|10.7 x 1.23 x 7.7 inches (WxHxD)|Intel Core Solo Processor U1500|2 GB RAM|100 GB Hard Drive|9 inches|Weighing in at just an amazing 2.84 pounds and offering a sleek, durable carbon-fiber case in charcoal black. And with 4 to 10 hours of standard battery life, it has the stamina to power you through your most demanding applications. With the integrated wireless WAN, you can access the national Sprint Mobile Broadband service to extend your wireless coverage beyond LAN access networks and hotspots, giving you the freedom to go farther, do more, and stay connected.|Processor: The Ultra Low Voltage Intel Core Solo U1500 processor offers a 1.33 GHz speed paired with a fast 533 MHz front-side bus and large 2 MB L2 cache. (An L2, or secondary, cache temporarily stores data; and a larger L2 cache can help speed up your system's performance. The FSB carries data between the CPU and RAM, and a faster front-side bus will deliver better overall performance.) The Core Solo processor delivers enhanced performance for today's demanding applications such as CAD tools, 3-D and 2-D modeling, video editing, digital music, digital photography and gaming. And Intel's Smart Cache technology enables smarter, more efficient cache and bus design for enhanced performance, responsiveness and power savings.|Take a load off your shoulders when you're racing for your plane with the sleekly designed and ultra-portable Sony Vaio VGN-TXN27N/B notebook PC.|2699.99|1",
+          "M285-E|Black|Enabled|Toshiba|Toshiba M285-E 14\"|M285-E|17 x 7 x 13 inches|1.66 GHz Intel Core Duo T2300E processor|1 GB RAM|60 GB hard drive|14-inch screen|Easily mobile at just 6 pounds, the Toshiba Satellite A135-S4527 makes it easy to get your work done with a large, bright 15.4-inch widescreen LCD. The XGA-resolution screen (1280 x 800) permits side-by-side viewing of documents for increased productivity. It's also great for using as a media center, with Toshiba's unique Express Media Player enabling you to bypass the system and access CDs and DVDs with a touch of button. This affordable notebook PC is powered by Intel's 1.73 GHz Core Duo T2080 processor, which provides an optimized, multithreaded architecture for improved gaming and multitasking performance and efficient power consumption. It also offers a 120 GB hard drive, 1 GB of installed RAM (2 GB maximum), dual-layer/multi-format DVD drive that also burns CDs, integrated 54g wireless connectivity, and Intel GMA 950 video card with up to 256 MB of shared video RAM.|Processor: The Intel Core Duo T2080 processor is built with the Mobile Intel 945PM Express chipset, and it has a 1.73 GHz processor speed, fast 533 MHz front-side bus (FSB), and 1 MB L2 cache. (An L2, or secondary, cache temporarily stores data; and a larger L2 cache can help speed up your system's performance. The FSB carries data between the CPU and RAM, and a faster front-side bus will deliver better overall performance.)|Get the competitive edge with the Gateway M285-E. This widescreen Convertible Notebook functions as both a conventional notebook and a tablet.|1599.99|1",
+          "4fasd5f5|Green|Enabled|Mens|Medium|The Get Up Kids: Band Camp Pullover Hoodie|The Get Up Kids: Band Camp Pullover Hoodie|Printed on American Apparel Classic style 5495 California Fleece Pull-Over Hoodies. Sizing info is available here.|Printed on American Apparel Classic style 5495 California Fleece Pull-Over Hoodies.|30|1",
+          "384822|Brown|Bedroom|Enabled|Akio Dresser|384822|21\"W x 44\"L x 35.5\"H|Thailand|Asian Beechwood|Features include inset panel sides and for spacious drawers and two wicker baskets. 41\"Wx18\"Dx36\"H.|Our Akio dresser has a solid hardwood frame.|399.99|1",
+          "bar1234|Brown|Bedroom|Enabled|Barcelona Bamboo Platform Bed|bar1234|62\"W x 84\"L x 8\"H|Thailand|Our Barcelona platform bed captures the spirit and drama of late 20th century design with a variety of subtle details.|Bamboo|Entirely handcrafted of solid Bamboo. Designed for use with a mattress alone, it includes a sturdy, padded wood platform for comfort and proper mattress support.|2299|1",
+          "Rebel XT|Black|8|Enabled|Canon Digital Rebel XT 8MP Digital SLR Camera|8.0-megapixel CMOS sensor captures enough detail for photo-quality 16 x 22-inch prints Includes Canon's EF-S 18-55mm, f3.5-5.6 zoom lens DIGIC II Image Processor provides fast, accurate image processing; captures images at a rate of up to 3 frames per second Fast start-up time--.2 seconds Powered by rechargeable Lithium-ion battery (included, with charger)|Canon EOS Digital Rebel XT SLR adds resolution, speed, extra creative control, and enhanced comfort in the hand to one of the smallest and lightest digital cameras in its class.|Rebel XT|5 x 3.7 x 2.5 inches|The Canon EOS Digital Rebel camera now has a new, faster, even smaller big brother. Sibling rivalries aside, the 8.0-megapixel Canon EOS Digital Rebel XT SLR adds resolution, speed, extra creative control, and enhanced comfort in the hand to one of the smallest and lightest digital cameras in its class. Even with its advancements in ergonomic design and technology, this easy-to-use EOS digital camera is compatible with all of Canon's EF lenses, including the EF-S lenses.|550|1",
+          "QC-2185|Silver|5|Enabled|Argus QC-2185 Quick Click 5MP Digital Camera|QC-2185|2.75 inches x 1.5 inches|The Argus QC-2185 Quick Click 5MP digital camera offers all the basic features you need in a compact and stylish digital camera. This unit is easy to use, and is perfect for those who want a completely portable option for taking good pictures, without having to empty their wallet. The Argus QC-2185 features a clear and bright 1.1-inch CSTN (color super-twist nematic) LCD display that makes it easy to frame the perfect picture. Thanks to its USB 1.1 connection compatibility, this digital camera lets you quickly download pictures to your Mac or PC, and can also function as a handy web camera. The QC-2185 includes eight megabytes of internal SDRAM memory, with the ability to expand camera memory via a built-in SD (secure digital) storage card slot for easy storage and transfer of your pictures. This unit also includes a built-in auto flash with a three to seven foot range, and comes with ArcSoft PhotoImpression's photo editing software which makes it easy for you to edit, crop, adjust and improve all your best pictures to make them even better.||The Argus QC-2185 Quick Click 5MP digital camera offers all the basic features you need in a compact and stylish digital camera. This unit is easy to use, and is perfect for those who want a completely portable option for taking good pictures, without having to empty their wallet.|37.49|1",
+          "750|Silver|7|Enabled|Olympus Stylus 750 7.1MP Digital Camera|750|3.8 x 2.1 x 1 inches|Olympus continues to innovate with the launch of the Stylus 750 digital camera, a technically sophisticated point-and-shoot camera offering a number of pioneering technologies such as Dual Image Stabilization, Bright Capture Technology, and TruePic Turbo, as well as a powerful 5x optical zoom that tucks away into a streamlined metal, all-weather body design. The camera is distinguished by a number of premium features, including: * An advanced combination of the mechanical CCD-shift Image Stabilization and Digital Image Stabilization work together to ensure the clearest pictures possible in any situation; * A 5x optical zoom lens with a newly developed lens element to maintain a small compact size; * A 2.5-inch LCD and Bright Capture Technology dramatically improve composition, capture and review of images in low-light situations; * Olympus' exclusive TruePic Turbo Image Processing engine is coupled with a 7.1-megapixel image sensor to produce crisp, high-quality p|7.1-megapixel CCD captures enough detail for photo-quality 15 x 20-inch prints 5x image-stabilized optical zoom; 2.5-inch LCD display Compact, all-weather body measures 3.8 x 2.1 x 0.96 inches Bright Capture technology; 27 selectable shooting modes; built-in Help guide Stores images on xD Picture Cards; powered by Li-Ion battery (battery and charger included)|A technically sophisticated point-and-shoot camera offering a number of pioneering technologies such as Dual Image Stabilization, Bright Capture Technology, and TruePic Turbo, as well as a powerful 5x optical zoom.|161.94|1"
+        ]
+      }
+    },
+    {
+      "name": "fulltext_id",
+      "type": "INTEGER",
+      "nullable": false,
+      "stats": {
+        "null_count": 0,
+        "distinct_count": 183,
+        "null_percentage": 0.0,
+        "numeric_stats": {
+          "avg": 93.0328,
+          "min": 1.0,
+          "max": 186.0,
+          "stddev": 53.628136897496816
+        },
+        "sample_values": [
+          "1",
+          "2",
+          "3",
+          "4",
+          "5",
+          "6",
+          "7",
+          "8",
+          "9",
+          "10",
+          "11",
+          "12",
+          "13",
+          "14",
+          "15"
+        ]
+      }
+    }
+  ],
+  "sample_rows": [
+    {
+      "product_id": 16,
+      "store_id": 1,
+      "data_index": "n2610|Enabled|Black|Nokia 2610 Phone|2610|4.1 x 1.7 x 0.7 inches|The Nokia 2610 is an easy to use device that combines multiple messaging options including email, instant messaging, and more. You can even download MP3 ringtones, graphics, and games straight to the phone, or surf the Internet with Cingular's MEdia Net service. It's the perfect complement to Cingular service for those even remotely interested in mobile Web capabilities in an affordable handset. Design Compact and stylish, the 2610 features a candybar design sporting a bright 128 x 128 pixel display capable of displaying over 65,000 colors. Most of the phone's features and on-screen menus are controlled by a center toggle on the control pad. A standard hands-free headphone jack is provided, as are volume control keys, and there's even a \"Go-To\" button that can be assigned by the user for quick access to favorite applications. Lastly, the included speakerphone allows you to talk handsfree, and because the phone sports an internal antenna, there's nothing to snag or break off.|Integrated camera with video recorder to capture those special moments Enriched data connections for complete mobile access via Email, MMS, and MEdia Net Personalize with downloadable MP3 and polyphonic Ring tones, Games, and Graphics Use AIM, Yahoo! and MSN Messenger to stay in touch on the go Mobile Internet browser and email|The words \"entry level\" no longer mean \"low-end,\" especially when it comes to the Nokia 2610. Offering advanced media and calling features without breaking the bank|149.99|1",
+      "fulltext_id": 1
+    },
+    {
+      "product_id": 17,
+      "store_id": 1,
+      "data_index": "bb8100|Silver|Enabled|BlackBerry 8100 Pearl|8100|4.2 x 2 x 0.6 inches|Like the BlackBerry 7105t, the BlackBerry 8100 Pearl is The BlackBerry 8100 Pearl sports a large 240 x 260 screen that supports over 65,000 colors-- plenty of real estate to view your e-mails, Web browser content, messaging sessions, and attachments. The venerable BlackBerry trackwheel has been replaced on this model with an innovative four-way trackball placed below the screen. On the rear of the handheld, you'll find a 1.3-megapixel camera and a self portrait mirror. The handheld's microSD memory card slot is located inside the device, behind the battery. There's also a standard 2.5mm headset jack that can be used with the included headset, as well as a mini-USB port for data connectivity.|1.3 mega pixel camera to capture those special moments MP3 player lets you listen to your favorite music on the go Menu and escape keys on the front of the device for easier access Bluetooth technology lets you experience hands free and wire free features Package Contents: phone,AC adapter,software CD,headset,USB cable,sim- card,get started poster,reference guide|The BlackBerry 8100 Pearl is a departure from the form factor of previous BlackBerry devices. This BlackBerry handset is far more phone-like, and RIM's engineers have managed to fit a QWERTY keyboard onto the handset's slim frame.|349.99|1",
+      "fulltext_id": 2
+    },
+    {
+      "product_id": 18,
+      "store_id": 1,
+      "data_index": "sw810i|Black|Enabled|Sony Ericsson W810i|W810i|3.5 x 1.8 x 1 inches|The W810i's screen sports 176 x 220 pixel resolution with support for 262,000 colors. Quick access buttons below the screen make it easy to control the phone's Walkman music features, while a five-way center button controls most of the phone's menus and features.|Disc2Phone??? music copying software is supplied in the W810 kit and it???s easy to copy songs from your favorite CDs, and PC music folders The built-in W810 2 megapixel digital camera with autofus takes excellent photos and when you need to catch some action, W810 has video too Sharing images and other phone content is easy. Use Bluetooth???, or Multimedia messaging when you want to send images and video Wherever you are, you have high speed access to the internet with EDGE technology A full-function email client in your W810 gives you access to your inbox wherever you go|The W810i follows a long tradition of beautifully designed and crafted phones from Sony Ericsson. The same candy-bar style that graced the W800 is here.|399.99|1",
+      "fulltext_id": 3
+    }
+  ],
+  "execution": {
+    "status": "success",
+    "seconds": 0.06,
+    "processed_at": "2026-09-13T18:56:20.901083",
+    "attempt": 1
+  }
+}

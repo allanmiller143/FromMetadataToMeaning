@@ -1,6 +1,6 @@
 # Relatório de Anonimização de Metadados
 
-**Data de Execução:** 10/09/2026 21:48:47
+**Data de Execução:** 13/09/2026 19:19:39
 
 ## Resumo
 

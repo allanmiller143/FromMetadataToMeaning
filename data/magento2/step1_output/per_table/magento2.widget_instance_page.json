@@ -1,0 +1,74 @@
+{
+  "schema": "magento2",
+  "table_name": "widget_instance_page",
+  "row_count": 0,
+  "primary_key": [
+    "page_id"
+  ],
+  "foreign_keys": [
+    {
+      "name": "widget_instance_page_ibfk_1",
+      "constrained_columns": [
+        "instance_id"
+      ],
+      "referred_schema": "magento2",
+      "referred_table": "widget_instance",
+      "referred_columns": [
+        "instance_id"
+      ],
+      "options": {
+        "onupdate": "CASCADE",
+        "ondelete": "CASCADE"
+      }
+    }
+  ],
+  "columns": [
+    {
+      "name": "page_id",
+      "type": "INTEGER",
+      "nullable": false
+    },
+    {
+      "name": "instance_id",
+      "type": "INTEGER",
+      "nullable": false
+    },
+    {
+      "name": "page_group",
+      "type": "VARCHAR(25)",
+      "nullable": true
+    },
+    {
+      "name": "layout_handle",
+      "type": "VARCHAR(255)",
+      "nullable": true
+    },
+    {
+      "name": "block_reference",
+      "type": "VARCHAR(255)",
+      "nullable": true
+    },
+    {
+      "name": "page_for",
+      "type": "VARCHAR(25)",
+      "nullable": true
+    },
+    {
+      "name": "entities",
+      "type": "TEXT",
+      "nullable": true
+    },
+    {
+      "name": "page_template",
+      "type": "VARCHAR(255)",
+      "nullable": true
+    }
+  ],
+  "sample_rows": [],
+  "execution": {
+    "status": "success",
+    "seconds": 0.01,
+    "processed_at": "2026-09-13T18:56:51.827377",
+    "attempt": 1
+  }
+}

@@ -1,0 +1,107 @@
+{
+  "schema": "magento2",
+  "table_name": "cms_page_store",
+  "row_count": 6,
+  "primary_key": [
+    "page_id",
+    "store_id"
+  ],
+  "foreign_keys": [
+    {
+      "name": "FK_CMS_PAGE_STORE_PAGE_ID_CMS_PAGE_PAGE_ID",
+      "constrained_columns": [
+        "page_id"
+      ],
+      "referred_schema": "magento2",
+      "referred_table": "cms_page",
+      "referred_columns": [
+        "page_id"
+      ],
+      "options": {
+        "onupdate": "CASCADE",
+        "ondelete": "CASCADE"
+      }
+    },
+    {
+      "name": "FK_CMS_PAGE_STORE_STORE_ID_STORE_STORE_ID",
+      "constrained_columns": [
+        "store_id"
+      ],
+      "referred_schema": "magento2",
+      "referred_table": "store",
+      "referred_columns": [
+        "store_id"
+      ],
+      "options": {
+        "onupdate": "CASCADE",
+        "ondelete": "CASCADE"
+      }
+    }
+  ],
+  "columns": [
+    {
+      "name": "page_id",
+      "type": "SMALLINT",
+      "nullable": false,
+      "stats": {
+        "null_count": 0,
+        "distinct_count": 4,
+        "null_percentage": 0.0,
+        "numeric_stats": {
+          "avg": 3.3333,
+          "min": 1.0,
+          "max": 7.0,
+          "stddev": 2.2852182001336816
+        },
+        "sample_values": [
+          "1",
+          "6",
+          "7",
+          "2"
+        ]
+      }
+    },
+    {
+      "name": "store_id",
+      "type": "SMALLINT",
+      "nullable": false,
+      "stats": {
+        "null_count": 0,
+        "distinct_count": 4,
+        "null_percentage": 0.0,
+        "numeric_stats": {
+          "avg": 1.0,
+          "min": 0.0,
+          "max": 3.0,
+          "stddev": 1.1547005383792515
+        },
+        "sample_values": [
+          "0",
+          "1",
+          "2",
+          "3"
+        ]
+      }
+    }
+  ],
+  "sample_rows": [
+    {
+      "page_id": 1,
+      "store_id": 0
+    },
+    {
+      "page_id": 6,
+      "store_id": 0
+    },
+    {
+      "page_id": 7,
+      "store_id": 0
+    }
+  ],
+  "execution": {
+    "status": "success",
+    "seconds": 0.02,
+    "processed_at": "2026-09-13T18:56:21.669114",
+    "attempt": 1
+  }
+}

@@ -1,0 +1,82 @@
+{
+  "schema": "magento2",
+  "table_name": "googleshopping_items",
+  "row_count": 0,
+  "primary_key": [
+    "item_id"
+  ],
+  "foreign_keys": [
+    {
+      "name": "FK_GOOGLESHOPPING_ITEMS_PRD_ID_CAT_PRD_ENTT_ENTT_ID",
+      "constrained_columns": [
+        "product_id"
+      ],
+      "referred_schema": "magento2",
+      "referred_table": "catalog_product_entity",
+      "referred_columns": [
+        "entity_id"
+      ],
+      "options": {
+        "ondelete": "CASCADE"
+      }
+    },
+    {
+      "name": "FK_GOOGLESHOPPING_ITEMS_STORE_ID_STORE_STORE_ID",
+      "constrained_columns": [
+        "store_id"
+      ],
+      "referred_schema": "magento2",
+      "referred_table": "store",
+      "referred_columns": [
+        "store_id"
+      ],
+      "options": {
+        "ondelete": "CASCADE"
+      }
+    }
+  ],
+  "columns": [
+    {
+      "name": "item_id",
+      "type": "INTEGER",
+      "nullable": false
+    },
+    {
+      "name": "type_id",
+      "type": "INTEGER",
+      "nullable": false
+    },
+    {
+      "name": "product_id",
+      "type": "INTEGER",
+      "nullable": false
+    },
+    {
+      "name": "gcontent_item_id",
+      "type": "VARCHAR(255)",
+      "nullable": false
+    },
+    {
+      "name": "store_id",
+      "type": "SMALLINT",
+      "nullable": false
+    },
+    {
+      "name": "published",
+      "type": "DATETIME",
+      "nullable": true
+    },
+    {
+      "name": "expires",
+      "type": "DATETIME",
+      "nullable": true
+    }
+  ],
+  "sample_rows": [],
+  "execution": {
+    "status": "success",
+    "seconds": 0.01,
+    "processed_at": "2026-09-13T18:56:30.948080",
+    "attempt": 1
+  }
+}

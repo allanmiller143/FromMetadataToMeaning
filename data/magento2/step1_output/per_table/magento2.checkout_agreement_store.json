@@ -1,0 +1,60 @@
+{
+  "schema": "magento2",
+  "table_name": "checkout_agreement_store",
+  "row_count": 0,
+  "primary_key": [
+    "agreement_id",
+    "store_id"
+  ],
+  "foreign_keys": [
+    {
+      "name": "FK_CHECKOUT_AGREEMENT_STORE_STORE_ID_STORE_STORE_ID",
+      "constrained_columns": [
+        "store_id"
+      ],
+      "referred_schema": "magento2",
+      "referred_table": "store",
+      "referred_columns": [
+        "store_id"
+      ],
+      "options": {
+        "onupdate": "CASCADE",
+        "ondelete": "CASCADE"
+      }
+    },
+    {
+      "name": "FK_CHKT_AGRT_STORE_AGRT_ID_CHKT_AGRT_AGRT_ID",
+      "constrained_columns": [
+        "agreement_id"
+      ],
+      "referred_schema": "magento2",
+      "referred_table": "checkout_agreement",
+      "referred_columns": [
+        "agreement_id"
+      ],
+      "options": {
+        "onupdate": "CASCADE",
+        "ondelete": "CASCADE"
+      }
+    }
+  ],
+  "columns": [
+    {
+      "name": "agreement_id",
+      "type": "INTEGER",
+      "nullable": false
+    },
+    {
+      "name": "store_id",
+      "type": "SMALLINT",
+      "nullable": false
+    }
+  ],
+  "sample_rows": [],
+  "execution": {
+    "status": "success",
+    "seconds": 0.01,
+    "processed_at": "2026-09-13T18:56:21.144892",
+    "attempt": 1
+  }
+}

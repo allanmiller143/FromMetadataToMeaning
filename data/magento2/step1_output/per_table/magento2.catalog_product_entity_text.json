@@ -1,0 +1,331 @@
+{
+  "schema": "magento2",
+  "table_name": "catalog_product_entity_text",
+  "row_count": 693,
+  "primary_key": [
+    "value_id"
+  ],
+  "foreign_keys": [
+    {
+      "name": "catalog_product_entity_text_ibfk_1",
+      "constrained_columns": [
+        "store_id"
+      ],
+      "referred_schema": "magento2",
+      "referred_table": "store",
+      "referred_columns": [
+        "store_id"
+      ],
+      "options": {
+        "onupdate": "CASCADE",
+        "ondelete": "CASCADE"
+      }
+    },
+    {
+      "name": "catalog_product_entity_text_ibfk_2",
+      "constrained_columns": [
+        "attribute_id"
+      ],
+      "referred_schema": "magento2",
+      "referred_table": "eav_attribute",
+      "referred_columns": [
+        "attribute_id"
+      ],
+      "options": {
+        "onupdate": "CASCADE",
+        "ondelete": "CASCADE"
+      }
+    },
+    {
+      "name": "catalog_product_entity_text_ibfk_3",
+      "constrained_columns": [
+        "entity_id"
+      ],
+      "referred_schema": "magento2",
+      "referred_table": "catalog_product_entity",
+      "referred_columns": [
+        "entity_id"
+      ],
+      "options": {
+        "onupdate": "CASCADE",
+        "ondelete": "CASCADE"
+      }
+    }
+  ],
+  "columns": [
+    {
+      "name": "value_id",
+      "type": "INTEGER",
+      "nullable": false,
+      "stats": {
+        "null_count": 0,
+        "distinct_count": 693,
+        "null_percentage": 0.0,
+        "numeric_stats": {
+          "avg": 347.0,
+          "min": 1.0,
+          "max": 693.0,
+          "stddev": 200.05165999477907
+        },
+        "sample_values": [
+          "3",
+          "9",
+          "15",
+          "21",
+          "31",
+          "39",
+          "48",
+          "57",
+          "61",
+          "65",
+          "67",
+          "71",
+          "73",
+          "76",
+          "80"
+        ]
+      }
+    },
+    {
+      "name": "entity_type_id",
+      "type": "INTEGER",
+      "nullable": false,
+      "stats": {
+        "null_count": 0,
+        "distinct_count": 1,
+        "null_percentage": 0.0,
+        "numeric_stats": {
+          "avg": 10.0,
+          "min": 10.0,
+          "max": 10.0,
+          "stddev": 0.0
+        },
+        "frequent_values": [
+          {
+            "value": "10",
+            "count": 693
+          }
+        ],
+        "sample_values": [
+          "10"
+        ]
+      }
+    },
+    {
+      "name": "attribute_id",
+      "type": "SMALLINT",
+      "nullable": false,
+      "stats": {
+        "null_count": 0,
+        "distinct_count": 15,
+        "null_percentage": 0.0,
+        "numeric_stats": {
+          "avg": 367.7316,
+          "min": 97.0,
+          "max": 936.0,
+          "stddev": 194.96866984011496
+        },
+        "frequent_values": [
+          {
+            "value": "97",
+            "count": 120
+          },
+          {
+            "value": "506",
+            "count": 120
+          },
+          {
+            "value": "104",
+            "count": 119
+          },
+          {
+            "value": "531",
+            "count": 119
+          },
+          {
+            "value": "495",
+            "count": 89
+          }
+        ],
+        "sample_values": [
+          "97",
+          "104",
+          "492",
+          "494",
+          "495",
+          "496",
+          "497",
+          "498",
+          "499",
+          "500",
+          "506",
+          "507",
+          "509",
+          "531",
+          "936"
+        ]
+      }
+    },
+    {
+      "name": "store_id",
+      "type": "SMALLINT",
+      "nullable": false,
+      "stats": {
+        "null_count": 0,
+        "distinct_count": 1,
+        "null_percentage": 0.0,
+        "numeric_stats": {
+          "avg": 0.0,
+          "min": 0.0,
+          "max": 0.0,
+          "stddev": 0.0
+        },
+        "frequent_values": [
+          {
+            "value": "0",
+            "count": 693
+          }
+        ],
+        "sample_values": [
+          "0"
+        ]
+      }
+    },
+    {
+      "name": "entity_id",
+      "type": "INTEGER",
+      "nullable": false,
+      "stats": {
+        "null_count": 0,
+        "distinct_count": 120,
+        "null_percentage": 0.0,
+        "numeric_stats": {
+          "avg": 90.0837,
+          "min": 16.0,
+          "max": 166.0,
+          "stddev": 45.30154133732106
+        },
+        "frequent_values": [
+          {
+            "value": "28",
+            "count": 11
+          },
+          {
+            "value": "27",
+            "count": 11
+          },
+          {
+            "value": "26",
+            "count": 11
+          },
+          {
+            "value": "25",
+            "count": 11
+          },
+          {
+            "value": "166",
+            "count": 9
+          }
+        ],
+        "sample_values": [
+          "16",
+          "17",
+          "18",
+          "19",
+          "20",
+          "25",
+          "26",
+          "27",
+          "28",
+          "29",
+          "30",
+          "31",
+          "32",
+          "33",
+          "34"
+        ]
+      }
+    },
+    {
+      "name": "value",
+      "type": "TEXT",
+      "nullable": true,
+      "stats": {
+        "null_count": 1,
+        "distinct_count": 269,
+        "null_percentage": 0.14,
+        "frequent_values": [
+          {
+            "value": "",
+            "count": 152
+          },
+          {
+            "value": "Zolof The Rock And Roll Destroyer: LOL Cat T-shirt",
+            "count": 15
+          },
+          {
+            "value": "Womens Premier Leather Single Layer Narrow Strap - NEW Colors Available - Womens Style - Genuine Top Grain Premier Leather - Rich Color Tones - Straps lined with 2000 lb test nylon - Guaranteed for the Life of the Sole - Non-slip sole - Note: Rainbow is in the process of unveiling a new toe post tag that is much smaller than the original tag.",
+            "count": 14
+          },
+          {
+            "value": "# 6.1 oz. 100% preshrunk heavyweight cotton \r\n# Shoulder-to-shoulder taping\r\n# Double-needle sleeves and bottom hem",
+            "count": 13
+          },
+          {
+            "value": "B000JI2N0I",
+            "count": 11
+          }
+        ],
+        "sample_values": [
+          "2610",
+          "4.1 x 1.7 x 0.7 inches ",
+          "The Nokia 2610 is an easy to use device that combines multiple messaging options including email, instant messaging, and more. You can even download MP3 ringtones, graphics, and games straight to the phone, or surf the Internet with Cingular's MEdia Net service. It's the perfect complement to Cingular service for those even remotely interested in mobile Web capabilities in an affordable handset.<br><br>\r\n\r\n<b>Design</b><br>\r\nCompact and stylish, the 2610 features a candybar design sporting a bright 128 x 128 pixel display capable of displaying over 65,000 colors. Most of the phone's features and on-screen menus are controlled by a center toggle on the control pad. A standard hands-free headphone jack is provided, as are volume control keys, and there's even a \"Go-To\" button that can be assigned by the user for quick access to favorite applications. Lastly, the included speakerphone allows you to talk handsfree, and because the phone sports an internal antenna, there's nothing to snag or break off.\r\n\r\n",
+          "<ul>\r\n<ul class\"disc\">\r\n<li>Integrated camera with video recorder to capture those special moments<br></li>\r\n<li>Enriched data connections for complete mobile access via Email, MMS, and MEdia Net<br></li>\r\n<li> Personalize with downloadable MP3 and polyphonic Ring tones, Games, and Graphics<br></li>\r\n<li>Use AIM, Yahoo! and MSN Messenger to stay in touch on the go<br></li>\r\n<li>Mobile Internet browser and email</li>\r\n</ul>",
+          "Conditional $250 Equipment Discount Included: Your price paid includes an equipment discount of $250 that has been provided to you in exchange for either activating a new, non-substitute line of service or renewing an existing line of service with AT&T and your agreement that for the 181-day period following such activation or renewal you will: (1) pay your balance due to AT&T each month and otherwise maintain your account in good standing; (2) not disconnect this AT&T line of service; (3) not transfer this equipment to another AT&T line of service; (4) not change your AT&T service rate plan to a lower monthly service rate--this includes canceling or removing required PDA, BlackBerry, or smartphone features after your product has shipped; (5) not use this line of service to replace an existing account with AT&T. If these conditions are not met, you hereby authorize Magento to charge your credit card $250 as reimbursement of this equipment discount without need for further approval.",
+          "Nokia 2610, cell, phone, ",
+          "8100",
+          "4.2 x 2 x 0.6 inches ",
+          " Like the BlackBerry 7105t, the BlackBerry 8100 Pearl is \r\nThe BlackBerry 8100 Pearl sports a large 240 x 260 screen that supports over 65,000 colors-- plenty of real estate to view your e-mails, Web browser content, messaging sessions, and attachments. The venerable BlackBerry trackwheel has been replaced on this model with an innovative four-way trackball placed below the screen. On the rear of the handheld, you'll find a 1.3-megapixel camera and a self portrait mirror. The handheld's microSD memory card slot is located inside the device, behind the battery. There's also a standard 2.5mm headset jack that can be used with the included headset, as well as a mini-USB port for data connectivity.",
+          "<ul>\r\n<ul class=\"disc\">\r\n<li> 1.3 mega pixel camera to capture those special moments<br></li>\r\n<li> MP3 player lets you listen to your favorite music on the go<br></li>\r\n<li>Menu and escape keys on the front of the device for easier access<br></li>\r\n<li> Bluetooth technology lets you experience hands free and wire free features<br></li>\r\n<li>Package Contents: phone,AC adapter,software CD,headset,USB cable,sim- card,get started poster,reference guide<br></li>\r\n</ul>",
+          "CONDITIONAL $250 Equipment Discount Included: Your price paid includes an Equipment Discount of $250 that has been provided to you in exchange for activating a new, non-substitute line of service with T-Mobile and your agreement that for the 181-day period following such activation you will (1) pay your balance due to T-Mobile each month and otherwise maintain your account in good standing, (2) not disconnect this T-Mobile line of service, (3) not transfer this equipment to another T-Mobile line of service, (4) not change your T-Mobile service rate plan to a lower monthly service rate--this includes canceling or removing required PDA, BlackBerry, or smartphone features after your product has shipped, (5) not use this line of service to replace an existing account with T-Mobile. If these conditions are not met, you hereby authorize Magento.com to charge your credit card $250 as reimbursement of this Equipment Discount without need for further approval.",
+          "Blackberry, 8100, pearl, cell, phone",
+          "W810i",
+          " 3.5 x 1.8 x 1 inches",
+          "The W810i's screen sports 176 x 220 pixel resolution with support for 262,000 colors. Quick access buttons below the screen make it easy to control the phone's Walkman music features, while a five-way center button controls most of the phone's menus and features."
+        ]
+      }
+    }
+  ],
+  "sample_rows": [
+    {
+      "value_id": 1,
+      "entity_type_id": 10,
+      "attribute_id": 495,
+      "store_id": 0,
+      "entity_id": 16,
+      "value": "2610"
+    },
+    {
+      "value_id": 2,
+      "entity_type_id": 10,
+      "attribute_id": 494,
+      "store_id": 0,
+      "entity_id": 16,
+      "value": "4.1 x 1.7 x 0.7 inches "
+    },
+    {
+      "value_id": 3,
+      "entity_type_id": 10,
+      "attribute_id": 97,
+      "store_id": 0,
+      "entity_id": 16,
+      "value": "The Nokia 2610 is an easy to use device that combines multiple messaging options including email, instant messaging, and more. You can even download MP3 ringtones, graphics, and games straight to the phone, or surf the Internet with Cingular's MEdia Net service. It's the perfect complement to Cingular service for those even remotely interested in mobile Web capabilities in an affordable handset.<br><br>\r\n\r\n<b>Design</b><br>\r\nCompact and stylish, the 2610 features a candybar design sporting a bright 128 x 128 pixel display capable of displaying over 65,000 colors. Most of the phone's features and on-screen menus are controlled by a center toggle on the control pad. A standard hands-free headphone jack is provided, as are volume control keys, and there's even a \"Go-To\" button that can be assigned by the user for quick access to favorite applications. Lastly, the included speakerphone allows you to talk handsfree, and because the phone sports an internal antenna, there's nothing to snag or break off.\r\n\r\n"
+    }
+  ],
+  "execution": {
+    "status": "success",
+    "seconds": 0.05,
+    "processed_at": "2026-09-13T18:56:14.523718",
+    "attempt": 1
+  }
+}

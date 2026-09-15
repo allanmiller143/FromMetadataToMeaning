@@ -1,0 +1,131 @@
+{
+  "schema": "magento2",
+  "table_name": "review_store",
+  "row_count": 185,
+  "primary_key": [
+    "review_id",
+    "store_id"
+  ],
+  "foreign_keys": [
+    {
+      "name": "review_store_ibfk_1",
+      "constrained_columns": [
+        "review_id"
+      ],
+      "referred_schema": "magento2",
+      "referred_table": "review",
+      "referred_columns": [
+        "review_id"
+      ],
+      "options": {
+        "onupdate": "CASCADE",
+        "ondelete": "CASCADE"
+      }
+    },
+    {
+      "name": "review_store_ibfk_2",
+      "constrained_columns": [
+        "store_id"
+      ],
+      "referred_schema": "magento2",
+      "referred_table": "store",
+      "referred_columns": [
+        "store_id"
+      ],
+      "options": {
+        "onupdate": "CASCADE",
+        "ondelete": "CASCADE"
+      }
+    }
+  ],
+  "columns": [
+    {
+      "name": "review_id",
+      "type": "BIGINT",
+      "nullable": false,
+      "stats": {
+        "null_count": 0,
+        "distinct_count": 113,
+        "null_percentage": 0.0,
+        "numeric_stats": {
+          "avg": 58.2865,
+          "min": 1.0,
+          "max": 113.0,
+          "stddev": 32.13634939628468
+        },
+        "sample_values": [
+          "1",
+          "2",
+          "3",
+          "4",
+          "5",
+          "6",
+          "7",
+          "8",
+          "9",
+          "10",
+          "11",
+          "12",
+          "13",
+          "14",
+          "15"
+        ]
+      }
+    },
+    {
+      "name": "store_id",
+      "type": "SMALLINT",
+      "nullable": false,
+      "stats": {
+        "null_count": 0,
+        "distinct_count": 3,
+        "null_percentage": 0.0,
+        "numeric_stats": {
+          "avg": 1.9946,
+          "min": 1.0,
+          "max": 3.0,
+          "stddev": 0.8020062498731827
+        },
+        "frequent_values": [
+          {
+            "value": "2",
+            "count": 66
+          },
+          {
+            "value": "1",
+            "count": 60
+          },
+          {
+            "value": "3",
+            "count": 59
+          }
+        ],
+        "sample_values": [
+          "1",
+          "2",
+          "3"
+        ]
+      }
+    }
+  ],
+  "sample_rows": [
+    {
+      "review_id": 3,
+      "store_id": 1
+    },
+    {
+      "review_id": 4,
+      "store_id": 1
+    },
+    {
+      "review_id": 5,
+      "store_id": 1
+    }
+  ],
+  "execution": {
+    "status": "success",
+    "seconds": 0.01,
+    "processed_at": "2026-09-13T18:56:38.165605",
+    "attempt": 1
+  }
+}

@@ -1,0 +1,119 @@
+{
+  "schema": "magento2",
+  "table_name": "weee_tax",
+  "row_count": 0,
+  "primary_key": [
+    "value_id"
+  ],
+  "foreign_keys": [
+    {
+      "name": "weee_tax_ibfk_1",
+      "constrained_columns": [
+        "attribute_id"
+      ],
+      "referred_schema": "magento2",
+      "referred_table": "eav_attribute",
+      "referred_columns": [
+        "attribute_id"
+      ],
+      "options": {
+        "onupdate": "CASCADE",
+        "ondelete": "CASCADE"
+      }
+    },
+    {
+      "name": "weee_tax_ibfk_2",
+      "constrained_columns": [
+        "country"
+      ],
+      "referred_schema": "magento2",
+      "referred_table": "directory_country",
+      "referred_columns": [
+        "country_id"
+      ],
+      "options": {
+        "onupdate": "CASCADE",
+        "ondelete": "CASCADE"
+      }
+    },
+    {
+      "name": "weee_tax_ibfk_3",
+      "constrained_columns": [
+        "entity_id"
+      ],
+      "referred_schema": "magento2",
+      "referred_table": "catalog_product_entity",
+      "referred_columns": [
+        "entity_id"
+      ],
+      "options": {
+        "onupdate": "CASCADE",
+        "ondelete": "CASCADE"
+      }
+    },
+    {
+      "name": "weee_tax_ibfk_4",
+      "constrained_columns": [
+        "website_id"
+      ],
+      "referred_schema": "magento2",
+      "referred_table": "store_website",
+      "referred_columns": [
+        "website_id"
+      ],
+      "options": {
+        "onupdate": "CASCADE",
+        "ondelete": "CASCADE"
+      }
+    }
+  ],
+  "columns": [
+    {
+      "name": "value_id",
+      "type": "INTEGER",
+      "nullable": false
+    },
+    {
+      "name": "website_id",
+      "type": "SMALLINT",
+      "nullable": false
+    },
+    {
+      "name": "entity_id",
+      "type": "INTEGER",
+      "nullable": false
+    },
+    {
+      "name": "country",
+      "type": "VARCHAR(2)",
+      "nullable": true
+    },
+    {
+      "name": "value",
+      "type": "DECIMAL(12, 4)",
+      "nullable": false
+    },
+    {
+      "name": "state",
+      "type": "VARCHAR(255)",
+      "nullable": false
+    },
+    {
+      "name": "attribute_id",
+      "type": "SMALLINT",
+      "nullable": false
+    },
+    {
+      "name": "entity_type_id",
+      "type": "SMALLINT",
+      "nullable": false
+    }
+  ],
+  "sample_rows": [],
+  "execution": {
+    "status": "success",
+    "seconds": 0.01,
+    "processed_at": "2026-09-13T18:56:51.220390",
+    "attempt": 1
+  }
+}

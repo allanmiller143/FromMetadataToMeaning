@@ -1,0 +1,156 @@
+{
+  "schema": "magento2",
+  "table_name": "catalog_product_option_type_title",
+  "row_count": 6,
+  "primary_key": [
+    "option_type_title_id"
+  ],
+  "foreign_keys": [
+    {
+      "name": "catalog_product_option_type_title_ibfk_1",
+      "constrained_columns": [
+        "option_type_id"
+      ],
+      "referred_schema": "magento2",
+      "referred_table": "catalog_product_option_type_value",
+      "referred_columns": [
+        "option_type_id"
+      ],
+      "options": {
+        "onupdate": "CASCADE",
+        "ondelete": "CASCADE"
+      }
+    },
+    {
+      "name": "catalog_product_option_type_title_ibfk_2",
+      "constrained_columns": [
+        "store_id"
+      ],
+      "referred_schema": "magento2",
+      "referred_table": "store",
+      "referred_columns": [
+        "store_id"
+      ],
+      "options": {
+        "onupdate": "CASCADE",
+        "ondelete": "CASCADE"
+      }
+    }
+  ],
+  "columns": [
+    {
+      "name": "option_type_title_id",
+      "type": "INTEGER",
+      "nullable": false,
+      "stats": {
+        "null_count": 0,
+        "distinct_count": 6,
+        "null_percentage": 0.0,
+        "numeric_stats": {
+          "avg": 3.5,
+          "min": 1.0,
+          "max": 6.0,
+          "stddev": 1.707825127659933
+        },
+        "sample_values": [
+          "1",
+          "2",
+          "3",
+          "4",
+          "5",
+          "6"
+        ]
+      }
+    },
+    {
+      "name": "option_type_id",
+      "type": "INTEGER",
+      "nullable": false,
+      "stats": {
+        "null_count": 0,
+        "distinct_count": 6,
+        "null_percentage": 0.0,
+        "numeric_stats": {
+          "avg": 3.5,
+          "min": 1.0,
+          "max": 6.0,
+          "stddev": 1.707825127659933
+        },
+        "sample_values": [
+          "1",
+          "2",
+          "3",
+          "4",
+          "5",
+          "6"
+        ]
+      }
+    },
+    {
+      "name": "store_id",
+      "type": "SMALLINT",
+      "nullable": false,
+      "stats": {
+        "null_count": 0,
+        "distinct_count": 1,
+        "null_percentage": 0.0,
+        "numeric_stats": {
+          "avg": 0.0,
+          "min": 0.0,
+          "max": 0.0,
+          "stddev": 0.0
+        },
+        "frequent_values": [
+          {
+            "value": "0",
+            "count": 6
+          }
+        ],
+        "sample_values": [
+          "0"
+        ]
+      }
+    },
+    {
+      "name": "title",
+      "type": "VARCHAR(255)",
+      "nullable": true,
+      "stats": {
+        "null_count": 0,
+        "distinct_count": 3,
+        "null_percentage": 0.0,
+        "sample_values": [
+          "1 Year - Parts and Labor",
+          "2 Years - Parts and Labor",
+          "3 Year - Parts and Labor"
+        ]
+      }
+    }
+  ],
+  "sample_rows": [
+    {
+      "option_type_title_id": 1,
+      "option_type_id": 1,
+      "store_id": 0,
+      "title": "1 Year - Parts and Labor"
+    },
+    {
+      "option_type_title_id": 2,
+      "option_type_id": 2,
+      "store_id": 0,
+      "title": "2 Years - Parts and Labor"
+    },
+    {
+      "option_type_title_id": 3,
+      "option_type_id": 3,
+      "store_id": 0,
+      "title": "3 Year - Parts and Labor"
+    }
+  ],
+  "execution": {
+    "status": "success",
+    "seconds": 0.02,
+    "processed_at": "2026-09-13T18:56:18.605493",
+    "attempt": 1
+  }
+}

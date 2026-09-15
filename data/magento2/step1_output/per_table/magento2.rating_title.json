@@ -1,0 +1,65 @@
+{
+  "schema": "magento2",
+  "table_name": "rating_title",
+  "row_count": 0,
+  "primary_key": [
+    "rating_id",
+    "store_id"
+  ],
+  "foreign_keys": [
+    {
+      "name": "FK_RATING_TITLE_RATING_ID_RATING_RATING_ID",
+      "constrained_columns": [
+        "rating_id"
+      ],
+      "referred_schema": "magento2",
+      "referred_table": "rating",
+      "referred_columns": [
+        "rating_id"
+      ],
+      "options": {
+        "onupdate": "CASCADE",
+        "ondelete": "CASCADE"
+      }
+    },
+    {
+      "name": "FK_RATING_TITLE_STORE_ID_STORE_STORE_ID",
+      "constrained_columns": [
+        "store_id"
+      ],
+      "referred_schema": "magento2",
+      "referred_table": "store",
+      "referred_columns": [
+        "store_id"
+      ],
+      "options": {
+        "onupdate": "CASCADE",
+        "ondelete": "CASCADE"
+      }
+    }
+  ],
+  "columns": [
+    {
+      "name": "rating_id",
+      "type": "SMALLINT",
+      "nullable": false
+    },
+    {
+      "name": "store_id",
+      "type": "SMALLINT",
+      "nullable": false
+    },
+    {
+      "name": "value",
+      "type": "VARCHAR(255)",
+      "nullable": false
+    }
+  ],
+  "sample_rows": [],
+  "execution": {
+    "status": "success",
+    "seconds": 0.02,
+    "processed_at": "2026-09-13T18:56:35.550160",
+    "attempt": 1
+  }
+}

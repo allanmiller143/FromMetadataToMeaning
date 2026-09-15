@@ -1,0 +1,64 @@
+{
+  "schema": "magento2",
+  "table_name": "sitemap",
+  "row_count": 0,
+  "primary_key": [
+    "sitemap_id"
+  ],
+  "foreign_keys": [
+    {
+      "name": "sitemap_ibfk_1",
+      "constrained_columns": [
+        "store_id"
+      ],
+      "referred_schema": "magento2",
+      "referred_table": "store",
+      "referred_columns": [
+        "store_id"
+      ],
+      "options": {
+        "onupdate": "CASCADE",
+        "ondelete": "CASCADE"
+      }
+    }
+  ],
+  "columns": [
+    {
+      "name": "sitemap_id",
+      "type": "INTEGER",
+      "nullable": false
+    },
+    {
+      "name": "sitemap_type",
+      "type": "VARCHAR(32)",
+      "nullable": true
+    },
+    {
+      "name": "sitemap_filename",
+      "type": "VARCHAR(32)",
+      "nullable": true
+    },
+    {
+      "name": "sitemap_path",
+      "type": "VARCHAR(255)",
+      "nullable": true
+    },
+    {
+      "name": "sitemap_time",
+      "type": "TIMESTAMP",
+      "nullable": true
+    },
+    {
+      "name": "store_id",
+      "type": "SMALLINT",
+      "nullable": false
+    }
+  ],
+  "sample_rows": [],
+  "execution": {
+    "status": "success",
+    "seconds": 0.01,
+    "processed_at": "2026-09-13T18:56:48.382921",
+    "attempt": 1
+  }
+}

@@ -1,0 +1,902 @@
+{
+  "magento2_1": {
+    "similaridade_real": 0.4573395252227783,
+    "threshold_atual_pipeline": 0.5,
+    "modelo_a": "OPENAI",
+    "modelo_b": "DEEPSEEK",
+    "run_a": 1,
+    "run_b": 1,
+    "tabela": "magento2.catalog_product_index_price_cfg_opt_idx"
+  },
+  "magento2_2": {
+    "similaridade_real": 0.36678025126457214,
+    "threshold_atual_pipeline": 0.5,
+    "modelo_a": "MISTRAL",
+    "modelo_b": "DEEPSEEK",
+    "run_a": 2,
+    "run_b": 1,
+    "tabela": "magento2.sendfriend_log"
+  },
+  "magento2_3": {
+    "similaridade_real": 0.6617351770401001,
+    "threshold_atual_pipeline": 0.5,
+    "modelo_a": "OPENAI",
+    "modelo_b": "DEEPSEEK",
+    "run_a": 1,
+    "run_b": 2,
+    "tabela": "magento2.sales_invoiced_aggregated"
+  },
+  "magento2_4": {
+    "similaridade_real": 0.6824856996536255,
+    "threshold_atual_pipeline": 0.5,
+    "modelo_a": "OPENAI",
+    "modelo_b": "DEEPSEEK",
+    "run_a": 1,
+    "run_b": 1,
+    "tabela": "magento2.eav_attribute_option"
+  },
+  "magento2_5": {
+    "similaridade_real": 0.45850449800491333,
+    "threshold_atual_pipeline": 0.5,
+    "modelo_a": "MISTRAL",
+    "modelo_b": "OPENAI",
+    "run_a": 2,
+    "run_b": 2,
+    "tabela": "magento2.authorization_role"
+  },
+  "magento2_6": {
+    "similaridade_real": 0.4179828464984894,
+    "threshold_atual_pipeline": 0.5,
+    "modelo_a": "MISTRAL",
+    "modelo_b": "DEEPSEEK",
+    "run_a": 2,
+    "run_b": 3,
+    "tabela": "magento2.sales_order_address"
+  },
+  "magento2_7": {
+    "similaridade_real": 0.6386470198631287,
+    "threshold_atual_pipeline": 0.5,
+    "modelo_a": "OPENAI",
+    "modelo_b": "DEEPSEEK",
+    "run_a": 3,
+    "run_b": 3,
+    "tabela": "magento2.newsletter_queue_store_link"
+  },
+  "magento2_8": {
+    "similaridade_real": 0.47925204038619995,
+    "threshold_atual_pipeline": 0.5,
+    "modelo_a": "OPENAI",
+    "modelo_b": "DEEPSEEK",
+    "run_a": 2,
+    "run_b": 1,
+    "tabela": "magento2.core_cache"
+  },
+  "magento2_9": {
+    "similaridade_real": 0.5086832642555237,
+    "threshold_atual_pipeline": 0.5,
+    "modelo_a": "MISTRAL",
+    "modelo_b": "OPENAI",
+    "run_a": 2,
+    "run_b": 1,
+    "tabela": "magento2.catalog_product_index_price_opt_agr_idx"
+  },
+  "magento2_10": {
+    "similaridade_real": 0.5143193006515503,
+    "threshold_atual_pipeline": 0.5,
+    "modelo_a": "OPENAI",
+    "modelo_b": "DEEPSEEK",
+    "run_a": 1,
+    "run_b": 1,
+    "tabela": "magento2.catalog_product_index_price_opt_agr_idx"
+  },
+  "magento2_11": {
+    "similaridade_real": 0.6274765729904175,
+    "threshold_atual_pipeline": 0.5,
+    "modelo_a": "MISTRAL",
+    "modelo_b": "OPENAI",
+    "run_a": 2,
+    "run_b": 1,
+    "tabela": "magento2.eav_entity"
+  },
+  "magento2_12": {
+    "similaridade_real": 0.5837674140930176,
+    "threshold_atual_pipeline": 0.5,
+    "modelo_a": "MISTRAL",
+    "modelo_b": "OPENAI",
+    "run_a": 2,
+    "run_b": 1,
+    "tabela": "magento2.sales_order_aggregated_updated"
+  },
+  "magento2_13": {
+    "similaridade_real": 0.3933548033237457,
+    "threshold_atual_pipeline": 0.5,
+    "modelo_a": "MISTRAL",
+    "modelo_b": "DEEPSEEK",
+    "run_a": 2,
+    "run_b": 1,
+    "tabela": "magento2.newsletter_template"
+  },
+  "magento2_14": {
+    "similaridade_real": 0.5135881900787354,
+    "threshold_atual_pipeline": 0.5,
+    "modelo_a": "MISTRAL",
+    "modelo_b": "OPENAI",
+    "run_a": 1,
+    "run_b": 1,
+    "tabela": "magento2.catalog_product_index_price_opt_tmp"
+  },
+  "magento2_15": {
+    "similaridade_real": 0.3869308531284332,
+    "threshold_atual_pipeline": 0.5,
+    "modelo_a": "MISTRAL",
+    "modelo_b": "OPENAI",
+    "run_a": 3,
+    "run_b": 1,
+    "tabela": "magento2.catalog_product_index_price_opt_tmp"
+  },
+  "magento2_16": {
+    "similaridade_real": 0.5785136222839355,
+    "threshold_atual_pipeline": 0.5,
+    "modelo_a": "MISTRAL",
+    "modelo_b": "OPENAI",
+    "run_a": 2,
+    "run_b": 1,
+    "tabela": "magento2.core_layout_link"
+  },
+  "magento2_17": {
+    "similaridade_real": 0.5560054779052734,
+    "threshold_atual_pipeline": 0.5,
+    "modelo_a": "MISTRAL",
+    "modelo_b": "DEEPSEEK",
+    "run_a": 1,
+    "run_b": 1,
+    "tabela": "magento2.eav_entity_attribute"
+  },
+  "magento2_18": {
+    "similaridade_real": 0.397128164768219,
+    "threshold_atual_pipeline": 0.5,
+    "modelo_a": "MISTRAL",
+    "modelo_b": "OPENAI",
+    "run_a": 2,
+    "run_b": 1,
+    "tabela": "magento2.sales_order_item"
+  },
+  "magento2_19": {
+    "similaridade_real": 0.5760669112205505,
+    "threshold_atual_pipeline": 0.5,
+    "modelo_a": "MISTRAL",
+    "modelo_b": "DEEPSEEK",
+    "run_a": 1,
+    "run_b": 2,
+    "tabela": "magento2.catalog_category_entity_text"
+  },
+  "magento2_20": {
+    "similaridade_real": 0.4403463304042816,
+    "threshold_atual_pipeline": 0.5,
+    "modelo_a": "MISTRAL",
+    "modelo_b": "OPENAI",
+    "run_a": 3,
+    "run_b": 1,
+    "tabela": "magento2.sales_order_status"
+  },
+  "magento2_21": {
+    "similaridade_real": 0.42236876487731934,
+    "threshold_atual_pipeline": 0.5,
+    "modelo_a": "MISTRAL",
+    "modelo_b": "DEEPSEEK",
+    "run_a": 1,
+    "run_b": 2,
+    "tabela": "magento2.catalog_product_link_attribute"
+  },
+  "magento2_22": {
+    "similaridade_real": 0.6709972023963928,
+    "threshold_atual_pipeline": 0.5,
+    "modelo_a": "MISTRAL",
+    "modelo_b": "OPENAI",
+    "run_a": 2,
+    "run_b": 1,
+    "tabela": "magento2.core_theme"
+  },
+  "magento2_23": {
+    "similaridade_real": 0.3926994800567627,
+    "threshold_atual_pipeline": 0.5,
+    "modelo_a": "MISTRAL",
+    "modelo_b": "DEEPSEEK",
+    "run_a": 2,
+    "run_b": 1,
+    "tabela": "magento2.core_theme_file"
+  },
+  "magento2_24": {
+    "similaridade_real": 0.49910736083984375,
+    "threshold_atual_pipeline": 0.5,
+    "modelo_a": "MISTRAL",
+    "modelo_b": "DEEPSEEK",
+    "run_a": 3,
+    "run_b": 1,
+    "tabela": "magento2.product_alert_stock"
+  },
+  "magento2_25": {
+    "similaridade_real": 0.6036957502365112,
+    "threshold_atual_pipeline": 0.5,
+    "modelo_a": "MISTRAL",
+    "modelo_b": "DEEPSEEK",
+    "run_a": 3,
+    "run_b": 2,
+    "tabela": "magento2.sales_order_status_state"
+  },
+  "magento2_26": {
+    "similaridade_real": 0.6563650369644165,
+    "threshold_atual_pipeline": 0.5,
+    "modelo_a": "OPENAI",
+    "modelo_b": "DEEPSEEK",
+    "run_a": 2,
+    "run_b": 1,
+    "tabela": "magento2.rating_entity"
+  },
+  "magento2_27": {
+    "similaridade_real": 0.6531684994697571,
+    "threshold_atual_pipeline": 0.5,
+    "modelo_a": "MISTRAL",
+    "modelo_b": "OPENAI",
+    "run_a": 1,
+    "run_b": 1,
+    "tabela": "magento2.catalog_product_bundle_selection"
+  },
+  "magento2_28": {
+    "similaridade_real": 0.5485700368881226,
+    "threshold_atual_pipeline": 0.5,
+    "modelo_a": "MISTRAL",
+    "modelo_b": "OPENAI",
+    "run_a": 1,
+    "run_b": 1,
+    "tabela": "magento2.eav_entity_type"
+  },
+  "magento2_29": {
+    "similaridade_real": 0.6113237142562866,
+    "threshold_atual_pipeline": 0.5,
+    "modelo_a": "MISTRAL",
+    "modelo_b": "DEEPSEEK",
+    "run_a": 2,
+    "run_b": 1,
+    "tabela": "magento2.catalog_product_option_title"
+  },
+  "magento2_30": {
+    "similaridade_real": 0.5364186763763428,
+    "threshold_atual_pipeline": 0.5,
+    "modelo_a": "MISTRAL",
+    "modelo_b": "DEEPSEEK",
+    "run_a": 1,
+    "run_b": 1,
+    "tabela": "magento2.rating_option_vote_aggregated"
+  },
+  "magento2_31": {
+    "similaridade_real": 0.39032450318336487,
+    "threshold_atual_pipeline": 0.5,
+    "modelo_a": "OPENAI",
+    "modelo_b": "DEEPSEEK",
+    "run_a": 1,
+    "run_b": 1,
+    "tabela": "magento2.sales_payment_transaction"
+  },
+  "magento2_32": {
+    "similaridade_real": 0.42871102690696716,
+    "threshold_atual_pipeline": 0.5,
+    "modelo_a": "OPENAI",
+    "modelo_b": "DEEPSEEK",
+    "run_a": 1,
+    "run_b": 1,
+    "tabela": "magento2.rating_option_vote_aggregated"
+  },
+  "magento2_33": {
+    "similaridade_real": 0.6248319745063782,
+    "threshold_atual_pipeline": 0.5,
+    "modelo_a": "MISTRAL",
+    "modelo_b": "OPENAI",
+    "run_a": 2,
+    "run_b": 1,
+    "tabela": "magento2.catalog_product_option_type_price"
+  },
+  "magento2_34": {
+    "similaridade_real": 0.6302849054336548,
+    "threshold_atual_pipeline": 0.5,
+    "modelo_a": "MISTRAL",
+    "modelo_b": "DEEPSEEK",
+    "run_a": 2,
+    "run_b": 1,
+    "tabela": "magento2.catalog_product_bundle_selection_price"
+  },
+  "magento2_35": {
+    "similaridade_real": 0.4918697476387024,
+    "threshold_atual_pipeline": 0.5,
+    "modelo_a": "MISTRAL",
+    "modelo_b": "OPENAI",
+    "run_a": 3,
+    "run_b": 1,
+    "tabela": "magento2.widget"
+  },
+  "magento2_36": {
+    "similaridade_real": 0.4938521087169647,
+    "threshold_atual_pipeline": 0.5,
+    "modelo_a": "MISTRAL",
+    "modelo_b": "DEEPSEEK",
+    "run_a": 2,
+    "run_b": 3,
+    "tabela": "magento2.catalog_product_option_type_title"
+  },
+  "magento2_37": {
+    "similaridade_real": 0.5232974886894226,
+    "threshold_atual_pipeline": 0.5,
+    "modelo_a": "OPENAI",
+    "modelo_b": "DEEPSEEK",
+    "run_a": 2,
+    "run_b": 1,
+    "tabela": "magento2.eav_form_fieldset"
+  },
+  "magento2_38": {
+    "similaridade_real": 0.39404410123825073,
+    "threshold_atual_pipeline": 0.5,
+    "modelo_a": "MISTRAL",
+    "modelo_b": "OPENAI",
+    "run_a": 3,
+    "run_b": 1,
+    "tabela": "magento2.catalog_product_option_type_value"
+  },
+  "magento2_39": {
+    "similaridade_real": 0.6199072003364563,
+    "threshold_atual_pipeline": 0.5,
+    "modelo_a": "MISTRAL",
+    "modelo_b": "OPENAI",
+    "run_a": 1,
+    "run_b": 1,
+    "tabela": "magento2.sales_quote_item_option"
+  },
+  "magento2_40": {
+    "similaridade_real": 0.3927468955516815,
+    "threshold_atual_pipeline": 0.5,
+    "modelo_a": "MISTRAL",
+    "modelo_b": "OPENAI",
+    "run_a": 1,
+    "run_b": 1,
+    "tabela": "magento2.sales_quote_item_option"
+  },
+  "magento2_41": {
+    "similaridade_real": 0.5302423238754272,
+    "threshold_atual_pipeline": 0.5,
+    "modelo_a": "MISTRAL",
+    "modelo_b": "OPENAI",
+    "run_a": 3,
+    "run_b": 1,
+    "tabela": "magento2.sales_quote_item_option"
+  },
+  "magento2_42": {
+    "similaridade_real": 0.5169735550880432,
+    "threshold_atual_pipeline": 0.5,
+    "modelo_a": "MISTRAL",
+    "modelo_b": "DEEPSEEK",
+    "run_a": 2,
+    "run_b": 1,
+    "tabela": "magento2.report_event"
+  },
+  "magento2_43": {
+    "similaridade_real": 0.4618052542209625,
+    "threshold_atual_pipeline": 0.5,
+    "modelo_a": "MISTRAL",
+    "modelo_b": "DEEPSEEK",
+    "run_a": 1,
+    "run_b": 3,
+    "tabela": "magento2.customer_eav_attribute_website"
+  },
+  "magento2_44": {
+    "similaridade_real": 0.39010658860206604,
+    "threshold_atual_pipeline": 0.5,
+    "modelo_a": "OPENAI",
+    "modelo_b": "DEEPSEEK",
+    "run_a": 1,
+    "run_b": 1,
+    "tabela": "magento2.widget_instance_page"
+  },
+  "magento2_45": {
+    "similaridade_real": 0.5355103611946106,
+    "threshold_atual_pipeline": 0.5,
+    "modelo_a": "OPENAI",
+    "modelo_b": "DEEPSEEK",
+    "run_a": 1,
+    "run_b": 1,
+    "tabela": "magento2.report_event"
+  },
+  "magento2_46": {
+    "similaridade_real": 0.44541770219802856,
+    "threshold_atual_pipeline": 0.5,
+    "modelo_a": "OPENAI",
+    "modelo_b": "DEEPSEEK",
+    "run_a": 1,
+    "run_b": 2,
+    "tabela": "magento2.widget_instance_page_layout"
+  },
+  "magento2_47": {
+    "similaridade_real": 0.5057819485664368,
+    "threshold_atual_pipeline": 0.5,
+    "modelo_a": "OPENAI",
+    "modelo_b": "DEEPSEEK",
+    "run_a": 1,
+    "run_b": 1,
+    "tabela": "magento2.wishlist"
+  },
+  "magento2_48": {
+    "similaridade_real": 0.5259381532669067,
+    "threshold_atual_pipeline": 0.5,
+    "modelo_a": "MISTRAL",
+    "modelo_b": "DEEPSEEK",
+    "run_a": 2,
+    "run_b": 2,
+    "tabela": "magento2.wishlist_item"
+  },
+  "magento2_49": {
+    "similaridade_real": 0.5796360969543457,
+    "threshold_atual_pipeline": 0.5,
+    "modelo_a": "MISTRAL",
+    "modelo_b": "DEEPSEEK",
+    "run_a": 1,
+    "run_b": 1,
+    "tabela": "magento2.email_template"
+  },
+  "magento2_50": {
+    "similaridade_real": 0.5767510533332825,
+    "threshold_atual_pipeline": 0.5,
+    "modelo_a": "OPENAI",
+    "modelo_b": "DEEPSEEK",
+    "run_a": 1,
+    "run_b": 1,
+    "tabela": "magento2.wishlist_item"
+  },
+  "magento2_51": {
+    "similaridade_real": 0.5949702262878418,
+    "threshold_atual_pipeline": 0.5,
+    "modelo_a": "OPENAI",
+    "modelo_b": "DEEPSEEK",
+    "run_a": 1,
+    "run_b": 3,
+    "tabela": "magento2.customer_entity_datetime"
+  },
+  "magento2_52": {
+    "similaridade_real": 0.3944590985774994,
+    "threshold_atual_pipeline": 0.5,
+    "modelo_a": "MISTRAL",
+    "modelo_b": "OPENAI",
+    "run_a": 2,
+    "run_b": 1,
+    "tabela": "magento2.sales_shipment_grid"
+  },
+  "magento2_53": {
+    "similaridade_real": 0.47201570868492126,
+    "threshold_atual_pipeline": 0.5,
+    "modelo_a": "OPENAI",
+    "modelo_b": "DEEPSEEK",
+    "run_a": 1,
+    "run_b": 1,
+    "tabela": "magento2.email_template"
+  },
+  "magento2_54": {
+    "similaridade_real": 0.6651644706726074,
+    "threshold_atual_pipeline": 0.5,
+    "modelo_a": "MISTRAL",
+    "modelo_b": "DEEPSEEK",
+    "run_a": 1,
+    "run_b": 3,
+    "tabela": "magento2.catalog_product_entity_int"
+  },
+  "magento2_55": {
+    "similaridade_real": 0.6733291149139404,
+    "threshold_atual_pipeline": 0.5,
+    "modelo_a": "MISTRAL",
+    "modelo_b": "DEEPSEEK",
+    "run_a": 1,
+    "run_b": 2,
+    "tabela": "magento2.report_viewed_product_aggregated_monthly"
+  },
+  "magento2_56": {
+    "similaridade_real": 0.5962016582489014,
+    "threshold_atual_pipeline": 0.5,
+    "modelo_a": "MISTRAL",
+    "modelo_b": "DEEPSEEK",
+    "run_a": 2,
+    "run_b": 1,
+    "tabela": "magento2.catalog_product_website"
+  },
+  "magento2_57": {
+    "similaridade_real": 0.6531074047088623,
+    "threshold_atual_pipeline": 0.5,
+    "modelo_a": "MISTRAL",
+    "modelo_b": "DEEPSEEK",
+    "run_a": 1,
+    "run_b": 3,
+    "tabela": "magento2.catalog_product_entity_media_gallery"
+  },
+  "magento2_58": {
+    "similaridade_real": 0.5889135003089905,
+    "threshold_atual_pipeline": 0.5,
+    "modelo_a": "OPENAI",
+    "modelo_b": "DEEPSEEK",
+    "run_a": 1,
+    "run_b": 1,
+    "tabela": "magento2.customer_entity_text"
+  },
+  "magento2_59": {
+    "similaridade_real": 0.6231793165206909,
+    "threshold_atual_pipeline": 0.5,
+    "modelo_a": "OPENAI",
+    "modelo_b": "DEEPSEEK",
+    "run_a": 2,
+    "run_b": 2,
+    "tabela": "magento2.catalog_product_entity_media_gallery"
+  },
+  "magento2_60": {
+    "similaridade_real": 0.6788650751113892,
+    "threshold_atual_pipeline": 0.5,
+    "modelo_a": "MISTRAL",
+    "modelo_b": "OPENAI",
+    "run_a": 2,
+    "run_b": 1,
+    "tabela": "magento2.googleoptimizer_code"
+  },
+  "magento2_61": {
+    "similaridade_real": 0.4788193702697754,
+    "threshold_atual_pipeline": 0.5,
+    "modelo_a": "MISTRAL",
+    "modelo_b": "OPENAI",
+    "run_a": 2,
+    "run_b": 2,
+    "tabela": "magento2.googleoptimizer_code"
+  },
+  "magento2_62": {
+    "similaridade_real": 0.3533107340335846,
+    "threshold_atual_pipeline": 0.5,
+    "modelo_a": "MISTRAL",
+    "modelo_b": "OPENAI",
+    "run_a": 1,
+    "run_b": 2,
+    "tabela": "magento2.catalog_product_entity_text"
+  },
+  "magento2_63": {
+    "similaridade_real": 0.6772266030311584,
+    "threshold_atual_pipeline": 0.5,
+    "modelo_a": "OPENAI",
+    "modelo_b": "DEEPSEEK",
+    "run_a": 2,
+    "run_b": 1,
+    "tabela": "magento2.catalog_product_entity_text"
+  },
+  "magento2_64": {
+    "similaridade_real": 0.45637047290802,
+    "threshold_atual_pipeline": 0.5,
+    "modelo_a": "OPENAI",
+    "modelo_b": "DEEPSEEK",
+    "run_a": 2,
+    "run_b": 2,
+    "tabela": "magento2.report_viewed_product_index"
+  },
+  "magento2_65": {
+    "similaridade_real": 0.3631100058555603,
+    "threshold_atual_pipeline": 0.5,
+    "modelo_a": "MISTRAL",
+    "modelo_b": "DEEPSEEK",
+    "run_a": 1,
+    "run_b": 1,
+    "tabela": "magento2.review"
+  },
+  "magento2_66": {
+    "similaridade_real": 0.49683305621147156,
+    "threshold_atual_pipeline": 0.5,
+    "modelo_a": "MISTRAL",
+    "modelo_b": "DEEPSEEK",
+    "run_a": 1,
+    "run_b": 1,
+    "tabela": "magento2.customer_group"
+  },
+  "magento2_67": {
+    "similaridade_real": 0.6198171973228455,
+    "threshold_atual_pipeline": 0.5,
+    "modelo_a": "MISTRAL",
+    "modelo_b": "DEEPSEEK",
+    "run_a": 2,
+    "run_b": 1,
+    "tabela": "magento2.catalog_product_index_eav"
+  },
+  "magento2_68": {
+    "similaridade_real": 0.5965019464492798,
+    "threshold_atual_pipeline": 0.5,
+    "modelo_a": "MISTRAL",
+    "modelo_b": "DEEPSEEK",
+    "run_a": 1,
+    "run_b": 1,
+    "tabela": "magento2.review_detail"
+  },
+  "magento2_69": {
+    "similaridade_real": 0.5226661562919617,
+    "threshold_atual_pipeline": 0.5,
+    "modelo_a": "MISTRAL",
+    "modelo_b": "OPENAI",
+    "run_a": 2,
+    "run_b": 2,
+    "tabela": "magento2.salesrule_coupon_aggregated"
+  },
+  "magento2_70": {
+    "similaridade_real": 0.4449898302555084,
+    "threshold_atual_pipeline": 0.5,
+    "modelo_a": "MISTRAL",
+    "modelo_b": "DEEPSEEK",
+    "run_a": 1,
+    "run_b": 1,
+    "tabela": "magento2.review_entity"
+  },
+  "magento2_71": {
+    "similaridade_real": 0.4490549862384796,
+    "threshold_atual_pipeline": 0.5,
+    "modelo_a": "MISTRAL",
+    "modelo_b": "DEEPSEEK",
+    "run_a": 1,
+    "run_b": 1,
+    "tabela": "magento2.design_change"
+  },
+  "magento2_72": {
+    "similaridade_real": 0.4133293926715851,
+    "threshold_atual_pipeline": 0.5,
+    "modelo_a": "MISTRAL",
+    "modelo_b": "OPENAI",
+    "run_a": 3,
+    "run_b": 1,
+    "tabela": "magento2.googleshopping_types"
+  },
+  "magento2_73": {
+    "similaridade_real": 0.6228570938110352,
+    "threshold_atual_pipeline": 0.5,
+    "modelo_a": "MISTRAL",
+    "modelo_b": "OPENAI",
+    "run_a": 2,
+    "run_b": 2,
+    "tabela": "magento2.catalog_product_index_eav_decimal_idx"
+  },
+  "magento2_74": {
+    "similaridade_real": 0.47507962584495544,
+    "threshold_atual_pipeline": 0.5,
+    "modelo_a": "MISTRAL",
+    "modelo_b": "OPENAI",
+    "run_a": 2,
+    "run_b": 1,
+    "tabela": "magento2.review_status"
+  },
+  "magento2_75": {
+    "similaridade_real": 0.431514710187912,
+    "threshold_atual_pipeline": 0.5,
+    "modelo_a": "MISTRAL",
+    "modelo_b": "DEEPSEEK",
+    "run_a": 2,
+    "run_b": 2,
+    "tabela": "magento2.importexport_importdata"
+  },
+  "magento2_76": {
+    "similaridade_real": 0.45700910687446594,
+    "threshold_atual_pipeline": 0.5,
+    "modelo_a": "OPENAI",
+    "modelo_b": "DEEPSEEK",
+    "run_a": 1,
+    "run_b": 2,
+    "tabela": "magento2.catalog_product_index_eav_decimal_tmp"
+  },
+  "magento2_77": {
+    "similaridade_real": 0.41756826639175415,
+    "threshold_atual_pipeline": 0.5,
+    "modelo_a": "OPENAI",
+    "modelo_b": "DEEPSEEK",
+    "run_a": 2,
+    "run_b": 1,
+    "tabela": "magento2.directory_country_format"
+  },
+  "magento2_78": {
+    "similaridade_real": 0.5767648816108704,
+    "threshold_atual_pipeline": 0.5,
+    "modelo_a": "OPENAI",
+    "modelo_b": "DEEPSEEK",
+    "run_a": 2,
+    "run_b": 1,
+    "tabela": "magento2.catalog_product_index_eav_idx"
+  },
+  "magento2_79": {
+    "similaridade_real": 0.42090845108032227,
+    "threshold_atual_pipeline": 0.5,
+    "modelo_a": "MISTRAL",
+    "modelo_b": "OPENAI",
+    "run_a": 2,
+    "run_b": 1,
+    "tabela": "magento2.salesrule_coupon_usage"
+  },
+  "magento2_80": {
+    "similaridade_real": 0.521948516368866,
+    "threshold_atual_pipeline": 0.5,
+    "modelo_a": "MISTRAL",
+    "modelo_b": "DEEPSEEK",
+    "run_a": 1,
+    "run_b": 1,
+    "tabela": "magento2.salesrule_coupon_usage"
+  },
+  "magento2_81": {
+    "similaridade_real": 0.5689088106155396,
+    "threshold_atual_pipeline": 0.5,
+    "modelo_a": "MISTRAL",
+    "modelo_b": "OPENAI",
+    "run_a": 1,
+    "run_b": 1,
+    "tabela": "magento2.catalog_product_index_group_price"
+  },
+  "magento2_82": {
+    "similaridade_real": 0.5869072079658508,
+    "threshold_atual_pipeline": 0.5,
+    "modelo_a": "MISTRAL",
+    "modelo_b": "OPENAI",
+    "run_a": 3,
+    "run_b": 1,
+    "tabela": "magento2.catalog_product_index_group_price"
+  },
+  "magento2_83": {
+    "similaridade_real": 0.5543666481971741,
+    "threshold_atual_pipeline": 0.5,
+    "modelo_a": "MISTRAL",
+    "modelo_b": "DEEPSEEK",
+    "run_a": 1,
+    "run_b": 2,
+    "tabela": "magento2.catalog_product_index_group_price"
+  },
+  "magento2_84": {
+    "similaridade_real": 0.4079747200012207,
+    "threshold_atual_pipeline": 0.5,
+    "modelo_a": "MISTRAL",
+    "modelo_b": "OPENAI",
+    "run_a": 2,
+    "run_b": 1,
+    "tabela": "magento2.catalog_product_index_price"
+  },
+  "magento2_85": {
+    "similaridade_real": 0.3936108946800232,
+    "threshold_atual_pipeline": 0.5,
+    "modelo_a": "OPENAI",
+    "modelo_b": "DEEPSEEK",
+    "run_a": 1,
+    "run_b": 2,
+    "tabela": "magento2.downloadable_link_price"
+  },
+  "magento2_86": {
+    "similaridade_real": 0.6202312707901001,
+    "threshold_atual_pipeline": 0.5,
+    "modelo_a": "MISTRAL",
+    "modelo_b": "DEEPSEEK",
+    "run_a": 2,
+    "run_b": 1,
+    "tabela": "magento2.salesrule_label"
+  },
+  "magento2_87": {
+    "similaridade_real": 0.651488530635834,
+    "threshold_atual_pipeline": 0.5,
+    "modelo_a": "MISTRAL",
+    "modelo_b": "DEEPSEEK",
+    "run_a": 1,
+    "run_b": 1,
+    "tabela": "magento2.downloadable_link_purchased_item"
+  },
+  "magento2_88": {
+    "similaridade_real": 0.6896194815635681,
+    "threshold_atual_pipeline": 0.5,
+    "modelo_a": "MISTRAL",
+    "modelo_b": "DEEPSEEK",
+    "run_a": 2,
+    "run_b": 2,
+    "tabela": "magento2.log_url"
+  },
+  "magento2_89": {
+    "similaridade_real": 0.6274387836456299,
+    "threshold_atual_pipeline": 0.5,
+    "modelo_a": "MISTRAL",
+    "modelo_b": "OPENAI",
+    "run_a": 3,
+    "run_b": 1,
+    "tabela": "magento2.catalog_product_index_price_bundle_opt_tmp"
+  },
+  "magento2_90": {
+    "similaridade_real": 0.6068625450134277,
+    "threshold_atual_pipeline": 0.5,
+    "modelo_a": "OPENAI",
+    "modelo_b": "DEEPSEEK",
+    "run_a": 1,
+    "run_b": 1,
+    "tabela": "magento2.catalogrule_website"
+  },
+  "magento2_91": {
+    "similaridade_real": 0.43723660707473755,
+    "threshold_atual_pipeline": 0.5,
+    "modelo_a": "MISTRAL",
+    "modelo_b": "DEEPSEEK",
+    "run_a": 2,
+    "run_b": 2,
+    "tabela": "magento2.downloadable_link_purchased_item"
+  },
+  "magento2_92": {
+    "similaridade_real": 0.6287398338317871,
+    "threshold_atual_pipeline": 0.5,
+    "modelo_a": "MISTRAL",
+    "modelo_b": "OPENAI",
+    "run_a": 1,
+    "run_b": 1,
+    "tabela": "magento2.downloadable_link_title"
+  },
+  "magento2_93": {
+    "similaridade_real": 0.44004833698272705,
+    "threshold_atual_pipeline": 0.5,
+    "modelo_a": "MISTRAL",
+    "modelo_b": "OPENAI",
+    "run_a": 3,
+    "run_b": 1,
+    "tabela": "magento2.downloadable_link_title"
+  },
+  "magento2_94": {
+    "similaridade_real": 0.6513668298721313,
+    "threshold_atual_pipeline": 0.5,
+    "modelo_a": "MISTRAL",
+    "modelo_b": "DEEPSEEK",
+    "run_a": 3,
+    "run_b": 1,
+    "tabela": "magento2.catalog_product_index_price_bundle_sel_idx"
+  },
+  "magento2_95": {
+    "similaridade_real": 0.6795074939727783,
+    "threshold_atual_pipeline": 0.5,
+    "modelo_a": "MISTRAL",
+    "modelo_b": "DEEPSEEK",
+    "run_a": 3,
+    "run_b": 3,
+    "tabela": "magento2.catalog_product_index_price_bundle_sel_idx"
+  },
+  "magento2_96": {
+    "similaridade_real": 0.6117842793464661,
+    "threshold_atual_pipeline": 0.5,
+    "modelo_a": "OPENAI",
+    "modelo_b": "DEEPSEEK",
+    "run_a": 1,
+    "run_b": 2,
+    "tabela": "magento2.downloadable_sample"
+  },
+  "magento2_97": {
+    "similaridade_real": 0.5069257616996765,
+    "threshold_atual_pipeline": 0.5,
+    "modelo_a": "MISTRAL",
+    "modelo_b": "DEEPSEEK",
+    "run_a": 2,
+    "run_b": 2,
+    "tabela": "magento2.salesrule_website"
+  },
+  "magento2_98": {
+    "similaridade_real": 0.6721897125244141,
+    "threshold_atual_pipeline": 0.5,
+    "modelo_a": "OPENAI",
+    "modelo_b": "DEEPSEEK",
+    "run_a": 1,
+    "run_b": 2,
+    "tabela": "magento2.mview_state"
+  },
+  "magento2_99": {
+    "similaridade_real": 0.4820704162120819,
+    "threshold_atual_pipeline": 0.5,
+    "modelo_a": "OPENAI",
+    "modelo_b": "DEEPSEEK",
+    "run_a": 2,
+    "run_b": 1,
+    "tabela": "magento2.mview_state"
+  },
+  "magento2_100": {
+    "similaridade_real": 0.6903133392333984,
+    "threshold_atual_pipeline": 0.5,
+    "modelo_a": "MISTRAL",
+    "modelo_b": "DEEPSEEK",
+    "run_a": 1,
+    "run_b": 1,
+    "tabela": "magento2.sales_invoice_item"
+  }
+}

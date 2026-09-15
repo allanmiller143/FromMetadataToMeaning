@@ -1,0 +1,45 @@
+{
+  "schema": "magento2",
+  "table_name": "cataloginventory_stock_status_tmp",
+  "row_count": 0,
+  "primary_key": [
+    "product_id",
+    "website_id",
+    "stock_id"
+  ],
+  "foreign_keys": [],
+  "columns": [
+    {
+      "name": "product_id",
+      "type": "INTEGER",
+      "nullable": false
+    },
+    {
+      "name": "website_id",
+      "type": "SMALLINT",
+      "nullable": false
+    },
+    {
+      "name": "stock_id",
+      "type": "SMALLINT",
+      "nullable": false
+    },
+    {
+      "name": "qty",
+      "type": "DECIMAL(12, 4)",
+      "nullable": false
+    },
+    {
+      "name": "stock_status",
+      "type": "SMALLINT",
+      "nullable": false
+    }
+  ],
+  "sample_rows": [],
+  "execution": {
+    "status": "success",
+    "seconds": 0.0,
+    "processed_at": "2026-09-13T18:56:20.033538",
+    "attempt": 1
+  }
+}

@@ -1,0 +1,304 @@
+{
+  "schema": "magento2",
+  "table_name": "sales_order_payment",
+  "row_count": 0,
+  "primary_key": [
+    "entity_id"
+  ],
+  "foreign_keys": [
+    {
+      "name": "sales_order_payment_ibfk_1",
+      "constrained_columns": [
+        "parent_id"
+      ],
+      "referred_schema": "magento2",
+      "referred_table": "sales_order",
+      "referred_columns": [
+        "entity_id"
+      ],
+      "options": {
+        "onupdate": "CASCADE",
+        "ondelete": "CASCADE"
+      }
+    }
+  ],
+  "columns": [
+    {
+      "name": "entity_id",
+      "type": "INTEGER",
+      "nullable": false
+    },
+    {
+      "name": "parent_id",
+      "type": "INTEGER",
+      "nullable": false
+    },
+    {
+      "name": "base_shipping_captured",
+      "type": "DECIMAL(12, 4)",
+      "nullable": true
+    },
+    {
+      "name": "shipping_captured",
+      "type": "DECIMAL(12, 4)",
+      "nullable": true
+    },
+    {
+      "name": "amount_refunded",
+      "type": "DECIMAL(12, 4)",
+      "nullable": true
+    },
+    {
+      "name": "base_amount_paid",
+      "type": "DECIMAL(12, 4)",
+      "nullable": true
+    },
+    {
+      "name": "amount_canceled",
+      "type": "DECIMAL(12, 4)",
+      "nullable": true
+    },
+    {
+      "name": "base_amount_authorized",
+      "type": "DECIMAL(12, 4)",
+      "nullable": true
+    },
+    {
+      "name": "base_amount_paid_online",
+      "type": "DECIMAL(12, 4)",
+      "nullable": true
+    },
+    {
+      "name": "base_amount_refunded_online",
+      "type": "DECIMAL(12, 4)",
+      "nullable": true
+    },
+    {
+      "name": "base_shipping_amount",
+      "type": "DECIMAL(12, 4)",
+      "nullable": true
+    },
+    {
+      "name": "shipping_amount",
+      "type": "DECIMAL(12, 4)",
+      "nullable": true
+    },
+    {
+      "name": "amount_paid",
+      "type": "DECIMAL(12, 4)",
+      "nullable": true
+    },
+    {
+      "name": "amount_authorized",
+      "type": "DECIMAL(12, 4)",
+      "nullable": true
+    },
+    {
+      "name": "base_amount_ordered",
+      "type": "DECIMAL(12, 4)",
+      "nullable": true
+    },
+    {
+      "name": "base_shipping_refunded",
+      "type": "DECIMAL(12, 4)",
+      "nullable": true
+    },
+    {
+      "name": "shipping_refunded",
+      "type": "DECIMAL(12, 4)",
+      "nullable": true
+    },
+    {
+      "name": "base_amount_refunded",
+      "type": "DECIMAL(12, 4)",
+      "nullable": true
+    },
+    {
+      "name": "amount_ordered",
+      "type": "DECIMAL(12, 4)",
+      "nullable": true
+    },
+    {
+      "name": "base_amount_canceled",
+      "type": "DECIMAL(12, 4)",
+      "nullable": true
+    },
+    {
+      "name": "quote_payment_id",
+      "type": "INTEGER",
+      "nullable": true
+    },
+    {
+      "name": "additional_data",
+      "type": "TEXT",
+      "nullable": true
+    },
+    {
+      "name": "cc_exp_month",
+      "type": "VARCHAR(255)",
+      "nullable": true
+    },
+    {
+      "name": "cc_ss_start_year",
+      "type": "VARCHAR(255)",
+      "nullable": true
+    },
+    {
+      "name": "echeck_bank_name",
+      "type": "VARCHAR(255)",
+      "nullable": true
+    },
+    {
+      "name": "method",
+      "type": "VARCHAR(255)",
+      "nullable": true
+    },
+    {
+      "name": "cc_debug_request_body",
+      "type": "VARCHAR(255)",
+      "nullable": true
+    },
+    {
+      "name": "cc_secure_verify",
+      "type": "VARCHAR(255)",
+      "nullable": true
+    },
+    {
+      "name": "protection_eligibility",
+      "type": "VARCHAR(255)",
+      "nullable": true
+    },
+    {
+      "name": "cc_approval",
+      "type": "VARCHAR(255)",
+      "nullable": true
+    },
+    {
+      "name": "cc_last_4",
+      "type": "VARCHAR(255)",
+      "nullable": true
+    },
+    {
+      "name": "cc_status_description",
+      "type": "VARCHAR(255)",
+      "nullable": true
+    },
+    {
+      "name": "echeck_type",
+      "type": "VARCHAR(255)",
+      "nullable": true
+    },
+    {
+      "name": "cc_debug_response_serialized",
+      "type": "VARCHAR(255)",
+      "nullable": true
+    },
+    {
+      "name": "cc_ss_start_month",
+      "type": "VARCHAR(255)",
+      "nullable": true
+    },
+    {
+      "name": "echeck_account_type",
+      "type": "VARCHAR(255)",
+      "nullable": true
+    },
+    {
+      "name": "last_trans_id",
+      "type": "VARCHAR(255)",
+      "nullable": true
+    },
+    {
+      "name": "cc_cid_status",
+      "type": "VARCHAR(255)",
+      "nullable": true
+    },
+    {
+      "name": "cc_owner",
+      "type": "VARCHAR(255)",
+      "nullable": true
+    },
+    {
+      "name": "cc_type",
+      "type": "VARCHAR(255)",
+      "nullable": true
+    },
+    {
+      "name": "po_number",
+      "type": "VARCHAR(255)",
+      "nullable": true
+    },
+    {
+      "name": "cc_exp_year",
+      "type": "VARCHAR(255)",
+      "nullable": true
+    },
+    {
+      "name": "cc_status",
+      "type": "VARCHAR(255)",
+      "nullable": true
+    },
+    {
+      "name": "echeck_routing_number",
+      "type": "VARCHAR(255)",
+      "nullable": true
+    },
+    {
+      "name": "account_status",
+      "type": "VARCHAR(255)",
+      "nullable": true
+    },
+    {
+      "name": "anet_trans_method",
+      "type": "VARCHAR(255)",
+      "nullable": true
+    },
+    {
+      "name": "cc_debug_response_body",
+      "type": "VARCHAR(255)",
+      "nullable": true
+    },
+    {
+      "name": "cc_ss_issue",
+      "type": "VARCHAR(255)",
+      "nullable": true
+    },
+    {
+      "name": "echeck_account_name",
+      "type": "VARCHAR(255)",
+      "nullable": true
+    },
+    {
+      "name": "cc_avs_status",
+      "type": "VARCHAR(255)",
+      "nullable": true
+    },
+    {
+      "name": "cc_number_enc",
+      "type": "VARCHAR(255)",
+      "nullable": true
+    },
+    {
+      "name": "cc_trans_id",
+      "type": "VARCHAR(255)",
+      "nullable": true
+    },
+    {
+      "name": "address_status",
+      "type": "VARCHAR(255)",
+      "nullable": true
+    },
+    {
+      "name": "additional_information",
+      "type": "TEXT",
+      "nullable": true
+    }
+  ],
+  "sample_rows": [],
+  "execution": {
+    "status": "success",
+    "seconds": 0.02,
+    "processed_at": "2026-09-13T18:56:41.670656",
+    "attempt": 1
+  }
+}

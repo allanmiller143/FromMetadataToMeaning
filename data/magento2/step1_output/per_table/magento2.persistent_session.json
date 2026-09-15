@@ -1,0 +1,77 @@
+{
+  "schema": "magento2",
+  "table_name": "persistent_session",
+  "row_count": 0,
+  "primary_key": [
+    "persistent_id"
+  ],
+  "foreign_keys": [
+    {
+      "name": "FK_PERSISTENT_SESSION_CUSTOMER_ID_CUSTOMER_ENTITY_ENTITY_ID",
+      "constrained_columns": [
+        "customer_id"
+      ],
+      "referred_schema": "magento2",
+      "referred_table": "customer_entity",
+      "referred_columns": [
+        "entity_id"
+      ],
+      "options": {
+        "ondelete": "CASCADE"
+      }
+    },
+    {
+      "name": "FK_PERSISTENT_SESSION_WEBSITE_ID_STORE_WEBSITE_WEBSITE_ID",
+      "constrained_columns": [
+        "website_id"
+      ],
+      "referred_schema": "magento2",
+      "referred_table": "store_website",
+      "referred_columns": [
+        "website_id"
+      ],
+      "options": {
+        "ondelete": "CASCADE"
+      }
+    }
+  ],
+  "columns": [
+    {
+      "name": "persistent_id",
+      "type": "INTEGER",
+      "nullable": false
+    },
+    {
+      "name": "key",
+      "type": "VARCHAR(50)",
+      "nullable": false
+    },
+    {
+      "name": "customer_id",
+      "type": "INTEGER",
+      "nullable": true
+    },
+    {
+      "name": "website_id",
+      "type": "SMALLINT",
+      "nullable": false
+    },
+    {
+      "name": "info",
+      "type": "TEXT",
+      "nullable": true
+    },
+    {
+      "name": "updated_at",
+      "type": "TIMESTAMP",
+      "nullable": true
+    }
+  ],
+  "sample_rows": [],
+  "execution": {
+    "status": "success",
+    "seconds": 0.01,
+    "processed_at": "2026-09-13T18:56:34.219406",
+    "attempt": 1
+  }
+}

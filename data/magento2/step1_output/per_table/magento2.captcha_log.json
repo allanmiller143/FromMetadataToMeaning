@@ -1,0 +1,39 @@
+{
+  "schema": "magento2",
+  "table_name": "captcha_log",
+  "row_count": 0,
+  "primary_key": [
+    "type",
+    "value"
+  ],
+  "foreign_keys": [],
+  "columns": [
+    {
+      "name": "type",
+      "type": "VARCHAR(32)",
+      "nullable": false
+    },
+    {
+      "name": "value",
+      "type": "VARCHAR(32)",
+      "nullable": false
+    },
+    {
+      "name": "count",
+      "type": "INTEGER",
+      "nullable": false
+    },
+    {
+      "name": "updated_at",
+      "type": "TIMESTAMP",
+      "nullable": true
+    }
+  ],
+  "sample_rows": [],
+  "execution": {
+    "status": "success",
+    "seconds": 0.01,
+    "processed_at": "2026-09-13T18:56:12.373850",
+    "attempt": 1
+  }
+}

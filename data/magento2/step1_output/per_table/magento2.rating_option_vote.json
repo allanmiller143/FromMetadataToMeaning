@@ -1,0 +1,479 @@
+{
+  "schema": "magento2",
+  "table_name": "rating_option_vote",
+  "row_count": 331,
+  "primary_key": [
+    "vote_id"
+  ],
+  "foreign_keys": [
+    {
+      "name": "FK_RATING_OPTION_VOTE_OPTION_ID_RATING_OPTION_OPTION_ID",
+      "constrained_columns": [
+        "option_id"
+      ],
+      "referred_schema": "magento2",
+      "referred_table": "rating_option",
+      "referred_columns": [
+        "option_id"
+      ],
+      "options": {
+        "onupdate": "CASCADE",
+        "ondelete": "CASCADE"
+      }
+    },
+    {
+      "name": "FK_RATING_OPTION_VOTE_REVIEW_ID_REVIEW_REVIEW_ID",
+      "constrained_columns": [
+        "review_id"
+      ],
+      "referred_schema": "magento2",
+      "referred_table": "review",
+      "referred_columns": [
+        "review_id"
+      ],
+      "options": {
+        "onupdate": "CASCADE",
+        "ondelete": "CASCADE"
+      }
+    }
+  ],
+  "columns": [
+    {
+      "name": "vote_id",
+      "type": "BIGINT",
+      "nullable": false,
+      "stats": {
+        "null_count": 0,
+        "distinct_count": 331,
+        "null_percentage": 0.0,
+        "numeric_stats": {
+          "avg": 166.0,
+          "min": 1.0,
+          "max": 331.0,
+          "stddev": 95.55103348472998
+        },
+        "sample_values": [
+          "224",
+          "266",
+          "275",
+          "293",
+          "320",
+          "20",
+          "82",
+          "85",
+          "146",
+          "263",
+          "272",
+          "287",
+          "305",
+          "4",
+          "5"
+        ]
+      }
+    },
+    {
+      "name": "option_id",
+      "type": "INTEGER",
+      "nullable": false,
+      "stats": {
+        "null_count": 0,
+        "distinct_count": 15,
+        "null_percentage": 0.0,
+        "numeric_stats": {
+          "avg": 6.3897,
+          "min": 1.0,
+          "max": 15.0,
+          "stddev": 4.063218358715205
+        },
+        "frequent_values": [
+          {
+            "value": "3",
+            "count": 104
+          },
+          {
+            "value": "4",
+            "count": 50
+          },
+          {
+            "value": "5",
+            "count": 38
+          },
+          {
+            "value": "9",
+            "count": 24
+          },
+          {
+            "value": "13",
+            "count": 21
+          }
+        ],
+        "sample_values": [
+          "1",
+          "2",
+          "3",
+          "4",
+          "5",
+          "6",
+          "7",
+          "8",
+          "9",
+          "10",
+          "11",
+          "12",
+          "13",
+          "14",
+          "15"
+        ]
+      }
+    },
+    {
+      "name": "remote_ip",
+      "type": "VARCHAR(16)",
+      "nullable": false,
+      "stats": {
+        "null_count": 0,
+        "distinct_count": 1,
+        "null_percentage": 0.0,
+        "frequent_values": [
+          {
+            "value": "127.0.0.1",
+            "count": 331
+          }
+        ],
+        "sample_values": [
+          "127.0.0.1"
+        ]
+      }
+    },
+    {
+      "name": "remote_ip_long",
+      "type": "BIGINT",
+      "nullable": false,
+      "stats": {
+        "null_count": 0,
+        "distinct_count": 1,
+        "null_percentage": 0.0,
+        "numeric_stats": {
+          "avg": 2130706433.0,
+          "min": 2130706433.0,
+          "max": 2130706433.0,
+          "stddev": 0.0
+        },
+        "frequent_values": [
+          {
+            "value": "2130706433",
+            "count": 331
+          }
+        ],
+        "sample_values": [
+          "2130706433"
+        ]
+      }
+    },
+    {
+      "name": "customer_id",
+      "type": "INTEGER",
+      "nullable": true,
+      "stats": {
+        "null_count": 175,
+        "distinct_count": 1,
+        "null_percentage": 52.87,
+        "numeric_stats": {
+          "avg": 1.0,
+          "min": 1.0,
+          "max": 1.0,
+          "stddev": 0.0
+        },
+        "frequent_values": [
+          {
+            "value": "1",
+            "count": 156
+          }
+        ],
+        "sample_values": [
+          "1"
+        ]
+      }
+    },
+    {
+      "name": "entity_pk_value",
+      "type": "BIGINT",
+      "nullable": false,
+      "stats": {
+        "null_count": 0,
+        "distinct_count": 42,
+        "null_percentage": 0.0,
+        "numeric_stats": {
+          "avg": 48.7069,
+          "min": 16.0,
+          "max": 135.0,
+          "stddev": 34.618096572842745
+        },
+        "frequent_values": [
+          {
+            "value": "27",
+            "count": 36
+          },
+          {
+            "value": "26",
+            "count": 18
+          },
+          {
+            "value": "35",
+            "count": 15
+          },
+          {
+            "value": "20",
+            "count": 15
+          },
+          {
+            "value": "51",
+            "count": 13
+          }
+        ],
+        "sample_values": [
+          "51",
+          "16",
+          "17",
+          "18",
+          "19",
+          "20",
+          "25",
+          "26",
+          "27",
+          "28",
+          "29",
+          "30",
+          "31",
+          "32",
+          "33"
+        ]
+      }
+    },
+    {
+      "name": "rating_id",
+      "type": "SMALLINT",
+      "nullable": false,
+      "stats": {
+        "null_count": 0,
+        "distinct_count": 3,
+        "null_percentage": 0.0,
+        "numeric_stats": {
+          "avg": 1.997,
+          "min": 1.0,
+          "max": 3.0,
+          "stddev": 0.8171074523443218
+        },
+        "frequent_values": [
+          {
+            "value": "1",
+            "count": 111
+          },
+          {
+            "value": "2",
+            "count": 110
+          },
+          {
+            "value": "3",
+            "count": 110
+          }
+        ],
+        "sample_values": [
+          "1",
+          "2",
+          "3"
+        ]
+      }
+    },
+    {
+      "name": "review_id",
+      "type": "BIGINT",
+      "nullable": true,
+      "stats": {
+        "null_count": 0,
+        "distinct_count": 110,
+        "null_percentage": 0.0,
+        "numeric_stats": {
+          "avg": 55.9003,
+          "min": 1.0,
+          "max": 113.0,
+          "stddev": 32.30592576893411
+        },
+        "frequent_values": [
+          {
+            "value": "47",
+            "count": 4
+          },
+          {
+            "value": "1",
+            "count": 3
+          },
+          {
+            "value": "2",
+            "count": 3
+          },
+          {
+            "value": "3",
+            "count": 3
+          },
+          {
+            "value": "113",
+            "count": 3
+          }
+        ],
+        "sample_values": [
+          "1",
+          "2",
+          "3",
+          "4",
+          "5",
+          "6",
+          "7",
+          "8",
+          "9",
+          "10",
+          "11",
+          "12",
+          "13",
+          "14",
+          "15"
+        ]
+      }
+    },
+    {
+      "name": "percent",
+      "type": "SMALLINT",
+      "nullable": false,
+      "stats": {
+        "null_count": 0,
+        "distinct_count": 5,
+        "null_percentage": 0.0,
+        "numeric_stats": {
+          "avg": 70.6949,
+          "min": 20.0,
+          "max": 100.0,
+          "stddev": 20.809899258688013
+        },
+        "frequent_values": [
+          {
+            "value": "60",
+            "count": 139
+          },
+          {
+            "value": "80",
+            "count": 92
+          },
+          {
+            "value": "100",
+            "count": 68
+          },
+          {
+            "value": "20",
+            "count": 19
+          },
+          {
+            "value": "40",
+            "count": 13
+          }
+        ],
+        "sample_values": [
+          "80",
+          "60",
+          "100",
+          "40",
+          "20"
+        ]
+      }
+    },
+    {
+      "name": "value",
+      "type": "SMALLINT",
+      "nullable": false,
+      "stats": {
+        "null_count": 0,
+        "distinct_count": 6,
+        "null_percentage": 0.0,
+        "numeric_stats": {
+          "avg": 1.0544,
+          "min": 0.0,
+          "max": 5.0,
+          "stddev": 1.7459674280834274
+        },
+        "frequent_values": [
+          {
+            "value": "0",
+            "count": 229
+          },
+          {
+            "value": "5",
+            "count": 27
+          },
+          {
+            "value": "3",
+            "count": 27
+          },
+          {
+            "value": "4",
+            "count": 26
+          },
+          {
+            "value": "1",
+            "count": 15
+          }
+        ],
+        "sample_values": [
+          "0",
+          "5",
+          "4",
+          "3",
+          "1",
+          "2"
+        ]
+      }
+    }
+  ],
+  "sample_rows": [
+    {
+      "vote_id": 1,
+      "option_id": 4,
+      "remote_ip": "127.0.0.1",
+      "remote_ip_long": 2130706433,
+      "customer_id": NaN,
+      "entity_pk_value": 51,
+      "rating_id": 1,
+      "review_id": 47,
+      "percent": 80,
+      "value": 0
+    },
+    {
+      "vote_id": 2,
+      "option_id": 4,
+      "remote_ip": "127.0.0.1",
+      "remote_ip_long": 2130706433,
+      "customer_id": 1.0,
+      "entity_pk_value": 16,
+      "rating_id": 1,
+      "review_id": 15,
+      "percent": 80,
+      "value": 0
+    },
+    {
+      "vote_id": 3,
+      "option_id": 4,
+      "remote_ip": "127.0.0.1",
+      "remote_ip_long": 2130706433,
+      "customer_id": 1.0,
+      "entity_pk_value": 17,
+      "rating_id": 1,
+      "review_id": 11,
+      "percent": 80,
+      "value": 0
+    }
+  ],
+  "execution": {
+    "status": "success",
+    "seconds": 0.05,
+    "processed_at": "2026-09-13T18:56:35.080540",
+    "attempt": 1
+  }
+}

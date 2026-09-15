@@ -1,0 +1,109 @@
+{
+  "schema": "magento2",
+  "table_name": "product_alert_price",
+  "row_count": 0,
+  "primary_key": [
+    "alert_price_id"
+  ],
+  "foreign_keys": [
+    {
+      "name": "FK_PRD_ALERT_PRICE_PRD_ID_CAT_PRD_ENTT_ENTT_ID",
+      "constrained_columns": [
+        "product_id"
+      ],
+      "referred_schema": "magento2",
+      "referred_table": "catalog_product_entity",
+      "referred_columns": [
+        "entity_id"
+      ],
+      "options": {
+        "onupdate": "CASCADE",
+        "ondelete": "CASCADE"
+      }
+    },
+    {
+      "name": "FK_PRODUCT_ALERT_PRICE_CUSTOMER_ID_CUSTOMER_ENTITY_ENTITY_ID",
+      "constrained_columns": [
+        "customer_id"
+      ],
+      "referred_schema": "magento2",
+      "referred_table": "customer_entity",
+      "referred_columns": [
+        "entity_id"
+      ],
+      "options": {
+        "onupdate": "CASCADE",
+        "ondelete": "CASCADE"
+      }
+    },
+    {
+      "name": "FK_PRODUCT_ALERT_PRICE_WEBSITE_ID_STORE_WEBSITE_WEBSITE_ID",
+      "constrained_columns": [
+        "website_id"
+      ],
+      "referred_schema": "magento2",
+      "referred_table": "store_website",
+      "referred_columns": [
+        "website_id"
+      ],
+      "options": {
+        "onupdate": "CASCADE",
+        "ondelete": "CASCADE"
+      }
+    }
+  ],
+  "columns": [
+    {
+      "name": "alert_price_id",
+      "type": "INTEGER",
+      "nullable": false
+    },
+    {
+      "name": "customer_id",
+      "type": "INTEGER",
+      "nullable": false
+    },
+    {
+      "name": "product_id",
+      "type": "INTEGER",
+      "nullable": false
+    },
+    {
+      "name": "price",
+      "type": "DECIMAL(12, 4)",
+      "nullable": false
+    },
+    {
+      "name": "website_id",
+      "type": "SMALLINT",
+      "nullable": false
+    },
+    {
+      "name": "add_date",
+      "type": "TIMESTAMP",
+      "nullable": false
+    },
+    {
+      "name": "last_send_date",
+      "type": "TIMESTAMP",
+      "nullable": true
+    },
+    {
+      "name": "send_count",
+      "type": "SMALLINT",
+      "nullable": false
+    },
+    {
+      "name": "status",
+      "type": "SMALLINT",
+      "nullable": false
+    }
+  ],
+  "sample_rows": [],
+  "execution": {
+    "status": "success",
+    "seconds": 0.01,
+    "processed_at": "2026-09-13T18:56:34.356876",
+    "attempt": 1
+  }
+}

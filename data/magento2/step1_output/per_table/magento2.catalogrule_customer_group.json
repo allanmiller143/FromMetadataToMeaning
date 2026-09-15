@@ -1,0 +1,153 @@
+{
+  "schema": "magento2",
+  "table_name": "catalogrule_customer_group",
+  "row_count": 20,
+  "primary_key": [
+    "rule_id",
+    "customer_group_id"
+  ],
+  "foreign_keys": [
+    {
+      "name": "FK_CATALOGRULE_CUSTOMER_GROUP_RULE_ID_CATALOGRULE_RULE_ID",
+      "constrained_columns": [
+        "rule_id"
+      ],
+      "referred_schema": "magento2",
+      "referred_table": "catalogrule",
+      "referred_columns": [
+        "rule_id"
+      ],
+      "options": {
+        "onupdate": "CASCADE",
+        "ondelete": "CASCADE"
+      }
+    },
+    {
+      "name": "FK_CATRULE_CSTR_GROUP_CSTR_GROUP_ID_CSTR_GROUP_CSTR_GROUP_ID",
+      "constrained_columns": [
+        "customer_group_id"
+      ],
+      "referred_schema": "magento2",
+      "referred_table": "customer_group",
+      "referred_columns": [
+        "customer_group_id"
+      ],
+      "options": {
+        "onupdate": "CASCADE",
+        "ondelete": "CASCADE"
+      }
+    }
+  ],
+  "columns": [
+    {
+      "name": "rule_id",
+      "type": "INTEGER",
+      "nullable": false,
+      "stats": {
+        "null_count": 0,
+        "distinct_count": 5,
+        "null_percentage": 0.0,
+        "numeric_stats": {
+          "avg": 4.65,
+          "min": 1.0,
+          "max": 7.0,
+          "stddev": 2.1041625412500813
+        },
+        "frequent_values": [
+          {
+            "value": "7",
+            "count": 5
+          },
+          {
+            "value": "1",
+            "count": 4
+          },
+          {
+            "value": "4",
+            "count": 4
+          },
+          {
+            "value": "5",
+            "count": 4
+          },
+          {
+            "value": "6",
+            "count": 3
+          }
+        ],
+        "sample_values": [
+          "1",
+          "4",
+          "5",
+          "6",
+          "7"
+        ]
+      }
+    },
+    {
+      "name": "customer_group_id",
+      "type": "SMALLINT",
+      "nullable": false,
+      "stats": {
+        "null_count": 0,
+        "distinct_count": 5,
+        "null_percentage": 0.0,
+        "numeric_stats": {
+          "avg": 1.65,
+          "min": 0.0,
+          "max": 4.0,
+          "stddev": 1.3518505834595773
+        },
+        "frequent_values": [
+          {
+            "value": "0",
+            "count": 5
+          },
+          {
+            "value": "1",
+            "count": 5
+          },
+          {
+            "value": "2",
+            "count": 5
+          },
+          {
+            "value": "4",
+            "count": 3
+          },
+          {
+            "value": "3",
+            "count": 2
+          }
+        ],
+        "sample_values": [
+          "0",
+          "1",
+          "2",
+          "3",
+          "4"
+        ]
+      }
+    }
+  ],
+  "sample_rows": [
+    {
+      "rule_id": 1,
+      "customer_group_id": 0
+    },
+    {
+      "rule_id": 4,
+      "customer_group_id": 0
+    },
+    {
+      "rule_id": 5,
+      "customer_group_id": 0
+    }
+  ],
+  "execution": {
+    "status": "success",
+    "seconds": 0.02,
+    "processed_at": "2026-09-13T18:56:20.353886",
+    "attempt": 1
+  }
+}

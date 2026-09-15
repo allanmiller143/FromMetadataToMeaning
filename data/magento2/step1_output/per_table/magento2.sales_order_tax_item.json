@@ -1,0 +1,114 @@
+{
+  "schema": "magento2",
+  "table_name": "sales_order_tax_item",
+  "row_count": 0,
+  "primary_key": [
+    "tax_item_id"
+  ],
+  "foreign_keys": [
+    {
+      "name": "sales_order_tax_item_ibfk_1",
+      "constrained_columns": [
+        "associated_item_id"
+      ],
+      "referred_schema": "magento2",
+      "referred_table": "sales_order_item",
+      "referred_columns": [
+        "item_id"
+      ],
+      "options": {
+        "onupdate": "CASCADE",
+        "ondelete": "CASCADE"
+      }
+    },
+    {
+      "name": "sales_order_tax_item_ibfk_2",
+      "constrained_columns": [
+        "item_id"
+      ],
+      "referred_schema": "magento2",
+      "referred_table": "sales_order_item",
+      "referred_columns": [
+        "item_id"
+      ],
+      "options": {
+        "onupdate": "CASCADE",
+        "ondelete": "CASCADE"
+      }
+    },
+    {
+      "name": "sales_order_tax_item_ibfk_3",
+      "constrained_columns": [
+        "tax_id"
+      ],
+      "referred_schema": "magento2",
+      "referred_table": "sales_order_tax",
+      "referred_columns": [
+        "tax_id"
+      ],
+      "options": {
+        "onupdate": "CASCADE",
+        "ondelete": "CASCADE"
+      }
+    }
+  ],
+  "columns": [
+    {
+      "name": "tax_item_id",
+      "type": "INTEGER",
+      "nullable": false
+    },
+    {
+      "name": "tax_id",
+      "type": "INTEGER",
+      "nullable": false
+    },
+    {
+      "name": "item_id",
+      "type": "INTEGER",
+      "nullable": true
+    },
+    {
+      "name": "tax_percent",
+      "type": "DECIMAL(12, 4)",
+      "nullable": false
+    },
+    {
+      "name": "amount",
+      "type": "DECIMAL(12, 4)",
+      "nullable": false
+    },
+    {
+      "name": "base_amount",
+      "type": "DECIMAL(12, 4)",
+      "nullable": false
+    },
+    {
+      "name": "real_amount",
+      "type": "DECIMAL(12, 4)",
+      "nullable": false
+    },
+    {
+      "name": "real_base_amount",
+      "type": "DECIMAL(12, 4)",
+      "nullable": false
+    },
+    {
+      "name": "associated_item_id",
+      "type": "INTEGER",
+      "nullable": true
+    },
+    {
+      "name": "taxable_item_type",
+      "type": "VARCHAR(32)",
+      "nullable": false
+    }
+  ],
+  "sample_rows": [],
+  "execution": {
+    "status": "success",
+    "seconds": 0.01,
+    "processed_at": "2026-09-13T18:56:42.710585",
+    "attempt": 1
+  }
+}

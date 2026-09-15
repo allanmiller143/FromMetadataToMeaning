@@ -1,0 +1,373 @@
+{
+  "schema": "magento2",
+  "table_name": "catalog_product_entity",
+  "row_count": 120,
+  "primary_key": [
+    "entity_id"
+  ],
+  "foreign_keys": [
+    {
+      "name": "FK_CAT_PRD_ENTT_ATTR_SET_ID_EAV_ATTR_SET_ATTR_SET_ID",
+      "constrained_columns": [
+        "attribute_set_id"
+      ],
+      "referred_schema": "magento2",
+      "referred_table": "eav_attribute_set",
+      "referred_columns": [
+        "attribute_set_id"
+      ],
+      "options": {
+        "onupdate": "CASCADE",
+        "ondelete": "CASCADE"
+      }
+    },
+    {
+      "name": "FK_CAT_PRD_ENTT_ENTT_TYPE_ID_EAV_ENTT_TYPE_ENTT_TYPE_ID",
+      "constrained_columns": [
+        "entity_type_id"
+      ],
+      "referred_schema": "magento2",
+      "referred_table": "eav_entity_type",
+      "referred_columns": [
+        "entity_type_id"
+      ],
+      "options": {
+        "onupdate": "CASCADE",
+        "ondelete": "CASCADE"
+      }
+    }
+  ],
+  "columns": [
+    {
+      "name": "entity_id",
+      "type": "INTEGER",
+      "nullable": false,
+      "stats": {
+        "null_count": 0,
+        "distinct_count": 120,
+        "null_percentage": 0.0,
+        "numeric_stats": {
+          "avg": 98.4917,
+          "min": 16.0,
+          "max": 166.0,
+          "stddev": 44.45447031014493
+        },
+        "sample_values": [
+          "16",
+          "17",
+          "18",
+          "19",
+          "20",
+          "25",
+          "26",
+          "27",
+          "28",
+          "29",
+          "30",
+          "31",
+          "32",
+          "33",
+          "34"
+        ]
+      }
+    },
+    {
+      "name": "entity_type_id",
+      "type": "SMALLINT",
+      "nullable": false,
+      "stats": {
+        "null_count": 0,
+        "distinct_count": 1,
+        "null_percentage": 0.0,
+        "numeric_stats": {
+          "avg": 10.0,
+          "min": 10.0,
+          "max": 10.0,
+          "stddev": 0.0
+        },
+        "frequent_values": [
+          {
+            "value": "10",
+            "count": 120
+          }
+        ],
+        "sample_values": [
+          "10"
+        ]
+      }
+    },
+    {
+      "name": "attribute_set_id",
+      "type": "SMALLINT",
+      "nullable": false,
+      "stats": {
+        "null_count": 0,
+        "distinct_count": 12,
+        "null_percentage": 0.0,
+        "numeric_stats": {
+          "avg": 40.475,
+          "min": 9.0,
+          "max": 62.0,
+          "stddev": 12.265780651878625
+        },
+        "frequent_values": [
+          {
+            "value": "40",
+            "count": 47
+          },
+          {
+            "value": "41",
+            "count": 21
+          },
+          {
+            "value": "9",
+            "count": 11
+          },
+          {
+            "value": "38",
+            "count": 6
+          },
+          {
+            "value": "39",
+            "count": 6
+          }
+        ],
+        "sample_values": [
+          "9",
+          "38",
+          "39",
+          "40",
+          "41",
+          "42",
+          "44",
+          "58",
+          "59",
+          "60",
+          "61",
+          "62"
+        ]
+      }
+    },
+    {
+      "name": "type_id",
+      "type": "VARCHAR(32)",
+      "nullable": false,
+      "stats": {
+        "null_count": 0,
+        "distinct_count": 5,
+        "null_percentage": 0.0,
+        "frequent_values": [
+          {
+            "value": "simple",
+            "count": 101
+          },
+          {
+            "value": "configurable",
+            "count": 11
+          },
+          {
+            "value": "bundle",
+            "count": 4
+          },
+          {
+            "value": "virtual",
+            "count": 3
+          },
+          {
+            "value": "grouped",
+            "count": 1
+          }
+        ],
+        "sample_values": [
+          "simple",
+          "grouped",
+          "configurable",
+          "virtual",
+          "bundle"
+        ]
+      }
+    },
+    {
+      "name": "sku",
+      "type": "VARCHAR(64)",
+      "nullable": true,
+      "stats": {
+        "null_count": 0,
+        "distinct_count": 120,
+        "null_percentage": 0.0,
+        "sample_values": [
+          "1111",
+          "1112",
+          "1113",
+          "1114",
+          "1gbdimm",
+          "1tb7200",
+          "1yr_p_l",
+          "226bw",
+          "250gb5400",
+          "2gbdimm",
+          "2yr_p_l",
+          "384822",
+          "3yr_p_l",
+          "4fasd5f5",
+          "500gb5400"
+        ]
+      }
+    },
+    {
+      "name": "created_at",
+      "type": "TIMESTAMP",
+      "nullable": true,
+      "stats": {
+        "null_count": 0,
+        "distinct_count": 74,
+        "null_percentage": 0.0,
+        "sample_values": [
+          "2007-08-23 13:03:05",
+          "2007-08-23 15:40:26",
+          "2007-08-23 15:47:44",
+          "2007-08-23 15:55:29",
+          "2007-08-23 18:06:42",
+          "2007-08-24 14:28:50",
+          "2007-08-24 14:35:16",
+          "2007-08-24 14:41:56",
+          "2007-08-24 14:47:57",
+          "2007-08-24 18:53:19",
+          "2007-08-24 19:00:49",
+          "2007-08-24 19:05:50",
+          "2007-08-24 19:12:54",
+          "2007-08-24 19:21:42",
+          "2007-08-24 19:27:04"
+        ]
+      }
+    },
+    {
+      "name": "updated_at",
+      "type": "TIMESTAMP",
+      "nullable": true,
+      "stats": {
+        "null_count": 0,
+        "distinct_count": 120,
+        "null_percentage": 0.0,
+        "sample_values": [
+          "2008-08-08 14:50:04",
+          "2008-08-08 14:50:23",
+          "2008-08-08 14:50:56",
+          "2008-08-08 14:51:11",
+          "2008-08-08 14:51:27",
+          "2008-07-28 21:27:34",
+          "2008-08-05 07:14:52",
+          "2008-08-06 05:12:24",
+          "2008-08-08 14:51:44",
+          "2008-08-08 00:51:34",
+          "2008-07-31 17:23:28",
+          "2008-08-08 01:02:40",
+          "2008-07-31 18:06:25",
+          "2008-08-08 01:04:49",
+          "2008-08-08 00:58:35"
+        ]
+      }
+    },
+    {
+      "name": "has_options",
+      "type": "SMALLINT",
+      "nullable": false,
+      "stats": {
+        "null_count": 0,
+        "distinct_count": 2,
+        "null_percentage": 0.0,
+        "numeric_stats": {
+          "avg": 0.1417,
+          "min": 0.0,
+          "max": 1.0,
+          "stddev": 0.3487079325484613
+        },
+        "frequent_values": [
+          {
+            "value": "0",
+            "count": 103
+          },
+          {
+            "value": "1",
+            "count": 17
+          }
+        ],
+        "sample_values": [
+          "0",
+          "1"
+        ]
+      }
+    },
+    {
+      "name": "required_options",
+      "type": "SMALLINT",
+      "nullable": false,
+      "stats": {
+        "null_count": 0,
+        "distinct_count": 2,
+        "null_percentage": 0.0,
+        "numeric_stats": {
+          "avg": 0.1167,
+          "min": 0.0,
+          "max": 1.0,
+          "stddev": 0.3210226714043037
+        },
+        "frequent_values": [
+          {
+            "value": "0",
+            "count": 106
+          },
+          {
+            "value": "1",
+            "count": 14
+          }
+        ],
+        "sample_values": [
+          "0",
+          "1"
+        ]
+      }
+    }
+  ],
+  "sample_rows": [
+    {
+      "entity_id": 16,
+      "entity_type_id": 10,
+      "attribute_set_id": 38,
+      "type_id": "simple",
+      "sku": "n2610",
+      "created_at": "2007-08-23 13:03:05",
+      "updated_at": "2008-08-08 14:50:04",
+      "has_options": 0,
+      "required_options": 0
+    },
+    {
+      "entity_id": 17,
+      "entity_type_id": 10,
+      "attribute_set_id": 38,
+      "type_id": "simple",
+      "sku": "bb8100",
+      "created_at": "2007-08-23 15:40:26",
+      "updated_at": "2008-08-08 14:50:23",
+      "has_options": 0,
+      "required_options": 0
+    },
+    {
+      "entity_id": 18,
+      "entity_type_id": 10,
+      "attribute_set_id": 38,
+      "type_id": "simple",
+      "sku": "sw810i",
+      "created_at": "2007-08-23 15:47:44",
+      "updated_at": "2008-08-08 14:50:56",
+      "has_options": 0,
+      "required_options": 0
+    }
+  ],
+  "execution": {
+    "status": "success",
+    "seconds": 0.08,
+    "processed_at": "2026-09-13T18:56:13.767871",
+    "attempt": 1
+  }
+}

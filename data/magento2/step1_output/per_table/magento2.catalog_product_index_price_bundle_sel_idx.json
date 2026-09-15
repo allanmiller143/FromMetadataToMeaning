@@ -1,0 +1,430 @@
+{
+  "schema": "magento2",
+  "table_name": "catalog_product_index_price_bundle_sel_idx",
+  "row_count": 285,
+  "primary_key": [
+    "entity_id",
+    "customer_group_id",
+    "website_id",
+    "option_id",
+    "selection_id"
+  ],
+  "foreign_keys": [],
+  "columns": [
+    {
+      "name": "entity_id",
+      "type": "INTEGER",
+      "nullable": false,
+      "stats": {
+        "null_count": 0,
+        "distinct_count": 4,
+        "null_percentage": 0.0,
+        "numeric_stats": {
+          "avg": 163.4912,
+          "min": 158.0,
+          "max": 165.0,
+          "stddev": 1.7180446557677906
+        },
+        "frequent_values": [
+          {
+            "value": "163",
+            "count": 110
+          },
+          {
+            "value": "165",
+            "count": 85
+          },
+          {
+            "value": "164",
+            "count": 70
+          },
+          {
+            "value": "158",
+            "count": 20
+          }
+        ],
+        "sample_values": [
+          "158",
+          "163",
+          "164",
+          "165"
+        ]
+      }
+    },
+    {
+      "name": "customer_group_id",
+      "type": "SMALLINT",
+      "nullable": false,
+      "stats": {
+        "null_count": 0,
+        "distinct_count": 5,
+        "null_percentage": 0.0,
+        "numeric_stats": {
+          "avg": 2.0,
+          "min": 0.0,
+          "max": 4.0,
+          "stddev": 1.414213562373095
+        },
+        "frequent_values": [
+          {
+            "value": "0",
+            "count": 57
+          },
+          {
+            "value": "1",
+            "count": 57
+          },
+          {
+            "value": "2",
+            "count": 57
+          },
+          {
+            "value": "3",
+            "count": 57
+          },
+          {
+            "value": "4",
+            "count": 57
+          }
+        ],
+        "sample_values": [
+          "0",
+          "1",
+          "2",
+          "3",
+          "4"
+        ]
+      }
+    },
+    {
+      "name": "website_id",
+      "type": "SMALLINT",
+      "nullable": false,
+      "stats": {
+        "null_count": 0,
+        "distinct_count": 1,
+        "null_percentage": 0.0,
+        "numeric_stats": {
+          "avg": 1.0,
+          "min": 1.0,
+          "max": 1.0,
+          "stddev": 0.0
+        },
+        "frequent_values": [
+          {
+            "value": "1",
+            "count": 285
+          }
+        ],
+        "sample_values": [
+          "1"
+        ]
+      }
+    },
+    {
+      "name": "option_id",
+      "type": "INTEGER",
+      "nullable": false,
+      "stats": {
+        "null_count": 0,
+        "distinct_count": 20,
+        "null_percentage": 0.0,
+        "numeric_stats": {
+          "avg": 11.3509,
+          "min": 1.0,
+          "max": 22.0,
+          "stddev": 6.050927804949242
+        },
+        "frequent_values": [
+          {
+            "value": "20",
+            "count": 20
+          },
+          {
+            "value": "22",
+            "count": 20
+          },
+          {
+            "value": "9",
+            "count": 20
+          },
+          {
+            "value": "4",
+            "count": 20
+          },
+          {
+            "value": "5",
+            "count": 20
+          }
+        ],
+        "sample_values": [
+          "1",
+          "2",
+          "3",
+          "4",
+          "5",
+          "6",
+          "7",
+          "8",
+          "9",
+          "10",
+          "11",
+          "12",
+          "13",
+          "20",
+          "21"
+        ]
+      }
+    },
+    {
+      "name": "selection_id",
+      "type": "INTEGER",
+      "nullable": false,
+      "stats": {
+        "null_count": 0,
+        "distinct_count": 57,
+        "null_percentage": 0.0,
+        "numeric_stats": {
+          "avg": 29.7895,
+          "min": 1.0,
+          "max": 62.0,
+          "stddev": 17.660280383724476
+        },
+        "frequent_values": [
+          {
+            "value": "1",
+            "count": 5
+          },
+          {
+            "value": "2",
+            "count": 5
+          },
+          {
+            "value": "3",
+            "count": 5
+          },
+          {
+            "value": "4",
+            "count": 5
+          },
+          {
+            "value": "5",
+            "count": 5
+          }
+        ],
+        "sample_values": [
+          "1",
+          "2",
+          "3",
+          "4",
+          "5",
+          "6",
+          "7",
+          "8",
+          "9",
+          "10",
+          "11",
+          "12",
+          "13",
+          "14",
+          "15"
+        ]
+      }
+    },
+    {
+      "name": "group_type",
+      "type": "SMALLINT",
+      "nullable": true,
+      "stats": {
+        "null_count": 0,
+        "distinct_count": 2,
+        "null_percentage": 0.0,
+        "numeric_stats": {
+          "avg": 0.2632,
+          "min": 0.0,
+          "max": 1.0,
+          "stddev": 0.44034738238635546
+        },
+        "frequent_values": [
+          {
+            "value": "0",
+            "count": 210
+          },
+          {
+            "value": "1",
+            "count": 75
+          }
+        ],
+        "sample_values": [
+          "0",
+          "1"
+        ]
+      }
+    },
+    {
+      "name": "is_required",
+      "type": "SMALLINT",
+      "nullable": true,
+      "stats": {
+        "null_count": 0,
+        "distinct_count": 2,
+        "null_percentage": 0.0,
+        "numeric_stats": {
+          "avg": 0.6842,
+          "min": 0.0,
+          "max": 1.0,
+          "stddev": 0.46482951928041283
+        },
+        "frequent_values": [
+          {
+            "value": "1",
+            "count": 195
+          },
+          {
+            "value": "0",
+            "count": 90
+          }
+        ],
+        "sample_values": [
+          "0",
+          "1"
+        ]
+      }
+    },
+    {
+      "name": "price",
+      "type": "DECIMAL(12, 4)",
+      "nullable": true,
+      "stats": {
+        "null_count": 0,
+        "distinct_count": 37,
+        "null_percentage": 0.0,
+        "numeric_stats": {
+          "avg": 306.49982456,
+          "min": 0.0,
+          "max": 2699.99,
+          "stddev": 467.50647572441983
+        },
+        "frequent_values": [
+          {
+            "value": "0.0000",
+            "count": 30
+          },
+          {
+            "value": "150.0000",
+            "count": 20
+          },
+          {
+            "value": "250.0000",
+            "count": 10
+          },
+          {
+            "value": "699.9900",
+            "count": 10
+          },
+          {
+            "value": "399.9900",
+            "count": 10
+          }
+        ],
+        "sample_values": [
+          "325.0000",
+          "150.0000",
+          "250.0000",
+          "2699.9900",
+          "699.9900",
+          "399.9900",
+          "59.9900",
+          "99.9900",
+          "239.9900",
+          "79.9900",
+          "399.0000",
+          "299.0000",
+          "99.0000",
+          "150.9900",
+          "199.9900"
+        ]
+      }
+    },
+    {
+      "name": "tier_price",
+      "type": "DECIMAL(12, 4)",
+      "nullable": true,
+      "stats": {
+        "null_count": 285,
+        "distinct_count": 0,
+        "null_percentage": 100.0,
+        "numeric_stats": {
+          "avg": null,
+          "min": null,
+          "max": null,
+          "stddev": null
+        },
+        "frequent_values": [],
+        "sample_values": []
+      }
+    },
+    {
+      "name": "group_price",
+      "type": "DECIMAL(12, 4)",
+      "nullable": true,
+      "stats": {
+        "null_count": 285,
+        "distinct_count": 0,
+        "null_percentage": 100.0,
+        "numeric_stats": {
+          "avg": null,
+          "min": null,
+          "max": null,
+          "stddev": null
+        },
+        "frequent_values": [],
+        "sample_values": []
+      }
+    }
+  ],
+  "sample_rows": [
+    {
+      "entity_id": 158,
+      "customer_group_id": 0,
+      "website_id": 1,
+      "option_id": 1,
+      "selection_id": 1,
+      "group_type": 0,
+      "is_required": 0,
+      "price": 325.0,
+      "tier_price": null,
+      "group_price": null
+    },
+    {
+      "entity_id": 158,
+      "customer_group_id": 0,
+      "website_id": 1,
+      "option_id": 1,
+      "selection_id": 2,
+      "group_type": 0,
+      "is_required": 0,
+      "price": 150.0,
+      "tier_price": null,
+      "group_price": null
+    },
+    {
+      "entity_id": 158,
+      "customer_group_id": 0,
+      "website_id": 1,
+      "option_id": 1,
+      "selection_id": 3,
+      "group_type": 0,
+      "is_required": 0,
+      "price": 250.0,
+      "tier_price": null,
+      "group_price": null
+    }
+  ],
+  "execution": {
+    "status": "success",
+    "seconds": 0.09,
+    "processed_at": "2026-09-13T18:56:15.815393",
+    "attempt": 1
+  }
+}

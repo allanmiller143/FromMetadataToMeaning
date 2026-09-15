@@ -1,0 +1,327 @@
+{
+  "schema": "magento2",
+  "table_name": "catalog_product_entity_decimal",
+  "row_count": 412,
+  "primary_key": [
+    "value_id"
+  ],
+  "foreign_keys": [
+    {
+      "name": "catalog_product_entity_decimal_ibfk_1",
+      "constrained_columns": [
+        "store_id"
+      ],
+      "referred_schema": "magento2",
+      "referred_table": "store",
+      "referred_columns": [
+        "store_id"
+      ],
+      "options": {
+        "onupdate": "CASCADE",
+        "ondelete": "CASCADE"
+      }
+    },
+    {
+      "name": "catalog_product_entity_decimal_ibfk_2",
+      "constrained_columns": [
+        "attribute_id"
+      ],
+      "referred_schema": "magento2",
+      "referred_table": "eav_attribute",
+      "referred_columns": [
+        "attribute_id"
+      ],
+      "options": {
+        "onupdate": "CASCADE",
+        "ondelete": "CASCADE"
+      }
+    },
+    {
+      "name": "catalog_product_entity_decimal_ibfk_3",
+      "constrained_columns": [
+        "entity_id"
+      ],
+      "referred_schema": "magento2",
+      "referred_table": "catalog_product_entity",
+      "referred_columns": [
+        "entity_id"
+      ],
+      "options": {
+        "onupdate": "CASCADE",
+        "ondelete": "CASCADE"
+      }
+    }
+  ],
+  "columns": [
+    {
+      "name": "value_id",
+      "type": "INTEGER",
+      "nullable": false,
+      "stats": {
+        "null_count": 0,
+        "distinct_count": 412,
+        "null_percentage": 0.0,
+        "numeric_stats": {
+          "avg": 206.5,
+          "min": 1.0,
+          "max": 412.0,
+          "stddev": 118.93380511864568
+        },
+        "sample_values": [
+          "2",
+          "5",
+          "8",
+          "11",
+          "14",
+          "17",
+          "20",
+          "23",
+          "26",
+          "29",
+          "32",
+          "35",
+          "38",
+          "41",
+          "44"
+        ]
+      }
+    },
+    {
+      "name": "entity_type_id",
+      "type": "SMALLINT",
+      "nullable": false,
+      "stats": {
+        "null_count": 0,
+        "distinct_count": 1,
+        "null_percentage": 0.0,
+        "numeric_stats": {
+          "avg": 10.0,
+          "min": 10.0,
+          "max": 10.0,
+          "stddev": 0.0
+        },
+        "frequent_values": [
+          {
+            "value": "10",
+            "count": 412
+          }
+        ],
+        "sample_values": [
+          "10"
+        ]
+      }
+    },
+    {
+      "name": "attribute_id",
+      "type": "SMALLINT",
+      "nullable": false,
+      "stats": {
+        "null_count": 0,
+        "distinct_count": 5,
+        "null_percentage": 0.0,
+        "numeric_stats": {
+          "avg": 190.2937,
+          "min": 99.0,
+          "max": 567.0,
+          "stddev": 168.47548483177465
+        },
+        "frequent_values": [
+          {
+            "value": "99",
+            "count": 117
+          },
+          {
+            "value": "101",
+            "count": 114
+          },
+          {
+            "value": "503",
+            "count": 90
+          },
+          {
+            "value": "100",
+            "count": 89
+          },
+          {
+            "value": "567",
+            "count": 2
+          }
+        ],
+        "sample_values": [
+          "99",
+          "100",
+          "101",
+          "503",
+          "567"
+        ]
+      }
+    },
+    {
+      "name": "store_id",
+      "type": "SMALLINT",
+      "nullable": false,
+      "stats": {
+        "null_count": 0,
+        "distinct_count": 1,
+        "null_percentage": 0.0,
+        "numeric_stats": {
+          "avg": 0.0,
+          "min": 0.0,
+          "max": 0.0,
+          "stddev": 0.0
+        },
+        "frequent_values": [
+          {
+            "value": "0",
+            "count": 412
+          }
+        ],
+        "sample_values": [
+          "0"
+        ]
+      }
+    },
+    {
+      "name": "entity_id",
+      "type": "INTEGER",
+      "nullable": false,
+      "stats": {
+        "null_count": 0,
+        "distinct_count": 118,
+        "null_percentage": 0.0,
+        "numeric_stats": {
+          "avg": 90.1626,
+          "min": 16.0,
+          "max": 166.0,
+          "stddev": 42.066062941293936
+        },
+        "frequent_values": [
+          {
+            "value": "16",
+            "count": 4
+          },
+          {
+            "value": "17",
+            "count": 4
+          },
+          {
+            "value": "18",
+            "count": 4
+          },
+          {
+            "value": "19",
+            "count": 4
+          },
+          {
+            "value": "20",
+            "count": 4
+          }
+        ],
+        "sample_values": [
+          "16",
+          "17",
+          "18",
+          "19",
+          "20",
+          "25",
+          "26",
+          "27",
+          "28",
+          "29",
+          "30",
+          "31",
+          "32",
+          "33",
+          "34"
+        ]
+      }
+    },
+    {
+      "name": "value",
+      "type": "DECIMAL(12, 4)",
+      "nullable": true,
+      "stats": {
+        "null_count": 2,
+        "distinct_count": 80,
+        "null_percentage": 0.49,
+        "numeric_stats": {
+          "avg": 150.4475122,
+          "min": 0.3,
+          "max": 4999.95,
+          "stddev": 442.6553454018546
+        },
+        "frequent_values": [
+          {
+            "value": "2.0000",
+            "count": 48
+          },
+          {
+            "value": "1.0000",
+            "count": 42
+          },
+          {
+            "value": "29.9900",
+            "count": 35
+          },
+          {
+            "value": "15.9900",
+            "count": 21
+          },
+          {
+            "value": "41.9500",
+            "count": 16
+          }
+        ],
+        "sample_values": [
+          "3.2000",
+          "149.9900",
+          "20.0000",
+          "15.2000",
+          "349.9900",
+          "29.9900",
+          "13.6000",
+          "399.9900",
+          "1.0000",
+          "150.0000",
+          "10.6000",
+          "2299.9900",
+          "1299.9900",
+          "11.4000",
+          "1799.9900"
+        ]
+      }
+    }
+  ],
+  "sample_rows": [
+    {
+      "value_id": 1,
+      "entity_type_id": 10,
+      "attribute_id": 101,
+      "store_id": 0,
+      "entity_id": 16,
+      "value": 3.2
+    },
+    {
+      "value_id": 2,
+      "entity_type_id": 10,
+      "attribute_id": 99,
+      "store_id": 0,
+      "entity_id": 16,
+      "value": 149.99
+    },
+    {
+      "value_id": 3,
+      "entity_type_id": 10,
+      "attribute_id": 100,
+      "store_id": 0,
+      "entity_id": 16,
+      "value": 20.0
+    }
+  ],
+  "execution": {
+    "status": "success",
+    "seconds": 0.04,
+    "processed_at": "2026-09-13T18:56:13.969476",
+    "attempt": 1
+  }
+}

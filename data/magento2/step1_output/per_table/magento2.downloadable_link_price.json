@@ -1,0 +1,69 @@
+{
+  "schema": "magento2",
+  "table_name": "downloadable_link_price",
+  "row_count": 0,
+  "primary_key": [
+    "price_id"
+  ],
+  "foreign_keys": [
+    {
+      "name": "FK_DOWNLOADABLE_LINK_PRICE_LINK_ID_DOWNLOADABLE_LINK_LINK_ID",
+      "constrained_columns": [
+        "link_id"
+      ],
+      "referred_schema": "magento2",
+      "referred_table": "downloadable_link",
+      "referred_columns": [
+        "link_id"
+      ],
+      "options": {
+        "onupdate": "CASCADE",
+        "ondelete": "CASCADE"
+      }
+    },
+    {
+      "name": "FK_DOWNLOADABLE_LINK_PRICE_WEBSITE_ID_STORE_WEBSITE_WEBSITE_ID",
+      "constrained_columns": [
+        "website_id"
+      ],
+      "referred_schema": "magento2",
+      "referred_table": "store_website",
+      "referred_columns": [
+        "website_id"
+      ],
+      "options": {
+        "onupdate": "CASCADE",
+        "ondelete": "CASCADE"
+      }
+    }
+  ],
+  "columns": [
+    {
+      "name": "price_id",
+      "type": "INTEGER",
+      "nullable": false
+    },
+    {
+      "name": "link_id",
+      "type": "INTEGER",
+      "nullable": false
+    },
+    {
+      "name": "website_id",
+      "type": "SMALLINT",
+      "nullable": false
+    },
+    {
+      "name": "price",
+      "type": "DECIMAL(12, 4)",
+      "nullable": false
+    }
+  ],
+  "sample_rows": [],
+  "execution": {
+    "status": "success",
+    "seconds": 0.01,
+    "processed_at": "2026-09-13T18:56:26.809292",
+    "attempt": 1
+  }
+}

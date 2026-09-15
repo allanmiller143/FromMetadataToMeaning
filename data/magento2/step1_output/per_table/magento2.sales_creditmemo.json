@@ -1,0 +1,289 @@
+{
+  "schema": "magento2",
+  "table_name": "sales_creditmemo",
+  "row_count": 0,
+  "primary_key": [
+    "entity_id"
+  ],
+  "foreign_keys": [
+    {
+      "name": "sales_creditmemo_ibfk_1",
+      "constrained_columns": [
+        "order_id"
+      ],
+      "referred_schema": "magento2",
+      "referred_table": "sales_order",
+      "referred_columns": [
+        "entity_id"
+      ],
+      "options": {
+        "onupdate": "CASCADE",
+        "ondelete": "CASCADE"
+      }
+    },
+    {
+      "name": "sales_creditmemo_ibfk_2",
+      "constrained_columns": [
+        "store_id"
+      ],
+      "referred_schema": "magento2",
+      "referred_table": "store",
+      "referred_columns": [
+        "store_id"
+      ],
+      "options": {
+        "onupdate": "CASCADE",
+        "ondelete": "SET NULL"
+      }
+    }
+  ],
+  "columns": [
+    {
+      "name": "entity_id",
+      "type": "INTEGER",
+      "nullable": false
+    },
+    {
+      "name": "store_id",
+      "type": "SMALLINT",
+      "nullable": true
+    },
+    {
+      "name": "adjustment_positive",
+      "type": "DECIMAL(12, 4)",
+      "nullable": true
+    },
+    {
+      "name": "base_shipping_tax_amount",
+      "type": "DECIMAL(12, 4)",
+      "nullable": true
+    },
+    {
+      "name": "store_to_order_rate",
+      "type": "DECIMAL(12, 4)",
+      "nullable": true
+    },
+    {
+      "name": "base_discount_amount",
+      "type": "DECIMAL(12, 4)",
+      "nullable": true
+    },
+    {
+      "name": "base_to_order_rate",
+      "type": "DECIMAL(12, 4)",
+      "nullable": true
+    },
+    {
+      "name": "grand_total",
+      "type": "DECIMAL(12, 4)",
+      "nullable": true
+    },
+    {
+      "name": "base_adjustment_negative",
+      "type": "DECIMAL(12, 4)",
+      "nullable": true
+    },
+    {
+      "name": "base_subtotal_incl_tax",
+      "type": "DECIMAL(12, 4)",
+      "nullable": true
+    },
+    {
+      "name": "shipping_amount",
+      "type": "DECIMAL(12, 4)",
+      "nullable": true
+    },
+    {
+      "name": "subtotal_incl_tax",
+      "type": "DECIMAL(12, 4)",
+      "nullable": true
+    },
+    {
+      "name": "adjustment_negative",
+      "type": "DECIMAL(12, 4)",
+      "nullable": true
+    },
+    {
+      "name": "base_shipping_amount",
+      "type": "DECIMAL(12, 4)",
+      "nullable": true
+    },
+    {
+      "name": "store_to_base_rate",
+      "type": "DECIMAL(12, 4)",
+      "nullable": true
+    },
+    {
+      "name": "base_to_global_rate",
+      "type": "DECIMAL(12, 4)",
+      "nullable": true
+    },
+    {
+      "name": "base_adjustment",
+      "type": "DECIMAL(12, 4)",
+      "nullable": true
+    },
+    {
+      "name": "base_subtotal",
+      "type": "DECIMAL(12, 4)",
+      "nullable": true
+    },
+    {
+      "name": "discount_amount",
+      "type": "DECIMAL(12, 4)",
+      "nullable": true
+    },
+    {
+      "name": "subtotal",
+      "type": "DECIMAL(12, 4)",
+      "nullable": true
+    },
+    {
+      "name": "adjustment",
+      "type": "DECIMAL(12, 4)",
+      "nullable": true
+    },
+    {
+      "name": "base_grand_total",
+      "type": "DECIMAL(12, 4)",
+      "nullable": true
+    },
+    {
+      "name": "base_adjustment_positive",
+      "type": "DECIMAL(12, 4)",
+      "nullable": true
+    },
+    {
+      "name": "base_tax_amount",
+      "type": "DECIMAL(12, 4)",
+      "nullable": true
+    },
+    {
+      "name": "shipping_tax_amount",
+      "type": "DECIMAL(12, 4)",
+      "nullable": true
+    },
+    {
+      "name": "tax_amount",
+      "type": "DECIMAL(12, 4)",
+      "nullable": true
+    },
+    {
+      "name": "order_id",
+      "type": "INTEGER",
+      "nullable": false
+    },
+    {
+      "name": "email_sent",
+      "type": "SMALLINT",
+      "nullable": true
+    },
+    {
+      "name": "creditmemo_status",
+      "type": "INTEGER",
+      "nullable": true
+    },
+    {
+      "name": "state",
+      "type": "INTEGER",
+      "nullable": true
+    },
+    {
+      "name": "shipping_address_id",
+      "type": "INTEGER",
+      "nullable": true
+    },
+    {
+      "name": "billing_address_id",
+      "type": "INTEGER",
+      "nullable": true
+    },
+    {
+      "name": "invoice_id",
+      "type": "INTEGER",
+      "nullable": true
+    },
+    {
+      "name": "store_currency_code",
+      "type": "VARCHAR(3)",
+      "nullable": true
+    },
+    {
+      "name": "order_currency_code",
+      "type": "VARCHAR(3)",
+      "nullable": true
+    },
+    {
+      "name": "base_currency_code",
+      "type": "VARCHAR(3)",
+      "nullable": true
+    },
+    {
+      "name": "global_currency_code",
+      "type": "VARCHAR(3)",
+      "nullable": true
+    },
+    {
+      "name": "transaction_id",
+      "type": "VARCHAR(255)",
+      "nullable": true
+    },
+    {
+      "name": "increment_id",
+      "type": "VARCHAR(50)",
+      "nullable": true
+    },
+    {
+      "name": "created_at",
+      "type": "TIMESTAMP",
+      "nullable": true
+    },
+    {
+      "name": "updated_at",
+      "type": "TIMESTAMP",
+      "nullable": true
+    },
+    {
+      "name": "hidden_tax_amount",
+      "type": "DECIMAL(12, 4)",
+      "nullable": true
+    },
+    {
+      "name": "base_hidden_tax_amount",
+      "type": "DECIMAL(12, 4)",
+      "nullable": true
+    },
+    {
+      "name": "shipping_hidden_tax_amount",
+      "type": "DECIMAL(12, 4)",
+      "nullable": true
+    },
+    {
+      "name": "base_shipping_hidden_tax_amnt",
+      "type": "DECIMAL(12, 4)",
+      "nullable": true
+    },
+    {
+      "name": "shipping_incl_tax",
+      "type": "DECIMAL(12, 4)",
+      "nullable": true
+    },
+    {
+      "name": "base_shipping_incl_tax",
+      "type": "DECIMAL(12, 4)",
+      "nullable": true
+    },
+    {
+      "name": "discount_description",
+      "type": "VARCHAR(255)",
+      "nullable": true
+    }
+  ],
+  "sample_rows": [],
+  "execution": {
+    "status": "success",
+    "seconds": 0.01,
+    "processed_at": "2026-09-13T18:56:38.948324",
+    "attempt": 1
+  }
+}

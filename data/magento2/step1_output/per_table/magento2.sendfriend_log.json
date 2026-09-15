@@ -1,0 +1,38 @@
+{
+  "schema": "magento2",
+  "table_name": "sendfriend_log",
+  "row_count": 0,
+  "primary_key": [
+    "log_id"
+  ],
+  "foreign_keys": [],
+  "columns": [
+    {
+      "name": "log_id",
+      "type": "INTEGER",
+      "nullable": false
+    },
+    {
+      "name": "ip",
+      "type": "BIGINT",
+      "nullable": false
+    },
+    {
+      "name": "time",
+      "type": "INTEGER",
+      "nullable": false
+    },
+    {
+      "name": "website_id",
+      "type": "SMALLINT",
+      "nullable": false
+    }
+  ],
+  "sample_rows": [],
+  "execution": {
+    "status": "success",
+    "seconds": 0.01,
+    "processed_at": "2026-09-13T18:56:47.940886",
+    "attempt": 1
+  }
+}

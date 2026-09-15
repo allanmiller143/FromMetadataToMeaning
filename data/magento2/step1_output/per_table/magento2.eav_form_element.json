@@ -1,0 +1,317 @@
+{
+  "schema": "magento2",
+  "table_name": "eav_form_element",
+  "row_count": 68,
+  "primary_key": [
+    "element_id"
+  ],
+  "foreign_keys": [
+    {
+      "name": "eav_form_element_ibfk_1",
+      "constrained_columns": [
+        "attribute_id"
+      ],
+      "referred_schema": "magento2",
+      "referred_table": "eav_attribute",
+      "referred_columns": [
+        "attribute_id"
+      ],
+      "options": {
+        "onupdate": "CASCADE",
+        "ondelete": "CASCADE"
+      }
+    },
+    {
+      "name": "eav_form_element_ibfk_2",
+      "constrained_columns": [
+        "fieldset_id"
+      ],
+      "referred_schema": "magento2",
+      "referred_table": "eav_form_fieldset",
+      "referred_columns": [
+        "fieldset_id"
+      ],
+      "options": {
+        "onupdate": "CASCADE",
+        "ondelete": "SET NULL"
+      }
+    },
+    {
+      "name": "eav_form_element_ibfk_3",
+      "constrained_columns": [
+        "type_id"
+      ],
+      "referred_schema": "magento2",
+      "referred_table": "eav_form_type",
+      "referred_columns": [
+        "type_id"
+      ],
+      "options": {
+        "onupdate": "CASCADE",
+        "ondelete": "CASCADE"
+      }
+    }
+  ],
+  "columns": [
+    {
+      "name": "element_id",
+      "type": "INTEGER",
+      "nullable": false,
+      "stats": {
+        "null_count": 0,
+        "distinct_count": 68,
+        "null_percentage": 0.0,
+        "numeric_stats": {
+          "avg": 34.5,
+          "min": 1.0,
+          "max": 68.0,
+          "stddev": 19.627786426390518
+        },
+        "sample_values": [
+          "1",
+          "4",
+          "59",
+          "2",
+          "5",
+          "60",
+          "3",
+          "6",
+          "20",
+          "31",
+          "61",
+          "7",
+          "17",
+          "28",
+          "39"
+        ]
+      }
+    },
+    {
+      "name": "type_id",
+      "type": "SMALLINT",
+      "nullable": false,
+      "stats": {
+        "null_count": 0,
+        "distinct_count": 8,
+        "null_percentage": 0.0,
+        "numeric_stats": {
+          "avg": 5.1176,
+          "min": 1.0,
+          "max": 8.0,
+          "stddev": 1.974316052569225
+        },
+        "frequent_values": [
+          {
+            "value": "4",
+            "count": 11
+          },
+          {
+            "value": "5",
+            "count": 11
+          },
+          {
+            "value": "3",
+            "count": 10
+          },
+          {
+            "value": "6",
+            "count": 10
+          },
+          {
+            "value": "7",
+            "count": 10
+          }
+        ],
+        "sample_values": [
+          "1",
+          "2",
+          "3",
+          "4",
+          "5",
+          "6",
+          "7",
+          "8"
+        ]
+      }
+    },
+    {
+      "name": "fieldset_id",
+      "type": "SMALLINT",
+      "nullable": true,
+      "stats": {
+        "null_count": 42,
+        "distinct_count": 6,
+        "null_percentage": 61.76,
+        "numeric_stats": {
+          "avg": 3.8846,
+          "min": 1.0,
+          "max": 6.0,
+          "stddev": 1.6944915978392832
+        },
+        "frequent_values": [
+          {
+            "value": "6",
+            "count": 7
+          },
+          {
+            "value": "3",
+            "count": 5
+          },
+          {
+            "value": "4",
+            "count": 5
+          },
+          {
+            "value": "1",
+            "count": 3
+          },
+          {
+            "value": "2",
+            "count": 3
+          }
+        ],
+        "sample_values": [
+          "1",
+          "2",
+          "3",
+          "4",
+          "5",
+          "6"
+        ]
+      }
+    },
+    {
+      "name": "attribute_id",
+      "type": "SMALLINT",
+      "nullable": false,
+      "stats": {
+        "null_count": 0,
+        "distinct_count": 13,
+        "null_percentage": 0.0,
+        "numeric_stats": {
+          "avg": 18.9559,
+          "min": 1.0,
+          "max": 95.0,
+          "stddev": 24.158443794549232
+        },
+        "frequent_values": [
+          {
+            "value": "11",
+            "count": 6
+          },
+          {
+            "value": "12",
+            "count": 6
+          },
+          {
+            "value": "14",
+            "count": 6
+          },
+          {
+            "value": "15",
+            "count": 6
+          },
+          {
+            "value": "16",
+            "count": 6
+          }
+        ],
+        "sample_values": [
+          "1",
+          "2",
+          "3",
+          "9",
+          "10",
+          "11",
+          "12",
+          "14",
+          "15",
+          "16",
+          "17",
+          "18",
+          "95"
+        ]
+      }
+    },
+    {
+      "name": "sort_order",
+      "type": "INTEGER",
+      "nullable": false,
+      "stats": {
+        "null_count": 0,
+        "distinct_count": 11,
+        "null_percentage": 0.0,
+        "numeric_stats": {
+          "avg": 3.6765,
+          "min": 0.0,
+          "max": 10.0,
+          "stddev": 2.9377921705543164
+        },
+        "frequent_values": [
+          {
+            "value": "0",
+            "count": 10
+          },
+          {
+            "value": "1",
+            "count": 10
+          },
+          {
+            "value": "2",
+            "count": 10
+          },
+          {
+            "value": "3",
+            "count": 7
+          },
+          {
+            "value": "4",
+            "count": 7
+          }
+        ],
+        "sample_values": [
+          "0",
+          "1",
+          "2",
+          "3",
+          "4",
+          "5",
+          "6",
+          "7",
+          "8",
+          "9",
+          "10"
+        ]
+      }
+    }
+  ],
+  "sample_rows": [
+    {
+      "element_id": 1,
+      "type_id": 1,
+      "fieldset_id": 1,
+      "attribute_id": 1,
+      "sort_order": 0
+    },
+    {
+      "element_id": 2,
+      "type_id": 1,
+      "fieldset_id": 1,
+      "attribute_id": 2,
+      "sort_order": 1
+    },
+    {
+      "element_id": 3,
+      "type_id": 1,
+      "fieldset_id": 1,
+      "attribute_id": 3,
+      "sort_order": 2
+    }
+  ],
+  "execution": {
+    "status": "success",
+    "seconds": 0.03,
+    "processed_at": "2026-09-13T18:56:29.780229",
+    "attempt": 1
+  }
+}

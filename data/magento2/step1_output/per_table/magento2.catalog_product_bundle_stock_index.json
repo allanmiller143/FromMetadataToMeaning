@@ -1,0 +1,46 @@
+{
+  "schema": "magento2",
+  "table_name": "catalog_product_bundle_stock_index",
+  "row_count": 0,
+  "primary_key": [
+    "entity_id",
+    "website_id",
+    "stock_id",
+    "option_id"
+  ],
+  "foreign_keys": [],
+  "columns": [
+    {
+      "name": "entity_id",
+      "type": "INTEGER",
+      "nullable": false
+    },
+    {
+      "name": "website_id",
+      "type": "SMALLINT",
+      "nullable": false
+    },
+    {
+      "name": "stock_id",
+      "type": "SMALLINT",
+      "nullable": false
+    },
+    {
+      "name": "option_id",
+      "type": "INTEGER",
+      "nullable": false
+    },
+    {
+      "name": "stock_status",
+      "type": "SMALLINT",
+      "nullable": true
+    }
+  ],
+  "sample_rows": [],
+  "execution": {
+    "status": "success",
+    "seconds": 0.01,
+    "processed_at": "2026-09-13T18:56:13.644364",
+    "attempt": 1
+  }
+}

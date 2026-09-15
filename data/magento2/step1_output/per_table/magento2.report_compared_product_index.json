@@ -1,0 +1,94 @@
+{
+  "schema": "magento2",
+  "table_name": "report_compared_product_index",
+  "row_count": 0,
+  "primary_key": [
+    "index_id"
+  ],
+  "foreign_keys": [
+    {
+      "name": "FK_REPORT_CMPD_PRD_IDX_CSTR_ID_CSTR_ENTT_ENTT_ID",
+      "constrained_columns": [
+        "customer_id"
+      ],
+      "referred_schema": "magento2",
+      "referred_table": "customer_entity",
+      "referred_columns": [
+        "entity_id"
+      ],
+      "options": {
+        "onupdate": "CASCADE",
+        "ondelete": "CASCADE"
+      }
+    },
+    {
+      "name": "FK_REPORT_CMPD_PRD_IDX_PRD_ID_CAT_PRD_ENTT_ENTT_ID",
+      "constrained_columns": [
+        "product_id"
+      ],
+      "referred_schema": "magento2",
+      "referred_table": "catalog_product_entity",
+      "referred_columns": [
+        "entity_id"
+      ],
+      "options": {
+        "onupdate": "CASCADE",
+        "ondelete": "CASCADE"
+      }
+    },
+    {
+      "name": "FK_REPORT_COMPARED_PRODUCT_INDEX_STORE_ID_STORE_STORE_ID",
+      "constrained_columns": [
+        "store_id"
+      ],
+      "referred_schema": "magento2",
+      "referred_table": "store",
+      "referred_columns": [
+        "store_id"
+      ],
+      "options": {
+        "onupdate": "CASCADE",
+        "ondelete": "SET NULL"
+      }
+    }
+  ],
+  "columns": [
+    {
+      "name": "index_id",
+      "type": "BIGINT",
+      "nullable": false
+    },
+    {
+      "name": "visitor_id",
+      "type": "INTEGER",
+      "nullable": true
+    },
+    {
+      "name": "customer_id",
+      "type": "INTEGER",
+      "nullable": true
+    },
+    {
+      "name": "product_id",
+      "type": "INTEGER",
+      "nullable": false
+    },
+    {
+      "name": "store_id",
+      "type": "SMALLINT",
+      "nullable": true
+    },
+    {
+      "name": "added_at",
+      "type": "TIMESTAMP",
+      "nullable": false
+    }
+  ],
+  "sample_rows": [],
+  "execution": {
+    "status": "success",
+    "seconds": 0.01,
+    "processed_at": "2026-09-13T18:56:35.690249",
+    "attempt": 1
+  }
+}

@@ -1,0 +1,53 @@
+{
+  "schema": "magento2",
+  "table_name": "log_visitor_online",
+  "row_count": 0,
+  "primary_key": [
+    "visitor_id"
+  ],
+  "foreign_keys": [],
+  "columns": [
+    {
+      "name": "visitor_id",
+      "type": "BIGINT",
+      "nullable": false
+    },
+    {
+      "name": "visitor_type",
+      "type": "VARCHAR(1)",
+      "nullable": false
+    },
+    {
+      "name": "remote_addr",
+      "type": "BIGINT",
+      "nullable": false
+    },
+    {
+      "name": "first_visit_at",
+      "type": "TIMESTAMP",
+      "nullable": true
+    },
+    {
+      "name": "last_visit_at",
+      "type": "TIMESTAMP",
+      "nullable": true
+    },
+    {
+      "name": "customer_id",
+      "type": "INTEGER",
+      "nullable": true
+    },
+    {
+      "name": "last_url",
+      "type": "VARCHAR(255)",
+      "nullable": true
+    }
+  ],
+  "sample_rows": [],
+  "execution": {
+    "status": "success",
+    "seconds": 0.01,
+    "processed_at": "2026-09-13T18:56:32.756438",
+    "attempt": 1
+  }
+}

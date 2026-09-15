@@ -1,0 +1,84 @@
+{
+  "schema": "magento2",
+  "table_name": "integration",
+  "row_count": 0,
+  "primary_key": [
+    "integration_id"
+  ],
+  "foreign_keys": [
+    {
+      "name": "FK_INTEGRATION_CONSUMER_ID_OAUTH_CONSUMER_ENTITY_ID",
+      "constrained_columns": [
+        "consumer_id"
+      ],
+      "referred_schema": "magento2",
+      "referred_table": "oauth_consumer",
+      "referred_columns": [
+        "entity_id"
+      ],
+      "options": {
+        "onupdate": "CASCADE",
+        "ondelete": "CASCADE"
+      }
+    }
+  ],
+  "columns": [
+    {
+      "name": "integration_id",
+      "type": "INTEGER",
+      "nullable": false
+    },
+    {
+      "name": "name",
+      "type": "VARCHAR(255)",
+      "nullable": false
+    },
+    {
+      "name": "email",
+      "type": "VARCHAR(255)",
+      "nullable": false
+    },
+    {
+      "name": "endpoint",
+      "type": "VARCHAR(255)",
+      "nullable": true
+    },
+    {
+      "name": "status",
+      "type": "SMALLINT",
+      "nullable": false
+    },
+    {
+      "name": "consumer_id",
+      "type": "INTEGER",
+      "nullable": true
+    },
+    {
+      "name": "created_at",
+      "type": "TIMESTAMP",
+      "nullable": false
+    },
+    {
+      "name": "updated_at",
+      "type": "TIMESTAMP",
+      "nullable": false
+    },
+    {
+      "name": "setup_type",
+      "type": "SMALLINT",
+      "nullable": false
+    },
+    {
+      "name": "identity_link_url",
+      "type": "VARCHAR(255)",
+      "nullable": true
+    }
+  ],
+  "sample_rows": [],
+  "execution": {
+    "status": "success",
+    "seconds": 0.01,
+    "processed_at": "2026-09-13T18:56:31.579894",
+    "attempt": 1
+  }
+}

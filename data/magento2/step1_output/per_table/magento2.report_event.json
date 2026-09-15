@@ -1,0 +1,197 @@
+{
+  "schema": "magento2",
+  "table_name": "report_event",
+  "row_count": 2,
+  "primary_key": [
+    "event_id"
+  ],
+  "foreign_keys": [
+    {
+      "name": "FK_REPORT_EVENT_EVENT_TYPE_ID_REPORT_EVENT_TYPES_EVENT_TYPE_ID",
+      "constrained_columns": [
+        "event_type_id"
+      ],
+      "referred_schema": "magento2",
+      "referred_table": "report_event_types",
+      "referred_columns": [
+        "event_type_id"
+      ],
+      "options": {
+        "onupdate": "CASCADE",
+        "ondelete": "CASCADE"
+      }
+    },
+    {
+      "name": "FK_REPORT_EVENT_STORE_ID_STORE_STORE_ID",
+      "constrained_columns": [
+        "store_id"
+      ],
+      "referred_schema": "magento2",
+      "referred_table": "store",
+      "referred_columns": [
+        "store_id"
+      ],
+      "options": {
+        "onupdate": "CASCADE",
+        "ondelete": "CASCADE"
+      }
+    }
+  ],
+  "columns": [
+    {
+      "name": "event_id",
+      "type": "BIGINT",
+      "nullable": false,
+      "stats": {
+        "null_count": 0,
+        "distinct_count": 2,
+        "null_percentage": 0.0,
+        "numeric_stats": {
+          "avg": 1.5,
+          "min": 1.0,
+          "max": 2.0,
+          "stddev": 0.5
+        },
+        "sample_values": [
+          "1",
+          "2"
+        ]
+      }
+    },
+    {
+      "name": "logged_at",
+      "type": "TIMESTAMP",
+      "nullable": false,
+      "stats": {
+        "null_count": 0,
+        "distinct_count": 2,
+        "null_percentage": 0.0,
+        "sample_values": [
+          "2014-09-22 13:23:20",
+          "2014-09-22 13:27:31"
+        ]
+      }
+    },
+    {
+      "name": "event_type_id",
+      "type": "SMALLINT",
+      "nullable": false,
+      "stats": {
+        "null_count": 0,
+        "distinct_count": 1,
+        "null_percentage": 0.0,
+        "numeric_stats": {
+          "avg": 1.0,
+          "min": 1.0,
+          "max": 1.0,
+          "stddev": 0.0
+        },
+        "sample_values": [
+          "1"
+        ]
+      }
+    },
+    {
+      "name": "object_id",
+      "type": "INTEGER",
+      "nullable": false,
+      "stats": {
+        "null_count": 0,
+        "distinct_count": 1,
+        "null_percentage": 0.0,
+        "numeric_stats": {
+          "avg": 41.0,
+          "min": 41.0,
+          "max": 41.0,
+          "stddev": 0.0
+        },
+        "sample_values": [
+          "41"
+        ]
+      }
+    },
+    {
+      "name": "subject_id",
+      "type": "INTEGER",
+      "nullable": false,
+      "stats": {
+        "null_count": 0,
+        "distinct_count": 1,
+        "null_percentage": 0.0,
+        "numeric_stats": {
+          "avg": 5.0,
+          "min": 5.0,
+          "max": 5.0,
+          "stddev": 0.0
+        },
+        "sample_values": [
+          "5"
+        ]
+      }
+    },
+    {
+      "name": "subtype",
+      "type": "SMALLINT",
+      "nullable": false,
+      "stats": {
+        "null_count": 0,
+        "distinct_count": 1,
+        "null_percentage": 0.0,
+        "numeric_stats": {
+          "avg": 1.0,
+          "min": 1.0,
+          "max": 1.0,
+          "stddev": 0.0
+        },
+        "sample_values": [
+          "1"
+        ]
+      }
+    },
+    {
+      "name": "store_id",
+      "type": "SMALLINT",
+      "nullable": false,
+      "stats": {
+        "null_count": 0,
+        "distinct_count": 1,
+        "null_percentage": 0.0,
+        "numeric_stats": {
+          "avg": 1.0,
+          "min": 1.0,
+          "max": 1.0,
+          "stddev": 0.0
+        },
+        "sample_values": [
+          "1"
+        ]
+      }
+    }
+  ],
+  "sample_rows": [
+    {
+      "event_id": 1,
+      "logged_at": "2014-09-22 13:23:20",
+      "event_type_id": 1,
+      "object_id": 41,
+      "subject_id": 5,
+      "subtype": 1,
+      "store_id": 1
+    },
+    {
+      "event_id": 2,
+      "logged_at": "2014-09-22 13:27:31",
+      "event_type_id": 1,
+      "object_id": 41,
+      "subject_id": 5,
+      "subtype": 1,
+      "store_id": 1
+    }
+  ],
+  "execution": {
+    "status": "success",
+    "seconds": 0.04,
+    "processed_at": "2026-09-13T18:56:35.864070",
+    "attempt": 1
+  }
+}

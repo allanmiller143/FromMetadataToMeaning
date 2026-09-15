@@ -1,0 +1,98 @@
+{
+  "schema": "magento2",
+  "table_name": "salesrule_product_attribute",
+  "row_count": 0,
+  "primary_key": [
+    "rule_id",
+    "website_id",
+    "customer_group_id",
+    "attribute_id"
+  ],
+  "foreign_keys": [
+    {
+      "name": "FK_SALESRULE_PRD_ATTR_ATTR_ID_EAV_ATTR_ATTR_ID",
+      "constrained_columns": [
+        "attribute_id"
+      ],
+      "referred_schema": "magento2",
+      "referred_table": "eav_attribute",
+      "referred_columns": [
+        "attribute_id"
+      ],
+      "options": {
+        "ondelete": "CASCADE"
+      }
+    },
+    {
+      "name": "FK_SALESRULE_PRD_ATTR_CSTR_GROUP_ID_CSTR_GROUP_CSTR_GROUP_ID",
+      "constrained_columns": [
+        "customer_group_id"
+      ],
+      "referred_schema": "magento2",
+      "referred_table": "customer_group",
+      "referred_columns": [
+        "customer_group_id"
+      ],
+      "options": {
+        "ondelete": "CASCADE"
+      }
+    },
+    {
+      "name": "FK_SALESRULE_PRD_ATTR_WS_ID_CORE_WS_WS_ID",
+      "constrained_columns": [
+        "website_id"
+      ],
+      "referred_schema": "magento2",
+      "referred_table": "store_website",
+      "referred_columns": [
+        "website_id"
+      ],
+      "options": {
+        "ondelete": "CASCADE"
+      }
+    },
+    {
+      "name": "FK_SALESRULE_PRODUCT_ATTRIBUTE_RULE_ID_SALESRULE_RULE_ID",
+      "constrained_columns": [
+        "rule_id"
+      ],
+      "referred_schema": "magento2",
+      "referred_table": "salesrule",
+      "referred_columns": [
+        "rule_id"
+      ],
+      "options": {
+        "ondelete": "CASCADE"
+      }
+    }
+  ],
+  "columns": [
+    {
+      "name": "rule_id",
+      "type": "INTEGER",
+      "nullable": false
+    },
+    {
+      "name": "website_id",
+      "type": "SMALLINT",
+      "nullable": false
+    },
+    {
+      "name": "customer_group_id",
+      "type": "SMALLINT",
+      "nullable": false
+    },
+    {
+      "name": "attribute_id",
+      "type": "SMALLINT",
+      "nullable": false
+    }
+  ],
+  "sample_rows": [],
+  "execution": {
+    "status": "success",
+    "seconds": 0.01,
+    "processed_at": "2026-09-13T18:56:47.230234",
+    "attempt": 1
+  }
+}

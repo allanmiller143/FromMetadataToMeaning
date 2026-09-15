@@ -1,0 +1,184 @@
+{
+  "schema": "magento2",
+  "table_name": "catalog_product_option_type_price",
+  "row_count": 6,
+  "primary_key": [
+    "option_type_price_id"
+  ],
+  "foreign_keys": [
+    {
+      "name": "catalog_product_option_type_price_ibfk_1",
+      "constrained_columns": [
+        "option_type_id"
+      ],
+      "referred_schema": "magento2",
+      "referred_table": "catalog_product_option_type_value",
+      "referred_columns": [
+        "option_type_id"
+      ],
+      "options": {
+        "onupdate": "CASCADE",
+        "ondelete": "CASCADE"
+      }
+    },
+    {
+      "name": "catalog_product_option_type_price_ibfk_2",
+      "constrained_columns": [
+        "store_id"
+      ],
+      "referred_schema": "magento2",
+      "referred_table": "store",
+      "referred_columns": [
+        "store_id"
+      ],
+      "options": {
+        "onupdate": "CASCADE",
+        "ondelete": "CASCADE"
+      }
+    }
+  ],
+  "columns": [
+    {
+      "name": "option_type_price_id",
+      "type": "INTEGER",
+      "nullable": false,
+      "stats": {
+        "null_count": 0,
+        "distinct_count": 6,
+        "null_percentage": 0.0,
+        "numeric_stats": {
+          "avg": 3.5,
+          "min": 1.0,
+          "max": 6.0,
+          "stddev": 1.707825127659933
+        },
+        "sample_values": [
+          "1",
+          "2",
+          "3",
+          "4",
+          "5",
+          "6"
+        ]
+      }
+    },
+    {
+      "name": "option_type_id",
+      "type": "INTEGER",
+      "nullable": false,
+      "stats": {
+        "null_count": 0,
+        "distinct_count": 6,
+        "null_percentage": 0.0,
+        "numeric_stats": {
+          "avg": 3.5,
+          "min": 1.0,
+          "max": 6.0,
+          "stddev": 1.707825127659933
+        },
+        "sample_values": [
+          "1",
+          "2",
+          "3",
+          "4",
+          "5",
+          "6"
+        ]
+      }
+    },
+    {
+      "name": "store_id",
+      "type": "SMALLINT",
+      "nullable": false,
+      "stats": {
+        "null_count": 0,
+        "distinct_count": 1,
+        "null_percentage": 0.0,
+        "numeric_stats": {
+          "avg": 0.0,
+          "min": 0.0,
+          "max": 0.0,
+          "stddev": 0.0
+        },
+        "frequent_values": [
+          {
+            "value": "0",
+            "count": 6
+          }
+        ],
+        "sample_values": [
+          "0"
+        ]
+      }
+    },
+    {
+      "name": "price",
+      "type": "DECIMAL(12, 4)",
+      "nullable": false,
+      "stats": {
+        "null_count": 0,
+        "distinct_count": 3,
+        "null_percentage": 0.0,
+        "numeric_stats": {
+          "avg": 241.66666667,
+          "min": 150.0,
+          "max": 325.0,
+          "stddev": 71.6860438920219
+        },
+        "sample_values": [
+          "150.0000",
+          "250.0000",
+          "325.0000"
+        ]
+      }
+    },
+    {
+      "name": "price_type",
+      "type": "VARCHAR(7)",
+      "nullable": false,
+      "stats": {
+        "null_count": 0,
+        "distinct_count": 1,
+        "null_percentage": 0.0,
+        "frequent_values": [
+          {
+            "value": "fixed",
+            "count": 6
+          }
+        ],
+        "sample_values": [
+          "fixed"
+        ]
+      }
+    }
+  ],
+  "sample_rows": [
+    {
+      "option_type_price_id": 1,
+      "option_type_id": 1,
+      "store_id": 0,
+      "price": 150.0,
+      "price_type": "fixed"
+    },
+    {
+      "option_type_price_id": 2,
+      "option_type_id": 2,
+      "store_id": 0,
+      "price": 250.0,
+      "price_type": "fixed"
+    },
+    {
+      "option_type_price_id": 3,
+      "option_type_id": 3,
+      "store_id": 0,
+      "price": 325.0,
+      "price_type": "fixed"
+    }
+  ],
+  "execution": {
+    "status": "success",
+    "seconds": 0.08,
+    "processed_at": "2026-09-13T18:56:18.476875",
+    "attempt": 1
+  }
+}

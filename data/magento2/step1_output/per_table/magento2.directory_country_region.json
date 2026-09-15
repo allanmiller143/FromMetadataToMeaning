@@ -1,0 +1,171 @@
+{
+  "schema": "magento2",
+  "table_name": "directory_country_region",
+  "row_count": 511,
+  "primary_key": [
+    "region_id"
+  ],
+  "foreign_keys": [],
+  "columns": [
+    {
+      "name": "region_id",
+      "type": "INTEGER",
+      "nullable": false,
+      "stats": {
+        "null_count": 0,
+        "distinct_count": 511,
+        "null_percentage": 0.0,
+        "numeric_stats": {
+          "avg": 256.0,
+          "min": 1.0,
+          "max": 511.0,
+          "stddev": 147.51271131668622
+        },
+        "sample_values": [
+          "95",
+          "96",
+          "97",
+          "98",
+          "99",
+          "100",
+          "101",
+          "102",
+          "103",
+          "485",
+          "486",
+          "487",
+          "488",
+          "489",
+          "490"
+        ]
+      }
+    },
+    {
+      "name": "country_id",
+      "type": "VARCHAR(4)",
+      "nullable": false,
+      "stats": {
+        "null_count": 0,
+        "distinct_count": 13,
+        "null_percentage": 0.0,
+        "frequent_values": [
+          {
+            "value": "LV",
+            "count": 120
+          },
+          {
+            "value": "FR",
+            "count": 96
+          },
+          {
+            "value": "US",
+            "count": 65
+          },
+          {
+            "value": "ES",
+            "count": 52
+          },
+          {
+            "value": "RO",
+            "count": 42
+          }
+        ],
+        "sample_values": [
+          "AT",
+          "BR",
+          "CA",
+          "CH",
+          "DE",
+          "EE",
+          "ES",
+          "FI",
+          "FR",
+          "LT",
+          "LV",
+          "RO",
+          "US"
+        ]
+      }
+    },
+    {
+      "name": "code",
+      "type": "VARCHAR(32)",
+      "nullable": true,
+      "stats": {
+        "null_count": 0,
+        "distinct_count": 482,
+        "null_percentage": 0.0,
+        "sample_values": [
+          "AL",
+          "AK",
+          "AS",
+          "AZ",
+          "AR",
+          "AF",
+          "AA",
+          "AC",
+          "AE",
+          "AM",
+          "AP",
+          "CA",
+          "CO",
+          "CT",
+          "DE"
+        ]
+      }
+    },
+    {
+      "name": "default_name",
+      "type": "VARCHAR(255)",
+      "nullable": true,
+      "stats": {
+        "null_count": 0,
+        "distinct_count": 510,
+        "null_percentage": 0.0,
+        "sample_values": [
+          "Alabama",
+          "Alaska",
+          "American Samoa",
+          "Arizona",
+          "Arkansas",
+          "Armed Forces Africa",
+          "Armed Forces Americas",
+          "Armed Forces Canada",
+          "Armed Forces Europe",
+          "Armed Forces Middle East",
+          "Armed Forces Pacific",
+          "California",
+          "Colorado",
+          "Connecticut",
+          "Delaware"
+        ]
+      }
+    }
+  ],
+  "sample_rows": [
+    {
+      "region_id": 1,
+      "country_id": "US",
+      "code": "AL",
+      "default_name": "Alabama"
+    },
+    {
+      "region_id": 2,
+      "country_id": "US",
+      "code": "AK",
+      "default_name": "Alaska"
+    },
+    {
+      "region_id": 3,
+      "country_id": "US",
+      "code": "AS",
+      "default_name": "American Samoa"
+    }
+  ],
+  "execution": {
+    "status": "success",
+    "seconds": 0.02,
+    "processed_at": "2026-09-13T18:56:26.192972",
+    "attempt": 1
+  }
+}

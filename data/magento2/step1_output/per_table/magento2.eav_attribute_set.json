@@ -1,0 +1,211 @@
+{
+  "schema": "magento2",
+  "table_name": "eav_attribute_set",
+  "row_count": 23,
+  "primary_key": [
+    "attribute_set_id"
+  ],
+  "foreign_keys": [
+    {
+      "name": "eav_attribute_set_ibfk_1",
+      "constrained_columns": [
+        "entity_type_id"
+      ],
+      "referred_schema": "magento2",
+      "referred_table": "eav_entity_type",
+      "referred_columns": [
+        "entity_type_id"
+      ],
+      "options": {
+        "onupdate": "CASCADE",
+        "ondelete": "CASCADE"
+      }
+    }
+  ],
+  "columns": [
+    {
+      "name": "attribute_set_id",
+      "type": "SMALLINT",
+      "nullable": false,
+      "stats": {
+        "null_count": 0,
+        "distinct_count": 23,
+        "null_percentage": 0.0,
+        "numeric_stats": {
+          "avg": 38.1304,
+          "min": 1.0,
+          "max": 62.0,
+          "stddev": 18.39967945804465
+        },
+        "sample_values": [
+          "1",
+          "2",
+          "18",
+          "12",
+          "38",
+          "39",
+          "40",
+          "41",
+          "42",
+          "44",
+          "45",
+          "46",
+          "58",
+          "59",
+          "60"
+        ]
+      }
+    },
+    {
+      "name": "entity_type_id",
+      "type": "SMALLINT",
+      "nullable": false,
+      "stats": {
+        "null_count": 0,
+        "distinct_count": 10,
+        "null_percentage": 0.0,
+        "numeric_stats": {
+          "avg": 11.5652,
+          "min": 1.0,
+          "max": 28.0,
+          "stddev": 6.295796299094941
+        },
+        "frequent_values": [
+          {
+            "value": "10",
+            "count": 14
+          },
+          {
+            "value": "1",
+            "count": 1
+          },
+          {
+            "value": "2",
+            "count": 1
+          },
+          {
+            "value": "4",
+            "count": 1
+          },
+          {
+            "value": "9",
+            "count": 1
+          }
+        ],
+        "sample_values": [
+          "1",
+          "2",
+          "4",
+          "9",
+          "10",
+          "18",
+          "19",
+          "21",
+          "24",
+          "28"
+        ]
+      }
+    },
+    {
+      "name": "attribute_set_name",
+      "type": "VARCHAR(255)",
+      "nullable": true,
+      "stats": {
+        "null_count": 0,
+        "distinct_count": 14,
+        "null_percentage": 0.0,
+        "sample_values": [
+          "Default",
+          "Cameras",
+          "Cell Phones",
+          "Computer",
+          "CPU",
+          "Furniture",
+          "Hard Drive",
+          "Monitors",
+          "RAM",
+          "Shirts (General)",
+          "Shirts Other",
+          "Shirts T",
+          "Shoes",
+          "Warranties"
+        ]
+      }
+    },
+    {
+      "name": "sort_order",
+      "type": "SMALLINT",
+      "nullable": false,
+      "stats": {
+        "null_count": 0,
+        "distinct_count": 9,
+        "null_percentage": 0.0,
+        "numeric_stats": {
+          "avg": 8.0,
+          "min": 0.0,
+          "max": 34.0,
+          "stddev": 11.930960819940552
+        },
+        "frequent_values": [
+          {
+            "value": "0",
+            "count": 13
+          },
+          {
+            "value": "9",
+            "count": 2
+          },
+          {
+            "value": "30",
+            "count": 2
+          },
+          {
+            "value": "34",
+            "count": 1
+          },
+          {
+            "value": "15",
+            "count": 1
+          }
+        ],
+        "sample_values": [
+          "9",
+          "34",
+          "15",
+          "0",
+          "17",
+          "33",
+          "3",
+          "4",
+          "30"
+        ]
+      }
+    }
+  ],
+  "sample_rows": [
+    {
+      "attribute_set_id": 1,
+      "entity_type_id": 1,
+      "attribute_set_name": "Default",
+      "sort_order": 9
+    },
+    {
+      "attribute_set_id": 2,
+      "entity_type_id": 2,
+      "attribute_set_name": "Default",
+      "sort_order": 9
+    },
+    {
+      "attribute_set_id": 9,
+      "entity_type_id": 10,
+      "attribute_set_name": "Default",
+      "sort_order": 17
+    }
+  ],
+  "execution": {
+    "status": "success",
+    "seconds": 0.03,
+    "processed_at": "2026-09-13T18:56:28.397391",
+    "attempt": 1
+  }
+}

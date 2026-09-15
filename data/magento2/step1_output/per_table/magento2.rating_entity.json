@@ -1,0 +1,67 @@
+{
+  "schema": "magento2",
+  "table_name": "rating_entity",
+  "row_count": 3,
+  "primary_key": [
+    "entity_id"
+  ],
+  "foreign_keys": [],
+  "columns": [
+    {
+      "name": "entity_id",
+      "type": "SMALLINT",
+      "nullable": false,
+      "stats": {
+        "null_count": 0,
+        "distinct_count": 3,
+        "null_percentage": 0.0,
+        "numeric_stats": {
+          "avg": 2.0,
+          "min": 1.0,
+          "max": 3.0,
+          "stddev": 0.816496580927726
+        },
+        "sample_values": [
+          "1",
+          "2",
+          "3"
+        ]
+      }
+    },
+    {
+      "name": "entity_code",
+      "type": "VARCHAR(64)",
+      "nullable": false,
+      "stats": {
+        "null_count": 0,
+        "distinct_count": 3,
+        "null_percentage": 0.0,
+        "sample_values": [
+          "product",
+          "product_review",
+          "review"
+        ]
+      }
+    }
+  ],
+  "sample_rows": [
+    {
+      "entity_id": 1,
+      "entity_code": "product"
+    },
+    {
+      "entity_id": 2,
+      "entity_code": "product_review"
+    },
+    {
+      "entity_id": 3,
+      "entity_code": "review"
+    }
+  ],
+  "execution": {
+    "status": "success",
+    "seconds": 0.01,
+    "processed_at": "2026-09-13T18:56:34.775607",
+    "attempt": 1
+  }
+}

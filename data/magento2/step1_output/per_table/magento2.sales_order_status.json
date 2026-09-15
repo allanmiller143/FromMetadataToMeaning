@@ -1,0 +1,85 @@
+{
+  "schema": "magento2",
+  "table_name": "sales_order_status",
+  "row_count": 18,
+  "primary_key": [
+    "status"
+  ],
+  "foreign_keys": [],
+  "columns": [
+    {
+      "name": "status",
+      "type": "VARCHAR(32)",
+      "nullable": false,
+      "stats": {
+        "null_count": 0,
+        "distinct_count": 18,
+        "null_percentage": 0.0,
+        "sample_values": [
+          "canceled",
+          "cancel_ogone",
+          "closed",
+          "complete",
+          "decline_ogone",
+          "fraud",
+          "holded",
+          "payment_review",
+          "paypal_canceled_reversal",
+          "paypal_reversed",
+          "pending",
+          "pending_ogone",
+          "pending_payment",
+          "pending_paypal",
+          "processed_ogone"
+        ]
+      }
+    },
+    {
+      "name": "label",
+      "type": "VARCHAR(128)",
+      "nullable": false,
+      "stats": {
+        "null_count": 0,
+        "distinct_count": 18,
+        "null_percentage": 0.0,
+        "sample_values": [
+          "Canceled",
+          "Cancelled Ogone",
+          "Closed",
+          "Complete",
+          "Declined Ogone",
+          "Suspected Fraud",
+          "On Hold",
+          "Payment Review",
+          "PayPal Canceled Reversal",
+          "PayPal Reversed",
+          "Pending",
+          "Pending Ogone",
+          "Pending Payment",
+          "Pending PayPal",
+          "Processed Ogone Payment"
+        ]
+      }
+    }
+  ],
+  "sample_rows": [
+    {
+      "status": "canceled",
+      "label": "Canceled"
+    },
+    {
+      "status": "cancel_ogone",
+      "label": "Cancelled Ogone"
+    },
+    {
+      "status": "closed",
+      "label": "Closed"
+    }
+  ],
+  "execution": {
+    "status": "success",
+    "seconds": 0.01,
+    "processed_at": "2026-09-13T18:56:41.898341",
+    "attempt": 1
+  }
+}

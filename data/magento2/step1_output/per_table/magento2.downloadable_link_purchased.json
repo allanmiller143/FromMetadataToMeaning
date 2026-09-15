@@ -1,0 +1,99 @@
+{
+  "schema": "magento2",
+  "table_name": "downloadable_link_purchased",
+  "row_count": 0,
+  "primary_key": [
+    "purchased_id"
+  ],
+  "foreign_keys": [
+    {
+      "name": "FK_DL_LNK_PURCHASED_CSTR_ID_CSTR_ENTT_ENTT_ID",
+      "constrained_columns": [
+        "customer_id"
+      ],
+      "referred_schema": "magento2",
+      "referred_table": "customer_entity",
+      "referred_columns": [
+        "entity_id"
+      ],
+      "options": {
+        "onupdate": "CASCADE",
+        "ondelete": "SET NULL"
+      }
+    },
+    {
+      "name": "FK_DL_LNK_PURCHASED_ORDER_ID_SALES_ORDER_ENTT_ID",
+      "constrained_columns": [
+        "order_id"
+      ],
+      "referred_schema": "magento2",
+      "referred_table": "sales_order",
+      "referred_columns": [
+        "entity_id"
+      ],
+      "options": {
+        "onupdate": "CASCADE",
+        "ondelete": "SET NULL"
+      }
+    }
+  ],
+  "columns": [
+    {
+      "name": "purchased_id",
+      "type": "INTEGER",
+      "nullable": false
+    },
+    {
+      "name": "order_id",
+      "type": "INTEGER",
+      "nullable": true
+    },
+    {
+      "name": "order_increment_id",
+      "type": "VARCHAR(50)",
+      "nullable": true
+    },
+    {
+      "name": "order_item_id",
+      "type": "INTEGER",
+      "nullable": false
+    },
+    {
+      "name": "created_at",
+      "type": "TIMESTAMP",
+      "nullable": false
+    },
+    {
+      "name": "updated_at",
+      "type": "TIMESTAMP",
+      "nullable": false
+    },
+    {
+      "name": "customer_id",
+      "type": "INTEGER",
+      "nullable": true
+    },
+    {
+      "name": "product_name",
+      "type": "VARCHAR(255)",
+      "nullable": true
+    },
+    {
+      "name": "product_sku",
+      "type": "VARCHAR(255)",
+      "nullable": true
+    },
+    {
+      "name": "link_section_title",
+      "type": "VARCHAR(255)",
+      "nullable": true
+    }
+  ],
+  "sample_rows": [],
+  "execution": {
+    "status": "success",
+    "seconds": 0.01,
+    "processed_at": "2026-09-13T18:56:26.945095",
+    "attempt": 1
+  }
+}

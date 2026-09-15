@@ -1,0 +1,99 @@
+{
+  "schema": "magento2",
+  "table_name": "core_resource",
+  "row_count": 52,
+  "primary_key": [
+    "code"
+  ],
+  "foreign_keys": [],
+  "columns": [
+    {
+      "name": "code",
+      "type": "VARCHAR(50)",
+      "nullable": false,
+      "stats": {
+        "null_count": 0,
+        "distinct_count": 52,
+        "null_percentage": 0.0,
+        "sample_values": [
+          "adminnotification_setup",
+          "authorization_setup",
+          "bundle_setup",
+          "captcha_setup",
+          "cataloginventory_setup",
+          "catalogrule_setup",
+          "catalogsearch_setup",
+          "catalogurlrewrite_setup",
+          "catalog_setup",
+          "checkoutagreements_setup",
+          "checkout_setup",
+          "cms_setup",
+          "configurableproduct_setup",
+          "core_setup",
+          "cron_setup"
+        ]
+      }
+    },
+    {
+      "name": "version",
+      "type": "VARCHAR(50)",
+      "nullable": true,
+      "stats": {
+        "null_count": 0,
+        "distinct_count": 1,
+        "null_percentage": 0.0,
+        "frequent_values": [
+          {
+            "value": "2.0.0",
+            "count": 52
+          }
+        ],
+        "sample_values": [
+          "2.0.0"
+        ]
+      }
+    },
+    {
+      "name": "data_version",
+      "type": "VARCHAR(50)",
+      "nullable": true,
+      "stats": {
+        "null_count": 0,
+        "distinct_count": 1,
+        "null_percentage": 0.0,
+        "frequent_values": [
+          {
+            "value": "2.0.0",
+            "count": 52
+          }
+        ],
+        "sample_values": [
+          "2.0.0"
+        ]
+      }
+    }
+  ],
+  "sample_rows": [
+    {
+      "code": "adminnotification_setup",
+      "version": "2.0.0",
+      "data_version": "2.0.0"
+    },
+    {
+      "code": "authorization_setup",
+      "version": "2.0.0",
+      "data_version": "2.0.0"
+    },
+    {
+      "code": "bundle_setup",
+      "version": "2.0.0",
+      "data_version": "2.0.0"
+    }
+  ],
+  "execution": {
+    "status": "success",
+    "seconds": 0.02,
+    "processed_at": "2026-09-13T18:56:22.482404",
+    "attempt": 1
+  }
+}

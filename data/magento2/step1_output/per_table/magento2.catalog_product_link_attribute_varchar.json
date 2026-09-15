@@ -1,0 +1,69 @@
+{
+  "schema": "magento2",
+  "table_name": "catalog_product_link_attribute_varchar",
+  "row_count": 0,
+  "primary_key": [
+    "value_id"
+  ],
+  "foreign_keys": [
+    {
+      "name": "catalog_product_link_attribute_varchar_ibfk_1",
+      "constrained_columns": [
+        "link_id"
+      ],
+      "referred_schema": "magento2",
+      "referred_table": "catalog_product_link",
+      "referred_columns": [
+        "link_id"
+      ],
+      "options": {
+        "onupdate": "CASCADE",
+        "ondelete": "CASCADE"
+      }
+    },
+    {
+      "name": "catalog_product_link_attribute_varchar_ibfk_2",
+      "constrained_columns": [
+        "product_link_attribute_id"
+      ],
+      "referred_schema": "magento2",
+      "referred_table": "catalog_product_link_attribute",
+      "referred_columns": [
+        "product_link_attribute_id"
+      ],
+      "options": {
+        "onupdate": "CASCADE",
+        "ondelete": "CASCADE"
+      }
+    }
+  ],
+  "columns": [
+    {
+      "name": "value_id",
+      "type": "INTEGER",
+      "nullable": false
+    },
+    {
+      "name": "product_link_attribute_id",
+      "type": "SMALLINT",
+      "nullable": false
+    },
+    {
+      "name": "link_id",
+      "type": "INTEGER",
+      "nullable": false
+    },
+    {
+      "name": "value",
+      "type": "VARCHAR(255)",
+      "nullable": true
+    }
+  ],
+  "sample_rows": [],
+  "execution": {
+    "status": "success",
+    "seconds": 0.01,
+    "processed_at": "2026-09-13T18:56:17.901457",
+    "attempt": 1
+  }
+}

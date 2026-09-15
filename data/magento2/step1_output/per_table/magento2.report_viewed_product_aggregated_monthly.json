@@ -1,0 +1,89 @@
+{
+  "schema": "magento2",
+  "table_name": "report_viewed_product_aggregated_monthly",
+  "row_count": 0,
+  "primary_key": [
+    "id"
+  ],
+  "foreign_keys": [
+    {
+      "name": "FK_REPORT_VIEWED_PRD_AGGRED_MONTHLY_PRD_ID_CAT_PRD_ENTT_ENTT_ID",
+      "constrained_columns": [
+        "product_id"
+      ],
+      "referred_schema": "magento2",
+      "referred_table": "catalog_product_entity",
+      "referred_columns": [
+        "entity_id"
+      ],
+      "options": {
+        "onupdate": "CASCADE",
+        "ondelete": "CASCADE"
+      }
+    },
+    {
+      "name": "FK_REPORT_VIEWED_PRD_AGGRED_MONTHLY_STORE_ID_STORE_STORE_ID",
+      "constrained_columns": [
+        "store_id"
+      ],
+      "referred_schema": "magento2",
+      "referred_table": "store",
+      "referred_columns": [
+        "store_id"
+      ],
+      "options": {
+        "onupdate": "CASCADE",
+        "ondelete": "CASCADE"
+      }
+    }
+  ],
+  "columns": [
+    {
+      "name": "id",
+      "type": "INTEGER",
+      "nullable": false
+    },
+    {
+      "name": "period",
+      "type": "DATE",
+      "nullable": true
+    },
+    {
+      "name": "store_id",
+      "type": "SMALLINT",
+      "nullable": true
+    },
+    {
+      "name": "product_id",
+      "type": "INTEGER",
+      "nullable": true
+    },
+    {
+      "name": "product_name",
+      "type": "VARCHAR(255)",
+      "nullable": true
+    },
+    {
+      "name": "product_price",
+      "type": "DECIMAL(12, 4)",
+      "nullable": false
+    },
+    {
+      "name": "views_num",
+      "type": "INTEGER",
+      "nullable": false
+    },
+    {
+      "name": "rating_pos",
+      "type": "SMALLINT",
+      "nullable": false
+    }
+  ],
+  "sample_rows": [],
+  "execution": {
+    "status": "success",
+    "seconds": 0.01,
+    "processed_at": "2026-09-13T18:56:36.456947",
+    "attempt": 1
+  }
+}

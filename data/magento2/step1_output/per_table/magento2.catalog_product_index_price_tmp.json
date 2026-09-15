@@ -1,0 +1,291 @@
+{
+  "schema": "magento2",
+  "table_name": "catalog_product_index_price_tmp",
+  "row_count": 5,
+  "primary_key": [
+    "entity_id",
+    "customer_group_id",
+    "website_id"
+  ],
+  "foreign_keys": [],
+  "columns": [
+    {
+      "name": "entity_id",
+      "type": "INTEGER",
+      "nullable": false,
+      "stats": {
+        "null_count": 0,
+        "distinct_count": 1,
+        "null_percentage": 0.0,
+        "numeric_stats": {
+          "avg": 166.0,
+          "min": 166.0,
+          "max": 166.0,
+          "stddev": 0.0
+        },
+        "frequent_values": [
+          {
+            "value": "166",
+            "count": 5
+          }
+        ],
+        "sample_values": [
+          "166"
+        ]
+      }
+    },
+    {
+      "name": "customer_group_id",
+      "type": "SMALLINT",
+      "nullable": false,
+      "stats": {
+        "null_count": 0,
+        "distinct_count": 5,
+        "null_percentage": 0.0,
+        "numeric_stats": {
+          "avg": 2.0,
+          "min": 0.0,
+          "max": 4.0,
+          "stddev": 1.4142135623730951
+        },
+        "sample_values": [
+          "0",
+          "1",
+          "2",
+          "3",
+          "4"
+        ]
+      }
+    },
+    {
+      "name": "website_id",
+      "type": "SMALLINT",
+      "nullable": false,
+      "stats": {
+        "null_count": 0,
+        "distinct_count": 1,
+        "null_percentage": 0.0,
+        "numeric_stats": {
+          "avg": 1.0,
+          "min": 1.0,
+          "max": 1.0,
+          "stddev": 0.0
+        },
+        "frequent_values": [
+          {
+            "value": "1",
+            "count": 5
+          }
+        ],
+        "sample_values": [
+          "1"
+        ]
+      }
+    },
+    {
+      "name": "tax_class_id",
+      "type": "SMALLINT",
+      "nullable": true,
+      "stats": {
+        "null_count": 0,
+        "distinct_count": 1,
+        "null_percentage": 0.0,
+        "numeric_stats": {
+          "avg": 2.0,
+          "min": 2.0,
+          "max": 2.0,
+          "stddev": 0.0
+        },
+        "frequent_values": [
+          {
+            "value": "2",
+            "count": 5
+          }
+        ],
+        "sample_values": [
+          "2"
+        ]
+      }
+    },
+    {
+      "name": "price",
+      "type": "DECIMAL(12, 4)",
+      "nullable": true,
+      "stats": {
+        "null_count": 0,
+        "distinct_count": 1,
+        "null_percentage": 0.0,
+        "numeric_stats": {
+          "avg": 750.0,
+          "min": 750.0,
+          "max": 750.0,
+          "stddev": 0.0
+        },
+        "frequent_values": [
+          {
+            "value": "750.0000",
+            "count": 5
+          }
+        ],
+        "sample_values": [
+          "750.0000"
+        ]
+      }
+    },
+    {
+      "name": "final_price",
+      "type": "DECIMAL(12, 4)",
+      "nullable": true,
+      "stats": {
+        "null_count": 0,
+        "distinct_count": 1,
+        "null_percentage": 0.0,
+        "numeric_stats": {
+          "avg": 750.0,
+          "min": 750.0,
+          "max": 750.0,
+          "stddev": 0.0
+        },
+        "frequent_values": [
+          {
+            "value": "750.0000",
+            "count": 5
+          }
+        ],
+        "sample_values": [
+          "750.0000"
+        ]
+      }
+    },
+    {
+      "name": "min_price",
+      "type": "DECIMAL(12, 4)",
+      "nullable": true,
+      "stats": {
+        "null_count": 0,
+        "distinct_count": 1,
+        "null_percentage": 0.0,
+        "numeric_stats": {
+          "avg": 750.0,
+          "min": 750.0,
+          "max": 750.0,
+          "stddev": 0.0
+        },
+        "frequent_values": [
+          {
+            "value": "750.0000",
+            "count": 5
+          }
+        ],
+        "sample_values": [
+          "750.0000"
+        ]
+      }
+    },
+    {
+      "name": "max_price",
+      "type": "DECIMAL(12, 4)",
+      "nullable": true,
+      "stats": {
+        "null_count": 0,
+        "distinct_count": 1,
+        "null_percentage": 0.0,
+        "numeric_stats": {
+          "avg": 750.0,
+          "min": 750.0,
+          "max": 750.0,
+          "stddev": 0.0
+        },
+        "frequent_values": [
+          {
+            "value": "750.0000",
+            "count": 5
+          }
+        ],
+        "sample_values": [
+          "750.0000"
+        ]
+      }
+    },
+    {
+      "name": "tier_price",
+      "type": "DECIMAL(12, 4)",
+      "nullable": true,
+      "stats": {
+        "null_count": 5,
+        "distinct_count": 0,
+        "null_percentage": 100.0,
+        "numeric_stats": {
+          "avg": null,
+          "min": null,
+          "max": null,
+          "stddev": null
+        },
+        "frequent_values": [],
+        "sample_values": []
+      }
+    },
+    {
+      "name": "group_price",
+      "type": "DECIMAL(12, 4)",
+      "nullable": true,
+      "stats": {
+        "null_count": 5,
+        "distinct_count": 0,
+        "null_percentage": 100.0,
+        "numeric_stats": {
+          "avg": null,
+          "min": null,
+          "max": null,
+          "stddev": null
+        },
+        "frequent_values": [],
+        "sample_values": []
+      }
+    }
+  ],
+  "sample_rows": [
+    {
+      "entity_id": 166,
+      "customer_group_id": 0,
+      "website_id": 1,
+      "tax_class_id": 2,
+      "price": 750.0,
+      "final_price": 750.0,
+      "min_price": 750.0,
+      "max_price": 750.0,
+      "tier_price": null,
+      "group_price": null
+    },
+    {
+      "entity_id": 166,
+      "customer_group_id": 1,
+      "website_id": 1,
+      "tax_class_id": 2,
+      "price": 750.0,
+      "final_price": 750.0,
+      "min_price": 750.0,
+      "max_price": 750.0,
+      "tier_price": null,
+      "group_price": null
+    },
+    {
+      "entity_id": 166,
+      "customer_group_id": 2,
+      "website_id": 1,
+      "tax_class_id": 2,
+      "price": 750.0,
+      "final_price": 750.0,
+      "min_price": 750.0,
+      "max_price": 750.0,
+      "tier_price": null,
+      "group_price": null
+    }
+  ],
+  "execution": {
+    "status": "success",
+    "seconds": 0.08,
+    "processed_at": "2026-09-13T18:56:17.144667",
+    "attempt": 1
+  }
+}

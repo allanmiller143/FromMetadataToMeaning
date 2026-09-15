@@ -1,0 +1,195 @@
+{
+  "schema": "magento2",
+  "table_name": "tax_calculation_rate",
+  "row_count": 2,
+  "primary_key": [
+    "tax_calculation_rate_id"
+  ],
+  "foreign_keys": [],
+  "columns": [
+    {
+      "name": "tax_calculation_rate_id",
+      "type": "INTEGER",
+      "nullable": false,
+      "stats": {
+        "null_count": 0,
+        "distinct_count": 2,
+        "null_percentage": 0.0,
+        "numeric_stats": {
+          "avg": 1.5,
+          "min": 1.0,
+          "max": 2.0,
+          "stddev": 0.5
+        },
+        "sample_values": [
+          "1",
+          "2"
+        ]
+      }
+    },
+    {
+      "name": "tax_country_id",
+      "type": "VARCHAR(2)",
+      "nullable": false,
+      "stats": {
+        "null_count": 0,
+        "distinct_count": 1,
+        "null_percentage": 0.0,
+        "sample_values": [
+          "US"
+        ]
+      }
+    },
+    {
+      "name": "tax_region_id",
+      "type": "INTEGER",
+      "nullable": false,
+      "stats": {
+        "null_count": 0,
+        "distinct_count": 2,
+        "null_percentage": 0.0,
+        "numeric_stats": {
+          "avg": 27.5,
+          "min": 12.0,
+          "max": 43.0,
+          "stddev": 15.5
+        },
+        "sample_values": [
+          "12",
+          "43"
+        ]
+      }
+    },
+    {
+      "name": "tax_postcode",
+      "type": "VARCHAR(21)",
+      "nullable": true,
+      "stats": {
+        "null_count": 0,
+        "distinct_count": 1,
+        "null_percentage": 0.0,
+        "sample_values": [
+          "*"
+        ]
+      }
+    },
+    {
+      "name": "code",
+      "type": "VARCHAR(255)",
+      "nullable": false,
+      "stats": {
+        "null_count": 0,
+        "distinct_count": 2,
+        "null_percentage": 0.0,
+        "sample_values": [
+          "US-CA-*-Rate 1",
+          "US-NY-*-Rate 1"
+        ]
+      }
+    },
+    {
+      "name": "rate",
+      "type": "DECIMAL(12, 4)",
+      "nullable": false,
+      "stats": {
+        "null_count": 0,
+        "distinct_count": 2,
+        "null_percentage": 0.0,
+        "numeric_stats": {
+          "avg": 8.3125,
+          "min": 8.25,
+          "max": 8.375,
+          "stddev": 0.0625
+        },
+        "sample_values": [
+          "8.2500",
+          "8.3750"
+        ]
+      }
+    },
+    {
+      "name": "zip_is_range",
+      "type": "SMALLINT",
+      "nullable": true,
+      "stats": {
+        "null_count": 2,
+        "distinct_count": 0,
+        "null_percentage": 100.0,
+        "numeric_stats": {
+          "avg": null,
+          "min": null,
+          "max": null,
+          "stddev": null
+        },
+        "frequent_values": [],
+        "sample_values": []
+      }
+    },
+    {
+      "name": "zip_from",
+      "type": "INTEGER",
+      "nullable": true,
+      "stats": {
+        "null_count": 2,
+        "distinct_count": 0,
+        "null_percentage": 100.0,
+        "numeric_stats": {
+          "avg": null,
+          "min": null,
+          "max": null,
+          "stddev": null
+        },
+        "frequent_values": [],
+        "sample_values": []
+      }
+    },
+    {
+      "name": "zip_to",
+      "type": "INTEGER",
+      "nullable": true,
+      "stats": {
+        "null_count": 2,
+        "distinct_count": 0,
+        "null_percentage": 100.0,
+        "numeric_stats": {
+          "avg": null,
+          "min": null,
+          "max": null,
+          "stddev": null
+        },
+        "frequent_values": [],
+        "sample_values": []
+      }
+    }
+  ],
+  "sample_rows": [
+    {
+      "tax_calculation_rate_id": 1,
+      "tax_country_id": "US",
+      "tax_region_id": 12,
+      "tax_postcode": "*",
+      "code": "US-CA-*-Rate 1",
+      "rate": 8.25,
+      "zip_is_range": null,
+      "zip_from": null,
+      "zip_to": null
+    },
+    {
+      "tax_calculation_rate_id": 2,
+      "tax_country_id": "US",
+      "tax_region_id": 43,
+      "tax_postcode": "*",
+      "code": "US-NY-*-Rate 1",
+      "rate": 8.375,
+      "zip_is_range": null,
+      "zip_from": null,
+      "zip_to": null
+    }
+  ],
+  "execution": {
+    "status": "success",
+    "seconds": 0.06,
+    "processed_at": "2026-09-13T18:56:49.488001",
+    "attempt": 1
+  }
+}

@@ -1,0 +1,60 @@
+{
+  "schema": "magento2",
+  "table_name": "newsletter_queue_store_link",
+  "row_count": 0,
+  "primary_key": [
+    "queue_id",
+    "store_id"
+  ],
+  "foreign_keys": [
+    {
+      "name": "FK_NEWSLETTER_QUEUE_STORE_LINK_STORE_ID_STORE_STORE_ID",
+      "constrained_columns": [
+        "store_id"
+      ],
+      "referred_schema": "magento2",
+      "referred_table": "store",
+      "referred_columns": [
+        "store_id"
+      ],
+      "options": {
+        "onupdate": "CASCADE",
+        "ondelete": "CASCADE"
+      }
+    },
+    {
+      "name": "FK_NLTTR_QUEUE_STORE_LNK_QUEUE_ID_NLTTR_QUEUE_QUEUE_ID",
+      "constrained_columns": [
+        "queue_id"
+      ],
+      "referred_schema": "magento2",
+      "referred_table": "newsletter_queue",
+      "referred_columns": [
+        "queue_id"
+      ],
+      "options": {
+        "onupdate": "CASCADE",
+        "ondelete": "CASCADE"
+      }
+    }
+  ],
+  "columns": [
+    {
+      "name": "queue_id",
+      "type": "INTEGER",
+      "nullable": false
+    },
+    {
+      "name": "store_id",
+      "type": "SMALLINT",
+      "nullable": false
+    }
+  ],
+  "sample_rows": [],
+  "execution": {
+    "status": "success",
+    "seconds": 0.01,
+    "processed_at": "2026-09-13T18:56:33.309235",
+    "attempt": 1
+  }
+}

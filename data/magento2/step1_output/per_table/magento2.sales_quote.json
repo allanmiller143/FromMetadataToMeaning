@@ -1,0 +1,289 @@
+{
+  "schema": "magento2",
+  "table_name": "sales_quote",
+  "row_count": 0,
+  "primary_key": [
+    "entity_id"
+  ],
+  "foreign_keys": [
+    {
+      "name": "sales_quote_ibfk_1",
+      "constrained_columns": [
+        "store_id"
+      ],
+      "referred_schema": "magento2",
+      "referred_table": "store",
+      "referred_columns": [
+        "store_id"
+      ],
+      "options": {
+        "onupdate": "CASCADE",
+        "ondelete": "CASCADE"
+      }
+    }
+  ],
+  "columns": [
+    {
+      "name": "entity_id",
+      "type": "INTEGER",
+      "nullable": false
+    },
+    {
+      "name": "store_id",
+      "type": "SMALLINT",
+      "nullable": false
+    },
+    {
+      "name": "created_at",
+      "type": "TIMESTAMP",
+      "nullable": false
+    },
+    {
+      "name": "updated_at",
+      "type": "TIMESTAMP",
+      "nullable": false
+    },
+    {
+      "name": "converted_at",
+      "type": "TIMESTAMP",
+      "nullable": true
+    },
+    {
+      "name": "is_active",
+      "type": "SMALLINT",
+      "nullable": true
+    },
+    {
+      "name": "is_virtual",
+      "type": "SMALLINT",
+      "nullable": true
+    },
+    {
+      "name": "is_multi_shipping",
+      "type": "SMALLINT",
+      "nullable": true
+    },
+    {
+      "name": "items_count",
+      "type": "INTEGER",
+      "nullable": true
+    },
+    {
+      "name": "items_qty",
+      "type": "DECIMAL(12, 4)",
+      "nullable": true
+    },
+    {
+      "name": "orig_order_id",
+      "type": "INTEGER",
+      "nullable": true
+    },
+    {
+      "name": "store_to_base_rate",
+      "type": "DECIMAL(12, 4)",
+      "nullable": true
+    },
+    {
+      "name": "store_to_quote_rate",
+      "type": "DECIMAL(12, 4)",
+      "nullable": true
+    },
+    {
+      "name": "base_currency_code",
+      "type": "VARCHAR(255)",
+      "nullable": true
+    },
+    {
+      "name": "store_currency_code",
+      "type": "VARCHAR(255)",
+      "nullable": true
+    },
+    {
+      "name": "quote_currency_code",
+      "type": "VARCHAR(255)",
+      "nullable": true
+    },
+    {
+      "name": "grand_total",
+      "type": "DECIMAL(12, 4)",
+      "nullable": true
+    },
+    {
+      "name": "base_grand_total",
+      "type": "DECIMAL(12, 4)",
+      "nullable": true
+    },
+    {
+      "name": "checkout_method",
+      "type": "VARCHAR(255)",
+      "nullable": true
+    },
+    {
+      "name": "customer_id",
+      "type": "INTEGER",
+      "nullable": true
+    },
+    {
+      "name": "customer_tax_class_id",
+      "type": "INTEGER",
+      "nullable": true
+    },
+    {
+      "name": "customer_group_id",
+      "type": "INTEGER",
+      "nullable": true
+    },
+    {
+      "name": "customer_email",
+      "type": "VARCHAR(255)",
+      "nullable": true
+    },
+    {
+      "name": "customer_prefix",
+      "type": "VARCHAR(40)",
+      "nullable": true
+    },
+    {
+      "name": "customer_firstname",
+      "type": "VARCHAR(255)",
+      "nullable": true
+    },
+    {
+      "name": "customer_middlename",
+      "type": "VARCHAR(40)",
+      "nullable": true
+    },
+    {
+      "name": "customer_lastname",
+      "type": "VARCHAR(255)",
+      "nullable": true
+    },
+    {
+      "name": "customer_suffix",
+      "type": "VARCHAR(40)",
+      "nullable": true
+    },
+    {
+      "name": "customer_dob",
+      "type": "DATETIME",
+      "nullable": true
+    },
+    {
+      "name": "customer_note",
+      "type": "VARCHAR(255)",
+      "nullable": true
+    },
+    {
+      "name": "customer_note_notify",
+      "type": "SMALLINT",
+      "nullable": true
+    },
+    {
+      "name": "customer_is_guest",
+      "type": "SMALLINT",
+      "nullable": true
+    },
+    {
+      "name": "remote_ip",
+      "type": "VARCHAR(32)",
+      "nullable": true
+    },
+    {
+      "name": "applied_rule_ids",
+      "type": "VARCHAR(255)",
+      "nullable": true
+    },
+    {
+      "name": "reserved_order_id",
+      "type": "VARCHAR(64)",
+      "nullable": true
+    },
+    {
+      "name": "password_hash",
+      "type": "VARCHAR(255)",
+      "nullable": true
+    },
+    {
+      "name": "coupon_code",
+      "type": "VARCHAR(255)",
+      "nullable": true
+    },
+    {
+      "name": "global_currency_code",
+      "type": "VARCHAR(255)",
+      "nullable": true
+    },
+    {
+      "name": "base_to_global_rate",
+      "type": "DECIMAL(12, 4)",
+      "nullable": true
+    },
+    {
+      "name": "base_to_quote_rate",
+      "type": "DECIMAL(12, 4)",
+      "nullable": true
+    },
+    {
+      "name": "customer_taxvat",
+      "type": "VARCHAR(255)",
+      "nullable": true
+    },
+    {
+      "name": "customer_gender",
+      "type": "VARCHAR(255)",
+      "nullable": true
+    },
+    {
+      "name": "subtotal",
+      "type": "DECIMAL(12, 4)",
+      "nullable": true
+    },
+    {
+      "name": "base_subtotal",
+      "type": "DECIMAL(12, 4)",
+      "nullable": true
+    },
+    {
+      "name": "subtotal_with_discount",
+      "type": "DECIMAL(12, 4)",
+      "nullable": true
+    },
+    {
+      "name": "base_subtotal_with_discount",
+      "type": "DECIMAL(12, 4)",
+      "nullable": true
+    },
+    {
+      "name": "is_changed",
+      "type": "INTEGER",
+      "nullable": true
+    },
+    {
+      "name": "trigger_recollect",
+      "type": "SMALLINT",
+      "nullable": false
+    },
+    {
+      "name": "ext_shipping_info",
+      "type": "TEXT",
+      "nullable": true
+    },
+    {
+      "name": "is_persistent",
+      "type": "SMALLINT",
+      "nullable": true
+    },
+    {
+      "name": "gift_message_id",
+      "type": "INTEGER",
+      "nullable": true
+    }
+  ],
+  "sample_rows": [],
+  "execution": {
+    "status": "success",
+    "seconds": 0.02,
+    "processed_at": "2026-09-13T18:56:43.063642",
+    "attempt": 1
+  }
+}

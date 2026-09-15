@@ -1,0 +1,357 @@
+{
+  "schema": "magento2",
+  "table_name": "eav_attribute_group",
+  "row_count": 170,
+  "primary_key": [
+    "attribute_group_id"
+  ],
+  "foreign_keys": [
+    {
+      "name": "eav_attribute_group_ibfk_1",
+      "constrained_columns": [
+        "attribute_set_id"
+      ],
+      "referred_schema": "magento2",
+      "referred_table": "eav_attribute_set",
+      "referred_columns": [
+        "attribute_set_id"
+      ],
+      "options": {
+        "onupdate": "CASCADE",
+        "ondelete": "CASCADE"
+      }
+    }
+  ],
+  "columns": [
+    {
+      "name": "attribute_group_id",
+      "type": "SMALLINT",
+      "nullable": false,
+      "stats": {
+        "null_count": 0,
+        "distinct_count": 170,
+        "null_percentage": 0.0,
+        "numeric_stats": {
+          "avg": 140.5235,
+          "min": 1.0,
+          "max": 237.0,
+          "stddev": 63.71870193105433
+        },
+        "sample_values": [
+          "1",
+          "2",
+          "95",
+          "172",
+          "4",
+          "15",
+          "12",
+          "9",
+          "201",
+          "118",
+          "211",
+          "196",
+          "166",
+          "167",
+          "23"
+        ]
+      }
+    },
+    {
+      "name": "attribute_set_id",
+      "type": "SMALLINT",
+      "nullable": false,
+      "stats": {
+        "null_count": 0,
+        "distinct_count": 23,
+        "null_percentage": 0.0,
+        "numeric_stats": {
+          "avg": 44.7765,
+          "min": 1.0,
+          "max": 62.0,
+          "stddev": 14.197246187481522
+        },
+        "frequent_values": [
+          {
+            "value": "40",
+            "count": 12
+          },
+          {
+            "value": "39",
+            "count": 12
+          },
+          {
+            "value": "42",
+            "count": 12
+          },
+          {
+            "value": "41",
+            "count": 12
+          },
+          {
+            "value": "38",
+            "count": 12
+          }
+        ],
+        "sample_values": [
+          "1",
+          "2",
+          "9",
+          "12",
+          "18",
+          "30",
+          "31",
+          "33",
+          "38",
+          "39",
+          "40",
+          "41",
+          "42",
+          "44",
+          "45"
+        ]
+      }
+    },
+    {
+      "name": "attribute_group_name",
+      "type": "VARCHAR(255)",
+      "nullable": true,
+      "stats": {
+        "null_count": 0,
+        "distinct_count": 25,
+        "null_percentage": 0.0,
+        "frequent_values": [
+          {
+            "value": "General",
+            "count": 21
+          },
+          {
+            "value": "Advanced Pricing",
+            "count": 14
+          },
+          {
+            "value": "Recurring Profile",
+            "count": 14
+          },
+          {
+            "value": "Design",
+            "count": 14
+          },
+          {
+            "value": "Recurring Payment",
+            "count": 14
+          }
+        ],
+        "sample_values": [
+          "General",
+          "Advanced Pricing",
+          "Autosettings",
+          "Description",
+          "Design",
+          "Image Management",
+          "Product Details",
+          "Recurring Payment",
+          "Recurring Profile",
+          "Search Engine Optimization",
+          "Custom Design",
+          "Display Settings",
+          "General Information",
+          "Cell Phone Attributes",
+          "Descriptions"
+        ]
+      }
+    },
+    {
+      "name": "sort_order",
+      "type": "SMALLINT",
+      "nullable": false,
+      "stats": {
+        "null_count": 0,
+        "distinct_count": 29,
+        "null_percentage": 0.0,
+        "numeric_stats": {
+          "avg": 10.4765,
+          "min": 1.0,
+          "max": 60.0,
+          "stddev": 13.031275925600486
+        },
+        "frequent_values": [
+          {
+            "value": "3",
+            "count": 15
+          },
+          {
+            "value": "1",
+            "count": 15
+          },
+          {
+            "value": "4",
+            "count": 14
+          },
+          {
+            "value": "5",
+            "count": 13
+          },
+          {
+            "value": "7",
+            "count": 13
+          }
+        ],
+        "sample_values": [
+          "4",
+          "5",
+          "7",
+          "10",
+          "20",
+          "30",
+          "40",
+          "41",
+          "50",
+          "60",
+          "1",
+          "2",
+          "3",
+          "6",
+          "8"
+        ]
+      }
+    },
+    {
+      "name": "default_id",
+      "type": "SMALLINT",
+      "nullable": true,
+      "stats": {
+        "null_count": 0,
+        "distinct_count": 2,
+        "null_percentage": 0.0,
+        "numeric_stats": {
+          "avg": 0.1353,
+          "min": 0.0,
+          "max": 1.0,
+          "stddev": 0.3420374531789797
+        },
+        "frequent_values": [
+          {
+            "value": "0",
+            "count": 147
+          },
+          {
+            "value": "1",
+            "count": 23
+          }
+        ],
+        "sample_values": [
+          "1",
+          "0"
+        ]
+      }
+    },
+    {
+      "name": "attribute_group_code",
+      "type": "VARCHAR(255)",
+      "nullable": true,
+      "stats": {
+        "null_count": 6,
+        "distinct_count": 25,
+        "null_percentage": 3.53,
+        "frequent_values": [
+          {
+            "value": "general",
+            "count": 21
+          },
+          {
+            "value": "recurring-profile",
+            "count": 14
+          },
+          {
+            "value": "design",
+            "count": 14
+          },
+          {
+            "value": "prices",
+            "count": 13
+          },
+          {
+            "value": "meta-information",
+            "count": 13
+          }
+        ],
+        "sample_values": [
+          "general",
+          "product-details",
+          "advanced-pricing",
+          "search-engine-optimization",
+          "image-management",
+          "meta-information",
+          "prices",
+          "images",
+          "computer-attributes",
+          "descriptions",
+          "camera-attributes",
+          "cell-phone-attributes",
+          "shoe-attributes",
+          "furniture-attributes",
+          "description"
+        ]
+      }
+    },
+    {
+      "name": "tab_group_code",
+      "type": "VARCHAR(255)",
+      "nullable": true,
+      "stats": {
+        "null_count": 163,
+        "distinct_count": 2,
+        "null_percentage": 95.88,
+        "frequent_values": [
+          {
+            "value": "advanced",
+            "count": 4
+          },
+          {
+            "value": "basic",
+            "count": 3
+          }
+        ],
+        "sample_values": [
+          "basic",
+          "advanced"
+        ]
+      }
+    }
+  ],
+  "sample_rows": [
+    {
+      "attribute_group_id": 1,
+      "attribute_set_id": 1,
+      "attribute_group_name": "General",
+      "sort_order": 4,
+      "default_id": 1,
+      "attribute_group_code": "general",
+      "tab_group_code": null
+    },
+    {
+      "attribute_group_id": 2,
+      "attribute_set_id": 2,
+      "attribute_group_name": "General",
+      "sort_order": 4,
+      "default_id": 1,
+      "attribute_group_code": "general",
+      "tab_group_code": null
+    },
+    {
+      "attribute_group_id": 4,
+      "attribute_set_id": 9,
+      "attribute_group_name": "Product Details",
+      "sort_order": 10,
+      "default_id": 1,
+      "attribute_group_code": "product-details",
+      "tab_group_code": "basic"
+    }
+  ],
+  "execution": {
+    "status": "success",
+    "seconds": 0.03,
+    "processed_at": "2026-09-13T18:56:27.851305",
+    "attempt": 1
+  }
+}

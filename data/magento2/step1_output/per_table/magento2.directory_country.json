@@ -1,0 +1,115 @@
+{
+  "schema": "magento2",
+  "table_name": "directory_country",
+  "row_count": 246,
+  "primary_key": [
+    "country_id"
+  ],
+  "foreign_keys": [],
+  "columns": [
+    {
+      "name": "country_id",
+      "type": "VARCHAR(2)",
+      "nullable": false,
+      "stats": {
+        "null_count": 0,
+        "distinct_count": 246,
+        "null_percentage": 0.0,
+        "sample_values": [
+          "AD",
+          "AE",
+          "AF",
+          "AG",
+          "AI",
+          "AL",
+          "AM",
+          "AN",
+          "AO",
+          "AQ",
+          "AR",
+          "AS",
+          "AT",
+          "AU",
+          "AW"
+        ]
+      }
+    },
+    {
+      "name": "iso2_code",
+      "type": "VARCHAR(2)",
+      "nullable": true,
+      "stats": {
+        "null_count": 0,
+        "distinct_count": 246,
+        "null_percentage": 0.0,
+        "sample_values": [
+          "AD",
+          "AE",
+          "AF",
+          "AG",
+          "AI",
+          "AL",
+          "AM",
+          "AN",
+          "AO",
+          "AQ",
+          "AR",
+          "AS",
+          "AT",
+          "AU",
+          "AW"
+        ]
+      }
+    },
+    {
+      "name": "iso3_code",
+      "type": "VARCHAR(3)",
+      "nullable": true,
+      "stats": {
+        "null_count": 0,
+        "distinct_count": 246,
+        "null_percentage": 0.0,
+        "sample_values": [
+          "AND",
+          "ARE",
+          "AFG",
+          "ATG",
+          "AIA",
+          "ALB",
+          "ARM",
+          "ANT",
+          "AGO",
+          "ATA",
+          "ARG",
+          "ASM",
+          "AUT",
+          "AUS",
+          "ABW"
+        ]
+      }
+    }
+  ],
+  "sample_rows": [
+    {
+      "country_id": "AD",
+      "iso2_code": "AD",
+      "iso3_code": "AND"
+    },
+    {
+      "country_id": "AE",
+      "iso2_code": "AE",
+      "iso3_code": "ARE"
+    },
+    {
+      "country_id": "AF",
+      "iso2_code": "AF",
+      "iso3_code": "AFG"
+    }
+  ],
+  "execution": {
+    "status": "success",
+    "seconds": 0.02,
+    "processed_at": "2026-09-13T18:56:25.941640",
+    "attempt": 1
+  }
+}

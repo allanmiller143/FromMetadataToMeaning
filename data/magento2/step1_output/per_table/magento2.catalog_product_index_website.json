@@ -1,0 +1,91 @@
+{
+  "schema": "magento2",
+  "table_name": "catalog_product_index_website",
+  "row_count": 1,
+  "primary_key": [
+    "website_id"
+  ],
+  "foreign_keys": [
+    {
+      "name": "catalog_product_index_website_ibfk_1",
+      "constrained_columns": [
+        "website_id"
+      ],
+      "referred_schema": "magento2",
+      "referred_table": "store_website",
+      "referred_columns": [
+        "website_id"
+      ],
+      "options": {
+        "onupdate": "CASCADE",
+        "ondelete": "CASCADE"
+      }
+    }
+  ],
+  "columns": [
+    {
+      "name": "website_id",
+      "type": "SMALLINT",
+      "nullable": false,
+      "stats": {
+        "null_count": 0,
+        "distinct_count": 1,
+        "null_percentage": 0.0,
+        "numeric_stats": {
+          "avg": 1.0,
+          "min": 1.0,
+          "max": 1.0,
+          "stddev": 0.0
+        },
+        "sample_values": [
+          "1"
+        ]
+      }
+    },
+    {
+      "name": "website_date",
+      "type": "DATE",
+      "nullable": true,
+      "stats": {
+        "null_count": 0,
+        "distinct_count": 1,
+        "null_percentage": 0.0,
+        "sample_values": [
+          "2014-12-06"
+        ]
+      }
+    },
+    {
+      "name": "rate",
+      "type": "FLOAT",
+      "nullable": true,
+      "stats": {
+        "null_count": 0,
+        "distinct_count": 1,
+        "null_percentage": 0.0,
+        "numeric_stats": {
+          "avg": 1.0,
+          "min": 1.0,
+          "max": 1.0,
+          "stddev": 0.0
+        },
+        "sample_values": [
+          "1.0"
+        ]
+      }
+    }
+  ],
+  "sample_rows": [
+    {
+      "website_id": 1,
+      "website_date": "2014-12-06",
+      "rate": 1.0
+    }
+  ],
+  "execution": {
+    "status": "success",
+    "seconds": 0.02,
+    "processed_at": "2026-09-13T18:56:17.378252",
+    "attempt": 1
+  }
+}

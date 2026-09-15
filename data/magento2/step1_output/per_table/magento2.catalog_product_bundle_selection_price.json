@@ -1,0 +1,70 @@
+{
+  "schema": "magento2",
+  "table_name": "catalog_product_bundle_selection_price",
+  "row_count": 0,
+  "primary_key": [
+    "selection_id",
+    "website_id"
+  ],
+  "foreign_keys": [
+    {
+      "name": "FK_CAT_PRD_BNDL_SELECTION_PRICE_WS_ID_CORE_WS_WS_ID",
+      "constrained_columns": [
+        "website_id"
+      ],
+      "referred_schema": "magento2",
+      "referred_table": "store_website",
+      "referred_columns": [
+        "website_id"
+      ],
+      "options": {
+        "onupdate": "CASCADE",
+        "ondelete": "CASCADE"
+      }
+    },
+    {
+      "name": "FK_DCF37523AA05D770A70AA4ED7C2616E4",
+      "constrained_columns": [
+        "selection_id"
+      ],
+      "referred_schema": "magento2",
+      "referred_table": "catalog_product_bundle_selection",
+      "referred_columns": [
+        "selection_id"
+      ],
+      "options": {
+        "onupdate": "CASCADE",
+        "ondelete": "CASCADE"
+      }
+    }
+  ],
+  "columns": [
+    {
+      "name": "selection_id",
+      "type": "INTEGER",
+      "nullable": false
+    },
+    {
+      "name": "website_id",
+      "type": "SMALLINT",
+      "nullable": false
+    },
+    {
+      "name": "selection_price_type",
+      "type": "SMALLINT",
+      "nullable": false
+    },
+    {
+      "name": "selection_price_value",
+      "type": "DECIMAL(12, 4)",
+      "nullable": false
+    }
+  ],
+  "sample_rows": [],
+  "execution": {
+    "status": "success",
+    "seconds": 0.01,
+    "processed_at": "2026-09-13T18:56:13.611805",
+    "attempt": 1
+  }
+}

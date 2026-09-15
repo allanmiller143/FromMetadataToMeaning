@@ -1,0 +1,114 @@
+{
+  "schema": "magento2",
+  "table_name": "sales_payment_transaction",
+  "row_count": 0,
+  "primary_key": [
+    "transaction_id"
+  ],
+  "foreign_keys": [
+    {
+      "name": "sales_payment_transaction_ibfk_1",
+      "constrained_columns": [
+        "parent_id"
+      ],
+      "referred_schema": "magento2",
+      "referred_table": "sales_payment_transaction",
+      "referred_columns": [
+        "transaction_id"
+      ],
+      "options": {
+        "onupdate": "CASCADE",
+        "ondelete": "CASCADE"
+      }
+    },
+    {
+      "name": "sales_payment_transaction_ibfk_2",
+      "constrained_columns": [
+        "payment_id"
+      ],
+      "referred_schema": "magento2",
+      "referred_table": "sales_order_payment",
+      "referred_columns": [
+        "entity_id"
+      ],
+      "options": {
+        "onupdate": "CASCADE",
+        "ondelete": "CASCADE"
+      }
+    },
+    {
+      "name": "sales_payment_transaction_ibfk_3",
+      "constrained_columns": [
+        "order_id"
+      ],
+      "referred_schema": "magento2",
+      "referred_table": "sales_order",
+      "referred_columns": [
+        "entity_id"
+      ],
+      "options": {
+        "onupdate": "CASCADE",
+        "ondelete": "CASCADE"
+      }
+    }
+  ],
+  "columns": [
+    {
+      "name": "transaction_id",
+      "type": "INTEGER",
+      "nullable": false
+    },
+    {
+      "name": "parent_id",
+      "type": "INTEGER",
+      "nullable": true
+    },
+    {
+      "name": "order_id",
+      "type": "INTEGER",
+      "nullable": false
+    },
+    {
+      "name": "payment_id",
+      "type": "INTEGER",
+      "nullable": false
+    },
+    {
+      "name": "txn_id",
+      "type": "VARCHAR(100)",
+      "nullable": true
+    },
+    {
+      "name": "parent_txn_id",
+      "type": "VARCHAR(100)",
+      "nullable": true
+    },
+    {
+      "name": "txn_type",
+      "type": "VARCHAR(15)",
+      "nullable": true
+    },
+    {
+      "name": "is_closed",
+      "type": "SMALLINT",
+      "nullable": false
+    },
+    {
+      "name": "additional_information",
+      "type": "BLOB",
+      "nullable": true
+    },
+    {
+      "name": "created_at",
+      "type": "TIMESTAMP",
+      "nullable": true
+    }
+  ],
+  "sample_rows": [],
+  "execution": {
+    "status": "success",
+    "seconds": 0.01,
+    "processed_at": "2026-09-13T18:56:42.915208",
+    "attempt": 1
+  }
+}

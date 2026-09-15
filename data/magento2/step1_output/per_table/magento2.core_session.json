@@ -1,0 +1,33 @@
+{
+  "schema": "magento2",
+  "table_name": "core_session",
+  "row_count": 0,
+  "primary_key": [
+    "session_id"
+  ],
+  "foreign_keys": [],
+  "columns": [
+    {
+      "name": "session_id",
+      "type": "VARCHAR(255)",
+      "nullable": false
+    },
+    {
+      "name": "session_expires",
+      "type": "INTEGER",
+      "nullable": false
+    },
+    {
+      "name": "session_data",
+      "type": "MEDIUMBLOB",
+      "nullable": false
+    }
+  ],
+  "sample_rows": [],
+  "execution": {
+    "status": "success",
+    "seconds": 0.0,
+    "processed_at": "2026-09-13T18:56:22.579733",
+    "attempt": 1
+  }
+}

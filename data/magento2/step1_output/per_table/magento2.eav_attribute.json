@@ -1,0 +1,695 @@
+{
+  "schema": "magento2",
+  "table_name": "eav_attribute",
+  "row_count": 382,
+  "primary_key": [
+    "attribute_id"
+  ],
+  "foreign_keys": [
+    {
+      "name": "eav_attribute_ibfk_1",
+      "constrained_columns": [
+        "entity_type_id"
+      ],
+      "referred_schema": "magento2",
+      "referred_table": "eav_entity_type",
+      "referred_columns": [
+        "entity_type_id"
+      ],
+      "options": {
+        "onupdate": "CASCADE",
+        "ondelete": "CASCADE"
+      }
+    }
+  ],
+  "columns": [
+    {
+      "name": "attribute_id",
+      "type": "SMALLINT",
+      "nullable": false,
+      "stats": {
+        "null_count": 0,
+        "distinct_count": 382,
+        "null_percentage": 0.0,
+        "numeric_stats": {
+          "avg": 589.445,
+          "min": 1.0,
+          "max": 963.0,
+          "stddev": 272.6806445072215
+        },
+        "sample_values": [
+          "831",
+          "926",
+          "477",
+          "7",
+          "8",
+          "954",
+          "829",
+          "3",
+          "1",
+          "925",
+          "532",
+          "2",
+          "827",
+          "4",
+          "826"
+        ]
+      }
+    },
+    {
+      "name": "entity_type_id",
+      "type": "SMALLINT",
+      "nullable": false,
+      "stats": {
+        "null_count": 0,
+        "distinct_count": 10,
+        "null_percentage": 0.0,
+        "numeric_stats": {
+          "avg": 10.4895,
+          "min": 1.0,
+          "max": 28.0,
+          "stddev": 8.120083388009535
+        },
+        "frequent_values": [
+          {
+            "value": "4",
+            "count": 122
+          },
+          {
+            "value": "10",
+            "count": 84
+          },
+          {
+            "value": "18",
+            "count": 37
+          },
+          {
+            "value": "28",
+            "count": 36
+          },
+          {
+            "value": "9",
+            "count": 31
+          }
+        ],
+        "sample_values": [
+          "1",
+          "2",
+          "4",
+          "9",
+          "10",
+          "18",
+          "19",
+          "21",
+          "24",
+          "28"
+        ]
+      }
+    },
+    {
+      "name": "attribute_code",
+      "type": "VARCHAR(255)",
+      "nullable": true,
+      "stats": {
+        "null_count": 0,
+        "distinct_count": 280,
+        "null_percentage": 0.0,
+        "sample_values": [
+          "confirmation",
+          "created_at",
+          "created_in",
+          "default_billing",
+          "default_shipping",
+          "disable_auto_group_change",
+          "dob",
+          "email",
+          "firstname",
+          "gender",
+          "group_id",
+          "lastname",
+          "middlename",
+          "password_hash",
+          "prefix"
+        ]
+      }
+    },
+    {
+      "name": "attribute_model",
+      "type": "VARCHAR(255)",
+      "nullable": true,
+      "stats": {
+        "null_count": 382,
+        "distinct_count": 0,
+        "null_percentage": 100.0,
+        "frequent_values": [],
+        "sample_values": []
+      }
+    },
+    {
+      "name": "backend_model",
+      "type": "VARCHAR(255)",
+      "nullable": true,
+      "stats": {
+        "null_count": 118,
+        "distinct_count": 25,
+        "null_percentage": 30.89,
+        "frequent_values": [
+          {
+            "value": "",
+            "count": 227
+          },
+          {
+            "value": "Magento\\Eav\\Model\\Entity\\Attribute\\Backend\\Datetime",
+            "count": 6
+          },
+          {
+            "value": "Magento\\Catalog\\Model\\Product\\Attribute\\Backend\\Price",
+            "count": 4
+          },
+          {
+            "value": "Magento\\Catalog\\Model\\Product\\Attribute\\Backend\\Startdate",
+            "count": 3
+          },
+          {
+            "value": "Magento\\Catalog\\Model\\Product\\Attribute\\Backend\\Boolean",
+            "count": 2
+          }
+        ],
+        "sample_values": [
+          "Magento\\Customer\\Model\\Customer\\Attribute\\Backend\\Password",
+          "Magento\\Customer\\Model\\Customer\\Attribute\\Backend\\Billing",
+          "Magento\\Customer\\Model\\Customer\\Attribute\\Backend\\Shipping",
+          "Magento\\Customer\\Model\\Resource\\Address\\Attribute\\Backend\\Region",
+          "Magento\\Eav\\Model\\Entity\\Attribute\\Backend\\DefaultBackend",
+          "Magento\\Catalog\\Model\\Product\\Attribute\\Backend\\Sku",
+          "Magento\\Catalog\\Model\\Product\\Attribute\\Backend\\Price",
+          "Magento\\Catalog\\Model\\Product\\Attribute\\Backend\\Weight",
+          "Magento\\Catalog\\Model\\Category\\Attribute\\Backend\\Image",
+          "",
+          "Magento\\Catalog\\Model\\Product\\Attribute\\Backend\\Tierprice",
+          "Magento\\Customer\\Model\\Customer\\Attribute\\Backend\\Store",
+          "Magento\\Catalog\\Model\\Attribute\\Backend\\Customlayoutupdate",
+          "Magento\\Catalog\\Model\\Product\\Attribute\\Backend\\Boolean",
+          "Magento\\Eav\\Model\\Entity\\Attribute\\Backend\\Datetime"
+        ]
+      }
+    },
+    {
+      "name": "backend_type",
+      "type": "VARCHAR(8)",
+      "nullable": false,
+      "stats": {
+        "null_count": 0,
+        "distinct_count": 6,
+        "null_percentage": 0.0,
+        "frequent_values": [
+          {
+            "value": "varchar",
+            "count": 117
+          },
+          {
+            "value": "static",
+            "count": 84
+          },
+          {
+            "value": "int",
+            "count": 79
+          },
+          {
+            "value": "decimal",
+            "count": 65
+          },
+          {
+            "value": "text",
+            "count": 26
+          }
+        ],
+        "sample_values": [
+          "varchar",
+          "static",
+          "int",
+          "text",
+          "decimal",
+          "datetime"
+        ]
+      }
+    },
+    {
+      "name": "backend_table",
+      "type": "VARCHAR(255)",
+      "nullable": true,
+      "stats": {
+        "null_count": 154,
+        "distinct_count": 1,
+        "null_percentage": 40.31,
+        "frequent_values": [
+          {
+            "value": "",
+            "count": 228
+          }
+        ],
+        "sample_values": [
+          ""
+        ]
+      }
+    },
+    {
+      "name": "frontend_model",
+      "type": "VARCHAR(255)",
+      "nullable": true,
+      "stats": {
+        "null_count": 150,
+        "distinct_count": 3,
+        "null_percentage": 39.27,
+        "frequent_values": [
+          {
+            "value": "",
+            "count": 228
+          },
+          {
+            "value": "Magento\\Catalog\\Model\\Product\\Attribute\\Frontend\\Image",
+            "count": 3
+          },
+          {
+            "value": "Magento\\Eav\\Model\\Entity\\Attribute\\Frontend\\Datetime",
+            "count": 1
+          }
+        ],
+        "sample_values": [
+          "Magento\\Catalog\\Model\\Product\\Attribute\\Frontend\\Image",
+          "",
+          "Magento\\Eav\\Model\\Entity\\Attribute\\Frontend\\Datetime"
+        ]
+      }
+    },
+    {
+      "name": "frontend_input",
+      "type": "VARCHAR(50)",
+      "nullable": true,
+      "stats": {
+        "null_count": 6,
+        "distinct_count": 14,
+        "null_percentage": 1.57,
+        "frequent_values": [
+          {
+            "value": "text",
+            "count": 289
+          },
+          {
+            "value": "select",
+            "count": 38
+          },
+          {
+            "value": "textarea",
+            "count": 12
+          },
+          {
+            "value": "date",
+            "count": 11
+          },
+          {
+            "value": "",
+            "count": 7
+          }
+        ],
+        "sample_values": [
+          "text",
+          "hidden",
+          "select",
+          "multiline",
+          "textarea",
+          "price",
+          "weight",
+          "media_image",
+          "image",
+          "gallery",
+          "date",
+          "",
+          "multiselect",
+          "boolean"
+        ]
+      }
+    },
+    {
+      "name": "frontend_label",
+      "type": "VARCHAR(255)",
+      "nullable": true,
+      "stats": {
+        "null_count": 23,
+        "distinct_count": 122,
+        "null_percentage": 6.02,
+        "frequent_values": [
+          {
+            "value": "",
+            "count": 221
+          },
+          {
+            "value": "First Name",
+            "count": 2
+          },
+          {
+            "value": "Last Name",
+            "count": 2
+          },
+          {
+            "value": "Description",
+            "count": 2
+          },
+          {
+            "value": "State/Province",
+            "count": 2
+          }
+        ],
+        "sample_values": [
+          "First Name",
+          "Last Name",
+          "Email",
+          "Default Billing Address",
+          "Default Shipping Address",
+          "Country",
+          "State/Province",
+          "Zip/Postal Code",
+          "City",
+          "Street Address",
+          "Telephone",
+          "Fax",
+          "Company",
+          "Name",
+          "Description"
+        ]
+      }
+    },
+    {
+      "name": "frontend_class",
+      "type": "VARCHAR(255)",
+      "nullable": true,
+      "stats": {
+        "null_count": 354,
+        "distinct_count": 5,
+        "null_percentage": 92.67,
+        "frequent_values": [
+          {
+            "value": "",
+            "count": 24
+          },
+          {
+            "value": "validate-email",
+            "count": 1
+          },
+          {
+            "value": "countries input-text",
+            "count": 1
+          },
+          {
+            "value": "regions",
+            "count": 1
+          },
+          {
+            "value": "validate-length maximum-length-255",
+            "count": 1
+          }
+        ],
+        "sample_values": [
+          "validate-email",
+          "countries input-text",
+          "regions",
+          "validate-length maximum-length-255",
+          ""
+        ]
+      }
+    },
+    {
+      "name": "source_model",
+      "type": "VARCHAR(255)",
+      "nullable": true,
+      "stats": {
+        "null_count": 115,
+        "distinct_count": 22,
+        "null_percentage": 30.1,
+        "frequent_values": [
+          {
+            "value": "",
+            "count": 230
+          },
+          {
+            "value": "Magento\\Eav\\Model\\Entity\\Attribute\\Source\\Table",
+            "count": 9
+          },
+          {
+            "value": "Magento\\Eav\\Model\\Entity\\Attribute\\Source\\Boolean",
+            "count": 7
+          },
+          {
+            "value": "Magento\\Catalog\\Model\\Category\\Attribute\\Source\\Sortby",
+            "count": 2
+          },
+          {
+            "value": "Magento\\Core\\Model\\Theme\\Source\\Theme",
+            "count": 2
+          }
+        ],
+        "sample_values": [
+          "Magento\\Customer\\Model\\Resource\\Address\\Attribute\\Source\\Country",
+          "Magento\\Customer\\Model\\Resource\\Address\\Attribute\\Source\\Region",
+          "Magento\\Eav\\Model\\Entity\\Attribute\\Source\\Table",
+          "Magento\\Catalog\\Model\\Category\\Attribute\\Source\\Page",
+          "Magento\\Catalog\\Model\\Category\\Attribute\\Source\\Mode",
+          "Magento\\Eav\\Model\\Entity\\Attribute\\Source\\Boolean",
+          "",
+          "Magento\\Catalog\\Model\\Product\\Attribute\\Source\\Status",
+          "Magento\\Tax\\Model\\TaxClass\\Source\\Product",
+          "Magento\\Customer\\Model\\Customer\\Attribute\\Source\\Store",
+          "Magento\\Catalog\\Model\\Category\\Attribute\\Source\\Layout",
+          "Magento\\Catalog\\Model\\Product\\Visibility",
+          "Magento\\Customer\\Model\\Customer\\Attribute\\Source\\Group",
+          "Magento\\Core\\Model\\Theme\\Source\\Theme",
+          "Magento\\Customer\\Model\\Customer\\Attribute\\Source\\Website"
+        ]
+      }
+    },
+    {
+      "name": "is_required",
+      "type": "SMALLINT",
+      "nullable": false,
+      "stats": {
+        "null_count": 0,
+        "distinct_count": 2,
+        "null_percentage": 0.0,
+        "numeric_stats": {
+          "avg": 0.6728,
+          "min": 0.0,
+          "max": 1.0,
+          "stddev": 0.46920021803494516
+        },
+        "frequent_values": [
+          {
+            "value": "1",
+            "count": 257
+          },
+          {
+            "value": "0",
+            "count": 125
+          }
+        ],
+        "sample_values": [
+          "1",
+          "0"
+        ]
+      }
+    },
+    {
+      "name": "is_user_defined",
+      "type": "SMALLINT",
+      "nullable": false,
+      "stats": {
+        "null_count": 0,
+        "distinct_count": 2,
+        "null_percentage": 0.0,
+        "numeric_stats": {
+          "avg": 0.0707,
+          "min": 0.0,
+          "max": 1.0,
+          "stddev": 0.25629061055624164
+        },
+        "frequent_values": [
+          {
+            "value": "0",
+            "count": 355
+          },
+          {
+            "value": "1",
+            "count": 27
+          }
+        ],
+        "sample_values": [
+          "0",
+          "1"
+        ]
+      }
+    },
+    {
+      "name": "default_value",
+      "type": "TEXT",
+      "nullable": true,
+      "stats": {
+        "null_count": 138,
+        "distinct_count": 6,
+        "null_percentage": 36.13,
+        "frequent_values": [
+          {
+            "value": "",
+            "count": 236
+          },
+          {
+            "value": "1",
+            "count": 3
+          },
+          {
+            "value": "0",
+            "count": 2
+          },
+          {
+            "value": "2",
+            "count": 1
+          },
+          {
+            "value": "4",
+            "count": 1
+          }
+        ],
+        "sample_values": [
+          "",
+          "1",
+          "2",
+          "4",
+          "container2",
+          "0"
+        ]
+      }
+    },
+    {
+      "name": "is_unique",
+      "type": "SMALLINT",
+      "nullable": false,
+      "stats": {
+        "null_count": 0,
+        "distinct_count": 2,
+        "null_percentage": 0.0,
+        "numeric_stats": {
+          "avg": 0.0026,
+          "min": 0.0,
+          "max": 1.0,
+          "stddev": 0.051097437947495127
+        },
+        "frequent_values": [
+          {
+            "value": "0",
+            "count": 381
+          },
+          {
+            "value": "1",
+            "count": 1
+          }
+        ],
+        "sample_values": [
+          "0",
+          "1"
+        ]
+      }
+    },
+    {
+      "name": "note",
+      "type": "VARCHAR(255)",
+      "nullable": true,
+      "stats": {
+        "null_count": 124,
+        "distinct_count": 3,
+        "null_percentage": 32.46,
+        "frequent_values": [
+          {
+            "value": "",
+            "count": 256
+          },
+          {
+            "value": "Maximum 255 chars",
+            "count": 1
+          },
+          {
+            "value": "Products with recurring payment participate in catalog as nominal items.",
+            "count": 1
+          }
+        ],
+        "sample_values": [
+          "Maximum 255 chars",
+          "",
+          "Products with recurring payment participate in catalog as nominal items."
+        ]
+      }
+    }
+  ],
+  "sample_rows": [
+    {
+      "attribute_id": 1,
+      "entity_type_id": 1,
+      "attribute_code": "firstname",
+      "attribute_model": null,
+      "backend_model": null,
+      "backend_type": "varchar",
+      "backend_table": null,
+      "frontend_model": null,
+      "frontend_input": "text",
+      "frontend_label": "First Name",
+      "frontend_class": null,
+      "source_model": null,
+      "is_required": 1,
+      "is_user_defined": 0,
+      "default_value": null,
+      "is_unique": 0,
+      "note": null
+    },
+    {
+      "attribute_id": 2,
+      "entity_type_id": 1,
+      "attribute_code": "lastname",
+      "attribute_model": null,
+      "backend_model": null,
+      "backend_type": "varchar",
+      "backend_table": null,
+      "frontend_model": null,
+      "frontend_input": "text",
+      "frontend_label": "Last Name",
+      "frontend_class": null,
+      "source_model": null,
+      "is_required": 1,
+      "is_user_defined": 0,
+      "default_value": null,
+      "is_unique": 0,
+      "note": null
+    },
+    {
+      "attribute_id": 3,
+      "entity_type_id": 1,
+      "attribute_code": "email",
+      "attribute_model": null,
+      "backend_model": null,
+      "backend_type": "static",
+      "backend_table": null,
+      "frontend_model": null,
+      "frontend_input": "text",
+      "frontend_label": "Email",
+      "frontend_class": "validate-email",
+      "source_model": null,
+      "is_required": 1,
+      "is_user_defined": 0,
+      "default_value": null,
+      "is_unique": 0,
+      "note": null
+    }
+  ],
+  "execution": {
+    "status": "success",
+    "seconds": 0.07,
+    "processed_at": "2026-09-13T18:56:27.681705",
+    "attempt": 1
+  }
+}

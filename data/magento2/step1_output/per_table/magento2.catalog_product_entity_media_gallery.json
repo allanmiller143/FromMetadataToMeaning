@@ -1,0 +1,230 @@
+{
+  "schema": "magento2",
+  "table_name": "catalog_product_entity_media_gallery",
+  "row_count": 244,
+  "primary_key": [
+    "value_id"
+  ],
+  "foreign_keys": [
+    {
+      "name": "FK_CAT_PRD_ENTT_MDA_GLR_ATTR_ID_EAV_ATTR_ATTR_ID",
+      "constrained_columns": [
+        "attribute_id"
+      ],
+      "referred_schema": "magento2",
+      "referred_table": "eav_attribute",
+      "referred_columns": [
+        "attribute_id"
+      ],
+      "options": {
+        "onupdate": "CASCADE",
+        "ondelete": "CASCADE"
+      }
+    },
+    {
+      "name": "FK_CAT_PRD_ENTT_MDA_GLR_ENTT_ID_CAT_PRD_ENTT_ENTT_ID",
+      "constrained_columns": [
+        "entity_id"
+      ],
+      "referred_schema": "magento2",
+      "referred_table": "catalog_product_entity",
+      "referred_columns": [
+        "entity_id"
+      ],
+      "options": {
+        "onupdate": "CASCADE",
+        "ondelete": "CASCADE"
+      }
+    }
+  ],
+  "columns": [
+    {
+      "name": "value_id",
+      "type": "INTEGER",
+      "nullable": false,
+      "stats": {
+        "null_count": 0,
+        "distinct_count": 244,
+        "null_percentage": 0.0,
+        "numeric_stats": {
+          "avg": 211.8525,
+          "min": 1.0,
+          "max": 365.0,
+          "stddev": 107.48573463344309
+        },
+        "sample_values": [
+          "1",
+          "2",
+          "3",
+          "4",
+          "5",
+          "6",
+          "7",
+          "8",
+          "9",
+          "10",
+          "11",
+          "12",
+          "13",
+          "14",
+          "15"
+        ]
+      }
+    },
+    {
+      "name": "attribute_id",
+      "type": "SMALLINT",
+      "nullable": false,
+      "stats": {
+        "null_count": 0,
+        "distinct_count": 1,
+        "null_percentage": 0.0,
+        "numeric_stats": {
+          "avg": 703.0,
+          "min": 703.0,
+          "max": 703.0,
+          "stddev": 0.0
+        },
+        "frequent_values": [
+          {
+            "value": "703",
+            "count": 244
+          }
+        ],
+        "sample_values": [
+          "703"
+        ]
+      }
+    },
+    {
+      "name": "entity_id",
+      "type": "INTEGER",
+      "nullable": false,
+      "stats": {
+        "null_count": 0,
+        "distinct_count": 108,
+        "null_percentage": 0.0,
+        "numeric_stats": {
+          "avg": 88.1721,
+          "min": 16.0,
+          "max": 166.0,
+          "stddev": 41.771174589730556
+        },
+        "frequent_values": [
+          {
+            "value": "34",
+            "count": 5
+          },
+          {
+            "value": "49",
+            "count": 5
+          },
+          {
+            "value": "33",
+            "count": 5
+          },
+          {
+            "value": "31",
+            "count": 5
+          },
+          {
+            "value": "29",
+            "count": 5
+          }
+        ],
+        "sample_values": [
+          "16",
+          "17",
+          "18",
+          "19",
+          "20",
+          "25",
+          "26",
+          "27",
+          "28",
+          "29",
+          "30",
+          "31",
+          "32",
+          "33",
+          "34"
+        ]
+      }
+    },
+    {
+      "name": "value",
+      "type": "VARCHAR(255)",
+      "nullable": true,
+      "stats": {
+        "null_count": 0,
+        "distinct_count": 113,
+        "null_percentage": 0.0,
+        "frequent_values": [
+          {
+            "value": "/c/n/cn-clogs-beach-garden-clog-2.jpg",
+            "count": 11
+          },
+          {
+            "value": "/c/n/cn-clogs-beach-garden-clog.jpg",
+            "count": 11
+          },
+          {
+            "value": "/c/n/cn-clogs-beach-garden-clog-1.jpg",
+            "count": 11
+          },
+          {
+            "value": "/a/n/anashria-womens-premier-leather-sandal-1.jpg",
+            "count": 8
+          },
+          {
+            "value": "/z/o/zolof-the-rock-and-roll-destroyer-lol-cat-t-shirt.jpg",
+            "count": 8
+          }
+        ],
+        "sample_values": [
+          "/b/l/blackberry-8100-pearl.jpg",
+          "/b/l/blackberry-8100-pearl-1.jpg",
+          "/s/o/sony-ericsson-w810i.jpg",
+          "/s/o/sony-ericsson-w810i-1.jpg",
+          "/c/n/cn-clogs-beach-garden-clog.jpg",
+          "/c/n/cn-clogs-beach-garden-clog-1.jpg",
+          "/a/s/asics-men-s-gel-kayano-xii.jpg",
+          "/a/s/asics-men-s-gel-kayano-xii-1.jpg",
+          "/s/t/steven-by-steve-madden-pryme-pump.jpg",
+          "/s/t/steven-by-steve-madden-pryme-pump-1.jpg",
+          "/n/i/nine-west-women-s-lucero-pump.jpg",
+          "/n/i/nine-west-women-s-lucero-pump-1.jpg",
+          "/e/c/ecco-womens-golf-flexor-golf-shoe.jpg",
+          "/e/c/ecco-womens-golf-flexor-golf-shoe-1.jpg",
+          "/k/e/kenneth-cole-new-york-men-s-con-verge-slip-on.jpg"
+        ]
+      }
+    }
+  ],
+  "sample_rows": [
+    {
+      "value_id": 1,
+      "attribute_id": 703,
+      "entity_id": 17,
+      "value": "/b/l/blackberry-8100-pearl.jpg"
+    },
+    {
+      "value_id": 2,
+      "attribute_id": 703,
+      "entity_id": 17,
+      "value": "/b/l/blackberry-8100-pearl-1.jpg"
+    },
+    {
+      "value_id": 3,
+      "attribute_id": 703,
+      "entity_id": 18,
+      "value": "/s/o/sony-ericsson-w810i.jpg"
+    }
+  ],
+  "execution": {
+    "status": "success",
+    "seconds": 0.06,
+    "processed_at": "2026-09-13T18:56:14.298166",
+    "attempt": 1
+  }
+}

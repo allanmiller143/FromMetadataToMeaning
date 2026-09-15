@@ -1,0 +1,134 @@
+{
+  "schema": "magento2",
+  "table_name": "sales_order_aggregated_created",
+  "row_count": 0,
+  "primary_key": [
+    "id"
+  ],
+  "foreign_keys": [
+    {
+      "name": "sales_order_aggregated_created_ibfk_1",
+      "constrained_columns": [
+        "store_id"
+      ],
+      "referred_schema": "magento2",
+      "referred_table": "store",
+      "referred_columns": [
+        "store_id"
+      ],
+      "options": {
+        "onupdate": "CASCADE",
+        "ondelete": "SET NULL"
+      }
+    }
+  ],
+  "columns": [
+    {
+      "name": "id",
+      "type": "INTEGER",
+      "nullable": false
+    },
+    {
+      "name": "period",
+      "type": "DATE",
+      "nullable": true
+    },
+    {
+      "name": "store_id",
+      "type": "SMALLINT",
+      "nullable": true
+    },
+    {
+      "name": "order_status",
+      "type": "VARCHAR(50)",
+      "nullable": false
+    },
+    {
+      "name": "orders_count",
+      "type": "INTEGER",
+      "nullable": false
+    },
+    {
+      "name": "total_qty_ordered",
+      "type": "DECIMAL(12, 4)",
+      "nullable": false
+    },
+    {
+      "name": "total_qty_invoiced",
+      "type": "DECIMAL(12, 4)",
+      "nullable": false
+    },
+    {
+      "name": "total_income_amount",
+      "type": "DECIMAL(12, 4)",
+      "nullable": false
+    },
+    {
+      "name": "total_revenue_amount",
+      "type": "DECIMAL(12, 4)",
+      "nullable": false
+    },
+    {
+      "name": "total_profit_amount",
+      "type": "DECIMAL(12, 4)",
+      "nullable": false
+    },
+    {
+      "name": "total_invoiced_amount",
+      "type": "DECIMAL(12, 4)",
+      "nullable": false
+    },
+    {
+      "name": "total_canceled_amount",
+      "type": "DECIMAL(12, 4)",
+      "nullable": false
+    },
+    {
+      "name": "total_paid_amount",
+      "type": "DECIMAL(12, 4)",
+      "nullable": false
+    },
+    {
+      "name": "total_refunded_amount",
+      "type": "DECIMAL(12, 4)",
+      "nullable": false
+    },
+    {
+      "name": "total_tax_amount",
+      "type": "DECIMAL(12, 4)",
+      "nullable": false
+    },
+    {
+      "name": "total_tax_amount_actual",
+      "type": "DECIMAL(12, 4)",
+      "nullable": false
+    },
+    {
+      "name": "total_shipping_amount",
+      "type": "DECIMAL(12, 4)",
+      "nullable": false
+    },
+    {
+      "name": "total_shipping_amount_actual",
+      "type": "DECIMAL(12, 4)",
+      "nullable": false
+    },
+    {
+      "name": "total_discount_amount",
+      "type": "DECIMAL(12, 4)",
+      "nullable": false
+    },
+    {
+      "name": "total_discount_amount_actual",
+      "type": "DECIMAL(12, 4)",
+      "nullable": false
+    }
+  ],
+  "sample_rows": [],
+  "execution": {
+    "status": "success",
+    "seconds": 0.01,
+    "processed_at": "2026-09-13T18:56:40.870434",
+    "attempt": 1
+  }
+}

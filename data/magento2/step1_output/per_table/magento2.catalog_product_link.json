@@ -1,0 +1,266 @@
+{
+  "schema": "magento2",
+  "table_name": "catalog_product_link",
+  "row_count": 258,
+  "primary_key": [
+    "link_id"
+  ],
+  "foreign_keys": [
+    {
+      "name": "catalog_product_link_ibfk_1",
+      "constrained_columns": [
+        "linked_product_id"
+      ],
+      "referred_schema": "magento2",
+      "referred_table": "catalog_product_entity",
+      "referred_columns": [
+        "entity_id"
+      ],
+      "options": {
+        "onupdate": "CASCADE",
+        "ondelete": "CASCADE"
+      }
+    },
+    {
+      "name": "catalog_product_link_ibfk_2",
+      "constrained_columns": [
+        "link_type_id"
+      ],
+      "referred_schema": "magento2",
+      "referred_table": "catalog_product_link_type",
+      "referred_columns": [
+        "link_type_id"
+      ],
+      "options": {
+        "onupdate": "CASCADE",
+        "ondelete": "CASCADE"
+      }
+    },
+    {
+      "name": "catalog_product_link_ibfk_3",
+      "constrained_columns": [
+        "product_id"
+      ],
+      "referred_schema": "magento2",
+      "referred_table": "catalog_product_entity",
+      "referred_columns": [
+        "entity_id"
+      ],
+      "options": {
+        "onupdate": "CASCADE",
+        "ondelete": "CASCADE"
+      }
+    }
+  ],
+  "columns": [
+    {
+      "name": "link_id",
+      "type": "INTEGER",
+      "nullable": false,
+      "stats": {
+        "null_count": 0,
+        "distinct_count": 258,
+        "null_percentage": 0.0,
+        "numeric_stats": {
+          "avg": 623.6744,
+          "min": 1.0,
+          "max": 2731.0,
+          "stddev": 1036.7692488650036
+        },
+        "sample_values": [
+          "104",
+          "110",
+          "130",
+          "138",
+          "146",
+          "165",
+          "179",
+          "5",
+          "47",
+          "83",
+          "131",
+          "139",
+          "156",
+          "166",
+          "177"
+        ]
+      }
+    },
+    {
+      "name": "product_id",
+      "type": "INTEGER",
+      "nullable": false,
+      "stats": {
+        "null_count": 0,
+        "distinct_count": 42,
+        "null_percentage": 0.0,
+        "numeric_stats": {
+          "avg": 47.062,
+          "min": 16.0,
+          "max": 158.0,
+          "stddev": 31.02156087866303
+        },
+        "frequent_values": [
+          {
+            "value": "19",
+            "count": 11
+          },
+          {
+            "value": "46",
+            "count": 11
+          },
+          {
+            "value": "17",
+            "count": 10
+          },
+          {
+            "value": "49",
+            "count": 10
+          },
+          {
+            "value": "16",
+            "count": 9
+          }
+        ],
+        "sample_values": [
+          "16",
+          "17",
+          "18",
+          "19",
+          "20",
+          "25",
+          "26",
+          "27",
+          "28",
+          "29",
+          "30",
+          "31",
+          "32",
+          "33",
+          "34"
+        ]
+      }
+    },
+    {
+      "name": "linked_product_id",
+      "type": "INTEGER",
+      "nullable": false,
+      "stats": {
+        "null_count": 0,
+        "distinct_count": 45,
+        "null_percentage": 0.0,
+        "numeric_stats": {
+          "avg": 53.7636,
+          "min": 16.0,
+          "max": 135.0,
+          "stddev": 37.404274592980066
+        },
+        "frequent_values": [
+          {
+            "value": "25",
+            "count": 17
+          },
+          {
+            "value": "17",
+            "count": 12
+          },
+          {
+            "value": "44",
+            "count": 12
+          },
+          {
+            "value": "39",
+            "count": 10
+          },
+          {
+            "value": "28",
+            "count": 9
+          }
+        ],
+        "sample_values": [
+          "16",
+          "17",
+          "18",
+          "19",
+          "20",
+          "25",
+          "26",
+          "27",
+          "28",
+          "29",
+          "30",
+          "31",
+          "32",
+          "33",
+          "34"
+        ]
+      }
+    },
+    {
+      "name": "link_type_id",
+      "type": "SMALLINT",
+      "nullable": false,
+      "stats": {
+        "null_count": 0,
+        "distinct_count": 4,
+        "null_percentage": 0.0,
+        "numeric_stats": {
+          "avg": 3.6667,
+          "min": 1.0,
+          "max": 5.0,
+          "stddev": 1.5543553878809777
+        },
+        "frequent_values": [
+          {
+            "value": "5",
+            "count": 100
+          },
+          {
+            "value": "4",
+            "count": 94
+          },
+          {
+            "value": "1",
+            "count": 61
+          },
+          {
+            "value": "3",
+            "count": 3
+          }
+        ],
+        "sample_values": [
+          "1",
+          "3",
+          "4",
+          "5"
+        ]
+      }
+    }
+  ],
+  "sample_rows": [
+    {
+      "link_id": 156,
+      "product_id": 16,
+      "linked_product_id": 17,
+      "link_type_id": 1
+    },
+    {
+      "link_id": 157,
+      "product_id": 16,
+      "linked_product_id": 18,
+      "link_type_id": 1
+    },
+    {
+      "link_id": 158,
+      "product_id": 16,
+      "linked_product_id": 19,
+      "link_type_id": 1
+    }
+  ],
+  "execution": {
+    "status": "success",
+    "seconds": 0.03,
+    "processed_at": "2026-09-13T18:56:17.453380",
+    "attempt": 1
+  }
+}

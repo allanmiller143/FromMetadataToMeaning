@@ -1,0 +1,168 @@
+{
+  "schema": "magento2",
+  "table_name": "catalog_product_bundle_option_value",
+  "row_count": 20,
+  "primary_key": [
+    "value_id"
+  ],
+  "foreign_keys": [
+    {
+      "name": "FK_CAT_PRD_BNDL_OPT_VAL_OPT_ID_CAT_PRD_BNDL_OPT_OPT_ID",
+      "constrained_columns": [
+        "option_id"
+      ],
+      "referred_schema": "magento2",
+      "referred_table": "catalog_product_bundle_option",
+      "referred_columns": [
+        "option_id"
+      ],
+      "options": {
+        "onupdate": "CASCADE",
+        "ondelete": "CASCADE"
+      }
+    }
+  ],
+  "columns": [
+    {
+      "name": "value_id",
+      "type": "INTEGER",
+      "nullable": false,
+      "stats": {
+        "null_count": 0,
+        "distinct_count": 20,
+        "null_percentage": 0.0,
+        "numeric_stats": {
+          "avg": 10.5,
+          "min": 1.0,
+          "max": 20.0,
+          "stddev": 5.766281297335398
+        },
+        "sample_values": [
+          "1",
+          "2",
+          "15",
+          "14",
+          "13",
+          "12",
+          "11",
+          "10",
+          "9",
+          "8",
+          "5",
+          "6",
+          "7",
+          "20",
+          "19"
+        ]
+      }
+    },
+    {
+      "name": "option_id",
+      "type": "INTEGER",
+      "nullable": false,
+      "stats": {
+        "null_count": 0,
+        "distinct_count": 20,
+        "null_percentage": 0.0,
+        "numeric_stats": {
+          "avg": 10.8,
+          "min": 1.0,
+          "max": 22.0,
+          "stddev": 6.2337789502034795
+        },
+        "sample_values": [
+          "1",
+          "2",
+          "3",
+          "4",
+          "5",
+          "6",
+          "7",
+          "8",
+          "9",
+          "10",
+          "11",
+          "12",
+          "13",
+          "14",
+          "15"
+        ]
+      }
+    },
+    {
+      "name": "store_id",
+      "type": "SMALLINT",
+      "nullable": false,
+      "stats": {
+        "null_count": 0,
+        "distinct_count": 1,
+        "null_percentage": 0.0,
+        "numeric_stats": {
+          "avg": 0.0,
+          "min": 0.0,
+          "max": 0.0,
+          "stddev": 0.0
+        },
+        "frequent_values": [
+          {
+            "value": "0",
+            "count": 20
+          }
+        ],
+        "sample_values": [
+          "0"
+        ]
+      }
+    },
+    {
+      "name": "title",
+      "type": "VARCHAR(255)",
+      "nullable": true,
+      "stats": {
+        "null_count": 0,
+        "distinct_count": 12,
+        "null_percentage": 0.0,
+        "sample_values": [
+          "Waranty",
+          "Laptop",
+          "Case",
+          "CPU",
+          "RAM",
+          "Hard Drive",
+          "Peripherals",
+          "Processor",
+          "Memory",
+          "Hard Drive 2",
+          "Monitor",
+          "Warranty"
+        ]
+      }
+    }
+  ],
+  "sample_rows": [
+    {
+      "value_id": 1,
+      "option_id": 1,
+      "store_id": 0,
+      "title": "Waranty"
+    },
+    {
+      "value_id": 2,
+      "option_id": 2,
+      "store_id": 0,
+      "title": "Laptop"
+    },
+    {
+      "value_id": 3,
+      "option_id": 21,
+      "store_id": 0,
+      "title": "Case"
+    }
+  ],
+  "execution": {
+    "status": "success",
+    "seconds": 0.04,
+    "processed_at": "2026-09-13T18:56:13.425659",
+    "attempt": 1
+  }
+}

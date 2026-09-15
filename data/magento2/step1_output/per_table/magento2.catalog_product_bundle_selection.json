@@ -1,0 +1,473 @@
+{
+  "schema": "magento2",
+  "table_name": "catalog_product_bundle_selection",
+  "row_count": 57,
+  "primary_key": [
+    "selection_id"
+  ],
+  "foreign_keys": [
+    {
+      "name": "FK_CAT_PRD_BNDL_SELECTION_OPT_ID_CAT_PRD_BNDL_OPT_OPT_ID",
+      "constrained_columns": [
+        "option_id"
+      ],
+      "referred_schema": "magento2",
+      "referred_table": "catalog_product_bundle_option",
+      "referred_columns": [
+        "option_id"
+      ],
+      "options": {
+        "onupdate": "CASCADE",
+        "ondelete": "CASCADE"
+      }
+    },
+    {
+      "name": "FK_CAT_PRD_BNDL_SELECTION_PRD_ID_CAT_PRD_ENTT_ENTT_ID",
+      "constrained_columns": [
+        "product_id"
+      ],
+      "referred_schema": "magento2",
+      "referred_table": "catalog_product_entity",
+      "referred_columns": [
+        "entity_id"
+      ],
+      "options": {
+        "onupdate": "CASCADE",
+        "ondelete": "CASCADE"
+      }
+    }
+  ],
+  "columns": [
+    {
+      "name": "selection_id",
+      "type": "INTEGER",
+      "nullable": false,
+      "stats": {
+        "null_count": 0,
+        "distinct_count": 57,
+        "null_percentage": 0.0,
+        "numeric_stats": {
+          "avg": 29.7895,
+          "min": 1.0,
+          "max": 62.0,
+          "stddev": 17.66028038372448
+        },
+        "sample_values": [
+          "1",
+          "2",
+          "3",
+          "4",
+          "5",
+          "6",
+          "7",
+          "8",
+          "9",
+          "10",
+          "11",
+          "12",
+          "13",
+          "14",
+          "15"
+        ]
+      }
+    },
+    {
+      "name": "option_id",
+      "type": "INTEGER",
+      "nullable": false,
+      "stats": {
+        "null_count": 0,
+        "distinct_count": 20,
+        "null_percentage": 0.0,
+        "numeric_stats": {
+          "avg": 11.3509,
+          "min": 1.0,
+          "max": 22.0,
+          "stddev": 6.050927804949247
+        },
+        "frequent_values": [
+          {
+            "value": "14",
+            "count": 4
+          },
+          {
+            "value": "22",
+            "count": 4
+          },
+          {
+            "value": "9",
+            "count": 4
+          },
+          {
+            "value": "4",
+            "count": 4
+          },
+          {
+            "value": "5",
+            "count": 4
+          }
+        ],
+        "sample_values": [
+          "1",
+          "2",
+          "3",
+          "4",
+          "5",
+          "6",
+          "7",
+          "8",
+          "9",
+          "10",
+          "11",
+          "12",
+          "13",
+          "14",
+          "15"
+        ]
+      }
+    },
+    {
+      "name": "parent_product_id",
+      "type": "INTEGER",
+      "nullable": false,
+      "stats": {
+        "null_count": 0,
+        "distinct_count": 4,
+        "null_percentage": 0.0,
+        "numeric_stats": {
+          "avg": 163.4912,
+          "min": 158.0,
+          "max": 165.0,
+          "stddev": 1.718044655767731
+        },
+        "frequent_values": [
+          {
+            "value": "163",
+            "count": 22
+          },
+          {
+            "value": "165",
+            "count": 17
+          },
+          {
+            "value": "164",
+            "count": 14
+          },
+          {
+            "value": "158",
+            "count": 4
+          }
+        ],
+        "sample_values": [
+          "158",
+          "163",
+          "164",
+          "165"
+        ]
+      }
+    },
+    {
+      "name": "product_id",
+      "type": "INTEGER",
+      "nullable": false,
+      "stats": {
+        "null_count": 0,
+        "distinct_count": 25,
+        "null_percentage": 0.0,
+        "numeric_stats": {
+          "avg": 147.0877,
+          "min": 27.0,
+          "max": 162.0,
+          "stddev": 17.508174233021503
+        },
+        "frequent_values": [
+          {
+            "value": "143",
+            "count": 3
+          },
+          {
+            "value": "145",
+            "count": 3
+          },
+          {
+            "value": "139",
+            "count": 3
+          },
+          {
+            "value": "140",
+            "count": 3
+          },
+          {
+            "value": "141",
+            "count": 3
+          }
+        ],
+        "sample_values": [
+          "27",
+          "138",
+          "139",
+          "140",
+          "141",
+          "142",
+          "143",
+          "144",
+          "145",
+          "146",
+          "147",
+          "148",
+          "149",
+          "150",
+          "151"
+        ]
+      }
+    },
+    {
+      "name": "position",
+      "type": "INTEGER",
+      "nullable": false,
+      "stats": {
+        "null_count": 0,
+        "distinct_count": 5,
+        "null_percentage": 0.0,
+        "numeric_stats": {
+          "avg": 3.1579,
+          "min": 0.0,
+          "max": 100.0,
+          "stddev": 14.768137197006988
+        },
+        "frequent_values": [
+          {
+            "value": "0",
+            "count": 53
+          },
+          {
+            "value": "20",
+            "count": 1
+          },
+          {
+            "value": "10",
+            "count": 1
+          },
+          {
+            "value": "50",
+            "count": 1
+          },
+          {
+            "value": "100",
+            "count": 1
+          }
+        ],
+        "sample_values": [
+          "20",
+          "0",
+          "10",
+          "50",
+          "100"
+        ]
+      }
+    },
+    {
+      "name": "is_default",
+      "type": "SMALLINT",
+      "nullable": false,
+      "stats": {
+        "null_count": 0,
+        "distinct_count": 2,
+        "null_percentage": 0.0,
+        "numeric_stats": {
+          "avg": 0.0877,
+          "min": 0.0,
+          "max": 1.0,
+          "stddev": 0.28288623678240526
+        },
+        "frequent_values": [
+          {
+            "value": "0",
+            "count": 52
+          },
+          {
+            "value": "1",
+            "count": 5
+          }
+        ],
+        "sample_values": [
+          "0",
+          "1"
+        ]
+      }
+    },
+    {
+      "name": "selection_price_type",
+      "type": "SMALLINT",
+      "nullable": false,
+      "stats": {
+        "null_count": 0,
+        "distinct_count": 1,
+        "null_percentage": 0.0,
+        "numeric_stats": {
+          "avg": 0.0,
+          "min": 0.0,
+          "max": 0.0,
+          "stddev": 0.0
+        },
+        "frequent_values": [
+          {
+            "value": "0",
+            "count": 57
+          }
+        ],
+        "sample_values": [
+          "0"
+        ]
+      }
+    },
+    {
+      "name": "selection_price_value",
+      "type": "DECIMAL(12, 4)",
+      "nullable": false,
+      "stats": {
+        "null_count": 0,
+        "distinct_count": 9,
+        "null_percentage": 0.0,
+        "numeric_stats": {
+          "avg": 30.24561404,
+          "min": 0.0,
+          "max": 700.0,
+          "stddev": 104.3427685944565
+        },
+        "frequent_values": [
+          {
+            "value": "0.0000",
+            "count": 49
+          },
+          {
+            "value": "75.0000",
+            "count": 1
+          },
+          {
+            "value": "150.0000",
+            "count": 1
+          },
+          {
+            "value": "250.0000",
+            "count": 1
+          },
+          {
+            "value": "199.0000",
+            "count": 1
+          }
+        ],
+        "sample_values": [
+          "0.0000",
+          "75.0000",
+          "150.0000",
+          "250.0000",
+          "199.0000",
+          "50.0000",
+          "700.0000",
+          "200.0000",
+          "100.0000"
+        ]
+      }
+    },
+    {
+      "name": "selection_qty",
+      "type": "DECIMAL(12, 4)",
+      "nullable": true,
+      "stats": {
+        "null_count": 0,
+        "distinct_count": 1,
+        "null_percentage": 0.0,
+        "numeric_stats": {
+          "avg": 1.0,
+          "min": 1.0,
+          "max": 1.0,
+          "stddev": 0.0
+        },
+        "frequent_values": [
+          {
+            "value": "1.0000",
+            "count": 57
+          }
+        ],
+        "sample_values": [
+          "1.0000"
+        ]
+      }
+    },
+    {
+      "name": "selection_can_change_qty",
+      "type": "SMALLINT",
+      "nullable": false,
+      "stats": {
+        "null_count": 0,
+        "distinct_count": 2,
+        "null_percentage": 0.0,
+        "numeric_stats": {
+          "avg": 0.4386,
+          "min": 0.0,
+          "max": 1.0,
+          "stddev": 0.4962152850431913
+        },
+        "frequent_values": [
+          {
+            "value": "0",
+            "count": 32
+          },
+          {
+            "value": "1",
+            "count": 25
+          }
+        ],
+        "sample_values": [
+          "0",
+          "1"
+        ]
+      }
+    }
+  ],
+  "sample_rows": [
+    {
+      "selection_id": 1,
+      "option_id": 1,
+      "parent_product_id": 158,
+      "product_id": 146,
+      "position": 20,
+      "is_default": 0,
+      "selection_price_type": 0,
+      "selection_price_value": 0.0,
+      "selection_qty": 1.0,
+      "selection_can_change_qty": 0
+    },
+    {
+      "selection_id": 2,
+      "option_id": 1,
+      "parent_product_id": 158,
+      "product_id": 142,
+      "position": 0,
+      "is_default": 0,
+      "selection_price_type": 0,
+      "selection_price_value": 0.0,
+      "selection_qty": 1.0,
+      "selection_can_change_qty": 0
+    },
+    {
+      "selection_id": 3,
+      "option_id": 1,
+      "parent_product_id": 158,
+      "product_id": 144,
+      "position": 10,
+      "is_default": 0,
+      "selection_price_type": 0,
+      "selection_price_value": 0.0,
+      "selection_qty": 1.0,
+      "selection_can_change_qty": 0
+    }
+  ],
+  "execution": {
+    "status": "success",
+    "seconds": 0.03,
+    "processed_at": "2026-09-13T18:56:13.583051",
+    "attempt": 1
+  }
+}

@@ -1,0 +1,38 @@
+{
+  "schema": "magento2",
+  "table_name": "widget",
+  "row_count": 0,
+  "primary_key": [
+    "widget_id"
+  ],
+  "foreign_keys": [],
+  "columns": [
+    {
+      "name": "widget_id",
+      "type": "INTEGER",
+      "nullable": false
+    },
+    {
+      "name": "widget_code",
+      "type": "VARCHAR(255)",
+      "nullable": true
+    },
+    {
+      "name": "widget_type",
+      "type": "VARCHAR(255)",
+      "nullable": true
+    },
+    {
+      "name": "parameters",
+      "type": "TEXT",
+      "nullable": true
+    }
+  ],
+  "sample_rows": [],
+  "execution": {
+    "status": "success",
+    "seconds": 0.0,
+    "processed_at": "2026-09-13T18:56:51.400517",
+    "attempt": 1
+  }
+}

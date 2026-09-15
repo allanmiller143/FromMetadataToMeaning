@@ -1,0 +1,69 @@
+{
+  "schema": "magento2",
+  "table_name": "salesrule_customer",
+  "row_count": 0,
+  "primary_key": [
+    "rule_customer_id"
+  ],
+  "foreign_keys": [
+    {
+      "name": "FK_SALESRULE_CUSTOMER_CUSTOMER_ID_CUSTOMER_ENTITY_ENTITY_ID",
+      "constrained_columns": [
+        "customer_id"
+      ],
+      "referred_schema": "magento2",
+      "referred_table": "customer_entity",
+      "referred_columns": [
+        "entity_id"
+      ],
+      "options": {
+        "onupdate": "CASCADE",
+        "ondelete": "CASCADE"
+      }
+    },
+    {
+      "name": "FK_SALESRULE_CUSTOMER_RULE_ID_SALESRULE_RULE_ID",
+      "constrained_columns": [
+        "rule_id"
+      ],
+      "referred_schema": "magento2",
+      "referred_table": "salesrule",
+      "referred_columns": [
+        "rule_id"
+      ],
+      "options": {
+        "onupdate": "CASCADE",
+        "ondelete": "CASCADE"
+      }
+    }
+  ],
+  "columns": [
+    {
+      "name": "rule_customer_id",
+      "type": "INTEGER",
+      "nullable": false
+    },
+    {
+      "name": "rule_id",
+      "type": "INTEGER",
+      "nullable": false
+    },
+    {
+      "name": "customer_id",
+      "type": "INTEGER",
+      "nullable": false
+    },
+    {
+      "name": "times_used",
+      "type": "SMALLINT",
+      "nullable": false
+    }
+  ],
+  "sample_rows": [],
+  "execution": {
+    "status": "success",
+    "seconds": 0.01,
+    "processed_at": "2026-09-13T18:56:46.791953",
+    "attempt": 1
+  }
+}

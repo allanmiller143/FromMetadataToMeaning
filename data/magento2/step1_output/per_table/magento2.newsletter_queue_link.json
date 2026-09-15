@@ -1,0 +1,69 @@
+{
+  "schema": "magento2",
+  "table_name": "newsletter_queue_link",
+  "row_count": 0,
+  "primary_key": [
+    "queue_link_id"
+  ],
+  "foreign_keys": [
+    {
+      "name": "newsletter_queue_link_ibfk_1",
+      "constrained_columns": [
+        "queue_id"
+      ],
+      "referred_schema": "magento2",
+      "referred_table": "newsletter_queue",
+      "referred_columns": [
+        "queue_id"
+      ],
+      "options": {
+        "onupdate": "CASCADE",
+        "ondelete": "CASCADE"
+      }
+    },
+    {
+      "name": "newsletter_queue_link_ibfk_2",
+      "constrained_columns": [
+        "subscriber_id"
+      ],
+      "referred_schema": "magento2",
+      "referred_table": "newsletter_subscriber",
+      "referred_columns": [
+        "subscriber_id"
+      ],
+      "options": {
+        "onupdate": "CASCADE",
+        "ondelete": "CASCADE"
+      }
+    }
+  ],
+  "columns": [
+    {
+      "name": "queue_link_id",
+      "type": "INTEGER",
+      "nullable": false
+    },
+    {
+      "name": "queue_id",
+      "type": "INTEGER",
+      "nullable": false
+    },
+    {
+      "name": "subscriber_id",
+      "type": "INTEGER",
+      "nullable": false
+    },
+    {
+      "name": "letter_sent_at",
+      "type": "TIMESTAMP",
+      "nullable": true
+    }
+  ],
+  "sample_rows": [],
+  "execution": {
+    "status": "success",
+    "seconds": 0.01,
+    "processed_at": "2026-09-13T18:56:33.160489",
+    "attempt": 1
+  }
+}

@@ -1,0 +1,65 @@
+{
+  "schema": "magento2",
+  "table_name": "salesrule_coupon_usage",
+  "row_count": 0,
+  "primary_key": [
+    "coupon_id",
+    "customer_id"
+  ],
+  "foreign_keys": [
+    {
+      "name": "salesrule_coupon_usage_ibfk_1",
+      "constrained_columns": [
+        "coupon_id"
+      ],
+      "referred_schema": "magento2",
+      "referred_table": "salesrule_coupon",
+      "referred_columns": [
+        "coupon_id"
+      ],
+      "options": {
+        "onupdate": "CASCADE",
+        "ondelete": "CASCADE"
+      }
+    },
+    {
+      "name": "salesrule_coupon_usage_ibfk_2",
+      "constrained_columns": [
+        "customer_id"
+      ],
+      "referred_schema": "magento2",
+      "referred_table": "customer_entity",
+      "referred_columns": [
+        "entity_id"
+      ],
+      "options": {
+        "onupdate": "CASCADE",
+        "ondelete": "CASCADE"
+      }
+    }
+  ],
+  "columns": [
+    {
+      "name": "coupon_id",
+      "type": "INTEGER",
+      "nullable": false
+    },
+    {
+      "name": "customer_id",
+      "type": "INTEGER",
+      "nullable": false
+    },
+    {
+      "name": "times_used",
+      "type": "INTEGER",
+      "nullable": false
+    }
+  ],
+  "sample_rows": [],
+  "execution": {
+    "status": "success",
+    "seconds": 0.01,
+    "processed_at": "2026-09-13T18:56:46.604947",
+    "attempt": 1
+  }
+}

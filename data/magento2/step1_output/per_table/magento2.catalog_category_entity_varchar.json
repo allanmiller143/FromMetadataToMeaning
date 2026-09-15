@@ -1,0 +1,330 @@
+{
+  "schema": "magento2",
+  "table_name": "catalog_category_entity_varchar",
+  "row_count": 210,
+  "primary_key": [
+    "value_id"
+  ],
+  "foreign_keys": [
+    {
+      "name": "catalog_category_entity_varchar_ibfk_1",
+      "constrained_columns": [
+        "store_id"
+      ],
+      "referred_schema": "magento2",
+      "referred_table": "store",
+      "referred_columns": [
+        "store_id"
+      ],
+      "options": {
+        "onupdate": "CASCADE",
+        "ondelete": "CASCADE"
+      }
+    },
+    {
+      "name": "catalog_category_entity_varchar_ibfk_2",
+      "constrained_columns": [
+        "attribute_id"
+      ],
+      "referred_schema": "magento2",
+      "referred_table": "eav_attribute",
+      "referred_columns": [
+        "attribute_id"
+      ],
+      "options": {
+        "onupdate": "CASCADE",
+        "ondelete": "CASCADE"
+      }
+    },
+    {
+      "name": "catalog_category_entity_varchar_ibfk_3",
+      "constrained_columns": [
+        "entity_id"
+      ],
+      "referred_schema": "magento2",
+      "referred_table": "catalog_category_entity",
+      "referred_columns": [
+        "entity_id"
+      ],
+      "options": {
+        "onupdate": "CASCADE",
+        "ondelete": "CASCADE"
+      }
+    }
+  ],
+  "columns": [
+    {
+      "name": "value_id",
+      "type": "INTEGER",
+      "nullable": false,
+      "stats": {
+        "null_count": 0,
+        "distinct_count": 210,
+        "null_percentage": 0.0,
+        "numeric_stats": {
+          "avg": 106.2095,
+          "min": 1.0,
+          "max": 240.0,
+          "stddev": 61.95800347825403
+        },
+        "sample_values": [
+          "1",
+          "4",
+          "7",
+          "10",
+          "13",
+          "16",
+          "19",
+          "22",
+          "25",
+          "28",
+          "31",
+          "34",
+          "39",
+          "42",
+          "45"
+        ]
+      }
+    },
+    {
+      "name": "entity_type_id",
+      "type": "SMALLINT",
+      "nullable": false,
+      "stats": {
+        "null_count": 0,
+        "distinct_count": 1,
+        "null_percentage": 0.0,
+        "numeric_stats": {
+          "avg": 9.0,
+          "min": 9.0,
+          "max": 9.0,
+          "stddev": 0.0
+        },
+        "frequent_values": [
+          {
+            "value": "9",
+            "count": 210
+          }
+        ],
+        "sample_values": [
+          "9"
+        ]
+      }
+    },
+    {
+      "name": "attribute_id",
+      "type": "SMALLINT",
+      "nullable": false,
+      "stats": {
+        "null_count": 0,
+        "distinct_count": 9,
+        "null_percentage": 0.0,
+        "numeric_stats": {
+          "avg": 371.619,
+          "min": 111.0,
+          "max": 930.0,
+          "stddev": 214.3341130528236
+        },
+        "frequent_values": [
+          {
+            "value": "533",
+            "count": 50
+          },
+          {
+            "value": "111",
+            "count": 26
+          },
+          {
+            "value": "118",
+            "count": 26
+          },
+          {
+            "value": "479",
+            "count": 26
+          },
+          {
+            "value": "114",
+            "count": 24
+          }
+        ],
+        "sample_values": [
+          "111",
+          "113",
+          "114",
+          "118",
+          "479",
+          "514",
+          "533",
+          "563",
+          "930"
+        ]
+      }
+    },
+    {
+      "name": "store_id",
+      "type": "SMALLINT",
+      "nullable": false,
+      "stats": {
+        "null_count": 0,
+        "distinct_count": 2,
+        "null_percentage": 0.0,
+        "numeric_stats": {
+          "avg": 0.119,
+          "min": 0.0,
+          "max": 1.0,
+          "stddev": 0.3238445359222724
+        },
+        "frequent_values": [
+          {
+            "value": "0",
+            "count": 185
+          },
+          {
+            "value": "1",
+            "count": 25
+          }
+        ],
+        "sample_values": [
+          "0",
+          "1"
+        ]
+      }
+    },
+    {
+      "name": "entity_id",
+      "type": "INTEGER",
+      "nullable": false,
+      "stats": {
+        "null_count": 0,
+        "distinct_count": 26,
+        "null_percentage": 0.0,
+        "numeric_stats": {
+          "avg": 20.1429,
+          "min": 3.0,
+          "max": 34.0,
+          "stddev": 8.993572913002742
+        },
+        "frequent_values": [
+          {
+            "value": "12",
+            "count": 10
+          },
+          {
+            "value": "4",
+            "count": 9
+          },
+          {
+            "value": "5",
+            "count": 9
+          },
+          {
+            "value": "8",
+            "count": 9
+          },
+          {
+            "value": "10",
+            "count": 9
+          }
+        ],
+        "sample_values": [
+          "3",
+          "4",
+          "5",
+          "8",
+          "10",
+          "12",
+          "13",
+          "15",
+          "16",
+          "17",
+          "18",
+          "19",
+          "20",
+          "22",
+          "23"
+        ]
+      }
+    },
+    {
+      "name": "value",
+      "type": "VARCHAR(255)",
+      "nullable": true,
+      "stats": {
+        "null_count": 7,
+        "distinct_count": 68,
+        "null_percentage": 3.33,
+        "frequent_values": [
+          {
+            "value": "",
+            "count": 69
+          },
+          {
+            "value": "PRODUCTS",
+            "count": 25
+          },
+          {
+            "value": "Cameras",
+            "count": 2
+          },
+          {
+            "value": "Shirts",
+            "count": 2
+          },
+          {
+            "value": "electronics/computers/peripherals.html",
+            "count": 2
+          }
+        ],
+        "sample_values": [
+          "Root Catalog",
+          "PRODUCTS",
+          "root-catalog",
+          "Shirts",
+          "Shoes",
+          "Cell Phones",
+          "cell-phones",
+          "Furniture",
+          "Cameras",
+          "Electronics",
+          "Computers",
+          "Mens",
+          "Womens",
+          "Apparel",
+          "Hoodies"
+        ]
+      }
+    }
+  ],
+  "sample_rows": [
+    {
+      "value_id": 1,
+      "entity_type_id": 9,
+      "attribute_id": 111,
+      "store_id": 0,
+      "entity_id": 3,
+      "value": "Root Catalog"
+    },
+    {
+      "value_id": 2,
+      "entity_type_id": 9,
+      "attribute_id": 118,
+      "store_id": 0,
+      "entity_id": 3,
+      "value": "PRODUCTS"
+    },
+    {
+      "value_id": 3,
+      "entity_type_id": 9,
+      "attribute_id": 479,
+      "store_id": 0,
+      "entity_id": 3,
+      "value": "root-catalog"
+    }
+  ],
+  "execution": {
+    "status": "success",
+    "seconds": 0.06,
+    "processed_at": "2026-09-13T18:56:12.785874",
+    "attempt": 1
+  }
+}

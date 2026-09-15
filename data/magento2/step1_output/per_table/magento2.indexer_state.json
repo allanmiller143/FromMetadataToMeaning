@@ -1,0 +1,118 @@
+{
+  "schema": "magento2",
+  "table_name": "indexer_state",
+  "row_count": 7,
+  "primary_key": [
+    "state_id"
+  ],
+  "foreign_keys": [],
+  "columns": [
+    {
+      "name": "state_id",
+      "type": "INTEGER",
+      "nullable": false,
+      "stats": {
+        "null_count": 0,
+        "distinct_count": 7,
+        "null_percentage": 0.0,
+        "numeric_stats": {
+          "avg": 4.0,
+          "min": 1.0,
+          "max": 7.0,
+          "stddev": 2.0
+        },
+        "sample_values": [
+          "3",
+          "7",
+          "6",
+          "1",
+          "4",
+          "5",
+          "2"
+        ]
+      }
+    },
+    {
+      "name": "indexer_id",
+      "type": "VARCHAR(255)",
+      "nullable": true,
+      "stats": {
+        "null_count": 0,
+        "distinct_count": 7,
+        "null_percentage": 0.0,
+        "sample_values": [
+          "cataloginventory_stock",
+          "catalogrule_product",
+          "catalogsearch_fulltext",
+          "catalog_category_product",
+          "catalog_product_attribute",
+          "catalog_product_category",
+          "catalog_product_price"
+        ]
+      }
+    },
+    {
+      "name": "status",
+      "type": "VARCHAR(16)",
+      "nullable": true,
+      "stats": {
+        "null_count": 0,
+        "distinct_count": 1,
+        "null_percentage": 0.0,
+        "frequent_values": [
+          {
+            "value": "invalid",
+            "count": 7
+          }
+        ],
+        "sample_values": [
+          "invalid"
+        ]
+      }
+    },
+    {
+      "name": "updated",
+      "type": "DATETIME",
+      "nullable": true,
+      "stats": {
+        "null_count": 0,
+        "distinct_count": 6,
+        "null_percentage": 0.0,
+        "sample_values": [
+          "2014-09-23 07:52:58",
+          "2014-09-23 11:39:14",
+          "2014-12-06 16:55:27",
+          "2014-12-06 16:55:28",
+          "2014-12-06 16:55:31",
+          "2014-12-06 16:55:32"
+        ]
+      }
+    }
+  ],
+  "sample_rows": [
+    {
+      "state_id": 1,
+      "indexer_id": "catalog_category_product",
+      "status": "invalid",
+      "updated": "2014-09-23 07:52:58"
+    },
+    {
+      "state_id": 2,
+      "indexer_id": "catalog_product_price",
+      "status": "invalid",
+      "updated": "2014-09-23 11:39:14"
+    },
+    {
+      "state_id": 3,
+      "indexer_id": "cataloginventory_stock",
+      "status": "invalid",
+      "updated": "2014-12-06 16:55:27"
+    }
+  ],
+  "execution": {
+    "status": "success",
+    "seconds": 0.02,
+    "processed_at": "2026-09-13T18:56:31.424028",
+    "attempt": 1
+  }
+}

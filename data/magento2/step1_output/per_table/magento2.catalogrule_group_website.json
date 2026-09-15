@@ -1,0 +1,81 @@
+{
+  "schema": "magento2",
+  "table_name": "catalogrule_group_website",
+  "row_count": 0,
+  "primary_key": [
+    "rule_id",
+    "customer_group_id",
+    "website_id"
+  ],
+  "foreign_keys": [
+    {
+      "name": "catalogrule_group_website_ibfk_1",
+      "constrained_columns": [
+        "rule_id"
+      ],
+      "referred_schema": "magento2",
+      "referred_table": "catalogrule",
+      "referred_columns": [
+        "rule_id"
+      ],
+      "options": {
+        "onupdate": "CASCADE",
+        "ondelete": "CASCADE"
+      }
+    },
+    {
+      "name": "catalogrule_group_website_ibfk_2",
+      "constrained_columns": [
+        "website_id"
+      ],
+      "referred_schema": "magento2",
+      "referred_table": "store_website",
+      "referred_columns": [
+        "website_id"
+      ],
+      "options": {
+        "onupdate": "CASCADE",
+        "ondelete": "CASCADE"
+      }
+    },
+    {
+      "name": "catalogrule_group_website_ibfk_3",
+      "constrained_columns": [
+        "customer_group_id"
+      ],
+      "referred_schema": "magento2",
+      "referred_table": "customer_group",
+      "referred_columns": [
+        "customer_group_id"
+      ],
+      "options": {
+        "onupdate": "CASCADE",
+        "ondelete": "CASCADE"
+      }
+    }
+  ],
+  "columns": [
+    {
+      "name": "rule_id",
+      "type": "INTEGER",
+      "nullable": false
+    },
+    {
+      "name": "customer_group_id",
+      "type": "SMALLINT",
+      "nullable": false
+    },
+    {
+      "name": "website_id",
+      "type": "SMALLINT",
+      "nullable": false
+    }
+  ],
+  "sample_rows": [],
+  "execution": {
+    "status": "success",
+    "seconds": 0.01,
+    "processed_at": "2026-09-13T18:56:20.425704",
+    "attempt": 1
+  }
+}

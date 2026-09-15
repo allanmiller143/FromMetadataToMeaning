@@ -1,0 +1,151 @@
+{
+  "schema": "magento2",
+  "table_name": "catalog_product_relation",
+  "row_count": 115,
+  "primary_key": [
+    "parent_id",
+    "child_id"
+  ],
+  "foreign_keys": [
+    {
+      "name": "catalog_product_relation_ibfk_1",
+      "constrained_columns": [
+        "child_id"
+      ],
+      "referred_schema": "magento2",
+      "referred_table": "catalog_product_entity",
+      "referred_columns": [
+        "entity_id"
+      ],
+      "options": {
+        "onupdate": "CASCADE",
+        "ondelete": "CASCADE"
+      }
+    },
+    {
+      "name": "catalog_product_relation_ibfk_2",
+      "constrained_columns": [
+        "parent_id"
+      ],
+      "referred_schema": "magento2",
+      "referred_table": "catalog_product_entity",
+      "referred_columns": [
+        "entity_id"
+      ],
+      "options": {
+        "onupdate": "CASCADE",
+        "ondelete": "CASCADE"
+      }
+    }
+  ],
+  "columns": [
+    {
+      "name": "parent_id",
+      "type": "INTEGER",
+      "nullable": false,
+      "stats": {
+        "null_count": 0,
+        "distinct_count": 16,
+        "null_percentage": 0.0,
+        "numeric_stats": {
+          "avg": 134.3304,
+          "min": 54.0,
+          "max": 165.0,
+          "stddev": 32.47573588927734
+        },
+        "frequent_values": [
+          {
+            "value": "163",
+            "count": 22
+          },
+          {
+            "value": "165",
+            "count": 17
+          },
+          {
+            "value": "164",
+            "count": 14
+          },
+          {
+            "value": "83",
+            "count": 10
+          },
+          {
+            "value": "135",
+            "count": 7
+          }
+        ],
+        "sample_values": [
+          "54",
+          "83",
+          "93",
+          "98",
+          "103",
+          "108",
+          "112",
+          "119",
+          "120",
+          "123",
+          "126",
+          "135",
+          "158",
+          "163",
+          "164"
+        ]
+      }
+    },
+    {
+      "name": "child_id",
+      "type": "INTEGER",
+      "nullable": false,
+      "stats": {
+        "null_count": 0,
+        "distinct_count": 78,
+        "null_percentage": 0.0,
+        "numeric_stats": {
+          "avg": 116.6348,
+          "min": 27.0,
+          "max": 162.0,
+          "stddev": 39.422423642164695
+        },
+        "sample_values": [
+          "27",
+          "29",
+          "30",
+          "31",
+          "32",
+          "33",
+          "35",
+          "36",
+          "37",
+          "38",
+          "49",
+          "51",
+          "52",
+          "53",
+          "74"
+        ]
+      }
+    }
+  ],
+  "sample_rows": [
+    {
+      "parent_id": 158,
+      "child_id": 27
+    },
+    {
+      "parent_id": 83,
+      "child_id": 29
+    },
+    {
+      "parent_id": 93,
+      "child_id": 30
+    }
+  ],
+  "execution": {
+    "status": "success",
+    "seconds": 0.02,
+    "processed_at": "2026-09-13T18:56:18.738288",
+    "attempt": 1
+  }
+}

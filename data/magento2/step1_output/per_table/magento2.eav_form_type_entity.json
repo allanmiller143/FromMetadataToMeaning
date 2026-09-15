@@ -1,0 +1,119 @@
+{
+  "schema": "magento2",
+  "table_name": "eav_form_type_entity",
+  "row_count": 11,
+  "primary_key": [
+    "type_id",
+    "entity_type_id"
+  ],
+  "foreign_keys": [
+    {
+      "name": "eav_form_type_entity_ibfk_1",
+      "constrained_columns": [
+        "type_id"
+      ],
+      "referred_schema": "magento2",
+      "referred_table": "eav_form_type",
+      "referred_columns": [
+        "type_id"
+      ],
+      "options": {
+        "onupdate": "CASCADE",
+        "ondelete": "CASCADE"
+      }
+    },
+    {
+      "name": "eav_form_type_entity_ibfk_2",
+      "constrained_columns": [
+        "entity_type_id"
+      ],
+      "referred_schema": "magento2",
+      "referred_table": "eav_entity_type",
+      "referred_columns": [
+        "entity_type_id"
+      ],
+      "options": {
+        "onupdate": "CASCADE",
+        "ondelete": "CASCADE"
+      }
+    }
+  ],
+  "columns": [
+    {
+      "name": "type_id",
+      "type": "SMALLINT",
+      "nullable": false,
+      "stats": {
+        "null_count": 0,
+        "distinct_count": 8,
+        "null_percentage": 0.0,
+        "numeric_stats": {
+          "avg": 4.8182,
+          "min": 1.0,
+          "max": 8.0,
+          "stddev": 2.2081741457256583
+        },
+        "sample_values": [
+          "1",
+          "2",
+          "4",
+          "5",
+          "8",
+          "3",
+          "6",
+          "7"
+        ]
+      }
+    },
+    {
+      "name": "entity_type_id",
+      "type": "SMALLINT",
+      "nullable": false,
+      "stats": {
+        "null_count": 0,
+        "distinct_count": 2,
+        "null_percentage": 0.0,
+        "numeric_stats": {
+          "avg": 1.5455,
+          "min": 1.0,
+          "max": 2.0,
+          "stddev": 0.49792959773196915
+        },
+        "frequent_values": [
+          {
+            "value": "2",
+            "count": 6
+          },
+          {
+            "value": "1",
+            "count": 5
+          }
+        ],
+        "sample_values": [
+          "1",
+          "2"
+        ]
+      }
+    }
+  ],
+  "sample_rows": [
+    {
+      "type_id": 1,
+      "entity_type_id": 1
+    },
+    {
+      "type_id": 2,
+      "entity_type_id": 1
+    },
+    {
+      "type_id": 4,
+      "entity_type_id": 1
+    }
+  ],
+  "execution": {
+    "status": "success",
+    "seconds": 0.01,
+    "processed_at": "2026-09-13T18:56:30.244654",
+    "attempt": 1
+  }
+}

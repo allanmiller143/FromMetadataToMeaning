@@ -1,0 +1,86 @@
+{
+  "schema": "magento2",
+  "table_name": "tax_class",
+  "row_count": 4,
+  "primary_key": [
+    "class_id"
+  ],
+  "foreign_keys": [],
+  "columns": [
+    {
+      "name": "class_id",
+      "type": "SMALLINT",
+      "nullable": false,
+      "stats": {
+        "null_count": 0,
+        "distinct_count": 4,
+        "null_percentage": 0.0,
+        "numeric_stats": {
+          "avg": 2.5,
+          "min": 1.0,
+          "max": 4.0,
+          "stddev": 1.118033988749895
+        },
+        "sample_values": [
+          "1",
+          "2",
+          "3",
+          "4"
+        ]
+      }
+    },
+    {
+      "name": "class_name",
+      "type": "VARCHAR(255)",
+      "nullable": false,
+      "stats": {
+        "null_count": 0,
+        "distinct_count": 4,
+        "null_percentage": 0.0,
+        "sample_values": [
+          "default",
+          "Taxable Goods",
+          "Retail Customer",
+          "Shipping"
+        ]
+      }
+    },
+    {
+      "name": "class_type",
+      "type": "VARCHAR(8)",
+      "nullable": false,
+      "stats": {
+        "null_count": 0,
+        "distinct_count": 2,
+        "null_percentage": 0.0,
+        "sample_values": [
+          "PRODUCT",
+          "CUSTOMER"
+        ]
+      }
+    }
+  ],
+  "sample_rows": [
+    {
+      "class_id": 1,
+      "class_name": "default",
+      "class_type": "PRODUCT"
+    },
+    {
+      "class_id": 2,
+      "class_name": "Taxable Goods",
+      "class_type": "PRODUCT"
+    },
+    {
+      "class_id": 3,
+      "class_name": "Retail Customer",
+      "class_type": "CUSTOMER"
+    }
+  ],
+  "execution": {
+    "status": "success",
+    "seconds": 0.02,
+    "processed_at": "2026-09-13T18:56:50.037192",
+    "attempt": 1
+  }
+}

@@ -1,0 +1,232 @@
+{
+  "schema": "magento2",
+  "table_name": "catalog_product_option",
+  "row_count": 2,
+  "primary_key": [
+    "option_id"
+  ],
+  "foreign_keys": [
+    {
+      "name": "catalog_product_option_ibfk_1",
+      "constrained_columns": [
+        "product_id"
+      ],
+      "referred_schema": "magento2",
+      "referred_table": "catalog_product_entity",
+      "referred_columns": [
+        "entity_id"
+      ],
+      "options": {
+        "onupdate": "CASCADE",
+        "ondelete": "CASCADE"
+      }
+    }
+  ],
+  "columns": [
+    {
+      "name": "option_id",
+      "type": "INTEGER",
+      "nullable": false,
+      "stats": {
+        "null_count": 0,
+        "distinct_count": 2,
+        "null_percentage": 0.0,
+        "numeric_stats": {
+          "avg": 1.5,
+          "min": 1.0,
+          "max": 2.0,
+          "stddev": 0.5
+        },
+        "sample_values": [
+          "1",
+          "2"
+        ]
+      }
+    },
+    {
+      "name": "product_id",
+      "type": "INTEGER",
+      "nullable": false,
+      "stats": {
+        "null_count": 0,
+        "distinct_count": 2,
+        "null_percentage": 0.0,
+        "numeric_stats": {
+          "avg": 25.5,
+          "min": 25.0,
+          "max": 26.0,
+          "stddev": 0.5
+        },
+        "sample_values": [
+          "25",
+          "26"
+        ]
+      }
+    },
+    {
+      "name": "type",
+      "type": "VARCHAR(50)",
+      "nullable": true,
+      "stats": {
+        "null_count": 0,
+        "distinct_count": 2,
+        "null_percentage": 0.0,
+        "sample_values": [
+          "drop_down",
+          "radio"
+        ]
+      }
+    },
+    {
+      "name": "is_require",
+      "type": "SMALLINT",
+      "nullable": false,
+      "stats": {
+        "null_count": 0,
+        "distinct_count": 1,
+        "null_percentage": 0.0,
+        "numeric_stats": {
+          "avg": 0.0,
+          "min": 0.0,
+          "max": 0.0,
+          "stddev": 0.0
+        },
+        "sample_values": [
+          "0"
+        ]
+      }
+    },
+    {
+      "name": "sku",
+      "type": "VARCHAR(64)",
+      "nullable": true,
+      "stats": {
+        "null_count": 0,
+        "distinct_count": 1,
+        "null_percentage": 0.0,
+        "sample_values": [
+          ""
+        ]
+      }
+    },
+    {
+      "name": "max_characters",
+      "type": "INTEGER",
+      "nullable": true,
+      "stats": {
+        "null_count": 2,
+        "distinct_count": 0,
+        "null_percentage": 100.0,
+        "numeric_stats": {
+          "avg": null,
+          "min": null,
+          "max": null,
+          "stddev": null
+        },
+        "frequent_values": [],
+        "sample_values": []
+      }
+    },
+    {
+      "name": "file_extension",
+      "type": "VARCHAR(50)",
+      "nullable": true,
+      "stats": {
+        "null_count": 2,
+        "distinct_count": 0,
+        "null_percentage": 100.0,
+        "frequent_values": [],
+        "sample_values": []
+      }
+    },
+    {
+      "name": "image_size_x",
+      "type": "SMALLINT",
+      "nullable": true,
+      "stats": {
+        "null_count": 0,
+        "distinct_count": 1,
+        "null_percentage": 0.0,
+        "numeric_stats": {
+          "avg": 0.0,
+          "min": 0.0,
+          "max": 0.0,
+          "stddev": 0.0
+        },
+        "sample_values": [
+          "0"
+        ]
+      }
+    },
+    {
+      "name": "image_size_y",
+      "type": "SMALLINT",
+      "nullable": true,
+      "stats": {
+        "null_count": 0,
+        "distinct_count": 1,
+        "null_percentage": 0.0,
+        "numeric_stats": {
+          "avg": 0.0,
+          "min": 0.0,
+          "max": 0.0,
+          "stddev": 0.0
+        },
+        "sample_values": [
+          "0"
+        ]
+      }
+    },
+    {
+      "name": "sort_order",
+      "type": "INTEGER",
+      "nullable": false,
+      "stats": {
+        "null_count": 0,
+        "distinct_count": 1,
+        "null_percentage": 0.0,
+        "numeric_stats": {
+          "avg": 0.0,
+          "min": 0.0,
+          "max": 0.0,
+          "stddev": 0.0
+        },
+        "sample_values": [
+          "0"
+        ]
+      }
+    }
+  ],
+  "sample_rows": [
+    {
+      "option_id": 1,
+      "product_id": 25,
+      "type": "drop_down",
+      "is_require": 0,
+      "sku": "",
+      "max_characters": null,
+      "file_extension": null,
+      "image_size_x": 0,
+      "image_size_y": 0,
+      "sort_order": 0
+    },
+    {
+      "option_id": 2,
+      "product_id": 26,
+      "type": "radio",
+      "is_require": 0,
+      "sku": "",
+      "max_characters": null,
+      "file_extension": null,
+      "image_size_x": 0,
+      "image_size_y": 0,
+      "sort_order": 0
+    }
+  ],
+  "execution": {
+    "status": "success",
+    "seconds": 0.06,
+    "processed_at": "2026-09-13T18:56:18.096424",
+    "attempt": 1
+  }
+}

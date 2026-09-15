@@ -1,0 +1,304 @@
+{
+  "schema": "magento2",
+  "table_name": "review_detail",
+  "row_count": 113,
+  "primary_key": [
+    "detail_id"
+  ],
+  "foreign_keys": [
+    {
+      "name": "FK_REVIEW_DETAIL_CUSTOMER_ID_CUSTOMER_ENTITY_ENTITY_ID",
+      "constrained_columns": [
+        "customer_id"
+      ],
+      "referred_schema": "magento2",
+      "referred_table": "customer_entity",
+      "referred_columns": [
+        "entity_id"
+      ],
+      "options": {
+        "onupdate": "CASCADE",
+        "ondelete": "SET NULL"
+      }
+    },
+    {
+      "name": "FK_REVIEW_DETAIL_REVIEW_ID_REVIEW_REVIEW_ID",
+      "constrained_columns": [
+        "review_id"
+      ],
+      "referred_schema": "magento2",
+      "referred_table": "review",
+      "referred_columns": [
+        "review_id"
+      ],
+      "options": {
+        "onupdate": "CASCADE",
+        "ondelete": "CASCADE"
+      }
+    },
+    {
+      "name": "FK_REVIEW_DETAIL_STORE_ID_STORE_STORE_ID",
+      "constrained_columns": [
+        "store_id"
+      ],
+      "referred_schema": "magento2",
+      "referred_table": "store",
+      "referred_columns": [
+        "store_id"
+      ],
+      "options": {
+        "onupdate": "CASCADE",
+        "ondelete": "SET NULL"
+      }
+    }
+  ],
+  "columns": [
+    {
+      "name": "detail_id",
+      "type": "BIGINT",
+      "nullable": false,
+      "stats": {
+        "null_count": 0,
+        "distinct_count": 113,
+        "null_percentage": 0.0,
+        "numeric_stats": {
+          "avg": 57.0,
+          "min": 1.0,
+          "max": 113.0,
+          "stddev": 32.61901286060018
+        },
+        "sample_values": [
+          "83",
+          "97",
+          "109",
+          "60",
+          "1",
+          "2",
+          "3",
+          "4",
+          "5",
+          "6",
+          "7",
+          "8",
+          "9",
+          "10",
+          "11"
+        ]
+      }
+    },
+    {
+      "name": "review_id",
+      "type": "BIGINT",
+      "nullable": false,
+      "stats": {
+        "null_count": 0,
+        "distinct_count": 113,
+        "null_percentage": 0.0,
+        "numeric_stats": {
+          "avg": 57.0,
+          "min": 1.0,
+          "max": 113.0,
+          "stddev": 32.61901286060018
+        },
+        "sample_values": [
+          "1",
+          "2",
+          "3",
+          "4",
+          "5",
+          "6",
+          "7",
+          "8",
+          "9",
+          "10",
+          "11",
+          "12",
+          "13",
+          "14",
+          "15"
+        ]
+      }
+    },
+    {
+      "name": "store_id",
+      "type": "SMALLINT",
+      "nullable": true,
+      "stats": {
+        "null_count": 3,
+        "distinct_count": 4,
+        "null_percentage": 2.65,
+        "numeric_stats": {
+          "avg": 1.0545,
+          "min": 0.0,
+          "max": 3.0,
+          "stddev": 0.2965364805509107
+        },
+        "frequent_values": [
+          {
+            "value": "1",
+            "count": 103
+          },
+          {
+            "value": "2",
+            "count": 5
+          },
+          {
+            "value": "0",
+            "count": 1
+          },
+          {
+            "value": "3",
+            "count": 1
+          }
+        ],
+        "sample_values": [
+          "0",
+          "1",
+          "2",
+          "3"
+        ]
+      }
+    },
+    {
+      "name": "title",
+      "type": "VARCHAR(255)",
+      "nullable": false,
+      "stats": {
+        "null_count": 0,
+        "distinct_count": 109,
+        "null_percentage": 0.0,
+        "sample_values": [
+          "I love this shirt!",
+          "I feel strange holding a television to my head",
+          "Cute, but see through",
+          "chics dig ribs",
+          "Not an i-phone",
+          "It's a pitty they don't have large sizes",
+          "Great all around phone",
+          "Awesome Phone",
+          " Ultimate Cell Phone",
+          "Worth the upgrade!!!",
+          "Sweet!",
+          "Fouch",
+          " A crippled cell phone",
+          "MJS",
+          "Great phone - unless you are outside or in the car"
+        ]
+      }
+    },
+    {
+      "name": "detail",
+      "type": "TEXT",
+      "nullable": false,
+      "stats": {
+        "null_count": 0,
+        "distinct_count": 113,
+        "null_percentage": 0.0,
+        "sample_values": [
+          "This shirts if really great. Especially with the spinal diagram, finally I can see myself for who I really am! ",
+          "I feel strange holding a television to my head.  This product should come with free suspenders",
+          "Cute design, but material is too thin.",
+          "Ever since buying this shirt chics cant take their hands off me. I don't know what it is it must be sprayed with axe - the seductive body spray for men. I'm the last one to believe commercials but I tell you you won't regret buying this shirt. I ordered it n every color.",
+          "cest ci nest pas une i-phone.",
+          "You wont believe it, my show size is 13 so it's impossible for me to get a new pa",
+          "Hello all. Just received my phone a few days ago, was super fast shipping using the 2 day shipping option (which by the way is free!! So make sure you select that, as the discount is only shown when you are about to place the final purchase). Luckily I ordered my phone right before the phone was about in low stock.\r\nPHONE: So can't really complain about much of anything. Phone has really intuitive interface, very easy to navigate as the arrow keys all function as shortcuts (to calls, file folders, aim, etc..). The walkman button is very convenient as it leads right to the music player. ",
+          "The phone is awesome. Fully Loaded & sounds really great, camera is also good.2MP.\r\nExcellent!!! ",
+          "Wow....What a great cell phone. I really like.....no no.....LOVE this Phone. The Functions and usability of this one are too cool. The MP3 Player palys nice with good user interface. The 2.0 MP Camera is very good, I have stopped taking my Digi Cam to my trips. I never have anytype of problem during the phone call. So considering the +ve points, I truly recommend it to any one.",
+          "I've had this phone now for 2 weeks and it has met all of my expectations and exceeded them even. I upgraded from the 8125 and just about everything is a huge improvement!\r\nThe 3G(UMTS) is very impressive with it's speed. I even use this phone as a modem on my home pc and it's nearly identical in speed as DSL when surfing the net or downloading file/music etc.\r\nCamera is very impressive with clear resolutions for a camera phone with the 2MP.\r\nI also use a bluetooth headset 2.0 with this and mine works wonderfully with sony erriccson; it's quite intuitive and picks up the signal instantly. The 'blackberry' scroll wheel is a huge plus on this phone and I find myself using this feature more than any other buttons. ",
+          "What I love:\r\n============\r\n- Form factor: It is beautiful, it is cute and catchy! It turns heads. Enough said.\r\n- Size: Size is one of the strongest points considering all it does. It neatly slips into a shirt pocket or sits well on the belt.\r\n- Keys: Could be a bit small but I could use it pretty easily though my fingers are bordering on 'butterfingers'.\r\n- Trackball: Awesome! Just don't press it too hard while using it. Just 'roll-it'!. It is great while you have to move around the screen from control to control\r\n- Voice-dialing: Has worked for me very well the 10 or so times I have tried in my van on the road and off. You have to first choose the voice dialing option from the list of icons on the main menu. I read you can ",
+          "I wouldn't normally write a review, but everyone is giving this phone a bad rap.. I think people that buy into those reviews are getting cheated out of an excellent phone. I've know several people with Razors that ALL like this much much better. The battery life is absolutely fine, and my phone is on vibrate all day. Maybe other reviewers are on the phone constantly on full blast playing mp3s and shooting video.. I don't get it. I've had this phone the better part of a year and never ran out of charge during the day. I plug it in at night. I work as an architect and am on the phone all day long and beat the living hell out of it.. which is another huge plus about this phone. It has a *sturdy* metal housing.. not thin toy crap a la razors or plastic like most phones. I don't do a lot of bluetooth, computer syncing, etc, just use the phone in a fairly conventional way, with regular camera use, and for that it is *easily* far and away the best phone I've ever owned.",
+          "1, you can not synchronize the phonebook with your PC in a convenient way. I had to code a program to generate single vcard files and send them over bluetooth ONE BY ONE. There seems to be no way to do it without bluetooth.\r\n\r\n2, you can not apply mp3 files as ringtones. However you can download mp3/aac ringtones from sprint (for a fee). Oh the original ringtones that came with the phone? They are just awful.\r\n\r\n",
+          "Yeah it looks cool, but it's got terrible sound quality, even with an ear-piece. Additionally, they've crammed a lot of stuff into the menus that would probably be desirable to some people, but if you don't want it, it's just more junk to have to navigate through.",
+          "I only needed a basic phone - no MP3, camera, or FM radio. This phone delivered with great reception, good sound quality, great battery life, and a very small size. Inside a building it works great. Why the low score? The tinted plastic over the display makes it impossible to see the display outdoors and in the car. If the sun is out, forget it! I even managed to figure out how to remove all of the wallpaper backgrounds and to maximize the contrast. Still, don't plan to use this outdoors. Nokia should recall this product to replace the tinted cover. Update: Yesterday this phone took was accidently dropped onto a very hard ceramic tile floor and it still works perfectly! A similar drop ended the life of my digital camera a few months ago. So, if I were to rate this cell phone now I would give it 3 stars, maybe even 4 stars. I like reliable, sturdy stuff and this cell seems to be unusually well made."
+        ]
+      }
+    },
+    {
+      "name": "nickname",
+      "type": "VARCHAR(128)",
+      "nullable": false,
+      "stats": {
+        "null_count": 0,
+        "distinct_count": 109,
+        "null_percentage": 0.0,
+        "sample_values": [
+          "Sandra Doe",
+          "Starbuck",
+          "Natashenka",
+          "udini",
+          "Seba's",
+          "John Johnson",
+          "Panda",
+          "Ananda",
+          "Armstrong",
+          "Ashwini",
+          "solid phone",
+          "bessel",
+          "Looks can be deceiving",
+          "Sheridan",
+          "Stephen"
+        ]
+      }
+    },
+    {
+      "name": "customer_id",
+      "type": "INTEGER",
+      "nullable": true,
+      "stats": {
+        "null_count": 42,
+        "distinct_count": 1,
+        "null_percentage": 37.17,
+        "numeric_stats": {
+          "avg": 1.0,
+          "min": 1.0,
+          "max": 1.0,
+          "stddev": 0.0
+        },
+        "frequent_values": [
+          {
+            "value": "1",
+            "count": 71
+          }
+        ],
+        "sample_values": [
+          "1"
+        ]
+      }
+    }
+  ],
+  "sample_rows": [
+    {
+      "detail_id": 1,
+      "review_id": 1,
+      "store_id": 1,
+      "title": "I love this shirt!",
+      "detail": "This shirts if really great. Especially with the spinal diagram, finally I can see myself for who I really am! ",
+      "nickname": "Sandra Doe",
+      "customer_id": 1
+    },
+    {
+      "detail_id": 2,
+      "review_id": 2,
+      "store_id": 1,
+      "title": "I feel strange holding a television to my head",
+      "detail": "I feel strange holding a television to my head.  This product should come with free suspenders",
+      "nickname": "Starbuck",
+      "customer_id": 1
+    },
+    {
+      "detail_id": 3,
+      "review_id": 3,
+      "store_id": 1,
+      "title": "Cute, but see through",
+      "detail": "Cute design, but material is too thin.",
+      "nickname": "Natashenka",
+      "customer_id": 1
+    }
+  ],
+  "execution": {
+    "status": "success",
+    "seconds": 0.04,
+    "processed_at": "2026-09-13T18:56:37.252238",
+    "attempt": 1
+  }
+}

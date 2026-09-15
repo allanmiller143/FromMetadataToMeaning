@@ -1,0 +1,53 @@
+{
+  "schema": "magento2",
+  "table_name": "log_visitor_info",
+  "row_count": 0,
+  "primary_key": [
+    "visitor_id"
+  ],
+  "foreign_keys": [],
+  "columns": [
+    {
+      "name": "visitor_id",
+      "type": "BIGINT",
+      "nullable": false
+    },
+    {
+      "name": "http_referer",
+      "type": "VARCHAR(255)",
+      "nullable": true
+    },
+    {
+      "name": "http_user_agent",
+      "type": "VARCHAR(255)",
+      "nullable": true
+    },
+    {
+      "name": "http_accept_charset",
+      "type": "VARCHAR(255)",
+      "nullable": true
+    },
+    {
+      "name": "http_accept_language",
+      "type": "VARCHAR(255)",
+      "nullable": true
+    },
+    {
+      "name": "server_addr",
+      "type": "BIGINT",
+      "nullable": true
+    },
+    {
+      "name": "remote_addr",
+      "type": "BIGINT",
+      "nullable": true
+    }
+  ],
+  "sample_rows": [],
+  "execution": {
+    "status": "success",
+    "seconds": 0.01,
+    "processed_at": "2026-09-13T18:56:32.657945",
+    "attempt": 1
+  }
+}

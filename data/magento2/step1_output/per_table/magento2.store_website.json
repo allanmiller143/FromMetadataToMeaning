@@ -1,0 +1,142 @@
+{
+  "schema": "magento2",
+  "table_name": "store_website",
+  "row_count": 2,
+  "primary_key": [
+    "website_id"
+  ],
+  "foreign_keys": [],
+  "columns": [
+    {
+      "name": "website_id",
+      "type": "SMALLINT",
+      "nullable": false,
+      "stats": {
+        "null_count": 0,
+        "distinct_count": 2,
+        "null_percentage": 0.0,
+        "numeric_stats": {
+          "avg": 0.5,
+          "min": 0.0,
+          "max": 1.0,
+          "stddev": 0.5
+        },
+        "sample_values": [
+          "0",
+          "1"
+        ]
+      }
+    },
+    {
+      "name": "code",
+      "type": "VARCHAR(32)",
+      "nullable": true,
+      "stats": {
+        "null_count": 0,
+        "distinct_count": 2,
+        "null_percentage": 0.0,
+        "sample_values": [
+          "admin",
+          "base"
+        ]
+      }
+    },
+    {
+      "name": "name",
+      "type": "VARCHAR(64)",
+      "nullable": true,
+      "stats": {
+        "null_count": 0,
+        "distinct_count": 2,
+        "null_percentage": 0.0,
+        "sample_values": [
+          "Admin",
+          "Main Website"
+        ]
+      }
+    },
+    {
+      "name": "sort_order",
+      "type": "SMALLINT",
+      "nullable": false,
+      "stats": {
+        "null_count": 0,
+        "distinct_count": 1,
+        "null_percentage": 0.0,
+        "numeric_stats": {
+          "avg": 0.0,
+          "min": 0.0,
+          "max": 0.0,
+          "stddev": 0.0
+        },
+        "sample_values": [
+          "0"
+        ]
+      }
+    },
+    {
+      "name": "default_group_id",
+      "type": "SMALLINT",
+      "nullable": false,
+      "stats": {
+        "null_count": 0,
+        "distinct_count": 2,
+        "null_percentage": 0.0,
+        "numeric_stats": {
+          "avg": 0.5,
+          "min": 0.0,
+          "max": 1.0,
+          "stddev": 0.5
+        },
+        "sample_values": [
+          "0",
+          "1"
+        ]
+      }
+    },
+    {
+      "name": "is_default",
+      "type": "SMALLINT",
+      "nullable": true,
+      "stats": {
+        "null_count": 0,
+        "distinct_count": 2,
+        "null_percentage": 0.0,
+        "numeric_stats": {
+          "avg": 0.5,
+          "min": 0.0,
+          "max": 1.0,
+          "stddev": 0.5
+        },
+        "sample_values": [
+          "0",
+          "1"
+        ]
+      }
+    }
+  ],
+  "sample_rows": [
+    {
+      "website_id": 0,
+      "code": "admin",
+      "name": "Admin",
+      "sort_order": 0,
+      "default_group_id": 0,
+      "is_default": 0
+    },
+    {
+      "website_id": 1,
+      "code": "base",
+      "name": "Main Website",
+      "sort_order": 0,
+      "default_group_id": 1,
+      "is_default": 1
+    }
+  ],
+  "execution": {
+    "status": "success",
+    "seconds": 0.04,
+    "processed_at": "2026-09-13T18:56:49.070607",
+    "attempt": 1
+  }
+}

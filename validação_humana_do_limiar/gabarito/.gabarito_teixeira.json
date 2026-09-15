@@ -1,0 +1,902 @@
+{
+  "teixeira_1": {
+    "similaridade_real": 0.481118381023407,
+    "threshold_atual_pipeline": 0.5,
+    "modelo_a": "MISTRAL",
+    "modelo_b": "OPENAI",
+    "run_a": 1,
+    "run_b": 1,
+    "tabela": "public.tb_cfg_agenda"
+  },
+  "teixeira_2": {
+    "similaridade_real": 0.6957154273986816,
+    "threshold_atual_pipeline": 0.5,
+    "modelo_a": "OPENAI",
+    "modelo_b": "DEEPSEEK",
+    "run_a": 1,
+    "run_b": 1,
+    "tabela": "public.tb_cfg_agenda_detalhe"
+  },
+  "teixeira_3": {
+    "similaridade_real": 0.6402842998504639,
+    "threshold_atual_pipeline": 0.5,
+    "modelo_a": "MISTRAL",
+    "modelo_b": "OPENAI",
+    "run_a": 1,
+    "run_b": 1,
+    "tabela": "public.tb_estrategia_vacinacao"
+  },
+  "teixeira_4": {
+    "similaridade_real": 0.5633503198623657,
+    "threshold_atual_pipeline": 0.5,
+    "modelo_a": "MISTRAL",
+    "modelo_b": "DEEPSEEK",
+    "run_a": 1,
+    "run_b": 1,
+    "tabela": "public.tb_dim_modalidade_ad"
+  },
+  "teixeira_5": {
+    "similaridade_real": 0.42844128608703613,
+    "threshold_atual_pipeline": 0.5,
+    "modelo_a": "OPENAI",
+    "modelo_b": "DEEPSEEK",
+    "run_a": 1,
+    "run_b": 1,
+    "tabela": "public.tb_cfg_agenda_municipal"
+  },
+  "teixeira_6": {
+    "similaridade_real": 0.4943877160549164,
+    "threshold_atual_pipeline": 0.5,
+    "modelo_a": "MISTRAL",
+    "modelo_b": "OPENAI",
+    "run_a": 1,
+    "run_b": 1,
+    "tabela": "public.tb_ciap_capitulo"
+  },
+  "teixeira_7": {
+    "similaridade_real": 0.5755380988121033,
+    "threshold_atual_pipeline": 0.5,
+    "modelo_a": "MISTRAL",
+    "modelo_b": "OPENAI",
+    "run_a": 2,
+    "run_b": 2,
+    "tabela": "public.tb_ciap_capitulo"
+  },
+  "teixeira_8": {
+    "similaridade_real": 0.6199547052383423,
+    "threshold_atual_pipeline": 0.5,
+    "modelo_a": "MISTRAL",
+    "modelo_b": "DEEPSEEK",
+    "run_a": 2,
+    "run_b": 1,
+    "tabela": "public.tb_evolucao_dente"
+  },
+  "teixeira_9": {
+    "similaridade_real": 0.5134220719337463,
+    "threshold_atual_pipeline": 0.5,
+    "modelo_a": "MISTRAL",
+    "modelo_b": "DEEPSEEK",
+    "run_a": 1,
+    "run_b": 1,
+    "tabela": "public.tl_problema_evolucao"
+  },
+  "teixeira_10": {
+    "similaridade_real": 0.543546736240387,
+    "threshold_atual_pipeline": 0.5,
+    "modelo_a": "MISTRAL",
+    "modelo_b": "DEEPSEEK",
+    "run_a": 1,
+    "run_b": 1,
+    "tabela": "public.tb_exame_prenatal"
+  },
+  "teixeira_11": {
+    "similaridade_real": 0.6800891757011414,
+    "threshold_atual_pipeline": 0.5,
+    "modelo_a": "MISTRAL",
+    "modelo_b": "DEEPSEEK",
+    "run_a": 1,
+    "run_b": 3,
+    "tabela": "public.ta_alergia_evolucao"
+  },
+  "teixeira_12": {
+    "similaridade_real": 0.5518296957015991,
+    "threshold_atual_pipeline": 0.5,
+    "modelo_a": "MISTRAL",
+    "modelo_b": "DEEPSEEK",
+    "run_a": 1,
+    "run_b": 1,
+    "tabela": "public.tb_processo"
+  },
+  "teixeira_13": {
+    "similaridade_real": 0.6852300763130188,
+    "threshold_atual_pipeline": 0.5,
+    "modelo_a": "MISTRAL",
+    "modelo_b": "OPENAI",
+    "run_a": 1,
+    "run_b": 1,
+    "tabela": "public.tl_cds_atend_individual_ciap"
+  },
+  "teixeira_14": {
+    "similaridade_real": 0.47215452790260315,
+    "threshold_atual_pipeline": 0.5,
+    "modelo_a": "MISTRAL",
+    "modelo_b": "DEEPSEEK",
+    "run_a": 2,
+    "run_b": 1,
+    "tabela": "public.tl_qst_questionario_respondido"
+  },
+  "teixeira_15": {
+    "similaridade_real": 0.46782004833221436,
+    "threshold_atual_pipeline": 0.5,
+    "modelo_a": "MISTRAL",
+    "modelo_b": "DEEPSEEK",
+    "run_a": 2,
+    "run_b": 3,
+    "tabela": "public.tl_qst_questionario_respondido"
+  },
+  "teixeira_16": {
+    "similaridade_real": 0.5304566025733948,
+    "threshold_atual_pipeline": 0.5,
+    "modelo_a": "MISTRAL",
+    "modelo_b": "OPENAI",
+    "run_a": 1,
+    "run_b": 1,
+    "tabela": "public.tb_dim_situacao_problema"
+  },
+  "teixeira_17": {
+    "similaridade_real": 0.6598705053329468,
+    "threshold_atual_pipeline": 0.5,
+    "modelo_a": "MISTRAL",
+    "modelo_b": "DEEPSEEK",
+    "run_a": 1,
+    "run_b": 1,
+    "tabela": "public.tb_atend_obs"
+  },
+  "teixeira_18": {
+    "similaridade_real": 0.5146713256835938,
+    "threshold_atual_pipeline": 0.5,
+    "modelo_a": "MISTRAL",
+    "modelo_b": "OPENAI",
+    "run_a": 2,
+    "run_b": 1,
+    "tabela": "public.tb_prof_historico_cns"
+  },
+  "teixeira_19": {
+    "similaridade_real": 0.4310247302055359,
+    "threshold_atual_pipeline": 0.5,
+    "modelo_a": "MISTRAL",
+    "modelo_b": "DEEPSEEK",
+    "run_a": 2,
+    "run_b": 1,
+    "tabela": "public.tb_classificacao_prioridade_cc"
+  },
+  "teixeira_20": {
+    "similaridade_real": 0.4873020648956299,
+    "threshold_atual_pipeline": 0.5,
+    "modelo_a": "MISTRAL",
+    "modelo_b": "OPENAI",
+    "run_a": 1,
+    "run_b": 1,
+    "tabela": "public.ta_neuro_marco_evolucao"
+  },
+  "teixeira_21": {
+    "similaridade_real": 0.5115236043930054,
+    "threshold_atual_pipeline": 0.5,
+    "modelo_a": "OPENAI",
+    "modelo_b": "DEEPSEEK",
+    "run_a": 1,
+    "run_b": 2,
+    "tabela": "public.tb_dim_tempo_morador_rua"
+  },
+  "teixeira_22": {
+    "similaridade_real": 0.6145457625389099,
+    "threshold_atual_pipeline": 0.5,
+    "modelo_a": "MISTRAL",
+    "modelo_b": "OPENAI",
+    "run_a": 1,
+    "run_b": 2,
+    "tabela": "public.tl_agendado"
+  },
+  "teixeira_23": {
+    "similaridade_real": 0.5799550414085388,
+    "threshold_atual_pipeline": 0.5,
+    "modelo_a": "MISTRAL",
+    "modelo_b": "DEEPSEEK",
+    "run_a": 1,
+    "run_b": 1,
+    "tabela": "public.tb_fat_atend_odonto_medicament"
+  },
+  "teixeira_24": {
+    "similaridade_real": 0.587878942489624,
+    "threshold_atual_pipeline": 0.5,
+    "modelo_a": "MISTRAL",
+    "modelo_b": "OPENAI",
+    "run_a": 3,
+    "run_b": 1,
+    "tabela": "public.tb_dim_tipo_abastecimento_agua"
+  },
+  "teixeira_25": {
+    "similaridade_real": 0.45938968658447266,
+    "threshold_atual_pipeline": 0.5,
+    "modelo_a": "MISTRAL",
+    "modelo_b": "DEEPSEEK",
+    "run_a": 1,
+    "run_b": 1,
+    "tabela": "public.ta_atend"
+  },
+  "teixeira_26": {
+    "similaridade_real": 0.6532129049301147,
+    "threshold_atual_pipeline": 0.5,
+    "modelo_a": "OPENAI",
+    "modelo_b": "DEEPSEEK",
+    "run_a": 1,
+    "run_b": 2,
+    "tabela": "public.rl_cds_atend_odonto_tipo_cnslt"
+  },
+  "teixeira_27": {
+    "similaridade_real": 0.6621190309524536,
+    "threshold_atual_pipeline": 0.5,
+    "modelo_a": "OPENAI",
+    "modelo_b": "DEEPSEEK",
+    "run_a": 1,
+    "run_b": 1,
+    "tabela": "public.tb_complexidade"
+  },
+  "teixeira_28": {
+    "similaridade_real": 0.39527562260627747,
+    "threshold_atual_pipeline": 0.5,
+    "modelo_a": "MISTRAL",
+    "modelo_b": "DEEPSEEK",
+    "run_a": 1,
+    "run_b": 3,
+    "tabela": "public.tb_tipo_equipe"
+  },
+  "teixeira_29": {
+    "similaridade_real": 0.38875874876976013,
+    "threshold_atual_pipeline": 0.5,
+    "modelo_a": "MISTRAL",
+    "modelo_b": "DEEPSEEK",
+    "run_a": 3,
+    "run_b": 2,
+    "tabela": "public.tb_dim_tipo_abastecimento_agua"
+  },
+  "teixeira_30": {
+    "similaridade_real": 0.5469857454299927,
+    "threshold_atual_pipeline": 0.5,
+    "modelo_a": "MISTRAL",
+    "modelo_b": "DEEPSEEK",
+    "run_a": 1,
+    "run_b": 1,
+    "tabela": "public.ta_atend_obs"
+  },
+  "teixeira_31": {
+    "similaridade_real": 0.3909534811973572,
+    "threshold_atual_pipeline": 0.5,
+    "modelo_a": "OPENAI",
+    "modelo_b": "DEEPSEEK",
+    "run_a": 1,
+    "run_b": 3,
+    "tabela": "public.tb_fat_atendimento_odonto"
+  },
+  "teixeira_32": {
+    "similaridade_real": 0.6426323652267456,
+    "threshold_atual_pipeline": 0.5,
+    "modelo_a": "OPENAI",
+    "modelo_b": "DEEPSEEK",
+    "run_a": 1,
+    "run_b": 2,
+    "tabela": "public.ta_orientacao"
+  },
+  "teixeira_33": {
+    "similaridade_real": 0.40074393153190613,
+    "threshold_atual_pipeline": 0.5,
+    "modelo_a": "MISTRAL",
+    "modelo_b": "OPENAI",
+    "run_a": 1,
+    "run_b": 1,
+    "tabela": "public.tb_logradouro"
+  },
+  "teixeira_34": {
+    "similaridade_real": 0.4393729567527771,
+    "threshold_atual_pipeline": 0.5,
+    "modelo_a": "OPENAI",
+    "modelo_b": "DEEPSEEK",
+    "run_a": 1,
+    "run_b": 1,
+    "tabela": "public.tb_tipo_exame"
+  },
+  "teixeira_35": {
+    "similaridade_real": 0.41380879282951355,
+    "threshold_atual_pipeline": 0.5,
+    "modelo_a": "OPENAI",
+    "modelo_b": "DEEPSEEK",
+    "run_a": 1,
+    "run_b": 3,
+    "tabela": "public.tl_cds_ficha_atend_odonto"
+  },
+  "teixeira_36": {
+    "similaridade_real": 0.39864033460617065,
+    "threshold_atual_pipeline": 0.5,
+    "modelo_a": "MISTRAL",
+    "modelo_b": "DEEPSEEK",
+    "run_a": 1,
+    "run_b": 2,
+    "tabela": "public.tl_cds_ficha_ativ_col_pratica"
+  },
+  "teixeira_37": {
+    "similaridade_real": 0.5874817371368408,
+    "threshold_atual_pipeline": 0.5,
+    "modelo_a": "MISTRAL",
+    "modelo_b": "DEEPSEEK",
+    "run_a": 2,
+    "run_b": 1,
+    "tabela": "public.ta_atend_prof_conduta"
+  },
+  "teixeira_38": {
+    "similaridade_real": 0.4101853370666504,
+    "threshold_atual_pipeline": 0.5,
+    "modelo_a": "MISTRAL",
+    "modelo_b": "DEEPSEEK",
+    "run_a": 1,
+    "run_b": 2,
+    "tabela": "public.tb_racionalidade_saude"
+  },
+  "teixeira_39": {
+    "similaridade_real": 0.5876146554946899,
+    "threshold_atual_pipeline": 0.5,
+    "modelo_a": "MISTRAL",
+    "modelo_b": "DEEPSEEK",
+    "run_a": 2,
+    "run_b": 1,
+    "tabela": "public.tb_dim_tipo_atividade"
+  },
+  "teixeira_40": {
+    "similaridade_real": 0.5855976939201355,
+    "threshold_atual_pipeline": 0.5,
+    "modelo_a": "OPENAI",
+    "modelo_b": "DEEPSEEK",
+    "run_a": 1,
+    "run_b": 1,
+    "tabela": "public.tl_cds_ficha_ativ_col_prof"
+  },
+  "teixeira_41": {
+    "similaridade_real": 0.5234589576721191,
+    "threshold_atual_pipeline": 0.5,
+    "modelo_a": "MISTRAL",
+    "modelo_b": "OPENAI",
+    "run_a": 1,
+    "run_b": 1,
+    "tabela": "public.tb_cronicidade"
+  },
+  "teixeira_42": {
+    "similaridade_real": 0.4612327814102173,
+    "threshold_atual_pipeline": 0.5,
+    "modelo_a": "MISTRAL",
+    "modelo_b": "OPENAI",
+    "run_a": 1,
+    "run_b": 2,
+    "tabela": "public.tb_categ_substancia_alergia"
+  },
+  "teixeira_43": {
+    "similaridade_real": 0.3987129032611847,
+    "threshold_atual_pipeline": 0.5,
+    "modelo_a": "MISTRAL",
+    "modelo_b": "OPENAI",
+    "run_a": 1,
+    "run_b": 1,
+    "tabela": "public.tb_cuidado_compartilhado"
+  },
+  "teixeira_44": {
+    "similaridade_real": 0.5240362882614136,
+    "threshold_atual_pipeline": 0.5,
+    "modelo_a": "OPENAI",
+    "modelo_b": "DEEPSEEK",
+    "run_a": 1,
+    "run_b": 1,
+    "tabela": "public.tb_cuidado_compartilhado"
+  },
+  "teixeira_45": {
+    "similaridade_real": 0.46098852157592773,
+    "threshold_atual_pipeline": 0.5,
+    "modelo_a": "MISTRAL",
+    "modelo_b": "DEEPSEEK",
+    "run_a": 1,
+    "run_b": 1,
+    "tabela": "public.tb_cuidado_finalizacao_auto"
+  },
+  "teixeira_46": {
+    "similaridade_real": 0.6629699468612671,
+    "threshold_atual_pipeline": 0.5,
+    "modelo_a": "MISTRAL",
+    "modelo_b": "OPENAI",
+    "run_a": 1,
+    "run_b": 2,
+    "tabela": "public.tb_manifestacao_alergia"
+  },
+  "teixeira_47": {
+    "similaridade_real": 0.6551890969276428,
+    "threshold_atual_pipeline": 0.5,
+    "modelo_a": "MISTRAL",
+    "modelo_b": "DEEPSEEK",
+    "run_a": 1,
+    "run_b": 1,
+    "tabela": "public.tb_cbo_atend"
+  },
+  "teixeira_48": {
+    "similaridade_real": 0.5525566339492798,
+    "threshold_atual_pipeline": 0.5,
+    "modelo_a": "MISTRAL",
+    "modelo_b": "DEEPSEEK",
+    "run_a": 1,
+    "run_b": 2,
+    "tabela": "public.tb_cbo_atend"
+  },
+  "teixeira_49": {
+    "similaridade_real": 0.6235228180885315,
+    "threshold_atual_pipeline": 0.5,
+    "modelo_a": "MISTRAL",
+    "modelo_b": "DEEPSEEK",
+    "run_a": 1,
+    "run_b": 1,
+    "tabela": "public.tb_dim_tipo_endereco"
+  },
+  "teixeira_50": {
+    "similaridade_real": 0.482750803232193,
+    "threshold_atual_pipeline": 0.5,
+    "modelo_a": "MISTRAL",
+    "modelo_b": "DEEPSEEK",
+    "run_a": 1,
+    "run_b": 1,
+    "tabela": "public.tb_recurso_credencial_integ"
+  },
+  "teixeira_51": {
+    "similaridade_real": 0.5311981439590454,
+    "threshold_atual_pipeline": 0.5,
+    "modelo_a": "MISTRAL",
+    "modelo_b": "DEEPSEEK",
+    "run_a": 2,
+    "run_b": 1,
+    "tabela": "public.tb_fat_consolidado_cidadao_fad"
+  },
+  "teixeira_52": {
+    "similaridade_real": 0.36859291791915894,
+    "threshold_atual_pipeline": 0.5,
+    "modelo_a": "OPENAI",
+    "modelo_b": "DEEPSEEK",
+    "run_a": 1,
+    "run_b": 1,
+    "tabela": "public.tb_mchat"
+  },
+  "teixeira_53": {
+    "similaridade_real": 0.5423570275306702,
+    "threshold_atual_pipeline": 0.5,
+    "modelo_a": "OPENAI",
+    "modelo_b": "DEEPSEEK",
+    "run_a": 3,
+    "run_b": 1,
+    "tabela": "public.tb_cds_aleitamento_materno"
+  },
+  "teixeira_54": {
+    "similaridade_real": 0.3825662136077881,
+    "threshold_atual_pipeline": 0.5,
+    "modelo_a": "MISTRAL",
+    "modelo_b": "DEEPSEEK",
+    "run_a": 1,
+    "run_b": 1,
+    "tabela": "public.tb_regra_vacinal_dose"
+  },
+  "teixeira_55": {
+    "similaridade_real": 0.6993592977523804,
+    "threshold_atual_pipeline": 0.5,
+    "modelo_a": "OPENAI",
+    "modelo_b": "DEEPSEEK",
+    "run_a": 1,
+    "run_b": 2,
+    "tabela": "public.ta_ativ_col_registro_particip"
+  },
+  "teixeira_56": {
+    "similaridade_real": 0.3933757245540619,
+    "threshold_atual_pipeline": 0.5,
+    "modelo_a": "MISTRAL",
+    "modelo_b": "DEEPSEEK",
+    "run_a": 1,
+    "run_b": 1,
+    "tabela": "public.tb_rel_fichas_config"
+  },
+  "teixeira_57": {
+    "similaridade_real": 0.3812277317047119,
+    "threshold_atual_pipeline": 0.5,
+    "modelo_a": "OPENAI",
+    "modelo_b": "DEEPSEEK",
+    "run_a": 2,
+    "run_b": 3,
+    "tabela": "public.tb_cds_atend_odonto"
+  },
+  "teixeira_58": {
+    "similaridade_real": 0.6404150724411011,
+    "threshold_atual_pipeline": 0.5,
+    "modelo_a": "MISTRAL",
+    "modelo_b": "OPENAI",
+    "run_a": 1,
+    "run_b": 1,
+    "tabela": "public.ta_ator_papel_perfil"
+  },
+  "teixeira_59": {
+    "similaridade_real": 0.6375935077667236,
+    "threshold_atual_pipeline": 0.5,
+    "modelo_a": "OPENAI",
+    "modelo_b": "DEEPSEEK",
+    "run_a": 1,
+    "run_b": 1,
+    "tabela": "public.tl_configperiodo_diasemana"
+  },
+  "teixeira_60": {
+    "similaridade_real": 0.3954821825027466,
+    "threshold_atual_pipeline": 0.5,
+    "modelo_a": "MISTRAL",
+    "modelo_b": "DEEPSEEK",
+    "run_a": 2,
+    "run_b": 3,
+    "tabela": "public.rl_evolucao_subjetivo_ciap"
+  },
+  "teixeira_61": {
+    "similaridade_real": 0.470353364944458,
+    "threshold_atual_pipeline": 0.5,
+    "modelo_a": "MISTRAL",
+    "modelo_b": "OPENAI",
+    "run_a": 2,
+    "run_b": 1,
+    "tabela": "public.tb_tipo_pergunta"
+  },
+  "teixeira_62": {
+    "similaridade_real": 0.524317741394043,
+    "threshold_atual_pipeline": 0.5,
+    "modelo_a": "MISTRAL",
+    "modelo_b": "DEEPSEEK",
+    "run_a": 1,
+    "run_b": 1,
+    "tabela": "public.tb_dim_tipo_localizacao"
+  },
+  "teixeira_63": {
+    "similaridade_real": 0.4433218240737915,
+    "threshold_atual_pipeline": 0.5,
+    "modelo_a": "MISTRAL",
+    "modelo_b": "DEEPSEEK",
+    "run_a": 2,
+    "run_b": 1,
+    "tabela": "public.tb_resposta_mca"
+  },
+  "teixeira_64": {
+    "similaridade_real": 0.5099735260009766,
+    "threshold_atual_pipeline": 0.5,
+    "modelo_a": "OPENAI",
+    "modelo_b": "DEEPSEEK",
+    "run_a": 1,
+    "run_b": 1,
+    "tabela": "public.tb_dim_tipo_logradouro"
+  },
+  "teixeira_65": {
+    "similaridade_real": 0.41041994094848633,
+    "threshold_atual_pipeline": 0.5,
+    "modelo_a": "MISTRAL",
+    "modelo_b": "DEEPSEEK",
+    "run_a": 2,
+    "run_b": 2,
+    "tabela": "public.ta_tecido_mole_lesao"
+  },
+  "teixeira_66": {
+    "similaridade_real": 0.6495401859283447,
+    "threshold_atual_pipeline": 0.5,
+    "modelo_a": "MISTRAL",
+    "modelo_b": "DEEPSEEK",
+    "run_a": 2,
+    "run_b": 1,
+    "tabela": "public.tb_retificacao_atend"
+  },
+  "teixeira_67": {
+    "similaridade_real": 0.5550455451011658,
+    "threshold_atual_pipeline": 0.5,
+    "modelo_a": "OPENAI",
+    "modelo_b": "DEEPSEEK",
+    "run_a": 1,
+    "run_b": 1,
+    "tabela": "public.tb_cds_cad_individual"
+  },
+  "teixeira_68": {
+    "similaridade_real": 0.4141447842121124,
+    "threshold_atual_pipeline": 0.5,
+    "modelo_a": "MISTRAL",
+    "modelo_b": "OPENAI",
+    "run_a": 2,
+    "run_b": 2,
+    "tabela": "public.rl_perfil_cbo_padrao"
+  },
+  "teixeira_69": {
+    "similaridade_real": 0.6747564077377319,
+    "threshold_atual_pipeline": 0.5,
+    "modelo_a": "MISTRAL",
+    "modelo_b": "OPENAI",
+    "run_a": 1,
+    "run_b": 1,
+    "tabela": "public.tl_evolucao_plano"
+  },
+  "teixeira_70": {
+    "similaridade_real": 0.6506779193878174,
+    "threshold_atual_pipeline": 0.5,
+    "modelo_a": "MISTRAL",
+    "modelo_b": "DEEPSEEK",
+    "run_a": 3,
+    "run_b": 3,
+    "tabela": "public.tl_evolucao_plano"
+  },
+  "teixeira_71": {
+    "similaridade_real": 0.6041503548622131,
+    "threshold_atual_pipeline": 0.5,
+    "modelo_a": "MISTRAL",
+    "modelo_b": "DEEPSEEK",
+    "run_a": 1,
+    "run_b": 1,
+    "tabela": "public.tb_fat_familia"
+  },
+  "teixeira_72": {
+    "similaridade_real": 0.3753150999546051,
+    "threshold_atual_pipeline": 0.5,
+    "modelo_a": "OPENAI",
+    "modelo_b": "DEEPSEEK",
+    "run_a": 1,
+    "run_b": 3,
+    "tabela": "public.rl_perfil_cbo_padrao"
+  },
+  "teixeira_73": {
+    "similaridade_real": 0.5986519455909729,
+    "threshold_atual_pipeline": 0.5,
+    "modelo_a": "OPENAI",
+    "modelo_b": "DEEPSEEK",
+    "run_a": 3,
+    "run_b": 2,
+    "tabela": "public.tb_dim_tipo_parentesco"
+  },
+  "teixeira_74": {
+    "similaridade_real": 0.6505432724952698,
+    "threshold_atual_pipeline": 0.5,
+    "modelo_a": "MISTRAL",
+    "modelo_b": "DEEPSEEK",
+    "run_a": 1,
+    "run_b": 2,
+    "tabela": "public.tb_dim_tipo_participacao_atend"
+  },
+  "teixeira_75": {
+    "similaridade_real": 0.5930669903755188,
+    "threshold_atual_pipeline": 0.5,
+    "modelo_a": "OPENAI",
+    "modelo_b": "DEEPSEEK",
+    "run_a": 1,
+    "run_b": 1,
+    "tabela": "public.ta_vacinacao"
+  },
+  "teixeira_76": {
+    "similaridade_real": 0.6474103331565857,
+    "threshold_atual_pipeline": 0.5,
+    "modelo_a": "MISTRAL",
+    "modelo_b": "DEEPSEEK",
+    "run_a": 1,
+    "run_b": 1,
+    "tabela": "public.ta_evol_aval_tp_vig_saude_bucl"
+  },
+  "teixeira_77": {
+    "similaridade_real": 0.4557686746120453,
+    "threshold_atual_pipeline": 0.5,
+    "modelo_a": "MISTRAL",
+    "modelo_b": "DEEPSEEK",
+    "run_a": 1,
+    "run_b": 1,
+    "tabela": "public.tl_exame_puericultura"
+  },
+  "teixeira_78": {
+    "similaridade_real": 0.6685435771942139,
+    "threshold_atual_pipeline": 0.5,
+    "modelo_a": "OPENAI",
+    "modelo_b": "DEEPSEEK",
+    "run_a": 2,
+    "run_b": 1,
+    "tabela": "public.tb_titulo_patente"
+  },
+  "teixeira_79": {
+    "similaridade_real": 0.45504066348075867,
+    "threshold_atual_pipeline": 0.5,
+    "modelo_a": "MISTRAL",
+    "modelo_b": "DEEPSEEK",
+    "run_a": 1,
+    "run_b": 1,
+    "tabela": "public.ta_vinculacao_equipes"
+  },
+  "teixeira_80": {
+    "similaridade_real": 0.6148377060890198,
+    "threshold_atual_pipeline": 0.5,
+    "modelo_a": "MISTRAL",
+    "modelo_b": "DEEPSEEK",
+    "run_a": 1,
+    "run_b": 1,
+    "tabela": "public.rl_proced_grupo_exame"
+  },
+  "teixeira_81": {
+    "similaridade_real": 0.6132515668869019,
+    "threshold_atual_pipeline": 0.5,
+    "modelo_a": "MISTRAL",
+    "modelo_b": "OPENAI",
+    "run_a": 1,
+    "run_b": 1,
+    "tabela": "public.rl_prof_municipio"
+  },
+  "teixeira_82": {
+    "similaridade_real": 0.49163639545440674,
+    "threshold_atual_pipeline": 0.5,
+    "modelo_a": "MISTRAL",
+    "modelo_b": "DEEPSEEK",
+    "run_a": 2,
+    "run_b": 1,
+    "tabela": "public.tb_opcoes_result_exm_qlitativo"
+  },
+  "teixeira_83": {
+    "similaridade_real": 0.6763288974761963,
+    "threshold_atual_pipeline": 0.5,
+    "modelo_a": "MISTRAL",
+    "modelo_b": "DEEPSEEK",
+    "run_a": 1,
+    "run_b": 1,
+    "tabela": "public.ta_evolucao_odonto"
+  },
+  "teixeira_84": {
+    "similaridade_real": 0.6956906318664551,
+    "threshold_atual_pipeline": 0.5,
+    "modelo_a": "MISTRAL",
+    "modelo_b": "DEEPSEEK",
+    "run_a": 2,
+    "run_b": 1,
+    "tabela": "public.ta_evolucao_odonto_proced"
+  },
+  "teixeira_85": {
+    "similaridade_real": 0.5911387205123901,
+    "threshold_atual_pipeline": 0.5,
+    "modelo_a": "MISTRAL",
+    "modelo_b": "OPENAI",
+    "run_a": 2,
+    "run_b": 1,
+    "tabela": "public.tb_ad_cidadao"
+  },
+  "teixeira_86": {
+    "similaridade_real": 0.4063049852848053,
+    "threshold_atual_pipeline": 0.5,
+    "modelo_a": "MISTRAL",
+    "modelo_b": "DEEPSEEK",
+    "run_a": 1,
+    "run_b": 3,
+    "tabela": "public.tb_ad_cidadao"
+  },
+  "teixeira_87": {
+    "similaridade_real": 0.44754165410995483,
+    "threshold_atual_pipeline": 0.5,
+    "modelo_a": "MISTRAL",
+    "modelo_b": "DEEPSEEK",
+    "run_a": 1,
+    "run_b": 1,
+    "tabela": "public.tb_dim_duracao_tratamento_med"
+  },
+  "teixeira_88": {
+    "similaridade_real": 0.4164605438709259,
+    "threshold_atual_pipeline": 0.5,
+    "modelo_a": "OPENAI",
+    "modelo_b": "DEEPSEEK",
+    "run_a": 1,
+    "run_b": 1,
+    "tabela": "public.tb_cds_tipo_conduta"
+  },
+  "teixeira_89": {
+    "similaridade_real": 0.3808075487613678,
+    "threshold_atual_pipeline": 0.5,
+    "modelo_a": "MISTRAL",
+    "modelo_b": "OPENAI",
+    "run_a": 2,
+    "run_b": 1,
+    "tabela": "public.tb_status_atend"
+  },
+  "teixeira_90": {
+    "similaridade_real": 0.6076904535293579,
+    "threshold_atual_pipeline": 0.5,
+    "modelo_a": "OPENAI",
+    "modelo_b": "DEEPSEEK",
+    "run_a": 1,
+    "run_b": 1,
+    "tabela": "public.tb_dim_unidade_saude"
+  },
+  "teixeira_91": {
+    "similaridade_real": 0.40613603591918945,
+    "threshold_atual_pipeline": 0.5,
+    "modelo_a": "MISTRAL",
+    "modelo_b": "OPENAI",
+    "run_a": 1,
+    "run_b": 1,
+    "tabela": "public.tb_dim_via_administracao"
+  },
+  "teixeira_92": {
+    "similaridade_real": 0.5153841376304626,
+    "threshold_atual_pipeline": 0.5,
+    "modelo_a": "MISTRAL",
+    "modelo_b": "OPENAI",
+    "run_a": 1,
+    "run_b": 1,
+    "tabela": "public.tb_ad_origem"
+  },
+  "teixeira_93": {
+    "similaridade_real": 0.36500614881515503,
+    "threshold_atual_pipeline": 0.5,
+    "modelo_a": "MISTRAL",
+    "modelo_b": "OPENAI",
+    "run_a": 3,
+    "run_b": 1,
+    "tabela": "public.tb_substancia_cbara"
+  },
+  "teixeira_94": {
+    "similaridade_real": 0.46559008955955505,
+    "threshold_atual_pipeline": 0.5,
+    "modelo_a": "MISTRAL",
+    "modelo_b": "DEEPSEEK",
+    "run_a": 1,
+    "run_b": 1,
+    "tabela": "public.tb_pergunta"
+  },
+  "teixeira_95": {
+    "similaridade_real": 0.36161819100379944,
+    "threshold_atual_pipeline": 0.5,
+    "modelo_a": "MISTRAL",
+    "modelo_b": "OPENAI",
+    "run_a": 1,
+    "run_b": 1,
+    "tabela": "public.tl_neuro_fator_risco"
+  },
+  "teixeira_96": {
+    "similaridade_real": 0.6365354657173157,
+    "threshold_atual_pipeline": 0.5,
+    "modelo_a": "OPENAI",
+    "modelo_b": "DEEPSEEK",
+    "run_a": 2,
+    "run_b": 1,
+    "tabela": "public.ta_exame_colesterol_total"
+  },
+  "teixeira_97": {
+    "similaridade_real": 0.5711039900779724,
+    "threshold_atual_pipeline": 0.5,
+    "modelo_a": "MISTRAL",
+    "modelo_b": "OPENAI",
+    "run_a": 1,
+    "run_b": 1,
+    "tabela": "public.tl_neuro_fator_risco_evolucao"
+  },
+  "teixeira_98": {
+    "similaridade_real": 0.5970455408096313,
+    "threshold_atual_pipeline": 0.5,
+    "modelo_a": "MISTRAL",
+    "modelo_b": "DEEPSEEK",
+    "run_a": 1,
+    "run_b": 1,
+    "tabela": "public.tb_dim_grupo_cbo"
+  },
+  "teixeira_99": {
+    "similaridade_real": 0.4329999089241028,
+    "threshold_atual_pipeline": 0.5,
+    "modelo_a": "MISTRAL",
+    "modelo_b": "OPENAI",
+    "run_a": 1,
+    "run_b": 3,
+    "tabela": "public.tb_tema_reuniao"
+  },
+  "teixeira_100": {
+    "similaridade_real": 0.5304365754127502,
+    "threshold_atual_pipeline": 0.5,
+    "modelo_a": "MISTRAL",
+    "modelo_b": "DEEPSEEK",
+    "run_a": 2,
+    "run_b": 1,
+    "tabela": "public.tb_agend_compartilhado"
+  }
+}

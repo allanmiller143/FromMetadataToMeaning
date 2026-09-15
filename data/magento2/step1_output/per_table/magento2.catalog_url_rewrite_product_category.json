@@ -1,0 +1,77 @@
+{
+  "schema": "magento2",
+  "table_name": "catalog_url_rewrite_product_category",
+  "row_count": 0,
+  "primary_key": [],
+  "foreign_keys": [
+    {
+      "name": "FK_BB79E64705D7F17FE181F23144528FC8",
+      "constrained_columns": [
+        "url_rewrite_id"
+      ],
+      "referred_schema": "magento2",
+      "referred_table": "url_rewrite",
+      "referred_columns": [
+        "url_rewrite_id"
+      ],
+      "options": {
+        "onupdate": "CASCADE",
+        "ondelete": "CASCADE"
+      }
+    },
+    {
+      "name": "FK_CAT_URL_REWRITE_PRD_CTGR_CTGR_ID_CAT_CTGR_ENTT_ENTT_ID",
+      "constrained_columns": [
+        "category_id"
+      ],
+      "referred_schema": "magento2",
+      "referred_table": "catalog_category_entity",
+      "referred_columns": [
+        "entity_id"
+      ],
+      "options": {
+        "onupdate": "CASCADE",
+        "ondelete": "CASCADE"
+      }
+    },
+    {
+      "name": "FK_CAT_URL_REWRITE_PRD_CTGR_PRD_ID_CAT_PRD_ENTT_ENTT_ID",
+      "constrained_columns": [
+        "product_id"
+      ],
+      "referred_schema": "magento2",
+      "referred_table": "catalog_product_entity",
+      "referred_columns": [
+        "entity_id"
+      ],
+      "options": {
+        "onupdate": "CASCADE",
+        "ondelete": "CASCADE"
+      }
+    }
+  ],
+  "columns": [
+    {
+      "name": "url_rewrite_id",
+      "type": "INTEGER",
+      "nullable": false
+    },
+    {
+      "name": "category_id",
+      "type": "INTEGER",
+      "nullable": false
+    },
+    {
+      "name": "product_id",
+      "type": "INTEGER",
+      "nullable": false
+    }
+  ],
+  "sample_rows": [],
+  "execution": {
+    "status": "success",
+    "seconds": 0.01,
+    "processed_at": "2026-09-13T18:56:19.366949",
+    "attempt": 1
+  }
+}

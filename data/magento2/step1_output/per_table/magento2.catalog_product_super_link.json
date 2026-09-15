@@ -1,0 +1,182 @@
+{
+  "schema": "magento2",
+  "table_name": "catalog_product_super_link",
+  "row_count": 55,
+  "primary_key": [
+    "link_id"
+  ],
+  "foreign_keys": [
+    {
+      "name": "catalog_product_super_link_ibfk_1",
+      "constrained_columns": [
+        "parent_id"
+      ],
+      "referred_schema": "magento2",
+      "referred_table": "catalog_product_entity",
+      "referred_columns": [
+        "entity_id"
+      ],
+      "options": {
+        "onupdate": "CASCADE",
+        "ondelete": "CASCADE"
+      }
+    },
+    {
+      "name": "catalog_product_super_link_ibfk_2",
+      "constrained_columns": [
+        "product_id"
+      ],
+      "referred_schema": "magento2",
+      "referred_table": "catalog_product_entity",
+      "referred_columns": [
+        "entity_id"
+      ],
+      "options": {
+        "onupdate": "CASCADE",
+        "ondelete": "CASCADE"
+      }
+    }
+  ],
+  "columns": [
+    {
+      "name": "link_id",
+      "type": "INTEGER",
+      "nullable": false,
+      "stats": {
+        "null_count": 0,
+        "distinct_count": 55,
+        "null_percentage": 0.0,
+        "numeric_stats": {
+          "avg": 320.5636,
+          "min": 118.0,
+          "max": 366.0,
+          "stddev": 63.30554008109147
+        },
+        "sample_values": [
+          "323",
+          "324",
+          "325",
+          "326",
+          "327",
+          "328",
+          "329",
+          "330",
+          "331",
+          "332",
+          "333",
+          "334",
+          "335",
+          "336",
+          "337"
+        ]
+      }
+    },
+    {
+      "name": "product_id",
+      "type": "INTEGER",
+      "nullable": false,
+      "stats": {
+        "null_count": 0,
+        "distinct_count": 50,
+        "null_percentage": 0.0,
+        "numeric_stats": {
+          "avg": 88.6,
+          "min": 29.0,
+          "max": 131.0,
+          "stddev": 30.933712118892977
+        },
+        "sample_values": [
+          "29",
+          "30",
+          "31",
+          "32",
+          "33",
+          "35",
+          "36",
+          "37",
+          "38",
+          "49",
+          "74",
+          "75",
+          "79",
+          "80",
+          "81"
+        ]
+      }
+    },
+    {
+      "name": "parent_id",
+      "type": "INTEGER",
+      "nullable": false,
+      "stats": {
+        "null_count": 0,
+        "distinct_count": 11,
+        "null_percentage": 0.0,
+        "numeric_stats": {
+          "avg": 108.4909,
+          "min": 83.0,
+          "max": 135.0,
+          "stddev": 17.35602879512448
+        },
+        "frequent_values": [
+          {
+            "value": "83",
+            "count": 10
+          },
+          {
+            "value": "135",
+            "count": 7
+          },
+          {
+            "value": "126",
+            "count": 6
+          },
+          {
+            "value": "93",
+            "count": 5
+          },
+          {
+            "value": "98",
+            "count": 5
+          }
+        ],
+        "sample_values": [
+          "83",
+          "93",
+          "98",
+          "103",
+          "108",
+          "112",
+          "119",
+          "120",
+          "123",
+          "126",
+          "135"
+        ]
+      }
+    }
+  ],
+  "sample_rows": [
+    {
+      "link_id": 323,
+      "product_id": 29,
+      "parent_id": 83
+    },
+    {
+      "link_id": 333,
+      "product_id": 30,
+      "parent_id": 93
+    },
+    {
+      "link_id": 322,
+      "product_id": 30,
+      "parent_id": 98
+    }
+  ],
+  "execution": {
+    "status": "success",
+    "seconds": 0.04,
+    "processed_at": "2026-09-13T18:56:19.221720",
+    "attempt": 1
+  }
+}

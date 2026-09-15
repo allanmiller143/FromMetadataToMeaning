@@ -17,7 +17,7 @@ st.set_page_config(page_title="EsqueMapa", layout="wide")
 
 
 ROOT_DIR = Path(__file__).resolve().parent
-DATA_DIR = ROOT_DIR / "data" / "teixeira"
+DATA_DIR = ROOT_DIR / "data" / "magento2"
 APP_DIR = ROOT_DIR / "app"
 
 

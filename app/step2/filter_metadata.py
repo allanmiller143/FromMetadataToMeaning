@@ -130,58 +130,44 @@ A remoção de tabelas com `row_count = 0` é justificada pelos seguintes motivo
 
 
 def filter_and_anonymize(input_file: str, output_file: str, filter_report_file: str,
-                          anon_report_file: str, config_file: str):
-    """
-    Filtra tabelas de metadados baseado no row_count e, na sequência,
-    anonimiza o resultado — tudo em memória, sem gravar o JSON
-    filtrado-mas-nao-anonimizado em disco.
-
-    Remove APENAS tabelas com row_count = 0, depois anonimiza os valores
-    das colunas sensíveis (ver anonymize_metadata.py / sensitive_columns.json).
-
-    Args:
-        input_file: Caminho para o arquivo JSON de entrada (metadata bruto)
-        output_file: Caminho para o ÚNICO JSON de saída (já filtrado E anonimizado)
-        filter_report_file: Caminho para o relatório MD da etapa de filtragem
-        anon_report_file: Caminho para o relatório MD da etapa de anonimização
-        config_file: Caminho para o sensitive_columns.json
-    """
-
-    # Ler o arquivo JSON de entrada
+                         anon_report_file: str, config_file: str):
+    
     with open(input_file, 'r', encoding='utf-8') as f:
         metadata = json.load(f)
 
     total_tables = len(metadata)
 
     # --- Etapa 1: filtragem (em memória) ---
-    filtered_metadata = [
-        table for table in metadata
-        if table.get('row_count', 0) > 0
-    ]
-
-    removed_tables = [
-        table for table in metadata
-        if table.get('row_count', 0) == 0
-    ]
-
+    # COMENTADO TEMPORARIAMENTE - MANTER TODAS AS TABELAS
+    # filtered_metadata = [
+    #     table for table in metadata
+    #     if table.get('row_count', 0) > 0
+    # ]
+    # 
+    # removed_tables = [
+    #     table for table in metadata
+    #     if table.get('row_count', 0) == 0
+    # ]
+    
+    # MANTER TODAS AS TABELAS (incluindo vazias)
+    filtered_metadata = metadata
+    removed_tables = []
+    
     filtered_count = len(filtered_metadata)
     removed_count = len(removed_tables)
 
-    # Relatório da filtragem (apenas markdown — não é dado, pode ser salvo)
+    # Relatório da filtragem
     generate_report(metadata, filtered_metadata, removed_tables, filter_report_file)
 
-    # --- Etapa 2: anonimização (em memória, direto sobre o resultado filtrado) ---
+    # --- Etapa 2: anonimização ---
     anon_metadata, per_table_anonymized, per_table_content_pii, patterns, auto_anonymize_keys = \
         anonymize_metadata_data(filtered_metadata, config_file)
 
-    # Único arquivo de dados salvo no final: já filtrado E anonimizado
     with open(output_file, 'w', encoding='utf-8') as f:
         json.dump(anon_metadata, f, indent=2, ensure_ascii=False)
 
-    # Relatório da anonimização
     generate_anon_report(anon_metadata, per_table_anonymized, per_table_content_pii,
                           patterns, auto_anonymize_keys, anon_report_file)
-
 
 def main():
     """Função principal do script."""
@@ -192,10 +178,10 @@ def main():
     SCRIPT_DIR = Path(__file__).resolve().parent
 
     # Configurações padrão
-    input_file = "./data/teixeira/step1_output/metadata.json"
-    output_file = "./data/teixeira/step2_output/metadata.json"
-    filter_report_file = "./data/teixeira/step2_output/relatorio_filtragem.md"
-    anon_report_file = "./data/teixeira/step2_output/relatorio_anonimizacao.md"
+    input_file = "./data/magento2/step1_output/metadata.json"
+    output_file = "./data/magento2/step2_output/metadata.json"
+    filter_report_file = "./data/magento2/step2_output/relatorio_filtragem.md"
+    anon_report_file = "./data/magento2/step2_output/relatorio_anonimizacao.md"
     config_file = str(SCRIPT_DIR / "sensitive_columns.json")
 
     # Verificar argumentos da linha de comando

@@ -1,0 +1,84 @@
+{
+  "schema": "magento2",
+  "table_name": "salesrule_coupon",
+  "row_count": 0,
+  "primary_key": [
+    "coupon_id"
+  ],
+  "foreign_keys": [
+    {
+      "name": "salesrule_coupon_ibfk_1",
+      "constrained_columns": [
+        "rule_id"
+      ],
+      "referred_schema": "magento2",
+      "referred_table": "salesrule",
+      "referred_columns": [
+        "rule_id"
+      ],
+      "options": {
+        "onupdate": "CASCADE",
+        "ondelete": "CASCADE"
+      }
+    }
+  ],
+  "columns": [
+    {
+      "name": "coupon_id",
+      "type": "INTEGER",
+      "nullable": false
+    },
+    {
+      "name": "rule_id",
+      "type": "INTEGER",
+      "nullable": false
+    },
+    {
+      "name": "code",
+      "type": "VARCHAR(255)",
+      "nullable": true
+    },
+    {
+      "name": "usage_limit",
+      "type": "INTEGER",
+      "nullable": true
+    },
+    {
+      "name": "usage_per_customer",
+      "type": "INTEGER",
+      "nullable": true
+    },
+    {
+      "name": "times_used",
+      "type": "INTEGER",
+      "nullable": false
+    },
+    {
+      "name": "expiration_date",
+      "type": "TIMESTAMP",
+      "nullable": true
+    },
+    {
+      "name": "is_primary",
+      "type": "SMALLINT",
+      "nullable": true
+    },
+    {
+      "name": "created_at",
+      "type": "TIMESTAMP",
+      "nullable": true
+    },
+    {
+      "name": "type",
+      "type": "SMALLINT",
+      "nullable": true
+    }
+  ],
+  "sample_rows": [],
+  "execution": {
+    "status": "success",
+    "seconds": 0.01,
+    "processed_at": "2026-09-13T18:56:45.946056",
+    "attempt": 1
+  }
+}

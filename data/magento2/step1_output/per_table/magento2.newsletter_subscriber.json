@@ -1,0 +1,69 @@
+{
+  "schema": "magento2",
+  "table_name": "newsletter_subscriber",
+  "row_count": 0,
+  "primary_key": [
+    "subscriber_id"
+  ],
+  "foreign_keys": [
+    {
+      "name": "newsletter_subscriber_ibfk_1",
+      "constrained_columns": [
+        "store_id"
+      ],
+      "referred_schema": "magento2",
+      "referred_table": "store",
+      "referred_columns": [
+        "store_id"
+      ],
+      "options": {
+        "onupdate": "CASCADE",
+        "ondelete": "SET NULL"
+      }
+    }
+  ],
+  "columns": [
+    {
+      "name": "subscriber_id",
+      "type": "INTEGER",
+      "nullable": false
+    },
+    {
+      "name": "store_id",
+      "type": "SMALLINT",
+      "nullable": true
+    },
+    {
+      "name": "change_status_at",
+      "type": "TIMESTAMP",
+      "nullable": true
+    },
+    {
+      "name": "customer_id",
+      "type": "INTEGER",
+      "nullable": false
+    },
+    {
+      "name": "subscriber_email",
+      "type": "VARCHAR(150)",
+      "nullable": true
+    },
+    {
+      "name": "subscriber_status",
+      "type": "INTEGER",
+      "nullable": false
+    },
+    {
+      "name": "subscriber_confirm_code",
+      "type": "VARCHAR(32)",
+      "nullable": true
+    }
+  ],
+  "sample_rows": [],
+  "execution": {
+    "status": "success",
+    "seconds": 0.01,
+    "processed_at": "2026-09-13T18:56:33.462392",
+    "attempt": 1
+  }
+}

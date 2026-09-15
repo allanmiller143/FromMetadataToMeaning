@@ -1,0 +1,33 @@
+{
+  "schema": "magento2",
+  "table_name": "log_url",
+  "row_count": 0,
+  "primary_key": [
+    "url_id"
+  ],
+  "foreign_keys": [],
+  "columns": [
+    {
+      "name": "url_id",
+      "type": "BIGINT",
+      "nullable": false
+    },
+    {
+      "name": "visitor_id",
+      "type": "BIGINT",
+      "nullable": true
+    },
+    {
+      "name": "visit_time",
+      "type": "TIMESTAMP",
+      "nullable": false
+    }
+  ],
+  "sample_rows": [],
+  "execution": {
+    "status": "success",
+    "seconds": 0.0,
+    "processed_at": "2026-09-13T18:56:32.287994",
+    "attempt": 1
+  }
+}

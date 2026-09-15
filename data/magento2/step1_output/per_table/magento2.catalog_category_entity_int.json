@@ -1,0 +1,308 @@
+{
+  "schema": "magento2",
+  "table_name": "catalog_category_entity_int",
+  "row_count": 130,
+  "primary_key": [
+    "value_id"
+  ],
+  "foreign_keys": [
+    {
+      "name": "catalog_category_entity_int_ibfk_1",
+      "constrained_columns": [
+        "store_id"
+      ],
+      "referred_schema": "magento2",
+      "referred_table": "store",
+      "referred_columns": [
+        "store_id"
+      ],
+      "options": {
+        "onupdate": "CASCADE",
+        "ondelete": "CASCADE"
+      }
+    },
+    {
+      "name": "catalog_category_entity_int_ibfk_2",
+      "constrained_columns": [
+        "attribute_id"
+      ],
+      "referred_schema": "magento2",
+      "referred_table": "eav_attribute",
+      "referred_columns": [
+        "attribute_id"
+      ],
+      "options": {
+        "onupdate": "CASCADE",
+        "ondelete": "CASCADE"
+      }
+    },
+    {
+      "name": "catalog_category_entity_int_ibfk_3",
+      "constrained_columns": [
+        "entity_id"
+      ],
+      "referred_schema": "magento2",
+      "referred_table": "catalog_category_entity",
+      "referred_columns": [
+        "entity_id"
+      ],
+      "options": {
+        "onupdate": "CASCADE",
+        "ondelete": "CASCADE"
+      }
+    }
+  ],
+  "columns": [
+    {
+      "name": "value_id",
+      "type": "INTEGER",
+      "nullable": false,
+      "stats": {
+        "null_count": 0,
+        "distinct_count": 130,
+        "null_percentage": 0.0,
+        "numeric_stats": {
+          "avg": 82.3846,
+          "min": 1.0,
+          "max": 192.0,
+          "stddev": 50.06478642955233
+        },
+        "sample_values": [
+          "18",
+          "21",
+          "164",
+          "184",
+          "11",
+          "12",
+          "13",
+          "14",
+          "15",
+          "16",
+          "19",
+          "25",
+          "27",
+          "28",
+          "29"
+        ]
+      }
+    },
+    {
+      "name": "entity_type_id",
+      "type": "SMALLINT",
+      "nullable": false,
+      "stats": {
+        "null_count": 0,
+        "distinct_count": 1,
+        "null_percentage": 0.0,
+        "numeric_stats": {
+          "avg": 9.0,
+          "min": 9.0,
+          "max": 9.0,
+          "stddev": 0.0
+        },
+        "frequent_values": [
+          {
+            "value": "9",
+            "count": 130
+          }
+        ],
+        "sample_values": [
+          "9"
+        ]
+      }
+    },
+    {
+      "name": "attribute_id",
+      "type": "SMALLINT",
+      "nullable": false,
+      "stats": {
+        "null_count": 0,
+        "distinct_count": 6,
+        "null_percentage": 0.0,
+        "numeric_stats": {
+          "avg": 590.6077,
+          "min": 117.0,
+          "max": 938.0,
+          "stddev": 403.61404824513767
+        },
+        "frequent_values": [
+          {
+            "value": "119",
+            "count": 27
+          },
+          {
+            "value": "934",
+            "count": 27
+          },
+          {
+            "value": "120",
+            "count": 24
+          },
+          {
+            "value": "937",
+            "count": 24
+          },
+          {
+            "value": "938",
+            "count": 24
+          }
+        ],
+        "sample_values": [
+          "117",
+          "119",
+          "120",
+          "934",
+          "937",
+          "938"
+        ]
+      }
+    },
+    {
+      "name": "store_id",
+      "type": "SMALLINT",
+      "nullable": false,
+      "stats": {
+        "null_count": 0,
+        "distinct_count": 1,
+        "null_percentage": 0.0,
+        "numeric_stats": {
+          "avg": 0.0,
+          "min": 0.0,
+          "max": 0.0,
+          "stddev": 0.0
+        },
+        "frequent_values": [
+          {
+            "value": "0",
+            "count": 130
+          }
+        ],
+        "sample_values": [
+          "0"
+        ]
+      }
+    },
+    {
+      "name": "entity_id",
+      "type": "INTEGER",
+      "nullable": false,
+      "stats": {
+        "null_count": 0,
+        "distinct_count": 27,
+        "null_percentage": 0.0,
+        "numeric_stats": {
+          "avg": 19.9538,
+          "min": 1.0,
+          "max": 34.0,
+          "stddev": 9.216925516479524
+        },
+        "frequent_values": [
+          {
+            "value": "13",
+            "count": 6
+          },
+          {
+            "value": "12",
+            "count": 6
+          },
+          {
+            "value": "20",
+            "count": 6
+          },
+          {
+            "value": "8",
+            "count": 6
+          },
+          {
+            "value": "4",
+            "count": 5
+          }
+        ],
+        "sample_values": [
+          "1",
+          "3",
+          "4",
+          "5",
+          "8",
+          "10",
+          "12",
+          "13",
+          "15",
+          "16",
+          "17",
+          "18",
+          "19",
+          "20",
+          "22"
+        ]
+      }
+    },
+    {
+      "name": "value",
+      "type": "INTEGER",
+      "nullable": true,
+      "stats": {
+        "null_count": 3,
+        "distinct_count": 3,
+        "null_percentage": 2.31,
+        "numeric_stats": {
+          "avg": 0.937,
+          "min": 0.0,
+          "max": 4.0,
+          "stddev": 0.39180646628739296
+        },
+        "frequent_values": [
+          {
+            "value": "1",
+            "count": 115
+          },
+          {
+            "value": "0",
+            "count": 11
+          },
+          {
+            "value": "4",
+            "count": 1
+          }
+        ],
+        "sample_values": [
+          "1",
+          "0",
+          "4"
+        ]
+      }
+    }
+  ],
+  "sample_rows": [
+    {
+      "value_id": 1,
+      "entity_type_id": 9,
+      "attribute_id": 120,
+      "store_id": 0,
+      "entity_id": 13,
+      "value": 1
+    },
+    {
+      "value_id": 2,
+      "entity_type_id": 9,
+      "attribute_id": 120,
+      "store_id": 0,
+      "entity_id": 5,
+      "value": 1
+    },
+    {
+      "value_id": 3,
+      "entity_type_id": 9,
+      "attribute_id": 120,
+      "store_id": 0,
+      "entity_id": 18,
+      "value": 1
+    }
+  ],
+  "execution": {
+    "status": "success",
+    "seconds": 0.05,
+    "processed_at": "2026-09-13T18:56:12.584308",
+    "attempt": 1
+  }
+}

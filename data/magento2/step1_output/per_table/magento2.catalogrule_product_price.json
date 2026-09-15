@@ -1,0 +1,58 @@
+{
+  "schema": "magento2",
+  "table_name": "catalogrule_product_price",
+  "row_count": 0,
+  "primary_key": [
+    "rule_product_price_id"
+  ],
+  "foreign_keys": [],
+  "columns": [
+    {
+      "name": "rule_product_price_id",
+      "type": "INTEGER",
+      "nullable": false
+    },
+    {
+      "name": "rule_date",
+      "type": "DATE",
+      "nullable": false
+    },
+    {
+      "name": "customer_group_id",
+      "type": "SMALLINT",
+      "nullable": false
+    },
+    {
+      "name": "product_id",
+      "type": "INTEGER",
+      "nullable": false
+    },
+    {
+      "name": "rule_price",
+      "type": "DECIMAL(12, 4)",
+      "nullable": false
+    },
+    {
+      "name": "website_id",
+      "type": "SMALLINT",
+      "nullable": false
+    },
+    {
+      "name": "latest_start_date",
+      "type": "DATE",
+      "nullable": true
+    },
+    {
+      "name": "earliest_end_date",
+      "type": "DATE",
+      "nullable": true
+    }
+  ],
+  "sample_rows": [],
+  "execution": {
+    "status": "success",
+    "seconds": 0.01,
+    "processed_at": "2026-09-13T18:56:20.637619",
+    "attempt": 1
+  }
+}

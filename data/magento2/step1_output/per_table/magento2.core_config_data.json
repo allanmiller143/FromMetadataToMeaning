@@ -1,0 +1,43 @@
+{
+  "schema": "magento2",
+  "table_name": "core_config_data",
+  "row_count": 0,
+  "primary_key": [
+    "config_id"
+  ],
+  "foreign_keys": [],
+  "columns": [
+    {
+      "name": "config_id",
+      "type": "INTEGER",
+      "nullable": false
+    },
+    {
+      "name": "scope",
+      "type": "VARCHAR(8)",
+      "nullable": false
+    },
+    {
+      "name": "scope_id",
+      "type": "INTEGER",
+      "nullable": false
+    },
+    {
+      "name": "path",
+      "type": "VARCHAR(255)",
+      "nullable": false
+    },
+    {
+      "name": "value",
+      "type": "TEXT",
+      "nullable": true
+    }
+  ],
+  "sample_rows": [],
+  "execution": {
+    "status": "success",
+    "seconds": 0.01,
+    "processed_at": "2026-09-13T18:56:22.027382",
+    "attempt": 1
+  }
+}

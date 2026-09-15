@@ -1,0 +1,63 @@
+{
+  "schema": "magento2",
+  "table_name": "shipping_tablerate",
+  "row_count": 0,
+  "primary_key": [
+    "pk"
+  ],
+  "foreign_keys": [],
+  "columns": [
+    {
+      "name": "pk",
+      "type": "INTEGER",
+      "nullable": false
+    },
+    {
+      "name": "website_id",
+      "type": "INTEGER",
+      "nullable": false
+    },
+    {
+      "name": "dest_country_id",
+      "type": "VARCHAR(4)",
+      "nullable": false
+    },
+    {
+      "name": "dest_region_id",
+      "type": "INTEGER",
+      "nullable": false
+    },
+    {
+      "name": "dest_zip",
+      "type": "VARCHAR(10)",
+      "nullable": false
+    },
+    {
+      "name": "condition_name",
+      "type": "VARCHAR(20)",
+      "nullable": false
+    },
+    {
+      "name": "condition_value",
+      "type": "DECIMAL(12, 4)",
+      "nullable": false
+    },
+    {
+      "name": "price",
+      "type": "DECIMAL(12, 4)",
+      "nullable": false
+    },
+    {
+      "name": "cost",
+      "type": "DECIMAL(12, 4)",
+      "nullable": false
+    }
+  ],
+  "sample_rows": [],
+  "execution": {
+    "status": "success",
+    "seconds": 0.01,
+    "processed_at": "2026-09-13T18:56:48.161796",
+    "attempt": 1
+  }
+}

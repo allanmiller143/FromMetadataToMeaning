@@ -1,0 +1,33 @@
+{
+  "schema": "magento2",
+  "table_name": "core_variable",
+  "row_count": 0,
+  "primary_key": [
+    "variable_id"
+  ],
+  "foreign_keys": [],
+  "columns": [
+    {
+      "name": "variable_id",
+      "type": "INTEGER",
+      "nullable": false
+    },
+    {
+      "name": "code",
+      "type": "VARCHAR(255)",
+      "nullable": true
+    },
+    {
+      "name": "name",
+      "type": "VARCHAR(255)",
+      "nullable": true
+    }
+  ],
+  "sample_rows": [],
+  "execution": {
+    "status": "success",
+    "seconds": 0.01,
+    "processed_at": "2026-09-13T18:56:23.014036",
+    "attempt": 1
+  }
+}

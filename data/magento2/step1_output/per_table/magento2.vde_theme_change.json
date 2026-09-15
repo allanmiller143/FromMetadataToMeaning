@@ -1,0 +1,49 @@
+{
+  "schema": "magento2",
+  "table_name": "vde_theme_change",
+  "row_count": 0,
+  "primary_key": [
+    "change_id"
+  ],
+  "foreign_keys": [
+    {
+      "name": "FK_VDE_THEME_CHANGE_THEME_ID_CORE_THEME_THEME_ID",
+      "constrained_columns": [
+        "theme_id"
+      ],
+      "referred_schema": "magento2",
+      "referred_table": "core_theme",
+      "referred_columns": [
+        "theme_id"
+      ],
+      "options": {
+        "onupdate": "CASCADE",
+        "ondelete": "CASCADE"
+      }
+    }
+  ],
+  "columns": [
+    {
+      "name": "change_id",
+      "type": "INTEGER",
+      "nullable": false
+    },
+    {
+      "name": "theme_id",
+      "type": "INTEGER",
+      "nullable": false
+    },
+    {
+      "name": "change_time",
+      "type": "TIMESTAMP",
+      "nullable": false
+    }
+  ],
+  "sample_rows": [],
+  "execution": {
+    "status": "success",
+    "seconds": 0.01,
+    "processed_at": "2026-09-13T18:56:51.063125",
+    "attempt": 1
+  }
+}

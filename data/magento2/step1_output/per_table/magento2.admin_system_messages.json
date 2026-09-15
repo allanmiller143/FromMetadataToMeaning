@@ -1,0 +1,33 @@
+{
+  "schema": "magento2",
+  "table_name": "admin_system_messages",
+  "row_count": 0,
+  "primary_key": [
+    "identity"
+  ],
+  "foreign_keys": [],
+  "columns": [
+    {
+      "name": "identity",
+      "type": "VARCHAR(100)",
+      "nullable": false
+    },
+    {
+      "name": "severity",
+      "type": "SMALLINT",
+      "nullable": false
+    },
+    {
+      "name": "created_at",
+      "type": "TIMESTAMP",
+      "nullable": false
+    }
+  ],
+  "sample_rows": [],
+  "execution": {
+    "status": "success",
+    "seconds": 0.05,
+    "processed_at": "2026-09-13T18:56:12.264202",
+    "attempt": 1
+  }
+}

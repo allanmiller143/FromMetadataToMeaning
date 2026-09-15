@@ -1,0 +1,43 @@
+{
+  "schema": "magento2",
+  "table_name": "core_layout_update",
+  "row_count": 0,
+  "primary_key": [
+    "layout_update_id"
+  ],
+  "foreign_keys": [],
+  "columns": [
+    {
+      "name": "layout_update_id",
+      "type": "INTEGER",
+      "nullable": false
+    },
+    {
+      "name": "handle",
+      "type": "VARCHAR(255)",
+      "nullable": true
+    },
+    {
+      "name": "xml",
+      "type": "TEXT",
+      "nullable": true
+    },
+    {
+      "name": "sort_order",
+      "type": "SMALLINT",
+      "nullable": false
+    },
+    {
+      "name": "updated_at",
+      "type": "TIMESTAMP",
+      "nullable": true
+    }
+  ],
+  "sample_rows": [],
+  "execution": {
+    "status": "success",
+    "seconds": 0.0,
+    "processed_at": "2026-09-13T18:56:22.402202",
+    "attempt": 1
+  }
+}

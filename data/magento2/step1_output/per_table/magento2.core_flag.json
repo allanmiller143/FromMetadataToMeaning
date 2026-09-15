@@ -1,0 +1,113 @@
+{
+  "schema": "magento2",
+  "table_name": "core_flag",
+  "row_count": 2,
+  "primary_key": [
+    "flag_id"
+  ],
+  "foreign_keys": [],
+  "columns": [
+    {
+      "name": "flag_id",
+      "type": "INTEGER",
+      "nullable": false,
+      "stats": {
+        "null_count": 0,
+        "distinct_count": 2,
+        "null_percentage": 0.0,
+        "numeric_stats": {
+          "avg": 1.5,
+          "min": 1.0,
+          "max": 2.0,
+          "stddev": 0.5
+        },
+        "sample_values": [
+          "1",
+          "2"
+        ]
+      }
+    },
+    {
+      "name": "flag_code",
+      "type": "VARCHAR(255)",
+      "nullable": false,
+      "stats": {
+        "null_count": 0,
+        "distinct_count": 2,
+        "null_percentage": 0.0,
+        "sample_values": [
+          "admin_notification_survey",
+          "catalog_rules_dirty"
+        ]
+      }
+    },
+    {
+      "name": "state",
+      "type": "SMALLINT",
+      "nullable": false,
+      "stats": {
+        "null_count": 0,
+        "distinct_count": 1,
+        "null_percentage": 0.0,
+        "numeric_stats": {
+          "avg": 0.0,
+          "min": 0.0,
+          "max": 0.0,
+          "stddev": 0.0
+        },
+        "sample_values": [
+          "0"
+        ]
+      }
+    },
+    {
+      "name": "flag_data",
+      "type": "TEXT",
+      "nullable": true,
+      "stats": {
+        "null_count": 1,
+        "distinct_count": 1,
+        "null_percentage": 50.0,
+        "sample_values": [
+          "a:1:{s:13:\"survey_viewed\";b:1;}"
+        ]
+      }
+    },
+    {
+      "name": "last_update",
+      "type": "TIMESTAMP",
+      "nullable": false,
+      "stats": {
+        "null_count": 0,
+        "distinct_count": 2,
+        "null_percentage": 0.0,
+        "sample_values": [
+          "2014-08-01 12:32:38",
+          "2014-09-23 11:39:14"
+        ]
+      }
+    }
+  ],
+  "sample_rows": [
+    {
+      "flag_id": 1,
+      "flag_code": "admin_notification_survey",
+      "state": 0,
+      "flag_data": "a:1:{s:13:\"survey_viewed\";b:1;}",
+      "last_update": "2014-08-01 12:32:38"
+    },
+    {
+      "flag_id": 2,
+      "flag_code": "catalog_rules_dirty",
+      "state": 0,
+      "flag_data": null,
+      "last_update": "2014-09-23 11:39:14"
+    }
+  ],
+  "execution": {
+    "status": "success",
+    "seconds": 0.03,
+    "processed_at": "2026-09-13T18:56:22.138296",
+    "attempt": 1
+  }
+}

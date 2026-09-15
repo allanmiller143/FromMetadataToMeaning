@@ -1,0 +1,129 @@
+{
+  "schema": "magento2",
+  "table_name": "downloadable_link_purchased_item",
+  "row_count": 0,
+  "primary_key": [
+    "item_id"
+  ],
+  "foreign_keys": [
+    {
+      "name": "FK_46CC8E252307CE62F00A8F1887512A39",
+      "constrained_columns": [
+        "purchased_id"
+      ],
+      "referred_schema": "magento2",
+      "referred_table": "downloadable_link_purchased",
+      "referred_columns": [
+        "purchased_id"
+      ],
+      "options": {
+        "onupdate": "CASCADE",
+        "ondelete": "CASCADE"
+      }
+    },
+    {
+      "name": "FK_B219BF25756700DEE44550B21220ECCE",
+      "constrained_columns": [
+        "order_item_id"
+      ],
+      "referred_schema": "magento2",
+      "referred_table": "sales_order_item",
+      "referred_columns": [
+        "item_id"
+      ],
+      "options": {
+        "onupdate": "CASCADE",
+        "ondelete": "SET NULL"
+      }
+    }
+  ],
+  "columns": [
+    {
+      "name": "item_id",
+      "type": "INTEGER",
+      "nullable": false
+    },
+    {
+      "name": "purchased_id",
+      "type": "INTEGER",
+      "nullable": false
+    },
+    {
+      "name": "order_item_id",
+      "type": "INTEGER",
+      "nullable": true
+    },
+    {
+      "name": "product_id",
+      "type": "INTEGER",
+      "nullable": true
+    },
+    {
+      "name": "link_hash",
+      "type": "VARCHAR(255)",
+      "nullable": true
+    },
+    {
+      "name": "number_of_downloads_bought",
+      "type": "INTEGER",
+      "nullable": false
+    },
+    {
+      "name": "number_of_downloads_used",
+      "type": "INTEGER",
+      "nullable": false
+    },
+    {
+      "name": "link_id",
+      "type": "INTEGER",
+      "nullable": false
+    },
+    {
+      "name": "link_title",
+      "type": "VARCHAR(255)",
+      "nullable": true
+    },
+    {
+      "name": "is_shareable",
+      "type": "SMALLINT",
+      "nullable": false
+    },
+    {
+      "name": "link_url",
+      "type": "VARCHAR(255)",
+      "nullable": true
+    },
+    {
+      "name": "link_file",
+      "type": "VARCHAR(255)",
+      "nullable": true
+    },
+    {
+      "name": "link_type",
+      "type": "VARCHAR(255)",
+      "nullable": true
+    },
+    {
+      "name": "status",
+      "type": "VARCHAR(50)",
+      "nullable": true
+    },
+    {
+      "name": "created_at",
+      "type": "TIMESTAMP",
+      "nullable": false
+    },
+    {
+      "name": "updated_at",
+      "type": "TIMESTAMP",
+      "nullable": false
+    }
+  ],
+  "sample_rows": [],
+  "execution": {
+    "status": "success",
+    "seconds": 0.01,
+    "processed_at": "2026-09-13T18:56:27.078462",
+    "attempt": 1
+  }
+}

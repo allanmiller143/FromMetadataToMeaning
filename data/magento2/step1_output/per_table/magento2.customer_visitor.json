@@ -1,0 +1,33 @@
+{
+  "schema": "magento2",
+  "table_name": "customer_visitor",
+  "row_count": 0,
+  "primary_key": [
+    "visitor_id"
+  ],
+  "foreign_keys": [],
+  "columns": [
+    {
+      "name": "visitor_id",
+      "type": "BIGINT",
+      "nullable": false
+    },
+    {
+      "name": "session_id",
+      "type": "VARCHAR(64)",
+      "nullable": true
+    },
+    {
+      "name": "last_visit_at",
+      "type": "TIMESTAMP",
+      "nullable": false
+    }
+  ],
+  "sample_rows": [],
+  "execution": {
+    "status": "success",
+    "seconds": 0.01,
+    "processed_at": "2026-09-13T18:56:25.652753",
+    "attempt": 1
+  }
+}

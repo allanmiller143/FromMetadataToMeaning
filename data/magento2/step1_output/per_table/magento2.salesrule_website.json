@@ -1,0 +1,60 @@
+{
+  "schema": "magento2",
+  "table_name": "salesrule_website",
+  "row_count": 0,
+  "primary_key": [
+    "rule_id",
+    "website_id"
+  ],
+  "foreign_keys": [
+    {
+      "name": "FK_SALESRULE_WEBSITE_RULE_ID_SALESRULE_RULE_ID",
+      "constrained_columns": [
+        "rule_id"
+      ],
+      "referred_schema": "magento2",
+      "referred_table": "salesrule",
+      "referred_columns": [
+        "rule_id"
+      ],
+      "options": {
+        "onupdate": "CASCADE",
+        "ondelete": "CASCADE"
+      }
+    },
+    {
+      "name": "FK_SALESRULE_WEBSITE_WEBSITE_ID_CORE/WEBSITE_WEBSITE_ID",
+      "constrained_columns": [
+        "website_id"
+      ],
+      "referred_schema": "magento2",
+      "referred_table": "store_website",
+      "referred_columns": [
+        "website_id"
+      ],
+      "options": {
+        "onupdate": "CASCADE",
+        "ondelete": "CASCADE"
+      }
+    }
+  ],
+  "columns": [
+    {
+      "name": "rule_id",
+      "type": "INTEGER",
+      "nullable": false
+    },
+    {
+      "name": "website_id",
+      "type": "SMALLINT",
+      "nullable": false
+    }
+  ],
+  "sample_rows": [],
+  "execution": {
+    "status": "success",
+    "seconds": 0.01,
+    "processed_at": "2026-09-13T18:56:47.415448",
+    "attempt": 1
+  }
+}

@@ -1,0 +1,67 @@
+{
+  "schema": "magento2",
+  "table_name": "googleshopping_attributes",
+  "row_count": 0,
+  "primary_key": [
+    "id"
+  ],
+  "foreign_keys": [
+    {
+      "name": "FK_GOOGLESHOPPING_ATTRS_ATTR_ID_EAV_ATTR_ATTR_ID",
+      "constrained_columns": [
+        "attribute_id"
+      ],
+      "referred_schema": "magento2",
+      "referred_table": "eav_attribute",
+      "referred_columns": [
+        "attribute_id"
+      ],
+      "options": {
+        "ondelete": "CASCADE"
+      }
+    },
+    {
+      "name": "FK_GOOGLESHOPPING_ATTRS_TYPE_ID_GOOGLESHOPPING_TYPES_TYPE_ID",
+      "constrained_columns": [
+        "type_id"
+      ],
+      "referred_schema": "magento2",
+      "referred_table": "googleshopping_types",
+      "referred_columns": [
+        "type_id"
+      ],
+      "options": {
+        "ondelete": "CASCADE"
+      }
+    }
+  ],
+  "columns": [
+    {
+      "name": "id",
+      "type": "INTEGER",
+      "nullable": false
+    },
+    {
+      "name": "attribute_id",
+      "type": "SMALLINT",
+      "nullable": false
+    },
+    {
+      "name": "gcontent_attribute",
+      "type": "VARCHAR(255)",
+      "nullable": false
+    },
+    {
+      "name": "type_id",
+      "type": "INTEGER",
+      "nullable": false
+    }
+  ],
+  "sample_rows": [],
+  "execution": {
+    "status": "success",
+    "seconds": 0.01,
+    "processed_at": "2026-09-13T18:56:30.799520",
+    "attempt": 1
+  }
+}

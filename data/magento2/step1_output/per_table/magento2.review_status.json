@@ -1,0 +1,67 @@
+{
+  "schema": "magento2",
+  "table_name": "review_status",
+  "row_count": 3,
+  "primary_key": [
+    "status_id"
+  ],
+  "foreign_keys": [],
+  "columns": [
+    {
+      "name": "status_id",
+      "type": "SMALLINT",
+      "nullable": false,
+      "stats": {
+        "null_count": 0,
+        "distinct_count": 3,
+        "null_percentage": 0.0,
+        "numeric_stats": {
+          "avg": 2.0,
+          "min": 1.0,
+          "max": 3.0,
+          "stddev": 0.816496580927726
+        },
+        "sample_values": [
+          "1",
+          "2",
+          "3"
+        ]
+      }
+    },
+    {
+      "name": "status_code",
+      "type": "VARCHAR(32)",
+      "nullable": false,
+      "stats": {
+        "null_count": 0,
+        "distinct_count": 3,
+        "null_percentage": 0.0,
+        "sample_values": [
+          "Approved",
+          "Pending",
+          "Not Approved"
+        ]
+      }
+    }
+  ],
+  "sample_rows": [
+    {
+      "status_id": 1,
+      "status_code": "Approved"
+    },
+    {
+      "status_id": 2,
+      "status_code": "Pending"
+    },
+    {
+      "status_id": 3,
+      "status_code": "Not Approved"
+    }
+  ],
+  "execution": {
+    "status": "success",
+    "seconds": 0.02,
+    "processed_at": "2026-09-13T18:56:37.906350",
+    "attempt": 1
+  }
+}

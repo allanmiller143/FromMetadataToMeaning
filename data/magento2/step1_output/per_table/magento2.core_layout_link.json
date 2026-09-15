@@ -1,0 +1,89 @@
+{
+  "schema": "magento2",
+  "table_name": "core_layout_link",
+  "row_count": 0,
+  "primary_key": [
+    "layout_link_id"
+  ],
+  "foreign_keys": [
+    {
+      "name": "core_layout_link_ibfk_1",
+      "constrained_columns": [
+        "store_id"
+      ],
+      "referred_schema": "magento2",
+      "referred_table": "store",
+      "referred_columns": [
+        "store_id"
+      ],
+      "options": {
+        "onupdate": "CASCADE",
+        "ondelete": "CASCADE"
+      }
+    },
+    {
+      "name": "core_layout_link_ibfk_2",
+      "constrained_columns": [
+        "theme_id"
+      ],
+      "referred_schema": "magento2",
+      "referred_table": "core_theme",
+      "referred_columns": [
+        "theme_id"
+      ],
+      "options": {
+        "onupdate": "CASCADE",
+        "ondelete": "CASCADE"
+      }
+    },
+    {
+      "name": "core_layout_link_ibfk_3",
+      "constrained_columns": [
+        "layout_update_id"
+      ],
+      "referred_schema": "magento2",
+      "referred_table": "core_layout_update",
+      "referred_columns": [
+        "layout_update_id"
+      ],
+      "options": {
+        "onupdate": "CASCADE",
+        "ondelete": "CASCADE"
+      }
+    }
+  ],
+  "columns": [
+    {
+      "name": "layout_link_id",
+      "type": "INTEGER",
+      "nullable": false
+    },
+    {
+      "name": "store_id",
+      "type": "SMALLINT",
+      "nullable": false
+    },
+    {
+      "name": "theme_id",
+      "type": "INTEGER",
+      "nullable": false
+    },
+    {
+      "name": "layout_update_id",
+      "type": "INTEGER",
+      "nullable": false
+    },
+    {
+      "name": "is_temporary",
+      "type": "TINYINT",
+      "nullable": false
+    }
+  ],
+  "sample_rows": [],
+  "execution": {
+    "status": "success",
+    "seconds": 0.01,
+    "processed_at": "2026-09-13T18:56:22.255526",
+    "attempt": 1
+  }
+}

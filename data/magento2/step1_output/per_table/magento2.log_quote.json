@@ -1,0 +1,38 @@
+{
+  "schema": "magento2",
+  "table_name": "log_quote",
+  "row_count": 0,
+  "primary_key": [
+    "quote_id"
+  ],
+  "foreign_keys": [],
+  "columns": [
+    {
+      "name": "quote_id",
+      "type": "INTEGER",
+      "nullable": false
+    },
+    {
+      "name": "visitor_id",
+      "type": "BIGINT",
+      "nullable": true
+    },
+    {
+      "name": "created_at",
+      "type": "TIMESTAMP",
+      "nullable": false
+    },
+    {
+      "name": "deleted_at",
+      "type": "TIMESTAMP",
+      "nullable": true
+    }
+  ],
+  "sample_rows": [],
+  "execution": {
+    "status": "success",
+    "seconds": 0.01,
+    "processed_at": "2026-09-13T18:56:31.915984",
+    "attempt": 1
+  }
+}

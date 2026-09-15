@@ -1,0 +1,74 @@
+{
+  "schema": "magento2",
+  "table_name": "eav_entity_store",
+  "row_count": 0,
+  "primary_key": [
+    "entity_store_id"
+  ],
+  "foreign_keys": [
+    {
+      "name": "FK_EAV_ENTITY_STORE_STORE_ID_STORE_STORE_ID",
+      "constrained_columns": [
+        "store_id"
+      ],
+      "referred_schema": "magento2",
+      "referred_table": "store",
+      "referred_columns": [
+        "store_id"
+      ],
+      "options": {
+        "onupdate": "CASCADE",
+        "ondelete": "CASCADE"
+      }
+    },
+    {
+      "name": "FK_EAV_ENTT_STORE_ENTT_TYPE_ID_EAV_ENTT_TYPE_ENTT_TYPE_ID",
+      "constrained_columns": [
+        "entity_type_id"
+      ],
+      "referred_schema": "magento2",
+      "referred_table": "eav_entity_type",
+      "referred_columns": [
+        "entity_type_id"
+      ],
+      "options": {
+        "onupdate": "CASCADE",
+        "ondelete": "CASCADE"
+      }
+    }
+  ],
+  "columns": [
+    {
+      "name": "entity_store_id",
+      "type": "INTEGER",
+      "nullable": false
+    },
+    {
+      "name": "entity_type_id",
+      "type": "SMALLINT",
+      "nullable": false
+    },
+    {
+      "name": "store_id",
+      "type": "SMALLINT",
+      "nullable": false
+    },
+    {
+      "name": "increment_prefix",
+      "type": "VARCHAR(20)",
+      "nullable": true
+    },
+    {
+      "name": "increment_last_id",
+      "type": "VARCHAR(50)",
+      "nullable": true
+    }
+  ],
+  "sample_rows": [],
+  "execution": {
+    "status": "success",
+    "seconds": 0.01,
+    "processed_at": "2026-09-13T18:56:29.257973",
+    "attempt": 1
+  }
+}

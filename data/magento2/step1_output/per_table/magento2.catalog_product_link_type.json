@@ -1,0 +1,71 @@
+{
+  "schema": "magento2",
+  "table_name": "catalog_product_link_type",
+  "row_count": 5,
+  "primary_key": [
+    "link_type_id"
+  ],
+  "foreign_keys": [],
+  "columns": [
+    {
+      "name": "link_type_id",
+      "type": "SMALLINT",
+      "nullable": false,
+      "stats": {
+        "null_count": 0,
+        "distinct_count": 5,
+        "null_percentage": 0.0,
+        "numeric_stats": {
+          "avg": 3.0,
+          "min": 1.0,
+          "max": 5.0,
+          "stddev": 1.4142135623730951
+        },
+        "sample_values": [
+          "1",
+          "2",
+          "3",
+          "4",
+          "5"
+        ]
+      }
+    },
+    {
+      "name": "code",
+      "type": "VARCHAR(32)",
+      "nullable": true,
+      "stats": {
+        "null_count": 0,
+        "distinct_count": 5,
+        "null_percentage": 0.0,
+        "sample_values": [
+          "relation",
+          "bundle",
+          "super",
+          "up_sell",
+          "cross_sell"
+        ]
+      }
+    }
+  ],
+  "sample_rows": [
+    {
+      "link_type_id": 1,
+      "code": "relation"
+    },
+    {
+      "link_type_id": 2,
+      "code": "bundle"
+    },
+    {
+      "link_type_id": 3,
+      "code": "super"
+    }
+  ],
+  "execution": {
+    "status": "success",
+    "seconds": 0.01,
+    "processed_at": "2026-09-13T18:56:17.978559",
+    "attempt": 1
+  }
+}

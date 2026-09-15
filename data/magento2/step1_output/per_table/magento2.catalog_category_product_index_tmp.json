@@ -1,0 +1,46 @@
+{
+  "schema": "magento2",
+  "table_name": "catalog_category_product_index_tmp",
+  "row_count": 0,
+  "primary_key": [],
+  "foreign_keys": [],
+  "columns": [
+    {
+      "name": "category_id",
+      "type": "INTEGER",
+      "nullable": false
+    },
+    {
+      "name": "product_id",
+      "type": "INTEGER",
+      "nullable": false
+    },
+    {
+      "name": "position",
+      "type": "INTEGER",
+      "nullable": false
+    },
+    {
+      "name": "is_parent",
+      "type": "SMALLINT",
+      "nullable": false
+    },
+    {
+      "name": "store_id",
+      "type": "SMALLINT",
+      "nullable": false
+    },
+    {
+      "name": "visibility",
+      "type": "SMALLINT",
+      "nullable": false
+    }
+  ],
+  "sample_rows": [],
+  "execution": {
+    "status": "success",
+    "seconds": 0.01,
+    "processed_at": "2026-09-13T18:56:13.017123",
+    "attempt": 1
+  }
+}

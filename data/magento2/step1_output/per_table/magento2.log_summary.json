@@ -1,0 +1,48 @@
+{
+  "schema": "magento2",
+  "table_name": "log_summary",
+  "row_count": 0,
+  "primary_key": [
+    "summary_id"
+  ],
+  "foreign_keys": [],
+  "columns": [
+    {
+      "name": "summary_id",
+      "type": "BIGINT",
+      "nullable": false
+    },
+    {
+      "name": "store_id",
+      "type": "SMALLINT",
+      "nullable": false
+    },
+    {
+      "name": "type_id",
+      "type": "SMALLINT",
+      "nullable": true
+    },
+    {
+      "name": "visitor_count",
+      "type": "INTEGER",
+      "nullable": false
+    },
+    {
+      "name": "customer_count",
+      "type": "INTEGER",
+      "nullable": false
+    },
+    {
+      "name": "add_date",
+      "type": "TIMESTAMP",
+      "nullable": false
+    }
+  ],
+  "sample_rows": [],
+  "execution": {
+    "status": "success",
+    "seconds": 0.0,
+    "processed_at": "2026-09-13T18:56:32.044504",
+    "attempt": 1
+  }
+}

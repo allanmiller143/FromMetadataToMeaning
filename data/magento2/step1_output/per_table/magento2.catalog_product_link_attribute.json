@@ -1,0 +1,149 @@
+{
+  "schema": "magento2",
+  "table_name": "catalog_product_link_attribute",
+  "row_count": 7,
+  "primary_key": [
+    "product_link_attribute_id"
+  ],
+  "foreign_keys": [
+    {
+      "name": "catalog_product_link_attribute_ibfk_1",
+      "constrained_columns": [
+        "link_type_id"
+      ],
+      "referred_schema": "magento2",
+      "referred_table": "catalog_product_link_type",
+      "referred_columns": [
+        "link_type_id"
+      ],
+      "options": {
+        "onupdate": "CASCADE",
+        "ondelete": "CASCADE"
+      }
+    }
+  ],
+  "columns": [
+    {
+      "name": "product_link_attribute_id",
+      "type": "SMALLINT",
+      "nullable": false,
+      "stats": {
+        "null_count": 0,
+        "distinct_count": 7,
+        "null_percentage": 0.0,
+        "numeric_stats": {
+          "avg": 4.4286,
+          "min": 1.0,
+          "max": 8.0,
+          "stddev": 2.4411439272335804
+        },
+        "sample_values": [
+          "2",
+          "6",
+          "1",
+          "7",
+          "8",
+          "3",
+          "4"
+        ]
+      }
+    },
+    {
+      "name": "link_type_id",
+      "type": "SMALLINT",
+      "nullable": false,
+      "stats": {
+        "null_count": 0,
+        "distinct_count": 5,
+        "null_percentage": 0.0,
+        "numeric_stats": {
+          "avg": 2.7143,
+          "min": 1.0,
+          "max": 5.0,
+          "stddev": 1.3850513878332367
+        },
+        "sample_values": [
+          "1",
+          "2",
+          "3",
+          "4",
+          "5"
+        ]
+      }
+    },
+    {
+      "name": "product_link_attribute_code",
+      "type": "VARCHAR(32)",
+      "nullable": true,
+      "stats": {
+        "null_count": 0,
+        "distinct_count": 2,
+        "null_percentage": 0.0,
+        "frequent_values": [
+          {
+            "value": "position",
+            "count": 4
+          },
+          {
+            "value": "qty",
+            "count": 3
+          }
+        ],
+        "sample_values": [
+          "qty",
+          "position"
+        ]
+      }
+    },
+    {
+      "name": "data_type",
+      "type": "VARCHAR(32)",
+      "nullable": true,
+      "stats": {
+        "null_count": 0,
+        "distinct_count": 2,
+        "null_percentage": 0.0,
+        "frequent_values": [
+          {
+            "value": "int",
+            "count": 4
+          },
+          {
+            "value": "decimal",
+            "count": 3
+          }
+        ],
+        "sample_values": [
+          "decimal",
+          "int"
+        ]
+      }
+    }
+  ],
+  "sample_rows": [
+    {
+      "product_link_attribute_id": 1,
+      "link_type_id": 2,
+      "product_link_attribute_code": "qty",
+      "data_type": "decimal"
+    },
+    {
+      "product_link_attribute_id": 2,
+      "link_type_id": 1,
+      "product_link_attribute_code": "position",
+      "data_type": "int"
+    },
+    {
+      "product_link_attribute_id": 3,
+      "link_type_id": 4,
+      "product_link_attribute_code": "position",
+      "data_type": "int"
+    }
+  ],
+  "execution": {
+    "status": "success",
+    "seconds": 0.03,
+    "processed_at": "2026-09-13T18:56:17.541639",
+    "attempt": 1
+  }
+}

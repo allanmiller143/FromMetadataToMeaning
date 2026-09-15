@@ -1,0 +1,344 @@
+{
+  "schema": "magento2",
+  "table_name": "sales_quote_item",
+  "row_count": 0,
+  "primary_key": [
+    "item_id"
+  ],
+  "foreign_keys": [
+    {
+      "name": "sales_quote_item_ibfk_1",
+      "constrained_columns": [
+        "parent_item_id"
+      ],
+      "referred_schema": "magento2",
+      "referred_table": "sales_quote_item",
+      "referred_columns": [
+        "item_id"
+      ],
+      "options": {
+        "onupdate": "CASCADE",
+        "ondelete": "CASCADE"
+      }
+    },
+    {
+      "name": "sales_quote_item_ibfk_2",
+      "constrained_columns": [
+        "product_id"
+      ],
+      "referred_schema": "magento2",
+      "referred_table": "catalog_product_entity",
+      "referred_columns": [
+        "entity_id"
+      ],
+      "options": {
+        "onupdate": "CASCADE",
+        "ondelete": "CASCADE"
+      }
+    },
+    {
+      "name": "sales_quote_item_ibfk_3",
+      "constrained_columns": [
+        "quote_id"
+      ],
+      "referred_schema": "magento2",
+      "referred_table": "sales_quote",
+      "referred_columns": [
+        "entity_id"
+      ],
+      "options": {
+        "onupdate": "CASCADE",
+        "ondelete": "CASCADE"
+      }
+    },
+    {
+      "name": "sales_quote_item_ibfk_4",
+      "constrained_columns": [
+        "store_id"
+      ],
+      "referred_schema": "magento2",
+      "referred_table": "store",
+      "referred_columns": [
+        "store_id"
+      ],
+      "options": {
+        "onupdate": "CASCADE",
+        "ondelete": "SET NULL"
+      }
+    }
+  ],
+  "columns": [
+    {
+      "name": "item_id",
+      "type": "INTEGER",
+      "nullable": false
+    },
+    {
+      "name": "quote_id",
+      "type": "INTEGER",
+      "nullable": false
+    },
+    {
+      "name": "created_at",
+      "type": "TIMESTAMP",
+      "nullable": false
+    },
+    {
+      "name": "updated_at",
+      "type": "TIMESTAMP",
+      "nullable": false
+    },
+    {
+      "name": "product_id",
+      "type": "INTEGER",
+      "nullable": true
+    },
+    {
+      "name": "store_id",
+      "type": "SMALLINT",
+      "nullable": true
+    },
+    {
+      "name": "parent_item_id",
+      "type": "INTEGER",
+      "nullable": true
+    },
+    {
+      "name": "is_virtual",
+      "type": "SMALLINT",
+      "nullable": true
+    },
+    {
+      "name": "sku",
+      "type": "VARCHAR(255)",
+      "nullable": true
+    },
+    {
+      "name": "name",
+      "type": "VARCHAR(255)",
+      "nullable": true
+    },
+    {
+      "name": "description",
+      "type": "TEXT",
+      "nullable": true
+    },
+    {
+      "name": "applied_rule_ids",
+      "type": "TEXT",
+      "nullable": true
+    },
+    {
+      "name": "additional_data",
+      "type": "TEXT",
+      "nullable": true
+    },
+    {
+      "name": "is_qty_decimal",
+      "type": "SMALLINT",
+      "nullable": true
+    },
+    {
+      "name": "no_discount",
+      "type": "SMALLINT",
+      "nullable": true
+    },
+    {
+      "name": "weight",
+      "type": "DECIMAL(12, 4)",
+      "nullable": true
+    },
+    {
+      "name": "qty",
+      "type": "DECIMAL(12, 4)",
+      "nullable": false
+    },
+    {
+      "name": "price",
+      "type": "DECIMAL(12, 4)",
+      "nullable": false
+    },
+    {
+      "name": "base_price",
+      "type": "DECIMAL(12, 4)",
+      "nullable": false
+    },
+    {
+      "name": "custom_price",
+      "type": "DECIMAL(12, 4)",
+      "nullable": true
+    },
+    {
+      "name": "discount_percent",
+      "type": "DECIMAL(12, 4)",
+      "nullable": true
+    },
+    {
+      "name": "discount_amount",
+      "type": "DECIMAL(12, 4)",
+      "nullable": true
+    },
+    {
+      "name": "base_discount_amount",
+      "type": "DECIMAL(12, 4)",
+      "nullable": true
+    },
+    {
+      "name": "tax_percent",
+      "type": "DECIMAL(12, 4)",
+      "nullable": true
+    },
+    {
+      "name": "tax_amount",
+      "type": "DECIMAL(12, 4)",
+      "nullable": true
+    },
+    {
+      "name": "base_tax_amount",
+      "type": "DECIMAL(12, 4)",
+      "nullable": true
+    },
+    {
+      "name": "row_total",
+      "type": "DECIMAL(12, 4)",
+      "nullable": false
+    },
+    {
+      "name": "base_row_total",
+      "type": "DECIMAL(12, 4)",
+      "nullable": false
+    },
+    {
+      "name": "row_total_with_discount",
+      "type": "DECIMAL(12, 4)",
+      "nullable": true
+    },
+    {
+      "name": "row_weight",
+      "type": "DECIMAL(12, 4)",
+      "nullable": true
+    },
+    {
+      "name": "product_type",
+      "type": "VARCHAR(255)",
+      "nullable": true
+    },
+    {
+      "name": "base_tax_before_discount",
+      "type": "DECIMAL(12, 4)",
+      "nullable": true
+    },
+    {
+      "name": "tax_before_discount",
+      "type": "DECIMAL(12, 4)",
+      "nullable": true
+    },
+    {
+      "name": "original_custom_price",
+      "type": "DECIMAL(12, 4)",
+      "nullable": true
+    },
+    {
+      "name": "redirect_url",
+      "type": "VARCHAR(255)",
+      "nullable": true
+    },
+    {
+      "name": "base_cost",
+      "type": "DECIMAL(12, 4)",
+      "nullable": true
+    },
+    {
+      "name": "price_incl_tax",
+      "type": "DECIMAL(12, 4)",
+      "nullable": true
+    },
+    {
+      "name": "base_price_incl_tax",
+      "type": "DECIMAL(12, 4)",
+      "nullable": true
+    },
+    {
+      "name": "row_total_incl_tax",
+      "type": "DECIMAL(12, 4)",
+      "nullable": true
+    },
+    {
+      "name": "base_row_total_incl_tax",
+      "type": "DECIMAL(12, 4)",
+      "nullable": true
+    },
+    {
+      "name": "hidden_tax_amount",
+      "type": "DECIMAL(12, 4)",
+      "nullable": true
+    },
+    {
+      "name": "base_hidden_tax_amount",
+      "type": "DECIMAL(12, 4)",
+      "nullable": true
+    },
+    {
+      "name": "free_shipping",
+      "type": "SMALLINT",
+      "nullable": true
+    },
+    {
+      "name": "gift_message_id",
+      "type": "INTEGER",
+      "nullable": true
+    },
+    {
+      "name": "weee_tax_applied",
+      "type": "TEXT",
+      "nullable": true
+    },
+    {
+      "name": "weee_tax_applied_amount",
+      "type": "DECIMAL(12, 4)",
+      "nullable": true
+    },
+    {
+      "name": "weee_tax_applied_row_amount",
+      "type": "DECIMAL(12, 4)",
+      "nullable": true
+    },
+    {
+      "name": "weee_tax_disposition",
+      "type": "DECIMAL(12, 4)",
+      "nullable": true
+    },
+    {
+      "name": "weee_tax_row_disposition",
+      "type": "DECIMAL(12, 4)",
+      "nullable": true
+    },
+    {
+      "name": "base_weee_tax_applied_amount",
+      "type": "DECIMAL(12, 4)",
+      "nullable": true
+    },
+    {
+      "name": "base_weee_tax_applied_row_amnt",
+      "type": "DECIMAL(12, 4)",
+      "nullable": true
+    },
+    {
+      "name": "base_weee_tax_disposition",
+      "type": "DECIMAL(12, 4)",
+      "nullable": true
+    },
+    {
+      "name": "base_weee_tax_row_disposition",
+      "type": "DECIMAL(12, 4)",
+      "nullable": true
+    }
+  ],
+  "sample_rows": [],
+  "execution": {
+    "status": "success",
+    "seconds": 0.02,
+    "processed_at": "2026-09-13T18:56:43.709053",
+    "attempt": 1
+  }
+}

@@ -1,0 +1,143 @@
+{
+  "schema": "magento2",
+  "table_name": "store_group",
+  "row_count": 2,
+  "primary_key": [
+    "group_id"
+  ],
+  "foreign_keys": [
+    {
+      "name": "FK_STORE_GROUP_WEBSITE_ID_STORE_WEBSITE_WEBSITE_ID",
+      "constrained_columns": [
+        "website_id"
+      ],
+      "referred_schema": "magento2",
+      "referred_table": "store_website",
+      "referred_columns": [
+        "website_id"
+      ],
+      "options": {
+        "onupdate": "CASCADE",
+        "ondelete": "CASCADE"
+      }
+    }
+  ],
+  "columns": [
+    {
+      "name": "group_id",
+      "type": "SMALLINT",
+      "nullable": false,
+      "stats": {
+        "null_count": 0,
+        "distinct_count": 2,
+        "null_percentage": 0.0,
+        "numeric_stats": {
+          "avg": 0.5,
+          "min": 0.0,
+          "max": 1.0,
+          "stddev": 0.5
+        },
+        "sample_values": [
+          "0",
+          "1"
+        ]
+      }
+    },
+    {
+      "name": "website_id",
+      "type": "SMALLINT",
+      "nullable": false,
+      "stats": {
+        "null_count": 0,
+        "distinct_count": 2,
+        "null_percentage": 0.0,
+        "numeric_stats": {
+          "avg": 0.5,
+          "min": 0.0,
+          "max": 1.0,
+          "stddev": 0.5
+        },
+        "sample_values": [
+          "0",
+          "1"
+        ]
+      }
+    },
+    {
+      "name": "name",
+      "type": "VARCHAR(255)",
+      "nullable": false,
+      "stats": {
+        "null_count": 0,
+        "distinct_count": 2,
+        "null_percentage": 0.0,
+        "sample_values": [
+          "Default",
+          "Main Store"
+        ]
+      }
+    },
+    {
+      "name": "root_category_id",
+      "type": "INTEGER",
+      "nullable": false,
+      "stats": {
+        "null_count": 0,
+        "distinct_count": 2,
+        "null_percentage": 0.0,
+        "numeric_stats": {
+          "avg": 1.5,
+          "min": 0.0,
+          "max": 3.0,
+          "stddev": 1.5
+        },
+        "sample_values": [
+          "0",
+          "3"
+        ]
+      }
+    },
+    {
+      "name": "default_store_id",
+      "type": "SMALLINT",
+      "nullable": false,
+      "stats": {
+        "null_count": 0,
+        "distinct_count": 2,
+        "null_percentage": 0.0,
+        "numeric_stats": {
+          "avg": 0.5,
+          "min": 0.0,
+          "max": 1.0,
+          "stddev": 0.5
+        },
+        "sample_values": [
+          "0",
+          "1"
+        ]
+      }
+    }
+  ],
+  "sample_rows": [
+    {
+      "group_id": 0,
+      "website_id": 0,
+      "name": "Default",
+      "root_category_id": 0,
+      "default_store_id": 0
+    },
+    {
+      "group_id": 1,
+      "website_id": 1,
+      "name": "Main Store",
+      "root_category_id": 3,
+      "default_store_id": 1
+    }
+  ],
+  "execution": {
+    "status": "success",
+    "seconds": 0.02,
+    "processed_at": "2026-09-13T18:56:48.840380",
+    "attempt": 1
+  }
+}

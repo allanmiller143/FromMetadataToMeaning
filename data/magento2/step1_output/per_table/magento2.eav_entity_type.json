@@ -1,0 +1,415 @@
+{
+  "schema": "magento2",
+  "table_name": "eav_entity_type",
+  "row_count": 8,
+  "primary_key": [
+    "entity_type_id"
+  ],
+  "foreign_keys": [],
+  "columns": [
+    {
+      "name": "entity_type_id",
+      "type": "SMALLINT",
+      "nullable": false,
+      "stats": {
+        "null_count": 0,
+        "distinct_count": 8,
+        "null_percentage": 0.0,
+        "numeric_stats": {
+          "avg": 12.0,
+          "min": 1.0,
+          "max": 28.0,
+          "stddev": 9.578622030334008
+        },
+        "sample_values": [
+          "9",
+          "10",
+          "28",
+          "1",
+          "2",
+          "18",
+          "4",
+          "24"
+        ]
+      }
+    },
+    {
+      "name": "entity_type_code",
+      "type": "VARCHAR(50)",
+      "nullable": false,
+      "stats": {
+        "null_count": 0,
+        "distinct_count": 8,
+        "null_percentage": 0.0,
+        "sample_values": [
+          "catalog_category",
+          "catalog_product",
+          "creditmemo",
+          "customer",
+          "customer_address",
+          "invoice",
+          "order",
+          "shipment"
+        ]
+      }
+    },
+    {
+      "name": "entity_model",
+      "type": "VARCHAR(255)",
+      "nullable": false,
+      "stats": {
+        "null_count": 0,
+        "distinct_count": 8,
+        "null_percentage": 0.0,
+        "sample_values": [
+          "Magento\\Customer\\Model\\Resource\\Customer",
+          "Magento\\Customer\\Model\\Resource\\Address",
+          "Magento\\Sales\\Model\\Resource\\Order",
+          "Magento\\Catalog\\Model\\Resource\\Category",
+          "Magento\\Catalog\\Model\\Resource\\Product",
+          "Magento\\Sales\\Model\\Resource\\Order\\Invoice",
+          "Magento\\Sales\\Model\\Resource\\Order\\Shipment",
+          "Magento\\Sales\\Model\\Resource\\Order\\Creditmemo"
+        ]
+      }
+    },
+    {
+      "name": "attribute_model",
+      "type": "VARCHAR(255)",
+      "nullable": true,
+      "stats": {
+        "null_count": 4,
+        "distinct_count": 2,
+        "null_percentage": 50.0,
+        "frequent_values": [
+          {
+            "value": "Magento\\Customer\\Model\\Attribute",
+            "count": 2
+          },
+          {
+            "value": "Magento\\Catalog\\Model\\Resource\\Eav\\Attribute",
+            "count": 2
+          }
+        ],
+        "sample_values": [
+          "Magento\\Customer\\Model\\Attribute",
+          "Magento\\Catalog\\Model\\Resource\\Eav\\Attribute"
+        ]
+      }
+    },
+    {
+      "name": "entity_table",
+      "type": "VARCHAR(255)",
+      "nullable": true,
+      "stats": {
+        "null_count": 0,
+        "distinct_count": 8,
+        "null_percentage": 0.0,
+        "sample_values": [
+          "customer_entity",
+          "customer_address_entity",
+          "sales_order",
+          "catalog_category_entity",
+          "catalog_product_entity",
+          "sales_invoice",
+          "sales_shipment",
+          "sales_creditmemo"
+        ]
+      }
+    },
+    {
+      "name": "value_table_prefix",
+      "type": "VARCHAR(255)",
+      "nullable": true,
+      "stats": {
+        "null_count": 8,
+        "distinct_count": 0,
+        "null_percentage": 100.0,
+        "frequent_values": [],
+        "sample_values": []
+      }
+    },
+    {
+      "name": "entity_id_field",
+      "type": "VARCHAR(255)",
+      "nullable": true,
+      "stats": {
+        "null_count": 8,
+        "distinct_count": 0,
+        "null_percentage": 100.0,
+        "frequent_values": [],
+        "sample_values": []
+      }
+    },
+    {
+      "name": "is_data_sharing",
+      "type": "SMALLINT",
+      "nullable": false,
+      "stats": {
+        "null_count": 0,
+        "distinct_count": 2,
+        "null_percentage": 0.0,
+        "numeric_stats": {
+          "avg": 0.75,
+          "min": 0.0,
+          "max": 1.0,
+          "stddev": 0.4330127018922193
+        },
+        "frequent_values": [
+          {
+            "value": "1",
+            "count": 6
+          },
+          {
+            "value": "0",
+            "count": 2
+          }
+        ],
+        "sample_values": [
+          "1",
+          "0"
+        ]
+      }
+    },
+    {
+      "name": "data_sharing_key",
+      "type": "VARCHAR(100)",
+      "nullable": true,
+      "stats": {
+        "null_count": 0,
+        "distinct_count": 1,
+        "null_percentage": 0.0,
+        "frequent_values": [
+          {
+            "value": "default",
+            "count": 8
+          }
+        ],
+        "sample_values": [
+          "default"
+        ]
+      }
+    },
+    {
+      "name": "default_attribute_set_id",
+      "type": "SMALLINT",
+      "nullable": false,
+      "stats": {
+        "null_count": 0,
+        "distinct_count": 8,
+        "null_percentage": 0.0,
+        "numeric_stats": {
+          "avg": 22.25,
+          "min": 1.0,
+          "max": 55.0,
+          "stddev": 19.746835189467703
+        },
+        "sample_values": [
+          "1",
+          "2",
+          "18",
+          "12",
+          "9",
+          "30",
+          "51",
+          "55"
+        ]
+      }
+    },
+    {
+      "name": "increment_model",
+      "type": "VARCHAR(255)",
+      "nullable": true,
+      "stats": {
+        "null_count": 3,
+        "distinct_count": 1,
+        "null_percentage": 37.5,
+        "frequent_values": [
+          {
+            "value": "Magento\\Eav\\Model\\Entity\\Increment\\Numeric",
+            "count": 5
+          }
+        ],
+        "sample_values": [
+          "Magento\\Eav\\Model\\Entity\\Increment\\Numeric"
+        ]
+      }
+    },
+    {
+      "name": "increment_per_store",
+      "type": "SMALLINT",
+      "nullable": false,
+      "stats": {
+        "null_count": 0,
+        "distinct_count": 2,
+        "null_percentage": 0.0,
+        "numeric_stats": {
+          "avg": 0.5,
+          "min": 0.0,
+          "max": 1.0,
+          "stddev": 0.5
+        },
+        "frequent_values": [
+          {
+            "value": "0",
+            "count": 4
+          },
+          {
+            "value": "1",
+            "count": 4
+          }
+        ],
+        "sample_values": [
+          "0",
+          "1"
+        ]
+      }
+    },
+    {
+      "name": "increment_pad_length",
+      "type": "SMALLINT",
+      "nullable": false,
+      "stats": {
+        "null_count": 0,
+        "distinct_count": 1,
+        "null_percentage": 0.0,
+        "numeric_stats": {
+          "avg": 8.0,
+          "min": 8.0,
+          "max": 8.0,
+          "stddev": 0.0
+        },
+        "frequent_values": [
+          {
+            "value": "8",
+            "count": 8
+          }
+        ],
+        "sample_values": [
+          "8"
+        ]
+      }
+    },
+    {
+      "name": "increment_pad_char",
+      "type": "VARCHAR(1)",
+      "nullable": false,
+      "stats": {
+        "null_count": 0,
+        "distinct_count": 1,
+        "null_percentage": 0.0,
+        "frequent_values": [
+          {
+            "value": "0",
+            "count": 8
+          }
+        ],
+        "sample_values": [
+          "0"
+        ]
+      }
+    },
+    {
+      "name": "additional_attribute_table",
+      "type": "VARCHAR(255)",
+      "nullable": true,
+      "stats": {
+        "null_count": 4,
+        "distinct_count": 2,
+        "null_percentage": 50.0,
+        "frequent_values": [
+          {
+            "value": "customer_eav_attribute",
+            "count": 2
+          },
+          {
+            "value": "catalog_eav_attribute",
+            "count": 2
+          }
+        ],
+        "sample_values": [
+          "customer_eav_attribute",
+          "catalog_eav_attribute"
+        ]
+      }
+    },
+    {
+      "name": "entity_attribute_collection",
+      "type": "VARCHAR(255)",
+      "nullable": true,
+      "stats": {
+        "null_count": 4,
+        "distinct_count": 4,
+        "null_percentage": 50.0,
+        "sample_values": [
+          "Magento\\Customer\\Model\\Resource\\Attribute\\Collection",
+          "Magento\\Customer\\Model\\Resource\\Address\\Attribute\\Collection",
+          "Magento\\Catalog\\Model\\Resource\\Category\\Attribute\\Collection",
+          "Magento\\Catalog\\Model\\Resource\\Product\\Attribute\\Collection"
+        ]
+      }
+    }
+  ],
+  "sample_rows": [
+    {
+      "entity_type_id": 1,
+      "entity_type_code": "customer",
+      "entity_model": "Magento\\Customer\\Model\\Resource\\Customer",
+      "attribute_model": "Magento\\Customer\\Model\\Attribute",
+      "entity_table": "customer_entity",
+      "value_table_prefix": null,
+      "entity_id_field": null,
+      "is_data_sharing": 1,
+      "data_sharing_key": "default",
+      "default_attribute_set_id": 1,
+      "increment_model": "Magento\\Eav\\Model\\Entity\\Increment\\Numeric",
+      "increment_per_store": 0,
+      "increment_pad_length": 8,
+      "increment_pad_char": "0",
+      "additional_attribute_table": "customer_eav_attribute",
+      "entity_attribute_collection": "Magento\\Customer\\Model\\Resource\\Attribute\\Collection"
+    },
+    {
+      "entity_type_id": 2,
+      "entity_type_code": "customer_address",
+      "entity_model": "Magento\\Customer\\Model\\Resource\\Address",
+      "attribute_model": "Magento\\Customer\\Model\\Attribute",
+      "entity_table": "customer_address_entity",
+      "value_table_prefix": null,
+      "entity_id_field": null,
+      "is_data_sharing": 1,
+      "data_sharing_key": "default",
+      "default_attribute_set_id": 2,
+      "increment_model": null,
+      "increment_per_store": 0,
+      "increment_pad_length": 8,
+      "increment_pad_char": "0",
+      "additional_attribute_table": "customer_eav_attribute",
+      "entity_attribute_collection": "Magento\\Customer\\Model\\Resource\\Address\\Attribute\\Collection"
+    },
+    {
+      "entity_type_id": 4,
+      "entity_type_code": "order",
+      "entity_model": "Magento\\Sales\\Model\\Resource\\Order",
+      "attribute_model": null,
+      "entity_table": "sales_order",
+      "value_table_prefix": null,
+      "entity_id_field": null,
+      "is_data_sharing": 1,
+      "data_sharing_key": "default",
+      "default_attribute_set_id": 18,
+      "increment_model": "Magento\\Eav\\Model\\Entity\\Increment\\Numeric",
+      "increment_per_store": 1,
+      "increment_pad_length": 8,
+      "increment_pad_char": "0",
+      "additional_attribute_table": null,
+      "entity_attribute_collection": null
+    }
+  ],
+  "execution": {
+    "status": "success",
+    "seconds": 0.04,
+    "processed_at": "2026-09-13T18:56:29.523431",
+    "attempt": 1
+  }
+}

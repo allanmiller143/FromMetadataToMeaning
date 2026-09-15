@@ -1,0 +1,129 @@
+{
+  "schema": "magento2",
+  "table_name": "sales_quote_payment",
+  "row_count": 0,
+  "primary_key": [
+    "payment_id"
+  ],
+  "foreign_keys": [
+    {
+      "name": "sales_quote_payment_ibfk_1",
+      "constrained_columns": [
+        "quote_id"
+      ],
+      "referred_schema": "magento2",
+      "referred_table": "sales_quote",
+      "referred_columns": [
+        "entity_id"
+      ],
+      "options": {
+        "onupdate": "CASCADE",
+        "ondelete": "CASCADE"
+      }
+    }
+  ],
+  "columns": [
+    {
+      "name": "payment_id",
+      "type": "INTEGER",
+      "nullable": false
+    },
+    {
+      "name": "quote_id",
+      "type": "INTEGER",
+      "nullable": false
+    },
+    {
+      "name": "created_at",
+      "type": "TIMESTAMP",
+      "nullable": false
+    },
+    {
+      "name": "updated_at",
+      "type": "TIMESTAMP",
+      "nullable": false
+    },
+    {
+      "name": "method",
+      "type": "VARCHAR(255)",
+      "nullable": true
+    },
+    {
+      "name": "cc_type",
+      "type": "VARCHAR(255)",
+      "nullable": true
+    },
+    {
+      "name": "cc_number_enc",
+      "type": "VARCHAR(255)",
+      "nullable": true
+    },
+    {
+      "name": "cc_last_4",
+      "type": "VARCHAR(255)",
+      "nullable": true
+    },
+    {
+      "name": "cc_cid_enc",
+      "type": "VARCHAR(255)",
+      "nullable": true
+    },
+    {
+      "name": "cc_owner",
+      "type": "VARCHAR(255)",
+      "nullable": true
+    },
+    {
+      "name": "cc_exp_month",
+      "type": "VARCHAR(255)",
+      "nullable": true
+    },
+    {
+      "name": "cc_exp_year",
+      "type": "SMALLINT",
+      "nullable": true
+    },
+    {
+      "name": "cc_ss_owner",
+      "type": "VARCHAR(255)",
+      "nullable": true
+    },
+    {
+      "name": "cc_ss_start_month",
+      "type": "SMALLINT",
+      "nullable": true
+    },
+    {
+      "name": "cc_ss_start_year",
+      "type": "SMALLINT",
+      "nullable": true
+    },
+    {
+      "name": "po_number",
+      "type": "VARCHAR(255)",
+      "nullable": true
+    },
+    {
+      "name": "additional_data",
+      "type": "TEXT",
+      "nullable": true
+    },
+    {
+      "name": "cc_ss_issue",
+      "type": "VARCHAR(255)",
+      "nullable": true
+    },
+    {
+      "name": "additional_information",
+      "type": "TEXT",
+      "nullable": true
+    }
+  ],
+  "sample_rows": [],
+  "execution": {
+    "status": "success",
+    "seconds": 0.01,
+    "processed_at": "2026-09-13T18:56:44.063918",
+    "attempt": 1
+  }
+}

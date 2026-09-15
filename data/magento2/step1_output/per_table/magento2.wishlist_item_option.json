@@ -1,0 +1,59 @@
+{
+  "schema": "magento2",
+  "table_name": "wishlist_item_option",
+  "row_count": 0,
+  "primary_key": [
+    "option_id"
+  ],
+  "foreign_keys": [
+    {
+      "name": "FK_A014B30B04B72DD0EAB3EECD779728D6",
+      "constrained_columns": [
+        "wishlist_item_id"
+      ],
+      "referred_schema": "magento2",
+      "referred_table": "wishlist_item",
+      "referred_columns": [
+        "wishlist_item_id"
+      ],
+      "options": {
+        "onupdate": "CASCADE",
+        "ondelete": "CASCADE"
+      }
+    }
+  ],
+  "columns": [
+    {
+      "name": "option_id",
+      "type": "INTEGER",
+      "nullable": false
+    },
+    {
+      "name": "wishlist_item_id",
+      "type": "INTEGER",
+      "nullable": false
+    },
+    {
+      "name": "product_id",
+      "type": "INTEGER",
+      "nullable": false
+    },
+    {
+      "name": "code",
+      "type": "VARCHAR(255)",
+      "nullable": false
+    },
+    {
+      "name": "value",
+      "type": "TEXT",
+      "nullable": true
+    }
+  ],
+  "sample_rows": [],
+  "execution": {
+    "status": "success",
+    "seconds": 0.01,
+    "processed_at": "2026-09-13T18:56:52.585388",
+    "attempt": 1
+  }
+}

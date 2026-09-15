@@ -1,0 +1,69 @@
+{
+  "schema": "magento2",
+  "table_name": "core_theme_file",
+  "row_count": 0,
+  "primary_key": [
+    "theme_files_id"
+  ],
+  "foreign_keys": [
+    {
+      "name": "core_theme_file_ibfk_1",
+      "constrained_columns": [
+        "theme_id"
+      ],
+      "referred_schema": "magento2",
+      "referred_table": "core_theme",
+      "referred_columns": [
+        "theme_id"
+      ],
+      "options": {
+        "onupdate": "CASCADE",
+        "ondelete": "CASCADE"
+      }
+    }
+  ],
+  "columns": [
+    {
+      "name": "theme_files_id",
+      "type": "INTEGER",
+      "nullable": false
+    },
+    {
+      "name": "theme_id",
+      "type": "INTEGER",
+      "nullable": false
+    },
+    {
+      "name": "file_path",
+      "type": "VARCHAR(255)",
+      "nullable": true
+    },
+    {
+      "name": "file_type",
+      "type": "VARCHAR(32)",
+      "nullable": false
+    },
+    {
+      "name": "content",
+      "type": "LONGTEXT",
+      "nullable": false
+    },
+    {
+      "name": "sort_order",
+      "type": "SMALLINT",
+      "nullable": false
+    },
+    {
+      "name": "is_temporary",
+      "type": "TINYINT",
+      "nullable": false
+    }
+  ],
+  "sample_rows": [],
+  "execution": {
+    "status": "success",
+    "seconds": 0.01,
+    "processed_at": "2026-09-13T18:56:22.852362",
+    "attempt": 1
+  }
+}

@@ -1,0 +1,69 @@
+{
+  "schema": "magento2",
+  "table_name": "downloadable_link_title",
+  "row_count": 0,
+  "primary_key": [
+    "title_id"
+  ],
+  "foreign_keys": [
+    {
+      "name": "downloadable_link_title_ibfk_1",
+      "constrained_columns": [
+        "link_id"
+      ],
+      "referred_schema": "magento2",
+      "referred_table": "downloadable_link",
+      "referred_columns": [
+        "link_id"
+      ],
+      "options": {
+        "onupdate": "CASCADE",
+        "ondelete": "CASCADE"
+      }
+    },
+    {
+      "name": "downloadable_link_title_ibfk_2",
+      "constrained_columns": [
+        "store_id"
+      ],
+      "referred_schema": "magento2",
+      "referred_table": "store",
+      "referred_columns": [
+        "store_id"
+      ],
+      "options": {
+        "onupdate": "CASCADE",
+        "ondelete": "CASCADE"
+      }
+    }
+  ],
+  "columns": [
+    {
+      "name": "title_id",
+      "type": "INTEGER",
+      "nullable": false
+    },
+    {
+      "name": "link_id",
+      "type": "INTEGER",
+      "nullable": false
+    },
+    {
+      "name": "store_id",
+      "type": "SMALLINT",
+      "nullable": false
+    },
+    {
+      "name": "title",
+      "type": "VARCHAR(255)",
+      "nullable": true
+    }
+  ],
+  "sample_rows": [],
+  "execution": {
+    "status": "success",
+    "seconds": 0.01,
+    "processed_at": "2026-09-13T18:56:27.209864",
+    "attempt": 1
+  }
+}

@@ -1,0 +1,58 @@
+{
+  "schema": "magento2",
+  "table_name": "adminnotification_inbox",
+  "row_count": 0,
+  "primary_key": [
+    "notification_id"
+  ],
+  "foreign_keys": [],
+  "columns": [
+    {
+      "name": "notification_id",
+      "type": "INTEGER",
+      "nullable": false
+    },
+    {
+      "name": "severity",
+      "type": "SMALLINT",
+      "nullable": false
+    },
+    {
+      "name": "date_added",
+      "type": "TIMESTAMP",
+      "nullable": false
+    },
+    {
+      "name": "title",
+      "type": "VARCHAR(255)",
+      "nullable": false
+    },
+    {
+      "name": "description",
+      "type": "TEXT",
+      "nullable": true
+    },
+    {
+      "name": "url",
+      "type": "VARCHAR(255)",
+      "nullable": true
+    },
+    {
+      "name": "is_read",
+      "type": "SMALLINT",
+      "nullable": false
+    },
+    {
+      "name": "is_remove",
+      "type": "SMALLINT",
+      "nullable": false
+    }
+  ],
+  "sample_rows": [],
+  "execution": {
+    "status": "success",
+    "seconds": 0.0,
+    "processed_at": "2026-09-13T18:56:12.289286",
+    "attempt": 1
+  }
+}

@@ -1,0 +1,64 @@
+{
+  "schema": "magento2",
+  "table_name": "downloadable_sample",
+  "row_count": 0,
+  "primary_key": [
+    "sample_id"
+  ],
+  "foreign_keys": [
+    {
+      "name": "FK_DL_SAMPLE_PRD_ID_CAT_PRD_ENTT_ENTT_ID",
+      "constrained_columns": [
+        "product_id"
+      ],
+      "referred_schema": "magento2",
+      "referred_table": "catalog_product_entity",
+      "referred_columns": [
+        "entity_id"
+      ],
+      "options": {
+        "onupdate": "CASCADE",
+        "ondelete": "CASCADE"
+      }
+    }
+  ],
+  "columns": [
+    {
+      "name": "sample_id",
+      "type": "INTEGER",
+      "nullable": false
+    },
+    {
+      "name": "product_id",
+      "type": "INTEGER",
+      "nullable": false
+    },
+    {
+      "name": "sample_url",
+      "type": "VARCHAR(255)",
+      "nullable": true
+    },
+    {
+      "name": "sample_file",
+      "type": "VARCHAR(255)",
+      "nullable": true
+    },
+    {
+      "name": "sample_type",
+      "type": "VARCHAR(20)",
+      "nullable": true
+    },
+    {
+      "name": "sort_order",
+      "type": "INTEGER",
+      "nullable": false
+    }
+  ],
+  "sample_rows": [],
+  "execution": {
+    "status": "success",
+    "seconds": 0.01,
+    "processed_at": "2026-09-13T18:56:27.347270",
+    "attempt": 1
+  }
+}

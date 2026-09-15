@@ -1,0 +1,194 @@
+{
+  "schema": "magento2",
+  "table_name": "catalog_product_link_attribute_int",
+  "row_count": 52,
+  "primary_key": [
+    "value_id"
+  ],
+  "foreign_keys": [
+    {
+      "name": "catalog_product_link_attribute_int_ibfk_1",
+      "constrained_columns": [
+        "link_id"
+      ],
+      "referred_schema": "magento2",
+      "referred_table": "catalog_product_link",
+      "referred_columns": [
+        "link_id"
+      ],
+      "options": {
+        "onupdate": "CASCADE",
+        "ondelete": "CASCADE"
+      }
+    },
+    {
+      "name": "catalog_product_link_attribute_int_ibfk_2",
+      "constrained_columns": [
+        "product_link_attribute_id"
+      ],
+      "referred_schema": "magento2",
+      "referred_table": "catalog_product_link_attribute",
+      "referred_columns": [
+        "product_link_attribute_id"
+      ],
+      "options": {
+        "onupdate": "CASCADE",
+        "ondelete": "CASCADE"
+      }
+    }
+  ],
+  "columns": [
+    {
+      "name": "value_id",
+      "type": "INTEGER",
+      "nullable": false,
+      "stats": {
+        "null_count": 0,
+        "distinct_count": 52,
+        "null_percentage": 0.0,
+        "numeric_stats": {
+          "avg": 26.5,
+          "min": 1.0,
+          "max": 52.0,
+          "stddev": 15.008331019803634
+        },
+        "sample_values": [
+          "1",
+          "2",
+          "3",
+          "4",
+          "5",
+          "6",
+          "7",
+          "8",
+          "9",
+          "10",
+          "11",
+          "12",
+          "13",
+          "14",
+          "15"
+        ]
+      }
+    },
+    {
+      "name": "product_link_attribute_id",
+      "type": "SMALLINT",
+      "nullable": true,
+      "stats": {
+        "null_count": 0,
+        "distinct_count": 3,
+        "null_percentage": 0.0,
+        "numeric_stats": {
+          "avg": 3.2885,
+          "min": 2.0,
+          "max": 4.0,
+          "stddev": 0.6888267187912429
+        },
+        "frequent_values": [
+          {
+            "value": "3",
+            "count": 23
+          },
+          {
+            "value": "4",
+            "count": 22
+          },
+          {
+            "value": "2",
+            "count": 7
+          }
+        ],
+        "sample_values": [
+          "2",
+          "3",
+          "4"
+        ]
+      }
+    },
+    {
+      "name": "link_id",
+      "type": "INTEGER",
+      "nullable": false,
+      "stats": {
+        "null_count": 0,
+        "distinct_count": 52,
+        "null_percentage": 0.0,
+        "numeric_stats": {
+          "avg": 2684.3654,
+          "min": 2647.0,
+          "max": 2731.0,
+          "stddev": 27.119414594142807
+        },
+        "sample_values": [
+          "2647",
+          "2648",
+          "2649",
+          "2650",
+          "2651",
+          "2652",
+          "2653",
+          "2654",
+          "2655",
+          "2659",
+          "2660",
+          "2661",
+          "2662",
+          "2663",
+          "2664"
+        ]
+      }
+    },
+    {
+      "name": "value",
+      "type": "INTEGER",
+      "nullable": false,
+      "stats": {
+        "null_count": 0,
+        "distinct_count": 1,
+        "null_percentage": 0.0,
+        "numeric_stats": {
+          "avg": 0.0,
+          "min": 0.0,
+          "max": 0.0,
+          "stddev": 0.0
+        },
+        "frequent_values": [
+          {
+            "value": "0",
+            "count": 52
+          }
+        ],
+        "sample_values": [
+          "0"
+        ]
+      }
+    }
+  ],
+  "sample_rows": [
+    {
+      "value_id": 1,
+      "product_link_attribute_id": 2,
+      "link_id": 2647,
+      "value": 0
+    },
+    {
+      "value_id": 2,
+      "product_link_attribute_id": 2,
+      "link_id": 2648,
+      "value": 0
+    },
+    {
+      "value_id": 3,
+      "product_link_attribute_id": 2,
+      "link_id": 2649,
+      "value": 0
+    }
+  ],
+  "execution": {
+    "status": "success",
+    "seconds": 0.03,
+    "processed_at": "2026-09-13T18:56:17.812873",
+    "attempt": 1
+  }
+}

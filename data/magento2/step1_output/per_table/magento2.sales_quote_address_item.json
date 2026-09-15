@@ -1,0 +1,264 @@
+{
+  "schema": "magento2",
+  "table_name": "sales_quote_address_item",
+  "row_count": 0,
+  "primary_key": [
+    "address_item_id"
+  ],
+  "foreign_keys": [
+    {
+      "name": "sales_quote_address_item_ibfk_1",
+      "constrained_columns": [
+        "parent_item_id"
+      ],
+      "referred_schema": "magento2",
+      "referred_table": "sales_quote_address_item",
+      "referred_columns": [
+        "address_item_id"
+      ],
+      "options": {
+        "onupdate": "CASCADE",
+        "ondelete": "CASCADE"
+      }
+    },
+    {
+      "name": "sales_quote_address_item_ibfk_2",
+      "constrained_columns": [
+        "quote_address_id"
+      ],
+      "referred_schema": "magento2",
+      "referred_table": "sales_quote_address",
+      "referred_columns": [
+        "address_id"
+      ],
+      "options": {
+        "onupdate": "CASCADE",
+        "ondelete": "CASCADE"
+      }
+    },
+    {
+      "name": "sales_quote_address_item_ibfk_3",
+      "constrained_columns": [
+        "quote_item_id"
+      ],
+      "referred_schema": "magento2",
+      "referred_table": "sales_quote_item",
+      "referred_columns": [
+        "item_id"
+      ],
+      "options": {
+        "onupdate": "CASCADE",
+        "ondelete": "CASCADE"
+      }
+    }
+  ],
+  "columns": [
+    {
+      "name": "address_item_id",
+      "type": "INTEGER",
+      "nullable": false
+    },
+    {
+      "name": "parent_item_id",
+      "type": "INTEGER",
+      "nullable": true
+    },
+    {
+      "name": "quote_address_id",
+      "type": "INTEGER",
+      "nullable": false
+    },
+    {
+      "name": "quote_item_id",
+      "type": "INTEGER",
+      "nullable": false
+    },
+    {
+      "name": "created_at",
+      "type": "TIMESTAMP",
+      "nullable": false
+    },
+    {
+      "name": "updated_at",
+      "type": "TIMESTAMP",
+      "nullable": false
+    },
+    {
+      "name": "applied_rule_ids",
+      "type": "TEXT",
+      "nullable": true
+    },
+    {
+      "name": "additional_data",
+      "type": "TEXT",
+      "nullable": true
+    },
+    {
+      "name": "weight",
+      "type": "DECIMAL(12, 4)",
+      "nullable": true
+    },
+    {
+      "name": "qty",
+      "type": "DECIMAL(12, 4)",
+      "nullable": false
+    },
+    {
+      "name": "discount_amount",
+      "type": "DECIMAL(12, 4)",
+      "nullable": true
+    },
+    {
+      "name": "tax_amount",
+      "type": "DECIMAL(12, 4)",
+      "nullable": true
+    },
+    {
+      "name": "row_total",
+      "type": "DECIMAL(12, 4)",
+      "nullable": false
+    },
+    {
+      "name": "base_row_total",
+      "type": "DECIMAL(12, 4)",
+      "nullable": false
+    },
+    {
+      "name": "row_total_with_discount",
+      "type": "DECIMAL(12, 4)",
+      "nullable": true
+    },
+    {
+      "name": "base_discount_amount",
+      "type": "DECIMAL(12, 4)",
+      "nullable": true
+    },
+    {
+      "name": "base_tax_amount",
+      "type": "DECIMAL(12, 4)",
+      "nullable": true
+    },
+    {
+      "name": "row_weight",
+      "type": "DECIMAL(12, 4)",
+      "nullable": true
+    },
+    {
+      "name": "product_id",
+      "type": "INTEGER",
+      "nullable": true
+    },
+    {
+      "name": "super_product_id",
+      "type": "INTEGER",
+      "nullable": true
+    },
+    {
+      "name": "parent_product_id",
+      "type": "INTEGER",
+      "nullable": true
+    },
+    {
+      "name": "sku",
+      "type": "VARCHAR(255)",
+      "nullable": true
+    },
+    {
+      "name": "image",
+      "type": "VARCHAR(255)",
+      "nullable": true
+    },
+    {
+      "name": "name",
+      "type": "VARCHAR(255)",
+      "nullable": true
+    },
+    {
+      "name": "description",
+      "type": "TEXT",
+      "nullable": true
+    },
+    {
+      "name": "is_qty_decimal",
+      "type": "INTEGER",
+      "nullable": true
+    },
+    {
+      "name": "price",
+      "type": "DECIMAL(12, 4)",
+      "nullable": true
+    },
+    {
+      "name": "discount_percent",
+      "type": "DECIMAL(12, 4)",
+      "nullable": true
+    },
+    {
+      "name": "no_discount",
+      "type": "INTEGER",
+      "nullable": true
+    },
+    {
+      "name": "tax_percent",
+      "type": "DECIMAL(12, 4)",
+      "nullable": true
+    },
+    {
+      "name": "base_price",
+      "type": "DECIMAL(12, 4)",
+      "nullable": true
+    },
+    {
+      "name": "base_cost",
+      "type": "DECIMAL(12, 4)",
+      "nullable": true
+    },
+    {
+      "name": "price_incl_tax",
+      "type": "DECIMAL(12, 4)",
+      "nullable": true
+    },
+    {
+      "name": "base_price_incl_tax",
+      "type": "DECIMAL(12, 4)",
+      "nullable": true
+    },
+    {
+      "name": "row_total_incl_tax",
+      "type": "DECIMAL(12, 4)",
+      "nullable": true
+    },
+    {
+      "name": "base_row_total_incl_tax",
+      "type": "DECIMAL(12, 4)",
+      "nullable": true
+    },
+    {
+      "name": "hidden_tax_amount",
+      "type": "DECIMAL(12, 4)",
+      "nullable": true
+    },
+    {
+      "name": "base_hidden_tax_amount",
+      "type": "DECIMAL(12, 4)",
+      "nullable": true
+    },
+    {
+      "name": "free_shipping",
+      "type": "INTEGER",
+      "nullable": true
+    },
+    {
+      "name": "gift_message_id",
+      "type": "INTEGER",
+      "nullable": true
+    }
+  ],
+  "sample_rows": [],
+  "execution": {
+    "status": "success",
+    "seconds": 0.01,
+    "processed_at": "2026-09-13T18:56:43.516160",
+    "attempt": 1
+  }
+}

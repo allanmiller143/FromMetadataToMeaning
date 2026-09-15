@@ -1,0 +1,130 @@
+{
+  "schema": "magento2",
+  "table_name": "directory_country_region_name",
+  "row_count": 346,
+  "primary_key": [
+    "locale",
+    "region_id"
+  ],
+  "foreign_keys": [
+    {
+      "name": "directory_country_region_name_ibfk_1",
+      "constrained_columns": [
+        "region_id"
+      ],
+      "referred_schema": "magento2",
+      "referred_table": "directory_country_region",
+      "referred_columns": [
+        "region_id"
+      ],
+      "options": {
+        "onupdate": "CASCADE",
+        "ondelete": "CASCADE"
+      }
+    }
+  ],
+  "columns": [
+    {
+      "name": "locale",
+      "type": "VARCHAR(8)",
+      "nullable": false,
+      "stats": {
+        "null_count": 0,
+        "distinct_count": 1,
+        "null_percentage": 0.0,
+        "frequent_values": [
+          {
+            "value": "en_US",
+            "count": 346
+          }
+        ],
+        "sample_values": [
+          "en_US"
+        ]
+      }
+    },
+    {
+      "name": "region_id",
+      "type": "INTEGER",
+      "nullable": false,
+      "stats": {
+        "null_count": 0,
+        "distinct_count": 346,
+        "null_percentage": 0.0,
+        "numeric_stats": {
+          "avg": 186.3757,
+          "min": 1.0,
+          "max": 511.0,
+          "stddev": 126.65826258073044
+        },
+        "sample_values": [
+          "1",
+          "2",
+          "3",
+          "4",
+          "5",
+          "6",
+          "7",
+          "8",
+          "9",
+          "10",
+          "11",
+          "12",
+          "13",
+          "14",
+          "15"
+        ]
+      }
+    },
+    {
+      "name": "name",
+      "type": "VARCHAR(255)",
+      "nullable": true,
+      "stats": {
+        "null_count": 0,
+        "distinct_count": 345,
+        "null_percentage": 0.0,
+        "sample_values": [
+          "Alabama",
+          "Alaska",
+          "American Samoa",
+          "Arizona",
+          "Arkansas",
+          "Armed Forces Africa",
+          "Armed Forces Americas",
+          "Armed Forces Canada",
+          "Armed Forces Europe",
+          "Armed Forces Middle East",
+          "Armed Forces Pacific",
+          "California",
+          "Colorado",
+          "Connecticut",
+          "Delaware"
+        ]
+      }
+    }
+  ],
+  "sample_rows": [
+    {
+      "locale": "en_US",
+      "region_id": 1,
+      "name": "Alabama"
+    },
+    {
+      "locale": "en_US",
+      "region_id": 2,
+      "name": "Alaska"
+    },
+    {
+      "locale": "en_US",
+      "region_id": 3,
+      "name": "American Samoa"
+    }
+  ],
+  "execution": {
+    "status": "success",
+    "seconds": 0.02,
+    "processed_at": "2026-09-13T18:56:26.375311",
+    "attempt": 1
+  }
+}

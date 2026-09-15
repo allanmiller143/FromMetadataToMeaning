@@ -1,0 +1,209 @@
+{
+  "schema": "magento2",
+  "table_name": "report_viewed_product_index",
+  "row_count": 3,
+  "primary_key": [
+    "index_id"
+  ],
+  "foreign_keys": [
+    {
+      "name": "FK_REPORT_VIEWED_PRD_IDX_CSTR_ID_CSTR_ENTT_ENTT_ID",
+      "constrained_columns": [
+        "customer_id"
+      ],
+      "referred_schema": "magento2",
+      "referred_table": "customer_entity",
+      "referred_columns": [
+        "entity_id"
+      ],
+      "options": {
+        "onupdate": "CASCADE",
+        "ondelete": "CASCADE"
+      }
+    },
+    {
+      "name": "FK_REPORT_VIEWED_PRD_IDX_PRD_ID_CAT_PRD_ENTT_ENTT_ID",
+      "constrained_columns": [
+        "product_id"
+      ],
+      "referred_schema": "magento2",
+      "referred_table": "catalog_product_entity",
+      "referred_columns": [
+        "entity_id"
+      ],
+      "options": {
+        "onupdate": "CASCADE",
+        "ondelete": "CASCADE"
+      }
+    },
+    {
+      "name": "FK_REPORT_VIEWED_PRODUCT_INDEX_STORE_ID_STORE_STORE_ID",
+      "constrained_columns": [
+        "store_id"
+      ],
+      "referred_schema": "magento2",
+      "referred_table": "store",
+      "referred_columns": [
+        "store_id"
+      ],
+      "options": {
+        "onupdate": "CASCADE",
+        "ondelete": "SET NULL"
+      }
+    }
+  ],
+  "columns": [
+    {
+      "name": "index_id",
+      "type": "BIGINT",
+      "nullable": false,
+      "stats": {
+        "null_count": 0,
+        "distinct_count": 3,
+        "null_percentage": 0.0,
+        "numeric_stats": {
+          "avg": 5.3333,
+          "min": 1.0,
+          "max": 12.0,
+          "stddev": 4.784233364802441
+        },
+        "sample_values": [
+          "1",
+          "3",
+          "12"
+        ]
+      }
+    },
+    {
+      "name": "visitor_id",
+      "type": "INTEGER",
+      "nullable": true,
+      "stats": {
+        "null_count": 0,
+        "distinct_count": 2,
+        "null_percentage": 0.0,
+        "numeric_stats": {
+          "avg": 3.0,
+          "min": 2.0,
+          "max": 5.0,
+          "stddev": 1.4142135623730951
+        },
+        "sample_values": [
+          "2",
+          "5"
+        ]
+      }
+    },
+    {
+      "name": "customer_id",
+      "type": "INTEGER",
+      "nullable": true,
+      "stats": {
+        "null_count": 3,
+        "distinct_count": 0,
+        "null_percentage": 100.0,
+        "numeric_stats": {
+          "avg": null,
+          "min": null,
+          "max": null,
+          "stddev": null
+        },
+        "frequent_values": [],
+        "sample_values": []
+      }
+    },
+    {
+      "name": "product_id",
+      "type": "INTEGER",
+      "nullable": false,
+      "stats": {
+        "null_count": 0,
+        "distinct_count": 3,
+        "null_percentage": 0.0,
+        "numeric_stats": {
+          "avg": 67.6667,
+          "min": 27.0,
+          "max": 135.0,
+          "stddev": 47.953681355611856
+        },
+        "sample_values": [
+          "27",
+          "41",
+          "135"
+        ]
+      }
+    },
+    {
+      "name": "store_id",
+      "type": "SMALLINT",
+      "nullable": true,
+      "stats": {
+        "null_count": 0,
+        "distinct_count": 1,
+        "null_percentage": 0.0,
+        "numeric_stats": {
+          "avg": 1.0,
+          "min": 1.0,
+          "max": 1.0,
+          "stddev": 0.0
+        },
+        "frequent_values": [
+          {
+            "value": "1",
+            "count": 3
+          }
+        ],
+        "sample_values": [
+          "1"
+        ]
+      }
+    },
+    {
+      "name": "added_at",
+      "type": "TIMESTAMP",
+      "nullable": false,
+      "stats": {
+        "null_count": 0,
+        "distinct_count": 3,
+        "null_percentage": 0.0,
+        "sample_values": [
+          "2011-10-24 13:30:03",
+          "2011-10-24 13:30:30",
+          "2014-09-22 13:27:30"
+        ]
+      }
+    }
+  ],
+  "sample_rows": [
+    {
+      "index_id": 1,
+      "visitor_id": 2,
+      "customer_id": null,
+      "product_id": 27,
+      "store_id": 1,
+      "added_at": "2011-10-24 13:30:03"
+    },
+    {
+      "index_id": 3,
+      "visitor_id": 2,
+      "customer_id": null,
+      "product_id": 135,
+      "store_id": 1,
+      "added_at": "2011-10-24 13:30:30"
+    },
+    {
+      "index_id": 12,
+      "visitor_id": 5,
+      "customer_id": null,
+      "product_id": 41,
+      "store_id": 1,
+      "added_at": "2014-09-22 13:27:30"
+    }
+  ],
+  "execution": {
+    "status": "success",
+    "seconds": 0.12,
+    "processed_at": "2026-09-13T18:56:36.827987",
+    "attempt": 1
+  }
+}

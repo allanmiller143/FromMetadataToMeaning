@@ -1,0 +1,129 @@
+{
+  "schema": "magento2",
+  "table_name": "oauth_token",
+  "row_count": 0,
+  "primary_key": [
+    "entity_id"
+  ],
+  "foreign_keys": [
+    {
+      "name": "oauth_token_ibfk_1",
+      "constrained_columns": [
+        "admin_id"
+      ],
+      "referred_schema": "magento2",
+      "referred_table": "admin_user",
+      "referred_columns": [
+        "user_id"
+      ],
+      "options": {
+        "onupdate": "CASCADE",
+        "ondelete": "CASCADE"
+      }
+    },
+    {
+      "name": "oauth_token_ibfk_2",
+      "constrained_columns": [
+        "consumer_id"
+      ],
+      "referred_schema": "magento2",
+      "referred_table": "oauth_consumer",
+      "referred_columns": [
+        "entity_id"
+      ],
+      "options": {
+        "onupdate": "CASCADE",
+        "ondelete": "CASCADE"
+      }
+    },
+    {
+      "name": "oauth_token_ibfk_3",
+      "constrained_columns": [
+        "customer_id"
+      ],
+      "referred_schema": "magento2",
+      "referred_table": "customer_entity",
+      "referred_columns": [
+        "entity_id"
+      ],
+      "options": {
+        "onupdate": "CASCADE",
+        "ondelete": "CASCADE"
+      }
+    }
+  ],
+  "columns": [
+    {
+      "name": "entity_id",
+      "type": "INTEGER",
+      "nullable": false
+    },
+    {
+      "name": "consumer_id",
+      "type": "INTEGER",
+      "nullable": true
+    },
+    {
+      "name": "admin_id",
+      "type": "INTEGER",
+      "nullable": true
+    },
+    {
+      "name": "customer_id",
+      "type": "INTEGER",
+      "nullable": true
+    },
+    {
+      "name": "type",
+      "type": "VARCHAR(16)",
+      "nullable": false
+    },
+    {
+      "name": "token",
+      "type": "VARCHAR(32)",
+      "nullable": false
+    },
+    {
+      "name": "secret",
+      "type": "VARCHAR(32)",
+      "nullable": false
+    },
+    {
+      "name": "verifier",
+      "type": "VARCHAR(32)",
+      "nullable": true
+    },
+    {
+      "name": "callback_url",
+      "type": "VARCHAR(255)",
+      "nullable": false
+    },
+    {
+      "name": "revoked",
+      "type": "SMALLINT",
+      "nullable": false
+    },
+    {
+      "name": "authorized",
+      "type": "SMALLINT",
+      "nullable": false
+    },
+    {
+      "name": "user_type",
+      "type": "INTEGER",
+      "nullable": true
+    },
+    {
+      "name": "created_at",
+      "type": "TIMESTAMP",
+      "nullable": false
+    }
+  ],
+  "sample_rows": [],
+  "execution": {
+    "status": "success",
+    "seconds": 0.01,
+    "processed_at": "2026-09-13T18:56:34.069724",
+    "attempt": 1
+  }
+}

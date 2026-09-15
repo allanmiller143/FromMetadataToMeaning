@@ -1,0 +1,99 @@
+{
+  "schema": "magento2",
+  "table_name": "salesrule_coupon_aggregated",
+  "row_count": 0,
+  "primary_key": [
+    "id"
+  ],
+  "foreign_keys": [
+    {
+      "name": "salesrule_coupon_aggregated_ibfk_1",
+      "constrained_columns": [
+        "store_id"
+      ],
+      "referred_schema": "magento2",
+      "referred_table": "store",
+      "referred_columns": [
+        "store_id"
+      ],
+      "options": {
+        "onupdate": "CASCADE",
+        "ondelete": "CASCADE"
+      }
+    }
+  ],
+  "columns": [
+    {
+      "name": "id",
+      "type": "INTEGER",
+      "nullable": false
+    },
+    {
+      "name": "period",
+      "type": "DATE",
+      "nullable": false
+    },
+    {
+      "name": "store_id",
+      "type": "SMALLINT",
+      "nullable": true
+    },
+    {
+      "name": "order_status",
+      "type": "VARCHAR(50)",
+      "nullable": true
+    },
+    {
+      "name": "coupon_code",
+      "type": "VARCHAR(50)",
+      "nullable": true
+    },
+    {
+      "name": "coupon_uses",
+      "type": "INTEGER",
+      "nullable": false
+    },
+    {
+      "name": "subtotal_amount",
+      "type": "DECIMAL(12, 4)",
+      "nullable": false
+    },
+    {
+      "name": "discount_amount",
+      "type": "DECIMAL(12, 4)",
+      "nullable": false
+    },
+    {
+      "name": "total_amount",
+      "type": "DECIMAL(12, 4)",
+      "nullable": false
+    },
+    {
+      "name": "subtotal_amount_actual",
+      "type": "DECIMAL(12, 4)",
+      "nullable": false
+    },
+    {
+      "name": "discount_amount_actual",
+      "type": "DECIMAL(12, 4)",
+      "nullable": false
+    },
+    {
+      "name": "total_amount_actual",
+      "type": "DECIMAL(12, 4)",
+      "nullable": false
+    },
+    {
+      "name": "rule_name",
+      "type": "VARCHAR(255)",
+      "nullable": true
+    }
+  ],
+  "sample_rows": [],
+  "execution": {
+    "status": "success",
+    "seconds": 0.01,
+    "processed_at": "2026-09-13T18:56:46.097395",
+    "attempt": 1
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "schema": "magento2",
+  "table_name": "catalogrule_affected_product",
+  "row_count": 0,
+  "primary_key": [
+    "product_id"
+  ],
+  "foreign_keys": [],
+  "columns": [
+    {
+      "name": "product_id",
+      "type": "INTEGER",
+      "nullable": false
+    }
+  ],
+  "sample_rows": [],
+  "execution": {
+    "status": "success",
+    "seconds": 0.01,
+    "processed_at": "2026-09-13T18:56:20.263067",
+    "attempt": 1
+  }
+}

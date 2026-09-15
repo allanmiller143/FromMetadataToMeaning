@@ -1,0 +1,109 @@
+{
+  "schema": "magento2",
+  "table_name": "cms_block_store",
+  "row_count": 3,
+  "primary_key": [
+    "block_id",
+    "store_id"
+  ],
+  "foreign_keys": [
+    {
+      "name": "FK_CMS_BLOCK_STORE_BLOCK_ID_CMS_BLOCK_BLOCK_ID",
+      "constrained_columns": [
+        "block_id"
+      ],
+      "referred_schema": "magento2",
+      "referred_table": "cms_block",
+      "referred_columns": [
+        "block_id"
+      ],
+      "options": {
+        "onupdate": "CASCADE",
+        "ondelete": "CASCADE"
+      }
+    },
+    {
+      "name": "FK_CMS_BLOCK_STORE_STORE_ID_STORE_STORE_ID",
+      "constrained_columns": [
+        "store_id"
+      ],
+      "referred_schema": "magento2",
+      "referred_table": "store",
+      "referred_columns": [
+        "store_id"
+      ],
+      "options": {
+        "onupdate": "CASCADE",
+        "ondelete": "CASCADE"
+      }
+    }
+  ],
+  "columns": [
+    {
+      "name": "block_id",
+      "type": "SMALLINT",
+      "nullable": false,
+      "stats": {
+        "null_count": 0,
+        "distinct_count": 3,
+        "null_percentage": 0.0,
+        "numeric_stats": {
+          "avg": 4.0,
+          "min": 3.0,
+          "max": 5.0,
+          "stddev": 0.816496580927726
+        },
+        "sample_values": [
+          "3",
+          "4",
+          "5"
+        ]
+      }
+    },
+    {
+      "name": "store_id",
+      "type": "SMALLINT",
+      "nullable": false,
+      "stats": {
+        "null_count": 0,
+        "distinct_count": 1,
+        "null_percentage": 0.0,
+        "numeric_stats": {
+          "avg": 0.0,
+          "min": 0.0,
+          "max": 0.0,
+          "stddev": 0.0
+        },
+        "frequent_values": [
+          {
+            "value": "0",
+            "count": 3
+          }
+        ],
+        "sample_values": [
+          "0"
+        ]
+      }
+    }
+  ],
+  "sample_rows": [
+    {
+      "block_id": 3,
+      "store_id": 0
+    },
+    {
+      "block_id": 4,
+      "store_id": 0
+    },
+    {
+      "block_id": 5,
+      "store_id": 0
+    }
+  ],
+  "execution": {
+    "status": "success",
+    "seconds": 0.03,
+    "processed_at": "2026-09-13T18:56:21.438385",
+    "attempt": 1
+  }
+}

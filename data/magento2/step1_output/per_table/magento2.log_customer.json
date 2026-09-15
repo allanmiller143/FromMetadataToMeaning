@@ -1,0 +1,48 @@
+{
+  "schema": "magento2",
+  "table_name": "log_customer",
+  "row_count": 0,
+  "primary_key": [
+    "log_id"
+  ],
+  "foreign_keys": [],
+  "columns": [
+    {
+      "name": "log_id",
+      "type": "INTEGER",
+      "nullable": false
+    },
+    {
+      "name": "visitor_id",
+      "type": "BIGINT",
+      "nullable": true
+    },
+    {
+      "name": "customer_id",
+      "type": "INTEGER",
+      "nullable": false
+    },
+    {
+      "name": "login_at",
+      "type": "TIMESTAMP",
+      "nullable": false
+    },
+    {
+      "name": "logout_at",
+      "type": "TIMESTAMP",
+      "nullable": true
+    },
+    {
+      "name": "store_id",
+      "type": "SMALLINT",
+      "nullable": false
+    }
+  ],
+  "sample_rows": [],
+  "execution": {
+    "status": "success",
+    "seconds": 0.01,
+    "processed_at": "2026-09-13T18:56:31.687900",
+    "attempt": 1
+  }
+}

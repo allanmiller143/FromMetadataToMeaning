@@ -1,0 +1,43 @@
+{
+  "schema": "magento2",
+  "table_name": "log_visitor",
+  "row_count": 0,
+  "primary_key": [
+    "visitor_id"
+  ],
+  "foreign_keys": [],
+  "columns": [
+    {
+      "name": "visitor_id",
+      "type": "BIGINT",
+      "nullable": false
+    },
+    {
+      "name": "first_visit_at",
+      "type": "TIMESTAMP",
+      "nullable": true
+    },
+    {
+      "name": "last_visit_at",
+      "type": "TIMESTAMP",
+      "nullable": false
+    },
+    {
+      "name": "last_url_id",
+      "type": "BIGINT",
+      "nullable": false
+    },
+    {
+      "name": "store_id",
+      "type": "SMALLINT",
+      "nullable": false
+    }
+  ],
+  "sample_rows": [],
+  "execution": {
+    "status": "success",
+    "seconds": 0.0,
+    "processed_at": "2026-09-13T18:56:32.534996",
+    "attempt": 1
+  }
+}

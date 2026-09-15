@@ -1,0 +1,124 @@
+{
+  "schema": "magento2",
+  "table_name": "tax_calculation_rule",
+  "row_count": 2,
+  "primary_key": [
+    "tax_calculation_rule_id"
+  ],
+  "foreign_keys": [],
+  "columns": [
+    {
+      "name": "tax_calculation_rule_id",
+      "type": "INTEGER",
+      "nullable": false,
+      "stats": {
+        "null_count": 0,
+        "distinct_count": 2,
+        "null_percentage": 0.0,
+        "numeric_stats": {
+          "avg": 1.5,
+          "min": 1.0,
+          "max": 2.0,
+          "stddev": 0.5
+        },
+        "sample_values": [
+          "1",
+          "2"
+        ]
+      }
+    },
+    {
+      "name": "code",
+      "type": "VARCHAR(255)",
+      "nullable": false,
+      "stats": {
+        "null_count": 0,
+        "distinct_count": 2,
+        "null_percentage": 0.0,
+        "sample_values": [
+          "Retail Customer-default-Rate 1",
+          "Retail Customer-Taxable Goods-Rate 1"
+        ]
+      }
+    },
+    {
+      "name": "priority",
+      "type": "INTEGER",
+      "nullable": false,
+      "stats": {
+        "null_count": 0,
+        "distinct_count": 1,
+        "null_percentage": 0.0,
+        "numeric_stats": {
+          "avg": 1.0,
+          "min": 1.0,
+          "max": 1.0,
+          "stddev": 0.0
+        },
+        "sample_values": [
+          "1"
+        ]
+      }
+    },
+    {
+      "name": "position",
+      "type": "INTEGER",
+      "nullable": false,
+      "stats": {
+        "null_count": 0,
+        "distinct_count": 1,
+        "null_percentage": 0.0,
+        "numeric_stats": {
+          "avg": 1.0,
+          "min": 1.0,
+          "max": 1.0,
+          "stddev": 0.0
+        },
+        "sample_values": [
+          "1"
+        ]
+      }
+    },
+    {
+      "name": "calculate_subtotal",
+      "type": "INTEGER",
+      "nullable": false,
+      "stats": {
+        "null_count": 0,
+        "distinct_count": 1,
+        "null_percentage": 0.0,
+        "numeric_stats": {
+          "avg": 0.0,
+          "min": 0.0,
+          "max": 0.0,
+          "stddev": 0.0
+        },
+        "sample_values": [
+          "0"
+        ]
+      }
+    }
+  ],
+  "sample_rows": [
+    {
+      "tax_calculation_rule_id": 1,
+      "code": "Retail Customer-Taxable Goods-Rate 1",
+      "priority": 1,
+      "position": 1,
+      "calculate_subtotal": 0
+    },
+    {
+      "tax_calculation_rule_id": 2,
+      "code": "Retail Customer-default-Rate 1",
+      "priority": 1,
+      "position": 1,
+      "calculate_subtotal": 0
+    }
+  ],
+  "execution": {
+    "status": "success",
+    "seconds": 0.02,
+    "processed_at": "2026-09-13T18:56:49.847479",
+    "attempt": 1
+  }
+}

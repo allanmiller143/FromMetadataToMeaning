@@ -1,0 +1,134 @@
+{
+  "schema": "magento2",
+  "table_name": "catalog_product_option_title",
+  "row_count": 2,
+  "primary_key": [
+    "option_title_id"
+  ],
+  "foreign_keys": [
+    {
+      "name": "catalog_product_option_title_ibfk_1",
+      "constrained_columns": [
+        "store_id"
+      ],
+      "referred_schema": "magento2",
+      "referred_table": "store",
+      "referred_columns": [
+        "store_id"
+      ],
+      "options": {
+        "onupdate": "CASCADE",
+        "ondelete": "CASCADE"
+      }
+    },
+    {
+      "name": "catalog_product_option_title_ibfk_2",
+      "constrained_columns": [
+        "option_id"
+      ],
+      "referred_schema": "magento2",
+      "referred_table": "catalog_product_option",
+      "referred_columns": [
+        "option_id"
+      ],
+      "options": {
+        "onupdate": "CASCADE",
+        "ondelete": "CASCADE"
+      }
+    }
+  ],
+  "columns": [
+    {
+      "name": "option_title_id",
+      "type": "INTEGER",
+      "nullable": false,
+      "stats": {
+        "null_count": 0,
+        "distinct_count": 2,
+        "null_percentage": 0.0,
+        "numeric_stats": {
+          "avg": 1.5,
+          "min": 1.0,
+          "max": 2.0,
+          "stddev": 0.5
+        },
+        "sample_values": [
+          "1",
+          "2"
+        ]
+      }
+    },
+    {
+      "name": "option_id",
+      "type": "INTEGER",
+      "nullable": false,
+      "stats": {
+        "null_count": 0,
+        "distinct_count": 2,
+        "null_percentage": 0.0,
+        "numeric_stats": {
+          "avg": 1.5,
+          "min": 1.0,
+          "max": 2.0,
+          "stddev": 0.5
+        },
+        "sample_values": [
+          "1",
+          "2"
+        ]
+      }
+    },
+    {
+      "name": "store_id",
+      "type": "SMALLINT",
+      "nullable": false,
+      "stats": {
+        "null_count": 0,
+        "distinct_count": 1,
+        "null_percentage": 0.0,
+        "numeric_stats": {
+          "avg": 0.0,
+          "min": 0.0,
+          "max": 0.0,
+          "stddev": 0.0
+        },
+        "sample_values": [
+          "0"
+        ]
+      }
+    },
+    {
+      "name": "title",
+      "type": "VARCHAR(255)",
+      "nullable": true,
+      "stats": {
+        "null_count": 0,
+        "distinct_count": 1,
+        "null_percentage": 0.0,
+        "sample_values": [
+          "Extended Warranty"
+        ]
+      }
+    }
+  ],
+  "sample_rows": [
+    {
+      "option_title_id": 1,
+      "option_id": 1,
+      "store_id": 0,
+      "title": "Extended Warranty"
+    },
+    {
+      "option_title_id": 2,
+      "option_id": 2,
+      "store_id": 0,
+      "title": "Extended Warranty"
+    }
+  ],
+  "execution": {
+    "status": "success",
+    "seconds": 0.05,
+    "processed_at": "2026-09-13T18:56:18.322903",
+    "attempt": 1
+  }
+}

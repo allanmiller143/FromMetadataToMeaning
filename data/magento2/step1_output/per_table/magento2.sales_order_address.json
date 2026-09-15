@@ -1,0 +1,164 @@
+{
+  "schema": "magento2",
+  "table_name": "sales_order_address",
+  "row_count": 0,
+  "primary_key": [
+    "entity_id"
+  ],
+  "foreign_keys": [
+    {
+      "name": "sales_order_address_ibfk_1",
+      "constrained_columns": [
+        "parent_id"
+      ],
+      "referred_schema": "magento2",
+      "referred_table": "sales_order",
+      "referred_columns": [
+        "entity_id"
+      ],
+      "options": {
+        "onupdate": "CASCADE",
+        "ondelete": "CASCADE"
+      }
+    }
+  ],
+  "columns": [
+    {
+      "name": "entity_id",
+      "type": "INTEGER",
+      "nullable": false
+    },
+    {
+      "name": "parent_id",
+      "type": "INTEGER",
+      "nullable": true
+    },
+    {
+      "name": "customer_address_id",
+      "type": "INTEGER",
+      "nullable": true
+    },
+    {
+      "name": "quote_address_id",
+      "type": "INTEGER",
+      "nullable": true
+    },
+    {
+      "name": "region_id",
+      "type": "INTEGER",
+      "nullable": true
+    },
+    {
+      "name": "customer_id",
+      "type": "INTEGER",
+      "nullable": true
+    },
+    {
+      "name": "fax",
+      "type": "VARCHAR(255)",
+      "nullable": true
+    },
+    {
+      "name": "region",
+      "type": "VARCHAR(255)",
+      "nullable": true
+    },
+    {
+      "name": "postcode",
+      "type": "VARCHAR(255)",
+      "nullable": true
+    },
+    {
+      "name": "lastname",
+      "type": "VARCHAR(255)",
+      "nullable": true
+    },
+    {
+      "name": "street",
+      "type": "VARCHAR(255)",
+      "nullable": true
+    },
+    {
+      "name": "city",
+      "type": "VARCHAR(255)",
+      "nullable": true
+    },
+    {
+      "name": "email",
+      "type": "VARCHAR(255)",
+      "nullable": true
+    },
+    {
+      "name": "telephone",
+      "type": "VARCHAR(255)",
+      "nullable": true
+    },
+    {
+      "name": "country_id",
+      "type": "VARCHAR(2)",
+      "nullable": true
+    },
+    {
+      "name": "firstname",
+      "type": "VARCHAR(255)",
+      "nullable": true
+    },
+    {
+      "name": "address_type",
+      "type": "VARCHAR(255)",
+      "nullable": true
+    },
+    {
+      "name": "prefix",
+      "type": "VARCHAR(255)",
+      "nullable": true
+    },
+    {
+      "name": "middlename",
+      "type": "VARCHAR(255)",
+      "nullable": true
+    },
+    {
+      "name": "suffix",
+      "type": "VARCHAR(255)",
+      "nullable": true
+    },
+    {
+      "name": "company",
+      "type": "VARCHAR(255)",
+      "nullable": true
+    },
+    {
+      "name": "vat_id",
+      "type": "TEXT",
+      "nullable": true
+    },
+    {
+      "name": "vat_is_valid",
+      "type": "SMALLINT",
+      "nullable": true
+    },
+    {
+      "name": "vat_request_id",
+      "type": "TEXT",
+      "nullable": true
+    },
+    {
+      "name": "vat_request_date",
+      "type": "TEXT",
+      "nullable": true
+    },
+    {
+      "name": "vat_request_success",
+      "type": "SMALLINT",
+      "nullable": true
+    }
+  ],
+  "sample_rows": [],
+  "execution": {
+    "status": "success",
+    "seconds": 0.01,
+    "processed_at": "2026-09-13T18:56:40.712185",
+    "attempt": 1
+  }
+}

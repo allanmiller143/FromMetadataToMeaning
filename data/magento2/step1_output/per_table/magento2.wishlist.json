@@ -1,0 +1,59 @@
+{
+  "schema": "magento2",
+  "table_name": "wishlist",
+  "row_count": 0,
+  "primary_key": [
+    "wishlist_id"
+  ],
+  "foreign_keys": [
+    {
+      "name": "wishlist_ibfk_1",
+      "constrained_columns": [
+        "customer_id"
+      ],
+      "referred_schema": "magento2",
+      "referred_table": "customer_entity",
+      "referred_columns": [
+        "entity_id"
+      ],
+      "options": {
+        "onupdate": "CASCADE",
+        "ondelete": "CASCADE"
+      }
+    }
+  ],
+  "columns": [
+    {
+      "name": "wishlist_id",
+      "type": "INTEGER",
+      "nullable": false
+    },
+    {
+      "name": "customer_id",
+      "type": "INTEGER",
+      "nullable": false
+    },
+    {
+      "name": "shared",
+      "type": "SMALLINT",
+      "nullable": false
+    },
+    {
+      "name": "sharing_code",
+      "type": "VARCHAR(32)",
+      "nullable": true
+    },
+    {
+      "name": "updated_at",
+      "type": "TIMESTAMP",
+      "nullable": true
+    }
+  ],
+  "sample_rows": [],
+  "execution": {
+    "status": "success",
+    "seconds": 0.01,
+    "processed_at": "2026-09-13T18:56:52.186069",
+    "attempt": 1
+  }
+}

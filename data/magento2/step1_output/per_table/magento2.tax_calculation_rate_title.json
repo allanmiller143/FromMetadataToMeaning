@@ -1,0 +1,69 @@
+{
+  "schema": "magento2",
+  "table_name": "tax_calculation_rate_title",
+  "row_count": 0,
+  "primary_key": [
+    "tax_calculation_rate_title_id"
+  ],
+  "foreign_keys": [
+    {
+      "name": "tax_calculation_rate_title_ibfk_1",
+      "constrained_columns": [
+        "tax_calculation_rate_id"
+      ],
+      "referred_schema": "magento2",
+      "referred_table": "tax_calculation_rate",
+      "referred_columns": [
+        "tax_calculation_rate_id"
+      ],
+      "options": {
+        "onupdate": "CASCADE",
+        "ondelete": "CASCADE"
+      }
+    },
+    {
+      "name": "tax_calculation_rate_title_ibfk_2",
+      "constrained_columns": [
+        "store_id"
+      ],
+      "referred_schema": "magento2",
+      "referred_table": "store",
+      "referred_columns": [
+        "store_id"
+      ],
+      "options": {
+        "onupdate": "CASCADE",
+        "ondelete": "CASCADE"
+      }
+    }
+  ],
+  "columns": [
+    {
+      "name": "tax_calculation_rate_title_id",
+      "type": "INTEGER",
+      "nullable": false
+    },
+    {
+      "name": "tax_calculation_rate_id",
+      "type": "INTEGER",
+      "nullable": false
+    },
+    {
+      "name": "store_id",
+      "type": "SMALLINT",
+      "nullable": false
+    },
+    {
+      "name": "value",
+      "type": "VARCHAR(255)",
+      "nullable": false
+    }
+  ],
+  "sample_rows": [],
+  "execution": {
+    "status": "success",
+    "seconds": 0.01,
+    "processed_at": "2026-09-13T18:56:49.686403",
+    "attempt": 1
+  }
+}

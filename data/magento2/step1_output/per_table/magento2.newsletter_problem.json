@@ -1,0 +1,74 @@
+{
+  "schema": "magento2",
+  "table_name": "newsletter_problem",
+  "row_count": 0,
+  "primary_key": [
+    "problem_id"
+  ],
+  "foreign_keys": [
+    {
+      "name": "FK_NEWSLETTER_PROBLEM_QUEUE_ID_NEWSLETTER_QUEUE_QUEUE_ID",
+      "constrained_columns": [
+        "queue_id"
+      ],
+      "referred_schema": "magento2",
+      "referred_table": "newsletter_queue",
+      "referred_columns": [
+        "queue_id"
+      ],
+      "options": {
+        "onupdate": "CASCADE",
+        "ondelete": "CASCADE"
+      }
+    },
+    {
+      "name": "FK_NLTTR_PROBLEM_SUBSCRIBER_ID_NLTTR_SUBSCRIBER_SUBSCRIBER_ID",
+      "constrained_columns": [
+        "subscriber_id"
+      ],
+      "referred_schema": "magento2",
+      "referred_table": "newsletter_subscriber",
+      "referred_columns": [
+        "subscriber_id"
+      ],
+      "options": {
+        "onupdate": "CASCADE",
+        "ondelete": "CASCADE"
+      }
+    }
+  ],
+  "columns": [
+    {
+      "name": "problem_id",
+      "type": "INTEGER",
+      "nullable": false
+    },
+    {
+      "name": "subscriber_id",
+      "type": "INTEGER",
+      "nullable": true
+    },
+    {
+      "name": "queue_id",
+      "type": "INTEGER",
+      "nullable": false
+    },
+    {
+      "name": "problem_error_code",
+      "type": "INTEGER",
+      "nullable": true
+    },
+    {
+      "name": "problem_error_text",
+      "type": "VARCHAR(200)",
+      "nullable": true
+    }
+  ],
+  "sample_rows": [],
+  "execution": {
+    "status": "success",
+    "seconds": 0.01,
+    "processed_at": "2026-09-13T18:56:32.947004",
+    "attempt": 1
+  }
+}

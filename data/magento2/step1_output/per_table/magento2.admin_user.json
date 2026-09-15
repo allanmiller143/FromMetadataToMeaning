@@ -1,0 +1,98 @@
+{
+  "schema": "magento2",
+  "table_name": "admin_user",
+  "row_count": 0,
+  "primary_key": [
+    "user_id"
+  ],
+  "foreign_keys": [],
+  "columns": [
+    {
+      "name": "user_id",
+      "type": "INTEGER",
+      "nullable": false
+    },
+    {
+      "name": "firstname",
+      "type": "VARCHAR(32)",
+      "nullable": true
+    },
+    {
+      "name": "lastname",
+      "type": "VARCHAR(32)",
+      "nullable": true
+    },
+    {
+      "name": "email",
+      "type": "VARCHAR(128)",
+      "nullable": true
+    },
+    {
+      "name": "username",
+      "type": "VARCHAR(40)",
+      "nullable": true
+    },
+    {
+      "name": "password",
+      "type": "VARCHAR(255)",
+      "nullable": false
+    },
+    {
+      "name": "created",
+      "type": "TIMESTAMP",
+      "nullable": false
+    },
+    {
+      "name": "modified",
+      "type": "TIMESTAMP",
+      "nullable": true
+    },
+    {
+      "name": "logdate",
+      "type": "TIMESTAMP",
+      "nullable": true
+    },
+    {
+      "name": "lognum",
+      "type": "SMALLINT",
+      "nullable": false
+    },
+    {
+      "name": "reload_acl_flag",
+      "type": "SMALLINT",
+      "nullable": false
+    },
+    {
+      "name": "is_active",
+      "type": "SMALLINT",
+      "nullable": false
+    },
+    {
+      "name": "extra",
+      "type": "TEXT",
+      "nullable": true
+    },
+    {
+      "name": "rp_token",
+      "type": "TEXT",
+      "nullable": true
+    },
+    {
+      "name": "rp_token_created_at",
+      "type": "TIMESTAMP",
+      "nullable": true
+    },
+    {
+      "name": "interface_locale",
+      "type": "VARCHAR(5)",
+      "nullable": false
+    }
+  ],
+  "sample_rows": [],
+  "execution": {
+    "status": "success",
+    "seconds": 0.01,
+    "processed_at": "2026-09-13T18:56:12.279367",
+    "attempt": 1
+  }
+}
