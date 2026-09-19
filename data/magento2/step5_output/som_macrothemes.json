@@ -1,20 +1,415 @@
 [
   {
-    "macrotema": "atributos de produtos",
-    "neuron": "7_14",
+    "macrotema": "informacoes de clientes",
+    "neuron": "0_0",
+    "subtemas": [
+      "acoes de clientes em produtos",
+      "agrupamento de clientes",
+      "alertas de clientes",
+      "cadastro de cliente",
+      "cadastro de clientes",
+      "cadastro de datas de clientes",
+      "categorias de clientes",
+      "classificacao de clientes",
+      "cliente e lista",
+      "codigo de grupo de clientes",
+      "comentarios de clientes",
+      "comportamento de clientes",
+      "contagem de clientes",
+      "dados do cliente",
+      "endereco de cliente",
+      "enderecos de clientes",
+      "entidades de cliente",
+      "entidades de clientes",
+      "feedback de clientes",
+      "formularios de conta de cliente",
+      "frequencia de uso por cliente",
+      "gestao de contas de cliente",
+      "grupo de clientes",
+      "grupos de clientes",
+      "informacoes de cliente",
+      "informacoes de clientes",
+      "interesse de clientes",
+      "interesse do cliente",
+      "login de clientes",
+      "promocoes de clientes",
+      "resumo de clientes",
+      "segmentacao de clientes",
+      "sessoes de cliente",
+      "sessoes de clientes",
+      "sessoes persistentes de clientes",
+      "status de cliente",
+      "transacao de clientes",
+      "valores de cliente",
+      "vinculo admin-cliente",
+      "visitas de clientes",
+      "votacao de clientes",
+      "wishlist de clientes"
+    ],
+    "frequencia_total": 94,
+    "num_subtemas": 42
+  },
+  {
+    "macrotema": "relacionamento de produtos",
+    "neuron": "0_8",
+    "subtemas": [
+      "arquivos de produto",
+      "associacao de produtos",
+      "associacao produto-imagem",
+      "avaliacao de produto",
+      "avaliacoes de produtos",
+      "catalogo de produtos",
+      "eventos de interacao com produto",
+      "galeria de imagens de produtos",
+      "galeria de midia de produto",
+      "galeria de produtos",
+      "gerenciamento de imagens de produtos",
+      "imagens de produtos",
+      "links de produto",
+      "links de produtos",
+      "links de produtos baixaveis",
+      "midia de catalogo de produtos",
+      "ordenacao de imagens de produto",
+      "relacao cliente-produto",
+      "relacao de produtos",
+      "relacao produto pai-filho",
+      "relacao produto-pai",
+      "relacionamento de produtos",
+      "relacionamento entre produtos",
+      "relacoes entre produtos",
+      "relatorio de produtos",
+      "tipos de link de produtos",
+      "tipos de relacao de produto",
+      "tipos de vinculo de produto",
+      "vinculacao de produtos",
+      "vinculo de produtos",
+      "vinculo entre produtos",
+      "vinculos entre produtos",
+      "visibilidade de produtos",
+      "visualizacao de produtos",
+      "visualizacoes de produto"
+    ],
+    "frequencia_total": 73,
+    "num_subtemas": 35
+  },
+  {
+    "macrotema": "valores de atributo",
+    "neuron": "10_14",
+    "subtemas": [
+      "atributo de data",
+      "atributo de entidade",
+      "atributos de categoria",
+      "atributos de categorias",
+      "atributos de cliente",
+      "atributos de clientes",
+      "atributos de data",
+      "atributos de entidades de cliente",
+      "atributos de google shopping",
+      "atributos de grupo",
+      "atributos de link",
+      "atributos de sistema",
+      "atributos de sku",
+      "atributos de usuario",
+      "atributos de vinculo",
+      "atributos numericos de entidades",
+      "atributos por conjunto",
+      "codigo de atributo",
+      "etiqueta de atributo",
+      "modelos de atributo",
+      "requisitos de atributos",
+      "rotulos de atributo",
+      "rotulos de atributos",
+      "valor de atributo",
+      "valores de atributo",
+      "valores de atributo por loja",
+      "valores de atributos"
+    ],
+    "frequencia_total": 73,
+    "num_subtemas": 27
+  },
+  {
+    "macrotema": "descricao de produtos",
+    "neuron": "0_10",
+    "subtemas": [
+      "cadastro de produtos",
+      "catalogacao de produtos",
+      "classificacao de produtos",
+      "datas de produto",
+      "descricao de produto",
+      "descricao de produtos",
+      "descricoes de produtos",
+      "detalhes de produto",
+      "detalhes de produtos",
+      "disponibilidade de produto",
+      "estoque por produto",
+      "estrutura de produtos",
+      "hierarquia de produtos",
+      "identificacao de produto",
+      "identificacao de produtos",
+      "informacoes de produtos",
+      "itens de produto",
+      "localizacao de produtos",
+      "mapeamento de produtos",
+      "mapeamento de valores numericos de produtos",
+      "organizacao de produtos",
+      "posicao de produtos",
+      "posicionamento de produto",
+      "precificacao de produtos",
+      "produtos e skus",
+      "selecao de produtos",
+      "tipos de produto",
+      "tipos de produtos",
+      "titulos de produto"
+    ],
+    "frequencia_total": 68,
+    "num_subtemas": 29
+  },
+  {
+    "macrotema": "taxas de imposto",
+    "neuron": "14_1",
+    "subtemas": [
+      "agregacao de impostos",
+      "aliquota fiscal",
+      "aliquota tributaria",
+      "analise de impostos",
+      "calculo de imposto",
+      "calculo de impostos",
+      "calculo de impostos de pedidos",
+      "calculo de impostos em pedidos",
+      "calculo de tributos",
+      "categorias de tributacao",
+      "classes de impostos",
+      "classificacao de impostos",
+      "classificacao fiscal",
+      "classificacao fiscal de clientes",
+      "classificacao fiscal de produtos",
+      "classificacao tributaria",
+      "configuracao de taxas fiscais",
+      "detalhamento fiscal",
+      "grupos de impostos",
+      "imposto de produtos",
+      "imposto sobre produtos",
+      "impostos de reembolso",
+      "impostos e descontos",
+      "impostos e tributos",
+      "impostos por item",
+      "impostos por pedido",
+      "itens associados a impostos",
+      "itens de tributacao de vendas",
+      "localizacao de impostos",
+      "taxas de imposto",
+      "tipos de classe fiscal",
+      "tipos de classe tributaria",
+      "tributacao weee por produto",
+      "valores de taxacao de produtos"
+    ],
+    "frequencia_total": 64,
+    "num_subtemas": 34
+  },
+  {
+    "macrotema": "status de pedidos",
+    "neuron": "4_10",
+    "subtemas": [
+      "agregacao de pedidos",
+      "analise de pedidos",
+      "ciclo de vida de pedidos",
+      "comentarios de pedidos",
+      "detalhes de pedidos",
+      "estado de pedido",
+      "gestao de pedidos",
+      "historico de status de pedidos",
+      "impostos de pedidos",
+      "impostos por item de pedido",
+      "informacoes de pedido",
+      "informacoes de pedidos",
+      "metricas de pedidos",
+      "notificacoes de pedidos",
+      "pagamento de pedidos",
+      "pagamentos de pedidos",
+      "pedidos de clientes",
+      "pedidos por status",
+      "personalizacao de pedidos",
+      "processamento de pedidos",
+      "reembolso de pedidos",
+      "reembolsos de pedidos",
+      "reembolsos por status do pedido",
+      "refeicao de pedidos",
+      "refundos de pedidos",
+      "relacionamento de pedidos",
+      "status de pedido",
+      "status de pedidos"
+    ],
+    "frequencia_total": 62,
+    "num_subtemas": 28
+  },
+  {
+    "macrotema": "precos de produtos",
+    "neuron": "1_10",
+    "subtemas": [
+      "cotacoes de produtos",
+      "preco de produto",
+      "preco de produtos",
+      "preco de selecao de produtos",
+      "preco e avaliacao de produtos",
+      "preco e quantidade de produtos",
+      "precos de produto",
+      "precos de produtos",
+      "precos de produtos em pacote",
+      "precos de produtos em pacotes",
+      "precos de produtos por regra",
+      "produto em promocao",
+      "promocoes de produtos",
+      "tabela de precificacao de produtos",
+      "tabela de precos de produtos",
+      "valores de precos de produtos",
+      "valores de produto",
+      "valores de produtos"
+    ],
+    "frequencia_total": 59,
+    "num_subtemas": 18
+  },
+  {
+    "macrotema": "quantidade de vendas",
+    "neuron": "2_7",
+    "subtemas": [
+      "agregacao anual de vendas",
+      "agregacao de vendas",
+      "agregacao diaria de vendas",
+      "agregacao mensal de vendas",
+      "analise de vendas",
+      "comentarios de vendas",
+      "conversao de vendas",
+      "cotacoes de vendas",
+      "desempenho de precos em vendas",
+      "estados de fluxo de vendas",
+      "faturamento de vendas",
+      "itens de venda",
+      "mapeamento de politicas de vendas",
+      "metricas de vendas",
+      "pagamento de vendas",
+      "promocao de vendas",
+      "promocoes de vendas",
+      "quantidade de vendas",
+      "relatorio de vendas",
+      "rotulos de vendas",
+      "transacoes financeiras de vendas",
+      "valores monetarios de vendas",
+      "vendas agregadas",
+      "vendas agregadas por periodo",
+      "vendas anuais",
+      "vendas cruzadas e upsell",
+      "vendas de itens",
+      "vendas diarias",
+      "vendas mensais",
+      "vendas por periodo"
+    ],
+    "frequencia_total": 54,
+    "num_subtemas": 30
+  },
+  {
+    "macrotema": "atributos de produto",
+    "neuron": "8_14",
     "subtemas": [
       "atributo de produto",
-      "atributos de data de produtos",
+      "atributos de endereco",
+      "atributos de endereco de cliente",
+      "atributos de imagem",
       "atributos de item de cotacao",
       "atributos de link de produto",
       "atributos de links de produtos",
       "atributos de midia de produto",
       "atributos de produto",
+      "atributos de vinculo de produto",
+      "atributos decimais de categoria",
+      "atributos decimais de clientes",
+      "rotulagem de atributos",
+      "rotulos de atributos configuraveis",
+      "traducao de atributos",
+      "valores de atributos de produtos vinculados",
+      "valores de atributos em lojas"
+    ],
+    "frequencia_total": 54,
+    "num_subtemas": 17
+  },
+  {
+    "macrotema": "vendas por loja",
+    "neuron": "0_4",
+    "subtemas": [
+      "alteracoes de design por loja",
+      "amostras por loja",
+      "analise por loja",
+      "catalogo por loja",
+      "comportamento de loja",
+      "descontos por loja",
+      "desempenho de loja",
+      "detalhes de loja",
+      "escopo de lojas",
+      "estrutura de loja",
+      "fatura por loja",
+      "faturamento por loja",
+      "frete por loja",
+      "gerenciamento de loja",
+      "gerenciamento de lojas",
+      "gerenciamento de multiplas lojas",
+      "imagens por loja",
+      "layout de loja",
+      "layout por loja",
+      "lucro por loja",
+      "mapeamento de loja",
+      "mapeamento de lojas",
+      "parametros de loja",
+      "preco por loja",
+      "regras por loja",
+      "resumo de loja",
+      "taxas por loja",
+      "trafego em loja",
+      "valores por loja",
+      "vendas por loja"
+    ],
+    "frequencia_total": 48,
+    "num_subtemas": 30
+  },
+  {
+    "macrotema": "indice de precos",
+    "neuron": "8_0",
+    "subtemas": [
+      "agregacao de precos por site",
+      "alerta de preco",
+      "alertas de preco",
+      "calculo de faixas de preco",
+      "calculo de precos",
+      "estrategias de precificacao",
+      "indice de precificacao",
+      "indice de precos",
+      "indice de precos agregados",
+      "indice de precos bundle",
+      "indice de precos de opcoes de produtos",
+      "indice de precos de produto",
+      "indice de precos de produtos",
+      "indice de precos magento",
+      "indice de precos por grupo",
+      "indice de precos por loja",
+      "indice de precos por site",
+      "indice de precos por website",
+      "indice de precos temporario",
+      "variacao de precos por opcao",
+      "variacao de precos por opcao de produto",
+      "variaveis de preco"
+    ],
+    "frequencia_total": 47,
+    "num_subtemas": 22
+  },
+  {
+    "macrotema": "atributos de produtos",
+    "neuron": "7_14",
+    "subtemas": [
+      "atributo de produto configuravel",
+      "atributos de data de produtos",
+      "atributos de produto configuravel",
       "atributos de produto e impostos",
       "atributos de produto em wishlist",
       "atributos de produto por loja",
       "atributos de produtos",
-      "atributos de vinculo de produto",
       "atributos decimais de links de produtos",
       "atributos decimais de produto",
       "atributos decimais de produtos",
@@ -25,784 +420,356 @@
       "indice de atributos de produto",
       "indice de atributos decimais de produtos",
       "mapeamento de atributos do google shopping",
-      "precificacao de atributos",
       "precificacao de atributos de produtos",
       "relacionamento produto-atributo",
-      "valores de atributos de produtos",
-      "valores de atributos de produtos vinculados"
+      "valores de atributos de produtos"
     ],
-    "frequencia_total": 81,
-    "num_subtemas": 27
+    "frequencia_total": 46,
+    "num_subtemas": 20
   },
   {
-    "macrotema": "informacoes de clientes",
-    "neuron": "14_1",
+    "macrotema": "preco por grupo de clientes",
+    "neuron": "10_0",
+    "subtemas": [
+      "configuracao de precos por grupo",
+      "configuracao de precos por grupo de clientes",
+      "estrategia de precos por grupo",
+      "estrutura de precos por grupo",
+      "estrutura de precos por grupo de clientes",
+      "precificacao de produtos por grupo de cliente",
+      "preco de grupo",
+      "preco de grupo de produtos",
+      "preco por grupo",
+      "preco por grupo cliente",
+      "preco por grupo de cliente",
+      "preco por grupo de clientes",
+      "precos de produtos por grupo de cliente",
+      "precos por grupo",
+      "precos por grupo cliente",
+      "precos por grupo de cliente",
+      "precos por grupo de clientes",
+      "regra de preco por grupo e site",
+      "segmentacao de precos por grupo",
+      "variacao de precos por grupo de clientes"
+    ],
+    "frequencia_total": 46,
+    "num_subtemas": 20
+  },
+  {
+    "macrotema": "avaliacao de produtos",
+    "neuron": "0_9",
+    "subtemas": [
+      "agrupamento de produtos",
+      "amostras de produtos",
+      "analise de produtos",
+      "aprovacao de produtos",
+      "avaliacao de produtos",
+      "busca de produtos",
+      "comparacao de produtos",
+      "gerenciamento de produtos",
+      "indexacao de produtos",
+      "indice eav de produtos",
+      "monitoramento de produto",
+      "monitoramento de produtos",
+      "notificacao de produto",
+      "pesquisa de produtos",
+      "produtos afetados",
+      "redirecionamento de produtos",
+      "reindexacao de produtos",
+      "revisao de produto",
+      "revisoes de produtos"
+    ],
+    "frequencia_total": 45,
+    "num_subtemas": 19
+  },
+  {
+    "macrotema": "interacao do cliente",
+    "neuron": "1_0",
     "subtemas": [
       "atividade do cliente",
-      "cadastro de cliente",
-      "cadastro de clientes",
-      "cadastro de datas de clientes",
-      "cliente e loja",
-      "comportamento de clientes",
       "comunicacao entre clientes",
-      "contagem de clientes",
-      "dados do cliente",
-      "edicao de enderecos de cliente",
       "entidade cliente",
       "entidade de cliente",
-      "formularios de conta de cliente",
-      "gestao de contas de cliente",
+      "estrutura de grupos de clientes",
       "identificacao de cliente",
       "identificacao de clientes",
-      "informacoes de cliente",
-      "informacoes de clientes",
       "interacao de clientes",
       "interacao do cliente",
-      "interesse do cliente",
       "localizacao de cliente",
       "log de acesso de cliente",
+      "mapeamento de grupos de clientes",
       "notificacao de cliente",
       "notificacoes ao cliente",
       "notificacoes de cliente",
       "notificacoes de clientes",
       "relacionamento cliente",
-      "relacionamento cliente-endereco",
       "relacionamento com clientes",
       "sessao de cliente",
-      "sessao persistente de cliente",
-      "sessoes de cliente",
-      "sessoes de clientes",
-      "transacao de clientes"
-    ],
-    "frequencia_total": 67,
-    "num_subtemas": 35
-  },
-  {
-    "macrotema": "precos de produtos",
-    "neuron": "0_0",
-    "subtemas": [
-      "cotacoes de produtos",
-      "precificacao de produtos",
-      "preco de produto",
-      "preco de produtos",
-      "preco e avaliacao de produtos",
-      "preco e quantidade de produtos",
-      "precos de produto",
-      "precos de produtos",
-      "precos de produtos em pacote",
-      "precos de produtos em pacotes",
-      "precos de produtos por regra",
-      "quantidade de produtos",
-      "tabela de precificacao de produtos",
-      "tabela de precos de produtos",
-      "valores de precos de produtos",
-      "valores de produto",
-      "valores de produtos"
-    ],
-    "frequencia_total": 62,
-    "num_subtemas": 17
-  },
-  {
-    "macrotema": "avaliacao de produtos",
-    "neuron": "0_2",
-    "subtemas": [
-      "analise de produtos",
-      "aprovacao de produtos",
-      "arquivos de produto",
-      "avaliacao de produto",
-      "avaliacao de produtos",
-      "avaliacao media de produtos",
-      "avaliacoes de produtos",
-      "comparacao de produtos",
-      "descricao de produto",
-      "descricao de produtos",
-      "galeria de imagens de produtos",
-      "galeria de midia de produto",
-      "galeria de produtos",
-      "gerenciamento de produtos",
-      "identificacao de produto",
-      "identificacao de produtos",
-      "imagens de produtos",
-      "localizacao de produtos",
-      "monitoramento de produto",
-      "monitoramento de produtos",
-      "notificacao de produto",
-      "posicionamento de produto",
-      "redirecionamento de produtos",
-      "relatorio anual de produtos",
-      "relatorio de produtos",
-      "resumo de avaliacoes por produto",
-      "revisao de produto",
-      "revisoes de produtos",
-      "visibilidade de produtos",
-      "visualizacao de produtos",
-      "visualizacoes de produto"
-    ],
-    "frequencia_total": 61,
-    "num_subtemas": 31
-  },
-  {
-    "macrotema": "mapeamento de produtos em categorias",
-    "neuron": "0_4",
-    "subtemas": [
-      "associacao categoria-produto",
-      "associacao de produtos a categorias",
-      "associacao de produtos a lojas",
-      "cadastro de produtos",
-      "catalogacao de produtos",
-      "categorias de produto",
-      "categorias de produtos",
-      "categorias de relacao entre produtos",
-      "classificacao de produtos",
-      "gerenciamento de imagens de produtos",
-      "indexacao de produtos",
-      "indexacao de produtos por categoria",
-      "indice categoria-produto",
-      "indice eav de produtos",
-      "mapeamento de categorias de produtos",
-      "mapeamento de produtos",
-      "mapeamento de produtos em categorias",
-      "mapeamento de produtos por categoria",
-      "mapeamento de valores numericos de produtos",
-      "posicionamento de produtos em categorias",
-      "posicionamento em categoria",
-      "reindexacao de produtos",
-      "relacao produto-categoria"
-    ],
-    "frequencia_total": 53,
-    "num_subtemas": 23
-  },
-  {
-    "macrotema": "calculo de impostos",
-    "neuron": "10_4",
-    "subtemas": [
-      "agregacao de impostos",
-      "calculo de imposto",
-      "calculo de impostos",
-      "calculo de impostos de pedidos",
-      "calculo de impostos em pedidos",
-      "calculo de tributos",
-      "configuracao de taxas fiscais",
-      "grupos de impostos",
-      "imposto de produtos",
-      "imposto sobre produtos",
-      "impostos de reembolso",
-      "impostos e tributos",
-      "impostos por item",
-      "impostos por item de pedido",
-      "impostos por pedido",
-      "itens associados a impostos",
-      "itens de tributacao de vendas",
-      "localizacao de impostos",
-      "taxas de imposto",
-      "taxas por regiao",
-      "valores de taxacao de produtos"
+      "sessao persistente de cliente"
     ],
     "frequencia_total": 45,
-    "num_subtemas": 21
+    "num_subtemas": 20
   },
   {
-    "macrotema": "configuracao de sistema",
-    "neuron": "10_14",
+    "macrotema": "uso de regras promocionais",
+    "neuron": "12_0",
     "subtemas": [
-      "configuracao de acordos",
+      "condicoes de promocao",
+      "controle de aplicacoes de regras de vendas",
+      "controle de promocoes",
+      "descontos percentuais",
+      "descontos promocionais",
+      "desempenho de regras promocionais",
+      "escopo de regras de preco",
+      "escopo de regras de venda",
+      "mapeamento de regras promocionais",
+      "periodo de promocao",
+      "regra de desconto por site",
+      "regras de desconto",
+      "regras de desconto por atributo",
+      "regras de desconto por produto",
+      "regras de marketing",
+      "regras de promocao",
+      "regras de promocao e preco",
+      "regras de promocao por atributo",
+      "regras de promocao por site",
+      "regras de venda",
+      "regras de vendas",
+      "rotulagem de regras promocionais",
+      "rotulos de regras de promocao",
+      "uso de regras promocionais",
+      "vigencia de regras promocionais",
+      "vinculacao de regras de desconto a clientes"
+    ],
+    "frequencia_total": 40,
+    "num_subtemas": 26
+  },
+  {
+    "macrotema": "configuracao de site",
+    "neuron": "0_14",
+    "subtemas": [
       "configuracao de area",
       "configuracao de arquivo xml",
-      "configuracao de avaliacao",
-      "configuracao de avaliacoes",
-      "configuracao de bundle",
+      "configuracao de arquivos de tema",
+      "configuracao de cadastro",
+      "configuracao de cms",
+      "configuracao de design",
       "configuracao de diretorio",
       "configuracao de email",
-      "configuracao de endpoints",
-      "configuracao de escopo",
       "configuracao de estados",
       "configuracao de experimento",
       "configuracao de formularios",
       "configuracao de formularios de cliente",
       "configuracao de integracao",
       "configuracao de interface",
-      "configuracao de pacotes",
-      "configuracao de ratings",
+      "configuracao de layout",
+      "configuracao de layout de paginas",
       "configuracao de recurso",
       "configuracao de remetente",
       "configuracao de sistema",
       "configuracao de site",
       "configuracao de status padrao",
-      "configuracao de termos de servico",
-      "configuracao de variacoes",
+      "configuracao de tema",
+      "configuracao de template",
+      "configuracao de templates",
       "configuracao de variaveis",
       "configuracao de visibilidade",
       "configuracao de website",
-      "configuracoes de pacotes",
-      "configuracoes do sistema",
-      "dados de configuracao",
-      "escopo de configuracao",
-      "indice de configuracao",
-      "valores de configuracao",
-      "variaveis de configuracao"
+      "configuracao de widget",
+      "configuracao de widgets",
+      "configuracoes do sistema"
     ],
-    "frequencia_total": 45,
-    "num_subtemas": 35
+    "frequencia_total": 38,
+    "num_subtemas": 30
   },
   {
-    "macrotema": "valores de atributo",
+    "macrotema": "configuracao de loja",
     "neuron": "4_14",
     "subtemas": [
-      "atributos de grupo",
-      "atributos de link",
-      "atributos de sistema",
-      "atributos de usuario",
-      "atributos de vinculo",
-      "atributos de website",
-      "atributos por conjunto",
-      "codigo de atributo",
-      "conjuntos de atributos",
-      "etiqueta de atributo",
-      "grupos de atributos",
-      "modelos de atributo",
-      "requisitos de atributos",
-      "rotulos de atributo",
-      "rotulos de atributos",
-      "valor de atributo",
-      "valores de atributo",
-      "valores de atributo de vinculo",
-      "valores de atributos",
-      "valores de atributos de catalogo",
-      "valores de atributos de link",
-      "valores de atributos numericos de catalogo",
-      "valores numericos de atributos"
-    ],
-    "frequencia_total": 44,
-    "num_subtemas": 23
-  },
-  {
-    "macrotema": "indice de precos",
-    "neuron": "10_0",
-    "subtemas": [
-      "agregacao de precos por site",
-      "indexacao de precos",
-      "indice de precificacao",
-      "indice de precos",
-      "indice de precos agregados",
-      "indice de precos bundle",
-      "indice de precos de opcoes de produtos",
-      "indice de precos de produto",
-      "indice de precos de produtos",
-      "indice de precos magento",
-      "indice de precos por site",
-      "indice de precos por website",
-      "indice de precos temporario"
-    ],
-    "frequencia_total": 40,
-    "num_subtemas": 13
-  },
-  {
-    "macrotema": "valores por loja",
-    "neuron": "6_2",
-    "subtemas": [
-      "amostras por loja",
-      "analise por loja",
-      "avaliacoes por loja",
-      "contagem de reviews por loja",
-      "descontos por loja",
-      "desempenho por loja",
-      "distribuicao de avaliacoes por loja",
-      "distribuicao de reviews por loja",
-      "fatura por loja",
-      "faturamento por loja",
-      "frete por loja",
-      "lucro por loja",
-      "metricas de loja",
-      "metricas por loja",
-      "preferencias por loja",
-      "reembolsos por loja",
-      "relatorio de loja",
-      "revisoes por loja",
-      "valores de loja",
-      "valores por loja",
-      "visitas por loja",
-      "votos por loja"
-    ],
-    "frequencia_total": 40,
-    "num_subtemas": 22
-  },
-  {
-    "macrotema": "atributos de clientes",
-    "neuron": "5_14",
-    "subtemas": [
-      "atributos de categoria",
-      "atributos de categorias",
-      "atributos de cliente",
-      "atributos de cliente por site",
-      "atributos de clientes",
-      "atributos de google shopping",
-      "atributos de sku",
-      "conjunto de atributos",
-      "metadados de atributos visuais",
-      "super atributos",
-      "valores de atributo por loja"
-    ],
-    "frequencia_total": 40,
-    "num_subtemas": 11
-  },
-  {
-    "macrotema": "gestao de downloads",
-    "neuron": "14_13",
-    "subtemas": [
-      "gerenciamento de assinaturas",
-      "gerenciamento de comunicacao",
-      "gerenciamento de consumidores",
-      "gerenciamento de downloads",
-      "gerenciamento de filas",
-      "gerenciamento de links de download",
-      "gerenciamento de listas de desejos",
-      "gerenciamento de midia de produtos",
-      "gerenciamento de newsletter",
-      "gerenciamento de newsletters",
-      "gerenciamento de opcoes de pacotes",
-      "gerenciamento de redirecionamentos",
-      "gerenciamento de sessoes",
-      "gerenciamento de sitemap",
-      "gerenciamento de sitemaps",
-      "gerenciamento de tempo de expiracao",
-      "gerenciamento de tokens oauth",
-      "gerenciamento de usuarios",
-      "gerenciamento de versao",
-      "gestao de alertas",
-      "gestao de blocos",
-      "gestao de blocos cms",
-      "gestao de consumidores",
-      "gestao de conteudo",
-      "gestao de credito",
-      "gestao de downloads",
-      "gestao de feedback",
-      "gestao de flags",
-      "gestao de paginas cms",
-      "gestao de permissoes",
-      "gestao de reembolsos",
-      "gestao de tempo",
-      "gestao de usuarios",
-      "gestao de versoes"
-    ],
-    "frequencia_total": 40,
-    "num_subtemas": 34
-  },
-  {
-    "macrotema": "associacao de loja",
-    "neuron": "6_0",
-    "subtemas": [
-      "agrupamento de lojas",
-      "associacao de blocos a lojas",
-      "associacao de loja",
-      "associacao de lojas",
-      "associacao de lojas a paginas",
-      "associacao de promocao a loja",
-      "associacao regra-loja",
-      "associacao review-loja",
-      "associar loja",
-      "cadastro de loja",
-      "estrutura de loja",
-      "gerenciamento de loja",
-      "gerenciamento de lojas",
-      "hierarquia site-loja",
-      "layout de loja",
-      "layout por loja",
-      "mapeamento de loja",
-      "mapeamento de lojas",
-      "relacao pagina-loja",
-      "relacionamento de loja",
-      "vinculacao de loja a fila",
-      "vinculacao de lojas a acordos",
-      "vinculo acordo-loja",
-      "vinculo bloco-loja",
-      "vinculo cliente-loja",
-      "vinculo com loja",
-      "vinculo fila-loja"
-    ],
-    "frequencia_total": 39,
-    "num_subtemas": 27
-  },
-  {
-    "macrotema": "valores de cliente",
-    "neuron": "14_0",
-    "subtemas": [
-      "alertas de clientes",
-      "categorias de clientes",
-      "cliente e lista",
-      "comentarios de clientes",
-      "endereco de cliente",
-      "enderecos de clientes",
-      "entidades de cliente",
-      "entidades de clientes",
-      "feedback de clientes",
-      "frequencia de uso por cliente",
-      "interesse de clientes",
-      "login de clientes",
-      "resumo de clientes",
-      "sessoes persistentes de clientes",
-      "status de cliente",
-      "valores de cliente",
-      "valores numericos de cliente",
-      "vinculo admin-cliente",
-      "vinculo cliente-website",
-      "vinculo pedido-cliente",
-      "visitante e cliente",
-      "visitas de clientes",
-      "wishlist de clientes"
-    ],
-    "frequencia_total": 37,
-    "num_subtemas": 23
-  },
-  {
-    "macrotema": "promocoes de vendas",
-    "neuron": "4_4",
-    "subtemas": [
-      "analise de vendas",
-      "comentarios de vendas",
-      "conversao de vendas",
-      "desempenho de precos em vendas",
-      "escopo de regras de venda",
-      "gestao de vendas",
-      "itens de venda",
-      "mapeamento de politicas de vendas",
-      "metricas de vendas",
-      "promocao de vendas",
-      "promocoes de vendas",
-      "quantidade de vendas",
-      "regras de venda",
-      "regras de vendas",
-      "rotulos de vendas",
-      "vendas anuais de produtos",
-      "vendas cruzadas e upsell",
-      "vendas de itens",
-      "vendas diarias de produtos",
-      "vendas mensais de produtos"
-    ],
-    "frequencia_total": 37,
-    "num_subtemas": 20
-  },
-  {
-    "macrotema": "opcoes de produto",
-    "neuron": "2_0",
-    "subtemas": [
-      "opcoes de bundle de produtos",
-      "opcoes de produto",
-      "opcoes de produto bundle",
-      "opcoes de produto em lista de desejos",
-      "opcoes de produtos",
-      "opcoes de produtos em pedidos",
-      "preco de opcao de produto",
-      "preco de opcoes de produtos",
-      "preco de produto bundle",
-      "precos de produtos bundle",
-      "produto em bundle",
-      "produtos configuraveis",
-      "selecao de opcoes de produto",
-      "selecao de produtos bundle",
-      "titulos de opcoes de produto",
-      "valores de opcao de produto",
-      "variacoes de produto configuravel"
-    ],
-    "frequencia_total": 37,
-    "num_subtemas": 17
-  },
-  {
-    "macrotema": "configuracao de lojas",
-    "neuron": "7_0",
-    "subtemas": [
-      "alteracoes de design por loja",
       "configuracao de avaliacao por loja",
       "configuracao de conteudo por loja",
+      "configuracao de e-commerce",
       "configuracao de escopo de loja",
+      "configuracao de estoque",
       "configuracao de incremento por loja",
       "configuracao de loja",
+      "configuracao de loja para preco",
       "configuracao de lojas",
       "configuracao de lojas magento",
       "configuracao de paginas por loja",
+      "configuracao de precos por loja",
+      "configuracao de vendas",
       "configuracao por loja",
       "configuracoes de loja",
       "configuracoes de loja padrao",
-      "configuracoes de loja para opcoes",
-      "gerenciamento de multiplas lojas",
-      "parametros de loja",
-      "relacao bloco cms loja",
-      "valores de variaveis por loja"
+      "configuracoes de loja para opcoes"
     ],
-    "frequencia_total": 36,
+    "frequencia_total": 38,
     "num_subtemas": 17
   },
   {
-    "macrotema": "permissoes de acesso",
-    "neuron": "14_9",
+    "macrotema": "tipo de entidade",
+    "neuron": "6_11",
     "subtemas": [
-      "armazenamento de tokens de autenticacao",
-      "atividade de usuario",
-      "auditoria de login",
-      "autenticacao de admin",
-      "autenticacao de administradores",
-      "autenticacao de aplicativos",
-      "autenticacao de usuarios",
-      "autenticacao oauth",
-      "autorizacao de aplicativos",
-      "chave de sessao persistente",
-      "controle de acesso",
-      "controle de acesso admin",
-      "controle de compartilhamento de arquivos",
-      "controle de nonce oauth",
-      "controle de privilegios",
-      "controle de tokens",
-      "credenciais de acesso",
-      "hierarquia de usuarios",
-      "logs de seguranca",
-      "nonce de seguranca",
-      "papeis de acesso",
-      "perfil de acesso",
-      "perfis de autorizacao",
-      "permissoes de acesso",
-      "permissoes de funcao",
-      "permissoes de sistema",
-      "permissoes de usuario",
-      "seguranca de api",
-      "tokens de acesso"
+      "associacao de entidades",
+      "classificacao de entidades",
+      "codigo de entidade",
+      "comportamento de entidade",
+      "configuracao de entidades",
+      "entidade de avaliacao",
+      "entidade de endereco",
+      "entidade de entidade",
+      "entidade de importacao",
+      "entidade de rating",
+      "entidade de revisao",
+      "entidades de tipo",
+      "entidades revisadas",
+      "gerenciamento de sequencias de entidades",
+      "gestao de entidades",
+      "identificacao de entidade",
+      "relacionamento de entidades",
+      "tipo de entidade",
+      "tipos de entidade",
+      "tipos de entidade de review",
+      "tipos de entidade de vendas",
+      "valores de entidade",
+      "valores por entidade"
     ],
-    "frequencia_total": 36,
-    "num_subtemas": 29
+    "frequencia_total": 37,
+    "num_subtemas": 23
   },
   {
-    "macrotema": "opcoes de atributo",
-    "neuron": "6_14",
-    "subtemas": [
-      "atributo de endereco",
-      "atributos de endereco",
-      "atributos de imagem",
-      "atributos de selecao",
-      "atributos por loja",
-      "definicao de dados de atributos",
-      "identificacao de atributo",
-      "opcoes de atributo",
-      "posicionamento de atributos",
-      "relacao atributo-opcao",
-      "rotulagem de atributos",
-      "rotulos de atributos configuraveis",
-      "traducao de atributos",
-      "valores de atributos em lojas",
-      "valores de atributos por loja",
-      "valores de opcoes de atributos",
-      "visibilidade de atributos"
-    ],
-    "frequencia_total": 32,
-    "num_subtemas": 17
-  },
-  {
-    "macrotema": "status de pedido",
-    "neuron": "3_8",
-    "subtemas": [
-      "estado de pedido",
-      "historico de status de pedido",
-      "historico de status de pedidos",
-      "mapeamento de status de pedido",
-      "mapeamento status-pedido",
-      "pedidos por status",
-      "reembolsos por status do pedido",
-      "rotulos de status de pedido",
-      "status de pedido",
-      "status de pedido por loja",
-      "status de pedidos"
-    ],
-    "frequencia_total": 32,
-    "num_subtemas": 11
-  },
-  {
-    "macrotema": "logistica de remessas",
-    "neuron": "6_8",
-    "subtemas": [
-      "agregacao de frete",
-      "calculo de frete",
-      "comentarios de remessa",
-      "cotacao de frete",
-      "cotacoes de frete",
-      "custo de frete",
-      "custo de transporte",
-      "detalhes de remessa",
-      "gerenciamento de remessas",
-      "grade de remessas",
-      "informacoes de entrega",
-      "itens de remessa",
-      "logistica de remessas",
-      "processamento de remessas",
-      "rastreamento de produtos",
-      "rastreamento de remessas",
-      "regioes de entrega",
-      "status de remessa",
-      "tabela de frete"
-    ],
-    "frequencia_total": 31,
-    "num_subtemas": 19
-  },
-  {
-    "macrotema": "regras de desconto",
-    "neuron": "12_3",
-    "subtemas": [
-      "analise de descontos",
-      "configuracao de descontos",
-      "controle de descontos",
-      "descontos aplicados",
-      "descontos percentuais",
-      "descontos por item",
-      "descontos promocionais",
-      "desempenho de descontos",
-      "gestao de descontos",
-      "precos e descontos",
-      "regra de desconto por site",
-      "regras de desconto",
-      "regras de desconto por atributo",
-      "regras de desconto por produto",
-      "vinculacao de regras de desconto a clientes"
-    ],
-    "frequencia_total": 30,
-    "num_subtemas": 15
-  },
-  {
-    "macrotema": "precos por site",
+    "macrotema": "preco por site",
     "neuron": "9_1",
     "subtemas": [
-      "alerta de preco",
-      "faixa de preco",
-      "opcoes de precos",
+      "preco de itens de pacote",
       "preco de link por site",
+      "preco de selecao",
+      "preco de selecao de bundle",
+      "preco especial",
+      "preco fixo ou percentual",
+      "preco por quantidade",
+      "preco por regra",
       "preco por site",
       "preco por website",
+      "precos de bundle",
+      "precos de selecao",
+      "precos por quantidade",
       "precos por site",
       "precos por website",
-      "valores de precos"
+      "tipo de preco de selecao",
+      "tipo de preco fixo"
     ],
-    "frequencia_total": 29,
-    "num_subtemas": 9
+    "frequencia_total": 37,
+    "num_subtemas": 17
   },
   {
-    "macrotema": "status de atualizacao",
-    "neuron": "13_7",
+    "macrotema": "categorias de produtos",
+    "neuron": "14_5",
     "subtemas": [
-      "controle de alteracoes",
-      "estado de visualizacao",
-      "registro de alteracoes",
-      "status de atualizacao",
-      "status de disponibilidade",
-      "status de execucao",
-      "status de imagens",
-      "status de indexacao",
-      "status de inscricao",
-      "status de leitura",
-      "status de revisao",
-      "status de visibilidade",
-      "visibilidade de status"
+      "arvore de categorias",
+      "associacao categoria-produto",
+      "associacao de categorias",
+      "associacao de produtos a categorias",
+      "categorias de classificacao",
+      "categorias de loja",
+      "categorias de produto",
+      "categorias de produtos",
+      "categorias de relacao entre produtos",
+      "categorias por loja",
+      "datas de categoria",
+      "entidade de categoria",
+      "estrutura de categoria",
+      "gerenciamento de arvore de categorias",
+      "hierarquia de categorias",
+      "indexacao de produtos por categoria",
+      "indice categoria-produto",
+      "mapeamento de categorias",
+      "mapeamento de categorias de produtos",
+      "mapeamento de produtos em categorias",
+      "mapeamento de produtos por categoria",
+      "posicionamento de produtos em categorias",
+      "posicionamento em categoria",
+      "relacao produto-categoria",
+      "relacionamentos entre categorias",
+      "valores decimais de categorias"
     ],
-    "frequencia_total": 29,
-    "num_subtemas": 13
+    "frequencia_total": 36,
+    "num_subtemas": 26
   },
   {
-    "macrotema": "templates de newsletter",
-    "neuron": "0_14",
+    "macrotema": "variacao por loja",
+    "neuron": "0_5",
     "subtemas": [
+      "analise de precos por loja",
+      "avaliacoes por loja",
+      "contagem de reviews por loja",
+      "desempenho por loja",
+      "distribuicao de avaliacoes por loja",
+      "distribuicao de reviews por loja",
+      "indexacao por loja",
+      "mapeamento multi-loja de reviews",
+      "metricas de loja",
+      "metricas por loja",
+      "publicacao por loja",
+      "titulos de opcoes por loja",
+      "traducao de opcoes por loja",
+      "traducao de rotulos por loja",
+      "traducao de status por loja",
+      "valores de atributos por loja",
+      "valores de variaveis por loja",
+      "valores decimais em lojas",
+      "variacao de precos por loja",
+      "variacao por loja",
+      "visibilidade por loja"
+    ],
+    "frequencia_total": 32,
+    "num_subtemas": 21
+  },
+  {
+    "macrotema": "envio de newsletter",
+    "neuron": "14_11",
+    "subtemas": [
+      "assinantes de email",
+      "assinatura de newsletter",
+      "assinaturas de newsletter",
+      "distribuicao de newsletter",
       "envio de boletins",
+      "envio de links",
       "envio de newsletter",
+      "erros de newsletter",
+      "fila de envio",
+      "fila de envio de e-mails",
       "fila de newsletter",
       "fila de newsletter por loja",
-      "inbox de alertas",
-      "layout de pagina",
-      "layout de paginas",
-      "layout de tema",
-      "layout de widget",
-      "layout por tema",
-      "layout updates",
       "modelo de newsletter",
       "modelos de email",
       "modelos de newsletter",
       "newsletter de marketing",
+      "problemas de fila de envio",
       "problemas de newsletter",
+      "relacionamento de fila de newsletter",
       "template de email",
       "template de newsletter",
       "templates de newsletter"
     ],
-    "frequencia_total": 29,
-    "num_subtemas": 19
-  },
-  {
-    "macrotema": "temas de design",
-    "neuron": "12_14",
-    "subtemas": [
-      "agendamento de design",
-      "alteracoes de tema",
-      "arquitetura de temas",
-      "arquivos de tema",
-      "atualizacao de layout",
-      "atualizacoes de layout",
-      "conteudo de tema",
-      "customizacao de layout",
-      "design de comunicacao",
-      "estrutura de temas magento",
-      "historico de temas",
-      "mudanca de design",
-      "mudanca de tema",
-      "mudancas de design",
-      "mudancas de tema",
-      "temas de design",
-      "temas de interface",
-      "temas do magento",
-      "temas visuais",
-      "versao de tema"
-    ],
-    "frequencia_total": 27,
-    "num_subtemas": 20
-  },
-  {
-    "macrotema": "grupos de clientes",
-    "neuron": "13_0",
-    "subtemas": [
-      "agrupamento de clientes",
-      "codigo de grupo de clientes",
-      "estrutura de grupos de clientes",
-      "grupo de clientes",
-      "grupos de clientes",
-      "mapeamento de grupos de clientes"
-    ],
-    "frequencia_total": 27,
-    "num_subtemas": 6
-  },
-  {
-    "macrotema": "precos por grupo de cliente",
-    "neuron": "12_0",
-    "subtemas": [
-      "configuracao de precos por grupo de clientes",
-      "estrategia de precos por grupo",
-      "estrutura de precos por grupo de clientes",
-      "indice de precificacao por grupo de clientes",
-      "indice de preco por grupo de cliente",
-      "indice de precos por grupo de cliente",
-      "precificacao de produtos por grupo de cliente",
-      "preco por grupo cliente",
-      "preco por grupo de cliente",
-      "preco por grupo de clientes",
-      "precos de produtos por grupo de cliente",
-      "precos por grupo cliente",
-      "precos por grupo de cliente",
-      "precos por grupo de clientes",
-      "variacao de precos por grupo de clientes"
-    ],
-    "frequencia_total": 27,
-    "num_subtemas": 15
+    "frequencia_total": 31,
+    "num_subtemas": 22
   },
   {
     "macrotema": "regras de catalogo",
-    "neuron": "0_6",
+    "neuron": "14_7",
     "subtemas": [
       "associacao de catalogo",
       "catalogo de amostras",
       "catalogo de downloads",
+      "categorias de catalogo",
       "condicoes de catalogo",
       "configuracao de catalogo",
+      "dados de indexacao de catalogo",
       "estrutura de catalogo",
       "galeria de midia de catalogo",
+      "indexacao de catalogo",
       "mapeamento de catalogo",
       "mapeamento de links de catalogo",
       "mapeamento de opcoes de catalogo",
@@ -810,235 +777,390 @@
       "produtos afetados por regras de catalogo",
       "regras de catalogo",
       "regras de catalogo por grupo",
+      "regras de catalogo por grupo de clientes",
       "regras de catalogo por site",
-      "rotulos de opcoes de catalogo"
+      "rotulos de opcoes de catalogo",
+      "tipos de entidade de catalogo"
     ],
-    "frequencia_total": 26,
-    "num_subtemas": 16
+    "frequencia_total": 31,
+    "num_subtemas": 21
+  },
+  {
+    "macrotema": "identificacao de loja",
+    "neuron": "0_3",
+    "subtemas": [
+      "cadastro de loja",
+      "catalogo de loja",
+      "etiqueta de loja",
+      "eventos de loja",
+      "grupo de loja",
+      "identificacao de loja",
+      "identificacao de lojas",
+      "identificadores de loja",
+      "labels de loja",
+      "localizacao de loja",
+      "log de loja",
+      "loja de comercio",
+      "loja padrao",
+      "opcoes de loja",
+      "preferencias por loja",
+      "registro por loja",
+      "relatorio de loja",
+      "sessoes de loja",
+      "testes a/b de loja",
+      "traducao de loja",
+      "valores de loja",
+      "valores de loja padrao",
+      "visitas a lojas",
+      "votos por loja"
+    ],
+    "frequencia_total": 30,
+    "num_subtemas": 24
+  },
+  {
+    "macrotema": "conteudo de tema",
+    "neuron": "5_0",
+    "subtemas": [
+      "alteracoes de tema",
+      "arquitetura de temas",
+      "arquivos de tema",
+      "conteudo de acordo",
+      "conteudo de contrato",
+      "conteudo de e-mail",
+      "conteudo de email",
+      "conteudo de landing pages",
+      "conteudo de mensagem",
+      "conteudo de reviews",
+      "conteudo de tema",
+      "conteudo de variaveis",
+      "conteudo institucional",
+      "estrutura de temas magento",
+      "hierarquia de temas",
+      "historico de temas",
+      "mapeamento de temas",
+      "mudanca de tema",
+      "mudancas de tema",
+      "temas de design",
+      "temas de interface",
+      "temas do magento",
+      "temas visuais",
+      "versao de tema"
+    ],
+    "frequencia_total": 29,
+    "num_subtemas": 24
+  },
+  {
+    "macrotema": "taxas de envio",
+    "neuron": "5_8",
+    "subtemas": [
+      "comentarios de envio",
+      "comentarios de remessa",
+      "condicoes de entrega",
+      "detalhes de remessa",
+      "endereco de entrega",
+      "grade de remessas",
+      "informacoes de entrega",
+      "itens de remessa",
+      "logistica de entregas",
+      "logistica de envio",
+      "logistica de remessas",
+      "metodos de entrega",
+      "metodos de envio",
+      "precos de envio",
+      "regioes de entrega",
+      "status de envio",
+      "status de envios",
+      "status de remessa",
+      "taxa de envio",
+      "taxas de envio",
+      "transportadoras de envio"
+    ],
+    "frequencia_total": 29,
+    "num_subtemas": 21
+  },
+  {
+    "macrotema": "gerenciamento de arquivos",
+    "neuron": "5_4",
+    "subtemas": [
+      "gerenciamento de arquivos",
+      "gerenciamento de assinaturas",
+      "gerenciamento de cache",
+      "gerenciamento de conteudo",
+      "gerenciamento de downloads",
+      "gerenciamento de links de download",
+      "gerenciamento de metadados",
+      "gerenciamento de midia de produtos",
+      "gerenciamento de newsletter",
+      "gerenciamento de newsletters",
+      "gerenciamento de redirecionamentos",
+      "gerenciamento de sessoes",
+      "gerenciamento de sessoes por site",
+      "gerenciamento de temas",
+      "gerenciamento de usuarios",
+      "gerenciamento de versao",
+      "gestao de blocos",
+      "gestao de conteudo",
+      "gestao de downloads",
+      "gestao de permissoes",
+      "gestao de usuarios",
+      "gestao de versoes"
+    ],
+    "frequencia_total": 29,
+    "num_subtemas": 22
   },
   {
     "macrotema": "conversao de moedas",
-    "neuron": "8_4",
+    "neuron": "8_2",
     "subtemas": [
-      "analise de moedas",
       "cambio entre moedas",
       "codigos de moeda",
       "conversao de moeda",
       "conversao de moedas",
       "conversao monetaria",
+      "endereco de cotacao",
+      "enderecos de cotacao",
       "itens de cotacao",
+      "log de cotacoes",
       "moedas",
       "moedas de transacao",
+      "pagamento de cotacao",
+      "precificacao dinamica de opcoes",
       "quantidades e valores",
+      "registro de cotacoes",
       "taxa de cambio",
       "taxa de conversao",
       "taxas de cambio",
       "taxas de conversao por site",
-      "tempo de cotacao",
-      "valores decimais"
+      "taxas de transacao",
+      "tempo de cotacao"
     ],
-    "frequencia_total": 25,
-    "num_subtemas": 16
+    "frequencia_total": 28,
+    "num_subtemas": 21
   },
   {
-    "macrotema": "identificacao de loja",
-    "neuron": "5_0",
+    "macrotema": "armazenamento de dados",
+    "neuron": "14_14",
     "subtemas": [
-      "classificacao de lojas",
-      "comportamento de loja",
-      "detalhes de loja",
-      "entidade de loja",
-      "escopo de lojas",
-      "grupo de lojas",
-      "hierarquia website-loja",
-      "identificacao de loja",
-      "identificacao de lojas",
-      "identificadores de loja",
-      "links por loja",
-      "localizacao de loja",
-      "loja associada",
-      "loja de comercio",
-      "loja padrao",
-      "resumo de loja",
-      "sessoes de loja",
-      "traducao de loja",
-      "trafego em loja",
-      "visitas a lojas"
+      "armazenamento chave-valor",
+      "armazenamento de arquivos",
+      "armazenamento de atributos datetime",
+      "armazenamento de cache",
+      "armazenamento de dados",
+      "armazenamento de dados de atributos numericos",
+      "armazenamento de dados eav",
+      "armazenamento de dados numericos",
+      "armazenamento de sessao",
+      "armazenamento de tokens de autenticacao",
+      "armazenamento de valores",
+      "armazenamento de valores temporais",
+      "armazenamento eav",
+      "cache de aplicacao",
+      "cache de dados",
+      "estrutura de dados",
+      "estrutura de dados geografico",
+      "importacao de dados",
+      "integracao de dados",
+      "sincronizacao de dados"
     ],
     "frequencia_total": 25,
     "num_subtemas": 20
   },
   {
-    "macrotema": "vendas agregadas",
-    "neuron": "5_4",
+    "macrotema": "identificacao de regioes",
+    "neuron": "12_5",
     "subtemas": [
-      "agregacao anual de vendas",
-      "agregacao de vendas",
-      "agregacao diaria de vendas",
-      "agregacao mensal de vendas",
-      "controle de aplicacoes de regras de vendas",
-      "cotacoes de vendas",
-      "estados de fluxo de vendas",
-      "relatorio de vendas",
-      "valores monetarios de vendas",
-      "vendas agregadas",
-      "vendas agregadas por periodo",
-      "vendas anuais",
-      "vendas diarias",
-      "vendas mensais",
-      "vendas por periodo",
-      "vendas por status"
+      "codigos de regiao",
+      "codigos de regioes",
+      "codigos de subdivisao",
+      "formato de endereco por pais",
+      "identificacao de paises",
+      "identificacao de regioes",
+      "identificacao de regras",
+      "identificacao de variaveis",
+      "identificacao geografica",
+      "localizacao de strings",
+      "localizacao geografica",
+      "localizacao regional",
+      "nomes de regioes",
+      "nomes de regioes administrativas",
+      "padrao de formatacao de localizacao",
+      "padroes iso de paises",
+      "pais e formato",
+      "regioes geograficas",
+      "regioes por pais",
+      "subdivisoes administrativas"
     ],
     "frequencia_total": 24,
-    "num_subtemas": 16
+    "num_subtemas": 20
   },
   {
-    "macrotema": "controle de estoque",
-    "neuron": "2_6",
+    "macrotema": "status de indexacao",
+    "neuron": "10_4",
     "subtemas": [
-      "alerta de estoque",
-      "alertas de estoque",
-      "atualizacao de itens",
-      "controle de estoque",
-      "disponibilidade de itens",
-      "distribuicao de estoque",
-      "estoque padrao",
-      "gerenciamento de estoque",
-      "gestao de estoque",
-      "identificacao de estoque",
-      "nome de estoque",
-      "notificacoes de estoque",
-      "quantidade em estoque",
-      "rastreamento de estoque",
-      "status de estoque produto",
-      "valores de estoque"
+      "estado de indexacao",
+      "indice de disponibilidade",
+      "popularidade de termos",
+      "status de atualizacao",
+      "status de disponibilidade",
+      "status de execucao",
+      "status de imagens",
+      "status de indexacao",
+      "status de leitura",
+      "status de revisao",
+      "tempo de criacao"
     ],
     "frequencia_total": 24,
-    "num_subtemas": 16
+    "num_subtemas": 11
   },
   {
     "macrotema": "uso de cupons",
-    "neuron": "14_4",
+    "neuron": "11_1",
     "subtemas": [
-      "agregacao de cupons",
-      "analise de cupons",
       "analise de cupons de desconto",
+      "analise de descontos",
+      "analise de periodos promocionais",
       "configuracoes de cupons",
-      "contagem de utilizacoes de cupom",
       "cupons de desconto",
-      "cupons e uso",
-      "gerenciamento de cupons",
+      "descontos aplicados",
+      "descontos por item",
       "gestao de cupons",
-      "traducao de cupons",
+      "gestao de descontos",
+      "promocoes por website",
       "uso de cupons",
+      "uso de cupons por cliente",
+      "uso de cupons promocionais por cliente",
       "vendas com cupons"
     ],
     "frequencia_total": 23,
-    "num_subtemas": 12
+    "num_subtemas": 14
   },
   {
-    "macrotema": "classificacao tributaria",
-    "neuron": "10_5",
+    "macrotema": "associacao de loja",
+    "neuron": "1_3",
     "subtemas": [
-      "aliquota fiscal",
-      "aliquota tributaria",
-      "analise de impostos",
-      "categorias de tributacao",
-      "classes de impostos",
-      "classificacao de impostos",
-      "classificacao fiscal",
-      "classificacao fiscal de clientes",
-      "classificacao fiscal de produtos",
-      "classificacao tributaria",
-      "detalhamento fiscal",
-      "prioridade de tributacao",
-      "regiao fiscal",
-      "regioes fiscais",
-      "tipos de classe fiscal",
-      "tipos de classe tributaria",
-      "tributacao weee por produto"
+      "agrupamento de lojas",
+      "associacao de loja",
+      "associacao de lojas",
+      "associar loja",
+      "entidade de loja",
+      "grupo de lojas",
+      "links por loja",
+      "loja associada",
+      "relacionamento de loja",
+      "vinculacao de loja a fila",
+      "vinculacao de lojas a acordos",
+      "vinculo acordo-loja",
+      "vinculo com loja"
     ],
-    "frequencia_total": 23,
-    "num_subtemas": 17
-  },
-  {
-    "macrotema": "tipos de entidade eav",
-    "neuron": "6_11",
-    "subtemas": [
-      "codigo de entidade",
-      "entidade de eav",
-      "entidade eav",
-      "entidades de tipo",
-      "modelo de entidade eav",
-      "modelo eav de entidades",
-      "tipo de entidade",
-      "tipos de entidade",
-      "tipos de entidade de catalogo",
-      "tipos de entidade de vendas",
-      "tipos de entidade eav",
-      "valores de entidade",
-      "valores por entidade"
-    ],
-    "frequencia_total": 23,
+    "frequencia_total": 20,
     "num_subtemas": 13
   },
   {
-    "macrotema": "identificacao de website",
-    "neuron": "12_10",
+    "macrotema": "status de avaliacoes",
+    "neuron": "9_4",
     "subtemas": [
-      "analise de urls",
-      "associacao a websites",
-      "associacao de websites",
-      "cadastro de websites",
-      "dados de website",
-      "disponibilidade por website",
-      "escopo de website",
-      "escopo de website em regras",
-      "grupo de sites",
-      "identificacao de site",
-      "identificacao de website",
-      "informacoes de navegacao",
-      "informacoes de referenciador",
-      "links de rodape",
-      "vinculo link-website",
-      "website associado"
+      "agregacao de avaliacoes",
+      "avaliacao de qualidade",
+      "avaliacao por estrelas",
+      "classificacao de avaliacoes",
+      "classificacao de reviews",
+      "contagem de reviews",
+      "contagem de revisoes",
+      "escalas de pontuacao",
+      "estrutura de avaliacoes",
+      "metricas de revisao",
+      "moderacao de reviews",
+      "opcoes de avaliacao",
+      "percentual aprovado",
+      "resumo de avaliacoes",
+      "status de avaliacoes",
+      "tipos de avaliacao",
+      "titulos de avaliacao"
     ],
-    "frequencia_total": 22,
-    "num_subtemas": 16
+    "frequencia_total": 19,
+    "num_subtemas": 17
   },
   {
-    "macrotema": "configuracoes de produtos",
+    "macrotema": "valores de configuracao",
+    "neuron": "1_14",
+    "subtemas": [
+      "configuracao de acordos",
+      "configuracao de avaliacao",
+      "configuracao de avaliacoes",
+      "configuracao de endpoints",
+      "configuracao de escopo",
+      "configuracao de pacotes",
+      "configuracao de paises-alvo",
+      "configuracao de ratings",
+      "configuracao de termos de servico",
+      "configuracoes de pacotes",
+      "dados de configuracao",
+      "escopo de configuracao",
+      "indice de configuracao",
+      "valores de configuracao",
+      "variaveis de configuracao"
+    ],
+    "frequencia_total": 19,
+    "num_subtemas": 15
+  },
+  {
+    "macrotema": "itens de lista de desejos",
+    "neuron": "2_11",
+    "subtemas": [
+      "disponibilidade de itens",
+      "itens comprados",
+      "itens de lista de compras",
+      "itens de lista de desejos",
+      "lista de desejos",
+      "opcoes de produtos em pedidos",
+      "quantidade de itens",
+      "quantidade disponivel",
+      "quantidade em estoque"
+    ],
+    "frequencia_total": 19,
+    "num_subtemas": 9
+  },
+  {
+    "macrotema": "rastreamento de envio",
+    "neuron": "5_7",
+    "subtemas": [
+      "agregacao de envios",
+      "comunicacao entre remetente e destinatario",
+      "controle temporal de envios",
+      "envio para assinantes",
+      "informacoes de transporte",
+      "mensagens de presente",
+      "processamento de remessas",
+      "rastreamento de envio",
+      "rastreamento de envios",
+      "rastreamento de produtos",
+      "rastreamento de remessas",
+      "remetente de campanha",
+      "remetente e destinatario"
+    ],
+    "frequencia_total": 18,
+    "num_subtemas": 13
+  },
+  {
+    "macrotema": "atributos por loja",
     "neuron": "9_14",
     "subtemas": [
-      "configuracao de atributos",
-      "configuracao de cadastro",
-      "configuracao de checkout",
-      "configuracao de e-commerce",
-      "configuracao de estoque",
-      "configuracao de inventario",
-      "configuracao de item de lista de desejos",
-      "configuracao de itens de cesta",
-      "configuracao de produto variavel",
-      "configuracao de produtos digitais",
-      "configuracao de produtos em pacote",
-      "configuracao de promocoes",
-      "configuracao de tipos de produtos",
-      "configuracao de vendas",
-      "configuracoes de produtos",
-      "configuracoes de selecao de produtos"
+      "atributos de cliente por site",
+      "atributos de data de clientes",
+      "atributos de entidade",
+      "atributos por loja",
+      "super atributos"
     ],
-    "frequencia_total": 22,
-    "num_subtemas": 16
+    "frequencia_total": 18,
+    "num_subtemas": 5
   },
   {
     "macrotema": "ordenacao de itens",
-    "neuron": "9_9",
+    "neuron": "14_3",
     "subtemas": [
-      "hierarquia de categorias",
-      "hierarquia de papeis",
-      "hierarquia de temas",
+      "hierarquia de transacoes",
       "ordem de exibicao",
-      "ordenacao de atributos",
+      "ordem de exibicao de opcao",
       "ordenacao de atualizacao",
       "ordenacao de campos",
       "ordenacao de elementos",
@@ -1047,245 +1169,21 @@
       "ordenacao de itens",
       "ordenacao de layout",
       "ordenacao de midia",
+      "ordenacao de opcoes",
       "ordenacao de widgets",
-      "organizacao de conjuntos"
+      "organizacao de conjuntos",
+      "prioridade de exibicao"
     ],
-    "frequencia_total": 21,
+    "frequencia_total": 18,
     "num_subtemas": 15
   },
   {
-    "macrotema": "pagamento de pedidos",
-    "neuron": "4_7",
+    "macrotema": "rastreamento de visitantes",
+    "neuron": "7_7",
     "subtemas": [
-      "agregacao de pedidos",
-      "analise de pedidos",
-      "expedicao de pedidos",
-      "fluxo de pedidos",
-      "impostos de pedidos",
-      "lucro liquido de pedidos",
-      "pagamento de pedidos",
-      "pagamentos de pedidos",
-      "processamento de pedidos",
-      "rastreamento de pedidos",
-      "refeicao de pedidos"
-    ],
-    "frequencia_total": 20,
-    "num_subtemas": 11
-  },
-  {
-    "macrotema": "codigos de regioes",
-    "neuron": "10_11",
-    "subtemas": [
-      "codigos de regiao",
-      "codigos de regioes",
-      "codigos de subdivisao",
-      "dados geograficos",
-      "identificacao de paises",
-      "identificacao de regioes",
-      "localizacao de strings",
-      "localizacao geografica",
-      "localizacao regional",
-      "mapeamento de regioes",
-      "nomes de regioes",
-      "nomes de regioes administrativas",
-      "padroes iso de paises",
-      "regioes geograficas",
-      "regioes por pais",
-      "subdivisoes administrativas"
-    ],
-    "frequencia_total": 20,
-    "num_subtemas": 16
-  },
-  {
-    "macrotema": "classificacao de avaliacoes",
-    "neuron": "10_7",
-    "subtemas": [
-      "agregacao de avaliacoes",
-      "avaliacao de valor",
-      "avaliacao por estrelas",
-      "classificacao de aprovacao",
-      "classificacao de avaliacoes",
-      "classificacao de ratings",
-      "classificacao de reviews",
-      "entidade de avaliacao",
-      "entidade de rating",
-      "escalas de pontuacao",
-      "estrutura de avaliacoes",
-      "opcoes de avaliacao",
-      "resumo de classificacoes",
-      "tipos de avaliacao",
-      "titulos de avaliacao",
-      "votos de classificacao"
-    ],
-    "frequencia_total": 19,
-    "num_subtemas": 16
-  },
-  {
-    "macrotema": "detalhes de produtos",
-    "neuron": "0_1",
-    "subtemas": [
-      "amostras de produtos",
-      "componentes de produtos (hardware)",
-      "datas de produto",
-      "descricoes de produtos",
-      "detalhes de produto",
-      "detalhes de produtos",
-      "disponibilidade de produto",
-      "informacoes de produtos",
-      "pesquisa de produtos",
-      "produtos afetados",
-      "promocoes de produtos"
-    ],
-    "frequencia_total": 19,
-    "num_subtemas": 11
-  },
-  {
-    "macrotema": "identificacao de variaveis",
-    "neuron": "14_7",
-    "subtemas": [
-      "ativacao de acordo",
-      "controle de expiracao",
-      "controle de flags",
-      "controle de versao",
-      "geracao de ids incrementais",
-      "identificacao de chaves",
-      "identificacao de pais",
-      "identificacao de regras",
-      "identificacao de variaveis",
-      "identificacao de widget",
-      "identificacao geografica",
-      "identificadores de amostras",
-      "identificadores de bloco",
-      "registro de validacao",
-      "tentativas de validacao",
-      "validacao de entrada"
-    ],
-    "frequencia_total": 19,
-    "num_subtemas": 16
-  },
-  {
-    "macrotema": "preco por grupo",
-    "neuron": "11_1",
-    "subtemas": [
-      "configuracao de precos por grupo",
-      "preco de grupo",
-      "preco por grupo",
-      "precos por grupo",
-      "regra de preco por grupo e site",
-      "segmentacao de precos por grupo"
-    ],
-    "frequencia_total": 19,
-    "num_subtemas": 6
-  },
-  {
-    "macrotema": "calculo de precos",
-    "neuron": "9_0",
-    "subtemas": [
-      "alertas de preco",
-      "alertas de preco de produtos",
-      "avaliacao de preco",
-      "calculo de faixas de preco",
-      "calculo de precos",
-      "estrategias de precificacao",
-      "gerenciamento de precos de produtos digitais",
-      "gerenciamento de precos em e-commerce",
-      "indexacao de precos por site",
-      "indice de precos por loja",
-      "monitoramento de precos",
-      "otimizacao de precos",
-      "regulamentacao de precos",
-      "variacao de precos por opcao",
-      "variacao de precos por opcao de produto",
-      "variacao de precos por site",
-      "variaveis de preco"
-    ],
-    "frequencia_total": 18,
-    "num_subtemas": 17
-  },
-  {
-    "macrotema": "uso de regras promocionais",
-    "neuron": "13_4",
-    "subtemas": [
-      "analise de periodos promocionais",
-      "condicoes de promocao",
-      "controle de promocoes",
-      "desempenho de regras promocionais",
-      "mapeamento de regras promocionais",
-      "periodo de promocao",
-      "promocoes por website",
-      "regras de marketing",
-      "regras de promocao",
-      "regras de promocao e preco",
-      "regras de promocao por atributo",
-      "regras de promocao por site",
-      "rotulagem de regras promocionais",
-      "rotulos de regras de promocao",
-      "uso de regras promocionais",
-      "vigencia de regras promocionais"
-    ],
-    "frequencia_total": 18,
-    "num_subtemas": 16
-  },
-  {
-    "macrotema": "relacoes entre produtos",
-    "neuron": "1_3",
-    "subtemas": [
-      "associacao produto-website",
-      "relacao cliente-produto",
-      "relacao de produtos",
-      "relacao produto pai-filho",
-      "relacao produto-pai",
-      "relacionamento de produtos",
-      "relacionamento entre produtos",
-      "relacoes entre produtos",
-      "tipos de relacao de produto",
-      "vinculo entre produtos",
-      "vinculos entre produtos"
-    ],
-    "frequencia_total": 18,
-    "num_subtemas": 11
-  },
-  {
-    "macrotema": "modelo de atributos eav",
-    "neuron": "6_12",
-    "subtemas": [
-      "atributo de entidade",
-      "atributos de entidade",
-      "atributos inteiros eav",
-      "fieldset de eav",
-      "modelo de atributos eav",
-      "modelo eav"
-    ],
-    "frequencia_total": 18,
-    "num_subtemas": 6
-  },
-  {
-    "macrotema": "conteudo de e-mail",
-    "neuron": "7_8",
-    "subtemas": [
-      "comunicacao entre remetente e destinatario",
-      "comunicacao por email",
-      "conteudo de e-mail",
-      "conteudo de email",
-      "conteudo de mensagem",
-      "mensagens administrativas",
-      "mensagens de presente",
-      "mensagens do sistema",
-      "notificacoes administrativas",
-      "remetente de campanha",
-      "sistema de mensagens"
-    ],
-    "frequencia_total": 18,
-    "num_subtemas": 11
-  },
-  {
-    "macrotema": "rastreamento de acesso",
-    "neuron": "13_11",
-    "subtemas": [
-      "eventos de interacao",
+      "identificacao de visitantes",
       "rastreamento de acesso",
       "rastreamento de acessos",
-      "rastreamento de atualizacao",
       "rastreamento de eventos de cliente",
       "rastreamento de interacoes",
       "rastreamento de ip",
@@ -1295,193 +1193,244 @@
       "tipos de eventos de rastreamento"
     ],
     "frequencia_total": 18,
-    "num_subtemas": 11
-  },
-  {
-    "macrotema": "tipos de produto",
-    "neuron": "1_1",
-    "subtemas": [
-      "agrupamento de produtos",
-      "busca de produtos",
-      "condicoes de produto",
-      "estrutura de produtos",
-      "itens de produto",
-      "produtos desejados",
-      "selecao de produtos",
-      "tipos de produto",
-      "tipos de produtos",
-      "titulos de produto"
-    ],
-    "frequencia_total": 17,
     "num_subtemas": 10
   },
   {
-    "macrotema": "atributos decimais eav",
-    "neuron": "6_13",
-    "subtemas": [
-      "armazenamento de dados de atributos numericos",
-      "atributos de cadastro",
-      "atributos de endereco de cliente",
-      "atributos decimais de categoria",
-      "atributos decimais de clientes",
-      "atributos decimais de endereco",
-      "atributos decimais de vinculo",
-      "atributos decimais eav",
-      "mapeamento de atributos",
-      "opcoes de atributos eav",
-      "relacionamento categoria-atributo",
-      "relacionamento de atributos",
-      "visibilidade de atributos eav"
-    ],
-    "frequencia_total": 17,
-    "num_subtemas": 13
-  },
-  {
-    "macrotema": "campos de formulario",
-    "neuron": "2_14",
-    "subtemas": [
-      "campos de conjuntos",
-      "campos de formulario",
-      "categorias de campos",
-      "codigo de formulario",
-      "elementos de formulario",
-      "formularios de entrada",
-      "formularios de tipo",
-      "formularios eav",
-      "label de formulario",
-      "rotulos de fieldset de formulario",
-      "tipos de formulario",
-      "tipos de formulario eav",
-      "tipos de formularios",
-      "vinculos de layout"
-    ],
-    "frequencia_total": 17,
-    "num_subtemas": 14
-  },
-  {
     "macrotema": "registro de visitas",
-    "neuron": "0_11",
+    "neuron": "11_9",
     "subtemas": [
-      "dados de usuario temporarios",
       "log de captcha",
       "log de visitas",
       "logs de alerta",
       "logs de urls",
-      "oauth client registration",
+      "periodos de registro",
       "registro de captcha",
+      "registro de envio por ip",
+      "registro de eventos",
       "registro de feedback",
       "registro de login",
       "registro de logs",
       "registro de urls",
       "registro de visitantes",
       "registro de visitas",
-      "usuarios administradores",
+      "registro temporal",
       "visitas de usuarios"
     ],
-    "frequencia_total": 17,
-    "num_subtemas": 15
+    "frequencia_total": 18,
+    "num_subtemas": 16
   },
   {
-    "macrotema": "visualizacoes de produtos",
-    "neuron": "2_3",
+    "macrotema": "opcoes de produto",
+    "neuron": "0_11",
     "subtemas": [
-      "analise de visualizacoes de produtos",
-      "metricas de popularidade de produtos",
-      "metricas de produtos relacionados",
-      "produtos mais vendidos",
-      "ranking de produtos",
-      "ranking de produtos mais vendidos",
-      "ranking de produtos por vendas",
-      "relatorio de produtos mais vistos",
-      "visualizacao mensal de produtos",
-      "visualizacoes de produtos",
-      "visualizacoes diarias de produtos",
-      "visualizacoes mensais de produtos"
+      "componentes de produtos (hardware)",
+      "condicoes de produto",
+      "opcoes de produto",
+      "opcoes de produtos",
+      "personalizacao de produto em cotacao"
+    ],
+    "frequencia_total": 17,
+    "num_subtemas": 5
+  },
+  {
+    "macrotema": "metadados eav",
+    "neuron": "12_14",
+    "subtemas": [
+      "indice eav decimal",
+      "metadados de e-commerce",
+      "metadados de entidades de clientes",
+      "metadados de loja",
+      "metadados eav",
+      "valores datetime eav",
+      "valores de data",
+      "valores eav",
+      "valores eav de clientes",
+      "valores varchar de endereco"
+    ],
+    "frequencia_total": 17,
+    "num_subtemas": 10
+  },
+  {
+    "macrotema": "faturamento de pedidos",
+    "neuron": "3_9",
+    "subtemas": [
+      "analise financeira de pedidos",
+      "conversao de pedidos",
+      "faturamento de pedidos",
+      "fluxo de pedidos",
+      "lucro liquido de pedidos",
+      "vendas de pedidos"
+    ],
+    "frequencia_total": 16,
+    "num_subtemas": 6
+  },
+  {
+    "macrotema": "relacionamento de atributos",
+    "neuron": "7_13",
+    "subtemas": [
+      "atributos decimais de endereco",
+      "atributos decimais de vinculo",
+      "atributos decimais eav",
+      "definicao de dados de atributos",
+      "gerenciamento de atributos de data",
+      "identificacao de atributo",
+      "mapeamento de atributos",
+      "opcoes de atributos eav",
+      "ordenacao de atributos",
+      "precificacao de atributos",
+      "relacionamento categoria-atributo",
+      "relacionamento de atributos"
     ],
     "frequencia_total": 16,
     "num_subtemas": 12
   },
   {
-    "macrotema": "armazenamento de arquivos",
-    "neuron": "14_14",
+    "macrotema": "autenticacao de usuarios",
+    "neuron": "10_7",
     "subtemas": [
-      "armazenamento chave-valor",
-      "armazenamento de arquivos",
-      "armazenamento de dados",
-      "armazenamento de valores",
-      "armazenamento de valores temporais",
-      "armazenamento eav",
-      "gerenciamento de arquivos",
-      "gerenciamento de arvore de categorias",
-      "gerenciamento de atributos de data",
-      "gerenciamento de cache",
-      "gerenciamento de conteudo",
-      "gerenciamento de indices",
-      "gerenciamento de metadados",
-      "gerenciamento de temas"
+      "autenticacao de admin",
+      "autenticacao de administradores",
+      "autenticacao de aplicativos",
+      "autenticacao de consumidor",
+      "autenticacao de usuarios",
+      "autenticacao oauth",
+      "controle de nonce oauth",
+      "credenciais de acesso",
+      "gerenciamento de tokens oauth",
+      "hierarquia de usuarios",
+      "permissoes de usuario",
+      "tokens de acesso"
     ],
     "frequencia_total": 16,
+    "num_subtemas": 12
+  },
+  {
+    "macrotema": "itens de credito",
+    "neuron": "11_3",
+    "subtemas": [
+      "cartao de credito",
+      "comentarios de fatura",
+      "dados de cartao de credito",
+      "garantia estendida",
+      "informacoes de cartao de credito",
+      "itens de carrinho",
+      "itens de creditmemo",
+      "itens de credito",
+      "itens de fatura",
+      "notas de credito",
+      "titulos de garantia"
+    ],
+    "frequencia_total": 16,
+    "num_subtemas": 11
+  },
+  {
+    "macrotema": "notificacoes de administracao",
+    "neuron": "10_5",
+    "subtemas": [
+      "gravidade de notificacoes",
+      "informacoes de requisicao http",
+      "mensagens do sistema",
+      "notificacoes administrativas",
+      "notificacoes de administracao",
+      "politica de privacidade",
+      "severidade de mensagens",
+      "status de assinantes",
+      "status de assinatura",
+      "status de inscricao",
+      "termos de servico"
+    ],
+    "frequencia_total": 16,
+    "num_subtemas": 11
+  },
+  {
+    "macrotema": "associacao a websites",
+    "neuron": "3_2",
+    "subtemas": [
+      "associacao a websites",
+      "associacao de amostras",
+      "associacao de layout",
+      "associacao de link",
+      "associacao de pagina",
+      "associacao de paginas",
+      "associacao de promocoes a grupos",
+      "associacao de regras",
+      "associacao de websites",
+      "associacao produto-website",
+      "associacao regra-site",
+      "associatividade de links",
+      "vinculo link-website",
+      "website associado"
+    ],
+    "frequencia_total": 15,
     "num_subtemas": 14
   },
   {
-    "macrotema": "mapeamento de paginas cms",
-    "neuron": "12_12",
+    "macrotema": "status de visibilidade",
+    "neuron": "9_5",
     "subtemas": [
-      "arquivos de sitemap",
-      "blocos de conteudo",
-      "cabecalhos http",
-      "codigo de otimizacao",
-      "conteudo de landing pages",
-      "conteudo institucional",
-      "distribuicao de paginas cms",
-      "escopo de blocos cms",
-      "estrutura de navegacao",
-      "geracao de sitemap",
-      "mapeamento de blocos cms",
-      "mapeamento de paginas cms",
-      "mapeamento de urls",
-      "mapeamento de widgets em paginas",
-      "referencia de blocos em paginas"
+      "auditoria de exclusao",
+      "estado de visualizacao",
+      "status de visibilidade",
+      "visibilidade de comentario",
+      "visibilidade de comentarios",
+      "visibilidade de status"
     ],
-    "frequencia_total": 16,
-    "num_subtemas": 15
+    "frequencia_total": 15,
+    "num_subtemas": 6
   },
   {
-    "macrotema": "labels de loja",
-    "neuron": "4_0",
+    "macrotema": "regras de tributacao",
+    "neuron": "14_0",
     "subtemas": [
-      "catalogo de loja",
-      "categorias de loja",
-      "categorias por loja",
-      "conteudo de loja",
-      "etiqueta de loja",
-      "idiomas de loja",
-      "labels de loja",
-      "opcoes de loja",
-      "rotulos de imagem por loja",
-      "sitemap de loja",
-      "testes a/b de loja",
-      "traducao de opcoes por loja",
-      "traducao de rotulos por loja",
-      "traducao de status por loja",
-      "widgets de loja"
+      "codigos de regras fiscais",
+      "prioridade de regras fiscais",
+      "prioridade de taxas",
+      "prioridade de tributacao",
+      "regiao fiscal",
+      "regioes fiscais",
+      "regra de calculo de impostos",
+      "regra de tributacao",
+      "regras de calculo de imposto",
+      "regras de calculo de impostos",
+      "regras de tributacao",
+      "regras fiscais por pais",
+      "taxas de calculo",
+      "taxas por regiao"
     ],
-    "frequencia_total": 16,
-    "num_subtemas": 15
+    "frequencia_total": 15,
+    "num_subtemas": 14
+  },
+  {
+    "macrotema": "tipos de widget",
+    "neuron": "11_11",
+    "subtemas": [
+      "instancia de widget",
+      "instancias de widget",
+      "instancias de widgets",
+      "metadados de pagina",
+      "parametros de widget",
+      "tipos de entrada",
+      "tipos de entrada frontend",
+      "tipos de evento",
+      "tipos de widget",
+      "widget de instancia",
+      "widgets de tema"
+    ],
+    "frequencia_total": 15,
+    "num_subtemas": 11
   },
   {
     "macrotema": "opcoes de item",
-    "neuron": "8_7",
+    "neuron": "2_12",
     "subtemas": [
-      "mapeamento de opcoes",
       "opcoes de garantia",
       "opcoes de item",
       "opcoes de item de cotacao",
       "opcoes de item de lista",
+      "opcoes de item de wishlist",
       "opcoes de pacotes",
       "opcoes de selecao",
       "opcoes e selecoes de bundle",
-      "posicionamento de opcoes",
       "tipos de opcao",
       "tipos de opcao bundle",
       "titulos de opcao",
@@ -1489,59 +1438,219 @@
       "valores de opcoes de pacotes",
       "votacao de opcoes"
     ],
-    "frequencia_total": 16,
-    "num_subtemas": 15
-  },
-  {
-    "macrotema": "assinaturas de newsletter",
-    "neuron": "14_5",
-    "subtemas": [
-      "assinantes de email",
-      "assinatura de newsletter",
-      "assinaturas de newsletter",
-      "associacao de assinantes",
-      "codigos de falha em assinaturas",
-      "distribuicao de newsletter",
-      "envio para assinantes",
-      "erros de assinante",
-      "erros de assinatura",
-      "erros de newsletter",
-      "relacionamento de fila de newsletter",
-      "skus de plano de assinatura",
-      "status de assinantes",
-      "status de assinatura"
-    ],
     "frequencia_total": 15,
     "num_subtemas": 14
   },
   {
-    "macrotema": "entidade de entidade",
-    "neuron": "7_10",
+    "macrotema": "analise de visitas",
+    "neuron": "7_5",
     "subtemas": [
-      "associacao de entidades",
-      "classificacao de entidades",
-      "entidade de categoria",
-      "entidade de endereco",
-      "entidade de entidade",
-      "entidade de importacao",
-      "entidade de revisao",
-      "gerenciamento de sequencias de entidades",
-      "gestao de entidades",
-      "identificacao de entidade",
-      "tipos de entidade de review"
+      "agregacao por dia",
+      "agregacao por hora",
+      "analise de comportamento",
+      "analise de comportamento online",
+      "analise de ip",
+      "analise de navegacao",
+      "analise de trafego",
+      "analise de urls",
+      "analise de visitantes",
+      "analise de visitas",
+      "analise de visualizacoes",
+      "relatorio de visualizacoes"
     ],
-    "frequencia_total": 15,
-    "num_subtemas": 11
+    "frequencia_total": 14,
+    "num_subtemas": 12
   },
   {
-    "macrotema": "categorias de catalogo",
-    "neuron": "0_8",
+    "macrotema": "opcoes de produto por loja",
+    "neuron": "0_6",
+    "subtemas": [
+      "agregacao por produto e loja",
+      "associacao de produtos a lojas",
+      "datas de produtos por loja",
+      "desempenho de produtos por loja",
+      "metricas de loja por produto",
+      "metricas de produtos por loja",
+      "opcao de produto por loja",
+      "opcoes de produto por loja",
+      "posicionamento de produtos em loja",
+      "relacao produto-loja",
+      "visibilidade de produtos em lojas",
+      "visibilidade de produtos por loja",
+      "visualizacoes de produtos por loja"
+    ],
+    "frequencia_total": 14,
+    "num_subtemas": 13
+  },
+  {
+    "macrotema": "opcoes de atributo",
+    "neuron": "8_13",
+    "subtemas": [
+      "agrupamento de atributos",
+      "atributo de endereco",
+      "atributos de cadastro",
+      "atributos de selecao",
+      "indice de atributos decimais",
+      "opcoes de atributo",
+      "posicionamento de atributos",
+      "relacao atributo-opcao",
+      "valores de opcoes de atributos",
+      "visibilidade de atributos"
+    ],
+    "frequencia_total": 14,
+    "num_subtemas": 10
+  },
+  {
+    "macrotema": "indexacao de precos por site",
+    "neuron": "7_0",
+    "subtemas": [
+      "alertas de preco de produtos",
+      "gerenciamento de precos de produtos digitais",
+      "gerenciamento de precos em e-commerce",
+      "indexacao de precos",
+      "indexacao de precos por site",
+      "indice de produtos por site",
+      "monitoramento de precos",
+      "otimizacao de precos",
+      "regulamentacao de precos",
+      "variacao de precos por site"
+    ],
+    "frequencia_total": 14,
+    "num_subtemas": 10
+  },
+  {
+    "macrotema": "pedidos de venda",
+    "neuron": "3_8",
+    "subtemas": [
+      "faturamento de itens",
+      "faturamento por periodo",
+      "ordens de venda",
+      "pedido de venda",
+      "pedidos de venda",
+      "pedidos de vendas",
+      "vendas com reembolso",
+      "vendas por status"
+    ],
+    "frequencia_total": 14,
+    "num_subtemas": 8
+  },
+  {
+    "macrotema": "gestao de tempo",
+    "neuron": "5_5",
+    "subtemas": [
+      "gerenciamento de comunicacao",
+      "gerenciamento de consumidores",
+      "gerenciamento de filas",
+      "gerenciamento de opcoes de pacotes",
+      "gerenciamento de tempo de expiracao",
+      "gestao de alertas",
+      "gestao de consumidores",
+      "gestao de credito",
+      "gestao de feedback",
+      "gestao de flags",
+      "gestao de reembolsos",
+      "gestao de taxas",
+      "gestao de tempo"
+    ],
+    "frequencia_total": 14,
+    "num_subtemas": 13
+  },
+  {
+    "macrotema": "mapeamento de codigos",
+    "neuron": "7_9",
+    "subtemas": [
+      "mapeamento de avaliacoes",
+      "mapeamento de caminhos",
+      "mapeamento de chaves",
+      "mapeamento de codigos",
+      "mapeamento de layout",
+      "mapeamento de opcoes",
+      "mapeamento de regioes",
+      "mapeamento de regras",
+      "mapeamento de tipos",
+      "mapeamento de urls",
+      "mapeamento de widgets em paginas",
+      "mapeamento rating-store",
+      "migracao de esquema"
+    ],
+    "frequencia_total": 14,
+    "num_subtemas": 13
+  },
+  {
+    "macrotema": "termos de checkout",
+    "neuron": "4_12",
+    "subtemas": [
+      "acordo de checkout",
+      "acordos de checkout",
+      "detalhes de pagamento",
+      "detalhes de transacoes",
+      "metodos de pagamento",
+      "termos de checkout",
+      "transacoes de pagamento"
+    ],
+    "frequencia_total": 13,
+    "num_subtemas": 7
+  },
+  {
+    "macrotema": "controle de expiracao",
+    "neuron": "9_7",
+    "subtemas": [
+      "atividade de usuario",
+      "chave de sessao persistente",
+      "controle de acesso",
+      "controle de acesso admin",
+      "controle de expiracao",
+      "controle de privilegios",
+      "controle de tokens",
+      "expiracao de cache",
+      "expiracao de sessao"
+    ],
+    "frequencia_total": 13,
+    "num_subtemas": 9
+  },
+  {
+    "macrotema": "redirecionamento de url",
+    "neuron": "3_0",
+    "subtemas": [
+      "cabecalhos http",
+      "enderecos ip",
+      "formatacao de endereco",
+      "identificacao de site",
+      "identificacao de website",
+      "localizacao en_us",
+      "padronizacao de enderecos",
+      "redirecionamento de busca",
+      "redirecionamento de url",
+      "redirecionamento de urls"
+    ],
+    "frequencia_total": 13,
+    "num_subtemas": 10
+  },
+  {
+    "macrotema": "itens de google shopping",
+    "neuron": "2_5",
+    "subtemas": [
+      "carrinho de compras",
+      "downloadable link purchased item",
+      "estoque por website",
+      "eventos de loja virtual",
+      "integracao google shopping",
+      "itens de google shopping",
+      "sites de comercio",
+      "sites de e-commerce",
+      "tipos de anuncios do google shopping",
+      "tipos de google shopping"
+    ],
+    "frequencia_total": 13,
+    "num_subtemas": 10
+  },
+  {
+    "macrotema": "indice de catalogo",
+    "neuron": "14_8",
     "subtemas": [
       "catalogo de inventario",
       "catalogo multi-site",
-      "categorias de catalogo",
-      "categorias raiz",
-      "datas de categoria",
+      "eav de catalogo",
       "entidades de catalogo",
       "indice de catalogo",
       "indice eav de catalogo",
@@ -1551,400 +1660,246 @@
       "valores eav de catalogo",
       "vinculo de catalogo"
     ],
-    "frequencia_total": 15,
-    "num_subtemas": 13
-  },
-  {
-    "macrotema": "catalogo de produtos",
-    "neuron": "0_5",
-    "subtemas": [
-      "catalogo de produtos",
-      "midia de catalogo de produtos"
-    ],
-    "frequencia_total": 15,
-    "num_subtemas": 2
-  },
-  {
-    "macrotema": "informacoes de pedidos",
-    "neuron": "3_7",
-    "subtemas": [
-      "classificacao de pedido",
-      "detalhes de pedidos",
-      "gestao de pedidos",
-      "informacoes de pedido",
-      "informacoes de pedidos",
-      "itens de pedido",
-      "notificacoes de pedidos",
-      "personalizacao de pedidos",
-      "relacionamento de pedidos"
-    ],
-    "frequencia_total": 15,
-    "num_subtemas": 9
-  },
-  {
-    "macrotema": "registro de sessoes",
-    "neuron": "14_10",
-    "subtemas": [
-      "dados de sessao",
-      "expiracao de sessao",
-      "logs de acesso",
-      "registro de acessos",
-      "registro de atividades",
-      "registro de sessoes",
-      "registro de transacoes",
-      "relatorio de acessos",
-      "sessao de usuario",
-      "sessao de visitante",
-      "sessoes persistentes"
-    ],
-    "frequencia_total": 15,
+    "frequencia_total": 13,
     "num_subtemas": 11
-  },
-  {
-    "macrotema": "analise de avaliacoes",
-    "neuron": "11_7",
-    "subtemas": [
-      "analise de avaliacoes",
-      "analise de desempenho",
-      "avaliacao de qualidade",
-      "contagem de reviews",
-      "mapeamento de avaliacoes",
-      "metricas de desempenho",
-      "metricas de revisao",
-      "moderacao de reviews",
-      "relatorios anuais",
-      "resumo de avaliacoes",
-      "status de avaliacoes"
-    ],
-    "frequencia_total": 14,
-    "num_subtemas": 11
-  },
-  {
-    "macrotema": "itens de lista de desejos",
-    "neuron": "2_5",
-    "subtemas": [
-      "carrinho de compras",
-      "itens de carrinho",
-      "itens de lista de compras",
-      "itens de lista de desejos",
-      "lista de desejos",
-      "opcoes de item de wishlist",
-      "publicacao de itens",
-      "quantidade de itens",
-      "quantidade disponivel"
-    ],
-    "frequencia_total": 14,
-    "num_subtemas": 9
-  },
-  {
-    "macrotema": "metodos de envio",
-    "neuron": "4_9",
-    "subtemas": [
-      "comentarios de envio",
-      "controle temporal de envios",
-      "fila de envio",
-      "fila de envio de e-mails",
-      "logistica de entregas",
-      "logistica de envio",
-      "metodos de entrega",
-      "metodos de envio",
-      "problemas de fila de envio",
-      "status de envio",
-      "status de envios"
-    ],
-    "frequencia_total": 14,
-    "num_subtemas": 11
-  },
-  {
-    "macrotema": "indice de loja",
-    "neuron": "5_1",
-    "subtemas": [
-      "desempenho de loja",
-      "eventos de loja",
-      "grupo de loja",
-      "indice de loja",
-      "indice por loja",
-      "log de loja",
-      "registro por loja",
-      "regras por loja"
-    ],
-    "frequencia_total": 14,
-    "num_subtemas": 8
-  },
-  {
-    "macrotema": "monitoramento de sessao",
-    "neuron": "14_11",
-    "subtemas": [
-      "agregacao de logs",
-      "armazenamento de sessao",
-      "log de atividades",
-      "logs de compartilhamento",
-      "logs de comportamento",
-      "monitoramento de cron",
-      "monitoramento de jobs",
-      "monitoramento de sessao",
-      "monitoramento de sistema",
-      "monitoramento de tempo",
-      "monitoramento de visitantes",
-      "periodicidade de logs"
-    ],
-    "frequencia_total": 13,
-    "num_subtemas": 12
-  },
-  {
-    "macrotema": "itens de fatura",
-    "neuron": "6_5",
-    "subtemas": [
-      "ajustes de pagamento",
-      "analise de valores de fatura",
-      "comentarios de fatura",
-      "dados de faturamento",
-      "detalhes de transacoes",
-      "itens de fatura",
-      "pagamento de orcamento",
-      "reembolso de faturas",
-      "transacoes de pagamento"
-    ],
-    "frequencia_total": 13,
-    "num_subtemas": 9
-  },
-  {
-    "macrotema": "valores de texto eav",
-    "neuron": "5_12",
-    "subtemas": [
-      "atributos de data de clientes",
-      "atributos de entidades de cliente",
-      "atributos varchar eav",
-      "metadados eav",
-      "valores datetime eav",
-      "valores de texto eav",
-      "valores eav",
-      "valores eav de clientes",
-      "valores varchar de endereco"
-    ],
-    "frequencia_total": 13,
-    "num_subtemas": 9
-  },
-  {
-    "macrotema": "segmentacao de clientes",
-    "neuron": "13_1",
-    "subtemas": [
-      "classificacao de clientes",
-      "consumidores de servico",
-      "segmentacao de clientes"
-    ],
-    "frequencia_total": 13,
-    "num_subtemas": 3
-  },
-  {
-    "macrotema": "configuracao de layout",
-    "neuron": "11_14",
-    "subtemas": [
-      "configuracao de arquivos de tema",
-      "configuracao de cms",
-      "configuracao de design",
-      "configuracao de layout",
-      "configuracao de layout de paginas",
-      "configuracao de tema",
-      "configuracao de template",
-      "configuracao de templates",
-      "configuracao de widget",
-      "configuracao de widgets"
-    ],
-    "frequencia_total": 13,
-    "num_subtemas": 10
-  },
-  {
-    "macrotema": "tipo de preco de selecao",
-    "neuron": "10_2",
-    "subtemas": [
-      "faixas de preco (tier price)",
-      "preco de itens de pacote",
-      "preco de selecao",
-      "preco de selecao de bundle",
-      "preco especial",
-      "preco fixo ou percentual",
-      "precos de bundle",
-      "precos de selecao",
-      "quantidades e precos",
-      "tipo de preco de selecao",
-      "tipo de preco fixo",
-      "tipos de preco"
-    ],
-    "frequencia_total": 13,
-    "num_subtemas": 12
-  },
-  {
-    "macrotema": "analise financeira de pedidos",
-    "neuron": "5_6",
-    "subtemas": [
-      "analise financeira de pedidos",
-      "faturamento de pedidos",
-      "vinculo pedido-pagamento"
-    ],
-    "frequencia_total": 12,
-    "num_subtemas": 3
-  },
-  {
-    "macrotema": "cache de dados",
-    "neuron": "13_14",
-    "subtemas": [
-      "armazenamento de cache",
-      "armazenamento de dados numericos",
-      "arquivos de download",
-      "cache de aplicacao",
-      "cache de dados",
-      "download de arquivos",
-      "expiracao de cache",
-      "gerenciamento de arquivos de tema",
-      "recursos do sistema",
-      "sincronizacao de dados"
-    ],
-    "frequencia_total": 12,
-    "num_subtemas": 10
-  },
-  {
-    "macrotema": "associacao de produtos",
-    "neuron": "0_3",
-    "subtemas": [
-      "associacao de produtos",
-      "associacao produto-imagem",
-      "entidade de produto",
-      "hierarquia de produtos",
-      "organizacao de produtos",
-      "posicao de produtos"
-    ],
-    "frequencia_total": 12,
-    "num_subtemas": 6
-  },
-  {
-    "macrotema": "status de indexadores",
-    "neuron": "0_9",
-    "subtemas": [
-      "cache de tags",
-      "data de indice",
-      "estado de indexadores",
-      "indice de busca fulltext",
-      "indice de texto completo",
-      "indice de website",
-      "indice eav decimal",
-      "metricas de busca",
-      "status de indexadores",
-      "versao de indice"
-    ],
-    "frequencia_total": 12,
-    "num_subtemas": 10
   },
   {
     "macrotema": "estoque de produtos",
-    "neuron": "1_5",
+    "neuron": "1_9",
     "subtemas": [
       "controle de estoque de produtos",
       "estoque de produtos",
-      "estoque por produto"
+      "produtos mais vendidos",
+      "quantidade de produtos"
     ],
-    "frequencia_total": 12,
-    "num_subtemas": 3
+    "frequencia_total": 13,
+    "num_subtemas": 4
   },
   {
-    "macrotema": "analise de visitas",
-    "neuron": "12_9",
+    "macrotema": "logs de acesso",
+    "neuron": "8_7",
     "subtemas": [
-      "analise de navegacao",
-      "analise de trafego",
-      "analise de visitantes",
-      "analise de visitas",
-      "consulta de pesquisa",
-      "consultas de busca",
-      "informacoes de requisicao http",
-      "politica de privacidade",
-      "resumo de visitantes"
+      "log de atividades",
+      "logs de acesso",
+      "logs de compartilhamento",
+      "logs de comportamento",
+      "logs de seguranca",
+      "monitoramento de sessao",
+      "registro de acessos",
+      "registro de atividades",
+      "sessao de visitante",
+      "sessoes de navegacao",
+      "sessoes de visita"
+    ],
+    "frequencia_total": 13,
+    "num_subtemas": 11
+  },
+  {
+    "macrotema": "cotacao de frete",
+    "neuron": "4_7",
+    "subtemas": [
+      "agregacao de frete",
+      "calculo de frete",
+      "cotacao de frete",
+      "cotacoes de frete",
+      "custo de frete",
+      "custo de transporte",
+      "envio de produtos",
+      "tabela de frete"
+    ],
+    "frequencia_total": 12,
+    "num_subtemas": 8
+  },
+  {
+    "macrotema": "alerta de estoque",
+    "neuron": "3_5",
+    "subtemas": [
+      "alerta de estoque",
+      "alertas de estoque",
+      "controle de estoque",
+      "distribuicao de estoque",
+      "nome de estoque",
+      "notificacoes de estoque",
+      "status de estoque",
+      "status de estoque por site",
+      "valores de estoque"
+    ],
+    "frequencia_total": 12,
+    "num_subtemas": 9
+  },
+  {
+    "macrotema": "codigos de pais",
+    "neuron": "12_7",
+    "subtemas": [
+      "cache tag mapping",
+      "codigos de pais",
+      "codigos de status",
+      "codigos iso",
+      "codigos iso de paises",
+      "formato de pais",
+      "identificadores de cache",
+      "identificadores de recursos",
+      "prefixo e ultimo id",
+      "referencia geografica",
+      "taxas por pais",
+      "versao de software"
+    ],
+    "frequencia_total": 12,
+    "num_subtemas": 12
+  },
+  {
+    "macrotema": "tipos de link",
+    "neuron": "12_11",
+    "subtemas": [
+      "codigos google optimizer",
+      "indice de texto completo",
+      "scripts de experimento",
+      "sinonimos de termos",
+      "tipos de eventos",
+      "tipos de link",
+      "tipos de periodo",
+      "titulos de links"
+    ],
+    "frequencia_total": 12,
+    "num_subtemas": 8
+  },
+  {
+    "macrotema": "valores de texto",
+    "neuron": "11_13",
+    "subtemas": [
+      "valores de bundle",
+      "valores de perfil",
+      "valores de texto",
+      "valores de texto de categoria",
+      "valores de texto de entidades",
+      "valores de texto eav",
+      "valores de tipo",
+      "valores numericos de cliente",
+      "valores varchar de vinculo"
+    ],
+    "frequencia_total": 12,
+    "num_subtemas": 9
+  },
+  {
+    "macrotema": "tipos de formularios",
+    "neuron": "10_10",
+    "subtemas": [
+      "campos de formulario",
+      "codigo de formulario",
+      "formularios de checkout",
+      "formularios de entrada",
+      "formularios de tipo",
+      "formularios do magento",
+      "modelos de backend",
+      "tipos de formulario",
+      "tipos de formularios"
     ],
     "frequencia_total": 11,
     "num_subtemas": 9
   },
   {
-    "macrotema": "valores de texto",
-    "neuron": "3_12",
+    "macrotema": "votos de rating",
+    "neuron": "13_10",
     "subtemas": [
-      "categoria raiz",
-      "metadados de pagina",
-      "rotulos de status",
-      "texto de valor",
-      "titulos de links",
-      "valores de link",
-      "valores de texto"
-    ],
-    "frequencia_total": 11,
-    "num_subtemas": 7
-  },
-  {
-    "macrotema": "reembolsos agregados",
-    "neuron": "3_10",
-    "subtemas": [
-      "codigos de pais",
-      "codigos iso",
-      "codigos iso de paises",
+      "comentarios de creditmemo",
       "comentarios de estorno",
-      "reembolsos agregados",
-      "reembolsos agregados por periodo",
-      "valores de reembolso"
+      "criterios de rating",
+      "cronograma de jobs",
+      "cronologia de feedback",
+      "escopo de website",
+      "experimentos de marketing",
+      "indice de website",
+      "media de rating por entidade",
+      "votos de rating"
     ],
     "frequencia_total": 11,
-    "num_subtemas": 7
+    "num_subtemas": 10
   },
   {
-    "macrotema": "paginas de destino",
+    "macrotema": "configuracoes de produtos",
     "neuron": "0_12",
     "subtemas": [
+      "configuracao de produto variavel",
+      "configuracao de produtos digitais",
+      "configuracao de produtos em pacote",
+      "configuracoes de produtos",
+      "configuracoes de selecao de produtos",
+      "precificacao de produto configuravel",
+      "produtos configuraveis",
+      "variacoes de produto configuravel"
+    ],
+    "frequencia_total": 11,
+    "num_subtemas": 8
+  },
+  {
+    "macrotema": "preco de opcao de produto",
+    "neuron": "1_11",
+    "subtemas": [
+      "opcoes de produto em lista de desejos",
+      "preco de opcao de produto",
+      "preco de opcoes de produtos",
+      "preco de produto bundle",
+      "precos de produtos bundle",
+      "produto em bundle",
+      "titulos de opcoes de produto"
+    ],
+    "frequencia_total": 11,
+    "num_subtemas": 7
+  },
+  {
+    "macrotema": "acessos a paginas",
+    "neuron": "12_10",
+    "subtemas": [
       "acessos a paginas",
-      "experimentos de marketing",
-      "paginas de cms",
+      "eventos de sistema",
+      "indice de visitantes",
       "paginas de destino",
       "reescrita de url",
-      "tentativas de captcha"
+      "tipos de log",
+      "visitantes online"
+    ],
+    "frequencia_total": 10,
+    "num_subtemas": 7
+  },
+  {
+    "macrotema": "analise de cupons",
+    "neuron": "12_2",
+    "subtemas": [
+      "agregacao de cupons",
+      "analise de cupons",
+      "contagem de utilizacoes de cupom",
+      "cupons e uso",
+      "reembolso de faturas",
+      "traducao de cupons"
     ],
     "frequencia_total": 10,
     "num_subtemas": 6
   },
   {
-    "macrotema": "faturamento de vendas",
-    "neuron": "5_5",
+    "macrotema": "relatorio de acessos",
+    "neuron": "8_6",
     "subtemas": [
-      "agregacao de faturamento",
-      "faturamento de itens",
-      "faturamento de vendas",
-      "pagamento de vendas",
-      "vendas com reembolso"
-    ],
-    "frequencia_total": 10,
-    "num_subtemas": 5
-  },
-  {
-    "macrotema": "analise de visualizacoes",
-    "neuron": "12_8",
-    "subtemas": [
-      "analise de comportamento",
-      "analise de comportamento online",
-      "analise de ip",
-      "analise de periodos",
-      "analise de referenciadores",
-      "analise de visualizacoes",
-      "eventos de relatorio",
-      "relatorio de visualizacoes",
-      "relatorios de atividade",
-      "resumo de log"
+      "agregacao de logs",
+      "comportamento de navegacao",
+      "contagem de utilizacoes",
+      "dados de navegacao",
+      "interacao de visitantes",
+      "periodicidade de logs",
+      "relatorio de acessos",
+      "resumo de log",
+      "resumo de visitantes",
+      "visitas ao site"
     ],
     "frequencia_total": 10,
     "num_subtemas": 10
   },
   {
     "macrotema": "relatorios financeiros",
-    "neuron": "7_4",
+    "neuron": "7_3",
     "subtemas": [
-      "analise financeira",
+      "analise de moedas",
+      "analise de valores de fatura",
       "cadastro de metricas financeiras",
-      "devolucoes financeiras",
       "metricas financeiras",
       "relatorio financeiro",
       "relatorios financeiros",
@@ -1954,1041 +1909,1013 @@
     "num_subtemas": 7
   },
   {
-    "macrotema": "consumidores oauth",
-    "neuron": "0_10",
+    "macrotema": "conjuntos de atributos",
+    "neuron": "9_13",
     "subtemas": [
-      "api callback urls",
-      "cache invalidation tracking",
-      "cache tag mapping",
-      "consumidores oauth",
-      "identificadores de cache",
-      "indice de visitantes",
-      "oauth consumer credentials",
-      "tokens oauth",
-      "ultima visita",
-      "visitantes online"
+      "atributos de website",
+      "conjunto de atributos",
+      "conjuntos de atributos",
+      "grupos de atributos",
+      "metadados de atributos visuais"
     ],
     "frequencia_total": 10,
-    "num_subtemas": 10
+    "num_subtemas": 5
   },
   {
-    "macrotema": "reembolso de pedidos",
-    "neuron": "4_8",
+    "macrotema": "registro de sessoes",
+    "neuron": "9_8",
     "subtemas": [
-      "ciclo de vida de pedidos",
-      "comentarios de pedidos",
-      "endereco de pedido",
-      "metricas de pedidos",
-      "pedidos de clientes",
-      "reembolso de pedidos",
-      "reembolsos de pedidos",
-      "refundos de pedidos"
-    ],
-    "frequencia_total": 10,
-    "num_subtemas": 8
-  },
-  {
-    "macrotema": "mapeamento de entidades",
-    "neuron": "7_11",
-    "subtemas": [
-      "comportamento de entidade",
-      "configuracao de entidades",
-      "mapeamento de entidades",
-      "mapeamento de tipos de entidade",
-      "mapeamento de tipos de entidades",
-      "mapeamento entidade-url",
-      "mapeamento tipo de entidade loja",
-      "relacionamento de entidades",
-      "relacionamento formulario-entidade"
+      "contagem de tentativas",
+      "dados de sessao",
+      "registro de alteracoes",
+      "registro de sessoes",
+      "registro de transacoes",
+      "registro de validacao",
+      "sessoes online",
+      "sessoes persistentes",
+      "tentativas de validacao"
     ],
     "frequencia_total": 10,
     "num_subtemas": 9
   },
   {
-    "macrotema": "links de produto",
-    "neuron": "2_2",
+    "macrotema": "reembolsos agregados",
+    "neuron": "13_9",
     "subtemas": [
-      "downloads de produtos",
-      "eventos de interacao com produto",
-      "links de produto",
-      "links de produtos",
-      "produtos e skus",
-      "tipos de link de produtos",
-      "tipos de vinculo de produto",
-      "vinculo de produtos"
+      "estado de indexadores",
+      "reembolsos agregados",
+      "reembolsos agregados por periodo",
+      "status de indexadores",
+      "valores de reembolso",
+      "versao de indice"
+    ],
+    "frequencia_total": 10,
+    "num_subtemas": 6
+  },
+  {
+    "macrotema": "opcoes de precos",
+    "neuron": "8_1",
+    "subtemas": [
+      "faixa de preco",
+      "opcoes de precos",
+      "preco de opcoes",
+      "quantidades e precos",
+      "tipo de preco de opcao",
+      "tipos de preco",
+      "valores de precos"
+    ],
+    "frequencia_total": 10,
+    "num_subtemas": 7
+  },
+  {
+    "macrotema": "layout de pagina",
+    "neuron": "10_11",
+    "subtemas": [
+      "layout de pagina",
+      "layout de paginas",
+      "layout de tema",
+      "layout de widget",
+      "layout por tema",
+      "layout updates",
+      "vinculos de layout",
+      "widget em pagina"
     ],
     "frequencia_total": 10,
     "num_subtemas": 8
   },
   {
-    "macrotema": "taxas de envio",
-    "neuron": "5_9",
+    "macrotema": "analise de avaliacoes",
+    "neuron": "8_4",
     "subtemas": [
-      "agregacao de envios",
-      "endereco de entrega",
-      "envio de produtos",
-      "precos de envio",
-      "rastreamento de envio",
-      "rastreamento de envios",
-      "taxa de envio",
-      "taxas de envio",
-      "transportadoras de envio"
+      "analise de avaliacoes",
+      "analise de desempenho",
+      "analise de periodos",
+      "analise de referenciadores",
+      "analise financeira",
+      "relatorios anuais"
+    ],
+    "frequencia_total": 9,
+    "num_subtemas": 6
+  },
+  {
+    "macrotema": "visualizacoes de produtos",
+    "neuron": "0_7",
+    "subtemas": [
+      "analise de visualizacoes de produtos",
+      "metricas de popularidade de produtos",
+      "metricas de produtos relacionados",
+      "relacionamento wishlist e produto",
+      "relatorio de produtos mais vistos",
+      "visualizacao mensal de produtos",
+      "visualizacoes de produtos",
+      "visualizacoes diarias de produtos",
+      "visualizacoes mensais de produtos"
     ],
     "frequencia_total": 9,
     "num_subtemas": 9
   },
   {
-    "macrotema": "visibilidade de produtos por loja",
-    "neuron": "3_1",
+    "macrotema": "perfis de autorizacao",
+    "neuron": "11_6",
     "subtemas": [
-      "agregacao por produto e loja",
-      "datas de produtos por loja",
-      "desempenho de produtos por loja",
-      "posicionamento de produtos em loja",
-      "relacao produto-loja",
-      "visibilidade de produtos em lojas",
-      "visibilidade de produtos por loja",
-      "visualizacoes de produtos por loja"
-    ],
-    "frequencia_total": 9,
-    "num_subtemas": 8
-  },
-  {
-    "macrotema": "organizacao de formularios",
-    "neuron": "9_10",
-    "subtemas": [
-      "arvore de categorias",
-      "associacao de categorias",
-      "cadastro de nomes",
-      "cadastro de variaveis",
-      "estrutura de dados",
-      "estrutura de formularios",
-      "nomes de secoes de formulario",
-      "organizacao de formularios"
-    ],
-    "frequencia_total": 9,
-    "num_subtemas": 8
-  },
-  {
-    "macrotema": "regras de autorizacao",
-    "neuron": "14_8",
-    "subtemas": [
+      "ativacao de acordo",
+      "autorizacao de aplicativos",
       "autorizacao de consumidores",
-      "avisos do sistema",
-      "controle de captcha",
-      "controle de estado de views",
-      "notificacoes de administracao",
+      "erros de assinatura",
       "papel de autorizacao",
+      "perfis de autorizacao",
       "regras de autorizacao"
     ],
     "frequencia_total": 9,
     "num_subtemas": 7
   },
   {
-    "macrotema": "regras de calculo de impostos",
-    "neuron": "11_4",
+    "macrotema": "label de formulario",
+    "neuron": "9_11",
     "subtemas": [
-      "codigos de regras fiscais",
-      "impostos e descontos",
-      "regra de calculo de impostos",
-      "regra de tributacao",
-      "regras de calculo de imposto",
-      "regras de calculo de impostos",
-      "regras de tributacao",
-      "regras fiscais por pais"
+      "campos de conjuntos",
+      "categorias de campos",
+      "elementos de formulario",
+      "formularios eav",
+      "label de formulario",
+      "rotulos de fieldset de formulario",
+      "tipos de formulario eav"
     ],
     "frequencia_total": 9,
-    "num_subtemas": 8
+    "num_subtemas": 7
   },
   {
-    "macrotema": "configuracao de preco por site",
-    "neuron": "8_1",
+    "macrotema": "configuracao de atributos",
+    "neuron": "6_14",
     "subtemas": [
-      "configuracao de preco por site",
-      "configuracao de precos",
-      "notificacoes de preco",
-      "precificacao por website"
-    ],
-    "frequencia_total": 9,
-    "num_subtemas": 4
-  },
-  {
-    "macrotema": "taxas de transacao",
-    "neuron": "9_4",
-    "subtemas": [
-      "configuracao de taxas",
-      "gestao de taxas",
-      "taxas de calculo",
-      "taxas de transacao",
-      "taxas por pais",
-      "titulos de taxas"
+      "configuracao de atributos",
+      "configuracao de atributos de catalogo",
+      "configuracao de atributos eav",
+      "configuracao de atributos magento",
+      "configuracao de atributos super",
+      "integracao de atributos do magento"
     ],
     "frequencia_total": 9,
     "num_subtemas": 6
   },
   {
-    "macrotema": "pedidos de vendas",
-    "neuron": "4_6",
+    "macrotema": "configuracao de precos",
+    "neuron": "3_14",
     "subtemas": [
-      "conversao de pedidos",
-      "pedidos de venda",
-      "pedidos de vendas",
-      "preco e quantidade de pedidos",
-      "quantidade pedida",
-      "totais de pedido",
-      "vendas de pedidos"
-    ],
-    "frequencia_total": 9,
-    "num_subtemas": 7
-  },
-  {
-    "macrotema": "itens de google shopping",
-    "neuron": "4_2",
-    "subtemas": [
-      "integracao google shopping",
-      "itens de google shopping",
-      "metricas de produtos por loja",
-      "sites de comercio",
-      "sites de e-commerce",
-      "tipos de anuncios do google shopping",
-      "tipos de google shopping"
-    ],
-    "frequencia_total": 9,
-    "num_subtemas": 7
-  },
-  {
-    "macrotema": "tipos de widget",
-    "neuron": "1_13",
-    "subtemas": [
-      "modelos de backend",
-      "parametros de widget",
-      "scripts de experimento",
-      "tipos de entrada frontend",
-      "tipos de widget"
+      "configuracao de descontos",
+      "configuracao de inventario",
+      "configuracao de preco por site",
+      "configuracao de precos",
+      "configuracao de promocoes"
     ],
     "frequencia_total": 9,
     "num_subtemas": 5
   },
   {
-    "macrotema": "valores de tipo",
-    "neuron": "4_12",
+    "macrotema": "controle de versao",
+    "neuron": "9_6",
     "subtemas": [
-      "tipos de dados",
-      "valores de bundle",
-      "valores de data",
-      "valores de perfil",
-      "valores de texto de categoria",
-      "valores de texto de entidades",
-      "valores de tipo"
+      "controle de alteracoes",
+      "controle de compartilhamento de arquivos",
+      "controle de flags",
+      "controle de versao",
+      "recursos do sistema",
+      "variaveis de sistema"
     ],
     "frequencia_total": 9,
-    "num_subtemas": 7
+    "num_subtemas": 6
   },
   {
-    "macrotema": "termos de checkout",
-    "neuron": "7_6",
+    "macrotema": "descontos por grupo de clientes",
+    "neuron": "11_0",
     "subtemas": [
-      "acordo de checkout",
-      "acordos de checkout",
-      "cartao de credito",
-      "dados de cartao de credito",
-      "informacoes de cartao de credito",
-      "itens de creditmemo",
-      "termos de checkout"
+      "desconto por grupo de clientes",
+      "descontos por grupo de cliente",
+      "descontos por grupo de clientes",
+      "precos e descontos",
+      "regras de desconto por grupo de clientes",
+      "regras de venda por grupo de cliente",
+      "segmentacao de cliente em promocoes",
+      "segmentacao de promocoes por grupo"
     ],
-    "frequencia_total": 8,
-    "num_subtemas": 7
-  },
-  {
-    "macrotema": "interacao de visitantes",
-    "neuron": "13_10",
-    "subtemas": [
-      "dados de navegacao",
-      "identificacao de visitantes",
-      "interacao de visitantes",
-      "sessoes de navegacao",
-      "sessoes de visita",
-      "sessoes online",
-      "visitas ao site"
-    ],
-    "frequencia_total": 8,
-    "num_subtemas": 7
-  },
-  {
-    "macrotema": "endereco de cotacao",
-    "neuron": "7_3",
-    "subtemas": [
-      "diretorio de moedas",
-      "endereco de cotacao",
-      "enderecos de cotacao",
-      "log de cotacoes",
-      "registro de cotacoes"
-    ],
-    "frequencia_total": 8,
-    "num_subtemas": 5
-  },
-  {
-    "macrotema": "formatacao de endereco",
-    "neuron": "10_12",
-    "subtemas": [
-      "formatacao de endereco",
-      "formato de endereco por pais",
-      "mapeamento de codigos",
-      "metricas de enderecamento",
-      "padrao de formatacao de localizacao",
-      "padronizacao de enderecos",
-      "pais e formato",
-      "tipos de formatacao"
-    ],
-    "frequencia_total": 8,
+    "frequencia_total": 9,
     "num_subtemas": 8
   },
   {
-    "macrotema": "preco de opcoes",
-    "neuron": "9_2",
+    "macrotema": "vendas diarias de produtos",
+    "neuron": "1_7",
     "subtemas": [
-      "precificacao de download",
-      "precificacao de pacotes",
-      "precificacao dinamica de opcoes",
-      "preco de link",
-      "preco de link baixavel",
-      "preco de opcoes",
-      "tipo de preco de opcao"
+      "ranking de produtos mais vendidos",
+      "ranking de produtos por vendas",
+      "venda de produtos digitais",
+      "vendas anuais de produtos",
+      "vendas de produtos digitais",
+      "vendas diarias de produtos",
+      "vendas mensais de produtos"
     ],
-    "frequencia_total": 8,
+    "frequencia_total": 9,
     "num_subtemas": 7
   },
   {
-    "macrotema": "visibilidade de comentario",
-    "neuron": "13_8",
-    "subtemas": [
-      "tempo de criacao",
-      "visibilidade de comentario",
-      "visibilidade de comentarios"
-    ],
-    "frequencia_total": 8,
-    "num_subtemas": 3
-  },
-  {
-    "macrotema": "mapeamento de tipos de formulario",
+    "macrotema": "estrutura de formularios eav",
     "neuron": "8_11",
     "subtemas": [
       "agrupamento de campos por tipo",
       "estrutura de formularios eav",
-      "mapeamento de categorias",
-      "mapeamento de tipos",
-      "mapeamento de tipos de formulario",
+      "fieldset de eav",
+      "mapeamento formulario-atributo",
+      "modelo eav",
       "rotulagem de conjuntos de campos"
     ],
-    "frequencia_total": 7,
+    "frequencia_total": 8,
     "num_subtemas": 6
   },
   {
-    "macrotema": "descontos por grupo de cliente",
-    "neuron": "12_1",
+    "macrotema": "inteiro de valor",
+    "neuron": "8_3",
     "subtemas": [
-      "associacao regra-grupo de cliente",
-      "desconto por grupo de clientes",
-      "descontos por grupo de cliente",
-      "descontos por grupo de clientes",
-      "regras de catalogo por grupo de clientes",
-      "regras de venda por grupo de cliente"
+      "avaliacao de valor",
+      "inteiro de valor",
+      "valores decimais"
     ],
-    "frequencia_total": 7,
+    "frequencia_total": 8,
+    "num_subtemas": 3
+  },
+  {
+    "macrotema": "downloads de produtos",
+    "neuron": "1_8",
+    "subtemas": [
+      "avaliacao media de produtos",
+      "downloadable product downloads",
+      "downloads de produtos",
+      "produto por website",
+      "ranking de produtos",
+      "relatorio anual de produtos",
+      "resumo de avaliacoes por produto"
+    ],
+    "frequencia_total": 8,
+    "num_subtemas": 7
+  },
+  {
+    "macrotema": "permissoes de acesso",
+    "neuron": "10_6",
+    "subtemas": [
+      "avisos do sistema",
+      "nonce de seguranca",
+      "papeis de acesso",
+      "perfil de acesso",
+      "permissoes de acesso",
+      "permissoes de funcao",
+      "permissoes de sistema",
+      "seguranca de api"
+    ],
+    "frequencia_total": 8,
+    "num_subtemas": 8
+  },
+  {
+    "macrotema": "cadastro de variaveis",
+    "neuron": "8_9",
+    "subtemas": [
+      "cadastro de nomes",
+      "cadastro de variaveis",
+      "filtros de pesquisa",
+      "geracao de ids incrementais",
+      "identificacao de widget",
+      "validacao de entrada"
+    ],
+    "frequencia_total": 8,
     "num_subtemas": 6
   },
   {
-    "macrotema": "traducao de termos",
-    "neuron": "11_9",
+    "macrotema": "opcoes de classificacao",
+    "neuron": "14_4",
     "subtemas": [
-      "associatividade de links",
-      "popularidade de termos",
-      "resultados de busca",
-      "titulos de links baixaveis",
+      "classificacao de aprovacao",
+      "classificacao de ratings",
+      "hierarquia de papeis",
+      "opcoes de classificacao",
+      "ordem de classificacao",
+      "resumo de classificacoes"
+    ],
+    "frequencia_total": 8,
+    "num_subtemas": 6
+  },
+  {
+    "macrotema": "indice de loja",
+    "neuron": "1_4",
+    "subtemas": [
+      "classificacao de lojas",
+      "conteudo de loja",
+      "indice de loja",
+      "indice por loja",
+      "revisoes por loja",
+      "rotulos de imagem por loja",
+      "visitas por loja"
+    ],
+    "frequencia_total": 8,
+    "num_subtemas": 7
+  },
+  {
+    "macrotema": "modelo de entidade eav",
+    "neuron": "7_11",
+    "subtemas": [
+      "definicao de campos eav",
+      "entidade de eav",
+      "entidade eav",
+      "modelo de entidade eav",
+      "modelo eav de entidades",
+      "relacionamento formulario-entidade",
+      "tipos de entidade eav"
+    ],
+    "frequencia_total": 8,
+    "num_subtemas": 7
+  },
+  {
+    "macrotema": "titulos de amostras",
+    "neuron": "12_4",
+    "subtemas": [
+      "itens de citacao",
+      "tipos de resumo",
+      "titulos de amostras",
+      "titulos de bloco",
       "traducao de rotulo",
-      "traducao de termos"
+      "traducao de strings"
     ],
-    "frequencia_total": 7,
+    "frequencia_total": 8,
     "num_subtemas": 6
   },
   {
-    "macrotema": "atributo de produto configuravel",
-    "neuron": "8_14",
+    "macrotema": "opcoes de produto bundle",
+    "neuron": "1_12",
     "subtemas": [
-      "atributo de produto configuravel",
-      "atributos de produto configuravel",
-      "configuracao de atributos de catalogo",
-      "configuracao de atributos magento",
-      "configuracao de atributos por loja",
-      "configuracao de atributos super",
-      "precificacao de produto configuravel"
+      "opcoes de bundle de produtos",
+      "opcoes de produto bundle",
+      "selecao de opcoes de produto",
+      "selecao de produtos bundle",
+      "valores de opcao de produto",
+      "vinculo produto-opcao"
+    ],
+    "frequencia_total": 8,
+    "num_subtemas": 6
+  },
+  {
+    "macrotema": "mapeamento de paginas cms",
+    "neuron": "5_2",
+    "subtemas": [
+      "arquivos de download",
+      "arquivos de sitemap",
+      "distribuicao de paginas cms",
+      "escopo de blocos cms",
+      "geracao de sitemap",
+      "mapeamento de blocos cms",
+      "mapeamento de paginas cms"
     ],
     "frequencia_total": 7,
     "num_subtemas": 7
   },
   {
-    "macrotema": "cadastro de paises",
-    "neuron": "9_11",
-    "subtemas": [
-      "cadastro de endereco",
-      "cadastro de paises",
-      "estrutura de dados geografico",
-      "localizacao de rotulos de formulario",
-      "mapeamento de chaves",
-      "mapeamento de regras"
-    ],
-    "frequencia_total": 7,
-    "num_subtemas": 6
-  },
-  {
-    "macrotema": "termos de servico",
-    "neuron": "7_7",
-    "subtemas": [
-      "comportamento de importacao",
-      "conteudo de contrato",
-      "garantia estendida",
-      "informacoes adicionais",
-      "informacoes de cadastro",
-      "termos de servico"
-    ],
-    "frequencia_total": 7,
-    "num_subtemas": 6
-  },
-  {
-    "macrotema": "estrutura de precos por grupo",
-    "neuron": "11_0",
-    "subtemas": [
-      "estrutura de grupos de precos",
-      "estrutura de precos por grupo",
-      "indice de precos por grupo",
-      "preco de grupo de produtos",
-      "variacao de precos por grupo"
-    ],
-    "frequencia_total": 7,
-    "num_subtemas": 5
-  },
-  {
-    "macrotema": "integracao de dados",
-    "neuron": "7_9",
-    "subtemas": [
-      "importacao de dados",
-      "integracao de dados",
-      "integracao de sistemas"
-    ],
-    "frequencia_total": 7,
-    "num_subtemas": 3
-  },
-  {
-    "macrotema": "instancias de widget",
-    "neuron": "0_13",
-    "subtemas": [
-      "instancia de widget",
-      "instancias de widget",
-      "instancias de widgets",
-      "widget de instancia",
-      "widget em pagina",
-      "widgets de tema"
-    ],
-    "frequencia_total": 7,
-    "num_subtemas": 6
-  },
-  {
-    "macrotema": "acoes de clientes em produtos",
-    "neuron": "14_2",
-    "subtemas": [
-      "acoes de clientes em produtos",
-      "autenticacao de consumidor",
-      "produtos salvos por cliente",
-      "promocoes de clientes",
-      "vinculo cliente-regra",
-      "votacao de clientes"
-    ],
-    "frequencia_total": 6,
-    "num_subtemas": 6
-  },
-  {
-    "macrotema": "etiquetas de variacao",
-    "neuron": "10_9",
-    "subtemas": [
-      "agregacao por dia",
-      "associacao de amostras",
-      "compartilhamento de listas",
-      "etiquetas de variacao",
-      "titulos de bloco"
-    ],
-    "frequencia_total": 6,
-    "num_subtemas": 5
-  },
-  {
-    "macrotema": "associacao de pagina",
-    "neuron": "11_10",
-    "subtemas": [
-      "associacao de link",
-      "associacao de pagina",
-      "associacao de paginas",
-      "associacao regra-site",
-      "hierarquia de sites",
-      "traducao de strings"
-    ],
-    "frequencia_total": 6,
-    "num_subtemas": 6
-  },
-  {
-    "macrotema": "formularios de atributos",
-    "neuron": "3_14",
-    "subtemas": [
-      "atributos de formulario",
-      "formularios de atributos",
-      "mapeamento de atributos de formulario",
-      "tipos de backend de atributos"
-    ],
-    "frequencia_total": 6,
-    "num_subtemas": 4
-  },
-  {
-    "macrotema": "controle de incrementos de ids",
-    "neuron": "2_10",
-    "subtemas": [
-      "chaves de api",
-      "codigos google optimizer",
-      "consumidores de api",
-      "controle de incrementos de ids",
-      "estado de sistema",
-      "prefixo de incremento"
-    ],
-    "frequencia_total": 6,
-    "num_subtemas": 6
-  },
-  {
-    "macrotema": "vendas de produtos",
-    "neuron": "3_3",
-    "subtemas": [
-      "compras de produtos baixaveis",
-      "venda de produtos",
-      "venda de produtos digitais",
-      "vendas de produtos",
-      "vendas de produtos baixaveis",
-      "vendas de produtos digitais"
-    ],
-    "frequencia_total": 6,
-    "num_subtemas": 6
-  },
-  {
-    "macrotema": "criterios de rating",
-    "neuron": "3_11",
-    "subtemas": [
-      "criterios de rating",
-      "formato de pais",
-      "referencia geografica",
-      "titulos de garantia",
-      "valores de rating",
-      "votos de rating"
-    ],
-    "frequencia_total": 6,
-    "num_subtemas": 6
-  },
-  {
-    "macrotema": "metodo de pagamento",
-    "neuron": "6_6",
-    "subtemas": [
-      "detalhes de pagamento",
-      "metodo de pagamento",
-      "metodos de pagamento"
-    ],
-    "frequencia_total": 6,
-    "num_subtemas": 3
-  },
-  {
-    "macrotema": "parametros de sistema",
-    "neuron": "2_11",
-    "subtemas": [
-      "identificadores de recursos",
-      "limites de uso",
-      "parametros de sistema",
-      "sinonimos de termos",
-      "termos de aceite",
-      "versao de software"
-    ],
-    "frequencia_total": 6,
-    "num_subtemas": 6
-  },
-  {
-    "macrotema": "itens de credito",
-    "neuron": "7_5",
-    "subtemas": [
-      "itens de credito",
-      "notas de credito",
-      "pagamento de cotacao"
-    ],
-    "frequencia_total": 6,
-    "num_subtemas": 3
-  },
-  {
-    "macrotema": "configuracao de precos por loja",
-    "neuron": "8_0",
-    "subtemas": [
-      "analise de precos por loja",
-      "configuracao de loja para preco",
-      "configuracao de precos por loja",
-      "variacao de precos por loja"
-    ],
-    "frequencia_total": 5,
-    "num_subtemas": 4
-  },
-  {
-    "macrotema": "associacao de layout",
-    "neuron": "11_13",
-    "subtemas": [
-      "associacao de layout",
-      "conteudo de acordo",
-      "mapeamento de temas",
-      "posicionamento de imagens",
-      "versao de modulo"
-    ],
-    "frequencia_total": 5,
-    "num_subtemas": 5
-  },
-  {
     "macrotema": "atualizacao de indexadores",
-    "neuron": "12_7",
+    "neuron": "6_2",
     "subtemas": [
       "atualizacao de indexadores",
       "atualizacao de indices",
-      "cronologia de feedback",
-      "indice de disponibilidade",
-      "severidade de eventos"
+      "atualizacao de itens",
+      "codigo de otimizacao",
+      "download de arquivos",
+      "publicacao de itens"
     ],
-    "frequencia_total": 5,
-    "num_subtemas": 5
+    "frequencia_total": 7,
+    "num_subtemas": 6
   },
   {
-    "macrotema": "redirecionamento de url",
-    "neuron": "12_11",
+    "macrotema": "grupo de sites",
+    "neuron": "4_2",
     "subtemas": [
-      "comportamento de navegacao",
-      "redirecionamento de busca",
-      "redirecionamento de url",
-      "redirecionamento de urls",
+      "cadastro de websites",
+      "estrutura de canais",
+      "grupo de sites",
+      "hierarquia de sites",
+      "referencia de blocos em paginas",
+      "referencias de blocos",
       "segmentacao por website"
     ],
-    "frequencia_total": 5,
-    "num_subtemas": 5
+    "frequencia_total": 7,
+    "num_subtemas": 7
   },
   {
-    "macrotema": "contagem de tentativas",
-    "neuron": "13_6",
+    "macrotema": "sistema de mensagens",
+    "neuron": "6_6",
     "subtemas": [
-      "contagem de tentativas",
-      "contagem de utilizacoes",
-      "gravidade de notificacoes",
-      "severidade de mensagens"
+      "comunicacao por email",
+      "integracao de sistemas",
+      "mensagens administrativas",
+      "sistema de mensagens"
     ],
-    "frequencia_total": 5,
+    "frequencia_total": 7,
     "num_subtemas": 4
   },
   {
-    "macrotema": "conteudo de reviews",
-    "neuron": "11_8",
-    "subtemas": [
-      "conteudo de reviews",
-      "tipos de resumo",
-      "titulos de amostras"
-    ],
-    "frequencia_total": 5,
-    "num_subtemas": 3
-  },
-  {
-    "macrotema": "registro de eventos",
-    "neuron": "1_11",
-    "subtemas": [
-      "cronograma de jobs",
-      "eventos de sistema",
-      "periodos de registro",
-      "registro de eventos",
-      "registro temporal"
-    ],
-    "frequencia_total": 5,
-    "num_subtemas": 5
-  },
-  {
-    "macrotema": "metadados de loja",
-    "neuron": "4_11",
+    "macrotema": "dados de data",
+    "neuron": "13_14",
     "subtemas": [
       "dados de data",
       "dados de referenciadores",
-      "media de rating por entidade",
-      "metadados de e-commerce",
-      "metadados de loja"
-    ],
-    "frequencia_total": 5,
-    "num_subtemas": 5
-  },
-  {
-    "macrotema": "produto por website",
-    "neuron": "3_2",
-    "subtemas": [
-      "downloadable product downloads",
-      "indice de produtos por site",
-      "links de produtos baixaveis",
-      "metricas de loja por produto",
-      "produto por website"
-    ],
-    "frequencia_total": 5,
-    "num_subtemas": 5
-  },
-  {
-    "macrotema": "status de estoque por site",
-    "neuron": "1_7",
-    "subtemas": [
-      "estoque por website",
-      "indice de estoque bundle",
-      "status de estoque",
-      "status de estoque por site"
-    ],
-    "frequencia_total": 5,
-    "num_subtemas": 4
-  },
-  {
-    "macrotema": "tipos de evento",
-    "neuron": "2_12",
-    "subtemas": [
-      "tipos de entrada",
-      "tipos de evento",
-      "tipos de eventos",
-      "tipos de log",
-      "tipos de periodo"
-    ],
-    "frequencia_total": 5,
-    "num_subtemas": 5
-  },
-  {
-    "macrotema": "agrupamento de atributos",
-    "neuron": "5_13",
-    "subtemas": [
-      "agrupamento de atributos",
-      "armazenamento de atributos datetime",
-      "indice de atributos decimais",
-      "rotulos de atributos eav"
-    ],
-    "frequencia_total": 4,
-    "num_subtemas": 4
-  },
-  {
-    "macrotema": "metadados de entidade datetime",
-    "neuron": "5_11",
-    "subtemas": [
-      "armazenamento de dados eav",
+      "dados de website",
+      "dados geograficos",
+      "data de indice",
       "metadados de entidade datetime",
-      "metadados de entidades de clientes"
+      "tipos de dados"
     ],
-    "frequencia_total": 4,
-    "num_subtemas": 3
+    "frequencia_total": 7,
+    "num_subtemas": 7
   },
   {
-    "macrotema": "atributos de data",
-    "neuron": "4_13",
+    "macrotema": "informacoes adicionais",
+    "neuron": "11_4",
     "subtemas": [
-      "atributo de data",
-      "atributos de data",
-      "atributos numericos de entidades"
+      "descricao de garantias",
+      "erros de assinante",
+      "informacoes adicionais",
+      "informacoes de cadastro",
+      "informacoes de navegacao",
+      "informacoes de referenciador",
+      "traducao de termos"
     ],
-    "frequencia_total": 4,
-    "num_subtemas": 3
+    "frequencia_total": 7,
+    "num_subtemas": 7
   },
   {
-    "macrotema": "contagem de revisoes",
-    "neuron": "12_6",
+    "macrotema": "indice de precos por grupo de cliente",
+    "neuron": "9_0",
     "subtemas": [
-      "auditoria de exclusao",
-      "contagem de falhas",
-      "contagem de revisoes",
-      "percentual aprovado"
+      "estrategias de precificacao por faixa",
+      "estrutura de grupos de precos",
+      "faixas de preco (tier price)",
+      "indice de precificacao por grupo de clientes",
+      "indice de preco por grupo de cliente",
+      "indice de precos por grupo de cliente",
+      "variacao de precos por grupo"
     ],
-    "frequencia_total": 4,
+    "frequencia_total": 7,
+    "num_subtemas": 7
+  },
+  {
+    "macrotema": "hierarquia site-loja",
+    "neuron": "2_3",
+    "subtemas": [
+      "associacao de blocos a lojas",
+      "associacao de lojas a paginas",
+      "hierarquia site-loja",
+      "hierarquia website-loja",
+      "relacao bloco cms loja",
+      "vinculo bloco-loja"
+    ],
+    "frequencia_total": 6,
+    "num_subtemas": 6
+  },
+  {
+    "macrotema": "rotulos de atributos eav",
+    "neuron": "11_14",
+    "subtemas": [
+      "atributos varchar eav",
+      "modelo de atributos eav",
+      "rotulos de atributos eav",
+      "valores de atributos de catalogo",
+      "valores de atributos numericos de catalogo",
+      "valores numericos de atributos"
+    ],
+    "frequencia_total": 6,
+    "num_subtemas": 6
+  },
+  {
+    "macrotema": "mapeamento de status de pedido",
+    "neuron": "5_10",
+    "subtemas": [
+      "classificacao de pedido",
+      "historico de status de pedido",
+      "mapeamento de status de pedido",
+      "mapeamento status-pedido",
+      "rotulos de status de pedido",
+      "status de pedido por loja"
+    ],
+    "frequencia_total": 6,
+    "num_subtemas": 6
+  },
+  {
+    "macrotema": "rastreamento de pedidos",
+    "neuron": "4_9",
+    "subtemas": [
+      "endereco de pedido",
+      "expedicao de pedidos",
+      "rastreamento de pedidos",
+      "transportadoras de pedidos"
+    ],
+    "frequencia_total": 6,
     "num_subtemas": 4
   },
   {
-    "macrotema": "imagens por loja",
+    "macrotema": "monitoramento de sistema",
+    "neuron": "7_6",
+    "subtemas": [
+      "monitoramento de cron",
+      "monitoramento de jobs",
+      "monitoramento de sistema",
+      "monitoramento de tempo",
+      "monitoramento de visitantes"
+    ],
+    "frequencia_total": 6,
+    "num_subtemas": 5
+  },
+  {
+    "macrotema": "valores de link",
+    "neuron": "12_12",
+    "subtemas": [
+      "parametros de sistema",
+      "rotulos de status",
+      "texto de valor",
+      "tipos de vinculo",
+      "valores de link",
+      "valores de rating"
+    ],
+    "frequencia_total": 6,
+    "num_subtemas": 6
+  },
+  {
+    "macrotema": "consumidores oauth",
+    "neuron": "11_8",
+    "subtemas": [
+      "api callback urls",
+      "consumidores oauth",
+      "oauth client registration",
+      "oauth consumer credentials",
+      "usuarios administradores"
+    ],
+    "frequencia_total": 5,
+    "num_subtemas": 5
+  },
+  {
+    "macrotema": "atualizacoes de layout",
+    "neuron": "5_1",
+    "subtemas": [
+      "atualizacao de layout",
+      "atualizacoes de layout"
+    ],
+    "frequencia_total": 5,
+    "num_subtemas": 2
+  },
+  {
+    "macrotema": "customizacao de layout",
     "neuron": "4_1",
     "subtemas": [
-      "catalogo por loja",
-      "imagens por loja",
-      "publicacao por loja",
-      "visibilidade por loja"
+      "blocos de conteudo",
+      "customizacao de layout",
+      "estrutura de navegacao",
+      "posicionamento de imagens"
+    ],
+    "frequencia_total": 5,
+    "num_subtemas": 4
+  },
+  {
+    "macrotema": "codigo de status",
+    "neuron": "12_9",
+    "subtemas": [
+      "codigo de status",
+      "estado de sistema",
+      "etiqueta de status",
+      "ultima visita"
+    ],
+    "frequencia_total": 5,
+    "num_subtemas": 4
+  },
+  {
+    "macrotema": "compartilhamento de listas",
+    "neuron": "3_3",
+    "subtemas": [
+      "compartilhamento de lista",
+      "compartilhamento de listas",
+      "disponibilidade por website",
+      "galeria de midia"
+    ],
+    "frequencia_total": 5,
+    "num_subtemas": 4
+  },
+  {
+    "macrotema": "gestao de estoque",
+    "neuron": "4_5",
+    "subtemas": [
+      "gerenciamento de cupons",
+      "gerenciamento de estoque",
+      "gestao de estoque",
+      "gestao de vendas"
+    ],
+    "frequencia_total": 5,
+    "num_subtemas": 4
+  },
+  {
+    "macrotema": "mapeamento de tipos de entidade",
+    "neuron": "7_10",
+    "subtemas": [
+      "mapeamento de entidades",
+      "mapeamento de tipos de entidade",
+      "mapeamento de tipos de entidades",
+      "mapeamento entidade-url",
+      "mapeamento tipo de entidade loja"
+    ],
+    "frequencia_total": 5,
+    "num_subtemas": 5
+  },
+  {
+    "macrotema": "mudancas de design",
+    "neuron": "4_0",
+    "subtemas": [
+      "agendamento de design",
+      "design de comunicacao",
+      "mudanca de design",
+      "mudancas de design"
     ],
     "frequencia_total": 4,
     "num_subtemas": 4
   },
   {
-    "macrotema": "opcoes de classificacao",
-    "neuron": "9_7",
+    "macrotema": "execucao de jobs",
+    "neuron": "6_5",
     "subtemas": [
-      "categorias de classificacao",
-      "itens de comparacao",
-      "opcoes de classificacao"
+      "agendamento de tarefas",
+      "execucao de jobs"
+    ],
+    "frequencia_total": 4,
+    "num_subtemas": 2
+  },
+  {
+    "macrotema": "ajustes de pagamento",
+    "neuron": "13_2",
+    "subtemas": [
+      "ajustes de pagamento",
+      "calculo de totais",
+      "devolucoes financeiras",
+      "pagamento de orcamento"
+    ],
+    "frequencia_total": 4,
+    "num_subtemas": 4
+  },
+  {
+    "macrotema": "associacao regra-loja",
+    "neuron": "2_2",
+    "subtemas": [
+      "associacao de promocao a loja",
+      "associacao regra-loja",
+      "associacao review-loja",
+      "vinculo fila-loja"
+    ],
+    "frequencia_total": 4,
+    "num_subtemas": 4
+  },
+  {
+    "macrotema": "vinculo cliente-regra",
+    "neuron": "1_1",
+    "subtemas": [
+      "associacao regra-grupo de cliente",
+      "vinculo cliente-regra",
+      "vinculo pedido-cliente"
     ],
     "frequencia_total": 4,
     "num_subtemas": 3
   },
   {
-    "macrotema": "codigos de status",
-    "neuron": "2_9",
+    "macrotema": "formularios de atributos",
+    "neuron": "10_12",
     "subtemas": [
-      "codigo de status",
-      "codigos de status",
-      "etiqueta de status"
+      "atributos de formulario",
+      "formularios de atributos"
+    ],
+    "frequencia_total": 4,
+    "num_subtemas": 2
+  },
+  {
+    "macrotema": "paginas de cms",
+    "neuron": "11_10",
+    "subtemas": [
+      "categorias de usuario",
+      "modulos instalados",
+      "paginas de cms"
+    ],
+    "frequencia_total": 4,
+    "num_subtemas": 3
+  },
+  {
+    "macrotema": "reembolsos por loja",
+    "neuron": "0_2",
+    "subtemas": [
+      "cliente e loja",
+      "idiomas de loja",
+      "reembolsos por loja"
+    ],
+    "frequencia_total": 4,
+    "num_subtemas": 3
+  },
+  {
+    "macrotema": "produtos desejados",
+    "neuron": "2_10",
+    "subtemas": [
+      "compras de produtos baixaveis",
+      "lista de desejos de produtos",
+      "produtos desejados",
+      "status de estoque produto"
+    ],
+    "frequencia_total": 4,
+    "num_subtemas": 4
+  },
+  {
+    "macrotema": "configuracao de relacionamentos de produtos",
+    "neuron": "5_14",
+    "subtemas": [
+      "configuracao de atributos por loja",
+      "configuracao de relacionamento de produtos",
+      "configuracao de relacionamentos de produtos",
+      "configuracao de tipos de produtos"
+    ],
+    "frequencia_total": 4,
+    "num_subtemas": 4
+  },
+  {
+    "macrotema": "controle de estado de views",
+    "neuron": "9_9",
+    "subtemas": [
+      "consultas de busca",
+      "controle de estado de views",
+      "controle de incrementos de ids",
+      "versao de modulo"
+    ],
+    "frequencia_total": 4,
+    "num_subtemas": 4
+  },
+  {
+    "macrotema": "produtos salvos por cliente",
+    "neuron": "0_1",
+    "subtemas": [
+      "consumidores de servico",
+      "produtos salvos por cliente",
+      "relacao cupom-cliente",
+      "visitante e cliente"
+    ],
+    "frequencia_total": 4,
+    "num_subtemas": 4
+  },
+  {
+    "macrotema": "organizacao de formularios",
+    "neuron": "9_10",
+    "subtemas": [
+      "estrutura de formularios",
+      "localizacao de rotulos de formulario",
+      "nomes de secoes de formulario",
+      "organizacao de formularios"
+    ],
+    "frequencia_total": 4,
+    "num_subtemas": 4
+  },
+  {
+    "macrotema": "metricas de busca",
+    "neuron": "13_12",
+    "subtemas": [
+      "indice de busca fulltext",
+      "metricas de busca",
+      "resultados de busca",
+      "termos de aceite"
+    ],
+    "frequencia_total": 4,
+    "num_subtemas": 4
+  },
+  {
+    "macrotema": "titulos de taxas",
+    "neuron": "12_3",
+    "subtemas": [
+      "itens de orcamento",
+      "titulos de taxas"
+    ],
+    "frequencia_total": 4,
+    "num_subtemas": 2
+  },
+  {
+    "macrotema": "itens de pedido",
+    "neuron": "3_11",
+    "subtemas": [
+      "itens de pedido",
+      "metodo de pagamento"
+    ],
+    "frequencia_total": 4,
+    "num_subtemas": 2
+  },
+  {
+    "macrotema": "preco e quantidade de pedidos",
+    "neuron": "3_10",
+    "subtemas": [
+      "order item link purchase",
+      "preco e quantidade de pedidos",
+      "quantidade pedida",
+      "totais de pedido"
+    ],
+    "frequencia_total": 4,
+    "num_subtemas": 4
+  },
+  {
+    "macrotema": "preco de link baixavel",
+    "neuron": "10_2",
+    "subtemas": [
+      "precificacao de download",
+      "precificacao de pacotes",
+      "preco de link",
+      "preco de link baixavel"
+    ],
+    "frequencia_total": 4,
+    "num_subtemas": 4
+  },
+  {
+    "macrotema": "relacao pagina-loja",
+    "neuron": "2_4",
+    "subtemas": [
+      "relacao pagina-loja",
+      "sitemap de loja",
+      "vinculacao de revisoes a lojas",
+      "widgets de loja"
+    ],
+    "frequencia_total": 4,
+    "num_subtemas": 4
+  },
+  {
+    "macrotema": "valores de atributo de vinculo",
+    "neuron": "10_13",
+    "subtemas": [
+      "tipos de backend de atributos",
+      "valores de atributo de vinculo",
+      "valores de atributos de link"
     ],
     "frequencia_total": 4,
     "num_subtemas": 3
   },
   {
     "macrotema": "modelagem eav de atributos",
-    "neuron": "7_12",
+    "neuron": "6_13",
     "subtemas": [
-      "definicao de campos eav",
+      "atributos inteiros eav",
       "modelagem eav de atributos",
-      "modelo eav de endereco"
-    ],
-    "frequencia_total": 4,
-    "num_subtemas": 3
-  },
-  {
-    "macrotema": "precos por quantidade",
-    "neuron": "10_1",
-    "subtemas": [
-      "estrategias de precificacao por faixa",
-      "preco por quantidade",
-      "precos por quantidade"
-    ],
-    "frequencia_total": 4,
-    "num_subtemas": 3
-  },
-  {
-    "macrotema": "transacoes financeiras de vendas",
-    "neuron": "6_4",
-    "subtemas": [
-      "faturamento por periodo",
-      "transacoes financeiras de vendas"
-    ],
-    "frequencia_total": 4,
-    "num_subtemas": 2
-  },
-  {
-    "macrotema": "indexacao por loja",
-    "neuron": "6_1",
-    "subtemas": [
-      "indexacao por loja",
-      "mapeamento multi-loja de reviews",
-      "variacao por loja",
-      "vinculacao de revisoes a lojas"
-    ],
-    "frequencia_total": 4,
-    "num_subtemas": 4
-  },
-  {
-    "macrotema": "ordem de exibicao de opcao",
-    "neuron": "9_8",
-    "subtemas": [
-      "ordem de exibicao de opcao",
-      "ordenacao de opcoes",
-      "prioridade de exibicao"
-    ],
-    "frequencia_total": 4,
-    "num_subtemas": 3
-  },
-  {
-    "macrotema": "valores decimais em lojas",
-    "neuron": "7_2",
-    "subtemas": [
-      "taxas por loja",
-      "titulos de opcoes por loja",
-      "valores de loja padrao",
-      "valores decimais em lojas"
-    ],
-    "frequencia_total": 4,
-    "num_subtemas": 4
-  },
-  {
-    "macrotema": "tipos de vinculo",
-    "neuron": "2_13",
-    "subtemas": [
-      "tipos de link",
-      "tipos de vinculo"
-    ],
-    "frequencia_total": 4,
-    "num_subtemas": 2
-  },
-  {
-    "macrotema": "agendamento de tarefas",
-    "neuron": "13_13",
-    "subtemas": [
-      "agendamento de tarefas"
-    ],
-    "frequencia_total": 3,
-    "num_subtemas": 1
-  },
-  {
-    "macrotema": "associacao de regras",
-    "neuron": "10_10",
-    "subtemas": [
-      "agregacao por hora",
-      "associacao de regras",
-      "estrutura de canais"
+      "visibilidade de atributos eav"
     ],
     "frequencia_total": 3,
     "num_subtemas": 3
   },
   {
-    "macrotema": "calculo de totais",
+    "macrotema": "auditoria de login",
+    "neuron": "10_8",
+    "subtemas": [
+      "auditoria de login",
+      "controle de captcha",
+      "sessao de usuario"
+    ],
+    "frequencia_total": 3,
+    "num_subtemas": 3
+  },
+  {
+    "macrotema": "chaves de api",
+    "neuron": "11_7",
+    "subtemas": [
+      "chaves de api",
+      "limites de uso",
+      "tokens oauth"
+    ],
+    "frequencia_total": 3,
+    "num_subtemas": 3
+  },
+  {
+    "macrotema": "comportamento de importacao",
+    "neuron": "9_3",
+    "subtemas": [
+      "comportamento de importacao",
+      "itens de comparacao"
+    ],
+    "frequencia_total": 3,
+    "num_subtemas": 2
+  },
+  {
+    "macrotema": "configuracao de itens de cesta",
+    "neuron": "3_13",
+    "subtemas": [
+      "configuracao de checkout",
+      "configuracao de item de lista de desejos",
+      "configuracao de itens de cesta"
+    ],
+    "frequencia_total": 3,
+    "num_subtemas": 3
+  },
+  {
+    "macrotema": "configuracao de variacoes",
+    "neuron": "2_14",
+    "subtemas": [
+      "configuracao de taxas",
+      "configuracao de variacoes"
+    ],
+    "frequencia_total": 3,
+    "num_subtemas": 2
+  },
+  {
+    "macrotema": "relatorios de atividade",
     "neuron": "8_5",
     "subtemas": [
-      "calculo de totais",
-      "inteiro de valor",
-      "itens de orcamento"
+      "consulta de pesquisa",
+      "relatorios de atividade",
+      "severidade de eventos"
     ],
     "frequencia_total": 3,
     "num_subtemas": 3
   },
   {
-    "macrotema": "compartilhamento de lista",
-    "neuron": "8_9",
+    "macrotema": "controle de descontos",
+    "neuron": "12_1",
     "subtemas": [
-      "compartilhamento de lista",
-      "filtros de pesquisa",
-      "hierarquia de transacoes"
-    ],
-    "frequencia_total": 3,
-    "num_subtemas": 3
-  },
-  {
-    "macrotema": "conteudo de variaveis",
-    "neuron": "12_13",
-    "subtemas": [
-      "conteudo de variaveis",
-      "galeria de midia",
-      "tags de cache"
-    ],
-    "frequencia_total": 3,
-    "num_subtemas": 3
-  },
-  {
-    "macrotema": "indexacao de catalogo",
-    "neuron": "0_7",
-    "subtemas": [
-      "dados de indexacao de catalogo",
-      "eav de catalogo",
-      "indexacao de catalogo"
-    ],
-    "frequencia_total": 3,
-    "num_subtemas": 3
-  },
-  {
-    "macrotema": "itens de citacao",
-    "neuron": "8_6",
-    "subtemas": [
-      "descricao de garantias",
-      "itens de citacao",
-      "tamanhos de calcado"
-    ],
-    "frequencia_total": 3,
-    "num_subtemas": 3
-  },
-  {
-    "macrotema": "desempenho de regras",
-    "neuron": "12_5",
-    "subtemas": [
-      "desempenho de regras",
-      "periodo de validade"
+      "controle de descontos",
+      "desempenho de descontos"
     ],
     "frequencia_total": 3,
     "num_subtemas": 2
   },
   {
-    "macrotema": "localizacao en_us",
-    "neuron": "11_11",
+    "macrotema": "relacionamento cliente-endereco",
+    "neuron": "2_0",
     "subtemas": [
-      "enderecos ip",
-      "localizacao en_us",
-      "referencias de blocos"
+      "edicao de enderecos de cliente",
+      "relacionamento cliente-endereco",
+      "vinculo cliente-website"
     ],
     "frequencia_total": 3,
     "num_subtemas": 3
   },
   {
-    "macrotema": "formularios de checkout",
-    "neuron": "1_14",
+    "macrotema": "links de rodape",
+    "neuron": "3_1",
     "subtemas": [
-      "formularios de checkout",
-      "formularios do magento"
+      "escopo de website em regras",
+      "links de rodape"
     ],
     "frequencia_total": 3,
     "num_subtemas": 2
   },
   {
-    "macrotema": "mapeamento de acordos de checkout",
-    "neuron": "9_12",
+    "macrotema": "etiquetas de variacao",
+    "neuron": "13_4",
     "subtemas": [
-      "mapeamento de acordos de checkout",
-      "mapeamento rating-store",
-      "migracao de esquema"
+      "etiquetas de variacao",
+      "tamanhos de calcado",
+      "tipos de formatacao"
     ],
     "frequencia_total": 3,
     "num_subtemas": 3
   },
   {
-    "macrotema": "preco de selecao de produtos",
-    "neuron": "1_0",
+    "macrotema": "gerenciamento de sitemaps",
+    "neuron": "5_3",
     "subtemas": [
-      "personalizacao de produto em cotacao",
-      "preco de selecao de produtos",
-      "produto em promocao"
+      "gerenciamento de arquivos de tema",
+      "gerenciamento de indices",
+      "gerenciamento de sitemaps"
     ],
     "frequencia_total": 3,
     "num_subtemas": 3
   },
   {
-    "macrotema": "validacao de iva",
-    "neuron": "11_5",
+    "macrotema": "gestao de paginas cms",
+    "neuron": "4_3",
     "subtemas": [
-      "prioridade de regras fiscais",
-      "validacao de iva",
-      "validacao de vat"
+      "gerenciamento de sitemap",
+      "gestao de blocos cms",
+      "gestao de paginas cms"
     ],
     "frequencia_total": 3,
     "num_subtemas": 3
   },
   {
-    "macrotema": "uso de cupons por cliente",
-    "neuron": "14_3",
+    "macrotema": "identificadores de bloco",
+    "neuron": "12_6",
     "subtemas": [
-      "relacao cupom-cliente",
-      "uso de cupons por cliente",
-      "uso de cupons promocionais por cliente"
+      "identificacao de chaves",
+      "identificadores de amostras",
+      "identificadores de bloco"
     ],
     "frequencia_total": 3,
     "num_subtemas": 3
   },
   {
-    "macrotema": "variaveis de sistema",
-    "neuron": "10_13",
+    "macrotema": "vendas de produtos",
+    "neuron": "2_8",
     "subtemas": [
-      "variaveis de sistema"
+      "venda de produtos",
+      "vendas de produtos",
+      "vendas de produtos baixaveis"
     ],
     "frequencia_total": 3,
-    "num_subtemas": 1
-  },
-  {
-    "macrotema": "vinculacao de produtos",
-    "neuron": "1_2",
-    "subtemas": [
-      "vinculacao de produtos"
-    ],
-    "frequencia_total": 3,
-    "num_subtemas": 1
+    "num_subtemas": 3
   },
   {
     "macrotema": "website de vendas",
-    "neuron": "4_3",
+    "neuron": "2_6",
     "subtemas": [
       "website de vendas"
     ],
@@ -2996,195 +2923,219 @@
     "num_subtemas": 1
   },
   {
+    "macrotema": "agregacao de faturamento",
+    "neuron": "14_2",
+    "subtemas": [
+      "agregacao de faturamento"
+    ],
+    "frequencia_total": 2,
+    "num_subtemas": 1
+  },
+  {
     "macrotema": "agregacao de votos",
-    "neuron": "10_8",
+    "neuron": "13_3",
     "subtemas": [
       "agregacao de votos",
-      "ordem de classificacao"
+      "votos de classificacao"
     ],
     "frequencia_total": 2,
     "num_subtemas": 2
   },
   {
-    "macrotema": "categorias de usuario",
-    "neuron": "1_12",
+    "macrotema": "avaliacao de preco",
+    "neuron": "7_1",
     "subtemas": [
-      "categorias de usuario",
-      "modulos instalados"
+      "avaliacao de preco",
+      "notificacoes de preco"
     ],
     "frequencia_total": 2,
     "num_subtemas": 2
   },
   {
-    "macrotema": "comentarios de creditmemo",
-    "neuron": "4_10",
+    "macrotema": "cache de tags",
+    "neuron": "13_13",
     "subtemas": [
-      "comentarios de creditmemo",
-      "registro de envio por ip"
+      "cache de tags",
+      "tags de cache"
     ],
     "frequencia_total": 2,
     "num_subtemas": 2
   },
   {
-    "macrotema": "integracao de atributos do magento",
-    "neuron": "7_13",
+    "macrotema": "cache invalidation tracking",
+    "neuron": "12_8",
     "subtemas": [
-      "configuracao de atributos eav",
-      "integracao de atributos do magento"
+      "cache invalidation tracking",
+      "consumidores de api"
     ],
     "frequencia_total": 2,
     "num_subtemas": 2
   },
   {
-    "macrotema": "configuracao de relacionamentos de produtos",
-    "neuron": "8_13",
+    "macrotema": "categoria raiz",
+    "neuron": "14_6",
     "subtemas": [
-      "configuracao de relacionamento de produtos",
-      "configuracao de relacionamentos de produtos"
+      "categoria raiz",
+      "categorias raiz"
     ],
     "frequencia_total": 2,
     "num_subtemas": 2
   },
   {
-    "macrotema": "downloadable link purchased item",
-    "neuron": "2_8",
+    "macrotema": "identificacao de pais",
+    "neuron": "11_5",
     "subtemas": [
-      "downloadable link purchased item",
-      "order item link purchase"
+      "codigos de falha em assinaturas",
+      "identificacao de pais"
     ],
     "frequencia_total": 2,
     "num_subtemas": 2
   },
   {
-    "macrotema": "entidades revisadas",
-    "neuron": "6_10",
+    "macrotema": "configuracao de bundle",
+    "neuron": "0_13",
     "subtemas": [
-      "entidades de e-commerce",
-      "entidades revisadas"
+      "configuracao de bundle"
     ],
     "frequencia_total": 2,
-    "num_subtemas": 2
+    "num_subtemas": 1
   },
   {
-    "macrotema": "preco por regra",
-    "neuron": "11_2",
+    "macrotema": "contagem de falhas",
+    "neuron": "7_4",
     "subtemas": [
-      "escopo de regras de preco",
-      "preco por regra"
+      "contagem de falhas",
+      "metricas de desempenho"
     ],
     "frequencia_total": 2,
     "num_subtemas": 2
   },
   {
-    "macrotema": "estrutura de categoria",
+    "macrotema": "tentativas de captcha",
+    "neuron": "10_9",
+    "subtemas": [
+      "dados de usuario temporarios",
+      "tentativas de captcha"
+    ],
+    "frequencia_total": 2,
+    "num_subtemas": 2
+  },
+  {
+    "macrotema": "desempenho de regras",
+    "neuron": "13_0",
+    "subtemas": [
+      "desempenho de regras"
+    ],
+    "frequencia_total": 2,
+    "num_subtemas": 1
+  },
+  {
+    "macrotema": "eventos de relatorio",
+    "neuron": "8_8",
+    "subtemas": [
+      "eventos de interacao",
+      "eventos de relatorio"
+    ],
+    "frequencia_total": 2,
+    "num_subtemas": 2
+  },
+  {
+    "macrotema": "rastreamento de estoque",
+    "neuron": "4_6",
+    "subtemas": [
+      "identificacao de estoque",
+      "rastreamento de estoque"
+    ],
+    "frequencia_total": 2,
+    "num_subtemas": 2
+  },
+  {
+    "macrotema": "mapeamento de tipos de formulario",
     "neuron": "8_10",
     "subtemas": [
-      "estrutura de categoria",
-      "relacionamentos entre categorias"
-    ],
-    "frequencia_total": 2,
-    "num_subtemas": 2
-  },
-  {
-    "macrotema": "execucao de jobs",
-    "neuron": "14_12",
-    "subtemas": [
-      "execucao de jobs",
-      "gerenciamento de sessoes por site"
-    ],
-    "frequencia_total": 2,
-    "num_subtemas": 2
-  },
-  {
-    "macrotema": "mapeamento formulario-atributo",
-    "neuron": "8_12",
-    "subtemas": [
       "indexacao eav temporaria",
-      "mapeamento formulario-atributo"
+      "mapeamento de tipos de formulario"
     ],
     "frequencia_total": 2,
     "num_subtemas": 2
   },
   {
-    "macrotema": "itens comprados",
-    "neuron": "3_5",
+    "macrotema": "modelo eav de endereco",
+    "neuron": "7_12",
     "subtemas": [
-      "itens comprados"
+      "modelo eav de endereco"
     ],
     "frequencia_total": 2,
     "num_subtemas": 1
   },
   {
-    "macrotema": "relacionamento wishlist e produto",
-    "neuron": "2_4",
+    "macrotema": "periodo de validade",
+    "neuron": "10_3",
     "subtemas": [
-      "lista de desejos de produtos",
-      "relacionamento wishlist e produto"
+      "periodo de validade",
+      "titulos de links baixaveis"
     ],
     "frequencia_total": 2,
     "num_subtemas": 2
   },
   {
-    "macrotema": "mapeamento de caminhos",
-    "neuron": "11_12",
+    "macrotema": "precificacao por website",
+    "neuron": "9_2",
     "subtemas": [
-      "mapeamento de caminhos",
-      "mapeamento de layout"
-    ],
-    "frequencia_total": 2,
-    "num_subtemas": 2
-  },
-  {
-    "macrotema": "opcao de produto por loja",
-    "neuron": "3_0",
-    "subtemas": [
-      "opcao de produto por loja",
-      "opcoes de produto por loja"
-    ],
-    "frequencia_total": 2,
-    "num_subtemas": 2
-  },
-  {
-    "macrotema": "ordens de venda",
-    "neuron": "4_5",
-    "subtemas": [
-      "ordens de venda",
-      "pedido de venda"
-    ],
-    "frequencia_total": 2,
-    "num_subtemas": 2
-  },
-  {
-    "macrotema": "regras de desconto por grupo de clientes",
-    "neuron": "12_2",
-    "subtemas": [
-      "regras de desconto por grupo de clientes",
-      "segmentacao de promocoes por grupo"
-    ],
-    "frequencia_total": 2,
-    "num_subtemas": 2
-  },
-  {
-    "macrotema": "vendas por loja",
-    "neuron": "5_3",
-    "subtemas": [
-      "vendas por loja"
+      "precificacao por website"
     ],
     "frequencia_total": 2,
     "num_subtemas": 1
   },
   {
-    "macrotema": "associacao de promocoes a grupos",
-    "neuron": "13_5",
+    "macrotema": "validacao de vat",
+    "neuron": "13_1",
     "subtemas": [
-      "associacao de promocoes a grupos"
+      "validacao de iva",
+      "validacao de vat"
+    ],
+    "frequencia_total": 2,
+    "num_subtemas": 2
+  },
+  {
+    "macrotema": "vinculo cliente-loja",
+    "neuron": "1_2",
+    "subtemas": [
+      "vinculo cliente-loja"
+    ],
+    "frequencia_total": 2,
+    "num_subtemas": 1
+  },
+  {
+    "macrotema": "associacao de assinantes",
+    "neuron": "2_1",
+    "subtemas": [
+      "associacao de assinantes"
+    ],
+    "frequencia_total": 1,
+    "num_subtemas": 1
+  },
+  {
+    "macrotema": "cadastro de endereco",
+    "neuron": "6_9",
+    "subtemas": [
+      "cadastro de endereco"
+    ],
+    "frequencia_total": 1,
+    "num_subtemas": 1
+  },
+  {
+    "macrotema": "cadastro de paises",
+    "neuron": "13_6",
+    "subtemas": [
+      "cadastro de paises"
     ],
     "frequencia_total": 1,
     "num_subtemas": 1
   },
   {
     "macrotema": "codigos de classificacao",
-    "neuron": "10_6",
+    "neuron": "13_5",
     "subtemas": [
       "codigos de classificacao"
     ],
@@ -3192,145 +3143,154 @@
     "num_subtemas": 1
   },
   {
-    "macrotema": "condicoes de entrega",
-    "neuron": "5_7",
+    "macrotema": "dados de faturamento",
+    "neuron": "3_7",
     "subtemas": [
-      "condicoes de entrega"
+      "dados de faturamento"
     ],
     "frequencia_total": 1,
     "num_subtemas": 1
   },
   {
-    "macrotema": "configuracao de paises-alvo",
-    "neuron": "9_13",
+    "macrotema": "diretorio de moedas",
+    "neuron": "7_2",
     "subtemas": [
-      "configuracao de paises-alvo"
+      "diretorio de moedas"
     ],
     "frequencia_total": 1,
     "num_subtemas": 1
   },
   {
-    "macrotema": "envio de links",
-    "neuron": "5_10",
+    "macrotema": "entidade de produto",
+    "neuron": "6_12",
     "subtemas": [
-      "envio de links"
+      "entidade de produto"
     ],
     "frequencia_total": 1,
     "num_subtemas": 1
   },
   {
-    "macrotema": "estado de indexacao",
-    "neuron": "1_8",
+    "macrotema": "entidades de e-commerce",
+    "neuron": "5_11",
     "subtemas": [
-      "estado de indexacao"
+      "entidades de e-commerce"
     ],
     "frequencia_total": 1,
     "num_subtemas": 1
   },
   {
-    "macrotema": "eventos de loja virtual",
-    "neuron": "5_2",
+    "macrotema": "estoque padrao",
+    "neuron": "3_12",
     "subtemas": [
-      "eventos de loja virtual"
+      "estoque padrao"
     ],
     "frequencia_total": 1,
     "num_subtemas": 1
   },
   {
-    "macrotema": "informacoes de transporte",
+    "macrotema": "gerenciamento de listas de desejos",
+    "neuron": "4_4",
+    "subtemas": [
+      "gerenciamento de listas de desejos"
+    ],
+    "frequencia_total": 1,
+    "num_subtemas": 1
+  },
+  {
+    "macrotema": "gerenciamento de remessas",
+    "neuron": "5_6",
+    "subtemas": [
+      "gerenciamento de remessas"
+    ],
+    "frequencia_total": 1,
+    "num_subtemas": 1
+  },
+  {
+    "macrotema": "inbox de alertas",
+    "neuron": "13_11",
+    "subtemas": [
+      "inbox de alertas"
+    ],
+    "frequencia_total": 1,
+    "num_subtemas": 1
+  },
+  {
+    "macrotema": "indice de estoque bundle",
+    "neuron": "14_9",
+    "subtemas": [
+      "indice de estoque bundle"
+    ],
+    "frequencia_total": 1,
+    "num_subtemas": 1
+  },
+  {
+    "macrotema": "mapeamento de acordos de checkout",
+    "neuron": "5_12",
+    "subtemas": [
+      "mapeamento de acordos de checkout"
+    ],
+    "frequencia_total": 1,
+    "num_subtemas": 1
+  },
+  {
+    "macrotema": "mapeamento de atributos de formulario",
+    "neuron": "9_12",
+    "subtemas": [
+      "mapeamento de atributos de formulario"
+    ],
+    "frequencia_total": 1,
+    "num_subtemas": 1
+  },
+  {
+    "macrotema": "metricas de enderecamento",
+    "neuron": "7_8",
+    "subtemas": [
+      "metricas de enderecamento"
+    ],
+    "frequencia_total": 1,
+    "num_subtemas": 1
+  },
+  {
+    "macrotema": "posicionamento de opcoes",
+    "neuron": "1_13",
+    "subtemas": [
+      "posicionamento de opcoes"
+    ],
+    "frequencia_total": 1,
+    "num_subtemas": 1
+  },
+  {
+    "macrotema": "prefixo de incremento",
+    "neuron": "13_8",
+    "subtemas": [
+      "prefixo de incremento"
+    ],
+    "frequencia_total": 1,
+    "num_subtemas": 1
+  },
+  {
+    "macrotema": "rastreamento de atualizacao",
     "neuron": "6_7",
     "subtemas": [
-      "informacoes de transporte"
+      "rastreamento de atualizacao"
     ],
     "frequencia_total": 1,
     "num_subtemas": 1
   },
   {
-    "macrotema": "ordenacao de imagens de produto",
-    "neuron": "1_4",
+    "macrotema": "skus de plano de assinatura",
+    "neuron": "11_2",
     "subtemas": [
-      "ordenacao de imagens de produto"
+      "skus de plano de assinatura"
     ],
     "frequencia_total": 1,
     "num_subtemas": 1
   },
   {
-    "macrotema": "preco por loja",
-    "neuron": "7_1",
+    "macrotema": "vinculo pedido-pagamento",
+    "neuron": "4_11",
     "subtemas": [
-      "preco por loja"
-    ],
-    "frequencia_total": 1,
-    "num_subtemas": 1
-  },
-  {
-    "macrotema": "prefixo e ultimo id",
-    "neuron": "14_6",
-    "subtemas": [
-      "prefixo e ultimo id"
-    ],
-    "frequencia_total": 1,
-    "num_subtemas": 1
-  },
-  {
-    "macrotema": "prioridade de taxas",
-    "neuron": "9_5",
-    "subtemas": [
-      "prioridade de taxas"
-    ],
-    "frequencia_total": 1,
-    "num_subtemas": 1
-  },
-  {
-    "macrotema": "remetente e destinatario",
-    "neuron": "6_9",
-    "subtemas": [
-      "remetente e destinatario"
-    ],
-    "frequencia_total": 1,
-    "num_subtemas": 1
-  },
-  {
-    "macrotema": "segmentacao de cliente em promocoes",
-    "neuron": "13_2",
-    "subtemas": [
-      "segmentacao de cliente em promocoes"
-    ],
-    "frequencia_total": 1,
-    "num_subtemas": 1
-  },
-  {
-    "macrotema": "transportadoras de pedidos",
-    "neuron": "5_8",
-    "subtemas": [
-      "transportadoras de pedidos"
-    ],
-    "frequencia_total": 1,
-    "num_subtemas": 1
-  },
-  {
-    "macrotema": "valores decimais de categorias",
-    "neuron": "9_6",
-    "subtemas": [
-      "valores decimais de categorias"
-    ],
-    "frequencia_total": 1,
-    "num_subtemas": 1
-  },
-  {
-    "macrotema": "valores varchar de vinculo",
-    "neuron": "3_13",
-    "subtemas": [
-      "valores varchar de vinculo"
-    ],
-    "frequencia_total": 1,
-    "num_subtemas": 1
-  },
-  {
-    "macrotema": "vinculo produto-opcao",
-    "neuron": "2_1",
-    "subtemas": [
-      "vinculo produto-opcao"
+      "vinculo pedido-pagamento"
     ],
     "frequencia_total": 1,
     "num_subtemas": 1

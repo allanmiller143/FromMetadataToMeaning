@@ -6,6 +6,7 @@ import unicodedata
 from pathlib import Path
 from collections import defaultdict, Counter
 from itertools import product
+from networkx import radius
 import numpy as np
 import pandas as pd
 import matplotlib.pyplot as plt
@@ -134,11 +135,11 @@ def grid_search_som(data):
     print("Iniciando Grid Search para otimização do SOM...")
 
     grid = {
-        "x": [10, 12, 15],
-        "y": [10, 12, 15],
-        "sigma": [3.0, 5.0, 7.5],
+        "x": [14],
+        "y": [14],
+        "sigma": [1.0, 1.5, 2.0, 2.5, 3.0],
         "learning_rate": [0.1, 0.3, 0.5],
-        "iterations": [2000, 5000, 10000]
+        "iterations": [1000, 2000, 3000]
     }
 
     best = None

@@ -271,7 +271,7 @@ def llm_suggest_topics(client: OpenAI, table_summary: str) -> List[str]:
     7. Se a tabela parecer estrutural ou administrativa, retorne temas estruturais honestos.
     8. Se não houver evidência confiável, retorne menos temas; não invente.
     9. Use LINGUAGEM SIMPLES e CLARA
-
+    10. As respostas devem ser em português, mesmo que os metadados estejam em outra linguagem.
     Responda APENAS com um array JSON válido.
 
     REGRAS IMPORTANTES:

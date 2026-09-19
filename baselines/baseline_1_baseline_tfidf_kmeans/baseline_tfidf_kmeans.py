@@ -37,7 +37,7 @@ from sklearn.metrics import silhouette_score
 
 ROOT_DIR = Path(__file__).resolve().parents[2]
 
-DATASET = sys.argv[1] if len(sys.argv) > 1 else "nhanes"
+DATASET = sys.argv[1] if len(sys.argv) > 1 else "magento2"
 
 # Agora o segundo argumento representa o maior k testado,
 # e não necessariamente o k que será usado.

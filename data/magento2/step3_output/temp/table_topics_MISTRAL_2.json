@@ -1,8 +1,8 @@
 {
   "magento2.admin_system_messages": [
-    "mensagens de sistema",
-    "severidade de alertas",
-    "registros temporais"
+    "sistema de mensagens",
+    "logs de alerta",
+    "severidade de eventos"
   ],
   "magento2.admin_user": [
     "gerenciamento de usuários",
@@ -10,14 +10,14 @@
     "perfil de administrador"
   ],
   "magento2.adminnotification_inbox": [
-    "notificações de sistema",
-    "avisos de administração",
+    "notificações de administração",
+    "avisos do sistema",
     "status de leitura"
   ],
   "magento2.authorization_role": [
     "permissões de sistema",
     "hierarquia de usuários",
-    "definição de roles"
+    "definição de papéis"
   ],
   "magento2.authorization_rule": [
     "permissões de acesso",
@@ -25,7 +25,7 @@
     "controle de privilégios"
   ],
   "magento2.captcha_log": [
-    "log de captcha",
+    "log de captchas",
     "tentativas de validação",
     "contagem de falhas"
   ],
@@ -37,7 +37,7 @@
   "magento2.catalog_category_entity_datetime": [
     "atributos de categoria",
     "datas de categoria",
-    "metadados de entidade"
+    "metadados de loja"
   ],
   "magento2.catalog_category_entity_decimal": [
     "valores decimais de categorias",
@@ -70,13 +70,13 @@
     "visibilidade de produtos"
   ],
   "magento2.catalog_category_product_index_tmp": [
-    "mapeamento de produtos por categoria",
-    "posicionamento de produtos em loja",
-    "visibilidade de produtos em categorias"
+    "relação categoria-produto",
+    "posicionamento de produtos",
+    "visibilidade de produtos"
   ],
   "magento2.catalog_compare_item": [
     "comparação de produtos",
-    "itens de lista de desejos",
+    "lista de desejos",
     "interação de clientes"
   ],
   "magento2.catalog_eav_attribute": [
@@ -87,12 +87,12 @@
   "magento2.catalog_product_bundle_option": [
     "opções de produtos",
     "configuração de pacotes",
-    "seleção de itens"
+    "atributos de seleção"
   ],
   "magento2.catalog_product_bundle_option_value": [
-    "configuração de opções de pacote de produtos",
-    "valores de atributos de produtos",
-    "gerenciamento de loja padrão"
+    "valores de opções de pacote de produtos",
+    "configurações de loja para produtos",
+    "títulos de opções de produtos"
   ],
   "magento2.catalog_product_bundle_price_index": [
     "preços de produtos bundle",
@@ -101,8 +101,8 @@
   ],
   "magento2.catalog_product_bundle_selection": [
     "configuração de produtos em pacote",
-    "seleção de opções de produto",
-    "preço de itens de pacote"
+    "seleção de itens de opção",
+    "preço de componentes de produto"
   ],
   "magento2.catalog_product_bundle_selection_price": [
     "preço de seleção de produtos",
@@ -117,17 +117,17 @@
   "magento2.catalog_product_entity": [
     "cadastro de produtos",
     "tipos de produtos",
-    "atributos de produtos"
+    "gerenciamento de atributos"
   ],
   "magento2.catalog_product_entity_datetime": [
     "atributos de produtos",
-    "valores de data",
-    "cadastro de loja"
+    "datas de lançamento",
+    "loja padrão"
   ],
   "magento2.catalog_product_entity_decimal": [
     "atributos decimais de produtos",
-    "valores de preços de produtos",
-    "configurações de loja padrão"
+    "valores de atributos de loja",
+    "preços e medidas de produtos"
   ],
   "magento2.catalog_product_entity_gallery": [
     "gerenciamento de imagens de produtos",
@@ -135,9 +135,9 @@
     "atributos visuais de produtos"
   ],
   "magento2.catalog_product_entity_group_price": [
-    "preços de grupo de produtos",
-    "descontos por grupo de clientes",
-    "configurações de loja por website"
+    "preço de grupo de produto",
+    "desconto por grupo de cliente",
+    "configuração de loja virtual"
   ],
   "magento2.catalog_product_entity_int": [
     "atributos de produtos",
@@ -167,7 +167,7 @@
   "magento2.catalog_product_entity_varchar": [
     "atributos de produtos",
     "valores de atributos",
-    "configurações de loja"
+    "cadastro de produtos"
   ],
   "magento2.catalog_product_index_eav": [
     "atributos de produtos",
@@ -175,14 +175,14 @@
     "índice de loja"
   ],
   "magento2.catalog_product_index_eav_decimal": [
-    "índice de atributos decimais de produtos",
-    "valores numéricos de produtos",
-    "métricas de atributos de catálogo"
+    "atributos decimais de produtos",
+    "valores de atributos em lojas",
+    "indexação de preços"
   ],
   "magento2.catalog_product_index_eav_decimal_idx": [
     "índice de atributos decimais de produtos",
     "valores de atributos numéricos de catálogo",
-    "mapeamento de estoque por loja"
+    "métricas de produtos por loja"
   ],
   "magento2.catalog_product_index_eav_decimal_tmp": [
     "índice de atributos decimais",
@@ -190,9 +190,9 @@
     "métricas temporárias de catálogo"
   ],
   "magento2.catalog_product_index_eav_idx": [
-    "atributos de produtos",
-    "índice de loja",
-    "valores de atributos"
+    "índice de atributos de produtos",
+    "mapeamento de valores de EAV",
+    "atributos de catálogo"
   ],
   "magento2.catalog_product_index_eav_tmp": [
     "atributos de produtos",
@@ -200,54 +200,54 @@
     "valores de atributos"
   ],
   "magento2.catalog_product_index_group_price": [
-    "preços de produtos por grupo de cliente",
-    "preços de produtos por site",
-    "indexação de preços"
+    "preços de produtos por grupo de clientes",
+    "indexação de preços por site",
+    "gerenciamento de preços em e-commerce"
   ],
   "magento2.catalog_product_index_price": [
     "preços de produtos",
-    "estratégia de preços por grupo",
-    "índice de preços por loja"
+    "índice de precificação",
+    "estrutura de grupos de clientes"
   ],
   "magento2.catalog_product_index_price_bundle_idx": [
-    "preços de produtos em pacotes",
+    "preços de produtos em pacote",
     "estrutura de preços por grupo de clientes",
     "precificação por website"
   ],
   "magento2.catalog_product_index_price_bundle_opt_idx": [
     "preços de produtos em pacotes",
     "variação de preços por grupo de clientes",
-    "índice de preços de opções de pacotes"
+    "precificação de opções de produtos"
   ],
   "magento2.catalog_product_index_price_bundle_opt_tmp": [
-    "precificação de produtos em pacote",
+    "preços de produtos em pacotes",
     "variação de preços por grupo de clientes",
-    "estrutura de preços por website"
+    "precificação dinâmica de opções"
   ],
   "magento2.catalog_product_index_price_bundle_sel_idx": [
     "preços de produtos em pacotes",
     "configurações de seleção de produtos",
-    "estrutura de grupos de clientes"
+    "estrutura de opções de produtos"
   ],
   "magento2.catalog_product_index_price_bundle_sel_tmp": [
-    "precificação de produtos em pacotes",
-    "configuração de opções de pacotes",
+    "precificação de produtos em pacote",
+    "configuração de seleção de produtos",
     "índice de preços para grupos de clientes"
   ],
   "magento2.catalog_product_index_price_bundle_tmp": [
-    "preços de produtos",
+    "precificação de produtos",
     "estrutura de preços por grupo",
-    "cálculo de preços em pacotes"
+    "índice de preços temporário"
   ],
   "magento2.catalog_product_index_price_cfg_opt_agr_idx": [
-    "preços de produtos",
-    "agregação de configurações",
-    "índice de catálogo"
+    "precificação de produtos",
+    "preços por grupo de clientes",
+    "configurações de preço por website"
   ],
   "magento2.catalog_product_index_price_cfg_opt_agr_tmp": [
-    "preços de produtos",
-    "configurações de grupo",
-    "agregação de preços"
+    "precificação de produtos",
+    "configuração de preços por grupo",
+    "otimização de preços por site"
   ],
   "magento2.catalog_product_index_price_cfg_opt_idx": [
     "preços de produtos",
@@ -256,7 +256,7 @@
   ],
   "magento2.catalog_product_index_price_cfg_opt_tmp": [
     "precificação de produtos",
-    "configuração de preços por grupo",
+    "configuração de preços por grupo de clientes",
     "índice de preços por website"
   ],
   "magento2.catalog_product_index_price_downlod_idx": [
@@ -275,14 +275,14 @@
     "cálculo de impostos"
   ],
   "magento2.catalog_product_index_price_final_tmp": [
-    "precificação de produtos",
-    "índice de preços por grupo de cliente",
-    "variação de preços por website"
+    "preços de produtos",
+    "cálculo de impostos",
+    "estrutura de preços por grupo de clientes"
   ],
   "magento2.catalog_product_index_price_idx": [
     "preços de produtos",
     "índice de precificação",
-    "estrutura de grupos de clientes"
+    "cálculo de impostos"
   ],
   "magento2.catalog_product_index_price_opt_agr_idx": [
     "precificação de produtos",
@@ -290,24 +290,24 @@
     "variação de preços por opção"
   ],
   "magento2.catalog_product_index_price_opt_agr_tmp": [
-    "preços de produtos",
-    "agregação por grupo de clientes",
-    "índice de catálogo"
+    "precificação de produtos",
+    "índice de preços por grupo",
+    "variação de preços por opção"
   ],
   "magento2.catalog_product_index_price_opt_idx": [
     "preços de produtos",
-    "índice de precificação",
+    "índice de preços",
     "cálculo de preços"
   ],
   "magento2.catalog_product_index_price_opt_tmp": [
     "precificação de produtos",
     "índice de preços por grupo",
-    "tabela temporária de otimização"
+    "tabela temporária de preços"
   ],
   "magento2.catalog_product_index_price_tmp": [
     "preços de produtos",
-    "índice de precificação",
-    "cálculo de impostos"
+    "cálculo de impostos",
+    "estrutura de grupos de clientes"
   ],
   "magento2.catalog_product_index_tier_price": [
     "preços por grupo de cliente",
@@ -316,8 +316,8 @@
   ],
   "magento2.catalog_product_index_website": [
     "índice de preços por site",
-    "taxa de câmbio por site",
-    "dados de indexação de produtos"
+    "taxas de câmbio por site",
+    "atualização de dados de produto"
   ],
   "magento2.catalog_product_link": [
     "relação de produtos",
@@ -327,32 +327,32 @@
   "magento2.catalog_product_link_attribute": [
     "atributos de link de produto",
     "tipos de relação de produto",
-    "definição de dados de atributo"
+    "definição de dados de atributos"
   ],
   "magento2.catalog_product_link_attribute_decimal": [
     "atributos decimais de links de produtos",
     "valores de atributos de produtos vinculados",
-    "métricas de produtos relacionados"
+    "métricas numéricas de relacionamentos de produtos"
   ],
   "magento2.catalog_product_link_attribute_int": [
     "atributos de link de produto",
-    "configuração de relacionamento de produtos",
-    "valores de atributos de vínculo"
+    "valores de atributos de produto",
+    "configuração de relacionamento de produtos"
   ],
   "magento2.catalog_product_link_attribute_varchar": [
     "atributos de links de produtos",
-    "valores de atributos de produtos",
-    "configuração de relacionamentos de produtos"
+    "valores de atributos de catálogo",
+    "mapeamento de links de produtos"
   ],
   "magento2.catalog_product_link_type": [
     "tipos de vínculo de produto",
-    "relações entre produtos",
-    "classificação de links de catálogo"
+    "categorias de relação de produtos",
+    "mapeamento de links de catálogo"
   ],
   "magento2.catalog_product_option": [
     "opções de produto",
     "configuração de atributos",
-    "tipos de seleção"
+    "personalização de SKU"
   ],
   "magento2.catalog_product_option_price": [
     "preço de opção de produto",
@@ -361,13 +361,13 @@
   ],
   "magento2.catalog_product_option_title": [
     "títulos de opções de produto",
-    "traduções de opções de produto",
-    "configurações de loja para opções"
+    "localização de opções de produto",
+    "gerenciamento de loja"
   ],
   "magento2.catalog_product_option_type_price": [
     "preços de opções de produtos",
-    "configuração de loja",
-    "precificação fixa"
+    "valores de opções de produtos",
+    "configuração de preços por loja"
   ],
   "magento2.catalog_product_option_type_title": [
     "títulos de opções de produtos",
@@ -375,38 +375,38 @@
     "mapeamento de lojas"
   ],
   "magento2.catalog_product_option_type_value": [
-    "valores de opção de produto",
-    "ordenação de SKUs",
-    "mapeamento de opções"
+    "opções de produto",
+    "valores de opção",
+    "ordem de exibição"
   ],
   "magento2.catalog_product_relation": [
     "relação de produtos",
-    "hierarquia de produtos",
-    "agrupamento de produtos"
+    "vinculação de itens",
+    "hierarquia de produtos"
   ],
   "magento2.catalog_product_super_attribute": [
     "atributos de produtos",
-    "configurações de variantes",
+    "configuração de produtos",
     "posicionamento de atributos"
   ],
   "magento2.catalog_product_super_attribute_label": [
-    "atributos de produtos",
-    "etiquetas de loja",
-    "valores de atributos"
+    "etiquetas de atributos de produtos",
+    "configurações de loja padrão",
+    "valores de atributos super"
   ],
   "magento2.catalog_product_super_attribute_pricing": [
     "precificação de atributos de produtos",
-    "variação de preços por site",
-    "configuração de atributos super"
+    "configuração de loja virtual",
+    "variação de preços por website"
   ],
   "magento2.catalog_product_super_link": [
     "relação de produtos",
     "vinculação de produtos",
-    "estrutura de produtos"
+    "hierarquia de produtos"
   ],
   "magento2.catalog_product_website": [
-    "mapeamento de produtos",
-    "associação de lojas",
+    "associação de produtos a lojas",
+    "mapeamento de estoque por site",
     "distribuição de catálogo"
   ],
   "magento2.catalog_url_rewrite_product_category": [
@@ -415,13 +415,14 @@
     "associação de categorias"
   ],
   "magento2.cataloginventory_stock": [
-    "controle de estoque",
-    "gerenciamento de estoque padrão"
+    "gerenciamento de estoque",
+    "configuração de estoque",
+    "identificador de estoque"
   ],
   "magento2.cataloginventory_stock_item": [
-    "controle de estoque de produtos",
-    "disponibilidade de produtos",
-    "gerenciamento de estoque"
+    "estoque de produtos",
+    "disponibilidade de itens",
+    "controle de quantidades"
   ],
   "magento2.cataloginventory_stock_status": [
     "estoque de produtos",
@@ -441,20 +442,20 @@
   "magento2.catalogrule": [
     "regras de desconto",
     "promoções de produtos",
-    "condições de catálogo"
+    "condições de vendas"
   ],
   "magento2.catalogrule_affected_product": [
-    "afetados por regra de catálogo"
+    "produtos afetados por regras de catálogo"
   ],
   "magento2.catalogrule_customer_group": [
-    "regras de preço por grupo",
-    "mapeamento de descontos",
-    "associação de clientes"
+    "regras de catálogo",
+    "grupos de clientes",
+    "mapeamento de regras"
   ],
   "magento2.catalogrule_group_website": [
     "regra de catálogo por grupo e site",
-    "mapeamento de regras promocionais",
-    "configuração de descontos por grupo de clientes"
+    "mapeamento de regras de preço",
+    "associação de grupo de clientes a sites"
   ],
   "magento2.catalogrule_product": [
     "regras de desconto",
@@ -462,14 +463,14 @@
     "configuração de preços"
   ],
   "magento2.catalogrule_product_price": [
-    "precificação dinâmica de produtos",
-    "regras de preço por grupo de cliente",
-    "variação de preços por site"
+    "preços de regras de catálogo",
+    "descontos por grupo de clientes",
+    "regulamentação de preços por produto"
   ],
   "magento2.catalogrule_website": [
-    "associação de regras a lojas",
-    "mapeamento de promoções",
-    "vinculação de catálogo"
+    "associação de regras a sites",
+    "mapeamento de catálogo",
+    "configuração de escopo"
   ],
   "magento2.catalogsearch_fulltext": [
     "busca de produtos",
@@ -477,14 +478,14 @@
     "atributos de produtos"
   ],
   "magento2.checkout_agreement": [
-    "Termos de checkout",
-    "Configuração de acordos",
-    "Termos de serviço"
+    "Termos de serviço de checkout",
+    "Configuração de acordos de compra",
+    "Ativação de checkboxes de concordância"
   ],
   "magento2.checkout_agreement_store": [
     "mapeamento de acordos de checkout",
-    "configuração de lojas para acordos",
-    "vinculação de políticas de compra"
+    "vinculação de lojas a acordos",
+    "configuração de termos de serviço"
   ],
   "magento2.cms_block": [
     "blocos de conteúdo",
@@ -492,19 +493,19 @@
     "links de rodapé"
   ],
   "magento2.cms_block_store": [
-    "associação de blocos CMS a lojas",
-    "mapeamento de conteúdo por loja",
-    "configuração de blocos estáticos"
+    "mapeamento de blocos CMS",
+    "associação de blocos a lojas",
+    "distribuição de conteúdo por loja"
   ],
   "magento2.cms_page": [
-    "páginas CMS",
+    "páginas de CMS",
     "conteúdo de loja",
     "metadados de página"
   ],
   "magento2.cms_page_store": [
     "mapeamento de páginas CMS",
     "associação de páginas a lojas",
-    "configuração de páginas por loja"
+    "configuração de visibilidade de conteúdo"
   ],
   "magento2.core_cache": [
     "cache de dados",
@@ -514,26 +515,26 @@
   "magento2.core_cache_tag": [
     "cache de tags",
     "gerenciamento de cache",
-    "identificadores de cache"
+    "identificação de cache"
   ],
   "magento2.core_config_data": [
-    "configuração de sistema",
+    "configurações do sistema",
     "parâmetros de loja",
     "armazenamento de valores"
   ],
   "magento2.core_flag": [
     "controle de flags",
-    "notificações do sistema",
-    "estado de regras"
+    "estado de sistema",
+    "notificações administrativas"
   ],
   "magento2.core_layout_link": [
     "mapeamento de temas",
-    "vinculação de layouts",
-    "configuração de lojas"
+    "vínculo de layouts",
+    "configuração de loja"
   ],
   "magento2.core_layout_update": [
     "gerenciamento de layouts",
-    "atualizações de tema",
+    "atualizações de tema XML",
     "ordenação de atualizações"
   ],
   "magento2.core_resource": [
@@ -547,9 +548,9 @@
     "dados de sessão"
   ],
   "magento2.core_theme": [
-    "temas de loja Magento",
-    "versões de tema",
-    "áreas de tema"
+    "gerenciamento de temas",
+    "estrutura de temas Magento",
+    "versão de temas"
   ],
   "magento2.core_theme_file": [
     "gerenciamento de temas",
@@ -557,13 +558,14 @@
     "estrutura de loja"
   ],
   "magento2.core_variable": [
-    "variáveis de sistema",
-    "configurações de loja"
+    "configuração de variáveis",
+    "parâmetros de sistema",
+    "metadados de loja"
   ],
   "magento2.core_variable_value": [
-    "configuração de variáveis",
-    "valores de loja",
-    "armazenamento de configuração"
+    "configuração de loja",
+    "variáveis de sistema",
+    "valores de configuração"
   ],
   "magento2.cron_schedule": [
     "agendamento de tarefas",
@@ -571,9 +573,9 @@
     "monitoramento de jobs"
   ],
   "magento2.customer_address_entity": [
-    "endereço de cliente",
-    "cadastro de endereço",
-    "entidade de cliente"
+    "endereços de clientes",
+    "cadastro de clientes",
+    "dados de localização"
   ],
   "magento2.customer_address_entity_datetime": [
     "endereço de cliente",
@@ -583,7 +585,7 @@
   "magento2.customer_address_entity_decimal": [
     "atributos decimais de endereço",
     "valores numéricos de clientes",
-    "métricas de endereço"
+    "métricas de endereçamento"
   ],
   "magento2.customer_address_entity_int": [
     "endereço de cliente",
@@ -592,13 +594,13 @@
   ],
   "magento2.customer_address_entity_text": [
     "endereço de cliente",
-    "atributo de endereço",
-    "entidade de texto"
+    "atributo de texto",
+    "entidade EAV"
   ],
   "magento2.customer_address_entity_varchar": [
     "endereço de cliente",
-    "atributos de endereço",
-    "valores de atributos"
+    "atributo de endereço",
+    "valor de atributo"
   ],
   "magento2.customer_eav_attribute": [
     "atributos de cliente",
@@ -613,17 +615,17 @@
   "magento2.customer_entity": [
     "cadastro de clientes",
     "identificação de loja",
-    "assinatura de grupo"
+    "grupo de clientes"
   ],
   "magento2.customer_entity_datetime": [
     "datas de atributos de clientes",
-    "cadastro de metadados temporais",
-    "rastreamento de informações temporais"
+    "cadastro de timestamps de clientes",
+    "metadados temporais de entidades"
   ],
   "magento2.customer_entity_decimal": [
     "atributos decimais de clientes",
     "valores numéricos de atributos",
-    "cadastro de propriedades numéricas"
+    "cadastro de métricas financeiras"
   ],
   "magento2.customer_entity_int": [
     "atributos de clientes",
@@ -633,17 +635,17 @@
   "magento2.customer_entity_text": [
     "atributos de clientes",
     "valores de texto de entidade",
-    "armazenamento de dados EAV"
+    "cadastro de informações textuais"
   ],
   "magento2.customer_entity_varchar": [
     "atributos de clientes",
-    "valores de campos textuais",
+    "valores de perfil",
     "cadastro de nomes"
   ],
   "magento2.customer_form_attribute": [
-    "atributos de formulário",
-    "configuração de cadastro",
-    "mapeamento de campos"
+    "mapeamento de atributos de formulário",
+    "configuração de cadastro de clientes",
+    "estrutura de formulários de entrada"
   ],
   "magento2.customer_group": [
     "classificação de clientes",
@@ -656,14 +658,14 @@
     "visitas ao site"
   ],
   "magento2.design_change": [
-    "mudança de design",
+    "mudanças de design",
     "configuração de loja",
-    "período de alteração"
+    "temas visuais"
   ],
   "magento2.directory_country": [
-    "códigos de país ISO",
-    "mapeamento de países",
-    "identificação geográfica"
+    "códigos de país",
+    "identificação geográfica",
+    "padrões ISO de países"
   ],
   "magento2.directory_country_format": [
     "formato de país",
@@ -671,9 +673,9 @@
     "configuração regional"
   ],
   "magento2.directory_country_region": [
-    "regiões de países",
-    "mapeamento geográfico",
-    "códigos de região"
+    "mapeamento de regiões",
+    "localização geográfica",
+    "códigos de subdivisão"
   ],
   "magento2.directory_country_region_name": [
     "nomes de regiões",
@@ -682,8 +684,7 @@
   ],
   "magento2.directory_currency_rate": [
     "taxa de câmbio",
-    "conversão monetária",
-    "câmbio entre moedas"
+    "conversão monetária"
   ],
   "magento2.downloadable_link": [
     "gerenciamento de links de download",
@@ -693,27 +694,27 @@
   "magento2.downloadable_link_price": [
     "preço de link baixável",
     "configuração de preço por site",
-    "gerenciamento de preços de produtos digitais"
+    "gerenciamento de preços de produtos"
   ],
   "magento2.downloadable_link_purchased": [
     "vendas de produtos baixáveis",
     "pedidos de clientes",
-    "itens de pedido"
+    "gerenciamento de links de download"
   ],
   "magento2.downloadable_link_purchased_item": [
-    "gestão de downloads",
+    "gerenciamento de downloads",
     "itens de pedidos digitais",
-    "venda de produtos virtuais"
+    "controle de licenças"
   ],
   "magento2.downloadable_link_title": [
     "títulos de links baixáveis",
-    "gerenciamento de loja",
-    "identificação de recursos"
+    "mapeamento de lojas",
+    "identificadores de recursos"
   ],
   "magento2.downloadable_sample": [
     "amostras de produtos",
     "arquivos de download",
-    "ordenação de mídia"
+    "catalogação de mídia"
   ],
   "magento2.downloadable_sample_title": [
     "títulos de amostras",
@@ -722,18 +723,18 @@
   ],
   "magento2.eav_attribute": [
     "atributos de entidade",
-    "definição de campos EAV",
+    "definição de campos",
     "configuração de cadastro"
   ],
   "magento2.eav_attribute_group": [
     "grupos de atributos",
-    "organização de conjuntos de atributos",
-    "ordenação de abas"
+    "organização de conjuntos",
+    "configuração de loja"
   ],
   "magento2.eav_attribute_label": [
     "rotulagem de atributos",
-    "tradução de loja",
-    "mapeamento de atributos"
+    "tradução de atributos",
+    "gerenciamento de rótulos"
   ],
   "magento2.eav_attribute_option": [
     "atributos de produtos",
@@ -743,27 +744,27 @@
   "magento2.eav_attribute_option_value": [
     "valores de atributos de produtos",
     "traduções de opções de atributos",
-    "mapeamento de lojas"
+    "mapeamento de lojas para valores"
   ],
   "magento2.eav_attribute_set": [
     "conjunto de atributos",
-    "tipos de entidade",
-    "ordenação de conjuntos"
+    "tipo de entidade",
+    "ordem de classificação"
   ],
   "magento2.eav_entity": [
-    "entidade EAV",
-    "mapeamento de tipo",
-    "registro de loja"
+    "entidade de tipo",
+    "mapeamento de loja",
+    "registro de entidade"
   ],
   "magento2.eav_entity_attribute": [
     "mapeamento de atributos",
-    "configuração de entidades",
-    "ordenação de grupos"
+    "organização de conjuntos de atributos",
+    "ordenação de grupos de atributos"
   ],
   "magento2.eav_entity_datetime": [
-    "armazenamento de datas de entidades",
-    "atributos temporais de produtos",
-    "metadados de valores datetime"
+    "atributos de data",
+    "entidades de e-commerce",
+    "valores temporais"
   ],
   "magento2.eav_entity_decimal": [
     "atributos numéricos de entidades",
@@ -772,13 +773,13 @@
   ],
   "magento2.eav_entity_int": [
     "atributos numéricos de entidades",
-    "valores de atributos em lojas",
-    "mapeamento de tipos de entidades"
+    "valores de propriedades inteiras",
+    "mapeamento de entidades"
   ],
   "magento2.eav_entity_store": [
-    "gerenciamento de sequências de entidades",
-    "configuração de lojas Magento",
-    "mapeamento de tipos de entidades"
+    "gerenciamento de sequências",
+    "controle de entidades",
+    "prefixos de incremento"
   ],
   "magento2.eav_entity_text": [
     "atributos de entidade",
@@ -786,14 +787,14 @@
     "mapeamento de loja"
   ],
   "magento2.eav_entity_type": [
-    "gerenciamento de entidades EAV",
-    "atributos de entidades Magento",
-    "configuração de incremento de IDs"
+    "mapeamento de entidades EAV",
+    "configuração de atributos Magento",
+    "geração de IDs incrementais"
   ],
   "magento2.eav_entity_varchar": [
     "atributos de entidade",
     "valores de atributos",
-    "mapeamento de entidades"
+    "mapeamento de lojas"
   ],
   "magento2.eav_form_element": [
     "elementos de formulário",
@@ -807,8 +808,8 @@
   ],
   "magento2.eav_form_fieldset_label": [
     "rotulagem de conjuntos de campos",
-    "nomes de seções de formulário",
-    "localização de rótulos"
+    "localização de formulários",
+    "identificação de seções"
   ],
   "magento2.eav_form_type": [
     "tipos de formulário",
@@ -817,13 +818,13 @@
   ],
   "magento2.eav_form_type_entity": [
     "mapeamento de tipos de formulário",
-    "classificação de entidades",
+    "associação de entidades",
     "configuração de formulários"
   ],
   "magento2.email_template": [
     "modelos de email",
     "configuração de templates",
-    "comunicação por email"
+    "comunicação automatizada"
   ],
   "magento2.gift_message": [
     "mensagem de presente",
@@ -831,14 +832,14 @@
     "personalização de pedido"
   ],
   "magento2.googleoptimizer_code": [
-    "testes A/B de loja",
-    "scripts de experimento",
-    "configuração de experimento"
+    "otimização de loja",
+    "experimentos A/B",
+    "scripts de teste"
   ],
   "magento2.googleshopping_attributes": [
     "mapeamento de atributos do Google Shopping",
-    "integração de tipos de produtos",
-    "configuração de feed de produtos"
+    "integração de atributos de produtos",
+    "configuração de tipos de feed"
   ],
   "magento2.googleshopping_items": [
     "integração Google Shopping",
@@ -846,24 +847,24 @@
     "publicação de itens"
   ],
   "magento2.googleshopping_types": [
-    "tipos de produtos para Google Shopping",
-    "mapeamento de categorias para anúncios",
-    "configuração de países-alvo em campanhas"
+    "mapeamento de categorias de produtos",
+    "configuração de feeds do Google Shopping",
+    "atributos de conjuntos de produtos"
   ],
   "magento2.importexport_importdata": [
     "importação de dados",
-    "comportamento de importação",
-    "entidade de importação"
+    "configuração de entidade",
+    "comportamento de importação"
   ],
   "magento2.indexer_state": [
     "estado de indexadores",
-    "status de indexação",
-    "atualização de índices"
+    "status de atualização",
+    "gerenciamento de índices"
   ],
   "magento2.integration": [
     "integração de sistemas",
     "consumidores de API",
-    "configuração de integração"
+    "configuração de endpoints"
   ],
   "magento2.log_customer": [
     "log de acessos de clientes",
@@ -882,28 +883,27 @@
   ],
   "magento2.log_summary_type": [
     "agregação de logs",
-    "periodicidade de registros",
-    "tipos de sumarização"
+    "periodicidade de logs",
+    "tipos de resumo"
   ],
   "magento2.log_url": [
-    "log de acessos a URLs",
-    "rastreamento de visitantes",
-    "visitas a páginas"
+    "rastreamento de URLs",
+    "visitas de usuários"
   ],
   "magento2.log_url_info": [
     "rastreamento de URLs",
-    "logs de referenciamento",
+    "logs de acesso",
     "análise de navegação"
   ],
   "magento2.log_visitor": [
     "análise de visitas",
-    "rastreamento de visitantes",
-    "comportamento de loja"
+    "rastreamento de usuários",
+    "comportamento de navegação"
   ],
   "magento2.log_visitor_info": [
     "rastreamento de visitantes",
-    "dados de requisições HTTP",
-    "informações de conexão"
+    "dados de navegação",
+    "informações de requisição HTTP"
   ],
   "magento2.log_visitor_online": [
     "rastreamento de visitantes",
@@ -918,7 +918,7 @@
   "magento2.newsletter_problem": [
     "erros de newsletter",
     "problemas de fila de envio",
-    "códigos de falha em assinaturas"
+    "códigos de falha de assinante"
   ],
   "magento2.newsletter_queue": [
     "gerenciamento de newsletter",
@@ -926,9 +926,9 @@
     "modelo de newsletter"
   ],
   "magento2.newsletter_queue_link": [
-    "gestão de newsletter",
+    "gerenciamento de newsletter",
     "envio de boletins",
-    "assinantes de e-mail"
+    "assinantes de email"
   ],
   "magento2.newsletter_queue_store_link": [
     "relacionamento de fila de newsletter",
@@ -938,12 +938,12 @@
   "magento2.newsletter_subscriber": [
     "assinatura de newsletter",
     "status de assinatura",
-    "loja associada"
+    "loja de assinatura"
   ],
   "magento2.newsletter_template": [
-    "modelo de newsletter",
-    "configuração de email",
-    "template de comunicação"
+    "modelos de newsletter",
+    "configuração de e-mail",
+    "gerenciamento de templates"
   ],
   "magento2.oauth_consumer": [
     "autenticação OAuth",
@@ -961,9 +961,9 @@
     "gerenciamento de permissões"
   ],
   "magento2.persistent_session": [
-    "sessões persistentes de clientes",
-    "autenticação de loja",
-    "gerenciamento de cookies"
+    "sessões persistentes de cliente",
+    "autenticação de usuário",
+    "dados de navegação"
   ],
   "magento2.product_alert_price": [
     "alertas de preço de produtos",
@@ -971,9 +971,9 @@
     "notificações de clientes"
   ],
   "magento2.product_alert_stock": [
-    "estoque de produtos",
-    "alertas de clientes",
-    "monitoramento de loja"
+    "notificações de estoque",
+    "rastreamento de produtos",
+    "alertas de clientes"
   ],
   "magento2.rating": [
     "avaliação de produtos",
@@ -988,7 +988,7 @@
   "magento2.rating_option": [
     "opções de classificação",
     "configuração de avaliação",
-    "posicionamento de notas"
+    "posicionamento de valores"
   ],
   "magento2.rating_option_vote": [
     "avaliação de produtos",
@@ -1001,9 +1001,9 @@
     "métricas de loja"
   ],
   "magento2.rating_store": [
-    "avaliação de loja",
-    "classificação de produto",
-    "mapeamento de loja"
+    "configuração de avaliação por loja",
+    "mapeamento de avaliações",
+    "classificação de lojas"
   ],
   "magento2.rating_title": [
     "classificação de produtos",
@@ -1012,13 +1012,13 @@
   ],
   "magento2.report_compared_product_index": [
     "comparação de produtos",
-    "interesse do cliente",
+    "interesse de clientes",
     "relatório de loja"
   ],
   "magento2.report_event": [
-    "eventos de sistema",
+    "eventos de loja",
     "rastreamento de interações",
-    "logs de loja"
+    "logs de comportamento"
   ],
   "magento2.report_event_types": [
     "tipos de eventos de rastreamento",
@@ -1031,14 +1031,14 @@
     "desempenho de preços em vendas"
   ],
   "magento2.report_viewed_product_aggregated_monthly": [
-    "vendas de produtos",
-    "visualização de produtos",
-    "análise de estoque"
+    "visualização mensal de produtos",
+    "análise de preços por loja",
+    "métricas de popularidade de produtos"
   ],
   "magento2.report_viewed_product_aggregated_yearly": [
-    "visualização de produtos",
-    "agregação anual",
-    "métricas de loja"
+    "vendas anuais de produtos",
+    "visualizações de produtos por loja",
+    "avaliações de produtos"
   ],
   "magento2.report_viewed_product_index": [
     "visualização de produtos",
@@ -1046,7 +1046,7 @@
     "tráfego em loja"
   ],
   "magento2.review": [
-    "avaliações de produtos",
+    "avaliação de produtos",
     "status de revisão",
     "cronologia de feedback"
   ],
@@ -1057,8 +1057,8 @@
   ],
   "magento2.review_entity": [
     "entidade de revisão",
-    "tipo de entidade",
-    "códigos de entidade"
+    "código de entidade",
+    "mapeamento de tipos"
   ],
   "magento2.review_entity_summary": [
     "resumo de avaliações",
@@ -1071,29 +1071,29 @@
     "classificação de avaliações"
   ],
   "magento2.review_store": [
-    "avaliação de loja",
-    "distribuição de avaliações",
-    "vinculação de revisão"
+    "distribuição de avaliações por loja",
+    "vinculação de revisões a lojas",
+    "gerenciamento de múltiplas lojas"
   ],
   "magento2.sales_bestsellers_aggregated_daily": [
     "vendas diárias de produtos",
-    "ranking de popularidade de produtos",
-    "preço e quantidade de pedidos"
+    "preço de produtos",
+    "quantidade pedida"
   ],
   "magento2.sales_bestsellers_aggregated_monthly": [
     "vendas mensais de produtos",
-    "desempenho de preços de produtos",
-    "popularidade de produtos por loja"
+    "ranking de produtos por vendas",
+    "preço e quantidade de pedidos"
   ],
   "magento2.sales_bestsellers_aggregated_yearly": [
     "vendas anuais de produtos",
     "ranking de produtos por vendas",
-    "preço de produtos mais vendidos"
+    "preço e quantidade de produtos"
   ],
   "magento2.sales_creditmemo": [
     "devoluções financeiras",
-    "cálculo de reembolsos",
-    "status de crédito"
+    "ajustes de pagamento",
+    "faturamento de pedidos"
   ],
   "magento2.sales_creditmemo_comment": [
     "comentários de estorno",
@@ -1103,7 +1103,7 @@
   "magento2.sales_creditmemo_grid": [
     "notas de crédito",
     "faturamento de vendas",
-    "conversão de moedas"
+    "moedas de transação"
   ],
   "magento2.sales_creditmemo_item": [
     "itens de crédito",
@@ -1113,12 +1113,12 @@
   "magento2.sales_invoice": [
     "faturamento de pedidos",
     "cálculo de impostos",
-    "transações financeiras"
+    "valores monetários de vendas"
   ],
   "magento2.sales_invoice_comment": [
-    "faturamento de comentários",
-    "notificação de cliente em faturas",
-    "visibilidade de comentários em faturas"
+    "faturamento de pedidos",
+    "comentários de fatura",
+    "notificações de clientes"
   ],
   "magento2.sales_invoice_grid": [
     "faturamento de pedidos",
@@ -1128,22 +1128,22 @@
   "magento2.sales_invoice_item": [
     "faturamento de itens",
     "cálculo de impostos",
-    "detalhamento de produtos"
+    "detalhes de produtos"
   ],
   "magento2.sales_invoiced_aggregated": [
     "faturamento de pedidos",
     "status de pedidos",
-    "vendas por loja"
+    "métricas de vendas"
   ],
   "magento2.sales_invoiced_aggregated_order": [
     "faturamento de pedidos",
     "status de pedidos",
-    "lojas"
+    "métricas de vendas"
   ],
   "magento2.sales_order": [
     "pedidos de vendas",
-    "faturamento de pedidos",
-    "descontos em pedidos"
+    "transações financeiras",
+    "ciclo de vida de pedidos"
   ],
   "magento2.sales_order_address": [
     "endereço de pedido",
@@ -1151,24 +1151,24 @@
     "validação de IVA"
   ],
   "magento2.sales_order_aggregated_created": [
-    "vendas por período",
+    "vendas agregadas por período",
     "faturamento por loja",
     "lucro líquido de pedidos"
   ],
   "magento2.sales_order_aggregated_updated": [
-    "vendas agregadas por período",
-    "métricas financeiras de pedidos",
-    "status de pedidos por loja"
+    "vendas agregadas",
+    "faturamento por período",
+    "lucro por loja"
   ],
   "magento2.sales_order_grid": [
     "pedidos de vendas",
-    "faturamento de lojas",
-    "status de encomendas"
+    "faturamento de pedidos",
+    "status de pedidos"
   ],
   "magento2.sales_order_item": [
     "itens de pedido",
-    "faturamento de pedidos",
-    "cálculo de impostos"
+    "transações financeiras de vendas",
+    "rastreamento de estoque"
   ],
   "magento2.sales_order_payment": [
     "pagamentos de pedidos",
@@ -1178,27 +1178,27 @@
   "magento2.sales_order_status": [
     "status de pedido",
     "etiqueta de status",
-    "classificação de transação"
+    "classificação de pedido"
   ],
   "magento2.sales_order_status_history": [
-    "histórico de status de pedido",
-    "notificações de cliente em pedido",
-    "comentários de status de pedido"
+    "histórico de status de pedidos",
+    "notificações de pedidos",
+    "comentários de pedidos"
   ],
   "magento2.sales_order_status_label": [
     "status de pedido",
     "tradução de rótulo",
-    "configuração de loja"
+    "loja de comércio"
   ],
   "magento2.sales_order_status_state": [
     "mapeamento de status de pedido",
-    "estado de pedido padrão",
-    "visibilidade de status de pedido"
+    "estados de fluxo de vendas",
+    "configuração de status padrão"
   ],
   "magento2.sales_order_tax": [
-    "cálculo de impostos em pedidos",
-    "detalhamento de taxas de vendas",
-    "configuração de tributação"
+    "impostos de pedidos",
+    "cálculo de tributos",
+    "configuração de taxas"
   ],
   "magento2.sales_order_tax_item": [
     "cálculo de impostos em pedidos",
@@ -1212,13 +1212,13 @@
   ],
   "magento2.sales_quote": [
     "carrinho de compras",
-    "conversão de pedido",
-    "transação de cliente"
+    "conversão de vendas",
+    "transação de clientes"
   ],
   "magento2.sales_quote_address": [
-    "cotação de endereço",
+    "endereço de cotação",
     "cálculo de frete",
-    "faturamento de pedido"
+    "totais de pedido"
   ],
   "magento2.sales_quote_address_item": [
     "itens de cotação",
@@ -1226,12 +1226,12 @@
     "impostos e descontos"
   ],
   "magento2.sales_quote_item": [
-    "itens de cesta",
+    "itens de orçamento",
     "preços de produtos",
     "cálculo de impostos"
   ],
   "magento2.sales_quote_item_option": [
-    "configuração de itens de cotação",
+    "configuração de itens de cesta",
     "opções de produtos em pedidos",
     "atributos personalizados de produtos"
   ],
@@ -1266,29 +1266,29 @@
     "status de visibilidade"
   ],
   "magento2.sales_shipment_grid": [
-    "status de remessa",
-    "quantidade de pedidos",
-    "identificação de remessa"
+    "gerenciamento de remessas",
+    "status de envio",
+    "pedidos despachados"
   ],
   "magento2.sales_shipment_item": [
     "itens de remessa",
-    "valores de produtos",
-    "detalhes de pedidos"
+    "cálculo de frete",
+    "produtos embarcados"
   ],
   "magento2.sales_shipment_track": [
     "rastreamento de remessas",
     "transportadoras de pedidos",
-    "logística de entregas"
+    "logística de envio"
   ],
   "magento2.sales_shipping_aggregated": [
-    "vendas de frete",
-    "status de pedidos",
-    "desempenho de lojas"
+    "vendas por período",
+    "custos de frete",
+    "status de pedidos"
   ],
   "magento2.sales_shipping_aggregated_order": [
     "vendas de frete",
-    "status de pedidos",
-    "desempenho de lojas"
+    "agregação de pedidos",
+    "status de entrega"
   ],
   "magento2.salesrule": [
     "regras de desconto",
@@ -1298,17 +1298,17 @@
   "magento2.salesrule_coupon": [
     "cupons de desconto",
     "regras de promoção",
-    "valores de uso"
+    "vales promocionais"
   ],
   "magento2.salesrule_coupon_aggregated": [
     "análise de cupons de desconto",
     "vendas por período",
-    "desempenho de regras promocionais"
+    "métricas financeiras de pedidos"
   ],
   "magento2.salesrule_coupon_aggregated_order": [
-    "vendas com cupons",
-    "descontos por período",
-    "análise de regras promocionais"
+    "análise de cupons de desconto",
+    "vendas por período",
+    "desempenho de regras promocionais"
   ],
   "magento2.salesrule_coupon_aggregated_updated": [
     "vendas com cupons",
@@ -1317,7 +1317,7 @@
   ],
   "magento2.salesrule_coupon_usage": [
     "uso de cupons",
-    "frequência de uso de cupons",
+    "frequência de uso",
     "controle de descontos"
   ],
   "magento2.salesrule_customer": [
@@ -1328,22 +1328,22 @@
   "magento2.salesrule_customer_group": [
     "regras de desconto por grupo de cliente",
     "associação de promoções a grupos",
-    "vinculação de políticas de vendas"
+    "mapeamento de políticas de vendas"
   ],
   "magento2.salesrule_label": [
-    "rotulagem de regras de desconto",
-    "tradução de promoções",
-    "mapeamento de lojas para regras"
+    "rotulagem de regras promocionais",
+    "tradução de cupons de desconto",
+    "gerenciamento de lojas"
   ],
   "magento2.salesrule_product_attribute": [
     "regras de desconto por atributo",
-    "mapeamento de produtos em promoções",
+    "mapeamento de atributos em promoções",
     "configuração de descontos por grupo de clientes"
   ],
   "magento2.salesrule_website": [
-    "regra de desconto por site",
-    "associação de promoção a loja",
-    "mapeamento de campanha comercial"
+    "associação de regras de desconto",
+    "mapeamento de lojas",
+    "vinculação de promoções"
   ],
   "magento2.search_query": [
     "pesquisa de produtos",
@@ -1356,54 +1356,54 @@
     "atividade de website"
   ],
   "magento2.shipping_tablerate": [
-    "cálculo de frete",
-    "configuração de taxas",
+    "configuração de frete",
+    "tabela de taxas",
     "regra de envio"
   ],
   "magento2.sitemap": [
     "gerenciamento de sitemap",
-    "configuração de loja virtual",
-    "mapeamento de URLs"
+    "configuração de loja",
+    "mapeamento de URL"
   ],
   "magento2.store": [
     "configuração de loja",
-    "hierarquia de sites",
-    "ativação de loja"
+    "idioma de loja",
+    "hierarquia de site"
   ],
   "magento2.store_group": [
     "configuração de loja",
-    "grupo de sites",
-    "categorias raiz"
+    "grupo de categorias",
+    "mapeamento de website"
   ],
   "magento2.store_website": [
-    "configuração de loja virtual",
+    "configuração de loja",
     "identificação de site",
-    "prioridade de exibição"
+    "prioridade de site"
   ],
   "magento2.tax_calculation": [
     "cálculo de imposto",
     "regra de tributação",
-    "alíquota fiscal"
+    "classificação fiscal"
   ],
   "magento2.tax_calculation_rate": [
     "cálculo de imposto",
-    "alíquota tributária",
-    "região fiscal"
+    "taxa de imposto por região",
+    "regulamentação fiscal"
   ],
   "magento2.tax_calculation_rate_title": [
-    "taxas de cálculo",
-    "títulos de taxas",
-    "mapeamento de lojas"
+    "cálculo de imposto",
+    "título de taxa",
+    "loja de comércio"
   ],
   "magento2.tax_calculation_rule": [
     "regras de cálculo de imposto",
-    "configuração de taxas fiscais",
+    "configuração de taxas tributárias",
     "prioridade de tributação"
   ],
   "magento2.tax_class": [
     "classificação de impostos",
     "tipos de classe tributária",
-    "configuração de tributação"
+    "mapeamento de produtos e clientes"
   ],
   "magento2.tax_order_aggregated_created": [
     "impostos por pedido",
@@ -1426,9 +1426,9 @@
     "configuração de loja"
   ],
   "magento2.vde_theme_change": [
-    "mudança de tema",
-    "registro de alteração",
-    "tema de loja"
+    "gerenciamento de temas",
+    "mudanças de tema",
+    "controle de alterações"
   ],
   "magento2.weee_tax": [
     "imposto de produtos",
@@ -1436,38 +1436,38 @@
     "configuração de e-commerce"
   ],
   "magento2.widget": [
-    "componentes de interface",
+    "widgets de loja",
     "configuração de widgets",
-    "parâmetros de exibição"
+    "tipos de widget"
   ],
   "magento2.widget_instance": [
-    "widgets de tema",
-    "configuração de loja",
-    "ordenação de widgets"
+    "gerenciamento de widgets",
+    "configuração de temas",
+    "integração de loja"
   ],
   "magento2.widget_instance_page": [
-    "mapeamento de widgets em páginas",
-    "configuração de instâncias de widgets",
-    "layout de páginas"
+    "mapeamento de widgets",
+    "configuração de páginas",
+    "layout de loja"
   ],
   "magento2.widget_instance_page_layout": [
     "layout de página",
-    "widget de instância",
-    "atualização de layout"
+    "widget em página",
+    "mapeamento de layout"
   ],
   "magento2.wishlist": [
     "gerenciamento de listas de desejos",
-    "compartilhamento de produtos",
+    "compartilhamento de listas",
     "cadastro de clientes"
   ],
   "magento2.wishlist_item": [
     "lista de desejos de produtos",
-    "itens de loja virtual",
-    "produtos favoritos"
+    "itens de produtos em lojas",
+    "cadastro de produtos em listas"
   ],
   "magento2.wishlist_item_option": [
     "configuração de itens de lista de desejos",
-    "opções de produtos em listas",
-    "personalização de wishlist"
+    "opções de produtos em listas de desejos",
+    "atributos personalizados de produtos"
   ]
 }

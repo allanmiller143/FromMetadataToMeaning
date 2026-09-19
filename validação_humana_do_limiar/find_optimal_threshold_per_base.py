@@ -28,13 +28,13 @@ def load_dataset(base_path, ds):
         print(f"Aviso: Arquivos para {ds} não encontrados.")
         return [], []
 
-    with open(json_path, "r", encoding="utf-8") as f:
+    with open(json_path, "r", encoding="utf-8-sig") as f:
         gabarito = json.load(f)
 
     similarities, labels = [], []
     skipped = 0
 
-    with open(csv_path, "r", encoding="utf-8") as f:
+    with open(csv_path, "r", encoding="utf-8-sig") as f:
         reader = csv.DictReader(f)
         for row in reader:
             item_id = row["id"]
@@ -99,7 +99,7 @@ def main():
 
         # Salva CSV individual da base
         csv_file = os.path.join(output_path, f"metricas_thresholds_{ds}.csv")
-        with open(csv_file, "w", newline="", encoding="utf-8") as f:
+        with open(csv_file, "w", newline="", encoding="utf-8-sig") as f:
             writer = csv.writer(f)
             writer.writerow(["Threshold", "F1-Score", "Accuracy", "Precision", "Recall"])
             writer.writerows(results)
@@ -126,7 +126,7 @@ def main():
 
     # Salva resumo comparativo
     summary_file = os.path.join(output_path, "resumo_melhores_thresholds.csv")
-    with open(summary_file, "w", newline="", encoding="utf-8") as f:
+    with open(summary_file, "w", newline="", encoding="utf-8-sig") as f:
         writer = csv.writer(f)
         writer.writerow(["Base", "N_Pares", "N_Match", "Melhor_Threshold", "F1", "Accuracy", "Precision", "Recall"])
         for r in summary_rows:

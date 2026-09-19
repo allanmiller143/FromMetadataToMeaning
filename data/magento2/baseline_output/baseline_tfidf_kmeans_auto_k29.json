@@ -1,0 +1,1182 @@
+{
+  "method": "TF-IDF + K-Means",
+  "dataset": "magento2",
+  "n_tables": 295,
+  "selected_k": 29,
+  "selection_criterion": "highest cosine silhouette score",
+  "k_evaluations": [
+    {
+      "k": 29,
+      "silhouette_score": 0.214239579018982,
+      "inertia": 165.7946624918198,
+      "smallest_cluster": 2,
+      "largest_cluster": 28
+    },
+    {
+      "k": 28,
+      "silhouette_score": 0.2000162671697346,
+      "inertia": 166.3986631150861,
+      "smallest_cluster": 3,
+      "largest_cluster": 27
+    },
+    {
+      "k": 32,
+      "silhouette_score": 0.19812500745354797,
+      "inertia": 159.6441284193716,
+      "smallest_cluster": 2,
+      "largest_cluster": 27
+    },
+    {
+      "k": 25,
+      "silhouette_score": 0.19356467131394714,
+      "inertia": 173.59111975377516,
+      "smallest_cluster": 5,
+      "largest_cluster": 33
+    },
+    {
+      "k": 34,
+      "silhouette_score": 0.18887985854102313,
+      "inertia": 157.41007949074742,
+      "smallest_cluster": 2,
+      "largest_cluster": 30
+    },
+    {
+      "k": 23,
+      "silhouette_score": 0.18621376584021315,
+      "inertia": 177.16121036871425,
+      "smallest_cluster": 5,
+      "largest_cluster": 32
+    },
+    {
+      "k": 21,
+      "silhouette_score": 0.1814342562417714,
+      "inertia": 181.1675617799822,
+      "smallest_cluster": 5,
+      "largest_cluster": 51
+    },
+    {
+      "k": 24,
+      "silhouette_score": 0.18064152923257795,
+      "inertia": 174.910308643155,
+      "smallest_cluster": 6,
+      "largest_cluster": 38
+    },
+    {
+      "k": 33,
+      "silhouette_score": 0.17662245350222575,
+      "inertia": 158.70041393026366,
+      "smallest_cluster": 1,
+      "largest_cluster": 41
+    },
+    {
+      "k": 30,
+      "silhouette_score": 0.17399102788378426,
+      "inertia": 162.83517865901405,
+      "smallest_cluster": 4,
+      "largest_cluster": 31
+    },
+    {
+      "k": 20,
+      "silhouette_score": 0.17243008484419373,
+      "inertia": 184.58230644782316,
+      "smallest_cluster": 5,
+      "largest_cluster": 39
+    },
+    {
+      "k": 14,
+      "silhouette_score": 0.17223395034408667,
+      "inertia": 198.61589298874003,
+      "smallest_cluster": 7,
+      "largest_cluster": 50
+    },
+    {
+      "k": 27,
+      "silhouette_score": 0.1698167832419604,
+      "inertia": 169.40082623591942,
+      "smallest_cluster": 3,
+      "largest_cluster": 37
+    },
+    {
+      "k": 31,
+      "silhouette_score": 0.1680862336321659,
+      "inertia": 161.3976197017468,
+      "smallest_cluster": 3,
+      "largest_cluster": 31
+    },
+    {
+      "k": 26,
+      "silhouette_score": 0.1662302723494069,
+      "inertia": 171.38867415049924,
+      "smallest_cluster": 4,
+      "largest_cluster": 35
+    },
+    {
+      "k": 12,
+      "silhouette_score": 0.16563357671985215,
+      "inertia": 202.73138203250778,
+      "smallest_cluster": 8,
+      "largest_cluster": 79
+    },
+    {
+      "k": 15,
+      "silhouette_score": 0.16253497648690982,
+      "inertia": 194.6323157138513,
+      "smallest_cluster": 7,
+      "largest_cluster": 70
+    },
+    {
+      "k": 17,
+      "silhouette_score": 0.16235508852110103,
+      "inertia": 190.17829519578765,
+      "smallest_cluster": 4,
+      "largest_cluster": 71
+    },
+    {
+      "k": 22,
+      "silhouette_score": 0.16232807222386023,
+      "inertia": 179.96315967840252,
+      "smallest_cluster": 5,
+      "largest_cluster": 50
+    },
+    {
+      "k": 16,
+      "silhouette_score": 0.15633968608496046,
+      "inertia": 192.03474493588422,
+      "smallest_cluster": 7,
+      "largest_cluster": 62
+    },
+    {
+      "k": 19,
+      "silhouette_score": 0.152824255364949,
+      "inertia": 186.53055150536883,
+      "smallest_cluster": 2,
+      "largest_cluster": 43
+    },
+    {
+      "k": 13,
+      "silhouette_score": 0.147913468902522,
+      "inertia": 200.94258621895096,
+      "smallest_cluster": 7,
+      "largest_cluster": 69
+    },
+    {
+      "k": 11,
+      "silhouette_score": 0.13698601187558002,
+      "inertia": 206.504288299379,
+      "smallest_cluster": 14,
+      "largest_cluster": 56
+    },
+    {
+      "k": 18,
+      "silhouette_score": 0.13692155159198424,
+      "inertia": 190.60185963354274,
+      "smallest_cluster": 6,
+      "largest_cluster": 51
+    },
+    {
+      "k": 8,
+      "silhouette_score": 0.1343020524980436,
+      "inertia": 216.74517069255245,
+      "smallest_cluster": 14,
+      "largest_cluster": 120
+    },
+    {
+      "k": 9,
+      "silhouette_score": 0.13350240243445596,
+      "inertia": 213.29068114352276,
+      "smallest_cluster": 15,
+      "largest_cluster": 70
+    },
+    {
+      "k": 10,
+      "silhouette_score": 0.12241209896231361,
+      "inertia": 210.6398038292582,
+      "smallest_cluster": 16,
+      "largest_cluster": 72
+    },
+    {
+      "k": 7,
+      "silhouette_score": 0.11490773594726164,
+      "inertia": 221.23221328727595,
+      "smallest_cluster": 12,
+      "largest_cluster": 129
+    },
+    {
+      "k": 6,
+      "silhouette_score": 0.11442486892684287,
+      "inertia": 224.5298386103491,
+      "smallest_cluster": 31,
+      "largest_cluster": 105
+    },
+    {
+      "k": 5,
+      "silhouette_score": 0.10844535662207747,
+      "inertia": 228.41230600580624,
+      "smallest_cluster": 31,
+      "largest_cluster": 143
+    },
+    {
+      "k": 4,
+      "silhouette_score": 0.09927162276036651,
+      "inertia": 234.03437697604863,
+      "smallest_cluster": 35,
+      "largest_cluster": 168
+    },
+    {
+      "k": 3,
+      "silhouette_score": 0.08238495037639264,
+      "inertia": 240.6678117983263,
+      "smallest_cluster": 36,
+      "largest_cluster": 212
+    },
+    {
+      "k": 2,
+      "silhouette_score": 0.0548105498442541,
+      "inertia": 254.27079301682278,
+      "smallest_cluster": 57,
+      "largest_cluster": 238
+    }
+  ],
+  "clusters": [
+    {
+      "cluster_id": 0,
+      "cluster_label": "option | id | product",
+      "cluster_terms": [
+        "option",
+        "id",
+        "product"
+      ],
+      "n_tables": 12,
+      "tables": [
+        "magento2.catalog_product_bundle_option",
+        "magento2.catalog_product_bundle_option_value",
+        "magento2.catalog_product_bundle_selection",
+        "magento2.catalog_product_option",
+        "magento2.catalog_product_option_price",
+        "magento2.catalog_product_option_title",
+        "magento2.catalog_product_option_type_price",
+        "magento2.catalog_product_option_type_title",
+        "magento2.catalog_product_option_type_value",
+        "magento2.eav_attribute_option",
+        "magento2.eav_attribute_option_value",
+        "magento2.sales_quote_item_option"
+      ]
+    },
+    {
+      "cluster_id": 1,
+      "cluster_label": "category | position | product",
+      "cluster_terms": [
+        "category",
+        "position",
+        "product"
+      ],
+      "n_tables": 9,
+      "tables": [
+        "magento2.catalog_category_entity",
+        "magento2.catalog_category_product",
+        "magento2.catalog_category_product_index",
+        "magento2.catalog_category_product_index_tmp",
+        "magento2.catalog_product_entity",
+        "magento2.catalog_product_entity_media_gallery_value",
+        "magento2.catalog_url_rewrite_product_category",
+        "magento2.googleshopping_types",
+        "magento2.url_rewrite"
+      ]
+    },
+    {
+      "cluster_id": 2,
+      "cluster_label": "price | group | tier",
+      "cluster_terms": [
+        "price",
+        "group",
+        "tier"
+      ],
+      "n_tables": 27,
+      "tables": [
+        "magento2.catalog_product_bundle_price_index",
+        "magento2.catalog_product_bundle_selection_price",
+        "magento2.catalog_product_entity_group_price",
+        "magento2.catalog_product_entity_tier_price",
+        "magento2.catalog_product_index_group_price",
+        "magento2.catalog_product_index_price",
+        "magento2.catalog_product_index_price_bundle_idx",
+        "magento2.catalog_product_index_price_bundle_opt_idx",
+        "magento2.catalog_product_index_price_bundle_opt_tmp",
+        "magento2.catalog_product_index_price_bundle_sel_idx",
+        "magento2.catalog_product_index_price_bundle_sel_tmp",
+        "magento2.catalog_product_index_price_bundle_tmp",
+        "magento2.catalog_product_index_price_cfg_opt_agr_idx",
+        "magento2.catalog_product_index_price_cfg_opt_agr_tmp",
+        "magento2.catalog_product_index_price_cfg_opt_idx",
+        "magento2.catalog_product_index_price_cfg_opt_tmp",
+        "magento2.catalog_product_index_price_downlod_idx",
+        "magento2.catalog_product_index_price_downlod_tmp",
+        "magento2.catalog_product_index_price_final_idx",
+        "magento2.catalog_product_index_price_final_tmp",
+        "magento2.catalog_product_index_price_idx",
+        "magento2.catalog_product_index_price_opt_agr_idx",
+        "magento2.catalog_product_index_price_opt_agr_tmp",
+        "magento2.catalog_product_index_price_opt_idx",
+        "magento2.catalog_product_index_price_opt_tmp",
+        "magento2.catalog_product_index_price_tmp",
+        "magento2.catalog_product_index_tier_price"
+      ]
+    },
+    {
+      "cluster_id": 3,
+      "cluster_label": "link | product | id",
+      "cluster_terms": [
+        "link",
+        "product",
+        "id"
+      ],
+      "n_tables": 12,
+      "tables": [
+        "magento2.catalog_product_link",
+        "magento2.catalog_product_link_attribute",
+        "magento2.catalog_product_link_attribute_decimal",
+        "magento2.catalog_product_link_attribute_int",
+        "magento2.catalog_product_link_attribute_varchar",
+        "magento2.catalog_product_link_type",
+        "magento2.catalog_product_super_link",
+        "magento2.core_layout_link",
+        "magento2.downloadable_link",
+        "magento2.downloadable_link_price",
+        "magento2.downloadable_link_purchased_item",
+        "magento2.downloadable_link_title"
+      ]
+    },
+    {
+      "cluster_id": 4,
+      "cluster_label": "label | status | state",
+      "cluster_terms": [
+        "label",
+        "status",
+        "state"
+      ],
+      "n_tables": 7,
+      "tables": [
+        "magento2.eav_attribute_label",
+        "magento2.indexer_state",
+        "magento2.mview_state",
+        "magento2.newsletter_subscriber",
+        "magento2.sales_order_status",
+        "magento2.sales_order_status_label",
+        "magento2.salesrule_label"
+      ]
+    },
+    {
+      "cluster_id": 5,
+      "cluster_label": "at | created | increment",
+      "cluster_terms": [
+        "at",
+        "created",
+        "increment"
+      ],
+      "n_tables": 18,
+      "tables": [
+        "magento2.admin_system_messages",
+        "magento2.admin_user",
+        "magento2.cron_schedule",
+        "magento2.customer_address_entity",
+        "magento2.customer_entity",
+        "magento2.downloadable_link_purchased",
+        "magento2.eav_entity",
+        "magento2.eav_entity_store",
+        "magento2.integration",
+        "magento2.oauth_consumer",
+        "magento2.oauth_token",
+        "magento2.sales_creditmemo_grid",
+        "magento2.sales_invoice_grid",
+        "magento2.sales_order_grid",
+        "magento2.sales_quote_shipping_rate",
+        "magento2.sales_shipment",
+        "magento2.sales_shipment_grid",
+        "magento2.sales_shipment_track"
+      ]
+    },
+    {
+      "cluster_id": 6,
+      "cluster_label": "stock | cataloginventory | status",
+      "cluster_terms": [
+        "stock",
+        "cataloginventory",
+        "status"
+      ],
+      "n_tables": 7,
+      "tables": [
+        "magento2.catalog_product_bundle_stock_index",
+        "magento2.cataloginventory_stock",
+        "magento2.cataloginventory_stock_item",
+        "magento2.cataloginventory_stock_status",
+        "magento2.cataloginventory_stock_status_idx",
+        "magento2.cataloginventory_stock_status_tmp",
+        "magento2.product_alert_stock"
+      ]
+    },
+    {
+      "cluster_id": 7,
+      "cluster_label": "pos | product | rating",
+      "cluster_terms": [
+        "pos",
+        "product",
+        "rating"
+      ],
+      "n_tables": 6,
+      "tables": [
+        "magento2.report_viewed_product_aggregated_daily",
+        "magento2.report_viewed_product_aggregated_monthly",
+        "magento2.report_viewed_product_aggregated_yearly",
+        "magento2.sales_bestsellers_aggregated_daily",
+        "magento2.sales_bestsellers_aggregated_monthly",
+        "magento2.sales_bestsellers_aggregated_yearly"
+      ]
+    },
+    {
+      "cluster_id": 8,
+      "cluster_label": "country | region | directory",
+      "cluster_terms": [
+        "country",
+        "region",
+        "directory"
+      ],
+      "n_tables": 7,
+      "tables": [
+        "magento2.directory_country",
+        "magento2.directory_country_format",
+        "magento2.directory_country_region",
+        "magento2.directory_country_region_name",
+        "magento2.sales_order_address",
+        "magento2.shipping_tablerate",
+        "magento2.translation"
+      ]
+    },
+    {
+      "cluster_id": 9,
+      "cluster_label": "group | rule | customer",
+      "cluster_terms": [
+        "group",
+        "rule",
+        "customer"
+      ],
+      "n_tables": 16,
+      "tables": [
+        "magento2.authorization_rule",
+        "magento2.catalogrule_customer_group",
+        "magento2.catalogrule_group_website",
+        "magento2.catalogrule_product",
+        "magento2.customer_group",
+        "magento2.eav_attribute_group",
+        "magento2.gift_message",
+        "magento2.report_event",
+        "magento2.report_event_types",
+        "magento2.salesrule_coupon",
+        "magento2.salesrule_customer",
+        "magento2.salesrule_customer_group",
+        "magento2.salesrule_product_attribute",
+        "magento2.salesrule_website",
+        "magento2.store",
+        "magento2.store_group"
+      ]
+    },
+    {
+      "cluster_id": 10,
+      "cluster_label": "visitor | log | visit",
+      "cluster_terms": [
+        "visitor",
+        "log",
+        "visit"
+      ],
+      "n_tables": 10,
+      "tables": [
+        "magento2.captcha_log",
+        "magento2.customer_visitor",
+        "magento2.log_customer",
+        "magento2.log_quote",
+        "magento2.log_summary",
+        "magento2.log_url",
+        "magento2.log_url_info",
+        "magento2.log_visitor",
+        "magento2.log_visitor_info",
+        "magento2.log_visitor_online"
+      ]
+    },
+    {
+      "cluster_id": 11,
+      "cluster_label": "base | tax | amount",
+      "cluster_terms": [
+        "base",
+        "tax",
+        "amount"
+      ],
+      "n_tables": 10,
+      "tables": [
+        "magento2.sales_creditmemo",
+        "magento2.sales_creditmemo_item",
+        "magento2.sales_invoice",
+        "magento2.sales_invoice_item",
+        "magento2.sales_order",
+        "magento2.sales_order_item",
+        "magento2.sales_quote_address",
+        "magento2.sales_quote_address_item",
+        "magento2.sales_quote_item",
+        "magento2.sales_shipment_item"
+      ]
+    },
+    {
+      "cluster_id": 12,
+      "cluster_label": "rating | entity | id",
+      "cluster_terms": [
+        "rating",
+        "entity",
+        "id"
+      ],
+      "n_tables": 8,
+      "tables": [
+        "magento2.googleoptimizer_code",
+        "magento2.rating",
+        "magento2.rating_entity",
+        "magento2.rating_option",
+        "magento2.rating_option_vote",
+        "magento2.rating_option_vote_aggregated",
+        "magento2.rating_store",
+        "magento2.rating_title"
+      ]
+    },
+    {
+      "cluster_id": 13,
+      "cluster_label": "attribute | product | id",
+      "cluster_terms": [
+        "attribute",
+        "product",
+        "id"
+      ],
+      "n_tables": 19,
+      "tables": [
+        "magento2.catalog_product_index_eav",
+        "magento2.catalog_product_index_eav_decimal",
+        "magento2.catalog_product_index_eav_decimal_idx",
+        "magento2.catalog_product_index_eav_decimal_tmp",
+        "magento2.catalog_product_index_eav_idx",
+        "magento2.catalog_product_index_eav_tmp",
+        "magento2.catalog_product_relation",
+        "magento2.catalog_product_super_attribute",
+        "magento2.catalog_product_super_attribute_label",
+        "magento2.catalog_product_super_attribute_pricing",
+        "magento2.catalogrule_affected_product",
+        "magento2.catalogsearch_fulltext",
+        "magento2.customer_eav_attribute",
+        "magento2.customer_eav_attribute_website",
+        "magento2.eav_attribute",
+        "magento2.eav_attribute_set",
+        "magento2.eav_entity_attribute",
+        "magento2.report_compared_product_index",
+        "magento2.report_viewed_product_index"
+      ]
+    },
+    {
+      "cluster_id": 14,
+      "cluster_label": "review | entity | status",
+      "cluster_terms": [
+        "review",
+        "entity",
+        "status"
+      ],
+      "n_tables": 6,
+      "tables": [
+        "magento2.review",
+        "magento2.review_detail",
+        "magento2.review_entity",
+        "magento2.review_entity_summary",
+        "magento2.review_status",
+        "magento2.review_store"
+      ]
+    },
+    {
+      "cluster_id": 15,
+      "cluster_label": "comment | is | front",
+      "cluster_terms": [
+        "comment",
+        "is",
+        "front"
+      ],
+      "n_tables": 7,
+      "tables": [
+        "magento2.catalog_eav_attribute",
+        "magento2.sales_creditmemo_comment",
+        "magento2.sales_invoice_comment",
+        "magento2.sales_order_status_history",
+        "magento2.sales_order_status_state",
+        "magento2.sales_payment_transaction",
+        "magento2.sales_shipment_comment"
+      ]
+    },
+    {
+      "cluster_id": 16,
+      "cluster_label": "amount | coupon | discount",
+      "cluster_terms": [
+        "amount",
+        "coupon",
+        "discount"
+      ],
+      "n_tables": 9,
+      "tables": [
+        "magento2.catalogrule",
+        "magento2.sales_order_aggregated_created",
+        "magento2.sales_order_aggregated_updated",
+        "magento2.sales_quote",
+        "magento2.salesrule",
+        "magento2.salesrule_coupon_aggregated",
+        "magento2.salesrule_coupon_aggregated_order",
+        "magento2.salesrule_coupon_aggregated_updated",
+        "magento2.salesrule_coupon_usage"
+      ]
+    },
+    {
+      "cluster_id": 17,
+      "cluster_label": "sample | theme | widget",
+      "cluster_terms": [
+        "sample",
+        "theme",
+        "widget"
+      ],
+      "n_tables": 7,
+      "tables": [
+        "magento2.authorization_role",
+        "magento2.core_theme",
+        "magento2.core_theme_file",
+        "magento2.downloadable_sample",
+        "magento2.downloadable_sample_title",
+        "magento2.widget",
+        "magento2.widget_instance"
+      ]
+    },
+    {
+      "cluster_id": 18,
+      "cluster_label": "entity | value | id",
+      "cluster_terms": [
+        "entity",
+        "value",
+        "id"
+      ],
+      "n_tables": 28,
+      "tables": [
+        "magento2.catalog_category_entity_datetime",
+        "magento2.catalog_category_entity_decimal",
+        "magento2.catalog_category_entity_int",
+        "magento2.catalog_category_entity_text",
+        "magento2.catalog_category_entity_varchar",
+        "magento2.catalog_product_entity_datetime",
+        "magento2.catalog_product_entity_decimal",
+        "magento2.catalog_product_entity_gallery",
+        "magento2.catalog_product_entity_int",
+        "magento2.catalog_product_entity_media_gallery",
+        "magento2.catalog_product_entity_text",
+        "magento2.catalog_product_entity_varchar",
+        "magento2.customer_address_entity_datetime",
+        "magento2.customer_address_entity_decimal",
+        "magento2.customer_address_entity_int",
+        "magento2.customer_address_entity_text",
+        "magento2.customer_address_entity_varchar",
+        "magento2.customer_entity_datetime",
+        "magento2.customer_entity_decimal",
+        "magento2.customer_entity_int",
+        "magento2.customer_entity_text",
+        "magento2.customer_entity_varchar",
+        "magento2.eav_entity_datetime",
+        "magento2.eav_entity_decimal",
+        "magento2.eav_entity_int",
+        "magento2.eav_entity_text",
+        "magento2.eav_entity_varchar",
+        "magento2.weee_tax"
+      ]
+    },
+    {
+      "cluster_id": 19,
+      "cluster_label": "page | cms | layout",
+      "cluster_terms": [
+        "page",
+        "cms",
+        "layout"
+      ],
+      "n_tables": 5,
+      "tables": [
+        "magento2.cms_block_store",
+        "magento2.cms_page",
+        "magento2.cms_page_store",
+        "magento2.widget_instance_page",
+        "magento2.widget_instance_page_layout"
+      ]
+    },
+    {
+      "cluster_id": 20,
+      "cluster_label": "period | orders | order",
+      "cluster_terms": [
+        "period",
+        "orders",
+        "order"
+      ],
+      "n_tables": 9,
+      "tables": [
+        "magento2.log_summary_type",
+        "magento2.sales_invoiced_aggregated",
+        "magento2.sales_invoiced_aggregated_order",
+        "magento2.sales_order_tax",
+        "magento2.sales_order_tax_item",
+        "magento2.sales_shipping_aggregated",
+        "magento2.sales_shipping_aggregated_order",
+        "magento2.tax_order_aggregated_created",
+        "magento2.tax_order_aggregated_updated"
+      ]
+    },
+    {
+      "cluster_id": 21,
+      "cluster_label": "calculation | tax | class",
+      "cluster_terms": [
+        "calculation",
+        "tax",
+        "class"
+      ],
+      "n_tables": 5,
+      "tables": [
+        "magento2.tax_calculation",
+        "magento2.tax_calculation_rate",
+        "magento2.tax_calculation_rate_title",
+        "magento2.tax_calculation_rule",
+        "magento2.tax_class"
+      ]
+    },
+    {
+      "cluster_id": 22,
+      "cluster_label": "core | time | id",
+      "cluster_terms": [
+        "core",
+        "time",
+        "id"
+      ],
+      "n_tables": 23,
+      "tables": [
+        "magento2.adminnotification_inbox",
+        "magento2.checkout_agreement",
+        "magento2.checkout_agreement_store",
+        "magento2.cms_block",
+        "magento2.core_cache",
+        "magento2.core_cache_tag",
+        "magento2.core_config_data",
+        "magento2.core_flag",
+        "magento2.core_layout_update",
+        "magento2.core_resource",
+        "magento2.core_session",
+        "magento2.core_variable",
+        "magento2.core_variable_value",
+        "magento2.eav_entity_type",
+        "magento2.email_template",
+        "magento2.googleshopping_attributes",
+        "magento2.importexport_importdata",
+        "magento2.newsletter_template",
+        "magento2.oauth_nonce",
+        "magento2.search_query",
+        "magento2.sendfriend_log",
+        "magento2.sitemap",
+        "magento2.vde_theme_change"
+      ]
+    },
+    {
+      "cluster_id": 23,
+      "cluster_label": "website | date | id",
+      "cluster_terms": [
+        "website",
+        "date",
+        "id"
+      ],
+      "n_tables": 9,
+      "tables": [
+        "magento2.catalog_product_index_website",
+        "magento2.catalog_product_website",
+        "magento2.catalogrule_product_price",
+        "magento2.catalogrule_website",
+        "magento2.design_change",
+        "magento2.directory_currency_rate",
+        "magento2.persistent_session",
+        "magento2.product_alert_price",
+        "magento2.store_website"
+      ]
+    },
+    {
+      "cluster_id": 24,
+      "cluster_label": "wishlist | item | id",
+      "cluster_terms": [
+        "wishlist",
+        "item",
+        "id"
+      ],
+      "n_tables": 5,
+      "tables": [
+        "magento2.catalog_compare_item",
+        "magento2.googleshopping_items",
+        "magento2.wishlist",
+        "magento2.wishlist_item",
+        "magento2.wishlist_item_option"
+      ]
+    },
+    {
+      "cluster_id": 25,
+      "cluster_label": "form | fieldset | eav",
+      "cluster_terms": [
+        "form",
+        "fieldset",
+        "eav"
+      ],
+      "n_tables": 6,
+      "tables": [
+        "magento2.customer_form_attribute",
+        "magento2.eav_form_element",
+        "magento2.eav_form_fieldset",
+        "magento2.eav_form_fieldset_label",
+        "magento2.eav_form_type",
+        "magento2.eav_form_type_entity"
+      ]
+    },
+    {
+      "cluster_id": 26,
+      "cluster_label": "cc | ss | month",
+      "cluster_terms": [
+        "cc",
+        "ss",
+        "month"
+      ],
+      "n_tables": 2,
+      "tables": [
+        "magento2.sales_order_payment",
+        "magento2.sales_quote_payment"
+      ]
+    },
+    {
+      "cluster_id": 27,
+      "cluster_label": "refunded | offline | online",
+      "cluster_terms": [
+        "refunded",
+        "offline",
+        "online"
+      ],
+      "n_tables": 2,
+      "tables": [
+        "magento2.sales_refunded_aggregated",
+        "magento2.sales_refunded_aggregated_order"
+      ]
+    },
+    {
+      "cluster_id": 28,
+      "cluster_label": "queue | newsletter | link",
+      "cluster_terms": [
+        "queue",
+        "newsletter",
+        "link"
+      ],
+      "n_tables": 4,
+      "tables": [
+        "magento2.newsletter_problem",
+        "magento2.newsletter_queue",
+        "magento2.newsletter_queue_link",
+        "magento2.newsletter_queue_store_link"
+      ]
+    }
+  ],
+  "table_to_cluster": {
+    "magento2.admin_system_messages": 5,
+    "magento2.admin_user": 5,
+    "magento2.adminnotification_inbox": 22,
+    "magento2.authorization_role": 17,
+    "magento2.authorization_rule": 9,
+    "magento2.captcha_log": 10,
+    "magento2.catalog_category_entity": 1,
+    "magento2.catalog_category_entity_datetime": 18,
+    "magento2.catalog_category_entity_decimal": 18,
+    "magento2.catalog_category_entity_int": 18,
+    "magento2.catalog_category_entity_text": 18,
+    "magento2.catalog_category_entity_varchar": 18,
+    "magento2.catalog_category_product": 1,
+    "magento2.catalog_category_product_index": 1,
+    "magento2.catalog_category_product_index_tmp": 1,
+    "magento2.catalog_compare_item": 24,
+    "magento2.catalog_eav_attribute": 15,
+    "magento2.catalog_product_bundle_option": 0,
+    "magento2.catalog_product_bundle_option_value": 0,
+    "magento2.catalog_product_bundle_price_index": 2,
+    "magento2.catalog_product_bundle_selection": 0,
+    "magento2.catalog_product_bundle_selection_price": 2,
+    "magento2.catalog_product_bundle_stock_index": 6,
+    "magento2.catalog_product_entity": 1,
+    "magento2.catalog_product_entity_datetime": 18,
+    "magento2.catalog_product_entity_decimal": 18,
+    "magento2.catalog_product_entity_gallery": 18,
+    "magento2.catalog_product_entity_group_price": 2,
+    "magento2.catalog_product_entity_int": 18,
+    "magento2.catalog_product_entity_media_gallery": 18,
+    "magento2.catalog_product_entity_media_gallery_value": 1,
+    "magento2.catalog_product_entity_text": 18,
+    "magento2.catalog_product_entity_tier_price": 2,
+    "magento2.catalog_product_entity_varchar": 18,
+    "magento2.catalog_product_index_eav": 13,
+    "magento2.catalog_product_index_eav_decimal": 13,
+    "magento2.catalog_product_index_eav_decimal_idx": 13,
+    "magento2.catalog_product_index_eav_decimal_tmp": 13,
+    "magento2.catalog_product_index_eav_idx": 13,
+    "magento2.catalog_product_index_eav_tmp": 13,
+    "magento2.catalog_product_index_group_price": 2,
+    "magento2.catalog_product_index_price": 2,
+    "magento2.catalog_product_index_price_bundle_idx": 2,
+    "magento2.catalog_product_index_price_bundle_opt_idx": 2,
+    "magento2.catalog_product_index_price_bundle_opt_tmp": 2,
+    "magento2.catalog_product_index_price_bundle_sel_idx": 2,
+    "magento2.catalog_product_index_price_bundle_sel_tmp": 2,
+    "magento2.catalog_product_index_price_bundle_tmp": 2,
+    "magento2.catalog_product_index_price_cfg_opt_agr_idx": 2,
+    "magento2.catalog_product_index_price_cfg_opt_agr_tmp": 2,
+    "magento2.catalog_product_index_price_cfg_opt_idx": 2,
+    "magento2.catalog_product_index_price_cfg_opt_tmp": 2,
+    "magento2.catalog_product_index_price_downlod_idx": 2,
+    "magento2.catalog_product_index_price_downlod_tmp": 2,
+    "magento2.catalog_product_index_price_final_idx": 2,
+    "magento2.catalog_product_index_price_final_tmp": 2,
+    "magento2.catalog_product_index_price_idx": 2,
+    "magento2.catalog_product_index_price_opt_agr_idx": 2,
+    "magento2.catalog_product_index_price_opt_agr_tmp": 2,
+    "magento2.catalog_product_index_price_opt_idx": 2,
+    "magento2.catalog_product_index_price_opt_tmp": 2,
+    "magento2.catalog_product_index_price_tmp": 2,
+    "magento2.catalog_product_index_tier_price": 2,
+    "magento2.catalog_product_index_website": 23,
+    "magento2.catalog_product_link": 3,
+    "magento2.catalog_product_link_attribute": 3,
+    "magento2.catalog_product_link_attribute_decimal": 3,
+    "magento2.catalog_product_link_attribute_int": 3,
+    "magento2.catalog_product_link_attribute_varchar": 3,
+    "magento2.catalog_product_link_type": 3,
+    "magento2.catalog_product_option": 0,
+    "magento2.catalog_product_option_price": 0,
+    "magento2.catalog_product_option_title": 0,
+    "magento2.catalog_product_option_type_price": 0,
+    "magento2.catalog_product_option_type_title": 0,
+    "magento2.catalog_product_option_type_value": 0,
+    "magento2.catalog_product_relation": 13,
+    "magento2.catalog_product_super_attribute": 13,
+    "magento2.catalog_product_super_attribute_label": 13,
+    "magento2.catalog_product_super_attribute_pricing": 13,
+    "magento2.catalog_product_super_link": 3,
+    "magento2.catalog_product_website": 23,
+    "magento2.catalog_url_rewrite_product_category": 1,
+    "magento2.cataloginventory_stock": 6,
+    "magento2.cataloginventory_stock_item": 6,
+    "magento2.cataloginventory_stock_status": 6,
+    "magento2.cataloginventory_stock_status_idx": 6,
+    "magento2.cataloginventory_stock_status_tmp": 6,
+    "magento2.catalogrule": 16,
+    "magento2.catalogrule_affected_product": 13,
+    "magento2.catalogrule_customer_group": 9,
+    "magento2.catalogrule_group_website": 9,
+    "magento2.catalogrule_product": 9,
+    "magento2.catalogrule_product_price": 23,
+    "magento2.catalogrule_website": 23,
+    "magento2.catalogsearch_fulltext": 13,
+    "magento2.checkout_agreement": 22,
+    "magento2.checkout_agreement_store": 22,
+    "magento2.cms_block": 22,
+    "magento2.cms_block_store": 19,
+    "magento2.cms_page": 19,
+    "magento2.cms_page_store": 19,
+    "magento2.core_cache": 22,
+    "magento2.core_cache_tag": 22,
+    "magento2.core_config_data": 22,
+    "magento2.core_flag": 22,
+    "magento2.core_layout_link": 3,
+    "magento2.core_layout_update": 22,
+    "magento2.core_resource": 22,
+    "magento2.core_session": 22,
+    "magento2.core_theme": 17,
+    "magento2.core_theme_file": 17,
+    "magento2.core_variable": 22,
+    "magento2.core_variable_value": 22,
+    "magento2.cron_schedule": 5,
+    "magento2.customer_address_entity": 5,
+    "magento2.customer_address_entity_datetime": 18,
+    "magento2.customer_address_entity_decimal": 18,
+    "magento2.customer_address_entity_int": 18,
+    "magento2.customer_address_entity_text": 18,
+    "magento2.customer_address_entity_varchar": 18,
+    "magento2.customer_eav_attribute": 13,
+    "magento2.customer_eav_attribute_website": 13,
+    "magento2.customer_entity": 5,
+    "magento2.customer_entity_datetime": 18,
+    "magento2.customer_entity_decimal": 18,
+    "magento2.customer_entity_int": 18,
+    "magento2.customer_entity_text": 18,
+    "magento2.customer_entity_varchar": 18,
+    "magento2.customer_form_attribute": 25,
+    "magento2.customer_group": 9,
+    "magento2.customer_visitor": 10,
+    "magento2.design_change": 23,
+    "magento2.directory_country": 8,
+    "magento2.directory_country_format": 8,
+    "magento2.directory_country_region": 8,
+    "magento2.directory_country_region_name": 8,
+    "magento2.directory_currency_rate": 23,
+    "magento2.downloadable_link": 3,
+    "magento2.downloadable_link_price": 3,
+    "magento2.downloadable_link_purchased": 5,
+    "magento2.downloadable_link_purchased_item": 3,
+    "magento2.downloadable_link_title": 3,
+    "magento2.downloadable_sample": 17,
+    "magento2.downloadable_sample_title": 17,
+    "magento2.eav_attribute": 13,
+    "magento2.eav_attribute_group": 9,
+    "magento2.eav_attribute_label": 4,
+    "magento2.eav_attribute_option": 0,
+    "magento2.eav_attribute_option_value": 0,
+    "magento2.eav_attribute_set": 13,
+    "magento2.eav_entity": 5,
+    "magento2.eav_entity_attribute": 13,
+    "magento2.eav_entity_datetime": 18,
+    "magento2.eav_entity_decimal": 18,
+    "magento2.eav_entity_int": 18,
+    "magento2.eav_entity_store": 5,
+    "magento2.eav_entity_text": 18,
+    "magento2.eav_entity_type": 22,
+    "magento2.eav_entity_varchar": 18,
+    "magento2.eav_form_element": 25,
+    "magento2.eav_form_fieldset": 25,
+    "magento2.eav_form_fieldset_label": 25,
+    "magento2.eav_form_type": 25,
+    "magento2.eav_form_type_entity": 25,
+    "magento2.email_template": 22,
+    "magento2.gift_message": 9,
+    "magento2.googleoptimizer_code": 12,
+    "magento2.googleshopping_attributes": 22,
+    "magento2.googleshopping_items": 24,
+    "magento2.googleshopping_types": 1,
+    "magento2.importexport_importdata": 22,
+    "magento2.indexer_state": 4,
+    "magento2.integration": 5,
+    "magento2.log_customer": 10,
+    "magento2.log_quote": 10,
+    "magento2.log_summary": 10,
+    "magento2.log_summary_type": 20,
+    "magento2.log_url": 10,
+    "magento2.log_url_info": 10,
+    "magento2.log_visitor": 10,
+    "magento2.log_visitor_info": 10,
+    "magento2.log_visitor_online": 10,
+    "magento2.mview_state": 4,
+    "magento2.newsletter_problem": 28,
+    "magento2.newsletter_queue": 28,
+    "magento2.newsletter_queue_link": 28,
+    "magento2.newsletter_queue_store_link": 28,
+    "magento2.newsletter_subscriber": 4,
+    "magento2.newsletter_template": 22,
+    "magento2.oauth_consumer": 5,
+    "magento2.oauth_nonce": 22,
+    "magento2.oauth_token": 5,
+    "magento2.persistent_session": 23,
+    "magento2.product_alert_price": 23,
+    "magento2.product_alert_stock": 6,
+    "magento2.rating": 12,
+    "magento2.rating_entity": 12,
+    "magento2.rating_option": 12,
+    "magento2.rating_option_vote": 12,
+    "magento2.rating_option_vote_aggregated": 12,
+    "magento2.rating_store": 12,
+    "magento2.rating_title": 12,
+    "magento2.report_compared_product_index": 13,
+    "magento2.report_event": 9,
+    "magento2.report_event_types": 9,
+    "magento2.report_viewed_product_aggregated_daily": 7,
+    "magento2.report_viewed_product_aggregated_monthly": 7,
+    "magento2.report_viewed_product_aggregated_yearly": 7,
+    "magento2.report_viewed_product_index": 13,
+    "magento2.review": 14,
+    "magento2.review_detail": 14,
+    "magento2.review_entity": 14,
+    "magento2.review_entity_summary": 14,
+    "magento2.review_status": 14,
+    "magento2.review_store": 14,
+    "magento2.sales_bestsellers_aggregated_daily": 7,
+    "magento2.sales_bestsellers_aggregated_monthly": 7,
+    "magento2.sales_bestsellers_aggregated_yearly": 7,
+    "magento2.sales_creditmemo": 11,
+    "magento2.sales_creditmemo_comment": 15,
+    "magento2.sales_creditmemo_grid": 5,
+    "magento2.sales_creditmemo_item": 11,
+    "magento2.sales_invoice": 11,
+    "magento2.sales_invoice_comment": 15,
+    "magento2.sales_invoice_grid": 5,
+    "magento2.sales_invoice_item": 11,
+    "magento2.sales_invoiced_aggregated": 20,
+    "magento2.sales_invoiced_aggregated_order": 20,
+    "magento2.sales_order": 11,
+    "magento2.sales_order_address": 8,
+    "magento2.sales_order_aggregated_created": 16,
+    "magento2.sales_order_aggregated_updated": 16,
+    "magento2.sales_order_grid": 5,
+    "magento2.sales_order_item": 11,
+    "magento2.sales_order_payment": 26,
+    "magento2.sales_order_status": 4,
+    "magento2.sales_order_status_history": 15,
+    "magento2.sales_order_status_label": 4,
+    "magento2.sales_order_status_state": 15,
+    "magento2.sales_order_tax": 20,
+    "magento2.sales_order_tax_item": 20,
+    "magento2.sales_payment_transaction": 15,
+    "magento2.sales_quote": 16,
+    "magento2.sales_quote_address": 11,
+    "magento2.sales_quote_address_item": 11,
+    "magento2.sales_quote_item": 11,
+    "magento2.sales_quote_item_option": 0,
+    "magento2.sales_quote_payment": 26,
+    "magento2.sales_quote_shipping_rate": 5,
+    "magento2.sales_refunded_aggregated": 27,
+    "magento2.sales_refunded_aggregated_order": 27,
+    "magento2.sales_shipment": 5,
+    "magento2.sales_shipment_comment": 15,
+    "magento2.sales_shipment_grid": 5,
+    "magento2.sales_shipment_item": 11,
+    "magento2.sales_shipment_track": 5,
+    "magento2.sales_shipping_aggregated": 20,
+    "magento2.sales_shipping_aggregated_order": 20,
+    "magento2.salesrule": 16,
+    "magento2.salesrule_coupon": 9,
+    "magento2.salesrule_coupon_aggregated": 16,
+    "magento2.salesrule_coupon_aggregated_order": 16,
+    "magento2.salesrule_coupon_aggregated_updated": 16,
+    "magento2.salesrule_coupon_usage": 16,
+    "magento2.salesrule_customer": 9,
+    "magento2.salesrule_customer_group": 9,
+    "magento2.salesrule_label": 4,
+    "magento2.salesrule_product_attribute": 9,
+    "magento2.salesrule_website": 9,
+    "magento2.search_query": 22,
+    "magento2.sendfriend_log": 22,
+    "magento2.shipping_tablerate": 8,
+    "magento2.sitemap": 22,
+    "magento2.store": 9,
+    "magento2.store_group": 9,
+    "magento2.store_website": 23,
+    "magento2.tax_calculation": 21,
+    "magento2.tax_calculation_rate": 21,
+    "magento2.tax_calculation_rate_title": 21,
+    "magento2.tax_calculation_rule": 21,
+    "magento2.tax_class": 21,
+    "magento2.tax_order_aggregated_created": 20,
+    "magento2.tax_order_aggregated_updated": 20,
+    "magento2.translation": 8,
+    "magento2.url_rewrite": 1,
+    "magento2.vde_theme_change": 22,
+    "magento2.weee_tax": 18,
+    "magento2.widget": 17,
+    "magento2.widget_instance": 17,
+    "magento2.widget_instance_page": 19,
+    "magento2.widget_instance_page_layout": 19,
+    "magento2.wishlist": 24,
+    "magento2.wishlist_item": 24,
+    "magento2.wishlist_item_option": 24
+  }
+}
