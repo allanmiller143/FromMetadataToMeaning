@@ -17,7 +17,6 @@ st.set_page_config(page_title="EsqueMapa", layout="wide")
 
 
 ROOT_DIR = Path(__file__).resolve().parent
-DATA_DIR = ROOT_DIR / "data" / "magento2"
 APP_DIR = ROOT_DIR / "app"
 
 
@@ -272,6 +271,11 @@ def run_script(
 # SIDEBAR
 # =========================================================
 st.sidebar.title("EsqueMapa")
+
+# Seleção de Dataset
+datasets = ["magento2", "teixeira", "nhanes"]
+selected_dataset = st.sidebar.selectbox("Selecione o Dataset:", datasets)
+DATA_DIR = ROOT_DIR / "data" / selected_dataset
 
 step5_output_dir = DATA_DIR / "step5_output"
 
