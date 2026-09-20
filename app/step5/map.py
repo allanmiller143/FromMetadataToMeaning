@@ -2,6 +2,10 @@ from collections import defaultdict, Counter
 import json
 
 from matplotlib import cm
+try:
+    from matplotlib import colormaps
+except ImportError:
+    colormaps = None
 import numpy as np
 
 
@@ -31,6 +35,14 @@ def build_interactive_map_v3(som, themes, embeddings, macrothemes, occurrences, 
     grid_data = []
     colors = ["#01696f","#EF553B","#AB63FA","#FFA15A","#19D3F3","#FF6692","#B6E880","#FF97FF","#FECB52","#636EFA","#7FDBFF","#2ECC40","#FFDC00","#FF851B","#85144b","#3D9970","#a29bfe","#fd79a8","#00b894","#e17055"]
     macro_to_color = {m["macrotema"]: colors[i % len(colors)] for i, m in enumerate(macrothemes)}
+    # Associação direta tabela -> tema. O tema é a classificação específica da
+    # tabela; o macrotema agregado do neurônio não deve ser usado neste detalhe.
+    table_to_theme = {}
+    for m in macrothemes:
+        for theme_name in (m.get("subtemas") or []):
+            for table_name in (tables_by_theme.get(theme_name, []) or []):
+                clean_table = table_name.split(".")[-1] if isinstance(table_name, str) else table_name
+                table_to_theme.setdefault(clean_table, theme_name)
 
     for x in range(x_dim):
         for y in range(y_dim):
@@ -59,6 +71,7 @@ def build_interactive_map_v3(som, themes, embeddings, macrothemes, occurrences, 
     macros_ordered = sorted(macrothemes, key=lambda x: x["frequencia_total"], reverse=True)
     macros_json = json.dumps([m['macrotema'] for m in macros_ordered[:20]], ensure_ascii=False)
     metadata_json = json.dumps(metadata_dict or {}, ensure_ascii=False, default=str)
+    table_theme_json = json.dumps(table_to_theme, ensure_ascii=False)
 
     # Preparar dados de U-Matrix normalizada para colormap inferno
     umatrix_min = float(np.min(umatrix))
@@ -66,7 +79,7 @@ def build_interactive_map_v3(som, themes, embeddings, macrothemes, occurrences, 
     umatrix_range = umatrix_max - umatrix_min if umatrix_max > umatrix_min else 1.0
     
     # Criar mapa de cores inferno normalizado
-    cmap_inferno = cm.get_cmap('inferno')
+    cmap_inferno = colormaps.get_cmap('inferno') if colormaps is not None else cm.get_cmap('inferno')
     umatrix_colors = {}
     for x in range(x_dim):
         for y in range(y_dim):
@@ -166,66 +179,79 @@ def build_interactive_map_v3(som, themes, embeddings, macrothemes, occurrences, 
         .table-tag.saved {{ background: rgba(46, 204, 113, 0.2); color: #2ecc71; border: 1px solid #2ecc71; }}
         .table-tag.saved:hover {{ background: #2ecc71; color: #000; }}
         
-        /* MODAL STYLES */
-        .modal-overlay {{
+        /* ===== MODAL OVERLAY ===== */
+        #modal-overlay {{
             display: none; position: fixed; top: 0; left: 0; width: 100%; height: 100%;
-            background: rgba(0, 0, 0, 0.7); z-index: 3000; align-items: center; justify-content: center;
-            padding: 20px;
+            background: rgba(0,0,0,0.72); z-index: 3000;
+            align-items: center; justify-content: center; padding: 20px;
         }}
-        .modal-overlay.active {{ display: flex; }}
-        
+        #modal-overlay.active {{ display: flex; }}
         .modal-content {{
             background: var(--surface); border: 1px solid var(--border); border-radius: 12px;
             max-width: 1100px; width: 95%; max-height: 88vh; overflow: hidden;
-            padding: 0; box-shadow: 0 20px 60px rgba(0, 0, 0, 0.9);
+            padding: 0; box-shadow: 0 20px 60px rgba(0,0,0,0.9);
             display: flex; flex-direction: column;
+            transition: transform 0.25s, filter 0.25s;
+            position: relative;
         }}
-        
+
+        /* Breadcrumb navbar */
+        .modal-breadcrumb {{
+            display: flex; align-items: center; gap: 0; padding: 7px 18px;
+            background: rgba(0,0,0,0.3); border-bottom: 1px solid var(--border);
+            font-size: 0.72rem; overflow-x: auto; flex-shrink: 0; flex-wrap: nowrap;
+            scrollbar-width: none;
+        }}
+        .modal-breadcrumb::-webkit-scrollbar {{ display: none; }}
+        .bc-item {{
+            display: flex; align-items: center; gap: 4px; white-space: nowrap;
+        }}
+        .bc-name {{
+            color: var(--text-muted); cursor: pointer; padding: 2px 5px; border-radius: 3px;
+            transition: color 0.15s, background 0.15s;
+        }}
+        .bc-name:hover {{ color: var(--primary); background: rgba(255,159,67,0.1); }}
+        .bc-name.current {{ color: var(--primary); font-weight: 700; cursor: default; }}
+        .bc-name.current:hover {{ background: none; }}
+        .bc-sep {{ color: var(--border); margin: 0 1px; }}
+
         .modal-header {{
             display: flex; justify-content: space-between; align-items: center;
-            margin-bottom: 0; border-bottom: 1px solid var(--border); padding: 18px 22px;
+            margin-bottom: 0; border-bottom: 1px solid var(--border); padding: 14px 22px;
             flex-shrink: 0; background: var(--surface);
         }}
-        
         .modal-header h2 {{
-            margin: 0; font-size: 1.3rem; color: var(--text); word-break: break-word;
+            margin: 0; font-size: 1.2rem; color: var(--text); word-break: break-word;
             padding-right: 10px;
         }}
-        
         .modal-close {{
             background: none; border: none; color: var(--text); font-size: 1.5rem;
             cursor: pointer; padding: 0; width: 30px; height: 30px; display: flex;
             align-items: center; justify-content: center; transition: color 0.2s;
             flex-shrink: 0;
         }}
-        
         .modal-close:hover {{ color: var(--primary); }}
-        
         .modal-body {{
             padding: 22px; overflow-y: auto; flex: 1;
         }}
-        
         .modal-section {{ margin-bottom: 25px; }}
         .modal-section h3 {{ margin: 0 0 12px; font-size: 0.95rem; color: var(--text); }}
-        
         .info-grid {{ display: grid; grid-template-columns: repeat(auto-fill, minmax(200px, 1fr)); gap: 15px; }}
         .info-item {{ background: var(--bg); padding: 12px; border-radius: 8px; border: 1px solid var(--border); }}
         .info-label {{ font-size: 0.7rem; color: var(--text-muted); margin-bottom: 4px; }}
         .info-value {{ font-size: 0.9rem; font-weight: 600; }}
-        
         .table-wrapper {{ overflow-x: auto; background: var(--bg); border-radius: 8px; border: 1px solid var(--border); }}
         .columns-table {{ width: 100%; border-collapse: collapse; font-size: 0.85rem; }}
         .columns-table th {{ text-align: left; padding: 12px; background: rgba(255,255,255,0.03); border-bottom: 1px solid var(--border); color: var(--text-muted); font-weight: 600; }}
         .columns-table td {{ padding: 10px 12px; border-bottom: 1px solid var(--border); }}
         .columns-table tr:last-child td {{ border-bottom: none; }}
-        
         .add-finding-btn {{
-            background: var(--primary); color: #000; border: none; padding: 10px 20px;
-            border-radius: 6px; cursor: pointer; font-weight: 700; font-size: 0.85rem;
-            transition: all 0.2s; margin-top: 15px; display: inline-flex; align-items: center; gap: 8px;
+            background: var(--primary); color: #000; border: none; padding: 0 16px;
+            border-radius: 6px; cursor: pointer; font-weight: 700; font-size: 0.82rem;
+            transition: all 0.2s; display: inline-flex; align-items: center; gap: 8px;
+            height: 34px;
         }}
-        .add-finding-btn:hover {{ opacity: 0.9; transform: translateY(-1px); }}
-        .add-finding-btn:active {{ transform: translateY(0); }}
+        .add-finding-btn:hover {{ opacity: 0.9; }}
         .add-finding-btn:disabled {{ background: #2ecc71; color: #fff; cursor: default; opacity: 1; }}
 
         /* FINDINGS PANEL */
@@ -271,6 +297,78 @@ def build_interactive_map_v3(som, themes, embeddings, macrothemes, occurrences, 
             transition: transform 0.2s;
         }}
         #findings-trigger:hover {{ transform: scale(1.1); }}
+
+        /* ===== RELATIONSHIP GRAPH MODAL ===== */
+        #graph-modal-overlay {{
+            display: none; position: fixed; top: 0; left: 0; width: 100%; height: 100%;
+            background: rgba(0,0,0,0.85); z-index: 4000; align-items: center; justify-content: center;
+        }}
+        #graph-modal-overlay.active {{ display: flex; }}
+        #graph-modal {{
+            background: var(--surface); border: 1px solid var(--border); border-radius: 14px;
+            width: 98vw; max-width: 1700px; height: 95vh; display: flex; flex-direction: column;
+            box-shadow: 0 30px 80px rgba(0,0,0,0.95); overflow: hidden;
+        }}
+        #graph-modal-header {{
+            display: flex; align-items: center; justify-content: space-between;
+            padding: 16px 22px; border-bottom: 1px solid var(--border); flex-shrink: 0;
+        }}
+        #graph-modal-header h2 {{ margin: 0; font-size: 1.05rem; color: var(--primary); }}
+        #graph-modal-header .subtitle {{ font-size: 0.75rem; color: var(--text-muted); margin-top: 3px; }}
+        #graph-modal-close {{
+            background: none; border: none; color: var(--text); font-size: 1.5rem;
+            cursor: pointer; padding: 0; width: 30px; height: 30px;
+            display: flex; align-items: center; justify-content: center;
+        }}
+        #graph-modal-close:hover {{ color: var(--primary); }}
+        #graph-modal-body {{
+            display: flex; flex: 1; overflow: hidden;
+        }}
+        #graph-svg-container {{
+            flex: 1; position: relative; background: var(--bg);
+        }}
+        #graph-svg {{ width: 100%; height: 100%; }}
+        #graph-info-panel {{
+            width: 340px; border-left: 1px solid var(--border); padding: 18px;
+            overflow-y: auto; flex-shrink: 0; font-size: 0.8rem;
+        }}
+        #graph-info-panel h3 {{ margin: 0 0 12px; font-size: 0.85rem; color: var(--primary); }}
+        .graph-info-placeholder {{ color: var(--text-muted); font-style: italic; font-size: 0.8rem; margin-top: 20px; text-align: center; }}
+        .graph-legend-item {{ display: flex; align-items: center; gap: 8px; margin-bottom: 8px; font-size: 0.75rem; color: var(--text-muted); }}
+        .graph-legend-dot {{ width: 12px; height: 12px; border-radius: 50%; flex-shrink: 0; }}
+        .graph-node-detail {{ background: var(--bg); border: 1px solid var(--border); border-radius: 8px; padding: 12px; margin-bottom: 10px; }}
+        .graph-node-detail .detail-label {{ font-size: 0.65rem; color: var(--text-muted); text-transform: uppercase; margin-bottom: 3px; }}
+        .graph-node-detail .detail-value {{ font-size: 0.82rem; font-weight: 600; word-break: break-all; }}
+        .graph-fk-list {{ margin-top: 10px; }}
+        .graph-fk-item {{ background: var(--bg); border: 1px solid var(--border); border-radius: 6px; padding: 8px 10px; margin-bottom: 6px; font-size: 0.72rem; cursor: pointer; transition: border-color 0.2s; }}
+        .graph-fk-item:hover {{ border-color: var(--primary); }}
+        .graph-fk-item .fk-table {{ font-weight: 700; color: var(--text); margin-bottom: 3px; }}
+        .graph-fk-item .fk-cols {{ color: var(--text-muted); font-size: 0.68rem; }}
+        .fk-direction {{ font-size: 0.6rem; text-transform: uppercase; font-weight: bold; padding: 1px 5px; border-radius: 3px; display: inline-block; margin-bottom: 4px; }}
+        .fk-out {{ background: rgba(255,159,67,0.2); color: var(--primary); }}
+        .fk-in  {{ background: rgba(100,200,100,0.2); color: #2ecc71; }}
+        #graph-depth-toggle {{ display: flex; gap: 6px; margin-bottom: 14px; }}
+        .graph-depth-card {{
+            background: var(--bg); border: 1px solid var(--border); border-radius: 10px;
+            padding: 12px; margin-bottom: 18px;
+        }}
+        .graph-depth-title {{
+            color: var(--text); font-size: 0.78rem; font-weight: 700;
+            text-transform: uppercase; letter-spacing: 0.5px; margin-bottom: 6px;
+        }}
+        .graph-depth-help {{ color: var(--text-muted); font-size: 0.7rem; line-height: 1.55; margin-bottom: 10px; }}
+        .depth-btn {{
+            flex: 1; padding: 5px; border: 1px solid var(--border); border-radius: 4px;
+            background: var(--bg); color: var(--text-muted); font-size: 0.72rem; cursor: pointer;
+        }}
+        .depth-btn.active {{ background: var(--primary); color: #000; border-color: var(--primary); font-weight: bold; }}
+        #open-graph-btn {{
+            background: var(--bg); color: var(--primary); border: 1px solid var(--primary);
+            padding: 0 16px; border-radius: 6px; cursor: pointer; font-size: 0.8rem;
+            font-weight: 600; transition: all 0.2s; display: inline-flex; align-items: center; gap: 6px;
+            height: 34px; margin-top: 0;
+        }}
+        #open-graph-btn:hover {{ background: var(--primary); color: #000; }}
     </style>
 </head>
 <body>
@@ -332,17 +430,69 @@ def build_interactive_map_v3(som, themes, embeddings, macrothemes, occurrences, 
         <div id="legend"></div>
     </div>
 
-    <!-- MODAL PARA DETALHES DE TABELA -->
-    <div id="modal-overlay" class="modal-overlay">
-        <div class="modal-content">
+    <!-- MODAL DE TABELA -->
+    <div id="modal-overlay" onclick="if(event.target===this) closeTableModal()">
+        <div class="modal-content" id="modal-content-inner">
+            <div class="modal-breadcrumb" id="modal-breadcrumb"></div>
             <div class="modal-header">
-                <h2 id="modal-table-name">Nome da Tabela</h2>
-                <div style="display: flex; align-items: center; gap: 15px;">
-                    <button id="add-table-finding-btn" class="add-finding-btn" style="margin-top: 0; padding: 6px 12px;">Salvar Tabela</button>
+                <h2 id="modal-table-name">—</h2>
+                <div style="display:flex;align-items:center;gap:10px;">
+                    <button id="modal-graph-btn" style="background:var(--bg);color:var(--primary);border:1px solid var(--primary);padding:0 16px;border-radius:6px;cursor:pointer;font-size:0.8rem;font-weight:600;height:34px;display:inline-flex;align-items:center;gap:6px;">&#9901; Ver Relacionamentos</button>
+                    <button id="modal-save-btn" class="add-finding-btn">Salvar Tabela</button>
                     <button class="modal-close" onclick="closeTableModal()">&times;</button>
                 </div>
             </div>
-            <div id="modal-body" class="modal-body"></div>
+            <div class="modal-body" id="modal-body"></div>
+        </div>
+    </div>
+
+    <!-- MODAL DE GRAFO DE RELACIONAMENTOS -->
+    <div id="graph-modal-overlay" onclick="if(event.target===this) closeGraphModal()">
+        <div id="graph-modal">
+            <div id="graph-modal-header">
+                <div>
+                    <h2 id="graph-modal-title">Relacionamentos</h2>
+                    <div class="subtitle" id="graph-modal-subtitle"></div>
+                </div>
+                <button id="graph-modal-close" onclick="closeGraphModal()">&times;</button>
+            </div>
+            <div id="graph-modal-body">
+                <div id="graph-svg-container">
+                    <svg id="graph-svg"></svg>
+                </div>
+                <div id="graph-info-panel">
+                    <div class="graph-depth-card">
+                        <div class="graph-depth-title">Profundidade do grafo</div>
+                        <div class="graph-depth-help">
+                            <strong style="color:var(--text);">Nível 1</strong> · relações diretas da tabela principal<br>
+                            <strong style="color:var(--text);">Nível 2</strong> · relações das tabelas do nível 1
+                        </div>
+                        <div id="graph-depth-toggle">
+                            <button class="depth-btn active" onclick="setGraphDepth(1, this)">1</button>
+                            <button class="depth-btn" onclick="setGraphDepth(2, this)">2</button>
+                        </div>
+                    </div>
+                    <h3>Legenda</h3>
+                    <div class="graph-legend-item">
+                        <div class="graph-legend-dot" style="background:#ff9f43; border: 2px solid #fff;"></div>
+                        <span>Tabela principal</span>
+                    </div>
+                    <div class="graph-legend-item">
+                        <div class="graph-legend-dot" style="background:#636EFA;"></div>
+                        <span>Referencia outra (FK saindo)</span>
+                    </div>
+                    <div class="graph-legend-item">
+                        <div class="graph-legend-dot" style="background:#2ecc71;"></div>
+                        <span>Referenciada por outra (FK entrando)</span>
+                    </div>
+                    <div class="graph-legend-item">
+                        <div class="graph-legend-dot" style="background:#AB63FA;"></div>
+                        <span>Nível 2 (vizinhos de vizinhos)</span>
+                    </div>
+                    <div style="margin: 14px 0 6px; font-size: 0.7rem; color: var(--text-muted); font-weight: 600; text-transform: uppercase;">Nó selecionado</div>
+                    <div id="graph-node-info"><div class="graph-info-placeholder">Clique em um nó para ver detalhes</div></div>
+                </div>
+            </div>
         </div>
     </div>
 
@@ -350,6 +500,7 @@ def build_interactive_map_v3(som, themes, embeddings, macrothemes, occurrences, 
         const data = {data_json};
         const macros = {macros_json};
         const metadataDict = {metadata_json};
+        const tableThemeMap = {table_theme_json};
         const umatrixColors = {umatrix_colors_json};
         const svg = d3.select("#viz");
         const g = svg.append("g");
@@ -439,7 +590,7 @@ def build_interactive_map_v3(som, themes, embeddings, macrothemes, occurrences, 
                              const isSaved = savedTableNames.has(tab);
                              const savedClass = isSaved ? 'saved' : '';
                              const savedIcon = isSaved ? '✓ ' : '';
-                             return `<span class="table-tag ${{savedClass}}" onclick="openTableModal('${{tab}}')">${{savedIcon}}${{tab}}</span>`;
+                             return `<span class="table-tag ${{savedClass}}" onclick="openTableModal(decodeURIComponent('${{encodeURIComponent(tab)}}'), decodeURIComponent('${{encodeURIComponent(t.theme)}}'))">${{savedIcon}}${{tab}}</span>`;
                          }}).join("")}}
                        </div>`
                     : "";
@@ -631,36 +782,98 @@ def build_interactive_map_v3(som, themes, embeddings, macrothemes, occurrences, 
             if (!isVisible) updateFindingsList();
         }}
 
-        function closeTableModal() {{
-            document.getElementById("modal-overlay").classList.remove("active");
+        // ===== MODAL DE TABELA COM HISTÓRICO (BREADCRUMB) =====
+        let modalStack = [];   // [{{tableName}}]
+
+        function renderBreadcrumb() {{
+            const bc = document.getElementById('modal-breadcrumb');
+            if (!bc) return;
+            bc.innerHTML = modalStack.map((item, i) => {{
+                const isLast = i === modalStack.length - 1;
+                const name = item.tableName.includes('.') ? item.tableName.split('.')[1] : item.tableName;
+                const sep = i > 0 ? '<span class="bc-sep">›</span>' : '';
+                if (isLast) return sep + `<span class="bc-item"><span class="bc-name current">${{name}}</span></span>`;
+                return sep + `<span class="bc-item"><span class="bc-name" onclick="popModalStackTo(${{i}})">${{name}}</span></span>`;
+            }}).join('');
         }}
 
-        // ===== FUNÇÕES DO MODAL - VERSÃO COM CONTEÚDO ENRIQUECIDO =====
+        function popModalStackTo(idx) {{
+            modalStack = modalStack.slice(0, idx + 1);
+            const top = modalStack[modalStack.length - 1];
+            _renderTableModal(top.tableName, false);
+        }}
 
-        function openTableModal(tableName) {{
+        function closeTableModal() {{
+            if (modalStack.length > 1) {{
+                modalStack.pop();
+                const top = modalStack[modalStack.length - 1];
+                _renderTableModal(top.tableName, false);
+            }} else {{
+                modalStack = [];
+                document.getElementById('modal-overlay').classList.remove('active');
+                document.getElementById('modal-overlay').style.zIndex = '';
+            }}
+        }}
+
+        function closeAllTableModals() {{
+            modalStack = [];
+            document.getElementById('modal-overlay').classList.remove('active');
+            document.getElementById('modal-overlay').style.zIndex = '';
+        }}
+
+        function openTableModal(tableName, sourceTheme = null) {{
             const cleanTableName = tableName.includes('.') ? tableName.split('.')[1] : tableName;
             const tableData = metadataDict[cleanTableName];
-            if (!tableData) {{
-                alert(`Dados da tabela "${{tableName}}" não encontrados.`);
-                return;
-            }}
+            if (!tableData) {{ alert(`Tabela "${{tableName}}" não encontrada.`); return; }}
+            modalStack.push({{ tableName, sourceTheme }});
+            // Se grafo está aberto, ficar acima dele
+            const graphIsOpen = document.getElementById('graph-modal-overlay').classList.contains('active');
+            document.getElementById('modal-overlay').style.zIndex = graphIsOpen ? '5000' : '3000';
+            _renderTableModal(tableName, true);
+        }}
 
-            document.getElementById("modal-table-name").textContent = tableName;
-            
-            const addBtn = document.getElementById("add-table-finding-btn");
+        function _renderTableModal(tableName, open, sourceTheme = null) {{
+            const cleanTableName = tableName.includes('.') ? tableName.split('.')[1] : tableName;
+            const tableData = metadataDict[cleanTableName];
+            const stackIdx = modalStack.length - 1;
+
+            document.getElementById('modal-table-name').textContent = tableName;
+
+            // Botão de grafo
+            const graphBtn = document.getElementById('modal-graph-btn');
+            graphBtn.onclick = () => openRelationshipGraph(cleanTableName);
+
+            // Botão de salvar
+            const saveBtn = document.getElementById('modal-save-btn');
             const isSaved = savedTableNames.has(tableName);
-            
-            if (isSaved) {{
-                addBtn.innerText = "✓ Salvo";
-                addBtn.style.background = "#2ecc71";
-                addBtn.disabled = true;
-            }} else {{
-                addBtn.innerText = "Salvar Tabela";
-                addBtn.style.background = "";
-                addBtn.disabled = false;
-                addBtn.onclick = (e) => addFinding('Tabela', tableName.replace(/'/g, "\\\\'"), `Linhas: ${{tableData.row_count || "N/A"}} | Colunas: ${{tableData.columns ? tableData.columns.length : "N/A"}}`, tableName, e);
-            }}
-            
+            saveBtn.innerText = isSaved ? '✓ Salvo' : 'Salvar Tabela';
+            saveBtn.style.background = isSaved ? '#2ecc71' : '';
+            saveBtn.style.color = isSaved ? '#fff' : '';
+            saveBtn.disabled = isSaved;
+            saveBtn.onclick = () => {{
+                addFinding('Tabela', tableName, `Linhas: ${{tableData?.row_count || "N/A"}}`, tableName, null);
+                saveBtn.innerText = '✓ Salvo';
+                saveBtn.style.background = '#2ecc71';
+                saveBtn.style.color = '#fff';
+                saveBtn.disabled = true;
+            }};
+
+            const selectedTheme = sourceTheme || modalStack[stackIdx]?.sourceTheme || null;
+            document.getElementById('modal-body').innerHTML = buildTableModalBody(tableName, tableData, stackIdx, selectedTheme);
+            renderBreadcrumb();
+
+            if (open) document.getElementById('modal-overlay').classList.add('active');
+        }}
+
+        function saveTableFromStack(stackIdx, tableName) {{}}  // compatibilidade
+        function updateSaveBtnState(stackIdx, tableName) {{}}  // compatibilidade
+        function updateAllBreadcrumbs() {{ renderBreadcrumb(); }}
+
+        function buildTableModalBody(tableName, tableData, stackIdx, selectedTheme = null) {{
+            // Quando o clique veio do sidebar, usar o tema daquela linha exatamente.
+            const cleanTableName = tableName.includes('.') ? tableName.split('.').pop() : tableName;
+            const tableModalTheme = selectedTheme || tableThemeMap[cleanTableName] || "—";
+
             let modalBody = `
                 <div class="modal-section">
                     <h3>Informações da Tabela</h3>
@@ -669,9 +882,13 @@ def build_interactive_map_v3(som, themes, embeddings, macrothemes, occurrences, 
                             <div class="info-label">Nome</div>
                             <div class="info-value">${{tableName}}</div>
                         </div>
+                        <div class="info-item" style="border-color: var(--primary); background: rgba(255,159,67,0.07);">
+                            <div class="info-label">Tema</div>
+                            <div class="info-value" style="color: var(--primary); font-size: 0.82rem;">${{tableModalTheme}}</div>
+                        </div>
                         <div class="info-item">
                             <div class="info-label">Linhas</div>
-                            <div class="info-value">${{tableData.row_count || "N/A"}}</div>
+                            <div class="info-value">${{(tableData.row_count || 0).toLocaleString() || "N/A"}}</div>
                         </div>
                         <div class="info-item">
                             <div class="info-label">Colunas</div>
@@ -680,7 +897,42 @@ def build_interactive_map_v3(som, themes, embeddings, macrothemes, occurrences, 
                     </div>
                 </div>
             `;
-            
+
+            // Seção de Chaves Estrangeiras
+            const fks = tableData.foreign_keys || [];
+            if (fks.length > 0) {{
+                modalBody += `
+                    <div class="modal-section">
+                        <h3>Chaves Estrangeiras (${{fks.length}})</h3>
+                        <div class="table-wrapper">
+                            <table class="columns-table">
+                                <thead>
+                                    <tr>
+                                        <th>Nome</th>
+                                        <th>Coluna(s) local</th>
+                                        <th>Tabela referenciada</th>
+                                        <th>Coluna(s) referenciada</th>
+                                    </tr>
+                                </thead>
+                                <tbody>
+                `;
+                fks.forEach(fk => {{
+                    modalBody += `
+                        <tr>
+                            <td style="color:var(--text-muted);font-size:0.75rem;">${{fk.name || "—"}}</td>
+                            <td><strong>${{(fk.constrained_columns || []).join(", ")}}</strong></td>
+                            <td>
+                                <span class="table-tag" style="cursor:pointer;" onclick="openTableModal('${{fk.referred_table}}')">
+                                    ${{fk.referred_table}}
+                                </span>
+                            </td>
+                            <td style="color:var(--text-muted);">${{(fk.referred_columns || []).join(", ")}}</td>
+                        </tr>
+                    `;
+                }});
+                modalBody += `</tbody></table></div></div>`;
+            }}
+
             // Seção de Colunas
             if (tableData.columns && tableData.columns.length > 0) {{
                 modalBody += `
@@ -689,51 +941,34 @@ def build_interactive_map_v3(som, themes, embeddings, macrothemes, occurrences, 
                         <div class="table-wrapper">
                             <table class="columns-table">
                                 <thead>
-                                    <tr>
-                                        <th>Nome</th>
-                                        <th>Tipo</th>
-                                        <th>Nullable</th>
-                                        <th>Exemplos</th>
-                                    </tr>
+                                    <tr><th>Nome</th><th>Tipo</th><th>Nullable</th><th>Exemplos</th></tr>
                                 </thead>
                                 <tbody>
                 `;
-
                 tableData.columns.forEach(col => {{
                     const nullable = col.nullable ? "Sim" : "Não";
                     let examples = "";
-                    
                     if (col.stats && col.stats.sample_values && col.stats.sample_values.length > 0) {{
-                        examples = col.stats.sample_values
-                            .slice(0, 3)
-                            .map(v => v !== null && v !== undefined ? String(v) : "NULL")
-                            .join(", ");
-                        if (col.stats.sample_values.length > 3) {{
-                            examples += "...";
-                        }}
+                        examples = col.stats.sample_values.slice(0, 3)
+                            .map(v => v !== null && v !== undefined ? String(v) : "NULL").join(", ");
+                        if (col.stats.sample_values.length > 3) examples += "...";
                     }}
-
                     modalBody += `
                         <tr>
                             <td><strong>${{col.name}}</strong></td>
                             <td>${{col.type || "—"}}</td>
                             <td>${{nullable}}</td>
                             <td title="${{examples || "—"}}"><span class="sample-values">${{examples || "—"}}</span></td>
-                        </tr>
-                    `;
+                        </tr>`;
                 }});
-
-                modalBody += `
-                                </tbody>
-                            </table>
-                        </div>
-                    </div>
-                `;
+                modalBody += `</tbody></table></div></div>`;
             }}
 
-            // Seção de Estatísticas (se disponível)
+            // Seção de Estatísticas
             if (tableData.columns && tableData.columns.some(c => c.stats)) {{
-                const statsColumns = tableData.columns.filter(c => c.stats && (c.stats.null_count !== undefined || c.stats.unique_count !== undefined || c.stats.min_value !== undefined || c.stats.max_value !== undefined));
+                const statsColumns = tableData.columns.filter(c => c.stats && (
+                    c.stats.null_count !== undefined || c.stats.unique_count !== undefined ||
+                    c.stats.min_value !== undefined || c.stats.max_value !== undefined));
                 if (statsColumns.length > 0) {{
                     modalBody += `
                         <div class="modal-section">
@@ -741,48 +976,31 @@ def build_interactive_map_v3(som, themes, embeddings, macrothemes, occurrences, 
                             <div class="table-wrapper">
                                 <table class="columns-table">
                                     <thead>
-                                        <tr>
-                                            <th>Coluna</th>
-                                            <th>Valores Nulos</th>
-                                            <th>% Nulos</th>
-                                            <th>Valores Únicos</th>
-                                            <th>Mínimo</th>
-                                            <th>Máximo</th>
-                                        </tr>
+                                        <tr><th>Coluna</th><th>Valores Nulos</th><th>% Nulos</th><th>Valores Únicos</th><th>Mínimo</th><th>Máximo</th></tr>
                                     </thead>
-                                    <tbody>
-                    `;
+                                    <tbody>`;
                     statsColumns.forEach(col => {{
                         const nullCount = col.stats.null_count !== undefined ? col.stats.null_count : "-";
-                        const nullCountPercentage = (col.stats.null_count !== undefined && tableData.row_count) ? ((col.stats.null_count / tableData.row_count) * 100).toFixed(2) + "%" : "-";
+                        const nullPct = (col.stats.null_count !== undefined && tableData.row_count)
+                            ? ((col.stats.null_count / tableData.row_count) * 100).toFixed(2) + "%" : "-";
                         const uniqueCount = col.stats.distinct_count !== undefined ? col.stats.distinct_count : "-";
                         const min = col?.stats?.numeric_stats?.min;
                         const max = col?.stats?.numeric_stats?.max;
-
-                        const minValue = min != null ? String(min).substring(0, 50) : "-";
-                        const maxValue = max != null ? String(max).substring(0, 50) : "-";
+                        const minVal = min != null ? String(min).substring(0, 50) : "-";
+                        const maxVal = max != null ? String(max).substring(0, 50) : "-";
                         modalBody += `
                             <tr>
                                 <td><strong>${{col.name}}</strong></td>
-                                <td>${{nullCount}}</td>
-                                <td>${{nullCountPercentage}}</td>
+                                <td>${{nullCount}}</td><td>${{nullPct}}</td>
                                 <td>${{uniqueCount}}</td>
-                                <td title="${{minValue}}">${{minValue}}</td>
-                                <td title="${{maxValue}}">${{maxValue}}</td>
-                            </tr>
-                        `;
+                                <td title="${{minVal}}">${{minVal}}</td>
+                                <td title="${{maxVal}}">${{maxVal}}</td>
+                            </tr>`;
                     }});
-                    modalBody += `
-                                    </tbody>
-                                </table>
-                            </div>
-                        </div>
-                    `;
+                    modalBody += `</tbody></table></div></div>`;
                 }}
             }}
-            
-            document.getElementById("modal-body").innerHTML = modalBody;
-            document.getElementById("modal-overlay").classList.add("active");
+            return modalBody;
         }}
 
         function addFinding(type, title, details, origin, event) {{
@@ -794,14 +1012,14 @@ def build_interactive_map_v3(som, themes, embeddings, macrothemes, occurrences, 
             const cleanTableName = title.includes(".") ? title.split(".")[1] : title;
             const tableData = metadataDict[cleanTableName];
             
-            let macrotemaInfo = "";
+            let macrotemaInfo = tableThemeMap[cleanTableName.split('.').pop()] || "";
             let temasRelacionados = [];
             
             data.forEach(d => {{
                 if (d.themes) {{
                     d.themes.forEach(t => {{
                         if (t.tables && t.tables.includes(title)) {{
-                            if (d.macro && !macrotemaInfo) macrotemaInfo = d.macro;
+                            if (!macrotemaInfo) macrotemaInfo = t.theme || "";
                             if (!temasRelacionados.includes(t.theme)) temasRelacionados.push(t.theme);
                         }}
                     }});
@@ -897,7 +1115,7 @@ def build_interactive_map_v3(som, themes, embeddings, macrothemes, occurrences, 
                     <span class="finding-type">Tabela</span>
                     <span class="finding-title">${{f.title}}</span>
                     <div style="color: var(--text-muted); font-size: 0.75rem; margin-top: 4px;">
-                        <strong>Macrotema:</strong> ${{f.macrotema}}
+                        <strong>Tema:</strong> ${{f.macrotema}}
                     </div>
                     <div style="color: var(--text-muted); font-size: 0.75rem; margin-top: 2px;">
                         <strong>Linhas:</strong> ${{f.rowCount}} | <strong>Colunas:</strong> ${{f.columnCount}}
@@ -928,7 +1146,7 @@ def build_interactive_map_v3(som, themes, embeddings, macrothemes, occurrences, 
             }} else if (format === 'csv') {{
                 const headers = [
                     "Tabela", 
-                    "Macrotema", 
+                    "Tema", 
                     "Temas", 
                     "Linhas", 
                     "Colunas", 
@@ -963,7 +1181,7 @@ def build_interactive_map_v3(som, themes, embeddings, macrothemes, occurrences, 
 
                 findings.forEach(f => {{
                     content += `## ${{f.title}}\\n`;
-                    content += `- **Macrotema:** ${{f.macrotema}}\\n`;
+                    content += `- **Tema:** ${{f.macrotema}}\\n`;
                     content += `- **Temas Relacionados:** ${{f.temas.length > 0 ? f.temas.join(", ") : "Nenhum"}}\\n`;
                     content += `- **Linhas:** ${{f.rowCount}}\\n`;
                     content += `- **Colunas:** ${{f.columnCount}}\\n`;
@@ -971,9 +1189,8 @@ def build_interactive_map_v3(som, themes, embeddings, macrothemes, occurrences, 
                     content += `- **Detalhes das Colunas:**\\n`;
                     if (f.columnDetails && f.columnDetails.length > 0) {{
                         f.columnDetails.forEach(c => {{
-                            content += `  - ${{c.name}} (${{c.type}}) → exemplos: ${
-                                "{(c.sample_values || []).join(', ') || 'N/A'}"
-                            }\\n`;
+                            const samples = (c.sample_values || []).join(', ') || 'N/A';
+                            content += `  - ${{c.name}} (${{c.type}}) → exemplos: ${{samples}}\\n`;
                         }});
                     }} else {{
                         content += `  - Nenhum detalhe disponível\\n`;
@@ -996,14 +1213,669 @@ def build_interactive_map_v3(som, themes, embeddings, macrothemes, occurrences, 
             URL.revokeObjectURL(url);
         }}
 
-        // Fechar modal ao clicar fora
-        document.getElementById("modal-overlay").addEventListener("click", function(e) {{
-            if (e.target === this) closeTableModal();
-        }});
+        // ===== GRAFO DE RELACIONAMENTOS =====
 
-        // Fechar modal com Escape
+        let currentGraphTable = null;
+        let currentGraphDepth = 1;
+        let graphSimulation = null;
+
+        function buildGraphData(rootTable, depth) {{
+            const nodes = new Map();
+            const links = [];
+            const linkKeys = new Set();
+
+            function cleanName(name) {{
+                return (name || "").includes('.') ? name.split('.').pop() : (name || "");
+            }}
+            function metadataFor(name) {{
+                if (metadataDict[name]) return metadataDict[name];
+                const clean = cleanName(name);
+                const key = Object.keys(metadataDict).find(k => cleanName(k) === clean);
+                return key ? metadataDict[key] : null;
+            }}
+            function canonicalName(name) {{
+                const clean = cleanName(name);
+                const key = Object.keys(metadataDict).find(k => cleanName(k) === clean);
+                return key || name;
+            }}
+            function macroFor(name) {{
+                const clean = cleanName(name);
+                return tableThemeMap[clean] || "—";
+            }}
+            function addNode(name, role, level) {{
+                const id = canonicalName(name);
+                const d = metadataFor(id) || {{}};
+                const old = nodes.get(id);
+                if (!old || level < old.level) {{
+                    nodes.set(id, {{
+                        id, role: id === rootTable ? "root" : role, level,
+                        row_count: d.row_count || 0,
+                        col_count: d.columns ? d.columns.length : 0,
+                        fk_count: d.foreign_keys ? d.foreign_keys.length : 0,
+                        macro: macroFor(id)
+                    }});
+                }}
+                return id;
+            }}
+            function addLink(source, target, direction, fk) {{
+                const s = canonicalName(source), t = canonicalName(target);
+                const key = `${{s}}→${{t}}|${{fk.name || ""}}|${{(fk.constrained_columns || []).join(",")}}`;
+                if (linkKeys.has(key)) return;
+                linkKeys.add(key);
+                links.push({{
+                    source: s, target: t, direction,
+                    label: (fk.constrained_columns || []).join(", ") + " → " + (fk.referred_columns || []).join(", "),
+                    fk_name: fk.name
+                }});
+            }}
+
+            const root = canonicalName(rootTable);
+            addNode(root, "root", 0);
+            const queue = [root];
+            const distances = new Map([[root, 0]]);
+            while (queue.length) {{
+                const current = queue.shift();
+                const currentLevel = distances.get(current);
+                if (currentLevel >= depth) continue;
+                const currentData = metadataFor(current) || {{}};
+
+                // Caminho de FK saindo: current referencia target.
+                (currentData.foreign_keys || []).forEach(fk => {{
+                    const target = canonicalName(fk.referred_table);
+                    const next = currentLevel + 1;
+                    addNode(target, currentLevel === 0 ? "out" : "secondary", next);
+                    addLink(current, target, "out", fk);
+                    if (!distances.has(target)) {{ distances.set(target, next); queue.push(target); }}
+                }});
+
+                // Caminho de FK entrando: other referencia current.
+                Object.entries(metadataDict).forEach(([otherName, otherData]) => {{
+                    (otherData.foreign_keys || []).forEach(fk => {{
+                        if (canonicalName(fk.referred_table) !== current) return;
+                        const other = canonicalName(otherName);
+                        const next = currentLevel + 1;
+                        addNode(other, currentLevel === 0 ? "in" : "secondary", next);
+                        addLink(other, current, "in", fk);
+                        if (!distances.has(other)) {{ distances.set(other, next); queue.push(other); }}
+                    }});
+                }});
+            }}
+            return {{ nodes: Array.from(nodes.values()), links }};
+        }}
+
+        function nodeColor(d) {{
+            if (d.role === "root") return "#ff9f43";
+            if (d.role === "out") return "#636EFA";
+            if (d.role === "in") return "#2ecc71";
+            return "#AB63FA";
+        }}
+
+        function nodeRadius(d) {{
+            if (d.role === "root") return 22;
+            const base = 10 + Math.min(d.col_count * 0.5, 10);
+            return d.level === 1 ? base + 2 : base - 2;
+        }}
+
+        function renderGraph(rootTable, depth) {{
+            const container = document.getElementById("graph-svg-container");
+            const W = container.clientWidth;
+            const H = container.clientHeight;
+            const cx = W / 2, cy = H / 2;
+
+            const svgEl = d3.select("#graph-svg");
+            svgEl.selectAll("*").remove();
+
+            const {{ nodes, links }} = buildGraphData(rootTable, depth);
+
+            document.getElementById("graph-modal-subtitle").textContent =
+                `${{nodes.length}} tabelas · ${{links.length}} relacionamentos`;
+
+            if (nodes.length <= 1) {{
+                svgEl.append("text")
+                    .attr("x", cx).attr("y", cy)
+                    .attr("text-anchor", "middle")
+                    .attr("fill", "var(--text-muted)")
+                    .attr("font-size", "14px")
+                    .text("Esta tabela não possui relacionamentos de FK registrados.");
+                return;
+            }}
+
+            // ── Zoom / pan ──────────────────────────────────────────────
+            const gZoom = svgEl.append("g");
+            const zoomBehavior = d3.zoom().scaleExtent([0.15, 5])
+                .on("zoom", e => gZoom.attr("transform", e.transform))
+                .filter(event => {{
+                    // Scroll e arraste continuam disponíveis; clique simples não altera a viewport.
+                    if (event.type === 'wheel') return true;
+                    if (event.type === 'touchstart') return true;
+                    if (event.type === 'dblclick') return false; // desabilita zoom no dblclick
+                    return event.type === 'mousedown' && event.button === 0 && !event.ctrlKey;
+                }});
+            svgEl.call(zoomBehavior);
+
+            // ── Layout radial generalizado para N níveis ─────────────────
+            const maxLevel = Math.max(...nodes.map(n => n.level));
+            const baseR = Math.min(W, H) * 0.32;
+            // Raios crescentes por nível
+            const radiiByLevel = Array.from({{length: maxLevel + 1}}, (_, i) =>
+                i === 0 ? 0 : baseR * (0.9 + (i - 1) * 0.55)
+            );
+
+            function placeArc(arr, rRadius, startAngle, endAngle) {{
+                arr.forEach((n, i) => {{
+                    const t = arr.length === 1 ? 0.5 : i / (arr.length - 1);
+                    const angle = startAngle + t * (endAngle - startAngle);
+                    n.px = cx + rRadius * Math.cos(angle);
+                    n.py = cy + rRadius * Math.sin(angle);
+                }});
+            }}
+
+            // Nível 1: out no semicírculo superior, in no inferior
+            const level1 = nodes.filter(n => n.level === 1);
+            const l1out = level1.filter(n => n.role === "out");
+            const l1in  = level1.filter(n => n.role === "in");
+            const R1 = radiiByLevel[1];
+            if (l1out.length > 0 && l1in.length > 0) {{
+                placeArc(l1out, R1, -Math.PI + 0.15, -0.15);
+                placeArc(l1in,  R1,  0.15, Math.PI - 0.15);
+            }} else {{
+                placeArc(level1, R1, -Math.PI + 0.1, Math.PI - 0.1);
+            }}
+
+            // Níveis 2+: agrupar por pai e distribuir angularmente próximo ao pai
+            for (let lv = 2; lv <= maxLevel; lv++) {{
+                const levelNodes = nodes.filter(n => n.level === lv);
+                if (levelNodes.length === 0) continue;
+                const R = radiiByLevel[lv];
+
+                // Mapear filhos por pai (nível anterior)
+                const childrenByParent = {{}};
+                links.forEach(l => {{
+                    const sid = typeof l.source === "object" ? l.source.id : l.source;
+                    const tid = typeof l.target === "object" ? l.target.id : l.target;
+                    const sNode = nodes.find(n => n.id === sid);
+                    const tNode = nodes.find(n => n.id === tid);
+                    // Pai é o nó do nível anterior, filho é do nível atual
+                    let parentId = null, childId = null;
+                    if (sNode && sNode.level === lv - 1 && tNode && tNode.level === lv) {{
+                        parentId = sid; childId = tid;
+                    }} else if (tNode && tNode.level === lv - 1 && sNode && sNode.level === lv) {{
+                        parentId = tid; childId = sid;
+                    }}
+                    if (parentId && childId) {{
+                        if (!childrenByParent[parentId]) childrenByParent[parentId] = new Set();
+                        childrenByParent[parentId].add(childId);
+                    }}
+                }});
+
+                const parentNodes = nodes.filter(n => n.level === lv - 1 && n.px !== undefined);
+                parentNodes.forEach(parent => {{
+                    const children = [...(childrenByParent[parent.id] || [])]
+                        .map(id => levelNodes.find(n => n.id === id)).filter(Boolean)
+                        .filter(n => n.px === undefined); // só posicionar uma vez
+                    if (children.length === 0) return;
+                    const parentAngle = Math.atan2(parent.py - cy, parent.px - cx);
+                    const spread = Math.min(Math.PI * 0.35, 0.18 * children.length);
+                    children.forEach((child, i) => {{
+                        const t = children.length === 1 ? 0 : (i / (children.length - 1) - 0.5);
+                        const angle = parentAngle + t * spread * 2;
+                        child.px = cx + R * Math.cos(angle);
+                        child.py = cy + R * Math.sin(angle);
+                    }});
+                }});
+
+                // Nós sem pai identificado: distribuir uniformemente no anel
+                const orphans = levelNodes.filter(n => n.px === undefined);
+                orphans.forEach((n, i) => {{
+                    const angle = (i / Math.max(orphans.length, 1)) * 2 * Math.PI;
+                    n.px = cx + R * Math.cos(angle);
+                    n.py = cy + R * Math.sin(angle);
+                }});
+            }}
+
+            nodes.find(n => n.role === "root").px = cx;
+            nodes.find(n => n.role === "root").py = cy;
+
+            // ── Marcadores de seta ───────────────────────────────────────
+            const defs = svgEl.append("defs");
+
+            // Gradiente suave para os anéis de fundo
+            ["ring1","ring2"].forEach((id, i) => {{
+                const grad = defs.append("radialGradient").attr("id", id)
+                    .attr("cx","50%").attr("cy","50%").attr("r","50%");
+                grad.append("stop").attr("offset","0%")
+                    .attr("stop-color", i===0 ? "#636EFA" : "#AB63FA").attr("stop-opacity", 0.06);
+                grad.append("stop").attr("offset","100%")
+                    .attr("stop-color","transparent").attr("stop-opacity", 0);
+            }});
+
+            ["out","in","sec"].forEach((dir, i) => {{
+                const colors = ["#636EFA","#2ecc71","#AB63FA"];
+                defs.append("marker").attr("id",`arr-${{dir}}`)
+                    .attr("viewBox","0 -4 8 8").attr("refX", 20).attr("refY", 0)
+                    .attr("markerWidth", 5).attr("markerHeight", 5).attr("orient","auto")
+                    .append("path").attr("d","M0,-4L8,0L0,4")
+                    .attr("fill", colors[i]).attr("opacity", 0.8);
+            }});
+
+            // ── Anéis decorativos ────────────────────────────────────────
+            if (level1.length > 0)
+                gZoom.append("circle").attr("cx",cx).attr("cy",cy).attr("r",R1)
+                    .attr("fill","none").attr("stroke","#636EFA").attr("stroke-opacity",0.1)
+                    .attr("stroke-dasharray","4,4");
+            const level2 = nodes.filter(n => n.level === 2);
+            const R2 = radiiByLevel[2];
+            if (level2.length > 0)
+                gZoom.append("circle").attr("cx",cx).attr("cy",cy).attr("r",R2)
+                    .attr("fill","none").attr("stroke","#AB63FA").attr("stroke-opacity",0.1)
+                    .attr("stroke-dasharray","4,4");
+
+            // ── Arestas ──────────────────────────────────────────────────
+            const linkG = gZoom.append("g");
+            let selectedRelationshipKey = null;
+            let highlightLocked = false;
+            let selectedFocusId = null;
+            const linkEls = linkG.selectAll("path").data(links).enter().append("path")
+                .attr("fill","none")
+                .attr("stroke", d => d.direction === "out" ? "#636EFA" : d.direction === "in" ? "#2ecc71" : "#AB63FA")
+                .attr("stroke-opacity", 0.45)
+                .attr("stroke-width", 1.5)
+                .style("pointer-events", "stroke")
+                .attr("marker-end", d => {{
+                    const dir = d.direction === "out" ? "out" : d.direction === "in" ? "in" : "sec";
+                    return `url(#arr-${{dir}})`;
+                }})
+                .attr("d", d => {{
+                    const sn = nodes.find(n => n.id === (typeof d.source==="object"?d.source.id:d.source));
+                    const tn = nodes.find(n => n.id === (typeof d.target==="object"?d.target.id:d.target));
+                    if (!sn || !tn) return "";
+                    // Curva quadrática passando pelo centro para nós de mesmo anel
+                    const mx = (sn.px + tn.px) / 2 * 0.6 + cx * 0.4;
+                    const my = (sn.py + tn.py) / 2 * 0.6 + cy * 0.4;
+                    return `M${{sn.px}},${{sn.py}} Q${{mx}},${{my}} ${{tn.px}},${{tn.py}}`;
+                }});
+
+            function relationshipKey(d) {{
+                const sid = typeof d.source === "object" ? d.source.id : d.source;
+                const tid = typeof d.target === "object" ? d.target.id : d.target;
+                return `${{sid}}→${{tid}}|${{d.fk_name || ""}}|${{d.label || ""}}`;
+            }}
+
+            function applyPathHighlight(pathNodes) {{
+                nodeEls.attr("opacity", n => pathNodes.has(n.id) ? 1 : 0.18);
+                linkEls.attr("stroke-opacity", l => {{
+                    const sid = typeof l.source === "object" ? l.source.id : l.source;
+                    const tid = typeof l.target === "object" ? l.target.id : l.target;
+                    return pathNodes.has(sid) && pathNodes.has(tid) ? 0.95 : 0.05;
+                }}).attr("stroke-width", l => {{
+                    const sid = typeof l.source === "object" ? l.source.id : l.source;
+                    const tid = typeof l.target === "object" ? l.target.id : l.target;
+                    return pathNodes.has(sid) && pathNodes.has(tid) ? 2.5 : 1.5;
+                }});
+            }}
+
+            function clearPathHighlight() {{
+                selectedRelationshipKey = null;
+                highlightLocked = false;
+                selectedFocusId = null;
+                nodeEls.each(function() {{ this._fixed = false; }});
+                linkEls.attr("stroke-opacity", 0.45).attr("stroke-width", 1.5);
+                nodeEls.attr("opacity", 1);
+            }}
+
+            // Rótulo de coluna FK — aparece só no hover via tooltip, não poluindo o grafo
+            // (guardamos no dataset do path para uso posterior)
+            linkEls.each(function(d) {{ this._fkLabel = d.label; this._fkName = d.fk_name; }});
+
+            // ── Nós ──────────────────────────────────────────────────────
+            const nodeG = gZoom.append("g");
+            const nodeEls = nodeG.selectAll("g").data(nodes).enter().append("g")
+                .attr("transform", d => `translate(${{d.px}},${{d.py}})`)
+                .attr("cursor", d => d.role !== "root" ? "pointer" : "default");
+
+            // Sombra / glow no nó raiz
+            const filt = defs.append("filter").attr("id","glow");
+            filt.append("feGaussianBlur").attr("stdDeviation","4").attr("result","blur");
+            const feMerge = filt.append("feMerge");
+            feMerge.append("feMergeNode").attr("in","blur");
+            feMerge.append("feMergeNode").attr("in","SourceGraphic");
+
+            nodeEls.append("circle")
+                .attr("r", d => nodeRadius(d))
+                .attr("fill", d => nodeColor(d))
+                .attr("fill-opacity", d => d.role === "root" ? 1 : 0.8)
+                .attr("stroke", "#121212").attr("stroke-width", 1.5)
+                .attr("filter", d => d.role === "root" ? "url(#glow)" : null);
+
+            // Label: posicionado fora do círculo, na direção radial
+            nodeEls.append("text")
+                .attr("text-anchor", d => {{
+                    if (d.role === "root") return "middle";
+                    const angle = Math.atan2(d.py - cy, d.px - cx);
+                    if (Math.abs(angle) < 0.3) return "start";
+                    if (Math.abs(angle) > Math.PI - 0.3) return "end";
+                    return "middle";
+                }})
+                .attr("dx", d => {{
+                    if (d.role === "root") return 0;
+                    const angle = Math.atan2(d.py - cy, d.px - cx);
+                    const r = nodeRadius(d) + 6;
+                    return Math.cos(angle) * r;
+                }})
+                .attr("dy", d => {{
+                    if (d.role === "root") return 5;
+                    const angle = Math.atan2(d.py - cy, d.px - cx);
+                    const r = nodeRadius(d) + 6;
+                    const base = Math.sin(angle) * r;
+                    // Empurrar para fora quando o ângulo é próximo do eixo vertical
+                    return Math.abs(Math.cos(angle)) < 0.3 ? (angle > 0 ? base + 9 : base - 3) : base + 4;
+                }})
+                .attr("font-size", d => d.role === "root" ? "11px" : "8px")
+                .attr("font-weight", d => d.role === "root" ? "700" : "500")
+                .attr("fill", d => d.role === "root" ? "#000" : "var(--text)")
+                .attr("pointer-events","none")
+                .text(d => d.id);
+
+            // ── Tooltip de FK nas arestas ────────────────────────────────
+            const fkTooltip = d3.select("body").append("div")
+                .attr("id","graph-fk-tooltip")
+                .style("position","fixed").style("pointer-events","none")
+                .style("background","rgba(0,0,0,0.92)").style("border","1px solid #555")
+                .style("padding","8px 12px").style("border-radius","6px")
+                .style("font-size","0.75rem").style("color","#fff")
+                .style("display","none").style("z-index","9000").style("max-width","260px");
+
+            linkEls
+                .on("mouseover", function(event, d) {{
+                    fkTooltip.style("display","block")
+                        .html(`<strong style="color:#aaa;font-size:0.65rem;">${{d.fk_name || ""}}</strong><br>${{d.label}}`);
+                    if (highlightLocked || selectedRelationshipKey) return;
+                    const sid = typeof d.source === "object" ? d.source.id : d.source;
+                    const tid = typeof d.target === "object" ? d.target.id : d.target;
+                    const sNode = nodes.find(n => n.id === sid);
+                    const tNode = nodes.find(n => n.id === tid);
+                    const focusId = (sNode && tNode && sNode.level > tNode.level) ? sid : tid;
+                    const pathNodes = getPathToRoot(focusId);
+                    nodeEls.attr("opacity", n => pathNodes.has(n.id) ? 1 : 0.18);
+                    linkEls.attr("stroke-opacity", l => {{
+                        const ls = typeof l.source === "object" ? l.source.id : l.source;
+                        const lt = typeof l.target === "object" ? l.target.id : l.target;
+                        return pathNodes.has(ls) && pathNodes.has(lt) ? 0.95 : 0.05;
+                    }}).attr("stroke-width", l => {{
+                        const ls = typeof l.source === "object" ? l.source.id : l.source;
+                        const lt = typeof l.target === "object" ? l.target.id : l.target;
+                        return pathNodes.has(ls) && pathNodes.has(lt) ? 2.5 : 1.5;
+                    }});
+                }})
+                .on("mousemove", event => {{
+                    fkTooltip.style("left", (event.clientX+14)+"px").style("top",(event.clientY-10)+"px");
+                }})
+                .on("mouseout", () => {{
+                    fkTooltip.style("display","none");
+                    if (!highlightLocked && !selectedRelationshipKey && !nodeEls.nodes().some(function() {{ return this._fixed; }})) {{
+                        linkEls.attr("stroke-opacity", 0.45).attr("stroke-width", 1.5);
+                        nodeEls.attr("opacity", 1);
+                    }}
+                }})
+                .on("click", function(event, d) {{
+                    event.stopPropagation();
+                    const key = relationshipKey(d);
+                    if (selectedRelationshipKey === key) {{
+                        clearPathHighlight();
+                        document.getElementById("graph-node-info").innerHTML = '<div class="graph-info-placeholder">Clique em um nó para ver detalhes</div>';
+                        return;
+                    }}
+                    selectedRelationshipKey = key;
+                    highlightLocked = true;
+                    nodeEls.each(function() {{ this._fixed = true; }});
+                    const sid = typeof d.source === "object" ? d.source.id : d.source;
+                    const tid = typeof d.target === "object" ? d.target.id : d.target;
+                    const sNode = nodes.find(n => n.id === sid);
+                    const tNode = nodes.find(n => n.id === tid);
+                    const focusId = (sNode && tNode && sNode.level > tNode.level) ? sid : tid;
+                    selectedFocusId = focusId;
+                    applyPathHighlight(getPathToRoot(focusId));
+                }});
+
+            function getPathToRoot(nodeId) {{
+                const rootId = nodes.find(n => n.role === "root")?.id;
+                const path = new Set([nodeId]);
+                let current = nodes.find(n => n.id === nodeId);
+                const guard = new Set();
+                while (current && current.id !== rootId && !guard.has(current.id)) {{
+                    guard.add(current.id);
+                    const parent = nodes.find(candidate => candidate.level === current.level - 1 && links.some(l => {{
+                        const sid = typeof l.source === "object" ? l.source.id : l.source;
+                        const tid = typeof l.target === "object" ? l.target.id : l.target;
+                        return (sid === candidate.id && tid === current.id) || (tid === candidate.id && sid === current.id);
+                    }}));
+                    if (!parent) break;
+                    path.add(parent.id);
+                    current = parent;
+                }}
+                if (rootId) path.add(rootId);
+                return path;
+            }}
+
+            // ── Interação nos nós ────────────────────────────────────────
+            nodeEls
+                .on("mouseover", function(event, d) {{
+                    // só aplica hover se não houver nó fixado
+                    if (this._fixed || highlightLocked || selectedRelationshipKey) return;
+                    const pathNodes = getPathToRoot(d.id);
+                    linkEls.attr("stroke-opacity", l => {{
+                        const sid = typeof l.source==="object"?l.source.id:l.source;
+                        const tid = typeof l.target==="object"?l.target.id:l.target;
+                        return pathNodes.has(sid) && pathNodes.has(tid) ? 0.95 : 0.05;
+                    }}).attr("stroke-width", l => {{
+                        const sid = typeof l.source==="object"?l.source.id:l.source;
+                        const tid = typeof l.target==="object"?l.target.id:l.target;
+                        return pathNodes.has(sid) && pathNodes.has(tid) ? 2.5 : 1.5;
+                    }});
+                    nodeEls.attr("opacity", n => pathNodes.has(n.id) ? 1 : 0.18);
+                }})
+                .on("mouseout", function() {{
+                    if (this._fixed || highlightLocked || selectedRelationshipKey) return;
+                    linkEls.attr("stroke-opacity", 0.45).attr("stroke-width", 1.5);
+                    nodeEls.attr("opacity", 1);
+                }})
+                .on("click", (event, d) => {{
+                    event.stopPropagation();
+                    showGraphNodeInfo(d, links);
+                    if (highlightLocked && selectedFocusId === d.id) {{
+                        clearPathHighlight();
+                        return;
+                    }}
+                    selectedRelationshipKey = null;
+                    highlightLocked = true;
+                    selectedFocusId = d.id;
+                    
+                    const pathNodes = getPathToRoot(d.id);
+
+                    // Marcar todos os nós: fixar estado
+                    nodeEls.each(function(n) {{ this._fixed = true; }});
+
+                    nodeEls.attr("opacity", n => pathNodes.has(n.id) || n.role==='root' ? 1 : 0.18);
+                    linkEls.attr("stroke-opacity", l => {{
+                        const sid = typeof l.source==='object'?l.source.id:l.source;
+                        const tid = typeof l.target==='object'?l.target.id:l.target;
+                        return pathNodes.has(sid) && pathNodes.has(tid) ? 0.95 : 0.05;
+                    }});
+                    linkEls.attr("stroke-width", l => {{
+                        const sid = typeof l.source==='object'?l.source.id:l.source;
+                        const tid = typeof l.target==='object'?l.target.id:l.target;
+                        return pathNodes.has(sid) && pathNodes.has(tid) ? 2.5 : 1.5;
+                    }});
+                }})
+                .on("dblclick", (event, d) => {{
+                    if (d.role !== "root") {{
+                        closeGraphModal();
+                        setTimeout(() => openRelationshipGraph(d.id), 100);
+                    }}
+                }});
+
+            svgEl.on("click", () => {{
+                document.getElementById("graph-node-info").innerHTML =
+                    '<div class="graph-info-placeholder">Clique em um nó para ver detalhes</div>';
+                nodeEls.each(function() {{ this._fixed = false; }});
+                linkEls.attr("stroke-opacity", 0.45).attr("stroke-width", 1.5);
+                nodeEls.attr("opacity", 1);
+            }});
+
+            graphSimulation = null; // layout estático, sem simulação
+        }}
+
+        function showGraphNodeInfo(d, links) {{
+            const outLinks = links.filter(l => (typeof l.source==='object'?l.source.id:l.source) === d.id);
+            const inLinks  = links.filter(l => (typeof l.target==='object'?l.target.id:l.target) === d.id);
+            const dbData   = metadataDict[d.id] || {{}};
+
+            const normId = d.id.includes('.') ? d.id.split('.').pop() : d.id;
+            let macro = tableThemeMap[normId] || d.macro || "—";
+            // t.tables pode ter "schema.tabela" ou só "tabela" — normalizar
+
+            const allFKsOut = (dbData.foreign_keys || []).length;
+            let allFKsIn = 0;
+            Object.values(metadataDict).forEach(td => {{
+                (td.foreign_keys || []).forEach(fk => {{
+                    const ref = (fk.referred_table || "").includes('.') ? fk.referred_table.split('.').pop() : fk.referred_table;
+                    if (ref === normId) allFKsIn++;
+                }});
+            }});
+
+            let html = `
+                <div class="graph-node-detail">
+                    <div class="detail-label">Tabela</div>
+                    <div class="detail-value">${{d.id}}</div>
+                </div>
+                <div class="graph-node-detail">
+                    <div class="detail-label">Tema</div>
+                    <div class="detail-value" style="font-size:0.75rem;font-weight:500;color:var(--primary)">${{macro}}</div>
+                </div>
+                <div style="display:grid;grid-template-columns:1fr 1fr;gap:6px;margin-bottom:8px;">
+                    <div class="graph-node-detail" style="margin:0">
+                        <div class="detail-label">Linhas</div>
+                        <div class="detail-value">${{d.row_count.toLocaleString()}}</div>
+                    </div>
+                    <div class="graph-node-detail" style="margin:0">
+                        <div class="detail-label">Colunas</div>
+                        <div class="detail-value">${{d.col_count}}</div>
+                    </div>
+                    <div class="graph-node-detail" style="margin:0">
+                        <div class="detail-label">FK saindo</div>
+                        <div class="detail-value" style="color:#636EFA">${{allFKsOut}}</div>
+                    </div>
+                    <div class="graph-node-detail" style="margin:0">
+                        <div class="detail-label">FK entrando</div>
+                        <div class="detail-value" style="color:#2ecc71">${{allFKsIn}}</div>
+                    </div>
+                </div>
+            `;
+
+            if (outLinks.length > 0) {{
+                html += `<div style="font-size:0.7rem;font-weight:600;color:var(--text-muted);text-transform:uppercase;margin:10px 0 5px;">Referencia no grafo (${{outLinks.length}})</div>`;
+                html += `<div class="graph-fk-list">` + outLinks.map(l => {{
+                    const tid = typeof l.target==='object'?l.target.id:l.target;
+                    return `<div class="graph-fk-item" onclick="pushGraphLevel('${{tid}}')">
+                        <span class="fk-direction fk-out">→ FK saindo</span>
+                        <div class="fk-table">${{tid}}</div>
+                        <div class="fk-cols">${{l.label}}</div>
+                    </div>`;
+                }}).join("") + `</div>`;
+            }}
+
+            if (inLinks.length > 0) {{
+                html += `<div style="font-size:0.7rem;font-weight:600;color:var(--text-muted);text-transform:uppercase;margin:10px 0 5px;">Referenciada por no grafo (${{inLinks.length}})</div>`;
+                html += `<div class="graph-fk-list">` + inLinks.map(l => {{
+                    const sid = typeof l.source==='object'?l.source.id:l.source;
+                    return `<div class="graph-fk-item" onclick="pushGraphLevel('${{sid}}')">
+                        <span class="fk-direction fk-in">← FK entrando</span>
+                        <div class="fk-table">${{sid}}</div>
+                        <div class="fk-cols">${{l.label}}</div>
+                    </div>`;
+                }}).join("") + `</div>`;
+            }}
+
+            html += `
+                <div style="display:flex;gap:6px;margin-top:12px;">
+                    <button onclick="openTableModal('${{d.id}}')"
+                        style="flex:1;padding:7px;background:var(--bg);color:var(--text);border:1px solid var(--border);border-radius:5px;cursor:pointer;font-size:0.72rem;">
+                        Ver Detalhes
+                    </button>
+                    ${{d.role !== 'root' ? `<button onclick="pushGraphLevel('${{d.id}}')"
+                        style="flex:1;padding:7px;background:var(--primary);color:#000;border:none;border-radius:5px;cursor:pointer;font-size:0.72rem;font-weight:700;">
+                        Explorar →
+                    </button>` : ''}}
+                </div>`;
+
+            document.getElementById("graph-node-info").innerHTML = html;
+        }}
+
+        let graphStack = [];
+
+        function updateGraphBreadcrumb() {{
+            const title = graphStack.map((s, i) => {{
+                const cls = i === graphStack.length-1 ? 'style="color:var(--primary);font-weight:700;"' : 'style="color:var(--text-muted);cursor:pointer;" onclick="popGraphTo(' + i + ')"';
+                return `<span ${{cls}}>${{s.tableName}}</span>`;
+            }}).join(' <span style="color:var(--border)">›</span> ');
+            document.getElementById("graph-modal-title").innerHTML = title;
+        }}
+
+        function popGraphTo(idx) {{
+            graphStack = graphStack.slice(0, idx + 1);
+            const top = graphStack[graphStack.length - 1];
+            currentGraphTable = top.tableName;
+            document.getElementById("graph-node-info").innerHTML = '<div class="graph-info-placeholder">Clique em um nó para ver detalhes</div>';
+            updateGraphBreadcrumb();
+            renderGraph(top.tableName, currentGraphDepth);
+        }}
+
+        function pushGraphLevel(tableName) {{
+            const clean = tableName.includes('.') ? tableName.split('.')[1] : tableName;
+            graphStack.push({{ tableName: clean }});
+            currentGraphTable = clean;
+            document.getElementById("graph-node-info").innerHTML = '<div class="graph-info-placeholder">Clique em um nó para ver detalhes</div>';
+            updateGraphBreadcrumb();
+            renderGraph(clean, currentGraphDepth);
+        }}
+
+        function setGraphDepth(depth, btn) {{
+            depth = Math.min(2, Math.max(1, depth));
+            document.querySelectorAll(".depth-btn").forEach(b => b.classList.remove("active"));
+            btn.classList.add("active");
+            currentGraphDepth = depth;
+            if (currentGraphTable) renderGraph(currentGraphTable, depth);
+        }}
+
+        function openRelationshipGraph(tableName) {{
+            const cleanName = tableName.includes('.') ? tableName.split('.')[1] : tableName;
+            currentGraphTable = cleanName;
+            currentGraphDepth = 1;
+            graphStack = [{{ tableName: cleanName }}];
+            document.querySelectorAll(".depth-btn").forEach((b, i) => b.classList.toggle("active", i === 0));
+            updateGraphBreadcrumb();
+            document.getElementById("graph-node-info").innerHTML = '<div class="graph-info-placeholder">Clique em um nó para ver detalhes</div>';
+            document.getElementById("graph-modal-overlay").classList.add("active");
+            requestAnimationFrame(() => renderGraph(cleanName, 1));
+        }}
+
+        function closeGraphModal() {{
+            document.getElementById("graph-modal-overlay").classList.remove("active");
+            if (graphSimulation) {{ graphSimulation.stop(); graphSimulation = null; }}
+            const tt = document.getElementById("graph-fk-tooltip");
+            if (tt) tt.remove();
+            graphStack = [];
+        }}
+
         document.addEventListener("keydown", function(e) {{
-            if (e.key === "Escape") closeTableModal();
+            if (e.key === "Escape") {{
+                if (document.getElementById("graph-modal-overlay").classList.contains("active")) {{
+                    if (graphStack.length > 1) {{ graphStack.pop(); popGraphTo(graphStack.length-1); }}
+                    else closeGraphModal();
+                }} else {{
+                    closeTableModal();
+                }}
+            }}
         }});
 
         document.getElementById("search-macro").addEventListener("input", (e) => {{ macroQuery = e.target.value; applyFilters(); }});
