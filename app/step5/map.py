@@ -188,6 +188,42 @@ def build_interactive_map_v3(som, themes, embeddings, macrothemes, occurrences, 
         .table-tag.saved {{ background: rgba(46, 204, 113, 0.2); color: #2ecc71; border: 1px solid #2ecc71; }}
         .table-tag.saved:hover {{ background: #2ecc71; color: #000; }}
         
+        /* ===== BUSCA POR TABELA ===== */
+        .table-search-group {{ position: relative; }}
+        #search-table {{ width: 230px; }}
+        .clear-table-btn {{ background: none; border: none; color: var(--text-muted); font-size: 1.2rem; cursor: pointer; padding: 0 4px; line-height: 1; }}
+        .clear-table-btn:hover {{ color: var(--primary); }}
+        .table-status {{ color: var(--text-muted); font-size: 0.72rem; white-space: nowrap; }}
+        #table-results {{
+            display: none; position: absolute; top: calc(100% + 8px); left: 0; width: 420px;
+            max-height: 340px; overflow-y: auto; background: var(--surface);
+            border: 1px solid var(--border); border-radius: 8px; z-index: 1500;
+            box-shadow: 0 10px 30px rgba(0,0,0,0.6);
+        }}
+        .table-result {{ display: flex; justify-content: space-between; gap: 12px; padding: 7px 12px; cursor: pointer; font-size: 0.78rem; border-bottom: 1px solid var(--border); }}
+        .table-result:last-child {{ border-bottom: none; }}
+        .table-result.active, .table-result:hover {{ background: rgba(255,159,67,0.15); }}
+        .table-result .tr-name {{ word-break: break-all; }}
+        .table-result .tr-count {{ color: var(--text-muted); font-size: 0.68rem; white-space: nowrap; }}
+        .table-result-empty, .table-result-more {{ padding: 8px 12px; font-size: 0.72rem; color: var(--text-muted); font-style: italic; }}
+        /* tag da tabela + botão "olho" (mostra onde a tabela aparece no mapa) */
+        .table-chip {{ display: inline-flex; align-items: stretch; margin: 2px; }}
+        .table-chip .table-tag {{ margin: 0; border-top-right-radius: 0; border-bottom-right-radius: 0; }}
+        .table-eye {{
+            display: inline-flex; align-items: center; justify-content: center;
+            background: var(--border); color: var(--text-muted); border: none;
+            border-left: 1px solid var(--bg); border-radius: 0 4px 4px 0;
+            padding: 0 5px; cursor: pointer; transition: all 0.2s;
+        }}
+        .table-eye svg {{ width: 12px; height: 12px; }}
+        .table-eye:hover, .table-eye.active {{ background: #19d3f3; color: #000; }}
+        /* camada de bolinhas: onde a tabela buscada/selecionada aparece (independente dos filtros) */
+        .table-dots {{ pointer-events: none; }}
+        .table-dot-halo {{ fill: #19d3f3; opacity: 0.4; transform-box: fill-box; transform-origin: center; animation: tableDotPulse 1.8s ease-in-out infinite; }}
+        .table-dot-core {{ fill: #eafdff; stroke: #19d3f3; stroke-width: 1.5px; filter: drop-shadow(0 0 4px #19d3f3); }}
+        @keyframes tableDotPulse {{ 0%, 100% {{ transform: scale(0.8); opacity: 0.55; }} 50% {{ transform: scale(1.6); opacity: 0.08; }} }}
+        @media (prefers-reduced-motion: reduce) {{ .table-dot-halo {{ animation: none; }} }}
+
         /* ===== MODAL OVERLAY ===== */
         #modal-overlay {{
             display: none; position: fixed; top: 0; left: 0; width: 100%; height: 100%;
@@ -432,6 +468,13 @@ def build_interactive_map_v3(som, themes, embeddings, macrothemes, occurrences, 
                 <label>Tema:</label>
                 <input type="text" id="search-theme" placeholder="Buscar tema...">
             </div>
+            <div class="control-group table-search-group">
+                <label>Tabela:</label>
+                <input type="text" id="search-table" placeholder="Buscar tabela..." autocomplete="off" spellcheck="false">
+                <button id="clear-table" class="clear-table-btn" title="Limpar tabela" style="display:none;" onclick="clearTableSelection()">&times;</button>
+                <span id="table-status" class="table-status"></span>
+                <div id="table-results"></div>
+            </div>
             <div style="margin-left: auto; display: flex; gap: 10px;">
                 <button class="export-btn" onclick="toggleFindings()">Meus Achados (<span id="findings-count">0</span>)</button>
             </div>
@@ -563,6 +606,238 @@ def build_interactive_map_v3(som, themes, embeddings, macrothemes, occurrences, 
         let findings = JSON.parse(localStorage.getItem('som_findings') || '[]');
         let savedTableNames = new Set(findings.map(f => f.title));
 
+        // ===== BUSCA POR TABELA / ÍNDICE TABELA -> HEXÁGONOS =====
+        // O SOM agrupa TEMAS, e cada tema já guarda as tabelas que o originaram (t.tables).
+        // Invertendo essa relação sabemos em quais hexágonos cada tabela aparece:
+        // uma tabela pode estar em vários (um por tema em que foi classificada).
+        // O destaque da tabela é uma camada própria (bolinha brilhante no centro do hexágono),
+        // independente dos filtros de macrotema/tema, que continuam com dim/highlight.
+        const TABLE_RESULTS_MAX = 12;
+
+        function cleanTableName(name) {{
+            return (name || "").includes('.') ? name.split('.').pop() : (name || "");
+        }}
+
+        function escapeHtml(s) {{
+            return String(s).replace(/&/g, "&amp;").replace(/</g, "&lt;").replace(/>/g, "&gt;").replace(/"/g, "&quot;");
+        }}
+
+        // nome limpo -> {{ key, label, norm, keyNorm, hexes: Map(idHex -> nº de temas da tabela nesse hexágono) }}
+        const tableIndex = new Map();
+        data.forEach(d => {{
+            (d.themes || []).forEach(t => {{
+                (t.tables || []).forEach(tab => {{
+                    const key = cleanTableName(tab);
+                    let entry = tableIndex.get(key);
+                    if (!entry) {{
+                        entry = {{ key: key, label: tab, hexes: new Map() }};
+                        tableIndex.set(key, entry);
+                    }} else if (tab.includes('.') && !entry.label.includes('.')) {{
+                        entry.label = tab;   // prefere o nome com schema para exibir
+                    }}
+                    entry.hexes.set(d.id, (entry.hexes.get(d.id) || 0) + 1);
+                }});
+            }});
+        }});
+        tableIndex.forEach(e => {{ e.norm = normalizeText(e.label); e.keyNorm = normalizeText(e.key); }});
+        const allTableEntries = Array.from(tableIndex.values()).sort((a, b) => a.key.localeCompare(b.key));
+
+        let tableQuery = "";
+        let selectedTable = null;   // chave (nome limpo) da tabela selecionada
+        let hoverTable = null;      // espiada ao passar o mouse no olho da lateral
+        let tableResults = [];
+        let tableResultIdx = -1;
+
+        // preenchidos pelo render(): centro de cada hexágono e raio atual
+        const hexCenters = new Map();
+        let currentHexRadius = 0;
+
+        // Todas as palavras digitadas precisam aparecer no nome (ignora acento, _ - e espaço)
+        function searchTables(query) {{
+            const tokens = normalizeText(query).split(" ").filter(Boolean);
+            if (tokens.length === 0) return [];
+            const found = [];
+            allTableEntries.forEach(e => {{
+                if (!tokens.every(tk => e.norm.includes(tk))) return;
+                found.push({{ e: e, rank: e.keyNorm.startsWith(tokens[0]) ? 0 : 1 }});
+            }});
+            found.sort((a, b) => a.rank - b.rank || a.e.key.length - b.e.key.length || a.e.key.localeCompare(b.e.key));
+            return found.map(f => f.e);
+        }}
+
+        function activeTableEntry() {{
+            const key = hoverTable || selectedTable;
+            return key ? (tableIndex.get(key) || null) : null;
+        }}
+
+        // Map(idHex -> nº de temas) dos hexágonos que recebem bolinha; null = nada a mostrar.
+        function tableHexCounts() {{
+            const entry = activeTableEntry();
+            if (entry) return new Map(entry.hexes);
+            if (tableQuery.trim() !== "") {{   // digitando: soma das tabelas que casam
+                const acc = new Map();
+                searchTables(tableQuery).forEach(e => e.hexes.forEach((n, id) => acc.set(id, (acc.get(id) || 0) + n)));
+                return acc;
+            }}
+            return null;
+        }}
+
+        // Camada de bolinhas por cima dos hexágonos (o tamanho cresce com o nº de temas da tabela ali)
+        function drawTableDots() {{
+            g.select(".table-dots").remove();
+            const counts = tableHexCounts();
+            if (counts === null || counts.size === 0 || !currentHexRadius) return;
+            const layer = g.append("g").attr("class", "table-dots").style("pointer-events", "none");
+            counts.forEach((n, id) => {{
+                const c = hexCenters.get(id);
+                if (!c) return;
+                const r = currentHexRadius * 0.26 * (0.85 + 0.15 * Math.min(n, 4));
+                const dot = layer.append("g").attr("transform", "translate(" + c[0] + "," + c[1] + ")");
+                dot.append("circle").attr("class", "table-dot-halo").attr("r", r * 1.9);
+                dot.append("circle").attr("class", "table-dot-core").attr("r", r);
+            }});
+        }}
+
+        function updateTableStatus() {{
+            const status = document.getElementById("table-status");
+            const clearBtn = document.getElementById("clear-table");
+            const entry = selectedTable ? tableIndex.get(selectedTable) : null;
+            if (entry) {{
+                const n = entry.hexes.size;
+                status.textContent = "em " + n + (n === 1 ? " hexágono" : " hexágonos");
+            }} else if (tableQuery.trim() !== "") {{
+                const nt = searchTables(tableQuery).length;
+                const counts = tableHexCounts();
+                status.textContent = nt + (nt === 1 ? " tabela" : " tabelas") + " · " + (counts ? counts.size : 0) + " hex.";
+            }} else {{
+                status.textContent = "";
+            }}
+            clearBtn.style.display = (selectedTable || tableQuery.trim() !== "") ? "" : "none";
+        }}
+
+        // Mantém o estado "ativo" dos olhos já desenhados na lateral (sem recriar o painel)
+        function syncEyeButtons() {{
+            document.querySelectorAll('.table-eye').forEach(el => {{
+                const on = selectedTable !== null && decodeURIComponent(el.dataset.table) === selectedTable;
+                el.classList.toggle('active', on);
+            }});
+        }}
+
+        function refreshTable() {{
+            drawTableDots();
+            updateTableStatus();
+            syncEyeButtons();
+        }}
+
+        function selectTable(key) {{
+            const entry = tableIndex.get(key);
+            if (!entry) return;
+            selectedTable = key;
+            hoverTable = null;
+            tableQuery = entry.label;
+            document.getElementById("search-table").value = entry.label;
+            hideTableResults();
+            refreshTable();
+        }}
+
+        function clearTableSelection() {{
+            selectedTable = null;
+            hoverTable = null;
+            tableQuery = "";
+            document.getElementById("search-table").value = "";
+            hideTableResults();
+            refreshTable();
+        }}
+
+        // Botão "olho" ao lado de cada tabela na lateral: liga/desliga as bolinhas dela no mapa
+        function toggleTableFocus(name) {{
+            const key = cleanTableName(name);
+            if (selectedTable === key) clearTableSelection();
+            else selectTable(key);
+        }}
+
+        // Passar o mouse no olho de uma tabela (lateral) espia onde ela aparece, sem fixar
+        function previewTable(name) {{
+            hoverTable = name ? cleanTableName(name) : null;
+            drawTableDots();
+        }}
+
+        function hideTableResults() {{
+            document.getElementById("table-results").style.display = "none";
+        }}
+
+        function renderTableResults() {{
+            if (selectedTable || tableQuery.trim() === "") {{ hideTableResults(); return; }}
+            tableResults = searchTables(tableQuery);
+            tableResultIdx = tableResults.length > 0 ? 0 : -1;
+            paintTableResults();
+        }}
+
+        function paintTableResults() {{
+            const box = document.getElementById("table-results");
+            box.innerHTML = "";
+            if (tableResults.length === 0) {{
+                const empty = document.createElement("div");
+                empty.className = "table-result-empty";
+                empty.textContent = "Nenhuma tabela encontrada no mapa";
+                box.appendChild(empty);
+            }} else {{
+                tableResults.slice(0, TABLE_RESULTS_MAX).forEach((e, i) => {{
+                    const item = document.createElement("div");
+                    item.className = "table-result" + (i === tableResultIdx ? " active" : "");
+                    const name = document.createElement("span");
+                    name.className = "tr-name";
+                    name.textContent = e.label;
+                    const cnt = document.createElement("span");
+                    cnt.className = "tr-count";
+                    cnt.textContent = e.hexes.size + (e.hexes.size === 1 ? " hexágono" : " hexágonos");
+                    item.appendChild(name);
+                    item.appendChild(cnt);
+                    // mousedown (e não click) para o input não perder o foco antes da seleção
+                    item.addEventListener("mousedown", ev => {{ ev.preventDefault(); selectTable(e.key); }});
+                    box.appendChild(item);
+                }});
+                if (tableResults.length > TABLE_RESULTS_MAX) {{
+                    const more = document.createElement("div");
+                    more.className = "table-result-more";
+                    more.textContent = "+ " + (tableResults.length - TABLE_RESULTS_MAX) + " outras — refine a busca (todas estão marcadas no mapa)";
+                    box.appendChild(more);
+                }}
+            }}
+            box.style.display = "block";
+            const act = box.querySelector(".table-result.active");
+            if (act) act.scrollIntoView({{ block: "nearest" }});
+        }}
+
+        function moveTableResult(step) {{
+            const n = Math.min(tableResults.length, TABLE_RESULTS_MAX);
+            if (n === 0) return;
+            tableResultIdx = (tableResultIdx + step + n) % n;
+            paintTableResults();
+        }}
+
+        (function initTableSearch() {{
+            const input = document.getElementById("search-table");
+            input.addEventListener("input", (e) => {{
+                selectedTable = null;
+                hoverTable = null;
+                tableQuery = e.target.value;
+                renderTableResults();
+                refreshTable();
+            }});
+            input.addEventListener("keydown", (ev) => {{
+                if (ev.key === "ArrowDown") {{ ev.preventDefault(); moveTableResult(1); }}
+                else if (ev.key === "ArrowUp") {{ ev.preventDefault(); moveTableResult(-1); }}
+                else if (ev.key === "Enter") {{
+                    const pick = tableResults[tableResultIdx];
+                    if (pick && !selectedTable) {{ ev.preventDefault(); selectTable(pick.key); }}
+                }}
+                else if (ev.key === "Escape") {{ hideTableResults(); }}
+            }});
+            input.addEventListener("focus", () => {{ if (!selectedTable && tableQuery.trim() !== "") renderTableResults(); }});
+            input.addEventListener("blur", hideTableResults);
+        }})();
+
         const xExtent = d3.extent(data, d => d.x);
         const yExtent = d3.extent(data, d => d.y);
         const xRange = xExtent[1] - xExtent[0];
@@ -627,7 +902,7 @@ def build_interactive_map_v3(som, themes, embeddings, macrothemes, occurrences, 
                              const isSaved = savedTableNames.has(tab);
                              const savedClass = isSaved ? 'saved' : '';
                              const savedIcon = isSaved ? '✓ ' : '';
-                             return `<span class="table-tag ${{savedClass}}" onclick="openTableModal(decodeURIComponent('${{encodeURIComponent(tab)}}'), decodeURIComponent('${{encodeURIComponent(t.theme)}}'))">${{savedIcon}}${{tab}}</span>`;
+                             return `<span class="table-chip"><span class="table-tag ${{savedClass}}" onclick="openTableModal(decodeURIComponent('${{encodeURIComponent(tab)}}'), decodeURIComponent('${{encodeURIComponent(t.theme)}}'))">${{savedIcon}}${{tab}}</span><button class="table-eye ${{selectedTable !== null && selectedTable === cleanTableName(tab) ? 'active' : ''}}" data-table="${{encodeURIComponent(cleanTableName(tab))}}" title="Mostrar no mapa onde esta tabela aparece" onmouseenter="previewTable(decodeURIComponent('${{encodeURIComponent(tab)}}'))" onmouseleave="previewTable(null)" onclick="event.stopPropagation(); toggleTableFocus(decodeURIComponent('${{encodeURIComponent(tab)}}'))"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M1 12s4-8 11-8 11 8 11 8-4 8-11 8-11-8-11-8z"/><circle cx="12" cy="12" r="3"/></svg></button></span>`;
                          }}).join("")}}
                        </div>`
                     : "";
@@ -648,10 +923,11 @@ def build_interactive_map_v3(som, themes, embeddings, macrothemes, occurrences, 
             }}
 
             html += `</div>`;
+            const sidebarInputHadFocus = document.activeElement && document.activeElement.id === 'sidebar-filter-input';
             sidebar.html(html);
             
             const input = document.getElementById('sidebar-filter-input');
-            if (input) {{
+            if (input && sidebarInputHadFocus) {{
                 input.focus();
                 input.setSelectionRange(input.value.length, input.value.length);
             }}
@@ -686,6 +962,7 @@ def build_interactive_map_v3(som, themes, embeddings, macrothemes, occurrences, 
             const hexH_target = (containerHeight * 0.85) / (yRange + 1);
             
             const radius = Math.min(hexW_target / Math.sqrt(3), hexH_target / 1.5);
+            currentHexRadius = radius;
             const hexW = Math.sqrt(3) * radius;
             const hexH = 2 * radius;
             const vertDist = (3/4) * hexH;
@@ -726,6 +1003,7 @@ def build_interactive_map_v3(som, themes, embeddings, macrothemes, occurrences, 
                     const invertedY = maxY - d.y;
                     const px = (d.x - xExtent[0]) * hexW + (invertedY % 2 === 1 ? hexW / 2 : 0);
                     const py = (invertedY - yExtent[0]) * vertDist;
+                    hexCenters.set(d.id, [px, py]);
                     return `translate(${{px}}, ${{py}})`;
                 }})
                 .attr("fill", d => d.count > 0 ? (umatrixColors[d.id] || d.color) : "none")
@@ -754,10 +1032,15 @@ def build_interactive_map_v3(som, themes, embeddings, macrothemes, occurrences, 
 
             updateStats();
             applyFilters();
+            drawTableDots();
         }}
 
         function updateTooltip(event, d) {{
             let content = `<span class="t-macro">${{d.macro || "Sem Macrotema"}}</span>`;
+            const activeT = activeTableEntry();
+            if (activeT && activeT.hexes.has(d.id)) {{
+                content += `<div style="margin-bottom:6px; font-size:0.72rem; color:#19d3f3;">● ${{escapeHtml(activeT.key)}}: ${{activeT.hexes.get(d.id)}} tema(s) neste hexágono</div>`;
+            }}
             content += `<div style="margin-bottom:8px; font-size:0.7rem; color:#aaa;">Neurônio: (${{d.x}}, ${{d.y}}) | Temas: ${{d.count}}</div>`;
             const tQ = normalizeText(themeQuery);
             const visibleThemes = d.themes.slice(0, 10);
