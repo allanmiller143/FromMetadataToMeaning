@@ -38,11 +38,19 @@ def build_interactive_map_v3(som, themes, embeddings, macrothemes, occurrences, 
     # Associação direta tabela -> tema. O tema é a classificação específica da
     # tabela; o macrotema agregado do neurônio não deve ser usado neste detalhe.
     table_to_theme = {}
+    table_to_themes = {}
     for m in macrothemes:
+        macro_name = m.get("macrotema")
         for theme_name in (m.get("subtemas") or []):
             for table_name in (tables_by_theme.get(theme_name, []) or []):
                 clean_table = table_name.split(".")[-1] if isinstance(table_name, str) else table_name
+                # Mantém o mapa original para não alterar comportamentos existentes.
                 table_to_theme.setdefault(clean_table, theme_name)
+                # Novo mapa: todas as classificações semânticas da tabela.
+                table_to_themes.setdefault(clean_table, [])
+                entry = {"theme": theme_name, "macro": macro_name}
+                if entry not in table_to_themes[clean_table]:
+                    table_to_themes[clean_table].append(entry)
 
     for x in range(x_dim):
         for y in range(y_dim):
@@ -72,6 +80,7 @@ def build_interactive_map_v3(som, themes, embeddings, macrothemes, occurrences, 
     macros_json = json.dumps([m['macrotema'] for m in macros_ordered[:20]], ensure_ascii=False)
     metadata_json = json.dumps(metadata_dict or {}, ensure_ascii=False, default=str)
     table_theme_json = json.dumps(table_to_theme, ensure_ascii=False)
+    table_themes_json = json.dumps(table_to_themes, ensure_ascii=False)
 
     # Preparar dados de U-Matrix normalizada para colormap inferno
     umatrix_min = float(np.min(umatrix))
@@ -311,10 +320,35 @@ def build_interactive_map_v3(som, themes, embeddings, macrothemes, occurrences, 
         }}
         #graph-modal-header {{
             display: flex; align-items: center; justify-content: space-between;
-            padding: 16px 22px; border-bottom: 1px solid var(--border); flex-shrink: 0;
+            padding: 12px 16px 10px 22px; border-bottom: 1px solid var(--border); flex-shrink: 0;
         }}
         #graph-modal-header h2 {{ margin: 0; font-size: 1.05rem; color: var(--primary); }}
         #graph-modal-header .subtitle {{ font-size: 0.75rem; color: var(--text-muted); margin-top: 3px; }}
+        .graph-title-block {{ min-width: 0; }}
+        .graph-header-actions {{ display: flex; align-items: center; flex-shrink: 0; }}
+        /* Controle flutuante de profundidade: ferramenta visual do grafo */
+        #graph-depth-float {{
+            position: absolute; top: 16px; left: 16px; z-index: 30;
+            display: flex; flex-direction: column; align-items: stretch;
+            width: 45px; overflow: hidden; border: 1px solid rgba(255,255,255,0.16);
+            border-radius: 12px; background: rgba(18,18,18,0.88);
+            box-shadow: 0 7px 20px rgba(0,0,0,0.32), 0 0 12px rgba(255,159,67,0.06);
+            backdrop-filter: blur(8px); -webkit-backdrop-filter: blur(8px);
+        }}
+        #graph-depth-float .depth-tool-icon {{
+            height: 40px; display: flex; align-items: center; justify-content: center;
+            color: var(--primary); font-size: 1.05rem; border-bottom: 1px solid rgba(255,255,255,0.12);
+            cursor: default;
+        }}
+        #graph-depth-float .depth-btn {{
+            width: 100%; height: 145px; padding: 10px; border: none; border-radius: 0;
+            background: transparent; color: #929292; font-size: 1rem; font-weight: 700;
+            cursor: pointer; transition: background .18s, color .18s;
+        }}
+        #graph-depth-float .depth-btn:hover {{ background: rgba(255,159,67,0.12); color: #f0f0f0; }}
+        #graph-depth-float .depth-btn.active {{
+            background: var(--primary); color: #000; box-shadow: 0 0 10px rgba(255,159,67,0.2);
+        }}
         #graph-modal-close {{
             background: none; border: none; color: var(--text); font-size: 1.5rem;
             cursor: pointer; padding: 0; width: 30px; height: 30px;
@@ -369,6 +403,22 @@ def build_interactive_map_v3(som, themes, embeddings, macrothemes, occurrences, 
             height: 34px; margin-top: 0;
         }}
         #open-graph-btn:hover {{ background: var(--primary); color: #000; }}
+
+        .graph-theme-chip {{
+            display: inline-block; margin: 2px 4px 2px 0; padding: 3px 6px;
+            border-radius: 4px; background: rgba(255,159,67,0.12); color: var(--primary);
+            border: 1px solid rgba(255,159,67,0.35); font-size: 0.68rem; line-height: 1.35;
+        }}
+        .graph-themes-wrap {{ display: flex; flex-wrap: wrap; gap: 3px; }}
+        #graph-legend-overlay {{
+            position: absolute; left: 16px; bottom: 16px; z-index: 20;
+            display: flex; align-items: center; gap: 13px; flex-wrap: wrap;
+            background: rgba(18,18,18,0.92); border: 1px solid var(--border);
+            border-radius: 8px; padding: 8px 11px; max-width: calc(100% - 32px);
+            box-shadow: 0 8px 24px rgba(0,0,0,0.45); pointer-events: none;
+        }}
+        #graph-legend-overlay h3 {{ margin: 0; font-size: 0.75rem; color: var(--primary); white-space: nowrap; }}
+        #graph-legend-overlay .graph-legend-item {{ display: flex; align-items: center; gap: 6px; margin: 0; font-size: 0.66rem; white-space: nowrap; }}
     </style>
 </head>
 <body>
@@ -450,45 +500,31 @@ def build_interactive_map_v3(som, themes, embeddings, macrothemes, occurrences, 
     <div id="graph-modal-overlay" onclick="if(event.target===this) closeGraphModal()">
         <div id="graph-modal">
             <div id="graph-modal-header">
-                <div>
+                <div class="graph-title-block">
                     <h2 id="graph-modal-title">Relacionamentos</h2>
                     <div class="subtitle" id="graph-modal-subtitle"></div>
                 </div>
-                <button id="graph-modal-close" onclick="closeGraphModal()">&times;</button>
+                <div class="graph-header-actions">
+                    <button id="graph-modal-close" onclick="closeGraphModal()">&times;</button>
+                </div>
             </div>
             <div id="graph-modal-body">
                 <div id="graph-svg-container">
+                    <div id="graph-depth-float" title="Profundidade do grafo" aria-label="Profundidade do grafo">
+                        <div class="depth-tool-icon" aria-hidden="true">◈</div>
+                        <button class="depth-btn active" title="Nível 1 · relações diretas" aria-label="Nível 1 · relações diretas" onclick="setGraphDepth(1, this)">1</button>
+                        <button class="depth-btn" title="Nível 2 · inclui vizinhos dos vizinhos" aria-label="Nível 2 · inclui vizinhos dos vizinhos" onclick="setGraphDepth(2, this)">2</button>
+                    </div>
                     <svg id="graph-svg"></svg>
+                    <div id="graph-legend-overlay">
+                        <h3>Legenda</h3>
+                        <div class="graph-legend-item"><div class="graph-legend-dot" style="background:#ff9f43; border: 2px solid #fff;"></div><span>Tabela principal</span></div>
+                        <div class="graph-legend-item"><div class="graph-legend-dot" style="background:#636EFA;"></div><span>Referencia outra (FK saindo)</span></div>
+                        <div class="graph-legend-item"><div class="graph-legend-dot" style="background:#2ecc71;"></div><span>Referenciada por outra (FK entrando)</span></div>
+                        <div class="graph-legend-item"><div class="graph-legend-dot" style="background:#AB63FA;"></div><span>Nível 2 (vizinhos de vizinhos)</span></div>
+                    </div>
                 </div>
                 <div id="graph-info-panel">
-                    <div class="graph-depth-card">
-                        <div class="graph-depth-title">Profundidade do grafo</div>
-                        <div class="graph-depth-help">
-                            <strong style="color:var(--text);">Nível 1</strong> · relações diretas da tabela principal<br>
-                            <strong style="color:var(--text);">Nível 2</strong> · relações das tabelas do nível 1
-                        </div>
-                        <div id="graph-depth-toggle">
-                            <button class="depth-btn active" onclick="setGraphDepth(1, this)">1</button>
-                            <button class="depth-btn" onclick="setGraphDepth(2, this)">2</button>
-                        </div>
-                    </div>
-                    <h3>Legenda</h3>
-                    <div class="graph-legend-item">
-                        <div class="graph-legend-dot" style="background:#ff9f43; border: 2px solid #fff;"></div>
-                        <span>Tabela principal</span>
-                    </div>
-                    <div class="graph-legend-item">
-                        <div class="graph-legend-dot" style="background:#636EFA;"></div>
-                        <span>Referencia outra (FK saindo)</span>
-                    </div>
-                    <div class="graph-legend-item">
-                        <div class="graph-legend-dot" style="background:#2ecc71;"></div>
-                        <span>Referenciada por outra (FK entrando)</span>
-                    </div>
-                    <div class="graph-legend-item">
-                        <div class="graph-legend-dot" style="background:#AB63FA;"></div>
-                        <span>Nível 2 (vizinhos de vizinhos)</span>
-                    </div>
                     <div style="margin: 14px 0 6px; font-size: 0.7rem; color: var(--text-muted); font-weight: 600; text-transform: uppercase;">Nó selecionado</div>
                     <div id="graph-node-info"><div class="graph-info-placeholder">Clique em um nó para ver detalhes</div></div>
                 </div>
@@ -501,6 +537,7 @@ def build_interactive_map_v3(som, themes, embeddings, macrothemes, occurrences, 
         const macros = {macros_json};
         const metadataDict = {metadata_json};
         const tableThemeMap = {table_theme_json};
+        const tableThemesMap = {table_themes_json};
         const umatrixColors = {umatrix_colors_json};
         const svg = d3.select("#viz");
         const g = svg.append("g");
@@ -1242,6 +1279,10 @@ def build_interactive_map_v3(som, themes, embeddings, macrothemes, occurrences, 
                 const clean = cleanName(name);
                 return tableThemeMap[clean] || "—";
             }}
+            function themesFor(name) {{
+                const clean = cleanName(name);
+                return tableThemesMap[clean] || [];
+            }}
             function addNode(name, role, level) {{
                 const id = canonicalName(name);
                 const d = metadataFor(id) || {{}};
@@ -1252,7 +1293,8 @@ def build_interactive_map_v3(som, themes, embeddings, macrothemes, occurrences, 
                         row_count: d.row_count || 0,
                         col_count: d.columns ? d.columns.length : 0,
                         fk_count: d.foreign_keys ? d.foreign_keys.length : 0,
-                        macro: macroFor(id)
+                        macro: macroFor(id),
+                        themes: themesFor(id)
                     }});
                 }}
                 return id;
@@ -1476,6 +1518,7 @@ def build_interactive_map_v3(som, themes, embeddings, macrothemes, occurrences, 
             let highlightLocked = false;
             let selectedFocusId = null;
             const linkEls = linkG.selectAll("path").data(links).enter().append("path")
+                .attr("data-graph-link", "true")
                 .attr("fill","none")
                 .attr("stroke", d => d.direction === "out" ? "#636EFA" : d.direction === "in" ? "#2ecc71" : "#AB63FA")
                 .attr("stroke-opacity", 0.45)
@@ -1530,51 +1573,103 @@ def build_interactive_map_v3(som, themes, embeddings, macrothemes, occurrences, 
             // ── Nós ──────────────────────────────────────────────────────
             const nodeG = gZoom.append("g");
             const nodeEls = nodeG.selectAll("g").data(nodes).enter().append("g")
+                .attr("data-graph-node", "true")
                 .attr("transform", d => `translate(${{d.px}},${{d.py}})`)
                 .attr("cursor", d => d.role !== "root" ? "pointer" : "default");
-
-            // Sombra / glow no nó raiz
-            const filt = defs.append("filter").attr("id","glow");
-            filt.append("feGaussianBlur").attr("stdDeviation","4").attr("result","blur");
-            const feMerge = filt.append("feMerge");
-            feMerge.append("feMergeNode").attr("in","blur");
-            feMerge.append("feMergeNode").attr("in","SourceGraphic");
 
             nodeEls.append("circle")
                 .attr("r", d => nodeRadius(d))
                 .attr("fill", d => nodeColor(d))
-                .attr("fill-opacity", d => d.role === "root" ? 1 : 0.8)
-                .attr("stroke", "#121212").attr("stroke-width", 1.5)
-                .attr("filter", d => d.role === "root" ? "url(#glow)" : null);
+                .attr("fill-opacity", d => d.role === "root" ? 0.96 : 0.8)
+                .attr("stroke", d => d.role === "root" ? "#ffe0b2" : "#121212")
+                .attr("stroke-width", d => d.role === "root" ? 2 : 1.5);
 
-            // Label: posicionado fora do círculo, na direção radial
-            nodeEls.append("text")
-                .attr("text-anchor", d => {{
-                    if (d.role === "root") return "middle";
-                    const angle = Math.atan2(d.py - cy, d.px - cx);
-                    if (Math.abs(angle) < 0.3) return "start";
-                    if (Math.abs(angle) > Math.PI - 0.3) return "end";
-                    return "middle";
-                }})
-                .attr("dx", d => {{
-                    if (d.role === "root") return 0;
-                    const angle = Math.atan2(d.py - cy, d.px - cx);
-                    const r = nodeRadius(d) + 6;
-                    return Math.cos(angle) * r;
-                }})
-                .attr("dy", d => {{
-                    if (d.role === "root") return 5;
-                    const angle = Math.atan2(d.py - cy, d.px - cx);
-                    const r = nodeRadius(d) + 6;
-                    const base = Math.sin(angle) * r;
-                    // Empurrar para fora quando o ângulo é próximo do eixo vertical
-                    return Math.abs(Math.cos(angle)) < 0.3 ? (angle > 0 ? base + 9 : base - 3) : base + 4;
-                }})
-                .attr("font-size", d => d.role === "root" ? "11px" : "8px")
-                .attr("font-weight", d => d.role === "root" ? "700" : "500")
-                .attr("fill", d => d.role === "root" ? "#000" : "var(--text)")
-                .attr("pointer-events","none")
+            // Labels: badge com fundo escuro, sempre legível
+            // Calculamos posição radial fora do nó, depois adicionamos rect + text
+            function labelPos(d) {{
+                if (d.role === "root") return {{ x: 0, y: -(nodeRadius(d) + 12), anchor: "middle" }};
+                const angle = Math.atan2(d.py - cy, d.px - cx);
+                const r = nodeRadius(d) + 9;
+                const dx = Math.cos(angle) * r;
+                const dy = Math.sin(angle) * r;
+                // Anchor: start se está mais à direita, end se mais à esquerda
+                const anchor = Math.cos(angle) > 0.3 ? "start"
+                             : Math.cos(angle) < -0.3 ? "end"
+                             : "middle";
+                return {{ x: dx, y: dy, anchor }};
+            }}
+
+            // Grupo de label por nó
+            const labelG = nodeEls.append("g").attr("pointer-events","none");
+
+            // Nó raiz: nome fora do círculo, com badge contrastante.
+            const rootBadgeG = labelG.filter(d => d.role === "root").append("g")
+                .attr("transform", d => {{
+                    const p = labelPos(d);
+                    return `translate(${{p.x}},${{p.y}})`;
+                }});
+            const rootBadgeText = rootBadgeG.append("text")
+                .attr("text-anchor", "middle")
+                .attr("dy", "0.35em")
+                .attr("font-size", "11px")
+                .attr("font-weight", "700")
+                .attr("fill", "#fff")
                 .text(d => d.id);
+            rootBadgeG.each(function(d) {{
+                const textEl = this.querySelector("text");
+                if (!textEl) return;
+                const bbox = textEl.getBBox();
+                const pad = {{ x: 7, y: 4 }};
+                const rect = document.createElementNS("http://www.w3.org/2000/svg", "rect");
+                rect.setAttribute("x", bbox.x - pad.x);
+                rect.setAttribute("y", bbox.y - pad.y);
+                rect.setAttribute("width", bbox.width + pad.x * 2);
+                rect.setAttribute("height", bbox.height + pad.y * 2);
+                rect.setAttribute("rx", "5");
+                rect.setAttribute("fill", "rgba(15,15,15,0.92)");
+                rect.setAttribute("stroke", "#ffb866");
+                rect.setAttribute("stroke-width", "0.75");
+                this.insertBefore(rect, textEl);
+            }});
+
+            // Nós normais: badge externo
+            const badgeG = labelG.filter(d => d.role !== "root").append("g")
+                .attr("transform", d => {{
+                    const p = labelPos(d);
+                    return `translate(${{p.x}},${{p.y}})`;
+                }});
+
+            // Fundo do badge (rect calculado depois do text para ter tamanho correto)
+            const badgeText = badgeG.append("text")
+                .attr("text-anchor", d => labelPos(d).anchor)
+                .attr("dy", "0.35em")
+                .attr("font-size","9px")
+                .attr("font-weight","600")
+                .attr("fill","#e8e8e8")
+                .text(d => d.id);
+
+            // Inserir rect atrás do text usando .insert antes de cada text
+            badgeG.each(function(d) {{
+                const textEl = this.querySelector("text");
+                if (!textEl) return;
+                const bbox = textEl.getBBox();
+                const pad = {{ x: 5, y: 3 }};
+                const anchor = labelPos(d).anchor;
+                let rx = bbox.x - pad.x;
+                if (anchor === "start") rx = -pad.x;
+                else if (anchor === "end") rx = bbox.x - pad.x;
+                else rx = bbox.x - pad.x;
+                const rect = document.createElementNS("http://www.w3.org/2000/svg","rect");
+                rect.setAttribute("x", rx);
+                rect.setAttribute("y", bbox.y - pad.y);
+                rect.setAttribute("width",  bbox.width  + pad.x * 2);
+                rect.setAttribute("height", bbox.height + pad.y * 2);
+                rect.setAttribute("rx", "4");
+                rect.setAttribute("fill", "rgba(15,15,15,0.82)");
+                rect.setAttribute("stroke", "rgba(255,255,255,0.08)");
+                rect.setAttribute("stroke-width", "0.5");
+                this.insertBefore(rect, textEl);
+            }});
 
             // ── Tooltip de FK nas arestas ────────────────────────────────
             const fkTooltip = d3.select("body").append("div")
@@ -1732,6 +1827,10 @@ def build_interactive_map_v3(som, themes, embeddings, macrothemes, occurrences, 
 
             const normId = d.id.includes('.') ? d.id.split('.').pop() : d.id;
             let macro = tableThemeMap[normId] || d.macro || "—";
+            const nodeThemes = d.themes || tableThemesMap[normId] || [];
+            const themesHtml = nodeThemes.length
+                ? nodeThemes.map(item => `<span class="graph-theme-chip">${{item.theme}}</span>`).join("")
+                : '<span style="color:var(--text-muted)">Nenhum tema identificado</span>';
             // t.tables pode ter "schema.tabela" ou só "tabela" — normalizar
 
             const allFKsOut = (dbData.foreign_keys || []).length;
@@ -1749,8 +1848,10 @@ def build_interactive_map_v3(som, themes, embeddings, macrothemes, occurrences, 
                     <div class="detail-value">${{d.id}}</div>
                 </div>
                 <div class="graph-node-detail">
-                    <div class="detail-label">Tema</div>
+                    <div class="detail-label">Tema principal</div>
                     <div class="detail-value" style="font-size:0.75rem;font-weight:500;color:var(--primary)">${{macro}}</div>
+                    <div class="detail-label" style="margin-top:10px;">Todos os temas</div>
+                    <div class="graph-themes-wrap">${{themesHtml}}</div>
                 </div>
                 <div style="display:grid;grid-template-columns:1fr 1fr;gap:6px;margin-bottom:8px;">
                     <div class="graph-node-detail" style="margin:0">
@@ -1849,14 +1950,33 @@ def build_interactive_map_v3(som, themes, embeddings, macrothemes, occurrences, 
 
         function openRelationshipGraph(tableName) {{
             const cleanName = tableName.includes('.') ? tableName.split('.')[1] : tableName;
+            const graphOverlay = document.getElementById("graph-modal-overlay");
+            const graphWasOpen = graphOverlay.classList.contains("active");
+
+            // Ao abrir o grafo a partir dos detalhes, os dois overlays não podem
+            // ficar empilhados: o grafo assume o foco e os detalhes são fechados.
+            closeAllTableModals();
+
+            if (graphWasOpen && graphStack.length > 0) {{
+                // Mantém o caminho já percorrido. Se a tabela já estiver no
+                // breadcrumb, volta até ela em vez de criar uma entrada duplicada.
+                const existingIndex = graphStack.findIndex(s => s.tableName === cleanName);
+                graphStack = existingIndex >= 0
+                    ? graphStack.slice(0, existingIndex + 1)
+                    : [...graphStack, {{ tableName: cleanName }}];
+            }} else {{
+                currentGraphDepth = 1;
+                graphStack = [{{ tableName: cleanName }}];
+            }}
+
             currentGraphTable = cleanName;
-            currentGraphDepth = 1;
-            graphStack = [{{ tableName: cleanName }}];
-            document.querySelectorAll(".depth-btn").forEach((b, i) => b.classList.toggle("active", i === 0));
+            document.querySelectorAll(".depth-btn").forEach((b, i) =>
+                b.classList.toggle("active", i === currentGraphDepth - 1)
+            );
             updateGraphBreadcrumb();
             document.getElementById("graph-node-info").innerHTML = '<div class="graph-info-placeholder">Clique em um nó para ver detalhes</div>';
-            document.getElementById("graph-modal-overlay").classList.add("active");
-            requestAnimationFrame(() => renderGraph(cleanName, 1));
+            graphOverlay.classList.add("active");
+            requestAnimationFrame(() => renderGraph(cleanName, currentGraphDepth));
         }}
 
         function closeGraphModal() {{
