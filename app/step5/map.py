@@ -141,6 +141,16 @@ def build_interactive_map_v3(som, themes, embeddings, macrothemes, occurrences, 
         .sidebar-header h2 {{ margin: 0; font-size: 1.1rem; color: var(--primary); }}
         .sidebar-empty {{ display: flex; align-items: center; justify-content: center; height: 100%; color: var(--text-muted); text-align: center; padding: 20px; font-style: italic; }}
         .theme-list-item {{ margin-bottom: 8px; padding-bottom: 8px; border-bottom: 1px solid var(--border); }}
+        .macro-item {{ display: flex; align-items: center; gap: 10px; padding: 8px 10px; border-radius: 6px; cursor: pointer; font-size: 0.85rem; }}
+        .macro-rank {{ width: 18px; text-align: right; font-size: 0.75rem; color: var(--text-muted); flex-shrink: 0; }}
+        .macro-rank.top {{ color: var(--primary); font-weight: bold; }}
+        .macro-main {{ flex: 1; min-width: 0; }}
+        .macro-bar {{ height: 3px; margin-top: 4px; border-radius: 2px; background: rgba(128,128,128,0.25); }}
+        .macro-bar div {{ height: 100%; border-radius: 2px; background: var(--primary); }}
+        .macro-item:hover {{ background: var(--border); }}
+        .macro-item .macro-count {{ color: var(--text-muted); font-size: 0.75rem; white-space: nowrap; }}
+        .sidebar-back {{ font-size: 0.75rem; color: var(--primary); cursor: pointer; margin-bottom: 6px; }}
+        .sidebar-back:hover {{ text-decoration: underline; }}
         .theme-list-item:last-child {{ border-bottom: none; }}
         .theme-freq {{ color: var(--primary); font-weight: bold; font-size: 0.75rem; }}
 
@@ -861,9 +871,52 @@ def build_interactive_map_v3(som, themes, embeddings, macrothemes, occurrences, 
             return "M" + points.join("L") + "Z";
         }}
 
+        function selectNeuronFromList(id) {{
+            const d = data.find(n => n.id === id);
+            if (!d || d.count === 0) return;
+            selectedNeuronId = d.id;
+            sidebarFilter = "";
+            updateSidebar(d);
+            g.selectAll(".hexagon").classed("selected", h => h.id === selectedNeuronId);
+        }}
+
+        function backToSidebarList() {{
+            selectedNeuronId = null;
+            sidebarFilter = "";
+            updateSidebar(null);
+            g.selectAll(".hexagon").classed("selected", false);
+        }}
+
+        function renderSidebarStart() {{
+            const items = data
+                .filter(n => n.macro && n.count > 0)
+                .sort((a, b) => b.count - a.count)
+                .slice(0, 20)
+                .map(n => ({{ name: n.macro, id: n.id, total: n.count }}));
+            const maxTotal = items.length ? items[0].total : 1;
+
+            sidebar.html(`
+                <div class="sidebar-header">
+                    <h2>Macrotemas</h2>
+                    <div class="neuron-info">Ordenados por número de temas</div>
+                </div>
+                <div style="flex: 1; overflow-y: auto; padding: 10px 12px 20px;">
+                    ${{items.map((it, i) => `
+                        <div class="macro-item" onclick="selectNeuronFromList('${{it.id}}')">
+                            <span class="macro-rank${{i < 3 ? ' top' : ''}}">${{i + 1}}</span>
+                            <div class="macro-main">
+                                <span>${{it.name}}</span>
+                                <div class="macro-bar"><div style="width: ${{(it.total / maxTotal * 100).toFixed(0)}}%"></div></div>
+                            </div>
+                            <span class="macro-count">${{it.total}} temas</span>
+                        </div>`).join("")}}
+                </div>
+            `);
+        }}
+
         function updateSidebar(d) {{
             if (!d || d.count === 0) {{
-                sidebar.html('<div class="sidebar-empty">Clique em um hexágono para fixar a visualização lateral</div>');
+                renderSidebarStart();
                 return;
             }}
             
@@ -876,6 +929,7 @@ def build_interactive_map_v3(som, themes, embeddings, macrothemes, occurrences, 
 
             let html = `
                 <div class="sidebar-header">
+                    ${{selectedNeuronId === d.id ? '<div class="sidebar-back" onclick="backToSidebarList()">‹ Macrotemas</div>' : ''}}
                     <div>
                         <h2 style="flex: 1;">${{d.macro || "Sem Macrotema"}}</h2>
                     </div>
@@ -2289,6 +2343,7 @@ def build_interactive_map_v3(som, themes, embeddings, macrothemes, occurrences, 
         setTimeout(() => {{ 
             render(); 
             buildLegend(); 
+            updateSidebar(null);
             updateFindingsCount();
         }}, 100);
     </script>
