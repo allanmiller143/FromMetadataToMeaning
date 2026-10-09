@@ -1,0 +1,297 @@
+{
+ "item_id": "teixeira__tl_cidadao_grupo",
+ "table_key": "public.tl_cidadao_grupo",
+ "base": "teixeira",
+ "piloto": false,
+ "contexto": {
+  "tabela": "tl_cidadao_grupo",
+  "linhas": 116985,
+  "pk": [
+   "co_seq_cidadao_grupo",
+   "co_revisao"
+  ],
+  "fks": [],
+  "colunas": [
+   {
+    "coluna": "co_revisao",
+    "tipo": "BIGINT",
+    "aceita_nulo": false,
+    "distintos": 108784,
+    "pct_nulo": 0.0,
+    "min": 67721.0,
+    "max": 635793.0,
+    "media": 298709.83133735094,
+    "mais_frequentes": "",
+    "amostra": "67721 | 67724 | 67730 | 67731 | 67733"
+   },
+   {
+    "coluna": "co_tipo_revisao",
+    "tipo": "SMALLINT",
+    "aceita_nulo": true,
+    "distintos": 3,
+    "pct_nulo": 0.0,
+    "min": 0.0,
+    "max": 2.0,
+    "media": 0.808001025772535,
+    "mais_frequentes": "1 (94500), 0 (22473), 2 (12)",
+    "amostra": "1 | 2 | 0"
+   },
+   {
+    "coluna": "co_seq_cidadao_grupo",
+    "tipo": "BIGINT",
+    "aceita_nulo": false,
+    "distintos": 27058,
+    "pct_nulo": 0.0,
+    "min": 1.0,
+    "max": 27660.0,
+    "media": 12982.92393041843,
+    "mais_frequentes": "<anonimizado> (37), <anonimizado> (36), <anonimizado> (35)",
+    "amostra": "<anonimizado> | <anonimizado> | <anonimizado> | <anonimizado> | <anonimizado>"
+   },
+   {
+    "coluna": "nu_cns",
+    "tipo": "VARCHAR(16)",
+    "aceita_nulo": true,
+    "distintos": 17902,
+    "pct_nulo": 13.63,
+    "min": null,
+    "max": null,
+    "media": null,
+    "mais_frequentes": "<anonimizado> (45), <anonimizado> (41), <anonimizado> (37)",
+    "amostra": "<anonimizado> | <anonimizado> | <anonimizado> | <anonimizado> | <anonimizado>"
+   },
+   {
+    "coluna": "nu_uuid_ultima_ficha",
+    "tipo": "VARCHAR(96)",
+    "aceita_nulo": true,
+    "distintos": 92467,
+    "pct_nulo": 7.74,
+    "min": null,
+    "max": null,
+    "media": null,
+    "mais_frequentes": "",
+    "amostra": "0849731-00052875-e603-4435-bde8-0bb197ca4bb1 | 0849731-000dd58d-6dd8-4faf-a372-5be03badefa1 | 0849731-001551a3-f31d-48d0-94f1-1165cdd7129f | 0849731-003036f3-ee2e-45be-b92d-a8fa7b3dd813 | 0849731-004777db-eef7-483e-996e-830d7b09cdea"
+   },
+   {
+    "coluna": "nu_uuid_origem",
+    "tipo": "VARCHAR(96)",
+    "aceita_nulo": true,
+    "distintos": 22760,
+    "pct_nulo": 0.0,
+    "min": null,
+    "max": null,
+    "media": null,
+    "mais_frequentes": "d00f174e-69d0-47a9-b15e-4777e18ca680 (45), 2321513-a5742373-626c-4882-9734-02679c22d38c (38), 2612852-ba5aae29-6412-4f66-b173-41ba9ae3aec9 (37)",
+    "amostra": "7407939-dafaaffe-cf9e-4cf0-b58d-aa01ad6dfed5 | 2321505-459aaab1-de8a-499d-9d94-ac1b5b6157ef | 7407939-8558fbf9-d3c9-4985-831a-9f1ebeafc57f | 2321521-d15b9b02-374d-4b65-81e8-ae41061cd6cd | 2612852-ee174e1d-d8a4-4c03-9fde-5af880091647"
+   },
+   {
+    "coluna": "co_cidadao",
+    "tipo": "BIGINT",
+    "aceita_nulo": true,
+    "distintos": 26647,
+    "pct_nulo": 0.0,
+    "min": 277.0,
+    "max": 27703.0,
+    "media": 13248.517091934864,
+    "mais_frequentes": "<anonimizado> (37), <anonimizado> (36), <anonimizado> (35)",
+    "amostra": "<anonimizado> | <anonimizado> | <anonimizado> | <anonimizado> | <anonimizado>"
+   },
+   {
+    "coluna": "co_cidadao_master",
+    "tipo": "BIGINT",
+    "aceita_nulo": true,
+    "distintos": 26201,
+    "pct_nulo": 0.0,
+    "min": 278.0,
+    "max": 27703.0,
+    "media": 13881.295080565886,
+    "mais_frequentes": "<anonimizado> (37), <anonimizado> (37), <anonimizado> (36)",
+    "amostra": "<anonimizado> | <anonimizado> | <anonimizado> | <anonimizado> | <anonimizado>"
+   },
+   {
+    "coluna": "co_cidadao_unificado",
+    "tipo": "BIGINT",
+    "aceita_nulo": true,
+    "distintos": 26201,
+    "pct_nulo": 0.0,
+    "min": 278.0,
+    "max": 27703.0,
+    "media": 13875.081403598751,
+    "mais_frequentes": "<anonimizado> (37), <anonimizado> (37), <anonimizado> (36)",
+    "amostra": "<anonimizado> | <anonimizado> | <anonimizado> | <anonimizado> | <anonimizado>"
+   },
+   {
+    "coluna": "dt_atualizacao",
+    "tipo": "TIMESTAMP",
+    "aceita_nulo": true,
+    "distintos": 112782,
+    "pct_nulo": 0.0,
+    "min": null,
+    "max": null,
+    "media": null,
+    "mais_frequentes": "",
+    "amostra": "2019-11-28 10:15:43.863000-02:00 | 2019-11-28 10:15:49.481000-02:00 | 2019-11-28 10:21:01.232000-02:00 | 2019-11-28 10:21:03.137000-02:00 | 2019-11-28 10:22:02.700000-02:00"
+   },
+   {
+    "coluna": "nu_cpf",
+    "tipo": "VARCHAR(11)",
+    "aceita_nulo": true,
+    "distintos": 14825,
+    "pct_nulo": 41.74,
+    "min": null,
+    "max": null,
+    "media": null,
+    "mais_frequentes": "<anonimizado> (38), <anonimizado> (37), <anonimizado> (29)",
+    "amostra": "<anonimizado> | <anonimizado> | <anonimizado> | <anonimizado> | <anonimizado>"
+   }
+  ],
+  "amostra_linhas": [
+   {
+    "co_revisao": 67721,
+    "co_tipo_revisao": 0,
+    "co_seq_cidadao_grupo": "<anonimizado>",
+    "nu_cns": "<anonimizado>",
+    "nu_uuid_ultima_ficha": null,
+    "nu_uuid_origem": "9bdcaae2-5b59-45db-9ae2-40054683ebc3",
+    "co_cidadao": "<anonimizado>",
+    "co_cidadao_master": "<anonimizado>",
+    "co_cidadao_unificado": "<anonimizado>",
+    "dt_atualizacao": "2019-11-28 12:15:43.863000+00:00",
+    "nu_cpf": "<anonimizado>"
+   },
+   {
+    "co_revisao": 67724,
+    "co_tipo_revisao": 1,
+    "co_seq_cidadao_grupo": "<anonimizado>",
+    "nu_cns": "<anonimizado>",
+    "nu_uuid_ultima_ficha": null,
+    "nu_uuid_origem": "9bdcaae2-5b59-45db-9ae2-40054683ebc3",
+    "co_cidadao": "<anonimizado>",
+    "co_cidadao_master": "<anonimizado>",
+    "co_cidadao_unificado": "<anonimizado>",
+    "dt_atualizacao": "2019-11-28 12:15:49.481000+00:00",
+    "nu_cpf": "<anonimizado>"
+   },
+   {
+    "co_revisao": 67730,
+    "co_tipo_revisao": 0,
+    "co_seq_cidadao_grupo": "<anonimizado>",
+    "nu_cns": "<anonimizado>",
+    "nu_uuid_ultima_ficha": null,
+    "nu_uuid_origem": "6082880d-1068-491c-b936-fa9098acb11f",
+    "co_cidadao": "<anonimizado>",
+    "co_cidadao_master": "<anonimizado>",
+    "co_cidadao_unificado": "<anonimizado>",
+    "dt_atualizacao": "2019-11-28 12:21:01.232000+00:00",
+    "nu_cpf": "<anonimizado>"
+   }
+  ]
+ },
+ "pool": [
+  {
+   "tema_id": "t0",
+   "texto": "Integração de Dados"
+  },
+  {
+   "tema_id": "t1",
+   "texto": "Revisão Cadastral"
+  },
+  {
+   "tema_id": "t2",
+   "texto": "Identificação Única"
+  },
+  {
+   "tema_id": "t3",
+   "texto": "Grupos de cidadãos"
+  },
+  {
+   "tema_id": "t4",
+   "texto": "Revisões Cadastrais"
+  },
+  {
+   "tema_id": "t5",
+   "texto": "Grupo Cidadão"
+  },
+  {
+   "tema_id": "t6",
+   "texto": "Identificação de Cidadãos"
+  },
+  {
+   "tema_id": "t7",
+   "texto": "Atualizações de dados"
+  },
+  {
+   "tema_id": "t8",
+   "texto": "Revisão de Dados"
+  },
+  {
+   "tema_id": "t9",
+   "texto": "Integração de Registros"
+  },
+  {
+   "tema_id": "t10",
+   "texto": "Identificação Cidadã"
+  },
+  {
+   "tema_id": "t11",
+   "texto": "Atualização de Registros"
+  },
+  {
+   "tema_id": "t12",
+   "texto": "Cidadãos"
+  }
+ ],
+ "listas": {
+  "Sistema A": {
+   "1": [
+    "Identificação Cidadã",
+    "Revisão Cadastral",
+    "Integração de Dados"
+   ],
+   "2": [
+    "Cidadãos",
+    "Revisões Cadastrais",
+    "Identificação Única"
+   ],
+   "3": [
+    "Identificação Cidadã",
+    "Revisão de Dados",
+    "Integração de Registros"
+   ]
+  },
+  "Sistema B": {
+   "1": [
+    "Revisão de Dados",
+    "Identificação de Cidadãos",
+    "Atualização de Registros"
+   ],
+   "2": [
+    "Revisão de Dados",
+    "Identificação de Cidadãos",
+    "Atualização de Registros"
+   ],
+   "3": [
+    "Grupo Cidadão",
+    "Revisão de Dados",
+    "Identificação de Cidadãos"
+   ]
+  },
+  "Sistema C": {
+   "1": [
+    "Grupos de cidadãos",
+    "Atualizações de dados",
+    "Identificação de cidadãos"
+   ],
+   "2": [
+    "Grupos de cidadãos",
+    "Atualizações de dados",
+    "Identificação de cidadãos"
+   ],
+   "3": [
+    "Grupos de cidadãos",
+    "Atualizações de dados",
+    "Identificação de cidadãos"
+   ]
+  }
+ }
+}

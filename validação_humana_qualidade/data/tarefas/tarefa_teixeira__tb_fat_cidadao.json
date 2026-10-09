@@ -1,0 +1,690 @@
+{
+ "item_id": "teixeira__tb_fat_cidadao",
+ "table_key": "public.tb_fat_cidadao",
+ "base": "teixeira",
+ "piloto": false,
+ "contexto": {
+  "tabela": "tb_fat_cidadao",
+  "linhas": 234529,
+  "pk": [
+   "co_seq_fat_cidadao"
+  ],
+  "fks": [
+   "co_dim_equipe -> tb_dim_equipe(co_seq_dim_equipe)",
+   "co_dim_municipio -> tb_dim_municipio(co_seq_dim_municipio)",
+   "co_dim_unidade_saude -> tb_dim_unidade_saude(co_seq_dim_unidade_saude)",
+   "co_dim_linha_tempo_validade -> tb_dim_tempo(co_seq_dim_tempo)",
+   "co_dim_linha_tempo_valdd_equp -> tb_dim_tempo(co_seq_dim_tempo)",
+   "co_dim_linha_valdd_municipio -> tb_dim_tempo(co_seq_dim_tempo)",
+   "co_dim_tempo_valdd_equipe -> tb_dim_tempo(co_seq_dim_tempo)",
+   "co_dim_tempo_valdd_municipio -> tb_dim_tempo(co_seq_dim_tempo)",
+   "co_dim_tempo_valdd_unidd_saud -> tb_dim_tempo(co_seq_dim_tempo)",
+   "co_dim_tempo -> tb_dim_tempo(co_seq_dim_tempo)",
+   "co_dim_tempo_validade -> tb_dim_tempo(co_seq_dim_tempo)",
+   "co_dim_lnh_vldd_unidd_sad -> tb_dim_tempo(co_seq_dim_tempo)"
+  ],
+  "colunas": [
+   {
+    "coluna": "co_seq_fat_cidadao",
+    "tipo": "BIGINT",
+    "aceita_nulo": false,
+    "distintos": 234529,
+    "pct_nulo": 0.0,
+    "min": 13219.0,
+    "max": 249861.0,
+    "media": 131428.25601524758,
+    "mais_frequentes": "",
+    "amostra": "<anonimizado> | <anonimizado> | <anonimizado> | <anonimizado> | <anonimizado>"
+   },
+   {
+    "coluna": "nu_uuid_ficha",
+    "tipo": "VARCHAR(92)",
+    "aceita_nulo": true,
+    "distintos": 234529,
+    "pct_nulo": 0.0,
+    "min": null,
+    "max": null,
+    "media": null,
+    "mais_frequentes": "",
+    "amostra": "0849731-00031456-f805-4c5b-8ab1-1510a4b952ea | 0849731-00052875-e603-4435-bde8-0bb197ca4bb1 | 0849731-000bd0d3-02d4-4bcb-8ea7-d34fd240f0b0 | 0849731-000dcc94-be50-44e9-a535-515242890ce1 | 0849731-000dd58d-6dd8-4faf-a372-5be03badefa1"
+   },
+   {
+    "coluna": "nu_uuid_ficha_origem",
+    "tipo": "VARCHAR(96)",
+    "aceita_nulo": true,
+    "distintos": 41661,
+    "pct_nulo": 0.0,
+    "min": null,
+    "max": null,
+    "media": null,
+    "mais_frequentes": "2612852-80d5f3e8-d546-444f-beef-110dcd91e3c7 (43), 33552375-4929-4491-971e-9b8fdea5f275 (42), 2321521-0f85ffe0-0b71-4f1c-9eee-e6e274e1bd82 (41)",
+    "amostra": "001c4949-077b-455d-aa31-7749a28437d7 | 001e2ec2-0b2d-4e29-a3ba-eaeb03eab677 | 001f7667-7391-4ee1-b69a-3b84ada036ba | 0022e298-8bd6-4303-8d59-56a869e44475 | 0032880b-c71b-4caf-adad-0a4e481df589"
+   },
+   {
+    "coluna": "nu_cns",
+    "tipo": "CHAR(15)",
+    "aceita_nulo": true,
+    "distintos": 16125,
+    "pct_nulo": 0.0,
+    "min": null,
+    "max": null,
+    "media": null,
+    "mais_frequentes": "<anonimizado> (169326), <anonimizado> (34), <anonimizado> (32)",
+    "amostra": "<anonimizado> | <anonimizado> | <anonimizado> | <anonimizado> | <anonimizado>"
+   },
+   {
+    "coluna": "co_fat_cad_individual",
+    "tipo": "BIGINT",
+    "aceita_nulo": true,
+    "distintos": 234529,
+    "pct_nulo": 0.0,
+    "min": 33001.0,
+    "max": 660648.0,
+    "media": 395073.17668177496,
+    "mais_frequentes": "",
+    "amostra": "33001 | 33002 | 33003 | 33004 | 33005"
+   },
+   {
+    "coluna": "co_fat_familia",
+    "tipo": "BIGINT",
+    "aceita_nulo": true,
+    "distintos": 0,
+    "pct_nulo": 100.0,
+    "min": null,
+    "max": null,
+    "media": null,
+    "mais_frequentes": "",
+    "amostra": ""
+   },
+   {
+    "coluna": "co_dim_tempo",
+    "tipo": "BIGINT",
+    "aceita_nulo": true,
+    "distintos": 2620,
+    "pct_nulo": 0.0,
+    "min": 20100102.0,
+    "max": 20250924.0,
+    "media": 20222419.086650264,
+    "mais_frequentes": "20210118 (1092), 20241030 (962), 20220913 (814)",
+    "amostra": "20190713 | 20231204 | 20190320 | 20220930 | 20240828"
+   },
+   {
+    "coluna": "co_fat_cidadao_raiz",
+    "tipo": "BIGINT",
+    "aceita_nulo": true,
+    "distintos": 24753,
+    "pct_nulo": 0.0,
+    "min": 14592.0,
+    "max": 249861.0,
+    "media": 217559.2521948245,
+    "mais_frequentes": "<anonimizado> (48), <anonimizado> (48), <anonimizado> (47)",
+    "amostra": "<anonimizado> | <anonimizado> | <anonimizado> | <anonimizado> | <anonimizado>"
+   },
+   {
+    "coluna": "co_fat_cidadao_pai1",
+    "tipo": "BIGINT",
+    "aceita_nulo": true,
+    "distintos": 199160,
+    "pct_nulo": 15.06,
+    "min": 13220.0,
+    "max": 249740.0,
+    "media": 127092.58629431431,
+    "mais_frequentes": "",
+    "amostra": "<anonimizado> | <anonimizado> | <anonimizado> | <anonimizado> | <anonimizado>"
+   },
+   {
+    "coluna": "co_fat_cidadao_pai2",
+    "tipo": "BIGINT",
+    "aceita_nulo": true,
+    "distintos": 192868,
+    "pct_nulo": 17.76,
+    "min": 13219.0,
+    "max": 249740.0,
+    "media": 125834.37551589689,
+    "mais_frequentes": "",
+    "amostra": "<anonimizado> | <anonimizado> | <anonimizado> | <anonimizado> | <anonimizado>"
+   },
+   {
+    "coluna": "co_dim_tempo_validade",
+    "tipo": "BIGINT",
+    "aceita_nulo": true,
+    "distintos": 2514,
+    "pct_nulo": 0.0,
+    "min": 20170728.0,
+    "max": 30001231.0,
+    "media": 21257165.846168276,
+    "mais_frequentes": "30001231 (24746), 20210118 (1082), 20241030 (984)",
+    "amostra": "20170728 | 20170929 | 20171019 | 20171020 | 20171025"
+   },
+   {
+    "coluna": "co_dim_linha_tempo_validade",
+    "tipo": "BIGINT",
+    "aceita_nulo": true,
+    "distintos": 2538,
+    "pct_nulo": 0.0,
+    "min": 20170728.0,
+    "max": 30001231.0,
+    "media": 21257073.832950298,
+    "mais_frequentes": "30001231 (24752), 20210118 (1075), 20241030 (962)",
+    "amostra": "20190713 | 20231204 | 20190320 | 20220930 | 20240828"
+   },
+   {
+    "coluna": "co_fat_cidadao_raiz_equipe",
+    "tipo": "BIGINT",
+    "aceita_nulo": true,
+    "distintos": 38368,
+    "pct_nulo": 0.0,
+    "min": 13293.0,
+    "max": 249861.0,
+    "media": 194608.7450464548,
+    "mais_frequentes": "<anonimizado> (43), <anonimizado> (43), <anonimizado> (42)",
+    "amostra": "<anonimizado> | <anonimizado> | <anonimizado> | <anonimizado> | <anonimizado>"
+   },
+   {
+    "coluna": "co_fat_cidadao_pai1_equipe",
+    "tipo": "BIGINT",
+    "aceita_nulo": true,
+    "distintos": 186022,
+    "pct_nulo": 20.67,
+    "min": 13220.0,
+    "max": 249740.0,
+    "media": 127593.72564954261,
+    "mais_frequentes": "",
+    "amostra": "<anonimizado> | <anonimizado> | <anonimizado> | <anonimizado> | <anonimizado>"
+   },
+   {
+    "coluna": "co_fat_cidadao_pai2_equipe",
+    "tipo": "BIGINT",
+    "aceita_nulo": true,
+    "distintos": 180393,
+    "pct_nulo": 23.08,
+    "min": 13219.0,
+    "max": 249740.0,
+    "media": 126318.83052557471,
+    "mais_frequentes": "",
+    "amostra": "<anonimizado> | <anonimizado> | <anonimizado> | <anonimizado> | <anonimizado>"
+   },
+   {
+    "coluna": "co_dim_tempo_valdd_equipe",
+    "tipo": "BIGINT",
+    "aceita_nulo": true,
+    "distintos": 2506,
+    "pct_nulo": 0.0,
+    "min": 20170728.0,
+    "max": 30001231.0,
+    "media": 21823462.74983051,
+    "mais_frequentes": "30001231 (38332), 20210118 (1076), 20241030 (978)",
+    "amostra": "20170728 | 20170929 | 20171019 | 20171020 | 20171025"
+   },
+   {
+    "coluna": "co_dim_linha_tempo_valdd_equp",
+    "tipo": "BIGINT",
+    "aceita_nulo": true,
+    "distintos": 2522,
+    "pct_nulo": 0.0,
+    "min": 20170728.0,
+    "max": 30001231.0,
+    "media": 21824717.759743996,
+    "mais_frequentes": "30001231 (38367), 20210118 (1071), 20241030 (960)",
+    "amostra": "20190713 | 20231204 | 20190320 | 20220930 | 20240828"
+   },
+   {
+    "coluna": "co_fat_cidadao_raiz_undde_sade",
+    "tipo": "BIGINT",
+    "aceita_nulo": true,
+    "distintos": 38318,
+    "pct_nulo": 0.0,
+    "min": 13293.0,
+    "max": 249861.0,
+    "media": 194639.9975610692,
+    "mais_frequentes": "<anonimizado> (43), <anonimizado> (43), <anonimizado> (42)",
+    "amostra": "<anonimizado> | <anonimizado> | <anonimizado> | <anonimizado> | <anonimizado>"
+   },
+   {
+    "coluna": "co_fat_cidadao_pai1_undde_sade",
+    "tipo": "BIGINT",
+    "aceita_nulo": true,
+    "distintos": 186072,
+    "pct_nulo": 20.65,
+    "min": 13220.0,
+    "max": 249740.0,
+    "media": 127570.26515281778,
+    "mais_frequentes": "",
+    "amostra": "<anonimizado> | <anonimizado> | <anonimizado> | <anonimizado> | <anonimizado>"
+   },
+   {
+    "coluna": "co_fat_cidadao_pai2_undde_sade",
+    "tipo": "BIGINT",
+    "aceita_nulo": true,
+    "distintos": 180433,
+    "pct_nulo": 23.07,
+    "min": 13219.0,
+    "max": 249740.0,
+    "media": 126300.84178614776,
+    "mais_frequentes": "",
+    "amostra": "<anonimizado> | <anonimizado> | <anonimizado> | <anonimizado> | <anonimizado>"
+   },
+   {
+    "coluna": "co_dim_tempo_valdd_unidd_saud",
+    "tipo": "BIGINT",
+    "aceita_nulo": true,
+    "distintos": 2506,
+    "pct_nulo": 0.0,
+    "min": 20170728.0,
+    "max": 30001231.0,
+    "media": 21821374.372405972,
+    "mais_frequentes": "30001231 (38282), 20210118 (1076), 20241030 (978)",
+    "amostra": "20170728 | 20170929 | 20171019 | 20171020 | 20171025"
+   },
+   {
+    "coluna": "co_dim_lnh_vldd_unidd_sad",
+    "tipo": "BIGINT",
+    "aceita_nulo": true,
+    "distintos": 2522,
+    "pct_nulo": 0.0,
+    "min": 20170728.0,
+    "max": 30001231.0,
+    "media": 21822626.443322573,
+    "mais_frequentes": "30001231 (38317), 20210118 (1071), 20241030 (960)",
+    "amostra": "20190713 | 20231204 | 20190320 | 20220930 | 20240828"
+   },
+   {
+    "coluna": "co_fat_cidadao_raiz_municipio",
+    "tipo": "BIGINT",
+    "aceita_nulo": true,
+    "distintos": 24753,
+    "pct_nulo": 0.0,
+    "min": 14592.0,
+    "max": 249861.0,
+    "media": 217559.2521948245,
+    "mais_frequentes": "<anonimizado> (48), <anonimizado> (48), <anonimizado> (47)",
+    "amostra": "<anonimizado> | <anonimizado> | <anonimizado> | <anonimizado> | <anonimizado>"
+   },
+   {
+    "coluna": "co_fat_cidadao_pai1_municipio",
+    "tipo": "BIGINT",
+    "aceita_nulo": true,
+    "distintos": 199160,
+    "pct_nulo": 15.06,
+    "min": 13220.0,
+    "max": 249740.0,
+    "media": 127092.58629431431,
+    "mais_frequentes": "",
+    "amostra": "<anonimizado> | <anonimizado> | <anonimizado> | <anonimizado> | <anonimizado>"
+   },
+   {
+    "coluna": "co_fat_cidadao_pai2_municipio",
+    "tipo": "BIGINT",
+    "aceita_nulo": true,
+    "distintos": 192868,
+    "pct_nulo": 17.76,
+    "min": 13219.0,
+    "max": 249740.0,
+    "media": 125834.37551589689,
+    "mais_frequentes": "",
+    "amostra": "<anonimizado> | <anonimizado> | <anonimizado> | <anonimizado> | <anonimizado>"
+   },
+   {
+    "coluna": "co_dim_tempo_valdd_municipio",
+    "tipo": "BIGINT",
+    "aceita_nulo": true,
+    "distintos": 2514,
+    "pct_nulo": 0.0,
+    "min": 20170728.0,
+    "max": 30001231.0,
+    "media": 21257165.846168276,
+    "mais_frequentes": "30001231 (24746), 20210118 (1082), 20241030 (984)",
+    "amostra": "20170728 | 20170929 | 20171019 | 20171020 | 20171025"
+   },
+   {
+    "coluna": "co_dim_linha_valdd_municipio",
+    "tipo": "BIGINT",
+    "aceita_nulo": true,
+    "distintos": 2538,
+    "pct_nulo": 0.0,
+    "min": 20170728.0,
+    "max": 30001231.0,
+    "media": 21257073.832950298,
+    "mais_frequentes": "30001231 (24752), 20210118 (1075), 20241030 (962)",
+    "amostra": "20190713 | 20231204 | 20190320 | 20220930 | 20240828"
+   },
+   {
+    "coluna": "co_dim_municipio",
+    "tipo": "BIGINT",
+    "aceita_nulo": true,
+    "distintos": 1,
+    "pct_nulo": 0.0,
+    "min": 218.0,
+    "max": 218.0,
+    "media": 218.0,
+    "mais_frequentes": "218 (234529)",
+    "amostra": "218"
+   },
+   {
+    "coluna": "co_dim_unidade_saude",
+    "tipo": "BIGINT",
+    "aceita_nulo": true,
+    "distintos": 13,
+    "pct_nulo": 0.0,
+    "min": 9.0,
+    "max": 26.0,
+    "media": 15.144920244404743,
+    "mais_frequentes": "17 (49575), 9 (43337), 13 (33159)",
+    "amostra": "14 | 25 | 17 | 19 | 21"
+   },
+   {
+    "coluna": "co_dim_equipe",
+    "tipo": "BIGINT",
+    "aceita_nulo": true,
+    "distintos": 13,
+    "pct_nulo": 0.0,
+    "min": 1.0,
+    "max": 23.0,
+    "media": 12.345773870182365,
+    "mais_frequentes": "14 (49575), 7 (43336), 9 (33107)",
+    "amostra": "14 | 12 | 8 | 1 | 21"
+   },
+   {
+    "coluna": "st_responsavel_familiar",
+    "tipo": "INTEGER",
+    "aceita_nulo": true,
+    "distintos": 2,
+    "pct_nulo": 0.75,
+    "min": 0.0,
+    "max": 1.0,
+    "media": 0.3872572606977144,
+    "mais_frequentes": "<anonimizado> (142622), <anonimizado> (90138)",
+    "amostra": "<anonimizado> | <anonimizado>"
+   },
+   {
+    "coluna": "st_mudou",
+    "tipo": "INTEGER",
+    "aceita_nulo": true,
+    "distintos": 2,
+    "pct_nulo": 0.0,
+    "min": 0.0,
+    "max": 1.0,
+    "media": 0.06327149307761513,
+    "mais_frequentes": "0 (219690), 1 (14839)",
+    "amostra": "0 | 1"
+   },
+   {
+    "coluna": "st_vivo",
+    "tipo": "INTEGER",
+    "aceita_nulo": true,
+    "distintos": 2,
+    "pct_nulo": 0.0,
+    "min": 0.0,
+    "max": 1.0,
+    "media": 0.9959066895778347,
+    "mais_frequentes": "1 (233569), 0 (960)",
+    "amostra": "0 | 1"
+   },
+   {
+    "coluna": "st_ativo_territorio",
+    "tipo": "INTEGER",
+    "aceita_nulo": true,
+    "distintos": 2,
+    "pct_nulo": 0.0,
+    "min": 0.0,
+    "max": 1.0,
+    "media": 0.9326351965002196,
+    "mais_frequentes": "1 (218730), 0 (15799)",
+    "amostra": "0 | 1"
+   },
+   {
+    "coluna": "st_processo_linha_tempo",
+    "tipo": "INTEGER",
+    "aceita_nulo": true,
+    "distintos": 1,
+    "pct_nulo": 0.0,
+    "min": 0.0,
+    "max": 0.0,
+    "media": 0.0,
+    "mais_frequentes": "0 (234529)",
+    "amostra": "0"
+   },
+   {
+    "coluna": "st_processo_familia",
+    "tipo": "INTEGER",
+    "aceita_nulo": true,
+    "distintos": 1,
+    "pct_nulo": 0.0,
+    "min": 0.0,
+    "max": 0.0,
+    "media": 0.0,
+    "mais_frequentes": "0 (234529)",
+    "amostra": "0"
+   },
+   {
+    "coluna": "st_ficha_inativa",
+    "tipo": "INTEGER",
+    "aceita_nulo": true,
+    "distintos": 2,
+    "pct_nulo": 0.0,
+    "min": 0.0,
+    "max": 1.0,
+    "media": 0.009444461026141757,
+    "mais_frequentes": "0 (232314), 1 (2215)",
+    "amostra": "0 | 1"
+   },
+   {
+    "coluna": "nu_cpf_cidadao",
+    "tipo": "VARCHAR(11)",
+    "aceita_nulo": true,
+    "distintos": 18816,
+    "pct_nulo": 0.0,
+    "min": null,
+    "max": null,
+    "media": null,
+    "mais_frequentes": "<anonimizado> (65585), <anonimizado> (44), <anonimizado> (40)",
+    "amostra": "<anonimizado> | <anonimizado> | <anonimizado> | <anonimizado> | <anonimizado>"
+   }
+  ],
+  "amostra_linhas": [
+   {
+    "co_seq_fat_cidadao": "<anonimizado>",
+    "nu_uuid_ficha": "2321521-09a4aa3e-632b-4e9b-ae73-8d8d803008d6",
+    "nu_uuid_ficha_origem": "2321521-741b0b85-5410-455c-a44d-4b6e7a661737",
+    "nu_cns": "<anonimizado>",
+    "co_fat_cad_individual": 387129,
+    "co_fat_familia": null,
+    "co_dim_tempo": 20220714,
+    "co_fat_cidadao_raiz": "<anonimizado>",
+    "co_fat_cidadao_pai1": "<anonimizado>",
+    "co_fat_cidadao_pai2": "<anonimizado>",
+    "co_dim_tempo_validade": 30001231,
+    "co_dim_linha_tempo_validade": 30001231,
+    "co_fat_cidadao_raiz_equipe": "<anonimizado>",
+    "co_fat_cidadao_pai1_equipe": "<anonimizado>",
+    "co_fat_cidadao_pai2_equipe": "<anonimizado>",
+    "co_dim_tempo_valdd_equipe": 30001231,
+    "co_dim_linha_tempo_valdd_equp": 30001231,
+    "co_fat_cidadao_raiz_undde_sade": "<anonimizado>",
+    "co_fat_cidadao_pai1_undde_sade": "<anonimizado>",
+    "co_fat_cidadao_pai2_undde_sade": "<anonimizado>",
+    "co_dim_tempo_valdd_unidd_saud": 30001231,
+    "co_dim_lnh_vldd_unidd_sad": 30001231,
+    "co_fat_cidadao_raiz_municipio": "<anonimizado>",
+    "co_fat_cidadao_pai1_municipio": "<anonimizado>",
+    "co_fat_cidadao_pai2_municipio": "<anonimizado>",
+    "co_dim_tempo_valdd_municipio": 30001231,
+    "co_dim_linha_valdd_municipio": 30001231,
+    "co_dim_municipio": 218,
+    "co_dim_unidade_saude": 16,
+    "co_dim_equipe": 13,
+    "st_responsavel_familiar": "<anonimizado>",
+    "st_mudou": 1,
+    "st_vivo": 1,
+    "st_ativo_territorio": 0,
+    "st_processo_linha_tempo": 0,
+    "st_processo_familia": 0,
+    "st_ficha_inativa": 0,
+    "nu_cpf_cidadao": "<anonimizado>"
+   },
+   {
+    "co_seq_fat_cidadao": "<anonimizado>",
+    "nu_uuid_ficha": "2321513-2cd5fc4d-cbdf-4393-89a6-ba36c4d28bae",
+    "nu_uuid_ficha_origem": "2321513-2cd5fc4d-cbdf-4393-89a6-ba36c4d28bae",
+    "nu_cns": "<anonimizado>",
+    "co_fat_cad_individual": 153531,
+    "co_fat_familia": null,
+    "co_dim_tempo": 20190610,
+    "co_fat_cidadao_raiz": "<anonimizado>",
+    "co_fat_cidadao_pai1": "<anonimizado>",
+    "co_fat_cidadao_pai2": "<anonimizado>",
+    "co_dim_tempo_validade": 20200304,
+    "co_dim_linha_tempo_validade": 20200304,
+    "co_fat_cidadao_raiz_equipe": "<anonimizado>",
+    "co_fat_cidadao_pai1_equipe": "<anonimizado>",
+    "co_fat_cidadao_pai2_equipe": "<anonimizado>",
+    "co_dim_tempo_valdd_equipe": 20200304,
+    "co_dim_linha_tempo_valdd_equp": 20200304,
+    "co_fat_cidadao_raiz_undde_sade": "<anonimizado>",
+    "co_fat_cidadao_pai1_undde_sade": "<anonimizado>",
+    "co_fat_cidadao_pai2_undde_sade": "<anonimizado>",
+    "co_dim_tempo_valdd_unidd_saud": 20200304,
+    "co_dim_lnh_vldd_unidd_sad": 20200304,
+    "co_fat_cidadao_raiz_municipio": "<anonimizado>",
+    "co_fat_cidadao_pai1_municipio": "<anonimizado>",
+    "co_fat_cidadao_pai2_municipio": "<anonimizado>",
+    "co_dim_tempo_valdd_municipio": 20200304,
+    "co_dim_linha_valdd_municipio": 20200304,
+    "co_dim_municipio": 218,
+    "co_dim_unidade_saude": 13,
+    "co_dim_equipe": 9,
+    "st_responsavel_familiar": "<anonimizado>",
+    "st_mudou": 0,
+    "st_vivo": 1,
+    "st_ativo_territorio": 1,
+    "st_processo_linha_tempo": 0,
+    "st_processo_familia": 0,
+    "st_ficha_inativa": 0,
+    "nu_cpf_cidadao": "<anonimizado>"
+   },
+   {
+    "co_seq_fat_cidadao": "<anonimizado>",
+    "nu_uuid_ficha": "2612852-ca3e5630-681e-447d-80e7-c21fb73d50e8",
+    "nu_uuid_ficha_origem": "2612852-66209ba8-5015-4c42-a1b7-b428a956d4d0",
+    "nu_cns": "<anonimizado>",
+    "co_fat_cad_individual": 522001,
+    "co_fat_familia": null,
+    "co_dim_tempo": 20230825,
+    "co_fat_cidadao_raiz": "<anonimizado>",
+    "co_fat_cidadao_pai1": "<anonimizado>",
+    "co_fat_cidadao_pai2": "<anonimizado>",
+    "co_dim_tempo_validade": 30001231,
+    "co_dim_linha_tempo_validade": 30001231,
+    "co_fat_cidadao_raiz_equipe": "<anonimizado>",
+    "co_fat_cidadao_pai1_equipe": "<anonimizado>",
+    "co_fat_cidadao_pai2_equipe": "<anonimizado>",
+    "co_dim_tempo_valdd_equipe": 30001231,
+    "co_dim_linha_tempo_valdd_equp": 30001231,
+    "co_fat_cidadao_raiz_undde_sade": "<anonimizado>",
+    "co_fat_cidadao_pai1_undde_sade": "<anonimizado>",
+    "co_fat_cidadao_pai2_undde_sade": "<anonimizado>",
+    "co_dim_tempo_valdd_unidd_saud": 30001231,
+    "co_dim_lnh_vldd_unidd_sad": 30001231,
+    "co_fat_cidadao_raiz_municipio": "<anonimizado>",
+    "co_fat_cidadao_pai1_municipio": "<anonimizado>",
+    "co_fat_cidadao_pai2_municipio": "<anonimizado>",
+    "co_dim_tempo_valdd_municipio": 30001231,
+    "co_dim_linha_valdd_municipio": 30001231,
+    "co_dim_municipio": 218,
+    "co_dim_unidade_saude": 17,
+    "co_dim_equipe": 14,
+    "st_responsavel_familiar": "<anonimizado>",
+    "st_mudou": 0,
+    "st_vivo": 0,
+    "st_ativo_territorio": 0,
+    "st_processo_linha_tempo": 0,
+    "st_processo_familia": 0,
+    "st_ficha_inativa": 0,
+    "nu_cpf_cidadao": "<anonimizado>"
+   }
+  ]
+ },
+ "pool": [
+  {
+   "tema_id": "t0",
+   "texto": "Demografia"
+  },
+  {
+   "tema_id": "t1",
+   "texto": "Território"
+  },
+  {
+   "tema_id": "t2",
+   "texto": "Cidadãos Cadastrados"
+  },
+  {
+   "tema_id": "t3",
+   "texto": "Mudanças territoriais"
+  },
+  {
+   "tema_id": "t4",
+   "texto": "Mudança territorial"
+  },
+  {
+   "tema_id": "t5",
+   "texto": "Cadastro de Cidadãos"
+  },
+  {
+   "tema_id": "t6",
+   "texto": "Saúde Pública"
+  },
+  {
+   "tema_id": "t7",
+   "texto": "Análise Demográfica"
+  },
+  {
+   "tema_id": "t8",
+   "texto": "Unidades de Saúde"
+  }
+ ],
+ "listas": {
+  "Sistema A": {
+   "1": [
+    "Saúde pública",
+    "Demografia",
+    "Mudança territorial"
+   ],
+   "2": [
+    "Saúde pública",
+    "Demografia",
+    "Mudanças territoriais"
+   ],
+   "3": [
+    "Saúde pública",
+    "Demografia",
+    "Território"
+   ]
+  },
+  "Sistema B": {
+   "1": [],
+   "2": [],
+   "3": [
+    "Saúde Pública",
+    "Cadastro de Cidadãos",
+    "Análise Demográfica"
+   ]
+  },
+  "Sistema C": {
+   "1": [
+    "Saúde Pública",
+    "Cidadãos Cadastrados",
+    "Unidades de Saúde"
+   ],
+   "2": [
+    "Saúde Pública",
+    "Cidadãos Cadastrados",
+    "Unidades de Saúde"
+   ],
+   "3": [
+    "Saúde Pública",
+    "Cidadãos Cadastrados",
+    "Unidades de Saúde"
+   ]
+  }
+ }
+}

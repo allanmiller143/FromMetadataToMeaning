@@ -1,0 +1,201 @@
+{
+ "item_id": "magento2__log_summary_type",
+ "table_key": "magento2.log_summary_type",
+ "base": "magento2",
+ "piloto": false,
+ "contexto": {
+  "tabela": "log_summary_type",
+  "linhas": 2,
+  "pk": [
+   "type_id"
+  ],
+  "fks": [],
+  "colunas": [
+   {
+    "coluna": "type_id",
+    "tipo": "SMALLINT",
+    "aceita_nulo": false,
+    "distintos": 2,
+    "pct_nulo": 0.0,
+    "min": 1.0,
+    "max": 2.0,
+    "media": 1.5,
+    "mais_frequentes": "",
+    "amostra": "1 | 2"
+   },
+   {
+    "coluna": "type_code",
+    "tipo": "VARCHAR(64)",
+    "aceita_nulo": true,
+    "distintos": 2,
+    "pct_nulo": 0.0,
+    "min": null,
+    "max": null,
+    "media": null,
+    "mais_frequentes": "",
+    "amostra": "hour | day"
+   },
+   {
+    "coluna": "period",
+    "tipo": "SMALLINT",
+    "aceita_nulo": false,
+    "distintos": 1,
+    "pct_nulo": 0.0,
+    "min": 1.0,
+    "max": 1.0,
+    "media": 1.0,
+    "mais_frequentes": "",
+    "amostra": "1"
+   },
+   {
+    "coluna": "period_type",
+    "tipo": "VARCHAR(6)",
+    "aceita_nulo": false,
+    "distintos": 2,
+    "pct_nulo": 0.0,
+    "min": null,
+    "max": null,
+    "media": null,
+    "mais_frequentes": "",
+    "amostra": "HOUR | DAY"
+   }
+  ],
+  "amostra_linhas": [
+   {
+    "type_id": 1,
+    "type_code": "hour",
+    "period": 1,
+    "period_type": "HOUR"
+   },
+   {
+    "type_id": 2,
+    "type_code": "day",
+    "period": 1,
+    "period_type": "DAY"
+   }
+  ]
+ },
+ "pool": [
+  {
+   "tema_id": "t0",
+   "texto": "configuração de logs"
+  },
+  {
+   "tema_id": "t1",
+   "texto": "periodicidade de registros"
+  },
+  {
+   "tema_id": "t2",
+   "texto": "periodicidade de logs"
+  },
+  {
+   "tema_id": "t3",
+   "texto": "periodicidade de log"
+  },
+  {
+   "tema_id": "t4",
+   "texto": "períodos de registro"
+  },
+  {
+   "tema_id": "t5",
+   "texto": "tipos de log"
+  },
+  {
+   "tema_id": "t6",
+   "texto": "tipos de resumo"
+  },
+  {
+   "tema_id": "t7",
+   "texto": "tipos de agregação de log"
+  },
+  {
+   "tema_id": "t8",
+   "texto": "agregação de logs"
+  },
+  {
+   "tema_id": "t9",
+   "texto": "log de atividades"
+  },
+  {
+   "tema_id": "t10",
+   "texto": "configuração de log"
+  },
+  {
+   "tema_id": "t11",
+   "texto": "tipos de agregação temporal"
+  },
+  {
+   "tema_id": "t12",
+   "texto": "log de atividades por dia"
+  },
+  {
+   "tema_id": "t13",
+   "texto": "tipos de sumarização"
+  },
+  {
+   "tema_id": "t14",
+   "texto": "períodos de sumarização"
+  },
+  {
+   "tema_id": "t15",
+   "texto": "log de atividades por hora"
+  },
+  {
+   "tema_id": "t16",
+   "texto": "tipos de resumo de log"
+  }
+ ],
+ "listas": {
+  "Sistema A": {
+   "1": [
+    "tipos de agregação temporal",
+    "configuração de logs",
+    "períodos de sumarização"
+   ],
+   "2": [
+    "tipos de agregação de log",
+    "periodicidade de log",
+    "configuração de log"
+   ],
+   "3": [
+    "tipos de agregação temporal",
+    "configuração de logs",
+    "períodos de sumarização"
+   ]
+  },
+  "Sistema B": {
+   "1": [
+    "log de atividades",
+    "tipos de resumo",
+    "períodos de registro"
+   ],
+   "2": [
+    "log de atividades",
+    "tipos de resumo",
+    "períodos de registro"
+   ],
+   "3": [
+    "log de atividades por hora",
+    "log de atividades por dia",
+    "tipos de resumo de log"
+   ]
+  },
+  "Sistema C": {
+   "1": [
+    "tipos de log",
+    "agregação de logs",
+    "periodicidade de logs"
+   ],
+   "2": [
+    "agregação de logs",
+    "periodicidade de logs",
+    "tipos de resumo"
+   ],
+   "3": [
+    "agregação de logs",
+    "periodicidade de registros",
+    "tipos de sumarização"
+   ]
+  }
+ }
+}

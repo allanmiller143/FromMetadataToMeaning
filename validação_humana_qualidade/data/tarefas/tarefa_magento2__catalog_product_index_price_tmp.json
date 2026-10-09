@@ -1,0 +1,279 @@
+{
+ "item_id": "magento2__catalog_product_index_price_tmp",
+ "table_key": "magento2.catalog_product_index_price_tmp",
+ "base": "magento2",
+ "piloto": false,
+ "contexto": {
+  "tabela": "catalog_product_index_price_tmp",
+  "linhas": 5,
+  "pk": [
+   "entity_id",
+   "customer_group_id",
+   "website_id"
+  ],
+  "fks": [],
+  "colunas": [
+   {
+    "coluna": "entity_id",
+    "tipo": "INTEGER",
+    "aceita_nulo": false,
+    "distintos": 1,
+    "pct_nulo": 0.0,
+    "min": 166.0,
+    "max": 166.0,
+    "media": 166.0,
+    "mais_frequentes": "166 (5)",
+    "amostra": "166"
+   },
+   {
+    "coluna": "customer_group_id",
+    "tipo": "SMALLINT",
+    "aceita_nulo": false,
+    "distintos": 5,
+    "pct_nulo": 0.0,
+    "min": 0.0,
+    "max": 4.0,
+    "media": 2.0,
+    "mais_frequentes": "",
+    "amostra": "0 | 1 | 2 | 3 | 4"
+   },
+   {
+    "coluna": "website_id",
+    "tipo": "SMALLINT",
+    "aceita_nulo": false,
+    "distintos": 1,
+    "pct_nulo": 0.0,
+    "min": 1.0,
+    "max": 1.0,
+    "media": 1.0,
+    "mais_frequentes": "1 (5)",
+    "amostra": "1"
+   },
+   {
+    "coluna": "tax_class_id",
+    "tipo": "SMALLINT",
+    "aceita_nulo": true,
+    "distintos": 1,
+    "pct_nulo": 0.0,
+    "min": 2.0,
+    "max": 2.0,
+    "media": 2.0,
+    "mais_frequentes": "2 (5)",
+    "amostra": "2"
+   },
+   {
+    "coluna": "price",
+    "tipo": "DECIMAL(12, 4)",
+    "aceita_nulo": true,
+    "distintos": 1,
+    "pct_nulo": 0.0,
+    "min": 750.0,
+    "max": 750.0,
+    "media": 750.0,
+    "mais_frequentes": "750.0000 (5)",
+    "amostra": "750.0000"
+   },
+   {
+    "coluna": "final_price",
+    "tipo": "DECIMAL(12, 4)",
+    "aceita_nulo": true,
+    "distintos": 1,
+    "pct_nulo": 0.0,
+    "min": 750.0,
+    "max": 750.0,
+    "media": 750.0,
+    "mais_frequentes": "750.0000 (5)",
+    "amostra": "750.0000"
+   },
+   {
+    "coluna": "min_price",
+    "tipo": "DECIMAL(12, 4)",
+    "aceita_nulo": true,
+    "distintos": 1,
+    "pct_nulo": 0.0,
+    "min": 750.0,
+    "max": 750.0,
+    "media": 750.0,
+    "mais_frequentes": "750.0000 (5)",
+    "amostra": "750.0000"
+   },
+   {
+    "coluna": "max_price",
+    "tipo": "DECIMAL(12, 4)",
+    "aceita_nulo": true,
+    "distintos": 1,
+    "pct_nulo": 0.0,
+    "min": 750.0,
+    "max": 750.0,
+    "media": 750.0,
+    "mais_frequentes": "750.0000 (5)",
+    "amostra": "750.0000"
+   },
+   {
+    "coluna": "tier_price",
+    "tipo": "DECIMAL(12, 4)",
+    "aceita_nulo": true,
+    "distintos": 0,
+    "pct_nulo": 100.0,
+    "min": null,
+    "max": null,
+    "media": null,
+    "mais_frequentes": "",
+    "amostra": ""
+   },
+   {
+    "coluna": "group_price",
+    "tipo": "DECIMAL(12, 4)",
+    "aceita_nulo": true,
+    "distintos": 0,
+    "pct_nulo": 100.0,
+    "min": null,
+    "max": null,
+    "media": null,
+    "mais_frequentes": "",
+    "amostra": ""
+   }
+  ],
+  "amostra_linhas": [
+   {
+    "entity_id": 166,
+    "customer_group_id": 0,
+    "website_id": 1,
+    "tax_class_id": 2,
+    "price": 750.0,
+    "final_price": 750.0,
+    "min_price": 750.0,
+    "max_price": 750.0,
+    "tier_price": null,
+    "group_price": null
+   },
+   {
+    "entity_id": 166,
+    "customer_group_id": 1,
+    "website_id": 1,
+    "tax_class_id": 2,
+    "price": 750.0,
+    "final_price": 750.0,
+    "min_price": 750.0,
+    "max_price": 750.0,
+    "tier_price": null,
+    "group_price": null
+   },
+   {
+    "entity_id": 166,
+    "customer_group_id": 2,
+    "website_id": 1,
+    "tax_class_id": 2,
+    "price": 750.0,
+    "final_price": 750.0,
+    "min_price": 750.0,
+    "max_price": 750.0,
+    "tier_price": null,
+    "group_price": null
+   }
+  ]
+ },
+ "pool": [
+  {
+   "tema_id": "t0",
+   "texto": "classificação de impostos"
+  },
+  {
+   "tema_id": "t1",
+   "texto": "classificação fiscal"
+  },
+  {
+   "tema_id": "t2",
+   "texto": "preço por website"
+  },
+  {
+   "tema_id": "t3",
+   "texto": "grupo de clientes"
+  },
+  {
+   "tema_id": "t4",
+   "texto": "cálculo de impostos"
+  },
+  {
+   "tema_id": "t5",
+   "texto": "preços de produtos"
+  },
+  {
+   "tema_id": "t6",
+   "texto": "preço por grupo de clientes"
+  },
+  {
+   "tema_id": "t7",
+   "texto": "preço por grupo de cliente"
+  },
+  {
+   "tema_id": "t8",
+   "texto": "índice de precificação"
+  },
+  {
+   "tema_id": "t9",
+   "texto": "preço de produtos"
+  },
+  {
+   "tema_id": "t10",
+   "texto": "índice de preços"
+  },
+  {
+   "tema_id": "t11",
+   "texto": "estrutura de grupos de clientes"
+  }
+ ],
+ "listas": {
+  "Sistema A": {
+   "1": [
+    "preços de produtos",
+    "cálculo de impostos",
+    "estrutura de grupos de clientes"
+   ],
+   "2": [
+    "preços de produtos",
+    "cálculo de impostos",
+    "estrutura de grupos de clientes"
+   ],
+   "3": [
+    "preços de produtos",
+    "índice de precificação",
+    "cálculo de impostos"
+   ]
+  },
+  "Sistema B": {
+   "1": [
+    "índice de preços",
+    "preço por grupo de clientes",
+    "preço por website"
+   ],
+   "2": [
+    "índice de preços",
+    "preço por grupo de clientes",
+    "preço por website"
+   ],
+   "3": [
+    "índice de preços",
+    "preço por grupo de cliente",
+    "preço por website"
+   ]
+  },
+  "Sistema C": {
+   "1": [
+    "preço de produtos",
+    "grupo de clientes",
+    "classificação fiscal"
+   ],
+   "2": [
+    "preço de produtos",
+    "grupo de clientes",
+    "classificação de impostos"
+   ],
+   "3": [
+    "preço de produtos",
+    "grupo de clientes",
+    "classificação fiscal"
+   ]
+  }
+ }
+}

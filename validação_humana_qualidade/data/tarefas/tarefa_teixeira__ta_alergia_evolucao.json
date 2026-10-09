@@ -1,0 +1,345 @@
+{
+ "item_id": "teixeira__ta_alergia_evolucao",
+ "table_key": "public.ta_alergia_evolucao",
+ "base": "teixeira",
+ "piloto": false,
+ "contexto": {
+  "tabela": "ta_alergia_evolucao",
+  "linhas": 25,
+  "pk": [
+   "co_seq_taalergiaevolucao"
+  ],
+  "fks": [],
+  "colunas": [
+   {
+    "coluna": "co_seq_taalergiaevolucao",
+    "tipo": "BIGINT",
+    "aceita_nulo": false,
+    "distintos": 25,
+    "pct_nulo": 0.0,
+    "min": 1.0,
+    "max": 25.0,
+    "media": 13.0,
+    "mais_frequentes": "",
+    "amostra": "<anonimizado> | <anonimizado> | <anonimizado> | <anonimizado> | <anonimizado>"
+   },
+   {
+    "coluna": "co_tipo_auditoria",
+    "tipo": "CHAR(1)",
+    "aceita_nulo": false,
+    "distintos": 1,
+    "pct_nulo": 0.0,
+    "min": null,
+    "max": null,
+    "media": null,
+    "mais_frequentes": "I (25)",
+    "amostra": "I"
+   },
+   {
+    "coluna": "dt_auditoria",
+    "tipo": "TIMESTAMP",
+    "aceita_nulo": false,
+    "distintos": 21,
+    "pct_nulo": 0.0,
+    "min": null,
+    "max": null,
+    "media": null,
+    "mais_frequentes": "",
+    "amostra": "2025-07-02 09:29:22.657213 | 2023-08-25 10:44:38.322756 | 2025-05-09 14:02:19.016948 | 2025-03-12 10:03:29.003666 | 2025-06-13 09:05:33.628948"
+   },
+   {
+    "coluna": "co_seq_alergia_evolucao",
+    "tipo": "BIGINT",
+    "aceita_nulo": true,
+    "distintos": 25,
+    "pct_nulo": 0.0,
+    "min": 1.0,
+    "max": 25.0,
+    "media": 13.0,
+    "mais_frequentes": "",
+    "amostra": "<anonimizado> | <anonimizado> | <anonimizado> | <anonimizado> | <anonimizado>"
+   },
+   {
+    "coluna": "co_unico_alergia",
+    "tipo": "BIGINT",
+    "aceita_nulo": true,
+    "distintos": 25,
+    "pct_nulo": 0.0,
+    "min": 1.0,
+    "max": 25.0,
+    "media": 13.0,
+    "mais_frequentes": "",
+    "amostra": "<anonimizado> | <anonimizado> | <anonimizado> | <anonimizado> | <anonimizado>"
+   },
+   {
+    "coluna": "no_manifestacoes",
+    "tipo": "VARCHAR(800)",
+    "aceita_nulo": true,
+    "distintos": 0,
+    "pct_nulo": 100.0,
+    "min": null,
+    "max": null,
+    "media": null,
+    "mais_frequentes": "",
+    "amostra": ""
+   },
+   {
+    "coluna": "st_alergia_avaliada",
+    "tipo": "INTEGER",
+    "aceita_nulo": true,
+    "distintos": 2,
+    "pct_nulo": 0.0,
+    "min": 0.0,
+    "max": 1.0,
+    "media": 0.44,
+    "mais_frequentes": "<anonimizado> (14), <anonimizado> (11)",
+    "amostra": "<anonimizado> | <anonimizado>"
+   },
+   {
+    "coluna": "co_criticidade_alergia",
+    "tipo": "BIGINT",
+    "aceita_nulo": true,
+    "distintos": 3,
+    "pct_nulo": 0.0,
+    "min": 0.0,
+    "max": 2.0,
+    "media": 1.04,
+    "mais_frequentes": "<anonimizado> (12), <anonimizado> (7), <anonimizado> (6)",
+    "amostra": "<anonimizado> | <anonimizado> | <anonimizado>"
+   },
+   {
+    "coluna": "co_atend_prof",
+    "tipo": "BIGINT",
+    "aceita_nulo": true,
+    "distintos": 21,
+    "pct_nulo": 0.0,
+    "min": 159186.0,
+    "max": 386774.0,
+    "media": 272568.04,
+    "mais_frequentes": "",
+    "amostra": "245381 | 239459 | 222823 | 159186 | 333995"
+   },
+   {
+    "coluna": "co_tipo_reacao_alergia",
+    "tipo": "BIGINT",
+    "aceita_nulo": true,
+    "distintos": 2,
+    "pct_nulo": 0.0,
+    "min": 1.0,
+    "max": 2.0,
+    "media": 1.08,
+    "mais_frequentes": "<anonimizado> (23), <anonimizado> (2)",
+    "amostra": "<anonimizado> | <anonimizado>"
+   },
+   {
+    "coluna": "co_grau_certeza_alergia",
+    "tipo": "BIGINT",
+    "aceita_nulo": true,
+    "distintos": 3,
+    "pct_nulo": 0.0,
+    "min": 1.0,
+    "max": 5.0,
+    "media": 2.28,
+    "mais_frequentes": "<anonimizado> (15), <anonimizado> (8), <anonimizado> (2)",
+    "amostra": "<anonimizado> | <anonimizado> | <anonimizado>"
+   },
+   {
+    "coluna": "dt_inicio",
+    "tipo": "DATE",
+    "aceita_nulo": true,
+    "distintos": 12,
+    "pct_nulo": 44.0,
+    "min": null,
+    "max": null,
+    "media": null,
+    "mais_frequentes": "2003-12-28 (3), 2017-02-20 (1), 2024-07-15 (1)",
+    "amostra": "1988-12-02 | 2025-03-30 | 2017-02-20 | 2024-07-15 | 2025-06-02"
+   },
+   {
+    "coluna": "ds_observacao",
+    "tipo": "VARCHAR(800)",
+    "aceita_nulo": true,
+    "distintos": 2,
+    "pct_nulo": 92.0,
+    "min": null,
+    "max": null,
+    "media": null,
+    "mais_frequentes": "paciente relatou na consulta ser alérgica a DIPIRONA SODICA (1), Mal estar (1)",
+    "amostra": "paciente relatou na consulta ser alérgica a DIPIRONA SODICA | Mal estar"
+   },
+   {
+    "coluna": "st_substancia_cbara",
+    "tipo": "SMALLINT",
+    "aceita_nulo": true,
+    "distintos": 1,
+    "pct_nulo": 0.0,
+    "min": 1.0,
+    "max": 1.0,
+    "media": 1.0,
+    "mais_frequentes": "1 (25)",
+    "amostra": "1"
+   }
+  ],
+  "amostra_linhas": [
+   {
+    "co_seq_taalergiaevolucao": "<anonimizado>",
+    "co_tipo_auditoria": "I",
+    "dt_auditoria": "2023-04-24 08:52:13.570055",
+    "co_seq_alergia_evolucao": "<anonimizado>",
+    "co_unico_alergia": "<anonimizado>",
+    "no_manifestacoes": null,
+    "st_alergia_avaliada": "<anonimizado>",
+    "co_criticidade_alergia": "<anonimizado>",
+    "co_atend_prof": 159186,
+    "co_tipo_reacao_alergia": "<anonimizado>",
+    "co_grau_certeza_alergia": "<anonimizado>",
+    "dt_inicio": "2022-01-31",
+    "ds_observacao": "Mal estar",
+    "st_substancia_cbara": 1
+   },
+   {
+    "co_seq_taalergiaevolucao": "<anonimizado>",
+    "co_tipo_auditoria": "I",
+    "dt_auditoria": "2023-06-28 11:09:14.358625",
+    "co_seq_alergia_evolucao": "<anonimizado>",
+    "co_unico_alergia": "<anonimizado>",
+    "no_manifestacoes": null,
+    "st_alergia_avaliada": "<anonimizado>",
+    "co_criticidade_alergia": "<anonimizado>",
+    "co_atend_prof": 169756,
+    "co_tipo_reacao_alergia": "<anonimizado>",
+    "co_grau_certeza_alergia": "<anonimizado>",
+    "dt_inicio": null,
+    "ds_observacao": NaN,
+    "st_substancia_cbara": 1
+   },
+   {
+    "co_seq_taalergiaevolucao": "<anonimizado>",
+    "co_tipo_auditoria": "I",
+    "dt_auditoria": "2023-08-25 10:44:38.322756",
+    "co_seq_alergia_evolucao": "<anonimizado>",
+    "co_unico_alergia": "<anonimizado>",
+    "no_manifestacoes": null,
+    "st_alergia_avaliada": "<anonimizado>",
+    "co_criticidade_alergia": "<anonimizado>",
+    "co_atend_prof": 180772,
+    "co_tipo_reacao_alergia": "<anonimizado>",
+    "co_grau_certeza_alergia": "<anonimizado>",
+    "dt_inicio": null,
+    "ds_observacao": NaN,
+    "st_substancia_cbara": 1
+   }
+  ]
+ },
+ "pool": [
+  {
+   "tema_id": "t0",
+   "texto": "Avaliação médica"
+  },
+  {
+   "tema_id": "t1",
+   "texto": "Auditoria Saúde"
+  },
+  {
+   "tema_id": "t2",
+   "texto": "Auditoria Alergias"
+  },
+  {
+   "tema_id": "t3",
+   "texto": "Reações Alérgicas"
+  },
+  {
+   "tema_id": "t4",
+   "texto": "Criticidade alergia"
+  },
+  {
+   "tema_id": "t5",
+   "texto": "Avaliação de alergias"
+  },
+  {
+   "tema_id": "t6",
+   "texto": "Avaliação Crítica"
+  },
+  {
+   "tema_id": "t7",
+   "texto": "Alergias Pacientes"
+  },
+  {
+   "tema_id": "t8",
+   "texto": "Avaliação de Reações"
+  },
+  {
+   "tema_id": "t9",
+   "texto": "Evolução de Alergias"
+  },
+  {
+   "tema_id": "t10",
+   "texto": "Alergias"
+  },
+  {
+   "tema_id": "t11",
+   "texto": "Evolução Clínica"
+  },
+  {
+   "tema_id": "t12",
+   "texto": "Criticidade de Alergias"
+  },
+  {
+   "tema_id": "t13",
+   "texto": "Evolução Alergias"
+  }
+ ],
+ "listas": {
+  "Sistema A": {
+   "1": [
+    "Avaliação de alergias",
+    "Criticidade de alergias",
+    "Reações alérgicas"
+   ],
+   "2": [
+    "Alergias",
+    "Avaliação médica",
+    "Criticidade alergia"
+   ],
+   "3": [
+    "Avaliação de alergias",
+    "Criticidade de alergias",
+    "Reações alérgicas"
+   ]
+  },
+  "Sistema B": {
+   "1": [
+    "Evolução Alergias",
+    "Avaliação Crítica",
+    "Reações Alérgicas"
+   ],
+   "2": [
+    "Evolução de Alergias",
+    "Avaliação de Reações",
+    "Criticidade de Alergias"
+   ],
+   "3": [
+    "Evolução de Alergias",
+    "Avaliação de Reações",
+    "Criticidade de Alergias"
+   ]
+  },
+  "Sistema C": {
+   "1": [
+    "Alergias Pacientes",
+    "Auditoria Saúde",
+    "Evolução Clínica"
+   ],
+   "2": [
+    "Alergias Pacientes",
+    "Auditoria Saúde",
+    "Evolução Clínica"
+   ],
+   "3": [
+    "Alergias Pacientes",
+    "Auditoria Alergias",
+    "Evolução Alergias"
+   ]
+  }
+ }
+}

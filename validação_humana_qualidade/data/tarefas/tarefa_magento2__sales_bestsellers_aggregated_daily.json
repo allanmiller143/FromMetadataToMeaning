@@ -1,0 +1,215 @@
+{
+ "item_id": "magento2__sales_bestsellers_aggregated_daily",
+ "table_key": "magento2.sales_bestsellers_aggregated_daily",
+ "base": "magento2",
+ "piloto": true,
+ "contexto": {
+  "tabela": "sales_bestsellers_aggregated_daily",
+  "linhas": 0,
+  "pk": [
+   "id"
+  ],
+  "fks": [
+   "product_id -> catalog_product_entity(entity_id)",
+   "store_id -> store(store_id)"
+  ],
+  "colunas": [
+   {
+    "coluna": "id",
+    "tipo": "INTEGER",
+    "aceita_nulo": false,
+    "distintos": null,
+    "pct_nulo": null,
+    "min": null,
+    "max": null,
+    "media": null,
+    "mais_frequentes": "",
+    "amostra": ""
+   },
+   {
+    "coluna": "period",
+    "tipo": "DATE",
+    "aceita_nulo": true,
+    "distintos": null,
+    "pct_nulo": null,
+    "min": null,
+    "max": null,
+    "media": null,
+    "mais_frequentes": "",
+    "amostra": ""
+   },
+   {
+    "coluna": "store_id",
+    "tipo": "SMALLINT",
+    "aceita_nulo": true,
+    "distintos": null,
+    "pct_nulo": null,
+    "min": null,
+    "max": null,
+    "media": null,
+    "mais_frequentes": "",
+    "amostra": ""
+   },
+   {
+    "coluna": "product_id",
+    "tipo": "INTEGER",
+    "aceita_nulo": true,
+    "distintos": null,
+    "pct_nulo": null,
+    "min": null,
+    "max": null,
+    "media": null,
+    "mais_frequentes": "",
+    "amostra": ""
+   },
+   {
+    "coluna": "product_name",
+    "tipo": "VARCHAR(255)",
+    "aceita_nulo": true,
+    "distintos": null,
+    "pct_nulo": null,
+    "min": null,
+    "max": null,
+    "media": null,
+    "mais_frequentes": "",
+    "amostra": ""
+   },
+   {
+    "coluna": "product_price",
+    "tipo": "DECIMAL(12, 4)",
+    "aceita_nulo": false,
+    "distintos": null,
+    "pct_nulo": null,
+    "min": null,
+    "max": null,
+    "media": null,
+    "mais_frequentes": "",
+    "amostra": ""
+   },
+   {
+    "coluna": "qty_ordered",
+    "tipo": "DECIMAL(12, 4)",
+    "aceita_nulo": false,
+    "distintos": null,
+    "pct_nulo": null,
+    "min": null,
+    "max": null,
+    "media": null,
+    "mais_frequentes": "",
+    "amostra": ""
+   },
+   {
+    "coluna": "rating_pos",
+    "tipo": "SMALLINT",
+    "aceita_nulo": false,
+    "distintos": null,
+    "pct_nulo": null,
+    "min": null,
+    "max": null,
+    "media": null,
+    "mais_frequentes": "",
+    "amostra": ""
+   }
+  ],
+  "amostra_linhas": []
+ },
+ "pool": [
+  {
+   "tema_id": "t0",
+   "texto": "preço de produtos"
+  },
+  {
+   "tema_id": "t1",
+   "texto": "ranking de produtos por loja"
+  },
+  {
+   "tema_id": "t2",
+   "texto": "agregação diária de vendas"
+  },
+  {
+   "tema_id": "t3",
+   "texto": "quantidade pedida"
+  },
+  {
+   "tema_id": "t4",
+   "texto": "análise de desempenho"
+  },
+  {
+   "tema_id": "t5",
+   "texto": "desempenho por loja"
+  },
+  {
+   "tema_id": "t6",
+   "texto": "vendas diárias"
+  },
+  {
+   "tema_id": "t7",
+   "texto": "produtos mais vendidos"
+  },
+  {
+   "tema_id": "t8",
+   "texto": "vendas diárias de produtos"
+  },
+  {
+   "tema_id": "t9",
+   "texto": "desempenho de vendas por produto"
+  },
+  {
+   "tema_id": "t10",
+   "texto": "agregação diária de mais vendidos"
+  }
+ ],
+ "listas": {
+  "Sistema A": {
+   "1": [
+    "vendas diárias",
+    "produtos mais vendidos",
+    "análise de desempenho"
+   ],
+   "2": [
+    "vendas diárias",
+    "produtos mais vendidos",
+    "análise de desempenho"
+   ],
+   "3": [
+    "vendas diárias",
+    "produtos mais vendidos",
+    "análise de desempenho"
+   ]
+  },
+  "Sistema B": {
+   "1": [
+    "agregação diária de vendas",
+    "produtos mais vendidos",
+    "desempenho por loja"
+   ],
+   "2": [
+    "agregação diária de mais vendidos",
+    "desempenho de vendas por produto",
+    "ranking de produtos por loja"
+   ],
+   "3": [
+    "agregação diária de vendas",
+    "produtos mais vendidos",
+    "desempenho por loja"
+   ]
+  },
+  "Sistema C": {
+   "1": [
+    "vendas diárias de produtos",
+    "preço de produtos",
+    "quantidade pedida"
+   ],
+   "2": [
+    "vendas diárias de produtos",
+    "preço de produtos",
+    "quantidade pedida"
+   ],
+   "3": [
+    "vendas diárias de produtos",
+    "preço de produtos",
+    "quantidade pedida"
+   ]
+  }
+ }
+}

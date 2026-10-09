@@ -1,0 +1,633 @@
+{
+ "item_id": "teixeira__ta_receita_medicamento",
+ "table_key": "public.ta_receita_medicamento",
+ "base": "teixeira",
+ "piloto": false,
+ "contexto": {
+  "tabela": "ta_receita_medicamento",
+  "linhas": 154404,
+  "pk": [
+   "co_seq_tareceitamedicamento"
+  ],
+  "fks": [],
+  "colunas": [
+   {
+    "coluna": "co_seq_tareceitamedicamento",
+    "tipo": "BIGINT",
+    "aceita_nulo": false,
+    "distintos": 154404,
+    "pct_nulo": 0.0,
+    "min": 1.0,
+    "max": 154554.0,
+    "media": 77298.98595891298,
+    "mais_frequentes": "",
+    "amostra": "<anonimizado> | <anonimizado> | <anonimizado> | <anonimizado> | <anonimizado>"
+   },
+   {
+    "coluna": "co_tipo_auditoria",
+    "tipo": "CHAR(1)",
+    "aceita_nulo": false,
+    "distintos": 2,
+    "pct_nulo": 0.0,
+    "min": null,
+    "max": null,
+    "media": null,
+    "mais_frequentes": "I (149036), U (5368)",
+    "amostra": "I | U"
+   },
+   {
+    "coluna": "dt_auditoria",
+    "tipo": "TIMESTAMP",
+    "aceita_nulo": false,
+    "distintos": 66488,
+    "pct_nulo": 0.0,
+    "min": null,
+    "max": null,
+    "media": null,
+    "mais_frequentes": "2025-07-23 07:56:41.141624 (18), 2025-07-22 09:00:03.901694 (18), 2024-05-14 08:54:40.451434 (16)",
+    "amostra": "2024-03-26 08:38:23.518200 | 2024-11-13 18:38:48.995326 | 2024-09-10 08:38:51.340771 | 2024-08-21 09:54:17.740276 | 2024-07-06 13:24:54.094142"
+   },
+   {
+    "coluna": "co_seq_receita_medicamento",
+    "tipo": "BIGINT",
+    "aceita_nulo": true,
+    "distintos": 149039,
+    "pct_nulo": 0.0,
+    "min": 2958.0,
+    "max": 157978.0,
+    "media": 83407.38003549131,
+    "mais_frequentes": "",
+    "amostra": "<anonimizado> | <anonimizado> | <anonimizado> | <anonimizado> | <anonimizado>"
+   },
+   {
+    "coluna": "no_posologia",
+    "tipo": "VARCHAR(200)",
+    "aceita_nulo": true,
+    "distintos": 4501,
+    "pct_nulo": 0.0,
+    "min": null,
+    "max": null,
+    "media": null,
+    "mais_frequentes": "1 ampola, dose única (28867), 1 comprimido, a cada 1 dia (9211), 1 comprimido, a cada 12 horas (8288)",
+    "amostra": "28UI manhã 14UI noite (dose), a cada 12 horas | 35 gotas (dose), a cada 8 horas | 60 ui (dose), a cada 1 dia | 28 unidades, a cada 12 horas | 9ml (dose), a cada 12 horas"
+   },
+   {
+    "coluna": "qt_receitada",
+    "tipo": "INTEGER",
+    "aceita_nulo": true,
+    "distintos": 82,
+    "pct_nulo": 0.0,
+    "min": 1.0,
+    "max": 999.0,
+    "media": 18.24182016009948,
+    "mais_frequentes": "1 (74960), 30 (26270), 60 (19975)",
+    "amostra": "120 | 171 | 8 | 11 | 80"
+   },
+   {
+    "coluna": "co_aplicacao_medicamento",
+    "tipo": "BIGINT",
+    "aceita_nulo": true,
+    "distintos": 24,
+    "pct_nulo": 0.0,
+    "min": 0.0,
+    "max": 27.0,
+    "media": 5.924859459599492,
+    "mais_frequentes": "<anonimizado> (96991), <anonimizado> (34933), <anonimizado> (14445)",
+    "amostra": "<anonimizado> | <anonimizado> | <anonimizado> | <anonimizado> | <anonimizado>"
+   },
+   {
+    "coluna": "st_uso_continuo",
+    "tipo": "INTEGER",
+    "aceita_nulo": true,
+    "distintos": 2,
+    "pct_nulo": 0.0,
+    "min": 0.0,
+    "max": 1.0,
+    "media": 0.15076034299629543,
+    "mais_frequentes": "0 (131126), 1 (23278)",
+    "amostra": "0 | 1"
+   },
+   {
+    "coluna": "co_medicamento",
+    "tipo": "BIGINT",
+    "aceita_nulo": true,
+    "distintos": 8635,
+    "pct_nulo": 0.0,
+    "min": 5.0,
+    "max": 11223.0,
+    "media": 1714.138208854693,
+    "mais_frequentes": "<anonimizado> (10029), <anonimizado> (5465), <anonimizado> (3937)",
+    "amostra": "<anonimizado> | <anonimizado> | <anonimizado> | <anonimizado> | <anonimizado>"
+   },
+   {
+    "coluna": "dt_inicio_tratamento",
+    "tipo": "DATE",
+    "aceita_nulo": true,
+    "distintos": 851,
+    "pct_nulo": 0.0,
+    "min": null,
+    "max": null,
+    "media": null,
+    "mais_frequentes": "2025-06-03 (600), 2025-09-16 (590), 2025-08-12 (559)",
+    "amostra": "2023-10-09 | 2023-08-11 | 2023-04-18 | 2024-05-22 | 2023-12-20"
+   },
+   {
+    "coluna": "dt_fim_tratamento",
+    "tipo": "DATE",
+    "aceita_nulo": true,
+    "distintos": 1281,
+    "pct_nulo": 36.31,
+    "min": null,
+    "max": null,
+    "media": null,
+    "mais_frequentes": "2024-09-28 (343), 2025-06-03 (315), 2024-07-31 (314)",
+    "amostra": "2025-12-22 | 2024-05-22 | 2023-12-20 | 2025-09-09 | 2024-08-07"
+   },
+   {
+    "coluna": "qt_duracao_tratamento",
+    "tipo": "INTEGER",
+    "aceita_nulo": true,
+    "distintos": 43,
+    "pct_nulo": 36.31,
+    "min": 1.0,
+    "max": 714.0,
+    "media": 3.9601273159917834,
+    "mais_frequentes": "<anonimizado> (56911), <anonimizado> (18192), <anonimizado> (7264)",
+    "amostra": "<anonimizado> | <anonimizado> | <anonimizado> | <anonimizado> | <anonimizado>"
+   },
+   {
+    "coluna": "ds_dose",
+    "tipo": "VARCHAR(100)",
+    "aceita_nulo": true,
+    "distintos": 1218,
+    "pct_nulo": 89.49,
+    "min": null,
+    "max": null,
+    "media": null,
+    "mais_frequentes": "01 (2858), 1 (2009), Tomar 01 cp (1308)",
+    "amostra": "17 gotas | TOMAR 1/2 CP AO DEITAR POR 5 DIAS E 1 CP A PARTIR | 2 JATOS | TOMAR 1/2 CP MANHA | Aplicar e ensaboas no corpo inteiro"
+   },
+   {
+    "coluna": "tp_frequencia_dose",
+    "tipo": "BIGINT",
+    "aceita_nulo": true,
+    "distintos": 4,
+    "pct_nulo": 34.65,
+    "min": 1.0,
+    "max": 4.0,
+    "media": 2.4748186466880724,
+    "mais_frequentes": "3 (66928), 1 (19111), 2 (14821)",
+    "amostra": "1 | 2 | 3 | 4"
+   },
+   {
+    "coluna": "ds_frequencia_dose",
+    "tipo": "VARCHAR(25)",
+    "aceita_nulo": true,
+    "distintos": 19,
+    "pct_nulo": 34.76,
+    "min": null,
+    "max": null,
+    "media": null,
+    "mais_frequentes": "12 (22409), 24 (21702), 8 (13478)",
+    "amostra": "8 | 48 | 2 | 72 | tarde"
+   },
+   {
+    "coluna": "st_registro_manual",
+    "tipo": "INTEGER",
+    "aceita_nulo": true,
+    "distintos": 2,
+    "pct_nulo": 0.0,
+    "min": 0.0,
+    "max": 1.0,
+    "media": 0.04850262946555789,
+    "mais_frequentes": "0 (146915), 1 (7489)",
+    "amostra": "0 | 1"
+   },
+   {
+    "coluna": "st_dose_unica",
+    "tipo": "INTEGER",
+    "aceita_nulo": true,
+    "distintos": 2,
+    "pct_nulo": 0.0,
+    "min": 0.0,
+    "max": 1.0,
+    "media": 0.34646770809046396,
+    "mais_frequentes": "0 (100908), 1 (53496)",
+    "amostra": "0 | 1"
+   },
+   {
+    "coluna": "ds_recomendacao",
+    "tipo": "TEXT",
+    "aceita_nulo": true,
+    "distintos": 15345,
+    "pct_nulo": 63.41,
+    "min": null,
+    "max": null,
+    "media": null,
+    "mais_frequentes": "+AD (3997), + AD EV (1762), + AD (1422)",
+    "amostra": "FAZER 1 AMP | + 5 ML DE SF 0,9% NBZ | 0,4 ml IM | +  2 GAZE | HIDANTAL (Nome Comercial)"
+   },
+   {
+    "coluna": "qt_periodo_frequencia",
+    "tipo": "INTEGER",
+    "aceita_nulo": true,
+    "distintos": 15,
+    "pct_nulo": 77.04,
+    "min": 1.0,
+    "max": 90.0,
+    "media": 1.1060234165608689,
+    "mais_frequentes": "1 (35183), 3 (81), 7 (51)",
+    "amostra": "14 | 12 | 8 | 28 | 1"
+   },
+   {
+    "coluna": "tp_un_medida_tempo_frequencia",
+    "tipo": "BIGINT",
+    "aceita_nulo": true,
+    "distintos": 3,
+    "pct_nulo": 77.99,
+    "min": 1.0,
+    "max": 3.0,
+    "media": 1.0179806362378976,
+    "mais_frequentes": "1 (33475), 2 (401), 3 (105)",
+    "amostra": "1 | 2 | 3"
+   },
+   {
+    "coluna": "tp_un_medida_tempo_tratamento",
+    "tipo": "BIGINT",
+    "aceita_nulo": true,
+    "distintos": 4,
+    "pct_nulo": 0.0,
+    "min": 1.0,
+    "max": 4.0,
+    "media": 2.140482111862387,
+    "mais_frequentes": "1 (93969), 4 (56066), 3 (3528)",
+    "amostra": "1 | 2 | 3 | 4"
+   },
+   {
+    "coluna": "co_atend_prof",
+    "tipo": "BIGINT",
+    "aceita_nulo": true,
+    "distintos": 64716,
+    "pct_nulo": 0.0,
+    "min": 87709.0,
+    "max": 426552.0,
+    "media": 300144.2874860755,
+    "mais_frequentes": "323512 (68), 306784 (60), 329312 (59)",
+    "amostra": "277925 | 297033 | 164444 | 245920 | 374261"
+   },
+   {
+    "coluna": "tp_receita",
+    "tipo": "INTEGER",
+    "aceita_nulo": true,
+    "distintos": 5,
+    "pct_nulo": 0.0,
+    "min": 0.0,
+    "max": 4.0,
+    "media": 0.43229450014248333,
+    "mais_frequentes": "0 (111088), 1 (32512), 3 (8704)",
+    "amostra": "4 | 1 | 2 | 0 | 3"
+   },
+   {
+    "coluna": "st_interrompido",
+    "tipo": "INTEGER",
+    "aceita_nulo": true,
+    "distintos": 2,
+    "pct_nulo": 0.0,
+    "min": 0.0,
+    "max": 1.0,
+    "media": 0.00022667806533509496,
+    "mais_frequentes": "0 (154369), 1 (35)",
+    "amostra": "0 | 1"
+   },
+   {
+    "coluna": "ds_observacao_interrupcao",
+    "tipo": "TEXT",
+    "aceita_nulo": true,
+    "distintos": 23,
+    "pct_nulo": 99.98,
+    "min": null,
+    "max": null,
+    "media": null,
+    "mais_frequentes": "já registrado (6), não está em uso (3), MEDICAMENTO SOLICITADO EM PEC ERRADO, PACIENTE NÃO FAZ USO DESTE MEDICAMENTO (3)",
+    "amostra": "até 12s | CESSADO | DIFICULDADE DE ACESSO | EFEITOS COLATERAIS | INTERROMPEU"
+   },
+   {
+    "coluna": "dt_interrupcao",
+    "tipo": "DATE",
+    "aceita_nulo": true,
+    "distintos": 14,
+    "pct_nulo": 99.98,
+    "min": null,
+    "max": null,
+    "media": null,
+    "mais_frequentes": "2025-08-20 (14), 2025-09-03 (4), 2024-08-13 (3)",
+    "amostra": "2024-06-14 | 2024-07-05 | 2024-07-30 | 2024-08-13 | 2024-10-17"
+   },
+   {
+    "coluna": "co_unico_presc_med_rnds",
+    "tipo": "VARCHAR(96)",
+    "aceita_nulo": true,
+    "distintos": 58007,
+    "pct_nulo": 10.51,
+    "min": null,
+    "max": null,
+    "media": null,
+    "mais_frequentes": "ce338abf-9d90-42e3-826b-cd127814991c (18), 484f7d9b-60a1-4980-9777-273fa05bdda6 (18), 6cf5c939-2292-47b5-ae28-4cda7a07214a (16)",
+    "amostra": "8bc4398a-ce1d-4949-be37-b5ce5fc467b3 | 2ada9b6d-6ff5-4795-a1bc-a63fcdb462b3 | b8befbba-1cdd-4fe2-8066-8e61a124819f | 7fe8bba8-8b48-4ae7-8616-d6aaef86e928 | 5bbd093f-f360-4487-89ce-6f4fd5afea32"
+   },
+   {
+    "coluna": "ds_codigo_prescricao_digital",
+    "tipo": "VARCHAR(64)",
+    "aceita_nulo": true,
+    "distintos": 0,
+    "pct_nulo": 100.0,
+    "min": null,
+    "max": null,
+    "media": null,
+    "mais_frequentes": "",
+    "amostra": ""
+   },
+   {
+    "coluna": "qt_dose",
+    "tipo": "VARCHAR(25)",
+    "aceita_nulo": true,
+    "distintos": 221,
+    "pct_nulo": 10.51,
+    "min": null,
+    "max": null,
+    "media": null,
+    "mais_frequentes": "1 (82266), 01 (23928), 2 (5875)",
+    "amostra": "48 | 2 | 0,7 | 4,25 | 1/3"
+   },
+   {
+    "coluna": "co_unidade_medida_dose",
+    "tipo": "BIGINT",
+    "aceita_nulo": true,
+    "distintos": 35,
+    "pct_nulo": 10.51,
+    "min": 1.0,
+    "max": 50.0,
+    "media": 9.905761019034523,
+    "mais_frequentes": "5 (56647), 1 (38857), 21 (15837)",
+    "amostra": "43 | 25 | 32 | 17 | 12"
+   },
+   {
+    "coluna": "qt_dose_manha",
+    "tipo": "VARCHAR(25)",
+    "aceita_nulo": true,
+    "distintos": 20,
+    "pct_nulo": 99.97,
+    "min": null,
+    "max": null,
+    "media": null,
+    "mais_frequentes": "1 (11), 2 (7), 22 (5)",
+    "amostra": "1 | 10 | 12 | 14 | 15"
+   },
+   {
+    "coluna": "qt_dose_tarde",
+    "tipo": "VARCHAR(25)",
+    "aceita_nulo": true,
+    "distintos": 8,
+    "pct_nulo": 99.99,
+    "min": null,
+    "max": null,
+    "media": null,
+    "mais_frequentes": "2 (9), 1 (3), 10 (3)",
+    "amostra": "0,1 | 1 | 10 | 15 | 2"
+   },
+   {
+    "coluna": "qt_dose_noite",
+    "tipo": "VARCHAR(25)",
+    "aceita_nulo": true,
+    "distintos": 17,
+    "pct_nulo": 99.97,
+    "min": null,
+    "max": null,
+    "media": null,
+    "mais_frequentes": "1 (10), 10 (7), 6 (5)",
+    "amostra": "06 | 1 | 10 | 12 | 14"
+   },
+   {
+    "coluna": "co_receita_uso_continuo_grupo",
+    "tipo": "BIGINT",
+    "aceita_nulo": true,
+    "distintos": 0,
+    "pct_nulo": 100.0,
+    "min": null,
+    "max": null,
+    "media": null,
+    "mais_frequentes": "",
+    "amostra": ""
+   }
+  ],
+  "amostra_linhas": [
+   {
+    "co_seq_tareceitamedicamento": "<anonimizado>",
+    "co_tipo_auditoria": "I",
+    "dt_auditoria": "2022-09-20 08:46:33.138010",
+    "co_seq_receita_medicamento": "<anonimizado>",
+    "no_posologia": "01 cp  (dose), pela manhã",
+    "qt_receitada": 30,
+    "co_aplicacao_medicamento": "<anonimizado>",
+    "st_uso_continuo": 0,
+    "co_medicamento": "<anonimizado>",
+    "dt_inicio_tratamento": "2022-09-20",
+    "dt_fim_tratamento": "2023-03-19",
+    "qt_duracao_tratamento": "<anonimizado>",
+    "ds_dose": "01 cp",
+    "tp_frequencia_dose": 1,
+    "ds_frequencia_dose": "manhã",
+    "st_registro_manual": 0,
+    "st_dose_unica": 0,
+    "ds_recomendacao": null,
+    "qt_periodo_frequencia": 1.0,
+    "tp_un_medida_tempo_frequencia": 1.0,
+    "tp_un_medida_tempo_tratamento": 3,
+    "co_atend_prof": 126766,
+    "tp_receita": 1,
+    "st_interrompido": 0,
+    "ds_observacao_interrupcao": null,
+    "dt_interrupcao": null,
+    "co_unico_presc_med_rnds": null,
+    "ds_codigo_prescricao_digital": null,
+    "qt_dose": null,
+    "co_unidade_medida_dose": null,
+    "qt_dose_manha": null,
+    "qt_dose_tarde": null,
+    "qt_dose_noite": null,
+    "co_receita_uso_continuo_grupo": null
+   },
+   {
+    "co_seq_tareceitamedicamento": "<anonimizado>",
+    "co_tipo_auditoria": "I",
+    "dt_auditoria": "2022-09-20 08:51:07.216538",
+    "co_seq_receita_medicamento": "<anonimizado>",
+    "no_posologia": "01 cp  (dose), a cada 6 horas",
+    "qt_receitada": 28,
+    "co_aplicacao_medicamento": "<anonimizado>",
+    "st_uso_continuo": 0,
+    "co_medicamento": "<anonimizado>",
+    "dt_inicio_tratamento": "2022-09-20",
+    "dt_fim_tratamento": "2022-09-26",
+    "qt_duracao_tratamento": "<anonimizado>",
+    "ds_dose": "01 cp",
+    "tp_frequencia_dose": 3,
+    "ds_frequencia_dose": "6",
+    "st_registro_manual": 0,
+    "st_dose_unica": 0,
+    "ds_recomendacao": null,
+    "qt_periodo_frequencia": NaN,
+    "tp_un_medida_tempo_frequencia": NaN,
+    "tp_un_medida_tempo_tratamento": 1,
+    "co_atend_prof": 126776,
+    "tp_receita": 1,
+    "st_interrompido": 0,
+    "ds_observacao_interrupcao": null,
+    "dt_interrupcao": null,
+    "co_unico_presc_med_rnds": null,
+    "ds_codigo_prescricao_digital": null,
+    "qt_dose": null,
+    "co_unidade_medida_dose": null,
+    "qt_dose_manha": null,
+    "qt_dose_tarde": null,
+    "qt_dose_noite": null,
+    "co_receita_uso_continuo_grupo": null
+   },
+   {
+    "co_seq_tareceitamedicamento": "<anonimizado>",
+    "co_tipo_auditoria": "I",
+    "dt_auditoria": "2022-09-20 08:52:15.675770",
+    "co_seq_receita_medicamento": "<anonimizado>",
+    "no_posologia": "2 cp em jejum (dose), pela manhã",
+    "qt_receitada": 60,
+    "co_aplicacao_medicamento": "<anonimizado>",
+    "st_uso_continuo": 0,
+    "co_medicamento": "<anonimizado>",
+    "dt_inicio_tratamento": "2022-09-20",
+    "dt_fim_tratamento": "2022-10-19",
+    "qt_duracao_tratamento": "<anonimizado>",
+    "ds_dose": "2 cp em jejum",
+    "tp_frequencia_dose": 1,
+    "ds_frequencia_dose": "manhã",
+    "st_registro_manual": 0,
+    "st_dose_unica": 0,
+    "ds_recomendacao": null,
+    "qt_periodo_frequencia": 1.0,
+    "tp_un_medida_tempo_frequencia": 1.0,
+    "tp_un_medida_tempo_tratamento": 1,
+    "co_atend_prof": 126775,
+    "tp_receita": 0,
+    "st_interrompido": 0,
+    "ds_observacao_interrupcao": null,
+    "dt_interrupcao": null,
+    "co_unico_presc_med_rnds": null,
+    "ds_codigo_prescricao_digital": null,
+    "qt_dose": null,
+    "co_unidade_medida_dose": null,
+    "qt_dose_manha": null,
+    "qt_dose_tarde": null,
+    "qt_dose_noite": null,
+    "co_receita_uso_continuo_grupo": null
+   }
+  ]
+ },
+ "pool": [
+  {
+   "tema_id": "t0",
+   "texto": "Posologia"
+  },
+  {
+   "tema_id": "t1",
+   "texto": "Frequência de prescrição"
+  },
+  {
+   "tema_id": "t2",
+   "texto": "Receitas Médicas"
+  },
+  {
+   "tema_id": "t3",
+   "texto": "Posologia de Medicamentos"
+  },
+  {
+   "tema_id": "t4",
+   "texto": "Duração de tratamento"
+  },
+  {
+   "tema_id": "t5",
+   "texto": "Tratamento Médico"
+  },
+  {
+   "tema_id": "t6",
+   "texto": "Tratamento Medicamentoso"
+  },
+  {
+   "tema_id": "t7",
+   "texto": "Frequência de doses"
+  },
+  {
+   "tema_id": "t8",
+   "texto": "Tratamento e Duração"
+  },
+  {
+   "tema_id": "t9",
+   "texto": "Auditoria de Receitas"
+  },
+  {
+   "tema_id": "t10",
+   "texto": "Prescrição Medicamentosa"
+  }
+ ],
+ "listas": {
+  "Sistema A": {
+   "1": [
+    "Posologia de medicamentos",
+    "Frequência de prescrição",
+    "Duração de tratamento"
+   ],
+   "2": [
+    "Posologia de medicamentos",
+    "Frequência de prescrição",
+    "Duração de tratamento"
+   ],
+   "3": [
+    "Posologia de medicamentos",
+    "Duração de tratamento",
+    "Frequência de doses"
+   ]
+  },
+  "Sistema B": {
+   "1": [
+    "Prescrição Medicamentosa",
+    "Tratamento Médico",
+    "Auditoria de Receitas"
+   ],
+   "2": [
+    "Prescrição Medicamentosa",
+    "Tratamento Médico",
+    "Auditoria de Receitas"
+   ],
+   "3": [
+    "Prescrição Medicamentosa",
+    "Tratamento Médico",
+    "Auditoria de Receitas"
+   ]
+  },
+  "Sistema C": {
+   "1": [
+    "Receitas Médicas",
+    "Posologia de Medicamentos",
+    "Tratamento e Duração"
+   ],
+   "2": [
+    "Receitas Médicas",
+    "Posologia de Medicamentos",
+    "Tratamento e Duração"
+   ],
+   "3": [
+    "Receitas Médicas",
+    "Tratamento Medicamentoso",
+    "Posologia"
+   ]
+  }
+ }
+}

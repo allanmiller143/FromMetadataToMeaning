@@ -1,0 +1,144 @@
+{
+ "item_id": "nhanes__hepa_j",
+ "table_key": "nhanes_laboratory.hepa_j",
+ "base": "nhanes",
+ "piloto": true,
+ "contexto": {
+  "tabela": "hepa_j",
+  "linhas": 8153,
+  "pk": [],
+  "fks": [],
+  "colunas": [
+   {
+    "coluna": "SEQN",
+    "tipo": "DOUBLE PRECISION",
+    "aceita_nulo": true,
+    "distintos": 8153,
+    "pct_nulo": 0.0,
+    "min": 93703.0,
+    "max": 102956.0,
+    "media": 98317.36379246903,
+    "mais_frequentes": "",
+    "amostra": "96472.0 | 101333.0 | 102403.0 | 97209.0 | 101319.0"
+   },
+   {
+    "coluna": "LBXHA",
+    "tipo": "DOUBLE PRECISION",
+    "aceita_nulo": true,
+    "distintos": 3,
+    "pct_nulo": 12.46,
+    "min": 1.0,
+    "max": 3.0,
+    "media": 1.3802718228947737,
+    "mais_frequentes": "1.0 (4424), 2.0 (2712), 3.0 (1)",
+    "amostra": "3.0 | 2.0 | 1.0"
+   }
+  ],
+  "amostra_linhas": [
+   {
+    "SEQN": 93703.0,
+    "LBXHA": NaN
+   },
+   {
+    "SEQN": 93704.0,
+    "LBXHA": 1.0
+   },
+   {
+    "SEQN": 93705.0,
+    "LBXHA": 1.0
+   }
+  ]
+ },
+ "pool": [
+  {
+   "tema_id": "t0",
+   "texto": "testes laboratoriais"
+  },
+  {
+   "tema_id": "t1",
+   "texto": "resultados de exames"
+  },
+  {
+   "tema_id": "t2",
+   "texto": "classificação de resultados"
+  },
+  {
+   "tema_id": "t3",
+   "texto": "Hepatite A sorologia"
+  },
+  {
+   "tema_id": "t4",
+   "texto": "hepatite B"
+  },
+  {
+   "tema_id": "t5",
+   "texto": "análise de saúde"
+  },
+  {
+   "tema_id": "t6",
+   "texto": "Prevalência de anticorpos anti-HAV"
+  },
+  {
+   "tema_id": "t7",
+   "texto": "resultados laboratoriais"
+  },
+  {
+   "tema_id": "t8",
+   "texto": "Prevalência de anticorpos HAV"
+  },
+  {
+   "tema_id": "t9",
+   "texto": "exames de hepatite"
+  }
+ ],
+ "listas": {
+  "Sistema A": {
+   "1": [
+    "hepatite B",
+    "testes laboratoriais",
+    "resultados de exames"
+   ],
+   "2": [
+    "hepatite B",
+    "testes laboratoriais",
+    "classificação de resultados"
+   ],
+   "3": [
+    "hepatite B",
+    "testes laboratoriais",
+    "resultados de exames"
+   ]
+  },
+  "Sistema B": {
+   "1": [
+    "Hepatite A sorologia",
+    "Prevalência de anticorpos HAV"
+   ],
+   "2": [
+    "Hepatite A sorologia",
+    "Prevalência de anticorpos anti-HAV"
+   ],
+   "3": [
+    "Hepatite A sorologia",
+    "Prevalência de anticorpos anti-HAV"
+   ]
+  },
+  "Sistema C": {
+   "1": [
+    "análise de saúde",
+    "resultados laboratoriais",
+    "exames de hepatite"
+   ],
+   "2": [
+    "análise de saúde",
+    "resultados laboratoriais",
+    "exames de hepatite"
+   ],
+   "3": [
+    "análise de saúde",
+    "resultados laboratoriais",
+    "exames de hepatite"
+   ]
+  }
+ }
+}

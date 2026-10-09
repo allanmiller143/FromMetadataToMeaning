@@ -1,0 +1,173 @@
+{
+ "item_id": "nhanes__smqfam_j",
+ "table_key": "nhanes_questionnaire.smqfam_j",
+ "base": "nhanes",
+ "piloto": false,
+ "contexto": {
+  "tabela": "smqfam_j",
+  "linhas": 9254,
+  "pk": [],
+  "fks": [],
+  "colunas": [
+   {
+    "coluna": "SEQN",
+    "tipo": "DOUBLE PRECISION",
+    "aceita_nulo": true,
+    "distintos": 9254,
+    "pct_nulo": 0.0,
+    "min": 93703.0,
+    "max": 102956.0,
+    "media": 98329.5,
+    "mais_frequentes": "",
+    "amostra": "96472.0 | 101333.0 | 102403.0 | 100276.0 | 97209.0"
+   },
+   {
+    "coluna": "SMD460",
+    "tipo": "DOUBLE PRECISION",
+    "aceita_nulo": true,
+    "distintos": 6,
+    "pct_nulo": 5.0,
+    "min": 5.397605346934028e-79,
+    "max": 999.0,
+    "media": 1.7522466158571266,
+    "mais_frequentes": "5.397605346934028e-79 (6092), 1.0 (1667), 2.0 (867)",
+    "amostra": "3.0 | 5.397605346934028e-79 | 999.0 | 2.0 | 777.0"
+   },
+   {
+    "coluna": "SMD470",
+    "tipo": "DOUBLE PRECISION",
+    "aceita_nulo": true,
+    "distintos": 4,
+    "pct_nulo": 70.96,
+    "min": 5.397605346934028e-79,
+    "max": 3.0,
+    "media": 0.5284704131001117,
+    "mais_frequentes": "5.397605346934028e-79 (1717), 1.0 (588), 2.0 (314)",
+    "amostra": "3.0 | 5.397605346934028e-79 | 2.0 | 1.0"
+   },
+   {
+    "coluna": "SMD480",
+    "tipo": "DOUBLE PRECISION",
+    "aceita_nulo": true,
+    "distintos": 9,
+    "pct_nulo": 89.52,
+    "min": 5.397605346934028e-79,
+    "max": 77.0,
+    "media": 5.274226804123711,
+    "mais_frequentes": "7.0 (615), 2.0 (96), 5.397605346934028e-79 (81)",
+    "amostra": "3.0 | 4.0 | 1.0 | 6.0 | 5.397605346934028e-79"
+   }
+  ],
+  "amostra_linhas": [
+   {
+    "SEQN": 93703.0,
+    "SMD460": 5.397605346934028e-79,
+    "SMD470": null,
+    "SMD480": null
+   },
+   {
+    "SEQN": 93704.0,
+    "SMD460": 5.397605346934028e-79,
+    "SMD470": null,
+    "SMD480": null
+   },
+   {
+    "SEQN": 93705.0,
+    "SMD460": 5.397605346934028e-79,
+    "SMD470": null,
+    "SMD480": null
+   }
+  ]
+ },
+ "pool": [
+  {
+   "tema_id": "t0",
+   "texto": "respostas de questionário"
+  },
+  {
+   "tema_id": "t1",
+   "texto": "saúde mental"
+  },
+  {
+   "tema_id": "t2",
+   "texto": "frequência de sintomas"
+  },
+  {
+   "tema_id": "t3",
+   "texto": "tabagismo familiar"
+  },
+  {
+   "tema_id": "t4",
+   "texto": "dados demográficos"
+  },
+  {
+   "tema_id": "t5",
+   "texto": "número de cigarros"
+  },
+  {
+   "tema_id": "t6",
+   "texto": "questionário familiar"
+  },
+  {
+   "tema_id": "t7",
+   "texto": "número de fumantes"
+  },
+  {
+   "tema_id": "t8",
+   "texto": "frequência de fumo"
+  }
+ ],
+ "listas": {
+  "Sistema A": {
+   "1": [
+    "saúde mental",
+    "questionário familiar",
+    "dados demográficos"
+   ],
+   "2": [
+    "saúde mental",
+    "questionário familiar",
+    "dados demográficos"
+   ],
+   "3": [
+    "saúde mental",
+    "questionário familiar",
+    "dados demográficos"
+   ]
+  },
+  "Sistema B": {
+   "1": [
+    "tabagismo familiar",
+    "respostas de questionário",
+    "frequência de sintomas"
+   ],
+   "2": [
+    "tabagismo familiar",
+    "respostas de questionário",
+    "frequência de sintomas"
+   ],
+   "3": [
+    "tabagismo familiar",
+    "respostas de questionário",
+    "frequência de sintomas"
+   ]
+  },
+  "Sistema C": {
+   "1": [
+    "tabagismo familiar",
+    "frequência de fumo",
+    "número de cigarros"
+   ],
+   "2": [
+    "tabagismo familiar",
+    "frequência de fumo",
+    "número de cigarros"
+   ],
+   "3": [
+    "tabagismo familiar",
+    "frequência de fumo",
+    "número de fumantes"
+   ]
+  }
+ }
+}

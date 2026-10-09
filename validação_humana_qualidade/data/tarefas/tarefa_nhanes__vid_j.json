@@ -1,0 +1,268 @@
+{
+ "item_id": "nhanes__vid_j",
+ "table_key": "nhanes_laboratory.vid_j",
+ "base": "nhanes",
+ "piloto": false,
+ "contexto": {
+  "tabela": "vid_j",
+  "linhas": 8366,
+  "pk": [],
+  "fks": [],
+  "colunas": [
+   {
+    "coluna": "SEQN",
+    "tipo": "DOUBLE PRECISION",
+    "aceita_nulo": true,
+    "distintos": 8366,
+    "pct_nulo": 0.0,
+    "min": 93703.0,
+    "max": 102956.0,
+    "media": 98320.86994979679,
+    "mais_frequentes": "",
+    "amostra": "96472.0 | 101333.0 | 102403.0 | 97209.0 | 101319.0"
+   },
+   {
+    "coluna": "LBXVIDMS",
+    "tipo": "DOUBLE PRECISION",
+    "aceita_nulo": true,
+    "distintos": 961,
+    "pct_nulo": 11.44,
+    "min": 9.96,
+    "max": 422.0,
+    "media": 66.91295181535978,
+    "mais_frequentes": "101.0 (56), 104.0 (36), 106.0 (35)",
+    "amostra": "14.1 | 60.5 | 79.2 | 44.6 | 96.0"
+   },
+   {
+    "coluna": "LBDVIDLC",
+    "tipo": "DOUBLE PRECISION",
+    "aceita_nulo": true,
+    "distintos": 1,
+    "pct_nulo": 11.44,
+    "min": 5.397605346934028e-79,
+    "max": 5.397605346934028e-79,
+    "media": 5.397605346934028e-79,
+    "mais_frequentes": "5.397605346934028e-79 (7409)",
+    "amostra": "5.397605346934028e-79"
+   },
+   {
+    "coluna": "LBXVD2MS",
+    "tipo": "DOUBLE PRECISION",
+    "aceita_nulo": true,
+    "distintos": 659,
+    "pct_nulo": 11.44,
+    "min": 1.45,
+    "max": 203.0,
+    "media": 3.696895667431883,
+    "mais_frequentes": "1.45 (6190), 2.4 (10), 2.54 (9)",
+    "amostra": "5.38 | 2.41 | 5.33 | 4.84 | 5.64"
+   },
+   {
+    "coluna": "LBDVD2LC",
+    "tipo": "DOUBLE PRECISION",
+    "aceita_nulo": true,
+    "distintos": 2,
+    "pct_nulo": 11.44,
+    "min": 5.397605346934028e-79,
+    "max": 1.0,
+    "media": 0.835470373869618,
+    "mais_frequentes": "1.0 (6190), 5.397605346934028e-79 (1219)",
+    "amostra": "5.397605346934028e-79 | 1.0"
+   },
+   {
+    "coluna": "LBXVD3MS",
+    "tipo": "DOUBLE PRECISION",
+    "aceita_nulo": true,
+    "distintos": 999,
+    "pct_nulo": 11.43,
+    "min": 6.2,
+    "max": 421.0,
+    "media": 63.284695006747555,
+    "mais_frequentes": "103.0 (31), 105.0 (29), 101.0 (29)",
+    "amostra": "14.1 | 60.5 | 79.2 | 44.6 | 96.0"
+   },
+   {
+    "coluna": "LBDVD3LC",
+    "tipo": "DOUBLE PRECISION",
+    "aceita_nulo": true,
+    "distintos": 1,
+    "pct_nulo": 11.43,
+    "min": 5.397605346934028e-79,
+    "max": 5.397605346934028e-79,
+    "media": 5.397605346934028e-79,
+    "mais_frequentes": "5.397605346934028e-79 (7410)",
+    "amostra": "5.397605346934028e-79"
+   },
+   {
+    "coluna": "LBXVE3MS",
+    "tipo": "DOUBLE PRECISION",
+    "aceita_nulo": true,
+    "distintos": 880,
+    "pct_nulo": 11.52,
+    "min": 1.16,
+    "max": 37.7,
+    "media": 4.213334233990798,
+    "mais_frequentes": "1.16 (784), 3.16 (27), 2.09 (27)",
+    "amostra": "7.96 | 3.07 | 3.71 | 5.62 | 14.1"
+   },
+   {
+    "coluna": "LBDVE3LC",
+    "tipo": "DOUBLE PRECISION",
+    "aceita_nulo": true,
+    "distintos": 2,
+    "pct_nulo": 11.52,
+    "min": 5.397605346934028e-79,
+    "max": 1.0,
+    "media": 0.10591731964333964,
+    "mais_frequentes": "5.397605346934028e-79 (6618), 1.0 (784)",
+    "amostra": "1.0 | 5.397605346934028e-79"
+   }
+  ],
+  "amostra_linhas": [
+   {
+    "SEQN": 93703.0,
+    "LBXVIDMS": NaN,
+    "LBDVIDLC": NaN,
+    "LBXVD2MS": NaN,
+    "LBDVD2LC": NaN,
+    "LBXVD3MS": NaN,
+    "LBDVD3LC": NaN,
+    "LBXVE3MS": NaN,
+    "LBDVE3LC": NaN
+   },
+   {
+    "SEQN": 93704.0,
+    "LBXVIDMS": 74.4,
+    "LBDVIDLC": 5.397605346934028e-79,
+    "LBXVD2MS": 1.45,
+    "LBDVD2LC": 1.0,
+    "LBXVD3MS": 73.0,
+    "LBDVD3LC": 5.397605346934028e-79,
+    "LBXVE3MS": 5.84,
+    "LBDVE3LC": 5.397605346934028e-79
+   },
+   {
+    "SEQN": 93705.0,
+    "LBXVIDMS": 89.9,
+    "LBDVIDLC": 5.397605346934028e-79,
+    "LBXVD2MS": 1.45,
+    "LBDVD2LC": 1.0,
+    "LBXVD3MS": 88.5,
+    "LBDVD3LC": 5.397605346934028e-79,
+    "LBXVE3MS": 6.16,
+    "LBDVE3LC": 5.397605346934028e-79
+   }
+  ]
+ },
+ "pool": [
+  {
+   "tema_id": "t0",
+   "texto": "dados de exames"
+  },
+  {
+   "tema_id": "t1",
+   "texto": "Deficiência vitamínica"
+  },
+  {
+   "tema_id": "t2",
+   "texto": "níveis de marcadores laboratoriais"
+  },
+  {
+   "tema_id": "t3",
+   "texto": "medidas de saúde"
+  },
+  {
+   "tema_id": "t4",
+   "texto": "Deficiência de vitaminas"
+  },
+  {
+   "tema_id": "t5",
+   "texto": "análise de biomarcadores"
+  },
+  {
+   "tema_id": "t6",
+   "texto": "dados de biomarcadores"
+  },
+  {
+   "tema_id": "t7",
+   "texto": "Vitamina D sérica"
+  },
+  {
+   "tema_id": "t8",
+   "texto": "valores de referência"
+  },
+  {
+   "tema_id": "t9",
+   "texto": "análise de variáveis laboratoriais"
+  },
+  {
+   "tema_id": "t10",
+   "texto": "avaliação de deficiências nutricionais"
+  },
+  {
+   "tema_id": "t11",
+   "texto": "análise de vitamina D"
+  },
+  {
+   "tema_id": "t12",
+   "texto": "Vitamina E sérica"
+  },
+  {
+   "tema_id": "t13",
+   "texto": "dados laboratoriais"
+  }
+ ],
+ "listas": {
+  "Sistema A": {
+   "1": [
+    "análise de variáveis laboratoriais",
+    "medidas de saúde",
+    "dados de exames"
+   ],
+   "2": [
+    "análise de biomarcadores",
+    "dados laboratoriais",
+    "valores de referência"
+   ],
+   "3": [
+    "análise de variáveis laboratoriais",
+    "medidas de saúde",
+    "dados de biomarcadores"
+   ]
+  },
+  "Sistema B": {
+   "1": [
+    "Vitamina D sérica",
+    "Vitamina E sérica",
+    "Deficiência de vitaminas"
+   ],
+   "2": [
+    "Vitamina D sérica",
+    "Vitamina E sérica",
+    "Deficiência vitamínica"
+   ],
+   "3": [
+    "Vitamina D sérica",
+    "Vitamina E sérica",
+    "Deficiência vitamínica"
+   ]
+  },
+  "Sistema C": {
+   "1": [
+    "análise de vitamina D",
+    "níveis de marcadores laboratoriais",
+    "avaliação de deficiências nutricionais"
+   ],
+   "2": [
+    "análise de vitamina D",
+    "níveis de marcadores laboratoriais",
+    "avaliação de deficiências nutricionais"
+   ],
+   "3": [
+    "análise de vitamina D",
+    "níveis de marcadores laboratoriais",
+    "avaliação de deficiências nutricionais"
+   ]
+  }
+ }
+}

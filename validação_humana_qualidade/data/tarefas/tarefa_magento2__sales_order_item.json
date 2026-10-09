@@ -1,0 +1,1103 @@
+{
+ "item_id": "magento2__sales_order_item",
+ "table_key": "magento2.sales_order_item",
+ "base": "magento2",
+ "piloto": false,
+ "contexto": {
+  "tabela": "sales_order_item",
+  "linhas": 0,
+  "pk": [
+   "item_id"
+  ],
+  "fks": [
+   "order_id -> sales_order(entity_id)",
+   "store_id -> store(store_id)"
+  ],
+  "colunas": [
+   {
+    "coluna": "item_id",
+    "tipo": "INTEGER",
+    "aceita_nulo": false,
+    "distintos": null,
+    "pct_nulo": null,
+    "min": null,
+    "max": null,
+    "media": null,
+    "mais_frequentes": "",
+    "amostra": ""
+   },
+   {
+    "coluna": "order_id",
+    "tipo": "INTEGER",
+    "aceita_nulo": false,
+    "distintos": null,
+    "pct_nulo": null,
+    "min": null,
+    "max": null,
+    "media": null,
+    "mais_frequentes": "",
+    "amostra": ""
+   },
+   {
+    "coluna": "parent_item_id",
+    "tipo": "INTEGER",
+    "aceita_nulo": true,
+    "distintos": null,
+    "pct_nulo": null,
+    "min": null,
+    "max": null,
+    "media": null,
+    "mais_frequentes": "",
+    "amostra": ""
+   },
+   {
+    "coluna": "quote_item_id",
+    "tipo": "INTEGER",
+    "aceita_nulo": true,
+    "distintos": null,
+    "pct_nulo": null,
+    "min": null,
+    "max": null,
+    "media": null,
+    "mais_frequentes": "",
+    "amostra": ""
+   },
+   {
+    "coluna": "store_id",
+    "tipo": "SMALLINT",
+    "aceita_nulo": true,
+    "distintos": null,
+    "pct_nulo": null,
+    "min": null,
+    "max": null,
+    "media": null,
+    "mais_frequentes": "",
+    "amostra": ""
+   },
+   {
+    "coluna": "created_at",
+    "tipo": "TIMESTAMP",
+    "aceita_nulo": false,
+    "distintos": null,
+    "pct_nulo": null,
+    "min": null,
+    "max": null,
+    "media": null,
+    "mais_frequentes": "",
+    "amostra": ""
+   },
+   {
+    "coluna": "updated_at",
+    "tipo": "TIMESTAMP",
+    "aceita_nulo": false,
+    "distintos": null,
+    "pct_nulo": null,
+    "min": null,
+    "max": null,
+    "media": null,
+    "mais_frequentes": "",
+    "amostra": ""
+   },
+   {
+    "coluna": "product_id",
+    "tipo": "INTEGER",
+    "aceita_nulo": true,
+    "distintos": null,
+    "pct_nulo": null,
+    "min": null,
+    "max": null,
+    "media": null,
+    "mais_frequentes": "",
+    "amostra": ""
+   },
+   {
+    "coluna": "product_type",
+    "tipo": "VARCHAR(255)",
+    "aceita_nulo": true,
+    "distintos": null,
+    "pct_nulo": null,
+    "min": null,
+    "max": null,
+    "media": null,
+    "mais_frequentes": "",
+    "amostra": ""
+   },
+   {
+    "coluna": "product_options",
+    "tipo": "TEXT",
+    "aceita_nulo": true,
+    "distintos": null,
+    "pct_nulo": null,
+    "min": null,
+    "max": null,
+    "media": null,
+    "mais_frequentes": "",
+    "amostra": ""
+   },
+   {
+    "coluna": "weight",
+    "tipo": "DECIMAL(12, 4)",
+    "aceita_nulo": true,
+    "distintos": null,
+    "pct_nulo": null,
+    "min": null,
+    "max": null,
+    "media": null,
+    "mais_frequentes": "",
+    "amostra": ""
+   },
+   {
+    "coluna": "is_virtual",
+    "tipo": "SMALLINT",
+    "aceita_nulo": true,
+    "distintos": null,
+    "pct_nulo": null,
+    "min": null,
+    "max": null,
+    "media": null,
+    "mais_frequentes": "",
+    "amostra": ""
+   },
+   {
+    "coluna": "sku",
+    "tipo": "VARCHAR(255)",
+    "aceita_nulo": true,
+    "distintos": null,
+    "pct_nulo": null,
+    "min": null,
+    "max": null,
+    "media": null,
+    "mais_frequentes": "",
+    "amostra": ""
+   },
+   {
+    "coluna": "name",
+    "tipo": "VARCHAR(255)",
+    "aceita_nulo": true,
+    "distintos": null,
+    "pct_nulo": null,
+    "min": null,
+    "max": null,
+    "media": null,
+    "mais_frequentes": "",
+    "amostra": ""
+   },
+   {
+    "coluna": "description",
+    "tipo": "TEXT",
+    "aceita_nulo": true,
+    "distintos": null,
+    "pct_nulo": null,
+    "min": null,
+    "max": null,
+    "media": null,
+    "mais_frequentes": "",
+    "amostra": ""
+   },
+   {
+    "coluna": "applied_rule_ids",
+    "tipo": "TEXT",
+    "aceita_nulo": true,
+    "distintos": null,
+    "pct_nulo": null,
+    "min": null,
+    "max": null,
+    "media": null,
+    "mais_frequentes": "",
+    "amostra": ""
+   },
+   {
+    "coluna": "additional_data",
+    "tipo": "TEXT",
+    "aceita_nulo": true,
+    "distintos": null,
+    "pct_nulo": null,
+    "min": null,
+    "max": null,
+    "media": null,
+    "mais_frequentes": "",
+    "amostra": ""
+   },
+   {
+    "coluna": "is_qty_decimal",
+    "tipo": "SMALLINT",
+    "aceita_nulo": true,
+    "distintos": null,
+    "pct_nulo": null,
+    "min": null,
+    "max": null,
+    "media": null,
+    "mais_frequentes": "",
+    "amostra": ""
+   },
+   {
+    "coluna": "no_discount",
+    "tipo": "SMALLINT",
+    "aceita_nulo": false,
+    "distintos": null,
+    "pct_nulo": null,
+    "min": null,
+    "max": null,
+    "media": null,
+    "mais_frequentes": "",
+    "amostra": ""
+   },
+   {
+    "coluna": "qty_backordered",
+    "tipo": "DECIMAL(12, 4)",
+    "aceita_nulo": true,
+    "distintos": null,
+    "pct_nulo": null,
+    "min": null,
+    "max": null,
+    "media": null,
+    "mais_frequentes": "",
+    "amostra": ""
+   },
+   {
+    "coluna": "qty_canceled",
+    "tipo": "DECIMAL(12, 4)",
+    "aceita_nulo": true,
+    "distintos": null,
+    "pct_nulo": null,
+    "min": null,
+    "max": null,
+    "media": null,
+    "mais_frequentes": "",
+    "amostra": ""
+   },
+   {
+    "coluna": "qty_invoiced",
+    "tipo": "DECIMAL(12, 4)",
+    "aceita_nulo": true,
+    "distintos": null,
+    "pct_nulo": null,
+    "min": null,
+    "max": null,
+    "media": null,
+    "mais_frequentes": "",
+    "amostra": ""
+   },
+   {
+    "coluna": "qty_ordered",
+    "tipo": "DECIMAL(12, 4)",
+    "aceita_nulo": true,
+    "distintos": null,
+    "pct_nulo": null,
+    "min": null,
+    "max": null,
+    "media": null,
+    "mais_frequentes": "",
+    "amostra": ""
+   },
+   {
+    "coluna": "qty_refunded",
+    "tipo": "DECIMAL(12, 4)",
+    "aceita_nulo": true,
+    "distintos": null,
+    "pct_nulo": null,
+    "min": null,
+    "max": null,
+    "media": null,
+    "mais_frequentes": "",
+    "amostra": ""
+   },
+   {
+    "coluna": "qty_shipped",
+    "tipo": "DECIMAL(12, 4)",
+    "aceita_nulo": true,
+    "distintos": null,
+    "pct_nulo": null,
+    "min": null,
+    "max": null,
+    "media": null,
+    "mais_frequentes": "",
+    "amostra": ""
+   },
+   {
+    "coluna": "base_cost",
+    "tipo": "DECIMAL(12, 4)",
+    "aceita_nulo": true,
+    "distintos": null,
+    "pct_nulo": null,
+    "min": null,
+    "max": null,
+    "media": null,
+    "mais_frequentes": "",
+    "amostra": ""
+   },
+   {
+    "coluna": "price",
+    "tipo": "DECIMAL(12, 4)",
+    "aceita_nulo": false,
+    "distintos": null,
+    "pct_nulo": null,
+    "min": null,
+    "max": null,
+    "media": null,
+    "mais_frequentes": "",
+    "amostra": ""
+   },
+   {
+    "coluna": "base_price",
+    "tipo": "DECIMAL(12, 4)",
+    "aceita_nulo": false,
+    "distintos": null,
+    "pct_nulo": null,
+    "min": null,
+    "max": null,
+    "media": null,
+    "mais_frequentes": "",
+    "amostra": ""
+   },
+   {
+    "coluna": "original_price",
+    "tipo": "DECIMAL(12, 4)",
+    "aceita_nulo": true,
+    "distintos": null,
+    "pct_nulo": null,
+    "min": null,
+    "max": null,
+    "media": null,
+    "mais_frequentes": "",
+    "amostra": ""
+   },
+   {
+    "coluna": "base_original_price",
+    "tipo": "DECIMAL(12, 4)",
+    "aceita_nulo": true,
+    "distintos": null,
+    "pct_nulo": null,
+    "min": null,
+    "max": null,
+    "media": null,
+    "mais_frequentes": "",
+    "amostra": ""
+   },
+   {
+    "coluna": "tax_percent",
+    "tipo": "DECIMAL(12, 4)",
+    "aceita_nulo": true,
+    "distintos": null,
+    "pct_nulo": null,
+    "min": null,
+    "max": null,
+    "media": null,
+    "mais_frequentes": "",
+    "amostra": ""
+   },
+   {
+    "coluna": "tax_amount",
+    "tipo": "DECIMAL(12, 4)",
+    "aceita_nulo": true,
+    "distintos": null,
+    "pct_nulo": null,
+    "min": null,
+    "max": null,
+    "media": null,
+    "mais_frequentes": "",
+    "amostra": ""
+   },
+   {
+    "coluna": "base_tax_amount",
+    "tipo": "DECIMAL(12, 4)",
+    "aceita_nulo": true,
+    "distintos": null,
+    "pct_nulo": null,
+    "min": null,
+    "max": null,
+    "media": null,
+    "mais_frequentes": "",
+    "amostra": ""
+   },
+   {
+    "coluna": "tax_invoiced",
+    "tipo": "DECIMAL(12, 4)",
+    "aceita_nulo": true,
+    "distintos": null,
+    "pct_nulo": null,
+    "min": null,
+    "max": null,
+    "media": null,
+    "mais_frequentes": "",
+    "amostra": ""
+   },
+   {
+    "coluna": "base_tax_invoiced",
+    "tipo": "DECIMAL(12, 4)",
+    "aceita_nulo": true,
+    "distintos": null,
+    "pct_nulo": null,
+    "min": null,
+    "max": null,
+    "media": null,
+    "mais_frequentes": "",
+    "amostra": ""
+   },
+   {
+    "coluna": "discount_percent",
+    "tipo": "DECIMAL(12, 4)",
+    "aceita_nulo": true,
+    "distintos": null,
+    "pct_nulo": null,
+    "min": null,
+    "max": null,
+    "media": null,
+    "mais_frequentes": "",
+    "amostra": ""
+   },
+   {
+    "coluna": "discount_amount",
+    "tipo": "DECIMAL(12, 4)",
+    "aceita_nulo": true,
+    "distintos": null,
+    "pct_nulo": null,
+    "min": null,
+    "max": null,
+    "media": null,
+    "mais_frequentes": "",
+    "amostra": ""
+   },
+   {
+    "coluna": "base_discount_amount",
+    "tipo": "DECIMAL(12, 4)",
+    "aceita_nulo": true,
+    "distintos": null,
+    "pct_nulo": null,
+    "min": null,
+    "max": null,
+    "media": null,
+    "mais_frequentes": "",
+    "amostra": ""
+   },
+   {
+    "coluna": "discount_invoiced",
+    "tipo": "DECIMAL(12, 4)",
+    "aceita_nulo": true,
+    "distintos": null,
+    "pct_nulo": null,
+    "min": null,
+    "max": null,
+    "media": null,
+    "mais_frequentes": "",
+    "amostra": ""
+   },
+   {
+    "coluna": "base_discount_invoiced",
+    "tipo": "DECIMAL(12, 4)",
+    "aceita_nulo": true,
+    "distintos": null,
+    "pct_nulo": null,
+    "min": null,
+    "max": null,
+    "media": null,
+    "mais_frequentes": "",
+    "amostra": ""
+   },
+   {
+    "coluna": "amount_refunded",
+    "tipo": "DECIMAL(12, 4)",
+    "aceita_nulo": true,
+    "distintos": null,
+    "pct_nulo": null,
+    "min": null,
+    "max": null,
+    "media": null,
+    "mais_frequentes": "",
+    "amostra": ""
+   },
+   {
+    "coluna": "base_amount_refunded",
+    "tipo": "DECIMAL(12, 4)",
+    "aceita_nulo": true,
+    "distintos": null,
+    "pct_nulo": null,
+    "min": null,
+    "max": null,
+    "media": null,
+    "mais_frequentes": "",
+    "amostra": ""
+   },
+   {
+    "coluna": "row_total",
+    "tipo": "DECIMAL(12, 4)",
+    "aceita_nulo": false,
+    "distintos": null,
+    "pct_nulo": null,
+    "min": null,
+    "max": null,
+    "media": null,
+    "mais_frequentes": "",
+    "amostra": ""
+   },
+   {
+    "coluna": "base_row_total",
+    "tipo": "DECIMAL(12, 4)",
+    "aceita_nulo": false,
+    "distintos": null,
+    "pct_nulo": null,
+    "min": null,
+    "max": null,
+    "media": null,
+    "mais_frequentes": "",
+    "amostra": ""
+   },
+   {
+    "coluna": "row_invoiced",
+    "tipo": "DECIMAL(12, 4)",
+    "aceita_nulo": false,
+    "distintos": null,
+    "pct_nulo": null,
+    "min": null,
+    "max": null,
+    "media": null,
+    "mais_frequentes": "",
+    "amostra": ""
+   },
+   {
+    "coluna": "base_row_invoiced",
+    "tipo": "DECIMAL(12, 4)",
+    "aceita_nulo": false,
+    "distintos": null,
+    "pct_nulo": null,
+    "min": null,
+    "max": null,
+    "media": null,
+    "mais_frequentes": "",
+    "amostra": ""
+   },
+   {
+    "coluna": "row_weight",
+    "tipo": "DECIMAL(12, 4)",
+    "aceita_nulo": true,
+    "distintos": null,
+    "pct_nulo": null,
+    "min": null,
+    "max": null,
+    "media": null,
+    "mais_frequentes": "",
+    "amostra": ""
+   },
+   {
+    "coluna": "base_tax_before_discount",
+    "tipo": "DECIMAL(12, 4)",
+    "aceita_nulo": true,
+    "distintos": null,
+    "pct_nulo": null,
+    "min": null,
+    "max": null,
+    "media": null,
+    "mais_frequentes": "",
+    "amostra": ""
+   },
+   {
+    "coluna": "tax_before_discount",
+    "tipo": "DECIMAL(12, 4)",
+    "aceita_nulo": true,
+    "distintos": null,
+    "pct_nulo": null,
+    "min": null,
+    "max": null,
+    "media": null,
+    "mais_frequentes": "",
+    "amostra": ""
+   },
+   {
+    "coluna": "ext_order_item_id",
+    "tipo": "VARCHAR(255)",
+    "aceita_nulo": true,
+    "distintos": null,
+    "pct_nulo": null,
+    "min": null,
+    "max": null,
+    "media": null,
+    "mais_frequentes": "",
+    "amostra": ""
+   },
+   {
+    "coluna": "locked_do_invoice",
+    "tipo": "SMALLINT",
+    "aceita_nulo": true,
+    "distintos": null,
+    "pct_nulo": null,
+    "min": null,
+    "max": null,
+    "media": null,
+    "mais_frequentes": "",
+    "amostra": ""
+   },
+   {
+    "coluna": "locked_do_ship",
+    "tipo": "SMALLINT",
+    "aceita_nulo": true,
+    "distintos": null,
+    "pct_nulo": null,
+    "min": null,
+    "max": null,
+    "media": null,
+    "mais_frequentes": "",
+    "amostra": ""
+   },
+   {
+    "coluna": "price_incl_tax",
+    "tipo": "DECIMAL(12, 4)",
+    "aceita_nulo": true,
+    "distintos": null,
+    "pct_nulo": null,
+    "min": null,
+    "max": null,
+    "media": null,
+    "mais_frequentes": "",
+    "amostra": ""
+   },
+   {
+    "coluna": "base_price_incl_tax",
+    "tipo": "DECIMAL(12, 4)",
+    "aceita_nulo": true,
+    "distintos": null,
+    "pct_nulo": null,
+    "min": null,
+    "max": null,
+    "media": null,
+    "mais_frequentes": "",
+    "amostra": ""
+   },
+   {
+    "coluna": "row_total_incl_tax",
+    "tipo": "DECIMAL(12, 4)",
+    "aceita_nulo": true,
+    "distintos": null,
+    "pct_nulo": null,
+    "min": null,
+    "max": null,
+    "media": null,
+    "mais_frequentes": "",
+    "amostra": ""
+   },
+   {
+    "coluna": "base_row_total_incl_tax",
+    "tipo": "DECIMAL(12, 4)",
+    "aceita_nulo": true,
+    "distintos": null,
+    "pct_nulo": null,
+    "min": null,
+    "max": null,
+    "media": null,
+    "mais_frequentes": "",
+    "amostra": ""
+   },
+   {
+    "coluna": "hidden_tax_amount",
+    "tipo": "DECIMAL(12, 4)",
+    "aceita_nulo": true,
+    "distintos": null,
+    "pct_nulo": null,
+    "min": null,
+    "max": null,
+    "media": null,
+    "mais_frequentes": "",
+    "amostra": ""
+   },
+   {
+    "coluna": "base_hidden_tax_amount",
+    "tipo": "DECIMAL(12, 4)",
+    "aceita_nulo": true,
+    "distintos": null,
+    "pct_nulo": null,
+    "min": null,
+    "max": null,
+    "media": null,
+    "mais_frequentes": "",
+    "amostra": ""
+   },
+   {
+    "coluna": "hidden_tax_invoiced",
+    "tipo": "DECIMAL(12, 4)",
+    "aceita_nulo": true,
+    "distintos": null,
+    "pct_nulo": null,
+    "min": null,
+    "max": null,
+    "media": null,
+    "mais_frequentes": "",
+    "amostra": ""
+   },
+   {
+    "coluna": "base_hidden_tax_invoiced",
+    "tipo": "DECIMAL(12, 4)",
+    "aceita_nulo": true,
+    "distintos": null,
+    "pct_nulo": null,
+    "min": null,
+    "max": null,
+    "media": null,
+    "mais_frequentes": "",
+    "amostra": ""
+   },
+   {
+    "coluna": "hidden_tax_refunded",
+    "tipo": "DECIMAL(12, 4)",
+    "aceita_nulo": true,
+    "distintos": null,
+    "pct_nulo": null,
+    "min": null,
+    "max": null,
+    "media": null,
+    "mais_frequentes": "",
+    "amostra": ""
+   },
+   {
+    "coluna": "base_hidden_tax_refunded",
+    "tipo": "DECIMAL(12, 4)",
+    "aceita_nulo": true,
+    "distintos": null,
+    "pct_nulo": null,
+    "min": null,
+    "max": null,
+    "media": null,
+    "mais_frequentes": "",
+    "amostra": ""
+   },
+   {
+    "coluna": "is_nominal",
+    "tipo": "INTEGER",
+    "aceita_nulo": false,
+    "distintos": null,
+    "pct_nulo": null,
+    "min": null,
+    "max": null,
+    "media": null,
+    "mais_frequentes": "",
+    "amostra": ""
+   },
+   {
+    "coluna": "tax_canceled",
+    "tipo": "DECIMAL(12, 4)",
+    "aceita_nulo": true,
+    "distintos": null,
+    "pct_nulo": null,
+    "min": null,
+    "max": null,
+    "media": null,
+    "mais_frequentes": "",
+    "amostra": ""
+   },
+   {
+    "coluna": "hidden_tax_canceled",
+    "tipo": "DECIMAL(12, 4)",
+    "aceita_nulo": true,
+    "distintos": null,
+    "pct_nulo": null,
+    "min": null,
+    "max": null,
+    "media": null,
+    "mais_frequentes": "",
+    "amostra": ""
+   },
+   {
+    "coluna": "tax_refunded",
+    "tipo": "DECIMAL(12, 4)",
+    "aceita_nulo": true,
+    "distintos": null,
+    "pct_nulo": null,
+    "min": null,
+    "max": null,
+    "media": null,
+    "mais_frequentes": "",
+    "amostra": ""
+   },
+   {
+    "coluna": "base_tax_refunded",
+    "tipo": "DECIMAL(12, 4)",
+    "aceita_nulo": true,
+    "distintos": null,
+    "pct_nulo": null,
+    "min": null,
+    "max": null,
+    "media": null,
+    "mais_frequentes": "",
+    "amostra": ""
+   },
+   {
+    "coluna": "discount_refunded",
+    "tipo": "DECIMAL(12, 4)",
+    "aceita_nulo": true,
+    "distintos": null,
+    "pct_nulo": null,
+    "min": null,
+    "max": null,
+    "media": null,
+    "mais_frequentes": "",
+    "amostra": ""
+   },
+   {
+    "coluna": "base_discount_refunded",
+    "tipo": "DECIMAL(12, 4)",
+    "aceita_nulo": true,
+    "distintos": null,
+    "pct_nulo": null,
+    "min": null,
+    "max": null,
+    "media": null,
+    "mais_frequentes": "",
+    "amostra": ""
+   },
+   {
+    "coluna": "free_shipping",
+    "tipo": "SMALLINT",
+    "aceita_nulo": true,
+    "distintos": null,
+    "pct_nulo": null,
+    "min": null,
+    "max": null,
+    "media": null,
+    "mais_frequentes": "",
+    "amostra": ""
+   },
+   {
+    "coluna": "gift_message_id",
+    "tipo": "INTEGER",
+    "aceita_nulo": true,
+    "distintos": null,
+    "pct_nulo": null,
+    "min": null,
+    "max": null,
+    "media": null,
+    "mais_frequentes": "",
+    "amostra": ""
+   },
+   {
+    "coluna": "gift_message_available",
+    "tipo": "INTEGER",
+    "aceita_nulo": true,
+    "distintos": null,
+    "pct_nulo": null,
+    "min": null,
+    "max": null,
+    "media": null,
+    "mais_frequentes": "",
+    "amostra": ""
+   },
+   {
+    "coluna": "weee_tax_applied",
+    "tipo": "TEXT",
+    "aceita_nulo": true,
+    "distintos": null,
+    "pct_nulo": null,
+    "min": null,
+    "max": null,
+    "media": null,
+    "mais_frequentes": "",
+    "amostra": ""
+   },
+   {
+    "coluna": "weee_tax_applied_amount",
+    "tipo": "DECIMAL(12, 4)",
+    "aceita_nulo": true,
+    "distintos": null,
+    "pct_nulo": null,
+    "min": null,
+    "max": null,
+    "media": null,
+    "mais_frequentes": "",
+    "amostra": ""
+   },
+   {
+    "coluna": "weee_tax_applied_row_amount",
+    "tipo": "DECIMAL(12, 4)",
+    "aceita_nulo": true,
+    "distintos": null,
+    "pct_nulo": null,
+    "min": null,
+    "max": null,
+    "media": null,
+    "mais_frequentes": "",
+    "amostra": ""
+   },
+   {
+    "coluna": "weee_tax_disposition",
+    "tipo": "DECIMAL(12, 4)",
+    "aceita_nulo": true,
+    "distintos": null,
+    "pct_nulo": null,
+    "min": null,
+    "max": null,
+    "media": null,
+    "mais_frequentes": "",
+    "amostra": ""
+   },
+   {
+    "coluna": "weee_tax_row_disposition",
+    "tipo": "DECIMAL(12, 4)",
+    "aceita_nulo": true,
+    "distintos": null,
+    "pct_nulo": null,
+    "min": null,
+    "max": null,
+    "media": null,
+    "mais_frequentes": "",
+    "amostra": ""
+   },
+   {
+    "coluna": "base_weee_tax_applied_amount",
+    "tipo": "DECIMAL(12, 4)",
+    "aceita_nulo": true,
+    "distintos": null,
+    "pct_nulo": null,
+    "min": null,
+    "max": null,
+    "media": null,
+    "mais_frequentes": "",
+    "amostra": ""
+   },
+   {
+    "coluna": "base_weee_tax_applied_row_amnt",
+    "tipo": "DECIMAL(12, 4)",
+    "aceita_nulo": true,
+    "distintos": null,
+    "pct_nulo": null,
+    "min": null,
+    "max": null,
+    "media": null,
+    "mais_frequentes": "",
+    "amostra": ""
+   },
+   {
+    "coluna": "base_weee_tax_disposition",
+    "tipo": "DECIMAL(12, 4)",
+    "aceita_nulo": true,
+    "distintos": null,
+    "pct_nulo": null,
+    "min": null,
+    "max": null,
+    "media": null,
+    "mais_frequentes": "",
+    "amostra": ""
+   },
+   {
+    "coluna": "base_weee_tax_row_disposition",
+    "tipo": "DECIMAL(12, 4)",
+    "aceita_nulo": true,
+    "distintos": null,
+    "pct_nulo": null,
+    "min": null,
+    "max": null,
+    "media": null,
+    "mais_frequentes": "",
+    "amostra": ""
+   }
+  ],
+  "amostra_linhas": []
+ },
+ "pool": [
+  {
+   "tema_id": "t0",
+   "texto": "rastreamento de estoque"
+  },
+  {
+   "tema_id": "t1",
+   "texto": "impostos e descontos"
+  },
+  {
+   "tema_id": "t2",
+   "texto": "Preços e descontos"
+  },
+  {
+   "tema_id": "t3",
+   "texto": "Itens de pedido"
+  },
+  {
+   "tema_id": "t4",
+   "texto": "Preços e impostos"
+  },
+  {
+   "tema_id": "t5",
+   "texto": "informações de produtos"
+  },
+  {
+   "tema_id": "t6",
+   "texto": "detalhes de produtos"
+  },
+  {
+   "tema_id": "t7",
+   "texto": "transações financeiras de vendas"
+  },
+  {
+   "tema_id": "t8",
+   "texto": "quantidades e devoluções"
+  },
+  {
+   "tema_id": "t9",
+   "texto": "ordens de compra"
+  },
+  {
+   "tema_id": "t10",
+   "texto": "detalhes de pedidos"
+  },
+  {
+   "tema_id": "t11",
+   "texto": "Impostos e quantidades"
+  },
+  {
+   "tema_id": "t12",
+   "texto": "análise de preços"
+  },
+  {
+   "tema_id": "t13",
+   "texto": "vendas de itens"
+  }
+ ],
+ "listas": {
+  "Sistema A": {
+   "1": [
+    "Itens de pedido",
+    "Preços e descontos",
+    "Impostos e quantidades"
+   ],
+   "2": [
+    "itens de pedido",
+    "quantidades e devoluções",
+    "impostos e descontos"
+   ],
+   "3": [
+    "Itens de pedido",
+    "Preços e impostos",
+    "Quantidades e devoluções"
+   ]
+  },
+  "Sistema B": {
+   "1": [
+    "itens de pedido",
+    "transações financeiras de vendas",
+    "rastreamento de estoque"
+   ],
+   "2": [
+    "itens de pedido",
+    "transações financeiras de vendas",
+    "rastreamento de estoque"
+   ],
+   "3": [
+    "itens de pedido",
+    "transações financeiras de vendas",
+    "rastreamento de estoque"
+   ]
+  },
+  "Sistema C": {
+   "1": [
+    "vendas de itens",
+    "detalhes de pedidos",
+    "informações de produtos"
+   ],
+   "2": [
+    "vendas de itens",
+    "detalhes de pedidos",
+    "análise de preços"
+   ],
+   "3": [
+    "vendas de itens",
+    "ordens de compra",
+    "detalhes de produtos"
+   ]
+  }
+ }
+}

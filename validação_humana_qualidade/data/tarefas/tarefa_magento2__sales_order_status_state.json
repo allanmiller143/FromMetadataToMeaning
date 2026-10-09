@@ -1,0 +1,180 @@
+{
+ "item_id": "magento2__sales_order_status_state",
+ "table_key": "magento2.sales_order_status_state",
+ "base": "magento2",
+ "piloto": false,
+ "contexto": {
+  "tabela": "sales_order_status_state",
+  "linhas": 11,
+  "pk": [
+   "status",
+   "state"
+  ],
+  "fks": [],
+  "colunas": [
+   {
+    "coluna": "status",
+    "tipo": "VARCHAR(32)",
+    "aceita_nulo": false,
+    "distintos": 11,
+    "pct_nulo": 0.0,
+    "min": null,
+    "max": null,
+    "media": null,
+    "mais_frequentes": "",
+    "amostra": "<anonimizado> | <anonimizado> | <anonimizado> | <anonimizado> | <anonimizado>"
+   },
+   {
+    "coluna": "state",
+    "tipo": "VARCHAR(32)",
+    "aceita_nulo": false,
+    "distintos": 8,
+    "pct_nulo": 0.0,
+    "min": null,
+    "max": null,
+    "media": null,
+    "mais_frequentes": "",
+    "amostra": "<anonimizado> | <anonimizado> | <anonimizado> | <anonimizado> | <anonimizado>"
+   },
+   {
+    "coluna": "is_default",
+    "tipo": "SMALLINT",
+    "aceita_nulo": false,
+    "distintos": 2,
+    "pct_nulo": 0.0,
+    "min": 0.0,
+    "max": 1.0,
+    "media": 0.7273,
+    "mais_frequentes": "1 (8), 0 (3)",
+    "amostra": "1 | 0"
+   },
+   {
+    "coluna": "visible_on_front",
+    "tipo": "SMALLINT",
+    "aceita_nulo": false,
+    "distintos": 2,
+    "pct_nulo": 0.0,
+    "min": 0.0,
+    "max": 1.0,
+    "media": 0.8182,
+    "mais_frequentes": "1 (9), 0 (2)",
+    "amostra": "1 | 0"
+   }
+  ],
+  "amostra_linhas": [
+   {
+    "status": "<anonimizado>",
+    "state": "<anonimizado>",
+    "is_default": 1,
+    "visible_on_front": 1
+   },
+   {
+    "status": "<anonimizado>",
+    "state": "<anonimizado>",
+    "is_default": 1,
+    "visible_on_front": 1
+   },
+   {
+    "status": "<anonimizado>",
+    "state": "<anonimizado>",
+    "is_default": 1,
+    "visible_on_front": 1
+   }
+  ]
+ },
+ "pool": [
+  {
+   "tema_id": "t0",
+   "texto": "Configuração de visibilidade"
+  },
+  {
+   "tema_id": "t1",
+   "texto": "estado de pedido"
+  },
+  {
+   "tema_id": "t2",
+   "texto": "Fluxo de estados"
+  },
+  {
+   "tema_id": "t3",
+   "texto": "Mapeamento status-pedido"
+  },
+  {
+   "tema_id": "t4",
+   "texto": "configuração de status padrão"
+  },
+  {
+   "tema_id": "t5",
+   "texto": "mapeamento de status de pedido"
+  },
+  {
+   "tema_id": "t6",
+   "texto": "estados de fluxo de vendas"
+  },
+  {
+   "tema_id": "t7",
+   "texto": "status de pedido"
+  },
+  {
+   "tema_id": "t8",
+   "texto": "visibilidade no frontend"
+  },
+  {
+   "tema_id": "t9",
+   "texto": "visibilidade de status"
+  }
+ ],
+ "listas": {
+  "Sistema A": {
+   "1": [
+    "mapeamento de status de pedido",
+    "estados de fluxo de vendas",
+    "configuração de status padrão"
+   ],
+   "2": [
+    "mapeamento de status de pedido",
+    "estados de fluxo de vendas",
+    "configuração de status padrão"
+   ],
+   "3": [
+    "mapeamento de status de pedido",
+    "estados de fluxo de vendas",
+    "configuração de status padrão"
+   ]
+  },
+  "Sistema B": {
+   "1": [
+    "status de pedido",
+    "estado de pedido",
+    "visibilidade no frontend"
+   ],
+   "2": [
+    "Mapeamento status-pedido",
+    "Configuração de visibilidade",
+    "Fluxo de estados"
+   ],
+   "3": [
+    "Status de pedido",
+    "Estado de pedido",
+    "Visibilidade de status"
+   ]
+  },
+  "Sistema C": {
+   "1": [
+    "status de pedido",
+    "estado de pedido",
+    "visibilidade de status"
+   ],
+   "2": [
+    "status de pedido",
+    "estado de pedido",
+    "visibilidade de status"
+   ],
+   "3": [
+    "status de pedido",
+    "estado de pedido",
+    "visibilidade de status"
+   ]
+  }
+ }
+}

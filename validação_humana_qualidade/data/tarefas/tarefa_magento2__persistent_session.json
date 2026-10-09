@@ -1,0 +1,207 @@
+{
+ "item_id": "magento2__persistent_session",
+ "table_key": "magento2.persistent_session",
+ "base": "magento2",
+ "piloto": false,
+ "contexto": {
+  "tabela": "persistent_session",
+  "linhas": 0,
+  "pk": [
+   "persistent_id"
+  ],
+  "fks": [
+   "customer_id -> customer_entity(entity_id)",
+   "website_id -> store_website(website_id)"
+  ],
+  "colunas": [
+   {
+    "coluna": "persistent_id",
+    "tipo": "INTEGER",
+    "aceita_nulo": false,
+    "distintos": null,
+    "pct_nulo": null,
+    "min": null,
+    "max": null,
+    "media": null,
+    "mais_frequentes": "",
+    "amostra": ""
+   },
+   {
+    "coluna": "key",
+    "tipo": "VARCHAR(50)",
+    "aceita_nulo": false,
+    "distintos": null,
+    "pct_nulo": null,
+    "min": null,
+    "max": null,
+    "media": null,
+    "mais_frequentes": "",
+    "amostra": ""
+   },
+   {
+    "coluna": "customer_id",
+    "tipo": "INTEGER",
+    "aceita_nulo": true,
+    "distintos": null,
+    "pct_nulo": null,
+    "min": null,
+    "max": null,
+    "media": null,
+    "mais_frequentes": "",
+    "amostra": ""
+   },
+   {
+    "coluna": "website_id",
+    "tipo": "SMALLINT",
+    "aceita_nulo": false,
+    "distintos": null,
+    "pct_nulo": null,
+    "min": null,
+    "max": null,
+    "media": null,
+    "mais_frequentes": "",
+    "amostra": ""
+   },
+   {
+    "coluna": "info",
+    "tipo": "TEXT",
+    "aceita_nulo": true,
+    "distintos": null,
+    "pct_nulo": null,
+    "min": null,
+    "max": null,
+    "media": null,
+    "mais_frequentes": "",
+    "amostra": ""
+   },
+   {
+    "coluna": "updated_at",
+    "tipo": "TIMESTAMP",
+    "aceita_nulo": true,
+    "distintos": null,
+    "pct_nulo": null,
+    "min": null,
+    "max": null,
+    "media": null,
+    "mais_frequentes": "",
+    "amostra": ""
+   }
+  ],
+  "amostra_linhas": []
+ },
+ "pool": [
+  {
+   "tema_id": "t0",
+   "texto": "sessões persistentes de clientes"
+  },
+  {
+   "tema_id": "t1",
+   "texto": "armazenamento de tokens de autenticação"
+  },
+  {
+   "tema_id": "t2",
+   "texto": "autenticação de cliente"
+  },
+  {
+   "tema_id": "t3",
+   "texto": "gerenciamento de cookies"
+  },
+  {
+   "tema_id": "t4",
+   "texto": "sessões persistentes de cliente"
+  },
+  {
+   "tema_id": "t5",
+   "texto": "vínculo cliente-website"
+  },
+  {
+   "tema_id": "t6",
+   "texto": "autenticação de usuário"
+  },
+  {
+   "tema_id": "t7",
+   "texto": "dados de sessão"
+  },
+  {
+   "tema_id": "t8",
+   "texto": "associação a websites"
+  },
+  {
+   "tema_id": "t9",
+   "texto": "sessões persistentes"
+  },
+  {
+   "tema_id": "t10",
+   "texto": "sessão persistente de cliente"
+  },
+  {
+   "tema_id": "t11",
+   "texto": "dados de navegação"
+  },
+  {
+   "tema_id": "t12",
+   "texto": "gerenciamento de sessões por site"
+  },
+  {
+   "tema_id": "t13",
+   "texto": "identificação de clientes"
+  },
+  {
+   "tema_id": "t14",
+   "texto": "autenticação de loja"
+  }
+ ],
+ "listas": {
+  "Sistema A": {
+   "1": [
+    "sessões persistentes",
+    "identificação de clientes",
+    "associação a websites"
+   ],
+   "2": [
+    "sessões persistentes",
+    "identificação de clientes",
+    "associação a websites"
+   ],
+   "3": [
+    "sessões persistentes",
+    "identificação de clientes",
+    "associação a websites"
+   ]
+  },
+  "Sistema B": {
+   "1": [
+    "sessões persistentes de clientes",
+    "armazenamento de tokens de autenticação",
+    "gerenciamento de sessões por site"
+   ],
+   "2": [
+    "sessões persistentes de cliente",
+    "autenticação de usuário",
+    "dados de navegação"
+   ],
+   "3": [
+    "sessões persistentes de clientes",
+    "autenticação de loja",
+    "gerenciamento de cookies"
+   ]
+  },
+  "Sistema C": {
+   "1": [
+    "sessão persistente de cliente",
+    "vínculo cliente-website",
+    "dados de sessão"
+   ],
+   "2": [
+    "sessão persistente de cliente",
+    "autenticação de cliente",
+    "vínculo cliente-website"
+   ],
+   "3": [
+    "sessão persistente de cliente",
+    "vínculo cliente-website",
+    "dados de sessão"
+   ]
+  }
+ }
+}

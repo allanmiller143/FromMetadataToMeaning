@@ -1,0 +1,612 @@
+{
+ "item_id": "teixeira__tl_cds_domicilio",
+ "table_key": "public.tl_cds_domicilio",
+ "base": "teixeira",
+ "piloto": false,
+ "contexto": {
+  "tabela": "tl_cds_domicilio",
+  "linhas": 62486,
+  "pk": [
+   "co_revisao",
+   "co_seq_cds_domicilio"
+  ],
+  "fks": [],
+  "colunas": [
+   {
+    "coluna": "co_revisao",
+    "tipo": "BIGINT",
+    "aceita_nulo": false,
+    "distintos": 62486,
+    "pct_nulo": 0.0,
+    "min": 375.0,
+    "max": 725360.0,
+    "media": 370612.2324360657,
+    "mais_frequentes": "",
+    "amostra": "375 | 378 | 379 | 382 | 383"
+   },
+   {
+    "coluna": "co_tipo_revisao",
+    "tipo": "SMALLINT",
+    "aceita_nulo": true,
+    "distintos": 2,
+    "pct_nulo": 0.0,
+    "min": 0.0,
+    "max": 1.0,
+    "media": 0.8432768940242614,
+    "mais_frequentes": "1 (52693), 0 (9793)",
+    "amostra": "0 | 1"
+   },
+   {
+    "coluna": "co_seq_cds_domicilio",
+    "tipo": "BIGINT",
+    "aceita_nulo": false,
+    "distintos": 9793,
+    "pct_nulo": 0.0,
+    "min": 1.0,
+    "max": 9826.0,
+    "media": 4513.012114713696,
+    "mais_frequentes": "2322 (39), 4994 (35), 2308 (32)",
+    "amostra": "251 | 2848 | 3565 | 2026 | 6158"
+   },
+   {
+    "coluna": "tp_logradouro",
+    "tipo": "BIGINT",
+    "aceita_nulo": true,
+    "distintos": 9,
+    "pct_nulo": 0.0,
+    "min": 16.0,
+    "max": 211.0,
+    "media": 160.52398937361968,
+    "mais_frequentes": "<anonimizado> (39904), <anonimizado> (20306), <anonimizado> (781)",
+    "amostra": "<anonimizado> | <anonimizado> | <anonimizado> | <anonimizado> | <anonimizado>"
+   },
+   {
+    "coluna": "ds_complemento",
+    "tipo": "VARCHAR(256)",
+    "aceita_nulo": true,
+    "distintos": 2286,
+    "pct_nulo": 68.84,
+    "min": null,
+    "max": null,
+    "media": null,
+    "mais_frequentes": "<anonimizado> (6550), <anonimizado> (1178), <anonimizado> (993)",
+    "amostra": "<anonimizado> | <anonimizado> | <anonimizado> | <anonimizado> | <anonimizado>"
+   },
+   {
+    "coluna": "co_municipio",
+    "tipo": "BIGINT",
+    "aceita_nulo": true,
+    "distintos": 11,
+    "pct_nulo": 0.0,
+    "min": 5117.0,
+    "max": 5448.0,
+    "media": 5382.960071055916,
+    "mais_frequentes": "5383 (62444), 5277 (13), 5386 (7)",
+    "amostra": "5388 | 5277 | 5386 | 5357 | 5385"
+   },
+   {
+    "coluna": "no_logradouro",
+    "tipo": "VARCHAR(256)",
+    "aceita_nulo": true,
+    "distintos": 540,
+    "pct_nulo": 0.0,
+    "min": null,
+    "max": null,
+    "media": null,
+    "mais_frequentes": "<anonimizado> (1769), <anonimizado> (1281), <anonimizado> (1280)",
+    "amostra": "<anonimizado> | <anonimizado> | <anonimizado> | <anonimizado> | <anonimizado>"
+   },
+   {
+    "coluna": "no_bairro",
+    "tipo": "VARCHAR(256)",
+    "aceita_nulo": true,
+    "distintos": 58,
+    "pct_nulo": 0.0,
+    "min": null,
+    "max": null,
+    "media": null,
+    "mais_frequentes": "<anonimizado> (18322), <anonimizado> (9483), <anonimizado> (7030)",
+    "amostra": "<anonimizado> | <anonimizado> | <anonimizado> | <anonimizado> | <anonimizado>"
+   },
+   {
+    "coluna": "ds_cep",
+    "tipo": "VARCHAR(8)",
+    "aceita_nulo": true,
+    "distintos": 58,
+    "pct_nulo": 0.0,
+    "min": null,
+    "max": null,
+    "media": null,
+    "mais_frequentes": "<anonimizado> (61396), <anonimizado> (179), <anonimizado> (97)",
+    "amostra": "<anonimizado> | <anonimizado> | <anonimizado> | <anonimizado> | <anonimizado>"
+   },
+   {
+    "coluna": "nu_fone_referencia",
+    "tipo": "VARCHAR(255)",
+    "aceita_nulo": true,
+    "distintos": 4072,
+    "pct_nulo": 53.32,
+    "min": null,
+    "max": null,
+    "media": null,
+    "mais_frequentes": "<anonimizado> (637), <anonimizado> (379), <anonimizado> (365)",
+    "amostra": "<anonimizado> | <anonimizado> | <anonimizado> | <anonimizado> | <anonimizado>"
+   },
+   {
+    "coluna": "nu_fone_residencia",
+    "tipo": "VARCHAR(255)",
+    "aceita_nulo": true,
+    "distintos": 1129,
+    "pct_nulo": 87.82,
+    "min": null,
+    "max": null,
+    "media": null,
+    "mais_frequentes": "<anonimizado> (128), <anonimizado> (98), <anonimizado> (68)",
+    "amostra": "<anonimizado> | <anonimizado> | <anonimizado> | <anonimizado> | <anonimizado>"
+   },
+   {
+    "coluna": "nu_domicilio",
+    "tipo": "VARCHAR(255)",
+    "aceita_nulo": true,
+    "distintos": 447,
+    "pct_nulo": 31.22,
+    "min": null,
+    "max": null,
+    "media": null,
+    "mais_frequentes": "S/N (16854), 20 (388), 04 (377)",
+    "amostra": "48 | 181 | 034 | 131 | 2"
+   },
+   {
+    "coluna": "co_unico_domicilio",
+    "tipo": "VARCHAR(96)",
+    "aceita_nulo": true,
+    "distintos": 9793,
+    "pct_nulo": 0.0,
+    "min": null,
+    "max": null,
+    "media": null,
+    "mais_frequentes": "2612852-3c2b27e8-d088-48c1-8c31-0d0a0d7cbad3 (39), 2612852-112180fc-2d80-4e05-936d-cd02b5e9a7da (35), 2612852-9a86bcb7-db04-4b70-99eb-87469f1d26ac (32)",
+    "amostra": "2321505-c7592356-3068-4608-8626-e52d6040790c | 2612852-72208593-c6ae-49b3-8c49-3fd94465a6b2 | 2321505-2ae21524-bfaf-4bd0-8bfe-538fbf8ed0b1 | 2321513-f11a4226-0f6a-4138-a812-028c00b2026c | 7407939-9d838755-eefc-411b-96bc-319c0e843218"
+   },
+   {
+    "coluna": "dt_ultima_atualizacao",
+    "tipo": "TIMESTAMP",
+    "aceita_nulo": true,
+    "distintos": 54139,
+    "pct_nulo": 0.0,
+    "min": null,
+    "max": null,
+    "media": null,
+    "mais_frequentes": "",
+    "amostra": "2020-06-05 16:35:40.480000-03:00 | 2018-12-07 10:03:51.308000-02:00 | 2022-07-18 11:52:50.319000-03:00 | 2022-09-30 12:22:52.757000-03:00 | 2023-02-14 15:51:19.055000-02:00"
+   },
+   {
+    "coluna": "qt_referencia",
+    "tipo": "BIGINT",
+    "aceita_nulo": true,
+    "distintos": 1,
+    "pct_nulo": 0.0,
+    "min": 0.0,
+    "max": 0.0,
+    "media": 0.0,
+    "mais_frequentes": "0 (62486)",
+    "amostra": "0"
+   },
+   {
+    "coluna": "st_sem_numero",
+    "tipo": "INTEGER",
+    "aceita_nulo": true,
+    "distintos": 2,
+    "pct_nulo": 0.0,
+    "min": 0.0,
+    "max": 1.0,
+    "media": 0.5819383541913389,
+    "mais_frequentes": "1 (36363), 0 (26123)",
+    "amostra": "0 | 1"
+   },
+   {
+    "coluna": "co_uf",
+    "tipo": "BIGINT",
+    "aceita_nulo": true,
+    "distintos": 2,
+    "pct_nulo": 0.0,
+    "min": 15.0,
+    "max": 17.0,
+    "media": 15.000064014339213,
+    "mais_frequentes": "15 (62484), 17 (2)",
+    "amostra": "17 | 15"
+   },
+   {
+    "coluna": "nu_ine",
+    "tipo": "VARCHAR(255)",
+    "aceita_nulo": true,
+    "distintos": 9,
+    "pct_nulo": 0.0,
+    "min": null,
+    "max": null,
+    "media": null,
+    "mais_frequentes": "0000133779 (17467), 0000133736 (9906), 0001505513 (9796)",
+    "amostra": "0000133752 | - | 0002298244 | 0000133779 | 0001505513"
+   },
+   {
+    "coluna": "nu_cnes",
+    "tipo": "VARCHAR(255)",
+    "aceita_nulo": true,
+    "distintos": 8,
+    "pct_nulo": 0.0,
+    "min": null,
+    "max": null,
+    "media": null,
+    "mais_frequentes": "2612852 (17467), 2321505 (9906), 7407939 (9796)",
+    "amostra": "2321505 | 4066766 | 0849731 | 2612852 | 7407939"
+   },
+   {
+    "coluna": "co_unico_ultima_ficha",
+    "tipo": "VARCHAR(96)",
+    "aceita_nulo": true,
+    "distintos": 62486,
+    "pct_nulo": 0.0,
+    "min": null,
+    "max": null,
+    "media": null,
+    "mais_frequentes": "",
+    "amostra": "0849731-0019a757-26a9-4616-95cf-0c465a81e0d8 | 0849731-00229764-ff31-47ab-b585-77976489de25 | 0849731-005d65ce-ba47-476a-8ff0-a252986d706e | 0849731-007a75e2-b489-43c5-849c-e4bab8b5ee7f | 0849731-00831792-9969-4b8b-8d98-571f4cd7fd86"
+   },
+   {
+    "coluna": "nu_micro_area",
+    "tipo": "VARCHAR(3)",
+    "aceita_nulo": true,
+    "distintos": 44,
+    "pct_nulo": 0.0,
+    "min": null,
+    "max": null,
+    "media": null,
+    "mais_frequentes": "24 (5735), 20 (3280), 16 (3103)",
+    "amostra": "18 | 02 | 17 | 03 | 25"
+   },
+   {
+    "coluna": "st_fora_area",
+    "tipo": "INTEGER",
+    "aceita_nulo": true,
+    "distintos": 2,
+    "pct_nulo": 0.0,
+    "min": 0.0,
+    "max": 1.0,
+    "media": 0.038280574848766125,
+    "mais_frequentes": "0 (60094), 1 (2392)",
+    "amostra": "0 | 1"
+   },
+   {
+    "coluna": "tp_cds_imovel",
+    "tipo": "BIGINT",
+    "aceita_nulo": true,
+    "distintos": 11,
+    "pct_nulo": 0.0,
+    "min": 1.0,
+    "max": 99.0,
+    "media": 2.600182440866754,
+    "mais_frequentes": "1 (60708), 99 (1002), 2 (442)",
+    "amostra": "6 | 99 | 12 | 1 | 2"
+   },
+   {
+    "coluna": "ds_ponto_referencia",
+    "tipo": "VARCHAR(255)",
+    "aceita_nulo": true,
+    "distintos": 3059,
+    "pct_nulo": 71.09,
+    "min": null,
+    "max": null,
+    "media": null,
+    "mais_frequentes": "Três Postes (428),  (377), PRACA SERGIO DANTAS (370)",
+    "amostra": "Tota caldo de cana | cícero alves batista | CASA DE FRANCISCO | PROXIMO A IGREJA BATISTA | Casa de Vanessa"
+   },
+   {
+    "coluna": "no_instituicao_permanencia",
+    "tipo": "VARCHAR(255)",
+    "aceita_nulo": true,
+    "distintos": 3,
+    "pct_nulo": 99.99,
+    "min": null,
+    "max": null,
+    "media": null,
+    "mais_frequentes": "LAR MADRE CECILIA DO SANTISSIMO SACRAMENTO (5), SEVERINO PEDRO ARAUJO (3), lar madre cecilia do santissimo sacramento (1)",
+    "amostra": "lar madre cecilia do santissimo sacramento | LAR MADRE CECILIA DO SANTISSIMO SACRAMENTO | SEVERINO PEDRO ARAUJO"
+   },
+   {
+    "coluna": "st_outros_prof_vinculados",
+    "tipo": "INTEGER",
+    "aceita_nulo": true,
+    "distintos": 1,
+    "pct_nulo": 99.99,
+    "min": 0.0,
+    "max": 0.0,
+    "media": 0.0,
+    "mais_frequentes": "0 (6)",
+    "amostra": "0"
+   },
+   {
+    "coluna": "no_responsavel_tecnico",
+    "tipo": "VARCHAR(255)",
+    "aceita_nulo": true,
+    "distintos": 5,
+    "pct_nulo": 99.97,
+    "min": null,
+    "max": null,
+    "media": null,
+    "mais_frequentes": "<anonimizado> (6), <anonimizado> (5), <anonimizado> (3)",
+    "amostra": "<anonimizado> | <anonimizado> | <anonimizado> | <anonimizado> | <anonimizado>"
+   },
+   {
+    "coluna": "nu_cns_responsavel_tecnico",
+    "tipo": "VARCHAR(15)",
+    "aceita_nulo": true,
+    "distintos": 3,
+    "pct_nulo": 99.98,
+    "min": null,
+    "max": null,
+    "media": null,
+    "mais_frequentes": "<anonimizado> (6), <anonimizado> (6), <anonimizado> (3)",
+    "amostra": "<anonimizado> | <anonimizado> | <anonimizado>"
+   },
+   {
+    "coluna": "no_cargo_instituicao",
+    "tipo": "VARCHAR(255)",
+    "aceita_nulo": true,
+    "distintos": 1,
+    "pct_nulo": 100.0,
+    "min": null,
+    "max": null,
+    "media": null,
+    "mais_frequentes": "APOSENTADO (3)",
+    "amostra": "APOSENTADO"
+   },
+   {
+    "coluna": "nu_contato_responsavel_tecnico",
+    "tipo": "VARCHAR(255)",
+    "aceita_nulo": true,
+    "distintos": 3,
+    "pct_nulo": 99.98,
+    "min": null,
+    "max": null,
+    "media": null,
+    "mais_frequentes": "<anonimizado> (6), <anonimizado> (6), <anonimizado> (3)",
+    "amostra": "<anonimizado> | <anonimizado> | <anonimizado>"
+   },
+   {
+    "coluna": "nu_latitude",
+    "tipo": "DOUBLE PRECISION",
+    "aceita_nulo": true,
+    "distintos": 5109,
+    "pct_nulo": 68.69,
+    "min": -10.95012994,
+    "max": -3.20588386,
+    "media": -7.23710581279345,
+    "mais_frequentes": "<anonimizado> (106), <anonimizado> (75), <anonimizado> (66)",
+    "amostra": "<anonimizado> | <anonimizado> | <anonimizado> | <anonimizado> | <anonimizado>"
+   },
+   {
+    "coluna": "nu_longitude",
+    "tipo": "DOUBLE PRECISION",
+    "aceita_nulo": true,
+    "distintos": 5122,
+    "pct_nulo": 68.69,
+    "min": -43.20778238,
+    "max": -34.46924263,
+    "media": -37.2506316908905,
+    "mais_frequentes": "<anonimizado> (106), <anonimizado> (75), <anonimizado> (66)",
+    "amostra": "<anonimizado> | <anonimizado> | <anonimizado> | <anonimizado> | <anonimizado>"
+   }
+  ],
+  "amostra_linhas": [
+   {
+    "co_revisao": 375,
+    "co_tipo_revisao": 0,
+    "co_seq_cds_domicilio": 1,
+    "tp_logradouro": "<anonimizado>",
+    "ds_complemento": "<anonimizado>",
+    "co_municipio": 5383,
+    "no_logradouro": "<anonimizado>",
+    "no_bairro": "<anonimizado>",
+    "ds_cep": "<anonimizado>",
+    "nu_fone_referencia": "<anonimizado>",
+    "nu_fone_residencia": "<anonimizado>",
+    "nu_domicilio": "39",
+    "co_unico_domicilio": "2321505-dca25625-565b-4523-878d-58891c206f93",
+    "dt_ultima_atualizacao": "2017-10-30 12:18:56.282000+00:00",
+    "qt_referencia": 0,
+    "st_sem_numero": 0,
+    "co_uf": 15,
+    "nu_ine": "0000133736",
+    "nu_cnes": "2321505",
+    "co_unico_ultima_ficha": "2321505-dca25625-565b-4523-878d-58891c206f93",
+    "nu_micro_area": "21",
+    "st_fora_area": 0,
+    "tp_cds_imovel": 1,
+    "ds_ponto_referencia": "PERTO DA POLICINICA",
+    "no_instituicao_permanencia": null,
+    "st_outros_prof_vinculados": null,
+    "no_responsavel_tecnico": "<anonimizado>",
+    "nu_cns_responsavel_tecnico": "<anonimizado>",
+    "no_cargo_instituicao": null,
+    "nu_contato_responsavel_tecnico": "<anonimizado>",
+    "nu_latitude": "<anonimizado>",
+    "nu_longitude": "<anonimizado>"
+   },
+   {
+    "co_revisao": 378,
+    "co_tipo_revisao": 0,
+    "co_seq_cds_domicilio": 2,
+    "tp_logradouro": "<anonimizado>",
+    "ds_complemento": "<anonimizado>",
+    "co_municipio": 5383,
+    "no_logradouro": "<anonimizado>",
+    "no_bairro": "<anonimizado>",
+    "ds_cep": "<anonimizado>",
+    "nu_fone_referencia": "<anonimizado>",
+    "nu_fone_residencia": "<anonimizado>",
+    "nu_domicilio": "15",
+    "co_unico_domicilio": "2321505-bc0f2020-c6c9-47b6-b5f0-c233b27a3d3b",
+    "dt_ultima_atualizacao": "2017-10-30 11:19:20.693000+00:00",
+    "qt_referencia": 0,
+    "st_sem_numero": 0,
+    "co_uf": 15,
+    "nu_ine": "0000133736",
+    "nu_cnes": "2321505",
+    "co_unico_ultima_ficha": "2321505-bc0f2020-c6c9-47b6-b5f0-c233b27a3d3b",
+    "nu_micro_area": "25",
+    "st_fora_area": 0,
+    "tp_cds_imovel": 1,
+    "ds_ponto_referencia": "INSS",
+    "no_instituicao_permanencia": null,
+    "st_outros_prof_vinculados": null,
+    "no_responsavel_tecnico": "<anonimizado>",
+    "nu_cns_responsavel_tecnico": "<anonimizado>",
+    "no_cargo_instituicao": null,
+    "nu_contato_responsavel_tecnico": "<anonimizado>",
+    "nu_latitude": "<anonimizado>",
+    "nu_longitude": "<anonimizado>"
+   },
+   {
+    "co_revisao": 379,
+    "co_tipo_revisao": 1,
+    "co_seq_cds_domicilio": 2,
+    "tp_logradouro": "<anonimizado>",
+    "ds_complemento": "<anonimizado>",
+    "co_municipio": 5383,
+    "no_logradouro": "<anonimizado>",
+    "no_bairro": "<anonimizado>",
+    "ds_cep": "<anonimizado>",
+    "nu_fone_referencia": "<anonimizado>",
+    "nu_fone_residencia": "<anonimizado>",
+    "nu_domicilio": "15",
+    "co_unico_domicilio": "2321505-bc0f2020-c6c9-47b6-b5f0-c233b27a3d3b",
+    "dt_ultima_atualizacao": "2017-10-30 11:31:47.614000+00:00",
+    "qt_referencia": 0,
+    "st_sem_numero": 0,
+    "co_uf": 15,
+    "nu_ine": "0000133736",
+    "nu_cnes": "2321505",
+    "co_unico_ultima_ficha": "2321505-6b6dbd91-4893-4715-a7d7-9c50cec4218d",
+    "nu_micro_area": "25",
+    "st_fora_area": 0,
+    "tp_cds_imovel": 1,
+    "ds_ponto_referencia": "INSS",
+    "no_instituicao_permanencia": null,
+    "st_outros_prof_vinculados": null,
+    "no_responsavel_tecnico": "<anonimizado>",
+    "nu_cns_responsavel_tecnico": "<anonimizado>",
+    "no_cargo_instituicao": null,
+    "nu_contato_responsavel_tecnico": "<anonimizado>",
+    "nu_latitude": "<anonimizado>",
+    "nu_longitude": "<anonimizado>"
+   }
+  ]
+ },
+ "pool": [
+  {
+   "tema_id": "t0",
+   "texto": "Geografia Urbana"
+  },
+  {
+   "tema_id": "t1",
+   "texto": "Geolocalização"
+  },
+  {
+   "tema_id": "t2",
+   "texto": "Atualização de dados"
+  },
+  {
+   "tema_id": "t3",
+   "texto": "Demografia"
+  },
+  {
+   "tema_id": "t4",
+   "texto": "Características de logradouros"
+  },
+  {
+   "tema_id": "t5",
+   "texto": "Endereços residenciais"
+  },
+  {
+   "tema_id": "t6",
+   "texto": "Localização geográfica"
+  },
+  {
+   "tema_id": "t7",
+   "texto": "Distribuição de domicílios"
+  },
+  {
+   "tema_id": "t8",
+   "texto": "Tipos de logradouro"
+  },
+  {
+   "tema_id": "t9",
+   "texto": "Serviços Públicos"
+  },
+  {
+   "tema_id": "t10",
+   "texto": "Cadastro Domiciliar"
+  },
+  {
+   "tema_id": "t11",
+   "texto": "Saúde Pública"
+  },
+  {
+   "tema_id": "t12",
+   "texto": "Referência de Endereço"
+  }
+ ],
+ "listas": {
+  "Sistema A": {
+   "1": [
+    "Cadastro Domiciliar",
+    "Geolocalização",
+    "Referência de Endereço"
+   ],
+   "2": [
+    "Cadastro Domiciliar",
+    "Geolocalização",
+    "Serviços Públicos"
+   ],
+   "3": [
+    "Cadastro Domiciliar",
+    "Geolocalização",
+    "Serviços Públicos"
+   ]
+  },
+  "Sistema B": {
+   "1": [
+    "Saúde Pública",
+    "Geografia Urbana",
+    "Demografia"
+   ],
+   "2": [
+    "Saúde Pública",
+    "Geografia Urbana",
+    "Demografia"
+   ],
+   "3": [
+    "Saúde Pública",
+    "Geografia Urbana",
+    "Demografia"
+   ]
+  },
+  "Sistema C": {
+   "1": [
+    "Endereços residenciais",
+    "Atualização de dados",
+    "Localização geográfica"
+   ],
+   "2": [
+    "Distribuição de domicílios",
+    "Tipos de logradouro",
+    "Localização geográfica"
+   ],
+   "3": [
+    "Distribuição de domicílios",
+    "Características de logradouros",
+    "Localização geográfica"
+   ]
+  }
+ }
+}

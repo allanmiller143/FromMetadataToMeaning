@@ -1,0 +1,381 @@
+{
+ "item_id": "teixeira__ta_cidadao_vinculacao_equipe",
+ "table_key": "public.ta_cidadao_vinculacao_equipe",
+ "base": "teixeira",
+ "piloto": false,
+ "contexto": {
+  "tabela": "ta_cidadao_vinculacao_equipe",
+  "linhas": 127335,
+  "pk": [
+   "co_seq_tacidadaovinculacaoequp"
+  ],
+  "fks": [],
+  "colunas": [
+   {
+    "coluna": "co_seq_tacidadaovinculacaoequp",
+    "tipo": "BIGINT",
+    "aceita_nulo": false,
+    "distintos": 127335,
+    "pct_nulo": 0.0,
+    "min": 1.0,
+    "max": 127875.0,
+    "media": 64009.41705736836,
+    "mais_frequentes": "",
+    "amostra": "1 | 2 | 3 | 4 | 5"
+   },
+   {
+    "coluna": "co_tipo_auditoria",
+    "tipo": "CHAR(1)",
+    "aceita_nulo": false,
+    "distintos": 2,
+    "pct_nulo": 0.0,
+    "min": null,
+    "max": null,
+    "media": null,
+    "mais_frequentes": "U (109334), I (18001)",
+    "amostra": "U | I"
+   },
+   {
+    "coluna": "dt_auditoria",
+    "tipo": "TIMESTAMP",
+    "aceita_nulo": false,
+    "distintos": 94764,
+    "pct_nulo": 0.0,
+    "min": null,
+    "max": null,
+    "media": null,
+    "mais_frequentes": "",
+    "amostra": "2025-02-25 00:00:33.296651 | 2023-11-23 21:44:09.262685 | 2024-04-19 20:21:17.884026 | 2024-12-05 15:38:39.850422 | 2025-05-11 00:01:29.143755"
+   },
+   {
+    "coluna": "co_seq_cidadao_vinculacao_eqp",
+    "tipo": "BIGINT",
+    "aceita_nulo": true,
+    "distintos": 26903,
+    "pct_nulo": 0.0,
+    "min": 1.0,
+    "max": 29086.0,
+    "media": 15541.022805984216,
+    "mais_frequentes": "<anonimizado> (39), <anonimizado> (37), <anonimizado> (35)",
+    "amostra": "<anonimizado> | <anonimizado> | <anonimizado> | <anonimizado> | <anonimizado>"
+   },
+   {
+    "coluna": "co_cidadao",
+    "tipo": "BIGINT",
+    "aceita_nulo": true,
+    "distintos": 26903,
+    "pct_nulo": 0.0,
+    "min": 277.0,
+    "max": 33280.0,
+    "media": 17192.046844936584,
+    "mais_frequentes": "<anonimizado> (39), <anonimizado> (37), <anonimizado> (35)",
+    "amostra": "<anonimizado> | <anonimizado> | <anonimizado> | <anonimizado> | <anonimizado>"
+   },
+   {
+    "coluna": "co_unico_ficha",
+    "tipo": "VARCHAR(96)",
+    "aceita_nulo": true,
+    "distintos": 64860,
+    "pct_nulo": 0.0,
+    "min": null,
+    "max": null,
+    "media": null,
+    "mais_frequentes": "",
+    "amostra": "0000b824-f213-4a61-a3f4-50d94bb769f8 | 0000e6f5-0039-4542-813f-c9ac2817306c | 00012b56-32af-40ca-b73b-5347daf86ea5 | 00017c67-d8ef-4243-b943-b197ae9cbbef | 00024c4f-b5cc-43ae-b87e-722bfccd629a"
+   },
+   {
+    "coluna": "co_unico_cadastro_individual",
+    "tipo": "VARCHAR(96)",
+    "aceita_nulo": true,
+    "distintos": 40701,
+    "pct_nulo": 28.82,
+    "min": null,
+    "max": null,
+    "media": null,
+    "mais_frequentes": "2321521-9afc7352-442e-4e33-9ecb-8e6ad831b3f7 (18), 2321505-c89fd026-93fa-41de-8477-fdada9fc3ac9 (18), 2321521-cf4ee19a-021c-4f58-a85c-0b2b1329d0bf (14)",
+    "amostra": "2321548-bc461f3a-95ea-4e5a-84e7-64f894947fc0 | 2612852-b04834f2-e718-4137-a84c-b6e64f49fa2e | 2612852-98195a3d-4258-4a67-bedf-ba72daf456ae | 2612852-71873dc6-393f-4d9e-8ba4-0ff085b6efc3 | 6407285-7a6b557f-c6c9-4d87-9feb-530e38961aaf"
+   },
+   {
+    "coluna": "st_envio",
+    "tipo": "INTEGER",
+    "aceita_nulo": true,
+    "distintos": 2,
+    "pct_nulo": 0.0,
+    "min": 0.0,
+    "max": 1.0,
+    "media": 0.4757686417717046,
+    "mais_frequentes": "0 (66753), 1 (60582)",
+    "amostra": "0 | 1"
+   },
+   {
+    "coluna": "ds_versao_ficha",
+    "tipo": "VARCHAR(30)",
+    "aceita_nulo": true,
+    "distintos": 52,
+    "pct_nulo": 0.0,
+    "min": null,
+    "max": null,
+    "media": null,
+    "mais_frequentes": "4.1.3 (20735), 6.3.8 (9412), 4.1.4 (8630)",
+    "amostra": "6.3.9 | 3.2.3 | 4.1.2 | 7.2.3 | 4.3.7"
+   },
+   {
+    "coluna": "st_usar_cadastro_individual",
+    "tipo": "INTEGER",
+    "aceita_nulo": true,
+    "distintos": 2,
+    "pct_nulo": 0.0,
+    "min": 0.0,
+    "max": 1.0,
+    "media": 0.6846193112655593,
+    "mais_frequentes": "1 (87176), 0 (40159)",
+    "amostra": "0 | 1"
+   },
+   {
+    "coluna": "st_saida_cadastro_obito",
+    "tipo": "INTEGER",
+    "aceita_nulo": true,
+    "distintos": 2,
+    "pct_nulo": 0.23,
+    "min": 0.0,
+    "max": 1.0,
+    "media": 0.017970576428082273,
+    "mais_frequentes": "0 (124758), 1 (2283)",
+    "amostra": "0 | 1"
+   },
+   {
+    "coluna": "st_saida_cadastro_territorio",
+    "tipo": "INTEGER",
+    "aceita_nulo": true,
+    "distintos": 2,
+    "pct_nulo": 0.23,
+    "min": 0.0,
+    "max": 1.0,
+    "media": 0.16157775836147387,
+    "mais_frequentes": "0 (106514), 1 (20527)",
+    "amostra": "0 | 1"
+   },
+   {
+    "coluna": "dt_atualizacao_cadastro",
+    "tipo": "TIMESTAMP",
+    "aceita_nulo": true,
+    "distintos": 39282,
+    "pct_nulo": 0.0,
+    "min": null,
+    "max": null,
+    "media": null,
+    "mais_frequentes": "2021-09-15 12:00:00-03:00 (898), 2025-04-07 12:00:00-03:00 (579), 2023-01-31 13:00:00-02:00 (522)",
+    "amostra": "2021-04-13 08:44:27.135000-03:00 | 2021-01-25 21:39:09.792000-02:00 | 2017-12-01 11:46:49.120000-02:00 | 2021-03-08 11:44:11.741000-03:00 | 2021-03-02 14:23:02.199000-03:00"
+   },
+   {
+    "coluna": "co_prof_cadastrante_cds",
+    "tipo": "BIGINT",
+    "aceita_nulo": true,
+    "distintos": 128,
+    "pct_nulo": 36.08,
+    "min": 3.0,
+    "max": 663.0,
+    "media": 191.85637409081974,
+    "mais_frequentes": "64 (3438), 236 (3189), 46 (2742)",
+    "amostra": "43 | 467 | 285 | 380 | 367"
+   },
+   {
+    "coluna": "co_atorpapel_cadastrante_pec",
+    "tipo": "BIGINT",
+    "aceita_nulo": true,
+    "distintos": 206,
+    "pct_nulo": 39.9,
+    "min": 22.0,
+    "max": 13832.0,
+    "media": 5173.073852425814,
+    "mais_frequentes": "4796 (18367), 5281 (8812), 4417 (3625)",
+    "amostra": "11184 | 4797 | 9183 | 9882 | 11632"
+   },
+   {
+    "coluna": "tp_cds_origem",
+    "tipo": "BIGINT",
+    "aceita_nulo": true,
+    "distintos": 4,
+    "pct_nulo": 7.36,
+    "min": 0.0,
+    "max": 4.0,
+    "media": 2.741986894195638,
+    "mais_frequentes": "2 (52427), 4 (51032), 1 (14471)",
+    "amostra": "2 | 1 | 4 | 0"
+   },
+   {
+    "coluna": "nu_cnes",
+    "tipo": "VARCHAR(7)",
+    "aceita_nulo": true,
+    "distintos": 13,
+    "pct_nulo": 31.83,
+    "min": null,
+    "max": null,
+    "media": null,
+    "mais_frequentes": "2612852 (17367), 2321513 (17008), 2321521 (13922)",
+    "amostra": "0899488 | 2321505 | 6407285 | 4066766 | 2612852"
+   },
+   {
+    "coluna": "nu_ine",
+    "tipo": "VARCHAR(10)",
+    "aceita_nulo": true,
+    "distintos": 15,
+    "pct_nulo": 31.89,
+    "min": null,
+    "max": null,
+    "media": null,
+    "mais_frequentes": "0000133779 (17364), 0000133744 (16945), 0000133752 (13908)",
+    "amostra": "0000133752 | 0002219948 | 0000133787 | 0001754440 | 0001754513"
+   }
+  ],
+  "amostra_linhas": [
+   {
+    "co_seq_tacidadaovinculacaoequp": 1,
+    "co_tipo_auditoria": "U",
+    "dt_auditoria": "2021-01-24 18:08:19.962100",
+    "co_seq_cidadao_vinculacao_eqp": "<anonimizado>",
+    "co_cidadao": "<anonimizado>",
+    "co_unico_ficha": "1a2f295a-2385-497e-9e39-a88f806bc318",
+    "co_unico_cadastro_individual": "2612852-99fa5235-4072-477b-b33c-470bd5e4936d",
+    "st_envio": 0,
+    "ds_versao_ficha": "4.1.2",
+    "st_usar_cadastro_individual": 1,
+    "st_saida_cadastro_obito": 0,
+    "st_saida_cadastro_territorio": 1,
+    "dt_atualizacao_cadastro": "2021-01-24 15:30:22.683000+00:00",
+    "co_prof_cadastrante_cds": 236,
+    "co_atorpapel_cadastrante_pec": null,
+    "tp_cds_origem": 4,
+    "nu_cnes": NaN,
+    "nu_ine": NaN
+   },
+   {
+    "co_seq_tacidadaovinculacaoequp": 2,
+    "co_tipo_auditoria": "I",
+    "dt_auditoria": "2021-01-24 18:08:21.287125",
+    "co_seq_cidadao_vinculacao_eqp": "<anonimizado>",
+    "co_cidadao": "<anonimizado>",
+    "co_unico_ficha": "3a38e3d5-53c1-40d4-accf-854870ae7796",
+    "co_unico_cadastro_individual": "2612852-59fd576b-df60-4b01-b666-88b57497fa81",
+    "st_envio": 0,
+    "ds_versao_ficha": "4.1.2",
+    "st_usar_cadastro_individual": 1,
+    "st_saida_cadastro_obito": 0,
+    "st_saida_cadastro_territorio": 0,
+    "dt_atualizacao_cadastro": "2021-01-24 15:40:04.207000+00:00",
+    "co_prof_cadastrante_cds": 236,
+    "co_atorpapel_cadastrante_pec": null,
+    "tp_cds_origem": 4,
+    "nu_cnes": "2612852",
+    "nu_ine": "0000133779"
+   },
+   {
+    "co_seq_tacidadaovinculacaoequp": 3,
+    "co_tipo_auditoria": "I",
+    "dt_auditoria": "2021-01-24 18:08:21.676233",
+    "co_seq_cidadao_vinculacao_eqp": "<anonimizado>",
+    "co_cidadao": "<anonimizado>",
+    "co_unico_ficha": "9db85344-2a5a-42ad-884b-ab8c43ac22e3",
+    "co_unico_cadastro_individual": "2612852-82b0f902-bf18-4b40-af85-0b01c4e95db3",
+    "st_envio": 0,
+    "ds_versao_ficha": "4.1.2",
+    "st_usar_cadastro_individual": 1,
+    "st_saida_cadastro_obito": 0,
+    "st_saida_cadastro_territorio": 0,
+    "dt_atualizacao_cadastro": "2021-01-24 16:07:10.107000+00:00",
+    "co_prof_cadastrante_cds": 236,
+    "co_atorpapel_cadastrante_pec": null,
+    "tp_cds_origem": 4,
+    "nu_cnes": "2612852",
+    "nu_ine": "0000133779"
+   }
+  ]
+ },
+ "pool": [
+  {
+   "tema_id": "t0",
+   "texto": "Auditoria"
+  },
+  {
+   "tema_id": "t1",
+   "texto": "Vinculação de Cidadãos"
+  },
+  {
+   "tema_id": "t2",
+   "texto": "Auditoria de Cadastros"
+  },
+  {
+   "tema_id": "t3",
+   "texto": "Auditoria de cadastro"
+  },
+  {
+   "tema_id": "t4",
+   "texto": "Atualização de cadastro"
+  },
+  {
+   "tema_id": "t5",
+   "texto": "Cadastro Individual"
+  },
+  {
+   "tema_id": "t6",
+   "texto": "Auditorias"
+  },
+  {
+   "tema_id": "t7",
+   "texto": "Saúde Pública"
+  }
+ ],
+ "listas": {
+  "Sistema A": {
+   "1": [
+    "Auditoria",
+    "Vinculação de Cidadãos",
+    "Cadastro Individual"
+   ],
+   "2": [
+    "Auditoria",
+    "Vinculação de Cidadãos",
+    "Cadastro Individual"
+   ],
+   "3": [
+    "Auditoria",
+    "Vinculação de Cidadãos",
+    "Cadastro Individual"
+   ]
+  },
+  "Sistema B": {
+   "1": [
+    "Vinculação de cidadãos",
+    "Auditorias",
+    "Atualização de cadastro"
+   ],
+   "2": [
+    "Vinculação de cidadãos",
+    "Auditoria de cadastro",
+    "Atualização de cadastro"
+   ],
+   "3": [
+    "Vinculação de cidadãos",
+    "Auditoria de cadastro",
+    "Atualização de cadastro"
+   ]
+  },
+  "Sistema C": {
+   "1": [
+    "Vinculação de Cidadãos",
+    "Auditoria de Cadastros",
+    "Saúde Pública"
+   ],
+   "2": [
+    "Vinculação de Cidadãos",
+    "Auditoria de Cadastros",
+    "Saúde Pública"
+   ],
+   "3": [
+    "Vinculação de Cidadãos",
+    "Auditoria de Cadastros",
+    "Saúde Pública"
+   ]
+  }
+ }
+}

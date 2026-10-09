@@ -1,0 +1,722 @@
+{
+ "item_id": "magento2__sales_quote",
+ "table_key": "magento2.sales_quote",
+ "base": "magento2",
+ "piloto": false,
+ "contexto": {
+  "tabela": "sales_quote",
+  "linhas": 0,
+  "pk": [
+   "entity_id"
+  ],
+  "fks": [
+   "store_id -> store(store_id)"
+  ],
+  "colunas": [
+   {
+    "coluna": "entity_id",
+    "tipo": "INTEGER",
+    "aceita_nulo": false,
+    "distintos": null,
+    "pct_nulo": null,
+    "min": null,
+    "max": null,
+    "media": null,
+    "mais_frequentes": "",
+    "amostra": ""
+   },
+   {
+    "coluna": "store_id",
+    "tipo": "SMALLINT",
+    "aceita_nulo": false,
+    "distintos": null,
+    "pct_nulo": null,
+    "min": null,
+    "max": null,
+    "media": null,
+    "mais_frequentes": "",
+    "amostra": ""
+   },
+   {
+    "coluna": "created_at",
+    "tipo": "TIMESTAMP",
+    "aceita_nulo": false,
+    "distintos": null,
+    "pct_nulo": null,
+    "min": null,
+    "max": null,
+    "media": null,
+    "mais_frequentes": "",
+    "amostra": ""
+   },
+   {
+    "coluna": "updated_at",
+    "tipo": "TIMESTAMP",
+    "aceita_nulo": false,
+    "distintos": null,
+    "pct_nulo": null,
+    "min": null,
+    "max": null,
+    "media": null,
+    "mais_frequentes": "",
+    "amostra": ""
+   },
+   {
+    "coluna": "converted_at",
+    "tipo": "TIMESTAMP",
+    "aceita_nulo": true,
+    "distintos": null,
+    "pct_nulo": null,
+    "min": null,
+    "max": null,
+    "media": null,
+    "mais_frequentes": "",
+    "amostra": ""
+   },
+   {
+    "coluna": "is_active",
+    "tipo": "SMALLINT",
+    "aceita_nulo": true,
+    "distintos": null,
+    "pct_nulo": null,
+    "min": null,
+    "max": null,
+    "media": null,
+    "mais_frequentes": "",
+    "amostra": ""
+   },
+   {
+    "coluna": "is_virtual",
+    "tipo": "SMALLINT",
+    "aceita_nulo": true,
+    "distintos": null,
+    "pct_nulo": null,
+    "min": null,
+    "max": null,
+    "media": null,
+    "mais_frequentes": "",
+    "amostra": ""
+   },
+   {
+    "coluna": "is_multi_shipping",
+    "tipo": "SMALLINT",
+    "aceita_nulo": true,
+    "distintos": null,
+    "pct_nulo": null,
+    "min": null,
+    "max": null,
+    "media": null,
+    "mais_frequentes": "",
+    "amostra": ""
+   },
+   {
+    "coluna": "items_count",
+    "tipo": "INTEGER",
+    "aceita_nulo": true,
+    "distintos": null,
+    "pct_nulo": null,
+    "min": null,
+    "max": null,
+    "media": null,
+    "mais_frequentes": "",
+    "amostra": ""
+   },
+   {
+    "coluna": "items_qty",
+    "tipo": "DECIMAL(12, 4)",
+    "aceita_nulo": true,
+    "distintos": null,
+    "pct_nulo": null,
+    "min": null,
+    "max": null,
+    "media": null,
+    "mais_frequentes": "",
+    "amostra": ""
+   },
+   {
+    "coluna": "orig_order_id",
+    "tipo": "INTEGER",
+    "aceita_nulo": true,
+    "distintos": null,
+    "pct_nulo": null,
+    "min": null,
+    "max": null,
+    "media": null,
+    "mais_frequentes": "",
+    "amostra": ""
+   },
+   {
+    "coluna": "store_to_base_rate",
+    "tipo": "DECIMAL(12, 4)",
+    "aceita_nulo": true,
+    "distintos": null,
+    "pct_nulo": null,
+    "min": null,
+    "max": null,
+    "media": null,
+    "mais_frequentes": "",
+    "amostra": ""
+   },
+   {
+    "coluna": "store_to_quote_rate",
+    "tipo": "DECIMAL(12, 4)",
+    "aceita_nulo": true,
+    "distintos": null,
+    "pct_nulo": null,
+    "min": null,
+    "max": null,
+    "media": null,
+    "mais_frequentes": "",
+    "amostra": ""
+   },
+   {
+    "coluna": "base_currency_code",
+    "tipo": "VARCHAR(255)",
+    "aceita_nulo": true,
+    "distintos": null,
+    "pct_nulo": null,
+    "min": null,
+    "max": null,
+    "media": null,
+    "mais_frequentes": "",
+    "amostra": ""
+   },
+   {
+    "coluna": "store_currency_code",
+    "tipo": "VARCHAR(255)",
+    "aceita_nulo": true,
+    "distintos": null,
+    "pct_nulo": null,
+    "min": null,
+    "max": null,
+    "media": null,
+    "mais_frequentes": "",
+    "amostra": ""
+   },
+   {
+    "coluna": "quote_currency_code",
+    "tipo": "VARCHAR(255)",
+    "aceita_nulo": true,
+    "distintos": null,
+    "pct_nulo": null,
+    "min": null,
+    "max": null,
+    "media": null,
+    "mais_frequentes": "",
+    "amostra": ""
+   },
+   {
+    "coluna": "grand_total",
+    "tipo": "DECIMAL(12, 4)",
+    "aceita_nulo": true,
+    "distintos": null,
+    "pct_nulo": null,
+    "min": null,
+    "max": null,
+    "media": null,
+    "mais_frequentes": "",
+    "amostra": ""
+   },
+   {
+    "coluna": "base_grand_total",
+    "tipo": "DECIMAL(12, 4)",
+    "aceita_nulo": true,
+    "distintos": null,
+    "pct_nulo": null,
+    "min": null,
+    "max": null,
+    "media": null,
+    "mais_frequentes": "",
+    "amostra": ""
+   },
+   {
+    "coluna": "checkout_method",
+    "tipo": "VARCHAR(255)",
+    "aceita_nulo": true,
+    "distintos": null,
+    "pct_nulo": null,
+    "min": null,
+    "max": null,
+    "media": null,
+    "mais_frequentes": "",
+    "amostra": ""
+   },
+   {
+    "coluna": "customer_id",
+    "tipo": "INTEGER",
+    "aceita_nulo": true,
+    "distintos": null,
+    "pct_nulo": null,
+    "min": null,
+    "max": null,
+    "media": null,
+    "mais_frequentes": "",
+    "amostra": ""
+   },
+   {
+    "coluna": "customer_tax_class_id",
+    "tipo": "INTEGER",
+    "aceita_nulo": true,
+    "distintos": null,
+    "pct_nulo": null,
+    "min": null,
+    "max": null,
+    "media": null,
+    "mais_frequentes": "",
+    "amostra": ""
+   },
+   {
+    "coluna": "customer_group_id",
+    "tipo": "INTEGER",
+    "aceita_nulo": true,
+    "distintos": null,
+    "pct_nulo": null,
+    "min": null,
+    "max": null,
+    "media": null,
+    "mais_frequentes": "",
+    "amostra": ""
+   },
+   {
+    "coluna": "customer_email",
+    "tipo": "VARCHAR(255)",
+    "aceita_nulo": true,
+    "distintos": null,
+    "pct_nulo": null,
+    "min": null,
+    "max": null,
+    "media": null,
+    "mais_frequentes": "",
+    "amostra": ""
+   },
+   {
+    "coluna": "customer_prefix",
+    "tipo": "VARCHAR(40)",
+    "aceita_nulo": true,
+    "distintos": null,
+    "pct_nulo": null,
+    "min": null,
+    "max": null,
+    "media": null,
+    "mais_frequentes": "",
+    "amostra": ""
+   },
+   {
+    "coluna": "customer_firstname",
+    "tipo": "VARCHAR(255)",
+    "aceita_nulo": true,
+    "distintos": null,
+    "pct_nulo": null,
+    "min": null,
+    "max": null,
+    "media": null,
+    "mais_frequentes": "",
+    "amostra": ""
+   },
+   {
+    "coluna": "customer_middlename",
+    "tipo": "VARCHAR(40)",
+    "aceita_nulo": true,
+    "distintos": null,
+    "pct_nulo": null,
+    "min": null,
+    "max": null,
+    "media": null,
+    "mais_frequentes": "",
+    "amostra": ""
+   },
+   {
+    "coluna": "customer_lastname",
+    "tipo": "VARCHAR(255)",
+    "aceita_nulo": true,
+    "distintos": null,
+    "pct_nulo": null,
+    "min": null,
+    "max": null,
+    "media": null,
+    "mais_frequentes": "",
+    "amostra": ""
+   },
+   {
+    "coluna": "customer_suffix",
+    "tipo": "VARCHAR(40)",
+    "aceita_nulo": true,
+    "distintos": null,
+    "pct_nulo": null,
+    "min": null,
+    "max": null,
+    "media": null,
+    "mais_frequentes": "",
+    "amostra": ""
+   },
+   {
+    "coluna": "customer_dob",
+    "tipo": "DATETIME",
+    "aceita_nulo": true,
+    "distintos": null,
+    "pct_nulo": null,
+    "min": null,
+    "max": null,
+    "media": null,
+    "mais_frequentes": "",
+    "amostra": ""
+   },
+   {
+    "coluna": "customer_note",
+    "tipo": "VARCHAR(255)",
+    "aceita_nulo": true,
+    "distintos": null,
+    "pct_nulo": null,
+    "min": null,
+    "max": null,
+    "media": null,
+    "mais_frequentes": "",
+    "amostra": ""
+   },
+   {
+    "coluna": "customer_note_notify",
+    "tipo": "SMALLINT",
+    "aceita_nulo": true,
+    "distintos": null,
+    "pct_nulo": null,
+    "min": null,
+    "max": null,
+    "media": null,
+    "mais_frequentes": "",
+    "amostra": ""
+   },
+   {
+    "coluna": "customer_is_guest",
+    "tipo": "SMALLINT",
+    "aceita_nulo": true,
+    "distintos": null,
+    "pct_nulo": null,
+    "min": null,
+    "max": null,
+    "media": null,
+    "mais_frequentes": "",
+    "amostra": ""
+   },
+   {
+    "coluna": "remote_ip",
+    "tipo": "VARCHAR(32)",
+    "aceita_nulo": true,
+    "distintos": null,
+    "pct_nulo": null,
+    "min": null,
+    "max": null,
+    "media": null,
+    "mais_frequentes": "",
+    "amostra": ""
+   },
+   {
+    "coluna": "applied_rule_ids",
+    "tipo": "VARCHAR(255)",
+    "aceita_nulo": true,
+    "distintos": null,
+    "pct_nulo": null,
+    "min": null,
+    "max": null,
+    "media": null,
+    "mais_frequentes": "",
+    "amostra": ""
+   },
+   {
+    "coluna": "reserved_order_id",
+    "tipo": "VARCHAR(64)",
+    "aceita_nulo": true,
+    "distintos": null,
+    "pct_nulo": null,
+    "min": null,
+    "max": null,
+    "media": null,
+    "mais_frequentes": "",
+    "amostra": ""
+   },
+   {
+    "coluna": "password_hash",
+    "tipo": "VARCHAR(255)",
+    "aceita_nulo": true,
+    "distintos": null,
+    "pct_nulo": null,
+    "min": null,
+    "max": null,
+    "media": null,
+    "mais_frequentes": "",
+    "amostra": ""
+   },
+   {
+    "coluna": "coupon_code",
+    "tipo": "VARCHAR(255)",
+    "aceita_nulo": true,
+    "distintos": null,
+    "pct_nulo": null,
+    "min": null,
+    "max": null,
+    "media": null,
+    "mais_frequentes": "",
+    "amostra": ""
+   },
+   {
+    "coluna": "global_currency_code",
+    "tipo": "VARCHAR(255)",
+    "aceita_nulo": true,
+    "distintos": null,
+    "pct_nulo": null,
+    "min": null,
+    "max": null,
+    "media": null,
+    "mais_frequentes": "",
+    "amostra": ""
+   },
+   {
+    "coluna": "base_to_global_rate",
+    "tipo": "DECIMAL(12, 4)",
+    "aceita_nulo": true,
+    "distintos": null,
+    "pct_nulo": null,
+    "min": null,
+    "max": null,
+    "media": null,
+    "mais_frequentes": "",
+    "amostra": ""
+   },
+   {
+    "coluna": "base_to_quote_rate",
+    "tipo": "DECIMAL(12, 4)",
+    "aceita_nulo": true,
+    "distintos": null,
+    "pct_nulo": null,
+    "min": null,
+    "max": null,
+    "media": null,
+    "mais_frequentes": "",
+    "amostra": ""
+   },
+   {
+    "coluna": "customer_taxvat",
+    "tipo": "VARCHAR(255)",
+    "aceita_nulo": true,
+    "distintos": null,
+    "pct_nulo": null,
+    "min": null,
+    "max": null,
+    "media": null,
+    "mais_frequentes": "",
+    "amostra": ""
+   },
+   {
+    "coluna": "customer_gender",
+    "tipo": "VARCHAR(255)",
+    "aceita_nulo": true,
+    "distintos": null,
+    "pct_nulo": null,
+    "min": null,
+    "max": null,
+    "media": null,
+    "mais_frequentes": "",
+    "amostra": ""
+   },
+   {
+    "coluna": "subtotal",
+    "tipo": "DECIMAL(12, 4)",
+    "aceita_nulo": true,
+    "distintos": null,
+    "pct_nulo": null,
+    "min": null,
+    "max": null,
+    "media": null,
+    "mais_frequentes": "",
+    "amostra": ""
+   },
+   {
+    "coluna": "base_subtotal",
+    "tipo": "DECIMAL(12, 4)",
+    "aceita_nulo": true,
+    "distintos": null,
+    "pct_nulo": null,
+    "min": null,
+    "max": null,
+    "media": null,
+    "mais_frequentes": "",
+    "amostra": ""
+   },
+   {
+    "coluna": "subtotal_with_discount",
+    "tipo": "DECIMAL(12, 4)",
+    "aceita_nulo": true,
+    "distintos": null,
+    "pct_nulo": null,
+    "min": null,
+    "max": null,
+    "media": null,
+    "mais_frequentes": "",
+    "amostra": ""
+   },
+   {
+    "coluna": "base_subtotal_with_discount",
+    "tipo": "DECIMAL(12, 4)",
+    "aceita_nulo": true,
+    "distintos": null,
+    "pct_nulo": null,
+    "min": null,
+    "max": null,
+    "media": null,
+    "mais_frequentes": "",
+    "amostra": ""
+   },
+   {
+    "coluna": "is_changed",
+    "tipo": "INTEGER",
+    "aceita_nulo": true,
+    "distintos": null,
+    "pct_nulo": null,
+    "min": null,
+    "max": null,
+    "media": null,
+    "mais_frequentes": "",
+    "amostra": ""
+   },
+   {
+    "coluna": "trigger_recollect",
+    "tipo": "SMALLINT",
+    "aceita_nulo": false,
+    "distintos": null,
+    "pct_nulo": null,
+    "min": null,
+    "max": null,
+    "media": null,
+    "mais_frequentes": "",
+    "amostra": ""
+   },
+   {
+    "coluna": "ext_shipping_info",
+    "tipo": "TEXT",
+    "aceita_nulo": true,
+    "distintos": null,
+    "pct_nulo": null,
+    "min": null,
+    "max": null,
+    "media": null,
+    "mais_frequentes": "",
+    "amostra": ""
+   },
+   {
+    "coluna": "is_persistent",
+    "tipo": "SMALLINT",
+    "aceita_nulo": true,
+    "distintos": null,
+    "pct_nulo": null,
+    "min": null,
+    "max": null,
+    "media": null,
+    "mais_frequentes": "",
+    "amostra": ""
+   },
+   {
+    "coluna": "gift_message_id",
+    "tipo": "INTEGER",
+    "aceita_nulo": true,
+    "distintos": null,
+    "pct_nulo": null,
+    "min": null,
+    "max": null,
+    "media": null,
+    "mais_frequentes": "",
+    "amostra": ""
+   }
+  ],
+  "amostra_linhas": []
+ },
+ "pool": [
+  {
+   "tema_id": "t0",
+   "texto": "Carrinho de compras"
+  },
+  {
+   "tema_id": "t1",
+   "texto": "cotações de vendas"
+  },
+  {
+   "tema_id": "t2",
+   "texto": "itens de carrinho"
+  },
+  {
+   "tema_id": "t3",
+   "texto": "informações de clientes"
+  },
+  {
+   "tema_id": "t4",
+   "texto": "Conversão de pedidos"
+  },
+  {
+   "tema_id": "t5",
+   "texto": "conversão de vendas"
+  },
+  {
+   "tema_id": "t6",
+   "texto": "Dados do cliente"
+  },
+  {
+   "tema_id": "t7",
+   "texto": "Conversão de orçamento"
+  },
+  {
+   "tema_id": "t8",
+   "texto": "transação de clientes"
+  }
+ ],
+ "listas": {
+  "Sistema A": {
+   "1": [
+    "Carrinho de compras",
+    "Conversão de orçamento",
+    "Dados do cliente"
+   ],
+   "2": [
+    "Carrinho de compras",
+    "Conversão de orçamento",
+    "Dados do cliente"
+   ],
+   "3": [
+    "Carrinho de compras",
+    "Conversão de pedidos",
+    "Dados do cliente"
+   ]
+  },
+  "Sistema B": {
+   "1": [
+    "cotações de vendas",
+    "informações de clientes",
+    "itens de carrinho"
+   ],
+   "2": [
+    "cotações de vendas",
+    "informações de clientes",
+    "itens de carrinho"
+   ],
+   "3": [
+    "cotações de vendas",
+    "informações de clientes",
+    "itens de carrinho"
+   ]
+  },
+  "Sistema C": {
+   "1": [
+    "carrinho de compras",
+    "conversão de vendas",
+    "transação de clientes"
+   ],
+   "2": [
+    "carrinho de compras",
+    "conversão de vendas",
+    "transação de clientes"
+   ],
+   "3": [
+    "carrinho de compras",
+    "conversão de vendas",
+    "transação de clientes"
+   ]
+  }
+ }
+}

@@ -1,0 +1,270 @@
+{
+ "item_id": "magento2__customer_entity",
+ "table_key": "magento2.customer_entity",
+ "base": "magento2",
+ "piloto": false,
+ "contexto": {
+  "tabela": "customer_entity",
+  "linhas": 1,
+  "pk": [
+   "entity_id"
+  ],
+  "fks": [
+   "store_id -> store(store_id)",
+   "website_id -> store_website(website_id)"
+  ],
+  "colunas": [
+   {
+    "coluna": "entity_id",
+    "tipo": "INTEGER",
+    "aceita_nulo": false,
+    "distintos": 1,
+    "pct_nulo": 0.0,
+    "min": 1.0,
+    "max": 1.0,
+    "media": 1.0,
+    "mais_frequentes": "",
+    "amostra": "1"
+   },
+   {
+    "coluna": "entity_type_id",
+    "tipo": "SMALLINT",
+    "aceita_nulo": false,
+    "distintos": 1,
+    "pct_nulo": 0.0,
+    "min": 1.0,
+    "max": 1.0,
+    "media": 1.0,
+    "mais_frequentes": "",
+    "amostra": "1"
+   },
+   {
+    "coluna": "attribute_set_id",
+    "tipo": "SMALLINT",
+    "aceita_nulo": false,
+    "distintos": 1,
+    "pct_nulo": 0.0,
+    "min": 0.0,
+    "max": 0.0,
+    "media": 0.0,
+    "mais_frequentes": "",
+    "amostra": "0"
+   },
+   {
+    "coluna": "website_id",
+    "tipo": "SMALLINT",
+    "aceita_nulo": true,
+    "distintos": 1,
+    "pct_nulo": 0.0,
+    "min": 1.0,
+    "max": 1.0,
+    "media": 1.0,
+    "mais_frequentes": "",
+    "amostra": "1"
+   },
+   {
+    "coluna": "email",
+    "tipo": "VARCHAR(255)",
+    "aceita_nulo": true,
+    "distintos": 1,
+    "pct_nulo": 0.0,
+    "min": null,
+    "max": null,
+    "media": null,
+    "mais_frequentes": "",
+    "amostra": "<anonimizado>"
+   },
+   {
+    "coluna": "group_id",
+    "tipo": "SMALLINT",
+    "aceita_nulo": false,
+    "distintos": 1,
+    "pct_nulo": 0.0,
+    "min": 1.0,
+    "max": 1.0,
+    "media": 1.0,
+    "mais_frequentes": "",
+    "amostra": "1"
+   },
+   {
+    "coluna": "increment_id",
+    "tipo": "VARCHAR(50)",
+    "aceita_nulo": true,
+    "distintos": 1,
+    "pct_nulo": 0.0,
+    "min": null,
+    "max": null,
+    "media": null,
+    "mais_frequentes": "",
+    "amostra": "000000001"
+   },
+   {
+    "coluna": "store_id",
+    "tipo": "SMALLINT",
+    "aceita_nulo": true,
+    "distintos": 1,
+    "pct_nulo": 0.0,
+    "min": 1.0,
+    "max": 1.0,
+    "media": 1.0,
+    "mais_frequentes": "",
+    "amostra": "1"
+   },
+   {
+    "coluna": "created_at",
+    "tipo": "TIMESTAMP",
+    "aceita_nulo": false,
+    "distintos": 1,
+    "pct_nulo": 0.0,
+    "min": null,
+    "max": null,
+    "media": null,
+    "mais_frequentes": "",
+    "amostra": "2007-08-30 23:23:13"
+   },
+   {
+    "coluna": "updated_at",
+    "tipo": "TIMESTAMP",
+    "aceita_nulo": false,
+    "distintos": 1,
+    "pct_nulo": 0.0,
+    "min": null,
+    "max": null,
+    "media": null,
+    "mais_frequentes": "",
+    "amostra": "2008-08-08 12:28:24"
+   },
+   {
+    "coluna": "is_active",
+    "tipo": "SMALLINT",
+    "aceita_nulo": false,
+    "distintos": 1,
+    "pct_nulo": 0.0,
+    "min": 1.0,
+    "max": 1.0,
+    "media": 1.0,
+    "mais_frequentes": "",
+    "amostra": "1"
+   },
+   {
+    "coluna": "disable_auto_group_change",
+    "tipo": "SMALLINT",
+    "aceita_nulo": false,
+    "distintos": 1,
+    "pct_nulo": 0.0,
+    "min": 0.0,
+    "max": 0.0,
+    "media": 0.0,
+    "mais_frequentes": "",
+    "amostra": "0"
+   }
+  ],
+  "amostra_linhas": [
+   {
+    "entity_id": 1,
+    "entity_type_id": 1,
+    "attribute_set_id": 0,
+    "website_id": 1,
+    "email": "<anonimizado>",
+    "group_id": 1,
+    "increment_id": "000000001",
+    "store_id": 1,
+    "created_at": "2007-08-30 23:23:13",
+    "updated_at": "2008-08-08 12:28:24",
+    "is_active": 1,
+    "disable_auto_group_change": 0
+   }
+  ]
+ },
+ "pool": [
+  {
+   "tema_id": "t0",
+   "texto": "Cadastro de clientes"
+  },
+  {
+   "tema_id": "t1",
+   "texto": "identificação de loja"
+  },
+  {
+   "tema_id": "t2",
+   "texto": "Status de atividade do cliente"
+  },
+  {
+   "tema_id": "t3",
+   "texto": "Vínculo loja e website"
+  },
+  {
+   "tema_id": "t4",
+   "texto": "atributos de cliente"
+  },
+  {
+   "tema_id": "t5",
+   "texto": "assinatura de grupo"
+  },
+  {
+   "tema_id": "t6",
+   "texto": "grupo de clientes"
+  },
+  {
+   "tema_id": "t7",
+   "texto": "informações de cadastro"
+  },
+  {
+   "tema_id": "t8",
+   "texto": "entidade de cliente"
+  }
+ ],
+ "listas": {
+  "Sistema A": {
+   "1": [
+    "entidade de cliente",
+    "atributos de cliente",
+    "informações de cadastro"
+   ],
+   "2": [
+    "entidade de cliente",
+    "atributos de cliente",
+    "informações de cadastro"
+   ],
+   "3": [
+    "entidade de cliente",
+    "atributos de cliente",
+    "informações de cadastro"
+   ]
+  },
+  "Sistema B": {
+   "1": [
+    "cadastro de clientes",
+    "identificação de loja",
+    "grupo de clientes"
+   ],
+   "2": [
+    "cadastro de clientes",
+    "identificação de loja",
+    "grupo de clientes"
+   ],
+   "3": [
+    "cadastro de clientes",
+    "identificação de loja",
+    "assinatura de grupo"
+   ]
+  },
+  "Sistema C": {
+   "1": [
+    "Cadastro de clientes",
+    "Vínculo loja e website",
+    "Status de atividade do cliente"
+   ],
+   "2": [
+    "Cadastro de clientes",
+    "Vínculo loja e website",
+    "Status de atividade do cliente"
+   ],
+   "3": [
+    "Cadastro de clientes",
+    "Vínculo loja e website",
+    "Status de atividade do cliente"
+   ]
+  }
+ }
+}

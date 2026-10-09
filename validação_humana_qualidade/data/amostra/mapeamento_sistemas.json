@@ -1,0 +1,512 @@
+{
+ "magento2__sales_bestsellers_aggregated_daily": {
+  "Sistema A": "openai",
+  "Sistema B": "deepseek",
+  "Sistema C": "mistral"
+ },
+ "magento2__salesrule_coupon": {
+  "Sistema A": "deepseek",
+  "Sistema B": "mistral",
+  "Sistema C": "openai"
+ },
+ "magento2__sales_creditmemo_item": {
+  "Sistema A": "deepseek",
+  "Sistema B": "mistral",
+  "Sistema C": "openai"
+ },
+ "magento2__sales_quote_item": {
+  "Sistema A": "deepseek",
+  "Sistema B": "mistral",
+  "Sistema C": "openai"
+ },
+ "magento2__salesrule_customer": {
+  "Sistema A": "deepseek",
+  "Sistema B": "openai",
+  "Sistema C": "mistral"
+ },
+ "magento2__sales_order_status_state": {
+  "Sistema A": "mistral",
+  "Sistema B": "deepseek",
+  "Sistema C": "openai"
+ },
+ "magento2__persistent_session": {
+  "Sistema A": "openai",
+  "Sistema B": "mistral",
+  "Sistema C": "deepseek"
+ },
+ "magento2__cataloginventory_stock_status_idx": {
+  "Sistema A": "mistral",
+  "Sistema B": "openai",
+  "Sistema C": "deepseek"
+ },
+ "magento2__log_summary_type": {
+  "Sistema A": "deepseek",
+  "Sistema B": "openai",
+  "Sistema C": "mistral"
+ },
+ "magento2__indexer_state": {
+  "Sistema A": "mistral",
+  "Sistema B": "openai",
+  "Sistema C": "deepseek"
+ },
+ "magento2__sitemap": {
+  "Sistema A": "deepseek",
+  "Sistema B": "mistral",
+  "Sistema C": "openai"
+ },
+ "magento2__eav_form_type": {
+  "Sistema A": "openai",
+  "Sistema B": "deepseek",
+  "Sistema C": "mistral"
+ },
+ "magento2__eav_attribute": {
+  "Sistema A": "deepseek",
+  "Sistema B": "mistral",
+  "Sistema C": "openai"
+ },
+ "magento2__sales_creditmemo_grid": {
+  "Sistema A": "deepseek",
+  "Sistema B": "openai",
+  "Sistema C": "mistral"
+ },
+ "magento2__cms_page": {
+  "Sistema A": "mistral",
+  "Sistema B": "deepseek",
+  "Sistema C": "openai"
+ },
+ "magento2__catalog_product_index_price_tmp": {
+  "Sistema A": "mistral",
+  "Sistema B": "deepseek",
+  "Sistema C": "openai"
+ },
+ "magento2__integration": {
+  "Sistema A": "mistral",
+  "Sistema B": "openai",
+  "Sistema C": "deepseek"
+ },
+ "magento2__eav_entity_type": {
+  "Sistema A": "deepseek",
+  "Sistema B": "openai",
+  "Sistema C": "mistral"
+ },
+ "magento2__downloadable_link_purchased_item": {
+  "Sistema A": "openai",
+  "Sistema B": "mistral",
+  "Sistema C": "deepseek"
+ },
+ "magento2__downloadable_link": {
+  "Sistema A": "mistral",
+  "Sistema B": "deepseek",
+  "Sistema C": "openai"
+ },
+ "magento2__sales_order_aggregated_updated": {
+  "Sistema A": "deepseek",
+  "Sistema B": "openai",
+  "Sistema C": "mistral"
+ },
+ "magento2__customer_entity": {
+  "Sistema A": "openai",
+  "Sistema B": "mistral",
+  "Sistema C": "deepseek"
+ },
+ "magento2__url_rewrite": {
+  "Sistema A": "mistral",
+  "Sistema B": "deepseek",
+  "Sistema C": "openai"
+ },
+ "magento2__search_query": {
+  "Sistema A": "deepseek",
+  "Sistema B": "mistral",
+  "Sistema C": "openai"
+ },
+ "magento2__oauth_token": {
+  "Sistema A": "mistral",
+  "Sistema B": "deepseek",
+  "Sistema C": "openai"
+ },
+ "magento2__sales_creditmemo": {
+  "Sistema A": "deepseek",
+  "Sistema B": "openai",
+  "Sistema C": "mistral"
+ },
+ "magento2__sales_invoice_item": {
+  "Sistema A": "mistral",
+  "Sistema B": "deepseek",
+  "Sistema C": "openai"
+ },
+ "magento2__sales_quote_address_item": {
+  "Sistema A": "deepseek",
+  "Sistema B": "openai",
+  "Sistema C": "mistral"
+ },
+ "magento2__sales_invoice": {
+  "Sistema A": "mistral",
+  "Sistema B": "deepseek",
+  "Sistema C": "openai"
+ },
+ "magento2__sales_order_payment": {
+  "Sistema A": "openai",
+  "Sistema B": "deepseek",
+  "Sistema C": "mistral"
+ },
+ "magento2__sales_quote": {
+  "Sistema A": "deepseek",
+  "Sistema B": "openai",
+  "Sistema C": "mistral"
+ },
+ "magento2__sales_order_item": {
+  "Sistema A": "deepseek",
+  "Sistema B": "mistral",
+  "Sistema C": "openai"
+ },
+ "magento2__sales_order": {
+  "Sistema A": "deepseek",
+  "Sistema B": "mistral",
+  "Sistema C": "openai"
+ },
+ "magento2__sales_quote_address": {
+  "Sistema A": "deepseek",
+  "Sistema B": "mistral",
+  "Sistema C": "openai"
+ },
+ "nhanes__hepa_j": {
+  "Sistema A": "mistral",
+  "Sistema B": "deepseek",
+  "Sistema C": "openai"
+ },
+ "nhanes__bpq_j": {
+  "Sistema A": "mistral",
+  "Sistema B": "deepseek",
+  "Sistema C": "openai"
+ },
+ "nhanes__rhq_j": {
+  "Sistema A": "openai",
+  "Sistema B": "deepseek",
+  "Sistema C": "mistral"
+ },
+ "nhanes__ohxden_j": {
+  "Sistema A": "openai",
+  "Sistema B": "deepseek",
+  "Sistema C": "mistral"
+ },
+ "nhanes__demo_j": {
+  "Sistema A": "mistral",
+  "Sistema B": "deepseek",
+  "Sistema C": "openai"
+ },
+ "nhanes__dsqtot_j": {
+  "Sistema A": "deepseek",
+  "Sistema B": "mistral",
+  "Sistema C": "openai"
+ },
+ "nhanes__auxtym_j": {
+  "Sistema A": "mistral",
+  "Sistema B": "deepseek",
+  "Sistema C": "openai"
+ },
+ "nhanes__ssneon_j": {
+  "Sistema A": "openai",
+  "Sistema B": "deepseek",
+  "Sistema C": "mistral"
+ },
+ "nhanes__paqy_j": {
+  "Sistema A": "mistral",
+  "Sistema B": "deepseek",
+  "Sistema C": "openai"
+ },
+ "nhanes__vid_j": {
+  "Sistema A": "openai",
+  "Sistema B": "deepseek",
+  "Sistema C": "mistral"
+ },
+ "nhanes__smqfam_j": {
+  "Sistema A": "openai",
+  "Sistema B": "mistral",
+  "Sistema C": "deepseek"
+ },
+ "nhanes__ghb_j": {
+  "Sistema A": "openai",
+  "Sistema B": "mistral",
+  "Sistema C": "deepseek"
+ },
+ "nhanes__ucm_j": {
+  "Sistema A": "mistral",
+  "Sistema B": "openai",
+  "Sistema C": "deepseek"
+ },
+ "nhanes__ssfr_j": {
+  "Sistema A": "deepseek",
+  "Sistema B": "mistral",
+  "Sistema C": "openai"
+ },
+ "nhanes__tfr_j": {
+  "Sistema A": "openai",
+  "Sistema B": "deepseek",
+  "Sistema C": "mistral"
+ },
+ "nhanes__fetib_j": {
+  "Sistema A": "mistral",
+  "Sistema B": "deepseek",
+  "Sistema C": "openai"
+ },
+ "nhanes__dxxfem_j": {
+  "Sistema A": "mistral",
+  "Sistema B": "openai",
+  "Sistema C": "deepseek"
+ },
+ "nhanes__ohxref_j": {
+  "Sistema A": "mistral",
+  "Sistema B": "deepseek",
+  "Sistema C": "openai"
+ },
+ "nhanes__ephpp_j": {
+  "Sistema A": "openai",
+  "Sistema B": "mistral",
+  "Sistema C": "deepseek"
+ },
+ "nhanes__pah_j": {
+  "Sistema A": "deepseek",
+  "Sistema B": "openai",
+  "Sistema C": "mistral"
+ },
+ "nhanes__um_j": {
+  "Sistema A": "mistral",
+  "Sistema B": "openai",
+  "Sistema C": "deepseek"
+ },
+ "nhanes__uphopm_j": {
+  "Sistema A": "mistral",
+  "Sistema B": "deepseek",
+  "Sistema C": "openai"
+ },
+ "nhanes__opd_j": {
+  "Sistema A": "deepseek",
+  "Sistema B": "openai",
+  "Sistema C": "mistral"
+ },
+ "nhanes__lux_j": {
+  "Sistema A": "mistral",
+  "Sistema B": "deepseek",
+  "Sistema C": "openai"
+ },
+ "nhanes__dbq_j": {
+  "Sistema A": "deepseek",
+  "Sistema B": "openai",
+  "Sistema C": "mistral"
+ },
+ "nhanes__ds2tot_j": {
+  "Sistema A": "deepseek",
+  "Sistema B": "openai",
+  "Sistema C": "mistral"
+ },
+ "nhanes__ds1ids_j": {
+  "Sistema A": "deepseek",
+  "Sistema B": "mistral",
+  "Sistema C": "openai"
+ },
+ "nhanes__phthte_j": {
+  "Sistema A": "openai",
+  "Sistema B": "mistral",
+  "Sistema C": "deepseek"
+ },
+ "nhanes__auxar_j": {
+  "Sistema A": "mistral",
+  "Sistema B": "deepseek",
+  "Sistema C": "openai"
+ },
+ "nhanes__dr2tot_j": {
+  "Sistema A": "openai",
+  "Sistema B": "deepseek",
+  "Sistema C": "mistral"
+ },
+ "nhanes__auxwbr_j": {
+  "Sistema A": "deepseek",
+  "Sistema B": "openai",
+  "Sistema C": "mistral"
+ },
+ "nhanes__vocwb_j": {
+  "Sistema A": "mistral",
+  "Sistema B": "deepseek",
+  "Sistema C": "openai"
+ },
+ "nhanes__dxx_j": {
+  "Sistema A": "mistral",
+  "Sistema B": "openai",
+  "Sistema C": "deepseek"
+ },
+ "nhanes__cbqpfa_j": {
+  "Sistema A": "deepseek",
+  "Sistema B": "openai",
+  "Sistema C": "mistral"
+ },
+ "teixeira__tl_atend_prof_tipo_encam_intrn": {
+  "Sistema A": "deepseek",
+  "Sistema B": "mistral",
+  "Sistema C": "openai"
+ },
+ "teixeira__tb_importacao_bolsa_familia": {
+  "Sistema A": "openai",
+  "Sistema B": "deepseek",
+  "Sistema C": "mistral"
+ },
+ "teixeira__tb_fat_atd_ind_medicamentos": {
+  "Sistema A": "openai",
+  "Sistema B": "mistral",
+  "Sistema C": "deepseek"
+ },
+ "teixeira__tb_fat_atendimento_individual": {
+  "Sistema A": "mistral",
+  "Sistema B": "openai",
+  "Sistema C": "deepseek"
+ },
+ "teixeira__tb_especialidade_sisreg": {
+  "Sistema A": "deepseek",
+  "Sistema B": "mistral",
+  "Sistema C": "openai"
+ },
+ "teixeira__rl_antecedente_ciap": {
+  "Sistema A": "mistral",
+  "Sistema B": "openai",
+  "Sistema C": "deepseek"
+ },
+ "teixeira__ta_exame_colesterol_ldl": {
+  "Sistema A": "openai",
+  "Sistema B": "deepseek",
+  "Sistema C": "mistral"
+ },
+ "teixeira__tl_usuario": {
+  "Sistema A": "deepseek",
+  "Sistema B": "mistral",
+  "Sistema C": "openai"
+ },
+ "teixeira__tl_neuro_fator_risco": {
+  "Sistema A": "openai",
+  "Sistema B": "mistral",
+  "Sistema C": "deepseek"
+ },
+ "teixeira__rl_cds_atend_individual_ciap": {
+  "Sistema A": "openai",
+  "Sistema B": "mistral",
+  "Sistema C": "deepseek"
+ },
+ "teixeira__tb_publico_alvo": {
+  "Sistema A": "openai",
+  "Sistema B": "deepseek",
+  "Sistema C": "mistral"
+ },
+ "teixeira__ta_lembrete": {
+  "Sistema A": "deepseek",
+  "Sistema B": "mistral",
+  "Sistema C": "openai"
+ },
+ "teixeira__tl_config_atencao_domiciliar": {
+  "Sistema A": "deepseek",
+  "Sistema B": "mistral",
+  "Sistema C": "openai"
+ },
+ "teixeira__ta_alergia_evolucao": {
+  "Sistema A": "mistral",
+  "Sistema B": "openai",
+  "Sistema C": "deepseek"
+ },
+ "teixeira__tl_perfil": {
+  "Sistema A": "mistral",
+  "Sistema B": "openai",
+  "Sistema C": "deepseek"
+ },
+ "teixeira__tl_cidadao_nucleo_familiar": {
+  "Sistema A": "deepseek",
+  "Sistema B": "mistral",
+  "Sistema C": "openai"
+ },
+ "teixeira__ta_cidadao_vinculacao_equipe": {
+  "Sistema A": "openai",
+  "Sistema B": "mistral",
+  "Sistema C": "deepseek"
+ },
+ "teixeira__ta_animais_domicilio": {
+  "Sistema A": "mistral",
+  "Sistema B": "openai",
+  "Sistema C": "deepseek"
+ },
+ "teixeira__tl_cidadao_grupo": {
+  "Sistema A": "deepseek",
+  "Sistema B": "openai",
+  "Sistema C": "mistral"
+ },
+ "teixeira__ta_evolucao_dente": {
+  "Sistema A": "openai",
+  "Sistema B": "deepseek",
+  "Sistema C": "mistral"
+ },
+ "teixeira__tb_fat_consolidado_cidadao_fci": {
+  "Sistema A": "deepseek",
+  "Sistema B": "mistral",
+  "Sistema C": "openai"
+ },
+ "teixeira__tl_cds_domicilio": {
+  "Sistema A": "openai",
+  "Sistema B": "deepseek",
+  "Sistema C": "mistral"
+ },
+ "teixeira__tb_fat_cidadao": {
+  "Sistema A": "mistral",
+  "Sistema B": "openai",
+  "Sistema C": "deepseek"
+ },
+ "teixeira__tb_cds_cad_domiciliar": {
+  "Sistema A": "deepseek",
+  "Sistema B": "openai",
+  "Sistema C": "mistral"
+ },
+ "teixeira__tb_fat_atd_ind_problemas": {
+  "Sistema A": "mistral",
+  "Sistema B": "openai",
+  "Sistema C": "deepseek"
+ },
+ "teixeira__ta_atend_prof": {
+  "Sistema A": "openai",
+  "Sistema B": "deepseek",
+  "Sistema C": "mistral"
+ },
+ "teixeira__ta_receita_medicamento": {
+  "Sistema A": "mistral",
+  "Sistema B": "deepseek",
+  "Sistema C": "openai"
+ },
+ "teixeira__ta_cidadao": {
+  "Sistema A": "openai",
+  "Sistema B": "deepseek",
+  "Sistema C": "mistral"
+ },
+ "teixeira__tb_acomp_cidadaos_vinculados": {
+  "Sistema A": "mistral",
+  "Sistema B": "deepseek",
+  "Sistema C": "openai"
+ },
+ "teixeira__tl_cidadao": {
+  "Sistema A": "deepseek",
+  "Sistema B": "openai",
+  "Sistema C": "mistral"
+ },
+ "teixeira__ta_cds_domicilio": {
+  "Sistema A": "openai",
+  "Sistema B": "mistral",
+  "Sistema C": "deepseek"
+ },
+ "teixeira__tl_cds_aval_elegibilidade": {
+  "Sistema A": "deepseek",
+  "Sistema B": "mistral",
+  "Sistema C": "openai"
+ },
+ "teixeira__tb_fat_visita_domiciliar": {
+  "Sistema A": "mistral",
+  "Sistema B": "openai",
+  "Sistema C": "deepseek"
+ },
+ "teixeira__tl_cds_cad_individual": {
+  "Sistema A": "deepseek",
+  "Sistema B": "mistral",
+  "Sistema C": "openai"
+ }
+}

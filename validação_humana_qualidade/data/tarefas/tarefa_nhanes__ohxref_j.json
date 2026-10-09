@@ -1,0 +1,309 @@
+{
+ "item_id": "nhanes__ohxref_j",
+ "table_key": "nhanes_examination.ohxref_j",
+ "base": "nhanes",
+ "piloto": false,
+ "contexto": {
+  "tabela": "ohxref_j",
+  "linhas": 8366,
+  "pk": [],
+  "fks": [],
+  "colunas": [
+   {
+    "coluna": "SEQN",
+    "tipo": "DOUBLE PRECISION",
+    "aceita_nulo": true,
+    "distintos": 8366,
+    "pct_nulo": 0.0,
+    "min": 93703.0,
+    "max": 102956.0,
+    "media": 98320.86994979679,
+    "mais_frequentes": "",
+    "amostra": "96472.0 | 101333.0 | 102403.0 | 97209.0 | 101319.0"
+   },
+   {
+    "coluna": "OHDEXSTS",
+    "tipo": "DOUBLE PRECISION",
+    "aceita_nulo": true,
+    "distintos": 3,
+    "pct_nulo": 0.0,
+    "min": 1.0,
+    "max": 3.0,
+    "media": 1.0637102557972746,
+    "mais_frequentes": "1.0 (8099), 3.0 (266), 2.0 (1)",
+    "amostra": "3.0 | 2.0 | 1.0"
+   },
+   {
+    "coluna": "OHDRCSTS",
+    "tipo": "DOUBLE PRECISION",
+    "aceita_nulo": true,
+    "distintos": 2,
+    "pct_nulo": 0.0,
+    "min": 1.0,
+    "max": 3.0,
+    "media": 1.0638297872340425,
+    "mais_frequentes": "1.0 (8099), 3.0 (267)",
+    "amostra": "3.0 | 1.0"
+   },
+   {
+    "coluna": "OHAREC",
+    "tipo": "DOUBLE PRECISION",
+    "aceita_nulo": true,
+    "distintos": 4,
+    "pct_nulo": 3.18,
+    "min": 1.0,
+    "max": 4.0,
+    "media": 3.6144444444444446,
+    "mais_frequentes": "4.0 (5353), 3.0 (2379), 2.0 (360)",
+    "amostra": "3.0 | 2.0 | 4.0 | 1.0"
+   },
+   {
+    "coluna": "OHAROCDT",
+    "tipo": "DOUBLE PRECISION",
+    "aceita_nulo": true,
+    "distintos": 2,
+    "pct_nulo": 77.28,
+    "min": 1.0,
+    "max": 2.0,
+    "media": 1.0047343503419253,
+    "mais_frequentes": "1.0 (1892), 2.0 (9)",
+    "amostra": "2.0 | 1.0"
+   },
+   {
+    "coluna": "OHAROCGP",
+    "tipo": "DOUBLE PRECISION",
+    "aceita_nulo": true,
+    "distintos": 2,
+    "pct_nulo": 92.16,
+    "min": 1.0,
+    "max": 2.0,
+    "media": 1.021341463414634,
+    "mais_frequentes": "1.0 (642), 2.0 (14)",
+    "amostra": "2.0 | 1.0"
+   },
+   {
+    "coluna": "OHAROCOH",
+    "tipo": "DOUBLE PRECISION",
+    "aceita_nulo": true,
+    "distintos": 2,
+    "pct_nulo": 83.44,
+    "min": 1.0,
+    "max": 2.0,
+    "media": 1.0007220216606498,
+    "mais_frequentes": "1.0 (1384), 2.0 (1)",
+    "amostra": "2.0 | 1.0"
+   },
+   {
+    "coluna": "OHAROCCI",
+    "tipo": "DOUBLE PRECISION",
+    "aceita_nulo": true,
+    "distintos": 2,
+    "pct_nulo": 99.37,
+    "min": 1.0,
+    "max": 2.0,
+    "media": 1.1320754716981132,
+    "mais_frequentes": "1.0 (46), 2.0 (7)",
+    "amostra": "1.0 | 2.0"
+   },
+   {
+    "coluna": "OHAROCDE",
+    "tipo": "DOUBLE PRECISION",
+    "aceita_nulo": true,
+    "distintos": 2,
+    "pct_nulo": 96.78,
+    "min": 1.0,
+    "max": 2.0,
+    "media": 1.0185873605947955,
+    "mais_frequentes": "1.0 (264), 2.0 (5)",
+    "amostra": "2.0 | 1.0"
+   },
+   {
+    "coluna": "OHARNF",
+    "tipo": "DOUBLE PRECISION",
+    "aceita_nulo": true,
+    "distintos": 2,
+    "pct_nulo": 35.27,
+    "min": 1.0,
+    "max": 2.0,
+    "media": 1.0038781163434902,
+    "mais_frequentes": "1.0 (5394), 2.0 (21)",
+    "amostra": "2.0 | 1.0"
+   },
+   {
+    "coluna": "OHAROTH",
+    "tipo": "DOUBLE PRECISION",
+    "aceita_nulo": true,
+    "distintos": 2,
+    "pct_nulo": 99.39,
+    "min": 1.0,
+    "max": 2.0,
+    "media": 1.0980392156862746,
+    "mais_frequentes": "1.0 (46), 2.0 (5)",
+    "amostra": "1.0 | 2.0"
+   },
+   {
+    "coluna": "OHAPOS",
+    "tipo": "DOUBLE PRECISION",
+    "aceita_nulo": true,
+    "distintos": 2,
+    "pct_nulo": 3.18,
+    "min": 1.0,
+    "max": 2.0,
+    "media": 1.041358024691358,
+    "mais_frequentes": "1.0 (7765), 2.0 (335)",
+    "amostra": "2.0 | 1.0"
+   }
+  ],
+  "amostra_linhas": [
+   {
+    "SEQN": 93703.0,
+    "OHDEXSTS": 1.0,
+    "OHDRCSTS": 1.0,
+    "OHAREC": 4.0,
+    "OHAROCDT": null,
+    "OHAROCGP": null,
+    "OHAROCOH": null,
+    "OHAROCCI": null,
+    "OHAROCDE": null,
+    "OHARNF": 1.0,
+    "OHAROTH": null,
+    "OHAPOS": 1.0
+   },
+   {
+    "SEQN": 93704.0,
+    "OHDEXSTS": 1.0,
+    "OHDRCSTS": 1.0,
+    "OHAREC": 4.0,
+    "OHAROCDT": null,
+    "OHAROCGP": null,
+    "OHAROCOH": null,
+    "OHAROCCI": null,
+    "OHAROCDE": null,
+    "OHARNF": 1.0,
+    "OHAROTH": null,
+    "OHAPOS": 1.0
+   },
+   {
+    "SEQN": 93705.0,
+    "OHDEXSTS": 1.0,
+    "OHDRCSTS": 1.0,
+    "OHAREC": 4.0,
+    "OHAROCDT": null,
+    "OHAROCGP": null,
+    "OHAROCOH": null,
+    "OHAROCCI": null,
+    "OHAROCDE": null,
+    "OHARNF": 1.0,
+    "OHAROTH": null,
+    "OHAPOS": 1.0
+   }
+  ]
+ },
+ "pool": [
+  {
+   "tema_id": "t0",
+   "texto": "recursos de saúde"
+  },
+  {
+   "tema_id": "t1",
+   "texto": "status de saúde"
+  },
+  {
+   "tema_id": "t2",
+   "texto": "Condição de dentes"
+  },
+  {
+   "tema_id": "t3",
+   "texto": "exame odontológico"
+  },
+  {
+   "tema_id": "t4",
+   "texto": "status de exame"
+  },
+  {
+   "tema_id": "t5",
+   "texto": "condição dentária"
+  },
+  {
+   "tema_id": "t6",
+   "texto": "Status de exame oral"
+  },
+  {
+   "tema_id": "t7",
+   "texto": "status de saúde bucal"
+  },
+  {
+   "tema_id": "t8",
+   "texto": "Condição de dentição"
+  },
+  {
+   "tema_id": "t9",
+   "texto": "Exame dentário"
+  },
+  {
+   "tema_id": "t10",
+   "texto": "análise de condições"
+  },
+  {
+   "tema_id": "t11",
+   "texto": "recuperação de saúde"
+  },
+  {
+   "tema_id": "t12",
+   "texto": "condições de saúde"
+  }
+ ],
+ "listas": {
+  "Sistema A": {
+   "1": [
+    "exame odontológico",
+    "condição dentária",
+    "status de saúde bucal"
+   ],
+   "2": [
+    "exame odontológico",
+    "condição dentária",
+    "status de saúde bucal"
+   ],
+   "3": [
+    "exame odontológico",
+    "condição dentária",
+    "status de saúde bucal"
+   ]
+  },
+  "Sistema B": {
+   "1": [
+    "Exame dentário",
+    "Condição de dentes",
+    "Status de exame oral"
+   ],
+   "2": [
+    "Exame dentário",
+    "Condição de dentes",
+    "Status de exame oral"
+   ],
+   "3": [
+    "Exame dentário",
+    "Condição de dentição",
+    "Status de exame oral"
+   ]
+  },
+  "Sistema C": {
+   "1": [
+    "status de saúde",
+    "recursos de saúde",
+    "condições de saúde"
+   ],
+   "2": [
+    "status de exame",
+    "recuperação de saúde",
+    "análise de condições"
+   ],
+   "3": [
+    "status de saúde",
+    "recursos de saúde",
+    "condições de saúde"
+   ]
+  }
+ }
+}

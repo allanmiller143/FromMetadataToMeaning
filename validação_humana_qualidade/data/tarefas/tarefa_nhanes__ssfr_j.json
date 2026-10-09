@@ -1,0 +1,235 @@
+{
+ "item_id": "nhanes__ssfr_j",
+ "table_key": "nhanes_laboratory.ssfr_j",
+ "base": "nhanes",
+ "piloto": false,
+ "contexto": {
+  "tabela": "ssfr_j",
+  "linhas": 2986,
+  "pk": [],
+  "fks": [],
+  "colunas": [
+   {
+    "coluna": "SEQN",
+    "tipo": "DOUBLE PRECISION",
+    "aceita_nulo": true,
+    "distintos": 2986,
+    "pct_nulo": 0.0,
+    "min": 93706.0,
+    "max": 102955.0,
+    "media": 98345.420964501,
+    "mais_frequentes": "",
+    "amostra": "99729.0 | 100500.0 | 97230.0 | 96472.0 | 102403.0"
+   },
+   {
+    "coluna": "WTSSBJ2Y",
+    "tipo": "DOUBLE PRECISION",
+    "aceita_nulo": true,
+    "distintos": 2248,
+    "pct_nulo": 0.0,
+    "min": 5.397605346934028e-79,
+    "max": 1489188.643382,
+    "media": 103570.83085840032,
+    "mais_frequentes": "",
+    "amostra": "165971.657929 | 26777.256508 | 25392.307408 | 76880.312279 | 98457.673958"
+   },
+   {
+    "coluna": "SSIPPP",
+    "tipo": "DOUBLE PRECISION",
+    "aceita_nulo": true,
+    "distintos": 177,
+    "pct_nulo": 22.27,
+    "min": 0.035,
+    "max": 4.19,
+    "media": 0.05957690650581441,
+    "mais_frequentes": "0.035 (1875), 0.051 (15), 0.057 (14)",
+    "amostra": "0.059 | 0.112 | 1.28 | 0.653 | 0.084"
+   },
+   {
+    "coluna": "SSIPPPL",
+    "tipo": "DOUBLE PRECISION",
+    "aceita_nulo": true,
+    "distintos": 2,
+    "pct_nulo": 22.27,
+    "min": 5.397605346934028e-79,
+    "max": 1.0,
+    "media": 0.8078414476518742,
+    "mais_frequentes": "1.0 (1875), 5.397605346934028e-79 (446)",
+    "amostra": "5.397605346934028e-79 | 1.0"
+   },
+   {
+    "coluna": "SSBPPP",
+    "tipo": "DOUBLE PRECISION",
+    "aceita_nulo": true,
+    "distintos": 243,
+    "pct_nulo": 21.94,
+    "min": 0.035,
+    "max": 4.32,
+    "media": 0.08410038610038387,
+    "mais_frequentes": "0.035 (1773), 0.051 (14), 0.05 (14)",
+    "amostra": "0.349 | 0.316 | 1.86 | 0.229 | 0.282"
+   },
+   {
+    "coluna": "SSBPPPL",
+    "tipo": "DOUBLE PRECISION",
+    "aceita_nulo": true,
+    "distintos": 2,
+    "pct_nulo": 21.94,
+    "min": 5.397605346934028e-79,
+    "max": 1.0,
+    "media": 0.7606177606177607,
+    "mais_frequentes": "1.0 (1773), 5.397605346934028e-79 (558)",
+    "amostra": "5.397605346934028e-79 | 1.0"
+   }
+  ],
+  "amostra_linhas": [
+   {
+    "SEQN": 93706.0,
+    "WTSSBJ2Y": 30088.74769,
+    "SSIPPP": 0.035,
+    "SSIPPPL": 1.0,
+    "SSBPPP": 0.035,
+    "SSBPPPL": 1.0
+   },
+   {
+    "SEQN": 93715.0,
+    "WTSSBJ2Y": 30905.566678,
+    "SSIPPP": 0.035,
+    "SSIPPPL": 1.0,
+    "SSBPPP": 0.035,
+    "SSBPPPL": 1.0
+   },
+   {
+    "SEQN": 93717.0,
+    "WTSSBJ2Y": 153784.381956,
+    "SSIPPP": 0.092,
+    "SSIPPPL": 5.397605346934028e-79,
+    "SSBPPP": 0.075,
+    "SSBPPPL": 5.397605346934028e-79
+   }
+  ]
+ },
+ "pool": [
+  {
+   "tema_id": "t0",
+   "texto": "pesquisa de soroprevalência"
+  },
+  {
+   "tema_id": "t1",
+   "texto": "pesos amostrais"
+  },
+  {
+   "tema_id": "t2",
+   "texto": "análise de marcadores sorológicos"
+  },
+  {
+   "tema_id": "t3",
+   "texto": "estudo de pesos amostrais"
+  },
+  {
+   "tema_id": "t4",
+   "texto": "variabilidade de resultados"
+  },
+  {
+   "tema_id": "t5",
+   "texto": "dados de saúde"
+  },
+  {
+   "tema_id": "t6",
+   "texto": "limiares de detecção"
+  },
+  {
+   "tema_id": "t7",
+   "texto": "Níveis séricos de peptídeo C"
+  },
+  {
+   "tema_id": "t8",
+   "texto": "dados laboratoriais de saúde"
+  },
+  {
+   "tema_id": "t9",
+   "texto": "Pesos amostrais de 2 anos"
+  },
+  {
+   "tema_id": "t10",
+   "texto": "análise de biomarcadores"
+  },
+  {
+   "tema_id": "t11",
+   "texto": "Níveis séricos de insulina"
+  },
+  {
+   "tema_id": "t12",
+   "texto": "Estudo de biomarcadores laboratoriais"
+  },
+  {
+   "tema_id": "t13",
+   "texto": "valores laboratoriais"
+  },
+  {
+   "tema_id": "t14",
+   "texto": "Análise de subprodutos de estireno"
+  },
+  {
+   "tema_id": "t15",
+   "texto": "Pesquisa de exposição química"
+  },
+  {
+   "tema_id": "t16",
+   "texto": "variáveis laboratoriais"
+  }
+ ],
+ "listas": {
+  "Sistema A": {
+   "1": [
+    "Níveis séricos de insulina",
+    "Níveis séricos de peptídeo C",
+    "Pesos amostrais de 2 anos"
+   ],
+   "2": [
+    "Níveis séricos de insulina",
+    "Níveis séricos de peptídeo C",
+    "Pesos amostrais de 2 anos"
+   ],
+   "3": [
+    "Análise de subprodutos de estireno",
+    "Pesquisa de exposição química",
+    "Estudo de biomarcadores laboratoriais"
+   ]
+  },
+  "Sistema B": {
+   "1": [
+    "valores laboratoriais",
+    "pesos amostrais",
+    "limiares de detecção"
+   ],
+   "2": [
+    "análise de marcadores sorológicos",
+    "pesquisa de soroprevalência",
+    "estudo de pesos amostrais"
+   ],
+   "3": [
+    "análise de marcadores sorológicos",
+    "pesquisa de soroprevalência",
+    "estudo de pesos amostrais"
+   ]
+  },
+  "Sistema C": {
+   "1": [
+    "análise de biomarcadores",
+    "dados laboratoriais de saúde",
+    "variabilidade de resultados"
+   ],
+   "2": [
+    "análise de biomarcadores",
+    "dados de saúde",
+    "variáveis laboratoriais"
+   ],
+   "3": [
+    "análise de biomarcadores",
+    "dados laboratoriais de saúde",
+    "variabilidade de resultados"
+   ]
+  }
+ }
+}

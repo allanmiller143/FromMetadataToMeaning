@@ -1,0 +1,266 @@
+{
+ "item_id": "magento2__search_query",
+ "table_key": "magento2.search_query",
+ "base": "magento2",
+ "piloto": false,
+ "contexto": {
+  "tabela": "search_query",
+  "linhas": 0,
+  "pk": [
+   "query_id"
+  ],
+  "fks": [
+   "store_id -> store(store_id)"
+  ],
+  "colunas": [
+   {
+    "coluna": "query_id",
+    "tipo": "INTEGER",
+    "aceita_nulo": false,
+    "distintos": null,
+    "pct_nulo": null,
+    "min": null,
+    "max": null,
+    "media": null,
+    "mais_frequentes": "",
+    "amostra": ""
+   },
+   {
+    "coluna": "query_text",
+    "tipo": "VARCHAR(255)",
+    "aceita_nulo": true,
+    "distintos": null,
+    "pct_nulo": null,
+    "min": null,
+    "max": null,
+    "media": null,
+    "mais_frequentes": "",
+    "amostra": ""
+   },
+   {
+    "coluna": "num_results",
+    "tipo": "INTEGER",
+    "aceita_nulo": false,
+    "distintos": null,
+    "pct_nulo": null,
+    "min": null,
+    "max": null,
+    "media": null,
+    "mais_frequentes": "",
+    "amostra": ""
+   },
+   {
+    "coluna": "popularity",
+    "tipo": "INTEGER",
+    "aceita_nulo": false,
+    "distintos": null,
+    "pct_nulo": null,
+    "min": null,
+    "max": null,
+    "media": null,
+    "mais_frequentes": "",
+    "amostra": ""
+   },
+   {
+    "coluna": "redirect",
+    "tipo": "VARCHAR(255)",
+    "aceita_nulo": true,
+    "distintos": null,
+    "pct_nulo": null,
+    "min": null,
+    "max": null,
+    "media": null,
+    "mais_frequentes": "",
+    "amostra": ""
+   },
+   {
+    "coluna": "synonym_for",
+    "tipo": "VARCHAR(255)",
+    "aceita_nulo": true,
+    "distintos": null,
+    "pct_nulo": null,
+    "min": null,
+    "max": null,
+    "media": null,
+    "mais_frequentes": "",
+    "amostra": ""
+   },
+   {
+    "coluna": "store_id",
+    "tipo": "SMALLINT",
+    "aceita_nulo": false,
+    "distintos": null,
+    "pct_nulo": null,
+    "min": null,
+    "max": null,
+    "media": null,
+    "mais_frequentes": "",
+    "amostra": ""
+   },
+   {
+    "coluna": "display_in_terms",
+    "tipo": "SMALLINT",
+    "aceita_nulo": false,
+    "distintos": null,
+    "pct_nulo": null,
+    "min": null,
+    "max": null,
+    "media": null,
+    "mais_frequentes": "",
+    "amostra": ""
+   },
+   {
+    "coluna": "is_active",
+    "tipo": "SMALLINT",
+    "aceita_nulo": true,
+    "distintos": null,
+    "pct_nulo": null,
+    "min": null,
+    "max": null,
+    "media": null,
+    "mais_frequentes": "",
+    "amostra": ""
+   },
+   {
+    "coluna": "is_processed",
+    "tipo": "SMALLINT",
+    "aceita_nulo": true,
+    "distintos": null,
+    "pct_nulo": null,
+    "min": null,
+    "max": null,
+    "media": null,
+    "mais_frequentes": "",
+    "amostra": ""
+   },
+   {
+    "coluna": "updated_at",
+    "tipo": "TIMESTAMP",
+    "aceita_nulo": false,
+    "distintos": null,
+    "pct_nulo": null,
+    "min": null,
+    "max": null,
+    "media": null,
+    "mais_frequentes": "",
+    "amostra": ""
+   }
+  ],
+  "amostra_linhas": []
+ },
+ "pool": [
+  {
+   "tema_id": "t0",
+   "texto": "Redirecionamento de buscas"
+  },
+  {
+   "tema_id": "t1",
+   "texto": "Consultas de busca"
+  },
+  {
+   "tema_id": "t2",
+   "texto": "consulta de pesquisa"
+  },
+  {
+   "tema_id": "t3",
+   "texto": "sinônimos de termos"
+  },
+  {
+   "tema_id": "t4",
+   "texto": "Popularidade de consultas"
+  },
+  {
+   "tema_id": "t5",
+   "texto": "sinônimos de busca"
+  },
+  {
+   "tema_id": "t6",
+   "texto": "termos de busca"
+  },
+  {
+   "tema_id": "t7",
+   "texto": "popularidade de termos"
+  },
+  {
+   "tema_id": "t8",
+   "texto": "Análise de termos de busca"
+  },
+  {
+   "tema_id": "t9",
+   "texto": "resultados de busca"
+  },
+  {
+   "tema_id": "t10",
+   "texto": "métricas de popularidade"
+  },
+  {
+   "tema_id": "t11",
+   "texto": "Redirecionamento de busca"
+  },
+  {
+   "tema_id": "t12",
+   "texto": "pesquisa de produtos"
+  },
+  {
+   "tema_id": "t13",
+   "texto": "Análise de buscas"
+  },
+  {
+   "tema_id": "t14",
+   "texto": "métricas de busca"
+  }
+ ],
+ "listas": {
+  "Sistema A": {
+   "1": [
+    "Análise de buscas",
+    "Redirecionamento de busca",
+    "Sinônimos de busca"
+   ],
+   "2": [
+    "Análise de termos de busca",
+    "Popularidade de consultas",
+    "Redirecionamento de buscas"
+   ],
+   "3": [
+    "Consultas de busca",
+    "Redirecionamento de busca",
+    "Sinônimos de busca"
+   ]
+  },
+  "Sistema B": {
+   "1": [
+    "pesquisa de produtos",
+    "métricas de busca",
+    "sinônimos de termos"
+   ],
+   "2": [
+    "pesquisa de produtos",
+    "termos de busca",
+    "métricas de popularidade"
+   ],
+   "3": [
+    "pesquisa de produtos",
+    "termos de busca",
+    "métricas de popularidade"
+   ]
+  },
+  "Sistema C": {
+   "1": [
+    "consulta de pesquisa",
+    "popularidade de termos",
+    "resultados de busca"
+   ],
+   "2": [
+    "consulta de pesquisa",
+    "popularidade de termos",
+    "resultados de busca"
+   ],
+   "3": [
+    "consulta de pesquisa",
+    "popularidade de termos",
+    "sinônimos de busca"
+   ]
+  }
+ }
+}

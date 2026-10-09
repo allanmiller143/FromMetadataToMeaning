@@ -1,0 +1,272 @@
+{
+ "item_id": "teixeira__ta_evolucao_dente",
+ "table_key": "public.ta_evolucao_dente",
+ "base": "teixeira",
+ "piloto": false,
+ "contexto": {
+  "tabela": "ta_evolucao_dente",
+  "linhas": 50526,
+  "pk": [
+   "co_seq_taevolucaodente"
+  ],
+  "fks": [],
+  "colunas": [
+   {
+    "coluna": "co_seq_taevolucaodente",
+    "tipo": "BIGINT",
+    "aceita_nulo": false,
+    "distintos": 50526,
+    "pct_nulo": 0.0,
+    "min": 1.0,
+    "max": 50557.0,
+    "media": 25280.05038989827,
+    "mais_frequentes": "",
+    "amostra": "1 | 2 | 3 | 4 | 5"
+   },
+   {
+    "coluna": "co_tipo_auditoria",
+    "tipo": "CHAR(1)",
+    "aceita_nulo": false,
+    "distintos": 1,
+    "pct_nulo": 0.0,
+    "min": null,
+    "max": null,
+    "media": null,
+    "mais_frequentes": "I (50526)",
+    "amostra": "I"
+   },
+   {
+    "coluna": "dt_auditoria",
+    "tipo": "TIMESTAMP",
+    "aceita_nulo": false,
+    "distintos": 11150,
+    "pct_nulo": 0.0,
+    "min": null,
+    "max": null,
+    "media": null,
+    "mais_frequentes": "2025-05-15 10:37:00.876153 (52), 2025-08-15 18:59:02.194406 (52), 2024-07-11 13:59:40.949693 (41)",
+    "amostra": "2023-09-12 10:01:10.265036 | 2024-01-31 08:31:20.224662 | 2023-05-02 09:57:57.435705 | 2023-09-14 10:36:23.395247 | 2022-10-11 08:32:49.685000"
+   },
+   {
+    "coluna": "co_seq_evolucao_dente",
+    "tipo": "BIGINT",
+    "aceita_nulo": true,
+    "distintos": 50526,
+    "pct_nulo": 0.0,
+    "min": 19899.0,
+    "max": 70455.0,
+    "media": 45178.05038989827,
+    "mais_frequentes": "",
+    "amostra": "36761 | 57221 | 46770 | 22262 | 43007"
+   },
+   {
+    "coluna": "co_dente",
+    "tipo": "BIGINT",
+    "aceita_nulo": true,
+    "distintos": 52,
+    "pct_nulo": 0.0,
+    "min": 8.0,
+    "max": 59.0,
+    "media": 25.523532438744407,
+    "mais_frequentes": "10 (2563), 26 (2479), 37 (2421)",
+    "amostra": "43 | 34 | 25 | 32 | 8"
+   },
+   {
+    "coluna": "co_odontograma",
+    "tipo": "BIGINT",
+    "aceita_nulo": true,
+    "distintos": 11150,
+    "pct_nulo": 0.0,
+    "min": 6324.0,
+    "max": 19545.0,
+    "media": 13270.425384950324,
+    "mais_frequentes": "18534 (52), 17059 (52), 12254 (41)",
+    "amostra": "11890 | 12752 | 17928 | 7247 | 18149"
+   },
+   {
+    "coluna": "st_coroa_cima",
+    "tipo": "BIGINT",
+    "aceita_nulo": true,
+    "distintos": 2,
+    "pct_nulo": 91.99,
+    "min": 0.0,
+    "max": 1.0,
+    "media": 0.825882934057792,
+    "mais_frequentes": "1 (3344), 0 (705)",
+    "amostra": "0 | 1"
+   },
+   {
+    "coluna": "st_coroa_baixo",
+    "tipo": "BIGINT",
+    "aceita_nulo": true,
+    "distintos": 2,
+    "pct_nulo": 87.39,
+    "min": 0.0,
+    "max": 1.0,
+    "media": 0.7743251726302574,
+    "mais_frequentes": "1 (4934), 0 (1438)",
+    "amostra": "0 | 1"
+   },
+   {
+    "coluna": "st_coroa_direita",
+    "tipo": "BIGINT",
+    "aceita_nulo": true,
+    "distintos": 2,
+    "pct_nulo": 89.7,
+    "min": 0.0,
+    "max": 1.0,
+    "media": 0.793965020180665,
+    "mais_frequentes": "1 (4131), 0 (1072)",
+    "amostra": "0 | 1"
+   },
+   {
+    "coluna": "st_coroa_esquerda",
+    "tipo": "BIGINT",
+    "aceita_nulo": true,
+    "distintos": 2,
+    "pct_nulo": 90.37,
+    "min": 0.0,
+    "max": 1.0,
+    "media": 0.7857730263157895,
+    "mais_frequentes": "1 (3822), 0 (1042)",
+    "amostra": "0 | 1"
+   },
+   {
+    "coluna": "st_coroa_centro",
+    "tipo": "BIGINT",
+    "aceita_nulo": true,
+    "distintos": 2,
+    "pct_nulo": 59.72,
+    "min": 0.0,
+    "max": 1.0,
+    "media": 0.7183430789641787,
+    "mais_frequentes": "1 (14619), 0 (5732)",
+    "amostra": "0 | 1"
+   }
+  ],
+  "amostra_linhas": [
+   {
+    "co_seq_taevolucaodente": 1,
+    "co_tipo_auditoria": "I",
+    "dt_auditoria": "2022-09-20 08:36:06.799777",
+    "co_seq_evolucao_dente": 19899,
+    "co_dente": 21,
+    "co_odontograma": 6324,
+    "st_coroa_cima": NaN,
+    "st_coroa_baixo": null,
+    "st_coroa_direita": null,
+    "st_coroa_esquerda": null,
+    "st_coroa_centro": 1
+   },
+   {
+    "co_seq_taevolucaodente": 2,
+    "co_tipo_auditoria": "I",
+    "dt_auditoria": "2022-09-20 08:36:06.799777",
+    "co_seq_evolucao_dente": 19900,
+    "co_dente": 37,
+    "co_odontograma": 6324,
+    "st_coroa_cima": 1.0,
+    "st_coroa_baixo": null,
+    "st_coroa_direita": null,
+    "st_coroa_esquerda": null,
+    "st_coroa_centro": 1
+   },
+   {
+    "co_seq_taevolucaodente": 3,
+    "co_tipo_auditoria": "I",
+    "dt_auditoria": "2022-09-20 08:41:42.547730",
+    "co_seq_evolucao_dente": 19901,
+    "co_dente": 9,
+    "co_odontograma": 6325,
+    "st_coroa_cima": NaN,
+    "st_coroa_baixo": null,
+    "st_coroa_direita": null,
+    "st_coroa_esquerda": null,
+    "st_coroa_centro": 1
+   }
+  ]
+ },
+ "pool": [
+  {
+   "tema_id": "t0",
+   "texto": "Condições de Coroas"
+  },
+  {
+   "tema_id": "t1",
+   "texto": "Evolução Dental"
+  },
+  {
+   "tema_id": "t2",
+   "texto": "Auditoria Odontológica"
+  },
+  {
+   "tema_id": "t3",
+   "texto": "Saúde Bucal"
+  },
+  {
+   "tema_id": "t4",
+   "texto": "Tratamento odontológico"
+  },
+  {
+   "tema_id": "t5",
+   "texto": "Condições da Coroa"
+  },
+  {
+   "tema_id": "t6",
+   "texto": "Odontogramas"
+  }
+ ],
+ "listas": {
+  "Sistema A": {
+   "1": [
+    "Evolução Dental",
+    "Auditoria Odontológica",
+    "Condições de Coroas"
+   ],
+   "2": [
+    "Evolução Dental",
+    "Auditoria Odontológica",
+    "Condições da Coroa"
+   ],
+   "3": [
+    "Evolução Dental",
+    "Auditoria Odontológica",
+    "Condições de Coroas"
+   ]
+  },
+  "Sistema B": {
+   "1": [
+    "Saúde Bucal",
+    "Odontogramas",
+    "Auditoria Odontológica"
+   ],
+   "2": [
+    "Saúde Bucal",
+    "Odontogramas",
+    "Auditoria Odontológica"
+   ],
+   "3": [
+    "Saúde Bucal",
+    "Odontogramas",
+    "Auditoria Odontológica"
+   ]
+  },
+  "Sistema C": {
+   "1": [
+    "Saúde bucal",
+    "Evolução dental",
+    "Tratamento odontológico"
+   ],
+   "2": [
+    "Saúde bucal",
+    "Evolução dental",
+    "Tratamento odontológico"
+   ],
+   "3": [
+    "Saúde bucal",
+    "Evolução dental",
+    "Tratamento odontológico"
+   ]
+  }
+ }
+}

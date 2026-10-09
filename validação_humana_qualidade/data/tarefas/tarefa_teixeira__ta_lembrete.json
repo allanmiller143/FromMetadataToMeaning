@@ -1,0 +1,239 @@
+{
+ "item_id": "teixeira__ta_lembrete",
+ "table_key": "public.ta_lembrete",
+ "base": "teixeira",
+ "piloto": false,
+ "contexto": {
+  "tabela": "ta_lembrete",
+  "linhas": 104,
+  "pk": [
+   "co_seq_talembrete"
+  ],
+  "fks": [],
+  "colunas": [
+   {
+    "coluna": "co_seq_talembrete",
+    "tipo": "BIGINT",
+    "aceita_nulo": false,
+    "distintos": 104,
+    "pct_nulo": 0.0,
+    "min": 1.0,
+    "max": 104.0,
+    "media": 52.5,
+    "mais_frequentes": "",
+    "amostra": "1 | 2 | 3 | 4 | 5"
+   },
+   {
+    "coluna": "co_tipo_auditoria",
+    "tipo": "CHAR(1)",
+    "aceita_nulo": false,
+    "distintos": 2,
+    "pct_nulo": 0.0,
+    "min": null,
+    "max": null,
+    "media": null,
+    "mais_frequentes": "I (52), U (52)",
+    "amostra": "I | U"
+   },
+   {
+    "coluna": "dt_auditoria",
+    "tipo": "TIMESTAMP",
+    "aceita_nulo": false,
+    "distintos": 52,
+    "pct_nulo": 0.0,
+    "min": null,
+    "max": null,
+    "media": null,
+    "mais_frequentes": "",
+    "amostra": "2024-12-13 10:32:15.907342 | 2025-06-06 09:33:07.659941 | 2025-08-22 09:11:03.850251 | 2025-02-14 08:54:56.725978 | 2025-03-07 09:01:07.974439"
+   },
+   {
+    "coluna": "co_seq_lembrete",
+    "tipo": "BIGINT",
+    "aceita_nulo": true,
+    "distintos": 52,
+    "pct_nulo": 0.0,
+    "min": 2.0,
+    "max": 53.0,
+    "media": 27.5,
+    "mais_frequentes": "",
+    "amostra": "34 | 43 | 25 | 32 | 8"
+   },
+   {
+    "coluna": "co_atend_prof",
+    "tipo": "BIGINT",
+    "aceita_nulo": true,
+    "distintos": 52,
+    "pct_nulo": 0.0,
+    "min": 219443.0,
+    "max": 422959.0,
+    "media": 344480.3076923077,
+    "mais_frequentes": "",
+    "amostra": "380623 | 306355 | 387896 | 264843 | 377357"
+   },
+   {
+    "coluna": "co_prontuario",
+    "tipo": "BIGINT",
+    "aceita_nulo": true,
+    "distintos": 44,
+    "pct_nulo": 0.0,
+    "min": 11.0,
+    "max": 29839.0,
+    "media": 10325.384615384615,
+    "mais_frequentes": "<anonimizado> (4), <anonimizado> (4), <anonimizado> (4)",
+    "amostra": "<anonimizado> | <anonimizado> | <anonimizado> | <anonimizado> | <anonimizado>"
+   },
+   {
+    "coluna": "co_ultimo_lembrete_evolucao",
+    "tipo": "BIGINT",
+    "aceita_nulo": true,
+    "distintos": 52,
+    "pct_nulo": 50.0,
+    "min": 2.0,
+    "max": 53.0,
+    "media": 27.5,
+    "mais_frequentes": "",
+    "amostra": "34 | 43 | 25 | 32 | 8"
+   },
+   {
+    "coluna": "co_prof_criador",
+    "tipo": "BIGINT",
+    "aceita_nulo": true,
+    "distintos": 5,
+    "pct_nulo": 0.0,
+    "min": 68.0,
+    "max": 9237.0,
+    "media": 590.0769230769231,
+    "mais_frequentes": "68 (94), 9237 (4), 149 (2)",
+    "amostra": "9237 | 68 | 149 | 8781 | 84"
+   }
+  ],
+  "amostra_linhas": [
+   {
+    "co_seq_talembrete": 1,
+    "co_tipo_auditoria": "I",
+    "dt_auditoria": "2024-04-24 09:42:18.434182",
+    "co_seq_lembrete": 2,
+    "co_atend_prof": 219443,
+    "co_prontuario": "<anonimizado>",
+    "co_ultimo_lembrete_evolucao": NaN,
+    "co_prof_criador": 8781
+   },
+   {
+    "co_seq_talembrete": 2,
+    "co_tipo_auditoria": "U",
+    "dt_auditoria": "2024-04-24 09:42:18.434182",
+    "co_seq_lembrete": 2,
+    "co_atend_prof": 219443,
+    "co_prontuario": "<anonimizado>",
+    "co_ultimo_lembrete_evolucao": 2.0,
+    "co_prof_criador": 8781
+   },
+   {
+    "co_seq_talembrete": 3,
+    "co_tipo_auditoria": "I",
+    "dt_auditoria": "2024-07-26 09:38:32.269737",
+    "co_seq_lembrete": 3,
+    "co_atend_prof": 243389,
+    "co_prontuario": "<anonimizado>",
+    "co_ultimo_lembrete_evolucao": NaN,
+    "co_prof_criador": 68
+   }
+  ]
+ },
+ "pool": [
+  {
+   "tema_id": "t0",
+   "texto": "Auditoria de Lembretes"
+  },
+  {
+   "tema_id": "t1",
+   "texto": "Auditoria Lembretes"
+  },
+  {
+   "tema_id": "t2",
+   "texto": "Prontuário Paciente"
+  },
+  {
+   "tema_id": "t3",
+   "texto": "Lembretes"
+  },
+  {
+   "tema_id": "t4",
+   "texto": "Auditorias"
+  },
+  {
+   "tema_id": "t5",
+   "texto": "Prontuários Médicos"
+  },
+  {
+   "tema_id": "t6",
+   "texto": "Profissionais de Saúde"
+  },
+  {
+   "tema_id": "t7",
+   "texto": "Auditoria"
+  },
+  {
+   "tema_id": "t8",
+   "texto": "Profissionais"
+  },
+  {
+   "tema_id": "t9",
+   "texto": "Atendimento Profissional"
+  }
+ ],
+ "listas": {
+  "Sistema A": {
+   "1": [
+    "Auditoria de Lembretes",
+    "Atendimento Profissional",
+    "Prontuários Médicos"
+   ],
+   "2": [
+    "Auditoria Lembretes",
+    "Atendimento Profissional",
+    "Prontuário Paciente"
+   ],
+   "3": [
+    "Auditoria Lembretes",
+    "Atendimento Profissional",
+    "Prontuário Paciente"
+   ]
+  },
+  "Sistema B": {
+   "1": [
+    "Auditoria",
+    "Lembretes",
+    "Profissionais"
+   ],
+   "2": [
+    "Auditorias",
+    "Lembretes",
+    "Profissionais"
+   ],
+   "3": [
+    "Auditorias",
+    "Lembretes",
+    "Profissionais"
+   ]
+  },
+  "Sistema C": {
+   "1": [
+    "Auditoria",
+    "Lembretes",
+    "Profissionais de Saúde"
+   ],
+   "2": [
+    "Auditoria",
+    "Lembretes",
+    "Profissionais de Saúde"
+   ],
+   "3": [
+    "Auditoria",
+    "Lembretes",
+    "Profissionais de Saúde"
+   ]
+  }
+ }
+}

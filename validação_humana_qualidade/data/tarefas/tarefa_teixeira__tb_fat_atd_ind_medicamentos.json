@@ -1,0 +1,694 @@
+{
+ "item_id": "teixeira__tb_fat_atd_ind_medicamentos",
+ "table_key": "public.tb_fat_atd_ind_medicamentos",
+ "base": "teixeira",
+ "piloto": true,
+ "contexto": {
+  "tabela": "tb_fat_atd_ind_medicamentos",
+  "linhas": 142506,
+  "pk": [
+   "co_seq_fat_atd_ind_medicam"
+  ],
+  "fks": [
+   "co_dim_catmat -> tb_dim_catmat(co_seq_dim_catmat)",
+   "co_dim_cbo_1 -> tb_dim_cbo(co_seq_dim_cbo)",
+   "co_dim_cbo_2 -> tb_dim_cbo(co_seq_dim_cbo)",
+   "co_dim_dose_frequencia -> tb_dim_dose_frequencia(co_seq_dim_dose_frequencia)",
+   "co_dim_duracao_tratamento_med -> tb_dim_duracao_tratamento_med(co_seq_dim_duracao_trat_med)",
+   "co_dim_dose_frequencia_medida -> tb_dim_dose_frequencia_medida(co_seq_dim_dose_frequencia_med)",
+   "co_dim_equipe_1 -> tb_dim_equipe(co_seq_dim_equipe)",
+   "co_dim_equipe_2 -> tb_dim_equipe(co_seq_dim_equipe)",
+   "co_dim_municipio -> tb_dim_municipio(co_seq_dim_municipio)",
+   "co_dim_profissional_1 -> tb_dim_profissional(co_seq_dim_profissional)",
+   "co_dim_profissional_2 -> tb_dim_profissional(co_seq_dim_profissional)",
+   "co_dim_tempo -> tb_dim_tempo(co_seq_dim_tempo)",
+   "co_dim_tipo_ficha -> tb_dim_tipo_ficha(co_seq_dim_tipo_ficha)",
+   "co_dim_cds_tipo_origem -> tb_dim_tipo_origem(co_seq_dim_tipo_origem)",
+   "co_dim_unidade_saude_1 -> tb_dim_unidade_saude(co_seq_dim_unidade_saude)",
+   "co_dim_unidade_saude_2 -> tb_dim_unidade_saude(co_seq_dim_unidade_saude)",
+   "co_dim_via_administracao -> tb_dim_via_administracao(co_seq_dim_via_administracao)",
+   "co_dim_tipo_origem_dado_transp -> tb_dim_tipo_origem_dado_transp(co_seq_dim_tp_orgm_dado_transp)",
+   "co_fat_cidadao_pec -> tb_fat_cidadao_pec(co_seq_fat_cidadao_pec)"
+  ],
+  "colunas": [
+   {
+    "coluna": "co_seq_fat_atd_ind_medicam",
+    "tipo": "BIGINT",
+    "aceita_nulo": false,
+    "distintos": 142506,
+    "pct_nulo": 0.0,
+    "min": 1.0,
+    "max": 331960.0,
+    "media": 238434.90057962472,
+    "mais_frequentes": "",
+    "amostra": "1 | 2 | 3 | 4 | 5"
+   },
+   {
+    "coluna": "co_fat_atd_ind",
+    "tipo": "BIGINT",
+    "aceita_nulo": true,
+    "distintos": 64436,
+    "pct_nulo": 0.0,
+    "min": 111506.0,
+    "max": 608821.0,
+    "media": 506818.1871429975,
+    "mais_frequentes": "594456 (18), 595018 (18), 469567 (16)",
+    "amostra": "111506 | 111534 | 112071 | 112073 | 112074"
+   },
+   {
+    "coluna": "co_dim_tipo_ficha",
+    "tipo": "BIGINT",
+    "aceita_nulo": true,
+    "distintos": 1,
+    "pct_nulo": 0.0,
+    "min": 9.0,
+    "max": 9.0,
+    "media": 9.0,
+    "mais_frequentes": "9 (142506)",
+    "amostra": "9"
+   },
+   {
+    "coluna": "co_dim_municipio",
+    "tipo": "BIGINT",
+    "aceita_nulo": true,
+    "distintos": 1,
+    "pct_nulo": 0.0,
+    "min": 218.0,
+    "max": 218.0,
+    "media": 218.0,
+    "mais_frequentes": "218 (142506)",
+    "amostra": "218"
+   },
+   {
+    "coluna": "co_dim_profissional_1",
+    "tipo": "BIGINT",
+    "aceita_nulo": true,
+    "distintos": 120,
+    "pct_nulo": 0.0,
+    "min": 62.0,
+    "max": 516.0,
+    "media": 373.31861816344576,
+    "mais_frequentes": "<anonimizado> (11601), <anonimizado> (11491), <anonimizado> (9322)",
+    "amostra": "<anonimizado> | <anonimizado> | <anonimizado> | <anonimizado> | <anonimizado>"
+   },
+   {
+    "coluna": "co_dim_profissional_2",
+    "tipo": "BIGINT",
+    "aceita_nulo": true,
+    "distintos": 66,
+    "pct_nulo": 0.0,
+    "min": 1.0,
+    "max": 511.0,
+    "media": 2.03468625882419,
+    "mais_frequentes": "<anonimizado> (141930), <anonimizado> (41), <anonimizado> (37)",
+    "amostra": "<anonimizado> | <anonimizado> | <anonimizado> | <anonimizado> | <anonimizado>"
+   },
+   {
+    "coluna": "co_dim_cbo_1",
+    "tipo": "BIGINT",
+    "aceita_nulo": true,
+    "distintos": 6,
+    "pct_nulo": 0.0,
+    "min": 404.0,
+    "max": 559.0,
+    "media": 463.1325347704658,
+    "mais_frequentes": "404 (69209), 521 (67274), 559 (2836)",
+    "amostra": "405 | 404 | 493 | 521 | 559"
+   },
+   {
+    "coluna": "co_dim_cbo_2",
+    "tipo": "BIGINT",
+    "aceita_nulo": true,
+    "distintos": 13,
+    "pct_nulo": 0.0,
+    "min": 1.0,
+    "max": 684.0,
+    "media": 2.711584073653039,
+    "mais_frequentes": "1 (141930), 406 (130), 409 (129)",
+    "amostra": "471 | 405 | 439 | 493 | 408"
+   },
+   {
+    "coluna": "co_dim_unidade_saude_1",
+    "tipo": "BIGINT",
+    "aceita_nulo": true,
+    "distintos": 10,
+    "pct_nulo": 0.0,
+    "min": 9.0,
+    "max": 26.0,
+    "media": 16.920361247947454,
+    "mais_frequentes": "19 (71736), 9 (15487), 17 (13506)",
+    "amostra": "14 | 25 | 17 | 19 | 15"
+   },
+   {
+    "coluna": "co_dim_unidade_saude_2",
+    "tipo": "BIGINT",
+    "aceita_nulo": true,
+    "distintos": 10,
+    "pct_nulo": 0.0,
+    "min": 1.0,
+    "max": 25.0,
+    "media": 1.063197339059408,
+    "mais_frequentes": "1 (141930), 16 (133), 19 (123)",
+    "amostra": "14 | 25 | 19 | 17 | 1"
+   },
+   {
+    "coluna": "co_dim_equipe_1",
+    "tipo": "BIGINT",
+    "aceita_nulo": true,
+    "distintos": 9,
+    "pct_nulo": 0.0,
+    "min": 1.0,
+    "max": 23.0,
+    "media": 5.974380026104164,
+    "mais_frequentes": "1 (74845), 7 (15487), 14 (13506)",
+    "amostra": "14 | 12 | 1 | 23 | 11"
+   },
+   {
+    "coluna": "co_dim_equipe_2",
+    "tipo": "BIGINT",
+    "aceita_nulo": true,
+    "distintos": 14,
+    "pct_nulo": 0.0,
+    "min": 1.0,
+    "max": 27.0,
+    "media": 1.0397948156568846,
+    "mais_frequentes": "1 (142056), 13 (116), 9 (72)",
+    "amostra": "14 | 25 | 27 | 17 | 12"
+   },
+   {
+    "coluna": "co_dim_tempo",
+    "tipo": "BIGINT",
+    "aceita_nulo": true,
+    "distintos": 1148,
+    "pct_nulo": 0.0,
+    "min": 20210125.0,
+    "max": 20250903.0,
+    "media": 20242034.519599173,
+    "mais_frequentes": "20250603 (581), 20250812 (538), 20250715 (522)",
+    "amostra": "20210125 | 20210126 | 20210127 | 20210128 | 20210201"
+   },
+   {
+    "coluna": "nu_uuid_ficha",
+    "tipo": "VARCHAR(92)",
+    "aceita_nulo": true,
+    "distintos": 64436,
+    "pct_nulo": 0.0,
+    "min": null,
+    "max": null,
+    "media": null,
+    "mais_frequentes": "2321556-e887836d-d292-4cf3-ad3e-c875ebc007ea (18), 2321556-05b88839-8986-4e81-ab90-dce7fba2cba5 (18), 2321505-86071d1d-f301-4e26-8c0a-0fc576bb6a9e (16)",
+    "amostra": "0849731-00d14faf-0123-48e2-84ac-546d7b5dde16 | 0849731-00ff3b66-63ad-4bf5-b616-8783c1915a4c | 0849731-011c27ec-e7c5-417a-b486-aeaf4cdf5b84 | 0849731-01e4e6d8-97c1-4f39-adee-bee1fa7854c3 | 0849731-02184e1e-6423-4bc5-b3be-936e0e8693a8"
+   },
+   {
+    "coluna": "nu_atendimento",
+    "tipo": "INTEGER",
+    "aceita_nulo": true,
+    "distintos": 1,
+    "pct_nulo": 0.0,
+    "min": 1.0,
+    "max": 1.0,
+    "media": 1.0,
+    "mais_frequentes": "1 (142506)",
+    "amostra": "1"
+   },
+   {
+    "coluna": "nu_cns_cidadao",
+    "tipo": "VARCHAR(15)",
+    "aceita_nulo": true,
+    "distintos": 11343,
+    "pct_nulo": 13.56,
+    "min": null,
+    "max": null,
+    "media": null,
+    "mais_frequentes": "<anonimizado> (438), <anonimizado> (273), <anonimizado> (270)",
+    "amostra": "<anonimizado> | <anonimizado> | <anonimizado> | <anonimizado> | <anonimizado>"
+   },
+   {
+    "coluna": "nu_uuid_dado_transp",
+    "tipo": "VARCHAR(92)",
+    "aceita_nulo": true,
+    "distintos": 64436,
+    "pct_nulo": 0.0,
+    "min": null,
+    "max": null,
+    "media": null,
+    "mais_frequentes": "2321556-e887836d-d292-4cf3-ad3e-c875ebc007ea (18), 2321556-05b88839-8986-4e81-ab90-dce7fba2cba5 (18), 2321505-86071d1d-f301-4e26-8c0a-0fc576bb6a9e (16)",
+    "amostra": "0849731-00d14faf-0123-48e2-84ac-546d7b5dde16 | 0849731-00ff3b66-63ad-4bf5-b616-8783c1915a4c | 0849731-011c27ec-e7c5-417a-b486-aeaf4cdf5b84 | 0849731-01e4e6d8-97c1-4f39-adee-bee1fa7854c3 | 0849731-02184e1e-6423-4bc5-b3be-936e0e8693a8"
+   },
+   {
+    "coluna": "co_dim_tipo_origem_dado_transp",
+    "tipo": "BIGINT",
+    "aceita_nulo": true,
+    "distintos": 1,
+    "pct_nulo": 0.0,
+    "min": 2.0,
+    "max": 2.0,
+    "media": 2.0,
+    "mais_frequentes": "2 (142506)",
+    "amostra": "2"
+   },
+   {
+    "coluna": "co_dim_cds_tipo_origem",
+    "tipo": "BIGINT",
+    "aceita_nulo": true,
+    "distintos": 1,
+    "pct_nulo": 0.0,
+    "min": 4.0,
+    "max": 4.0,
+    "media": 4.0,
+    "mais_frequentes": "4 (142506)",
+    "amostra": "4"
+   },
+   {
+    "coluna": "co_fat_cidadao_pec",
+    "tipo": "BIGINT",
+    "aceita_nulo": true,
+    "distintos": 13576,
+    "pct_nulo": 0.27,
+    "min": 2.0,
+    "max": 300168.0,
+    "media": 72000.4906873817,
+    "mais_frequentes": "<anonimizado> (438), <anonimizado> (324), <anonimizado> (273)",
+    "amostra": "<anonimizado> | <anonimizado> | <anonimizado> | <anonimizado> | <anonimizado>"
+   },
+   {
+    "coluna": "nu_cpf_cidadao",
+    "tipo": "VARCHAR(11)",
+    "aceita_nulo": true,
+    "distintos": 12324,
+    "pct_nulo": 5.83,
+    "min": null,
+    "max": null,
+    "media": null,
+    "mais_frequentes": "<anonimizado> (438), <anonimizado> (324), <anonimizado> (273)",
+    "amostra": "<anonimizado> | <anonimizado> | <anonimizado> | <anonimizado> | <anonimizado>"
+   },
+   {
+    "coluna": "co_dim_catmat",
+    "tipo": "BIGINT",
+    "aceita_nulo": true,
+    "distintos": 1164,
+    "pct_nulo": 0.0,
+    "min": 2.0,
+    "max": 1167.0,
+    "media": 293.58458591217214,
+    "mais_frequentes": "326 (8999), 311 (4959), 12 (4428)",
+    "amostra": "251 | 1074 | 264 | 887 | 802"
+   },
+   {
+    "coluna": "co_dim_dose_frequencia_medida",
+    "tipo": "BIGINT",
+    "aceita_nulo": true,
+    "distintos": 3,
+    "pct_nulo": 76.25,
+    "min": 2.0,
+    "max": 4.0,
+    "media": 2.0172230428360414,
+    "mais_frequentes": "2 (33377), 3 (363), 4 (110)",
+    "amostra": "2 | 3 | 4"
+   },
+   {
+    "coluna": "co_dim_duracao_tratamento_med",
+    "tipo": "BIGINT",
+    "aceita_nulo": true,
+    "distintos": 4,
+    "pct_nulo": 0.0,
+    "min": 2.0,
+    "max": 5.0,
+    "media": 3.2277377794619175,
+    "mais_frequentes": "<anonimizado> (82538), <anonimizado> (55773), <anonimizado> (3446)",
+    "amostra": "<anonimizado> | <anonimizado> | <anonimizado> | <anonimizado>"
+   },
+   {
+    "coluna": "co_dim_dose_frequencia",
+    "tipo": "BIGINT",
+    "aceita_nulo": true,
+    "distintos": 4,
+    "pct_nulo": 31.65,
+    "min": 2.0,
+    "max": 5.0,
+    "media": 3.4656174284423638,
+    "mais_frequentes": "4 (63556), 2 (18291), 3 (15513)",
+    "amostra": "2 | 3 | 4 | 5"
+   },
+   {
+    "coluna": "co_dim_via_administracao",
+    "tipo": "BIGINT",
+    "aceita_nulo": true,
+    "distintos": 23,
+    "pct_nulo": 0.0,
+    "min": 2.0,
+    "max": 29.0,
+    "media": 7.485081329908916,
+    "mais_frequentes": "<anonimizado> (93468), <anonimizado> (29297), <anonimizado> (13024)",
+    "amostra": "<anonimizado> | <anonimizado> | <anonimizado> | <anonimizado> | <anonimizado>"
+   },
+   {
+    "coluna": "ds_dose",
+    "tipo": "VARCHAR(255)",
+    "aceita_nulo": true,
+    "distintos": 2600,
+    "pct_nulo": 0.0,
+    "min": null,
+    "max": null,
+    "media": null,
+    "mais_frequentes": "1 Comprimido (31799), 1 Ampola (27249), 01 Comprimido (14944)",
+    "amostra": "TOMAR 1/2 CP AO DEITAR POR 5 DIAS E 1 CP A PARTIR | 17 gotas | 2 JATOS | 35  | 1 se náuseas  ou vômitos"
+   },
+   {
+    "coluna": "st_dose_unica",
+    "tipo": "INTEGER",
+    "aceita_nulo": true,
+    "distintos": 2,
+    "pct_nulo": 0.0,
+    "min": 0.0,
+    "max": 1.0,
+    "media": 0.31649193718159235,
+    "mais_frequentes": "0 (97404), 1 (45102)",
+    "amostra": "0 | 1"
+   },
+   {
+    "coluna": "st_uso_continuo",
+    "tipo": "INTEGER",
+    "aceita_nulo": true,
+    "distintos": 2,
+    "pct_nulo": 0.0,
+    "min": 0.0,
+    "max": 1.0,
+    "media": 0.17374707029879444,
+    "mais_frequentes": "0 (117746), 1 (24760)",
+    "amostra": "0 | 1"
+   },
+   {
+    "coluna": "ds_dose_frequencia",
+    "tipo": "VARCHAR(255)",
+    "aceita_nulo": true,
+    "distintos": 19,
+    "pct_nulo": 31.77,
+    "min": null,
+    "max": null,
+    "media": null,
+    "mais_frequentes": "12 (21576), 24 (21550), 8 (11925)",
+    "amostra": "8 | 48 | 2 | 72 | tarde"
+   },
+   {
+    "coluna": "qt_dose_frequencia",
+    "tipo": "INTEGER",
+    "aceita_nulo": true,
+    "distintos": 15,
+    "pct_nulo": 76.25,
+    "min": 1.0,
+    "max": 90.0,
+    "media": 1.112821270310192,
+    "mais_frequentes": "1 (33594), 3 (73), 7 (64)",
+    "amostra": "8 | 12 | 28 | 1 | 15"
+   },
+   {
+    "coluna": "qt_duracao_tratamento",
+    "tipo": "INTEGER",
+    "aceita_nulo": true,
+    "distintos": 41,
+    "pct_nulo": 39.14,
+    "min": 1.0,
+    "max": 714.0,
+    "media": 4.62058270785053,
+    "mais_frequentes": "<anonimizado> (48319), <anonimizado> (15893), <anonimizado> (6756)",
+    "amostra": "<anonimizado> | <anonimizado> | <anonimizado> | <anonimizado> | <anonimizado>"
+   },
+   {
+    "coluna": "qt_receitada",
+    "tipo": "INTEGER",
+    "aceita_nulo": true,
+    "distintos": 64,
+    "pct_nulo": 0.0,
+    "min": 1.0,
+    "max": 360.0,
+    "media": 20.095483698931975,
+    "mais_frequentes": "1 (63328), 30 (27488), 60 (21154)",
+    "amostra": "120 | 32 | 25 | 8 | 12"
+   },
+   {
+    "coluna": "dt_inicio_tratamento",
+    "tipo": "DATE",
+    "aceita_nulo": true,
+    "distintos": 1149,
+    "pct_nulo": 0.0,
+    "min": null,
+    "max": null,
+    "media": null,
+    "mais_frequentes": "2025-06-03 (581), 2025-08-12 (538), 2025-07-15 (522)",
+    "amostra": "2022-09-12 | 2024-05-22 | 2023-12-20 | 2021-03-19 | 2024-08-07"
+   },
+   {
+    "coluna": "qt_dose_manha",
+    "tipo": "VARCHAR(25)",
+    "aceita_nulo": true,
+    "distintos": 19,
+    "pct_nulo": 99.97,
+    "min": null,
+    "max": null,
+    "media": null,
+    "mais_frequentes": "1 (10), 2 (6), 22 (5)",
+    "amostra": "1 | 10 | 12 | 14 | 15"
+   },
+   {
+    "coluna": "qt_dose_tarde",
+    "tipo": "VARCHAR(25)",
+    "aceita_nulo": true,
+    "distintos": 8,
+    "pct_nulo": 99.99,
+    "min": null,
+    "max": null,
+    "media": null,
+    "mais_frequentes": "2 (9), 10 (3), 8 (2)",
+    "amostra": "0,1 | 1 | 10 | 15 | 2"
+   },
+   {
+    "coluna": "qt_dose_noite",
+    "tipo": "VARCHAR(25)",
+    "aceita_nulo": true,
+    "distintos": 16,
+    "pct_nulo": 99.97,
+    "min": null,
+    "max": null,
+    "media": null,
+    "mais_frequentes": "1 (9), 10 (7), 14 (4)",
+    "amostra": "06 | 1 | 10 | 12 | 14"
+   }
+  ],
+  "amostra_linhas": [
+   {
+    "co_seq_fat_atd_ind_medicam": 1,
+    "co_fat_atd_ind": 111506,
+    "co_dim_tipo_ficha": 9,
+    "co_dim_municipio": 218,
+    "co_dim_profissional_1": "<anonimizado>",
+    "co_dim_profissional_2": "<anonimizado>",
+    "co_dim_cbo_1": 404,
+    "co_dim_cbo_2": 1,
+    "co_dim_unidade_saude_1": 13,
+    "co_dim_unidade_saude_2": 1,
+    "co_dim_equipe_1": 9,
+    "co_dim_equipe_2": 1,
+    "co_dim_tempo": 20210125,
+    "nu_uuid_ficha": "2321513-37aab4c9-c24a-4667-95bf-3b088bc5dcf8",
+    "nu_atendimento": 1,
+    "nu_cns_cidadao": "<anonimizado>",
+    "nu_uuid_dado_transp": "2321513-37aab4c9-c24a-4667-95bf-3b088bc5dcf8",
+    "co_dim_tipo_origem_dado_transp": 2,
+    "co_dim_cds_tipo_origem": 4,
+    "co_fat_cidadao_pec": "<anonimizado>",
+    "nu_cpf_cidadao": "<anonimizado>",
+    "co_dim_catmat": 3,
+    "co_dim_dose_frequencia_medida": 2,
+    "co_dim_duracao_tratamento_med": "<anonimizado>",
+    "co_dim_dose_frequencia": 3,
+    "co_dim_via_administracao": "<anonimizado>",
+    "ds_dose": "01cp",
+    "st_dose_unica": 0,
+    "st_uso_continuo": 1,
+    "ds_dose_frequencia": "2",
+    "qt_dose_frequencia": 1,
+    "qt_duracao_tratamento": "<anonimizado>",
+    "qt_receitada": 60,
+    "dt_inicio_tratamento": "2021-01-25",
+    "qt_dose_manha": null,
+    "qt_dose_tarde": null,
+    "qt_dose_noite": null
+   },
+   {
+    "co_seq_fat_atd_ind_medicam": 2,
+    "co_fat_atd_ind": 111506,
+    "co_dim_tipo_ficha": 9,
+    "co_dim_municipio": 218,
+    "co_dim_profissional_1": "<anonimizado>",
+    "co_dim_profissional_2": "<anonimizado>",
+    "co_dim_cbo_1": 404,
+    "co_dim_cbo_2": 1,
+    "co_dim_unidade_saude_1": 13,
+    "co_dim_unidade_saude_2": 1,
+    "co_dim_equipe_1": 9,
+    "co_dim_equipe_2": 1,
+    "co_dim_tempo": 20210125,
+    "nu_uuid_ficha": "2321513-37aab4c9-c24a-4667-95bf-3b088bc5dcf8",
+    "nu_atendimento": 1,
+    "nu_cns_cidadao": "<anonimizado>",
+    "nu_uuid_dado_transp": "2321513-37aab4c9-c24a-4667-95bf-3b088bc5dcf8",
+    "co_dim_tipo_origem_dado_transp": 2,
+    "co_dim_cds_tipo_origem": 4,
+    "co_fat_cidadao_pec": "<anonimizado>",
+    "nu_cpf_cidadao": "<anonimizado>",
+    "co_dim_catmat": 4,
+    "co_dim_dose_frequencia_medida": 2,
+    "co_dim_duracao_tratamento_med": "<anonimizado>",
+    "co_dim_dose_frequencia": 2,
+    "co_dim_via_administracao": "<anonimizado>",
+    "ds_dose": "01cp",
+    "st_dose_unica": 0,
+    "st_uso_continuo": 1,
+    "ds_dose_frequencia": "noite",
+    "qt_dose_frequencia": 1,
+    "qt_duracao_tratamento": "<anonimizado>",
+    "qt_receitada": 30,
+    "dt_inicio_tratamento": "2021-01-25",
+    "qt_dose_manha": null,
+    "qt_dose_tarde": null,
+    "qt_dose_noite": null
+   },
+   {
+    "co_seq_fat_atd_ind_medicam": 3,
+    "co_fat_atd_ind": 111506,
+    "co_dim_tipo_ficha": 9,
+    "co_dim_municipio": 218,
+    "co_dim_profissional_1": "<anonimizado>",
+    "co_dim_profissional_2": "<anonimizado>",
+    "co_dim_cbo_1": 404,
+    "co_dim_cbo_2": 1,
+    "co_dim_unidade_saude_1": 13,
+    "co_dim_unidade_saude_2": 1,
+    "co_dim_equipe_1": 9,
+    "co_dim_equipe_2": 1,
+    "co_dim_tempo": 20210125,
+    "nu_uuid_ficha": "2321513-37aab4c9-c24a-4667-95bf-3b088bc5dcf8",
+    "nu_atendimento": 1,
+    "nu_cns_cidadao": "<anonimizado>",
+    "nu_uuid_dado_transp": "2321513-37aab4c9-c24a-4667-95bf-3b088bc5dcf8",
+    "co_dim_tipo_origem_dado_transp": 2,
+    "co_dim_cds_tipo_origem": 4,
+    "co_fat_cidadao_pec": "<anonimizado>",
+    "nu_cpf_cidadao": "<anonimizado>",
+    "co_dim_catmat": 5,
+    "co_dim_dose_frequencia_medida": 2,
+    "co_dim_duracao_tratamento_med": "<anonimizado>",
+    "co_dim_dose_frequencia": 3,
+    "co_dim_via_administracao": "<anonimizado>",
+    "ds_dose": "01cp",
+    "st_dose_unica": 0,
+    "st_uso_continuo": 1,
+    "ds_dose_frequencia": "1",
+    "qt_dose_frequencia": 1,
+    "qt_duracao_tratamento": "<anonimizado>",
+    "qt_receitada": 30,
+    "dt_inicio_tratamento": "2021-01-25",
+    "qt_dose_manha": null,
+    "qt_dose_tarde": null,
+    "qt_dose_noite": null
+   }
+  ]
+ },
+ "pool": [
+  {
+   "tema_id": "t0",
+   "texto": "Tratamento Farmacológico"
+  },
+  {
+   "tema_id": "t1",
+   "texto": "Administração de medicamentos"
+  },
+  {
+   "tema_id": "t2",
+   "texto": "Atendimento"
+  },
+  {
+   "tema_id": "t3",
+   "texto": "Saúde"
+  },
+  {
+   "tema_id": "t4",
+   "texto": "Prescrição Medicamentosa"
+  },
+  {
+   "tema_id": "t5",
+   "texto": "Tratamento"
+  },
+  {
+   "tema_id": "t6",
+   "texto": "Tratamento de saúde"
+  },
+  {
+   "tema_id": "t7",
+   "texto": "Prescrição de medicamentos"
+  },
+  {
+   "tema_id": "t8",
+   "texto": "Medicamentos"
+  },
+  {
+   "tema_id": "t9",
+   "texto": "Uso de Medicamentos"
+  }
+ ],
+ "listas": {
+  "Sistema A": {
+   "1": [
+    "Medicamentos",
+    "Tratamento",
+    "Saúde"
+   ],
+   "2": [
+    "Medicamentos",
+    "Tratamento",
+    "Atendimento"
+   ],
+   "3": [
+    "Medicamentos",
+    "Tratamento",
+    "Saúde"
+   ]
+  },
+  "Sistema B": {
+   "1": [
+    "Prescrição de medicamentos",
+    "Tratamento de saúde",
+    "Uso de medicamentos"
+   ],
+   "2": [
+    "Prescrição de medicamentos",
+    "Tratamento de saúde",
+    "Administração de medicamentos"
+   ],
+   "3": [
+    "Prescrição de medicamentos",
+    "Tratamento de saúde",
+    "Administração de medicamentos"
+   ]
+  },
+  "Sistema C": {
+   "1": [
+    "Prescrição Medicamentosa",
+    "Uso de Medicamentos",
+    "Tratamento Farmacológico"
+   ],
+   "2": [
+    "Prescrição Medicamentosa",
+    "Uso de Medicamentos",
+    "Tratamento Farmacológico"
+   ],
+   "3": [
+    "Prescrição Medicamentosa",
+    "Uso de Medicamentos",
+    "Tratamento Farmacológico"
+   ]
+  }
+ }
+}

@@ -1,0 +1,181 @@
+{
+ "item_id": "teixeira__tl_config_atencao_domiciliar",
+ "table_key": "public.tl_config_atencao_domiciliar",
+ "base": "teixeira",
+ "piloto": false,
+ "contexto": {
+  "tabela": "tl_config_atencao_domiciliar",
+  "linhas": 1,
+  "pk": [
+   "co_revisao",
+   "co_seq_config_atencao_domicilr"
+  ],
+  "fks": [],
+  "colunas": [
+   {
+    "coluna": "co_seq_config_atencao_domicilr",
+    "tipo": "BIGINT",
+    "aceita_nulo": false,
+    "distintos": 1,
+    "pct_nulo": 0.0,
+    "min": 1.0,
+    "max": 1.0,
+    "media": 1.0,
+    "mais_frequentes": "",
+    "amostra": "1"
+   },
+   {
+    "coluna": "co_localidade",
+    "tipo": "BIGINT",
+    "aceita_nulo": true,
+    "distintos": 1,
+    "pct_nulo": 0.0,
+    "min": 5383.0,
+    "max": 5383.0,
+    "media": 5383.0,
+    "mais_frequentes": "",
+    "amostra": "5383"
+   },
+   {
+    "coluna": "co_revisao",
+    "tipo": "BIGINT",
+    "aceita_nulo": false,
+    "distintos": 1,
+    "pct_nulo": 0.0,
+    "min": 21.0,
+    "max": 21.0,
+    "media": 21.0,
+    "mais_frequentes": "",
+    "amostra": "21"
+   },
+   {
+    "coluna": "co_tipo_revisao",
+    "tipo": "SMALLINT",
+    "aceita_nulo": true,
+    "distintos": 1,
+    "pct_nulo": 0.0,
+    "min": 0.0,
+    "max": 0.0,
+    "media": 0.0,
+    "mais_frequentes": "",
+    "amostra": "0"
+   },
+   {
+    "coluna": "qt_tempo_duracao_consulta",
+    "tipo": "INTEGER",
+    "aceita_nulo": true,
+    "distintos": 1,
+    "pct_nulo": 0.0,
+    "min": 60.0,
+    "max": 60.0,
+    "media": 60.0,
+    "mais_frequentes": "",
+    "amostra": "<anonimizado>"
+   }
+  ],
+  "amostra_linhas": [
+   {
+    "co_seq_config_atencao_domicilr": 1,
+    "co_localidade": 5383,
+    "co_revisao": 21,
+    "co_tipo_revisao": 0,
+    "qt_tempo_duracao_consulta": "<anonimizado>"
+   }
+  ]
+ },
+ "pool": [
+  {
+   "tema_id": "t0",
+   "texto": "Configuração de Serviços"
+  },
+  {
+   "tema_id": "t1",
+   "texto": "Atendimento Domiciliar"
+  },
+  {
+   "tema_id": "t2",
+   "texto": "Revisão de Consultas"
+  },
+  {
+   "tema_id": "t3",
+   "texto": "Configuração Serviços"
+  },
+  {
+   "tema_id": "t4",
+   "texto": "Tempo Consulta"
+  },
+  {
+   "tema_id": "t5",
+   "texto": "Tempo de Consulta"
+  },
+  {
+   "tema_id": "t6",
+   "texto": "Atenção Domiciliar"
+  },
+  {
+   "tema_id": "t7",
+   "texto": "Duração de Atendimento"
+  },
+  {
+   "tema_id": "t8",
+   "texto": "Duração de Consulta"
+  },
+  {
+   "tema_id": "t9",
+   "texto": "Configuração de Revisão"
+  }
+ ],
+ "listas": {
+  "Sistema A": {
+   "1": [
+    "Atenção Domiciliar",
+    "Configuração de Serviços",
+    "Tempo de Consulta"
+   ],
+   "2": [
+    "Atenção Domiciliar",
+    "Configuração Serviços",
+    "Tempo Consulta"
+   ],
+   "3": [
+    "Atenção Domiciliar",
+    "Configuração Serviços",
+    "Tempo Consulta"
+   ]
+  },
+  "Sistema B": {
+   "1": [
+    "Atendimento Domiciliar",
+    "Configuração de Revisão",
+    "Duração de Consulta"
+   ],
+   "2": [
+    "Atendimento Domiciliar",
+    "Configuração de Revisão",
+    "Duração de Consulta"
+   ],
+   "3": [
+    "Atendimento Domiciliar",
+    "Configuração de Revisão",
+    "Duração de Consulta"
+   ]
+  },
+  "Sistema C": {
+   "1": [
+    "Atenção Domiciliar",
+    "Revisão de Consultas",
+    "Duração de Atendimento"
+   ],
+   "2": [
+    "Atenção Domiciliar",
+    "Revisão de Consultas",
+    "Duração de Atendimento"
+   ],
+   "3": [
+    "Atenção Domiciliar",
+    "Revisão de Consultas",
+    "Duração de Atendimento"
+   ]
+  }
+ }
+}

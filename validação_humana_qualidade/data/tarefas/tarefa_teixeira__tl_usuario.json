@@ -1,0 +1,281 @@
+{
+ "item_id": "teixeira__tl_usuario",
+ "table_key": "public.tl_usuario",
+ "base": "teixeira",
+ "piloto": false,
+ "contexto": {
+  "tabela": "tl_usuario",
+  "linhas": 1040,
+  "pk": [
+   "co_revisao",
+   "co_seq_usuario"
+  ],
+  "fks": [],
+  "colunas": [
+   {
+    "coluna": "co_revisao",
+    "tipo": "BIGINT",
+    "aceita_nulo": false,
+    "distintos": 1040,
+    "pct_nulo": 0.0,
+    "min": 21.0,
+    "max": 109951.0,
+    "media": 65274.515384615384,
+    "mais_frequentes": "",
+    "amostra": "21 | 22 | 49 | 52 | 54"
+   },
+   {
+    "coluna": "co_tipo_revisao",
+    "tipo": "SMALLINT",
+    "aceita_nulo": true,
+    "distintos": 2,
+    "pct_nulo": 0.0,
+    "min": 0.0,
+    "max": 1.0,
+    "media": 0.8211538461538461,
+    "mais_frequentes": "1 (854), 0 (186)",
+    "amostra": "0 | 1"
+   },
+   {
+    "coluna": "co_seq_usuario",
+    "tipo": "BIGINT",
+    "aceita_nulo": false,
+    "distintos": 186,
+    "pct_nulo": 0.0,
+    "min": 1.0,
+    "max": 186.0,
+    "media": 89.47115384615384,
+    "mais_frequentes": "<anonimizado> (237), <anonimizado> (103), <anonimizado> (81)",
+    "amostra": "<anonimizado> | <anonimizado> | <anonimizado> | <anonimizado> | <anonimizado>"
+   },
+   {
+    "coluna": "st_bloqueado",
+    "tipo": "INTEGER",
+    "aceita_nulo": true,
+    "distintos": 2,
+    "pct_nulo": 0.0,
+    "min": 0.0,
+    "max": 1.0,
+    "media": 0.0019230769230769232,
+    "mais_frequentes": "0 (1038), 1 (2)",
+    "amostra": "0 | 1"
+   },
+   {
+    "coluna": "ds_senha",
+    "tipo": "VARCHAR(255)",
+    "aceita_nulo": true,
+    "distintos": 283,
+    "pct_nulo": 0.0,
+    "min": null,
+    "max": null,
+    "media": null,
+    "mais_frequentes": "<anonimizado> (97), <anonimizado> (71), <anonimizado> (52)",
+    "amostra": "<anonimizado> | <anonimizado> | <anonimizado> | <anonimizado> | <anonimizado>"
+   },
+   {
+    "coluna": "st_trocar_senha",
+    "tipo": "INTEGER",
+    "aceita_nulo": true,
+    "distintos": 2,
+    "pct_nulo": 0.0,
+    "min": 0.0,
+    "max": 1.0,
+    "media": 0.2153846153846154,
+    "mais_frequentes": "<anonimizado> (816), <anonimizado> (224)",
+    "amostra": "<anonimizado> | <anonimizado>"
+   },
+   {
+    "coluna": "co_ator",
+    "tipo": "BIGINT",
+    "aceita_nulo": true,
+    "distintos": 186,
+    "pct_nulo": 0.0,
+    "min": 1.0,
+    "max": 4241.0,
+    "media": 1109.9365384615385,
+    "mais_frequentes": "93 (237), 81 (103), 2615 (81)",
+    "amostra": "129 | 4236 | 106 | 120 | 3135"
+   },
+   {
+    "coluna": "dt_ultima_atualizacao_senha",
+    "tipo": "DATE",
+    "aceita_nulo": true,
+    "distintos": 51,
+    "pct_nulo": 19.23,
+    "min": null,
+    "max": null,
+    "media": null,
+    "mais_frequentes": "<anonimizado> (97), <anonimizado> (71), <anonimizado> (52)",
+    "amostra": "<anonimizado> | <anonimizado> | <anonimizado> | <anonimizado> | <anonimizado>"
+   },
+   {
+    "coluna": "st_termo_uso",
+    "tipo": "INTEGER",
+    "aceita_nulo": true,
+    "distintos": 2,
+    "pct_nulo": 0.0,
+    "min": 0.0,
+    "max": 1.0,
+    "media": 0.21923076923076923,
+    "mais_frequentes": "0 (812), 1 (228)",
+    "amostra": "0 | 1"
+   },
+   {
+    "coluna": "st_forcar_troca_senha",
+    "tipo": "INTEGER",
+    "aceita_nulo": true,
+    "distintos": 1,
+    "pct_nulo": 0.0,
+    "min": 0.0,
+    "max": 0.0,
+    "media": 0.0,
+    "mais_frequentes": "<anonimizado> (1040)",
+    "amostra": "<anonimizado>"
+   },
+   {
+    "coluna": "nr_tentativas_acesso",
+    "tipo": "INTEGER",
+    "aceita_nulo": true,
+    "distintos": 11,
+    "pct_nulo": 22.12,
+    "min": 0.0,
+    "max": 10.0,
+    "media": 1.048148148148148,
+    "mais_frequentes": "0 (341), 1 (290), 2 (93)",
+    "amostra": "6 | 8 | 1 | 2 | 3"
+   }
+  ],
+  "amostra_linhas": [
+   {
+    "co_revisao": 21,
+    "co_tipo_revisao": 0,
+    "co_seq_usuario": "<anonimizado>",
+    "st_bloqueado": 0,
+    "ds_senha": "<anonimizado>",
+    "st_trocar_senha": "<anonimizado>",
+    "co_ator": 1,
+    "dt_ultima_atualizacao_senha": "<anonimizado>",
+    "st_termo_uso": 1,
+    "st_forcar_troca_senha": "<anonimizado>",
+    "nr_tentativas_acesso": null
+   },
+   {
+    "co_revisao": 22,
+    "co_tipo_revisao": 1,
+    "co_seq_usuario": "<anonimizado>",
+    "st_bloqueado": 0,
+    "ds_senha": "<anonimizado>",
+    "st_trocar_senha": "<anonimizado>",
+    "co_ator": 1,
+    "dt_ultima_atualizacao_senha": "<anonimizado>",
+    "st_termo_uso": 0,
+    "st_forcar_troca_senha": "<anonimizado>",
+    "nr_tentativas_acesso": null
+   },
+   {
+    "co_revisao": 49,
+    "co_tipo_revisao": 0,
+    "co_seq_usuario": "<anonimizado>",
+    "st_bloqueado": 0,
+    "ds_senha": "<anonimizado>",
+    "st_trocar_senha": "<anonimizado>",
+    "co_ator": 19,
+    "dt_ultima_atualizacao_senha": "<anonimizado>",
+    "st_termo_uso": 1,
+    "st_forcar_troca_senha": "<anonimizado>",
+    "nr_tentativas_acesso": null
+   }
+  ]
+ },
+ "pool": [
+  {
+   "tema_id": "t0",
+   "texto": "Política de Privacidade"
+  },
+  {
+   "tema_id": "t1",
+   "texto": "Segurança de Usuários"
+  },
+  {
+   "tema_id": "t2",
+   "texto": "Acesso e Autenticação"
+  },
+  {
+   "tema_id": "t3",
+   "texto": "Controle de Acesso"
+  },
+  {
+   "tema_id": "t4",
+   "texto": "Segurança de Senhas"
+  },
+  {
+   "tema_id": "t5",
+   "texto": "Bloqueio de contas"
+  },
+  {
+   "tema_id": "t6",
+   "texto": "Gestão de Senhas"
+  },
+  {
+   "tema_id": "t7",
+   "texto": "Atividade de usuários"
+  },
+  {
+   "tema_id": "t8",
+   "texto": "Gerenciamento de Usuários"
+  }
+ ],
+ "listas": {
+  "Sistema A": {
+   "1": [
+    "Segurança de Usuários",
+    "Controle de Acesso",
+    "Gestão de Senhas"
+   ],
+   "2": [
+    "Segurança de Usuários",
+    "Controle de Acesso",
+    "Gestão de Senhas"
+   ],
+   "3": [
+    "Segurança de Usuários",
+    "Controle de Acesso",
+    "Gestão de Senhas"
+   ]
+  },
+  "Sistema B": {
+   "1": [
+    "Segurança de senhas",
+    "Atividade de usuários",
+    "Bloqueio de contas"
+   ],
+   "2": [
+    "Segurança de senhas",
+    "Atividade de usuários",
+    "Bloqueio de contas"
+   ],
+   "3": [
+    "Segurança de senhas",
+    "Atividade de usuários",
+    "Bloqueio de contas"
+   ]
+  },
+  "Sistema C": {
+   "1": [
+    "Segurança de Senhas",
+    "Controle de Acesso",
+    "Política de Privacidade"
+   ],
+   "2": [
+    "Segurança de Senhas",
+    "Controle de Acesso",
+    "Política de Privacidade"
+   ],
+   "3": [
+    "Segurança de Senhas",
+    "Gerenciamento de Usuários",
+    "Acesso e Autenticação"
+   ]
+  }
+ }
+}

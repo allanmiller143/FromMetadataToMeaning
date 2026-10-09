@@ -1,0 +1,172 @@
+{
+ "item_id": "magento2__cataloginventory_stock_status_idx",
+ "table_key": "magento2.cataloginventory_stock_status_idx",
+ "base": "magento2",
+ "piloto": false,
+ "contexto": {
+  "tabela": "cataloginventory_stock_status_idx",
+  "linhas": 119,
+  "pk": [
+   "product_id",
+   "website_id",
+   "stock_id"
+  ],
+  "fks": [],
+  "colunas": [
+   {
+    "coluna": "product_id",
+    "tipo": "INTEGER",
+    "aceita_nulo": false,
+    "distintos": 119,
+    "pct_nulo": 0.0,
+    "min": 16.0,
+    "max": 166.0,
+    "media": 98.1681,
+    "mais_frequentes": "",
+    "amostra": "16 | 17 | 18 | 19 | 20"
+   },
+   {
+    "coluna": "website_id",
+    "tipo": "SMALLINT",
+    "aceita_nulo": false,
+    "distintos": 1,
+    "pct_nulo": 0.0,
+    "min": 1.0,
+    "max": 1.0,
+    "media": 1.0,
+    "mais_frequentes": "1 (119)",
+    "amostra": "1"
+   },
+   {
+    "coluna": "stock_id",
+    "tipo": "SMALLINT",
+    "aceita_nulo": false,
+    "distintos": 1,
+    "pct_nulo": 0.0,
+    "min": 1.0,
+    "max": 1.0,
+    "media": 1.0,
+    "mais_frequentes": "1 (119)",
+    "amostra": "1"
+   },
+   {
+    "coluna": "qty",
+    "tipo": "DECIMAL(12, 4)",
+    "aceita_nulo": false,
+    "distintos": 99,
+    "pct_nulo": 0.0,
+    "min": 0.0,
+    "max": 999.0,
+    "media": 456.38655462,
+    "mais_frequentes": "",
+    "amostra": "996.0000 | 797.0000 | 989.0000 | 328.0000 | 361.0000"
+   },
+   {
+    "coluna": "stock_status",
+    "tipo": "SMALLINT",
+    "aceita_nulo": false,
+    "distintos": 2,
+    "pct_nulo": 0.0,
+    "min": 0.0,
+    "max": 1.0,
+    "media": 0.9916,
+    "mais_frequentes": "1 (118), 0 (1)",
+    "amostra": "1 | 0"
+   }
+  ],
+  "amostra_linhas": [
+   {
+    "product_id": 16,
+    "website_id": 1,
+    "stock_id": 1,
+    "qty": 996.0,
+    "stock_status": 1
+   },
+   {
+    "product_id": 17,
+    "website_id": 1,
+    "stock_id": 1,
+    "qty": 797.0,
+    "stock_status": 1
+   },
+   {
+    "product_id": 18,
+    "website_id": 1,
+    "stock_id": 1,
+    "qty": 989.0,
+    "stock_status": 1
+   }
+  ]
+ },
+ "pool": [
+  {
+   "tema_id": "t0",
+   "texto": "estoque por produto"
+  },
+  {
+   "tema_id": "t1",
+   "texto": "estoque de produtos"
+  },
+  {
+   "tema_id": "t2",
+   "texto": "status de disponibilidade"
+  },
+  {
+   "tema_id": "t3",
+   "texto": "quantidade em estoque"
+  }
+ ],
+ "listas": {
+  "Sistema A": {
+   "1": [
+    "estoque de produtos",
+    "status de disponibilidade",
+    "quantidade em estoque"
+   ],
+   "2": [
+    "estoque de produtos",
+    "status de disponibilidade",
+    "quantidade em estoque"
+   ],
+   "3": [
+    "estoque de produtos",
+    "status de disponibilidade",
+    "quantidade em estoque"
+   ]
+  },
+  "Sistema B": {
+   "1": [
+    "estoque de produtos",
+    "status de disponibilidade",
+    "quantidade em estoque"
+   ],
+   "2": [
+    "estoque de produtos",
+    "status de disponibilidade",
+    "quantidade em estoque"
+   ],
+   "3": [
+    "estoque de produtos",
+    "status de disponibilidade",
+    "quantidade em estoque"
+   ]
+  },
+  "Sistema C": {
+   "1": [
+    "estoque por produto",
+    "status de disponibilidade",
+    "quantidade em estoque"
+   ],
+   "2": [
+    "estoque por produto",
+    "status de disponibilidade",
+    "quantidade em estoque"
+   ],
+   "3": [
+    "estoque por produto",
+    "status de disponibilidade",
+    "quantidade em estoque"
+   ]
+  }
+ }
+}

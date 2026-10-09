@@ -1,0 +1,522 @@
+{
+ "item_id": "magento2__sales_creditmemo_item",
+ "table_key": "magento2.sales_creditmemo_item",
+ "base": "magento2",
+ "piloto": true,
+ "contexto": {
+  "tabela": "sales_creditmemo_item",
+  "linhas": 0,
+  "pk": [
+   "entity_id"
+  ],
+  "fks": [
+   "parent_id -> sales_creditmemo(entity_id)"
+  ],
+  "colunas": [
+   {
+    "coluna": "entity_id",
+    "tipo": "INTEGER",
+    "aceita_nulo": false,
+    "distintos": null,
+    "pct_nulo": null,
+    "min": null,
+    "max": null,
+    "media": null,
+    "mais_frequentes": "",
+    "amostra": ""
+   },
+   {
+    "coluna": "parent_id",
+    "tipo": "INTEGER",
+    "aceita_nulo": false,
+    "distintos": null,
+    "pct_nulo": null,
+    "min": null,
+    "max": null,
+    "media": null,
+    "mais_frequentes": "",
+    "amostra": ""
+   },
+   {
+    "coluna": "base_price",
+    "tipo": "DECIMAL(12, 4)",
+    "aceita_nulo": true,
+    "distintos": null,
+    "pct_nulo": null,
+    "min": null,
+    "max": null,
+    "media": null,
+    "mais_frequentes": "",
+    "amostra": ""
+   },
+   {
+    "coluna": "tax_amount",
+    "tipo": "DECIMAL(12, 4)",
+    "aceita_nulo": true,
+    "distintos": null,
+    "pct_nulo": null,
+    "min": null,
+    "max": null,
+    "media": null,
+    "mais_frequentes": "",
+    "amostra": ""
+   },
+   {
+    "coluna": "base_row_total",
+    "tipo": "DECIMAL(12, 4)",
+    "aceita_nulo": true,
+    "distintos": null,
+    "pct_nulo": null,
+    "min": null,
+    "max": null,
+    "media": null,
+    "mais_frequentes": "",
+    "amostra": ""
+   },
+   {
+    "coluna": "discount_amount",
+    "tipo": "DECIMAL(12, 4)",
+    "aceita_nulo": true,
+    "distintos": null,
+    "pct_nulo": null,
+    "min": null,
+    "max": null,
+    "media": null,
+    "mais_frequentes": "",
+    "amostra": ""
+   },
+   {
+    "coluna": "row_total",
+    "tipo": "DECIMAL(12, 4)",
+    "aceita_nulo": true,
+    "distintos": null,
+    "pct_nulo": null,
+    "min": null,
+    "max": null,
+    "media": null,
+    "mais_frequentes": "",
+    "amostra": ""
+   },
+   {
+    "coluna": "base_discount_amount",
+    "tipo": "DECIMAL(12, 4)",
+    "aceita_nulo": true,
+    "distintos": null,
+    "pct_nulo": null,
+    "min": null,
+    "max": null,
+    "media": null,
+    "mais_frequentes": "",
+    "amostra": ""
+   },
+   {
+    "coluna": "price_incl_tax",
+    "tipo": "DECIMAL(12, 4)",
+    "aceita_nulo": true,
+    "distintos": null,
+    "pct_nulo": null,
+    "min": null,
+    "max": null,
+    "media": null,
+    "mais_frequentes": "",
+    "amostra": ""
+   },
+   {
+    "coluna": "base_tax_amount",
+    "tipo": "DECIMAL(12, 4)",
+    "aceita_nulo": true,
+    "distintos": null,
+    "pct_nulo": null,
+    "min": null,
+    "max": null,
+    "media": null,
+    "mais_frequentes": "",
+    "amostra": ""
+   },
+   {
+    "coluna": "base_price_incl_tax",
+    "tipo": "DECIMAL(12, 4)",
+    "aceita_nulo": true,
+    "distintos": null,
+    "pct_nulo": null,
+    "min": null,
+    "max": null,
+    "media": null,
+    "mais_frequentes": "",
+    "amostra": ""
+   },
+   {
+    "coluna": "qty",
+    "tipo": "DECIMAL(12, 4)",
+    "aceita_nulo": true,
+    "distintos": null,
+    "pct_nulo": null,
+    "min": null,
+    "max": null,
+    "media": null,
+    "mais_frequentes": "",
+    "amostra": ""
+   },
+   {
+    "coluna": "base_cost",
+    "tipo": "DECIMAL(12, 4)",
+    "aceita_nulo": true,
+    "distintos": null,
+    "pct_nulo": null,
+    "min": null,
+    "max": null,
+    "media": null,
+    "mais_frequentes": "",
+    "amostra": ""
+   },
+   {
+    "coluna": "price",
+    "tipo": "DECIMAL(12, 4)",
+    "aceita_nulo": true,
+    "distintos": null,
+    "pct_nulo": null,
+    "min": null,
+    "max": null,
+    "media": null,
+    "mais_frequentes": "",
+    "amostra": ""
+   },
+   {
+    "coluna": "base_row_total_incl_tax",
+    "tipo": "DECIMAL(12, 4)",
+    "aceita_nulo": true,
+    "distintos": null,
+    "pct_nulo": null,
+    "min": null,
+    "max": null,
+    "media": null,
+    "mais_frequentes": "",
+    "amostra": ""
+   },
+   {
+    "coluna": "row_total_incl_tax",
+    "tipo": "DECIMAL(12, 4)",
+    "aceita_nulo": true,
+    "distintos": null,
+    "pct_nulo": null,
+    "min": null,
+    "max": null,
+    "media": null,
+    "mais_frequentes": "",
+    "amostra": ""
+   },
+   {
+    "coluna": "product_id",
+    "tipo": "INTEGER",
+    "aceita_nulo": true,
+    "distintos": null,
+    "pct_nulo": null,
+    "min": null,
+    "max": null,
+    "media": null,
+    "mais_frequentes": "",
+    "amostra": ""
+   },
+   {
+    "coluna": "order_item_id",
+    "tipo": "INTEGER",
+    "aceita_nulo": true,
+    "distintos": null,
+    "pct_nulo": null,
+    "min": null,
+    "max": null,
+    "media": null,
+    "mais_frequentes": "",
+    "amostra": ""
+   },
+   {
+    "coluna": "additional_data",
+    "tipo": "TEXT",
+    "aceita_nulo": true,
+    "distintos": null,
+    "pct_nulo": null,
+    "min": null,
+    "max": null,
+    "media": null,
+    "mais_frequentes": "",
+    "amostra": ""
+   },
+   {
+    "coluna": "description",
+    "tipo": "TEXT",
+    "aceita_nulo": true,
+    "distintos": null,
+    "pct_nulo": null,
+    "min": null,
+    "max": null,
+    "media": null,
+    "mais_frequentes": "",
+    "amostra": ""
+   },
+   {
+    "coluna": "sku",
+    "tipo": "VARCHAR(255)",
+    "aceita_nulo": true,
+    "distintos": null,
+    "pct_nulo": null,
+    "min": null,
+    "max": null,
+    "media": null,
+    "mais_frequentes": "",
+    "amostra": ""
+   },
+   {
+    "coluna": "name",
+    "tipo": "VARCHAR(255)",
+    "aceita_nulo": true,
+    "distintos": null,
+    "pct_nulo": null,
+    "min": null,
+    "max": null,
+    "media": null,
+    "mais_frequentes": "",
+    "amostra": ""
+   },
+   {
+    "coluna": "hidden_tax_amount",
+    "tipo": "DECIMAL(12, 4)",
+    "aceita_nulo": true,
+    "distintos": null,
+    "pct_nulo": null,
+    "min": null,
+    "max": null,
+    "media": null,
+    "mais_frequentes": "",
+    "amostra": ""
+   },
+   {
+    "coluna": "base_hidden_tax_amount",
+    "tipo": "DECIMAL(12, 4)",
+    "aceita_nulo": true,
+    "distintos": null,
+    "pct_nulo": null,
+    "min": null,
+    "max": null,
+    "media": null,
+    "mais_frequentes": "",
+    "amostra": ""
+   },
+   {
+    "coluna": "tax_ratio",
+    "tipo": "TEXT",
+    "aceita_nulo": true,
+    "distintos": null,
+    "pct_nulo": null,
+    "min": null,
+    "max": null,
+    "media": null,
+    "mais_frequentes": "",
+    "amostra": ""
+   },
+   {
+    "coluna": "weee_tax_applied",
+    "tipo": "TEXT",
+    "aceita_nulo": true,
+    "distintos": null,
+    "pct_nulo": null,
+    "min": null,
+    "max": null,
+    "media": null,
+    "mais_frequentes": "",
+    "amostra": ""
+   },
+   {
+    "coluna": "weee_tax_applied_amount",
+    "tipo": "DECIMAL(12, 4)",
+    "aceita_nulo": true,
+    "distintos": null,
+    "pct_nulo": null,
+    "min": null,
+    "max": null,
+    "media": null,
+    "mais_frequentes": "",
+    "amostra": ""
+   },
+   {
+    "coluna": "weee_tax_applied_row_amount",
+    "tipo": "DECIMAL(12, 4)",
+    "aceita_nulo": true,
+    "distintos": null,
+    "pct_nulo": null,
+    "min": null,
+    "max": null,
+    "media": null,
+    "mais_frequentes": "",
+    "amostra": ""
+   },
+   {
+    "coluna": "weee_tax_disposition",
+    "tipo": "DECIMAL(12, 4)",
+    "aceita_nulo": true,
+    "distintos": null,
+    "pct_nulo": null,
+    "min": null,
+    "max": null,
+    "media": null,
+    "mais_frequentes": "",
+    "amostra": ""
+   },
+   {
+    "coluna": "weee_tax_row_disposition",
+    "tipo": "DECIMAL(12, 4)",
+    "aceita_nulo": true,
+    "distintos": null,
+    "pct_nulo": null,
+    "min": null,
+    "max": null,
+    "media": null,
+    "mais_frequentes": "",
+    "amostra": ""
+   },
+   {
+    "coluna": "base_weee_tax_applied_amount",
+    "tipo": "DECIMAL(12, 4)",
+    "aceita_nulo": true,
+    "distintos": null,
+    "pct_nulo": null,
+    "min": null,
+    "max": null,
+    "media": null,
+    "mais_frequentes": "",
+    "amostra": ""
+   },
+   {
+    "coluna": "base_weee_tax_applied_row_amnt",
+    "tipo": "DECIMAL(12, 4)",
+    "aceita_nulo": true,
+    "distintos": null,
+    "pct_nulo": null,
+    "min": null,
+    "max": null,
+    "media": null,
+    "mais_frequentes": "",
+    "amostra": ""
+   },
+   {
+    "coluna": "base_weee_tax_disposition",
+    "tipo": "DECIMAL(12, 4)",
+    "aceita_nulo": true,
+    "distintos": null,
+    "pct_nulo": null,
+    "min": null,
+    "max": null,
+    "media": null,
+    "mais_frequentes": "",
+    "amostra": ""
+   },
+   {
+    "coluna": "base_weee_tax_row_disposition",
+    "tipo": "DECIMAL(12, 4)",
+    "aceita_nulo": true,
+    "distintos": null,
+    "pct_nulo": null,
+    "min": null,
+    "max": null,
+    "media": null,
+    "mais_frequentes": "",
+    "amostra": ""
+   }
+  ],
+  "amostra_linhas": []
+ },
+ "pool": [
+  {
+   "tema_id": "t0",
+   "texto": "análise de vendas"
+  },
+  {
+   "tema_id": "t1",
+   "texto": "itens de crédito"
+  },
+  {
+   "tema_id": "t2",
+   "texto": "valores de reembolso"
+  },
+  {
+   "tema_id": "t3",
+   "texto": "itens de credit memo"
+  },
+  {
+   "tema_id": "t4",
+   "texto": "impostos de creditmemo"
+  },
+  {
+   "tema_id": "t5",
+   "texto": "detalhes de produtos"
+  },
+  {
+   "tema_id": "t6",
+   "texto": "impostos em reembolso"
+  },
+  {
+   "tema_id": "t7",
+   "texto": "gestão de impostos"
+  },
+  {
+   "tema_id": "t8",
+   "texto": "cálculo de impostos"
+  },
+  {
+   "tema_id": "t9",
+   "texto": "itens de creditmemo"
+  }
+ ],
+ "listas": {
+  "Sistema A": {
+   "1": [
+    "itens de credit memo",
+    "valores de reembolso",
+    "impostos em reembolso"
+   ],
+   "2": [
+    "itens de credit memo",
+    "valores de reembolso",
+    "impostos em reembolso"
+   ],
+   "3": [
+    "itens de creditmemo",
+    "valores de reembolso",
+    "impostos de creditmemo"
+   ]
+  },
+  "Sistema B": {
+   "1": [
+    "itens de crédito",
+    "valores de reembolso",
+    "detalhes de produtos"
+   ],
+   "2": [
+    "itens de crédito",
+    "valores de reembolso",
+    "detalhes de produtos"
+   ],
+   "3": [
+    "itens de crédito",
+    "valores de reembolso",
+    "detalhes de produtos"
+   ]
+  },
+  "Sistema C": {
+   "1": [
+    "análise de vendas",
+    "itens de crédito",
+    "cálculo de impostos"
+   ],
+   "2": [
+    "análise de vendas",
+    "itens de crédito",
+    "gestão de impostos"
+   ],
+   "3": [
+    "análise de vendas",
+    "itens de crédito",
+    "gestão de impostos"
+   ]
+  }
+ }
+}

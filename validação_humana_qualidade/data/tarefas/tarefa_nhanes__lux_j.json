@@ -1,0 +1,339 @@
+{
+ "item_id": "nhanes__lux_j",
+ "table_key": "nhanes_examination.lux_j",
+ "base": "nhanes",
+ "piloto": false,
+ "contexto": {
+  "tabela": "lux_j",
+  "linhas": 6401,
+  "pk": [],
+  "fks": [],
+  "colunas": [
+   {
+    "coluna": "SEQN",
+    "tipo": "DOUBLE PRECISION",
+    "aceita_nulo": true,
+    "distintos": 6401,
+    "pct_nulo": 0.0,
+    "min": 93705.0,
+    "max": 102956.0,
+    "media": 98293.35431963755,
+    "mais_frequentes": "",
+    "amostra": "101333.0 | 98813.0 | 96811.0 | 97209.0 | 96347.0"
+   },
+   {
+    "coluna": "LUAXSTAT",
+    "tipo": "DOUBLE PRECISION",
+    "aceita_nulo": true,
+    "distintos": 4,
+    "pct_nulo": 0.0,
+    "min": 1.0,
+    "max": 4.0,
+    "media": 1.230745196063115,
+    "mais_frequentes": "1.0 (5494), 2.0 (493), 3.0 (258)",
+    "amostra": "3.0 | 4.0 | 2.0 | 1.0"
+   },
+   {
+    "coluna": "LUARXNC",
+    "tipo": "DOUBLE PRECISION",
+    "aceita_nulo": true,
+    "distintos": 3,
+    "pct_nulo": 92.3,
+    "min": 1.0,
+    "max": 3.0,
+    "media": 1.695740365111562,
+    "mais_frequentes": "1.0 (257), 2.0 (129), 3.0 (107)",
+    "amostra": "3.0 | 2.0 | 1.0"
+   },
+   {
+    "coluna": "LUARXND",
+    "tipo": "DOUBLE PRECISION",
+    "aceita_nulo": true,
+    "distintos": 3,
+    "pct_nulo": 97.56,
+    "min": 1.0,
+    "max": 3.0,
+    "media": 2.1794871794871793,
+    "mais_frequentes": "3.0 (71), 1.0 (43), 2.0 (42)",
+    "amostra": "3.0 | 2.0 | 1.0"
+   },
+   {
+    "coluna": "LUARXIN",
+    "tipo": "DOUBLE PRECISION",
+    "aceita_nulo": true,
+    "distintos": 2,
+    "pct_nulo": 95.97,
+    "min": 1.0,
+    "max": 2.0,
+    "media": 1.6395348837209303,
+    "mais_frequentes": "2.0 (165), 1.0 (93)",
+    "amostra": "2.0 | 1.0"
+   },
+   {
+    "coluna": "LUAPNME",
+    "tipo": "TEXT",
+    "aceita_nulo": true,
+    "distintos": 3,
+    "pct_nulo": 0.0,
+    "min": null,
+    "max": null,
+    "media": null,
+    "mais_frequentes": "M (4478), XL (1508),  (415)",
+    "amostra": " | XL | M"
+   },
+   {
+    "coluna": "LUANMVGP",
+    "tipo": "DOUBLE PRECISION",
+    "aceita_nulo": true,
+    "distintos": 21,
+    "pct_nulo": 7.05,
+    "min": 1.0,
+    "max": 30.0,
+    "media": 11.426554621848739,
+    "mais_frequentes": "10.0 (3170), 11.0 (823), 12.0 (547)",
+    "amostra": "15.0 | 9.0 | 6.0 | 16.0 | 20.0"
+   },
+   {
+    "coluna": "LUANMTGP",
+    "tipo": "DOUBLE PRECISION",
+    "aceita_nulo": true,
+    "distintos": 19,
+    "pct_nulo": 0.0,
+    "min": 5.397605346934028e-79,
+    "max": 30.0,
+    "media": 14.003436962974535,
+    "mais_frequentes": "10.0 (1442), 11.0 (778), 20.0 (682)",
+    "amostra": "15.0 | 9.0 | 6.0 | 16.0 | 20.0"
+   },
+   {
+    "coluna": "LUATECH",
+    "tipo": "TEXT",
+    "aceita_nulo": true,
+    "distintos": 11,
+    "pct_nulo": 0.0,
+    "min": null,
+    "max": null,
+    "media": null,
+    "mais_frequentes": "D (847), E (820), G (815)",
+    "amostra": "YY | B | J | E | I"
+   },
+   {
+    "coluna": "LUXSMED",
+    "tipo": "DOUBLE PRECISION",
+    "aceita_nulo": true,
+    "distintos": 233,
+    "pct_nulo": 7.05,
+    "min": 1.6,
+    "max": 75.0,
+    "media": 5.896386554621813,
+    "mais_frequentes": "4.4 (195), 4.6 (192), 4.3 (189)",
+    "amostra": "12.4 | 14.7 | 5.8 | 4.8 | 61.0"
+   },
+   {
+    "coluna": "LUXSIQR",
+    "tipo": "DOUBLE PRECISION",
+    "aceita_nulo": true,
+    "distintos": 116,
+    "pct_nulo": 6.94,
+    "min": 5.397605346934028e-79,
+    "max": 66.9,
+    "media": 0.9969783448044388,
+    "mais_frequentes": "0.3 (654), 0.5 (644), 0.4 (641)",
+    "amostra": "12.4 | 0.9 | 5.8 | 1.6 | 4.8"
+   },
+   {
+    "coluna": "LUXSIQRM",
+    "tipo": "DOUBLE PRECISION",
+    "aceita_nulo": true,
+    "distintos": 403,
+    "pct_nulo": 7.17,
+    "min": 5.397605346934028e-79,
+    "max": 1338.0,
+    "media": 15.462891282396606,
+    "mais_frequentes": "11.1 (101), 16.7 (92), 12.5 (85)",
+    "amostra": "40.9 | 12.4 | 44.6 | 46.8 | 5.8"
+   },
+   {
+    "coluna": "LUXCAPM",
+    "tipo": "DOUBLE PRECISION",
+    "aceita_nulo": true,
+    "distintos": 299,
+    "pct_nulo": 7.08,
+    "min": 100.0,
+    "max": 400.0,
+    "media": 258.4749495628783,
+    "mais_frequentes": "400.0 (103), 273.0 (47), 268.0 (47)",
+    "amostra": "154.0 | 346.0 | 174.0 | 322.0 | 248.0"
+   },
+   {
+    "coluna": "LUXCPIQR",
+    "tipo": "DOUBLE PRECISION",
+    "aceita_nulo": true,
+    "distintos": 149,
+    "pct_nulo": 7.2,
+    "min": 5.397605346934028e-79,
+    "max": 206.0,
+    "media": 38.61178451178451,
+    "mais_frequentes": "33.0 (165), 27.0 (161), 30.0 (157)",
+    "amostra": "154.0 | 62.0 | 76.0 | 96.0 | 61.0"
+   }
+  ],
+  "amostra_linhas": [
+   {
+    "SEQN": 93705.0,
+    "LUAXSTAT": 1.0,
+    "LUARXNC": null,
+    "LUARXND": null,
+    "LUARXIN": null,
+    "LUAPNME": "M",
+    "LUANMVGP": 10.0,
+    "LUANMTGP": 20.0,
+    "LUATECH": "A",
+    "LUXSMED": 12.5,
+    "LUXSIQR": 3.0,
+    "LUXSIQRM": 24.0,
+    "LUXCAPM": 225.0,
+    "LUXCPIQR": 28.0
+   },
+   {
+    "SEQN": 93706.0,
+    "LUAXSTAT": 1.0,
+    "LUARXNC": null,
+    "LUARXND": null,
+    "LUARXIN": null,
+    "LUAPNME": "M",
+    "LUANMVGP": 12.0,
+    "LUANMTGP": 15.0,
+    "LUATECH": "E",
+    "LUXSMED": 5.5,
+    "LUXSIQR": 1.0,
+    "LUXSIQRM": 18.2,
+    "LUXCAPM": 207.0,
+    "LUXCPIQR": 19.0
+   },
+   {
+    "SEQN": 93707.0,
+    "LUAXSTAT": 1.0,
+    "LUARXNC": null,
+    "LUARXND": null,
+    "LUARXIN": null,
+    "LUAPNME": "M",
+    "LUANMVGP": 10.0,
+    "LUANMTGP": 10.0,
+    "LUATECH": "D",
+    "LUXSMED": 4.9,
+    "LUXSIQR": 1.0,
+    "LUXSIQRM": 20.4,
+    "LUXCAPM": 209.0,
+    "LUXCPIQR": 66.0
+   }
+  ]
+ },
+ "pool": [
+  {
+   "tema_id": "t0",
+   "texto": "tecnologia de saúde"
+  },
+  {
+   "tema_id": "t1",
+   "texto": "uso de medicamentos"
+  },
+  {
+   "tema_id": "t2",
+   "texto": "avaliação de saúde"
+  },
+  {
+   "tema_id": "t3",
+   "texto": "Medidas de acuidade visual"
+  },
+  {
+   "tema_id": "t4",
+   "texto": "Status de exame ocular"
+  },
+  {
+   "tema_id": "t5",
+   "texto": "Exame de visão"
+  },
+  {
+   "tema_id": "t6",
+   "texto": "tamanho de prótese"
+  },
+  {
+   "tema_id": "t7",
+   "texto": "Avaliação de campo visual"
+  },
+  {
+   "tema_id": "t8",
+   "texto": "técnicas cirúrgicas"
+  },
+  {
+   "tema_id": "t9",
+   "texto": "análise de exames oftalmológicos"
+  },
+  {
+   "tema_id": "t10",
+   "texto": "tratamento médico"
+  },
+  {
+   "tema_id": "t11",
+   "texto": "medidas de luxação"
+  },
+  {
+   "tema_id": "t12",
+   "texto": "classificação de tamanho"
+  }
+ ],
+ "listas": {
+  "Sistema A": {
+   "1": [
+    "medidas de luxação",
+    "tamanho de prótese",
+    "técnicas cirúrgicas"
+   ],
+   "2": [
+    "medidas de luxação",
+    "classificação de tamanho",
+    "análise de exames oftalmológicos"
+   ],
+   "3": [
+    "medidas de luxação",
+    "classificação de tamanho",
+    "análise de exames oftalmológicos"
+   ]
+  },
+  "Sistema B": {
+   "1": [
+    "Exame de visão",
+    "Medidas de acuidade visual",
+    "Avaliação de campo visual"
+   ],
+   "2": [
+    "Exame de visão",
+    "Medidas de acuidade visual",
+    "Avaliação de campo visual"
+   ],
+   "3": [
+    "Exame de visão",
+    "Medidas de acuidade visual",
+    "Status de exame ocular"
+   ]
+  },
+  "Sistema C": {
+   "1": [
+    "uso de medicamentos",
+    "avaliação de saúde",
+    "tratamento médico"
+   ],
+   "2": [
+    "uso de medicamentos",
+    "avaliação de saúde",
+    "tratamento médico"
+   ],
+   "3": [
+    "uso de medicamentos",
+    "avaliação de saúde",
+    "tecnologia de saúde"
+   ]
+  }
+ }
+}

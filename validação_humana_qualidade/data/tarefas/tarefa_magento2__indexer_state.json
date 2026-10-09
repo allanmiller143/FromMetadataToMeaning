@@ -1,0 +1,171 @@
+{
+ "item_id": "magento2__indexer_state",
+ "table_key": "magento2.indexer_state",
+ "base": "magento2",
+ "piloto": false,
+ "contexto": {
+  "tabela": "indexer_state",
+  "linhas": 7,
+  "pk": [
+   "state_id"
+  ],
+  "fks": [],
+  "colunas": [
+   {
+    "coluna": "state_id",
+    "tipo": "INTEGER",
+    "aceita_nulo": false,
+    "distintos": 7,
+    "pct_nulo": 0.0,
+    "min": 1.0,
+    "max": 7.0,
+    "media": 4.0,
+    "mais_frequentes": "",
+    "amostra": "3 | 7 | 6 | 1 | 4"
+   },
+   {
+    "coluna": "indexer_id",
+    "tipo": "VARCHAR(255)",
+    "aceita_nulo": true,
+    "distintos": 7,
+    "pct_nulo": 0.0,
+    "min": null,
+    "max": null,
+    "media": null,
+    "mais_frequentes": "",
+    "amostra": "cataloginventory_stock | catalogrule_product | catalogsearch_fulltext | catalog_category_product | catalog_product_attribute"
+   },
+   {
+    "coluna": "status",
+    "tipo": "VARCHAR(16)",
+    "aceita_nulo": true,
+    "distintos": 1,
+    "pct_nulo": 0.0,
+    "min": null,
+    "max": null,
+    "media": null,
+    "mais_frequentes": "invalid (7)",
+    "amostra": "invalid"
+   },
+   {
+    "coluna": "updated",
+    "tipo": "DATETIME",
+    "aceita_nulo": true,
+    "distintos": 6,
+    "pct_nulo": 0.0,
+    "min": null,
+    "max": null,
+    "media": null,
+    "mais_frequentes": "",
+    "amostra": "2014-09-23 07:52:58 | 2014-09-23 11:39:14 | 2014-12-06 16:55:27 | 2014-12-06 16:55:28 | 2014-12-06 16:55:31"
+   }
+  ],
+  "amostra_linhas": [
+   {
+    "state_id": 1,
+    "indexer_id": "catalog_category_product",
+    "status": "invalid",
+    "updated": "2014-09-23 07:52:58"
+   },
+   {
+    "state_id": 2,
+    "indexer_id": "catalog_product_price",
+    "status": "invalid",
+    "updated": "2014-09-23 11:39:14"
+   },
+   {
+    "state_id": 3,
+    "indexer_id": "cataloginventory_stock",
+    "status": "invalid",
+    "updated": "2014-12-06 16:55:27"
+   }
+  ]
+ },
+ "pool": [
+  {
+   "tema_id": "t0",
+   "texto": "atualização de índices"
+  },
+  {
+   "tema_id": "t1",
+   "texto": "atualização de indexadores"
+  },
+  {
+   "tema_id": "t2",
+   "texto": "gerenciamento de índices"
+  },
+  {
+   "tema_id": "t3",
+   "texto": "status de atualização"
+  },
+  {
+   "tema_id": "t4",
+   "texto": "estado de indexadores"
+  },
+  {
+   "tema_id": "t5",
+   "texto": "status de indexação"
+  },
+  {
+   "tema_id": "t6",
+   "texto": "estado de indexação"
+  },
+  {
+   "tema_id": "t7",
+   "texto": "indexação de catálogo"
+  }
+ ],
+ "listas": {
+  "Sistema A": {
+   "1": [
+    "estado de indexadores",
+    "status de indexação",
+    "atualização de índices"
+   ],
+   "2": [
+    "estado de indexadores",
+    "status de atualização",
+    "gerenciamento de índices"
+   ],
+   "3": [
+    "estado de indexadores",
+    "status de indexação",
+    "atualização de índices"
+   ]
+  },
+  "Sistema B": {
+   "1": [
+    "estado de indexação",
+    "atualização de indexadores",
+    "status de indexação"
+   ],
+   "2": [
+    "estado de indexação",
+    "atualização de indexadores",
+    "status de indexação"
+   ],
+   "3": [
+    "estado de indexação",
+    "atualização de indexadores",
+    "status de indexação"
+   ]
+  },
+  "Sistema C": {
+   "1": [
+    "estado de indexadores",
+    "indexação de catálogo",
+    "status de indexação"
+   ],
+   "2": [
+    "Estado de indexadores",
+    "Indexação de catálogo",
+    "Status de indexação"
+   ],
+   "3": [
+    "Estado de indexadores",
+    "Indexação de catálogo",
+    "Status de indexação"
+   ]
+  }
+ }
+}

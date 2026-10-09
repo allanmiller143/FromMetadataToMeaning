@@ -1,0 +1,518 @@
+{
+ "item_id": "magento2__sales_invoice_item",
+ "table_key": "magento2.sales_invoice_item",
+ "base": "magento2",
+ "piloto": false,
+ "contexto": {
+  "tabela": "sales_invoice_item",
+  "linhas": 0,
+  "pk": [
+   "entity_id"
+  ],
+  "fks": [
+   "parent_id -> sales_invoice(entity_id)"
+  ],
+  "colunas": [
+   {
+    "coluna": "entity_id",
+    "tipo": "INTEGER",
+    "aceita_nulo": false,
+    "distintos": null,
+    "pct_nulo": null,
+    "min": null,
+    "max": null,
+    "media": null,
+    "mais_frequentes": "",
+    "amostra": ""
+   },
+   {
+    "coluna": "parent_id",
+    "tipo": "INTEGER",
+    "aceita_nulo": false,
+    "distintos": null,
+    "pct_nulo": null,
+    "min": null,
+    "max": null,
+    "media": null,
+    "mais_frequentes": "",
+    "amostra": ""
+   },
+   {
+    "coluna": "base_price",
+    "tipo": "DECIMAL(12, 4)",
+    "aceita_nulo": true,
+    "distintos": null,
+    "pct_nulo": null,
+    "min": null,
+    "max": null,
+    "media": null,
+    "mais_frequentes": "",
+    "amostra": ""
+   },
+   {
+    "coluna": "tax_amount",
+    "tipo": "DECIMAL(12, 4)",
+    "aceita_nulo": true,
+    "distintos": null,
+    "pct_nulo": null,
+    "min": null,
+    "max": null,
+    "media": null,
+    "mais_frequentes": "",
+    "amostra": ""
+   },
+   {
+    "coluna": "base_row_total",
+    "tipo": "DECIMAL(12, 4)",
+    "aceita_nulo": true,
+    "distintos": null,
+    "pct_nulo": null,
+    "min": null,
+    "max": null,
+    "media": null,
+    "mais_frequentes": "",
+    "amostra": ""
+   },
+   {
+    "coluna": "discount_amount",
+    "tipo": "DECIMAL(12, 4)",
+    "aceita_nulo": true,
+    "distintos": null,
+    "pct_nulo": null,
+    "min": null,
+    "max": null,
+    "media": null,
+    "mais_frequentes": "",
+    "amostra": ""
+   },
+   {
+    "coluna": "row_total",
+    "tipo": "DECIMAL(12, 4)",
+    "aceita_nulo": true,
+    "distintos": null,
+    "pct_nulo": null,
+    "min": null,
+    "max": null,
+    "media": null,
+    "mais_frequentes": "",
+    "amostra": ""
+   },
+   {
+    "coluna": "base_discount_amount",
+    "tipo": "DECIMAL(12, 4)",
+    "aceita_nulo": true,
+    "distintos": null,
+    "pct_nulo": null,
+    "min": null,
+    "max": null,
+    "media": null,
+    "mais_frequentes": "",
+    "amostra": ""
+   },
+   {
+    "coluna": "price_incl_tax",
+    "tipo": "DECIMAL(12, 4)",
+    "aceita_nulo": true,
+    "distintos": null,
+    "pct_nulo": null,
+    "min": null,
+    "max": null,
+    "media": null,
+    "mais_frequentes": "",
+    "amostra": ""
+   },
+   {
+    "coluna": "base_tax_amount",
+    "tipo": "DECIMAL(12, 4)",
+    "aceita_nulo": true,
+    "distintos": null,
+    "pct_nulo": null,
+    "min": null,
+    "max": null,
+    "media": null,
+    "mais_frequentes": "",
+    "amostra": ""
+   },
+   {
+    "coluna": "base_price_incl_tax",
+    "tipo": "DECIMAL(12, 4)",
+    "aceita_nulo": true,
+    "distintos": null,
+    "pct_nulo": null,
+    "min": null,
+    "max": null,
+    "media": null,
+    "mais_frequentes": "",
+    "amostra": ""
+   },
+   {
+    "coluna": "qty",
+    "tipo": "DECIMAL(12, 4)",
+    "aceita_nulo": true,
+    "distintos": null,
+    "pct_nulo": null,
+    "min": null,
+    "max": null,
+    "media": null,
+    "mais_frequentes": "",
+    "amostra": ""
+   },
+   {
+    "coluna": "base_cost",
+    "tipo": "DECIMAL(12, 4)",
+    "aceita_nulo": true,
+    "distintos": null,
+    "pct_nulo": null,
+    "min": null,
+    "max": null,
+    "media": null,
+    "mais_frequentes": "",
+    "amostra": ""
+   },
+   {
+    "coluna": "price",
+    "tipo": "DECIMAL(12, 4)",
+    "aceita_nulo": true,
+    "distintos": null,
+    "pct_nulo": null,
+    "min": null,
+    "max": null,
+    "media": null,
+    "mais_frequentes": "",
+    "amostra": ""
+   },
+   {
+    "coluna": "base_row_total_incl_tax",
+    "tipo": "DECIMAL(12, 4)",
+    "aceita_nulo": true,
+    "distintos": null,
+    "pct_nulo": null,
+    "min": null,
+    "max": null,
+    "media": null,
+    "mais_frequentes": "",
+    "amostra": ""
+   },
+   {
+    "coluna": "row_total_incl_tax",
+    "tipo": "DECIMAL(12, 4)",
+    "aceita_nulo": true,
+    "distintos": null,
+    "pct_nulo": null,
+    "min": null,
+    "max": null,
+    "media": null,
+    "mais_frequentes": "",
+    "amostra": ""
+   },
+   {
+    "coluna": "product_id",
+    "tipo": "INTEGER",
+    "aceita_nulo": true,
+    "distintos": null,
+    "pct_nulo": null,
+    "min": null,
+    "max": null,
+    "media": null,
+    "mais_frequentes": "",
+    "amostra": ""
+   },
+   {
+    "coluna": "order_item_id",
+    "tipo": "INTEGER",
+    "aceita_nulo": true,
+    "distintos": null,
+    "pct_nulo": null,
+    "min": null,
+    "max": null,
+    "media": null,
+    "mais_frequentes": "",
+    "amostra": ""
+   },
+   {
+    "coluna": "additional_data",
+    "tipo": "TEXT",
+    "aceita_nulo": true,
+    "distintos": null,
+    "pct_nulo": null,
+    "min": null,
+    "max": null,
+    "media": null,
+    "mais_frequentes": "",
+    "amostra": ""
+   },
+   {
+    "coluna": "description",
+    "tipo": "TEXT",
+    "aceita_nulo": true,
+    "distintos": null,
+    "pct_nulo": null,
+    "min": null,
+    "max": null,
+    "media": null,
+    "mais_frequentes": "",
+    "amostra": ""
+   },
+   {
+    "coluna": "sku",
+    "tipo": "VARCHAR(255)",
+    "aceita_nulo": true,
+    "distintos": null,
+    "pct_nulo": null,
+    "min": null,
+    "max": null,
+    "media": null,
+    "mais_frequentes": "",
+    "amostra": ""
+   },
+   {
+    "coluna": "name",
+    "tipo": "VARCHAR(255)",
+    "aceita_nulo": true,
+    "distintos": null,
+    "pct_nulo": null,
+    "min": null,
+    "max": null,
+    "media": null,
+    "mais_frequentes": "",
+    "amostra": ""
+   },
+   {
+    "coluna": "hidden_tax_amount",
+    "tipo": "DECIMAL(12, 4)",
+    "aceita_nulo": true,
+    "distintos": null,
+    "pct_nulo": null,
+    "min": null,
+    "max": null,
+    "media": null,
+    "mais_frequentes": "",
+    "amostra": ""
+   },
+   {
+    "coluna": "base_hidden_tax_amount",
+    "tipo": "DECIMAL(12, 4)",
+    "aceita_nulo": true,
+    "distintos": null,
+    "pct_nulo": null,
+    "min": null,
+    "max": null,
+    "media": null,
+    "mais_frequentes": "",
+    "amostra": ""
+   },
+   {
+    "coluna": "tax_ratio",
+    "tipo": "TEXT",
+    "aceita_nulo": true,
+    "distintos": null,
+    "pct_nulo": null,
+    "min": null,
+    "max": null,
+    "media": null,
+    "mais_frequentes": "",
+    "amostra": ""
+   },
+   {
+    "coluna": "weee_tax_applied",
+    "tipo": "TEXT",
+    "aceita_nulo": true,
+    "distintos": null,
+    "pct_nulo": null,
+    "min": null,
+    "max": null,
+    "media": null,
+    "mais_frequentes": "",
+    "amostra": ""
+   },
+   {
+    "coluna": "weee_tax_applied_amount",
+    "tipo": "DECIMAL(12, 4)",
+    "aceita_nulo": true,
+    "distintos": null,
+    "pct_nulo": null,
+    "min": null,
+    "max": null,
+    "media": null,
+    "mais_frequentes": "",
+    "amostra": ""
+   },
+   {
+    "coluna": "weee_tax_applied_row_amount",
+    "tipo": "DECIMAL(12, 4)",
+    "aceita_nulo": true,
+    "distintos": null,
+    "pct_nulo": null,
+    "min": null,
+    "max": null,
+    "media": null,
+    "mais_frequentes": "",
+    "amostra": ""
+   },
+   {
+    "coluna": "weee_tax_disposition",
+    "tipo": "DECIMAL(12, 4)",
+    "aceita_nulo": true,
+    "distintos": null,
+    "pct_nulo": null,
+    "min": null,
+    "max": null,
+    "media": null,
+    "mais_frequentes": "",
+    "amostra": ""
+   },
+   {
+    "coluna": "weee_tax_row_disposition",
+    "tipo": "DECIMAL(12, 4)",
+    "aceita_nulo": true,
+    "distintos": null,
+    "pct_nulo": null,
+    "min": null,
+    "max": null,
+    "media": null,
+    "mais_frequentes": "",
+    "amostra": ""
+   },
+   {
+    "coluna": "base_weee_tax_applied_amount",
+    "tipo": "DECIMAL(12, 4)",
+    "aceita_nulo": true,
+    "distintos": null,
+    "pct_nulo": null,
+    "min": null,
+    "max": null,
+    "media": null,
+    "mais_frequentes": "",
+    "amostra": ""
+   },
+   {
+    "coluna": "base_weee_tax_applied_row_amnt",
+    "tipo": "DECIMAL(12, 4)",
+    "aceita_nulo": true,
+    "distintos": null,
+    "pct_nulo": null,
+    "min": null,
+    "max": null,
+    "media": null,
+    "mais_frequentes": "",
+    "amostra": ""
+   },
+   {
+    "coluna": "base_weee_tax_disposition",
+    "tipo": "DECIMAL(12, 4)",
+    "aceita_nulo": true,
+    "distintos": null,
+    "pct_nulo": null,
+    "min": null,
+    "max": null,
+    "media": null,
+    "mais_frequentes": "",
+    "amostra": ""
+   },
+   {
+    "coluna": "base_weee_tax_row_disposition",
+    "tipo": "DECIMAL(12, 4)",
+    "aceita_nulo": true,
+    "distintos": null,
+    "pct_nulo": null,
+    "min": null,
+    "max": null,
+    "media": null,
+    "mais_frequentes": "",
+    "amostra": ""
+   }
+  ],
+  "amostra_linhas": []
+ },
+ "pool": [
+  {
+   "tema_id": "t0",
+   "texto": "detalhes de produtos"
+  },
+  {
+   "tema_id": "t1",
+   "texto": "descontos em itens"
+  },
+  {
+   "tema_id": "t2",
+   "texto": "faturamento de itens"
+  },
+  {
+   "tema_id": "t3",
+   "texto": "gestão de vendas"
+  },
+  {
+   "tema_id": "t4",
+   "texto": "valores de venda"
+  },
+  {
+   "tema_id": "t5",
+   "texto": "itens de fatura"
+  },
+  {
+   "tema_id": "t6",
+   "texto": "gestão de descontos"
+  },
+  {
+   "tema_id": "t7",
+   "texto": "impostos de itens"
+  },
+  {
+   "tema_id": "t8",
+   "texto": "cálculo de impostos"
+  }
+ ],
+ "listas": {
+  "Sistema A": {
+   "1": [
+    "faturamento de itens",
+    "cálculo de impostos",
+    "detalhes de produtos"
+   ],
+   "2": [
+    "faturamento de itens",
+    "cálculo de impostos",
+    "detalhes de produtos"
+   ],
+   "3": [
+    "faturamento de itens",
+    "cálculo de impostos",
+    "detalhes de produtos"
+   ]
+  },
+  "Sistema B": {
+   "1": [
+    "itens de fatura",
+    "cálculo de impostos",
+    "valores de venda"
+   ],
+   "2": [
+    "itens de fatura",
+    "impostos de itens",
+    "descontos em itens"
+   ],
+   "3": [
+    "itens de fatura",
+    "cálculo de impostos",
+    "valores de venda"
+   ]
+  },
+  "Sistema C": {
+   "1": [
+    "faturamento de itens",
+    "cálculo de impostos",
+    "gestão de descontos"
+   ],
+   "2": [
+    "faturamento de itens",
+    "cálculo de impostos",
+    "gestão de vendas"
+   ],
+   "3": [
+    "faturamento de itens",
+    "cálculo de impostos",
+    "gestão de descontos"
+   ]
+  }
+ }
+}

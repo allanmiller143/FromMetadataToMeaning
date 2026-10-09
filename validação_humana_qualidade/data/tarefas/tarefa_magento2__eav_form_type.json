@@ -1,0 +1,215 @@
+{
+ "item_id": "magento2__eav_form_type",
+ "table_key": "magento2.eav_form_type",
+ "base": "magento2",
+ "piloto": false,
+ "contexto": {
+  "tabela": "eav_form_type",
+  "linhas": 8,
+  "pk": [
+   "type_id"
+  ],
+  "fks": [
+   "store_id -> store(store_id)"
+  ],
+  "colunas": [
+   {
+    "coluna": "type_id",
+    "tipo": "SMALLINT",
+    "aceita_nulo": false,
+    "distintos": 8,
+    "pct_nulo": 0.0,
+    "min": 1.0,
+    "max": 8.0,
+    "media": 4.5,
+    "mais_frequentes": "",
+    "amostra": "1 | 2 | 3 | 4 | 5"
+   },
+   {
+    "coluna": "code",
+    "tipo": "VARCHAR(64)",
+    "aceita_nulo": false,
+    "distintos": 8,
+    "pct_nulo": 0.0,
+    "min": null,
+    "max": null,
+    "media": null,
+    "mais_frequentes": "",
+    "amostra": "checkout_multishipping_register | checkout_onepage_billing_address | checkout_onepage_register | checkout_onepage_register_guest | checkout_onepage_shipping_address"
+   },
+   {
+    "coluna": "label",
+    "tipo": "VARCHAR(255)",
+    "aceita_nulo": false,
+    "distintos": 8,
+    "pct_nulo": 0.0,
+    "min": null,
+    "max": null,
+    "media": null,
+    "mais_frequentes": "",
+    "amostra": "customer_account_create | customer_account_edit | customer_address_edit | checkout_onepage_register | checkout_onepage_register_guest"
+   },
+   {
+    "coluna": "is_system",
+    "tipo": "SMALLINT",
+    "aceita_nulo": false,
+    "distintos": 1,
+    "pct_nulo": 0.0,
+    "min": 1.0,
+    "max": 1.0,
+    "media": 1.0,
+    "mais_frequentes": "1 (8)",
+    "amostra": "1"
+   },
+   {
+    "coluna": "theme",
+    "tipo": "VARCHAR(64)",
+    "aceita_nulo": true,
+    "distintos": 1,
+    "pct_nulo": 0.0,
+    "min": null,
+    "max": null,
+    "media": null,
+    "mais_frequentes": " (8)",
+    "amostra": ""
+   },
+   {
+    "coluna": "store_id",
+    "tipo": "SMALLINT",
+    "aceita_nulo": false,
+    "distintos": 1,
+    "pct_nulo": 0.0,
+    "min": 0.0,
+    "max": 0.0,
+    "media": 0.0,
+    "mais_frequentes": "0 (8)",
+    "amostra": "0"
+   }
+  ],
+  "amostra_linhas": [
+   {
+    "type_id": 1,
+    "code": "customer_account_create",
+    "label": "customer_account_create",
+    "is_system": 1,
+    "theme": "",
+    "store_id": 0
+   },
+   {
+    "type_id": 2,
+    "code": "customer_account_edit",
+    "label": "customer_account_edit",
+    "is_system": 1,
+    "theme": "",
+    "store_id": 0
+   },
+   {
+    "type_id": 3,
+    "code": "customer_address_edit",
+    "label": "customer_address_edit",
+    "is_system": 1,
+    "theme": "",
+    "store_id": 0
+   }
+  ]
+ },
+ "pool": [
+  {
+   "tema_id": "t0",
+   "texto": "formulários de conta de cliente"
+  },
+  {
+   "tema_id": "t1",
+   "texto": "tipos de formulário EAV"
+  },
+  {
+   "tema_id": "t2",
+   "texto": "edição de endereços de cliente"
+  },
+  {
+   "tema_id": "t3",
+   "texto": "configuração de loja"
+  },
+  {
+   "tema_id": "t4",
+   "texto": "formulários de checkout"
+  },
+  {
+   "tema_id": "t5",
+   "texto": "configuração de sistema"
+  },
+  {
+   "tema_id": "t6",
+   "texto": "formulários do Magento"
+  },
+  {
+   "tema_id": "t7",
+   "texto": "tipos de formulário"
+  },
+  {
+   "tema_id": "t8",
+   "texto": "formulários de cadastro de cliente"
+  },
+  {
+   "tema_id": "t9",
+   "texto": "formulários de cadastro"
+  },
+  {
+   "tema_id": "t10",
+   "texto": "gestão de contas de cliente"
+  }
+ ],
+ "listas": {
+  "Sistema A": {
+   "1": [
+    "formulários de checkout",
+    "gestão de contas de cliente",
+    "edição de endereços de cliente"
+   ],
+   "2": [
+    "formulários de checkout",
+    "gestão de contas de cliente",
+    "edição de endereços de cliente"
+   ],
+   "3": [
+    "formulários de cadastro",
+    "tipos de formulário",
+    "configuração de sistema"
+   ]
+  },
+  "Sistema B": {
+   "1": [
+    "tipos de formulário EAV",
+    "formulários de checkout",
+    "formulários de conta de cliente"
+   ],
+   "2": [
+    "tipos de formulário EAV",
+    "formulários de checkout",
+    "formulários de conta de cliente"
+   ],
+   "3": [
+    "tipos de formulário EAV",
+    "formulários de checkout",
+    "formulários de conta de cliente"
+   ]
+  },
+  "Sistema C": {
+   "1": [
+    "tipos de formulário",
+    "configuração de loja",
+    "formulários do Magento"
+   ],
+   "2": [
+    "tipos de formulário",
+    "formulários de checkout",
+    "formulários de cadastro de cliente"
+   ],
+   "3": [
+    "tipos de formulário",
+    "formulários de checkout",
+    "formulários de cadastro de cliente"
+   ]
+  }
+ }
+}

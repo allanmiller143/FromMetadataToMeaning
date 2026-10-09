@@ -1,0 +1,188 @@
+{
+ "item_id": "nhanes__ucm_j",
+ "table_key": "nhanes_laboratory.ucm_j",
+ "base": "nhanes",
+ "piloto": false,
+ "contexto": {
+  "tabela": "ucm_j",
+  "linhas": 2979,
+  "pk": [],
+  "fks": [],
+  "colunas": [
+   {
+    "coluna": "SEQN",
+    "tipo": "DOUBLE PRECISION",
+    "aceita_nulo": true,
+    "distintos": 2979,
+    "pct_nulo": 0.0,
+    "min": 93707.0,
+    "max": 102956.0,
+    "media": 98304.5787176905,
+    "mais_frequentes": "",
+    "amostra": "100472.0 | 98778.0 | 98390.0 | 97449.0 | 94386.0"
+   },
+   {
+    "coluna": "WTSA2YR",
+    "tipo": "DOUBLE PRECISION",
+    "aceita_nulo": true,
+    "distintos": 2730,
+    "pct_nulo": 0.0,
+    "min": 5.397605346934028e-79,
+    "max": 1502431.342308,
+    "media": 103814.1997123699,
+    "mais_frequentes": "",
+    "amostra": "47711.749182 | 156274.122551 | 538586.717543 | 23113.508549 | 7641.256822"
+   },
+   {
+    "coluna": "URXUCM",
+    "tipo": "DOUBLE PRECISION",
+    "aceita_nulo": true,
+    "distintos": 168,
+    "pct_nulo": 6.31,
+    "min": 0.13,
+    "max": 41.79,
+    "media": 0.32359011107129904,
+    "mais_frequentes": "0.13 (1659), 0.23 (72), 0.19 (68)",
+    "amostra": "2.52 | 0.9 | 0.91 | 11.83 | 1.83"
+   },
+   {
+    "coluna": "URDUCMLC",
+    "tipo": "DOUBLE PRECISION",
+    "aceita_nulo": true,
+    "distintos": 2,
+    "pct_nulo": 6.31,
+    "min": 5.397605346934028e-79,
+    "max": 1.0,
+    "media": 0.5944106055177356,
+    "mais_frequentes": "1.0 (1659), 5.397605346934028e-79 (1132)",
+    "amostra": "1.0 | 5.397605346934028e-79"
+   }
+  ],
+  "amostra_linhas": [
+   {
+    "SEQN": 93707.0,
+    "WTSA2YR": 24984.393699,
+    "URXUCM": 0.23,
+    "URDUCMLC": 5.397605346934028e-79
+   },
+   {
+    "SEQN": 93708.0,
+    "WTSA2YR": 39395.670748,
+    "URXUCM": 0.29,
+    "URDUCMLC": 5.397605346934028e-79
+   },
+   {
+    "SEQN": 93711.0,
+    "WTSA2YR": 43892.647648,
+    "URXUCM": 0.13,
+    "URDUCMLC": 1.0
+   }
+  ]
+ },
+ "pool": [
+  {
+   "tema_id": "t0",
+   "texto": "concentração de urocromo"
+  },
+  {
+   "tema_id": "t1",
+   "texto": "Pesquisa NHANES"
+  },
+  {
+   "tema_id": "t2",
+   "texto": "classificação de amostras"
+  },
+  {
+   "tema_id": "t3",
+   "texto": "Exposição a contaminantes"
+  },
+  {
+   "tema_id": "t4",
+   "texto": "concentração de urina"
+  },
+  {
+   "tema_id": "t5",
+   "texto": "medidas de saúde"
+  },
+  {
+   "tema_id": "t6",
+   "texto": "peso amostral laboratorial"
+  },
+  {
+   "tema_id": "t7",
+   "texto": "peso amostral"
+  },
+  {
+   "tema_id": "t8",
+   "texto": "análise de dados laboratoriais"
+  },
+  {
+   "tema_id": "t9",
+   "texto": "detecção de substâncias"
+  },
+  {
+   "tema_id": "t10",
+   "texto": "Pesquisa laboratorial NHANES"
+  },
+  {
+   "tema_id": "t11",
+   "texto": "valores de urina"
+  },
+  {
+   "tema_id": "t12",
+   "texto": "UCM urinário"
+  }
+ ],
+ "listas": {
+  "Sistema A": {
+   "1": [
+    "concentração de urina",
+    "peso amostral",
+    "detecção de substâncias"
+   ],
+   "2": [
+    "concentração de urocromo",
+    "peso amostral laboratorial",
+    "classificação de amostras"
+   ],
+   "3": [
+    "concentração de urina",
+    "peso amostral laboratorial",
+    "detecção de substâncias"
+   ]
+  },
+  "Sistema B": {
+   "1": [
+    "análise de dados laboratoriais",
+    "valores de urina",
+    "medidas de saúde"
+   ],
+   "2": [
+    "análise de dados laboratoriais",
+    "valores de urina",
+    "medidas de saúde"
+   ],
+   "3": [
+    "análise de dados laboratoriais",
+    "valores de urina",
+    "medidas de saúde"
+   ]
+  },
+  "Sistema C": {
+   "1": [
+    "UCM urinário",
+    "Pesquisa NHANES",
+    "Exposição a contaminantes"
+   ],
+   "2": [
+    "UCM urinário",
+    "Pesquisa NHANES",
+    "Exposição a contaminantes"
+   ],
+   "3": [
+    "UCM urinário",
+    "Pesquisa laboratorial NHANES"
+   ]
+  }
+ }
+}

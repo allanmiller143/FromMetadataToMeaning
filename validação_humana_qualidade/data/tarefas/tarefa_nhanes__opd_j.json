@@ -1,0 +1,343 @@
+{
+ "item_id": "nhanes__opd_j",
+ "table_key": "nhanes_laboratory.opd_j",
+ "base": "nhanes",
+ "piloto": false,
+ "contexto": {
+  "tabela": "opd_j",
+  "linhas": 2986,
+  "pk": [],
+  "fks": [],
+  "colunas": [
+   {
+    "coluna": "SEQN",
+    "tipo": "DOUBLE PRECISION",
+    "aceita_nulo": true,
+    "distintos": 2986,
+    "pct_nulo": 0.0,
+    "min": 93706.0,
+    "max": 102955.0,
+    "media": 98345.420964501,
+    "mais_frequentes": "",
+    "amostra": "99729.0 | 100500.0 | 97230.0 | 96472.0 | 102403.0"
+   },
+   {
+    "coluna": "WTSB2YR",
+    "tipo": "DOUBLE PRECISION",
+    "aceita_nulo": true,
+    "distintos": 2720,
+    "pct_nulo": 0.0,
+    "min": 5.397605346934028e-79,
+    "max": 1395405.465402,
+    "media": 103570.83085839647,
+    "mais_frequentes": "",
+    "amostra": "45811.186673 | 37144.57136 | 23932.883542 | 33815.064129 | 735513.793498"
+   },
+   {
+    "coluna": "URXOP1",
+    "tipo": "DOUBLE PRECISION",
+    "aceita_nulo": true,
+    "distintos": 1290,
+    "pct_nulo": 6.2,
+    "min": 0.0707,
+    "max": 622.0,
+    "media": 4.029856943948604,
+    "mais_frequentes": "0.0707 (89), 1.34 (14), 1.1 (14)",
+    "amostra": "14.1 | 0.365 | 5.38 | 0.473 | 0.871"
+   },
+   {
+    "coluna": "URDOP1LC",
+    "tipo": "DOUBLE PRECISION",
+    "aceita_nulo": true,
+    "distintos": 2,
+    "pct_nulo": 6.2,
+    "min": 5.397605346934028e-79,
+    "max": 1.0,
+    "media": 0.0317743662977508,
+    "mais_frequentes": "5.397605346934028e-79 (2712), 1.0 (89)",
+    "amostra": "1.0 | 5.397605346934028e-79"
+   },
+   {
+    "coluna": "URXOP2",
+    "tipo": "DOUBLE PRECISION",
+    "aceita_nulo": true,
+    "distintos": 1263,
+    "pct_nulo": 6.1,
+    "min": 0.0707,
+    "max": 252.0,
+    "media": 5.129142796005711,
+    "mais_frequentes": "1.5 (14), 1.28 (14), 1.2 (13)",
+    "amostra": "14.1 | 0.945 | 0.473 | 5.38 | 5.33"
+   },
+   {
+    "coluna": "URDOP2LC",
+    "tipo": "DOUBLE PRECISION",
+    "aceita_nulo": true,
+    "distintos": 2,
+    "pct_nulo": 6.1,
+    "min": 5.397605346934028e-79,
+    "max": 1.0,
+    "media": 0.0042796005706134095,
+    "mais_frequentes": "5.397605346934028e-79 (2792), 1.0 (12)",
+    "amostra": "1.0 | 5.397605346934028e-79"
+   },
+   {
+    "coluna": "URXOP3",
+    "tipo": "DOUBLE PRECISION",
+    "aceita_nulo": true,
+    "distintos": 1236,
+    "pct_nulo": 6.23,
+    "min": 0.0707,
+    "max": 355.0,
+    "media": 2.948308571428586,
+    "mais_frequentes": "0.0707 (260), 1.04 (14), 1.2 (12)",
+    "amostra": "0.365 | 4.84 | 0.884 | 3.23 | 0.282"
+   },
+   {
+    "coluna": "URDOP3LC",
+    "tipo": "DOUBLE PRECISION",
+    "aceita_nulo": true,
+    "distintos": 2,
+    "pct_nulo": 6.23,
+    "min": 5.397605346934028e-79,
+    "max": 1.0,
+    "media": 0.09285714285714286,
+    "mais_frequentes": "5.397605346934028e-79 (2540), 1.0 (260)",
+    "amostra": "1.0 | 5.397605346934028e-79"
+   },
+   {
+    "coluna": "URXOP4",
+    "tipo": "DOUBLE PRECISION",
+    "aceita_nulo": true,
+    "distintos": 741,
+    "pct_nulo": 6.36,
+    "min": 0.0707,
+    "max": 34.0,
+    "media": 0.5198057939914116,
+    "mais_frequentes": "0.0707 (1150), 0.112 (14), 0.119 (11)",
+    "amostra": "1.15 | 2.11 | 0.975 | 0.804 | 0.8"
+   },
+   {
+    "coluna": "URDOP4LC",
+    "tipo": "DOUBLE PRECISION",
+    "aceita_nulo": true,
+    "distintos": 2,
+    "pct_nulo": 6.36,
+    "min": 5.397605346934028e-79,
+    "max": 1.0,
+    "media": 0.4113018597997139,
+    "mais_frequentes": "5.397605346934028e-79 (1646), 1.0 (1150)",
+    "amostra": "5.397605346934028e-79 | 1.0"
+   },
+   {
+    "coluna": "URXOP5",
+    "tipo": "DOUBLE PRECISION",
+    "aceita_nulo": true,
+    "distintos": 684,
+    "pct_nulo": 6.1,
+    "min": 0.0707,
+    "max": 175.0,
+    "media": 0.6088133380884393,
+    "mais_frequentes": "0.0707 (1328), 0.135 (13), 0.12 (12)",
+    "amostra": "0.8 | 5.62 | 1.68 | 0.427 | 0.365"
+   },
+   {
+    "coluna": "URDOP5LC",
+    "tipo": "DOUBLE PRECISION",
+    "aceita_nulo": true,
+    "distintos": 2,
+    "pct_nulo": 6.1,
+    "min": 5.397605346934028e-79,
+    "max": 1.0,
+    "media": 0.47360912981455067,
+    "mais_frequentes": "5.397605346934028e-79 (1476), 1.0 (1328)",
+    "amostra": "1.0 | 5.397605346934028e-79"
+   },
+   {
+    "coluna": "URXOP6",
+    "tipo": "DOUBLE PRECISION",
+    "aceita_nulo": true,
+    "distintos": 85,
+    "pct_nulo": 6.1,
+    "min": 0.0707,
+    "max": 1.27,
+    "media": 0.0767910485021361,
+    "mais_frequentes": "0.0707 (2693), 0.135 (4), 0.173 (3)",
+    "amostra": "0.27 | 0.198 | 0.131 | 0.19 | 0.287"
+   },
+   {
+    "coluna": "URDOP6LC",
+    "tipo": "DOUBLE PRECISION",
+    "aceita_nulo": true,
+    "distintos": 2,
+    "pct_nulo": 6.1,
+    "min": 5.397605346934028e-79,
+    "max": 1.0,
+    "media": 0.9604136947218259,
+    "mais_frequentes": "1.0 (2693), 5.397605346934028e-79 (111)",
+    "amostra": "5.397605346934028e-79 | 1.0"
+   }
+  ],
+  "amostra_linhas": [
+   {
+    "SEQN": 93706.0,
+    "WTSB2YR": 26027.047633,
+    "URXOP1": 0.219,
+    "URDOP1LC": 5.397605346934028e-79,
+    "URXOP2": 1.07,
+    "URDOP2LC": 5.397605346934028e-79,
+    "URXOP3": 0.113,
+    "URDOP3LC": 5.397605346934028e-79,
+    "URXOP4": 0.0707,
+    "URDOP4LC": 1.0,
+    "URXOP5": 0.147,
+    "URDOP5LC": 5.397605346934028e-79,
+    "URXOP6": 0.0707,
+    "URDOP6LC": 1.0
+   },
+   {
+    "SEQN": 93715.0,
+    "WTSB2YR": 28400.583165,
+    "URXOP1": 5.6,
+    "URDOP1LC": 5.397605346934028e-79,
+    "URXOP2": 4.79,
+    "URDOP2LC": 5.397605346934028e-79,
+    "URXOP3": 4.52,
+    "URDOP3LC": 5.397605346934028e-79,
+    "URXOP4": 0.51,
+    "URDOP4LC": 5.397605346934028e-79,
+    "URXOP5": 0.811,
+    "URDOP5LC": 5.397605346934028e-79,
+    "URXOP6": 0.0707,
+    "URDOP6LC": 1.0
+   },
+   {
+    "SEQN": 93717.0,
+    "WTSB2YR": 141021.884734,
+    "URXOP1": 0.554,
+    "URDOP1LC": 5.397605346934028e-79,
+    "URXOP2": 3.95,
+    "URDOP2LC": 5.397605346934028e-79,
+    "URXOP3": 0.696,
+    "URDOP3LC": 5.397605346934028e-79,
+    "URXOP4": 0.854,
+    "URDOP4LC": 5.397605346934028e-79,
+    "URXOP5": 0.121,
+    "URDOP5LC": 5.397605346934028e-79,
+    "URXOP6": 0.0707,
+    "URDOP6LC": 1.0
+   }
+  ]
+ },
+ "pool": [
+  {
+   "tema_id": "t0",
+   "texto": "Organofosfatos urinários"
+  },
+  {
+   "tema_id": "t1",
+   "texto": "peso amostral"
+  },
+  {
+   "tema_id": "t2",
+   "texto": "Biomonitoramento laboratorial"
+  },
+  {
+   "tema_id": "t3",
+   "texto": "pesos amostrais"
+  },
+  {
+   "tema_id": "t4",
+   "texto": "Exposição a pesticidas"
+  },
+  {
+   "tema_id": "t5",
+   "texto": "valores de creatinina"
+  },
+  {
+   "tema_id": "t6",
+   "texto": "medidas de peso corporal"
+  },
+  {
+   "tema_id": "t7",
+   "texto": "valores de uréia"
+  },
+  {
+   "tema_id": "t8",
+   "texto": "análise de dados laboratoriais"
+  },
+  {
+   "tema_id": "t9",
+   "texto": "Biomonitoramento populacional"
+  },
+  {
+   "tema_id": "t10",
+   "texto": "pesquisa de laboratório"
+  },
+  {
+   "tema_id": "t11",
+   "texto": "análise de opiáceos"
+  },
+  {
+   "tema_id": "t12",
+   "texto": "dados de urina"
+  },
+  {
+   "tema_id": "t13",
+   "texto": "análise de opióides"
+  }
+ ],
+ "listas": {
+  "Sistema A": {
+   "1": [
+    "Organofosfatos urinários",
+    "Exposição a pesticidas",
+    "Biomonitoramento populacional"
+   ],
+   "2": [
+    "Organofosfatos urinários",
+    "Exposição a pesticidas",
+    "Biomonitoramento populacional"
+   ],
+   "3": [
+    "Organofosfatos urinários",
+    "Exposição a pesticidas",
+    "Biomonitoramento laboratorial"
+   ]
+  },
+  "Sistema B": {
+   "1": [
+    "análise de dados laboratoriais",
+    "valores de uréia",
+    "valores de creatinina"
+   ],
+   "2": [
+    "análise de dados laboratoriais",
+    "valores de uréia",
+    "medidas de peso corporal"
+   ],
+   "3": [
+    "análise de dados laboratoriais",
+    "valores de uréia",
+    "medidas de peso corporal"
+   ]
+  },
+  "Sistema C": {
+   "1": [
+    "análise de opióides",
+    "pesquisa de laboratório",
+    "dados de urina"
+   ],
+   "2": [
+    "análise de opiáceos",
+    "pesquisa de laboratório",
+    "pesos amostrais"
+   ],
+   "3": [
+    "análise de opióides",
+    "pesquisa de laboratório",
+    "peso amostral"
+   ]
+  }
+ }
+}

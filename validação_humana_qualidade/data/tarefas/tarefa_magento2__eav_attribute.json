@@ -1,0 +1,388 @@
+{
+ "item_id": "magento2__eav_attribute",
+ "table_key": "magento2.eav_attribute",
+ "base": "magento2",
+ "piloto": false,
+ "contexto": {
+  "tabela": "eav_attribute",
+  "linhas": 382,
+  "pk": [
+   "attribute_id"
+  ],
+  "fks": [
+   "entity_type_id -> eav_entity_type(entity_type_id)"
+  ],
+  "colunas": [
+   {
+    "coluna": "attribute_id",
+    "tipo": "SMALLINT",
+    "aceita_nulo": false,
+    "distintos": 382,
+    "pct_nulo": 0.0,
+    "min": 1.0,
+    "max": 963.0,
+    "media": 589.445,
+    "mais_frequentes": "",
+    "amostra": "831 | 926 | 477 | 7 | 8"
+   },
+   {
+    "coluna": "entity_type_id",
+    "tipo": "SMALLINT",
+    "aceita_nulo": false,
+    "distintos": 10,
+    "pct_nulo": 0.0,
+    "min": 1.0,
+    "max": 28.0,
+    "media": 10.4895,
+    "mais_frequentes": "4 (122), 10 (84), 18 (37)",
+    "amostra": "1 | 2 | 4 | 9 | 10"
+   },
+   {
+    "coluna": "attribute_code",
+    "tipo": "VARCHAR(255)",
+    "aceita_nulo": true,
+    "distintos": 280,
+    "pct_nulo": 0.0,
+    "min": null,
+    "max": null,
+    "media": null,
+    "mais_frequentes": "",
+    "amostra": "confirmation | created_at | created_in | default_billing | default_shipping"
+   },
+   {
+    "coluna": "attribute_model",
+    "tipo": "VARCHAR(255)",
+    "aceita_nulo": true,
+    "distintos": 0,
+    "pct_nulo": 100.0,
+    "min": null,
+    "max": null,
+    "media": null,
+    "mais_frequentes": "",
+    "amostra": ""
+   },
+   {
+    "coluna": "backend_model",
+    "tipo": "VARCHAR(255)",
+    "aceita_nulo": true,
+    "distintos": 25,
+    "pct_nulo": 30.89,
+    "min": null,
+    "max": null,
+    "media": null,
+    "mais_frequentes": " (227), Magento\\Eav\\Model\\Entity\\Attribute\\Backend\\Datetime (6), Magento\\Catalog\\Model\\Product\\Attribute\\Backend\\Price (4)",
+    "amostra": "Magento\\Customer\\Model\\Customer\\Attribute\\Backend\\Password | Magento\\Customer\\Model\\Customer\\Attribute\\Backend\\Billing | Magento\\Customer\\Model\\Customer\\Attribute\\Backend\\Shipping | Magento\\Customer\\Model\\Resource\\Address\\Attribute\\Backend\\Region | Magento\\Eav\\Model\\Entity\\Attribute\\Backend\\DefaultBackend"
+   },
+   {
+    "coluna": "backend_type",
+    "tipo": "VARCHAR(8)",
+    "aceita_nulo": false,
+    "distintos": 6,
+    "pct_nulo": 0.0,
+    "min": null,
+    "max": null,
+    "media": null,
+    "mais_frequentes": "varchar (117), static (84), int (79)",
+    "amostra": "varchar | static | int | text | decimal"
+   },
+   {
+    "coluna": "backend_table",
+    "tipo": "VARCHAR(255)",
+    "aceita_nulo": true,
+    "distintos": 1,
+    "pct_nulo": 40.31,
+    "min": null,
+    "max": null,
+    "media": null,
+    "mais_frequentes": " (228)",
+    "amostra": ""
+   },
+   {
+    "coluna": "frontend_model",
+    "tipo": "VARCHAR(255)",
+    "aceita_nulo": true,
+    "distintos": 3,
+    "pct_nulo": 39.27,
+    "min": null,
+    "max": null,
+    "media": null,
+    "mais_frequentes": " (228), Magento\\Catalog\\Model\\Product\\Attribute\\Frontend\\Image (3), Magento\\Eav\\Model\\Entity\\Attribute\\Frontend\\Datetime (1)",
+    "amostra": "Magento\\Catalog\\Model\\Product\\Attribute\\Frontend\\Image |  | Magento\\Eav\\Model\\Entity\\Attribute\\Frontend\\Datetime"
+   },
+   {
+    "coluna": "frontend_input",
+    "tipo": "VARCHAR(50)",
+    "aceita_nulo": true,
+    "distintos": 14,
+    "pct_nulo": 1.57,
+    "min": null,
+    "max": null,
+    "media": null,
+    "mais_frequentes": "text (289), select (38), textarea (12)",
+    "amostra": "text | hidden | select | multiline | textarea"
+   },
+   {
+    "coluna": "frontend_label",
+    "tipo": "VARCHAR(255)",
+    "aceita_nulo": true,
+    "distintos": 122,
+    "pct_nulo": 6.02,
+    "min": null,
+    "max": null,
+    "media": null,
+    "mais_frequentes": " (221), First Name (2), Last Name (2)",
+    "amostra": "First Name | Last Name | Email | Default Billing Address | Default Shipping Address"
+   },
+   {
+    "coluna": "frontend_class",
+    "tipo": "VARCHAR(255)",
+    "aceita_nulo": true,
+    "distintos": 5,
+    "pct_nulo": 92.67,
+    "min": null,
+    "max": null,
+    "media": null,
+    "mais_frequentes": " (24), validate-email (1), countries input-text (1)",
+    "amostra": "validate-email | countries input-text | regions | validate-length maximum-length-255 | "
+   },
+   {
+    "coluna": "source_model",
+    "tipo": "VARCHAR(255)",
+    "aceita_nulo": true,
+    "distintos": 22,
+    "pct_nulo": 30.1,
+    "min": null,
+    "max": null,
+    "media": null,
+    "mais_frequentes": " (230), Magento\\Eav\\Model\\Entity\\Attribute\\Source\\Table (9), Magento\\Eav\\Model\\Entity\\Attribute\\Source\\Boolean (7)",
+    "amostra": "Magento\\Customer\\Model\\Resource\\Address\\Attribute\\Source\\Country | Magento\\Customer\\Model\\Resource\\Address\\Attribute\\Source\\Region | Magento\\Eav\\Model\\Entity\\Attribute\\Source\\Table | Magento\\Catalog\\Model\\Category\\Attribute\\Source\\Page | Magento\\Catalog\\Model\\Category\\Attribute\\Source\\Mode"
+   },
+   {
+    "coluna": "is_required",
+    "tipo": "SMALLINT",
+    "aceita_nulo": false,
+    "distintos": 2,
+    "pct_nulo": 0.0,
+    "min": 0.0,
+    "max": 1.0,
+    "media": 0.6728,
+    "mais_frequentes": "1 (257), 0 (125)",
+    "amostra": "1 | 0"
+   },
+   {
+    "coluna": "is_user_defined",
+    "tipo": "SMALLINT",
+    "aceita_nulo": false,
+    "distintos": 2,
+    "pct_nulo": 0.0,
+    "min": 0.0,
+    "max": 1.0,
+    "media": 0.0707,
+    "mais_frequentes": "0 (355), 1 (27)",
+    "amostra": "0 | 1"
+   },
+   {
+    "coluna": "default_value",
+    "tipo": "TEXT",
+    "aceita_nulo": true,
+    "distintos": 6,
+    "pct_nulo": 36.13,
+    "min": null,
+    "max": null,
+    "media": null,
+    "mais_frequentes": " (236), 1 (3), 0 (2)",
+    "amostra": " | 1 | 2 | 4 | container2"
+   },
+   {
+    "coluna": "is_unique",
+    "tipo": "SMALLINT",
+    "aceita_nulo": false,
+    "distintos": 2,
+    "pct_nulo": 0.0,
+    "min": 0.0,
+    "max": 1.0,
+    "media": 0.0026,
+    "mais_frequentes": "0 (381), 1 (1)",
+    "amostra": "0 | 1"
+   },
+   {
+    "coluna": "note",
+    "tipo": "VARCHAR(255)",
+    "aceita_nulo": true,
+    "distintos": 3,
+    "pct_nulo": 32.46,
+    "min": null,
+    "max": null,
+    "media": null,
+    "mais_frequentes": " (256), Maximum 255 chars (1), Products with recurring payment participate in catalog as nominal items. (1)",
+    "amostra": "Maximum 255 chars |  | Products with recurring payment participate in catalog as nominal items."
+   }
+  ],
+  "amostra_linhas": [
+   {
+    "attribute_id": 1,
+    "entity_type_id": 1,
+    "attribute_code": "firstname",
+    "attribute_model": null,
+    "backend_model": null,
+    "backend_type": "varchar",
+    "backend_table": null,
+    "frontend_model": null,
+    "frontend_input": "text",
+    "frontend_label": "First Name",
+    "frontend_class": null,
+    "source_model": null,
+    "is_required": 1,
+    "is_user_defined": 0,
+    "default_value": null,
+    "is_unique": 0,
+    "note": null
+   },
+   {
+    "attribute_id": 2,
+    "entity_type_id": 1,
+    "attribute_code": "lastname",
+    "attribute_model": null,
+    "backend_model": null,
+    "backend_type": "varchar",
+    "backend_table": null,
+    "frontend_model": null,
+    "frontend_input": "text",
+    "frontend_label": "Last Name",
+    "frontend_class": null,
+    "source_model": null,
+    "is_required": 1,
+    "is_user_defined": 0,
+    "default_value": null,
+    "is_unique": 0,
+    "note": null
+   },
+   {
+    "attribute_id": 3,
+    "entity_type_id": 1,
+    "attribute_code": "email",
+    "attribute_model": null,
+    "backend_model": null,
+    "backend_type": "static",
+    "backend_table": null,
+    "frontend_model": null,
+    "frontend_input": "text",
+    "frontend_label": "Email",
+    "frontend_class": "validate-email",
+    "source_model": null,
+    "is_required": 1,
+    "is_user_defined": 0,
+    "default_value": null,
+    "is_unique": 0,
+    "note": null
+   }
+  ]
+ },
+ "pool": [
+  {
+   "tema_id": "t0",
+   "texto": "modelo de entidade e atributo"
+  },
+  {
+   "tema_id": "t1",
+   "texto": "Modelo de atributos EAV"
+  },
+  {
+   "tema_id": "t2",
+   "texto": "configuração de atributos de cliente"
+  },
+  {
+   "tema_id": "t3",
+   "texto": "Modelagem de atributos EAV"
+  },
+  {
+   "tema_id": "t4",
+   "texto": "tipos de entrada frontend"
+  },
+  {
+   "tema_id": "t5",
+   "texto": "modelos de backend"
+  },
+  {
+   "tema_id": "t6",
+   "texto": "Cadastro de clientes"
+  },
+  {
+   "tema_id": "t7",
+   "texto": "definição de atributos EAV"
+  },
+  {
+   "tema_id": "t8",
+   "texto": "definição de campos EAV"
+  },
+  {
+   "tema_id": "t9",
+   "texto": "definição de campos"
+  },
+  {
+   "tema_id": "t10",
+   "texto": "Catálogo de produtos"
+  },
+  {
+   "tema_id": "t11",
+   "texto": "configuração de cadastro"
+  },
+  {
+   "tema_id": "t12",
+   "texto": "atributos de entidade"
+  }
+ ],
+ "listas": {
+  "Sistema A": {
+   "1": [
+    "definição de atributos EAV",
+    "modelo de entidade e atributo",
+    "configuração de atributos de cliente"
+   ],
+   "2": [
+    "Modelo de atributos EAV",
+    "Cadastro de clientes",
+    "Catálogo de produtos"
+   ],
+   "3": [
+    "Modelagem de atributos EAV",
+    "Cadastro de clientes",
+    "Catálogo de produtos"
+   ]
+  },
+  "Sistema B": {
+   "1": [
+    "atributos de entidade",
+    "definição de campos EAV",
+    "configuração de cadastro"
+   ],
+   "2": [
+    "atributos de entidade",
+    "definição de campos",
+    "configuração de cadastro"
+   ],
+   "3": [
+    "atributos de entidade",
+    "definição de campos EAV",
+    "configuração de cadastro"
+   ]
+  },
+  "Sistema C": {
+   "1": [
+    "atributos de entidade",
+    "modelos de backend",
+    "tipos de entrada frontend"
+   ],
+   "2": [
+    "atributos de entidade",
+    "modelos de backend",
+    "tipos de entrada frontend"
+   ],
+   "3": [
+    "atributos de entidade",
+    "modelos de backend",
+    "tipos de entrada frontend"
+   ]
+  }
+ }
+}

@@ -1,0 +1,165 @@
+{
+ "item_id": "teixeira__rl_cds_atend_individual_ciap",
+ "table_key": "public.rl_cds_atend_individual_ciap",
+ "base": "teixeira",
+ "piloto": false,
+ "contexto": {
+  "tabela": "rl_cds_atend_individual_ciap",
+  "linhas": 44070,
+  "pk": [
+   "co_cds_atend_individual",
+   "co_ciap"
+  ],
+  "fks": [
+   "co_cds_atend_individual -> tb_cds_atend_individual(co_seq_cds_atend_individual)",
+   "co_ciap -> tb_ciap(co_seq_ciap)"
+  ],
+  "colunas": [
+   {
+    "coluna": "co_cds_atend_individual",
+    "tipo": "BIGINT",
+    "aceita_nulo": false,
+    "distintos": 39010,
+    "pct_nulo": 0.0,
+    "min": 1.0,
+    "max": 63659.0,
+    "media": 23457.387519854776,
+    "mais_frequentes": "",
+    "amostra": "1 | 2 | 3 | 4 | 5"
+   },
+   {
+    "coluna": "co_ciap",
+    "tipo": "BIGINT",
+    "aceita_nulo": false,
+    "distintos": 508,
+    "pct_nulo": 0.0,
+    "min": 3.0,
+    "max": 749.0,
+    "media": 665.2281143635126,
+    "mais_frequentes": "731 (7820), 740 (7332), 741 (6113)",
+    "amostra": "3 | 4 | 5 | 7 | 8"
+   }
+  ],
+  "amostra_linhas": [
+   {
+    "co_cds_atend_individual": 1,
+    "co_ciap": 731
+   },
+   {
+    "co_cds_atend_individual": 2,
+    "co_ciap": 106
+   },
+   {
+    "co_cds_atend_individual": 3,
+    "co_ciap": 740
+   }
+  ]
+ },
+ "pool": [
+  {
+   "tema_id": "t0",
+   "texto": "Atendimento Saúde"
+  },
+  {
+   "tema_id": "t1",
+   "texto": "Análise de Dados de Saúde"
+  },
+  {
+   "tema_id": "t2",
+   "texto": "Atendimento"
+  },
+  {
+   "tema_id": "t3",
+   "texto": "Associação Diagnóstica"
+  },
+  {
+   "tema_id": "t4",
+   "texto": "Saúde"
+  },
+  {
+   "tema_id": "t5",
+   "texto": "Procedimentos CIAP"
+  },
+  {
+   "tema_id": "t6",
+   "texto": "Atendimentos Individuais"
+  },
+  {
+   "tema_id": "t7",
+   "texto": "Classificação Internacional"
+  },
+  {
+   "tema_id": "t8",
+   "texto": "Diagnóstico"
+  },
+  {
+   "tema_id": "t9",
+   "texto": "Procedimentos Clínicos"
+  },
+  {
+   "tema_id": "t10",
+   "texto": "Classificação CIAP"
+  },
+  {
+   "tema_id": "t11",
+   "texto": "Saúde pública"
+  },
+  {
+   "tema_id": "t12",
+   "texto": "Atendimento individual"
+  }
+ ],
+ "listas": {
+  "Sistema A": {
+   "1": [
+    "Atendimentos Individuais",
+    "Classificação CIAP",
+    "Análise de Dados de Saúde"
+   ],
+   "2": [
+    "Atendimentos Individuais",
+    "Classificação CIAP",
+    "Análise de Dados de Saúde"
+   ],
+   "3": [
+    "Atendimentos Individuais",
+    "Classificação CIAP",
+    "Análise de Dados de Saúde"
+   ]
+  },
+  "Sistema B": {
+   "1": [
+    "Atendimento individual",
+    "Classificação CIAP",
+    "Saúde pública"
+   ],
+   "2": [
+    "Saúde",
+    "Atendimento",
+    "Diagnóstico"
+   ],
+   "3": [
+    "Atendimento Individual",
+    "Classificação CIAP",
+    "Saúde Pública"
+   ]
+  },
+  "Sistema C": {
+   "1": [
+    "Atendimento Saúde",
+    "Procedimentos Clínicos",
+    "Classificação Internacional"
+   ],
+   "2": [
+    "Atendimento Saúde",
+    "Procedimentos CIAP",
+    "Associação Diagnóstica"
+   ],
+   "3": [
+    "Atendimento Saúde",
+    "Classificação Internacional",
+    "Procedimentos Clínicos"
+   ]
+  }
+ }
+}

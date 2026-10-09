@@ -1,0 +1,172 @@
+{
+ "item_id": "teixeira__rl_antecedente_ciap",
+ "table_key": "public.rl_antecedente_ciap",
+ "base": "teixeira",
+ "piloto": false,
+ "contexto": {
+  "tabela": "rl_antecedente_ciap",
+  "linhas": 45,
+  "pk": [
+   "co_prontuario",
+   "co_ciap"
+  ],
+  "fks": [
+   "co_prontuario -> tb_antecedente(co_prontuario)",
+   "co_ciap -> tb_ciap(co_seq_ciap)"
+  ],
+  "colunas": [
+   {
+    "coluna": "co_prontuario",
+    "tipo": "BIGINT",
+    "aceita_nulo": false,
+    "distintos": 27,
+    "pct_nulo": 0.0,
+    "min": 1749.0,
+    "max": 28555.0,
+    "media": 16930.666666666668,
+    "mais_frequentes": "",
+    "amostra": "<anonimizado> | <anonimizado> | <anonimizado> | <anonimizado> | <anonimizado>"
+   },
+   {
+    "coluna": "co_ciap",
+    "tipo": "BIGINT",
+    "aceita_nulo": false,
+    "distintos": 5,
+    "pct_nulo": 0.0,
+    "min": 31.0,
+    "max": 477.0,
+    "media": 261.6,
+    "mais_frequentes": "178 (25), 477 (11), 182 (6)",
+    "amostra": "178 | 476 | 477 | 182 | 31"
+   },
+   {
+    "coluna": "ds_observacao",
+    "tipo": "VARCHAR(400)",
+    "aceita_nulo": true,
+    "distintos": 0,
+    "pct_nulo": 100.0,
+    "min": null,
+    "max": null,
+    "media": null,
+    "mais_frequentes": "",
+    "amostra": ""
+   }
+  ],
+  "amostra_linhas": [
+   {
+    "co_prontuario": "<anonimizado>",
+    "co_ciap": 178,
+    "ds_observacao": null
+   },
+   {
+    "co_prontuario": "<anonimizado>",
+    "co_ciap": 31,
+    "ds_observacao": null
+   },
+   {
+    "co_prontuario": "<anonimizado>",
+    "co_ciap": 178,
+    "ds_observacao": null
+   }
+  ]
+ },
+ "pool": [
+  {
+   "tema_id": "t0",
+   "texto": "Antecedentes médicos"
+  },
+  {
+   "tema_id": "t1",
+   "texto": "Associação de Pacientes"
+  },
+  {
+   "tema_id": "t2",
+   "texto": "Prontuários de pacientes"
+  },
+  {
+   "tema_id": "t3",
+   "texto": "Diagnóstico"
+  },
+  {
+   "tema_id": "t4",
+   "texto": "Saúde"
+  },
+  {
+   "tema_id": "t5",
+   "texto": "Prontuário Médico"
+  },
+  {
+   "tema_id": "t6",
+   "texto": "Classificação de Doenças"
+  },
+  {
+   "tema_id": "t7",
+   "texto": "Classificação CIAP"
+  },
+  {
+   "tema_id": "t8",
+   "texto": "Histórico médico"
+  },
+  {
+   "tema_id": "t9",
+   "texto": "Relação paciente-diagnóstico"
+  },
+  {
+   "tema_id": "t10",
+   "texto": "Histórico de Saúde"
+  }
+ ],
+ "listas": {
+  "Sistema A": {
+   "1": [
+    "Saúde",
+    "Diagnóstico",
+    "Prontuário Médico"
+   ],
+   "2": [
+    "Saúde",
+    "Diagnóstico",
+    "Prontuário Médico"
+   ],
+   "3": [
+    "Saúde",
+    "Diagnóstico",
+    "Prontuário Médico"
+   ]
+  },
+  "Sistema B": {
+   "1": [
+    "Antecedentes médicos",
+    "Classificação CIAP",
+    "Prontuários de pacientes"
+   ],
+   "2": [
+    "Antecedentes médicos",
+    "Classificação CIAP",
+    "Prontuários de pacientes"
+   ],
+   "3": [
+    "Antecedentes médicos",
+    "Classificação CIAP",
+    "Prontuários de pacientes"
+   ]
+  },
+  "Sistema C": {
+   "1": [
+    "Histórico de Saúde",
+    "Classificação de Doenças",
+    "Associação de Pacientes"
+   ],
+   "2": [
+    "Histórico médico",
+    "Classificação CIAP",
+    "Relação paciente-diagnóstico"
+   ],
+   "3": [
+    "Histórico médico",
+    "Classificação CIAP",
+    "Relação paciente-diagnóstico"
+   ]
+  }
+ }
+}

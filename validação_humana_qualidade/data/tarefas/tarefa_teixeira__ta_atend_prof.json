@@ -1,0 +1,569 @@
+{
+ "item_id": "teixeira__ta_atend_prof",
+ "table_key": "public.ta_atend_prof",
+ "base": "teixeira",
+ "piloto": false,
+ "contexto": {
+  "tabela": "ta_atend_prof",
+  "linhas": 1064709,
+  "pk": [
+   "co_seq_taatendprof"
+  ],
+  "fks": [],
+  "colunas": [
+   {
+    "coluna": "co_seq_taatendprof",
+    "tipo": "BIGINT",
+    "aceita_nulo": false,
+    "distintos": 1064709,
+    "pct_nulo": 0.0,
+    "min": 1.0,
+    "max": 1065673.0,
+    "media": 532999.002980157,
+    "mais_frequentes": "",
+    "amostra": "1 | 2 | 3 | 4 | 5"
+   },
+   {
+    "coluna": "co_tipo_auditoria",
+    "tipo": "CHAR(1)",
+    "aceita_nulo": false,
+    "distintos": 3,
+    "pct_nulo": 0.0,
+    "min": null,
+    "max": null,
+    "media": null,
+    "mais_frequentes": "U (744595), I (299602), D (20512)",
+    "amostra": "D | U | I"
+   },
+   {
+    "coluna": "dt_auditoria",
+    "tipo": "TIMESTAMP",
+    "aceita_nulo": false,
+    "distintos": 637966,
+    "pct_nulo": 0.0,
+    "min": null,
+    "max": null,
+    "media": null,
+    "mais_frequentes": "",
+    "amostra": "2022-09-17 00:02:55.582926 | 2022-09-17 00:03:02.805010 | 2022-09-17 00:03:08.776036 | 2022-09-17 00:03:14.784249 | 2022-09-17 00:03:18.017956"
+   },
+   {
+    "coluna": "co_seq_atend_prof",
+    "tipo": "BIGINT",
+    "aceita_nulo": true,
+    "distintos": 299878,
+    "pct_nulo": 0.0,
+    "min": 24012.0,
+    "max": 426560.0,
+    "media": 273826.1049704661,
+    "mais_frequentes": "329302 (22), 241408 (22), 323533 (20)",
+    "amostra": "24012 | 24014 | 24017 | 24019 | 24021"
+   },
+   {
+    "coluna": "dt_fim",
+    "tipo": "TIMESTAMP",
+    "aceita_nulo": true,
+    "distintos": 280123,
+    "pct_nulo": 30.06,
+    "min": null,
+    "max": null,
+    "media": null,
+    "mais_frequentes": "2025-06-02 08:00:00 (45), 2025-05-13 10:00:00 (42), 2025-05-30 08:00:00 (30)",
+    "amostra": "2020-02-19 13:50:34.657000 | 2020-02-19 13:56:03.666000 | 2020-02-19 13:58:43.451000 | 2020-02-19 14:01:17.965000 | 2020-02-19 14:03:35.809000"
+   },
+   {
+    "coluna": "dt_inicio",
+    "tipo": "TIMESTAMP",
+    "aceita_nulo": true,
+    "distintos": 299527,
+    "pct_nulo": 0.0,
+    "min": null,
+    "max": null,
+    "media": null,
+    "mais_frequentes": "2025-05-13 10:00:00 (62), 2025-06-02 08:00:00 (60), 2025-05-30 08:00:00 (40)",
+    "amostra": "2020-02-19 13:49:02.072000 | 2020-02-19 13:53:12.111000 | 2020-02-19 13:56:36.229000 | 2020-02-19 14:00:33.403000 | 2020-02-19 14:02:57.944000"
+   },
+   {
+    "coluna": "co_atend",
+    "tipo": "BIGINT",
+    "aceita_nulo": true,
+    "distintos": 188465,
+    "pct_nulo": 0.0,
+    "min": 13324.0,
+    "max": 296073.0,
+    "media": 203042.0322989662,
+    "mais_frequentes": "272382 (101), 245834 (87), 212961 (78)",
+    "amostra": "13324 | 13325 | 13327 | 13328 | 13329"
+   },
+   {
+    "coluna": "co_atend_prof_tipo_encam_intrn",
+    "tipo": "BIGINT",
+    "aceita_nulo": true,
+    "distintos": 273,
+    "pct_nulo": 99.96,
+    "min": 23920.0,
+    "max": 118500.0,
+    "media": 39795.38413361169,
+    "mais_frequentes": "23922 (2), 23925 (2), 23927 (2)",
+    "amostra": "23920 | 23922 | 23925 | 23927 | 23929"
+   },
+   {
+    "coluna": "co_lotacao",
+    "tipo": "BIGINT",
+    "aceita_nulo": true,
+    "distintos": 392,
+    "pct_nulo": 0.0,
+    "min": 22.0,
+    "max": 14984.0,
+    "media": 8736.618131339173,
+    "mais_frequentes": "9434 (31329), 8431 (26345), 7731 (24582)",
+    "amostra": "12082 | 11534 | 12831 | 14131 | 11184"
+   },
+   {
+    "coluna": "tp_atend_prof",
+    "tipo": "BIGINT",
+    "aceita_nulo": true,
+    "distintos": 9,
+    "pct_nulo": 0.0,
+    "min": 1.0,
+    "max": 14.0,
+    "media": 3.2313233005450317,
+    "mais_frequentes": "1 (581684), 2 (232693), 10 (97744)",
+    "amostra": "6 | 14 | 8 | 12 | 2"
+   },
+   {
+    "coluna": "st_atend_prof",
+    "tipo": "BIGINT",
+    "aceita_nulo": true,
+    "distintos": 2,
+    "pct_nulo": 0.0,
+    "min": 1.0,
+    "max": 2.0,
+    "media": 1.6967838160473896,
+    "mais_frequentes": "2 (741872), 1 (322837)",
+    "amostra": "2 | 1"
+   },
+   {
+    "coluna": "st_atend_enviado",
+    "tipo": "INTEGER",
+    "aceita_nulo": true,
+    "distintos": 2,
+    "pct_nulo": 0.0,
+    "min": 0.0,
+    "max": 1.0,
+    "media": 0.25930935119361254,
+    "mais_frequentes": "0 (788620), 1 (276089)",
+    "amostra": "0 | 1"
+   },
+   {
+    "coluna": "co_unico_ad_cidadao",
+    "tipo": "BIGINT",
+    "aceita_nulo": true,
+    "distintos": 0,
+    "pct_nulo": 100.0,
+    "min": null,
+    "max": null,
+    "media": null,
+    "mais_frequentes": "",
+    "amostra": ""
+   },
+   {
+    "coluna": "co_classificacao_risco",
+    "tipo": "BIGINT",
+    "aceita_nulo": true,
+    "distintos": 4,
+    "pct_nulo": 85.94,
+    "min": 6.0,
+    "max": 9.0,
+    "media": 7.863135321468655,
+    "mais_frequentes": "9 (87857), 6 (47588), 7 (13168)",
+    "amostra": "6 | 9 | 7 | 8"
+   },
+   {
+    "coluna": "co_unico_atend_prof",
+    "tipo": "VARCHAR(96)",
+    "aceita_nulo": true,
+    "distintos": 299878,
+    "pct_nulo": 0.0,
+    "min": null,
+    "max": null,
+    "media": null,
+    "mais_frequentes": "2321556-f788bfd8-938d-4215-8dbd-1a537b3f106d (22), 2321556-4b787f19-f461-4993-809c-760c32be951d (22), 2321556-a5755716-0325-4ba0-8560-bb0b6c658bea (20)",
+    "amostra": "0849731-000656e0-07d5-4f0b-a7aa-5ef182a8274d | 0849731-0006e313-1428-4d18-acc4-8adbe26230bd | 0849731-0007f369-7206-42f8-8edd-cc210e88a4e0 | 0849731-00106b89-4446-4afe-861e-7c75ae916711 | 0849731-001e7f9c-8883-4d32-a875-476c1a72a9ed"
+   },
+   {
+    "coluna": "tp_atend",
+    "tipo": "BIGINT",
+    "aceita_nulo": true,
+    "distintos": 4,
+    "pct_nulo": 69.15,
+    "min": 1.0,
+    "max": 6.0,
+    "media": 4.90977885332481,
+    "mais_frequentes": "5 (312097), 6 (6170), 2 (5183)",
+    "amostra": "6 | 2 | 1 | 5"
+   },
+   {
+    "coluna": "nu_conselho_classe",
+    "tipo": "VARCHAR(100)",
+    "aceita_nulo": true,
+    "distintos": 270,
+    "pct_nulo": 0.54,
+    "min": null,
+    "max": null,
+    "media": null,
+    "mais_frequentes": "15029 (37106), 15848 (28803), 15695 (28696)",
+    "amostra": "15361 | 0015029 | 14453 | 18321 | 812188"
+   },
+   {
+    "coluna": "co_uf_emissora_conselho_classe",
+    "tipo": "BIGINT",
+    "aceita_nulo": true,
+    "distintos": 5,
+    "pct_nulo": 0.54,
+    "min": 6.0,
+    "max": 25.0,
+    "media": 15.053749215028024,
+    "mais_frequentes": "15 (1046052), 17 (5732), 20 (4913)",
+    "amostra": "6 | 20 | 25 | 17 | 15"
+   },
+   {
+    "coluna": "co_conselho_classe",
+    "tipo": "BIGINT",
+    "aceita_nulo": true,
+    "distintos": 8,
+    "pct_nulo": 0.54,
+    "min": 62.0,
+    "max": 77.0,
+    "media": 68.95685463499393,
+    "mais_frequentes": "66 (509619), 71 (442996), 75 (73197)",
+    "amostra": "70 | 75 | 62 | 71 | 69"
+   },
+   {
+    "coluna": "ds_versao_ficha",
+    "tipo": "VARCHAR(30)",
+    "aceita_nulo": true,
+    "distintos": 40,
+    "pct_nulo": 0.0,
+    "min": null,
+    "max": null,
+    "media": null,
+    "mais_frequentes": "5.6.4 (155900), 5.0.6 (101639), 6.3.3 (74460)",
+    "amostra": "6.3.9 | 4.1.2 | 7.2.3 | 4.3.7 | 4.1.5"
+   },
+   {
+    "coluna": "co_racionalidade_saude",
+    "tipo": "BIGINT",
+    "aceita_nulo": true,
+    "distintos": 0,
+    "pct_nulo": 100.0,
+    "min": null,
+    "max": null,
+    "media": null,
+    "mais_frequentes": "",
+    "amostra": ""
+   },
+   {
+    "coluna": "co_lotacao_atend_compartilhado",
+    "tipo": "BIGINT",
+    "aceita_nulo": true,
+    "distintos": 166,
+    "pct_nulo": 97.96,
+    "min": 22.0,
+    "max": 14881.0,
+    "media": 5933.2177679476545,
+    "mais_frequentes": "4466 (4513), 6638 (3346), 5331 (2960)",
+    "amostra": "11385 | 12831 | 14733 | 9183 | 11645"
+   },
+   {
+    "coluna": "st_registro_historico",
+    "tipo": "INTEGER",
+    "aceita_nulo": true,
+    "distintos": 2,
+    "pct_nulo": 0.0,
+    "min": 0.0,
+    "max": 1.0,
+    "media": 0.9999520995877746,
+    "mais_frequentes": "1 (1064658), 0 (51)",
+    "amostra": "0 | 1"
+   },
+   {
+    "coluna": "nu_revisao",
+    "tipo": "INTEGER",
+    "aceita_nulo": true,
+    "distintos": 1,
+    "pct_nulo": 98.33,
+    "min": 1.0,
+    "max": 1.0,
+    "media": 1.0,
+    "mais_frequentes": "1 (17736)",
+    "amostra": "1"
+   },
+   {
+    "coluna": "st_cancelado",
+    "tipo": "INTEGER",
+    "aceita_nulo": true,
+    "distintos": 2,
+    "pct_nulo": 0.0,
+    "min": 0.0,
+    "max": 1.0,
+    "media": 0.00011458529983309995,
+    "mais_frequentes": "0 (1064587), 1 (122)",
+    "amostra": "0 | 1"
+   },
+   {
+    "coluna": "co_estagio",
+    "tipo": "BIGINT",
+    "aceita_nulo": true,
+    "distintos": 0,
+    "pct_nulo": 100.0,
+    "min": null,
+    "max": null,
+    "media": null,
+    "mais_frequentes": "",
+    "amostra": ""
+   },
+   {
+    "coluna": "co_marcador_consumo_alim",
+    "tipo": "BIGINT",
+    "aceita_nulo": true,
+    "distintos": 1119,
+    "pct_nulo": 99.79,
+    "min": 1.0,
+    "max": 1124.0,
+    "media": 554.6760500446827,
+    "mais_frequentes": "131 (4), 153 (4), 233 (3)",
+    "amostra": "1 | 2 | 3 | 4 | 5"
+   },
+   {
+    "coluna": "tp_participacao_cidadao",
+    "tipo": "BIGINT",
+    "aceita_nulo": true,
+    "distintos": 6,
+    "pct_nulo": 84.62,
+    "min": 1.0,
+    "max": 7.0,
+    "media": 2.0035551971851633,
+    "mais_frequentes": "<anonimizado> (163137), <anonimizado> (306), <anonimizado> (112)",
+    "amostra": "<anonimizado> | <anonimizado> | <anonimizado> | <anonimizado> | <anonimizado>"
+   },
+   {
+    "coluna": "tp_participacao_prof_convidado",
+    "tipo": "BIGINT",
+    "aceita_nulo": true,
+    "distintos": 5,
+    "pct_nulo": 84.62,
+    "min": 1.0,
+    "max": 7.0,
+    "media": 1.0570786297219372,
+    "mais_frequentes": "1 (154666), 2 (8963), 6 (66)",
+    "amostra": "6 | 1 | 2 | 7 | 4"
+   },
+   {
+    "coluna": "co_assinatura_eletronica_atend",
+    "tipo": "BIGINT",
+    "aceita_nulo": true,
+    "distintos": 0,
+    "pct_nulo": 100.0,
+    "min": null,
+    "max": null,
+    "media": null,
+    "mais_frequentes": "",
+    "amostra": ""
+   }
+  ],
+  "amostra_linhas": [
+   {
+    "co_seq_taatendprof": 1,
+    "co_tipo_auditoria": "U",
+    "dt_auditoria": "2022-09-17 00:02:55.582926",
+    "co_seq_atend_prof": 126638,
+    "dt_fim": "2022-09-16 08:19:41.075000",
+    "dt_inicio": "2022-09-16 08:19:14.634000",
+    "co_atend": 98836,
+    "co_atend_prof_tipo_encam_intrn": 118434,
+    "co_lotacao": 4469,
+    "tp_atend_prof": 2,
+    "st_atend_prof": 2,
+    "st_atend_enviado": 1,
+    "co_unico_ad_cidadao": "<anonimizado>",
+    "co_classificacao_risco": 9.0,
+    "co_unico_atend_prof": "7407939-bbed4742-fefc-425a-83b7-b92713a55b16",
+    "tp_atend": NaN,
+    "nu_conselho_classe": "656527",
+    "co_uf_emissora_conselho_classe": 15,
+    "co_conselho_classe": 74,
+    "ds_versao_ficha": "4.3.6",
+    "co_racionalidade_saude": null,
+    "co_lotacao_atend_compartilhado": null,
+    "st_registro_historico": 1,
+    "nu_revisao": null,
+    "st_cancelado": 0,
+    "co_estagio": null,
+    "co_marcador_consumo_alim": null,
+    "tp_participacao_cidadao": "<anonimizado>",
+    "tp_participacao_prof_convidado": null,
+    "co_assinatura_eletronica_atend": null
+   },
+   {
+    "co_seq_taatendprof": 2,
+    "co_tipo_auditoria": "U",
+    "dt_auditoria": "2022-09-17 00:02:55.582926",
+    "co_seq_atend_prof": 126639,
+    "dt_fim": "2022-09-16 08:20:22.746000",
+    "dt_inicio": "2022-09-16 08:19:50.023000",
+    "co_atend": 98837,
+    "co_atend_prof_tipo_encam_intrn": 118435,
+    "co_lotacao": 4469,
+    "tp_atend_prof": 2,
+    "st_atend_prof": 2,
+    "st_atend_enviado": 1,
+    "co_unico_ad_cidadao": "<anonimizado>",
+    "co_classificacao_risco": 9.0,
+    "co_unico_atend_prof": "7407939-e1cfc006-8410-4e38-941e-13a08c5dda67",
+    "tp_atend": NaN,
+    "nu_conselho_classe": "656527",
+    "co_uf_emissora_conselho_classe": 15,
+    "co_conselho_classe": 74,
+    "ds_versao_ficha": "4.3.6",
+    "co_racionalidade_saude": null,
+    "co_lotacao_atend_compartilhado": null,
+    "st_registro_historico": 1,
+    "nu_revisao": null,
+    "st_cancelado": 0,
+    "co_estagio": null,
+    "co_marcador_consumo_alim": null,
+    "tp_participacao_cidadao": "<anonimizado>",
+    "tp_participacao_prof_convidado": null,
+    "co_assinatura_eletronica_atend": null
+   },
+   {
+    "co_seq_taatendprof": 3,
+    "co_tipo_auditoria": "U",
+    "dt_auditoria": "2022-09-17 00:02:55.582926",
+    "co_seq_atend_prof": 126640,
+    "dt_fim": "2022-09-16 08:35:31.028000",
+    "dt_inicio": "2022-09-16 08:23:19.400000",
+    "co_atend": 98836,
+    "co_atend_prof_tipo_encam_intrn": 118437,
+    "co_lotacao": 5882,
+    "tp_atend_prof": 1,
+    "st_atend_prof": 2,
+    "st_atend_enviado": 1,
+    "co_unico_ad_cidadao": "<anonimizado>",
+    "co_classificacao_risco": NaN,
+    "co_unico_atend_prof": "7407939-ad69a3de-8fa3-4e3c-99cf-300022c6c62c",
+    "tp_atend": 5.0,
+    "nu_conselho_classe": "10119",
+    "co_uf_emissora_conselho_classe": 15,
+    "co_conselho_classe": 71,
+    "ds_versao_ficha": "4.3.6",
+    "co_racionalidade_saude": null,
+    "co_lotacao_atend_compartilhado": null,
+    "st_registro_historico": 1,
+    "nu_revisao": null,
+    "st_cancelado": 0,
+    "co_estagio": null,
+    "co_marcador_consumo_alim": null,
+    "tp_participacao_cidadao": "<anonimizado>",
+    "tp_participacao_prof_convidado": null,
+    "co_assinatura_eletronica_atend": null
+   }
+  ]
+ },
+ "pool": [
+  {
+   "tema_id": "t0",
+   "texto": "Atendimento Profissional"
+  },
+  {
+   "tema_id": "t1",
+   "texto": "Auditoria de registros"
+  },
+  {
+   "tema_id": "t2",
+   "texto": "Atendimentos"
+  },
+  {
+   "tema_id": "t3",
+   "texto": "Registro de conselhos profissionais"
+  },
+  {
+   "tema_id": "t4",
+   "texto": "Atendimentos profissionais"
+  },
+  {
+   "tema_id": "t5",
+   "texto": "Tipos de auditoria"
+  },
+  {
+   "tema_id": "t6",
+   "texto": "Classificação de Risco"
+  },
+  {
+   "tema_id": "t7",
+   "texto": "Auditoria"
+  },
+  {
+   "tema_id": "t8",
+   "texto": "Participação de profissionais"
+  },
+  {
+   "tema_id": "t9",
+   "texto": "Versões de ficha"
+  }
+ ],
+ "listas": {
+  "Sistema A": {
+   "1": [
+    "Auditoria",
+    "Atendimentos",
+    "Classificação de Risco"
+   ],
+   "2": [
+    "Auditoria",
+    "Atendimento Profissional",
+    "Classificação de Risco"
+   ],
+   "3": [
+    "Auditoria",
+    "Atendimentos",
+    "Classificação de Risco"
+   ]
+  },
+  "Sistema B": {
+   "1": [
+    "Atendimentos profissionais",
+    "Auditoria de registros",
+    "Registro de conselhos profissionais"
+   ],
+   "2": [
+    "Atendimentos profissionais",
+    "Auditoria de registros",
+    "Registro de conselhos profissionais"
+   ],
+   "3": [
+    "Atendimentos profissionais",
+    "Auditoria de registros",
+    "Registro de conselhos profissionais"
+   ]
+  },
+  "Sistema C": {
+   "1": [
+    "Tipos de auditoria",
+    "Classificação de risco",
+    "Participação de profissionais"
+   ],
+   "2": [
+    "Tipos de auditoria",
+    "Classificação de risco",
+    "Versões de ficha"
+   ],
+   "3": [
+    "Tipos de auditoria",
+    "Classificação de risco",
+    "Versões de ficha"
+   ]
+  }
+ }
+}

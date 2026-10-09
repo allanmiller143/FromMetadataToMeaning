@@ -1,0 +1,387 @@
+{
+ "item_id": "nhanes__uphopm_j",
+ "table_key": "nhanes_laboratory.uphopm_j",
+ "base": "nhanes",
+ "piloto": false,
+ "contexto": {
+  "tabela": "uphopm_j",
+  "linhas": 2986,
+  "pk": [],
+  "fks": [],
+  "colunas": [
+   {
+    "coluna": "SEQN",
+    "tipo": "DOUBLE PRECISION",
+    "aceita_nulo": true,
+    "distintos": 2986,
+    "pct_nulo": 0.0,
+    "min": 93706.0,
+    "max": 102955.0,
+    "media": 98345.420964501,
+    "mais_frequentes": "",
+    "amostra": "99729.0 | 100500.0 | 97230.0 | 96472.0 | 102403.0"
+   },
+   {
+    "coluna": "WTSB2YR",
+    "tipo": "DOUBLE PRECISION",
+    "aceita_nulo": true,
+    "distintos": 2720,
+    "pct_nulo": 0.0,
+    "min": 5.397605346934028e-79,
+    "max": 1395405.465402,
+    "media": 103570.83085839647,
+    "mais_frequentes": "",
+    "amostra": "45811.186673 | 37144.57136 | 23932.883542 | 33815.064129 | 735513.793498"
+   },
+   {
+    "coluna": "URX24D",
+    "tipo": "DOUBLE PRECISION",
+    "aceita_nulo": true,
+    "distintos": 135,
+    "pct_nulo": 5.69,
+    "min": 0.11,
+    "max": 58.0,
+    "media": 0.5464240056818149,
+    "mais_frequentes": "0.11 (564), 0.15 (77), 0.16 (68)",
+    "amostra": "0.91 | 0.9 | 1.6 | 0.62 | 0.87"
+   },
+   {
+    "coluna": "URD24DLC",
+    "tipo": "DOUBLE PRECISION",
+    "aceita_nulo": true,
+    "distintos": 2,
+    "pct_nulo": 5.69,
+    "min": 5.397605346934028e-79,
+    "max": 1.0,
+    "media": 0.2002840909090909,
+    "mais_frequentes": "5.397605346934028e-79 (2252), 1.0 (564)",
+    "amostra": "1.0 | 5.397605346934028e-79"
+   },
+   {
+    "coluna": "URXCPM",
+    "tipo": "DOUBLE PRECISION",
+    "aceita_nulo": true,
+    "distintos": 171,
+    "pct_nulo": 5.66,
+    "min": 0.07,
+    "max": 25.0,
+    "media": 1.6769577564785205,
+    "mais_frequentes": "1.1 (138), 1.3 (130), 1.5 (108)",
+    "amostra": "0.91 | 0.9 | 5.8 | 1.6 | 4.8"
+   },
+   {
+    "coluna": "URDCPMLC",
+    "tipo": "DOUBLE PRECISION",
+    "aceita_nulo": true,
+    "distintos": 2,
+    "pct_nulo": 5.66,
+    "min": 5.397605346934028e-79,
+    "max": 1.0,
+    "media": 0.012424565140220093,
+    "mais_frequentes": "5.397605346934028e-79 (2782), 1.0 (35)",
+    "amostra": "1.0 | 5.397605346934028e-79"
+   },
+   {
+    "coluna": "URX4FP",
+    "tipo": "DOUBLE PRECISION",
+    "aceita_nulo": true,
+    "distintos": 77,
+    "pct_nulo": 5.66,
+    "min": 0.07,
+    "max": 23.0,
+    "media": 0.12215122470713045,
+    "mais_frequentes": "0.07 (2422), 0.12 (45), 0.13 (37)",
+    "amostra": "1.8 | 0.19 | 0.32 | 0.3 | 0.24"
+   },
+   {
+    "coluna": "URD4FPLC",
+    "tipo": "DOUBLE PRECISION",
+    "aceita_nulo": true,
+    "distintos": 2,
+    "pct_nulo": 5.66,
+    "min": 5.397605346934028e-79,
+    "max": 1.0,
+    "media": 0.8597799077032304,
+    "mais_frequentes": "1.0 (2422), 5.397605346934028e-79 (395)",
+    "amostra": "5.397605346934028e-79 | 1.0"
+   },
+   {
+    "coluna": "URXOPM",
+    "tipo": "DOUBLE PRECISION",
+    "aceita_nulo": true,
+    "distintos": 203,
+    "pct_nulo": 5.76,
+    "min": 0.07,
+    "max": 690.0,
+    "media": 2.2164143567874914,
+    "mais_frequentes": "0.07 (101), 1.2 (80), 1.3 (64)",
+    "amostra": "0.9 | 0.91 | 5.8 | 1.6 | 4.8"
+   },
+   {
+    "coluna": "URDOPMLC",
+    "tipo": "DOUBLE PRECISION",
+    "aceita_nulo": true,
+    "distintos": 2,
+    "pct_nulo": 5.76,
+    "min": 5.397605346934028e-79,
+    "max": 1.0,
+    "media": 0.035891968727789623,
+    "mais_frequentes": "5.397605346934028e-79 (2713), 1.0 (101)",
+    "amostra": "1.0 | 5.397605346934028e-79"
+   },
+   {
+    "coluna": "URXOXY",
+    "tipo": "DOUBLE PRECISION",
+    "aceita_nulo": true,
+    "distintos": 97,
+    "pct_nulo": 5.66,
+    "min": 0.07,
+    "max": 9.4,
+    "media": 0.1480759673411385,
+    "mais_frequentes": "0.07 (2189), 0.13 (41), 0.12 (41)",
+    "amostra": "1.8 | 0.19 | 0.91 | 0.82 | 0.32"
+   },
+   {
+    "coluna": "URDOXYLC",
+    "tipo": "DOUBLE PRECISION",
+    "aceita_nulo": true,
+    "distintos": 2,
+    "pct_nulo": 5.66,
+    "min": 5.397605346934028e-79,
+    "max": 1.0,
+    "media": 0.7770678026269081,
+    "mais_frequentes": "1.0 (2189), 5.397605346934028e-79 (628)",
+    "amostra": "5.397605346934028e-79 | 1.0"
+   },
+   {
+    "coluna": "URXPAR",
+    "tipo": "DOUBLE PRECISION",
+    "aceita_nulo": true,
+    "distintos": 161,
+    "pct_nulo": 5.66,
+    "min": 0.07,
+    "max": 180.0,
+    "media": 1.0168690095846658,
+    "mais_frequentes": "1.1 (99), 1.2 (78), 1.3 (63)",
+    "amostra": "0.9 | 0.91 | 1.6 | 4.8 | 6.2"
+   },
+   {
+    "coluna": "URDPARLC",
+    "tipo": "DOUBLE PRECISION",
+    "aceita_nulo": true,
+    "distintos": 2,
+    "pct_nulo": 5.66,
+    "min": 5.397605346934028e-79,
+    "max": 1.0,
+    "media": 0.021654242101526448,
+    "mais_frequentes": "5.397605346934028e-79 (2756), 1.0 (61)",
+    "amostra": "1.0 | 5.397605346934028e-79"
+   },
+   {
+    "coluna": "URXTCC",
+    "tipo": "DOUBLE PRECISION",
+    "aceita_nulo": true,
+    "distintos": 146,
+    "pct_nulo": 5.69,
+    "min": 0.42,
+    "max": 1600.0,
+    "media": 2.2247443181818496,
+    "mais_frequentes": "0.42 (1814), 1.1 (43), 1.2 (42)",
+    "amostra": "0.9 | 0.91 | 5.8 | 1.6 | 4.8"
+   },
+   {
+    "coluna": "URDTCCLC",
+    "tipo": "DOUBLE PRECISION",
+    "aceita_nulo": true,
+    "distintos": 2,
+    "pct_nulo": 5.69,
+    "min": 5.397605346934028e-79,
+    "max": 1.0,
+    "media": 0.6441761363636364,
+    "mais_frequentes": "1.0 (1814), 5.397605346934028e-79 (1002)",
+    "amostra": "5.397605346934028e-79 | 1.0"
+   },
+   {
+    "coluna": "URXMAL",
+    "tipo": "DOUBLE PRECISION",
+    "aceita_nulo": true,
+    "distintos": 105,
+    "pct_nulo": 5.66,
+    "min": 0.35,
+    "max": 220.0,
+    "media": 0.7611750088746471,
+    "mais_frequentes": "0.35 (2393), 1.1 (21), 0.5 (16)",
+    "amostra": "0.97 | 11.0 | 1.8 | 0.9 | 0.91"
+   },
+   {
+    "coluna": "URDMALLC",
+    "tipo": "DOUBLE PRECISION",
+    "aceita_nulo": true,
+    "distintos": 2,
+    "pct_nulo": 5.66,
+    "min": 5.397605346934028e-79,
+    "max": 1.0,
+    "media": 0.8494852680156194,
+    "mais_frequentes": "1.0 (2393), 5.397605346934028e-79 (424)",
+    "amostra": "5.397605346934028e-79 | 1.0"
+   }
+  ],
+  "amostra_linhas": [
+   {
+    "SEQN": 93706.0,
+    "WTSB2YR": 26027.047633,
+    "URX24D": 0.16,
+    "URD24DLC": 5.397605346934028e-79,
+    "URXCPM": 1.2,
+    "URDCPMLC": 5.397605346934028e-79,
+    "URX4FP": 0.07,
+    "URD4FPLC": 1.0,
+    "URXOPM": 0.4,
+    "URDOPMLC": 5.397605346934028e-79,
+    "URXOXY": 0.07,
+    "URDOXYLC": 1.0,
+    "URXPAR": 0.23,
+    "URDPARLC": 5.397605346934028e-79,
+    "URXTCC": 0.42,
+    "URDTCCLC": 1.0,
+    "URXMAL": 0.35,
+    "URDMALLC": 1.0
+   },
+   {
+    "SEQN": 93715.0,
+    "WTSB2YR": 28400.583165,
+    "URX24D": 0.37,
+    "URD24DLC": 5.397605346934028e-79,
+    "URXCPM": 3.5,
+    "URDCPMLC": 5.397605346934028e-79,
+    "URX4FP": 0.16,
+    "URD4FPLC": 5.397605346934028e-79,
+    "URXOPM": 0.85,
+    "URDOPMLC": 5.397605346934028e-79,
+    "URXOXY": 0.07,
+    "URDOXYLC": 1.0,
+    "URXPAR": 0.99,
+    "URDPARLC": 5.397605346934028e-79,
+    "URXTCC": 0.42,
+    "URDTCCLC": 1.0,
+    "URXMAL": 0.35,
+    "URDMALLC": 1.0
+   },
+   {
+    "SEQN": 93717.0,
+    "WTSB2YR": 141021.884734,
+    "URX24D": 0.36,
+    "URD24DLC": 5.397605346934028e-79,
+    "URXCPM": 2.3,
+    "URDCPMLC": 5.397605346934028e-79,
+    "URX4FP": 1.0,
+    "URD4FPLC": 5.397605346934028e-79,
+    "URXOPM": 19.0,
+    "URDOPMLC": 5.397605346934028e-79,
+    "URXOXY": 0.26,
+    "URDOXYLC": 5.397605346934028e-79,
+    "URXPAR": 1.9,
+    "URDPARLC": 5.397605346934028e-79,
+    "URXTCC": 11.0,
+    "URDTCCLC": 5.397605346934028e-79,
+    "URXMAL": 0.35,
+    "URDMALLC": 1.0
+   }
+  ]
+ },
+ "pool": [
+  {
+   "tema_id": "t0",
+   "texto": "análise de urina"
+  },
+  {
+   "tema_id": "t1",
+   "texto": "tendências de saúde pública"
+  },
+  {
+   "tema_id": "t2",
+   "texto": "concentração de metabólitos"
+  },
+  {
+   "tema_id": "t3",
+   "texto": "Metabólitos organofosforados"
+  },
+  {
+   "tema_id": "t4",
+   "texto": "Biomonitoramento urinário"
+  },
+  {
+   "tema_id": "t5",
+   "texto": "pesos amostrais"
+  },
+  {
+   "tema_id": "t6",
+   "texto": "Exposição a pesticidas"
+  },
+  {
+   "tema_id": "t7",
+   "texto": "concentração de substâncias"
+  },
+  {
+   "tema_id": "t8",
+   "texto": "análise de dados laboratoriais"
+  },
+  {
+   "tema_id": "t9",
+   "texto": "valores de biomarcadores"
+  }
+ ],
+ "listas": {
+  "Sistema A": {
+   "1": [
+    "análise de urina",
+    "concentração de metabólitos",
+    "pesos amostrais"
+   ],
+   "2": [
+    "análise de urina",
+    "concentração de substâncias",
+    "pesos amostrais"
+   ],
+   "3": [
+    "análise de urina",
+    "concentração de substâncias",
+    "pesos amostrais"
+   ]
+  },
+  "Sistema B": {
+   "1": [
+    "Exposição a pesticidas",
+    "Biomonitoramento urinário",
+    "Metabólitos organofosforados"
+   ],
+   "2": [
+    "Exposição a pesticidas",
+    "Biomonitoramento urinário",
+    "Metabólitos organofosforados"
+   ],
+   "3": [
+    "Exposição a pesticidas",
+    "Biomonitoramento urinário",
+    "Metabólitos organofosforados"
+   ]
+  },
+  "Sistema C": {
+   "1": [
+    "análise de dados laboratoriais",
+    "valores de biomarcadores",
+    "tendências de saúde pública"
+   ],
+   "2": [
+    "análise de dados laboratoriais",
+    "valores de biomarcadores",
+    "tendências de saúde pública"
+   ],
+   "3": [
+    "análise de dados laboratoriais",
+    "valores de biomarcadores",
+    "tendências de saúde pública"
+   ]
+  }
+ }
+}

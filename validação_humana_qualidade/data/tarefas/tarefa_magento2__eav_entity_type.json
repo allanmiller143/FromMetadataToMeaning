@@ -1,0 +1,387 @@
+{
+ "item_id": "magento2__eav_entity_type",
+ "table_key": "magento2.eav_entity_type",
+ "base": "magento2",
+ "piloto": false,
+ "contexto": {
+  "tabela": "eav_entity_type",
+  "linhas": 8,
+  "pk": [
+   "entity_type_id"
+  ],
+  "fks": [],
+  "colunas": [
+   {
+    "coluna": "entity_type_id",
+    "tipo": "SMALLINT",
+    "aceita_nulo": false,
+    "distintos": 8,
+    "pct_nulo": 0.0,
+    "min": 1.0,
+    "max": 28.0,
+    "media": 12.0,
+    "mais_frequentes": "",
+    "amostra": "9 | 10 | 28 | 1 | 2"
+   },
+   {
+    "coluna": "entity_type_code",
+    "tipo": "VARCHAR(50)",
+    "aceita_nulo": false,
+    "distintos": 8,
+    "pct_nulo": 0.0,
+    "min": null,
+    "max": null,
+    "media": null,
+    "mais_frequentes": "",
+    "amostra": "catalog_category | catalog_product | creditmemo | customer | customer_address"
+   },
+   {
+    "coluna": "entity_model",
+    "tipo": "VARCHAR(255)",
+    "aceita_nulo": false,
+    "distintos": 8,
+    "pct_nulo": 0.0,
+    "min": null,
+    "max": null,
+    "media": null,
+    "mais_frequentes": "",
+    "amostra": "Magento\\Customer\\Model\\Resource\\Customer | Magento\\Customer\\Model\\Resource\\Address | Magento\\Sales\\Model\\Resource\\Order | Magento\\Catalog\\Model\\Resource\\Category | Magento\\Catalog\\Model\\Resource\\Product"
+   },
+   {
+    "coluna": "attribute_model",
+    "tipo": "VARCHAR(255)",
+    "aceita_nulo": true,
+    "distintos": 2,
+    "pct_nulo": 50.0,
+    "min": null,
+    "max": null,
+    "media": null,
+    "mais_frequentes": "Magento\\Customer\\Model\\Attribute (2), Magento\\Catalog\\Model\\Resource\\Eav\\Attribute (2)",
+    "amostra": "Magento\\Customer\\Model\\Attribute | Magento\\Catalog\\Model\\Resource\\Eav\\Attribute"
+   },
+   {
+    "coluna": "entity_table",
+    "tipo": "VARCHAR(255)",
+    "aceita_nulo": true,
+    "distintos": 8,
+    "pct_nulo": 0.0,
+    "min": null,
+    "max": null,
+    "media": null,
+    "mais_frequentes": "",
+    "amostra": "customer_entity | customer_address_entity | sales_order | catalog_category_entity | catalog_product_entity"
+   },
+   {
+    "coluna": "value_table_prefix",
+    "tipo": "VARCHAR(255)",
+    "aceita_nulo": true,
+    "distintos": 0,
+    "pct_nulo": 100.0,
+    "min": null,
+    "max": null,
+    "media": null,
+    "mais_frequentes": "",
+    "amostra": ""
+   },
+   {
+    "coluna": "entity_id_field",
+    "tipo": "VARCHAR(255)",
+    "aceita_nulo": true,
+    "distintos": 0,
+    "pct_nulo": 100.0,
+    "min": null,
+    "max": null,
+    "media": null,
+    "mais_frequentes": "",
+    "amostra": ""
+   },
+   {
+    "coluna": "is_data_sharing",
+    "tipo": "SMALLINT",
+    "aceita_nulo": false,
+    "distintos": 2,
+    "pct_nulo": 0.0,
+    "min": 0.0,
+    "max": 1.0,
+    "media": 0.75,
+    "mais_frequentes": "1 (6), 0 (2)",
+    "amostra": "1 | 0"
+   },
+   {
+    "coluna": "data_sharing_key",
+    "tipo": "VARCHAR(100)",
+    "aceita_nulo": true,
+    "distintos": 1,
+    "pct_nulo": 0.0,
+    "min": null,
+    "max": null,
+    "media": null,
+    "mais_frequentes": "default (8)",
+    "amostra": "default"
+   },
+   {
+    "coluna": "default_attribute_set_id",
+    "tipo": "SMALLINT",
+    "aceita_nulo": false,
+    "distintos": 8,
+    "pct_nulo": 0.0,
+    "min": 1.0,
+    "max": 55.0,
+    "media": 22.25,
+    "mais_frequentes": "",
+    "amostra": "1 | 2 | 18 | 12 | 9"
+   },
+   {
+    "coluna": "increment_model",
+    "tipo": "VARCHAR(255)",
+    "aceita_nulo": true,
+    "distintos": 1,
+    "pct_nulo": 37.5,
+    "min": null,
+    "max": null,
+    "media": null,
+    "mais_frequentes": "Magento\\Eav\\Model\\Entity\\Increment\\Numeric (5)",
+    "amostra": "Magento\\Eav\\Model\\Entity\\Increment\\Numeric"
+   },
+   {
+    "coluna": "increment_per_store",
+    "tipo": "SMALLINT",
+    "aceita_nulo": false,
+    "distintos": 2,
+    "pct_nulo": 0.0,
+    "min": 0.0,
+    "max": 1.0,
+    "media": 0.5,
+    "mais_frequentes": "0 (4), 1 (4)",
+    "amostra": "0 | 1"
+   },
+   {
+    "coluna": "increment_pad_length",
+    "tipo": "SMALLINT",
+    "aceita_nulo": false,
+    "distintos": 1,
+    "pct_nulo": 0.0,
+    "min": 8.0,
+    "max": 8.0,
+    "media": 8.0,
+    "mais_frequentes": "8 (8)",
+    "amostra": "8"
+   },
+   {
+    "coluna": "increment_pad_char",
+    "tipo": "VARCHAR(1)",
+    "aceita_nulo": false,
+    "distintos": 1,
+    "pct_nulo": 0.0,
+    "min": null,
+    "max": null,
+    "media": null,
+    "mais_frequentes": "0 (8)",
+    "amostra": "0"
+   },
+   {
+    "coluna": "additional_attribute_table",
+    "tipo": "VARCHAR(255)",
+    "aceita_nulo": true,
+    "distintos": 2,
+    "pct_nulo": 50.0,
+    "min": null,
+    "max": null,
+    "media": null,
+    "mais_frequentes": "customer_eav_attribute (2), catalog_eav_attribute (2)",
+    "amostra": "customer_eav_attribute | catalog_eav_attribute"
+   },
+   {
+    "coluna": "entity_attribute_collection",
+    "tipo": "VARCHAR(255)",
+    "aceita_nulo": true,
+    "distintos": 4,
+    "pct_nulo": 50.0,
+    "min": null,
+    "max": null,
+    "media": null,
+    "mais_frequentes": "",
+    "amostra": "Magento\\Customer\\Model\\Resource\\Attribute\\Collection | Magento\\Customer\\Model\\Resource\\Address\\Attribute\\Collection | Magento\\Catalog\\Model\\Resource\\Category\\Attribute\\Collection | Magento\\Catalog\\Model\\Resource\\Product\\Attribute\\Collection"
+   }
+  ],
+  "amostra_linhas": [
+   {
+    "entity_type_id": 1,
+    "entity_type_code": "customer",
+    "entity_model": "Magento\\Customer\\Model\\Resource\\Customer",
+    "attribute_model": "Magento\\Customer\\Model\\Attribute",
+    "entity_table": "customer_entity",
+    "value_table_prefix": null,
+    "entity_id_field": null,
+    "is_data_sharing": 1,
+    "data_sharing_key": "default",
+    "default_attribute_set_id": 1,
+    "increment_model": "Magento\\Eav\\Model\\Entity\\Increment\\Numeric",
+    "increment_per_store": 0,
+    "increment_pad_length": 8,
+    "increment_pad_char": "0",
+    "additional_attribute_table": "customer_eav_attribute",
+    "entity_attribute_collection": "Magento\\Customer\\Model\\Resource\\Attribute\\Collection"
+   },
+   {
+    "entity_type_id": 2,
+    "entity_type_code": "customer_address",
+    "entity_model": "Magento\\Customer\\Model\\Resource\\Address",
+    "attribute_model": "Magento\\Customer\\Model\\Attribute",
+    "entity_table": "customer_address_entity",
+    "value_table_prefix": null,
+    "entity_id_field": null,
+    "is_data_sharing": 1,
+    "data_sharing_key": "default",
+    "default_attribute_set_id": 2,
+    "increment_model": null,
+    "increment_per_store": 0,
+    "increment_pad_length": 8,
+    "increment_pad_char": "0",
+    "additional_attribute_table": "customer_eav_attribute",
+    "entity_attribute_collection": "Magento\\Customer\\Model\\Resource\\Address\\Attribute\\Collection"
+   },
+   {
+    "entity_type_id": 4,
+    "entity_type_code": "order",
+    "entity_model": "Magento\\Sales\\Model\\Resource\\Order",
+    "attribute_model": null,
+    "entity_table": "sales_order",
+    "value_table_prefix": null,
+    "entity_id_field": null,
+    "is_data_sharing": 1,
+    "data_sharing_key": "default",
+    "default_attribute_set_id": 18,
+    "increment_model": "Magento\\Eav\\Model\\Entity\\Increment\\Numeric",
+    "increment_per_store": 1,
+    "increment_pad_length": 8,
+    "increment_pad_char": "0",
+    "additional_attribute_table": null,
+    "entity_attribute_collection": null
+   }
+  ]
+ },
+ "pool": [
+  {
+   "tema_id": "t0",
+   "texto": "Configuração de incremento de entidades"
+  },
+  {
+   "tema_id": "t1",
+   "texto": "Configuração de incremento de IDs"
+  },
+  {
+   "tema_id": "t2",
+   "texto": "Tipos de entidade do Magento"
+  },
+  {
+   "tema_id": "t3",
+   "texto": "gerenciamento de entidades EAV"
+  },
+  {
+   "tema_id": "t4",
+   "texto": "atributos de entidades Magento"
+  },
+  {
+   "tema_id": "t5",
+   "texto": "atributos de entidade"
+  },
+  {
+   "tema_id": "t6",
+   "texto": "configuração de atributos Magento"
+  },
+  {
+   "tema_id": "t7",
+   "texto": "Modelo de entidade EAV"
+  },
+  {
+   "tema_id": "t8",
+   "texto": "Tipos de entidade de negócio"
+  },
+  {
+   "tema_id": "t9",
+   "texto": "Tipos de entidade de catálogo"
+  },
+  {
+   "tema_id": "t10",
+   "texto": "modelos de entidade"
+  },
+  {
+   "tema_id": "t11",
+   "texto": "tipos de entidade"
+  },
+  {
+   "tema_id": "t12",
+   "texto": "geração de IDs incrementais"
+  },
+  {
+   "tema_id": "t13",
+   "texto": "mapeamento de entidades EAV"
+  },
+  {
+   "tema_id": "t14",
+   "texto": "modelos de atributo"
+  },
+  {
+   "tema_id": "t15",
+   "texto": "atributos de cliente"
+  },
+  {
+   "tema_id": "t16",
+   "texto": "tipos de entidade EAV"
+  }
+ ],
+ "listas": {
+  "Sistema A": {
+   "1": [
+    "Modelo de entidade EAV",
+    "Tipos de entidade do Magento",
+    "Configuração de incremento de entidades"
+   ],
+   "2": [
+    "Modelo de entidade EAV",
+    "Tipos de entidade de negócio",
+    "Configuração de incremento de IDs"
+   ],
+   "3": [
+    "Modelo de entidade EAV",
+    "Tipos de entidade de catálogo",
+    "Configuração de incremento de entidades"
+   ]
+  },
+  "Sistema B": {
+   "1": [
+    "tipos de entidade",
+    "modelos de atributo",
+    "atributos de cliente"
+   ],
+   "2": [
+    "tipos de entidade",
+    "modelos de entidade",
+    "atributos de entidade"
+   ],
+   "3": [
+    "tipos de entidade",
+    "modelos de entidade",
+    "atributos de entidade"
+   ]
+  },
+  "Sistema C": {
+   "1": [
+    "tipos de entidade EAV",
+    "configuração de atributos Magento",
+    "geração de IDs incrementais"
+   ],
+   "2": [
+    "mapeamento de entidades EAV",
+    "configuração de atributos Magento",
+    "geração de IDs incrementais"
+   ],
+   "3": [
+    "gerenciamento de entidades EAV",
+    "atributos de entidades Magento",
+    "configuração de incremento de IDs"
+   ]
+  }
+ }
+}

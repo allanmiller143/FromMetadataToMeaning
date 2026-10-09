@@ -1,0 +1,280 @@
+{
+ "item_id": "magento2__oauth_token",
+ "table_key": "magento2.oauth_token",
+ "base": "magento2",
+ "piloto": false,
+ "contexto": {
+  "tabela": "oauth_token",
+  "linhas": 0,
+  "pk": [
+   "entity_id"
+  ],
+  "fks": [
+   "admin_id -> admin_user(user_id)",
+   "consumer_id -> oauth_consumer(entity_id)",
+   "customer_id -> customer_entity(entity_id)"
+  ],
+  "colunas": [
+   {
+    "coluna": "entity_id",
+    "tipo": "INTEGER",
+    "aceita_nulo": false,
+    "distintos": null,
+    "pct_nulo": null,
+    "min": null,
+    "max": null,
+    "media": null,
+    "mais_frequentes": "",
+    "amostra": ""
+   },
+   {
+    "coluna": "consumer_id",
+    "tipo": "INTEGER",
+    "aceita_nulo": true,
+    "distintos": null,
+    "pct_nulo": null,
+    "min": null,
+    "max": null,
+    "media": null,
+    "mais_frequentes": "",
+    "amostra": ""
+   },
+   {
+    "coluna": "admin_id",
+    "tipo": "INTEGER",
+    "aceita_nulo": true,
+    "distintos": null,
+    "pct_nulo": null,
+    "min": null,
+    "max": null,
+    "media": null,
+    "mais_frequentes": "",
+    "amostra": ""
+   },
+   {
+    "coluna": "customer_id",
+    "tipo": "INTEGER",
+    "aceita_nulo": true,
+    "distintos": null,
+    "pct_nulo": null,
+    "min": null,
+    "max": null,
+    "media": null,
+    "mais_frequentes": "",
+    "amostra": ""
+   },
+   {
+    "coluna": "type",
+    "tipo": "VARCHAR(16)",
+    "aceita_nulo": false,
+    "distintos": null,
+    "pct_nulo": null,
+    "min": null,
+    "max": null,
+    "media": null,
+    "mais_frequentes": "",
+    "amostra": ""
+   },
+   {
+    "coluna": "token",
+    "tipo": "VARCHAR(32)",
+    "aceita_nulo": false,
+    "distintos": null,
+    "pct_nulo": null,
+    "min": null,
+    "max": null,
+    "media": null,
+    "mais_frequentes": "",
+    "amostra": ""
+   },
+   {
+    "coluna": "secret",
+    "tipo": "VARCHAR(32)",
+    "aceita_nulo": false,
+    "distintos": null,
+    "pct_nulo": null,
+    "min": null,
+    "max": null,
+    "media": null,
+    "mais_frequentes": "",
+    "amostra": ""
+   },
+   {
+    "coluna": "verifier",
+    "tipo": "VARCHAR(32)",
+    "aceita_nulo": true,
+    "distintos": null,
+    "pct_nulo": null,
+    "min": null,
+    "max": null,
+    "media": null,
+    "mais_frequentes": "",
+    "amostra": ""
+   },
+   {
+    "coluna": "callback_url",
+    "tipo": "VARCHAR(255)",
+    "aceita_nulo": false,
+    "distintos": null,
+    "pct_nulo": null,
+    "min": null,
+    "max": null,
+    "media": null,
+    "mais_frequentes": "",
+    "amostra": ""
+   },
+   {
+    "coluna": "revoked",
+    "tipo": "SMALLINT",
+    "aceita_nulo": false,
+    "distintos": null,
+    "pct_nulo": null,
+    "min": null,
+    "max": null,
+    "media": null,
+    "mais_frequentes": "",
+    "amostra": ""
+   },
+   {
+    "coluna": "authorized",
+    "tipo": "SMALLINT",
+    "aceita_nulo": false,
+    "distintos": null,
+    "pct_nulo": null,
+    "min": null,
+    "max": null,
+    "media": null,
+    "mais_frequentes": "",
+    "amostra": ""
+   },
+   {
+    "coluna": "user_type",
+    "tipo": "INTEGER",
+    "aceita_nulo": true,
+    "distintos": null,
+    "pct_nulo": null,
+    "min": null,
+    "max": null,
+    "media": null,
+    "mais_frequentes": "",
+    "amostra": ""
+   },
+   {
+    "coluna": "created_at",
+    "tipo": "TIMESTAMP",
+    "aceita_nulo": false,
+    "distintos": null,
+    "pct_nulo": null,
+    "min": null,
+    "max": null,
+    "media": null,
+    "mais_frequentes": "",
+    "amostra": ""
+   }
+  ],
+  "amostra_linhas": []
+ },
+ "pool": [
+  {
+   "tema_id": "t0",
+   "texto": "autenticação de usuários"
+  },
+  {
+   "tema_id": "t1",
+   "texto": "autorização de aplicativos"
+  },
+  {
+   "tema_id": "t2",
+   "texto": "gerenciamento de permissões"
+  },
+  {
+   "tema_id": "t3",
+   "texto": "tokens de acesso"
+  },
+  {
+   "tema_id": "t4",
+   "texto": "revogação de tokens"
+  },
+  {
+   "tema_id": "t5",
+   "texto": "gestão de permissões"
+  },
+  {
+   "tema_id": "t6",
+   "texto": "autorização de consumidores"
+  },
+  {
+   "tema_id": "t7",
+   "texto": "autorização de usuários"
+  },
+  {
+   "tema_id": "t8",
+   "texto": "tokens OAuth"
+  },
+  {
+   "tema_id": "t9",
+   "texto": "autenticação OAuth"
+  },
+  {
+   "tema_id": "t10",
+   "texto": "consumidores OAuth"
+  },
+  {
+   "tema_id": "t11",
+   "texto": "gerenciamento de tokens OAuth"
+  }
+ ],
+ "listas": {
+  "Sistema A": {
+   "1": [
+    "gerenciamento de tokens OAuth",
+    "autenticação de usuários",
+    "autorização de aplicativos"
+   ],
+   "2": [
+    "autenticação OAuth",
+    "tokens de acesso",
+    "gerenciamento de permissões"
+   ],
+   "3": [
+    "autenticação OAuth",
+    "tokens de acesso",
+    "gerenciamento de permissões"
+   ]
+  },
+  "Sistema B": {
+   "1": [
+    "tokens OAuth",
+    "autorização de usuários",
+    "consumidores OAuth"
+   ],
+   "2": [
+    "tokens OAuth",
+    "autorização de consumidores",
+    "revogação de tokens"
+   ],
+   "3": [
+    "Tokens OAuth",
+    "Autorização de usuários",
+    "Consumidores OAuth"
+   ]
+  },
+  "Sistema C": {
+   "1": [
+    "autenticação de usuários",
+    "tokens de acesso",
+    "gestão de permissões"
+   ],
+   "2": [
+    "autenticação de usuários",
+    "tokens de acesso",
+    "gestão de permissões"
+   ],
+   "3": [
+    "autenticação de usuários",
+    "tokens de acesso",
+    "gestão de permissões"
+   ]
+  }
+ }
+}

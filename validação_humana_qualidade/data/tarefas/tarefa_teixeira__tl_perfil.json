@@ -1,0 +1,266 @@
+{
+ "item_id": "teixeira__tl_perfil",
+ "table_key": "public.tl_perfil",
+ "base": "teixeira",
+ "piloto": false,
+ "contexto": {
+  "tabela": "tl_perfil",
+  "linhas": 21,
+  "pk": [
+   "co_revisao",
+   "co_seq_perfil"
+  ],
+  "fks": [],
+  "colunas": [
+   {
+    "coluna": "co_revisao",
+    "tipo": "BIGINT",
+    "aceita_nulo": false,
+    "distintos": 1,
+    "pct_nulo": 0.0,
+    "min": 21.0,
+    "max": 21.0,
+    "media": 21.0,
+    "mais_frequentes": "21 (21)",
+    "amostra": "21"
+   },
+   {
+    "coluna": "co_tipo_revisao",
+    "tipo": "SMALLINT",
+    "aceita_nulo": true,
+    "distintos": 1,
+    "pct_nulo": 0.0,
+    "min": 0.0,
+    "max": 0.0,
+    "media": 0.0,
+    "mais_frequentes": "0 (21)",
+    "amostra": "0"
+   },
+   {
+    "coluna": "co_seq_perfil",
+    "tipo": "BIGINT",
+    "aceita_nulo": false,
+    "distintos": 21,
+    "pct_nulo": 0.0,
+    "min": 38.0,
+    "max": 58.0,
+    "media": 48.0,
+    "mais_frequentes": "",
+    "amostra": "43 | 45 | 46 | 48 | 55"
+   },
+   {
+    "coluna": "no_perfil",
+    "tipo": "VARCHAR(100)",
+    "aceita_nulo": true,
+    "distintos": 21,
+    "pct_nulo": 0.0,
+    "min": null,
+    "max": null,
+    "media": null,
+    "mais_frequentes": "",
+    "amostra": "OUTRO PROF. NÍVEL SUPERIOR | TSB - TÉCNICO DE SAÚDE BUCAL | OUTRO PROF. NÍVEL MÉDIO/TÉCNICO | DIGITADOR | ASB - AUXILIAR DE SAÚDE BUCAL"
+   },
+   {
+    "coluna": "no_perfil_filtro",
+    "tipo": "VARCHAR(50)",
+    "aceita_nulo": true,
+    "distintos": 21,
+    "pct_nulo": 0.0,
+    "min": null,
+    "max": null,
+    "media": null,
+    "mais_frequentes": "",
+    "amostra": "auxiliar ou tecnico de enfermagem | gestor municipal | asb - auxiliar de saude bucal | digitador | medico"
+   },
+   {
+    "coluna": "qt_referencia",
+    "tipo": "BIGINT",
+    "aceita_nulo": true,
+    "distintos": 1,
+    "pct_nulo": 0.0,
+    "min": 0.0,
+    "max": 0.0,
+    "media": 0.0,
+    "mais_frequentes": "0 (21)",
+    "amostra": "0"
+   },
+   {
+    "coluna": "co_localidade",
+    "tipo": "BIGINT",
+    "aceita_nulo": true,
+    "distintos": 1,
+    "pct_nulo": 0.0,
+    "min": 5383.0,
+    "max": 5383.0,
+    "media": 5383.0,
+    "mais_frequentes": "5383 (21)",
+    "amostra": "5383"
+   },
+   {
+    "coluna": "no_perfil_padrao",
+    "tipo": "VARCHAR(100)",
+    "aceita_nulo": true,
+    "distintos": 21,
+    "pct_nulo": 0.0,
+    "min": null,
+    "max": null,
+    "media": null,
+    "mais_frequentes": "",
+    "amostra": "RECEPCAO | DIGITADOR | ENFERMEIRO | COORDENADOR_UBS | ENFERMEIRO_AD"
+   },
+   {
+    "coluna": "tp_perfil",
+    "tipo": "BIGINT",
+    "aceita_nulo": true,
+    "distintos": 0,
+    "pct_nulo": 100.0,
+    "min": null,
+    "max": null,
+    "media": null,
+    "mais_frequentes": "",
+    "amostra": ""
+   },
+   {
+    "coluna": "st_ativo",
+    "tipo": "INTEGER",
+    "aceita_nulo": true,
+    "distintos": 1,
+    "pct_nulo": 0.0,
+    "min": 1.0,
+    "max": 1.0,
+    "media": 1.0,
+    "mais_frequentes": "1 (21)",
+    "amostra": "1"
+   }
+  ],
+  "amostra_linhas": [
+   {
+    "co_revisao": 21,
+    "co_tipo_revisao": 0,
+    "co_seq_perfil": 38,
+    "no_perfil": "OUTRO PROF. NÍVEL SUPERIOR",
+    "no_perfil_filtro": "outro prof. nivel superior",
+    "qt_referencia": 0,
+    "co_localidade": 5383,
+    "no_perfil_padrao": "OUTRO_PROF_NIVEL_SUPERIOR",
+    "tp_perfil": null,
+    "st_ativo": 1
+   },
+   {
+    "co_revisao": 21,
+    "co_tipo_revisao": 0,
+    "co_seq_perfil": 39,
+    "no_perfil": "DIGITADOR",
+    "no_perfil_filtro": "digitador",
+    "qt_referencia": 0,
+    "co_localidade": 5383,
+    "no_perfil_padrao": "DIGITADOR",
+    "tp_perfil": null,
+    "st_ativo": 1
+   },
+   {
+    "co_revisao": 21,
+    "co_tipo_revisao": 0,
+    "co_seq_perfil": 40,
+    "no_perfil": "AUXILIAR OU TÉCNICO DE ENFERMAGEM",
+    "no_perfil_filtro": "auxiliar ou tecnico de enfermagem",
+    "qt_referencia": 0,
+    "co_localidade": 5383,
+    "no_perfil_padrao": "AUXILIAR_TECNICO_ENFERMAGEM",
+    "tp_perfil": null,
+    "st_ativo": 1
+   }
+  ]
+ },
+ "pool": [
+  {
+   "tema_id": "t0",
+   "texto": "Recursos Humanos Saúde"
+  },
+  {
+   "tema_id": "t1",
+   "texto": "Recursos Humanos"
+  },
+  {
+   "tema_id": "t2",
+   "texto": "Categorização Profissional"
+  },
+  {
+   "tema_id": "t3",
+   "texto": "Perfis Profissionais Saúde"
+  },
+  {
+   "tema_id": "t4",
+   "texto": "Saúde Pública"
+  },
+  {
+   "tema_id": "t5",
+   "texto": "Ativação de perfis"
+  },
+  {
+   "tema_id": "t6",
+   "texto": "Perfis Profissionais"
+  },
+  {
+   "tema_id": "t7",
+   "texto": "Localidade de perfis"
+  },
+  {
+   "tema_id": "t8",
+   "texto": "Atuação Profissional"
+  }
+ ],
+ "listas": {
+  "Sistema A": {
+   "1": [
+    "Perfis profissionais",
+    "Ativação de perfis",
+    "Localidade de perfis"
+   ],
+   "2": [
+    "Perfis profissionais",
+    "Ativação de perfis",
+    "Localidade de perfis"
+   ],
+   "3": [
+    "Perfis profissionais",
+    "Ativação de perfis",
+    "Localidade de perfis"
+   ]
+  },
+  "Sistema B": {
+   "1": [
+    "Perfis Profissionais",
+    "Saúde Pública",
+    "Atuação Profissional"
+   ],
+   "2": [
+    "Perfis Profissionais",
+    "Saúde Pública",
+    "Atuação Profissional"
+   ],
+   "3": [
+    "Perfis Profissionais",
+    "Saúde Pública",
+    "Atuação Profissional"
+   ]
+  },
+  "Sistema C": {
+   "1": [
+    "Perfis Profissionais Saúde",
+    "Categorização Profissional",
+    "Recursos Humanos Saúde"
+   ],
+   "2": [
+    "Perfis Profissionais Saúde",
+    "Categorização Profissional",
+    "Recursos Humanos Saúde"
+   ],
+   "3": [
+    "Perfis Profissionais",
+    "Saúde Pública",
+    "Recursos Humanos"
+   ]
+  }
+ }
+}

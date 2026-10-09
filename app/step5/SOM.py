@@ -134,6 +134,8 @@ def topographic_error(som, data):
 def grid_search_som(data):
     print("Iniciando Grid Search para otimização do SOM...")
 
+    # N = len(data)
+
     grid = {
         "x": [18],
         "y": [16],

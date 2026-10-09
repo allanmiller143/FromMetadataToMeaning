@@ -1,0 +1,581 @@
+{
+ "item_id": "teixeira__tb_fat_atd_ind_problemas",
+ "table_key": "public.tb_fat_atd_ind_problemas",
+ "base": "teixeira",
+ "piloto": false,
+ "contexto": {
+  "tabela": "tb_fat_atd_ind_problemas",
+  "linhas": 306196,
+  "pk": [
+   "co_seq_fat_atend_ind_problemas"
+  ],
+  "fks": [
+   "co_dim_cbo_1 -> tb_dim_cbo(co_seq_dim_cbo)",
+   "co_dim_cbo_2 -> tb_dim_cbo(co_seq_dim_cbo)",
+   "co_dim_ciap -> tb_dim_ciap(co_seq_dim_ciap)",
+   "co_dim_cid -> tb_dim_cid(co_seq_dim_cid)",
+   "co_dim_equipe_1 -> tb_dim_equipe(co_seq_dim_equipe)",
+   "co_dim_equipe_2 -> tb_dim_equipe(co_seq_dim_equipe)",
+   "co_dim_municipio -> tb_dim_municipio(co_seq_dim_municipio)",
+   "co_dim_profissional_1 -> tb_dim_profissional(co_seq_dim_profissional)",
+   "co_dim_profissional_2 -> tb_dim_profissional(co_seq_dim_profissional)",
+   "co_dim_situacao_problema -> tb_dim_situacao_problema(co_seq_dim_situacao)",
+   "co_dim_tempo -> tb_dim_tempo(co_seq_dim_tempo)",
+   "co_dim_data_fim_problema -> tb_dim_tempo(co_seq_dim_tempo)",
+   "co_dim_data_inicio_problema -> tb_dim_tempo(co_seq_dim_tempo)",
+   "co_dim_tipo_ficha -> tb_dim_tipo_ficha(co_seq_dim_tipo_ficha)",
+   "co_dim_cds_tipo_origem -> tb_dim_tipo_origem(co_seq_dim_tipo_origem)",
+   "co_dim_unidade_saude_1 -> tb_dim_unidade_saude(co_seq_dim_unidade_saude)",
+   "co_dim_unidade_saude_2 -> tb_dim_unidade_saude(co_seq_dim_unidade_saude)",
+   "co_dim_tipo_origem_dado_transp -> tb_dim_tipo_origem_dado_transp(co_seq_dim_tp_orgm_dado_transp)",
+   "co_fat_cidadao_pec -> tb_fat_cidadao_pec(co_seq_fat_cidadao_pec)"
+  ],
+  "colunas": [
+   {
+    "coluna": "co_seq_fat_atend_ind_problemas",
+    "tipo": "BIGINT",
+    "aceita_nulo": false,
+    "distintos": 306196,
+    "pct_nulo": 0.0,
+    "min": 28501.0,
+    "max": 615523.0,
+    "media": 342693.92635762715,
+    "mais_frequentes": "",
+    "amostra": "28501 | 28502 | 28503 | 28504 | 28505"
+   },
+   {
+    "coluna": "co_fat_atd_ind",
+    "tipo": "BIGINT",
+    "aceita_nulo": true,
+    "distintos": 261688,
+    "pct_nulo": 0.0,
+    "min": 37001.0,
+    "max": 609020.0,
+    "media": 337505.55649649247,
+    "mais_frequentes": "",
+    "amostra": "37001 | 37002 | 37003 | 37004 | 37005"
+   },
+   {
+    "coluna": "co_dim_tipo_ficha",
+    "tipo": "BIGINT",
+    "aceita_nulo": true,
+    "distintos": 2,
+    "pct_nulo": 0.0,
+    "min": 4.0,
+    "max": 9.0,
+    "media": 8.19922206691139,
+    "mais_frequentes": "9 (257157), 4 (49039)",
+    "amostra": "4 | 9"
+   },
+   {
+    "coluna": "co_dim_municipio",
+    "tipo": "BIGINT",
+    "aceita_nulo": true,
+    "distintos": 1,
+    "pct_nulo": 0.0,
+    "min": 218.0,
+    "max": 218.0,
+    "media": 218.0,
+    "mais_frequentes": "218 (306196)",
+    "amostra": "218"
+   },
+   {
+    "coluna": "co_dim_profissional_1",
+    "tipo": "BIGINT",
+    "aceita_nulo": true,
+    "distintos": 223,
+    "pct_nulo": 0.0,
+    "min": 37.0,
+    "max": 516.0,
+    "media": 232.11250310258788,
+    "mais_frequentes": "<anonimizado> (14093), <anonimizado> (12435), <anonimizado> (11384)",
+    "amostra": "<anonimizado> | <anonimizado> | <anonimizado> | <anonimizado> | <anonimizado>"
+   },
+   {
+    "coluna": "co_dim_profissional_2",
+    "tipo": "BIGINT",
+    "aceita_nulo": true,
+    "distintos": 178,
+    "pct_nulo": 0.0,
+    "min": 1.0,
+    "max": 512.0,
+    "media": 5.482899841931312,
+    "mais_frequentes": "<anonimizado> (296948), <anonimizado> (2134), <anonimizado> (2012)",
+    "amostra": "<anonimizado> | <anonimizado> | <anonimizado> | <anonimizado> | <anonimizado>"
+   },
+   {
+    "coluna": "co_dim_cbo_1",
+    "tipo": "BIGINT",
+    "aceita_nulo": true,
+    "distintos": 16,
+    "pct_nulo": 0.0,
+    "min": 404.0,
+    "max": 600.0,
+    "media": 424.87423415067474,
+    "mais_frequentes": "404 (179190), 405 (66930), 521 (33591)",
+    "amostra": "441 | 464 | 557 | 408 | 493"
+   },
+   {
+    "coluna": "co_dim_cbo_2",
+    "tipo": "BIGINT",
+    "aceita_nulo": true,
+    "distintos": 20,
+    "pct_nulo": 0.0,
+    "min": 1.0,
+    "max": 684.0,
+    "media": 13.683157193431658,
+    "mais_frequentes": "1 (296957), 409 (5778), 483 (743)",
+    "amostra": "471 | 439 | 464 | 493 | 442"
+   },
+   {
+    "coluna": "co_dim_unidade_saude_1",
+    "tipo": "BIGINT",
+    "aceita_nulo": true,
+    "distintos": 16,
+    "pct_nulo": 0.0,
+    "min": 9.0,
+    "max": 28.0,
+    "media": 15.496156056904727,
+    "mais_frequentes": "9 (46048), 19 (40063), 13 (37625)",
+    "amostra": "14 | 25 | 27 | 17 | 19"
+   },
+   {
+    "coluna": "co_dim_unidade_saude_2",
+    "tipo": "BIGINT",
+    "aceita_nulo": true,
+    "distintos": 14,
+    "pct_nulo": 0.0,
+    "min": 1.0,
+    "max": 26.0,
+    "media": 1.3680453043148832,
+    "mais_frequentes": "1 (297138), 16 (3467), 9 (3005)",
+    "amostra": "14 | 25 | 19 | 17 | 1"
+   },
+   {
+    "coluna": "co_dim_equipe_1",
+    "tipo": "BIGINT",
+    "aceita_nulo": true,
+    "distintos": 16,
+    "pct_nulo": 0.0,
+    "min": 1.0,
+    "max": 27.0,
+    "media": 9.929352440920194,
+    "mais_frequentes": "1 (53381), 7 (45994), 9 (36849)",
+    "amostra": "14 | 25 | 27 | 12 | 8"
+   },
+   {
+    "coluna": "co_dim_equipe_2",
+    "tipo": "BIGINT",
+    "aceita_nulo": true,
+    "distintos": 20,
+    "pct_nulo": 0.0,
+    "min": 1.0,
+    "max": 27.0,
+    "media": 1.2742197807940012,
+    "mais_frequentes": "1 (297518), 13 (3319), 7 (2962)",
+    "amostra": "14 | 25 | 27 | 12 | 8"
+   },
+   {
+    "coluna": "co_dim_tempo",
+    "tipo": "BIGINT",
+    "aceita_nulo": true,
+    "distintos": 2369,
+    "pct_nulo": 0.0,
+    "min": 20160125.0,
+    "max": 20250903.0,
+    "media": 20220189.08922063,
+    "mais_frequentes": "20241216 (607), 20240902 (599), 20241217 (572)",
+    "amostra": "20160125 | 20160701 | 20160706 | 20160802 | 20160805"
+   },
+   {
+    "coluna": "nu_uuid_ficha",
+    "tipo": "VARCHAR(92)",
+    "aceita_nulo": true,
+    "distintos": 226458,
+    "pct_nulo": 0.0,
+    "min": null,
+    "max": null,
+    "media": null,
+    "mais_frequentes": "",
+    "amostra": "0849731-00013dff-f734-4fb9-b383-318cfa489b0b | 0849731-000656e0-07d5-4f0b-a7aa-5ef182a8274d | 0849731-0007f369-7206-42f8-8edd-cc210e88a4e0 | 0849731-000da446-3367-4f37-ad11-9da3a5a0d655 | 0849731-00106b89-4446-4afe-861e-7c75ae916711"
+   },
+   {
+    "coluna": "nu_atendimento",
+    "tipo": "INTEGER",
+    "aceita_nulo": true,
+    "distintos": 39,
+    "pct_nulo": 0.0,
+    "min": 1.0,
+    "max": 39.0,
+    "media": 1.7013024337352545,
+    "mais_frequentes": "1 (264696), 2 (6416), 3 (5809)",
+    "amostra": "34 | 32 | 25 | 8 | 12"
+   },
+   {
+    "coluna": "nu_cns",
+    "tipo": "CHAR(15)",
+    "aceita_nulo": true,
+    "distintos": 19311,
+    "pct_nulo": 13.36,
+    "min": null,
+    "max": null,
+    "media": null,
+    "mais_frequentes": "<anonimizado> (446), <anonimizado> (333), <anonimizado> (331)",
+    "amostra": "<anonimizado> | <anonimizado> | <anonimizado> | <anonimizado> | <anonimizado>"
+   },
+   {
+    "coluna": "co_dim_cid",
+    "tipo": "BIGINT",
+    "aceita_nulo": true,
+    "distintos": 3560,
+    "pct_nulo": 0.0,
+    "min": 1.0,
+    "max": 4681.0,
+    "media": 719.6349560412285,
+    "mais_frequentes": "<anonimizado> (135945), <anonimizado> (30097), <anonimizado> (27180)",
+    "amostra": "<anonimizado> | <anonimizado> | <anonimizado> | <anonimizado> | <anonimizado>"
+   },
+   {
+    "coluna": "co_dim_ciap",
+    "tipo": "BIGINT",
+    "aceita_nulo": true,
+    "distintos": 672,
+    "pct_nulo": 0.0,
+    "min": 1.0,
+    "max": 797.0,
+    "media": 95.45759252243661,
+    "mais_frequentes": "1 (152705), 153 (22102), 144 (21608)",
+    "amostra": "251 | 120 | 285 | 681 | 264"
+   },
+   {
+    "coluna": "nu_uuid_dado_transp",
+    "tipo": "VARCHAR(92)",
+    "aceita_nulo": true,
+    "distintos": 226458,
+    "pct_nulo": 0.0,
+    "min": null,
+    "max": null,
+    "media": null,
+    "mais_frequentes": "",
+    "amostra": "0849731-00013dff-f734-4fb9-b383-318cfa489b0b | 0849731-000656e0-07d5-4f0b-a7aa-5ef182a8274d | 0849731-0007f369-7206-42f8-8edd-cc210e88a4e0 | 0849731-000da446-3367-4f37-ad11-9da3a5a0d655 | 0849731-00106b89-4446-4afe-861e-7c75ae916711"
+   },
+   {
+    "coluna": "co_dim_tipo_origem_dado_transp",
+    "tipo": "BIGINT",
+    "aceita_nulo": true,
+    "distintos": 3,
+    "pct_nulo": 0.0,
+    "min": 2.0,
+    "max": 4.0,
+    "media": 2.3049974526120525,
+    "mais_frequentes": "2 (238291), 3 (42421), 4 (25484)",
+    "amostra": "2 | 3 | 4"
+   },
+   {
+    "coluna": "co_dim_cds_tipo_origem",
+    "tipo": "BIGINT",
+    "aceita_nulo": true,
+    "distintos": 3,
+    "pct_nulo": 0.0,
+    "min": 2.0,
+    "max": 4.0,
+    "media": 3.724460802884427,
+    "mais_frequentes": "4 (257157), 2 (35330), 3 (13709)",
+    "amostra": "2 | 3 | 4"
+   },
+   {
+    "coluna": "co_fat_cidadao_pec",
+    "tipo": "BIGINT",
+    "aceita_nulo": true,
+    "distintos": 21295,
+    "pct_nulo": 3.18,
+    "min": 2.0,
+    "max": 300711.0,
+    "media": 57180.457363948844,
+    "mais_frequentes": "<anonimizado> (446), <anonimizado> (333), <anonimizado> (331)",
+    "amostra": "<anonimizado> | <anonimizado> | <anonimizado> | <anonimizado> | <anonimizado>"
+   },
+   {
+    "coluna": "nu_cpf_cidadao",
+    "tipo": "VARCHAR(11)",
+    "aceita_nulo": true,
+    "distintos": 16085,
+    "pct_nulo": 32.55,
+    "min": null,
+    "max": null,
+    "media": null,
+    "mais_frequentes": "<anonimizado> (350), <anonimizado> (327), <anonimizado> (298)",
+    "amostra": "<anonimizado> | <anonimizado> | <anonimizado> | <anonimizado> | <anonimizado>"
+   },
+   {
+    "coluna": "nu_uuid_problema",
+    "tipo": "VARCHAR(44)",
+    "aceita_nulo": true,
+    "distintos": 4699,
+    "pct_nulo": 96.85,
+    "min": null,
+    "max": null,
+    "media": null,
+    "mais_frequentes": "db621f5b-8df7-4e9e-aeca-d9dadb1c7557 (112), 9da89f60-0bdc-45ed-90d5-93baec2077c8 (97), ae1404a3-a66f-4062-9d07-ad728607044e (74)",
+    "amostra": "ef92300e-5165-4394-b84f-7bfc583d3432 | 9c976e5e-2915-4b71-997a-27de22dcadd0 | ccd1f682-c00b-4a65-a94c-66f83cb9a22e | d2b95534-fe3e-43a9-8022-9f1422112509 | 38d6e617-0f1f-43a6-8fae-167e910268dd"
+   },
+   {
+    "coluna": "co_unico_evolucao",
+    "tipo": "VARCHAR(44)",
+    "aceita_nulo": true,
+    "distintos": 9651,
+    "pct_nulo": 96.85,
+    "min": null,
+    "max": null,
+    "media": null,
+    "mais_frequentes": "f2831dc5-cd45-4edd-90ea-811a8a1d0135 (1), 5c2f88a1-2716-4130-9a11-f58d5f47933f (1), ff2820be-01fb-48f8-8ae7-8bdd1483f572 (1)",
+    "amostra": "b4d4c013-95b0-4b11-99e8-92eee2f54fc9 | f2831dc5-cd45-4edd-90ea-811a8a1d0135 | 5c2f88a1-2716-4130-9a11-f58d5f47933f | ff2820be-01fb-48f8-8ae7-8bdd1483f572 | eb353778-9747-4784-91fe-a2efdcf36610"
+   },
+   {
+    "coluna": "co_sequencial_evolucao",
+    "tipo": "BIGINT",
+    "aceita_nulo": true,
+    "distintos": 116,
+    "pct_nulo": 96.85,
+    "min": 1.0,
+    "max": 116.0,
+    "media": 5.805408765930991,
+    "mais_frequentes": "1 (3176), 2 (1809), 3 (1042)",
+    "amostra": "43 | 106 | 8 | 11 | 80"
+   },
+   {
+    "coluna": "co_dim_situacao_problema",
+    "tipo": "BIGINT",
+    "aceita_nulo": true,
+    "distintos": 3,
+    "pct_nulo": 96.85,
+    "min": 1.0,
+    "max": 3.0,
+    "media": 1.1120091182260905,
+    "mais_frequentes": "1 (9087), 3 (517), 2 (47)",
+    "amostra": "1 | 2 | 3"
+   },
+   {
+    "coluna": "co_dim_data_inicio_problema",
+    "tipo": "BIGINT",
+    "aceita_nulo": true,
+    "distintos": 575,
+    "pct_nulo": 98.87,
+    "min": 19760719.0,
+    "max": 20250903.0,
+    "media": 20230489.863334298,
+    "mais_frequentes": "20241213 (49), 20240918 (43), 20250326 (41)",
+    "amostra": "20250708 | 20190320 | 20240507 | 20240708 | 20240710"
+   },
+   {
+    "coluna": "co_dim_data_fim_problema",
+    "tipo": "BIGINT",
+    "aceita_nulo": true,
+    "distintos": 196,
+    "pct_nulo": 99.88,
+    "min": 20120101.0,
+    "max": 20250902.0,
+    "media": 20245452.223163843,
+    "mais_frequentes": "20250429 (6), 20250411 (6), 20241205 (5)",
+    "amostra": "20120101 | 20180704 | 20181218 | 20210115 | 20210205"
+   },
+   {
+    "coluna": "st_avaliado",
+    "tipo": "NUMERIC(1, 0)",
+    "aceita_nulo": true,
+    "distintos": 2,
+    "pct_nulo": 80.11,
+    "min": 0.0,
+    "max": 1.0,
+    "media": 0.9959944184519413,
+    "mais_frequentes": "1 (60671), 0 (244)",
+    "amostra": "1 | 0"
+   }
+  ],
+  "amostra_linhas": [
+   {
+    "co_seq_fat_atend_ind_problemas": 28501,
+    "co_fat_atd_ind": 37001,
+    "co_dim_tipo_ficha": 4,
+    "co_dim_municipio": 218,
+    "co_dim_profissional_1": "<anonimizado>",
+    "co_dim_profissional_2": "<anonimizado>",
+    "co_dim_cbo_1": 404,
+    "co_dim_cbo_2": 1,
+    "co_dim_unidade_saude_1": 9,
+    "co_dim_unidade_saude_2": 1,
+    "co_dim_equipe_1": 7,
+    "co_dim_equipe_2": 1,
+    "co_dim_tempo": 20180301,
+    "nu_uuid_ficha": "2321505-a1627f77-fb95-4960-a398-88a8ca437b8c",
+    "nu_atendimento": 1,
+    "nu_cns": "<anonimizado>",
+    "co_dim_cid": "<anonimizado>",
+    "co_dim_ciap": 118,
+    "nu_uuid_dado_transp": "2321505-a1627f77-fb95-4960-a398-88a8ca437b8c",
+    "co_dim_tipo_origem_dado_transp": 2,
+    "co_dim_cds_tipo_origem": 3,
+    "co_fat_cidadao_pec": "<anonimizado>",
+    "nu_cpf_cidadao": "<anonimizado>",
+    "nu_uuid_problema": null,
+    "co_unico_evolucao": null,
+    "co_sequencial_evolucao": null,
+    "co_dim_situacao_problema": null,
+    "co_dim_data_inicio_problema": null,
+    "co_dim_data_fim_problema": null,
+    "st_avaliado": null
+   },
+   {
+    "co_seq_fat_atend_ind_problemas": 302676,
+    "co_fat_atd_ind": 299162,
+    "co_dim_tipo_ficha": 9,
+    "co_dim_municipio": 218,
+    "co_dim_profissional_1": "<anonimizado>",
+    "co_dim_profissional_2": "<anonimizado>",
+    "co_dim_cbo_1": 404,
+    "co_dim_cbo_2": 1,
+    "co_dim_unidade_saude_1": 16,
+    "co_dim_unidade_saude_2": 1,
+    "co_dim_equipe_1": 1,
+    "co_dim_equipe_2": 1,
+    "co_dim_tempo": 20220509,
+    "nu_uuid_ficha": "2321521-911e0660-3e98-498b-9245-3702e4db2759",
+    "nu_atendimento": 1,
+    "nu_cns": "<anonimizado>",
+    "co_dim_cid": "<anonimizado>",
+    "co_dim_ciap": 1,
+    "nu_uuid_dado_transp": "2321521-911e0660-3e98-498b-9245-3702e4db2759",
+    "co_dim_tipo_origem_dado_transp": 2,
+    "co_dim_cds_tipo_origem": 4,
+    "co_fat_cidadao_pec": "<anonimizado>",
+    "nu_cpf_cidadao": "<anonimizado>",
+    "nu_uuid_problema": null,
+    "co_unico_evolucao": null,
+    "co_sequencial_evolucao": null,
+    "co_dim_situacao_problema": null,
+    "co_dim_data_inicio_problema": null,
+    "co_dim_data_fim_problema": null,
+    "st_avaliado": null
+   },
+   {
+    "co_seq_fat_atend_ind_problemas": 28503,
+    "co_fat_atd_ind": 37003,
+    "co_dim_tipo_ficha": 4,
+    "co_dim_municipio": 218,
+    "co_dim_profissional_1": "<anonimizado>",
+    "co_dim_profissional_2": "<anonimizado>",
+    "co_dim_cbo_1": 404,
+    "co_dim_cbo_2": 1,
+    "co_dim_unidade_saude_1": 9,
+    "co_dim_unidade_saude_2": 1,
+    "co_dim_equipe_1": 7,
+    "co_dim_equipe_2": 1,
+    "co_dim_tempo": 20180301,
+    "nu_uuid_ficha": "2321505-a1627f77-fb95-4960-a398-88a8ca437b8c",
+    "nu_atendimento": 3,
+    "nu_cns": "<anonimizado>",
+    "co_dim_cid": "<anonimizado>",
+    "co_dim_ciap": 120,
+    "nu_uuid_dado_transp": "2321505-a1627f77-fb95-4960-a398-88a8ca437b8c",
+    "co_dim_tipo_origem_dado_transp": 2,
+    "co_dim_cds_tipo_origem": 3,
+    "co_fat_cidadao_pec": "<anonimizado>",
+    "nu_cpf_cidadao": "<anonimizado>",
+    "nu_uuid_problema": null,
+    "co_unico_evolucao": null,
+    "co_sequencial_evolucao": null,
+    "co_dim_situacao_problema": null,
+    "co_dim_data_inicio_problema": null,
+    "co_dim_data_fim_problema": null,
+    "st_avaliado": null
+   }
+  ]
+ },
+ "pool": [
+  {
+   "tema_id": "t0",
+   "texto": "Atenção Primária"
+  },
+  {
+   "tema_id": "t1",
+   "texto": "Atendimento Saúde"
+  },
+  {
+   "tema_id": "t2",
+   "texto": "Epidemiologia"
+  },
+  {
+   "tema_id": "t3",
+   "texto": "Atendimento Médico"
+  },
+  {
+   "tema_id": "t4",
+   "texto": "Problemas de Saúde"
+  },
+  {
+   "tema_id": "t5",
+   "texto": "Profissionais de Saúde"
+  },
+  {
+   "tema_id": "t6",
+   "texto": "Doenças Crônicas"
+  },
+  {
+   "tema_id": "t7",
+   "texto": "Saúde Pública"
+  }
+ ],
+ "listas": {
+  "Sistema A": {
+   "1": [
+    "Saúde pública",
+    "Atendimento médico",
+    "Profissionais de saúde"
+   ],
+   "2": [
+    "Saúde pública",
+    "Atendimento médico",
+    "Profissionais de saúde"
+   ],
+   "3": [
+    "Saúde pública",
+    "Atendimento médico",
+    "Epidemiologia"
+   ]
+  },
+  "Sistema B": {
+   "1": [
+    "Atendimento Saúde",
+    "Problemas de Saúde",
+    "Profissionais de Saúde"
+   ],
+   "2": [
+    "Atendimento Saúde",
+    "Problemas de Saúde",
+    "Profissionais de Saúde"
+   ],
+   "3": [
+    "Atendimento Saúde",
+    "Problemas de Saúde",
+    "Profissionais de Saúde"
+   ]
+  },
+  "Sistema C": {
+   "1": [
+    "Saúde Pública",
+    "Doenças Crônicas",
+    "Atenção Primária"
+   ],
+   "2": [
+    "Saúde Pública",
+    "Doenças Crônicas",
+    "Atenção Primária"
+   ],
+   "3": [
+    "Saúde Pública",
+    "Atendimento Médico",
+    "Doenças Crônicas"
+   ]
+  }
+ }
+}

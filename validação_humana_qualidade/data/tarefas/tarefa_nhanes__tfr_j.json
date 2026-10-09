@@ -1,0 +1,154 @@
+{
+ "item_id": "nhanes__tfr_j",
+ "table_key": "nhanes_laboratory.tfr_j",
+ "base": "nhanes",
+ "piloto": false,
+ "contexto": {
+  "tabela": "tfr_j",
+  "linhas": 7332,
+  "pk": [],
+  "fks": [],
+  "colunas": [
+   {
+    "coluna": "SEQN",
+    "tipo": "DOUBLE PRECISION",
+    "aceita_nulo": true,
+    "distintos": 7332,
+    "pct_nulo": 0.0,
+    "min": 93703.0,
+    "max": 102956.0,
+    "media": 98299.51623022367,
+    "mais_frequentes": "",
+    "amostra": "101333.0 | 97209.0 | 101319.0 | 100331.0 | 102850.0"
+   },
+   {
+    "coluna": "LBXTFR",
+    "tipo": "DOUBLE PRECISION",
+    "aceita_nulo": true,
+    "distintos": 668,
+    "pct_nulo": 10.43,
+    "min": 1.01,
+    "max": 41.3,
+    "media": 3.4355154560682153,
+    "mais_frequentes": "2.96 (46), 2.52 (44), 2.85 (43)",
+    "amostra": "5.38 | 2.41 | 5.33 | 4.84 | 4.8"
+   },
+   {
+    "coluna": "LBDTFRSI",
+    "tipo": "DOUBLE PRECISION",
+    "aceita_nulo": true,
+    "distintos": 651,
+    "pct_nulo": 10.43,
+    "min": 11.9,
+    "max": 487.0,
+    "media": 40.53975940307602,
+    "mais_frequentes": "34.9 (46), 29.7 (44), 33.6 (43)",
+    "amostra": "37.1 | 60.5 | 44.6 | 322.0 | 61.0"
+   }
+  ],
+  "amostra_linhas": [
+   {
+    "SEQN": 93703.0,
+    "LBXTFR": NaN,
+    "LBDTFRSI": NaN
+   },
+   {
+    "SEQN": 93704.0,
+    "LBXTFR": 2.59,
+    "LBDTFRSI": 30.6
+   },
+   {
+    "SEQN": 93705.0,
+    "LBXTFR": 3.37,
+    "LBDTFRSI": 39.8
+   }
+  ]
+ },
+ "pool": [
+  {
+   "tema_id": "t0",
+   "texto": "análise laboratorial"
+  },
+  {
+   "tema_id": "t1",
+   "texto": "ferro sérico"
+  },
+  {
+   "tema_id": "t2",
+   "texto": "nível de ferro"
+  },
+  {
+   "tema_id": "t3",
+   "texto": "Metabolismo do ferro"
+  },
+  {
+   "tema_id": "t4",
+   "texto": "dados de saúde"
+  },
+  {
+   "tema_id": "t5",
+   "texto": "índice de saturação de transferrina"
+  },
+  {
+   "tema_id": "t6",
+   "texto": "Ferritina sérica"
+  },
+  {
+   "tema_id": "t7",
+   "texto": "Transferrina sérica"
+  }
+ ],
+ "listas": {
+  "Sistema A": {
+   "1": [
+    "nível de ferro",
+    "análise laboratorial",
+    "dados de saúde"
+   ],
+   "2": [
+    "nível de ferro",
+    "análise laboratorial",
+    "dados de saúde"
+   ],
+   "3": [
+    "nível de ferro",
+    "análise laboratorial",
+    "dados de saúde"
+   ]
+  },
+  "Sistema B": {
+   "1": [
+    "Ferritina sérica",
+    "Transferrina sérica",
+    "Metabolismo do ferro"
+   ],
+   "2": [
+    "Ferritina sérica",
+    "Transferrina sérica",
+    "Metabolismo do ferro"
+   ],
+   "3": [
+    "Ferritina sérica",
+    "Transferrina sérica",
+    "Metabolismo do ferro"
+   ]
+  },
+  "Sistema C": {
+   "1": [
+    "ferro sérico",
+    "índice de saturação de transferrina",
+    "análise laboratorial"
+   ],
+   "2": [
+    "ferro sérico",
+    "índice de saturação de transferrina",
+    "análise laboratorial"
+   ],
+   "3": [
+    "ferro sérico",
+    "índice de saturação de transferrina",
+    "análise laboratorial"
+   ]
+  }
+ }
+}

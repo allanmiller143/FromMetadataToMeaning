@@ -1,0 +1,225 @@
+{
+ "item_id": "teixeira__tl_neuro_fator_risco",
+ "table_key": "public.tl_neuro_fator_risco",
+ "base": "teixeira",
+ "piloto": false,
+ "contexto": {
+  "tabela": "tl_neuro_fator_risco",
+  "linhas": 436,
+  "pk": [
+   "co_seq_neuro_fator_risco",
+   "co_revisao"
+  ],
+  "fks": [],
+  "colunas": [
+   {
+    "coluna": "co_revisao",
+    "tipo": "BIGINT",
+    "aceita_nulo": false,
+    "distintos": 44,
+    "pct_nulo": 0.0,
+    "min": 237679.0,
+    "max": 565213.0,
+    "media": 416956.86467889906,
+    "mais_frequentes": "459386 (10), 409268 (10), 312167 (10)",
+    "amostra": "409289 | 459386 | 409268 | 312167 | 504763"
+   },
+   {
+    "coluna": "co_tipo_revisao",
+    "tipo": "SMALLINT",
+    "aceita_nulo": true,
+    "distintos": 1,
+    "pct_nulo": 0.0,
+    "min": 0.0,
+    "max": 0.0,
+    "media": 0.0,
+    "mais_frequentes": "0 (436)",
+    "amostra": "0"
+   },
+   {
+    "coluna": "co_seq_neuro_fator_risco",
+    "tipo": "BIGINT",
+    "aceita_nulo": false,
+    "distintos": 436,
+    "pct_nulo": 0.0,
+    "min": 1.0,
+    "max": 496.0,
+    "media": 230.61009174311926,
+    "mais_frequentes": "",
+    "amostra": "1 | 2 | 3 | 4 | 5"
+   },
+   {
+    "coluna": "co_fator_risco_detalhe",
+    "tipo": "BIGINT",
+    "aceita_nulo": true,
+    "distintos": 10,
+    "pct_nulo": 0.0,
+    "min": 1.0,
+    "max": 10.0,
+    "media": 5.513761467889909,
+    "mais_frequentes": "6 (44), 8 (44), 2 (44)",
+    "amostra": "6 | 8 | 2 | 1 | 3"
+   },
+   {
+    "coluna": "co_prontuario",
+    "tipo": "BIGINT",
+    "aceita_nulo": true,
+    "distintos": 44,
+    "pct_nulo": 0.0,
+    "min": 4962.0,
+    "max": 22375.0,
+    "media": 18392.520642201835,
+    "mais_frequentes": "<anonimizado> (10), <anonimizado> (10), <anonimizado> (10)",
+    "amostra": "<anonimizado> | <anonimizado> | <anonimizado> | <anonimizado> | <anonimizado>"
+   },
+   {
+    "coluna": "co_ultimo_fator_risco_evolucao",
+    "tipo": "BIGINT",
+    "aceita_nulo": true,
+    "distintos": 436,
+    "pct_nulo": 0.0,
+    "min": 1.0,
+    "max": 436.0,
+    "media": 218.5,
+    "mais_frequentes": "",
+    "amostra": "129 | 195 | 251 | 106 | 120"
+   },
+   {
+    "coluna": "co_unico_fator_risco",
+    "tipo": "BIGINT",
+    "aceita_nulo": true,
+    "distintos": 436,
+    "pct_nulo": 0.0,
+    "min": 1.0,
+    "max": 496.0,
+    "media": 230.61009174311926,
+    "mais_frequentes": "",
+    "amostra": "129 | 195 | 251 | 106 | 120"
+   }
+  ],
+  "amostra_linhas": [
+   {
+    "co_revisao": 237679,
+    "co_tipo_revisao": 0,
+    "co_seq_neuro_fator_risco": 1,
+    "co_fator_risco_detalhe": 2,
+    "co_prontuario": "<anonimizado>",
+    "co_ultimo_fator_risco_evolucao": 1,
+    "co_unico_fator_risco": 1
+   },
+   {
+    "co_revisao": 237679,
+    "co_tipo_revisao": 0,
+    "co_seq_neuro_fator_risco": 2,
+    "co_fator_risco_detalhe": 3,
+    "co_prontuario": "<anonimizado>",
+    "co_ultimo_fator_risco_evolucao": 2,
+    "co_unico_fator_risco": 2
+   },
+   {
+    "co_revisao": 237679,
+    "co_tipo_revisao": 0,
+    "co_seq_neuro_fator_risco": 3,
+    "co_fator_risco_detalhe": 4,
+    "co_prontuario": "<anonimizado>",
+    "co_ultimo_fator_risco_evolucao": 3,
+    "co_unico_fator_risco": 3
+   }
+  ]
+ },
+ "pool": [
+  {
+   "tema_id": "t0",
+   "texto": "Fatores de Risco Neurológicos"
+  },
+  {
+   "tema_id": "t1",
+   "texto": "Análise de revisões"
+  },
+  {
+   "tema_id": "t2",
+   "texto": "Prontuários"
+  },
+  {
+   "tema_id": "t3",
+   "texto": "Prontuários Médicos"
+  },
+  {
+   "tema_id": "t4",
+   "texto": "Evolução de prontuários"
+  },
+  {
+   "tema_id": "t5",
+   "texto": "Revisão médica"
+  },
+  {
+   "tema_id": "t6",
+   "texto": "Evolução de Pacientes"
+  },
+  {
+   "tema_id": "t7",
+   "texto": "Fatores de Risco"
+  },
+  {
+   "tema_id": "t8",
+   "texto": "Revisões Clínicas"
+  },
+  {
+   "tema_id": "t9",
+   "texto": "Evolução Neurológica"
+  }
+ ],
+ "listas": {
+  "Sistema A": {
+   "1": [
+    "Fatores de Risco",
+    "Evolução Neurológica",
+    "Prontuários Médicos"
+   ],
+   "2": [
+    "Fatores de Risco",
+    "Evolução Neurológica",
+    "Prontuários Médicos"
+   ],
+   "3": [
+    "Fatores de Risco",
+    "Evolução Neurológica",
+    "Prontuários Médicos"
+   ]
+  },
+  "Sistema B": {
+   "1": [
+    "Fatores de risco neurológicos",
+    "Evolução de prontuários",
+    "Análise de revisões"
+   ],
+   "2": [
+    "Fatores de risco",
+    "Revisão médica",
+    "Prontuários"
+   ],
+   "3": [
+    "Fatores de risco neurológicos",
+    "Evolução de prontuários",
+    "Análise de revisões"
+   ]
+  },
+  "Sistema C": {
+   "1": [
+    "Fatores de Risco Neurológicos",
+    "Evolução de Pacientes",
+    "Revisões Clínicas"
+   ],
+   "2": [
+    "Fatores de Risco Neurológicos",
+    "Evolução de Pacientes",
+    "Prontuários Médicos"
+   ],
+   "3": [
+    "Fatores de Risco Neurológicos",
+    "Evolução de Pacientes",
+    "Revisões Clínicas"
+   ]
+  }
+ }
+}

@@ -1,0 +1,168 @@
+{
+ "item_id": "teixeira__tb_publico_alvo",
+ "table_key": "public.tb_publico_alvo",
+ "base": "teixeira",
+ "piloto": false,
+ "contexto": {
+  "tabela": "tb_publico_alvo",
+  "linhas": 17,
+  "pk": [
+   "co_publico_alvo"
+  ],
+  "fks": [],
+  "colunas": [
+   {
+    "coluna": "co_publico_alvo",
+    "tipo": "BIGINT",
+    "aceita_nulo": false,
+    "distintos": 17,
+    "pct_nulo": 0.0,
+    "min": 1.0,
+    "max": 18.0,
+    "media": 9.411764705882353,
+    "mais_frequentes": "",
+    "amostra": "14 | 8 | 12 | 17 | 1"
+   },
+   {
+    "coluna": "no_publico_alvo",
+    "tipo": "VARCHAR(100)",
+    "aceita_nulo": false,
+    "distintos": 17,
+    "pct_nulo": 0.0,
+    "min": null,
+    "max": null,
+    "media": null,
+    "mais_frequentes": "",
+    "amostra": "Pessoas com doenças crônicas | Outros | Criança 6 a 11 anos | Usuário de álcool | Familiares"
+   },
+   {
+    "coluna": "no_identificador",
+    "tipo": "VARCHAR(100)",
+    "aceita_nulo": false,
+    "distintos": 17,
+    "pct_nulo": 0.0,
+    "min": null,
+    "max": null,
+    "media": null,
+    "mais_frequentes": "",
+    "amostra": "FAMILIARES | USUARIO_DE_ALCOOL | CRIANCA_0_A_3_ANOS | CRIANCA_4_A_5_ANOS | PESSOAS_COM_DOENCAS_CRONICAS"
+   }
+  ],
+  "amostra_linhas": [
+   {
+    "co_publico_alvo": 1,
+    "no_publico_alvo": "Comunidade em geral",
+    "no_identificador": "COMUNIDADE_EM_GERAL"
+   },
+   {
+    "co_publico_alvo": 2,
+    "no_publico_alvo": "Criança 0 a 3 anos",
+    "no_identificador": "CRIANCA_0_A_3_ANOS"
+   },
+   {
+    "co_publico_alvo": 3,
+    "no_publico_alvo": "Criança 4 a 5 anos",
+    "no_identificador": "CRIANCA_4_A_5_ANOS"
+   }
+  ]
+ },
+ "pool": [
+  {
+   "tema_id": "t0",
+   "texto": "Grupos Vulneráveis"
+  },
+  {
+   "tema_id": "t1",
+   "texto": "Público Alvo"
+  },
+  {
+   "tema_id": "t2",
+   "texto": "Saúde Pública"
+  },
+  {
+   "tema_id": "t3",
+   "texto": "Demografia"
+  },
+  {
+   "tema_id": "t4",
+   "texto": "Grupos populacionais"
+  },
+  {
+   "tema_id": "t5",
+   "texto": "Dependência química"
+  },
+  {
+   "tema_id": "t6",
+   "texto": "Segmentação demográfica"
+  },
+  {
+   "tema_id": "t7",
+   "texto": "Crianças"
+  },
+  {
+   "tema_id": "t8",
+   "texto": "Políticas sociais"
+  },
+  {
+   "tema_id": "t9",
+   "texto": "Saúde Mental"
+  },
+  {
+   "tema_id": "t10",
+   "texto": "Grupos de risco"
+  }
+ ],
+ "listas": {
+  "Sistema A": {
+   "1": [
+    "Público Alvo",
+    "Saúde Mental",
+    "Crianças"
+   ],
+   "2": [
+    "Público Alvo",
+    "Saúde Mental",
+    "Crianças"
+   ],
+   "3": [
+    "Saúde Pública",
+    "Grupos Vulneráveis",
+    "Demografia"
+   ]
+  },
+  "Sistema B": {
+   "1": [
+    "Saúde pública",
+    "Grupos populacionais",
+    "Dependência química"
+   ],
+   "2": [
+    "Saúde pública",
+    "Grupos populacionais",
+    "Segmentação demográfica"
+   ],
+   "3": [
+    "Saúde pública",
+    "Grupos populacionais",
+    "Dependência química"
+   ]
+  },
+  "Sistema C": {
+   "1": [
+    "Saúde pública",
+    "Demografia",
+    "Políticas sociais"
+   ],
+   "2": [
+    "Saúde pública",
+    "Demografia",
+    "Políticas sociais"
+   ],
+   "3": [
+    "Saúde pública",
+    "Demografia",
+    "Grupos de risco"
+   ]
+  }
+ }
+}

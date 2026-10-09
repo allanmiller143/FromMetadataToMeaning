@@ -1,0 +1,252 @@
+{
+ "item_id": "nhanes__fetib_j",
+ "table_key": "nhanes_laboratory.fetib_j",
+ "base": "nhanes",
+ "piloto": false,
+ "contexto": {
+  "tabela": "fetib_j",
+  "linhas": 6401,
+  "pk": [],
+  "fks": [],
+  "colunas": [
+   {
+    "coluna": "SEQN",
+    "tipo": "DOUBLE PRECISION",
+    "aceita_nulo": true,
+    "distintos": 6401,
+    "pct_nulo": 0.0,
+    "min": 93705.0,
+    "max": 102956.0,
+    "media": 98293.35431963755,
+    "mais_frequentes": "",
+    "amostra": "101333.0 | 98813.0 | 96811.0 | 97209.0 | 96347.0"
+   },
+   {
+    "coluna": "LBXIRN",
+    "tipo": "DOUBLE PRECISION",
+    "aceita_nulo": true,
+    "distintos": 223,
+    "pct_nulo": 7.48,
+    "min": 11.0,
+    "max": 481.0,
+    "media": 86.25464370145221,
+    "mais_frequentes": "80.0 (88), 81.0 (84), 79.0 (82)",
+    "amostra": "154.0 | 62.0 | 174.0 | 217.0 | 162.0"
+   },
+   {
+    "coluna": "LBDIRNSI",
+    "tipo": "DOUBLE PRECISION",
+    "aceita_nulo": true,
+    "distintos": 223,
+    "pct_nulo": 7.48,
+    "min": 2.0,
+    "max": 86.1,
+    "media": 15.448058088483679,
+    "mais_frequentes": "14.3 (88), 14.5 (84), 14.1 (82)",
+    "amostra": "46.6 | 14.3 | 29.6 | 27.2 | 10.2"
+   },
+   {
+    "coluna": "LBXUIB",
+    "tipo": "DOUBLE PRECISION",
+    "aceita_nulo": true,
+    "distintos": 401,
+    "pct_nulo": 7.84,
+    "min": 12.0,
+    "max": 602.0,
+    "media": 242.01847770808612,
+    "mais_frequentes": "242.0 (54), 211.0 (53), 208.0 (52)",
+    "amostra": "154.0 | 346.0 | 174.0 | 517.0 | 547.0"
+   },
+   {
+    "coluna": "LBDUIBLC",
+    "tipo": "DOUBLE PRECISION",
+    "aceita_nulo": true,
+    "distintos": 2,
+    "pct_nulo": 7.84,
+    "min": 5.397605346934028e-79,
+    "max": 1.0,
+    "media": 0.0010171215460247499,
+    "mais_frequentes": "5.397605346934028e-79 (5893), 1.0 (6)",
+    "amostra": "1.0 | 5.397605346934028e-79"
+   },
+   {
+    "coluna": "LBDUIBSI",
+    "tipo": "DOUBLE PRECISION",
+    "aceita_nulo": true,
+    "distintos": 405,
+    "pct_nulo": 7.84,
+    "min": 0.18,
+    "max": 107.82,
+    "media": 43.34483980335696,
+    "mais_frequentes": "43.34 (54), 37.79 (53), 37.25 (52)",
+    "amostra": "73.07 | 84.71 | 83.64 | 33.13 | 62.33"
+   },
+   {
+    "coluna": "LBDTIB",
+    "tipo": "DOUBLE PRECISION",
+    "aceita_nulo": true,
+    "distintos": 328,
+    "pct_nulo": 7.94,
+    "min": 139.0,
+    "max": 621.0,
+    "media": 328.2888172407942,
+    "mais_frequentes": "317.0 (67), 325.0 (63), 313.0 (61)",
+    "amostra": "519.0 | 472.0 | 346.0 | 517.0 | 322.0"
+   },
+   {
+    "coluna": "LBDTIBSI",
+    "tipo": "DOUBLE PRECISION",
+    "aceita_nulo": true,
+    "distintos": 328,
+    "pct_nulo": 7.94,
+    "min": 24.89,
+    "max": 111.22,
+    "media": 58.7965722043104,
+    "mais_frequentes": "56.77 (67), 58.21 (63), 56.06 (61)",
+    "amostra": "84.71 | 83.64 | 62.33 | 51.04 | 38.15"
+   },
+   {
+    "coluna": "LBDPCT",
+    "tipo": "DOUBLE PRECISION",
+    "aceita_nulo": true,
+    "distintos": 81,
+    "pct_nulo": 7.94,
+    "min": 2.0,
+    "max": 92.0,
+    "media": 26.93721364330562,
+    "mais_frequentes": "23.0 (249), 25.0 (235), 24.0 (232)",
+    "amostra": "40.0 | 39.0 | 68.0 | 92.0 | 11.0"
+   }
+  ],
+  "amostra_linhas": [
+   {
+    "SEQN": 93705.0,
+    "LBXIRN": 92.0,
+    "LBDIRNSI": 16.5,
+    "LBXUIB": 233.0,
+    "LBDUIBLC": 5.397605346934028e-79,
+    "LBDUIBSI": 41.73,
+    "LBDTIB": 325.0,
+    "LBDTIBSI": 58.21,
+    "LBDPCT": 28.0
+   },
+   {
+    "SEQN": 93706.0,
+    "LBXIRN": 164.0,
+    "LBDIRNSI": 29.4,
+    "LBXUIB": 155.0,
+    "LBDUIBLC": 5.397605346934028e-79,
+    "LBDUIBSI": 27.76,
+    "LBDTIB": 319.0,
+    "LBDTIBSI": 57.13,
+    "LBDPCT": 51.0
+   },
+   {
+    "SEQN": 93707.0,
+    "LBXIRN": 91.0,
+    "LBDIRNSI": 16.3,
+    "LBXUIB": 340.0,
+    "LBDUIBLC": 5.397605346934028e-79,
+    "LBDUIBSI": 60.89,
+    "LBDTIB": 431.0,
+    "LBDTIBSI": 77.19,
+    "LBDPCT": 21.0
+   }
+  ]
+ },
+ "pool": [
+  {
+   "tema_id": "t0",
+   "texto": "dados laboratoriais de saúde"
+  },
+  {
+   "tema_id": "t1",
+   "texto": "índice de saturação de transferrina"
+  },
+  {
+   "tema_id": "t2",
+   "texto": "Ferro sérico"
+  },
+  {
+   "tema_id": "t3",
+   "texto": "análise de biomarcadores"
+  },
+  {
+   "tema_id": "t4",
+   "texto": "Capacidade de ligação do ferro"
+  },
+  {
+   "tema_id": "t5",
+   "texto": "resultados de exames"
+  },
+  {
+   "tema_id": "t6",
+   "texto": "Capacidade de ligação de ferro"
+  },
+  {
+   "tema_id": "t7",
+   "texto": "percentual de saturação de ferro"
+  },
+  {
+   "tema_id": "t8",
+   "texto": "Ferritina sérica"
+  },
+  {
+   "tema_id": "t9",
+   "texto": "Saturação de transferrina"
+  }
+ ],
+ "listas": {
+  "Sistema A": {
+   "1": [
+    "ferro sérico",
+    "índice de saturação de transferrina",
+    "percentual de saturação de ferro"
+   ],
+   "2": [
+    "ferro sérico",
+    "índice de saturação de transferrina",
+    "percentual de saturação de ferro"
+   ],
+   "3": [
+    "ferro sérico",
+    "índice de saturação de transferrina",
+    "percentual de saturação de ferro"
+   ]
+  },
+  "Sistema B": {
+   "1": [
+    "Ferritina sérica",
+    "Ferro sérico",
+    "Capacidade de ligação do ferro"
+   ],
+   "2": [
+    "Ferritina sérica",
+    "Capacidade de ligação de ferro",
+    "Saturação de transferrina"
+   ],
+   "3": [
+    "Ferritina sérica",
+    "Capacidade de ligação de ferro",
+    "Saturação de transferrina"
+   ]
+  },
+  "Sistema C": {
+   "1": [
+    "análise de biomarcadores",
+    "dados laboratoriais de saúde",
+    "resultados de exames"
+   ],
+   "2": [
+    "análise de biomarcadores",
+    "dados laboratoriais de saúde",
+    "resultados de exames"
+   ],
+   "3": [
+    "análise de biomarcadores",
+    "dados laboratoriais de saúde",
+    "resultados de exames"
+   ]
+  }
+ }
+}

@@ -1,0 +1,425 @@
+{
+ "item_id": "nhanes__dxxfem_j",
+ "table_key": "nhanes_examination.dxxfem_j",
+ "base": "nhanes",
+ "piloto": false,
+ "contexto": {
+  "tabela": "dxxfem_j",
+  "linhas": 2898,
+  "pk": [],
+  "fks": [],
+  "colunas": [
+   {
+    "coluna": "SEQN",
+    "tipo": "DOUBLE PRECISION",
+    "aceita_nulo": true,
+    "distintos": 2898,
+    "pct_nulo": 0.0,
+    "min": 93705.0,
+    "max": 102952.0,
+    "media": 98257.37715665977,
+    "mais_frequentes": "",
+    "amostra": "101333.0 | 98813.0 | 97209.0 | 98508.0 | 102850.0"
+   },
+   {
+    "coluna": "DXAFMRST",
+    "tipo": "DOUBLE PRECISION",
+    "aceita_nulo": true,
+    "distintos": 4,
+    "pct_nulo": 0.0,
+    "min": 1.0,
+    "max": 5.0,
+    "media": 1.6639061421670118,
+    "mais_frequentes": "1.0 (2286), 5.0 (436), 2.0 (174)",
+    "amostra": "4.0 | 2.0 | 5.0 | 1.0"
+   },
+   {
+    "coluna": "DXXFMBCC",
+    "tipo": "DOUBLE PRECISION",
+    "aceita_nulo": true,
+    "distintos": 5,
+    "pct_nulo": 15.11,
+    "min": 5.397605346934028e-79,
+    "max": 6.0,
+    "media": 0.4142276422764228,
+    "mais_frequentes": "5.397605346934028e-79 (2286), 6.0 (168), 1.0 (4)",
+    "amostra": "3.0 | 6.0 | 5.397605346934028e-79 | 4.0 | 1.0"
+   },
+   {
+    "coluna": "DXXOFBMD",
+    "tipo": "DOUBLE PRECISION",
+    "aceita_nulo": true,
+    "distintos": 661,
+    "pct_nulo": 21.12,
+    "min": 0.37,
+    "max": 1.55,
+    "media": 0.9223245844269471,
+    "mais_frequentes": "0.897 (12), 0.849 (11), 0.996 (10)",
+    "amostra": "0.945 | 0.871 | 1.082 | 1.241 | 1.154"
+   },
+   {
+    "coluna": "DXXOFBMC",
+    "tipo": "DOUBLE PRECISION",
+    "aceita_nulo": true,
+    "distintos": 1715,
+    "pct_nulo": 21.12,
+    "min": 13.42,
+    "max": 70.99,
+    "media": 35.43101487314086,
+    "mais_frequentes": "",
+    "amostra": "32.02 | 43.92 | 21.94 | 38.86 | 36.05"
+   },
+   {
+    "coluna": "DXXOFA",
+    "tipo": "DOUBLE PRECISION",
+    "aceita_nulo": true,
+    "distintos": 1487,
+    "pct_nulo": 21.12,
+    "min": 24.29,
+    "max": 61.57,
+    "media": 38.04525809273829,
+    "mais_frequentes": "",
+    "amostra": "37.42 | 43.92 | 51.04 | 29.75 | 38.86"
+   },
+   {
+    "coluna": "DXXNKBMD",
+    "tipo": "DOUBLE PRECISION",
+    "aceita_nulo": true,
+    "distintos": 602,
+    "pct_nulo": 21.12,
+    "min": 0.144,
+    "max": 1.421,
+    "media": 0.7553718285214339,
+    "mais_frequentes": "0.695 (14), 0.759 (13), 0.696 (13)",
+    "amostra": "0.349 | 0.945 | 0.871 | 1.082 | 0.884"
+   },
+   {
+    "coluna": "DXXNKBMC",
+    "tipo": "DOUBLE PRECISION",
+    "aceita_nulo": true,
+    "distintos": 417,
+    "pct_nulo": 21.12,
+    "min": 0.16,
+    "max": 8.46,
+    "media": 3.9777121609798813,
+    "mais_frequentes": "3.66 (21), 3.88 (20), 3.6 (19)",
+    "amostra": "3.07 | 3.71 | 2.52 | 2.76 | 5.38"
+   },
+   {
+    "coluna": "DXXNKA",
+    "tipo": "DOUBLE PRECISION",
+    "aceita_nulo": true,
+    "distintos": 289,
+    "pct_nulo": 21.12,
+    "min": 1.11,
+    "max": 7.23,
+    "media": 5.251832895888017,
+    "mais_frequentes": "5.15 (23), 5.02 (22), 5.3 (21)",
+    "amostra": "5.23 | 5.38 | 5.8 | 5.33 | 6.18"
+   },
+   {
+    "coluna": "DXXTRBMD",
+    "tipo": "DOUBLE PRECISION",
+    "aceita_nulo": true,
+    "distintos": 577,
+    "pct_nulo": 21.12,
+    "min": 0.269,
+    "max": 1.224,
+    "media": 0.6955778652668412,
+    "mais_frequentes": "0.711 (16), 0.639 (14), 0.678 (13)",
+    "amostra": "0.473 | 0.871 | 0.447 | 0.884 | 0.658"
+   },
+   {
+    "coluna": "DXXTRBMC",
+    "tipo": "DOUBLE PRECISION",
+    "aceita_nulo": true,
+    "distintos": 864,
+    "pct_nulo": 21.12,
+    "min": 2.52,
+    "max": 33.78,
+    "media": 8.467038495188104,
+    "mais_frequentes": "6.02 (10), 7.73 (9), 7.04 (9)",
+    "amostra": "10.98 | 5.38 | 12.75 | 8.38 | 5.33"
+   },
+   {
+    "coluna": "DXXTRA",
+    "tipo": "DOUBLE PRECISION",
+    "aceita_nulo": true,
+    "distintos": 820,
+    "pct_nulo": 21.12,
+    "min": 5.9,
+    "max": 39.46,
+    "media": 12.073083989501322,
+    "mais_frequentes": "13.34 (11), 11.32 (10), 10.14 (9)",
+    "amostra": "15.23 | 14.1 | 11.94 | 10.98 | 12.75"
+   },
+   {
+    "coluna": "DXXINBMD",
+    "tipo": "DOUBLE PRECISION",
+    "aceita_nulo": true,
+    "distintos": 749,
+    "pct_nulo": 21.12,
+    "min": 0.419,
+    "max": 1.805,
+    "media": 1.0992786526684137,
+    "mais_frequentes": "1.037 (10), 1.015 (10), 1.021 (10)",
+    "amostra": "0.945 | 1.374 | 0.871 | 1.082 | 1.332"
+   },
+   {
+    "coluna": "DXXINBMC",
+    "tipo": "DOUBLE PRECISION",
+    "aceita_nulo": true,
+    "distintos": 1495,
+    "pct_nulo": 21.12,
+    "min": 7.79,
+    "max": 47.47,
+    "media": 22.986150481189878,
+    "mais_frequentes": "",
+    "amostra": "24.6 | 19.37 | 32.02 | 14.1 | 19.82"
+   },
+   {
+    "coluna": "DXXINA",
+    "tipo": "DOUBLE PRECISION",
+    "aceita_nulo": true,
+    "distintos": 1199,
+    "pct_nulo": 21.12,
+    "min": 8.54,
+    "max": 38.1,
+    "media": 20.720354330708698,
+    "mais_frequentes": "23.55 (7), 17.19 (6), 24.01 (6)",
+    "amostra": "19.37 | 14.1 | 19.82 | 17.25 | 29.75"
+   },
+   {
+    "coluna": "DXXWDBMD",
+    "tipo": "DOUBLE PRECISION",
+    "aceita_nulo": true,
+    "distintos": 661,
+    "pct_nulo": 21.12,
+    "min": 5.397605346934028e-79,
+    "max": 1.354,
+    "media": 0.5520629921259841,
+    "mais_frequentes": "0.54 (12), 0.549 (12), 0.471 (12)",
+    "amostra": "0.443 | 0.387 | 0.804 | 0.821 | 0.678"
+   },
+   {
+    "coluna": "DXXWDBMC",
+    "tipo": "DOUBLE PRECISION",
+    "aceita_nulo": true,
+    "distintos": 125,
+    "pct_nulo": 21.12,
+    "min": 5.397605346934028e-79,
+    "max": 1.72,
+    "media": 0.6502405949256342,
+    "mais_frequentes": "0.61 (61), 0.59 (58), 0.55 (55)",
+    "amostra": "0.91 | 0.9 | 0.62 | 0.87 | 0.24"
+   },
+   {
+    "coluna": "DXXWDA",
+    "tipo": "DOUBLE PRECISION",
+    "aceita_nulo": true,
+    "distintos": 37,
+    "pct_nulo": 21.12,
+    "min": 5.397605346934028e-79,
+    "max": 1.32,
+    "media": 1.1749300087489096,
+    "mais_frequentes": "1.3 (323), 1.16 (323), 1.17 (292)",
+    "amostra": "0.93 | 0.8 | 1.19 | 1.09 | 1.06"
+   },
+   {
+    "coluna": "DXAFMRK",
+    "tipo": "DOUBLE PRECISION",
+    "aceita_nulo": true,
+    "distintos": 371,
+    "pct_nulo": 21.12,
+    "min": 1.1221,
+    "max": 1.1701,
+    "media": 1.1457853018372686,
+    "mais_frequentes": "1.1536 (16), 1.1518 (16), 1.155 (16)",
+    "amostra": "1.1564 | 1.1562 | 1.1315 | 1.1444 | 1.1552"
+   },
+   {
+    "coluna": "DXAFMRD0",
+    "tipo": "DOUBLE PRECISION",
+    "aceita_nulo": true,
+    "distintos": 2239,
+    "pct_nulo": 21.12,
+    "min": 36.875,
+    "max": 54.9098,
+    "media": 46.224170866141684,
+    "mais_frequentes": "",
+    "amostra": "46.2199 | 50.6848 | 46.8451 | 45.4483 | 47.5752"
+   }
+  ],
+  "amostra_linhas": [
+   {
+    "SEQN": 93705.0,
+    "DXAFMRST": 1.0,
+    "DXXFMBCC": 5.397605346934028e-79,
+    "DXXOFBMD": 1.058,
+    "DXXOFBMC": 36.42,
+    "DXXOFA": 34.44,
+    "DXXNKBMD": 0.858,
+    "DXXNKBMC": 3.29,
+    "DXXNKA": 3.84,
+    "DXXTRBMD": 0.744,
+    "DXXTRBMC": 7.38,
+    "DXXTRA": 9.93,
+    "DXXINBMD": 1.246,
+    "DXXINBMC": 25.75,
+    "DXXINA": 20.67,
+    "DXXWDBMD": 0.585,
+    "DXXWDBMC": 0.64,
+    "DXXWDA": 1.09,
+    "DXAFMRK": 1.1522,
+    "DXAFMRD0": 41.9278
+   },
+   {
+    "SEQN": 93708.0,
+    "DXAFMRST": 1.0,
+    "DXXFMBCC": 5.397605346934028e-79,
+    "DXXOFBMD": 0.801,
+    "DXXOFBMC": 19.45,
+    "DXXOFA": 24.29,
+    "DXXNKBMD": 0.632,
+    "DXXNKBMC": 2.36,
+    "DXXNKA": 3.74,
+    "DXXTRBMD": 0.684,
+    "DXXTRBMC": 5.85,
+    "DXXTRA": 8.55,
+    "DXXINBMD": 0.937,
+    "DXXINBMC": 11.25,
+    "DXXINA": 12.0,
+    "DXXWDBMD": 0.481,
+    "DXXWDBMC": 0.54,
+    "DXXWDA": 1.12,
+    "DXAFMRK": 1.1595,
+    "DXAFMRD0": 48.2757
+   },
+   {
+    "SEQN": 93709.0,
+    "DXAFMRST": 1.0,
+    "DXXFMBCC": 5.397605346934028e-79,
+    "DXXOFBMD": 0.88,
+    "DXXOFBMC": 24.69,
+    "DXXOFA": 28.05,
+    "DXXNKBMD": 0.871,
+    "DXXNKBMC": 3.57,
+    "DXXNKA": 4.1,
+    "DXXTRBMD": 0.66,
+    "DXXTRBMC": 6.44,
+    "DXXTRA": 9.76,
+    "DXXINBMD": 1.034,
+    "DXXINBMC": 14.68,
+    "DXXINA": 14.2,
+    "DXXWDBMD": 0.726,
+    "DXXWDBMC": 0.96,
+    "DXXWDA": 1.32,
+    "DXAFMRK": 1.1472,
+    "DXAFMRD0": 43.8614
+   }
+  ]
+ },
+ "pool": [
+  {
+   "tema_id": "t0",
+   "texto": "saúde feminina"
+  },
+  {
+   "tema_id": "t1",
+   "texto": "dados biométricos"
+  },
+  {
+   "tema_id": "t2",
+   "texto": "Densitometria óssea"
+  },
+  {
+   "tema_id": "t3",
+   "texto": "Saúde óssea"
+  },
+  {
+   "tema_id": "t4",
+   "texto": "Composição corporal por DXA"
+  },
+  {
+   "tema_id": "t5",
+   "texto": "exames médicos"
+  },
+  {
+   "tema_id": "t6",
+   "texto": "dados de exame"
+  },
+  {
+   "tema_id": "t7",
+   "texto": "análise de saúde"
+  },
+  {
+   "tema_id": "t8",
+   "texto": "Densidade mineral óssea"
+  },
+  {
+   "tema_id": "t9",
+   "texto": "exame de mulheres"
+  },
+  {
+   "tema_id": "t10",
+   "texto": "medidas biométricas"
+  },
+  {
+   "tema_id": "t11",
+   "texto": "Composição corporal"
+  }
+ ],
+ "listas": {
+  "Sistema A": {
+   "1": [
+    "densidade mineral óssea",
+    "composição corporal",
+    "exame de mulheres"
+   ],
+   "2": [
+    "densidade mineral óssea",
+    "composição corporal",
+    "exame de mulheres"
+   ],
+   "3": [
+    "densidade mineral óssea",
+    "composição corporal",
+    "exame de mulheres"
+   ]
+  },
+  "Sistema B": {
+   "1": [
+    "saúde feminina",
+    "exames médicos",
+    "dados biométricos"
+   ],
+   "2": [
+    "saúde feminina",
+    "exames médicos",
+    "dados biométricos"
+   ],
+   "3": [
+    "análise de saúde",
+    "medidas biométricas",
+    "dados de exame"
+   ]
+  },
+  "Sistema C": {
+   "1": [
+    "Densidade mineral óssea",
+    "Composição corporal por DXA",
+    "Saúde óssea"
+   ],
+   "2": [
+    "Densitometria óssea",
+    "Composição corporal",
+    "Saúde óssea"
+   ],
+   "3": [
+    "Densidade mineral óssea",
+    "Composição corporal por DXA",
+    "Saúde óssea"
+   ]
+  }
+ }
+}

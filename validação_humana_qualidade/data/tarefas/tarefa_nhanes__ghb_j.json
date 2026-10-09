@@ -1,0 +1,143 @@
+{
+ "item_id": "nhanes__ghb_j",
+ "table_key": "nhanes_laboratory.ghb_j",
+ "base": "nhanes",
+ "piloto": false,
+ "contexto": {
+  "tabela": "ghb_j",
+  "linhas": 6401,
+  "pk": [],
+  "fks": [],
+  "colunas": [
+   {
+    "coluna": "SEQN",
+    "tipo": "DOUBLE PRECISION",
+    "aceita_nulo": true,
+    "distintos": 6401,
+    "pct_nulo": 0.0,
+    "min": 93705.0,
+    "max": 102956.0,
+    "media": 98293.35431963755,
+    "mais_frequentes": "",
+    "amostra": "101333.0 | 98813.0 | 96811.0 | 97209.0 | 96347.0"
+   },
+   {
+    "coluna": "LBXGH",
+    "tipo": "DOUBLE PRECISION",
+    "aceita_nulo": true,
+    "distintos": 94,
+    "pct_nulo": 5.56,
+    "min": 3.8,
+    "max": 16.2,
+    "media": 5.769561621174523,
+    "mais_frequentes": "5.4 (571), 5.5 (550), 5.3 (530)",
+    "amostra": "12.4 | 4.9 | 13.2 | 5.8 | 11.4"
+   }
+  ],
+  "amostra_linhas": [
+   {
+    "SEQN": 93705.0,
+    "LBXGH": 6.2
+   },
+   {
+    "SEQN": 93706.0,
+    "LBXGH": 5.2
+   },
+   {
+    "SEQN": 93707.0,
+    "LBXGH": 5.6
+   }
+  ]
+ },
+ "pool": [
+  {
+   "tema_id": "t0",
+   "texto": "Diabetes"
+  },
+  {
+   "tema_id": "t1",
+   "texto": "análise laboratorial"
+  },
+  {
+   "tema_id": "t2",
+   "texto": "Hemoglobina glicada"
+  },
+  {
+   "tema_id": "t3",
+   "texto": "dados de saúde"
+  },
+  {
+   "tema_id": "t4",
+   "texto": "valores de referência bioquímica"
+  },
+  {
+   "tema_id": "t5",
+   "texto": "nível de hemoglobina glicada"
+  },
+  {
+   "tema_id": "t6",
+   "texto": "concentração de GHB"
+  },
+  {
+   "tema_id": "t7",
+   "texto": "Glicemia"
+  },
+  {
+   "tema_id": "t8",
+   "texto": "valores bioquímicos"
+  }
+ ],
+ "listas": {
+  "Sistema A": {
+   "1": [
+    "nível de hemoglobina glicada",
+    "dados de saúde",
+    "análise laboratorial"
+   ],
+   "2": [
+    "nível de hemoglobina glicada",
+    "dados de saúde",
+    "análise laboratorial"
+   ],
+   "3": [
+    "nível de hemoglobina glicada",
+    "dados de saúde",
+    "análise laboratorial"
+   ]
+  },
+  "Sistema B": {
+   "1": [
+    "concentração de GHB",
+    "análise laboratorial",
+    "valores de referência bioquímica"
+   ],
+   "2": [
+    "concentração de GHB",
+    "análise laboratorial",
+    "valores bioquímicos"
+   ],
+   "3": [
+    "concentração de GHB",
+    "análise laboratorial",
+    "valores de referência bioquímica"
+   ]
+  },
+  "Sistema C": {
+   "1": [
+    "Hemoglobina glicada",
+    "Glicemia",
+    "Diabetes"
+   ],
+   "2": [
+    "Hemoglobina glicada",
+    "Glicemia",
+    "Diabetes"
+   ],
+   "3": [
+    "Hemoglobina glicada",
+    "Glicemia",
+    "Diabetes"
+   ]
+  }
+ }
+}

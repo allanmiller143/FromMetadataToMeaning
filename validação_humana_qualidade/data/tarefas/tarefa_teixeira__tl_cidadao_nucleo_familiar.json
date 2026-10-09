@@ -1,0 +1,307 @@
+{
+ "item_id": "teixeira__tl_cidadao_nucleo_familiar",
+ "table_key": "public.tl_cidadao_nucleo_familiar",
+ "base": "teixeira",
+ "piloto": false,
+ "contexto": {
+  "tabela": "tl_cidadao_nucleo_familiar",
+  "linhas": 223440,
+  "pk": [
+   "co_revisao",
+   "co_seq_cidadao_nucleo_familiar"
+  ],
+  "fks": [],
+  "colunas": [
+   {
+    "coluna": "co_revisao",
+    "tipo": "BIGINT",
+    "aceita_nulo": false,
+    "distintos": 222016,
+    "pct_nulo": 0.0,
+    "min": 376.0,
+    "max": 1230872.0,
+    "media": 633934.9640306123,
+    "mais_frequentes": "",
+    "amostra": "376 | 380 | 384 | 387 | 391"
+   },
+   {
+    "coluna": "co_tipo_revisao",
+    "tipo": "SMALLINT",
+    "aceita_nulo": true,
+    "distintos": 2,
+    "pct_nulo": 0.0,
+    "min": 0.0,
+    "max": 1.0,
+    "media": 0.8315610454708199,
+    "mais_frequentes": "1 (185804), 0 (37636)",
+    "amostra": "0 | 1"
+   },
+   {
+    "coluna": "co_seq_cidadao_nucleo_familiar",
+    "tipo": "BIGINT",
+    "aceita_nulo": false,
+    "distintos": 42393,
+    "pct_nulo": 0.0,
+    "min": 1.0,
+    "max": 44840.0,
+    "media": 19741.690046544933,
+    "mais_frequentes": "<anonimizado> (41), <anonimizado> (39), <anonimizado> (38)",
+    "amostra": "<anonimizado> | <anonimizado> | <anonimizado> | <anonimizado> | <anonimizado>"
+   },
+   {
+    "coluna": "dt_ultima_atualizacao",
+    "tipo": "DATE",
+    "aceita_nulo": true,
+    "distintos": 2599,
+    "pct_nulo": 0.0,
+    "min": null,
+    "max": null,
+    "media": null,
+    "mais_frequentes": "2024-10-30 (963), 2022-09-13 (814), 2024-11-12 (805)",
+    "amostra": "2020-07-08 | 2022-09-12 | 2024-05-22 | 2024-08-07 | 2019-07-25"
+   },
+   {
+    "coluna": "nu_ine",
+    "tipo": "VARCHAR(255)",
+    "aceita_nulo": true,
+    "distintos": 13,
+    "pct_nulo": 0.0,
+    "min": null,
+    "max": null,
+    "media": null,
+    "mais_frequentes": "0000133779 (44416), 0000133736 (43047), 0000133744 (31417)",
+    "amostra": "0000133752 | 0002219948 | 0000133787 | 0001754513 | -"
+   },
+   {
+    "coluna": "nu_cnes",
+    "tipo": "VARCHAR(20)",
+    "aceita_nulo": true,
+    "distintos": 13,
+    "pct_nulo": 0.0,
+    "min": null,
+    "max": null,
+    "media": null,
+    "mais_frequentes": "2612852 (44416), 2321505 (43048), 2321513 (31465)",
+    "amostra": "0899488 | 2321505 | 4066766 | 6407285 | 2612852"
+   },
+   {
+    "coluna": "nu_cpf_cns_responsavel",
+    "tipo": "VARCHAR(255)",
+    "aceita_nulo": true,
+    "distintos": 10853,
+    "pct_nulo": 39.36,
+    "min": null,
+    "max": null,
+    "media": null,
+    "mais_frequentes": "<anonimizado> (179), <anonimizado> (161), <anonimizado> (149)",
+    "amostra": "<anonimizado> | <anonimizado> | <anonimizado> | <anonimizado> | <anonimizado>"
+   },
+   {
+    "coluna": "st_responsavel",
+    "tipo": "INTEGER",
+    "aceita_nulo": true,
+    "distintos": 2,
+    "pct_nulo": 0.0,
+    "min": 0.0,
+    "max": 1.0,
+    "media": 0.3842284282133906,
+    "mais_frequentes": "<anonimizado> (137588), <anonimizado> (85852)",
+    "amostra": "<anonimizado> | <anonimizado>"
+   },
+   {
+    "coluna": "st_mudou_se",
+    "tipo": "INTEGER",
+    "aceita_nulo": true,
+    "distintos": 2,
+    "pct_nulo": 0.0,
+    "min": 0.0,
+    "max": 1.0,
+    "media": 0.06541353383458647,
+    "mais_frequentes": "0 (208824), 1 (14616)",
+    "amostra": "0 | 1"
+   },
+   {
+    "coluna": "co_cidadao",
+    "tipo": "BIGINT",
+    "aceita_nulo": true,
+    "distintos": 29442,
+    "pct_nulo": 0.0,
+    "min": 277.0,
+    "max": 33280.0,
+    "media": 14334.123706587898,
+    "mais_frequentes": "<anonimizado> (45), <anonimizado> (43), <anonimizado> (43)",
+    "amostra": "<anonimizado> | <anonimizado> | <anonimizado> | <anonimizado> | <anonimizado>"
+   },
+   {
+    "coluna": "nu_cns_profissional",
+    "tipo": "VARCHAR(16)",
+    "aceita_nulo": true,
+    "distintos": 0,
+    "pct_nulo": 100.0,
+    "min": null,
+    "max": null,
+    "media": null,
+    "mais_frequentes": "",
+    "amostra": ""
+   },
+   {
+    "coluna": "nu_cbo2002",
+    "tipo": "VARCHAR(10)",
+    "aceita_nulo": true,
+    "distintos": 0,
+    "pct_nulo": 100.0,
+    "min": null,
+    "max": null,
+    "media": null,
+    "mais_frequentes": "",
+    "amostra": ""
+   },
+   {
+    "coluna": "co_grau_parentesco",
+    "tipo": "INTEGER",
+    "aceita_nulo": true,
+    "distintos": 0,
+    "pct_nulo": 100.0,
+    "min": null,
+    "max": null,
+    "media": null,
+    "mais_frequentes": "",
+    "amostra": ""
+   }
+  ],
+  "amostra_linhas": [
+   {
+    "co_revisao": 376,
+    "co_tipo_revisao": 0,
+    "co_seq_cidadao_nucleo_familiar": "<anonimizado>",
+    "dt_ultima_atualizacao": "2017-10-30",
+    "nu_ine": "0000133736",
+    "nu_cnes": "2321505",
+    "nu_cpf_cns_responsavel": "<anonimizado>",
+    "st_responsavel": "<anonimizado>",
+    "st_mudou_se": 0,
+    "co_cidadao": "<anonimizado>",
+    "nu_cns_profissional": "<anonimizado>",
+    "nu_cbo2002": null,
+    "co_grau_parentesco": null
+   },
+   {
+    "co_revisao": 380,
+    "co_tipo_revisao": 0,
+    "co_seq_cidadao_nucleo_familiar": "<anonimizado>",
+    "dt_ultima_atualizacao": "2017-10-30",
+    "nu_ine": "0000133736",
+    "nu_cnes": "2321505",
+    "nu_cpf_cns_responsavel": "<anonimizado>",
+    "st_responsavel": "<anonimizado>",
+    "st_mudou_se": 0,
+    "co_cidadao": "<anonimizado>",
+    "nu_cns_profissional": "<anonimizado>",
+    "nu_cbo2002": null,
+    "co_grau_parentesco": null
+   },
+   {
+    "co_revisao": 384,
+    "co_tipo_revisao": 0,
+    "co_seq_cidadao_nucleo_familiar": "<anonimizado>",
+    "dt_ultima_atualizacao": "2017-10-30",
+    "nu_ine": "0000133736",
+    "nu_cnes": "2321505",
+    "nu_cpf_cns_responsavel": "<anonimizado>",
+    "st_responsavel": "<anonimizado>",
+    "st_mudou_se": 0,
+    "co_cidadao": "<anonimizado>",
+    "nu_cns_profissional": "<anonimizado>",
+    "nu_cbo2002": null,
+    "co_grau_parentesco": null
+   }
+  ]
+ },
+ "pool": [
+  {
+   "tema_id": "t0",
+   "texto": "Responsabilidade Familiar"
+  },
+  {
+   "tema_id": "t1",
+   "texto": "Núcleo Familiar"
+  },
+  {
+   "tema_id": "t2",
+   "texto": "Cadastro Cidadão"
+  },
+  {
+   "tema_id": "t3",
+   "texto": "Núcleos Familiares"
+  },
+  {
+   "tema_id": "t4",
+   "texto": "Responsáveis por Núcleo"
+  },
+  {
+   "tema_id": "t5",
+   "texto": "Atualização de Dados"
+  },
+  {
+   "tema_id": "t6",
+   "texto": "Responsáveis"
+  },
+  {
+   "tema_id": "t7",
+   "texto": "Responsáveis Familiares"
+  }
+ ],
+ "listas": {
+  "Sistema A": {
+   "1": [
+    "Núcleos Familiares",
+    "Responsáveis Familiares",
+    "Cadastro Cidadão"
+   ],
+   "2": [
+    "Núcleos Familiares",
+    "Responsáveis Familiares",
+    "Cadastro Cidadão"
+   ],
+   "3": [
+    "Núcleos Familiares",
+    "Responsáveis Familiares",
+    "Cadastro Cidadão"
+   ]
+  },
+  "Sistema B": {
+   "1": [
+    "Núcleo Familiar",
+    "Atualização de Dados",
+    "Responsáveis por Núcleo"
+   ],
+   "2": [
+    "Núcleo Familiar",
+    "Atualização de Dados",
+    "Responsáveis"
+   ],
+   "3": [
+    "Núcleo Familiar",
+    "Atualização de Dados",
+    "Responsáveis"
+   ]
+  },
+  "Sistema C": {
+   "1": [
+    "Núcleo Familiar",
+    "Atualização de Dados",
+    "Responsabilidade Familiar"
+   ],
+   "2": [
+    "Núcleo Familiar",
+    "Atualização de Dados",
+    "Responsabilidade Familiar"
+   ],
+   "3": [
+    "Núcleo Familiar",
+    "Atualização de Dados",
+    "Responsáveis"
+   ]
+  }
+ }
+}

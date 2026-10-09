@@ -1,0 +1,323 @@
+{
+ "item_id": "magento2__downloadable_link_purchased_item",
+ "table_key": "magento2.downloadable_link_purchased_item",
+ "base": "magento2",
+ "piloto": false,
+ "contexto": {
+  "tabela": "downloadable_link_purchased_item",
+  "linhas": 0,
+  "pk": [
+   "item_id"
+  ],
+  "fks": [
+   "purchased_id -> downloadable_link_purchased(purchased_id)",
+   "order_item_id -> sales_order_item(item_id)"
+  ],
+  "colunas": [
+   {
+    "coluna": "item_id",
+    "tipo": "INTEGER",
+    "aceita_nulo": false,
+    "distintos": null,
+    "pct_nulo": null,
+    "min": null,
+    "max": null,
+    "media": null,
+    "mais_frequentes": "",
+    "amostra": ""
+   },
+   {
+    "coluna": "purchased_id",
+    "tipo": "INTEGER",
+    "aceita_nulo": false,
+    "distintos": null,
+    "pct_nulo": null,
+    "min": null,
+    "max": null,
+    "media": null,
+    "mais_frequentes": "",
+    "amostra": ""
+   },
+   {
+    "coluna": "order_item_id",
+    "tipo": "INTEGER",
+    "aceita_nulo": true,
+    "distintos": null,
+    "pct_nulo": null,
+    "min": null,
+    "max": null,
+    "media": null,
+    "mais_frequentes": "",
+    "amostra": ""
+   },
+   {
+    "coluna": "product_id",
+    "tipo": "INTEGER",
+    "aceita_nulo": true,
+    "distintos": null,
+    "pct_nulo": null,
+    "min": null,
+    "max": null,
+    "media": null,
+    "mais_frequentes": "",
+    "amostra": ""
+   },
+   {
+    "coluna": "link_hash",
+    "tipo": "VARCHAR(255)",
+    "aceita_nulo": true,
+    "distintos": null,
+    "pct_nulo": null,
+    "min": null,
+    "max": null,
+    "media": null,
+    "mais_frequentes": "",
+    "amostra": ""
+   },
+   {
+    "coluna": "number_of_downloads_bought",
+    "tipo": "INTEGER",
+    "aceita_nulo": false,
+    "distintos": null,
+    "pct_nulo": null,
+    "min": null,
+    "max": null,
+    "media": null,
+    "mais_frequentes": "",
+    "amostra": ""
+   },
+   {
+    "coluna": "number_of_downloads_used",
+    "tipo": "INTEGER",
+    "aceita_nulo": false,
+    "distintos": null,
+    "pct_nulo": null,
+    "min": null,
+    "max": null,
+    "media": null,
+    "mais_frequentes": "",
+    "amostra": ""
+   },
+   {
+    "coluna": "link_id",
+    "tipo": "INTEGER",
+    "aceita_nulo": false,
+    "distintos": null,
+    "pct_nulo": null,
+    "min": null,
+    "max": null,
+    "media": null,
+    "mais_frequentes": "",
+    "amostra": ""
+   },
+   {
+    "coluna": "link_title",
+    "tipo": "VARCHAR(255)",
+    "aceita_nulo": true,
+    "distintos": null,
+    "pct_nulo": null,
+    "min": null,
+    "max": null,
+    "media": null,
+    "mais_frequentes": "",
+    "amostra": ""
+   },
+   {
+    "coluna": "is_shareable",
+    "tipo": "SMALLINT",
+    "aceita_nulo": false,
+    "distintos": null,
+    "pct_nulo": null,
+    "min": null,
+    "max": null,
+    "media": null,
+    "mais_frequentes": "",
+    "amostra": ""
+   },
+   {
+    "coluna": "link_url",
+    "tipo": "VARCHAR(255)",
+    "aceita_nulo": true,
+    "distintos": null,
+    "pct_nulo": null,
+    "min": null,
+    "max": null,
+    "media": null,
+    "mais_frequentes": "",
+    "amostra": ""
+   },
+   {
+    "coluna": "link_file",
+    "tipo": "VARCHAR(255)",
+    "aceita_nulo": true,
+    "distintos": null,
+    "pct_nulo": null,
+    "min": null,
+    "max": null,
+    "media": null,
+    "mais_frequentes": "",
+    "amostra": ""
+   },
+   {
+    "coluna": "link_type",
+    "tipo": "VARCHAR(255)",
+    "aceita_nulo": true,
+    "distintos": null,
+    "pct_nulo": null,
+    "min": null,
+    "max": null,
+    "media": null,
+    "mais_frequentes": "",
+    "amostra": ""
+   },
+   {
+    "coluna": "status",
+    "tipo": "VARCHAR(50)",
+    "aceita_nulo": true,
+    "distintos": null,
+    "pct_nulo": null,
+    "min": null,
+    "max": null,
+    "media": null,
+    "mais_frequentes": "",
+    "amostra": ""
+   },
+   {
+    "coluna": "created_at",
+    "tipo": "TIMESTAMP",
+    "aceita_nulo": false,
+    "distintos": null,
+    "pct_nulo": null,
+    "min": null,
+    "max": null,
+    "media": null,
+    "mais_frequentes": "",
+    "amostra": ""
+   },
+   {
+    "coluna": "updated_at",
+    "tipo": "TIMESTAMP",
+    "aceita_nulo": false,
+    "distintos": null,
+    "pct_nulo": null,
+    "min": null,
+    "max": null,
+    "media": null,
+    "mais_frequentes": "",
+    "amostra": ""
+   }
+  ],
+  "amostra_linhas": []
+ },
+ "pool": [
+  {
+   "tema_id": "t0",
+   "texto": "itens de pedidos digitais"
+  },
+  {
+   "tema_id": "t1",
+   "texto": "controle de licenças"
+  },
+  {
+   "tema_id": "t2",
+   "texto": "vendas de produtos"
+  },
+  {
+   "tema_id": "t3",
+   "texto": "venda de produtos digitais"
+  },
+  {
+   "tema_id": "t4",
+   "texto": "pedidos de produtos digitais"
+  },
+  {
+   "tema_id": "t5",
+   "texto": "compras de links baixáveis"
+  },
+  {
+   "tema_id": "t6",
+   "texto": "links de produtos baixáveis"
+  },
+  {
+   "tema_id": "t7",
+   "texto": "gestão de downloads"
+  },
+  {
+   "tema_id": "t8",
+   "texto": "gerenciamento de downloads"
+  },
+  {
+   "tema_id": "t9",
+   "texto": "venda de produtos virtuais"
+  },
+  {
+   "tema_id": "t10",
+   "texto": "downloads de produtos digitais"
+  },
+  {
+   "tema_id": "t11",
+   "texto": "itens comprados"
+  },
+  {
+   "tema_id": "t12",
+   "texto": "itens de pedido"
+  },
+  {
+   "tema_id": "t13",
+   "texto": "itens de download comprados"
+  }
+ ],
+ "listas": {
+  "Sistema A": {
+   "1": [
+    "venda de produtos digitais",
+    "gerenciamento de downloads",
+    "itens comprados"
+   ],
+   "2": [
+    "venda de produtos digitais",
+    "gerenciamento de downloads",
+    "itens comprados"
+   ],
+   "3": [
+    "venda de produtos digitais",
+    "gerenciamento de downloads",
+    "itens comprados"
+   ]
+  },
+  "Sistema B": {
+   "1": [
+    "gestão de downloads",
+    "itens comprados",
+    "vendas de produtos"
+   ],
+   "2": [
+    "gerenciamento de downloads",
+    "itens de pedidos digitais",
+    "controle de licenças"
+   ],
+   "3": [
+    "gestão de downloads",
+    "itens de pedidos digitais",
+    "venda de produtos virtuais"
+   ]
+  },
+  "Sistema C": {
+   "1": [
+    "compras de links baixáveis",
+    "downloads de produtos digitais",
+    "itens de pedido"
+   ],
+   "2": [
+    "compras de links baixáveis",
+    "downloads de produtos digitais",
+    "itens de pedido"
+   ],
+   "3": [
+    "itens de download comprados",
+    "links de produtos baixáveis",
+    "pedidos de produtos digitais"
+   ]
+  }
+ }
+}

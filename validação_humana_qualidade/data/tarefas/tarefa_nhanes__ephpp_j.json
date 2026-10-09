@@ -1,0 +1,527 @@
+{
+ "item_id": "nhanes__ephpp_j",
+ "table_key": "nhanes_laboratory.ephpp_j",
+ "base": "nhanes",
+ "piloto": false,
+ "contexto": {
+  "tabela": "ephpp_j",
+  "linhas": 2986,
+  "pk": [],
+  "fks": [],
+  "colunas": [
+   {
+    "coluna": "SEQN",
+    "tipo": "DOUBLE PRECISION",
+    "aceita_nulo": true,
+    "distintos": 2986,
+    "pct_nulo": 0.0,
+    "min": 93706.0,
+    "max": 102955.0,
+    "media": 98345.420964501,
+    "mais_frequentes": "",
+    "amostra": "99729.0 | 100500.0 | 97230.0 | 96472.0 | 102403.0"
+   },
+   {
+    "coluna": "WTSB2YR",
+    "tipo": "DOUBLE PRECISION",
+    "aceita_nulo": true,
+    "distintos": 2720,
+    "pct_nulo": 0.0,
+    "min": 5.397605346934028e-79,
+    "max": 1395405.465402,
+    "media": 103570.83085839647,
+    "mais_frequentes": "",
+    "amostra": "45811.186673 | 37144.57136 | 23932.883542 | 33815.064129 | 735513.793498"
+   },
+   {
+    "coluna": "URXBP3",
+    "tipo": "DOUBLE PRECISION",
+    "aceita_nulo": true,
+    "distintos": 872,
+    "pct_nulo": 7.6,
+    "min": 0.28,
+    "max": 30900.0,
+    "media": 178.26892352301604,
+    "mais_frequentes": "0.28 (47), 1.7 (28), 1.3 (27)",
+    "amostra": "14.1 | 60.5 | 154.0 | 44.6 | 76.1"
+   },
+   {
+    "coluna": "URDBP3LC",
+    "tipo": "DOUBLE PRECISION",
+    "aceita_nulo": true,
+    "distintos": 2,
+    "pct_nulo": 7.6,
+    "min": 5.397605346934028e-79,
+    "max": 1.0,
+    "media": 0.01703515766582095,
+    "mais_frequentes": "5.397605346934028e-79 (2712), 1.0 (47)",
+    "amostra": "1.0 | 5.397605346934028e-79"
+   },
+   {
+    "coluna": "URXBPH",
+    "tipo": "DOUBLE PRECISION",
+    "aceita_nulo": true,
+    "distintos": 114,
+    "pct_nulo": 7.64,
+    "min": 0.14,
+    "max": 408.0,
+    "media": 1.584350978970273,
+    "mais_frequentes": "0.14 (386), 0.3 (257), 0.5 (176)",
+    "amostra": "10.2 | 4.1 | 0.7 | 10.4 | 32.3"
+   },
+   {
+    "coluna": "URDBPHLC",
+    "tipo": "DOUBLE PRECISION",
+    "aceita_nulo": true,
+    "distintos": 2,
+    "pct_nulo": 7.64,
+    "min": 5.397605346934028e-79,
+    "max": 1.0,
+    "media": 0.13995649021029732,
+    "mais_frequentes": "5.397605346934028e-79 (2372), 1.0 (386)",
+    "amostra": "5.397605346934028e-79 | 1.0"
+   },
+   {
+    "coluna": "URXBPF",
+    "tipo": "DOUBLE PRECISION",
+    "aceita_nulo": true,
+    "distintos": 182,
+    "pct_nulo": 7.67,
+    "min": 0.14,
+    "max": 727.0,
+    "media": 2.4834747914400235,
+    "mais_frequentes": "0.14 (1316), 0.3 (245), 0.2 (168)",
+    "amostra": "154.0 | 174.0 | 0.9 | 5.8 | 1.6"
+   },
+   {
+    "coluna": "URDBPFLC",
+    "tipo": "DOUBLE PRECISION",
+    "aceita_nulo": true,
+    "distintos": 2,
+    "pct_nulo": 7.67,
+    "min": 5.397605346934028e-79,
+    "max": 1.0,
+    "media": 0.4773304316285818,
+    "mais_frequentes": "5.397605346934028e-79 (1441), 1.0 (1316)",
+    "amostra": "5.397605346934028e-79 | 1.0"
+   },
+   {
+    "coluna": "URXBPS",
+    "tipo": "DOUBLE PRECISION",
+    "aceita_nulo": true,
+    "distintos": 136,
+    "pct_nulo": 7.7,
+    "min": 0.07,
+    "max": 1220.0,
+    "media": 2.0636611030478873,
+    "mais_frequentes": "0.2 (343), 0.07 (315), 0.3 (262)",
+    "amostra": "0.9 | 5.8 | 1.6 | 4.8 | 6.2"
+   },
+   {
+    "coluna": "URDBPSLC",
+    "tipo": "DOUBLE PRECISION",
+    "aceita_nulo": true,
+    "distintos": 2,
+    "pct_nulo": 7.7,
+    "min": 5.397605346934028e-79,
+    "max": 1.0,
+    "media": 0.11429608127721336,
+    "mais_frequentes": "5.397605346934028e-79 (2441), 1.0 (315)",
+    "amostra": "1.0 | 5.397605346934028e-79"
+   },
+   {
+    "coluna": "URXTLC",
+    "tipo": "DOUBLE PRECISION",
+    "aceita_nulo": true,
+    "distintos": 134,
+    "pct_nulo": 7.54,
+    "min": 0.07,
+    "max": 175.0,
+    "media": 1.2724121695038286,
+    "mais_frequentes": "0.07 (1879), 0.1 (252), 0.2 (199)",
+    "amostra": "36.9 | 40.9 | 0.9 | 78.1 | 5.8"
+   },
+   {
+    "coluna": "URDTLCLC",
+    "tipo": "DOUBLE PRECISION",
+    "aceita_nulo": true,
+    "distintos": 2,
+    "pct_nulo": 7.54,
+    "min": 5.397605346934028e-79,
+    "max": 1.0,
+    "media": 0.6805505251720391,
+    "mais_frequentes": "1.0 (1879), 5.397605346934028e-79 (882)",
+    "amostra": "5.397605346934028e-79 | 1.0"
+   },
+   {
+    "coluna": "URXTRS",
+    "tipo": "DOUBLE PRECISION",
+    "aceita_nulo": true,
+    "distintos": 467,
+    "pct_nulo": 8.24,
+    "min": 1.2,
+    "max": 2820.0,
+    "media": 46.26047445255361,
+    "mais_frequentes": "1.2 (1587), 1.9 (37), 2.1 (35)",
+    "amostra": "154.0 | 4.8 | 322.0 | 667.0 | 2820.0"
+   },
+   {
+    "coluna": "URDTRSLC",
+    "tipo": "DOUBLE PRECISION",
+    "aceita_nulo": true,
+    "distintos": 2,
+    "pct_nulo": 8.24,
+    "min": 5.397605346934028e-79,
+    "max": 1.0,
+    "media": 0.5791970802919708,
+    "mais_frequentes": "1.0 (1587), 5.397605346934028e-79 (1153)",
+    "amostra": "5.397605346934028e-79 | 1.0"
+   },
+   {
+    "coluna": "URXBUP",
+    "tipo": "DOUBLE PRECISION",
+    "aceita_nulo": true,
+    "distintos": 93,
+    "pct_nulo": 7.54,
+    "min": 0.07,
+    "max": 79.1,
+    "media": 0.5234625135820368,
+    "mais_frequentes": "0.07 (2304), 0.1 (109), 0.2 (86)",
+    "amostra": "10.4 | 0.07 | 0.8 | 6.5 | 11.9"
+   },
+   {
+    "coluna": "URDBUPLC",
+    "tipo": "DOUBLE PRECISION",
+    "aceita_nulo": true,
+    "distintos": 2,
+    "pct_nulo": 7.54,
+    "min": 5.397605346934028e-79,
+    "max": 1.0,
+    "media": 0.8344802607750815,
+    "mais_frequentes": "1.0 (2304), 5.397605346934028e-79 (457)",
+    "amostra": "5.397605346934028e-79 | 1.0"
+   },
+   {
+    "coluna": "URXEPB",
+    "tipo": "DOUBLE PRECISION",
+    "aceita_nulo": true,
+    "distintos": 403,
+    "pct_nulo": 7.6,
+    "min": 0.71,
+    "max": 2290.0,
+    "media": 20.108390721275363,
+    "mais_frequentes": "0.71 (1605), 1.1 (48), 1.2 (44)",
+    "amostra": "174.0 | 62.1 | 5.8 | 14.7 | 28.8"
+   },
+   {
+    "coluna": "URDEPBLC",
+    "tipo": "DOUBLE PRECISION",
+    "aceita_nulo": true,
+    "distintos": 2,
+    "pct_nulo": 7.6,
+    "min": 5.397605346934028e-79,
+    "max": 1.0,
+    "media": 0.5817325117796303,
+    "mais_frequentes": "1.0 (1605), 5.397605346934028e-79 (1154)",
+    "amostra": "1.0 | 5.397605346934028e-79"
+   },
+   {
+    "coluna": "URXMPB",
+    "tipo": "DOUBLE PRECISION",
+    "aceita_nulo": true,
+    "distintos": 1096,
+    "pct_nulo": 8.14,
+    "min": 0.71,
+    "max": 21100.0,
+    "media": 189.86924899744804,
+    "mais_frequentes": "0.71 (45), 3.6 (22), 3.0 (18)",
+    "amostra": "14.1 | 60.5 | 79.2 | 615.0 | 4.8"
+   },
+   {
+    "coluna": "URDMPBLC",
+    "tipo": "DOUBLE PRECISION",
+    "aceita_nulo": true,
+    "distintos": 2,
+    "pct_nulo": 8.14,
+    "min": 5.397605346934028e-79,
+    "max": 1.0,
+    "media": 0.016405395552314985,
+    "mais_frequentes": "5.397605346934028e-79 (2698), 1.0 (45)",
+    "amostra": "1.0 | 5.397605346934028e-79"
+   },
+   {
+    "coluna": "URXPPB",
+    "tipo": "DOUBLE PRECISION",
+    "aceita_nulo": true,
+    "distintos": 634,
+    "pct_nulo": 7.57,
+    "min": 0.07,
+    "max": 6750.0,
+    "media": 34.234047101449505,
+    "mais_frequentes": "0.3 (147), 0.07 (131), 0.2 (126)",
+    "amostra": "88.5 | 180.0 | 24.6 | 0.8 | 39.0"
+   },
+   {
+    "coluna": "URDPPBLC",
+    "tipo": "DOUBLE PRECISION",
+    "aceita_nulo": true,
+    "distintos": 2,
+    "pct_nulo": 7.57,
+    "min": 5.397605346934028e-79,
+    "max": 1.0,
+    "media": 0.04746376811594203,
+    "mais_frequentes": "5.397605346934028e-79 (2629), 1.0 (131)",
+    "amostra": "5.397605346934028e-79 | 1.0"
+   },
+   {
+    "coluna": "URX14D",
+    "tipo": "DOUBLE PRECISION",
+    "aceita_nulo": true,
+    "distintos": 573,
+    "pct_nulo": 7.6,
+    "min": 0.07,
+    "max": 23500.0,
+    "media": 128.09730337078688,
+    "mais_frequentes": "0.3 (120), 0.4 (119), 0.2 (111)",
+    "amostra": "14.1 | 60.5 | 154.0 | 4.8 | 3310.0"
+   },
+   {
+    "coluna": "URD14DLC",
+    "tipo": "DOUBLE PRECISION",
+    "aceita_nulo": true,
+    "distintos": 2,
+    "pct_nulo": 7.6,
+    "min": 5.397605346934028e-79,
+    "max": 1.0,
+    "media": 0.021022109459949256,
+    "mais_frequentes": "5.397605346934028e-79 (2701), 1.0 (58)",
+    "amostra": "1.0 | 5.397605346934028e-79"
+   },
+   {
+    "coluna": "URXDCB",
+    "tipo": "DOUBLE PRECISION",
+    "aceita_nulo": true,
+    "distintos": 176,
+    "pct_nulo": 7.57,
+    "min": 0.07,
+    "max": 575.0,
+    "media": 3.5995253623188335,
+    "mais_frequentes": "0.2 (395), 0.3 (323), 0.07 (307)",
+    "amostra": "12.4 | 0.9 | 5.8 | 14.7 | 162.0"
+   },
+   {
+    "coluna": "URDDCBLC",
+    "tipo": "DOUBLE PRECISION",
+    "aceita_nulo": true,
+    "distintos": 2,
+    "pct_nulo": 7.57,
+    "min": 5.397605346934028e-79,
+    "max": 1.0,
+    "media": 0.11123188405797102,
+    "mais_frequentes": "5.397605346934028e-79 (2453), 1.0 (307)",
+    "amostra": "1.0 | 5.397605346934028e-79"
+   }
+  ],
+  "amostra_linhas": [
+   {
+    "SEQN": 93706.0,
+    "WTSB2YR": 26027.047633,
+    "URXBP3": 8.9,
+    "URDBP3LC": 5.397605346934028e-79,
+    "URXBPH": 0.14,
+    "URDBPHLC": 1.0,
+    "URXBPF": 0.14,
+    "URDBPFLC": 1.0,
+    "URXBPS": 0.2,
+    "URDBPSLC": 5.397605346934028e-79,
+    "URXTLC": 0.07,
+    "URDTLCLC": 1.0,
+    "URXTRS": 1.2,
+    "URDTRSLC": 1.0,
+    "URXBUP": 0.07,
+    "URDBUPLC": 1.0,
+    "URXEPB": 1.8,
+    "URDEPBLC": 5.397605346934028e-79,
+    "URXMPB": 1.4,
+    "URDMPBLC": 5.397605346934028e-79,
+    "URXPPB": 0.07,
+    "URDPPBLC": 1.0,
+    "URX14D": 1.1,
+    "URD14DLC": 5.397605346934028e-79,
+    "URXDCB": 0.1,
+    "URDDCBLC": 5.397605346934028e-79
+   },
+   {
+    "SEQN": 93715.0,
+    "WTSB2YR": 28400.583165,
+    "URXBP3": 37.5,
+    "URDBP3LC": 5.397605346934028e-79,
+    "URXBPH": 0.6,
+    "URDBPHLC": 5.397605346934028e-79,
+    "URXBPF": 1.3,
+    "URDBPFLC": 5.397605346934028e-79,
+    "URXBPS": 0.2,
+    "URDBPSLC": 5.397605346934028e-79,
+    "URXTLC": 0.1,
+    "URDTLCLC": 5.397605346934028e-79,
+    "URXTRS": 5.6,
+    "URDTRSLC": 5.397605346934028e-79,
+    "URXBUP": 0.07,
+    "URDBUPLC": 1.0,
+    "URXEPB": 0.71,
+    "URDEPBLC": 1.0,
+    "URXMPB": 7.0,
+    "URDMPBLC": 5.397605346934028e-79,
+    "URXPPB": 0.1,
+    "URDPPBLC": 5.397605346934028e-79,
+    "URX14D": 0.7,
+    "URD14DLC": 5.397605346934028e-79,
+    "URXDCB": 0.4,
+    "URDDCBLC": 5.397605346934028e-79
+   },
+   {
+    "SEQN": 93717.0,
+    "WTSB2YR": 141021.884734,
+    "URXBP3": 12.3,
+    "URDBP3LC": 5.397605346934028e-79,
+    "URXBPH": 1.0,
+    "URDBPHLC": 5.397605346934028e-79,
+    "URXBPF": 3.7,
+    "URDBPFLC": 5.397605346934028e-79,
+    "URXBPS": 0.5,
+    "URDBPSLC": 5.397605346934028e-79,
+    "URXTLC": 26.5,
+    "URDTLCLC": 5.397605346934028e-79,
+    "URXTRS": 3.9,
+    "URDTRSLC": 5.397605346934028e-79,
+    "URXBUP": 0.07,
+    "URDBUPLC": 1.0,
+    "URXEPB": 0.71,
+    "URDEPBLC": 1.0,
+    "URXMPB": 11.2,
+    "URDMPBLC": 5.397605346934028e-79,
+    "URXPPB": 17.9,
+    "URDPPBLC": 5.397605346934028e-79,
+    "URX14D": 1.2,
+    "URD14DLC": 5.397605346934028e-79,
+    "URXDCB": 0.6,
+    "URDDCBLC": 5.397605346934028e-79
+   }
+  ]
+ },
+ "pool": [
+  {
+   "tema_id": "t0",
+   "texto": "biomonitoramento urinário"
+  },
+  {
+   "tema_id": "t1",
+   "texto": "exames laboratoriais"
+  },
+  {
+   "tema_id": "t2",
+   "texto": "Exposição a compostos orgânicos persistentes"
+  },
+  {
+   "tema_id": "t3",
+   "texto": "pesos amostrais"
+  },
+  {
+   "tema_id": "t4",
+   "texto": "dados de saúde"
+  },
+  {
+   "tema_id": "t5",
+   "texto": "análise de urina"
+  },
+  {
+   "tema_id": "t6",
+   "texto": "concentração de substâncias"
+  },
+  {
+   "tema_id": "t7",
+   "texto": "pesquisa biomédica"
+  },
+  {
+   "tema_id": "t8",
+   "texto": "variáveis laboratoriais"
+  },
+  {
+   "tema_id": "t9",
+   "texto": "análise de biomarcadores"
+  },
+  {
+   "tema_id": "t10",
+   "texto": "Biomonitoramento de poluentes"
+  },
+  {
+   "tema_id": "t11",
+   "texto": "exposição a pesticidas"
+  },
+  {
+   "tema_id": "t12",
+   "texto": "contaminantes ambientais"
+  },
+  {
+   "tema_id": "t13",
+   "texto": "resultados de exames"
+  },
+  {
+   "tema_id": "t14",
+   "texto": "análise de laboratório"
+  }
+ ],
+ "listas": {
+  "Sistema A": {
+   "1": [
+    "análise de biomarcadores",
+    "dados de saúde",
+    "variáveis laboratoriais"
+   ],
+   "2": [
+    "análise de biomarcadores",
+    "dados de saúde",
+    "exames laboratoriais"
+   ],
+   "3": [
+    "análise de biomarcadores",
+    "dados de saúde",
+    "exames laboratoriais"
+   ]
+  },
+  "Sistema B": {
+   "1": [
+    "análise de laboratório",
+    "resultados de exames",
+    "pesquisa biomédica"
+   ],
+   "2": [
+    "análise de urina",
+    "concentração de substâncias",
+    "pesos amostrais"
+   ],
+   "3": [
+    "análise de urina",
+    "concentração de substâncias",
+    "pesos amostrais"
+   ]
+  },
+  "Sistema C": {
+   "1": [
+    "exposição a pesticidas",
+    "biomonitoramento urinário",
+    "contaminantes ambientais"
+   ],
+   "2": [
+    "exposição a pesticidas",
+    "biomonitoramento urinário",
+    "contaminantes ambientais"
+   ],
+   "3": [
+    "Exposição a pesticidas",
+    "Exposição a compostos orgânicos persistentes",
+    "Biomonitoramento de poluentes"
+   ]
+  }
+ }
+}

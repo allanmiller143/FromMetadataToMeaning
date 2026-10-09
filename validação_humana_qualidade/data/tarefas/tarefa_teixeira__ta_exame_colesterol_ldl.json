@@ -1,0 +1,209 @@
+{
+ "item_id": "teixeira__ta_exame_colesterol_ldl",
+ "table_key": "public.ta_exame_colesterol_ldl",
+ "base": "teixeira",
+ "piloto": false,
+ "contexto": {
+  "tabela": "ta_exame_colesterol_ldl",
+  "linhas": 1358,
+  "pk": [
+   "co_seq_taexamecolesterolldl"
+  ],
+  "fks": [],
+  "colunas": [
+   {
+    "coluna": "co_seq_taexamecolesterolldl",
+    "tipo": "BIGINT",
+    "aceita_nulo": false,
+    "distintos": 1358,
+    "pct_nulo": 0.0,
+    "min": 1.0,
+    "max": 1358.0,
+    "media": 679.5,
+    "mais_frequentes": "",
+    "amostra": "1 | 2 | 3 | 4 | 5"
+   },
+   {
+    "coluna": "co_tipo_auditoria",
+    "tipo": "CHAR(1)",
+    "aceita_nulo": false,
+    "distintos": 1,
+    "pct_nulo": 0.0,
+    "min": null,
+    "max": null,
+    "media": null,
+    "mais_frequentes": "I (1358)",
+    "amostra": "I"
+   },
+   {
+    "coluna": "dt_auditoria",
+    "tipo": "TIMESTAMP",
+    "aceita_nulo": false,
+    "distintos": 1349,
+    "pct_nulo": 0.0,
+    "min": null,
+    "max": null,
+    "media": null,
+    "mais_frequentes": "",
+    "amostra": "2024-10-16 09:27:11.340363 | 2025-06-13 09:54:17.195950 | 2023-10-25 10:36:56.235545 | 2024-05-06 10:41:55.450464 | 2023-09-21 11:26:57.992507"
+   },
+   {
+    "coluna": "co_seq_exame_colesterol_ldl",
+    "tipo": "BIGINT",
+    "aceita_nulo": true,
+    "distintos": 1358,
+    "pct_nulo": 0.0,
+    "min": 483.0,
+    "max": 1840.0,
+    "media": 1161.5,
+    "mais_frequentes": "",
+    "amostra": "1074 | 1548 | 887 | 802 | 1513"
+   },
+   {
+    "coluna": "co_exame_requisitado",
+    "tipo": "BIGINT",
+    "aceita_nulo": true,
+    "distintos": 1358,
+    "pct_nulo": 0.0,
+    "min": 29440.0,
+    "max": 149406.0,
+    "media": 104649.95949926363,
+    "mais_frequentes": "",
+    "amostra": "125676 | 54225 | 125569 | 134934 | 69359"
+   },
+   {
+    "coluna": "vl_colesterol_ldl",
+    "tipo": "DOUBLE PRECISION",
+    "aceita_nulo": true,
+    "distintos": 225,
+    "pct_nulo": 0.0,
+    "min": 1.0,
+    "max": 6540.0,
+    "media": 122.912960235641,
+    "mais_frequentes": "91.0 (25), 107.0 (23), 95.0 (23)",
+    "amostra": "48.0 | 171.0 | 247.0 | 128.0 | 139.0"
+   }
+  ],
+  "amostra_linhas": [
+   {
+    "co_seq_taexamecolesterolldl": 1,
+    "co_tipo_auditoria": "I",
+    "dt_auditoria": "2022-09-20 09:37:25.351338",
+    "co_seq_exame_colesterol_ldl": 483,
+    "co_exame_requisitado": 47482,
+    "vl_colesterol_ldl": 180.0
+   },
+   {
+    "co_seq_taexamecolesterolldl": 2,
+    "co_tipo_auditoria": "I",
+    "dt_auditoria": "2022-09-20 10:00:20.606790",
+    "co_seq_exame_colesterol_ldl": 484,
+    "co_exame_requisitado": 47264,
+    "vl_colesterol_ldl": 107.0
+   },
+   {
+    "co_seq_taexamecolesterolldl": 3,
+    "co_tipo_auditoria": "I",
+    "dt_auditoria": "2022-09-21 08:31:01.390225",
+    "co_seq_exame_colesterol_ldl": 485,
+    "co_exame_requisitado": 48282,
+    "vl_colesterol_ldl": 102.0
+   }
+  ]
+ },
+ "pool": [
+  {
+   "tema_id": "t0",
+   "texto": "Monitoramento de Colesterol"
+  },
+  {
+   "tema_id": "t1",
+   "texto": "Saúde Cardiovascular"
+  },
+  {
+   "tema_id": "t2",
+   "texto": "Tendências temporais"
+  },
+  {
+   "tema_id": "t3",
+   "texto": "Requisitos de exames"
+  },
+  {
+   "tema_id": "t4",
+   "texto": "Monitoramento Clínico"
+  },
+  {
+   "tema_id": "t5",
+   "texto": "Colesterol LDL"
+  },
+  {
+   "tema_id": "t6",
+   "texto": "Auditorias de exames"
+  },
+  {
+   "tema_id": "t7",
+   "texto": "Auditoria Médica"
+  },
+  {
+   "tema_id": "t8",
+   "texto": "Auditoria de Exames"
+  },
+  {
+   "tema_id": "t9",
+   "texto": "Níveis de colesterol LDL"
+  }
+ ],
+ "listas": {
+  "Sistema A": {
+   "1": [
+    "Colesterol LDL",
+    "Auditoria de Exames",
+    "Saúde Cardiovascular"
+   ],
+   "2": [
+    "Colesterol LDL",
+    "Auditoria de Exames",
+    "Saúde Cardiovascular"
+   ],
+   "3": [
+    "Colesterol LDL",
+    "Auditoria de Exames",
+    "Saúde Cardiovascular"
+   ]
+  },
+  "Sistema B": {
+   "1": [
+    "Saúde Cardiovascular",
+    "Monitoramento de Colesterol",
+    "Auditoria Médica"
+   ],
+   "2": [
+    "Saúde Cardiovascular",
+    "Monitoramento Clínico",
+    "Auditoria Médica"
+   ],
+   "3": [
+    "Saúde Cardiovascular",
+    "Monitoramento Clínico",
+    "Auditoria Médica"
+   ]
+  },
+  "Sistema C": {
+   "1": [
+    "Níveis de colesterol LDL",
+    "Auditorias de exames",
+    "Tendências temporais"
+   ],
+   "2": [
+    "Níveis de colesterol LDL",
+    "Auditorias de exames",
+    "Tendências temporais"
+   ],
+   "3": [
+    "Níveis de colesterol LDL",
+    "Auditoria de exames",
+    "Requisitos de exames"
+   ]
+  }
+ }
+}

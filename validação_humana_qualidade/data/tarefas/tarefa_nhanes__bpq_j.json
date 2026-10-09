@@ -1,0 +1,270 @@
+{
+ "item_id": "nhanes__bpq_j",
+ "table_key": "nhanes_questionnaire.bpq_j",
+ "base": "nhanes",
+ "piloto": true,
+ "contexto": {
+  "tabela": "bpq_j",
+  "linhas": 6161,
+  "pk": [],
+  "fks": [],
+  "colunas": [
+   {
+    "coluna": "SEQN",
+    "tipo": "DOUBLE PRECISION",
+    "aceita_nulo": true,
+    "distintos": 6161,
+    "pct_nulo": 0.0,
+    "min": 93705.0,
+    "max": 102956.0,
+    "media": 98283.56549261484,
+    "mais_frequentes": "",
+    "amostra": "101333.0 | 98813.0 | 96811.0 | 100276.0 | 97209.0"
+   },
+   {
+    "coluna": "BPQ020",
+    "tipo": "DOUBLE PRECISION",
+    "aceita_nulo": true,
+    "distintos": 3,
+    "pct_nulo": 0.0,
+    "min": 1.0,
+    "max": 9.0,
+    "media": 1.664502515825353,
+    "mais_frequentes": "2.0 (4014), 1.0 (2137), 9.0 (10)",
+    "amostra": "9.0 | 2.0 | 1.0"
+   },
+   {
+    "coluna": "BPQ030",
+    "tipo": "DOUBLE PRECISION",
+    "aceita_nulo": true,
+    "distintos": 3,
+    "pct_nulo": 65.31,
+    "min": 1.0,
+    "max": 9.0,
+    "media": 1.232101076275152,
+    "mais_frequentes": "1.0 (1718), 2.0 (408), 9.0 (11)",
+    "amostra": "9.0 | 2.0 | 1.0"
+   },
+   {
+    "coluna": "BPD035",
+    "tipo": "DOUBLE PRECISION",
+    "aceita_nulo": true,
+    "distintos": 70,
+    "pct_nulo": 65.31,
+    "min": 12.0,
+    "max": 999.0,
+    "media": 76.30088909686476,
+    "mais_frequentes": "50.0 (164), 45.0 (122), 60.0 (117)",
+    "amostra": "62.0 | 15.0 | 65.0 | 26.0 | 38.0"
+   },
+   {
+    "coluna": "BPQ040A",
+    "tipo": "DOUBLE PRECISION",
+    "aceita_nulo": true,
+    "distintos": 4,
+    "pct_nulo": 65.31,
+    "min": 1.0,
+    "max": 9.0,
+    "media": 1.100140383715489,
+    "mais_frequentes": "1.0 (1942), 2.0 (192), 9.0 (2)",
+    "amostra": "9.0 | 7.0 | 2.0 | 1.0"
+   },
+   {
+    "coluna": "BPQ050A",
+    "tipo": "DOUBLE PRECISION",
+    "aceita_nulo": true,
+    "distintos": 2,
+    "pct_nulo": 68.48,
+    "min": 1.0,
+    "max": 2.0,
+    "media": 1.1503604531410916,
+    "mais_frequentes": "1.0 (1650), 2.0 (292)",
+    "amostra": "2.0 | 1.0"
+   },
+   {
+    "coluna": "BPQ080",
+    "tipo": "DOUBLE PRECISION",
+    "aceita_nulo": true,
+    "distintos": 4,
+    "pct_nulo": 0.0,
+    "min": 1.0,
+    "max": 9.0,
+    "media": 1.725369258237299,
+    "mais_frequentes": "2.0 (4153), 1.0 (1968), 9.0 (38)",
+    "amostra": "9.0 | 7.0 | 2.0 | 1.0"
+   },
+   {
+    "coluna": "BPQ060",
+    "tipo": "DOUBLE PRECISION",
+    "aceita_nulo": true,
+    "distintos": 4,
+    "pct_nulo": 31.94,
+    "min": 1.0,
+    "max": 9.0,
+    "media": 1.7309802051037444,
+    "mais_frequentes": "1.0 (2575), 2.0 (1411), 9.0 (206)",
+    "amostra": "9.0 | 7.0 | 2.0 | 1.0"
+   },
+   {
+    "coluna": "BPQ070",
+    "tipo": "DOUBLE PRECISION",
+    "aceita_nulo": true,
+    "distintos": 5,
+    "pct_nulo": 26.26,
+    "min": 1.0,
+    "max": 9.0,
+    "media": 1.679947171472595,
+    "mais_frequentes": "1.0 (2779), 2.0 (821), 3.0 (631)",
+    "amostra": "9.0 | 3.0 | 4.0 | 2.0 | 1.0"
+   },
+   {
+    "coluna": "BPQ090D",
+    "tipo": "DOUBLE PRECISION",
+    "aceita_nulo": true,
+    "distintos": 4,
+    "pct_nulo": 26.26,
+    "min": 1.0,
+    "max": 9.0,
+    "media": 1.6557340964120626,
+    "mais_frequentes": "2.0 (2877), 1.0 (1653), 9.0 (12)",
+    "amostra": "9.0 | 7.0 | 2.0 | 1.0"
+   },
+   {
+    "coluna": "BPQ100D",
+    "tipo": "DOUBLE PRECISION",
+    "aceita_nulo": true,
+    "distintos": 3,
+    "pct_nulo": 73.17,
+    "min": 1.0,
+    "max": 9.0,
+    "media": 1.2982456140350878,
+    "mais_frequentes": "1.0 (1202), 2.0 (445), 9.0 (6)",
+    "amostra": "9.0 | 2.0 | 1.0"
+   }
+  ],
+  "amostra_linhas": [
+   {
+    "SEQN": 93705.0,
+    "BPQ020": 1.0,
+    "BPQ030": 1.0,
+    "BPD035": 50.0,
+    "BPQ040A": 1.0,
+    "BPQ050A": 1.0,
+    "BPQ080": 2.0,
+    "BPQ060": 1.0,
+    "BPQ070": 2.0,
+    "BPQ090D": 2.0,
+    "BPQ100D": NaN
+   },
+   {
+    "SEQN": 93706.0,
+    "BPQ020": 2.0,
+    "BPQ030": NaN,
+    "BPD035": NaN,
+    "BPQ040A": NaN,
+    "BPQ050A": NaN,
+    "BPQ080": 2.0,
+    "BPQ060": 1.0,
+    "BPQ070": 2.0,
+    "BPQ090D": 2.0,
+    "BPQ100D": NaN
+   },
+   {
+    "SEQN": 93708.0,
+    "BPQ020": 1.0,
+    "BPQ030": 1.0,
+    "BPD035": 50.0,
+    "BPQ040A": 1.0,
+    "BPQ050A": 1.0,
+    "BPQ080": 1.0,
+    "BPQ060": NaN,
+    "BPQ070": 1.0,
+    "BPQ090D": 1.0,
+    "BPQ100D": 1.0
+   }
+  ]
+ },
+ "pool": [
+  {
+   "tema_id": "t0",
+   "texto": "medidas biométricas"
+  },
+  {
+   "tema_id": "t1",
+   "texto": "saúde mental"
+  },
+  {
+   "tema_id": "t2",
+   "texto": "questionário de saúde"
+  },
+  {
+   "tema_id": "t3",
+   "texto": "Uso de medicamentos"
+  },
+  {
+   "tema_id": "t4",
+   "texto": "Hipertensão"
+  },
+  {
+   "tema_id": "t5",
+   "texto": "respostas questionário saúde"
+  },
+  {
+   "tema_id": "t6",
+   "texto": "pressão arterial"
+  }
+ ],
+ "listas": {
+  "Sistema A": {
+   "1": [
+    "pressão arterial",
+    "respostas questionário saúde",
+    "medidas biométricas"
+   ],
+   "2": [
+    "pressão arterial",
+    "respostas questionário saúde",
+    "medidas biométricas"
+   ],
+   "3": [
+    "pressão arterial",
+    "respostas questionário saúde",
+    "medidas biométricas"
+   ]
+  },
+  "Sistema B": {
+   "1": [
+    "Pressão arterial",
+    "Hipertensão",
+    "Uso de medicamentos"
+   ],
+   "2": [
+    "Pressão arterial",
+    "Hipertensão",
+    "Uso de medicamentos"
+   ],
+   "3": [
+    "Pressão arterial",
+    "Hipertensão",
+    "Uso de medicamentos"
+   ]
+  },
+  "Sistema C": {
+   "1": [
+    "saúde mental",
+    "pressão arterial",
+    "questionário de saúde"
+   ],
+   "2": [
+    "saúde mental",
+    "pressão arterial",
+    "questionário de saúde"
+   ],
+   "3": [
+    "saúde mental",
+    "pressão arterial",
+    "questionário de saúde"
+   ]
+  }
+ }
+}

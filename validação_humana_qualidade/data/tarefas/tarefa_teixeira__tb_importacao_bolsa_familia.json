@@ -1,0 +1,244 @@
+{
+ "item_id": "teixeira__tb_importacao_bolsa_familia",
+ "table_key": "public.tb_importacao_bolsa_familia",
+ "base": "teixeira",
+ "piloto": true,
+ "contexto": {
+  "tabela": "tb_importacao_bolsa_familia",
+  "linhas": 1,
+  "pk": [
+   "co_seq_importaca_bolsa_familia"
+  ],
+  "fks": [
+   "co_localidade -> tb_localidade(co_localidade)",
+   "co_prof -> tb_prof(co_seq_prof)"
+  ],
+  "colunas": [
+   {
+    "coluna": "co_seq_importaca_bolsa_familia",
+    "tipo": "BIGINT",
+    "aceita_nulo": false,
+    "distintos": 1,
+    "pct_nulo": 0.0,
+    "min": 1.0,
+    "max": 1.0,
+    "media": 1.0,
+    "mais_frequentes": "",
+    "amostra": "1"
+   },
+   {
+    "coluna": "co_prof",
+    "tipo": "BIGINT",
+    "aceita_nulo": false,
+    "distintos": 1,
+    "pct_nulo": 0.0,
+    "min": 3268.0,
+    "max": 3268.0,
+    "media": 3268.0,
+    "mais_frequentes": "",
+    "amostra": "3268"
+   },
+   {
+    "coluna": "co_localidade",
+    "tipo": "BIGINT",
+    "aceita_nulo": false,
+    "distintos": 1,
+    "pct_nulo": 0.0,
+    "min": 5383.0,
+    "max": 5383.0,
+    "media": 5383.0,
+    "mais_frequentes": "",
+    "amostra": "5383"
+   },
+   {
+    "coluna": "ds_vigencia",
+    "tipo": "VARCHAR(6)",
+    "aceita_nulo": false,
+    "distintos": 1,
+    "pct_nulo": 0.0,
+    "min": null,
+    "max": null,
+    "media": null,
+    "mais_frequentes": "",
+    "amostra": "202402"
+   },
+   {
+    "coluna": "dt_importacao_inicio",
+    "tipo": "TIMESTAMP",
+    "aceita_nulo": false,
+    "distintos": 1,
+    "pct_nulo": 0.0,
+    "min": null,
+    "max": null,
+    "media": null,
+    "mais_frequentes": "",
+    "amostra": "2025-02-12 10:08:08.157847"
+   },
+   {
+    "coluna": "dt_importacao_fim",
+    "tipo": "TIMESTAMP",
+    "aceita_nulo": true,
+    "distintos": 1,
+    "pct_nulo": 0.0,
+    "min": null,
+    "max": null,
+    "media": null,
+    "mais_frequentes": "",
+    "amostra": "2025-02-12 10:08:09.830673"
+   },
+   {
+    "coluna": "st_importacao",
+    "tipo": "VARCHAR(255)",
+    "aceita_nulo": false,
+    "distintos": 1,
+    "pct_nulo": 0.0,
+    "min": null,
+    "max": null,
+    "media": null,
+    "mais_frequentes": "",
+    "amostra": "FINALIZADO"
+   },
+   {
+    "coluna": "ds_hash_arquivo",
+    "tipo": "VARCHAR(64)",
+    "aceita_nulo": false,
+    "distintos": 1,
+    "pct_nulo": 0.0,
+    "min": null,
+    "max": null,
+    "media": null,
+    "mais_frequentes": "",
+    "amostra": "c27973ddf30f28b0fd035d2ccf3d18996165fa6a1eb8f89b619abef0e6979c83"
+   },
+   {
+    "coluna": "st_complementar",
+    "tipo": "INTEGER",
+    "aceita_nulo": false,
+    "distintos": 1,
+    "pct_nulo": 0.0,
+    "min": 0.0,
+    "max": 0.0,
+    "media": 0.0,
+    "mais_frequentes": "",
+    "amostra": "0"
+   },
+   {
+    "coluna": "st_vig_mais_recente_localidade",
+    "tipo": "INTEGER",
+    "aceita_nulo": true,
+    "distintos": 1,
+    "pct_nulo": 0.0,
+    "min": 1.0,
+    "max": 1.0,
+    "media": 1.0,
+    "mais_frequentes": "",
+    "amostra": "1"
+   }
+  ],
+  "amostra_linhas": [
+   {
+    "co_seq_importaca_bolsa_familia": 1,
+    "co_prof": 3268,
+    "co_localidade": 5383,
+    "ds_vigencia": "202402",
+    "dt_importacao_inicio": "2025-02-12 10:08:08.157847",
+    "dt_importacao_fim": "2025-02-12 10:08:09.830673",
+    "st_importacao": "FINALIZADO",
+    "ds_hash_arquivo": "c27973ddf30f28b0fd035d2ccf3d18996165fa6a1eb8f89b619abef0e6979c83",
+    "st_complementar": 0,
+    "st_vig_mais_recente_localidade": 1
+   }
+  ]
+ },
+ "pool": [
+  {
+   "tema_id": "t0",
+   "texto": "Importação de Dados"
+  },
+  {
+   "tema_id": "t1",
+   "texto": "Controle de Processos"
+  },
+  {
+   "tema_id": "t2",
+   "texto": "Importação Bolsa Família"
+  },
+  {
+   "tema_id": "t3",
+   "texto": "Localidade de beneficiários"
+  },
+  {
+   "tema_id": "t4",
+   "texto": "Dados de Localidade"
+  },
+  {
+   "tema_id": "t5",
+   "texto": "Bolsa Família"
+  },
+  {
+   "tema_id": "t6",
+   "texto": "Status de Importação"
+  },
+  {
+   "tema_id": "t7",
+   "texto": "Vigência de Benefícios"
+  },
+  {
+   "tema_id": "t8",
+   "texto": "Profissionais Envolvidos"
+  }
+ ],
+ "listas": {
+  "Sistema A": {
+   "1": [
+    "Importação Bolsa Família",
+    "Dados de Localidade",
+    "Profissionais Envolvidos"
+   ],
+   "2": [
+    "Importação Bolsa Família",
+    "Dados de Localidade",
+    "Status de Importação"
+   ],
+   "3": [
+    "Importação Bolsa Família",
+    "Dados de Localidade",
+    "Status de Importação"
+   ]
+  },
+  "Sistema B": {
+   "1": [
+    "Importação de Dados",
+    "Vigência de Benefícios",
+    "Controle de Processos"
+   ],
+   "2": [
+    "Importação de Dados",
+    "Vigência de Benefícios",
+    "Controle de Processos"
+   ],
+   "3": [
+    "Importação de Dados",
+    "Bolsa Família",
+    "Vigência de Benefícios"
+   ]
+  },
+  "Sistema C": {
+   "1": [
+    "Importação de dados",
+    "Vigência de benefícios",
+    "Status de importação"
+   ],
+   "2": [
+    "Importação de dados",
+    "Vigência de benefícios",
+    "Localidade de beneficiários"
+   ],
+   "3": [
+    "Importação de dados",
+    "Vigência de benefícios",
+    "Status de importação"
+   ]
+  }
+ }
+}

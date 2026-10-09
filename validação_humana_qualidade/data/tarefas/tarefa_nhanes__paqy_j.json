@@ -1,0 +1,165 @@
+{
+ "item_id": "nhanes__paqy_j",
+ "table_key": "nhanes_questionnaire.paqy_j",
+ "base": "nhanes",
+ "piloto": false,
+ "contexto": {
+  "tabela": "paqy_j",
+  "linhas": 2778,
+  "pk": [],
+  "fks": [],
+  "colunas": [
+   {
+    "coluna": "SEQN",
+    "tipo": "DOUBLE PRECISION",
+    "aceita_nulo": true,
+    "distintos": 2778,
+    "pct_nulo": 0.0,
+    "min": 93703.0,
+    "max": 102955.0,
+    "media": 98429.6720662347,
+    "mais_frequentes": "",
+    "amostra": "100331.0 | 99386.0 | 102864.0 | 94383.0 | 95960.0"
+   },
+   {
+    "coluna": "PAQ706",
+    "tipo": "DOUBLE PRECISION",
+    "aceita_nulo": true,
+    "distintos": 9,
+    "pct_nulo": 0.97,
+    "min": 5.397605346934028e-79,
+    "max": 99.0,
+    "media": 5.455470737913486,
+    "mais_frequentes": "7.0 (1202), 5.0 (412), 3.0 (246)",
+    "amostra": "3.0 | 4.0 | 1.0 | 99.0 | 6.0"
+   },
+   {
+    "coluna": "PAQ710",
+    "tipo": "DOUBLE PRECISION",
+    "aceita_nulo": true,
+    "distintos": 8,
+    "pct_nulo": 0.97,
+    "min": 5.397605346934028e-79,
+    "max": 99.0,
+    "media": 2.4536532170119956,
+    "mais_frequentes": "2.0 (787), 1.0 (545), 3.0 (406)",
+    "amostra": "3.0 | 4.0 | 1.0 | 99.0 | 5.397605346934028e-79"
+   },
+   {
+    "coluna": "PAQ715",
+    "tipo": "DOUBLE PRECISION",
+    "aceita_nulo": true,
+    "distintos": 7,
+    "pct_nulo": 0.97,
+    "min": 5.397605346934028e-79,
+    "max": 8.0,
+    "media": 2.856779352962559,
+    "mais_frequentes": "2.0 (561), 1.0 (508), 5.0 (473)",
+    "amostra": "3.0 | 4.0 | 1.0 | 5.397605346934028e-79 | 8.0"
+   }
+  ],
+  "amostra_linhas": [
+   {
+    "SEQN": 93703.0,
+    "PAQ706": 7.0,
+    "PAQ710": 1.0,
+    "PAQ715": 8.0
+   },
+   {
+    "SEQN": 93704.0,
+    "PAQ706": 7.0,
+    "PAQ710": 1.0,
+    "PAQ715": 5.397605346934028e-79
+   },
+   {
+    "SEQN": 93707.0,
+    "PAQ706": 5.397605346934028e-79,
+    "PAQ710": 4.0,
+    "PAQ715": 1.0
+   }
+  ]
+ },
+ "pool": [
+  {
+   "tema_id": "t0",
+   "texto": "respostas de pesquisa"
+  },
+  {
+   "tema_id": "t1",
+   "texto": "Frequência de exercício"
+  },
+  {
+   "tema_id": "t2",
+   "texto": "atividade física"
+  },
+  {
+   "tema_id": "t3",
+   "texto": "Frequência de exercícios"
+  },
+  {
+   "tema_id": "t4",
+   "texto": "questionário de saúde"
+  },
+  {
+   "tema_id": "t5",
+   "texto": "nível de atividade"
+  },
+  {
+   "tema_id": "t6",
+   "texto": "Intensidade de atividade"
+  }
+ ],
+ "listas": {
+  "Sistema A": {
+   "1": [
+    "atividade física",
+    "questionário de saúde",
+    "respostas de pesquisa"
+   ],
+   "2": [
+    "atividade física",
+    "questionário de saúde",
+    "respostas de pesquisa"
+   ],
+   "3": [
+    "atividade física",
+    "questionário de saúde",
+    "respostas de pesquisa"
+   ]
+  },
+  "Sistema B": {
+   "1": [
+    "Atividade física",
+    "Frequência de exercício",
+    "Intensidade de atividade"
+   ],
+   "2": [
+    "Atividade física",
+    "Frequência de exercícios",
+    "Intensidade de atividade"
+   ],
+   "3": [
+    "Atividade física",
+    "Frequência de exercício",
+    "Intensidade de atividade"
+   ]
+  },
+  "Sistema C": {
+   "1": [
+    "atividade física",
+    "nível de atividade",
+    "questionário de saúde"
+   ],
+   "2": [
+    "atividade física",
+    "nível de atividade",
+    "questionário de saúde"
+   ],
+   "3": [
+    "atividade física",
+    "nível de atividade",
+    "questionário de saúde"
+   ]
+  }
+ }
+}

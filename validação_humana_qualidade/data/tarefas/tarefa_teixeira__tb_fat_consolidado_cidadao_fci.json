@@ -1,0 +1,420 @@
+{
+ "item_id": "teixeira__tb_fat_consolidado_cidadao_fci",
+ "table_key": "public.tb_fat_consolidado_cidadao_fci",
+ "base": "teixeira",
+ "piloto": false,
+ "contexto": {
+  "tabela": "tb_fat_consolidado_cidadao_fci",
+  "linhas": 21303,
+  "pk": [
+   "co_seq_fat_conslddo_ciddo_fci"
+  ],
+  "fks": [
+   "co_fat_cidadao_pec -> tb_fat_cidadao_pec(co_seq_fat_cidadao_pec)"
+  ],
+  "colunas": [
+   {
+    "coluna": "co_seq_fat_conslddo_ciddo_fci",
+    "tipo": "BIGINT",
+    "aceita_nulo": false,
+    "distintos": 21303,
+    "pct_nulo": 0.0,
+    "min": 28763.0,
+    "max": 3490768.0,
+    "media": 3401678.0203257757,
+    "mais_frequentes": "",
+    "amostra": "<anonimizado> | <anonimizado> | <anonimizado> | <anonimizado> | <anonimizado>"
+   },
+   {
+    "coluna": "co_fat_cidadao_pec",
+    "tipo": "BIGINT",
+    "aceita_nulo": false,
+    "distintos": 21303,
+    "pct_nulo": 0.0,
+    "min": 2.0,
+    "max": 301210.0,
+    "media": 74269.82974228982,
+    "mais_frequentes": "",
+    "amostra": "<anonimizado> | <anonimizado> | <anonimizado> | <anonimizado> | <anonimizado>"
+   },
+   {
+    "coluna": "co_dim_tempo_ultima_ficha",
+    "tipo": "BIGINT",
+    "aceita_nulo": true,
+    "distintos": 1417,
+    "pct_nulo": 0.0,
+    "min": 20171021.0,
+    "max": 20250924.0,
+    "media": 20242827.783316903,
+    "mais_frequentes": "20250919 (569), 20250130 (390), 20250407 (267)",
+    "amostra": "20231204 | 20190320 | 20240507 | 20220930 | 20240708"
+   },
+   {
+    "coluna": "co_dim_tempo_has_sim",
+    "tipo": "BIGINT",
+    "aceita_nulo": true,
+    "distintos": 915,
+    "pct_nulo": 82.64,
+    "min": 20171025.0,
+    "max": 20250924.0,
+    "media": 20239170.684694428,
+    "mais_frequentes": "20250919 (101), 20250718 (58), 20250130 (46)",
+    "amostra": "20250708 | 20231204 | 20240507 | 20220308 | 20240708"
+   },
+   {
+    "coluna": "co_dim_tempo_has_nao",
+    "tipo": "BIGINT",
+    "aceita_nulo": true,
+    "distintos": 1493,
+    "pct_nulo": 16.19,
+    "min": 20170516.0,
+    "max": 20250924.0,
+    "media": 20241573.02677271,
+    "mais_frequentes": "20250919 (468), 20250130 (347), 20250407 (233)",
+    "amostra": "20231204 | 20190320 | 20240507 | 20220930 | 20170925"
+   },
+   {
+    "coluna": "co_dim_tempo_diabete_sim",
+    "tipo": "BIGINT",
+    "aceita_nulo": true,
+    "distintos": 501,
+    "pct_nulo": 94.49,
+    "min": 20171018.0,
+    "max": 20250924.0,
+    "media": 20239401.47359455,
+    "mais_frequentes": "20250919 (32), 20250718 (18), 20241030 (16)",
+    "amostra": "20250601 | 20210315 | 20241002 | 20250211 | 20210521"
+   },
+   {
+    "coluna": "co_dim_tempo_diabete_nao",
+    "tipo": "BIGINT",
+    "aceita_nulo": true,
+    "distintos": 1445,
+    "pct_nulo": 8.69,
+    "min": 20170712.0,
+    "max": 20250924.0,
+    "media": 20242469.953010127,
+    "mais_frequentes": "20250919 (537), 20250130 (376), 20250407 (259)",
+    "amostra": "20231204 | 20190320 | 20240507 | 20220930 | 20240708"
+   },
+   {
+    "coluna": "co_dim_tempo_fumante_sim",
+    "tipo": "BIGINT",
+    "aceita_nulo": true,
+    "distintos": 795,
+    "pct_nulo": 91.13,
+    "min": 20170925.0,
+    "max": 20250924.0,
+    "media": 20233024.913181577,
+    "mais_frequentes": "20250919 (28), 20250130 (27), 20241210 (22)",
+    "amostra": "20250708 | 20231204 | 20211129 | 20210521 | 20220930"
+   },
+   {
+    "coluna": "co_dim_tempo_fumante_nao",
+    "tipo": "BIGINT",
+    "aceita_nulo": true,
+    "distintos": 1420,
+    "pct_nulo": 10.82,
+    "min": 20161017.0,
+    "max": 20250924.0,
+    "media": 20242769.527318664,
+    "mais_frequentes": "20250919 (541), 20250130 (364), 20250407 (246)",
+    "amostra": "20231204 | 20190320 | 20240507 | 20240708 | 20240828"
+   },
+   {
+    "coluna": "dt_nascimento",
+    "tipo": "DATE",
+    "aceita_nulo": true,
+    "distintos": 14519,
+    "pct_nulo": 0.07,
+    "min": null,
+    "max": null,
+    "media": null,
+    "mais_frequentes": "",
+    "amostra": "<anonimizado> | <anonimizado> | <anonimizado> | <anonimizado> | <anonimizado>"
+   },
+   {
+    "coluna": "co_dim_tempo_avc_sim",
+    "tipo": "BIGINT",
+    "aceita_nulo": true,
+    "distintos": 236,
+    "pct_nulo": 98.57,
+    "min": 20171102.0,
+    "max": 20250924.0,
+    "media": 20232801.75986842,
+    "mais_frequentes": "20230912 (7), 20241205 (6), 20230131 (5)",
+    "amostra": "20250601 | 20221121 | 20250211 | 20240507 | 20210317"
+   },
+   {
+    "coluna": "co_dim_tempo_infarto_sim",
+    "tipo": "BIGINT",
+    "aceita_nulo": true,
+    "distintos": 141,
+    "pct_nulo": 99.23,
+    "min": 20171127.0,
+    "max": 20250919.0,
+    "media": 20229722.169696968,
+    "mais_frequentes": "20241210 (4), 20250908 (3), 20250804 (3)",
+    "amostra": "20231204 | 20210426 | 20250908 | 20230207 | 20230214"
+   },
+   {
+    "coluna": "co_dim_tempo_donca_crdaca_sim",
+    "tipo": "BIGINT",
+    "aceita_nulo": true,
+    "distintos": 378,
+    "pct_nulo": 97.18,
+    "min": 20171108.0,
+    "max": 20250923.0,
+    "media": 20233894.6,
+    "mais_frequentes": "20250407 (22), 20250919 (14), 20230912 (8)",
+    "amostra": "20250601 | 20250211 | 20240507 | 20241220 | 20241113"
+   },
+   {
+    "coluna": "co_dim_tempo_problema_rins_sim",
+    "tipo": "BIGINT",
+    "aceita_nulo": true,
+    "distintos": 251,
+    "pct_nulo": 98.47,
+    "min": 20171114.0,
+    "max": 20250923.0,
+    "media": 20229090.474006116,
+    "mais_frequentes": "20250919 (10), 20250130 (7), 20250129 (5)",
+    "amostra": "20221103 | 20231204 | 20250601 | 20211129 | 20250908"
+   },
+   {
+    "coluna": "co_dim_tempo_avc_nao",
+    "tipo": "BIGINT",
+    "aceita_nulo": true,
+    "distintos": 1401,
+    "pct_nulo": 7.06,
+    "min": 20170622.0,
+    "max": 20250924.0,
+    "media": 20242984.482270937,
+    "mais_frequentes": "20250919 (565), 20250130 (388), 20250407 (267)",
+    "amostra": "20231204 | 20190320 | 20240507 | 20220930 | 20240708"
+   },
+   {
+    "coluna": "co_dim_tempo_infarto_nao",
+    "tipo": "BIGINT",
+    "aceita_nulo": true,
+    "distintos": 1388,
+    "pct_nulo": 6.93,
+    "min": 20171021.0,
+    "max": 20250924.0,
+    "media": 20243067.6689196,
+    "mais_frequentes": "20250919 (567), 20250130 (390), 20250407 (267)",
+    "amostra": "20231204 | 20190320 | 20240507 | 20220930 | 20240708"
+   },
+   {
+    "coluna": "co_dim_tempo_donca_crdaca_nao",
+    "tipo": "BIGINT",
+    "aceita_nulo": true,
+    "distintos": 1433,
+    "pct_nulo": 6.67,
+    "min": 20170622.0,
+    "max": 20250924.0,
+    "media": 20242610.72619826,
+    "mais_frequentes": "20250919 (555), 20250130 (389), 20250407 (245)",
+    "amostra": "20231204 | 20190320 | 20240507 | 20220930 | 20240708"
+   },
+   {
+    "coluna": "co_dim_tempo_problema_rins_nao",
+    "tipo": "BIGINT",
+    "aceita_nulo": true,
+    "distintos": 1418,
+    "pct_nulo": 6.29,
+    "min": 20171021.0,
+    "max": 20250924.0,
+    "media": 20242774.325017534,
+    "mais_frequentes": "20250919 (559), 20250130 (383), 20250407 (265)",
+    "amostra": "20231204 | 20190320 | 20240507 | 20240708 | 20240828"
+   },
+   {
+    "coluna": "st_hprtnsao_artrl_ultima_ficha",
+    "tipo": "INTEGER",
+    "aceita_nulo": true,
+    "distintos": 0,
+    "pct_nulo": 100.0,
+    "min": null,
+    "max": null,
+    "media": null,
+    "mais_frequentes": "",
+    "amostra": ""
+   },
+   {
+    "coluna": "st_diabete_ultima_ficha",
+    "tipo": "INTEGER",
+    "aceita_nulo": true,
+    "distintos": 0,
+    "pct_nulo": 100.0,
+    "min": null,
+    "max": null,
+    "media": null,
+    "mais_frequentes": "",
+    "amostra": ""
+   },
+   {
+    "coluna": "st_fumante_ultima_ficha",
+    "tipo": "INTEGER",
+    "aceita_nulo": true,
+    "distintos": 0,
+    "pct_nulo": 100.0,
+    "min": null,
+    "max": null,
+    "media": null,
+    "mais_frequentes": "",
+    "amostra": ""
+   }
+  ],
+  "amostra_linhas": [
+   {
+    "co_seq_fat_conslddo_ciddo_fci": "<anonimizado>",
+    "co_fat_cidadao_pec": "<anonimizado>",
+    "co_dim_tempo_ultima_ficha": 20250204,
+    "co_dim_tempo_has_sim": 20250204.0,
+    "co_dim_tempo_has_nao": NaN,
+    "co_dim_tempo_diabete_sim": null,
+    "co_dim_tempo_diabete_nao": 20250204,
+    "co_dim_tempo_fumante_sim": null,
+    "co_dim_tempo_fumante_nao": 20250204,
+    "dt_nascimento": "<anonimizado>",
+    "co_dim_tempo_avc_sim": null,
+    "co_dim_tempo_infarto_sim": null,
+    "co_dim_tempo_donca_crdaca_sim": null,
+    "co_dim_tempo_problema_rins_sim": null,
+    "co_dim_tempo_avc_nao": 20250204,
+    "co_dim_tempo_infarto_nao": 20250204,
+    "co_dim_tempo_donca_crdaca_nao": 20250204,
+    "co_dim_tempo_problema_rins_nao": 20250204,
+    "st_hprtnsao_artrl_ultima_ficha": null,
+    "st_diabete_ultima_ficha": null,
+    "st_fumante_ultima_ficha": null
+   },
+   {
+    "co_seq_fat_conslddo_ciddo_fci": "<anonimizado>",
+    "co_fat_cidadao_pec": "<anonimizado>",
+    "co_dim_tempo_ultima_ficha": 20250507,
+    "co_dim_tempo_has_sim": NaN,
+    "co_dim_tempo_has_nao": 20250507.0,
+    "co_dim_tempo_diabete_sim": null,
+    "co_dim_tempo_diabete_nao": 20250507,
+    "co_dim_tempo_fumante_sim": null,
+    "co_dim_tempo_fumante_nao": 20250507,
+    "dt_nascimento": "<anonimizado>",
+    "co_dim_tempo_avc_sim": null,
+    "co_dim_tempo_infarto_sim": null,
+    "co_dim_tempo_donca_crdaca_sim": null,
+    "co_dim_tempo_problema_rins_sim": null,
+    "co_dim_tempo_avc_nao": 20250507,
+    "co_dim_tempo_infarto_nao": 20250507,
+    "co_dim_tempo_donca_crdaca_nao": 20250507,
+    "co_dim_tempo_problema_rins_nao": 20250507,
+    "st_hprtnsao_artrl_ultima_ficha": null,
+    "st_diabete_ultima_ficha": null,
+    "st_fumante_ultima_ficha": null
+   },
+   {
+    "co_seq_fat_conslddo_ciddo_fci": "<anonimizado>",
+    "co_fat_cidadao_pec": "<anonimizado>",
+    "co_dim_tempo_ultima_ficha": 20250114,
+    "co_dim_tempo_has_sim": NaN,
+    "co_dim_tempo_has_nao": 20250114.0,
+    "co_dim_tempo_diabete_sim": null,
+    "co_dim_tempo_diabete_nao": 20250114,
+    "co_dim_tempo_fumante_sim": null,
+    "co_dim_tempo_fumante_nao": 20250114,
+    "dt_nascimento": "<anonimizado>",
+    "co_dim_tempo_avc_sim": null,
+    "co_dim_tempo_infarto_sim": null,
+    "co_dim_tempo_donca_crdaca_sim": null,
+    "co_dim_tempo_problema_rins_sim": null,
+    "co_dim_tempo_avc_nao": 20250114,
+    "co_dim_tempo_infarto_nao": 20250114,
+    "co_dim_tempo_donca_crdaca_nao": 20250114,
+    "co_dim_tempo_problema_rins_nao": 20250114,
+    "st_hprtnsao_artrl_ultima_ficha": null,
+    "st_diabete_ultima_ficha": null,
+    "st_fumante_ultima_ficha": null
+   }
+  ]
+ },
+ "pool": [
+  {
+   "tema_id": "t0",
+   "texto": "Saúde cardiovascular"
+  },
+  {
+   "tema_id": "t1",
+   "texto": "Doenças Crônicas"
+  },
+  {
+   "tema_id": "t2",
+   "texto": "Comportamento de Saúde"
+  },
+  {
+   "tema_id": "t3",
+   "texto": "Fatores de Risco"
+  },
+  {
+   "tema_id": "t4",
+   "texto": "Demografia"
+  },
+  {
+   "tema_id": "t5",
+   "texto": "Saúde Pública"
+  }
+ ],
+ "listas": {
+  "Sistema A": {
+   "1": [
+    "Saúde cardiovascular",
+    "Doenças crônicas",
+    "Fatores de risco"
+   ],
+   "2": [
+    "Saúde cardiovascular",
+    "Doenças crônicas",
+    "Fatores de risco"
+   ],
+   "3": [
+    "Saúde cardiovascular",
+    "Doenças crônicas",
+    "Fatores de risco"
+   ]
+  },
+  "Sistema B": {
+   "1": [
+    "Saúde pública",
+    "Fatores de risco",
+    "Demografia"
+   ],
+   "2": [
+    "Saúde pública",
+    "Fatores de risco",
+    "Demografia"
+   ],
+   "3": [
+    "Saúde pública",
+    "Fatores de risco",
+    "Demografia"
+   ]
+  },
+  "Sistema C": {
+   "1": [
+    "Saúde Pública",
+    "Doenças Crônicas",
+    "Comportamento de Saúde"
+   ],
+   "2": [
+    "Saúde Pública",
+    "Doenças Crônicas",
+    "Fatores de Risco"
+   ],
+   "3": [
+    "Saúde Pública",
+    "Doenças Crônicas",
+    "Fatores de Risco"
+   ]
+  }
+ }
+}

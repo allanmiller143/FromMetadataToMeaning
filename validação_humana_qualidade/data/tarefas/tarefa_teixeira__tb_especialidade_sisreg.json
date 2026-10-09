@@ -1,0 +1,225 @@
+{
+ "item_id": "teixeira__tb_especialidade_sisreg",
+ "table_key": "public.tb_especialidade_sisreg",
+ "base": "teixeira",
+ "piloto": false,
+ "contexto": {
+  "tabela": "tb_especialidade_sisreg",
+  "linhas": 76,
+  "pk": [
+   "co_especialidade_sisreg"
+  ],
+  "fks": [
+   "co_cbo -> tb_cbo(co_cbo)",
+   "tp_cds_conduta -> tb_cds_tipo_conduta(co_cds_tipo_conduta)",
+   "co_grupo_especialidade -> tb_grupo_especialidade(co_grupo_especialidade)",
+   "tp_encam_odonto -> tb_tipo_encam_odonto(co_tipo_encam_odonto)"
+  ],
+  "colunas": [
+   {
+    "coluna": "co_especialidade_sisreg",
+    "tipo": "BIGINT",
+    "aceita_nulo": false,
+    "distintos": 76,
+    "pct_nulo": 0.0,
+    "min": 1.0,
+    "max": 76.0,
+    "media": 38.5,
+    "mais_frequentes": "",
+    "amostra": "1 | 2 | 3 | 4 | 5"
+   },
+   {
+    "coluna": "ds_especialidade_sisreg",
+    "tipo": "VARCHAR(100)",
+    "aceita_nulo": false,
+    "distintos": 76,
+    "pct_nulo": 0.0,
+    "min": null,
+    "max": null,
+    "media": null,
+    "mais_frequentes": "",
+    "amostra": "CONSULTA EM NEFROLOGIA | CONSULTA EM TISIOLOGIA | CONSULTA EM ANDROLOGIA | CONSULTA EM PEDIATRIA | CONSULTA EM ODONTOLOGIA - ENDODONTIA"
+   },
+   {
+    "coluna": "ds_especialidade_sisreg_filtro",
+    "tipo": "VARCHAR(100)",
+    "aceita_nulo": false,
+    "distintos": 76,
+    "pct_nulo": 0.0,
+    "min": null,
+    "max": null,
+    "media": null,
+    "mais_frequentes": "",
+    "amostra": "consulta em genetica medica | consulta em infectologia | consulta em neonatologia | consulta em cirurgia urologica | consulta em odontologia - estomatologia"
+   },
+   {
+    "coluna": "co_grupo_especialidade",
+    "tipo": "BIGINT",
+    "aceita_nulo": false,
+    "distintos": 3,
+    "pct_nulo": 0.0,
+    "min": 1.0,
+    "max": 3.0,
+    "media": 1.4210526315789473,
+    "mais_frequentes": "1 (53), 2 (14), 3 (9)",
+    "amostra": "1 | 2 | 3"
+   },
+   {
+    "coluna": "co_cbo",
+    "tipo": "BIGINT",
+    "aceita_nulo": true,
+    "distintos": 59,
+    "pct_nulo": 3.95,
+    "min": 364.0,
+    "max": 688.0,
+    "media": 456.041095890411,
+    "mais_frequentes": "",
+    "amostra": "441 | 467 | 468 | 480 | 483"
+   },
+   {
+    "coluna": "tp_encam_odonto",
+    "tipo": "BIGINT",
+    "aceita_nulo": true,
+    "distintos": 11,
+    "pct_nulo": 81.58,
+    "min": 1.0,
+    "max": 11.0,
+    "media": 6.428571428571429,
+    "mais_frequentes": "11 (3), 2 (2), 8 (1)",
+    "amostra": "6 | 5 | 8 | 1 | 2"
+   },
+   {
+    "coluna": "tp_cds_conduta",
+    "tipo": "BIGINT",
+    "aceita_nulo": true,
+    "distintos": 1,
+    "pct_nulo": 18.42,
+    "min": 4.0,
+    "max": 4.0,
+    "media": 4.0,
+    "mais_frequentes": "4 (62)",
+    "amostra": "4"
+   }
+  ],
+  "amostra_linhas": [
+   {
+    "co_especialidade_sisreg": 1,
+    "ds_especialidade_sisreg": "CONSULTA EM ACUPUNTURA",
+    "ds_especialidade_sisreg_filtro": "consulta em acupuntura",
+    "co_grupo_especialidade": 1,
+    "co_cbo": 442,
+    "tp_encam_odonto": null,
+    "tp_cds_conduta": 4
+   },
+   {
+    "co_especialidade_sisreg": 2,
+    "ds_especialidade_sisreg": "CONSULTA EM ALERGIA E IMUNOLOGIA",
+    "ds_especialidade_sisreg_filtro": "consulta em alergia e imunologia",
+    "co_grupo_especialidade": 1,
+    "co_cbo": 445,
+    "tp_encam_odonto": null,
+    "tp_cds_conduta": 4
+   },
+   {
+    "co_especialidade_sisreg": 3,
+    "ds_especialidade_sisreg": "CONSULTA EM ANESTESIOLOGIA",
+    "ds_especialidade_sisreg_filtro": "consulta em anestesiologia",
+    "co_grupo_especialidade": 1,
+    "co_cbo": 465,
+    "tp_encam_odonto": null,
+    "tp_cds_conduta": 4
+   }
+  ]
+ },
+ "pool": [
+  {
+   "tema_id": "t0",
+   "texto": "Consultas Odontológicas"
+  },
+  {
+   "tema_id": "t1",
+   "texto": "Grupos de Especialidade"
+  },
+  {
+   "tema_id": "t2",
+   "texto": "Encaminhamento Odontológico"
+  },
+  {
+   "tema_id": "t3",
+   "texto": "Encaminhamentos Odontológicos"
+  },
+  {
+   "tema_id": "t4",
+   "texto": "Especialidades Médicas"
+  },
+  {
+   "tema_id": "t5",
+   "texto": "CBO"
+  },
+  {
+   "tema_id": "t6",
+   "texto": "Condutas Médicas"
+  },
+  {
+   "tema_id": "t7",
+   "texto": "Classificação Profissional"
+  },
+  {
+   "tema_id": "t8",
+   "texto": "Grupos de especialidades"
+  }
+ ],
+ "listas": {
+  "Sistema A": {
+   "1": [
+    "Especialidades Médicas",
+    "Classificação Profissional",
+    "Encaminhamento Odontológico"
+   ],
+   "2": [
+    "Especialidades Médicas",
+    "Classificação Profissional",
+    "Encaminhamento Odontológico"
+   ],
+   "3": [
+    "Especialidades Médicas",
+    "Classificação Profissional",
+    "Encaminhamento Odontológico"
+   ]
+  },
+  "Sistema B": {
+   "1": [
+    "Especialidades médicas",
+    "CBO",
+    "Grupos de especialidades"
+   ],
+   "2": [
+    "Especialidades médicas",
+    "Grupos de especialidades",
+    "CBO"
+   ],
+   "3": [
+    "Especialidades médicas",
+    "CBO",
+    "Grupos de especialidades"
+   ]
+  },
+  "Sistema C": {
+   "1": [
+    "Especialidades Médicas",
+    "Consultas Odontológicas",
+    "Grupos de Especialidade"
+   ],
+   "2": [
+    "Especialidades Médicas",
+    "Consultas Odontológicas",
+    "Grupos de Especialidade"
+   ],
+   "3": [
+    "Especialidades Médicas",
+    "Encaminhamentos Odontológicos",
+    "Condutas Médicas"
+   ]
+  }
+ }
+}

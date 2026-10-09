@@ -1,0 +1,706 @@
+{
+ "item_id": "nhanes__dsqtot_j",
+ "table_key": "nhanes_dietary.dsqtot_j",
+ "base": "nhanes",
+ "piloto": false,
+ "contexto": {
+  "tabela": "dsqtot_j",
+  "linhas": 9254,
+  "pk": [],
+  "fks": [],
+  "colunas": [
+   {
+    "coluna": "SEQN",
+    "tipo": "DOUBLE PRECISION",
+    "aceita_nulo": true,
+    "distintos": 9254,
+    "pct_nulo": 0.0,
+    "min": 93703.0,
+    "max": 102956.0,
+    "media": 98329.5,
+    "mais_frequentes": "",
+    "amostra": "96472.0 | 101333.0 | 102403.0 | 100276.0 | 97209.0"
+   },
+   {
+    "coluna": "DSDCOUNT",
+    "tipo": "DOUBLE PRECISION",
+    "aceita_nulo": true,
+    "distintos": 23,
+    "pct_nulo": 0.0,
+    "min": 5.397605346934028e-79,
+    "max": 99.0,
+    "media": 1.0624594769829263,
+    "mais_frequentes": "5.397605346934028e-79 (5032), 1.0 (2250), 2.0 (879)",
+    "amostra": "15.0 | 99.0 | 9.0 | 16.0 | 20.0"
+   },
+   {
+    "coluna": "DSDANCNT",
+    "tipo": "DOUBLE PRECISION",
+    "aceita_nulo": true,
+    "distintos": 5,
+    "pct_nulo": 0.0,
+    "min": 5.397605346934028e-79,
+    "max": 99.0,
+    "media": 0.14361357250918522,
+    "mais_frequentes": "5.397605346934028e-79 (8392), 1.0 (836), 2.0 (21)",
+    "amostra": "99.0 | 5.397605346934028e-79 | 77.0 | 2.0 | 1.0"
+   },
+   {
+    "coluna": "DSD010",
+    "tipo": "DOUBLE PRECISION",
+    "aceita_nulo": true,
+    "distintos": 4,
+    "pct_nulo": 0.0,
+    "min": 1.0,
+    "max": 9.0,
+    "media": 1.550032418413659,
+    "mais_frequentes": "2.0 (5032), 1.0 (4214), 9.0 (5)",
+    "amostra": "9.0 | 7.0 | 2.0 | 1.0"
+   },
+   {
+    "coluna": "DSD010AN",
+    "tipo": "DOUBLE PRECISION",
+    "aceita_nulo": true,
+    "distintos": 4,
+    "pct_nulo": 0.0,
+    "min": 1.0,
+    "max": 9.0,
+    "media": 1.9107413010590015,
+    "mais_frequentes": "2.0 (8392), 1.0 (857), 9.0 (3)",
+    "amostra": "9.0 | 7.0 | 2.0 | 1.0"
+   },
+   {
+    "coluna": "DSQTKCAL",
+    "tipo": "DOUBLE PRECISION",
+    "aceita_nulo": true,
+    "distintos": 210,
+    "pct_nulo": 80.01,
+    "min": 0.1,
+    "max": 425.0,
+    "media": 14.354918918918925,
+    "mais_frequentes": "10.0 (335), 15.0 (212), 5.0 (116)",
+    "amostra": "154.0 | 16.7 | 0.9 | 14.7 | 5.8"
+   },
+   {
+    "coluna": "DSQTPROT",
+    "tipo": "DOUBLE PRECISION",
+    "aceita_nulo": true,
+    "distintos": 62,
+    "pct_nulo": 97.78,
+    "min": 0.002,
+    "max": 60.0,
+    "media": 2.5106146341463407,
+    "mais_frequentes": "0.5 (45), 1.0 (31), 0.333 (8)",
+    "amostra": "0.333 | 15.0 | 0.667 | 9.0 | 0.334"
+   },
+   {
+    "coluna": "DSQTCARB",
+    "tipo": "DOUBLE PRECISION",
+    "aceita_nulo": true,
+    "distintos": 192,
+    "pct_nulo": 83.47,
+    "min": 0.002,
+    "max": 42.0,
+    "media": 2.3486199999999977,
+    "mais_frequentes": "3.0 (202), 1.0 (184), 1.5 (140)",
+    "amostra": "11.2667 | 0.7 | 0.4447 | 0.2667 | 0.8"
+   },
+   {
+    "coluna": "DSQTSUGR",
+    "tipo": "DOUBLE PRECISION",
+    "aceita_nulo": true,
+    "distintos": 123,
+    "pct_nulo": 89.32,
+    "min": 0.02,
+    "max": 24.0,
+    "media": 1.8667813765182202,
+    "mais_frequentes": "2.0 (134), 3.0 (125), 1.0 (123)",
+    "amostra": "0.9 | 1.83 | 5.33 | 1.6 | 4.8"
+   },
+   {
+    "coluna": "DSQTFIBE",
+    "tipo": "DOUBLE PRECISION",
+    "aceita_nulo": true,
+    "distintos": 59,
+    "pct_nulo": 98.4,
+    "min": 0.04,
+    "max": 26.0,
+    "media": 2.8241891891891893,
+    "mais_frequentes": "1.0 (11), 0.5 (10), 0.67 (8)",
+    "amostra": "8.67 | 15.0 | 26.0 | 0.9 | 5.8"
+   },
+   {
+    "coluna": "DSQTTFAT",
+    "tipo": "DOUBLE PRECISION",
+    "aceita_nulo": true,
+    "distintos": 104,
+    "pct_nulo": 92.08,
+    "min": 0.004,
+    "max": 27.0,
+    "media": 1.3314474761255113,
+    "mais_frequentes": "1.0 (256), 2.0 (65), 0.5 (61)",
+    "amostra": "2.25 | 0.333 | 0.9 | 0.667 | 0.112"
+   },
+   {
+    "coluna": "DSQTSFAT",
+    "tipo": "DOUBLE PRECISION",
+    "aceita_nulo": true,
+    "distintos": 43,
+    "pct_nulo": 98.65,
+    "min": 0.0001,
+    "max": 6.0,
+    "media": 0.7055431999999996,
+    "mais_frequentes": "0.5 (18), 1.0 (15), 0.25 (14)",
+    "amostra": "0.0556 | 0.4167 | 0.75 | 0.1 | 0.5"
+   },
+   {
+    "coluna": "DSQTMFAT",
+    "tipo": "DOUBLE PRECISION",
+    "aceita_nulo": true,
+    "distintos": 23,
+    "pct_nulo": 99.14,
+    "min": 0.01,
+    "max": 6.0,
+    "media": 0.575625,
+    "mais_frequentes": "0.5 (16), 0.25 (13), 1.0 (11)",
+    "amostra": "0.67 | 0.13 | 0.35 | 0.1 | 0.42"
+   },
+   {
+    "coluna": "DSQTPFAT",
+    "tipo": "DOUBLE PRECISION",
+    "aceita_nulo": true,
+    "distintos": 44,
+    "pct_nulo": 97.63,
+    "min": 0.01,
+    "max": 12.0,
+    "media": 0.8243835616438357,
+    "mais_frequentes": "0.5 (55), 0.25 (35), 1.0 (31)",
+    "amostra": "0.03 | 1.67 | 0.25 | 2.13 | 0.04"
+   },
+   {
+    "coluna": "DSQTCHOL",
+    "tipo": "DOUBLE PRECISION",
+    "aceita_nulo": true,
+    "distintos": 73,
+    "pct_nulo": 95.32,
+    "min": 0.13,
+    "max": 250.0,
+    "media": 11.240785219399536,
+    "mais_frequentes": "10.0 (108), 5.0 (103), 20.0 (19)",
+    "amostra": "8.67 | 15.0 | 90.0 | 5.33 | 1.6"
+   },
+   {
+    "coluna": "DSQTLYCO",
+    "tipo": "DOUBLE PRECISION",
+    "aceita_nulo": true,
+    "distintos": 87,
+    "pct_nulo": 93.69,
+    "min": 8.0,
+    "max": 30000.0,
+    "media": 598.167808219178,
+    "mais_frequentes": "300.0 (252), 600.0 (50), 1000.0 (22)",
+    "amostra": "15000.0 | 1000.0 | 1333.0 | 90.0 | 560.0"
+   },
+   {
+    "coluna": "DSQTLZ",
+    "tipo": "DOUBLE PRECISION",
+    "aceita_nulo": true,
+    "distintos": 145,
+    "pct_nulo": 92.46,
+    "min": 2.0,
+    "max": 48000.0,
+    "media": 1728.4398280802293,
+    "mais_frequentes": "250.0 (194), 300.0 (74), 275.0 (34)",
+    "amostra": "1000.0 | 1333.0 | 217.0 | 9579.0 | 248.0"
+   },
+   {
+    "coluna": "DSQTVB1",
+    "tipo": "DOUBLE PRECISION",
+    "aceita_nulo": true,
+    "distintos": 289,
+    "pct_nulo": 81.93,
+    "min": 0.001,
+    "max": 251.5,
+    "media": 8.908545454545465,
+    "mais_frequentes": "1.5 (466), 0.75 (70), 1.35 (62)",
+    "amostra": "1.332 | 2.475 | 40.83 | 0.042 | 13.892"
+   },
+   {
+    "coluna": "DSQTVB2",
+    "tipo": "DOUBLE PRECISION",
+    "aceita_nulo": true,
+    "distintos": 290,
+    "pct_nulo": 81.99,
+    "min": 0.001,
+    "max": 401.7,
+    "media": 5.85662927414518,
+    "mais_frequentes": "1.7 (556), 0.85 (81), 3.4 (58)",
+    "amostra": "0.06 | 1.643 | 0.425 | 40.0 | 0.8"
+   },
+   {
+    "coluna": "DSQTNIAC",
+    "tipo": "DOUBLE PRECISION",
+    "aceita_nulo": true,
+    "distintos": 204,
+    "pct_nulo": 80.24,
+    "min": 0.1,
+    "max": 1520.0,
+    "media": 24.705522143247652,
+    "mais_frequentes": "20.0 (530), 10.0 (128), 18.0 (70)",
+    "amostra": "16.7 | 0.9 | 14.7 | 5.8 | 13.2"
+   },
+   {
+    "coluna": "DSQTVB6",
+    "tipo": "DOUBLE PRECISION",
+    "aceita_nulo": true,
+    "distintos": 262,
+    "pct_nulo": 73.96,
+    "min": 0.02,
+    "max": 500.0,
+    "media": 6.1620539419087175,
+    "mais_frequentes": "2.0 (441), 3.0 (237), 1.0 (200)",
+    "amostra": "1.68 | 74.67 | 29.13 | 5.8 | 5.33"
+   },
+   {
+    "coluna": "DSQTFA",
+    "tipo": "DOUBLE PRECISION",
+    "aceita_nulo": true,
+    "distintos": 232,
+    "pct_nulo": 74.77,
+    "min": 1.0,
+    "max": 16000.0,
+    "media": 332.3927194860814,
+    "mais_frequentes": "400.0 (662), 200.0 (234), 100.0 (109)",
+    "amostra": "472.0 | 1333.0 | 517.0 | 61.0 | 667.0"
+   },
+   {
+    "coluna": "DSQTFDFE",
+    "tipo": "DOUBLE PRECISION",
+    "aceita_nulo": true,
+    "distintos": 249,
+    "pct_nulo": 74.77,
+    "min": 2.0,
+    "max": 27200.0,
+    "media": 565.0488222698073,
+    "mais_frequentes": "680.0 (662), 340.0 (234), 170.0 (109)",
+    "amostra": "472.0 | 873.0 | 544.0 | 1292.0 | 96.0"
+   },
+   {
+    "coluna": "DSQTCHL",
+    "tipo": "DOUBLE PRECISION",
+    "aceita_nulo": true,
+    "distintos": 135,
+    "pct_nulo": 93.68,
+    "min": 0.0003,
+    "max": 666.6667,
+    "media": 8.532302051282064,
+    "mais_frequentes": "0.04 (128), 0.02 (55), 10.0 (34)",
+    "amostra": "16.7 | 9.3333 | 0.0173 | 0.6667 | 0.006"
+   },
+   {
+    "coluna": "DSQTVB12",
+    "tipo": "DOUBLE PRECISION",
+    "aceita_nulo": true,
+    "distintos": 424,
+    "pct_nulo": 72.22,
+    "min": 0.04,
+    "max": 10000.0,
+    "media": 215.86197199533245,
+    "mais_frequentes": "6.0 (351), 25.0 (183), 3.0 (162)",
+    "amostra": "154.0 | 82.67 | 669.67 | 257.7 | 5.33"
+   },
+   {
+    "coluna": "DSQTVC",
+    "tipo": "DOUBLE PRECISION",
+    "aceita_nulo": true,
+    "distintos": 440,
+    "pct_nulo": 70.48,
+    "min": 0.33,
+    "max": 30000.0,
+    "media": 184.7960285505123,
+    "mais_frequentes": "60.0 (464), 30.0 (157), 20.0 (140)",
+    "amostra": "74.67 | 346.0 | 5.33 | 4.8 | 514.0"
+   },
+   {
+    "coluna": "DSQTVK",
+    "tipo": "DOUBLE PRECISION",
+    "aceita_nulo": true,
+    "distintos": 132,
+    "pct_nulo": 86.68,
+    "min": 0.1,
+    "max": 7000.0,
+    "media": 40.00624493106243,
+    "mais_frequentes": "25.0 (208), 30.0 (178), 20.0 (113)",
+    "amostra": "16.7 | 14.7 | 5.8 | 1.6 | 34.7"
+   },
+   {
+    "coluna": "DSQTVD",
+    "tipo": "DOUBLE PRECISION",
+    "aceita_nulo": true,
+    "distintos": 355,
+    "pct_nulo": 67.84,
+    "min": 0.004,
+    "max": 2570.0,
+    "media": 33.923074260752685,
+    "mais_frequentes": "25.0 (407), 10.0 (261), 50.0 (221)",
+    "amostra": "55.833 | 81.67 | 14.58 | 166.667 | 14.667"
+   },
+   {
+    "coluna": "DSQTCALC",
+    "tipo": "DOUBLE PRECISION",
+    "aceita_nulo": true,
+    "distintos": 558,
+    "pct_nulo": 73.71,
+    "min": 0.18,
+    "max": 3750.0,
+    "media": 273.30274558158663,
+    "mais_frequentes": "200.0 (173), 100.0 (114), 220.0 (107)",
+    "amostra": "1540.0 | 154.0 | 79.2 | 615.0 | 186.67"
+   },
+   {
+    "coluna": "DSQTPHOS",
+    "tipo": "DOUBLE PRECISION",
+    "aceita_nulo": true,
+    "distintos": 134,
+    "pct_nulo": 91.58,
+    "min": 0.67,
+    "max": 1200.0,
+    "media": 35.1053530166881,
+    "mais_frequentes": "20.0 (339), 50.0 (35), 13.33 (27)",
+    "amostra": "13.2 | 5.33 | 1.6 | 90.83 | 62.67"
+   },
+   {
+    "coluna": "DSQTMAGN",
+    "tipo": "DOUBLE PRECISION",
+    "aceita_nulo": true,
+    "distintos": 314,
+    "pct_nulo": 84.43,
+    "min": 0.08,
+    "max": 3390.0,
+    "media": 105.440853573907,
+    "mais_frequentes": "50.0 (305), 100.0 (100), 140.0 (59)",
+    "amostra": "544.0 | 186.67 | 5.33 | 136.33 | 70.83"
+   },
+   {
+    "coluna": "DSQTIRON",
+    "tipo": "DOUBLE PRECISION",
+    "aceita_nulo": true,
+    "distintos": 208,
+    "pct_nulo": 88.68,
+    "min": 0.002,
+    "max": 260.0,
+    "media": 20.561231870228994,
+    "mais_frequentes": "18.0 (271), 65.0 (74), 9.0 (49)",
+    "amostra": "4.533 | 46.8 | 0.9 | 24.3 | 5.8"
+   },
+   {
+    "coluna": "DSQTZINC",
+    "tipo": "DOUBLE PRECISION",
+    "aceita_nulo": true,
+    "distintos": 350,
+    "pct_nulo": 76.62,
+    "min": 0.0001,
+    "max": 450.0,
+    "media": 10.28984792051756,
+    "mais_frequentes": "11.0 (295), 15.0 (250), 2.5 (83)",
+    "amostra": "2.52 | 9.3333 | 1.6668 | 4.8 | 0.6667"
+   },
+   {
+    "coluna": "DSQTCOPP",
+    "tipo": "DOUBLE PRECISION",
+    "aceita_nulo": true,
+    "distintos": 129,
+    "pct_nulo": 85.52,
+    "min": 0.0002,
+    "max": 6.1,
+    "media": 1.050175149253732,
+    "mais_frequentes": "0.5 (334), 2.0 (275), 1.0 (91)",
+    "amostra": "0.425 | 0.8 | 0.2667 | 1.9333 | 0.5667"
+   },
+   {
+    "coluna": "DSQTSODI",
+    "tipo": "DOUBLE PRECISION",
+    "aceita_nulo": true,
+    "distintos": 153,
+    "pct_nulo": 92.47,
+    "min": 0.1,
+    "max": 1500.0,
+    "media": 22.287230989956953,
+    "mais_frequentes": "10.0 (105), 5.0 (76), 0.1 (30)",
+    "amostra": "16.7 | 0.9 | 106.2 | 5.8 | 14.7"
+   },
+   {
+    "coluna": "DSQTPOTA",
+    "tipo": "DOUBLE PRECISION",
+    "aceita_nulo": true,
+    "distintos": 179,
+    "pct_nulo": 90.53,
+    "min": 0.01,
+    "max": 6750.0,
+    "media": 91.41126255707765,
+    "mais_frequentes": "80.0 (370), 53.333 (30), 99.0 (27)",
+    "amostra": "630.0 | 8.887 | 609.0 | 46.667 | 13.92"
+   },
+   {
+    "coluna": "DSQTSELE",
+    "tipo": "DOUBLE PRECISION",
+    "aceita_nulo": true,
+    "distintos": 245,
+    "pct_nulo": 86.09,
+    "min": 0.02,
+    "max": 2100.0,
+    "media": 48.064685314685335,
+    "mais_frequentes": "55.0 (180), 19.0 (133), 20.0 (77)",
+    "amostra": "233.5 | 186.67 | 5.33 | 69.67 | 187.5"
+   },
+   {
+    "coluna": "DSQTCAFF",
+    "tipo": "DOUBLE PRECISION",
+    "aceita_nulo": true,
+    "distintos": 13,
+    "pct_nulo": 99.83,
+    "min": 2.0,
+    "max": 1200.0,
+    "media": 195.625,
+    "mais_frequentes": "200.0 (2), 120.0 (2), 15.0 (2)",
+    "amostra": "2.0 | 15.0 | 20.0 | 33.0 | 41.0"
+   },
+   {
+    "coluna": "DSQTIODI",
+    "tipo": "DOUBLE PRECISION",
+    "aceita_nulo": true,
+    "distintos": 166,
+    "pct_nulo": 80.59,
+    "min": 0.5,
+    "max": 12500.0,
+    "media": 100.92762249443209,
+    "mais_frequentes": "150.0 (647), 75.0 (116), 42.0 (84)",
+    "amostra": "39.2 | 29.13 | 79.17 | 5.33 | 136.5"
+   }
+  ],
+  "amostra_linhas": [
+   {
+    "SEQN": 93703.0,
+    "DSDCOUNT": 1.0,
+    "DSDANCNT": 5.397605346934028e-79,
+    "DSD010": 1.0,
+    "DSD010AN": 2.0,
+    "DSQTKCAL": 8.0,
+    "DSQTPROT": null,
+    "DSQTCARB": 2.0,
+    "DSQTSUGR": NaN,
+    "DSQTFIBE": NaN,
+    "DSQTTFAT": NaN,
+    "DSQTSFAT": null,
+    "DSQTMFAT": null,
+    "DSQTPFAT": null,
+    "DSQTCHOL": null,
+    "DSQTLYCO": NaN,
+    "DSQTLZ": NaN,
+    "DSQTVB1": NaN,
+    "DSQTVB2": NaN,
+    "DSQTNIAC": NaN,
+    "DSQTVB6": 1.0,
+    "DSQTFA": 167.0,
+    "DSQTFDFE": 284.0,
+    "DSQTCHL": NaN,
+    "DSQTVB12": 3.0,
+    "DSQTVC": 20.0,
+    "DSQTVK": NaN,
+    "DSQTVD": 7.5,
+    "DSQTCALC": NaN,
+    "DSQTPHOS": NaN,
+    "DSQTMAGN": NaN,
+    "DSQTIRON": NaN,
+    "DSQTZINC": 1.35,
+    "DSQTCOPP": NaN,
+    "DSQTSODI": NaN,
+    "DSQTPOTA": NaN,
+    "DSQTSELE": NaN,
+    "DSQTCAFF": null,
+    "DSQTIODI": 21.0
+   },
+   {
+    "SEQN": 93704.0,
+    "DSDCOUNT": 5.397605346934028e-79,
+    "DSDANCNT": 5.397605346934028e-79,
+    "DSD010": 2.0,
+    "DSD010AN": 2.0,
+    "DSQTKCAL": NaN,
+    "DSQTPROT": null,
+    "DSQTCARB": NaN,
+    "DSQTSUGR": NaN,
+    "DSQTFIBE": NaN,
+    "DSQTTFAT": NaN,
+    "DSQTSFAT": null,
+    "DSQTMFAT": null,
+    "DSQTPFAT": null,
+    "DSQTCHOL": null,
+    "DSQTLYCO": NaN,
+    "DSQTLZ": NaN,
+    "DSQTVB1": NaN,
+    "DSQTVB2": NaN,
+    "DSQTNIAC": NaN,
+    "DSQTVB6": NaN,
+    "DSQTFA": NaN,
+    "DSQTFDFE": NaN,
+    "DSQTCHL": NaN,
+    "DSQTVB12": NaN,
+    "DSQTVC": NaN,
+    "DSQTVK": NaN,
+    "DSQTVD": NaN,
+    "DSQTCALC": NaN,
+    "DSQTPHOS": NaN,
+    "DSQTMAGN": NaN,
+    "DSQTIRON": NaN,
+    "DSQTZINC": NaN,
+    "DSQTCOPP": NaN,
+    "DSQTSODI": NaN,
+    "DSQTPOTA": NaN,
+    "DSQTSELE": NaN,
+    "DSQTCAFF": null,
+    "DSQTIODI": NaN
+   },
+   {
+    "SEQN": 93705.0,
+    "DSDCOUNT": 8.0,
+    "DSDANCNT": 5.397605346934028e-79,
+    "DSD010": 1.0,
+    "DSD010AN": 2.0,
+    "DSQTKCAL": 26.0,
+    "DSQTPROT": null,
+    "DSQTCARB": 7.0,
+    "DSQTSUGR": 3.0,
+    "DSQTFIBE": 3.0,
+    "DSQTTFAT": 0.11,
+    "DSQTSFAT": null,
+    "DSQTMFAT": null,
+    "DSQTPFAT": null,
+    "DSQTCHOL": null,
+    "DSQTLYCO": 300.0,
+    "DSQTLZ": 250.0,
+    "DSQTVB1": 35.39,
+    "DSQTVB2": 8.923,
+    "DSQTNIAC": 31.1,
+    "DSQTVB6": 4.22,
+    "DSQTFA": 645.0,
+    "DSQTFDFE": 1096.0,
+    "DSQTCHL": 1.111,
+    "DSQTVB12": 114.22,
+    "DSQTVC": 616.67,
+    "DSQTVK": 10.0,
+    "DSQTVD": 20.557,
+    "DSQTCALC": 211.67,
+    "DSQTPHOS": 48.0,
+    "DSQTMAGN": 100.0,
+    "DSQTIRON": 0.733,
+    "DSQTZINC": 15.8333,
+    "DSQTCOPP": 2.0,
+    "DSQTSODI": 5.0,
+    "DSQTPOTA": 110.0,
+    "DSQTSELE": 21.4,
+    "DSQTCAFF": null,
+    "DSQTIODI": 150.0
+   }
+  ]
+ },
+ "pool": [
+  {
+   "tema_id": "t0",
+   "texto": "Nutrientes totais"
+  },
+  {
+   "tema_id": "t1",
+   "texto": "composição de macronutrientes"
+  },
+  {
+   "tema_id": "t2",
+   "texto": "consumo de calorias"
+  },
+  {
+   "tema_id": "t3",
+   "texto": "Suplementos dietéticos"
+  },
+  {
+   "tema_id": "t4",
+   "texto": "análise de macronutrientes"
+  },
+  {
+   "tema_id": "t5",
+   "texto": "consumo de nutrientes"
+  },
+  {
+   "tema_id": "t6",
+   "texto": "consumo alimentar"
+  },
+  {
+   "tema_id": "t7",
+   "texto": "teor de vitaminas"
+  },
+  {
+   "tema_id": "t8",
+   "texto": "análise dietética"
+  },
+  {
+   "tema_id": "t9",
+   "texto": "nutrição"
+  },
+  {
+   "tema_id": "t10",
+   "texto": "ingestão calórica diária"
+  }
+ ],
+ "listas": {
+  "Sistema A": {
+   "1": [
+    "Suplementos dietéticos",
+    "Nutrientes totais",
+    "Consumo alimentar"
+   ],
+   "2": [
+    "Suplementos dietéticos",
+    "Nutrientes totais",
+    "Consumo alimentar"
+   ],
+   "3": [
+    "Suplementos dietéticos",
+    "Nutrientes totais",
+    "Consumo alimentar"
+   ]
+  },
+  "Sistema B": {
+   "1": [
+    "consumo de nutrientes",
+    "ingestão calórica diária",
+    "composição de macronutrientes"
+   ],
+   "2": [
+    "consumo de nutrientes",
+    "ingestão calórica diária",
+    "composição de macronutrientes"
+   ],
+   "3": [
+    "consumo de nutrientes",
+    "ingestão calórica diária",
+    "teor de vitaminas"
+   ]
+  },
+  "Sistema C": {
+   "1": [
+    "nutrição",
+    "consumo de nutrientes",
+    "análise dietética"
+   ],
+   "2": [
+    "nutrição",
+    "consumo de calorias",
+    "análise de macronutrientes"
+   ],
+   "3": [
+    "nutrição",
+    "consumo alimentar",
+    "análise de macronutrientes"
+   ]
+  }
+ }
+}

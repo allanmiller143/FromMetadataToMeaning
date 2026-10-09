@@ -1,0 +1,344 @@
+{
+ "item_id": "teixeira__ta_animais_domicilio",
+ "table_key": "public.ta_animais_domicilio",
+ "base": "teixeira",
+ "piloto": false,
+ "contexto": {
+  "tabela": "ta_animais_domicilio",
+  "linhas": 3505,
+  "pk": [
+   "co_seq_taanimaisdomicilio"
+  ],
+  "fks": [],
+  "colunas": [
+   {
+    "coluna": "co_seq_taanimaisdomicilio",
+    "tipo": "BIGINT",
+    "aceita_nulo": false,
+    "distintos": 3505,
+    "pct_nulo": 0.0,
+    "min": 1.0,
+    "max": 3505.0,
+    "media": 1753.0,
+    "mais_frequentes": "",
+    "amostra": "1 | 2 | 3 | 4 | 5"
+   },
+   {
+    "coluna": "co_tipo_auditoria",
+    "tipo": "CHAR(1)",
+    "aceita_nulo": true,
+    "distintos": 3,
+    "pct_nulo": 0.0,
+    "min": null,
+    "max": null,
+    "media": null,
+    "mais_frequentes": "U (2744), I (584), D (177)",
+    "amostra": "D | I | U"
+   },
+   {
+    "coluna": "dt_auditoria",
+    "tipo": "TIMESTAMP",
+    "aceita_nulo": true,
+    "distintos": 3505,
+    "pct_nulo": 0.0,
+    "min": null,
+    "max": null,
+    "media": null,
+    "mais_frequentes": "",
+    "amostra": "2025-07-09 07:55:05.773907 | 2024-11-23 00:02:58.684504 | 2024-11-28 12:40:40.472740 | 2025-06-17 07:00:46.687890 | 2025-06-18 19:03:07.013988"
+   },
+   {
+    "coluna": "co_seq_animais_domicilio",
+    "tipo": "BIGINT",
+    "aceita_nulo": true,
+    "distintos": 3228,
+    "pct_nulo": 0.0,
+    "min": 3.0,
+    "max": 10296.0,
+    "media": 5696.453637660485,
+    "mais_frequentes": "",
+    "amostra": "3565 | 10295 | 8908 | 2409 | 2024"
+   },
+   {
+    "coluna": "co_domicilio",
+    "tipo": "BIGINT",
+    "aceita_nulo": true,
+    "distintos": 3195,
+    "pct_nulo": 0.0,
+    "min": 1.0,
+    "max": 11278.0,
+    "media": 5813.733523537803,
+    "mais_frequentes": "",
+    "amostra": "251 | 8290 | 2409 | 264 | 3404"
+   },
+   {
+    "coluna": "st_animais",
+    "tipo": "INTEGER",
+    "aceita_nulo": true,
+    "distintos": 2,
+    "pct_nulo": 3.25,
+    "min": 0.0,
+    "max": 1.0,
+    "media": 0.8207018578590386,
+    "mais_frequentes": "1 (2783), 0 (608)",
+    "amostra": "0 | 1"
+   },
+   {
+    "coluna": "nu_animais",
+    "tipo": "INTEGER",
+    "aceita_nulo": true,
+    "distintos": 48,
+    "pct_nulo": 30.13,
+    "min": 1.0,
+    "max": 64.0,
+    "media": 4.602694977541854,
+    "mais_frequentes": "1 (948), 2 (458), 3 (250)",
+    "amostra": "25 | 32 | 12 | 8 | 1"
+   },
+   {
+    "coluna": "st_gato",
+    "tipo": "INTEGER",
+    "aceita_nulo": true,
+    "distintos": 2,
+    "pct_nulo": 21.54,
+    "min": 0.0,
+    "max": 1.0,
+    "media": 0.4243636363636364,
+    "mais_frequentes": "0 (1583), 1 (1167)",
+    "amostra": "0 | 1"
+   },
+   {
+    "coluna": "st_cachorro",
+    "tipo": "INTEGER",
+    "aceita_nulo": true,
+    "distintos": 2,
+    "pct_nulo": 21.51,
+    "min": 0.0,
+    "max": 1.0,
+    "media": 0.7313704107597238,
+    "mais_frequentes": "1 (2012), 0 (739)",
+    "amostra": "0 | 1"
+   },
+   {
+    "coluna": "st_passaro",
+    "tipo": "INTEGER",
+    "aceita_nulo": true,
+    "distintos": 2,
+    "pct_nulo": 21.6,
+    "min": 0.0,
+    "max": 1.0,
+    "media": 0.04112081513828239,
+    "mais_frequentes": "0 (2635), 1 (113)",
+    "amostra": "0 | 1"
+   },
+   {
+    "coluna": "st_outros",
+    "tipo": "INTEGER",
+    "aceita_nulo": true,
+    "distintos": 2,
+    "pct_nulo": 21.6,
+    "min": 0.0,
+    "max": 1.0,
+    "media": 0.2165211062590975,
+    "mais_frequentes": "0 (2153), 1 (595)",
+    "amostra": "0 | 1"
+   },
+   {
+    "coluna": "st_macaco",
+    "tipo": "INTEGER",
+    "aceita_nulo": true,
+    "distintos": 1,
+    "pct_nulo": 21.6,
+    "min": 0.0,
+    "max": 0.0,
+    "media": 0.0,
+    "mais_frequentes": "0 (2748)",
+    "amostra": "0"
+   },
+   {
+    "coluna": "st_galinha",
+    "tipo": "INTEGER",
+    "aceita_nulo": true,
+    "distintos": 2,
+    "pct_nulo": 21.6,
+    "min": 0.0,
+    "max": 1.0,
+    "media": 0.01601164483260553,
+    "mais_frequentes": "0 (2704), 1 (44)",
+    "amostra": "0 | 1"
+   },
+   {
+    "coluna": "st_porco",
+    "tipo": "INTEGER",
+    "aceita_nulo": true,
+    "distintos": 2,
+    "pct_nulo": 21.6,
+    "min": 0.0,
+    "max": 1.0,
+    "media": 0.001819505094614265,
+    "mais_frequentes": "0 (2743), 1 (5)",
+    "amostra": "0 | 1"
+   },
+   {
+    "coluna": "st_repteis",
+    "tipo": "INTEGER",
+    "aceita_nulo": true,
+    "distintos": 2,
+    "pct_nulo": 21.6,
+    "min": 0.0,
+    "max": 1.0,
+    "media": 0.000363901018922853,
+    "mais_frequentes": "0 (2747), 1 (1)",
+    "amostra": "0 | 1"
+   }
+  ],
+  "amostra_linhas": [
+   {
+    "co_seq_taanimaisdomicilio": 1,
+    "co_tipo_auditoria": "I",
+    "dt_auditoria": "2024-11-23 00:02:56.595068",
+    "co_seq_animais_domicilio": 9713,
+    "co_domicilio": 3405,
+    "st_animais": 1,
+    "nu_animais": 1.0,
+    "st_gato": 0,
+    "st_cachorro": 1,
+    "st_passaro": 0,
+    "st_outros": 0,
+    "st_macaco": 0,
+    "st_galinha": 0,
+    "st_porco": 0,
+    "st_repteis": 0
+   },
+   {
+    "co_seq_taanimaisdomicilio": 2,
+    "co_tipo_auditoria": "I",
+    "dt_auditoria": "2024-11-23 00:02:56.994886",
+    "co_seq_animais_domicilio": 9714,
+    "co_domicilio": 3424,
+    "st_animais": 1,
+    "nu_animais": NaN,
+    "st_gato": 0,
+    "st_cachorro": 1,
+    "st_passaro": 0,
+    "st_outros": 1,
+    "st_macaco": 0,
+    "st_galinha": 0,
+    "st_porco": 0,
+    "st_repteis": 0
+   },
+   {
+    "co_seq_taanimaisdomicilio": 3,
+    "co_tipo_auditoria": "I",
+    "dt_auditoria": "2024-11-23 00:02:57.045985",
+    "co_seq_animais_domicilio": 9715,
+    "co_domicilio": 10728,
+    "st_animais": 1,
+    "nu_animais": NaN,
+    "st_gato": 0,
+    "st_cachorro": 1,
+    "st_passaro": 0,
+    "st_outros": 0,
+    "st_macaco": 0,
+    "st_galinha": 0,
+    "st_porco": 0,
+    "st_repteis": 0
+   }
+  ]
+ },
+ "pool": [
+  {
+   "tema_id": "t0",
+   "texto": "Tipos de Animais"
+  },
+  {
+   "tema_id": "t1",
+   "texto": "Auditorias"
+  },
+  {
+   "tema_id": "t2",
+   "texto": "Animais Domésticos"
+  },
+  {
+   "tema_id": "t3",
+   "texto": "Posse de Animais"
+  },
+  {
+   "tema_id": "t4",
+   "texto": "Auditorias de Domicílio"
+  },
+  {
+   "tema_id": "t5",
+   "texto": "Auditoria Domiciliar"
+  },
+  {
+   "tema_id": "t6",
+   "texto": "Domicílios"
+  },
+  {
+   "tema_id": "t7",
+   "texto": "Animais Domiciliares"
+  },
+  {
+   "tema_id": "t8",
+   "texto": "Animais de Estimação"
+  },
+  {
+   "tema_id": "t9",
+   "texto": "Auditorias de Animais"
+  }
+ ],
+ "listas": {
+  "Sistema A": {
+   "1": [
+    "Animais de estimação",
+    "Auditorias",
+    "Domicílios"
+   ],
+   "2": [
+    "Animais de estimação",
+    "Auditorias",
+    "Domicílios"
+   ],
+   "3": [
+    "Animais de estimação",
+    "Auditorias",
+    "Domicílios"
+   ]
+  },
+  "Sistema B": {
+   "1": [
+    "Animais de Estimação",
+    "Auditorias de Domicílio",
+    "Tipos de Animais"
+   ],
+   "2": [
+    "Animais de Estimação",
+    "Auditorias de Domicílio",
+    "Tipos de Animais"
+   ],
+   "3": [
+    "Animais Domiciliares",
+    "Tipos de Animais",
+    "Auditorias de Animais"
+   ]
+  },
+  "Sistema C": {
+   "1": [
+    "Animais Domésticos",
+    "Auditoria Domiciliar",
+    "Tipos de Animais"
+   ],
+   "2": [
+    "Animais Domésticos",
+    "Auditoria Domiciliar",
+    "Tipos de Animais"
+   ],
+   "3": [
+    "Animais Domésticos",
+    "Auditoria Domiciliar",
+    "Posse de Animais"
+   ]
+  }
+ }
+}
