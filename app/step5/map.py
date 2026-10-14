@@ -9,10 +9,75 @@ except ImportError:
 import numpy as np
 
 
-def build_interactive_map_v3(som, themes, embeddings, macrothemes, occurrences, tables_by_theme, out_path, umatrix, metadata_dict=None):
+# Paletas das regiões (tons do Tailwind: 300 = claro, 400 = médio, 500 = forte).
+_TW = {
+    "sky": ("#7dd3fc", "#38bdf8", "#0ea5e9"), "orange": ("#fdba74", "#fb923c", "#f97316"),
+    "emerald": ("#6ee7b7", "#34d399", "#10b981"), "violet": ("#c4b5fd", "#a78bfa", "#8b5cf6"),
+    "rose": ("#fda4af", "#fb7185", "#f43f5e"), "amber": ("#fcd34d", "#fbbf24", "#f59e0b"),
+    "indigo": ("#a5b4fc", "#818cf8", "#6366f1"), "lime": ("#bef264", "#a3e635", "#84cc16"),
+    "fuchsia": ("#f0abfc", "#e879f9", "#d946ef"), "teal": ("#5eead4", "#2dd4bf", "#14b8a6"),
+    "red": ("#fca5a5", "#f87171", "#ef4444"), "blue": ("#93c5fd", "#60a5fa", "#3b82f6"),
+    "pink": ("#f9a8d4", "#f472b6", "#ec4899"), "cyan": ("#67e8f9", "#22d3ee", "#06b6d4"),
+    "purple": ("#d8b4fe", "#c084fc", "#a855f7"), "green": ("#86efac", "#4ade80", "#22c55e"),
+}
+_TW_ORDER = ["sky", "orange", "emerald", "violet", "rose", "amber", "indigo", "lime",
+             "fuchsia", "teal", "red", "blue", "pink", "cyan", "purple", "green"]
+_PALETTES = {                      # ordem de uso dos tons: (médio, forte, claro) etc.
+    "vivo":   (1, 2, 0),
+    "pastel": (0, 1, 2),
+    "forte":  (2, 1, 0),
+}
+
+
+def _region_palette(labels, palette="vivo"):
+    """Cores das regiões no mapa: paleta curada (Tailwind) e regiões vizinhas sempre bem diferentes.
+    palette: "vivo" (padrão), "pastel" ou "forte". Devolve uma lista de '#rrggbb', uma por região."""
+    from regioes import hex_neighbors
+    labels = np.asarray(labels)
+    x_dim, y_dim = labels.shape
+    k = int(labels.max()) + 1
+
+    hexes = [_TW[name][tone] for tone in _PALETTES.get(palette, _PALETTES["vivo"]) for name in _TW_ORDER]
+    rgb = [tuple(int(h[i:i + 2], 16) / 255 for i in (1, 3, 5)) for h in hexes]
+
+    def dist(a, b):                # "redmean": distância de cor mais próxima da percepção
+        rm = (a[0] + b[0]) / 2
+        return ((2 + rm) * (a[0] - b[0]) ** 2 + 4 * (a[1] - b[1]) ** 2 + (3 - rm) * (a[2] - b[2]) ** 2) ** 0.5
+
+    neighbors = {r: set() for r in range(k)}
+    for x in range(x_dim):
+        for y in range(y_dim):
+            for n in hex_neighbors(x, y, x_dim, y_dim):
+                a, b = int(labels[x, y]), int(labels[n])
+                if a != b:
+                    neighbors[a].add(b)
+
+    sizes = {r: int((labels == r).sum()) for r in range(k)}
+    assigned, used = {}, set()
+    for r in sorted(range(k), key=lambda r: (-sizes[r], r)):
+        near = [rgb[assigned[n]] for n in neighbors[r] if n in assigned]
+        limit = min(len(rgb), -(-k // len(_TW_ORDER)) * len(_TW_ORDER))   # só os tons necessários: visual coerente
+        pool = [i for i in range(limit) if i not in used] or list(range(len(rgb)))
+        best, best_score = pool[0], -1.0
+        for i in pool:
+            score = min((dist(rgb[i], c) for c in near), default=9.0)
+            if score > best_score + 1e-9:
+                best, best_score = i, score
+        assigned[r] = best
+        used.add(best)
+    return [hexes[assigned[r]] for r in range(k)]
+
+
+def build_interactive_map_v3(som, themes, embeddings, macrothemes, occurrences, tables_by_theme, out_path, umatrix, metadata_dict=None, regions=None):
     """
     Gera um HTML interativo com D3.js para explorar o SOM.
     Inclui U-Matrix, Macrotemas, Temas e Tabelas de Origem.
+
+    regions (opcional): visualização de agrupamentos (regiões do clustering hierárquico):
+        {"labels": labels_h, "names": names, "title": "Regiões (hierárquico)", "palette": "vivo"}
+    `labels` é a matriz (x_dim, y_dim) de auto_hier_regions e `names` o dict {região: nome}
+    de name_regions_combined. `palette` é opcional: "vivo" (padrão), "pastel" ou "forte".
+    Sem `regions`, o mapa fica como antes.
     """
     weights = som.get_weights()
     x_dim, y_dim = weights.shape[0], weights.shape[1]
@@ -52,6 +117,26 @@ def build_interactive_map_v3(som, themes, embeddings, macrothemes, occurrences, 
                 if entry not in table_to_themes[clean_table]:
                     table_to_themes[clean_table].append(entry)
 
+    # Agrupamentos: rótulo, nome e cor de cada região
+    region_labels = None
+    regions_payload = None
+    if regions is not None:
+        region_labels = np.asarray(regions["labels"])
+        region_names = regions.get("names") or {}
+        k_regions = int(region_labels.max()) + 1
+        region_cols = _region_palette(region_labels, regions.get("palette", "vivo"))
+        themes_per_region = Counter()
+        for (nx_, ny_), lst in neuron_data.items():
+            themes_per_region[int(region_labels[nx_, ny_])] += len(lst)
+        regions_payload = {
+            "title": f"{regions.get('title', 'Regiões')} · K={k_regions}",
+            "items": [
+                {"id": r, "name": region_names.get(r, f"Região {r}"), "color": region_cols[r],
+                 "cells": int((region_labels == r).sum()), "themes": int(themes_per_region[r])}
+                for r in range(k_regions)
+            ],
+        }
+
     for x in range(x_dim):
         for y in range(y_dim):
             themes_in_neuron = neuron_data.get((x, y), [])
@@ -72,7 +157,8 @@ def build_interactive_map_v3(som, themes, embeddings, macrothemes, occurrences, 
                 "color": color,
                 "count": len(themes_in_neuron),
                 "themes": themes_in_neuron,
-                "macro": macro['macrotema'] if macro else None
+                "macro": macro['macrotema'] if macro else None,
+                "region": int(region_labels[x, y]) if region_labels is not None else None
             })
 
     data_json = json.dumps(grid_data, ensure_ascii=False)
@@ -81,6 +167,7 @@ def build_interactive_map_v3(som, themes, embeddings, macrothemes, occurrences, 
     metadata_json = json.dumps(metadata_dict or {}, ensure_ascii=False, default=str)
     table_theme_json = json.dumps(table_to_theme, ensure_ascii=False)
     table_themes_json = json.dumps(table_to_themes, ensure_ascii=False)
+    regions_json = json.dumps(regions_payload, ensure_ascii=False)
 
     # Preparar dados de U-Matrix normalizada para colormap inferno
     umatrix_min = float(np.min(umatrix))
@@ -116,8 +203,8 @@ def build_interactive_map_v3(som, themes, embeddings, macrothemes, occurrences, 
             --primary: #e67e22; --border: #ddd; --sidebar-bg: #fdfdfd;
             --accent: #ff9f43;
         }}
-        body {{ margin: 0; font-family: 'Inter', sans-serif; background: var(--bg); color: var(--text); overflow: hidden; }}
-        #app {{ width: 100vw; height: 100vh; display: flex; flex-direction: column; }}
+        body {{ margin: 0; font-family: 'Inter', sans-serif; background: var(--bg); color: var(--text); overflow-x: hidden; overflow-y: auto; }}
+        #app {{ width: 100%; height: 100vh; display: flex; flex-direction: column; }}
         
         header {{ display: flex; justify-content: space-between; align-items: flex-start; padding: 30px 20px; background: var(--surface); border-bottom: 1px solid var(--border); flex-shrink: 0; }}
         .title-area h1 {{ margin: 0; font-size: 1.3rem; font-weight: 700; }}
@@ -149,6 +236,18 @@ def build_interactive_map_v3(som, themes, embeddings, macrothemes, occurrences, 
         .macro-bar div {{ height: 100%; border-radius: 2px; background: var(--primary); }}
         .macro-item:hover {{ background: var(--border); }}
         .macro-item .macro-count {{ color: var(--text-muted); font-size: 0.75rem; white-space: nowrap; }}
+        /* abas Macrotemas | Grupos (lateral e legenda de baixo) */
+        .sb-tabs {{ display: flex; gap: 4px; padding: 12px 12px 0; }}
+        .sb-tab {{ flex: 1; text-align: center; padding: 6px 8px; font-size: 0.78rem; font-weight: 600; color: var(--text-muted); background: transparent; border: 1px solid var(--border); border-radius: 6px; cursor: pointer; font-family: inherit; }}
+        .sb-tab:hover {{ border-color: var(--primary); color: var(--text); }}
+        .sb-tab.active {{ background: var(--primary); color: #000; border-color: var(--primary); }}
+        .sb-hint {{ padding: 8px 20px 0; font-size: 0.72rem; color: var(--text-muted); }}
+        .grp-item {{ display: flex; align-items: center; gap: 10px; padding: 7px 10px; border-radius: 6px; cursor: pointer; font-size: 0.85rem; border: 1px solid transparent; }}
+        .grp-item:hover {{ background: var(--border); }}
+        .grp-item.active {{ border-color: var(--primary); }}
+        .grp-swatch {{ width: 26px; height: 26px; border-radius: 7px; flex-shrink: 0; display: flex; align-items: center; justify-content: center; font-size: 0.74rem; font-weight: 700; color: #fff; text-shadow: 0 1px 2px rgba(0,0,0,0.65); }}
+        .grp-name {{ flex: 1; min-width: 0; line-height: 1.3; word-break: break-word; }}
+        .grp-item .macro-count {{ color: var(--text-muted); font-size: 0.72rem; white-space: nowrap; }}
         .sidebar-back {{ font-size: 0.75rem; color: var(--primary); cursor: pointer; margin-bottom: 6px; }}
         .sidebar-back:hover {{ text-decoration: underline; }}
         .theme-list-item:last-child {{ border-bottom: none; }}
@@ -158,6 +257,8 @@ def build_interactive_map_v3(som, themes, embeddings, macrothemes, occurrences, 
         .hexagon:hover {{ filter: brightness(5); }}
         .hexagon.highlight {{ filter: brightness(5); }}
         .hexagon.dimmed {{ opacity: 0.1; }}
+        .groups-on .hexagon.highlight {{ filter: none; }}
+        .groups-on .hexagon:hover {{ filter: brightness(1.4); }}
         .hexagon.empty {{ stroke: var(--border); stroke-dasharray: 2,2; pointer-events: none; }}
         .hexagon.selected {{ filter: brightness(50) !important; stroke: var(--primary) !important; stroke-width: 2px !important; }}
 
@@ -173,14 +274,14 @@ def build_interactive_map_v3(som, themes, embeddings, macrothemes, occurrences, 
         
         .t-macro {{ color: var(--primary); font-weight: bold; display: block; margin-bottom: 5px; border-bottom: 1px solid #444; padding-bottom: 4px; }}
         
-        #legend {{ display: flex; flex-wrap: wrap; gap: 8px; padding: 12px 20px; background: var(--surface); border-top: 1px solid var(--border); justify-content: flex-start; overflow-y: auto; flex-shrink: 0; }}
+        #legend {{ display: flex; flex-wrap: wrap; gap: 8px; padding: 12px 20px; background: var(--surface); border-top: 1px solid var(--border); justify-content: flex-start; overflow: visible; flex-shrink: 0; }}
         .legend-item {{ display: flex; align-items: center; gap: 6px; font-size: 0.7rem; color: var(--text-muted); background: var(--bg); padding: 5px 10px; border-radius: 20px; border: 1px solid var(--border); cursor: pointer; transition: all 0.2s; white-space: nowrap; }}
         .legend-item:hover {{ border-color: var(--primary); color: var(--text); }}
         .legend-item.active {{ background: var(--primary); color: #000; border-color: var(--primary); }}
         .legend-dot {{ width: 7px; height: 7px; border-radius: 50%; flex-shrink: 0; }}
         .legend-section-title {{ width: 100%; font-size: 0.7rem; font-weight: 600; color: var(--text-muted); padding: 5px 0; text-transform: uppercase; letter-spacing: 0.5px; }}
         
-        .stats-panel {{ position: absolute; top: 10px; right: 10px; background: var(--surface); border: 1px solid var(--border); padding: 10px; border-radius: 8px; font-size: 0.75rem; z-index: 10; pointer-events: none; }}
+        .stats-panel {{ position: static; background: var(--surface); border: 1px solid var(--border); padding: 10px; border-radius: 8px; font-size: 0.75rem; z-index: 10; pointer-events: none; }}
         .stat-item {{ margin-bottom: 4px; }}
         .stat-value {{ font-weight: bold; color: var(--primary); }}
         .export-btn {{ background: var(--primary); color: #000; border: none; padding: 6px 12px; border-radius: 4px; cursor: pointer; font-weight: bold; font-size: 0.75rem; margin-left: auto; }}
@@ -233,6 +334,28 @@ def build_interactive_map_v3(som, themes, embeddings, macrothemes, occurrences, 
         .table-dot-core {{ fill: #eafdff; stroke: #19d3f3; stroke-width: 1.5px; filter: drop-shadow(0 0 4px #19d3f3); }}
         @keyframes tableDotPulse {{ 0%, 100% {{ transform: scale(0.8); opacity: 0.55; }} 50% {{ transform: scale(1.6); opacity: 0.08; }} }}
         @media (prefers-reduced-motion: reduce) {{ .table-dot-halo {{ animation: none; }} }}
+
+        /* ===== AGRUPAMENTOS: switch no canto do mapa + legenda embaixo ===== */
+        .float-stack {{ position: absolute; top: 10px; right: 10px; z-index: 10; display: flex; flex-direction: column; align-items: flex-end; gap: 8px; pointer-events: none; }}
+        .view-panel {{ pointer-events: auto; min-width: 190px; background: var(--surface); border: 1px solid var(--border); border-radius: 10px; padding: 10px 14px; box-shadow: 0 6px 20px rgba(0,0,0,0.35); }}
+        .vp-row {{ display: flex; align-items: center; justify-content: space-between; gap: 16px; font-size: 0.78rem; padding: 3px 0; }}
+        .vp-main {{ font-weight: 700; font-size: 0.82rem; }}
+        #group-options {{ margin-top: 6px; padding-top: 6px; border-top: 1px solid var(--border); }}
+        #group-options.hidden {{ display: none; }}
+        .vp-note {{ margin-top: 6px; font-size: 0.66rem; color: var(--text-muted); }}
+        .switch {{ position: relative; display: inline-block; width: 34px; height: 19px; flex-shrink: 0; }}
+        .switch input {{ opacity: 0; width: 0; height: 0; position: absolute; }}
+        .switch .slider {{ position: absolute; top: 0; left: 0; right: 0; bottom: 0; background: var(--border); border-radius: 19px; cursor: pointer; transition: background 0.2s; }}
+        .switch .slider::before {{ content: ''; position: absolute; width: 15px; height: 15px; left: 2px; top: 2px; background: #fff; border-radius: 50%; transition: transform 0.2s; }}
+        .switch input:checked + .slider {{ background: var(--primary); }}
+        .switch input:checked + .slider::before {{ transform: translateX(15px); }}
+        .switch input:focus-visible + .slider {{ outline: 2px solid var(--primary); outline-offset: 2px; }}
+
+        .region-border-halo, .region-border {{ fill: none; pointer-events: none; stroke-linecap: round; stroke-linejoin: round; }}
+        .region-border-halo {{ stroke: rgba(0,0,0,0.5); stroke-width: 4.4px; }}
+        .region-border {{ stroke: #fff; stroke-opacity: 0.92; stroke-width: 1.8px; }}
+        .region-label {{ pointer-events: none; fill: #fff; stroke: rgba(0,0,0,0.85); stroke-width: 3px; paint-order: stroke; font-weight: 700; text-anchor: middle; dominant-baseline: central; }}
+
 
         /* ===== MODAL OVERLAY ===== */
         #modal-overlay {{
@@ -493,10 +616,15 @@ def build_interactive_map_v3(som, themes, embeddings, macrothemes, occurrences, 
         <div class="main-content">
             <div id="viz-container">
                 <svg id="viz"></svg>
-                <div class="stats-panel">
-                    <div class="stat-item">Total de Temas: <span id="stat-total-themes" class="stat-value">0</span></div>
-                    <div class="stat-item">Neurônios Ativos: <span id="stat-active-neurons" class="stat-value">0</span></div>
-                    <div class="stat-item">Densidade Média: <span id="stat-avg-density" class="stat-value">0</span></div>
+                <div class="float-stack">
+                    <div class="view-panel region-only" id="view-panel">
+                        <div class="vp-row vp-main"><span>Agrupamentos</span><label class="switch"><input type="checkbox" id="layer-groups" checked><span class="slider"></span></label></div>
+                        <div id="group-options">
+                            <div class="vp-row"><span>Contornos</span><label class="switch"><input type="checkbox" id="layer-borders" checked><span class="slider"></span></label></div>
+                            <div class="vp-row"><span>Números</span><label class="switch"><input type="checkbox" id="layer-labels" checked><span class="slider"></span></label></div>
+                            <div class="vp-note">Legenda dos grupos na lateral &#8594;</div>
+                        </div>
+                    </div>
                 </div>
             </div>
             
@@ -596,6 +724,160 @@ def build_interactive_map_v3(som, themes, embeddings, macrothemes, occurrences, 
         const g = svg.append("g");
         const tooltip = d3.select("#tooltip");
         const sidebar = d3.select("#sidebar");
+        const regionsData = {regions_json};
+        const regionById = new Map((regionsData ? regionsData.items : []).map(it => [it.id, it]));
+        let activeRegion = null;
+
+        // ===== AGRUPAMENTOS: visualização normal (U-Matrix) x visualização por grupos =====
+        const layerState = {{ groups: true, borders: true, labels: true }};
+        function groupsVisible() {{ return !!regionsData && layerState.groups; }}
+
+        // No modo grupos cada hexágono recebe a cor da região, escurecida conforme a U-Matrix
+        // (fronteiras entre grupos ficam naturalmente mais escuras).
+        const uVals = data.map(d => d.u_val);
+        const uMin = d3.min(uVals), uMax = d3.max(uVals);
+        function groupColor(d) {{
+            const u = uMax > uMin ? (d.u_val - uMin) / (uMax - uMin) : 0;
+            return d3.color(regionById.get(d.region).color).darker(u * 1.1).formatHex();
+        }}
+        function hexFill(d) {{
+            if (groupsVisible() && d.region !== null && d.region !== undefined) return groupColor(d);
+            return d.count > 0 ? (umatrixColors[d.id] || d.color) : "none";
+        }}
+        function applyHexFill() {{
+            g.selectAll(".hexagon")
+                .attr("fill", hexFill)
+                .style("fill-opacity", d => (groupsVisible() && d.count === 0) ? 0.22 : null);
+        }}
+
+        function applyLayers() {{
+            const on = groupsVisible();
+            applyHexFill();
+            g.selectAll(".layer-borders").style("display", on && layerState.borders ? null : "none");
+            g.selectAll(".layer-labels").style("display", on && layerState.labels ? null : "none");
+            const vc = document.getElementById("viz-container");
+            if (vc) vc.classList.toggle("groups-on", on);
+            const opts = document.getElementById("group-options");
+            if (opts) opts.classList.toggle("hidden", !on);
+        }}
+
+        // Contornos (arestas entre grupos + borda externa da grade) e números dos grupos
+        function drawRegionLayers() {{
+            if (!regionsData) return;
+            const r = currentHexRadius;
+            const hexW = Math.sqrt(3) * r;
+
+            const key = (px, py) => Math.round(px / (r * 0.1)) + "," + Math.round(py / (r * 0.1));
+            const byPos = new Map(data.map((d, i) => {{ const c = hexCenters.get(d.id); return [key(c[0], c[1]), i]; }}));
+            let edges = "";
+            data.forEach((d, i) => {{
+                const c = hexCenters.get(d.id);
+                for (let k = 0; k < 6; k++) {{
+                    const th = k * Math.PI / 3;
+                    const j = byPos.get(key(c[0] + hexW * Math.cos(th), c[1] + hexW * Math.sin(th)));
+                    // com vizinho: a aresta é desenhada uma vez e só se o grupo mudar; sem vizinho = borda externa
+                    if (j !== undefined && (j <= i || data[j].region === d.region)) continue;
+                    const a1 = th - Math.PI / 6, a2 = th + Math.PI / 6;
+                    edges += "M" + (c[0] + r * Math.cos(a1)).toFixed(2) + "," + (c[1] + r * Math.sin(a1)).toFixed(2)
+                          + "L" + (c[0] + r * Math.cos(a2)).toFixed(2) + "," + (c[1] + r * Math.sin(a2)).toFixed(2);
+                }}
+            }});
+            const borderLayer = g.append("g").attr("class", "layer-borders");
+            borderLayer.append("path").attr("class", "region-border-halo").attr("d", edges);
+            borderLayer.append("path").attr("class", "region-border").attr("d", edges);
+
+            // número no hexágono mais próximo do centro do grupo (funciona em grupos curvos)
+            const labelLayer = g.append("g").attr("class", "layer-labels");
+            regionsData.items.forEach(it => {{
+                const cells = data.filter(d => d.region === it.id);
+                if (!cells.length) return;
+                const cx = d3.mean(cells, d => hexCenters.get(d.id)[0]);
+                const cy = d3.mean(cells, d => hexCenters.get(d.id)[1]);
+                let best = null, bestDist = Infinity;
+                cells.forEach(d => {{
+                    const c = hexCenters.get(d.id);
+                    const dd = (c[0] - cx) * (c[0] - cx) + (c[1] - cy) * (c[1] - cy);
+                    if (dd < bestDist) {{ bestDist = dd; best = c; }}
+                }});
+                labelLayer.append("text").attr("class", "region-label")
+                    .attr("x", best[0]).attr("y", best[1]).attr("font-size", r * 1.1).text(it.id);
+            }});
+        }}
+
+        // ===== ABAS Macrotemas | Grupos (só na lateral) =====
+        let legendTab = regionsData ? "groups" : "macros";   // com o switch ligado, abre direto em Grupos
+        let sbListScroll = 0;
+        let groupQuery = "";
+        function groupRowsHtml() {{
+            const q = normalizeText(groupQuery);
+            const rows = regionsData.items.map((it, i) => ({{ it: it, i: i }}))
+                .filter(r => q === "" || normalizeText(r.it.name).includes(q) || String(r.it.id) === q);
+            if (!rows.length) return `<div style="padding:20px;text-align:center;color:var(--text-muted);font-style:italic;font-size:0.8rem;">Nenhum grupo encontrado</div>`;
+            return rows.map(r => `
+                <div class="grp-item${{activeRegion === r.it.id ? ' active' : ''}}" onclick="toggleRegionIdx(${{r.i}})">
+                    <span class="grp-swatch" style="background:${{r.it.color}}">${{r.it.id}}</span>
+                    <span class="grp-name">${{escapeHtml(r.it.name)}}</span>
+                    <span class="macro-count">${{r.it.themes}} temas</span>
+                </div>`).join("");
+        }}
+        function onGroupSearch(v) {{
+            groupQuery = v;
+            sbListScroll = 0;
+            const list = document.getElementById("sb-list");
+            if (list) {{ list.innerHTML = groupRowsHtml(); list.scrollTop = 0; }}
+        }}
+        function currentTab() {{ return (legendTab === "groups" && groupsVisible()) ? "groups" : "macros"; }}
+        function refreshLegends() {{
+            if (selectedNeuronId === null) updateSidebar(null);
+        }}
+        function setLegendTab(t) {{
+            legendTab = t;
+            sbListScroll = 0;
+            refreshLegends();
+        }}
+        // Clicar num grupo isola no mapa; clicar de novo desfaz
+        function toggleRegionIdx(i) {{
+            const it = regionsData.items[i];
+            activeRegion = (activeRegion === it.id) ? null : it.id;
+            applyFilters();
+            refreshLegends();
+        }}
+        function tabsHtml() {{
+            if (!groupsVisible()) return "";
+            const t = currentTab();
+            return `<div class="sb-tabs">
+                <button class="sb-tab${{t === 'macros' ? ' active' : ''}}" onclick="setLegendTab('macros')">Macrotemas</button>
+                <button class="sb-tab${{t === 'groups' ? ' active' : ''}}" onclick="setLegendTab('groups')">Grupos</button>
+            </div>`;
+        }}
+
+        function regionLine(d) {{
+            if (!groupsVisible() || d.region === null || d.region === undefined) return "";
+            const it = regionById.get(d.region);
+            if (!it) return "";
+            return `<div style="font-size:0.7rem;margin-top:5px;display:flex;align-items:center;gap:6px;"><span class="legend-dot" style="background:${{it.color}}"></span><span style="color:var(--text-muted)">Grupo ${{it.id}}: ${{escapeHtml(it.name)}}</span></div>`;
+        }}
+
+        (function initLayers() {{
+            if (!regionsData) {{
+                document.querySelectorAll(".region-only").forEach(el => el.style.display = "none");
+                return;
+            }}
+            const bind = (id, k) => document.getElementById(id).addEventListener("change", e => {{ layerState[k] = e.target.checked; applyLayers(); }});
+            bind("layer-borders", "borders"); bind("layer-labels", "labels");
+            document.getElementById("layer-groups").addEventListener("change", e => {{
+                layerState.groups = e.target.checked;
+                legendTab = layerState.groups ? "groups" : "macros";
+                sbListScroll = 0;
+                if (!layerState.groups && activeRegion !== null) {{   // sem grupos, o isolamento por grupo não faz sentido
+                    activeRegion = null;
+                    applyFilters();
+                }}
+                applyLayers();
+                refreshLegends();
+                if (selectedNeuronId) {{ const dd = data.find(n => n.id === selectedNeuronId); if (dd) updateSidebar(dd); }}
+            }});
+        }})();
 
         // ===== NORMALIZAÇÃO DE TEXTO PARA BUSCA (remove acentos, trata hífen/underline/espaço) =====
         function normalizeText(str) {{
@@ -888,30 +1170,49 @@ def build_interactive_map_v3(som, themes, embeddings, macrothemes, occurrences, 
         }}
 
         function renderSidebarStart() {{
-            const items = data
-                .filter(n => n.macro && n.count > 0)
-                .sort((a, b) => b.count - a.count)
-                .slice(0, 20)
-                .map(n => ({{ name: n.macro, id: n.id, total: n.count }}));
-            const maxTotal = items.length ? items[0].total : 1;
-
+            const tab = currentTab();
+            let hint, body, search = "";
+            if (tab === "groups") {{
+                hint = "Clique em um grupo para isolá-lo no mapa";
+                search = `<div class="sidebar-search"><input type="text" id="group-search" placeholder="Buscar grupo..." autocomplete="off" value="${{escapeHtml(groupQuery)}}" oninput="onGroupSearch(this.value)"></div>`;
+                body = groupRowsHtml();
+            }} else {{
+                hint = "Ordenados por número de temas";
+                const items = data
+                    .filter(n => n.macro && n.count > 0)
+                    .sort((a, b) => b.count - a.count)
+                    .slice(0, 20)
+                    .map(n => ({{ name: n.macro, id: n.id, total: n.count }}));
+                const maxTotal = items.length ? items[0].total : 1;
+                body = items.map((it, i) => `
+                    <div class="macro-item" onclick="selectNeuronFromList('${{it.id}}')">
+                        <span class="macro-rank${{i < 3 ? ' top' : ''}}">${{i + 1}}</span>
+                        <div class="macro-main">
+                            <span>${{it.name}}</span>
+                            <div class="macro-bar"><div style="width: ${{(it.total / maxTotal * 100).toFixed(0)}}%"></div></div>
+                        </div>
+                        <span class="macro-count">${{it.total}} temas</span>
+                    </div>`).join("");
+            }}
+            const tabs = tabsHtml();
+            const searchHadFocus = document.activeElement && document.activeElement.id === "group-search";
             sidebar.html(`
+                ${{tabs ? tabs + `<div class="sb-hint">${{hint}}</div>` + search : `
                 <div class="sidebar-header">
                     <h2>Macrotemas</h2>
-                    <div class="neuron-info">Ordenados por número de temas</div>
-                </div>
-                <div style="flex: 1; overflow-y: auto; padding: 10px 12px 20px;">
-                    ${{items.map((it, i) => `
-                        <div class="macro-item" onclick="selectNeuronFromList('${{it.id}}')">
-                            <span class="macro-rank${{i < 3 ? ' top' : ''}}">${{i + 1}}</span>
-                            <div class="macro-main">
-                                <span>${{it.name}}</span>
-                                <div class="macro-bar"><div style="width: ${{(it.total / maxTotal * 100).toFixed(0)}}%"></div></div>
-                            </div>
-                            <span class="macro-count">${{it.total}} temas</span>
-                        </div>`).join("")}}
-                </div>
+                    <div class="neuron-info">${{hint}}</div>
+                </div>`}}
+                <div id="sb-list" style="flex: 1; overflow-y: auto; padding: 10px 12px 20px;">${{body}}</div>
             `);
+            if (searchHadFocus) {{
+                const gi = document.getElementById("group-search");
+                if (gi) {{ gi.focus(); gi.setSelectionRange(gi.value.length, gi.value.length); }}
+            }}
+            const list = document.getElementById("sb-list");
+            if (list) {{
+                list.scrollTop = sbListScroll;
+                list.addEventListener("scroll", () => {{ sbListScroll = list.scrollTop; }});
+            }}
         }}
 
         function updateSidebar(d) {{
@@ -934,6 +1235,7 @@ def build_interactive_map_v3(som, themes, embeddings, macrothemes, occurrences, 
                         <h2 style="flex: 1;">${{d.macro || "Sem Macrotema"}}</h2>
                     </div>
                     <div class="neuron-info">Neurônio (${{d.x}}, ${{d.y}}) — ${{d.count}} temas</div>
+                    ${{regionLine(d)}}
                     <div style="font-size: 0.7rem; color: var(--text-muted); margin-top: 5px;">Distância U-Matrix: ${{d.u_val.toFixed(4)}}</div>
                 </div>
                 <div class="sidebar-search">
@@ -1077,20 +1379,26 @@ def build_interactive_map_v3(som, themes, embeddings, macrothemes, occurrences, 
                     if (y + tooltipHeight > window.innerHeight) y = event.clientY - tooltipHeight - 20;
                     tooltip.style("left", x + "px").style("top", y + "px");
                 }})
-                .on("mouseout", function() {{
-                    d3.select(this).classed("highlight", false);
+                .on("mouseout", function(event, d) {{
+                    const st = hexFilterState(d);
+                    d3.select(this).classed("highlight", st.isSearching && st.isVisible);
                     tooltip.style("display", "none");
                     if (selectedNeuronId === null) updateSidebar(null);
                 }})
                 .on("click", handleHexClick);
 
-            updateStats();
+            drawRegionLayers();
+            applyLayers();
             applyFilters();
             drawTableDots();
         }}
 
         function updateTooltip(event, d) {{
             let content = `<span class="t-macro">${{d.macro || "Sem Macrotema"}}</span>`;
+            if (groupsVisible() && d.region !== null && d.region !== undefined) {{
+                const ri = regionById.get(d.region);
+                if (ri) content += `<div style="margin-bottom:6px; font-size:0.72rem; color:${{ri.color}};">■ Grupo ${{ri.id}}: ${{escapeHtml(ri.name)}}</div>`;
+            }}
             const activeT = activeTableEntry();
             if (activeT && activeT.hexes.has(d.id)) {{
                 content += `<div style="margin-bottom:6px; font-size:0.72rem; color:#19d3f3;">● ${{escapeHtml(activeT.key)}}: ${{activeT.hexes.get(d.id)}} tema(s) neste hexágono</div>`;
@@ -1107,17 +1415,22 @@ def build_interactive_map_v3(som, themes, embeddings, macrothemes, occurrences, 
             tooltip.html(content);
         }}
 
-        function applyFilters() {{
+        function hexFilterState(d) {{
             const mQ = normalizeText(macroQuery);
             const tQ = normalizeText(themeQuery);
+            const isSearching = mQ !== "" || tQ !== "" || activeMacro !== null || activeRegion !== null;
+            const macroName = normalizeText(d.macro || "");
+            const hasMacroMatch = mQ === "" || macroName.includes(mQ);
+            const isMacroActive = !activeMacro || d.macro === activeMacro;
+            const isRegionActive = activeRegion === null || d.region === activeRegion;
+            const hasThemeMatch = tQ === "" || d.themes.some(t => normalizeText(t.theme).includes(tQ));
+            return {{ isSearching: isSearching, isVisible: hasMacroMatch && isMacroActive && isRegionActive && hasThemeMatch }};
+        }}
+
+        function applyFilters() {{
             g.selectAll(".hexagon:not(.empty)").each(function(d) {{
-                const macroName = normalizeText(d.macro || "");
-                const hasMacroMatch = mQ === "" || macroName.includes(mQ);
-                const isMacroActive = !activeMacro || d.macro === activeMacro;
-                const hasThemeMatch = tQ === "" || d.themes.some(t => normalizeText(t.theme).includes(tQ));
-                const isVisible = hasMacroMatch && isMacroActive && hasThemeMatch;
-                const isSearching = mQ !== "" || tQ !== "" || activeMacro !== null;
-                d3.select(this).classed("dimmed", isSearching && !isVisible).classed("highlight", isSearching && isVisible);
+                const st = hexFilterState(d);
+                d3.select(this).classed("dimmed", st.isSearching && !st.isVisible).classed("highlight", st.isSearching && st.isVisible);
             }});
         }}
 

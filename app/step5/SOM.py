@@ -1,4 +1,3 @@
-
 import os
 import json
 import random
@@ -19,9 +18,10 @@ from sklearn.metrics.pairwise import cosine_similarity
 from matplotlib.patches import RegularPolygon
 from matplotlib.collections import PatchCollection
 from matplotlib import cm
-
+from regioes import auto_watershed_regions, describe_regions, plot_regions, export_regions_csv
+from regioes_hier import auto_hier_regions, compare_regions, plot_comparison
 from map import build_interactive_map_v3
-
+from regioes_nomes import name_regions_combined, write_region_report, plot_regions_named
 
 # ======================================================
 # GLOBAL CONFIG
@@ -197,9 +197,9 @@ def compute_umatrix_hexagonal(som):
     for x in range(x_dim):
         for y in range(y_dim):
             if y % 2 == 0:
-                adj = [(-1, 0), (1, 0), (0, -1), (0, 1), (-1, -1), (-1, 1)]
-            else:
                 adj = [(-1, 0), (1, 0), (0, -1), (0, 1), (1, -1), (1, 1)]
+            else:
+                adj = [(-1, 0), (1, 0), (0, -1), (0, 1), (-1, -1), (-1, 1)]
 
             neighbors = []
             for dx, dy in adj:
@@ -227,7 +227,7 @@ def plot_umatrix_hex_static_plain(umatrix, out_png, cmap="inferno"):
 
     for x in range(x_dim):
         for y in range(y_dim):
-            x_offset = 0.5 * hex_width if (y % 2 == 1) else 0.0
+            x_offset = -0.5 * hex_width if (y % 2 == 1) else 0.0
             x_plot = x * hex_width + x_offset
             y_plot = y * hex_height
 
@@ -292,7 +292,7 @@ def plot_umatrix_hex_static(umatrix, out_png, macrothemes=None, top_n=10, cmap="
     for x in range(x_dim):
         for y in range(y_dim):
             # Offset horizontal para linhas ímpares (colmeia)
-            x_offset = 0.5 * hex_width if (y % 2 == 1) else 0.0
+            x_offset = -0.5 * hex_width if (y % 2 == 1) else 0.0
 
             # Posição do centro do hexágono
             x_plot = x * hex_width + x_offset
@@ -529,9 +529,7 @@ def load_metadata_json(path):
         print(f"Erro ao carregar metadata: {e}")
         return {}
 
-# ======================================================
-# INTERACTIVE MAP (D3.js)
-# ======================================================
+
 
 # ======================================================
 # MAIN
@@ -615,6 +613,34 @@ def main():
     print("\n Gerando visualização em formato de colmeia com anotações...")
     umatrix = compute_umatrix_hexagonal(som)
 
+    
+
+
+    winners = [som.winner(e) for e in embeddings]
+
+    # REGIÕES: watershed x clustering hierárquico
+    labels_ws, k_ws = auto_watershed_regions(umatrix, embeddings, winners, k_min=8, k_max=50)
+    labels_h, k_h = auto_hier_regions(weights, embeddings, winners, k_min=8, k_max=50)
+
+    compare_regions(labels_ws, labels_h, embeddings, winners, names=("watershed", "hierarquico"))
+    plot_comparison(labels_ws, labels_h, OUTPUT_DIR / "comparacao_regioes.png", ("Watershed", "Hierárquico"))
+
+    # nomes (palavras-chave) e relatório das regiões do hierárquico
+    names = name_regions_combined(labels_h, weights, themes, winners, macrothemes)
+    write_region_report(labels_h, names, themes, winners, occurrences, macrothemes, qe_by_theme,
+                        OUTPUT_DIR / "regioes_hier_relatorio.md",
+                        OUTPUT_DIR / "regioes_hier_resumo.csv")
+    plot_regions_named(labels_h, names, OUTPUT_DIR / "regioes_hier_nomes.png")
+
+    for nome, lab in (("ws", labels_ws), ("hier", labels_h)):
+        print(f"\n##### Regiões: {nome} #####")
+        describe_regions(lab, clusters)
+        plot_regions(lab, umatrix, OUTPUT_DIR / f"regioes_{nome}.png")
+        export_regions_csv(
+            lab, themes, winners, occurrences, macrothemes, qe_by_theme,
+            OUTPUT_DIR / f"regioes_temas_{nome}.csv", tables_by_theme
+        )
+
     # 1) Figura COLMEIA para o artigo com TOP 10 macrotemas anotados
     plot_umatrix_hex_static(
         umatrix, 
@@ -667,7 +693,8 @@ def main():
         som, themes, embeddings, macrothemes, occurrences, tables_by_theme,
         OUTPUT_DIR / "mapa_interativo_refinado.html",
         umatrix,
-        metadata_dict=metadata_dict
+        metadata_dict=metadata_dict,
+        regions={"labels": labels_h, "names": names, "title": "Regiões (hierárquico)"}
     )
 
 if __name__ == "__main__":
